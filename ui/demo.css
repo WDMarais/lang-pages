@@ -1,0 +1,14 @@
+/* Demo-page chrome — not part of the shared component library */
+.demo-section { border-top: 1px solid var(--border); padding: 2.5rem 0; }
+.demo-label {
+  font-size: 0.6rem; letter-spacing: 0.35em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 1.25rem; font-weight: 600;
+}
+.swatch-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.swatch {
+  width: 60px; height: 60px; border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
+  display: flex; align-items: flex-end; padding: 4px;
+  font-size: 0.55rem; color: white; font-weight: 600; letter-spacing: 0.05em;
+}
+.swatch.light { color: var(--muted); }

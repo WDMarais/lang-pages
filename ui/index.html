@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UI · cn-pages</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+<div id="controls">
+  <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+</div>
+
+<header class="cover" style="padding: 2.5rem 2rem;">
+  <div class="cover-masthead">cn-pages · UI Reference</div>
+  <div class="cover-title" style="font-size:2rem">组件库</div>
+  <div class="cover-sub">live component demo — all building blocks in one place</div>
+</header>
+
+<div class="wrap">
+
+  <!-- Tokens -->
+  <div class="demo-section">
+    <div class="demo-label">Design tokens — colours</div>
+    <div class="swatch-row">
+      <div class="swatch" style="background:var(--navy)">navy</div>
+      <div class="swatch" style="background:var(--navy2)">navy2</div>
+      <div class="swatch" style="background:var(--red)">red</div>
+      <div class="swatch" style="background:var(--gold)">gold</div>
+      <div class="swatch" style="background:var(--green)">green</div>
+      <div class="swatch light" style="background:var(--cream)">cream</div>
+      <div class="swatch light" style="background:var(--border)">border</div>
+      <div class="swatch light" style="background:var(--muted)">muted</div>
+      <div class="swatch" style="background:var(--ink)">ink</div>
+    </div>
+  </div>
+
+  <!-- Section heading -->
+  <div class="demo-section">
+    <div class="demo-label">Section heading</div>
+    <div class="sec-label">The Domain</div>
+    <h2>布料市场的人</h2>
+    <div class="sec-rule"></div>
+  </div>
+
+  <!-- Vocab card -->
+  <div class="demo-section">
+    <div class="demo-label">Vocab card — .vcard</div>
+    <div class="grid" style="max-width:560px">
+      <div class="vcard t-navy">
+        <div class="vh">裁缝</div>
+        <div class="vp">cáifeng</div>
+        <div class="vm">tailor / seamstress</div>
+        <div class="vex">
+          <div class="zh">他找裁缝照着照片做了一件旗袍。</div>
+          <div class="en">He had a tailor make a qipao from a photo.</div>
+        </div>
+        <details class="vnote">
+          <summary></summary>
+          <div class="vn">Cuts (裁) and sews (缝). Not the designer (设计师). Neutral tone on 缝 marks this as a noun.</div>
+        </details>
+      </div>
+      <div class="vcard t-red">
+        <div class="vh">紧</div>
+        <div class="vp">jǐn</div>
+        <div class="vm">tight (of clothing)</div>
+        <div class="vex">
+          <div class="zh">肩膀那里有点儿紧。</div>
+          <div class="en">The shoulders are a bit tight.</div>
+        </div>
+        <details class="vnote">
+          <summary></summary>
+          <div class="vn">Also: urgent/tense (时间紧). English "tight" = stingy? That's 小气 — not 紧.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <!-- Passage + .hl -->
+  <div class="demo-section">
+    <div class="demo-label">Passage block — .passage + .hl hover gloss</div>
+    <div class="passage" style="max-width:600px">
+      <p>我上网<span class="hl" data-t="search online">搜索</span>了一下儿，发现了一个很大的<span class="hl" data-t="fabric market">布料市场</span>，市场里面有很多<span class="hl" data-t="tailor shop">裁缝店</span>。</p>
+    </div>
+  </div>
+
+  <!-- on-dark section heading -->
+  <div class="demo-section bg-navy" style="margin: 0 -1.5rem; padding: 2.5rem 1.5rem;">
+    <div class="demo-label" style="color:rgba(255,255,255,0.4)">Section heading — on dark background (.bg-navy)</div>
+    <div class="sec-label">Reflect</div>
+    <h2>阅读理解</h2>
+    <div class="sec-rule"></div>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer>
+  <div>cn-pages · UI reference</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+</body>
+</html>

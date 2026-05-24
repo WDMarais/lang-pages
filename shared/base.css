@@ -1,0 +1,132 @@
+/* ── Design tokens ─────────────────────────────── */
+:root {
+  --cream:  #F8F6F1;
+  --white:  #FFFFFF;
+  --ink:    #1A1A1E;
+  --navy:   #1E2A4A;
+  --navy2:  #2C3E6B;
+  --red:    #C41E3A;
+  --gold:   #B8963E;
+  --green:  #2C6B3E;
+  --muted:  #6B6B72;
+  --border: #E0DAD0;
+}
+
+/* ── Reset + base ──────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  line-height: 1.65;
+}
+
+/* ── Layout ────────────────────────────────────── */
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+section { padding: 3rem 0; }
+.bg-white { background: var(--white); }
+.bg-navy  { background: var(--navy); color: white; }
+.bg-navy h2         { color: white; }
+.bg-navy .sec-label { color: rgba(255,255,255,0.45); }
+.bg-navy .sec-rule  { background: var(--gold); }
+
+/* ── Section headings ──────────────────────────── */
+.sec-label {
+  font-size: 0.6rem; letter-spacing: 0.38em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 0.35rem; font-weight: 600;
+}
+h2 { font-size: clamp(1.5rem, 4vw, 2rem); color: var(--navy); margin-bottom: 0.35rem; }
+.sec-rule { width: 36px; height: 3px; background: var(--red); margin-bottom: 1.75rem; }
+
+/* ── Pinyin ────────────────────────────────────── */
+.py        { display: none; color: var(--red); font-size: 0.8em; line-height: 1.3; }
+.py-inline { display: none; color: var(--red); font-size: 0.78em; }
+body.show-py .py        { display: block; }
+body.show-py .py-inline { display: inline; }
+
+/* ── Controls ──────────────────────────────────── */
+#controls { position: fixed; top: 1rem; right: 1rem; z-index: 200; }
+.btn-ctrl {
+  background: var(--navy); color: white; border: none;
+  padding: 0.45rem 1rem; border-radius: 20px; cursor: pointer;
+  font-size: 0.8rem; transition: background 0.18s;
+}
+.btn-ctrl:hover { background: var(--red); }
+
+/* ── Vocab card ────────────────────────────────── */
+.grid   { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+
+.vcard {
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 8px; padding: 1.2rem;
+  transition: box-shadow 0.18s;
+}
+.vcard:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.07); }
+.vcard.t-red  { border-top: 3px solid var(--red); }
+.vcard.t-navy { border-top: 3px solid var(--navy); }
+
+.vh { font-size: 2.2rem; font-weight: 800; color: var(--navy); line-height: 1; }
+.vp { display: none; font-size: 0.82rem; color: var(--red); margin-top: 0.15rem; }
+body.show-py .vp { display: block; }
+.vm { font-size: 0.88rem; font-weight: 600; margin-top: 0.45rem; }
+
+.vex {
+  margin-top: 0.6rem; padding: 0.5rem 0.6rem;
+  background: var(--cream); border-left: 3px solid var(--red); border-radius: 3px;
+}
+.vex .zh { font-size: 0.85rem; font-weight: 500; }
+.vex .en { font-size: 0.76rem; color: var(--muted); margin-top: 0.15rem; }
+
+details.vnote { margin-top: 0.6rem; border-top: 1px solid var(--border); }
+details.vnote > summary { font-size: 0.7rem; color: var(--muted); cursor: pointer; padding: 0.35rem 0; list-style: none; }
+details.vnote > summary::before        { content: '+ note'; }
+details.vnote[open] > summary::before { content: '− note'; }
+.vn { font-size: 0.78rem; color: var(--muted); line-height: 1.55; padding-top: 0.3rem; }
+
+/* ── Passage ───────────────────────────────────── */
+.passage {
+  background: white; border-radius: 12px;
+  padding: 2rem; border: 1px solid var(--border);
+  line-height: 2.1; font-size: 1rem;
+}
+.passage p { margin-bottom: 1.2rem; }
+.passage p:last-child { margin-bottom: 0; }
+
+.hl { border-bottom: 2px solid var(--red); position: relative; cursor: help; }
+.hl::after {
+  content: attr(data-t);
+  display: none; position: absolute;
+  bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%);
+  background: var(--navy); color: white;
+  font-size: 0.72rem; padding: 0.25rem 0.55rem;
+  border-radius: 4px; white-space: nowrap; z-index: 50;
+}
+.hl:hover::after { display: block; }
+
+/* ── Cover ─────────────────────────────────────── */
+.cover {
+  background: var(--navy); color: white;
+  padding: 4rem 2rem 3.5rem; text-align: center;
+  position: relative; overflow: hidden;
+}
+.cover::after {
+  content: ''; position: absolute; inset: 0;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 18px,
+    rgba(255,255,255,0.018) 18px, rgba(255,255,255,0.018) 19px);
+  pointer-events: none;
+}
+.cover-masthead { font-size: 0.62rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--gold); margin-bottom: 2rem; font-weight: 600; }
+.cover-suit  { width: 90px; margin: 0 auto 1.5rem; }
+.cover-title { font-size: clamp(2.4rem, 8vw, 4rem); font-weight: 900; letter-spacing: -0.02em; line-height: 1; margin-bottom: 0.3rem; }
+.cover-py    { font-size: 0.95rem; color: var(--gold); letter-spacing: 0.12em; }
+.cover-sub   { font-size: 1rem; color: rgba(255,255,255,0.6); margin-top: 0.75rem; font-style: italic; }
+.cover-meta  { margin-top: 2.5rem; font-size: 0.62rem; color: rgba(255,255,255,0.3); letter-spacing: 0.28em; text-transform: uppercase; }
+
+/* ── Footer ────────────────────────────────────── */
+footer { background: var(--ink); color: rgba(255,255,255,0.3); text-align: center; padding: 2rem 1rem; font-size: 0.7rem; letter-spacing: 0.12em; }
+
+/* ── Responsive ────────────────────────────────── */
+@media (max-width: 620px) {
+  .grid-2 { grid-template-columns: 1fr; }
+}
