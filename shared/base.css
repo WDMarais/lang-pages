@@ -71,25 +71,36 @@ body.hide-en .zh-alt { display: inline; }
   background: var(--white); border: 1px solid var(--border);
   border-radius: 10px; padding: 1.6rem;
   transition: box-shadow 0.18s;
-  display: grid; grid-row: span 6; grid-template-rows: subgrid;
+  display: grid; grid-row: span 3; grid-template-rows: subgrid;
 }
 .vcard:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.07); }
 .vcard.t-red  { border-top: 3px solid var(--red); }
 .vcard.t-navy { border-top: 3px solid var(--navy); }
 
-/* explicit row placement keeps sections aligned even if optional rows are absent */
-.vhead  { grid-row: 1; }
-.vmean  { grid-row: 2; align-self: end; }
-.vimg   { grid-row: 3; }
-.vex    { grid-row: 4; align-self: start; }
-.vaudio { grid-row: 5; }
-.vnote  { grid-row: 6; align-self: start; border-top: 1px solid var(--border); }
+.vhead    { grid-row: 1; }
+.vmean    { grid-row: 2; align-self: end; }
+.vcontent { grid-row: 3; }
 
 .vh { font-size: calc(3rem * var(--scale)); font-weight: 300; color: var(--navy); line-height: 1; }
 .vp { display: none; font-size: calc(1rem * var(--scale)); color: var(--red); margin-top: 0.25rem; }
 body.show-py .vp { display: block; }
 .vm    { font-size: calc(1.05rem * var(--scale)); font-weight: 600; }
 .vm-zh { font-size: calc(1.05rem * var(--scale)); font-weight: 600; }
+
+/* content tab strip */
+.vtabs {
+  display: flex; border-bottom: 1px solid var(--border); margin-bottom: 0.6rem;
+}
+.vtab {
+  background: none; border: none; cursor: pointer; font-family: inherit;
+  font-size: calc(0.72rem * var(--scale)); color: var(--muted);
+  padding: 0.3rem 0.8rem 0.35rem; border-bottom: 2px solid transparent;
+  margin-bottom: -1px; transition: color 0.15s;
+}
+.vtab.active { color: var(--navy); border-bottom-color: var(--red); font-weight: 600; }
+.vtab:hover:not(.active) { color: var(--ink); }
+.vpanel { display: none; }
+.vpanel.active { display: block; }
 
 .vimg img { width: 100%; border-radius: 6px; display: block; }
 .vimg-placeholder {
@@ -115,6 +126,7 @@ body.show-py .vp { display: block; }
 }
 .vaudio-btn::before { content: '♪'; color: var(--navy); }
 
+details.vnote { margin-top: 0.6rem; border-top: 1px solid var(--border); }
 details.vnote > summary { font-size: calc(0.75rem * var(--scale)); color: var(--muted); cursor: pointer; padding: 0.4rem 0; list-style: none; }
 details.vnote > summary::before        { content: '+ cultural note'; }
 details.vnote[open] > summary::before { content: '− cultural note'; }
