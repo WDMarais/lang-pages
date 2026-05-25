@@ -46,6 +46,14 @@ h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); color: var(--navy); margin-bottom: 0
 body.show-py .py        { display: block; }
 body.show-py .py-inline { display: inline; }
 
+/* ── English toggle ─────────────────────────────── */
+.vm-zh  { display: none; }
+.zh-alt { display: none; }
+body.hide-en .en     { display: none; }
+body.hide-en .vm     { display: none; }
+body.hide-en .vm-zh  { display: block; }
+body.hide-en .zh-alt { display: inline; }
+
 /* ── Controls ──────────────────────────────────── */
 #controls { position: fixed; top: 1rem; right: 1rem; z-index: 200; }
 .btn-ctrl {
@@ -56,34 +64,62 @@ body.show-py .py-inline { display: inline; }
 .btn-ctrl:hover { background: var(--red); }
 
 /* ── Vocab card ────────────────────────────────── */
-.grid   { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+.grid   { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); column-gap: 1.25rem; row-gap: 0.75rem; }
 .grid-2 { grid-template-columns: 1fr 1fr; }
 
 .vcard {
   background: var(--white); border: 1px solid var(--border);
   border-radius: 10px; padding: 1.6rem;
   transition: box-shadow 0.18s;
+  display: grid; grid-row: span 6; grid-template-rows: subgrid;
 }
 .vcard:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.07); }
 .vcard.t-red  { border-top: 3px solid var(--red); }
 .vcard.t-navy { border-top: 3px solid var(--navy); }
 
+/* explicit row placement keeps sections aligned even if optional rows are absent */
+.vhead  { grid-row: 1; }
+.vmean  { grid-row: 2; align-self: end; }
+.vimg   { grid-row: 3; }
+.vex    { grid-row: 4; align-self: start; }
+.vaudio { grid-row: 5; }
+.vnote  { grid-row: 6; align-self: start; border-top: 1px solid var(--border); }
+
 .vh { font-size: calc(3rem * var(--scale)); font-weight: 300; color: var(--navy); line-height: 1; }
 .vp { display: none; font-size: calc(1rem * var(--scale)); color: var(--red); margin-top: 0.25rem; }
 body.show-py .vp { display: block; }
-.vm { font-size: calc(1.05rem * var(--scale)); font-weight: 600; margin-top: 0.6rem; }
+.vm    { font-size: calc(1.05rem * var(--scale)); font-weight: 600; }
+.vm-zh { font-size: calc(1.05rem * var(--scale)); font-weight: 600; }
+
+.vimg img { width: 100%; border-radius: 6px; display: block; }
+.vimg-placeholder {
+  aspect-ratio: 3/2; border-radius: 6px;
+  background: var(--cream); border: 2px dashed var(--border);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--muted); font-size: calc(0.72rem * var(--scale));
+}
 
 .vex {
-  margin-top: 0.85rem; padding: 0.7rem 0.85rem;
+  padding: 0.7rem 0.85rem;
   background: var(--cream); border-left: 3px solid var(--red); border-radius: 3px;
 }
 .vex .zh { font-size: calc(1rem * var(--scale)); font-weight: 500; line-height: 1.6; }
 .vex .en { font-size: calc(0.88rem * var(--scale)); color: var(--muted); margin-top: 0.2rem; }
 
-details.vnote { margin-top: 0.75rem; border-top: 1px solid var(--border); }
+.vaudio audio { width: 100%; }
+.vaudio-btn {
+  display: flex; align-items: center; gap: 0.5rem; width: 100%;
+  padding: 0.45rem 0.75rem; border-radius: 6px;
+  background: var(--cream); border: 2px dashed var(--border);
+  color: var(--muted); font-size: calc(0.75rem * var(--scale));
+}
+.vaudio-btn::before { content: '♪'; color: var(--navy); }
+
 details.vnote > summary { font-size: calc(0.75rem * var(--scale)); color: var(--muted); cursor: pointer; padding: 0.4rem 0; list-style: none; }
-details.vnote > summary::before        { content: '+ note'; }
-details.vnote[open] > summary::before { content: '− note'; }
+details.vnote > summary::before        { content: '+ cultural note'; }
+details.vnote[open] > summary::before { content: '− cultural note'; }
+body.hide-en details.vnote > summary::before        { content: '+ 文化注释'; }
+body.hide-en details.vnote[open] > summary::before { content: '− 文化注释'; }
 .vn { font-size: calc(0.88rem * var(--scale)); color: var(--muted); line-height: 1.6; padding-top: 0.35rem; }
 
 /* ── Passage ───────────────────────────────────── */

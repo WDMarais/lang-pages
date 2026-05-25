@@ -11,51 +11,64 @@
 
 <div id="controls">
   <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">隐藏英文</button>
 </div>
 
 <header class="cover" style="padding: 2.5rem 2rem;">
-  <div class="cover-masthead">cn-pages · UI Reference</div>
+  <div class="cover-masthead">cn-pages · <span class="en">UI Reference</span><span class="zh-alt">界面参考</span></div>
   <div class="cover-title" style="font-size:2rem">组件库</div>
-  <div class="cover-sub">live component demo — all building blocks in one place</div>
+  <div class="cover-sub"><span class="en">live component demo — all building blocks in one place</span><span class="zh-alt">所有组件实时预览</span></div>
 </header>
 
 <div class="wrap">
 
   <!-- Tokens -->
   <div class="demo-section">
-    <div class="demo-label">Design tokens — colours</div>
+    <div class="demo-label"><span class="en">Design tokens — colours</span><span class="zh-alt">设计变量 — 颜色</span></div>
     <div class="swatch-row">
-      <div class="swatch" style="background:var(--navy)">navy</div>
-      <div class="swatch" style="background:var(--navy2)">navy2</div>
-      <div class="swatch" style="background:var(--red)">red</div>
-      <div class="swatch" style="background:var(--gold)">gold</div>
-      <div class="swatch" style="background:var(--green)">green</div>
-      <div class="swatch light" style="background:var(--cream)">cream</div>
-      <div class="swatch light" style="background:var(--border)">border</div>
-      <div class="swatch light" style="background:var(--muted)">muted</div>
-      <div class="swatch" style="background:var(--ink)">ink</div>
+      <div class="swatch" style="background:var(--navy)"><span class="en">navy</span><span class="zh-alt">深蓝</span><span class="swatch-var">(.navy)</span></div>
+      <div class="swatch" style="background:var(--navy2)"><span class="en">navy2</span><span class="zh-alt">藏蓝</span><span class="swatch-var">(.navy2)</span></div>
+      <div class="swatch" style="background:var(--red)"><span class="en">red</span><span class="zh-alt">红</span><span class="swatch-var">(.red)</span></div>
+      <div class="swatch" style="background:var(--gold)"><span class="en">gold</span><span class="zh-alt">金</span><span class="swatch-var">(.gold)</span></div>
+      <div class="swatch" style="background:var(--green)"><span class="en">green</span><span class="zh-alt">绿</span><span class="swatch-var">(.green)</span></div>
+      <div class="swatch light" style="background:var(--cream)"><span class="en">cream</span><span class="zh-alt">米白</span><span class="swatch-var">(.cream)</span></div>
+      <div class="swatch light" style="background:var(--border)"><span class="en">border</span><span class="zh-alt">边框</span><span class="swatch-var">(.border)</span></div>
+      <div class="swatch" style="background:var(--muted)"><span class="en">muted</span><span class="zh-alt">灰</span><span class="swatch-var">(.muted)</span></div>
+      <div class="swatch" style="background:var(--ink)"><span class="en">ink</span><span class="zh-alt">墨</span><span class="swatch-var">(.ink)</span></div>
+      <div class="swatch light" style="background:var(--white)"><span class="en">white</span><span class="zh-alt">白</span><span class="swatch-var">(.white)</span></div>
     </div>
   </div>
 
   <!-- Section heading -->
   <div class="demo-section">
-    <div class="demo-label">Section heading</div>
-    <div class="sec-label">The Domain</div>
+    <div class="demo-label"><span class="en">Section heading</span><span class="zh-alt">版块标题</span></div>
+    <div class="sec-label"><span class="en">The Domain</span><span class="zh-alt">领域</span></div>
     <h2>布料市场的人</h2>
     <div class="sec-rule"></div>
   </div>
 
   <!-- Vocab card -->
   <div class="demo-section">
-    <div class="demo-label">Vocab card — .vcard</div>
+    <div class="demo-label"><span class="en">Vocab card — .vcard</span><span class="zh-alt">词卡 — .vcard</span></div>
     <div class="grid">
       <div class="vcard t-navy">
-        <div class="vh">裁缝</div>
-        <div class="vp">cáifeng</div>
-        <div class="vm">tailor / seamstress</div>
+        <div class="vhead">
+          <div class="vh">裁缝</div>
+          <div class="vp">cáifeng</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">tailor / seamstress</div>
+          <div class="vm-zh">量体裁衣的手艺人</div>
+        </div>
+        <div class="vimg">
+          <div class="vimg-placeholder">图片</div>
+        </div>
         <div class="vex">
           <div class="zh">他找裁缝照着照片做了一件旗袍。</div>
           <div class="en">He had a tailor make a qipao from a photo.</div>
+        </div>
+        <div class="vaudio">
+          <div class="vaudio-btn">例句音频</div>
         </div>
         <details class="vnote">
           <summary></summary>
@@ -63,12 +76,23 @@
         </details>
       </div>
       <div class="vcard t-red">
-        <div class="vh">紧</div>
-        <div class="vp">jǐn</div>
-        <div class="vm">tight (of clothing)</div>
+        <div class="vhead">
+          <div class="vh">紧</div>
+          <div class="vp">jǐn</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">tight (of clothing)</div>
+          <div class="vm-zh">（衣物）贴身、不宽松</div>
+        </div>
+        <div class="vimg">
+          <div class="vimg-placeholder">图片</div>
+        </div>
         <div class="vex">
           <div class="zh">肩膀那里有点儿紧。</div>
           <div class="en">The shoulders are a bit tight.</div>
+        </div>
+        <div class="vaudio">
+          <div class="vaudio-btn">例句音频</div>
         </div>
         <details class="vnote">
           <summary></summary>
@@ -80,7 +104,7 @@
 
   <!-- Passage + .hl -->
   <div class="demo-section">
-    <div class="demo-label">Passage block — .passage + .hl hover gloss</div>
+    <div class="demo-label"><span class="en">Passage block — .passage + .hl hover gloss</span><span class="zh-alt">段落 — .passage + .hl 悬停注释</span></div>
     <div class="passage" style="max-width:600px">
       <p>我上网<span class="hl" data-t="search online">搜索</span>了一下儿，发现了一个很大的<span class="hl" data-t="fabric market">布料市场</span>，市场里面有很多<span class="hl" data-t="tailor shop">裁缝店</span>。</p>
     </div>
@@ -88,8 +112,8 @@
 
   <!-- on-dark section heading -->
   <div class="demo-section bg-navy" style="margin: 0 -1.5rem; padding: 2.5rem 1.5rem;">
-    <div class="demo-label" style="color:rgba(255,255,255,0.4)">Section heading — on dark background (.bg-navy)</div>
-    <div class="sec-label">Reflect</div>
+    <div class="demo-label" style="color:rgba(255,255,255,0.4)"><span class="en">Section heading — on dark background (.bg-navy)</span><span class="zh-alt">版块标题 — 深色背景（.bg-navy）</span></div>
+    <div class="sec-label"><span class="en">Reflect</span><span class="zh-alt">复习</span></div>
     <h2>阅读理解</h2>
     <div class="sec-rule"></div>
   </div>
@@ -97,7 +121,7 @@
 </div><!-- /wrap -->
 
 <footer>
-  <div>cn-pages · UI reference</div>
+  <div>cn-pages · <span class="en">UI reference</span><span class="zh-alt">界面参考</span></div>
 </footer>
 
 <script src="../shared/base.js"></script>
