@@ -13,7 +13,6 @@
   color: var(--muted); margin-bottom: 1.5rem; font-weight: 600;
 }
 
-/* ── Display pane ───────────────────────────────── */
 .scene-pane {
   width: 100%; aspect-ratio: 1; max-width: 280px;
   background: var(--white);
@@ -21,12 +20,10 @@
   display: flex; align-items: center; justify-content: center;
 }
 
-/* ── Compound phrase ────────────────────────────── */
-.compound     { font-size: 2.4rem; font-weight: 300; color: var(--navy); margin: 1rem 0 0.15rem; }
-.compound-py  { font-size: 0.85rem; color: var(--red); margin-bottom: 1.5rem; display: none; }
+.compound    { font-size: 2.4rem; font-weight: 300; color: var(--navy); margin: 1rem 0 0.15rem; }
+.compound-py { font-size: 0.85rem; color: var(--red); margin-bottom: 1.5rem; display: none; }
 body.show-py .compound-py { display: block; }
 
-/* ── Attribute rows ─────────────────────────────── */
 .attr-row {
   display: flex; align-items: center; gap: 0.75rem;
   margin-bottom: 0.9rem;
@@ -41,7 +38,6 @@ body.show-py .compound-py { display: block; }
 .attr-py   { font-size: 0.7rem; color: var(--red); display: none; }
 body.show-py .attr-py { display: block; }
 
-/* ── Shape option buttons ───────────────────────── */
 .opt-shape {
   width: 32px; height: 32px;
   background: none; border: 1.5px solid var(--border); border-radius: 6px;
@@ -52,7 +48,6 @@ body.show-py .attr-py { display: block; }
 .opt-shape:hover  { border-color: var(--muted); }
 .opt-shape.active { border-color: var(--navy); background: var(--cream); }
 
-/* ── Size option buttons ────────────────────────── */
 .opt-size {
   background: none; border: 1.5px solid var(--border); border-radius: 50%;
   cursor: pointer; padding: 0;
@@ -62,11 +57,9 @@ body.show-py .attr-py { display: block; }
 .opt-size:hover  { border-color: var(--muted); }
 .opt-size.active { border-color: var(--navy); background: var(--cream); }
 
-/* ── Color swatches ─────────────────────────────── */
 .opt-color {
   width: 22px; height: 22px; border-radius: 50%;
-  border: 2px solid transparent;
-  cursor: pointer;
+  border: 2px solid transparent; cursor: pointer;
   outline: 2px solid transparent; outline-offset: 2px;
   transition: outline-color 0.13s, transform 0.1s;
 }
@@ -117,120 +110,26 @@ body.show-py .attr-py { display: block; }
       <div class="attr-py"   id="py-color"></div>
     </div>
   </div>
-
 </div>
 
 <script src="../shared/base.js"></script>
+<script src="../shared/scene.js"></script>
 <script>
 
-// ── Data ─────────────────────────────────────────
-
-const SHAPES = [
-  { id: 'circle',   zh: '圆形',   py: 'yuánxíng',     cpAdj: '圆',    cpPy: 'yuán' },
-  { id: 'square',   zh: '正方形', py: 'zhèngfāngxíng', cpAdj: '方',   cpPy: 'fāng' },
-  { id: 'triangle', zh: '三角形', py: 'sānjiǎoxíng',  cpAdj: '三角',  cpPy: 'sānjiǎo' },
-  { id: 'rect',     zh: '长方形', py: 'chángfāngxíng', cpAdj: '长方', cpPy: 'chángfāng' },
-  { id: 'diamond',  zh: '菱形',   py: 'língxíng',     cpAdj: '菱',    cpPy: 'líng' },
-  { id: 'star',     zh: '星形',   py: 'xīngxíng',     cpAdj: '星',    cpPy: 'xīng' },
-];
-
-const SIZES = [
-  { id: 'sm', zh: '小', py: 'xiǎo',  cpAdj: '小',   cpPy: 'xiǎo',   r: 18, btn: 26 },
-  { id: 'md', zh: '中', py: 'zhōng', cpAdj: '中等', cpPy: 'zhōngděng', r: 28, btn: 34 },
-  { id: 'lg', zh: '大', py: 'dà',    cpAdj: '大',   cpPy: 'dà',     r: 40, btn: 44 },
-];
-
-const COLORS = [
-  { id: 'red',    zh: '红色', py: 'hóngsè',  cpAdj: '红',  cpPy: 'hóng',  hex: '#C41E3A' },
-  { id: 'orange', zh: '橙色', py: 'chéngsè', cpAdj: '橙',  cpPy: 'chéng', hex: '#D4682A' },
-  { id: 'yellow', zh: '黄色', py: 'huángsè', cpAdj: '黄',  cpPy: 'huáng', hex: '#C8940A' },
-  { id: 'green',  zh: '绿色', py: 'lǜsè',    cpAdj: '绿',  cpPy: 'lǜ',   hex: '#2C6B3E' },
-  { id: 'blue',   zh: '蓝色', py: 'lánsè',   cpAdj: '蓝',  cpPy: 'lán',  hex: '#2C3E6B' },
-  { id: 'purple', zh: '紫色', py: 'zǐsè',    cpAdj: '紫',  cpPy: 'zǐ',   hex: '#6B3E8A' },
-  { id: 'pink',   zh: '粉色', py: 'fěnsè',   cpAdj: '粉',  cpPy: 'fěn',  hex: '#D4608A' },
-  { id: 'white',  zh: '白色', py: 'báisè',   cpAdj: '白',  cpPy: 'bái',  hex: '#F0EDE8', stroke: '#C0BBB0' },
-  { id: 'grey',   zh: '灰色', py: 'huīsè',   cpAdj: '灰',  cpPy: 'huī',  hex: '#8A8A90' },
-  { id: 'black',  zh: '黑色', py: 'hēisè',   cpAdj: '黑',  cpPy: 'hēi',  hex: '#1A1A1E' },
-];
-
-// ── SVG shapes (100×100 viewport, center 50,50) ──
-
-function shapeEl(id, r, fill, stroke, sw) {
-  const cx = 50, cy = 50;
-  const g = (inner) => `<g fill="${fill}" stroke="${stroke}" stroke-width="${sw}">${inner}</g>`;
-  switch (id) {
-    case 'circle':
-      return g(`<circle cx="${cx}" cy="${cy}" r="${r}"/>`);
-    case 'square': {
-      const h = r * 1.3;
-      return g(`<rect x="${cx-h}" y="${cy-h}" width="${h*2}" height="${h*2}" rx="2"/>`);
-    }
-    case 'triangle': {
-      const h = r * 1.15;
-      return g(`<polygon points="${cx},${cy-h} ${cx-h*1.1},${cy+h*0.72} ${cx+h*1.1},${cy+h*0.72}"/>`);
-    }
-    case 'rect': {
-      const w = r * 1.75, h = r * 0.85;
-      return g(`<rect x="${cx-w}" y="${cy-h}" width="${w*2}" height="${h*2}" rx="2"/>`);
-    }
-    case 'diamond':
-      return g(`<polygon points="${cx},${cy-r*1.25} ${cx+r},${cy} ${cx},${cy+r*1.25} ${cx-r},${cy}"/>`);
-    case 'star': {
-      const o = r, i = r * 0.42, pts = [];
-      for (let k = 0; k < 10; k++) {
-        const a = (k * Math.PI / 5) - Math.PI / 2, rad = k % 2 === 0 ? o : i;
-        pts.push(`${(cx + Math.cos(a)*rad).toFixed(2)},${(cy + Math.sin(a)*rad).toFixed(2)}`);
-      }
-      return g(`<polygon points="${pts.join(' ')}"/>`);
-    }
-  }
-}
-
-// Mini icons for shape buttons (24×24 viewport)
-function shapeIcon(id) {
-  const cx = 12, cy = 12, r = 7;
-  switch (id) {
-    case 'circle':   return `<circle cx="${cx}" cy="${cy}" r="${r}"/>`;
-    case 'square':   return `<rect x="${cx-r}" y="${cy-r}" width="${r*2}" height="${r*2}" rx="1"/>`;
-    case 'triangle': return `<polygon points="${cx},${cy-r} ${cx-r},${cy+r*0.65} ${cx+r},${cy+r*0.65}"/>`;
-    case 'rect':     return `<rect x="${cx-r*1.3}" y="${cy-r*0.55}" width="${r*2.6}" height="${r*1.1}" rx="1"/>`;
-    case 'diamond':  return `<polygon points="${cx},${cy-r} ${cx+r*0.75},${cy} ${cx},${cy+r} ${cx-r*0.75},${cy}"/>`;
-    case 'star': {
-      const o = r, i = r * 0.42, pts = [];
-      for (let k = 0; k < 10; k++) {
-        const a = (k * Math.PI / 5) - Math.PI / 2, rad = k % 2 === 0 ? o : i;
-        pts.push(`${(cx + Math.cos(a)*rad).toFixed(1)},${(cy + Math.sin(a)*rad).toFixed(1)}`);
-      }
-      return `<polygon points="${pts.join(' ')}"/>`;
-    }
-  }
-}
-
-// ── State ─────────────────────────────────────────
 const sel = { shape: 'circle', size: 'md', color: 'blue' };
 
-const get = {
-  shape: () => SHAPES.find(s => s.id === sel.shape),
-  size:  () => SIZES.find(s => s.id === sel.size),
-  color: () => COLORS.find(c => c.id === sel.color),
-};
-
-// ── Render ────────────────────────────────────────
-const sceneSvg    = document.getElementById('scene-svg');
-const compoundEl  = document.getElementById('compound');
-const compoundPy  = document.getElementById('compound-py');
+const sceneSvg   = document.getElementById('scene-svg');
+const compoundEl = document.getElementById('compound');
+const compoundPy = document.getElementById('compound-py');
 
 function render() {
-  const sh = get.shape(), sz = get.size(), co = get.color();
+  const sh = getShape(sel.shape), sz = getSize(sel.size), co = getColor(sel.color);
+  const cp = compound(sel);
 
-  // Scene shape
-  sceneSvg.innerHTML = shapeEl(sh.id, sz.r, co.hex, co.stroke ?? 'none', co.stroke ? '1.5' : '0');
+  renderScene(sceneSvg, sel);
+  compoundEl.textContent = cp.zh;
+  compoundPy.textContent = cp.py;
 
-  // Compound phrase: color + size + shape
-  compoundEl.textContent  = co.cpAdj + sz.cpAdj + sh.cpAdj;
-  compoundPy.textContent  = co.cpPy + ' ' + sz.cpPy + ' ' + sh.cpPy;
-
-  // Per-row labels
   document.getElementById('word-shape').textContent = sh.zh;
   document.getElementById('py-shape').textContent   = sh.py;
   document.getElementById('word-size').textContent  = sz.zh;
@@ -238,15 +137,12 @@ function render() {
   document.getElementById('word-color').textContent = co.zh;
   document.getElementById('py-color').textContent   = co.py;
 
-  // Active states
   document.querySelectorAll('[data-opt-attr]').forEach(el => {
     el.classList.toggle('active', sel[el.dataset.optAttr] === el.dataset.optVal);
   });
 }
 
 function pick(attr, val) { sel[attr] = val; render(); }
-
-// ── Build selectors ───────────────────────────────
 
 SHAPES.forEach(sh => {
   const btn = document.createElement('button');
@@ -284,7 +180,6 @@ COLORS.forEach(co => {
   document.getElementById('opts-color').appendChild(btn);
 });
 
-// ── Init ──────────────────────────────────────────
 render();
 </script>
 </body>

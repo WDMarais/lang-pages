@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scene Grid · Mock</title>
+<link rel="stylesheet" href="../shared/base.css">
+<style>
+
+.page { max-width: 860px; margin: 0 auto; padding: 3rem 2rem; }
+.demo-label {
+  font-size: 0.6rem; letter-spacing: 0.38em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 1.5rem; font-weight: 600;
+}
+
+.scene-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+/* ── Each grid item ─────────────────────────────── */
+.scene-item {}
+
+.scene-item .scene-pane {
+  width: 100%; aspect-ratio: 1;
+  background: var(--white);
+  border: 1px solid var(--border); border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 0.6rem;
+}
+
+.scene-item .item-compound {
+  font-size: 1.4rem; font-weight: 300; color: var(--navy);
+  line-height: 1.2;
+}
+.scene-item .item-py {
+  font-size: 0.68rem; color: var(--red);
+  margin-top: 0.15rem;
+  display: none;
+}
+body.show-py .scene-item .item-py { display: block; }
+
+.scene-item .item-attrs {
+  margin-top: 0.3rem;
+  display: flex; gap: 0.4rem; flex-wrap: wrap;
+}
+.scene-item .attr-tag {
+  font-size: 0.62rem; color: var(--muted);
+  background: var(--cream); border: 1px solid var(--border);
+  border-radius: 3px; padding: 0.1rem 0.35rem;
+}
+
+@media (max-width: 600px) {
+  .scene-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+</style>
+</head>
+<body>
+
+<div id="controls">
+  <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+</div>
+
+<div class="page">
+  <div class="demo-label">Scene grid · 3 × 4</div>
+  <div class="scene-grid" id="scene-grid"></div>
+</div>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/scene.js"></script>
+<script>
+
+const ITEMS = [
+  { shape: 'circle',   size: 'lg', color: 'red'    },
+  { shape: 'square',   size: 'sm', color: 'blue'   },
+  { shape: 'triangle', size: 'md', color: 'yellow' },
+  { shape: 'rect',     size: 'lg', color: 'green'  },
+  { shape: 'diamond',  size: 'sm', color: 'purple' },
+  { shape: 'star',     size: 'md', color: 'orange' },
+  { shape: 'triangle', size: 'lg', color: 'black'  },
+  { shape: 'circle',   size: 'sm', color: 'pink'   },
+  { shape: 'square',   size: 'md', color: 'grey'   },
+  { shape: 'star',     size: 'lg', color: 'blue'   },
+  { shape: 'rect',     size: 'sm', color: 'red'    },
+  { shape: 'diamond',  size: 'lg', color: 'yellow' },
+];
+
+const grid = document.getElementById('scene-grid');
+
+ITEMS.forEach(cfg => {
+  const sh = getShape(cfg.shape), sz = getSize(cfg.size), co = getColor(cfg.color);
+  const cp = compound(cfg);
+
+  const item = document.createElement('div');
+  item.className = 'scene-item';
+
+  const pane = document.createElement('div');
+  pane.className = 'scene-pane';
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('width', '120');
+  svg.setAttribute('height', '120');
+  svg.setAttribute('viewBox', '0 0 100 100');
+  renderScene(svg, cfg);
+  pane.appendChild(svg);
+
+  const label = document.createElement('div');
+  label.className = 'item-compound';
+  label.textContent = cp.zh;
+
+  const py = document.createElement('div');
+  py.className = 'item-py';
+  py.textContent = cp.py;
+
+  const attrs = document.createElement('div');
+  attrs.className = 'item-attrs';
+  [co.zh, sz.zh, sh.zh].forEach(word => {
+    const tag = document.createElement('span');
+    tag.className = 'attr-tag';
+    tag.textContent = word;
+    attrs.appendChild(tag);
+  });
+
+  item.append(pane, label, py, attrs);
+  grid.appendChild(item);
+});
+
+</script>
+</body>
+</html>
