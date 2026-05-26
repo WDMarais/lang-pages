@@ -9,7 +9,7 @@
 
 .page { max-width: 860px; margin: 0 auto; padding: 3rem 2rem; }
 .demo-label {
-  font-size: 0.6rem; letter-spacing: 0.38em; text-transform: uppercase;
+  font-size: 1.2rem; letter-spacing: 0.04em;
   color: var(--muted); margin-bottom: 1.5rem; font-weight: 600;
 }
 
@@ -35,20 +35,20 @@
   line-height: 1.2;
 }
 .scene-item .item-py {
-  font-size: 0.68rem; color: var(--red);
+  font-size: 1rem; color: var(--red);
   margin-top: 0.15rem;
   display: none;
 }
 body.show-py .scene-item .item-py { display: block; }
 
 .scene-item .item-attrs {
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   display: flex; gap: 0.4rem; flex-wrap: wrap;
 }
 .scene-item .attr-tag {
-  font-size: 0.62rem; color: var(--muted);
-  background: var(--cream); border: 1px solid var(--border);
-  border-radius: 3px; padding: 0.1rem 0.35rem;
+  font-size: 1rem; color: var(--white);
+  background: var(--navy); border: none;
+  border-radius: 4px; padding: 0.2rem 0.55rem; font-weight: 500;
 }
 
 @media (max-width: 600px) {
@@ -60,11 +60,12 @@ body.show-py .scene-item .item-py { display: block; }
 <body>
 
 <div id="controls">
+  <button class="btn-ctrl" id="shuffleBtn" onclick="shuffle()">随机</button>
   <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
 </div>
 
 <div class="page">
-  <div class="demo-label">Scene grid · 3 × 4</div>
+  <div class="demo-label" id="grid-label">场景网格 · 3 × 4 · 精选</div>
   <div class="scene-grid" id="scene-grid"></div>
 </div>
 
@@ -72,7 +73,7 @@ body.show-py .scene-item .item-py { display: block; }
 <script src="../shared/scene.js"></script>
 <script>
 
-const ITEMS = [
+const CURATED = [
   { shape: 'circle',   size: 'lg', color: 'red'    },
   { shape: 'square',   size: 'sm', color: 'blue'   },
   { shape: 'triangle', size: 'md', color: 'yellow' },
@@ -87,9 +88,20 @@ const ITEMS = [
   { shape: 'diamond',  size: 'lg', color: 'yellow' },
 ];
 
-const grid = document.getElementById('scene-grid');
+// All 180 combinations (3 × 6 × 10), shuffled without replacement
+function randomSample() {
+  const all = [];
+  SIZES.forEach(sz => SHAPES.forEach(sh => COLORS.forEach(co => {
+    all.push({ shape: sh.id, size: sz.id, color: co.id });
+  })));
+  for (let i = all.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [all[i], all[j]] = [all[j], all[i]];
+  }
+  return all.slice(0, 12);
+}
 
-ITEMS.forEach(cfg => {
+function makeItem(cfg) {
   const sh = getShape(cfg.shape), sz = getSize(cfg.size), co = getColor(cfg.color);
   const cp = compound(cfg);
 
@@ -123,8 +135,23 @@ ITEMS.forEach(cfg => {
   });
 
   item.append(pane, label, py, attrs);
-  grid.appendChild(item);
-});
+  return item;
+}
+
+const grid = document.getElementById('scene-grid');
+const gridLabel = document.getElementById('grid-label');
+
+function renderGrid(items, label) {
+  grid.innerHTML = '';
+  items.forEach(cfg => grid.appendChild(makeItem(cfg)));
+  gridLabel.textContent = label;
+}
+
+function shuffle() {
+  renderGrid(randomSample(), '场景网格 · 3 × 4 · 随机');
+}
+
+renderGrid(CURATED, '场景网格 · 3 × 4 · 精选');
 
 </script>
 </body>

@@ -9,7 +9,7 @@
 
 .page { max-width: 680px; margin: 0 auto; padding: 3rem 2rem; }
 .demo-label {
-  font-size: 0.6rem; letter-spacing: 0.38em; text-transform: uppercase;
+  font-size: 1.2rem; letter-spacing: 0.04em;
   color: var(--muted); margin-bottom: 1.5rem; font-weight: 600;
 }
 
@@ -29,12 +29,17 @@ body.show-py .compound-py { display: block; }
   margin-bottom: 0.9rem;
 }
 .attr-key {
-  font-size: 0.58rem; letter-spacing: 0.25em; text-transform: uppercase;
-  color: var(--muted); font-weight: 600; width: 2.6rem; flex-shrink: 0;
+  font-size: 1rem; color: var(--muted); font-weight: 600;
+  min-width: 2.6rem; flex-shrink: 0;
 }
+.attr-key-py {
+  font-size: 0.65rem; color: var(--red); font-weight: 400;
+  display: none;
+}
+body.show-py .attr-key-py { display: block; }
 .attr-opts { display: flex; gap: 0.38rem; flex-wrap: wrap; align-items: center; }
 .attr-word-group { margin-left: auto; text-align: right; flex-shrink: 0; }
-.attr-word { font-size: 1rem; font-weight: 500; color: var(--navy); }
+.attr-word { font-size: 1.3rem; font-weight: 500; color: var(--navy); }
 .attr-py   { font-size: 0.7rem; color: var(--red); display: none; }
 body.show-py .attr-py { display: block; }
 
@@ -75,7 +80,7 @@ body.show-py .attr-py { display: block; }
 </div>
 
 <div class="page">
-  <div class="demo-label">Scene · shape × size × color</div>
+  <div class="demo-label">场景 · 形状 × 大小 × 颜色</div>
 
   <div class="scene-pane">
     <svg id="scene-svg" width="200" height="200" viewBox="0 0 100 100"></svg>
@@ -85,7 +90,7 @@ body.show-py .attr-py { display: block; }
   <div class="compound-py" id="compound-py"></div>
 
   <div class="attr-row">
-    <div class="attr-key">shape</div>
+    <div class="attr-key">形状<div class="attr-key-py">xíngzhuàng</div></div>
     <div class="attr-opts" id="opts-shape"></div>
     <div class="attr-word-group">
       <div class="attr-word" id="word-shape"></div>
@@ -94,7 +99,7 @@ body.show-py .attr-py { display: block; }
   </div>
 
   <div class="attr-row">
-    <div class="attr-key">size</div>
+    <div class="attr-key">大小<div class="attr-key-py">dàxiǎo</div></div>
     <div class="attr-opts" id="opts-size"></div>
     <div class="attr-word-group">
       <div class="attr-word" id="word-size"></div>
@@ -103,7 +108,7 @@ body.show-py .attr-py { display: block; }
   </div>
 
   <div class="attr-row">
-    <div class="attr-key">color</div>
+    <div class="attr-key">颜色<div class="attr-key-py">yánsè</div></div>
     <div class="attr-opts" id="opts-color"></div>
     <div class="attr-word-group">
       <div class="attr-word" id="word-color"></div>
