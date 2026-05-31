@@ -5,11 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>西装定制 · 布料市场</title>
 <link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="xi-zhuang.css">
 </head>
 <body>
 
 <div id="controls">
   <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">隐藏英文</button>
 </div>
 
 <header class="cover">
@@ -29,14 +31,877 @@
   <div class="cover-title">西装定制</div>
   <div class="cover-py">xī zhuāng dìng zhì</div>
   <div class="cover-sub">来中国，找裁缝，量尺寸，改合身</div>
+  <div class="cover-meta"><span class="en">Fabric Market · Study Companion · 2026</span><span class="zh-alt">布料市场 · 学习指南 · 2026</span></div>
 </header>
 
-<!-- sections go here -->
+
+<!-- ── 1. The process ───────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Domain</span><span class="zh-alt">领域</span></div>
+    <h2>从搜索到满意</h2>
+    <div class="sec-rule"></div>
+
+    <div class="flow">
+      <div class="flow-step accent">
+        <div class="fh">搜索</div>
+        <div class="fpy">sōusuǒ</div>
+        <div class="fe"><span class="en">search online</span><span class="zh-alt">网上查找</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <div class="fh">发现</div>
+        <div class="fpy">fāxiàn</div>
+        <div class="fe"><span class="en">discover market</span><span class="zh-alt">发现市场</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <div class="fh">选料子</div>
+        <div class="fpy">xuǎn liàozi</div>
+        <div class="fe"><span class="en">choose fabric</span><span class="zh-alt">选择布料</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step accent">
+        <div class="fh">量尺寸</div>
+        <div class="fpy">liàng chǐcun</div>
+        <div class="fe"><span class="en">take measurements</span><span class="zh-alt">量体</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <div class="fh">等一周</div>
+        <div class="fpy">děng yī zhōu</div>
+        <div class="fe"><span class="en">wait a week</span><span class="zh-alt">等待一周</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <div class="fh">试试</div>
+        <div class="fpy">shì shi</div>
+        <div class="fe"><span class="en">try it on</span><span class="zh-alt">试穿</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step accent">
+        <div class="fh">改尺寸</div>
+        <div class="fpy">gǎi chǐcun</div>
+        <div class="fe"><span class="en">alter the fit</span><span class="zh-alt">修改尺寸</span></div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step done">
+        <div class="fh">满意</div>
+        <div class="fpy">mǎnyì</div>
+        <div class="fe"><span class="en">satisfied ✓</span><span class="zh-alt">满意 ✓</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 2. The people ────────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Who's Who</span><span class="zh-alt">主要人物</span></div>
+    <h2>布料市场的人</h2>
+    <div class="sec-rule"></div>
+
+    <div class="grid grid-2">
+      <div class="vcard t-navy">
+        <div class="vhead">
+          <div class="vh">裁缝</div>
+          <div class="vp">cáifeng</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">tailor / seamstress</div>
+          <div class="vm-zh">量体裁衣的手艺人</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">他找裁缝照着照片做了一件旗袍。</div>
+              <div class="en">He had a tailor make a qipao based on a photo.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Cuts (裁) and sews (缝) — handles custom garments and alterations. Not the designer (设计师). Neutral tone on 缝 marks this as a noun. English "tailor-made" = customized does not map to 裁缝 — use 量身定做 for that.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard t-navy">
+        <div class="vhead">
+          <div class="vh">老板娘</div>
+          <div class="vp">lǎobǎnniáng</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">proprietress — woman running the shop</div>
+          <div class="vm-zh">管理店铺的女老板</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">有问题就找老板娘，她负责这块。</div>
+              <div class="en">Just ask the boss — she handles that side of things.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Not simply "female boss." 老板 is gender-neutral (any owner); 老板娘 is the casual address for the woman — often owner, wife, or both. The 娘 frames female business authority through a familial lens. Wrong register for corporate settings.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 3. The garment ───────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Garment</span><span class="zh-alt">服装</span></div>
+    <h2>西装的世界</h2>
+    <div class="sec-rule"></div>
+
+    <div class="grid grid-2" style="margin-bottom:1.5rem">
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">西装</div>
+          <div class="vp">xī zhuāng</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">Western-style suit</div>
+          <div class="vm-zh">西式上衣与裤子的套装</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">他明天要穿西装去面试。</div>
+              <div class="en">He has to wear a suit to the job interview tomorrow.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">The 西 marks cultural contrast — active in a closed modernisation-era set: 西装、西餐、西医. Not a general property of 西: 西瓜 and 东西 carry no Western/Chinese frame. Culturally coded as business formality and social mobility.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">名牌</div>
+          <div class="vp">míng pái</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">designer label / famous brand</div>
+          <div class="vm-zh">著名品牌；奢侈品牌</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">这件西装是名牌的，当然贵。</div>
+              <div class="en">This suit is a designer label — of course it's expensive.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Prestige is definitional — 名牌 = luxury only. Not neutral 品牌 (any brand). Extension: 名牌大学 (top university). Polysemy trap: 名牌 also = "name badge" (别上名牌 = pin on your name tag) — entirely different register.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 布料 vs 料子 -->
+    <div class="sec-label" style="margin-bottom:0.6rem"><span class="en">Near-synonym pair — both mean "fabric"</span><span class="zh-alt">近义词对比——都指布料</span></div>
+    <table class="ctable">
+      <tr>
+        <th style="width:12%">词</th>
+        <th style="width:16%">拼音</th>
+        <th><span class="en">When to use</span><span class="zh-alt">使用场景</span></th>
+        <th><span class="en">Unique to this word</span><span class="zh-alt">专属用法</span></th>
+      </tr>
+      <tr>
+        <td><div class="cht">布料</div><div class="cpy">bù liào</div></td>
+        <td style="color:var(--red);font-size:0.82rem">bù liào</td>
+        <td><span class="en">Neutral, unmarked general term. Works in written labels, product specs, any textile context.</span><span class="zh-alt">中性词，适用于书面标签、产品说明等各类纺织品语境。</span></td>
+        <td><span class="en">Abstract use blocked: *社会的布料 ✗. No metaphorical extensions.</span><span class="zh-alt">不可抽象使用：*社会的布料 ✗，无引申义。</span></td>
+      </tr>
+      <tr>
+        <td><div class="cht">料子</div><div class="cpy">liàozi</div></td>
+        <td style="color:var(--red);font-size:0.82rem">liàozi</td>
+        <td><span class="en">Colloquial — implies tactile appraisal ("feel it, judge it"). The word a tailor naturally reaches for.</span><span class="zh-alt">口语，含上手感受、评判之意，裁缝自然会用的词。</span></td>
+        <td><span class="en">有料子 = has real ability. 甩料子 = drop a hint. Both fixed; 布料 cannot substitute.</span><span class="zh-alt">有料子（有真本事）、甩料子（抛出线索），均为固定搭配，布料不可替换。</span></td>
+      </tr>
+    </table>
+
+    <!-- Body parts -->
+    <div class="sec-label" style="margin-bottom:0.8rem"><span class="en">Body — the measurement points</span><span class="zh-alt">身体——量体部位</span></div>
+    <div class="grid">
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">肩膀</div>
+          <div class="vp">jiān bǎng</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">shoulder</div>
+          <div class="vm-zh">颈部两侧、手臂上方的关节部位</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">这件西装的肩膀太宽，需要改窄一点。</div>
+              <div class="en">The shoulders of this suit are too wide — need taking in.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">The joint and surrounding muscle. The shoulder seam must land exactly here for correct drape. In professional fitting speech, 肩宽 (shoulder width) is more idiomatic; 肩膀 stays on the body side of that distinction.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">袖子</div>
+          <div class="vp">xiùzi</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">sleeve</div>
+          <div class="vm-zh">衣服覆盖手臂的部分，从肩部到袖口</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">这件衬衫的袖子太长了，能帮我改短一点吗？</div>
+              <div class="en">The sleeves are too long — could you shorten them?</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Fabric tube from shoulder seam to cuff. In compound types (长袖, 短袖) the 子 drops — don't say 长袖子. English "have something up your sleeve" (= hidden plan) has no Chinese sleeve-based equivalent.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">腰</div>
+          <div class="vp">yāo</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">waist (body zone)</div>
+          <div class="vm-zh">身体中部；服装腰部区域</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">腰有点紧，能不能改大一点？</div>
+              <div class="en">The waist is a bit tight — can you let it out?</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Felt zone ≠ measured number: 腰有点紧 (the zone feels tight) vs 腰围68厘米 (the measurement). 腰 also owns the lower-back pain sense (腰疼) — its range extends further posterior than English "waist."</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">裤子</div>
+          <div class="vp">kùzi</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">trousers / pants</div>
+          <div class="vm-zh">穿在腰部以下、覆盖两腿的服装</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">裁缝量了他的腰围，给这条西装裤子做了修改。</div>
+              <div class="en">The tailor measured his waist and altered the suit trousers.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Counted with 条 (elongated object), not 双 (paired items) — 一条裤子. The 子 is frozen in the standalone noun; in compound types (牛仔裤, 短裤) bare 裤 is the root — don't append 子 there.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 4. Fit spectrum ──────────────────────────── -->
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Interactive</span><span class="zh-alt">互动练习</span></div>
+    <h2>合身程度</h2>
+    <div class="sec-rule"></div>
+    <p style="color:rgba(255,255,255,0.55);font-size:0.85rem;margin-bottom:1.25rem"><span class="en">Four positions on the fit spectrum — two negative, two positive.</span><span class="zh-alt">合身程度的四个位置——两个负面，两个正面。</span></p>
+
+    <div class="spectrum-wrap">
+      <div class="spectrum-track">
+        <div class="spec-line"></div>
+        <button class="sbtn neg on" data-key="jin" onclick="setFit(this)">紧</button>
+        <button class="sbtn pos" data-key="heshen" onclick="setFit(this)">合身</button>
+        <button class="sbtn pos" data-key="kuansong" onclick="setFit(this)">宽松</button>
+        <button class="sbtn neg" data-key="fei" onclick="setFit(this)">肥</button>
+      </div>
+      <div class="spec-legs">
+        <span><span class="en">too tight ✗</span><span class="zh-alt">太紧 ✗</span></span>
+        <span><span class="en">good fit ✓</span><span class="zh-alt">合身 ✓</span></span>
+        <span><span class="en">roomy by design ✓</span><span class="zh-alt">宽松有型 ✓</span></span>
+        <span><span class="en">badly baggy ✗</span><span class="zh-alt">虚肥 ✗</span></span>
+      </div>
+
+      <div id="fp-jin" class="fit-panel" style="border-color:var(--red)">
+        <h4>紧 <span class="fp2">jǐn</span></h4>
+        <p><span class="en">Too tight — constricts movement. Fix: <strong>放大</strong> or <strong>改大</strong> (let out).</span><span class="zh-alt">太紧——限制活动。解决：<strong>放大</strong> 或 <strong>改大</strong>。</span></p>
+        <div class="fit-ex">
+          <div>肩膀那里有点儿<strong>紧</strong>，能帮我<strong>改大</strong>一点吗？</div>
+          <div class="fit-en en">The shoulders are a bit tight — could you let them out?</div>
+        </div>
+        <details class="fitnote">
+          <summary></summary>
+          <div class="fit-tip">⚠ 紧 also = urgent/tense (时间紧 = schedule is tight). English "tight" = stingy? That's 小气/抠门 — not 紧.</div>
+        </details>
+      </div>
+
+      <div id="fp-heshen" class="fit-panel" style="display:none;border-color:var(--green)">
+        <h4>合身 <span class="fp2">héshēn</span></h4>
+        <p><span class="en">Just right — dimensional correspondence between garment and body. The goal of every alteration.</span><span class="zh-alt">正合适——服装与身体的精准对应，每次修改的目标。</span></p>
+        <div class="fit-ex">
+          <div>裁缝把衣服改过之后，穿起来终于<strong>合身</strong>了。</div>
+          <div class="fit-en en">After the tailor made the alterations, it finally fits properly.</div>
+        </div>
+        <details class="fitnote">
+          <summary></summary>
+          <div class="fit-tip">合身 = dimensional fit only. English "fits you well" often implies flattering — that's 适合你/衬你. Intransitive: 你穿起来很合身 ✓ / *合身你 ✗.</div>
+        </details>
+      </div>
+
+      <div id="fp-kuansong" class="fit-panel" style="display:none;border-color:var(--green)">
+        <h4>宽松 <span class="fp2">kuān sōng</span></h4>
+        <p><span class="en">Roomy by design — intentional, stylish looseness. The tailor's intention, not their error.</span><span class="zh-alt">刻意宽松——有意为之的风格，是设计，不是失误。</span></p>
+        <div class="fit-ex">
+          <div>她喜欢穿<strong>宽松</strong>的亚麻衬衫，夏天凉快又好看。</div>
+          <div class="fit-en en">She likes wearing loose linen shirts — cool and stylish in summer.</div>
+        </div>
+        <details class="fitnote">
+          <summary></summary>
+          <div class="fit-tip">Chinese draws a lexical line English blurs: 宽松 = tailor's intention, 肥 = tailor's error. Also: 宽松货币政策 (loose monetary policy) — same word, different domain.</div>
+        </details>
+      </div>
+
+      <div id="fp-fei" class="fit-panel" style="display:none;border-color:var(--red)">
+        <h4>肥 <span class="fp2">féi</span></h4>
+        <p><span class="en">Badly baggy — too much fabric, ill-fitting. Fix: <strong>改小</strong> or <strong>收</strong> (take in).</span><span class="zh-alt">虚肥——布料过多，不合身。解决：<strong>改小</strong> 或 <strong>收</strong>。</span></p>
+        <div class="fit-ex">
+          <div>裤子的腰那里有点儿<strong>肥</strong>——能帮我<strong>改小</strong>一点吗？</div>
+          <div class="fit-en en">The trouser waist is a bit baggy — can you take it in?</div>
+        </div>
+        <details class="fitnote">
+          <summary></summary>
+          <div class="fit-tip">⚠ 肥 applied to people is blunt/rude (≈ unfiltered "fat"). Polite word for people: 胖. The tailor-shop sense is about fabric, not body.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 5. Suit diagram ──────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Diagnostic</span><span class="zh-alt">问题诊断</span></div>
+    <h2>哪里有问题？</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.5rem"><span class="en">Click a zone on the suit to see the fit problem and alteration pattern.</span><span class="zh-alt">点击西装上的区域，查看该部位的问题与改法。</span></p>
+
+    <div class="suit-layout">
+      <div>
+        <svg class="suit-svg" viewBox="0 0 200 360" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="28" r="18" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="1"/>
+          <path d="M62,60 L38,100 L22,275 L88,275 L88,200 L112,200 L112,275 L178,275 L162,100 L138,60 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
+          <path d="M62,60 L38,100 L24,215 L50,220 L82,110 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
+          <path d="M138,60 L162,100 L176,215 L150,220 L118,110 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
+          <path d="M88,60 L68,105 L88,140 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="0.5"/>
+          <path d="M112,60 L132,105 L112,140 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="0.5"/>
+          <line x1="100" y1="130" x2="100" y2="275" stroke="#0D1525" stroke-width="0.6" stroke-dasharray="3,2"/>
+          <path d="M88,60 L100,82 L112,60 L107,50 L100,56 L93,50 Z" fill="white" stroke="#ccc" stroke-width="0.5"/>
+          <polygon points="97,82 103,82 105,165 100,170 95,165" fill="#C41E3A" stroke="#8B0000" stroke-width="0.6"/>
+          <rect x="88" y="275" width="18" height="75" fill="#1E2A4A" stroke="#0D1525" stroke-width="1"/>
+          <rect x="110" y="275" width="18" height="75" fill="#1E2A4A" stroke="#0D1525" stroke-width="1"/>
+          <line x1="97" y1="275" x2="97" y2="350" stroke="#2C3E6B" stroke-width="0.6"/>
+          <line x1="119" y1="275" x2="119" y2="350" stroke="#2C3E6B" stroke-width="0.6"/>
+
+          <g onclick="showZone('jianb')" style="cursor:pointer">
+            <ellipse cx="50" cy="76" rx="18" ry="9" fill="rgba(196,30,58,0.13)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <ellipse cx="150" cy="76" rx="18" ry="9" fill="rgba(196,30,58,0.13)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="5" y="70" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">肩膀</text>
+            <text x="157" y="70" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">肩膀</text>
+          </g>
+          <g onclick="showZone('xiuz')" style="cursor:pointer">
+            <rect x="22" y="125" width="36" height="65" rx="5" fill="rgba(196,30,58,0.1)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <rect x="142" y="125" width="36" height="65" rx="5" fill="rgba(196,30,58,0.1)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="1" y="162" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">袖子</text>
+            <text x="180" y="162" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">袖子</text>
+          </g>
+          <g onclick="showZone('yaow')" style="cursor:pointer">
+            <rect x="86" y="266" width="48" height="16" rx="4" fill="rgba(196,30,58,0.18)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="136" y="278" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">腰</text>
+          </g>
+          <text x="100" y="354" font-size="7.5" fill="#aaa" font-family="sans-serif" text-anchor="middle">点击红色区域</text>
+        </svg>
+      </div>
+
+      <div>
+        <div id="zd-default" class="zone-default">
+          ← <span class="en">Click a red zone to see vocabulary and alteration patterns</span><span class="zh-alt">点击红色区域查看词语和改法</span>
+        </div>
+
+        <div id="zd-jianb" class="zpanel">
+          <h4>肩膀 <span class="zpy">jiān bǎng</span></h4>
+          <details class="znote">
+            <summary></summary>
+            <div class="zdesc">The shoulder joint and surrounding muscle. The shoulder seam must land exactly here for correct drape. In professional fitting speech 肩宽 (shoulder width as measurement) is more idiomatic; 肩膀 stays on the body side.</div>
+          </details>
+          <div class="zbox issue">
+            <strong>⚠ <span class="en">Problem</span><span class="zh-alt">问题</span>：肩膀那里有点儿紧</strong>
+            <span class="en">The shoulder area is a bit tight (紧 = constricting)</span><span class="zh-alt">肩膀部位有点紧（紧 = 活动受限）</span>
+          </div>
+          <div class="zbox fix">
+            <strong>✓ <span class="en">Fix</span><span class="zh-alt">改法</span></strong>
+            改大 → <span class="en">let out (fix 紧)</span><span class="zh-alt">放大（解决紧的问题）</span><br>
+            改小 → <span class="en">take in (fix 肥)</span><span class="zh-alt">收小（解决肥的问题）</span>
+          </div>
+        </div>
+
+        <div id="zd-xiuz" class="zpanel">
+          <h4>袖子 <span class="zpy">xiùzi</span></h4>
+          <details class="znote">
+            <summary></summary>
+            <div class="zdesc">Fabric tube from shoulder seam to cuff. In compound types (长袖, 短袖) the 子 drops — don't say 长袖子. Standalone 袖子 is correct in fit complaints.</div>
+          </details>
+          <div class="zbox issue">
+            <strong>⚠ <span class="en">Problem</span><span class="zh-alt">问题</span>：袖子有点儿长</strong>
+            <span class="en">The sleeves are a bit long</span><span class="zh-alt">袖子有点长</span>
+          </div>
+          <div class="zbox fix">
+            <strong>✓ <span class="en">Fix</span><span class="zh-alt">改法</span></strong>
+            改短 → <span class="en">shorten</span><span class="zh-alt">改短</span><br>
+            改长 → <span class="en">lengthen</span><span class="zh-alt">改长</span>
+          </div>
+        </div>
+
+        <div id="zd-yaow" class="zpanel">
+          <h4>腰 <span class="zpy">yāo</span></h4>
+          <details class="znote">
+            <summary></summary>
+            <div class="zdesc">The waist zone — felt, not measured. Distinct from 腰围 (the number in cm). 腰有点肥 = the zone feels baggy; 腰围68厘米 = the measurement is 68cm.</div>
+          </details>
+          <div class="zbox issue">
+            <strong>⚠ <span class="en">Problem</span><span class="zh-alt">问题</span>：裤子的腰那里有点儿肥</strong>
+            <span class="en">The trouser waist is a bit baggy (肥 = ill-fitting)</span><span class="zh-alt">裤子腰部有点肥（肥 = 不合身）</span>
+          </div>
+          <div class="zbox fix">
+            <strong>✓ <span class="en">Fix</span><span class="zh-alt">改法</span></strong>
+            肥 → 改小<br>紧 → 放大 / 改大
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 6. Actions + outcomes ────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Actions &amp; Outcomes</span><span class="zh-alt">动作与结果</span></div>
+    <h2>动词 + 结果词</h2>
+    <div class="sec-rule"></div>
+
+    <div class="grid">
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">搜索</div>
+          <div class="vp">sōusuǒ</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">to search (online)</div>
+          <div class="vm-zh">在网上查找信息</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">我上网搜索了一下儿，发现了一个很大的布料市场。</div>
+              <div class="en">I did a quick online search and discovered a large fabric market.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">The general-purpose internet search verb. 搜 alone = search physically (搜身 = frisk). The 一下儿 adds the "casual quick look" nuance.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">发现</div>
+          <div class="vp">fāxiàn</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">to discover / find out / notice</div>
+          <div class="vm-zh">找到或意识到之前不知道的事物</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">我还是发现了一点儿小问题：肩膀那里有点儿紧。</div>
+              <div class="en">I still noticed a few small issues: the shoulders were a bit tight.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Covers "discover," "find out," "realize," and "notice" — all epistemic events where something previously unknown becomes known. Appears twice in the passage with different senses.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">量尺寸</div>
+          <div class="vp">liàng chǐ cun</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">to take measurements</div>
+          <div class="vm-zh">用尺子测量各部位尺寸</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">老板娘给我量了尺寸，告诉我一个星期以后就可以去取。</div>
+              <div class="en">The proprietress took my measurements and said I could collect in a week.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Tone trap: 量 here = liàng ↘ (4th, to measure) ≠ liáng ↗ (2nd, quantity/amount as in 数量、质量). Opposite tones, opposite grammatical roles.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">改</div>
+          <div class="vp">gǎi</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">to alter (a garment)</div>
+          <div class="vm-zh">修改衣服尺寸使其合身</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">都可以照我的要求改小或者放大。</div>
+              <div class="en">All of it can be taken in or let out to my specifications.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Physical reshaping for fit — not fixing a mistake (改正) or repairing (修). Key result compounds: 改好, 改短, 改大, 改小. Object placement: 改裤子尺寸 ✓ / *改尺寸裤子 ✗.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">要求</div>
+          <div class="vp">yāoqiú</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">requirements (n.) / to require (v.)</div>
+          <div class="vm-zh">提出的标准或需求（名/动词）</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">都可以照我的要求改小或者放大。</div>
+              <div class="en">All can be altered to my specifications.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Emotionally neutral — no confrontational charge unlike English "demand." In the passage: 照我的要求 = "according to my specifications." A tailor or manager 要求 things as a matter of course.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">满意</div>
+          <div class="vp">mǎnyì</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">satisfied / pleased</div>
+          <div class="vm-zh">对结果或状况感到满足</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">我对那个料子也很满意。</div>
+              <div class="en">I was very satisfied with the fabric too.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Stative adjective, not transitive verb. Object of satisfaction needs 对-fronting: ✓ 我对那个料子很满意 / ✗ 我满意那个料子. Bare 满意 = short affirmative answer.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">样子</div>
+          <div class="vp">yàngzi</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">appearance / the way something looks</div>
+          <div class="vm-zh">外观；形态；事物呈现的方式</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">先选料子，然后请裁缝照样子做。</div>
+              <div class="en">First choose fabric, then ask the tailor to make it following the design.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Unifies three domains English splits: visual form (房子的样子), demeanor (一副生气的样子), manner of action (他工作的样子). 照样子做 = make it following the appearance of the model.</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+
+      <div class="vcard">
+        <div class="vhead">
+          <div class="vh">款式</div>
+          <div class="vp">kuǎn shì</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">design / style / cut (of a product)</div>
+          <div class="vm-zh">产品的设计风格或型号</div>
+        </div>
+        <div class="vcontent">
+          <div class="vtabs">
+            <button class="vtab active" data-panel="ex">例句</button>
+            <button class="vtab" data-panel="img">图片</button>
+            <button class="vtab" data-panel="aud">🔊</button>
+          </div>
+          <div class="vpanel active" data-panel="ex">
+            <div class="vex">
+              <div class="zh">这件裙子的款式很显身材。</div>
+              <div class="en">This dress's cut really flatters the figure.</div>
+            </div>
+            <details class="vnote">
+              <summary></summary>
+              <div class="vn">Product-centric — a dress has a 款式, a person does not. Narrower than 样子. Presupposes factory-made goods with selectable variants: 你们有什么款式? = "What models do you carry?"</div>
+            </details>
+          </div>
+          <div class="vpanel" data-panel="img"><div class="vimg-placeholder">图片</div></div>
+          <div class="vpanel" data-panel="aud"><div class="vaudio-btn">例句音频</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 7. Passage ────────────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Source Text</span><span class="zh-alt">原文</span></div>
+    <h2>原文</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.82rem;margin-bottom:1.25rem"><span class="en">Key vocabulary underlined — hover for English gloss. Toggle pinyin above.</span><span class="zh-alt">关键词汇下划线标注——悬停查看英文注释。</span></p>
+
+    <div class="passage" style="max-width:700px">
+      <p>
+        来中国以后，我听很多人说在这里找<span class="hl" data-t="tailor">裁缝</span>做衣服又好又便宜，所以我也非常想试试。我上网<span class="hl" data-t="search online">搜索</span>了一下儿，<span class="hl" data-t="discovered / found">发现</span>了一个很大的<span class="hl" data-t="fabric market">布料市场</span>，市场里面有很多<span class="hl" data-t="tailor shop">裁缝店</span>。你可以带自己的衣服或者<span class="hl" data-t="magazine">杂志</span>去那里，先选<span class="hl" data-t="fabric (colloquial, tactile)">料子</span>，然后请裁缝照<span class="hl" data-t="appearance / the design model">样子</span>做。
+      </p>
+      <p>
+        对布料市场和裁缝店都了解好了以后，我和一个朋友一起去了那里。我带了一本杂志，打算请裁缝照杂志上的<span class="hl" data-t="designer label">名牌</span><span class="hl" data-t="Western suit">西装</span>做。照我朋友说的，我们选了一家比较大、生意比较好的裁缝店。<span class="hl" data-t="proprietress (woman running the shop)">老板娘</span>看了杂志上的那套名牌西装以后，帮我选了最适合的<span class="hl" data-t="fabric (colloquial)">料子</span>。我对那个料子也很<span class="hl" data-t="satisfied (对…满意)">满意</span>。然后老板娘给我<span class="hl" data-t="took my measurements (liàng ↘ = to measure)">量了尺寸</span>，告诉我一个星期以后就可以去取。
+      </p>
+      <p>
+        一个星期以后，我一个人又去了那个布料市场。我的西装已经做好了。我试了试，质量非常好，和杂志上的名牌西装一样。不过我还是<span class="hl" data-t="discovered / noticed">发现</span>了一点儿小问题：<span class="hl" data-t="shoulder">肩膀</span>那里有点儿<span class="hl" data-t="tight (too constricting)">紧</span>，<span class="hl" data-t="sleeve">袖子</span>有点儿长，<span class="hl" data-t="trousers">裤子</span>的<span class="hl" data-t="waist (body zone, not the measurement)">腰</span>那里有点儿<span class="hl" data-t="baggy/ill-fitting (≠ 宽松 which is intentional)">肥</span>。老板娘说这些都不是大问题，都可以照我的<span class="hl" data-t="requirements / specifications">要求</span><span class="hl" data-t="alter (改小=take in, 改大=let out)">改</span>小或者放大。我希望老板娘可以改得快一点儿。老板娘说她马上就帮我改，我第二天就可以取。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 8. Comprehension questions ───────────────── -->
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Reflect</span><span class="zh-alt">复习</span></div>
+    <h2>阅读理解</h2>
+    <div class="sec-rule"></div>
+
+    <div class="pullquote">
+      <span class="en">Having absorbed the domain, these should come easily — no looking up required.</span><span class="zh-alt">已吸收领域词汇后，这些问题应能自然作答，无需查阅。</span>
+    </div>
+
+    <ol class="qlist">
+      <li class="qitem">
+        <div class="qzh">他是怎么知道那个布料市场的？</div>
+        <div class="qpy">Tā shì zěnme zhīdao nà ge bùliào shìchǎng de?</div>
+        <div class="qhint en">What did he do online, and what verb describes that action?</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">他在那里做了什么，是照什么做的？</div>
+        <div class="qpy">Tā zài nàlǐ zuò le shénme, shì zhào shénme zuò de?</div>
+        <div class="qhint en">What object did he bring, and what did it represent for the tailor? Think: 照样子做.</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">在那里做一套西装大概要多长时间？做好一套西装他一共要去几次？</div>
+        <div class="qpy">Zài nàlǐ zuò yī tào xīzhuāng dàgài yào duō cháng shíjiān?</div>
+        <div class="qhint en">Two sub-questions. Read the timeline carefully — count every trip to the 布料市场.</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">第一次去取西装的时候，他发现了什么问题？老板娘打算帮他做什么？</div>
+        <div class="qpy">Dì-yī cì qù qǔ xīzhuāng de shíhou, tā fāxiàn le shénme wèntí?</div>
+        <div class="qhint en">Three fit zones affected — name them. What is the word for what the 老板娘 will do to the garment?</div>
+      </li>
+    </ol>
+  </div>
+</section>
+
 
 <footer>
   <div>西装定制 · 布料市场</div>
 </footer>
 
 <script src="../shared/base.js"></script>
+<script>
+function setFit(btn) {
+  document.querySelectorAll('.sbtn').forEach(b => b.classList.remove('on'));
+  document.querySelectorAll('.fit-panel').forEach(p => p.style.display = 'none');
+  btn.classList.add('on');
+  const panel = document.getElementById('fp-' + btn.dataset.key);
+  if (panel) panel.style.display = 'block';
+}
+
+function showZone(id) {
+  document.getElementById('zd-default').style.display = 'none';
+  document.querySelectorAll('.zpanel').forEach(p => p.classList.remove('on'));
+  const panel = document.getElementById('zd-' + id);
+  if (panel) panel.classList.add('on');
+}
+</script>
 </body>
 </html>

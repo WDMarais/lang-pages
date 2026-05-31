@@ -1,0 +1,120 @@
+/* xi-zhuang page-specific styles */
+:root { --scale: 1; }
+
+/* ── Process flow ──────────────────────────────── */
+.flow { display: flex; align-items: stretch; overflow-x: auto; padding-bottom: 0.75rem; gap: 0; }
+.flow-step {
+  flex: 0 0 auto; min-width: 100px;
+  background: white; border: 1px solid var(--border);
+  border-radius: 8px; padding: 0.85rem 0.75rem; text-align: center;
+}
+.flow-step.accent { border-top: 3px solid var(--red); }
+.flow-step.done   { border-top: 3px solid var(--green); }
+.flow-arrow { flex: 0 0 auto; display: flex; align-items: center; padding: 0 0.4rem; color: var(--muted); }
+.fh { font-size: 1.2rem; font-weight: 700; color: var(--navy); }
+.fpy { display: none; font-size: 0.65rem; color: var(--red); margin-top: 0.1rem; }
+body.show-py .fpy { display: block; }
+.fe { font-size: 0.72rem; color: var(--muted); margin-top: 0.2rem; }
+
+/* ── Comparison table ──────────────────────────── */
+.ctable { width: 100%; border-collapse: collapse; font-size: 0.84rem; border-radius: 8px; overflow: hidden; margin-bottom: 2rem; }
+.ctable th { background: var(--navy); color: white; padding: 0.65rem 0.9rem; text-align: left; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.04em; }
+.ctable td { padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.ctable tr:last-child td { border-bottom: none; }
+.ctable tr:nth-child(even) td { background: var(--cream); }
+.ctable .cht { font-size: 1.5rem; font-weight: 800; color: var(--navy); }
+.ctable .cpy { font-size: 0.76rem; color: var(--red); display: none; }
+body.show-py .ctable .cpy { display: block; }
+
+/* ── Fit spectrum ──────────────────────────────── */
+.spectrum-wrap { background: white; border-radius: 12px; padding: 1.75rem; border: 1px solid var(--border); }
+.spectrum-track {
+  position: relative; display: flex; justify-content: space-between; align-items: center;
+  margin: 1.5rem 0 0.5rem;
+}
+.spec-line {
+  position: absolute; top: 50%; left: 0; right: 0; height: 2px; transform: translateY(-50%);
+  background: linear-gradient(to right, #C41E3A 0%, #2C6B3E 34%, #2C6B3E 66%, #C41E3A 100%);
+  z-index: 0;
+}
+.sbtn {
+  position: relative; z-index: 1;
+  background: white; border: 2px solid var(--border);
+  border-radius: 40px; padding: 0.38rem 1rem;
+  cursor: pointer; font-size: 1.1rem; font-weight: 700; transition: all 0.18s;
+}
+.sbtn.neg { border-color: var(--red); color: var(--red); }
+.sbtn.pos { border-color: var(--green); color: var(--green); }
+.sbtn.on  { transform: scale(1.18); box-shadow: 0 2px 14px rgba(0,0,0,0.14); }
+.sbtn.on.neg { background: var(--red); color: white; }
+.sbtn.on.pos { background: var(--green); color: white; }
+.spec-legs { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--muted); margin-bottom: 1.25rem; }
+.fit-panel { padding: 1.1rem 1.2rem; background: var(--cream); border-radius: 8px; border-left: 4px solid var(--navy); }
+.fit-panel h4 { font-size: 1.2rem; display: flex; align-items: baseline; gap: 0.45rem; }
+.fp2 { font-size: 0.78rem; color: var(--red); font-weight: 400; display: none; }
+body.show-py .fp2 { display: inline; }
+.fit-panel > p { font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem; }
+.fit-ex { margin-top: 0.7rem; border-top: 1px solid var(--border); padding-top: 0.7rem; font-size: 0.84rem; }
+.fit-en { font-size: 0.78rem; color: var(--muted); margin-top: 0.2rem; }
+details.fitnote { margin-top: 0.5rem; }
+details.fitnote > summary { font-size: 0.7rem; color: var(--muted); cursor: pointer; padding: 0.35rem 0; list-style: none; }
+details.fitnote > summary::before        { content: '+ note'; }
+details.fitnote[open] > summary::before { content: '− note'; }
+body.hide-en details.fitnote > summary::before        { content: '+ 注'; }
+body.hide-en details.fitnote[open] > summary::before { content: '− 注'; }
+.fit-tip { font-size: 0.8rem; color: var(--navy2); font-weight: 500; }
+
+/* ── Suit diagram ──────────────────────────────── */
+.suit-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; align-items: start; }
+.suit-svg { width: 100%; max-width: 240px; display: block; margin: 0 auto; cursor: default; }
+.zone-default {
+  background: var(--cream); border: 1px dashed var(--border);
+  border-radius: 8px; padding: 2rem 1.5rem;
+  text-align: center; color: var(--muted); font-size: 0.85rem;
+}
+.zpanel { display: none; background: white; border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; }
+.zpanel.on { display: block; }
+.zpanel h4 { font-size: 1.4rem; }
+.zpanel .zpy { font-size: 0.82rem; color: var(--red); display: none; }
+body.show-py .zpanel .zpy { display: inline; }
+.zdesc { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+details.znote { margin-top: 0.5rem; }
+details.znote > summary { font-size: 0.7rem; color: var(--muted); cursor: pointer; padding: 0.35rem 0; list-style: none; }
+details.znote > summary::before        { content: '+ about this term'; }
+details.znote[open] > summary::before { content: '− about this term'; }
+body.hide-en details.znote > summary::before        { content: '+ 释义'; }
+body.hide-en details.znote[open] > summary::before { content: '− 释义'; }
+.zbox { margin-top: 0.75rem; padding: 0.7rem; border-radius: 6px; font-size: 0.84rem; }
+.zbox.issue { background: #FFF3F5; border-left: 3px solid var(--red); }
+.zbox.fix   { background: #F0FAF4; border-left: 3px solid var(--green); }
+.zbox strong { display: block; margin-bottom: 0.2rem; }
+
+/* ── Comprehension questions ───────────────────── */
+.qlist { list-style: none; counter-reset: qc; }
+.qitem {
+  counter-increment: qc;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px; padding: 1.1rem 1.1rem 1.1rem 3.5rem;
+  margin-bottom: 0.9rem; position: relative;
+}
+.qitem::before {
+  content: counter(qc);
+  position: absolute; left: 1rem; top: 1rem;
+  width: 1.8rem; height: 1.8rem;
+  background: var(--red); color: white;
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 0.85rem;
+}
+.qzh { font-size: 0.97rem; font-weight: 500; }
+.qpy { display: none; font-size: 0.75rem; color: #FF8FA0; margin-top: 0.2rem; }
+body.show-py .qpy { display: block; }
+.qhint { font-size: 0.76rem; color: rgba(255,255,255,0.45); margin-top: 0.4rem; font-style: italic; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.4rem; }
+
+/* ── Pull quote ────────────────────────────────── */
+.pullquote { border-left: 4px solid var(--gold); padding: 0.75rem 1.25rem; color: rgba(255,255,255,0.75); font-style: italic; font-size: 0.95rem; margin: 1.5rem 0; }
+
+/* ── Responsive ────────────────────────────────── */
+@media (max-width: 620px) {
+  .suit-layout { grid-template-columns: 1fr; }
+}
