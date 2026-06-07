@@ -87,29 +87,6 @@ body.show-py .vp { display: block; }
 .vm    { font-size: calc(1.05rem * var(--scale)); font-weight: 600; }
 .vm-zh { font-size: calc(1.05rem * var(--scale)); font-weight: 600; }
 
-/* content tab strip */
-.vtabs {
-  display: flex; border-bottom: 1px solid var(--border); margin-bottom: 0.6rem;
-}
-.vtab {
-  background: none; border: none; cursor: pointer; font-family: inherit;
-  font-size: calc(0.72rem * var(--scale)); color: var(--muted);
-  padding: 0.3rem 0.8rem 0.35rem; border-bottom: 2px solid transparent;
-  margin-bottom: -1px; transition: color 0.15s;
-}
-.vtab.active { color: var(--navy); border-bottom-color: var(--red); font-weight: 600; }
-.vtab:hover:not(.active) { color: var(--ink); }
-.vpanel { display: none; }
-.vpanel.active { display: block; }
-
-.vimg img { width: 100%; border-radius: 6px; display: block; }
-.vimg-placeholder {
-  aspect-ratio: 3/2; border-radius: 6px;
-  background: var(--cream); border: 2px dashed var(--border);
-  display: flex; align-items: center; justify-content: center;
-  color: var(--muted); font-size: calc(0.72rem * var(--scale));
-}
-
 .vex {
   padding: 0.7rem 0.85rem;
   background: var(--cream); border-left: 3px solid var(--red); border-radius: 3px;
@@ -117,14 +94,17 @@ body.show-py .vp { display: block; }
 .vex .zh { font-size: calc(1rem * var(--scale)); font-weight: 500; line-height: 1.6; }
 .vex .en { font-size: calc(0.88rem * var(--scale)); color: var(--muted); margin-top: 0.2rem; }
 
-.vaudio audio { width: 100%; }
-.vaudio-btn {
-  display: flex; align-items: center; gap: 0.5rem; width: 100%;
-  padding: 0.45rem 0.75rem; border-radius: 6px;
-  background: var(--cream); border: 2px dashed var(--border);
-  color: var(--muted); font-size: calc(0.75rem * var(--scale));
+.vplay {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  margin-top: 0.55rem;
+  background: white; border: 1px solid var(--border);
+  border-radius: 20px; padding: 0.18rem 0.65rem;
+  cursor: pointer; font-family: inherit;
+  font-size: calc(0.72rem * var(--scale)); color: var(--navy);
+  transition: all 0.15s;
 }
-.vaudio-btn::before { content: '♪'; color: var(--navy); }
+.vplay:hover  { background: var(--navy); color: white; border-color: var(--navy); }
+.vplay.playing { background: var(--red);  color: white; border-color: var(--red); }
 
 details.vnote { margin-top: 0.6rem; border-top: 1px solid var(--border); }
 details.vnote > summary { font-size: calc(0.75rem * var(--scale)); color: var(--muted); cursor: pointer; padding: 0.4rem 0; list-style: none; }

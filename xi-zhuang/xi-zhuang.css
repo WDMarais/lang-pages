@@ -1,6 +1,16 @@
 /* xi-zhuang page-specific styles */
 :root { --scale: 1; }
 
+/* ── Per-card voice group ───────────────────────── */
+.vplay-group {
+  display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.55rem;
+}
+.vplay-group .vplay {
+  margin-top: 0;
+  font-size: calc(0.68rem * var(--scale));
+  padding: 0.15rem 0.55rem;
+}
+
 /* ── Process flow ──────────────────────────────── */
 .flow { display: flex; align-items: stretch; overflow-x: auto; padding-bottom: 0.75rem; gap: 0; }
 .flow-step {
