@@ -1,0 +1,348 @@
+{
+  "people": [
+    {
+      "slug": "cai-feng",
+      "hanzi": "裁缝",
+      "pinyin": "cáifeng",
+      "meaning": "tailor / seamstress",
+      "meaning_zh": "量体裁衣的手艺人",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "他找裁缝照着照片做了一件旗袍。",
+          "en": "He had a tailor make a qipao based on a photo.",
+          "audio": {
+            "晓晓": "audio/cai-feng-xiaoxiao.mp3",
+            "晓伊": "audio/cai-feng-xiaoyi.mp3",
+            "云扬": "audio/cai-feng-yunyang.mp3",
+            "云希": "audio/cai-feng-yunxi.mp3",
+            "录音": "audio/cai-feng.mp3"
+          }
+        }
+      ],
+      "note": "裁（剪布）加缝（针线），专做定制服装与改衣，不是设计师（设计师负责款式设计）。「缝」在这里读轻声，标志词性为名词。英语「tailor-made」泛指「定制/个性化」，不对应「裁缝」——定制衣物说「量身定做」。"
+    },
+    {
+      "slug": "lao-ban-niang",
+      "hanzi": "老板娘",
+      "pinyin": "lǎobǎnniáng",
+      "meaning": "proprietress — woman running the shop",
+      "meaning_zh": "管理店铺的女老板",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "老板娘，我的西装你们做好了吗？",
+          "en": "Is my suit ready?",
+          "audio": {
+            "晓晓": "audio/lao-ban-niang-xiaoxiao.mp3",
+            "晓伊": "audio/lao-ban-niang-xiaoyi.mp3",
+            "云扬": "audio/lao-ban-niang-yunyang.mp3",
+            "云希": "audio/lao-ban-niang-yunxi.mp3",
+            "录音": "audio/lao-ban-niang.mp3"
+          }
+        }
+      ],
+      "note": "老板本身不含性别，谁开店谁是老板。加上「娘」，就变成对女性店主（或老板妻子）的口语称呼，带亲切家常色彩，不适合正式商务场合。"
+    }
+  ],
+  "suits": [
+    {
+      "slug": "xi-zhuang",
+      "hanzi": "西装",
+      "pinyin": "xī zhuāng",
+      "meaning": "Western-style suit",
+      "meaning_zh": "西式上衣与裤子的套装",
+      "examples": [
+        {
+          "zh": "这套西装挺合身的，颜色也很适合你。",
+          "en": "This suit fits very well, and the colour suits you too.",
+          "audio": {
+            "晓晓": "audio/xi-zhuang-xiaoxiao.mp3",
+            "晓伊": "audio/xi-zhuang-xiaoyi.mp3",
+            "云扬": "audio/xi-zhuang-yunyang.mp3",
+            "云希": "audio/xi-zhuang-yunxi.mp3",
+            "录音": "audio/xi-zhuang.mp3"
+          }
+        }
+      ],
+      "note": "这个「西」标记文化对比，属于近代化对比词集：西装、西餐、西医（对应中装、中餐、中医）。不是所有「西」都有此含义——西瓜、东西里的「西」不指西方。在中国文化语境里，西装象征商务正式感与向上流动。"
+    },
+    {
+      "slug": "ming-pai",
+      "hanzi": "名牌",
+      "pinyin": "míng pái",
+      "meaning": "designer label / famous brand",
+      "meaning_zh": "著名品牌；奢侈品牌",
+      "examples": [
+        {
+          "zh": "这件西装是名牌的，当然贵。",
+          "en": "This suit is a designer label — of course it's expensive.",
+          "audio": {
+            "晓晓": "audio/ming-pai-xiaoxiao.mp3",
+            "晓伊": "audio/ming-pai-xiaoyi.mp3",
+            "云扬": "audio/ming-pai-yunyang.mp3",
+            "云希": "audio/ming-pai-yunxi.mp3",
+            "录音": "audio/ming-pai.mp3"
+          }
+        }
+      ],
+      "note": "名牌自带高端含义，不是中性词——普通品牌只说「品牌」。可延伸：名牌大学（顶尖大学）。⚠ 多义陷阱：「名牌」也指胸牌或姓名牌（别上名牌 = 戴上名字牌），语境完全不同。"
+    }
+  ],
+  "body": [
+    {
+      "slug": "jian-bang",
+      "hanzi": "肩膀",
+      "pinyin": "jiān bǎng",
+      "meaning": "shoulder",
+      "meaning_zh": "颈部两侧、手臂上方的关节部位",
+      "examples": [
+        {
+          "zh": "可是我觉得肩膀这里有点紧，袖子也有点长。",
+          "en": "But I think the shoulders are a bit tight and the sleeves a bit long.",
+          "audio": {
+            "晓晓": "audio/jian-bang-xiaoxiao.mp3",
+            "晓伊": "audio/jian-bang-xiaoyi.mp3",
+            "云扬": "audio/jian-bang-yunyang.mp3",
+            "云希": "audio/jian-bang-yunxi.mp3",
+            "录音": "audio/jian-bang.mp3"
+          }
+        }
+      ],
+      "note": "指关节与周围肌肉，是身体部位。量体时说「肩宽」（测量数据），谈穿着感受时说「肩膀」。肩缝必须落在这里，衣服才垂得好看。"
+    },
+    {
+      "slug": "xiu-zi",
+      "hanzi": "袖子",
+      "pinyin": "xiùzi",
+      "meaning": "sleeve",
+      "meaning_zh": "衣服覆盖手臂的部分，从肩部到袖口",
+      "examples": [
+        {
+          "zh": "袖子我可以改短，肩膀这里放大的话，我担心没有现在合身。",
+          "en": "I can shorten the sleeves, but if I let out the shoulders it may not fit as well.",
+          "audio": {
+            "晓晓": "audio/xiu-zi-xiaoxiao.mp3",
+            "晓伊": "audio/xiu-zi-xiaoyi.mp3",
+            "云扬": "audio/xiu-zi-yunyang.mp3",
+            "云希": "audio/xiu-zi-yunxi.mp3",
+            "录音": "audio/xiu-zi.mp3"
+          }
+        }
+      ],
+      "note": "从肩缝到袖口的布料段。进入复合词时「子」脱落：长袖、短袖——不说「长袖子」。英语「have something up your sleeve」（暗藏计划）在中文里没有对应的袖子比喻，中文说「留一手」。"
+    },
+    {
+      "slug": "yao",
+      "hanzi": "腰",
+      "pinyin": "yāo",
+      "meaning": "waist (body zone)",
+      "meaning_zh": "身体中部；服装腰部区域",
+      "examples": [
+        {
+          "zh": "裤子长短正好，可是腰这里有点肥。",
+          "en": "The trouser length is just right, but the waist is a bit baggy.",
+          "audio": {
+            "晓晓": "audio/yao-xiaoxiao.mp3",
+            "晓伊": "audio/yao-xiaoyi.mp3",
+            "云扬": "audio/yao-yunyang.mp3",
+            "云希": "audio/yao-yunxi.mp3",
+            "录音": "audio/yao.mp3"
+          }
+        }
+      ],
+      "note": "感受到的区域，不是数字：腰有点紧（感觉紧）vs 腰围68厘米（测量值）。「腰」的范围比英语「waist」更靠后——腰疼也包括下背部，英语要说「lower back pain」。"
+    },
+    {
+      "slug": "ku-zi",
+      "hanzi": "裤子",
+      "pinyin": "kùzi",
+      "meaning": "trousers / pants",
+      "meaning_zh": "穿在腰部以下、覆盖两腿的服装",
+      "examples": [
+        {
+          "zh": "裤子长短正好，可是腰这里有点肥。",
+          "en": "The trouser length is just right, but the waist is a bit baggy.",
+          "audio": {
+            "晓晓": "audio/ku-zi-xiaoxiao.mp3",
+            "晓伊": "audio/ku-zi-xiaoyi.mp3",
+            "云扬": "audio/ku-zi-yunyang.mp3",
+            "云希": "audio/ku-zi-yunxi.mp3",
+            "录音": "audio/ku-zi.mp3"
+          }
+        }
+      ],
+      "note": "量词用「条」（细长物），不用「双」（成对物）——一条裤子。独立名词里「子」是固定词素；进复合词就用「裤」本身：牛仔裤、短裤——不加「子」。"
+    }
+  ],
+  "actions": [
+    {
+      "slug": "sou-suo",
+      "hanzi": "搜索",
+      "pinyin": "sōusuǒ",
+      "meaning": "to search (online)",
+      "meaning_zh": "在网上查找信息",
+      "examples": [
+        {
+          "zh": "我上网搜索了一下儿，发现了一个很大的布料市场。",
+          "en": "I did a quick online search and discovered a large fabric market.",
+          "audio": {
+            "晓晓": "audio/sou-suo-xiaoxiao.mp3",
+            "晓伊": "audio/sou-suo-xiaoyi.mp3",
+            "云扬": "audio/sou-suo-yunyang.mp3",
+            "云希": "audio/sou-suo-yunxi.mp3",
+            "录音": "audio/sou-suo.mp3"
+          }
+        }
+      ],
+      "note": "互联网搜索的通用动词。单独的「搜」偏向身体搜查（搜身 = 搜人），加上「索」才扩展到信息检索。「一下儿」加上去，语气变成随手查了查，不强调结果。"
+    },
+    {
+      "slug": "fa-xian",
+      "hanzi": "发现",
+      "pinyin": "fāxiàn",
+      "meaning": "to discover / find out / notice",
+      "meaning_zh": "找到或意识到之前不知道的事物",
+      "examples": [
+        {
+          "zh": "我还是发现了一点儿小问题：肩膀那里有点儿紧。",
+          "en": "I still noticed a few small issues: the shoulders were a bit tight.",
+          "audio": {
+            "晓晓": "audio/fa-xian-xiaoxiao.mp3",
+            "晓伊": "audio/fa-xian-xiaoyi.mp3",
+            "云扬": "audio/fa-xian-yunyang.mp3",
+            "云希": "audio/fa-xian-yunxi.mp3",
+            "录音": "audio/fa-xian.mp3"
+          }
+        }
+      ],
+      "note": "覆盖「发现、意识到、注意到」等认识事件——共同点：之前不知道，现在知道了。原文出现两次：第一次是主动搜寻的结果（发现了市场），第二次是被动注意到（发现了小问题）。"
+    },
+    {
+      "slug": "liang-chi-cun",
+      "hanzi": "量尺寸",
+      "pinyin": "liàng chǐ cun",
+      "meaning": "to take measurements",
+      "meaning_zh": "用尺子测量各部位尺寸",
+      "examples": [
+        {
+          "zh": "来，我给你量量尺寸。",
+          "en": "Come, let me take your measurements.",
+          "audio": {
+            "晓晓": "audio/liang-chi-cun-xiaoxiao.mp3",
+            "晓伊": "audio/liang-chi-cun-xiaoyi.mp3",
+            "云扬": "audio/liang-chi-cun-yunyang.mp3",
+            "云希": "audio/liang-chi-cun-yunxi.mp3",
+            "录音": "audio/liang-chi-cun.mp3"
+          }
+        }
+      ],
+      "note": "声调陷阱：这里读 liàng（去声↘），是动词「量体」的量——不是 liáng（阳平↗），即「数量、质量」里表数量的「量」。声调相反，词性也相反（动词 vs 名/形）。"
+    },
+    {
+      "slug": "gai",
+      "hanzi": "改",
+      "pinyin": "gǎi",
+      "meaning": "to alter (a garment)",
+      "meaning_zh": "修改衣服尺寸使其合身",
+      "examples": [
+        {
+          "zh": "没问题，这个也可以改小。",
+          "en": "No problem, that can be taken in too.",
+          "audio": {
+            "晓晓": "audio/gai-xiaoxiao.mp3",
+            "晓伊": "audio/gai-xiaoyi.mp3",
+            "云扬": "audio/gai-yunyang.mp3",
+            "云希": "audio/gai-yunxi.mp3",
+            "录音": "audio/gai.mp3"
+          }
+        }
+      ],
+      "note": "为合身而重新剪裁——不是纠正错误（改正），也不是修缮损坏（修）。常见结果补语：改好、改短、改大、改小。宾语顺序：改裤子尺寸 ✓ / 改尺寸裤子 ✗。"
+    },
+    {
+      "slug": "yao-qiu",
+      "hanzi": "要求",
+      "pinyin": "yāoqiú",
+      "meaning": "requirements (n.) / to require (v.)",
+      "meaning_zh": "提出的标准或需求（名/动词）",
+      "examples": [
+        {
+          "zh": "都可以照我的要求改小或者放大。",
+          "en": "All can be altered to my specifications.",
+          "audio": {
+            "晓晓": "audio/yao-qiu-xiaoxiao.mp3",
+            "晓伊": "audio/yao-qiu-xiaoyi.mp3",
+            "云扬": "audio/yao-qiu-yunyang.mp3",
+            "云希": "audio/yao-qiu-yunxi.mp3",
+            "录音": "audio/yao-qiu.mp3"
+          }
+        }
+      ],
+      "note": "情感中性，没有英语「demand」那种对抗性语气——裁缝或上司说「要求」是正常用语，不显强硬。原文里：照我的要求 = 按照我说的标准，接近「规格/标准」的意思。"
+    },
+    {
+      "slug": "man-yi",
+      "hanzi": "满意",
+      "pinyin": "mǎnyì",
+      "meaning": "satisfied / pleased",
+      "meaning_zh": "对结果或状况感到满足",
+      "examples": [
+        {
+          "zh": "我对那个料子也很满意。",
+          "en": "I was very satisfied with the fabric too.",
+          "audio": {
+            "晓晓": "audio/man-yi-xiaoxiao.mp3",
+            "晓伊": "audio/man-yi-xiaoyi.mp3",
+            "云扬": "audio/man-yi-yunyang.mp3",
+            "云希": "audio/man-yi-yunxi.mp3",
+            "录音": "audio/man-yi.mp3"
+          }
+        }
+      ],
+      "note": "状态形容词，不是及物动词。满意的对象要用「对」引出：✓ 我对那个料子很满意 / ✗ 我满意那个料子。单独说「满意」是简短肯定答语。"
+    },
+    {
+      "slug": "yang-zi",
+      "hanzi": "样子",
+      "pinyin": "yàngzi",
+      "meaning": "appearance / the way something looks",
+      "meaning_zh": "外观；形态；事物呈现的方式",
+      "examples": [
+        {
+          "zh": "你看，照这个样子做，可以吗？",
+          "en": "Look, can you make it following this design?",
+          "audio": {
+            "晓晓": "audio/yang-zi-xiaoxiao.mp3",
+            "晓伊": "audio/yang-zi-xiaoyi.mp3",
+            "云扬": "audio/yang-zi-yunyang.mp3",
+            "云希": "audio/yang-zi-yunxi.mp3",
+            "录音": "audio/yang-zi.mp3"
+          }
+        }
+      ],
+      "note": "「样子」把英语要用三个词的概念统一了：外形（房子的样子）、神态（一副生气的样子）、做事方式（他工作的样子）。照样子做 = 仿照这个外观来做。"
+    },
+    {
+      "slug": "kuan-shi",
+      "hanzi": "款式",
+      "pinyin": "kuǎn shì",
+      "meaning": "design / style / cut (of a product)",
+      "meaning_zh": "产品的设计风格或型号",
+      "examples": [
+        {
+          "zh": "这件裙子的款式很显身材。",
+          "en": "This dress's cut really flatters the figure.",
+          "audio": {
+            "晓晓": "audio/kuan-shi-xiaoxiao.mp3",
+            "晓伊": "audio/kuan-shi-xiaoyi.mp3",
+            "云扬": "audio/kuan-shi-yunyang.mp3",
+            "云希": "audio/kuan-shi-yunxi.mp3",
+            "录音": "audio/kuan-shi.mp3"
+          }
+        }
+      ],
+      "note": "以产品为中心——衣服有款式，人没有款式。比「样子」窄：预设是可选的出厂款型，你们有什么款式 = 你们提供哪些型号？人的穿衣风格说「风格」或「穿衣样子」，不说「款式」。"
+    }
+  ]
+}

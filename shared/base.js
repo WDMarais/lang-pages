@@ -22,10 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       if (activeBtn === btn) { activeBtn = null; activeAudio = null; return; }
 
-      const { slug, voice, src } = btn.dataset;
-      const url = slug
-        ? (voice === 'recording' ? `audio/${slug}.mp3` : `audio/${slug}-${voice}.mp3`)
-        : src;
+      const url = btn.dataset.src;
 
       const audio = new Audio(url);
       activeAudio = audio; activeBtn = btn;
