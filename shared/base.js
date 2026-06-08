@@ -12,26 +12,23 @@ function toggleEn() {
 
 let activeBtn = null, activeAudio = null;
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.vplay').forEach(btn => {
-    btn.addEventListener('click', () => {
-      if (activeAudio) {
-        activeAudio.pause();
-        activeAudio.currentTime = 0;
-        activeBtn.classList.remove('playing');
-      }
-      if (activeBtn === btn) { activeBtn = null; activeAudio = null; return; }
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.vplay');
+  if (!btn) return;
 
-      const url = btn.dataset.src;
+  if (activeAudio) {
+    activeAudio.pause();
+    activeAudio.currentTime = 0;
+    activeBtn.classList.remove('playing');
+  }
+  if (activeBtn === btn) { activeBtn = null; activeAudio = null; return; }
 
-      const audio = new Audio(url);
-      activeAudio = audio; activeBtn = btn;
-      btn.classList.add('playing');
-      audio.addEventListener('ended', () => {
-        btn.classList.remove('playing');
-        activeBtn = null; activeAudio = null;
-      });
-      audio.play();
-    });
+  const audio = new Audio(btn.dataset.src);
+  activeAudio = audio; activeBtn = btn;
+  btn.classList.add('playing');
+  audio.addEventListener('ended', () => {
+    btn.classList.remove('playing');
+    activeBtn = null; activeAudio = null;
   });
+  audio.play();
 });
