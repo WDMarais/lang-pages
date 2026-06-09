@@ -75,7 +75,7 @@ body.hide-en details.fitnote[open] > summary::before { content: '− 注'; }
 .fit-tip { font-size: 0.8rem; color: var(--navy2); font-weight: 500; }
 
 /* ── Suit diagram ──────────────────────────────── */
-.suit-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; align-items: start; }
+.suit-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
 .suit-svg { width: 100%; max-width: 240px; display: block; margin: 0 auto; cursor: default; }
 .zone-default {
   background: var(--cream); border: 1px dashed var(--border);

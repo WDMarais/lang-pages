@@ -93,6 +93,8 @@ body.show-py .vp { display: block; }
 }
 .vex .zh { font-size: calc(1rem * var(--scale)); font-weight: 500; line-height: 1.6; }
 .vex .en { font-size: calc(0.88rem * var(--scale)); color: var(--muted); margin-top: 0.2rem; }
+.vex-img { display: block; width: 100%; max-height: 130px; object-fit: cover; border-radius: 4px; margin-bottom: 0.55rem; }
+.vex-img[src=""] { display: none; }
 
 .vplay {
   display: inline-flex; align-items: center; gap: 0.3rem;

@@ -237,36 +237,43 @@
       <div>
         <svg class="suit-svg" viewBox="0 0 200 360" xmlns="http://www.w3.org/2000/svg">
           <circle cx="100" cy="28" r="18" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="1"/>
-          <path d="M62,60 L38,100 L22,275 L88,275 L88,200 L112,200 L112,275 L178,275 L162,100 L138,60 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
-          <path d="M62,60 L38,100 L24,215 L50,220 L82,110 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
-          <path d="M138,60 L162,100 L176,215 L150,220 L118,110 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
-          <path d="M88,60 L68,105 L88,140 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="0.5"/>
-          <path d="M112,60 L132,105 L112,140 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="0.5"/>
-          <line x1="100" y1="130" x2="100" y2="275" stroke="#0D1525" stroke-width="0.6" stroke-dasharray="3,2"/>
-          <path d="M88,60 L100,82 L112,60 L107,50 L100,56 L93,50 Z" fill="white" stroke="#ccc" stroke-width="0.5"/>
-          <polygon points="97,82 103,82 105,165 100,170 95,165" fill="#C41E3A" stroke="#8B0000" stroke-width="0.6"/>
-          <rect x="88" y="275" width="18" height="75" fill="#1E2A4A" stroke="#0D1525" stroke-width="1"/>
-          <rect x="110" y="275" width="18" height="75" fill="#1E2A4A" stroke="#0D1525" stroke-width="1"/>
-          <line x1="97" y1="275" x2="97" y2="350" stroke="#2C3E6B" stroke-width="0.6"/>
-          <line x1="119" y1="275" x2="119" y2="350" stroke="#2C3E6B" stroke-width="0.6"/>
+          <!-- Jacket body: shoulder 76px wide, slight waist nip, minimal flare at hem -->
+          <path d="M62,58 L50,92 L54,145 L52,200 L88,200 L88,168 L112,168 L112,200 L148,200 L146,145 L150,92 L138,58 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
+          <!-- Sleeves: end at y=175, not y=215 -->
+          <path d="M62,58 L50,92 L44,175 L60,180 L84,108 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
+          <path d="M138,58 L150,92 L156,175 L140,180 L116,108 Z" fill="#1E2A4A" stroke="#0D1525" stroke-width="1.2"/>
+          <!-- Lapels -->
+          <path d="M88,58 L70,98 L88,128 Z"   fill="#2C3E6B" stroke="#1E2A4A" stroke-width="0.5"/>
+          <path d="M112,58 L130,98 L112,128 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="0.5"/>
+          <!-- Shirt / collar -->
+          <path d="M88,58 L100,78 L112,58 L107,49 L100,55 L93,49 Z" fill="white" stroke="#ccc" stroke-width="0.5"/>
+          <!-- Tie -->
+          <polygon points="97,78 103,78 106,158 100,163 94,158" fill="#C41E3A" stroke="#8B0000" stroke-width="0.6"/>
+          <!-- Centre seam -->
+          <line x1="100" y1="126" x2="100" y2="200" stroke="#0D1525" stroke-width="0.6" stroke-dasharray="3,2"/>
+          <!-- Trouser legs: centered around x=100, gap=4 -->
+          <rect x="79"  y="200" width="19" height="95" rx="2" fill="#1E2A4A" stroke="#0D1525" stroke-width="1"/>
+          <rect x="102" y="200" width="19" height="95" rx="2" fill="#1E2A4A" stroke="#0D1525" stroke-width="1"/>
+          <line x1="89"  y1="200" x2="89"  y2="295" stroke="#2C3E6B" stroke-width="0.6"/>
+          <line x1="112" y1="200" x2="112" y2="295" stroke="#2C3E6B" stroke-width="0.6"/>
 
           <g onclick="showZone('jianb')" style="cursor:pointer">
-            <ellipse cx="50" cy="76" rx="18" ry="9" fill="rgba(196,30,58,0.13)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
-            <ellipse cx="150" cy="76" rx="18" ry="9" fill="rgba(196,30,58,0.13)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
-            <text x="5" y="70" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">肩膀</text>
-            <text x="157" y="70" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">肩膀</text>
+            <ellipse cx="46" cy="78" rx="16" ry="9" fill="rgba(196,30,58,0.13)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <ellipse cx="154" cy="78" rx="16" ry="9" fill="rgba(196,30,58,0.13)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="5" y="72" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">肩膀</text>
+            <text x="158" y="72" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">肩膀</text>
           </g>
           <g onclick="showZone('xiuz')" style="cursor:pointer">
-            <rect x="22" y="125" width="36" height="65" rx="5" fill="rgba(196,30,58,0.1)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
-            <rect x="142" y="125" width="36" height="65" rx="5" fill="rgba(196,30,58,0.1)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
-            <text x="1" y="162" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">袖子</text>
-            <text x="180" y="162" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">袖子</text>
+            <rect x="38" y="112" width="24" height="60" rx="5" fill="rgba(196,30,58,0.1)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <rect x="138" y="112" width="24" height="60" rx="5" fill="rgba(196,30,58,0.1)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="8" y="148" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">袖子</text>
+            <text x="165" y="148" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">袖子</text>
           </g>
           <g onclick="showZone('yaow')" style="cursor:pointer">
-            <rect x="86" y="266" width="48" height="16" rx="4" fill="rgba(196,30,58,0.18)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
-            <text x="136" y="278" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">腰</text>
+            <rect x="79" y="190" width="42" height="16" rx="4" fill="rgba(196,30,58,0.18)" stroke="#C41E3A" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="123" y="202" font-size="9" fill="#C41E3A" font-family="sans-serif" font-weight="700">腰</text>
           </g>
-          <text x="100" y="354" font-size="7.5" fill="#aaa" font-family="sans-serif" text-anchor="middle">点击红色区域</text>
+          <text x="100" y="316" font-size="7.5" fill="#aaa" font-family="sans-serif" text-anchor="middle">点击红色区域</text>
         </svg>
       </div>
 
