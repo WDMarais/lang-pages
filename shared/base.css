@@ -138,15 +138,11 @@ body.hide-en details.vnote[open] > summary::before { content: '− 文化注释'
 
 /* ── Cover ─────────────────────────────────────── */
 .cover {
-  background: var(--navy); color: white;
-  padding: 4rem 2rem 3.5rem; text-align: center;
-  position: relative; overflow: hidden;
-}
-.cover::after {
-  content: ''; position: absolute; inset: 0;
-  background: repeating-linear-gradient(-45deg, transparent, transparent 18px,
+  background-color: var(--navy);
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 18px,
     rgba(255,255,255,0.018) 18px, rgba(255,255,255,0.018) 19px);
-  pointer-events: none;
+  color: white; padding: 4rem 2rem 3.5rem; text-align: center;
+  position: relative; overflow: hidden;
 }
 .cover-masthead { font-size: calc(0.62rem * var(--scale)); letter-spacing: 0.45em; text-transform: uppercase; color: var(--gold); margin-bottom: 2rem; font-weight: 600; }
 .cover-suit  { width: 90px; margin: 0 auto 1.5rem; }
