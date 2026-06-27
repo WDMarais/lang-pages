@@ -1,0 +1,32 @@
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.module-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--red);
+  border-radius: 12px;
+  padding: 1.75rem;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: box-shadow 0.18s, transform 0.18s;
+}
+.module-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+
+.mc-hanzi { font-size: 2.2rem; font-weight: 300; color: var(--navy); line-height: 1; }
+.mc-py    { font-size: 0.82rem; color: var(--red); margin-top: 0.3rem; }
+.mc-en    { font-size: 0.9rem; color: var(--muted); margin-top: 0.15rem; }
+.cover-title { font-size: clamp(1.8rem, 6vw, 3rem); }
+
+.mc-desc  {
+  font-size: 0.82rem; color: var(--muted); margin-top: 1rem;
+  line-height: 1.5; border-top: 1px solid var(--border); padding-top: 0.75rem;
+}

@@ -13,6 +13,10 @@ echo "==> nginx config"
 sudo cp "$REPO_ROOT/scripts/nginx.conf" "/etc/nginx/sites-available/$DOMAIN"
 sudo ln -sf "/etc/nginx/sites-available/$DOMAIN" "/etc/nginx/sites-enabled/$DOMAIN"
 sudo rm -f /etc/nginx/sites-enabled/default
+
+echo "==> permissions"
+sudo chmod -R o+rX "$REPO_ROOT"
+
 sudo nginx -t && sudo systemctl reload nginx
 
 echo ""
