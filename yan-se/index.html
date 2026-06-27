@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>颜色 · 第三课</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="yan-se.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">第三课 · 词汇</div>
+  <div class="cover-title">颜色</div>
+  <div class="cover-py">yánsè</div>
+  <div class="cover-sub">深与浅 · 裁 · 布料颜色</div>
+  <div class="cover-meta"><span class="en">Lesson 3 Vocabulary · 2026</span><span class="zh-alt">第三课词汇 · 2026</span></div>
+</header>
+
+
+<!-- ── 1. 深 and 浅 ──────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Modifiers</span><span class="zh-alt">修饰词</span></div>
+    <h2>深与浅</h2>
+    <div class="sec-rule"></div>
+
+    <p class="modifier-intro">
+      <strong>浅</strong> 和 <strong>深</strong> 放在颜色词前面，表示颜色的深浅。
+      <span class="en">Put 浅 or 深 before any colour to shift it lighter or darker — one pattern, any colour.</span>
+    </p>
+
+    <div class="grid grid-2">
+
+      <div class="vcard t-red">
+        <div class="vhead">
+          <div class="vh">浅</div>
+          <div class="vp">qiǎn</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">light (colour) · shallow</div>
+          <div class="vm-zh">颜色浅 · 水浅</div>
+        </div>
+        <div class="vcontent">
+          <div class="vex">
+            <div class="zh">我想要<span class="hl" data-t="light blue">浅蓝色</span>的布料。</div>
+            <div class="en">I'd like light-blue fabric.</div>
+          </div>
+          <div class="vex" style="margin-top:0.5rem">
+            <div class="zh">这条河很<span class="hl" data-t="shallow">浅</span>。</div>
+            <div class="en">This river is very shallow.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vcard t-navy">
+        <div class="vhead">
+          <div class="vh">深</div>
+          <div class="vp">shēn</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">dark (colour) · deep</div>
+          <div class="vm-zh">颜色深 · 水深</div>
+        </div>
+        <div class="vcontent">
+          <div class="vex">
+            <div class="zh">他穿了一件<span class="hl" data-t="dark green">深绿色</span>的西装。</div>
+            <div class="en">He wore a dark-green suit.</div>
+          </div>
+          <div class="vex" style="margin-top:0.5rem">
+            <div class="zh">这里的水很<span class="hl" data-t="deep">深</span>。</div>
+            <div class="en">The water here is very deep.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 2. Color grid ─────────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Colours</span><span class="zh-alt">颜色</span></div>
+    <h2>颜色表</h2>
+    <div class="sec-rule"></div>
+
+    <div class="color-grid">
+
+      <!-- 红 — featured (homework character) -->
+      <div class="color-card featured">
+        <div class="shade-strip">
+          <div class="shade" style="background:#EFA0AC"></div>
+          <div class="shade" style="background:#C41E3A"></div>
+          <div class="shade" style="background:#701020"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅红</span>
+            <span class="sl-py">qiǎn hóng</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">红</span>
+            <span class="sl-py">hóng</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深红</span>
+            <span class="sl-py">shēn hóng</span>
+          </div>
+        </div>
+        <div class="color-note">红色 — 中国文化中象征喜庆与好运。<span class="en"> Red: colour of celebration and good fortune in Chinese culture.</span></div>
+      </div>
+
+      <!-- 橙 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#EDBBA0"></div>
+          <div class="shade" style="background:#D4682A"></div>
+          <div class="shade" style="background:#7A3C18"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅橙</span>
+            <span class="sl-py">qiǎn chéng</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">橙</span>
+            <span class="sl-py">chéng</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深橙</span>
+            <span class="sl-py">shēn chéng</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 黄 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#EDD888"></div>
+          <div class="shade" style="background:#C8940A"></div>
+          <div class="shade" style="background:#785808"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅黄</span>
+            <span class="sl-py">qiǎn huáng</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">黄</span>
+            <span class="sl-py">huáng</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深黄</span>
+            <span class="sl-py">shēn huáng</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 绿 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#90C4A0"></div>
+          <div class="shade" style="background:#2C6B3E"></div>
+          <div class="shade" style="background:#164028"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅绿</span>
+            <span class="sl-py">qiǎn lǜ</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">绿</span>
+            <span class="sl-py">lǜ</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深绿</span>
+            <span class="sl-py">shēn lǜ</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 蓝 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#90A0C4"></div>
+          <div class="shade" style="background:#2C3E6B"></div>
+          <div class="shade" style="background:#141E3A"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅蓝</span>
+            <span class="sl-py">qiǎn lán</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">蓝</span>
+            <span class="sl-py">lán</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深蓝</span>
+            <span class="sl-py">shēn lán</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 紫 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#B898D0"></div>
+          <div class="shade" style="background:#6B3E8A"></div>
+          <div class="shade" style="background:#3C1E50"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅紫</span>
+            <span class="sl-py">qiǎn zǐ</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">紫</span>
+            <span class="sl-py">zǐ</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深紫</span>
+            <span class="sl-py">shēn zǐ</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 粉 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#EDB0C8"></div>
+          <div class="shade" style="background:#D4608A"></div>
+          <div class="shade" style="background:#802040"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅粉</span>
+            <span class="sl-py">qiǎn fěn</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">粉</span>
+            <span class="sl-py">fěn</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深粉</span>
+            <span class="sl-py">shēn fěn</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 灰 -->
+      <div class="color-card">
+        <div class="shade-strip">
+          <div class="shade" style="background:#C8C8CC"></div>
+          <div class="shade" style="background:#8A8A90"></div>
+          <div class="shade" style="background:#404050"></div>
+        </div>
+        <div class="color-labels">
+          <div class="shade-label">
+            <span class="sl-zh">浅灰</span>
+            <span class="sl-py">qiǎn huī</span>
+          </div>
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">灰</span>
+            <span class="sl-py">huī</span>
+          </div>
+          <div class="shade-label">
+            <span class="sl-zh">深灰</span>
+            <span class="sl-py">shēn huī</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 白 — standalone (lightest extreme) -->
+      <div class="color-card">
+        <div class="shade-single" style="background:#F0EDE8; border-bottom:1px solid #C0BBB0"></div>
+        <div class="color-labels-single">
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">白</span>
+            <span class="sl-py">bái</span>
+          </div>
+          <div class="color-note" style="margin-top:0.4rem; margin-bottom:0">白是最浅的颜色。<span class="en"> White is the lightest colour — 浅 cannot go further.</span></div>
+        </div>
+      </div>
+
+      <!-- 黑 — standalone (darkest extreme) -->
+      <div class="color-card">
+        <div class="shade-single" style="background:#1A1A1E"></div>
+        <div class="color-labels-single">
+          <div class="shade-label shade-label-base">
+            <span class="sl-zh">黑</span>
+            <span class="sl-py">hēi</span>
+          </div>
+          <div class="color-note" style="margin-top:0.4rem; margin-bottom:0">黑是最深的颜色。<span class="en"> Black is the darkest colour — 深 cannot go further.</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 3. 裁 character study ────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Character study</span><span class="zh-alt">字学</span></div>
+    <h2>裁</h2>
+    <div class="sec-rule"></div>
+
+    <div class="char-study-wrap">
+
+      <div class="char-display">
+        <div class="char-big">裁</div>
+        <div class="char-py">cái</div>
+        <div class="char-meaning"><span class="en">to cut / to tailor</span><span class="zh-alt">裁剪、剪布</span></div>
+      </div>
+
+      <div class="decomp">
+        <h4><span class="en">Composition</span><span class="zh-alt">字形</span></h4>
+        <div class="decomp-row">
+          <div class="decomp-piece">
+            <div class="dp-zh">才</div>
+            <div class="dp-py">cái</div>
+            <div class="dp-en">phonetic — gives the sound</div>
+          </div>
+          <div class="decomp-op">+</div>
+          <div class="decomp-piece">
+            <div class="dp-zh">衣</div>
+            <div class="dp-py">yī</div>
+            <div class="dp-en">clothing — gives the domain</div>
+          </div>
+          <div class="decomp-op">=</div>
+          <div class="decomp-piece decomp-result">
+            <div class="dp-zh">裁</div>
+            <div class="dp-py">cái</div>
+            <div class="dp-en">to cut (cloth/fabric)</div>
+          </div>
+        </div>
+        <div class="decomp-note">
+          <strong>才</strong> (talent, cái) gives the pronunciation.
+          <strong>衣</strong> (clothing, yī) grounds the meaning in the fabric domain —
+          裁 is specifically about cutting cloth, not cutting in general.
+          <span class="en">The full top element 𢦏 also contains 戈 (a blade), reinforcing the cutting sense.</span>
+          <span class="zh-alt">完整的上部 𢦏 包含戈（刀刃），进一步强调裁切的语义。</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Compound words -->
+    <div class="grid">
+
+      <div class="vcard t-red">
+        <div class="vhead">
+          <div class="vh">裁缝</div>
+          <div class="vp">cái féng</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">tailor · seamstress</div>
+          <div class="vm-zh">做衣服的人</div>
+        </div>
+        <div class="vcontent">
+          <div class="vex">
+            <div class="zh">这里有一个很好的<span class="hl" data-t="tailor">裁缝</span>。</div>
+            <div class="en">There's a very good tailor here.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vcard t-red">
+        <div class="vhead">
+          <div class="vh">裁剪</div>
+          <div class="vp">cái jiǎn</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">to cut · to trim</div>
+          <div class="vm-zh">用剪刀剪布</div>
+        </div>
+        <div class="vcontent">
+          <div class="vex">
+            <div class="zh">师傅正在<span class="hl" data-t="cutting">裁剪</span>布料。</div>
+            <div class="en">The master is cutting the fabric.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vcard t-navy">
+        <div class="vhead">
+          <div class="vh">裁布</div>
+          <div class="vp">cái bù</div>
+        </div>
+        <div class="vmean">
+          <div class="vm">to cut cloth</div>
+          <div class="vm-zh">剪布料</div>
+        </div>
+        <div class="vcontent">
+          <div class="vex">
+            <div class="zh">先量尺寸，再<span class="hl" data-t="cut the cloth">裁布</span>。</div>
+            <div class="en">First measure, then cut the cloth.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Cross-link to xi-zhuang -->
+    <a class="xlink" href="/xi-zhuang/">
+      <div>
+        <span class="xl-label"><span class="en">Related module</span><span class="zh-alt">相关模块</span></span>
+        <div class="xl-title">西装定制</div>
+        <div class="xl-py">xī zhuāng dìng zhì</div>
+        <div class="xl-desc"><span class="en">Full tailoring vocabulary — fabric market, measurements, alterations</span><span class="zh-alt">布料市场 · 量体 · 改衣 — 完整裁缝词汇</span></div>
+      </div>
+      <div class="xl-arrow">→</div>
+    </a>
+
+  </div>
+</section>
+
+
+<footer>
+  <div>颜色 · 第三课 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+</body>
+</html>

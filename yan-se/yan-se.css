@@ -1,0 +1,116 @@
+/* 颜色 page-specific styles */
+
+/* ── Modifier intro ─────────────────────────────── */
+.modifier-intro {
+  font-size: 0.95rem; color: var(--muted); line-height: 1.8;
+  max-width: 560px; margin-bottom: 2rem;
+}
+.modifier-intro strong { color: var(--ink); font-weight: 700; }
+
+/* ── Color grid ─────────────────────────────────── */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.color-card {
+  background: white; border: 1px solid var(--border);
+  border-radius: 10px; overflow: hidden;
+  transition: box-shadow 0.18s;
+}
+.color-card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.07); }
+.color-card.featured { border: 2px solid var(--red); }
+
+.shade-strip { display: grid; grid-template-columns: 1fr 1fr 1fr; }
+.shade { height: 64px; }
+.shade-single { height: 80px; width: 100%; display: block; }
+
+.color-labels {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.75rem 0.5rem 0.85rem;
+  text-align: center;
+}
+.color-labels-single {
+  padding: 0.75rem 0.75rem 0.85rem;
+  text-align: center;
+}
+
+.sl-zh { font-size: 0.88rem; font-weight: 600; color: var(--navy); display: block; }
+.sl-py { display: none; font-size: 0.68rem; color: var(--red); margin-top: 0.1rem; }
+body.show-py .sl-py { display: block; }
+.shade-label-base .sl-zh { font-size: 1rem; }
+
+.color-note {
+  margin: 0 0.75rem 0.75rem;
+  padding: 0.45rem 0.65rem;
+  background: var(--cream); border-radius: 4px;
+  font-size: 0.76rem; color: var(--muted); line-height: 1.55;
+  border-left: 3px solid var(--red);
+}
+
+/* ── Character study ────────────────────────────── */
+.char-study-wrap {
+  display: grid; grid-template-columns: auto 1fr;
+  gap: 2rem; align-items: start; margin-bottom: 2.5rem;
+}
+.char-display {
+  text-align: center; background: white;
+  border: 1px solid var(--border); border-radius: 12px;
+  padding: 1.5rem 2rem; min-width: 140px;
+}
+.char-big { font-size: 5rem; font-weight: 300; color: var(--navy); line-height: 1; }
+.char-py { display: none; font-size: 1rem; color: var(--red); margin-top: 0.35rem; }
+body.show-py .char-py { display: block; }
+.char-meaning { font-size: 0.8rem; color: var(--muted); margin-top: 0.4rem; }
+
+.decomp {
+  background: white; border: 1px solid var(--border);
+  border-radius: 10px; padding: 1.25rem 1.5rem;
+}
+.decomp h4 {
+  font-size: 0.6rem; letter-spacing: 0.32em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 0.85rem; font-weight: 600;
+}
+.decomp-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+.decomp-piece {
+  text-align: center; background: var(--cream);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+}
+.dp-zh { font-size: 1.6rem; font-weight: 300; color: var(--navy); line-height: 1; }
+.dp-py { display: none; font-size: 0.68rem; color: var(--red); margin-top: 0.15rem; }
+body.show-py .dp-py { display: block; }
+.dp-en { font-size: 0.7rem; color: var(--muted); margin-top: 0.15rem; }
+.decomp-op { font-size: 1.4rem; color: var(--muted); font-weight: 300; }
+.decomp-result { border-color: var(--red); border-width: 2px; }
+.decomp-result .dp-zh { color: var(--red); }
+
+.decomp-note {
+  margin-top: 0.85rem; font-size: 0.8rem; color: var(--muted); line-height: 1.6;
+  padding-top: 0.85rem; border-top: 1px solid var(--border);
+}
+.decomp-note strong { color: var(--ink); }
+
+/* ── Cross-link banner ──────────────────────────── */
+.xlink {
+  display: flex; align-items: center; gap: 1rem;
+  background: var(--navy); color: white;
+  border-radius: 10px; padding: 1.1rem 1.4rem;
+  text-decoration: none; transition: background 0.18s;
+  margin-top: 2rem;
+}
+.xlink:hover { background: var(--navy2); }
+.xl-label { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); font-weight: 600; display: block; margin-bottom: 0.2rem; }
+.xl-title { font-size: 1.1rem; font-weight: 700; }
+.xl-py { display: none; font-size: 0.75rem; color: var(--gold); margin-top: 0.15rem; }
+body.show-py .xl-py { display: block; }
+.xl-desc { font-size: 0.78rem; color: rgba(255,255,255,0.55); margin-top: 0.2rem; }
+.xl-arrow { margin-left: auto; font-size: 1.4rem; color: var(--gold); flex-shrink: 0; }
+
+/* ── Responsive ─────────────────────────────────── */
+@media (max-width: 620px) {
+  .char-study-wrap { grid-template-columns: 1fr; }
+  .char-display { min-width: unset; }
+  .color-grid { grid-template-columns: 1fr; }
+}
