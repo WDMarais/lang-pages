@@ -105,6 +105,91 @@
             "ex": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
           },
           "wk": { "name": "Enter", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "力",
+          "slug": "li",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "力", "reading": "lì", "gloss": "power; strength",
+            "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
+            "ex": { "char": "男", "reading": "nán", "gloss": "male" }
+          },
+          "jp": {
+            "name": "力", "reading": "ちから", "gloss": "power",
+            "extra": "漢字「力」(ちから · リョク)",
+            "ex": { "char": "男", "reading": "おとこ", "gloss": "man" }
+          },
+          "wk": { "name": "Power", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "勹",
+          "slug": "bao",
+          "tag": "comp",
+          "image": "",
+          "cn": {
+            "name": "勹", "reading": "bāo", "gloss": "wrap (enclosing component)",
+            "extra": "无独立字义 · 「包字头」· 康熙部首 20",
+            "ex": { "char": "包", "reading": "bāo", "gloss": "to wrap" }
+          },
+          "jp": {
+            "name": "つつみがまえ", "reading": "", "gloss": "wrapping enclosure",
+            "extra": "部首「つつみがまえ」",
+            "ex": { "char": "包", "reading": "つつむ", "gloss": "to wrap" }
+          },
+          "wk": { "name": "Prison", "level": 1, "kind": "mnemonic", "icon": "prison" }
+        },
+        {
+          "glyph": "口",
+          "slug": "kou",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "口", "reading": "kǒu", "gloss": "mouth",
+            "extra": "竖 + 横折 + 横 · 汉字「口」· 康熙部首 30",
+            "ex": { "char": "名", "reading": "míng", "gloss": "name" }
+          },
+          "jp": {
+            "name": "口", "reading": "くち", "gloss": "mouth",
+            "extra": "漢字「口」(くち · コウ)",
+            "ex": { "char": "名", "reading": "メイ", "gloss": "name" }
+          },
+          "wk": { "name": "Mouth", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "女",
+          "slug": "nv",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "女", "reading": "nǚ", "gloss": "woman",
+            "extra": "撇折 + 撇 + 横 · 汉字「女」· 康熙部首 38",
+            "ex": { "char": "好", "reading": "hǎo", "gloss": "good" }
+          },
+          "jp": {
+            "name": "女", "reading": "おんな", "gloss": "woman",
+            "extra": "漢字「女」(おんな · ジョ)",
+            "ex": { "char": "好", "reading": "すき", "gloss": "to like" }
+          },
+          "wk": { "name": "Woman", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "七",
+          "slug": "qi",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "七", "reading": "qī", "gloss": "seven",
+            "extra": "横 + 竖弯钩 · 数字「七」",
+            "ex": { "char": "切", "reading": "qiē", "gloss": "to cut" }
+          },
+          "jp": {
+            "name": "七", "reading": "なな", "gloss": "seven",
+            "extra": "漢字「七」(なな · シチ)",
+            "ex": { "char": "切", "reading": "きる", "gloss": "to cut" }
+          },
+          "wk": { "name": "Seven", "level": 1, "kind": "meaning" }
         }
       ]
     }

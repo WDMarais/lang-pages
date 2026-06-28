@@ -28,6 +28,7 @@ const ICONS = {
   barb:   '<path d="M27 8 V24 a8 8 0 1 1 -16 0"/><path d="M11 24 l-2 -5"/><path d="M11 24 l5 -1"/>',
   fins:   '<path d="M6 20 C13 12 27 12 33 20 C27 28 13 28 6 20 Z"/><path d="M6 20 L1 15 L3 20 L1 25 Z"/><circle cx="27" cy="18" r="1.3"/><path d="M17 12 l3 -5 l3 5"/>',
   lid:    '<path d="M6 27 a14 9 0 0 1 28 0 Z"/><path d="M5 27 H35"/><path d="M20 14 v-4"/>',
+  prison: '<path d="M9 9 H31 V33 H9 Z"/><path d="M16 9 V33"/><path d="M23 9 V33"/>',
 };
 function mnemonic(name) {
   return `<svg class="sc-mnemonic" viewBox="0 0 40 40" aria-hidden="true">${ICONS[name] || ''}</svg>`;
