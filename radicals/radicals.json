@@ -9,6 +9,7 @@
           "slug": "ba",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "八", "reading": "bā", "gloss": "eight",
             "extra": "撇 + 捺 · 作部件叫「八字头」",
@@ -26,6 +27,7 @@
           "slug": "er",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "二", "reading": "èr", "gloss": "two",
             "extra": "两个 横 · 也是数字「二」",
@@ -43,6 +45,7 @@
           "slug": "lid",
           "tag": "comp",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "亠", "reading": "tóu", "gloss": "lid (top component)",
             "extra": "无独立字义 · 又称「点横头」· 康熙部首 8",
@@ -78,6 +81,7 @@
           "slug": "ren",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "人", "reading": "rén", "gloss": "person",
             "extra": "撇 + 捺 · 注意与「入」之别",
@@ -95,6 +99,7 @@
           "slug": "ru",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "入", "reading": "rù", "gloss": "to enter",
             "extra": "左撇短，捺在上方起笔 · 易与「人」混",
@@ -112,6 +117,7 @@
           "slug": "li",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "力", "reading": "lì", "gloss": "power; strength",
             "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
@@ -129,6 +135,7 @@
           "slug": "bao",
           "tag": "comp",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "勹", "reading": "bāo", "gloss": "wrap (enclosing component)",
             "extra": "无独立字义 · 「包字头」· 康熙部首 20",
@@ -146,6 +153,7 @@
           "slug": "kou",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "口", "reading": "kǒu", "gloss": "mouth",
             "extra": "竖 + 横折 + 横 · 汉字「口」· 康熙部首 30",
@@ -163,6 +171,7 @@
           "slug": "nv",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "女", "reading": "nǚ", "gloss": "woman",
             "extra": "撇折 + 撇 + 横 · 汉字「女」· 康熙部首 38",
@@ -180,6 +189,7 @@
           "slug": "qi",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "七", "reading": "qī", "gloss": "seven",
             "extra": "横 + 竖弯钩 · 数字「七」",
