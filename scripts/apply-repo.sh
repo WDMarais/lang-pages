@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Apply current repo state to a provisioned cn-pages box.
+# Apply current repo state to a provisioned lang-pages box.
 # Lightweight counterpart to setup.sh — skips apt/git-clone, assumes those ran once.
 #
 #   git pull --ff-only && bash scripts/apply-repo.sh
