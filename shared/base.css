@@ -55,13 +55,32 @@ body.hide-en .vm-zh  { display: block; }
 body.hide-en .zh-alt { display: inline; }
 
 /* ── Controls ──────────────────────────────────── */
-#controls { position: fixed; top: 1rem; right: 1rem; z-index: 200; }
+#controls {
+  position: fixed; top: 1rem; right: 1rem; z-index: 200;
+  display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; justify-content: flex-end;
+  background: rgba(30, 42, 74, 0.88);
+  backdrop-filter: blur(8px);
+  padding: 0.45rem 0.65rem;
+  border-radius: 30px;
+}
 .btn-ctrl {
   background: var(--navy); color: white; border: none;
   padding: 0.45rem 1rem; border-radius: 20px; cursor: pointer;
   font-size: calc(0.8rem * var(--scale)); transition: background 0.18s;
 }
 .btn-ctrl:hover { background: var(--red); }
+
+/* ── Voice picker ───────────────────────────────── */
+.voice-picker { display: flex; gap: 0.25rem; }
+.btn-voice {
+  background: rgba(255,255,255,0.12); color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 0.38rem 0.7rem; border-radius: 20px;
+  cursor: pointer; font-family: inherit; font-size: 0.78rem;
+  transition: all 0.15s;
+}
+.btn-voice:hover  { background: rgba(255,255,255,0.25); }
+.btn-voice.active { background: white; color: var(--navy); border-color: white; font-weight: 600; }
 
 /* ── Vocab card ────────────────────────────────── */
 .grid   { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); column-gap: 1.25rem; row-gap: 0.75rem; }

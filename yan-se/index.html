@@ -7,9 +7,10 @@
 <link rel="stylesheet" href="../shared/base.css">
 <link rel="stylesheet" href="yan-se.css">
 </head>
-<body class="hide-en">
+<body class="hide-en" data-voices="xiaoxiao,yunxi,yunyang" data-voice-labels="晓晓,云希,云扬">
 
 <div id="controls">
+  <div id="voice-picker"></div>
   <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
   <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
 </div>
@@ -50,10 +51,12 @@
           <div class="vex">
             <div class="zh">我想要<span class="hl" data-t="light blue">浅蓝色</span>的布料。</div>
             <div class="en">I'd like light-blue fabric.</div>
+            <button class="vplay" data-slug="qian-lan-bu-liao">▶ 听</button>
           </div>
           <div class="vex" style="margin-top:0.5rem">
             <div class="zh">这条河很<span class="hl" data-t="shallow">浅</span>。</div>
             <div class="en">This river is very shallow.</div>
+            <button class="vplay" data-slug="zhe-tiao-he-qian">▶ 听</button>
           </div>
         </div>
       </div>
@@ -71,10 +74,12 @@
           <div class="vex">
             <div class="zh">他穿了一件<span class="hl" data-t="dark green">深绿色</span>的西装。</div>
             <div class="en">He wore a dark-green suit.</div>
+            <button class="vplay" data-slug="shen-lv-xi-zhuang">▶ 听</button>
           </div>
           <div class="vex" style="margin-top:0.5rem">
             <div class="zh">这里的水很<span class="hl" data-t="deep">深</span>。</div>
             <div class="en">The water here is very deep.</div>
+            <button class="vplay" data-slug="shui-hen-shen">▶ 听</button>
           </div>
         </div>
       </div>
@@ -370,6 +375,7 @@
           <div class="vex">
             <div class="zh">这里有一个很好的<span class="hl" data-t="tailor">裁缝</span>。</div>
             <div class="en">There's a very good tailor here.</div>
+            <button class="vplay" data-slug="hao-cai-feng">▶ 听</button>
           </div>
         </div>
       </div>
@@ -387,6 +393,7 @@
           <div class="vex">
             <div class="zh">师傅正在<span class="hl" data-t="cutting">裁剪</span>布料。</div>
             <div class="en">The master is cutting the fabric.</div>
+            <button class="vplay" data-slug="shi-fu-cai-jian">▶ 听</button>
           </div>
         </div>
       </div>
@@ -404,6 +411,7 @@
           <div class="vex">
             <div class="zh">先量尺寸，再<span class="hl" data-t="cut the cloth">裁布</span>。</div>
             <div class="en">First measure, then cut the cloth.</div>
+            <button class="vplay" data-slug="xian-liang-zai-cai">▶ 听</button>
           </div>
         </div>
       </div>

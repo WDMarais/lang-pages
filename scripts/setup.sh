@@ -10,8 +10,8 @@
 set -euo pipefail
 
 DOMAIN="cn.wdmarais.dev"
-REPO_URL="https://github.com/WDMarais/cn-pages.git"
-REPO_DIR="/var/www/cn-pages"
+REPO_URL="https://github.com/WDMarais/lang-pages.git"
+REPO_DIR="/var/www/lang-pages"
 EMAIL="marais.wynand@gmail.com"
 
 echo "==> packages"
