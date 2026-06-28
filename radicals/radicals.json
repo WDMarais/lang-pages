@@ -60,6 +60,7 @@
           "slug": "da",
           "tag": "char",
           "image": "",
+          "hw": true,
           "cn": {
             "name": "大", "reading": "dà", "gloss": "big",
             "extra": "一 + 人 形 · 也是汉字「大」",

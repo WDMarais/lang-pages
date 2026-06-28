@@ -35,6 +35,11 @@
   width: 112px; height: 112px; display: block; margin: 0 auto;
   background: var(--cream); border-radius: 10px;
 }
+.sc-hw {
+  width: 112px; height: 112px; margin: 0 auto;
+  background: var(--cream); border-radius: 10px;
+}
+.sc-hw svg { display: block; }
 .sc-gtext {
   font-family: var(--kai);
   font-size: 66px; font-weight: 400; fill: var(--navy);
@@ -107,6 +112,6 @@
 @media (max-width: 760px) {
   .scard { grid-template-columns: 1fr; }
   .sc-glyph { display: flex; align-items: center; gap: 1rem; text-align: left; }
-  .sc-hero { margin: 0; flex: 0 0 auto; }
+  .sc-hero, .sc-hw { margin: 0; flex: 0 0 auto; }
   .sc-views { grid-template-columns: 1fr; }
 }

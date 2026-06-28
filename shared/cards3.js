@@ -5,6 +5,9 @@
 // the diagram is just the (crisp Kai) glyph — used for deferred / un-tuned cards.
 
 function diagram(c) {
+  // Character cards opt into data-driven stroke-order animation (HanziWriter).
+  // Init happens after innerHTML in initHanzi(); here we just place the target.
+  if (c.hw) return `<div class="sc-hw" data-char="${c.glyph}"></div>`;
   const strokes = c.svg && c.svg.strokes ? c.svg.strokes : [];
   const tracers = strokes.map((s, i) => {
     const begin = (i * 0.7).toFixed(2);
@@ -111,7 +114,27 @@ function renderGroup(g) {
   return `<div class="sc-group">${head}${g.cards.map(renderCard).join('')}</div>`;
 }
 
+// Data-driven stroke-order animation for character cards (`hw: true`).
+// Self-hosted: lib in shared/vendor, per-char data in shared/hanzi-data (APL).
+// Module pages live one level deep, so ../shared/ resolves for all of them.
+function initHanzi() {
+  if (typeof HanziWriter === 'undefined') return;
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const navy = getComputedStyle(document.documentElement)
+    .getPropertyValue('--navy').trim() || '#1E2A4A';
+  document.querySelectorAll('.sc-hw').forEach(el => {
+    const w = HanziWriter.create(el, el.dataset.char, {
+      width: 112, height: 112, padding: 12,
+      strokeColor: navy, outlineColor: '#D8D2C4', showOutline: true,
+      strokeAnimationSpeed: 1, delayBetweenStrokes: 240,
+      charDataLoader: (c, onComplete) =>
+        fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(onComplete),
+    });
+    if (!reduce) w.loopCharacterAnimation();
+  });
+}
+
 const host = document.getElementById('cards');
 fetch(host.dataset.src)
   .then(r => r.json())
-  .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); });
+  .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); initHanzi(); });
