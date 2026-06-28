@@ -9,7 +9,7 @@
           "slug": "heng",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M16,53 L84,48", "start": [16, 53] } ] },
+          "hw": true,
           "cn": {
             "name": "横", "reading": "héng", "gloss": "horizontal stroke",
             "extra": "本身也是汉字 一 (yī)「one」· 康熙部首 1",
@@ -27,7 +27,7 @@
           "slug": "shu",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M50,14 L50,86", "start": [50, 14] } ] },
+          "hw": true,
           "cn": {
             "name": "竖", "reading": "shù", "gloss": "vertical stroke",
             "extra": "康熙部首 2「丨 gǔn」",
@@ -45,7 +45,7 @@
           "slug": "pie",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M68,20 C60,42 46,64 24,84", "start": [68, 20] } ] },
+          "hw": true,
           "cn": {
             "name": "撇", "reading": "piě", "gloss": "left-falling stroke",
             "extra": "康熙部首 4「丿 piě」",
@@ -63,7 +63,7 @@
           "slug": "na",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M28,20 C42,44 58,62 82,82", "start": [28, 20] } ] },
+          "hw": true,
           "cn": {
             "name": "捺", "reading": "nà", "gloss": "right-falling stroke",
             "extra": "撇与捺常成对 (如 人、八)",
@@ -81,7 +81,7 @@
           "slug": "dian",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M42,36 C49,43 55,51 60,61", "start": [42, 36] } ] },
+          "hw": true,
           "cn": {
             "name": "点", "reading": "diǎn", "gloss": "dot stroke",
             "extra": "康熙部首 3「丶 zhǔ」",
@@ -99,7 +99,7 @@
           "slug": "ti",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M22,72 L80,38", "start": [22, 72] } ] },
+          "hw": true,
           "cn": {
             "name": "提", "reading": "tí", "gloss": "rising stroke",
             "extra": "向右上挑 (如 扌 的末笔)",
@@ -117,7 +117,7 @@
           "slug": "zhe",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M24,28 L70,28 C75,28 76,32 76,37 L76,82", "start": [24, 28] } ] },
+          "hw": true,
           "cn": {
             "name": "折", "reading": "zhé", "gloss": "turning stroke",
             "extra": "一笔之中改变方向 (如 横折)",
@@ -135,7 +135,7 @@
           "slug": "shugou",
           "tag": "stroke",
           "image": "",
-          "svg": { "strokes": [ { "d": "M56,14 L56,72 C56,82 49,84 39,78", "start": [56, 14] } ] },
+          "hw": true,
           "cn": {
             "name": "竖钩", "reading": "shùgōu", "gloss": "vertical hook",
             "extra": "康熙部首 6「亅 jué」",
