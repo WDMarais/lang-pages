@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>笔画 · Basic Strokes</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- Kai (楷体) brush font for specimen glyphs — open-source, OFL licensed -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">基础 · 单笔</div>
+  <div class="cover-title">笔画</div>
+  <div class="cover-py">bǐhuà</div>
+  <div class="cover-sub"><span class="en">Basic strokes · three views: Chinese · Japanese · Wanikani</span><span class="zh-alt">基础笔画 · 三视角对照</span></div>
+  <div class="cover-meta">Basic Strokes</div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">How to read this</span><span class="zh-alt">说明</span></div>
+    <h2>同一笔，三种叫法</h2>
+    <div class="sec-rule"></div>
+
+    <p class="intro">
+      笔画是文字最小的零件——一笔的运动。汉字和日本汉字共用同一套笔画，但每种语言叫法不同。
+      <span class="en">Strokes are the smallest parts of the script — a single pen movement.
+      Chinese hanzi and Japanese kanji share the same strokes; only the names differ. The red
+      dot traces each stroke's direction and order.</span>
+    </p>
+    <p class="intro">
+      <span class="en">Wanikani's stroke names are all <strong>shape-mnemonics</strong> (一 = Ground,
+      亅 = Barb) — handy for memorising but not real cross-language terms. Tap ▶ to hear the
+      example character in each language.</span>
+      <span class="zh-alt">Wanikani 给笔画起的名字都是<strong>形状助记</strong>（一 = Ground，亅 = Barb），
+      记忆方便但不通用。点 ▶ 听例字发音。</span>
+    </p>
+
+    <div class="legend">
+      <span><i class="lg-cn"></i> 中文 · 拼音</span>
+      <span><i class="lg-jp"></i> 日本語 · 仮名</span>
+      <span><i class="lg-wk"></i> WK 仅助记 ⚠ <span class="en">mnemonic</span></span>
+    </div>
+
+    <div id="cards" data-src="strokes.json"></div>
+
+    <p class="intro" style="margin-top:2rem">
+      → <a href="/radicals/">部件与单字</a>
+      <span class="en">— components &amp; whole characters that double as radicals (八, 二, 大, 人, 入…).</span>
+      <span class="zh-alt">—— 由笔画组成的部件与单字（八、二、大、人、入…）。</span>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div>笔画 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/cards3.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* Kai (楷体) brush font for specimen glyphs; falls back to local Kai, then sans */
+:root {
+  --kai: 'LXGW WenKai', 'Kaiti SC', 'STKaiti', 'KaiTi', 'AR PL UKai CN',
+         'Noto Serif CJK SC', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', serif;
+}
+
+/* ── Intro / legend ────────────────────────────── */
+.intro {
+  font-size: calc(1rem * var(--scale)); line-height: 1.7;
+  max-width: 60ch; margin-bottom: 1.5rem;
+}
+.legend {
+  display: flex; flex-wrap: wrap; gap: 1rem 1.5rem;
+  font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem;
+}
+.legend span { display: inline-flex; align-items: center; gap: 0.45rem; }
+.legend i { width: 14px; height: 14px; border-radius: 3px; display: inline-block; }
+.lg-cn { background: var(--red); }
+.lg-jp { background: var(--navy); }
+.lg-wk-m { background: rgba(44, 107, 62, 0.18); border: 1.5px solid var(--green); }
+.lg-wk { background: repeating-linear-gradient(45deg, var(--red), var(--red) 3px, transparent 3px, transparent 6px); border: 1px dashed var(--red); }
+
+/* ── Stroke card ───────────────────────────────── */
+.scard {
+  display: grid; grid-template-columns: 150px 1fr; gap: 1.4rem;
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: 12px; padding: 1.4rem; margin-bottom: 1rem;
+  transition: box-shadow 0.18s;
+}
+.scard:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.07); }
+
+/* glyph block — crisp font glyph + animated direction tracer */
+.sc-glyph { text-align: center; }
+.sc-hero {
+  width: 112px; height: 112px; display: block; margin: 0 auto;
+  background: var(--cream); border-radius: 10px;
+}
+.sc-gtext {
+  font-family: var(--kai);
+  font-size: 66px; font-weight: 400; fill: var(--navy);
+  text-anchor: middle; dominant-baseline: central;
+}
+.sc-tracer  { fill: var(--red); }
+.sc-startdot { fill: var(--red); opacity: 0.55; }
+@media (prefers-reduced-motion: reduce) { .sc-tracer { display: none; } }
+.sc-tag { display: inline-block; margin-top: 0.55rem; font-size: 0.62rem; letter-spacing: 0.14em; color: var(--muted); }
+.sc-tag.tag-comp { color: var(--navy); font-weight: 600; }
+.sc-tag.tag-char { color: var(--green); font-weight: 600; }
+
+/* ── Section groups ────────────────────────────── */
+.sc-group { margin-bottom: 1.5rem; }
+.sc-grouphead { display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap; margin: 2rem 0 0.9rem; padding-bottom: 0.45rem; border-bottom: 2px solid var(--border); }
+.sc-group:first-child .sc-grouphead { margin-top: 0; }
+.sc-gtitle { font-size: 1.35rem; font-weight: 700; color: var(--navy); }
+.sc-gsub { font-size: 0.8rem; color: var(--muted); }
+.sc-img { display: block; width: 100%; margin-top: 0.6rem; border-radius: 6px; }
+.sc-img[src=""] { display: none; }
+
+/* three columns */
+.sc-views { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; }
+.sc-view {
+  padding: 0.75rem 0.85rem; border-radius: 8px;
+  background: var(--cream); border-left: 3px solid var(--border);
+}
+.v-cn { border-left-color: var(--red); }
+.v-jp { border-left-color: var(--navy); }
+/* Wanikani: shape-mnemonic (red, caution) vs real-meaning (green, transfers) */
+.wk-mnemonic {
+  border: 1.5px dashed var(--red);
+  background: rgba(196, 30, 58, 0.05);
+}
+.wk-meaning {
+  border: 1.5px solid var(--green);
+  background: rgba(44, 107, 62, 0.06);
+}
+.v-wk.empty { border: 1.5px dashed var(--border); }
+
+.sc-vlabel { font-size: 0.58rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 0.4rem; }
+.wk-mnemonic .sc-lvl { color: var(--red); font-weight: 700; }
+.wk-meaning .sc-lvl { color: var(--green); font-weight: 700; }
+
+.sc-mnemonic { width: 48px; height: 48px; display: block; margin: 0.1rem 0 0.45rem; }
+.sc-mnemonic path, .sc-mnemonic circle { fill: none; stroke: #b0535d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.sc-check { font-size: 1.9rem; line-height: 1; color: var(--green); margin: 0.1rem 0 0.35rem; }
+.sc-only { margin-top: 0.4rem; font-size: 0.6rem; letter-spacing: 0.18em; color: var(--red); font-weight: 600; opacity: 0.85; }
+.sc-only.sc-true { color: var(--green); }
+
+.sc-nameline { display: flex; align-items: baseline; gap: 0.4rem; flex-wrap: wrap; }
+.sc-name { font-size: 1.1rem; font-weight: 600; color: var(--ink); }
+.sc-altglyph { font-family: var(--kai); font-size: 1.3rem; color: var(--navy); }
+.sc-reading { color: var(--red); font-weight: 500; font-size: 0.9em; }
+.v-jp .sc-reading { color: var(--navy2); }
+
+.sc-gloss { font-size: 0.82rem; color: var(--muted); margin-top: 0.2rem; }
+.sc-extra { font-size: 0.74rem; color: var(--muted); margin-top: 0.35rem; line-height: 1.5; }
+
+.sc-ex { margin-top: 0.5rem; font-size: 0.86rem; display: flex; align-items: baseline; gap: 0.35rem; flex-wrap: wrap; }
+.sc-exlabel { color: var(--muted); font-size: 0.7rem; }
+.sc-exchar { font-family: var(--kai); font-size: 1.3rem; font-weight: 400; color: var(--navy); }
+
+.sc-empty { color: var(--muted); font-size: 0.9rem; }
+
+/* compact play button */
+.sc-play { margin-top: 0; padding: 0.05rem 0.5rem; font-size: 0.7rem; }
+
+/* ── Responsive ────────────────────────────────── */
+@media (max-width: 760px) {
+  .scard { grid-template-columns: 1fr; }
+  .sc-glyph { display: flex; align-items: center; gap: 1rem; text-align: left; }
+  .sc-hero { margin: 0; flex: 0 0 auto; }
+  .sc-views { grid-template-columns: 1fr; }
+}

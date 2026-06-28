@@ -1,0 +1,112 @@
+{
+  "groups": [
+    {
+      "title": "",
+      "sub": "",
+      "cards": [
+        {
+          "glyph": "八",
+          "slug": "ba",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "八", "reading": "bā", "gloss": "eight",
+            "extra": "撇 + 捺 · 作部件叫「八字头」",
+            "ex": { "char": "分", "reading": "fēn", "gloss": "to divide" }
+          },
+          "jp": {
+            "name": "八", "reading": "ハチ", "gloss": "eight",
+            "extra": "部首「八」(はちがしら)",
+            "ex": { "char": "分", "reading": "わける", "gloss": "to divide" }
+          },
+          "wk": { "name": "Fins", "level": 1, "kind": "mnemonic", "glyph": "ハ", "icon": "fins" }
+        },
+        {
+          "glyph": "二",
+          "slug": "er",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "二", "reading": "èr", "gloss": "two",
+            "extra": "两个 横 · 也是数字「二」",
+            "ex": { "char": "元", "reading": "yuán", "gloss": "first; origin" }
+          },
+          "jp": {
+            "name": "二", "reading": "ニ", "gloss": "two",
+            "extra": "漢字「二」(ふた-つ)",
+            "ex": { "char": "元", "reading": "ゲン", "gloss": "origin" }
+          },
+          "wk": { "name": "Two", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "亠",
+          "slug": "lid",
+          "tag": "comp",
+          "image": "",
+          "cn": {
+            "name": "亠", "reading": "tóu", "gloss": "lid (top component)",
+            "extra": "无独立字义 · 又称「点横头」· 康熙部首 8",
+            "ex": { "char": "六", "reading": "liù", "gloss": "six" }
+          },
+          "jp": {
+            "name": "なべぶた", "reading": "", "gloss": "pot-lid top",
+            "extra": "部首「なべぶた / けいさんかんむり」",
+            "ex": { "char": "六", "reading": "ロク", "gloss": "six" }
+          },
+          "wk": { "name": "Lid", "level": 1, "kind": "mnemonic", "icon": "lid" }
+        },
+        {
+          "glyph": "大",
+          "slug": "da",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "大", "reading": "dà", "gloss": "big",
+            "extra": "一 + 人 形 · 也是汉字「大」",
+            "ex": { "char": "天", "reading": "tiān", "gloss": "sky" }
+          },
+          "jp": {
+            "name": "大", "reading": "ダイ", "gloss": "big",
+            "extra": "漢字「大」(おお-きい)",
+            "ex": { "char": "天", "reading": "テン", "gloss": "heaven; sky" }
+          },
+          "wk": { "name": "Big", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "人",
+          "slug": "ren",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "人", "reading": "rén", "gloss": "person",
+            "extra": "撇 + 捺 · 注意与「入」之别",
+            "ex": { "char": "今", "reading": "jīn", "gloss": "now" }
+          },
+          "jp": {
+            "name": "人", "reading": "ひと", "gloss": "person",
+            "extra": "「人」と「入」は紛らわしい",
+            "ex": { "char": "今", "reading": "いま", "gloss": "now" }
+          },
+          "wk": { "name": "Person", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "入",
+          "slug": "ru",
+          "tag": "char",
+          "image": "",
+          "cn": {
+            "name": "入", "reading": "rù", "gloss": "to enter",
+            "extra": "左撇短，捺在上方起笔 · 易与「人」混",
+            "ex": { "char": "全", "reading": "quán", "gloss": "whole" }
+          },
+          "jp": {
+            "name": "入", "reading": "はいる", "gloss": "to enter",
+            "extra": "「入」は「人」と区別すること",
+            "ex": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
+          },
+          "wk": { "name": "Enter", "level": 1, "kind": "meaning" }
+        }
+      ]
+    }
+  ]
+}
