@@ -1,0 +1,289 @@
+{
+  "edges": [
+    {
+      "from": "g:八",
+      "to": "r:ba",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:八",
+      "to": "g:分",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "r:er",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "g:元",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亠",
+      "to": "r:lid",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:亠",
+      "to": "g:六",
+      "kind": "composes"
+    },
+    {
+      "from": "g:大",
+      "to": "r:da",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "g:天",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "r:ren",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:人",
+      "to": "g:今",
+      "kind": "composes"
+    },
+    {
+      "from": "g:入",
+      "to": "r:ru",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:入",
+      "to": "g:全",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "r:li",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:力",
+      "to": "g:男",
+      "kind": "composes"
+    },
+    {
+      "from": "g:勹",
+      "to": "r:bao",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:勹",
+      "to": "g:包",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "r:kou",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:名",
+      "kind": "composes"
+    },
+    {
+      "from": "g:女",
+      "to": "r:nv",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:女",
+      "to": "g:好",
+      "kind": "composes"
+    },
+    {
+      "from": "g:七",
+      "to": "r:qi",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:七",
+      "to": "g:切",
+      "kind": "composes"
+    },
+    {
+      "from": "g:九",
+      "to": "r:jiu",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:九",
+      "to": "g:丸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "r:shi",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "g:古",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂉",
+      "to": "r:gun",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:𠂉",
+      "to": "g:午",
+      "kind": "composes"
+    },
+    {
+      "from": "g:ト",
+      "to": "r:toe",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:ト",
+      "to": "g:外",
+      "kind": "composes"
+    },
+    {
+      "from": "g:川",
+      "to": "r:chuan",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:川",
+      "to": "g:州",
+      "kind": "composes"
+    },
+    {
+      "from": "g:工",
+      "to": "r:gong",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:工",
+      "to": "g:江",
+      "kind": "composes"
+    },
+    {
+      "from": "g:山",
+      "to": "r:shan",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:山",
+      "to": "g:岩",
+      "kind": "composes"
+    },
+    {
+      "from": "g:木",
+      "to": "r:mu",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:木",
+      "to": "g:林",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "r:ri",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:日",
+      "to": "g:明",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "r:heng",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:三",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:二",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "r:shu",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:十",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "r:pie",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:人",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "r:na",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:八",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "r:dian",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:犬",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇀",
+      "to": "r:ti",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇀",
+      "to": "g:打",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乛",
+      "to": "r:zhe",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:乛",
+      "to": "g:口",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亅",
+      "to": "r:shugou",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:亅",
+      "to": "g:小",
+      "kind": "composes"
+    }
+  ]
+}

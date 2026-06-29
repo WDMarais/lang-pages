@@ -1,0 +1,648 @@
+{
+  "nodes": [
+    {
+      "id": "g:八",
+      "kind": "glyph",
+      "glyph": "八",
+      "tier": "char",
+      "slug": "ba",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ba",
+      "kind": "referent",
+      "label": "eight"
+    },
+    {
+      "id": "g:分",
+      "kind": "glyph",
+      "glyph": "分",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:二",
+      "kind": "glyph",
+      "glyph": "二",
+      "tier": "char",
+      "slug": "er",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:er",
+      "kind": "referent",
+      "label": "two"
+    },
+    {
+      "id": "g:元",
+      "kind": "glyph",
+      "glyph": "元",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:亠",
+      "kind": "glyph",
+      "glyph": "亠",
+      "tier": "component",
+      "slug": "lid",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:lid",
+      "kind": "referent",
+      "label": "lid (top component)"
+    },
+    {
+      "id": "g:六",
+      "kind": "glyph",
+      "glyph": "六",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:大",
+      "kind": "glyph",
+      "glyph": "大",
+      "tier": "char",
+      "slug": "da",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:da",
+      "kind": "referent",
+      "label": "big"
+    },
+    {
+      "id": "g:天",
+      "kind": "glyph",
+      "glyph": "天",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:人",
+      "kind": "glyph",
+      "glyph": "人",
+      "tier": "char",
+      "slug": "ren",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ren",
+      "kind": "referent",
+      "label": "person"
+    },
+    {
+      "id": "g:今",
+      "kind": "glyph",
+      "glyph": "今",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:入",
+      "kind": "glyph",
+      "glyph": "入",
+      "tier": "char",
+      "slug": "ru",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ru",
+      "kind": "referent",
+      "label": "to enter"
+    },
+    {
+      "id": "g:全",
+      "kind": "glyph",
+      "glyph": "全",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:力",
+      "kind": "glyph",
+      "glyph": "力",
+      "tier": "char",
+      "slug": "li",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:li",
+      "kind": "referent",
+      "label": "power; strength"
+    },
+    {
+      "id": "g:男",
+      "kind": "glyph",
+      "glyph": "男",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:勹",
+      "kind": "glyph",
+      "glyph": "勹",
+      "tier": "component",
+      "slug": "bao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bao",
+      "kind": "referent",
+      "label": "wrap (enclosing component)"
+    },
+    {
+      "id": "g:包",
+      "kind": "glyph",
+      "glyph": "包",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:口",
+      "kind": "glyph",
+      "glyph": "口",
+      "tier": "char",
+      "slug": "kou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:kou",
+      "kind": "referent",
+      "label": "mouth"
+    },
+    {
+      "id": "g:名",
+      "kind": "glyph",
+      "glyph": "名",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:女",
+      "kind": "glyph",
+      "glyph": "女",
+      "tier": "char",
+      "slug": "nv",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:nv",
+      "kind": "referent",
+      "label": "woman"
+    },
+    {
+      "id": "g:好",
+      "kind": "glyph",
+      "glyph": "好",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:七",
+      "kind": "glyph",
+      "glyph": "七",
+      "tier": "char",
+      "slug": "qi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:qi",
+      "kind": "referent",
+      "label": "seven"
+    },
+    {
+      "id": "g:切",
+      "kind": "glyph",
+      "glyph": "切",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:九",
+      "kind": "glyph",
+      "glyph": "九",
+      "tier": "char",
+      "slug": "jiu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:jiu",
+      "kind": "referent",
+      "label": "nine"
+    },
+    {
+      "id": "g:丸",
+      "kind": "glyph",
+      "glyph": "丸",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:十",
+      "kind": "glyph",
+      "glyph": "十",
+      "tier": "char",
+      "slug": "shi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shi",
+      "kind": "referent",
+      "label": "ten"
+    },
+    {
+      "id": "g:古",
+      "kind": "glyph",
+      "glyph": "古",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:𠂉",
+      "kind": "glyph",
+      "glyph": "𠂉",
+      "tier": "component",
+      "slug": "gun",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:gun",
+      "kind": "referent",
+      "label": "pie-heng component"
+    },
+    {
+      "id": "g:午",
+      "kind": "glyph",
+      "glyph": "午",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:ト",
+      "kind": "glyph",
+      "glyph": "ト",
+      "tier": "component",
+      "slug": "toe",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:toe",
+      "kind": "referent",
+      "label": "divination (卜)"
+    },
+    {
+      "id": "g:外",
+      "kind": "glyph",
+      "glyph": "外",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:川",
+      "kind": "glyph",
+      "glyph": "川",
+      "tier": "char",
+      "slug": "chuan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:chuan",
+      "kind": "referent",
+      "label": "river"
+    },
+    {
+      "id": "g:州",
+      "kind": "glyph",
+      "glyph": "州",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:工",
+      "kind": "glyph",
+      "glyph": "工",
+      "tier": "char",
+      "slug": "gong",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:gong",
+      "kind": "referent",
+      "label": "work; labour"
+    },
+    {
+      "id": "g:江",
+      "kind": "glyph",
+      "glyph": "江",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:山",
+      "kind": "glyph",
+      "glyph": "山",
+      "tier": "char",
+      "slug": "shan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shan",
+      "kind": "referent",
+      "label": "mountain"
+    },
+    {
+      "id": "g:岩",
+      "kind": "glyph",
+      "glyph": "岩",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:木",
+      "kind": "glyph",
+      "glyph": "木",
+      "tier": "char",
+      "slug": "mu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:mu",
+      "kind": "referent",
+      "label": "tree; wood"
+    },
+    {
+      "id": "g:林",
+      "kind": "glyph",
+      "glyph": "林",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:日",
+      "kind": "glyph",
+      "glyph": "日",
+      "tier": "char",
+      "slug": "ri",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ri",
+      "kind": "referent",
+      "label": "sun; day"
+    },
+    {
+      "id": "g:明",
+      "kind": "glyph",
+      "glyph": "明",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:一",
+      "kind": "glyph",
+      "glyph": "一",
+      "tier": "stroke",
+      "slug": "heng",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:heng",
+      "kind": "referent",
+      "label": "horizontal stroke"
+    },
+    {
+      "id": "g:三",
+      "kind": "glyph",
+      "glyph": "三",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丨",
+      "kind": "glyph",
+      "glyph": "丨",
+      "tier": "stroke",
+      "slug": "shu",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shu",
+      "kind": "referent",
+      "label": "vertical stroke"
+    },
+    {
+      "id": "g:丿",
+      "kind": "glyph",
+      "glyph": "丿",
+      "tier": "stroke",
+      "slug": "pie",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:pie",
+      "kind": "referent",
+      "label": "left-falling stroke"
+    },
+    {
+      "id": "g:㇏",
+      "kind": "glyph",
+      "glyph": "㇏",
+      "tier": "stroke",
+      "slug": "na",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:na",
+      "kind": "referent",
+      "label": "right-falling stroke"
+    },
+    {
+      "id": "g:丶",
+      "kind": "glyph",
+      "glyph": "丶",
+      "tier": "stroke",
+      "slug": "dian",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dian",
+      "kind": "referent",
+      "label": "dot stroke"
+    },
+    {
+      "id": "g:犬",
+      "kind": "glyph",
+      "glyph": "犬",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:㇀",
+      "kind": "glyph",
+      "glyph": "㇀",
+      "tier": "stroke",
+      "slug": "ti",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ti",
+      "kind": "referent",
+      "label": "rising stroke"
+    },
+    {
+      "id": "g:打",
+      "kind": "glyph",
+      "glyph": "打",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:乛",
+      "kind": "glyph",
+      "glyph": "乛",
+      "tier": "stroke",
+      "slug": "zhe",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:zhe",
+      "kind": "referent",
+      "label": "turning stroke"
+    },
+    {
+      "id": "g:亅",
+      "kind": "glyph",
+      "glyph": "亅",
+      "tier": "stroke",
+      "slug": "shugou",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shugou",
+      "kind": "referent",
+      "label": "vertical hook"
+    },
+    {
+      "id": "g:小",
+      "kind": "glyph",
+      "glyph": "小",
+      "tier": null,
+      "frontier": true
+    }
+  ]
+}

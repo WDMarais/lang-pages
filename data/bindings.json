@@ -1,0 +1,1045 @@
+{
+  "bindings": [
+    {
+      "id": "b:八@cn",
+      "glyph_id": "g:八",
+      "lang": "cn",
+      "name": "八",
+      "readings": [
+        "bā"
+      ],
+      "gloss": "eight",
+      "extra": "撇 + 捺 · 作部件叫「八字头」",
+      "example": {
+        "glyph": "分",
+        "reading": "fēn",
+        "gloss": "to divide"
+      }
+    },
+    {
+      "id": "b:八@jp",
+      "glyph_id": "g:八",
+      "lang": "jp",
+      "name": "八",
+      "readings": [
+        "ハチ"
+      ],
+      "gloss": "eight",
+      "extra": "部首「八」(はちがしら)",
+      "example": {
+        "glyph": "分",
+        "reading": "わける",
+        "gloss": "to divide"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Fins",
+        "kind": "mnemonic",
+        "level": 1,
+        "altglyph": "ハ",
+        "icon": "fins"
+      }
+    },
+    {
+      "id": "b:二@cn",
+      "glyph_id": "g:二",
+      "lang": "cn",
+      "name": "二",
+      "readings": [
+        "èr"
+      ],
+      "gloss": "two",
+      "extra": "两个 横 · 也是数字「二」",
+      "example": {
+        "glyph": "元",
+        "reading": "yuán",
+        "gloss": "first; origin"
+      }
+    },
+    {
+      "id": "b:二@jp",
+      "glyph_id": "g:二",
+      "lang": "jp",
+      "name": "二",
+      "readings": [
+        "ニ"
+      ],
+      "gloss": "two",
+      "extra": "漢字「二」(ふた-つ)",
+      "example": {
+        "glyph": "元",
+        "reading": "ゲン",
+        "gloss": "origin"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Two",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:亠@cn",
+      "glyph_id": "g:亠",
+      "lang": "cn",
+      "name": "亠",
+      "readings": [
+        "tóu"
+      ],
+      "gloss": "lid (top component)",
+      "extra": "无独立字义 · 又称「点横头」· 康熙部首 8",
+      "example": {
+        "glyph": "六",
+        "reading": "liù",
+        "gloss": "six"
+      }
+    },
+    {
+      "id": "b:亠@jp",
+      "glyph_id": "g:亠",
+      "lang": "jp",
+      "name": "なべぶた",
+      "readings": [],
+      "gloss": "pot-lid top",
+      "extra": "部首「なべぶた / けいさんかんむり」",
+      "example": {
+        "glyph": "六",
+        "reading": "ロク",
+        "gloss": "six"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Lid",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "lid"
+      }
+    },
+    {
+      "id": "b:大@cn",
+      "glyph_id": "g:大",
+      "lang": "cn",
+      "name": "大",
+      "readings": [
+        "dà"
+      ],
+      "gloss": "big",
+      "extra": "一 + 人 形 · 也是汉字「大」",
+      "example": {
+        "glyph": "天",
+        "reading": "tiān",
+        "gloss": "sky"
+      }
+    },
+    {
+      "id": "b:大@jp",
+      "glyph_id": "g:大",
+      "lang": "jp",
+      "name": "大",
+      "readings": [
+        "ダイ"
+      ],
+      "gloss": "big",
+      "extra": "漢字「大」(おお-きい)",
+      "example": {
+        "glyph": "天",
+        "reading": "テン",
+        "gloss": "heaven; sky"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Big",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:人@cn",
+      "glyph_id": "g:人",
+      "lang": "cn",
+      "name": "人",
+      "readings": [
+        "rén"
+      ],
+      "gloss": "person",
+      "extra": "撇 + 捺 · 注意与「入」之别",
+      "example": {
+        "glyph": "今",
+        "reading": "jīn",
+        "gloss": "now"
+      }
+    },
+    {
+      "id": "b:人@jp",
+      "glyph_id": "g:人",
+      "lang": "jp",
+      "name": "人",
+      "readings": [
+        "ひと"
+      ],
+      "gloss": "person",
+      "extra": "「人」と「入」は紛らわしい",
+      "example": {
+        "glyph": "今",
+        "reading": "いま",
+        "gloss": "now"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Person",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:入@cn",
+      "glyph_id": "g:入",
+      "lang": "cn",
+      "name": "入",
+      "readings": [
+        "rù"
+      ],
+      "gloss": "to enter",
+      "extra": "左撇短，捺在上方起笔 · 易与「人」混",
+      "example": {
+        "glyph": "全",
+        "reading": "quán",
+        "gloss": "whole"
+      }
+    },
+    {
+      "id": "b:入@jp",
+      "glyph_id": "g:入",
+      "lang": "jp",
+      "name": "入",
+      "readings": [
+        "はいる"
+      ],
+      "gloss": "to enter",
+      "extra": "「入」は「人」と区別すること",
+      "example": {
+        "glyph": "全",
+        "reading": "ゼン",
+        "gloss": "whole; all"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Enter",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:力@cn",
+      "glyph_id": "g:力",
+      "lang": "cn",
+      "name": "力",
+      "readings": [
+        "lì"
+      ],
+      "gloss": "power; strength",
+      "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
+      "example": {
+        "glyph": "男",
+        "reading": "nán",
+        "gloss": "male"
+      }
+    },
+    {
+      "id": "b:力@jp",
+      "glyph_id": "g:力",
+      "lang": "jp",
+      "name": "力",
+      "readings": [
+        "ちから"
+      ],
+      "gloss": "power",
+      "extra": "漢字「力」(ちから · リョク)",
+      "example": {
+        "glyph": "男",
+        "reading": "おとこ",
+        "gloss": "man"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Power",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:勹@cn",
+      "glyph_id": "g:勹",
+      "lang": "cn",
+      "name": "勹",
+      "readings": [
+        "bāo"
+      ],
+      "gloss": "wrap (enclosing component)",
+      "extra": "无独立字义 · 「包字头」· 康熙部首 20",
+      "example": {
+        "glyph": "包",
+        "reading": "bāo",
+        "gloss": "to wrap"
+      }
+    },
+    {
+      "id": "b:勹@jp",
+      "glyph_id": "g:勹",
+      "lang": "jp",
+      "name": "つつみがまえ",
+      "readings": [],
+      "gloss": "wrapping enclosure",
+      "extra": "部首「つつみがまえ」",
+      "example": {
+        "glyph": "包",
+        "reading": "つつむ",
+        "gloss": "to wrap"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Prison",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "prison"
+      }
+    },
+    {
+      "id": "b:口@cn",
+      "glyph_id": "g:口",
+      "lang": "cn",
+      "name": "口",
+      "readings": [
+        "kǒu"
+      ],
+      "gloss": "mouth",
+      "extra": "竖 + 横折 + 横 · 汉字「口」· 康熙部首 30",
+      "example": {
+        "glyph": "名",
+        "reading": "míng",
+        "gloss": "name"
+      }
+    },
+    {
+      "id": "b:口@jp",
+      "glyph_id": "g:口",
+      "lang": "jp",
+      "name": "口",
+      "readings": [
+        "くち"
+      ],
+      "gloss": "mouth",
+      "extra": "漢字「口」(くち · コウ)",
+      "example": {
+        "glyph": "名",
+        "reading": "メイ",
+        "gloss": "name"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Mouth",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:女@cn",
+      "glyph_id": "g:女",
+      "lang": "cn",
+      "name": "女",
+      "readings": [
+        "nǚ"
+      ],
+      "gloss": "woman",
+      "extra": "撇折 + 撇 + 横 · 汉字「女」· 康熙部首 38",
+      "example": {
+        "glyph": "好",
+        "reading": "hǎo",
+        "gloss": "good"
+      }
+    },
+    {
+      "id": "b:女@jp",
+      "glyph_id": "g:女",
+      "lang": "jp",
+      "name": "女",
+      "readings": [
+        "おんな"
+      ],
+      "gloss": "woman",
+      "extra": "漢字「女」(おんな · ジョ)",
+      "example": {
+        "glyph": "好",
+        "reading": "すき",
+        "gloss": "to like"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Woman",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:七@cn",
+      "glyph_id": "g:七",
+      "lang": "cn",
+      "name": "七",
+      "readings": [
+        "qī"
+      ],
+      "gloss": "seven",
+      "extra": "横 + 竖弯钩 · 数字「七」",
+      "example": {
+        "glyph": "切",
+        "reading": "qiē",
+        "gloss": "to cut"
+      }
+    },
+    {
+      "id": "b:七@jp",
+      "glyph_id": "g:七",
+      "lang": "jp",
+      "name": "七",
+      "readings": [
+        "なな"
+      ],
+      "gloss": "seven",
+      "extra": "漢字「七」(なな · シチ)",
+      "example": {
+        "glyph": "切",
+        "reading": "きる",
+        "gloss": "to cut"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Seven",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:九@cn",
+      "glyph_id": "g:九",
+      "lang": "cn",
+      "name": "九",
+      "readings": [
+        "jiǔ"
+      ],
+      "gloss": "nine",
+      "extra": "撇 + 横折弯钩 · 数字「九」",
+      "example": {
+        "glyph": "丸",
+        "reading": "wán",
+        "gloss": "ball; pellet"
+      }
+    },
+    {
+      "id": "b:九@jp",
+      "glyph_id": "g:九",
+      "lang": "jp",
+      "name": "九",
+      "readings": [
+        "キュウ"
+      ],
+      "gloss": "nine",
+      "extra": "漢字「九」(ここの-つ · キュウ)",
+      "example": {
+        "glyph": "丸",
+        "reading": "まる",
+        "gloss": "round; circle"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Nine",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:十@cn",
+      "glyph_id": "g:十",
+      "lang": "cn",
+      "name": "十",
+      "readings": [
+        "shí"
+      ],
+      "gloss": "ten",
+      "extra": "横 + 竖 · 数字「十」· 康熙部首 24",
+      "example": {
+        "glyph": "古",
+        "reading": "gǔ",
+        "gloss": "ancient"
+      }
+    },
+    {
+      "id": "b:十@jp",
+      "glyph_id": "g:十",
+      "lang": "jp",
+      "name": "十",
+      "readings": [
+        "ジュウ"
+      ],
+      "gloss": "ten",
+      "extra": "漢字「十」(とお · ジュウ)",
+      "example": {
+        "glyph": "古",
+        "reading": "ふるい",
+        "gloss": "old"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Cross",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "cross"
+      }
+    },
+    {
+      "id": "b:𠂉@cn",
+      "glyph_id": "g:𠂉",
+      "lang": "cn",
+      "name": "𠂉",
+      "readings": [],
+      "gloss": "pie-heng component",
+      "extra": "无独立字义 · 撇 + 横 · 见于 午 年 失 朱",
+      "example": {
+        "glyph": "午",
+        "reading": "wǔ",
+        "gloss": "noon"
+      }
+    },
+    {
+      "id": "b:𠂉@jp",
+      "glyph_id": "g:𠂉",
+      "lang": "jp",
+      "name": "𠂉",
+      "readings": [],
+      "gloss": "stroke component",
+      "extra": "「午」「年」などの上部",
+      "example": {
+        "glyph": "午",
+        "reading": "ゴ",
+        "gloss": "noon"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Gun",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "gun"
+      }
+    },
+    {
+      "id": "b:ト@cn",
+      "glyph_id": "g:ト",
+      "lang": "cn",
+      "name": "卜",
+      "readings": [
+        "bǔ"
+      ],
+      "gloss": "divination (卜)",
+      "extra": "形如片假名「ト」· 汉字作「卜」· 竖 + 点",
+      "example": {
+        "glyph": "外",
+        "reading": "wài",
+        "gloss": "outside"
+      }
+    },
+    {
+      "id": "b:ト@jp",
+      "glyph_id": "g:ト",
+      "lang": "jp",
+      "name": "ト",
+      "readings": [],
+      "gloss": "katakana \"to\" shape",
+      "extra": "片假名「ト」· 偏旁「卜」",
+      "example": {
+        "glyph": "外",
+        "reading": "そと",
+        "gloss": "outside"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Toe",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "toe"
+      }
+    },
+    {
+      "id": "b:川@cn",
+      "glyph_id": "g:川",
+      "lang": "cn",
+      "name": "川",
+      "readings": [
+        "chuān"
+      ],
+      "gloss": "river",
+      "extra": "三竖 · 象形「河流」· 康熙部首 47",
+      "example": {
+        "glyph": "州",
+        "reading": "zhōu",
+        "gloss": "province; state"
+      }
+    },
+    {
+      "id": "b:川@jp",
+      "glyph_id": "g:川",
+      "lang": "jp",
+      "name": "川",
+      "readings": [
+        "かわ"
+      ],
+      "gloss": "river",
+      "extra": "漢字「川」(かわ · セン)",
+      "example": {
+        "glyph": "州",
+        "reading": "シュウ",
+        "gloss": "state"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "River",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:工@cn",
+      "glyph_id": "g:工",
+      "lang": "cn",
+      "name": "工",
+      "readings": [
+        "gōng"
+      ],
+      "gloss": "work; labour",
+      "extra": "横 + 竖 + 横 · 工具/工作 · 康熙部首 48",
+      "example": {
+        "glyph": "江",
+        "reading": "jiāng",
+        "gloss": "river"
+      }
+    },
+    {
+      "id": "b:工@jp",
+      "glyph_id": "g:工",
+      "lang": "jp",
+      "name": "工",
+      "readings": [
+        "コウ"
+      ],
+      "gloss": "construction; craft",
+      "extra": "漢字「工」(コウ · ク)",
+      "example": {
+        "glyph": "江",
+        "reading": "コウ",
+        "gloss": "large river; inlet"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Construction",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:山@cn",
+      "glyph_id": "g:山",
+      "lang": "cn",
+      "name": "山",
+      "readings": [
+        "shān"
+      ],
+      "gloss": "mountain",
+      "extra": "象形「三峰」· 康熙部首 46",
+      "example": {
+        "glyph": "岩",
+        "reading": "yán",
+        "gloss": "rock; cliff"
+      }
+    },
+    {
+      "id": "b:山@jp",
+      "glyph_id": "g:山",
+      "lang": "jp",
+      "name": "山",
+      "readings": [
+        "やま"
+      ],
+      "gloss": "mountain",
+      "extra": "漢字「山」(やま · サン)",
+      "example": {
+        "glyph": "岩",
+        "reading": "いわ",
+        "gloss": "rock"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Mountain",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:木@cn",
+      "glyph_id": "g:木",
+      "lang": "cn",
+      "name": "木",
+      "readings": [
+        "mù"
+      ],
+      "gloss": "tree; wood",
+      "extra": "横 + 竖 + 撇 + 捺 · 象形「树」· 康熙部首 75",
+      "example": {
+        "glyph": "林",
+        "reading": "lín",
+        "gloss": "woods; forest"
+      }
+    },
+    {
+      "id": "b:木@jp",
+      "glyph_id": "g:木",
+      "lang": "jp",
+      "name": "木",
+      "readings": [
+        "き"
+      ],
+      "gloss": "tree; wood",
+      "extra": "漢字「木」(き · モク · ボク)",
+      "example": {
+        "glyph": "林",
+        "reading": "はやし",
+        "gloss": "woods"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Tree",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:日@cn",
+      "glyph_id": "g:日",
+      "lang": "cn",
+      "name": "日",
+      "readings": [
+        "rì"
+      ],
+      "gloss": "sun; day",
+      "extra": "象形「太阳」· 竖 横折 横 横 · 康熙部首 72",
+      "example": {
+        "glyph": "明",
+        "reading": "míng",
+        "gloss": "bright"
+      }
+    },
+    {
+      "id": "b:日@jp",
+      "glyph_id": "g:日",
+      "lang": "jp",
+      "name": "日",
+      "readings": [
+        "ひ"
+      ],
+      "gloss": "sun; day",
+      "extra": "漢字「日」(ひ · ニチ · ジツ)",
+      "example": {
+        "glyph": "明",
+        "reading": "あかるい",
+        "gloss": "bright"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Sun",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:一@cn",
+      "glyph_id": "g:一",
+      "lang": "cn",
+      "name": "横",
+      "readings": [
+        "héng"
+      ],
+      "gloss": "horizontal stroke",
+      "extra": "本身也是汉字 一 (yī)「one」· 康熙部首 1",
+      "example": {
+        "glyph": "三",
+        "reading": "sān",
+        "gloss": "three"
+      }
+    },
+    {
+      "id": "b:一@jp",
+      "glyph_id": "g:一",
+      "lang": "jp",
+      "name": "横画",
+      "readings": [
+        "よこかく"
+      ],
+      "gloss": "horizontal stroke",
+      "extra": "漢字 一・部首名「いち」",
+      "example": {
+        "glyph": "二",
+        "reading": "ニ",
+        "gloss": "two"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Ground",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "ground"
+      }
+    },
+    {
+      "id": "b:丨@cn",
+      "glyph_id": "g:丨",
+      "lang": "cn",
+      "name": "竖",
+      "readings": [
+        "shù"
+      ],
+      "gloss": "vertical stroke",
+      "extra": "康熙部首 2「丨 gǔn」",
+      "example": {
+        "glyph": "十",
+        "reading": "shí",
+        "gloss": "ten"
+      }
+    },
+    {
+      "id": "b:丨@jp",
+      "glyph_id": "g:丨",
+      "lang": "jp",
+      "name": "縦画",
+      "readings": [
+        "たてかく"
+      ],
+      "gloss": "vertical stroke",
+      "extra": "部首名「たてぼう」",
+      "example": {
+        "glyph": "十",
+        "reading": "ジュウ",
+        "gloss": "ten"
+      }
+    },
+    {
+      "id": "b:丿@cn",
+      "glyph_id": "g:丿",
+      "lang": "cn",
+      "name": "撇",
+      "readings": [
+        "piě"
+      ],
+      "gloss": "left-falling stroke",
+      "extra": "康熙部首 4「丿 piě」",
+      "example": {
+        "glyph": "人",
+        "reading": "rén",
+        "gloss": "person"
+      }
+    },
+    {
+      "id": "b:丿@jp",
+      "glyph_id": "g:丿",
+      "lang": "jp",
+      "name": "左払い",
+      "readings": [
+        "ひだりばらい"
+      ],
+      "gloss": "left-sweeping stroke",
+      "extra": "部首名「の」(形が の に似る)",
+      "example": {
+        "glyph": "人",
+        "reading": "ひと",
+        "gloss": "person"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Slide",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "slide"
+      }
+    },
+    {
+      "id": "b:㇏@cn",
+      "glyph_id": "g:㇏",
+      "lang": "cn",
+      "name": "捺",
+      "readings": [
+        "nà"
+      ],
+      "gloss": "right-falling stroke",
+      "extra": "撇与捺常成对 (如 人、八)",
+      "example": {
+        "glyph": "八",
+        "reading": "bā",
+        "gloss": "eight"
+      }
+    },
+    {
+      "id": "b:㇏@jp",
+      "glyph_id": "g:㇏",
+      "lang": "jp",
+      "name": "右払い",
+      "readings": [
+        "みぎばらい"
+      ],
+      "gloss": "right-sweeping stroke",
+      "extra": "払いの一種",
+      "example": {
+        "glyph": "八",
+        "reading": "ハチ",
+        "gloss": "eight"
+      }
+    },
+    {
+      "id": "b:丶@cn",
+      "glyph_id": "g:丶",
+      "lang": "cn",
+      "name": "点",
+      "readings": [
+        "diǎn"
+      ],
+      "gloss": "dot stroke",
+      "extra": "康熙部首 3「丶 zhǔ」",
+      "example": {
+        "glyph": "犬",
+        "reading": "quǎn",
+        "gloss": "dog"
+      }
+    },
+    {
+      "id": "b:丶@jp",
+      "glyph_id": "g:丶",
+      "lang": "jp",
+      "name": "点",
+      "readings": [
+        "テン"
+      ],
+      "gloss": "dot stroke",
+      "extra": "部首名「てん」",
+      "example": {
+        "glyph": "犬",
+        "reading": "いぬ",
+        "gloss": "dog"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Drop",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "drop"
+      }
+    },
+    {
+      "id": "b:㇀@cn",
+      "glyph_id": "g:㇀",
+      "lang": "cn",
+      "name": "提",
+      "readings": [
+        "tí"
+      ],
+      "gloss": "rising stroke",
+      "extra": "向右上挑 (如 扌 的末笔)",
+      "example": {
+        "glyph": "打",
+        "reading": "dǎ",
+        "gloss": "to hit"
+      }
+    },
+    {
+      "id": "b:㇀@jp",
+      "glyph_id": "g:㇀",
+      "lang": "jp",
+      "name": "はね",
+      "readings": [
+        "はね"
+      ],
+      "gloss": "upward flick",
+      "extra": "上向きの画・払い系",
+      "example": {
+        "glyph": "打",
+        "reading": "うつ",
+        "gloss": "to hit"
+      }
+    },
+    {
+      "id": "b:乛@cn",
+      "glyph_id": "g:乛",
+      "lang": "cn",
+      "name": "折",
+      "readings": [
+        "zhé"
+      ],
+      "gloss": "turning stroke",
+      "extra": "一笔之中改变方向 (如 横折)",
+      "example": {
+        "glyph": "口",
+        "reading": "kǒu",
+        "gloss": "mouth"
+      }
+    },
+    {
+      "id": "b:乛@jp",
+      "glyph_id": "g:乛",
+      "lang": "jp",
+      "name": "折れ",
+      "readings": [
+        "おれ"
+      ],
+      "gloss": "bending stroke",
+      "extra": "向きが変わる一画",
+      "example": {
+        "glyph": "口",
+        "reading": "くち",
+        "gloss": "mouth"
+      }
+    },
+    {
+      "id": "b:亅@cn",
+      "glyph_id": "g:亅",
+      "lang": "cn",
+      "name": "竖钩",
+      "readings": [
+        "shùgōu"
+      ],
+      "gloss": "vertical hook",
+      "extra": "康熙部首 6「亅 jué」",
+      "example": {
+        "glyph": "小",
+        "reading": "xiǎo",
+        "gloss": "small"
+      }
+    },
+    {
+      "id": "b:亅@jp",
+      "glyph_id": "g:亅",
+      "lang": "jp",
+      "name": "はねぼう",
+      "readings": [
+        "はねぼう"
+      ],
+      "gloss": "hooked vertical",
+      "extra": "部首名「はねぼう」",
+      "example": {
+        "glyph": "小",
+        "reading": "ちいさい",
+        "gloss": "small"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Barb",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "barb"
+      }
+    }
+  ]
+}
