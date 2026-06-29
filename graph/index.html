@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>字形图 · Character Graph</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
+<link rel="stylesheet" href="graph.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover cover-slim">
+  <div class="cover-masthead">数据层 · 一张图</div>
+  <div class="cover-title">字形图</div>
+  <div class="cover-py">zìxíng tú</div>
+  <div class="cover-sub"><span class="en">One neutral Han-script graph · CN + JP are binding layers</span><span class="zh-alt">同一张汉字图 · 中日为绑定层</span></div>
+  <div class="cover-meta">Character Graph</div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div class="legend2" aria-hidden="true">
+      <span class="lg-wire up"></span>部件
+      <span class="lg-wire down"></span>出现于
+      <span class="lg-wire ref"></span>义
+      <span class="lg-chip frontier">字</span>前沿
+    </div>
+
+    <div id="ladder"></div>
+    <div id="ego"></div>
+    <div id="detail"></div>
+  </div>
+</section>
+
+<footer>
+  <div>字形图 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/vendor/hanzi-writer.min.js"></script>
+<script src="../shared/cards3.js"></script>
+<script src="graph.js"></script>
+</body>
+</html>

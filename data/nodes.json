@@ -643,6 +643,139 @@
       "glyph": "小",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:乚",
+      "kind": "glyph",
+      "glyph": "乚",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:乙",
+      "kind": "glyph",
+      "glyph": "乙",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:儿",
+      "kind": "glyph",
+      "glyph": "儿",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:玉",
+      "kind": "glyph",
+      "glyph": "玉",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:刀",
+      "kind": "glyph",
+      "glyph": "刀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:巳",
+      "kind": "glyph",
+      "glyph": "巳",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:干",
+      "kind": "glyph",
+      "glyph": "干",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:冂",
+      "kind": "glyph",
+      "glyph": "冂",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:夕",
+      "kind": "glyph",
+      "glyph": "夕",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:卜",
+      "kind": "glyph",
+      "glyph": "卜",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:子",
+      "kind": "glyph",
+      "glyph": "子",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:凵",
+      "kind": "glyph",
+      "glyph": "凵",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:石",
+      "kind": "glyph",
+      "glyph": "石",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丄",
+      "kind": "glyph",
+      "glyph": "丄",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:扌",
+      "kind": "glyph",
+      "glyph": "扌",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丁",
+      "kind": "glyph",
+      "glyph": "丁",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:月",
+      "kind": "glyph",
+      "glyph": "月",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:氵",
+      "kind": "glyph",
+      "glyph": "氵",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:田",
+      "kind": "glyph",
+      "glyph": "田",
+      "tier": null,
+      "frontier": true
     }
   ]
 }

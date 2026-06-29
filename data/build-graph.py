@@ -95,6 +95,23 @@ def build():
                         "id": f"g:{tgt}", "kind": "glyph", "glyph": tgt,
                         "tier": None, "frontier": True})
 
+    # structural decomposition edges (component → char) from Make-Me-a-Hanzi IDS.
+    # These are the real 'parts' the cards lack (男 ← 田 力, 七 ← 一 乚).
+    decomp_path = DATA / "decomposition.json"
+    if decomp_path.exists():
+        decomp = json.loads(decomp_path.read_text())
+        for char, comps in decomp.items():
+            if f"g:{char}" not in nodes:
+                continue  # only decompose glyphs already in the graph
+            for comp in comps:
+                if (comp, char) not in seen_edge:
+                    seen_edge.add((comp, char))
+                    edges.append({"from": f"g:{comp}", "to": f"g:{char}", "kind": "composes"})
+                if comp not in real:
+                    nodes.setdefault(f"g:{comp}", {
+                        "id": f"g:{comp}", "kind": "glyph", "glyph": comp,
+                        "tier": None, "frontier": True})
+
     return list(nodes.values()), bindings, edges
 
 

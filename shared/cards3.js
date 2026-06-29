@@ -103,8 +103,8 @@ function renderCard(c) {
         ${img}
       </div>
       <div class="sc-views">
-        ${langView('v-cn', '中文', c.cn, `audio/cn-${c.slug}.mp3`, `audio/cn-${c.slug}-ex.mp3`)}
-        ${langView('v-jp', '日本語', c.jp, `audio/jp-${c.slug}.mp3`, `audio/jp-${c.slug}-ex.mp3`)}
+        ${langView('v-cn', '中文', c.cn, `${c.audioBase || ''}audio/cn-${c.slug}.mp3`, `${c.audioBase || ''}audio/cn-${c.slug}-ex.mp3`)}
+        ${langView('v-jp', '日本語', c.jp, `${c.audioBase || ''}audio/jp-${c.slug}.mp3`, `${c.audioBase || ''}audio/jp-${c.slug}-ex.mp3`)}
         ${wkView(c.wk)}
       </div>
     </div>`;
@@ -137,7 +137,11 @@ function initHanzi() {
   });
 }
 
+// Auto-load when a page provides <div id="cards" data-src>. Pages that reuse
+// renderCard()/initHanzi() directly (e.g. /graph/) simply omit #cards.
 const host = document.getElementById('cards');
-fetch(host.dataset.src)
-  .then(r => r.json())
-  .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); initHanzi(); });
+if (host) {
+  fetch(host.dataset.src)
+    .then(r => r.json())
+    .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); initHanzi(); });
+}

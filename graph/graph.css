@@ -1,0 +1,115 @@
+/* /graph/ — tier-banded ladder over the content graph. Spare by intent:
+   layout + colour carry meaning; text is demoted to hover/detail. */
+
+.cover-slim { padding-top: 2.4rem; padding-bottom: 2.4rem; }
+
+/* near-wordless visual key */
+.legend2 {
+  display: flex; align-items: center; gap: .4rem;
+  font-size: .8rem; color: var(--muted); margin: 0 0 1.4rem;
+}
+.legend2 .lg-wire { width: 22px; height: 0; border-top-width: 2.5px; border-top-style: solid; }
+.legend2 .lg-wire.down { border-color: var(--red); }
+.legend2 .lg-wire.up { border-color: var(--navy); }
+.legend2 .lg-wire:not(:first-child) { margin-left: 1rem; }
+.legend2 .lg-chip {
+  display: inline-grid; place-items: center; width: 22px; height: 22px;
+  font-family: "LXGW WenKai", serif; font-size: .9rem; margin-left: 1rem;
+}
+.legend2 .lg-chip.frontier {
+  border: 1.5px dashed var(--border); color: var(--muted); opacity: .6; border-radius: 5px;
+}
+
+.legend2 .lg-wire.ref { border-color: var(--gold); }
+
+/* wires (shared by the ego stage) */
+.wire { fill: none; stroke-width: 2; stroke-linecap: round; opacity: .8; }
+.wire.down { stroke: var(--red); }
+.wire.up { stroke: var(--navy); }
+.wire.ref { stroke: var(--gold); stroke-dasharray: 3 4; }
+
+/* ── ego stage: current-glyph-centred local graph ── */
+#ego { position: relative; height: 22rem; margin: 0 0 1rem; }
+#egowires { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: visible; }
+.egonode { position: absolute; transform: translate(-50%, -50%); z-index: 1; }
+
+.egonode.center {
+  left: 50%; top: 50%; display: flex; flex-direction: column; align-items: center; gap: .25rem;
+  background: var(--white); border: 2px solid var(--navy); border-radius: 14px;
+  padding: .55rem .9rem; box-shadow: 0 3px 14px rgba(30, 42, 74, .16);
+}
+.egonode.center.frontier { border-style: dashed; border-color: var(--border); }
+.ec-glyph { font-family: "LXGW WenKai", serif; font-size: 2.6rem; line-height: 1; color: var(--ink); }
+.ec-facts { font-size: .78rem; color: var(--muted); }
+.ec-wk { font-size: .68rem; padding: .04rem .4rem; border-radius: 999px; }
+.ec-wk.mean { color: var(--green); border: 1px solid var(--green); }
+.ec-wk.mnem { color: var(--red); border: 1px dashed var(--red); }
+
+.egonode.nb {
+  width: 2.6rem; height: 2.6rem; display: grid; place-items: center; padding: 0;
+  font-family: "LXGW WenKai", serif; font-size: 1.4rem; line-height: 1;
+  background: var(--cream); color: var(--ink); border: 1px solid var(--border);
+  border-radius: 8px; cursor: pointer; transition: transform .12s, box-shadow .12s;
+}
+.egonode.nb:hover { transform: translate(-50%, -50%) translateY(-2px); box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+.egonode.nb.part { border-color: var(--navy); }
+.egonode.nb.whole { border-color: var(--red); }
+.egonode.nb.frontier { opacity: .5; border-style: dashed; color: var(--muted); }
+
+.egonode.ref { display: flex; flex-direction: column; align-items: center; gap: .1rem; color: var(--gold); }
+.egonode.ref .er-zh { font-family: "LXGW WenKai", serif; font-size: 1.3rem; }
+.egonode.ref .er-txt { font-size: .72rem; }
+.egonode.more { font-size: .78rem; color: var(--muted); }
+
+.band {
+  display: flex; align-items: flex-start; gap: 1rem;
+  padding: .9rem 0; border-top: 1px solid var(--border);
+  position: relative; z-index: 1;
+}
+.band:last-child { border-bottom: 1px solid var(--border); }
+.band-label {
+  flex: 0 0 4.5rem; display: flex; flex-direction: column; line-height: 1.25;
+  padding-top: .35rem;
+}
+.band-label .bl-zh { font-weight: 700; color: var(--navy); }
+.band-label .bl-en { font-size: .7rem; color: var(--muted); }
+.band-label .bl-n { font-size: .72rem; color: var(--muted); margin-top: .15rem; }
+
+.band-chips { display: flex; flex-wrap: wrap; gap: .5rem; flex: 1; }
+.band-empty { color: var(--muted); }
+
+.chip {
+  font-family: "LXGW WenKai", serif; font-size: 1.7rem; line-height: 1;
+  width: 3rem; height: 3rem; display: grid; place-items: center;
+  background: var(--cream); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 8px;
+  cursor: pointer; padding: 0; transition: border-color .12s, box-shadow .12s, transform .12s;
+}
+.chip:hover { border-color: var(--navy); transform: translateY(-1px); }
+.chip.frontier { opacity: .42; border-style: dashed; color: var(--muted); }
+.chip.sel {
+  border-color: var(--navy); border-width: 2px; background: var(--white);
+  box-shadow: 0 2px 10px rgba(30, 42, 74, .18); opacity: 1;
+}
+.chip.adj { box-shadow: 0 0 0 2px var(--red); }
+
+/* detail */
+#detail { margin-top: 1.6rem; min-height: 4rem; }
+.detail-empty { color: var(--muted); text-align: center; padding: 1.4rem 0; }
+
+.frontier-card {
+  display: flex; align-items: center; gap: 1.2rem;
+  border: 1.5px dashed var(--border); border-radius: 12px;
+  padding: 1.1rem 1.4rem; background: var(--cream);
+}
+.frontier-card .fc-glyph {
+  font-family: "LXGW WenKai", serif; font-size: 3.4rem; color: var(--muted); line-height: 1;
+}
+.frontier-card .fc-tag { font-size: .82rem; color: var(--muted); }
+.frontier-card .fc-built { margin-top: .3rem; font-size: 1.1rem; }
+.frontier-card .fc-built b { font-family: "LXGW WenKai", serif; font-weight: 400; }
+
+@media (max-width: 640px) {
+  .band-label { flex-basis: 3.2rem; }
+  .chip { width: 2.6rem; height: 2.6rem; font-size: 1.4rem; }
+}
