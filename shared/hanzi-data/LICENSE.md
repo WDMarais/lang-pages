@@ -11,6 +11,12 @@ package, and are derived from the **Arphic PL UKai** font.
   consumes it (rendering/ordering/orchestration code is unaffected).
 - **Non-graphical data** (where present): LGPL, per Make-Me-a-Hanzi.
 
+Some files are **lifted** from a source character rather than downloaded whole:
+a single stroke (or two) is extracted from a common character and recentred to
+the tile, for glyphs absent from the dataset (CJK-Strokes block, katakana). These
+remain APL derivatives of the same Arphic data. Both downloading and lifting are
+handled by `./fetch.py` — see its docstring for the exact per-glyph commands.
+
 The **HanziWriter** library in `../vendor/hanzi-writer.min.js` is separate and
 licensed **MIT** (https://github.com/chanind/hanzi-writer).
 

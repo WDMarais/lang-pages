@@ -201,6 +201,168 @@
             "ex": { "char": "切", "reading": "きる", "gloss": "to cut" }
           },
           "wk": { "name": "Seven", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "九",
+          "slug": "jiu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "九", "reading": "jiǔ", "gloss": "nine",
+            "extra": "撇 + 横折弯钩 · 数字「九」",
+            "ex": { "char": "丸", "reading": "wán", "gloss": "ball; pellet" }
+          },
+          "jp": {
+            "name": "九", "reading": "キュウ", "gloss": "nine",
+            "extra": "漢字「九」(ここの-つ · キュウ)",
+            "ex": { "char": "丸", "reading": "まる", "gloss": "round; circle" }
+          },
+          "wk": { "name": "Nine", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "十",
+          "slug": "shi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "十", "reading": "shí", "gloss": "ten",
+            "extra": "横 + 竖 · 数字「十」· 康熙部首 24",
+            "ex": { "char": "古", "reading": "gǔ", "gloss": "ancient" }
+          },
+          "jp": {
+            "name": "十", "reading": "ジュウ", "gloss": "ten",
+            "extra": "漢字「十」(とお · ジュウ)",
+            "ex": { "char": "古", "reading": "ふるい", "gloss": "old" }
+          },
+          "wk": { "name": "Cross", "level": 1, "kind": "mnemonic", "icon": "cross" }
+        },
+        {
+          "glyph": "𠂉",
+          "slug": "gun",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "𠂉", "reading": "", "gloss": "pie-heng component",
+            "extra": "无独立字义 · 撇 + 横 · 见于 午 年 失 朱",
+            "ex": { "char": "午", "reading": "wǔ", "gloss": "noon" }
+          },
+          "jp": {
+            "name": "𠂉", "reading": "", "gloss": "stroke component",
+            "extra": "「午」「年」などの上部",
+            "ex": { "char": "午", "reading": "ゴ", "gloss": "noon" }
+          },
+          "wk": { "name": "Gun", "level": 1, "kind": "mnemonic", "icon": "gun" }
+        },
+        {
+          "glyph": "ト",
+          "slug": "toe",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "卜", "reading": "bǔ", "gloss": "divination (卜)",
+            "extra": "形如片假名「ト」· 汉字作「卜」· 竖 + 点",
+            "ex": { "char": "外", "reading": "wài", "gloss": "outside" }
+          },
+          "jp": {
+            "name": "ト", "reading": "", "gloss": "katakana \"to\" shape",
+            "extra": "片假名「ト」· 偏旁「卜」",
+            "ex": { "char": "外", "reading": "そと", "gloss": "outside" }
+          },
+          "wk": { "name": "Toe", "level": 1, "kind": "mnemonic", "icon": "toe" }
+        },
+        {
+          "glyph": "川",
+          "slug": "chuan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "川", "reading": "chuān", "gloss": "river",
+            "extra": "三竖 · 象形「河流」· 康熙部首 47",
+            "ex": { "char": "州", "reading": "zhōu", "gloss": "province; state" }
+          },
+          "jp": {
+            "name": "川", "reading": "かわ", "gloss": "river",
+            "extra": "漢字「川」(かわ · セン)",
+            "ex": { "char": "州", "reading": "シュウ", "gloss": "state" }
+          },
+          "wk": { "name": "River", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "工",
+          "slug": "gong",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "工", "reading": "gōng", "gloss": "work; labour",
+            "extra": "横 + 竖 + 横 · 工具/工作 · 康熙部首 48",
+            "ex": { "char": "江", "reading": "jiāng", "gloss": "river" }
+          },
+          "jp": {
+            "name": "工", "reading": "コウ", "gloss": "construction; craft",
+            "extra": "漢字「工」(コウ · ク)",
+            "ex": { "char": "江", "reading": "コウ", "gloss": "large river; inlet" }
+          },
+          "wk": { "name": "Construction", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "山",
+          "slug": "shan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "山", "reading": "shān", "gloss": "mountain",
+            "extra": "象形「三峰」· 康熙部首 46",
+            "ex": { "char": "岩", "reading": "yán", "gloss": "rock; cliff" }
+          },
+          "jp": {
+            "name": "山", "reading": "やま", "gloss": "mountain",
+            "extra": "漢字「山」(やま · サン)",
+            "ex": { "char": "岩", "reading": "いわ", "gloss": "rock" }
+          },
+          "wk": { "name": "Mountain", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "木",
+          "slug": "mu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "木", "reading": "mù", "gloss": "tree; wood",
+            "extra": "横 + 竖 + 撇 + 捺 · 象形「树」· 康熙部首 75",
+            "ex": { "char": "林", "reading": "lín", "gloss": "woods; forest" }
+          },
+          "jp": {
+            "name": "木", "reading": "き", "gloss": "tree; wood",
+            "extra": "漢字「木」(き · モク · ボク)",
+            "ex": { "char": "林", "reading": "はやし", "gloss": "woods" }
+          },
+          "wk": { "name": "Tree", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "日",
+          "slug": "ri",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "日", "reading": "rì", "gloss": "sun; day",
+            "extra": "象形「太阳」· 竖 横折 横 横 · 康熙部首 72",
+            "ex": { "char": "明", "reading": "míng", "gloss": "bright" }
+          },
+          "jp": {
+            "name": "日", "reading": "ひ", "gloss": "sun; day",
+            "extra": "漢字「日」(ひ · ニチ · ジツ)",
+            "ex": { "char": "明", "reading": "あかるい", "gloss": "bright" }
+          },
+          "wk": { "name": "Sun", "level": 1, "kind": "meaning" }
         }
       ]
     }

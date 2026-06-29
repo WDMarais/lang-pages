@@ -32,6 +32,9 @@ const ICONS = {
   fins:   '<path d="M6 20 C13 12 27 12 33 20 C27 28 13 28 6 20 Z"/><path d="M6 20 L1 15 L3 20 L1 25 Z"/><circle cx="27" cy="18" r="1.3"/><path d="M17 12 l3 -5 l3 5"/>',
   lid:    '<path d="M6 27 a14 9 0 0 1 28 0 Z"/><path d="M5 27 H35"/><path d="M20 14 v-4"/>',
   prison: '<path d="M9 9 H31 V33 H9 Z"/><path d="M16 9 V33"/><path d="M23 9 V33"/>',
+  cross:  '<path d="M16 7 H24 V16 H33 V24 H24 V33 H16 V24 H7 V16 H16 Z"/>',
+  gun:    '<path d="M7 13 H32 V19 H21 L18 31 H12 L15 19 H7 Z"/><path d="M16 19 q2 4 5 1"/><path d="M26 13 V10 H30 V13"/>',
+  toe:    '<ellipse cx="18" cy="27" rx="8" ry="5"/><circle cx="13" cy="15" r="3"/><circle cx="20" cy="12" r="2.6"/><circle cx="26" cy="15" r="2.1"/>',
 };
 function mnemonic(name) {
   return `<svg class="sc-mnemonic" viewBox="0 0 40 40" aria-hidden="true">${ICONS[name] || ''}</svg>`;
