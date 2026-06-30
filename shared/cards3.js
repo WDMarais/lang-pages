@@ -66,27 +66,70 @@ function langView(cls, label, v, audioName, audioEx) {
 }
 
 // Wanikani column. meaning → green/solid (transfers); mnemonic → red/dashed + icon.
-function wkView(wk) {
-  if (!wk) {
+// WaniKani ships radical and kanji as separate items on one glyph; when a kanji
+// has unlocked we collapse both into this column (radical above, kanji below)
+// rather than spawning a second near-duplicate card. on'yomi shows in katakana,
+// kun'yomi in hiragana — the script itself carries the reading-class cue.
+function wkView(wk, kanji) {
+  if (!wk && !kanji) {
     return `
       <div class="sc-view v-wk empty">
         <div class="sc-vlabel">Wanikani</div>
         <div class="sc-empty">—</div>
       </div>`;
   }
-  const glyph = wk.glyph ? ` <span class="sc-altglyph">${wk.glyph}</span>` : '';
-  const meaning = wk.kind === 'meaning';
-  const visual = meaning ? `<div class="sc-check">✓</div>` : mnemonic(wk.icon);
-  const flag = meaning
-    ? `<div class="sc-only sc-true">实义 · 通用</div>`
-    : `<div class="sc-only">仅助记</div>`;
-  return `
+  // single radical, no kanji yet → original full-bleed layout (unchanged).
+  if (wk && !kanji) {
+    const glyph = wk.glyph ? ` <span class="sc-altglyph">${wk.glyph}</span>` : '';
+    const meaning = wk.kind === 'meaning';
+    const visual = meaning ? `<div class="sc-check">✓</div>` : mnemonic(wk.icon);
+    const flag = meaning
+      ? `<div class="sc-only sc-true">实义 · 通用</div>`
+      : `<div class="sc-only">仅助记</div>`;
+    return `
       <div class="sc-view v-wk ${meaning ? 'wk-meaning' : 'wk-mnemonic'}">
         <div class="sc-vlabel">Wanikani <span class="sc-lvl">Lv.${wk.level}</span></div>
         ${visual}
         <div class="sc-nameline"><span class="sc-name">${wk.name}</span>${glyph}</div>
         ${flag}
       </div>`;
+  }
+  // radical + kanji → stacked items, each carrying its own meaning/mnemonic cue.
+  return `
+      <div class="sc-view v-wk v-wk-stack">
+        <div class="sc-vlabel">Wanikani</div>
+        ${wk ? wkItem('部首', wk) : ''}
+        ${kanji ? kanjiItem(kanji) : ''}
+      </div>`;
+}
+
+// radical sub-item: keeps the mnemonic line-icon (the shape-only warning cue).
+function wkItem(tag, wk) {
+  const meaning = wk.kind === 'meaning';
+  const icon = meaning ? '' : mnemonic(wk.icon);
+  const glyph = wk.glyph ? ` <span class="sc-altglyph">${wk.glyph}</span>` : '';
+  const flag = meaning ? `<span class="sc-only sc-true">实义</span>` : `<span class="sc-only">仅助记</span>`;
+  return `
+        <div class="sc-wk-item ${meaning ? 'wk-meaning' : 'wk-mnemonic'}">
+          ${icon}
+          <div class="sc-wk-head"><span class="sc-wk-tag">${tag}</span>
+            <span class="sc-name">${wk.name}</span>${glyph}
+            <span class="sc-lvl">Lv.${wk.level}</span></div>
+          ${flag}
+        </div>`;
+}
+
+// kanji sub-item: real meaning (always maps → green) + on/kun reading.
+function kanjiItem(k) {
+  const reading = k.reading ? ` <span class="sc-reading">${k.reading}</span>` : '';
+  const yomi = k.on ? '音読み' : '訓読み';
+  return `
+        <div class="sc-wk-item wk-meaning">
+          <div class="sc-wk-head"><span class="sc-wk-tag">漢字</span>
+            <span class="sc-name">${k.name}</span>${reading}
+            <span class="sc-lvl">Lv.${k.level}</span></div>
+          <span class="sc-only sc-true">${yomi}</span>
+        </div>`;
 }
 
 const TAG_LABEL = { stroke: '笔画', comp: '部件', char: '字' };
@@ -105,7 +148,7 @@ function renderCard(c) {
       <div class="sc-views">
         ${langView('v-cn', '中文', c.cn, `${c.audioBase || ''}audio/cn-${c.slug}.mp3`, `${c.audioBase || ''}audio/cn-${c.slug}-ex.mp3`)}
         ${langView('v-jp', '日本語', c.jp, `${c.audioBase || ''}audio/jp-${c.slug}.mp3`, `${c.audioBase || ''}audio/jp-${c.slug}-ex.mp3`)}
-        ${wkView(c.wk)}
+        ${wkView(c.wk, c.kanji)}
       </div>
     </div>`;
 }

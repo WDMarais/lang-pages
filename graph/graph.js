@@ -179,8 +179,12 @@ function cardFromNode(node) {
   return {
     glyph: node.glyph, slug: node.slug, tag: TAGMAP[node.tier],
     image: node.media.image, hw: node.media.hw, audioBase: `../${node.source}/`,
-    cn: view(cn), jp: view(jp), wk: wkFrom(jp),
+    cn: view(cn), jp: view(jp), wk: wkFrom(jp), kanji: kanjiFrom(jp),
   };
+}
+function kanjiFrom(jp) {
+  const k = jp.program && jp.program.kanji;
+  return k ? { name: k.name, reading: k.reading, on: k.on, level: k.level } : null;
 }
 function view(b) {
   const v = { name: b.name, reading: b.readings[0] || '', gloss: b.gloss, extra: b.extra };
@@ -189,7 +193,7 @@ function view(b) {
 }
 function wkFrom(jp) {
   const p = jp.program;
-  if (!p || p.source !== 'wanikani') return null;
+  if (!p || p.source !== 'wanikani' || !p.name) return null;
   const wk = { name: p.name, level: p.level, kind: p.kind };
   if (p.altglyph) wk.glyph = p.altglyph;
   if (p.icon) wk.icon = p.icon;

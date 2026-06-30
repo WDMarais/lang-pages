@@ -32,7 +32,7 @@ def load_cards(path):
 
 
 # ── forward: cards → graph ──────────────────────────────────────────────────
-def make_binding(glyph, lang, v, wk):
+def make_binding(glyph, lang, v, wk, kanji=None):
     b = {
         "id": f"b:{glyph}@{lang}",
         "glyph_id": f"g:{glyph}",
@@ -48,13 +48,23 @@ def make_binding(glyph, lang, v, wk):
                         "reading": ex.get("reading", ""),
                         "gloss": ex.get("gloss", "")}
     # source-program metadata lives on the language binding it belongs to.
-    if lang == "jp" and wk:
-        prog = {"source": "wanikani", "name": wk["name"],
-                "kind": wk["kind"], "level": wk["level"]}
-        if wk.get("glyph"):
-            prog["altglyph"] = wk["glyph"]
-        if wk.get("icon"):
-            prog["icon"] = wk["icon"]
+    # WaniKani ships radical + kanji as SEPARATE items on the same glyph; the
+    # program's top-level fields describe the radical, program.kanji the kanji
+    # (its real meaning + on/kun reading). They diverge for shape-mnemonic
+    # radicals — 八 is radical "Fins" (mnemonic) but kanji "Eight" (meaning).
+    if lang == "jp" and (wk or kanji):
+        prog = {"source": "wanikani"}
+        if wk:
+            prog.update({"name": wk["name"], "kind": wk["kind"], "level": wk["level"]})
+            if wk.get("glyph"):
+                prog["altglyph"] = wk["glyph"]
+            if wk.get("icon"):
+                prog["icon"] = wk["icon"]
+        if kanji:
+            prog["kanji"] = {"name": kanji["name"],
+                             "reading": kanji.get("reading", ""),
+                             "on": kanji.get("on", False),
+                             "level": kanji.get("level", 1)}
         b["program"] = prog
     return b
 
@@ -73,7 +83,7 @@ def build():
                 "media": {"hw": c.get("hw", False), "image": c.get("image", "")},
             }
             bindings.append(make_binding(g, "cn", c["cn"], None))
-            bindings.append(make_binding(g, "jp", c["jp"], c.get("wk")))
+            bindings.append(make_binding(g, "jp", c["jp"], c.get("wk"), c.get("kanji")))
 
             # denotes → bare referent stub (English gloss as label; shared meaning later)
             rid = f"r:{c['slug']}"
@@ -128,7 +138,7 @@ def view(b):
 
 def wk_from(jp):
     p = jp.get("program")
-    if not p or p.get("source") != "wanikani":
+    if not p or p.get("source") != "wanikani" or "name" not in p:
         return None
     wk = {"name": p["name"], "level": p["level"], "kind": p["kind"]}
     if "altglyph" in p:
@@ -138,6 +148,15 @@ def wk_from(jp):
     return wk
 
 
+def kanji_from(jp):
+    p = jp.get("program")
+    k = p.get("kanji") if p else None
+    if not k:
+        return None
+    return {"name": k["name"], "reading": k.get("reading", ""),
+            "on": k.get("on", False), "level": k.get("level", 1)}
+
+
 def project_cards(source, nodes, bindings):
     bb = {b["id"]: b for b in bindings}
     cards = []
@@ -145,13 +164,18 @@ def project_cards(source, nodes, bindings):
         if n.get("source") != source:
             continue
         g = n["glyph"]
-        cards.append({
+        jp = bb[f"b:{g}@jp"]
+        card = {
             "glyph": g, "slug": n["slug"], "tag": TAG[n["tier"]],
             "image": n["media"]["image"], "hw": n["media"]["hw"],
             "cn": view(bb[f"b:{g}@cn"]),
-            "jp": view(bb[f"b:{g}@jp"]),
-            "wk": wk_from(bb[f"b:{g}@jp"]),
-        })
+            "jp": view(jp),
+            "wk": wk_from(jp),
+        }
+        kanji = kanji_from(jp)
+        if kanji:
+            card["kanji"] = kanji
+        cards.append(card)
     return cards
 
 

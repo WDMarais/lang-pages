@@ -76,6 +76,24 @@ are facets. Keeping them apart is what stops the schema exploding.
 `program.kind` = `meaning | mnemonic` (the transfers-vs-shape-only distinction) now
 lives where it belongs: on the language binding that asserts it.
 
+WaniKani ships **radical and kanji as separate items** on the same glyph. The
+program's top-level fields describe the *radical*; `program.kanji` (added when the
+kanji unlocks) describes the *kanji* — its real meaning plus on/kun reading:
+
+```jsonc
+"program": { "source": "wanikani",
+  "name": "Fins", "kind": "mnemonic", "level": 1, "icon": "fins",   // radical item
+  "kanji": { "name": "Eight", "reading": "ハチ", "on": true, "level": 1 } }  // kanji item
+```
+
+They diverge exactly at shape-mnemonic radicals: 八 is radical **Fins** (`mnemonic`,
+no reading) but kanji **Eight** (real meaning, はち). Two items, never merged — so
+the non-mapping radical mnemonic and the real kanji meaning coexist instead of one
+overwriting the other. `kanji.on` = true → on'yomi (rendered katakana), else kun.
+The lang-pages projection **collapses both onto one card** (radical + kanji stacked
+in the WaniKani column); srs-tool keeps them as two concepts joined by an unlock
+edge (radical → kanji). Vocabulary will land the same way later (`program.vocab`).
+
 ## Facets (= schedulable concepts)
 
 Bounded, and split by where they live:

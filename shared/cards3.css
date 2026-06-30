@@ -80,6 +80,20 @@
 }
 .v-wk.empty { border: 1.5px dashed var(--border); }
 
+/* stacked WK column: radical item + kanji item, each self-coloured */
+.v-wk-stack { border-left-color: var(--border); display: flex; flex-direction: column; gap: 0.5rem; }
+.sc-wk-item { border-radius: 6px; padding: 0.45rem 0.55rem; }
+.sc-wk-item.wk-mnemonic { border: 1.5px dashed var(--red); background: rgba(196, 30, 58, 0.05); }
+.sc-wk-item.wk-meaning { border: 1.5px solid var(--green); background: rgba(44, 107, 62, 0.06); }
+.sc-wk-item .sc-mnemonic { width: 30px; height: 30px; margin: 0.1rem 0 0.3rem; }
+.sc-wk-item .sc-only { margin-top: 0.25rem; }
+.sc-wk-head { display: flex; align-items: baseline; gap: 0.35rem; flex-wrap: wrap; }
+.sc-wk-tag { font-size: 0.6rem; letter-spacing: 0.1em; color: var(--muted); font-weight: 700; }
+.sc-wk-item.wk-meaning .sc-lvl { color: var(--green); }
+.sc-wk-item.wk-mnemonic .sc-lvl { color: var(--red); }
+.sc-wk-item .sc-lvl { margin-left: auto; font-weight: 700; font-size: 0.7rem; }
+.sc-wk-item .sc-reading { color: var(--navy2); }
+
 .sc-vlabel { font-size: 0.58rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 0.4rem; }
 .wk-mnemonic .sc-lvl { color: var(--red); font-weight: 700; }
 .wk-meaning .sc-lvl { color: var(--green); font-weight: 700; }

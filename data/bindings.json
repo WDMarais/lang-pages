@@ -37,7 +37,13 @@
         "kind": "mnemonic",
         "level": 1,
         "altglyph": "ハ",
-        "icon": "fins"
+        "icon": "fins",
+        "kanji": {
+          "name": "Eight",
+          "reading": "ハチ",
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -75,7 +81,13 @@
         "source": "wanikani",
         "name": "Two",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Two",
+          "reading": "ニ",
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -188,7 +200,13 @@
         "source": "wanikani",
         "name": "Person",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Person",
+          "reading": "ニン",
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -226,7 +244,13 @@
         "source": "wanikani",
         "name": "Enter",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Enter",
+          "reading": "ニュウ",
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -415,7 +439,13 @@
         "source": "wanikani",
         "name": "Seven",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Seven",
+          "reading": "シチ",
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
