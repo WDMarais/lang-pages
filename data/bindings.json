@@ -40,7 +40,9 @@
         "icon": "fins",
         "kanji": {
           "name": "Eight",
-          "reading": "ハチ",
+          "readings": [
+            "ハチ"
+          ],
           "on": true,
           "level": 1
         }
@@ -84,7 +86,42 @@
         "level": 1,
         "kanji": {
           "name": "Two",
-          "reading": "ニ",
+          "readings": [
+            "ニ"
+          ],
+          "on": true,
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:三@cn",
+      "glyph_id": "g:三",
+      "lang": "cn",
+      "name": "三",
+      "readings": [
+        "sān"
+      ],
+      "gloss": "three",
+      "extra": "三横 · 一二三 同源，皆积横"
+    },
+    {
+      "id": "b:三@jp",
+      "glyph_id": "g:三",
+      "lang": "jp",
+      "name": "三",
+      "readings": [
+        "みっつ"
+      ],
+      "gloss": "three",
+      "extra": "訓 み(っ)つ · 音 サン",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Three",
+          "readings": [
+            "サン"
+          ],
           "on": true,
           "level": 1
         }
@@ -162,7 +199,16 @@
         "source": "wanikani",
         "name": "Big",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Big",
+          "readings": [
+            "ダイ",
+            "タイ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -203,7 +249,10 @@
         "level": 1,
         "kanji": {
           "name": "Person",
-          "reading": "ニン",
+          "readings": [
+            "ニン",
+            "ジン"
+          ],
           "on": true,
           "level": 1
         }
@@ -247,7 +296,9 @@
         "level": 1,
         "kanji": {
           "name": "Enter",
-          "reading": "ニュウ",
+          "readings": [
+            "ニュウ"
+          ],
           "on": true,
           "level": 1
         }
@@ -288,7 +339,16 @@
         "source": "wanikani",
         "name": "Power",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Power",
+          "readings": [
+            "リョク",
+            "リキ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -363,7 +423,16 @@
         "source": "wanikani",
         "name": "Mouth",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Mouth",
+          "readings": [
+            "コウ",
+            "ク"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -401,7 +470,16 @@
         "source": "wanikani",
         "name": "Woman",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Woman",
+          "readings": [
+            "ジョ",
+            "ニョ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -442,7 +520,9 @@
         "level": 1,
         "kanji": {
           "name": "Seven",
-          "reading": "シチ",
+          "readings": [
+            "シチ"
+          ],
           "on": true,
           "level": 1
         }
@@ -823,7 +903,16 @@
         "name": "Ground",
         "kind": "mnemonic",
         "level": 1,
-        "icon": "ground"
+        "icon": "ground",
+        "kanji": {
+          "name": "One",
+          "readings": [
+            "イチ",
+            "イツ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {

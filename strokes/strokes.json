@@ -20,7 +20,8 @@
             "extra": "漢字 一・部首名「いち」",
             "ex": { "char": "二", "reading": "ニ", "gloss": "two" }
           },
-          "wk": { "name": "Ground", "level": 1, "kind": "mnemonic", "icon": "ground" }
+          "wk": { "name": "Ground", "level": 1, "kind": "mnemonic", "icon": "ground" },
+          "kanji": { "name": "One", "readings": ["イチ", "イツ"], "on": true, "level": 1 }
         },
         {
           "glyph": "丨",

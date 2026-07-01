@@ -21,7 +21,7 @@
             "ex": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
           "wk": { "name": "Fins", "level": 1, "kind": "mnemonic", "glyph": "ハ", "icon": "fins" },
-          "kanji": { "name": "Eight", "reading": "ハチ", "on": true, "level": 1 }
+          "kanji": { "name": "Eight", "readings": ["ハチ"], "on": true, "level": 1 }
         },
         {
           "glyph": "二",
@@ -40,7 +40,24 @@
             "ex": { "char": "元", "reading": "ゲン", "gloss": "origin" }
           },
           "wk": { "name": "Two", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Two", "reading": "ニ", "on": true, "level": 1 }
+          "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "level": 1 }
+        },
+        {
+          "glyph": "三",
+          "slug": "san",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "三", "reading": "sān", "gloss": "three",
+            "extra": "三横 · 一二三 同源，皆积横"
+          },
+          "jp": {
+            "name": "三", "reading": "みっつ", "gloss": "three",
+            "extra": "訓 み(っ)つ · 音 サン"
+          },
+          "wk": null,
+          "kanji": { "name": "Three", "readings": ["サン"], "on": true, "level": 1 }
         },
         {
           "glyph": "亠",
@@ -76,7 +93,8 @@
             "extra": "漢字「大」(おお-きい)",
             "ex": { "char": "天", "reading": "テン", "gloss": "heaven; sky" }
           },
-          "wk": { "name": "Big", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Big", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Big", "readings": ["ダイ", "タイ"], "on": true, "level": 1 }
         },
         {
           "glyph": "人",
@@ -95,7 +113,7 @@
             "ex": { "char": "今", "reading": "いま", "gloss": "now" }
           },
           "wk": { "name": "Person", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Person", "reading": "ニン", "on": true, "level": 1 }
+          "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "level": 1 }
         },
         {
           "glyph": "入",
@@ -114,7 +132,7 @@
             "ex": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
           },
           "wk": { "name": "Enter", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Enter", "reading": "ニュウ", "on": true, "level": 1 }
+          "kanji": { "name": "Enter", "readings": ["ニュウ"], "on": true, "level": 1 }
         },
         {
           "glyph": "力",
@@ -132,7 +150,8 @@
             "extra": "漢字「力」(ちから · リョク)",
             "ex": { "char": "男", "reading": "おとこ", "gloss": "man" }
           },
-          "wk": { "name": "Power", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Power", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "level": 1 }
         },
         {
           "glyph": "勹",
@@ -168,7 +187,8 @@
             "extra": "漢字「口」(くち · コウ)",
             "ex": { "char": "名", "reading": "メイ", "gloss": "name" }
           },
-          "wk": { "name": "Mouth", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Mouth", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "level": 1 }
         },
         {
           "glyph": "女",
@@ -186,7 +206,8 @@
             "extra": "漢字「女」(おんな · ジョ)",
             "ex": { "char": "好", "reading": "すき", "gloss": "to like" }
           },
-          "wk": { "name": "Woman", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Woman", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "level": 1 }
         },
         {
           "glyph": "七",
@@ -205,7 +226,7 @@
             "ex": { "char": "切", "reading": "きる", "gloss": "to cut" }
           },
           "wk": { "name": "Seven", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Seven", "reading": "シチ", "on": true, "level": 1 }
+          "kanji": { "name": "Seven", "readings": ["シチ"], "on": true, "level": 1 }
         },
         {
           "glyph": "九",

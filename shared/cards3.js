@@ -121,7 +121,8 @@ function wkItem(tag, wk) {
 
 // kanji sub-item: real meaning (always maps → green) + on/kun reading.
 function kanjiItem(k) {
-  const reading = k.reading ? ` <span class="sc-reading">${k.reading}</span>` : '';
+  const rd = (k.readings || []).join('・');
+  const reading = rd ? ` <span class="sc-reading">${rd}</span>` : '';
   const yomi = k.on ? '音読み' : '訓読み';
   return `
         <div class="sc-wk-item wk-meaning">

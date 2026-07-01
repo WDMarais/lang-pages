@@ -21,6 +21,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:三",
+      "to": "r:san",
+      "kind": "denotes"
+    },
+    {
       "from": "g:亠",
       "to": "r:lid",
       "kind": "denotes"

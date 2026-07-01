@@ -62,7 +62,7 @@ def make_binding(glyph, lang, v, wk, kanji=None):
                 prog["icon"] = wk["icon"]
         if kanji:
             prog["kanji"] = {"name": kanji["name"],
-                             "reading": kanji.get("reading", ""),
+                             "readings": kanji.get("readings", []),
                              "on": kanji.get("on", False),
                              "level": kanji.get("level", 1)}
         b["program"] = prog
@@ -153,7 +153,7 @@ def kanji_from(jp):
     k = p.get("kanji") if p else None
     if not k:
         return None
-    return {"name": k["name"], "reading": k.get("reading", ""),
+    return {"name": k["name"], "readings": k.get("readings", []),
             "on": k.get("on", False), "level": k.get("level", 1)}
 
 

@@ -184,7 +184,7 @@ function cardFromNode(node) {
 }
 function kanjiFrom(jp) {
   const k = jp.program && jp.program.kanji;
-  return k ? { name: k.name, reading: k.reading, on: k.on, level: k.level } : null;
+  return k ? { name: k.name, readings: k.readings, on: k.on, level: k.level } : null;
 }
 function view(b) {
   const v = { name: b.name, reading: b.readings[0] || '', gloss: b.gloss, extra: b.extra };

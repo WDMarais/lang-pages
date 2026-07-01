@@ -49,6 +49,23 @@
       "frontier": true
     },
     {
+      "id": "g:三",
+      "kind": "glyph",
+      "glyph": "三",
+      "tier": "char",
+      "slug": "san",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:san",
+      "kind": "referent",
+      "label": "three"
+    },
+    {
       "id": "g:亠",
       "kind": "glyph",
       "glyph": "亠",
@@ -496,13 +513,6 @@
       "id": "r:heng",
       "kind": "referent",
       "label": "horizontal stroke"
-    },
-    {
-      "id": "g:三",
-      "kind": "glyph",
-      "glyph": "三",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:丨",
