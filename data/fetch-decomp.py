@@ -30,8 +30,8 @@ def needed_glyphs():
             for c in grp["cards"]:
                 glyphs.add(c["glyph"])
                 for v in (c["cn"], c["jp"]):
-                    if v.get("ex"):
-                        glyphs.add(v["ex"]["char"])
+                    if v.get("appearsIn"):
+                        glyphs.add(v["appearsIn"]["char"])
     return glyphs
 
 

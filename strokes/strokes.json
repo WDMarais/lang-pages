@@ -13,12 +13,12 @@
           "cn": {
             "name": "横", "reading": "héng", "gloss": "horizontal stroke",
             "extra": "本身也是汉字 一 (yī)「one」· 康熙部首 1",
-            "ex": { "char": "三", "reading": "sān", "gloss": "three" }
+            "appearsIn": { "char": "三", "reading": "sān", "gloss": "three" }
           },
           "jp": {
             "name": "横画", "reading": "よこかく", "gloss": "horizontal stroke",
             "extra": "漢字 一・部首名「いち」",
-            "ex": { "char": "二", "reading": "ニ", "gloss": "two" }
+            "appearsIn": { "char": "二", "reading": "ニ", "gloss": "two" }
           },
           "wk": { "name": "Ground", "level": 1, "kind": "mnemonic", "icon": "ground" },
           "kanji": { "name": "One", "readings": ["イチ", "イツ"], "on": true, "level": 1 }
@@ -32,12 +32,12 @@
           "cn": {
             "name": "竖", "reading": "shù", "gloss": "vertical stroke",
             "extra": "康熙部首 2「丨 gǔn」",
-            "ex": { "char": "十", "reading": "shí", "gloss": "ten" }
+            "appearsIn": { "char": "十", "reading": "shí", "gloss": "ten" }
           },
           "jp": {
             "name": "縦画", "reading": "たてかく", "gloss": "vertical stroke",
             "extra": "部首名「たてぼう」",
-            "ex": { "char": "十", "reading": "ジュウ", "gloss": "ten" }
+            "appearsIn": { "char": "十", "reading": "ジュウ", "gloss": "ten" }
           },
           "wk": null
         },
@@ -50,12 +50,12 @@
           "cn": {
             "name": "撇", "reading": "piě", "gloss": "left-falling stroke",
             "extra": "康熙部首 4「丿 piě」",
-            "ex": { "char": "人", "reading": "rén", "gloss": "person" }
+            "appearsIn": { "char": "人", "reading": "rén", "gloss": "person" }
           },
           "jp": {
             "name": "左払い", "reading": "ひだりばらい", "gloss": "left-sweeping stroke",
             "extra": "部首名「の」(形が の に似る)",
-            "ex": { "char": "人", "reading": "ひと", "gloss": "person" }
+            "appearsIn": { "char": "人", "reading": "ひと", "gloss": "person" }
           },
           "wk": { "name": "Slide", "level": 1, "kind": "mnemonic", "icon": "slide" }
         },
@@ -68,12 +68,12 @@
           "cn": {
             "name": "捺", "reading": "nà", "gloss": "right-falling stroke",
             "extra": "撇与捺常成对 (如 人、八)",
-            "ex": { "char": "八", "reading": "bā", "gloss": "eight" }
+            "appearsIn": { "char": "八", "reading": "bā", "gloss": "eight" }
           },
           "jp": {
             "name": "右払い", "reading": "みぎばらい", "gloss": "right-sweeping stroke",
             "extra": "払いの一種",
-            "ex": { "char": "八", "reading": "ハチ", "gloss": "eight" }
+            "appearsIn": { "char": "八", "reading": "ハチ", "gloss": "eight" }
           },
           "wk": null
         },
@@ -86,12 +86,12 @@
           "cn": {
             "name": "点", "reading": "diǎn", "gloss": "dot stroke",
             "extra": "康熙部首 3「丶 zhǔ」",
-            "ex": { "char": "犬", "reading": "quǎn", "gloss": "dog" }
+            "appearsIn": { "char": "犬", "reading": "quǎn", "gloss": "dog" }
           },
           "jp": {
             "name": "点", "reading": "テン", "gloss": "dot stroke",
             "extra": "部首名「てん」",
-            "ex": { "char": "犬", "reading": "いぬ", "gloss": "dog" }
+            "appearsIn": { "char": "犬", "reading": "いぬ", "gloss": "dog" }
           },
           "wk": { "name": "Drop", "level": 1, "kind": "mnemonic", "icon": "drop" }
         },
@@ -104,12 +104,12 @@
           "cn": {
             "name": "提", "reading": "tí", "gloss": "rising stroke",
             "extra": "向右上挑 (如 扌 的末笔)",
-            "ex": { "char": "打", "reading": "dǎ", "gloss": "to hit" }
+            "appearsIn": { "char": "打", "reading": "dǎ", "gloss": "to hit" }
           },
           "jp": {
             "name": "はね", "reading": "はね", "gloss": "upward flick",
             "extra": "上向きの画・払い系",
-            "ex": { "char": "打", "reading": "うつ", "gloss": "to hit" }
+            "appearsIn": { "char": "打", "reading": "うつ", "gloss": "to hit" }
           },
           "wk": null
         },
@@ -122,12 +122,12 @@
           "cn": {
             "name": "折", "reading": "zhé", "gloss": "turning stroke",
             "extra": "一笔之中改变方向 (如 横折)",
-            "ex": { "char": "口", "reading": "kǒu", "gloss": "mouth" }
+            "appearsIn": { "char": "口", "reading": "kǒu", "gloss": "mouth" }
           },
           "jp": {
             "name": "折れ", "reading": "おれ", "gloss": "bending stroke",
             "extra": "向きが変わる一画",
-            "ex": { "char": "口", "reading": "くち", "gloss": "mouth" }
+            "appearsIn": { "char": "口", "reading": "くち", "gloss": "mouth" }
           },
           "wk": null
         },
@@ -140,12 +140,12 @@
           "cn": {
             "name": "竖钩", "reading": "shùgōu", "gloss": "vertical hook",
             "extra": "康熙部首 6「亅 jué」",
-            "ex": { "char": "小", "reading": "xiǎo", "gloss": "small" }
+            "appearsIn": { "char": "小", "reading": "xiǎo", "gloss": "small" }
           },
           "jp": {
             "name": "はねぼう", "reading": "はねぼう", "gloss": "hooked vertical",
             "extra": "部首名「はねぼう」",
-            "ex": { "char": "小", "reading": "ちいさい", "gloss": "small" }
+            "appearsIn": { "char": "小", "reading": "ちいさい", "gloss": "small" }
           },
           "wk": { "name": "Barb", "level": 1, "kind": "mnemonic", "icon": "barb" }
         }

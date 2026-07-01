@@ -48,12 +48,12 @@ function langView(cls, label, v, audioName, audioEx) {
   const name = `<span class="sc-name">${v.name}</span>` +
     (v.reading ? ` <span class="sc-reading">${v.reading}</span>` : '');
   const extra = v.extra ? `<div class="sc-extra">${v.extra}</div>` : '';
-  const ex = v.ex ? `
+  const ex = v.appearsIn ? `
         <div class="sc-ex">
           <span class="sc-exlabel">例</span>
-          <span class="sc-exchar">${v.ex.char}</span>
-          <span class="sc-reading">${v.ex.reading}</span>
-          <span class="en">— ${v.ex.gloss}</span>
+          <span class="sc-exchar">${v.appearsIn.char}</span>
+          <span class="sc-reading">${v.appearsIn.reading}</span>
+          <span class="en">— ${v.appearsIn.gloss}</span>
           ${play(audioEx)}
         </div>` : '';
   return `

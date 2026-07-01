@@ -188,7 +188,7 @@ function kanjiFrom(jp) {
 }
 function view(b) {
   const v = { name: b.name, reading: b.readings[0] || '', gloss: b.gloss, extra: b.extra };
-  if (b.example) v.ex = { char: b.example.glyph, reading: b.example.reading, gloss: b.example.gloss };
+  if (b.appearsIn) v.appearsIn = { char: b.appearsIn.glyph, reading: b.appearsIn.reading, gloss: b.appearsIn.gloss };
   return v;
 }
 function wkFrom(jp) {

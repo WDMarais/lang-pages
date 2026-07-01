@@ -42,11 +42,11 @@ def make_binding(glyph, lang, v, wk, kanji=None):
         "gloss": v.get("gloss", ""),
         "extra": v.get("extra", ""),
     }
-    if v.get("ex"):
-        ex = v["ex"]
-        b["example"] = {"glyph": ex["char"],
-                        "reading": ex.get("reading", ""),
-                        "gloss": ex.get("gloss", "")}
+    if v.get("appearsIn"):
+        ai = v["appearsIn"]
+        b["appearsIn"] = {"glyph": ai["char"],
+                          "reading": ai.get("reading", ""),
+                          "gloss": ai.get("gloss", "")}
     # source-program metadata lives on the language binding it belongs to.
     # WaniKani ships radical + kanji as SEPARATE items on the same glyph; the
     # program's top-level fields describe the radical, program.kanji the kanji
@@ -93,10 +93,10 @@ def build():
 
             # composes ← example chars (union CN+JP, dedup); seed frontier stubs
             for v in (c["cn"], c["jp"]):
-                ex = v.get("ex")
-                if not ex:
+                ai = v.get("appearsIn")
+                if not ai:
                     continue
-                tgt = ex["char"]
+                tgt = ai["char"]
                 if (g, tgt) not in seen_edge:
                     seen_edge.add((g, tgt))
                     edges.append({"from": f"g:{g}", "to": f"g:{tgt}", "kind": "composes"})
@@ -130,9 +130,9 @@ def view(b):
     v = {"name": b["name"],
          "reading": b["readings"][0] if b["readings"] else "",
          "gloss": b["gloss"], "extra": b["extra"]}
-    if "example" in b:
-        e = b["example"]
-        v["ex"] = {"char": e["glyph"], "reading": e["reading"], "gloss": e["gloss"]}
+    if "appearsIn" in b:
+        e = b["appearsIn"]
+        v["appearsIn"] = {"char": e["glyph"], "reading": e["reading"], "gloss": e["gloss"]}
     return v
 
 

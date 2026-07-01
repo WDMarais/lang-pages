@@ -13,12 +13,12 @@
           "cn": {
             "name": "八", "reading": "bā", "gloss": "eight",
             "extra": "撇 + 捺 · 作部件叫「八字头」",
-            "ex": { "char": "分", "reading": "fēn", "gloss": "to divide" }
+            "appearsIn": { "char": "分", "reading": "fēn", "gloss": "to divide" }
           },
           "jp": {
             "name": "八", "reading": "ハチ", "gloss": "eight",
             "extra": "部首「八」(はちがしら)",
-            "ex": { "char": "分", "reading": "わける", "gloss": "to divide" }
+            "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
           "wk": { "name": "Fins", "level": 1, "kind": "mnemonic", "glyph": "ハ", "icon": "fins" },
           "kanji": { "name": "Eight", "readings": ["ハチ"], "on": true, "level": 1 }
@@ -32,12 +32,12 @@
           "cn": {
             "name": "二", "reading": "èr", "gloss": "two",
             "extra": "两个 横 · 也是数字「二」",
-            "ex": { "char": "元", "reading": "yuán", "gloss": "first; origin" }
+            "appearsIn": { "char": "元", "reading": "yuán", "gloss": "first; origin" }
           },
           "jp": {
             "name": "二", "reading": "ニ", "gloss": "two",
             "extra": "漢字「二」(ふた-つ)",
-            "ex": { "char": "元", "reading": "ゲン", "gloss": "origin" }
+            "appearsIn": { "char": "元", "reading": "ゲン", "gloss": "origin" }
           },
           "wk": { "name": "Two", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "level": 1 }
@@ -68,12 +68,12 @@
           "cn": {
             "name": "亠", "reading": "tóu", "gloss": "lid (top component)",
             "extra": "无独立字义 · 又称「点横头」· 康熙部首 8",
-            "ex": { "char": "六", "reading": "liù", "gloss": "six" }
+            "appearsIn": { "char": "六", "reading": "liù", "gloss": "six" }
           },
           "jp": {
             "name": "なべぶた", "reading": "", "gloss": "pot-lid top",
             "extra": "部首「なべぶた / けいさんかんむり」",
-            "ex": { "char": "六", "reading": "ロク", "gloss": "six" }
+            "appearsIn": { "char": "六", "reading": "ロク", "gloss": "six" }
           },
           "wk": { "name": "Lid", "level": 1, "kind": "mnemonic", "icon": "lid" }
         },
@@ -86,12 +86,12 @@
           "cn": {
             "name": "大", "reading": "dà", "gloss": "big",
             "extra": "一 + 人 形 · 也是汉字「大」",
-            "ex": { "char": "天", "reading": "tiān", "gloss": "sky" }
+            "appearsIn": { "char": "天", "reading": "tiān", "gloss": "sky" }
           },
           "jp": {
             "name": "大", "reading": "ダイ", "gloss": "big",
             "extra": "漢字「大」(おお-きい)",
-            "ex": { "char": "天", "reading": "テン", "gloss": "heaven; sky" }
+            "appearsIn": { "char": "天", "reading": "テン", "gloss": "heaven; sky" }
           },
           "wk": { "name": "Big", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Big", "readings": ["ダイ", "タイ"], "on": true, "level": 1 }
@@ -105,12 +105,12 @@
           "cn": {
             "name": "人", "reading": "rén", "gloss": "person",
             "extra": "撇 + 捺 · 注意与「入」之别",
-            "ex": { "char": "今", "reading": "jīn", "gloss": "now" }
+            "appearsIn": { "char": "今", "reading": "jīn", "gloss": "now" }
           },
           "jp": {
             "name": "人", "reading": "ひと", "gloss": "person",
             "extra": "「人」と「入」は紛らわしい",
-            "ex": { "char": "今", "reading": "いま", "gloss": "now" }
+            "appearsIn": { "char": "今", "reading": "いま", "gloss": "now" }
           },
           "wk": { "name": "Person", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "level": 1 }
@@ -124,12 +124,12 @@
           "cn": {
             "name": "入", "reading": "rù", "gloss": "to enter",
             "extra": "左撇短，捺在上方起笔 · 易与「人」混",
-            "ex": { "char": "全", "reading": "quán", "gloss": "whole" }
+            "appearsIn": { "char": "全", "reading": "quán", "gloss": "whole" }
           },
           "jp": {
             "name": "入", "reading": "はいる", "gloss": "to enter",
             "extra": "「入」は「人」と区別すること",
-            "ex": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
+            "appearsIn": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
           },
           "wk": { "name": "Enter", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Enter", "readings": ["ニュウ"], "on": true, "level": 1 }
@@ -143,12 +143,12 @@
           "cn": {
             "name": "力", "reading": "lì", "gloss": "power; strength",
             "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
-            "ex": { "char": "男", "reading": "nán", "gloss": "male" }
+            "appearsIn": { "char": "男", "reading": "nán", "gloss": "male" }
           },
           "jp": {
             "name": "力", "reading": "ちから", "gloss": "power",
             "extra": "漢字「力」(ちから · リョク)",
-            "ex": { "char": "男", "reading": "おとこ", "gloss": "man" }
+            "appearsIn": { "char": "男", "reading": "おとこ", "gloss": "man" }
           },
           "wk": { "name": "Power", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "level": 1 }
@@ -162,12 +162,12 @@
           "cn": {
             "name": "勹", "reading": "bāo", "gloss": "wrap (enclosing component)",
             "extra": "无独立字义 · 「包字头」· 康熙部首 20",
-            "ex": { "char": "包", "reading": "bāo", "gloss": "to wrap" }
+            "appearsIn": { "char": "包", "reading": "bāo", "gloss": "to wrap" }
           },
           "jp": {
             "name": "つつみがまえ", "reading": "", "gloss": "wrapping enclosure",
             "extra": "部首「つつみがまえ」",
-            "ex": { "char": "包", "reading": "つつむ", "gloss": "to wrap" }
+            "appearsIn": { "char": "包", "reading": "つつむ", "gloss": "to wrap" }
           },
           "wk": { "name": "Prison", "level": 1, "kind": "mnemonic", "icon": "prison" }
         },
@@ -180,12 +180,12 @@
           "cn": {
             "name": "口", "reading": "kǒu", "gloss": "mouth",
             "extra": "竖 + 横折 + 横 · 汉字「口」· 康熙部首 30",
-            "ex": { "char": "名", "reading": "míng", "gloss": "name" }
+            "appearsIn": { "char": "名", "reading": "míng", "gloss": "name" }
           },
           "jp": {
             "name": "口", "reading": "くち", "gloss": "mouth",
             "extra": "漢字「口」(くち · コウ)",
-            "ex": { "char": "名", "reading": "メイ", "gloss": "name" }
+            "appearsIn": { "char": "名", "reading": "メイ", "gloss": "name" }
           },
           "wk": { "name": "Mouth", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "level": 1 }
@@ -199,12 +199,12 @@
           "cn": {
             "name": "女", "reading": "nǚ", "gloss": "woman",
             "extra": "撇折 + 撇 + 横 · 汉字「女」· 康熙部首 38",
-            "ex": { "char": "好", "reading": "hǎo", "gloss": "good" }
+            "appearsIn": { "char": "好", "reading": "hǎo", "gloss": "good" }
           },
           "jp": {
             "name": "女", "reading": "おんな", "gloss": "woman",
             "extra": "漢字「女」(おんな · ジョ)",
-            "ex": { "char": "好", "reading": "すき", "gloss": "to like" }
+            "appearsIn": { "char": "好", "reading": "すき", "gloss": "to like" }
           },
           "wk": { "name": "Woman", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "level": 1 }
@@ -218,12 +218,12 @@
           "cn": {
             "name": "七", "reading": "qī", "gloss": "seven",
             "extra": "横 + 竖弯钩 · 数字「七」",
-            "ex": { "char": "切", "reading": "qiē", "gloss": "to cut" }
+            "appearsIn": { "char": "切", "reading": "qiē", "gloss": "to cut" }
           },
           "jp": {
             "name": "七", "reading": "なな", "gloss": "seven",
             "extra": "漢字「七」(なな · シチ)",
-            "ex": { "char": "切", "reading": "きる", "gloss": "to cut" }
+            "appearsIn": { "char": "切", "reading": "きる", "gloss": "to cut" }
           },
           "wk": { "name": "Seven", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Seven", "readings": ["シチ"], "on": true, "level": 1 }
@@ -237,12 +237,12 @@
           "cn": {
             "name": "九", "reading": "jiǔ", "gloss": "nine",
             "extra": "撇 + 横折弯钩 · 数字「九」",
-            "ex": { "char": "丸", "reading": "wán", "gloss": "ball; pellet" }
+            "appearsIn": { "char": "丸", "reading": "wán", "gloss": "ball; pellet" }
           },
           "jp": {
             "name": "九", "reading": "キュウ", "gloss": "nine",
             "extra": "漢字「九」(ここの-つ · キュウ)",
-            "ex": { "char": "丸", "reading": "まる", "gloss": "round; circle" }
+            "appearsIn": { "char": "丸", "reading": "まる", "gloss": "round; circle" }
           },
           "wk": { "name": "Nine", "level": 1, "kind": "meaning" }
         },
@@ -255,12 +255,12 @@
           "cn": {
             "name": "十", "reading": "shí", "gloss": "ten",
             "extra": "横 + 竖 · 数字「十」· 康熙部首 24",
-            "ex": { "char": "古", "reading": "gǔ", "gloss": "ancient" }
+            "appearsIn": { "char": "古", "reading": "gǔ", "gloss": "ancient" }
           },
           "jp": {
             "name": "十", "reading": "ジュウ", "gloss": "ten",
             "extra": "漢字「十」(とお · ジュウ)",
-            "ex": { "char": "古", "reading": "ふるい", "gloss": "old" }
+            "appearsIn": { "char": "古", "reading": "ふるい", "gloss": "old" }
           },
           "wk": { "name": "Cross", "level": 1, "kind": "mnemonic", "icon": "cross" }
         },
@@ -273,12 +273,12 @@
           "cn": {
             "name": "撇横", "reading": "", "gloss": "pie-heng component",
             "extra": "无独立字义 · 撇 + 横 · 见于 午 年 失 朱",
-            "ex": { "char": "午", "reading": "wǔ", "gloss": "noon" }
+            "appearsIn": { "char": "午", "reading": "wǔ", "gloss": "noon" }
           },
           "jp": {
             "name": "ノ", "reading": "", "gloss": "stroke component",
             "extra": "「午」「年」などの上部 · ノ + 一",
-            "ex": { "char": "午", "reading": "ゴ", "gloss": "noon" }
+            "appearsIn": { "char": "午", "reading": "ゴ", "gloss": "noon" }
           },
           "wk": { "name": "Gun", "level": 1, "kind": "mnemonic", "icon": "gun" }
         },
@@ -291,12 +291,12 @@
           "cn": {
             "name": "卜", "reading": "bǔ", "gloss": "divination (卜)",
             "extra": "形如片假名「ト」· 汉字作「卜」· 竖 + 点",
-            "ex": { "char": "外", "reading": "wài", "gloss": "outside" }
+            "appearsIn": { "char": "外", "reading": "wài", "gloss": "outside" }
           },
           "jp": {
             "name": "ト", "reading": "", "gloss": "katakana \"to\" shape",
             "extra": "片假名「ト」· 偏旁「卜」",
-            "ex": { "char": "外", "reading": "そと", "gloss": "outside" }
+            "appearsIn": { "char": "外", "reading": "そと", "gloss": "outside" }
           },
           "wk": { "name": "Toe", "level": 1, "kind": "mnemonic", "icon": "toe" }
         },
@@ -309,12 +309,12 @@
           "cn": {
             "name": "川", "reading": "chuān", "gloss": "river",
             "extra": "三竖 · 象形「河流」· 康熙部首 47",
-            "ex": { "char": "州", "reading": "zhōu", "gloss": "province; state" }
+            "appearsIn": { "char": "州", "reading": "zhōu", "gloss": "province; state" }
           },
           "jp": {
             "name": "川", "reading": "かわ", "gloss": "river",
             "extra": "漢字「川」(かわ · セン)",
-            "ex": { "char": "州", "reading": "シュウ", "gloss": "state" }
+            "appearsIn": { "char": "州", "reading": "シュウ", "gloss": "state" }
           },
           "wk": { "name": "River", "level": 1, "kind": "meaning" }
         },
@@ -327,12 +327,12 @@
           "cn": {
             "name": "工", "reading": "gōng", "gloss": "work; labour",
             "extra": "横 + 竖 + 横 · 工具/工作 · 康熙部首 48",
-            "ex": { "char": "江", "reading": "jiāng", "gloss": "river" }
+            "appearsIn": { "char": "江", "reading": "jiāng", "gloss": "river" }
           },
           "jp": {
             "name": "工", "reading": "コウ", "gloss": "construction; craft",
             "extra": "漢字「工」(コウ · ク)",
-            "ex": { "char": "江", "reading": "コウ", "gloss": "large river; inlet" }
+            "appearsIn": { "char": "江", "reading": "コウ", "gloss": "large river; inlet" }
           },
           "wk": { "name": "Construction", "level": 1, "kind": "meaning" }
         },
@@ -345,12 +345,12 @@
           "cn": {
             "name": "山", "reading": "shān", "gloss": "mountain",
             "extra": "象形「三峰」· 康熙部首 46",
-            "ex": { "char": "岩", "reading": "yán", "gloss": "rock; cliff" }
+            "appearsIn": { "char": "岩", "reading": "yán", "gloss": "rock; cliff" }
           },
           "jp": {
             "name": "山", "reading": "やま", "gloss": "mountain",
             "extra": "漢字「山」(やま · サン)",
-            "ex": { "char": "岩", "reading": "いわ", "gloss": "rock" }
+            "appearsIn": { "char": "岩", "reading": "いわ", "gloss": "rock" }
           },
           "wk": { "name": "Mountain", "level": 1, "kind": "meaning" }
         },
@@ -363,12 +363,12 @@
           "cn": {
             "name": "木", "reading": "mù", "gloss": "tree; wood",
             "extra": "横 + 竖 + 撇 + 捺 · 象形「树」· 康熙部首 75",
-            "ex": { "char": "林", "reading": "lín", "gloss": "woods; forest" }
+            "appearsIn": { "char": "林", "reading": "lín", "gloss": "woods; forest" }
           },
           "jp": {
             "name": "木", "reading": "き", "gloss": "tree; wood",
             "extra": "漢字「木」(き · モク · ボク)",
-            "ex": { "char": "林", "reading": "はやし", "gloss": "woods" }
+            "appearsIn": { "char": "林", "reading": "はやし", "gloss": "woods" }
           },
           "wk": { "name": "Tree", "level": 1, "kind": "meaning" }
         },
@@ -381,12 +381,12 @@
           "cn": {
             "name": "日", "reading": "rì", "gloss": "sun; day",
             "extra": "象形「太阳」· 竖 横折 横 横 · 康熙部首 72",
-            "ex": { "char": "明", "reading": "míng", "gloss": "bright" }
+            "appearsIn": { "char": "明", "reading": "míng", "gloss": "bright" }
           },
           "jp": {
             "name": "日", "reading": "ひ", "gloss": "sun; day",
             "extra": "漢字「日」(ひ · ニチ · ジツ)",
-            "ex": { "char": "明", "reading": "あかるい", "gloss": "bright" }
+            "appearsIn": { "char": "明", "reading": "あかるい", "gloss": "bright" }
           },
           "wk": { "name": "Sun", "level": 1, "kind": "meaning" }
         }

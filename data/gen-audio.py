@@ -8,7 +8,7 @@ single source of truth; no hand-maintained word lists live in shell.
 
 Each job mirrors exactly what the page requests, so we neither 404 nor orphan:
   - glyph modules (radicals, strokes): cards3.js renders the name play button
-    unconditionally and the example button only when the binding has an `ex`.
+    unconditionally and the example button only when the binding has an `appearsIn`.
   - xi-zhuang: cards.json already lists each clip's file per voice; we synthesize
     the four synthetic voices and leave the 录音 human recording alone.
 
@@ -52,11 +52,11 @@ def glyph_jobs(path):
         jp_name = jp.get("reading") or jp["name"]
         jobs.append(Job(CN_VOICE, cn_name, audio / f"cn-{slug}.mp3"))
         jobs.append(Job(JP_VOICE, jp_name, audio / f"jp-{slug}.mp3"))
-        if cn.get("ex"):
-            jobs.append(Job(CN_VOICE, cn["ex"]["char"], audio / f"cn-{slug}-ex.mp3"))
-        if jp.get("ex"):
-            jp_ex = jp["ex"]
-            jobs.append(Job(JP_VOICE, jp_ex.get("reading") or jp_ex["char"],
+        if cn.get("appearsIn"):
+            jobs.append(Job(CN_VOICE, cn["appearsIn"]["char"], audio / f"cn-{slug}-ex.mp3"))
+        if jp.get("appearsIn"):
+            jp_ai = jp["appearsIn"]
+            jobs.append(Job(JP_VOICE, jp_ai.get("reading") or jp_ai["char"],
                             audio / f"jp-{slug}-ex.mp3"))
     return jobs
 
