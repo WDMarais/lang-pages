@@ -45,9 +45,6 @@
   font-size: 66px; font-weight: 400; fill: var(--navy);
   text-anchor: middle; dominant-baseline: central;
 }
-.sc-tracer  { fill: var(--red); }
-.sc-startdot { fill: var(--red); opacity: 0.55; }
-@media (prefers-reduced-motion: reduce) { .sc-tracer { display: none; } }
 .sc-tag { display: inline-block; margin-top: 0.55rem; font-size: 0.62rem; letter-spacing: 0.14em; color: var(--muted); }
 .sc-tag.tag-comp { color: var(--navy); font-weight: 600; }
 .sc-tag.tag-char { color: var(--green); font-weight: 600; }

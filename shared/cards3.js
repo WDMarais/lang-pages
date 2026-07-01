@@ -1,25 +1,16 @@
 // Shared three-view (中文 · 日本語 · Wanikani) card renderer.
 // A page supplies its data file via <div id="cards" data-src="...json">.
 // JSON shape: { groups: [ { title?, sub?, cards: [...] } ] }
-// A card animates its stroke order only if it carries an `svg` field; otherwise
-// the diagram is just the (crisp Kai) glyph — used for deferred / un-tuned cards.
+// A card animates its stroke order via HanziWriter when it sets `hw: true`;
+// otherwise the diagram is just the crisp Kai glyph — for deferred / un-tuned cards.
 
 function diagram(c) {
-  // Character cards opt into data-driven stroke-order animation (HanziWriter).
-  // Init happens after innerHTML in initHanzi(); here we just place the target.
+  // Character cards opt into data-driven stroke-order animation (HanziWriter);
+  // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
   if (c.hw) return `<div class="sc-hw" data-char="${c.glyph}"></div>`;
-  const strokes = c.svg && c.svg.strokes ? c.svg.strokes : [];
-  const tracers = strokes.map((s, i) => {
-    const begin = (i * 0.7).toFixed(2);
-    return `<circle class="sc-startdot" cx="${s.start[0]}" cy="${s.start[1]}" r="3.5"/>` +
-      `<circle class="sc-tracer" r="4">` +
-      `<animateMotion dur="1.9s" begin="${begin}s" repeatCount="indefinite" ` +
-      `calcMode="linear" keyTimes="0;0.55;1" keyPoints="0;1;1" path="${s.d}"/></circle>`;
-  }).join('');
   return `
         <svg class="sc-hero" viewBox="0 0 100 100" aria-hidden="true">
           <text class="sc-gtext" x="50" y="50">${c.glyph}</text>
-          ${tracers}
         </svg>`;
 }
 
