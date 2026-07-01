@@ -1,7 +1,8 @@
 // /graph/ — current-glyph-centered LOCAL graph (Obsidian-style) over the data layer.
 // A compact tier index picks a glyph; the ego stage shows its immediate neighbours
-// (parts above, appears-in below, referent aside) with clean local wires; the
-// cards3 three-view sits below for full facts. Reuses renderCard()/initHanzi().
+// (parts above, appears-in below) with clean local wires, and the meaning (义)
+// sits in its own bay alongside; the cards3 three-view sits below for full facts.
+// Reuses renderCard()/initHanzi().
 
 const TIERS = [
   { key: 'stroke',    zh: '笔画', en: 'strokes' },
@@ -93,7 +94,7 @@ function renderReferent(glyph) {
 // ── ego stage: deterministic local-graph layout (no physics) ──
 // place n nodes on an elliptical arc around the centre, fanned about a0
 // (degrees: 0 = east, 90 = south, 270 = north). spanMax stays under 180 so the
-// fans keep to the top/bottom and leave the east–west gap for the referent.
+// fans keep to the top/bottom and leave the east–west sides clear.
 function arc(n, a0, rx = 32, ry = 40, spanMax = 122) {
   if (n <= 0) return [];
   const span = n === 1 ? 0 : Math.min(spanMax, 24 * (n - 1));
@@ -174,8 +175,7 @@ function drawEgoWires() {
   let lines = '';
   Object.entries(egoEls).forEach(([key, el]) => {
     if (key === 'center') return;
-    const cls = el.classList.contains('part') ? 'up'
-      : el.classList.contains('whole') ? 'down' : 'ref';
+    const cls = el.classList.contains('part') ? 'up' : 'down';
     const b = ctr(key);
     if (c && b) lines += `<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}"/>`;
   });

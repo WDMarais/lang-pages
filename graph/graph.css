@@ -23,13 +23,10 @@
   border: 1.5px dashed var(--border); color: var(--muted); opacity: .6; border-radius: 5px;
 }
 
-.legend2 .lg-wire.ref { border-color: var(--gold); }
-
 /* wires (shared by the ego stage) */
 .wire { fill: none; stroke-width: 2; stroke-linecap: round; opacity: .8; }
 .wire.down { stroke: var(--red); }
 .wire.up { stroke: var(--navy); }
-.wire.ref { stroke: var(--gold); stroke-dasharray: 3 4; }
 
 /* ── two columns: tier index (left ~60%) + ego graph (right ~40%) ── */
 .graph-cols { display: flex; align-items: flex-start; gap: 1.6rem; }
@@ -77,9 +74,6 @@
 .egonode.nb.whole { border-color: var(--red); }
 .egonode.nb.frontier { opacity: .5; border-style: dashed; color: var(--muted); }
 
-.egonode.ref { display: flex; flex-direction: column; align-items: center; gap: .1rem; color: var(--gold); }
-.egonode.ref .er-zh { font-family: "LXGW WenKai", serif; font-size: 1.3rem; }
-.egonode.ref .er-txt { font-size: .72rem; }
 .egonode.more { font-size: .78rem; color: var(--muted); }
 
 .band {
