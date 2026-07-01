@@ -50,7 +50,7 @@ function renderIndex(nodes) {
     groups[n.frontier ? 'frontier' : n.tier].push(n);
   });
   const ladder = document.getElementById('ladder');
-  ladder.innerHTML = TIERS.map(t => `
+  ladder.innerHTML = html`${TIERS.map(t => html`
     <div class="band">
       <div class="band-label">
         <span class="bl-zh">${t.zh}</span>
@@ -58,11 +58,11 @@ function renderIndex(nodes) {
         <span class="bl-n">${groups[t.key].length}</span>
       </div>
       <div class="band-chips">
-        ${groups[t.key].map(n =>
-          `<button class="chip${n.frontier ? ' frontier' : ''}" data-glyph="${n.glyph}">${n.glyph}</button>`
-        ).join('') || '<span class="band-empty">—</span>'}
+        ${groups[t.key].length
+          ? groups[t.key].map(n => html`<button class="chip${n.frontier ? ' frontier' : ''}" data-glyph="${n.glyph}">${n.glyph}</button>`)
+          : html`<span class="band-empty">—</span>`}
       </div>
-    </div>`).join('');
+    </div>`)}`;
   chipEls = {};
   ladder.querySelectorAll('.chip').forEach(c => (chipEls[c.dataset.glyph] = c));
   ladder.addEventListener('click', e => {
@@ -83,10 +83,10 @@ function focus(glyph) {
 function renderReferent(glyph) {
   const refId = denotesOf[glyph];
   const label = refId && refLabel[refId];
-  document.getElementById('referent').innerHTML = `
+  document.getElementById('referent').innerHTML = html`
     <div class="ref-mark">义</div>
     <div class="ref-body">
-      ${label ? `<div class="ref-label en">${label}</div>` : ''}
+      ${label ? html`<div class="ref-label en">${label}</div>` : ''}
       <div class="ref-cap en">meaning · 义</div>
     </div>`;
 }
@@ -128,7 +128,7 @@ function facts(glyph) {
 
 function nb(glyph, x, y, cls) {
   const fr = byGlyph[glyph] && byGlyph[glyph].frontier ? ' frontier' : '';
-  return `<button class="egonode nb ${cls}${fr}" data-key="${glyph}" data-glyph="${glyph}"
+  return html`<button class="egonode nb ${cls}${fr}" data-key="${glyph}" data-glyph="${glyph}"
             style="left:${x}%;top:${y}%">${glyph}</button>`;
 }
 
@@ -139,17 +139,17 @@ function renderEgo(glyph) {
   const ap = fan(A.length > CAP ? CAP + 1 : Ashow.length, 90);  // appears-in across the bottom
   const f = facts(glyph);
   const center = byGlyph[glyph] && byGlyph[glyph].frontier ? 'egonode center frontier' : 'egonode center';
-  let html = `<div class="${center}" data-key="center">
+  const nodes = [html`<div class="${center}" data-key="center">
       <span class="ec-glyph">${glyph}</span>
-      ${(f.py || f.kana) ? `<span class="ec-facts">${[f.py, f.kana].filter(Boolean).join(' · ')}</span>` : ''}
-      ${f.wk ? `<span class="ec-wk ${f.mean ? 'mean' : 'mnem'}">${f.wk}</span>` : ''}
-    </div>`;
-  Pshow.forEach((g, i) => (html += nb(g, pp[i].x, pp[i].y, 'part')));
-  Ashow.forEach((g, i) => (html += nb(g, ap[i].x, ap[i].y, 'whole')));
-  if (P.length > CAP) { const m = pp[CAP]; html += `<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${P.length - CAP}</div>`; }
-  if (A.length > CAP) { const m = ap[CAP]; html += `<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${A.length - CAP}</div>`; }
+      ${(f.py || f.kana) ? html`<span class="ec-facts">${[f.py, f.kana].filter(Boolean).join(' · ')}</span>` : ''}
+      ${f.wk ? html`<span class="ec-wk ${f.mean ? 'mean' : 'mnem'}">${f.wk}</span>` : ''}
+    </div>`];
+  Pshow.forEach((g, i) => nodes.push(nb(g, pp[i].x, pp[i].y, 'part')));
+  Ashow.forEach((g, i) => nodes.push(nb(g, ap[i].x, ap[i].y, 'whole')));
+  if (P.length > CAP) { const m = pp[CAP]; nodes.push(html`<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${P.length - CAP}</div>`); }
+  if (A.length > CAP) { const m = ap[CAP]; nodes.push(html`<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${A.length - CAP}</div>`); }
   const stage = document.getElementById('ego');
-  stage.innerHTML = '<svg id="egowires"></svg>' + html;
+  stage.innerHTML = html`<svg id="egowires"></svg>${nodes}`;
   egoEls = {};
   stage.querySelectorAll('.egonode[data-key]').forEach(e => (egoEls[e.dataset.key] = e));
   stage.querySelectorAll('.egonode.nb').forEach(e =>
@@ -172,14 +172,14 @@ function drawEgoWires() {
     return { x: r.left - sr.left + r.width / 2, y: r.top - sr.top + r.height / 2 };
   };
   const c = ctr('center');
-  let lines = '';
+  const lines = [];
   Object.entries(egoEls).forEach(([key, el]) => {
     if (key === 'center') return;
     const cls = el.classList.contains('part') ? 'up' : 'down';
     const b = ctr(key);
-    if (c && b) lines += `<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}"/>`;
+    if (c && b) lines.push(html`<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}"/>`);
   });
-  svg.innerHTML = lines;
+  svg.innerHTML = html`${lines}`;
 }
 
 // ── full facts: reuse cards3 (or a frontier stub) ──
@@ -188,12 +188,12 @@ function renderDetail(glyph) {
   const panel = document.getElementById('detail');
   if (node.frontier) {
     const built = parts[glyph] || [];
-    panel.innerHTML = `
+    panel.innerHTML = html`
       <div class="frontier-card">
         <div class="fc-glyph">${glyph}</div>
         <div class="fc-meta">
           <div class="fc-tag">前沿 · <span class="en">frontier</span></div>
-          ${built.length ? `<div class="fc-built">含 ${built.map(g => `<b>${g}</b>`).join(' ')}</div>` : ''}
+          ${built.length ? html`<div class="fc-built">含${built.map(g => html` <b>${g}</b>`)}</div>` : ''}
         </div>
       </div>`;
     return;

@@ -7,8 +7,8 @@
 function diagram(c) {
   // Character cards opt into data-driven stroke-order animation (HanziWriter);
   // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
-  if (c.hw) return `<div class="sc-hw" data-char="${c.glyph}"></div>`;
-  return `
+  if (c.hw) return html`<div class="sc-hw" data-char="${c.glyph}"></div>`;
+  return html`
         <svg class="sc-hero" viewBox="0 0 100 100" aria-hidden="true">
           <text class="sc-gtext" x="50" y="50">${c.glyph}</text>
         </svg>`;
@@ -28,18 +28,18 @@ const ICONS = {
   toe:    '<ellipse cx="18" cy="27" rx="8" ry="5"/><circle cx="13" cy="15" r="3"/><circle cx="20" cy="12" r="2.6"/><circle cx="26" cy="15" r="2.1"/>',
 };
 function mnemonic(name) {
-  return `<svg class="sc-mnemonic" viewBox="0 0 40 40" aria-hidden="true">${ICONS[name] || ''}</svg>`;
+  return html`<svg class="sc-mnemonic" viewBox="0 0 40 40" aria-hidden="true">${raw(ICONS[name] || '')}</svg>`;
 }
 
 function play(src) {
-  return `<button class="vplay sc-play" data-src="${src}" aria-label="play">▶</button>`;
+  return html`<button class="vplay sc-play" data-src="${src}" aria-label="play">▶</button>`;
 }
 
 function langView(cls, label, v, audioName, audioEx) {
-  const name = `<span class="sc-name">${v.name}</span>` +
-    (v.reading ? ` <span class="sc-reading">${v.reading}</span>` : '');
-  const extra = v.extra ? `<div class="sc-extra">${v.extra}</div>` : '';
-  const ex = v.appearsIn ? `
+  const name = html`<span class="sc-name">${v.name}</span>${
+    v.reading ? html` <span class="sc-reading">${v.reading}</span>` : ''}`;
+  const extra = v.extra ? html`<div class="sc-extra">${v.extra}</div>` : '';
+  const ex = v.appearsIn ? html`
         <div class="sc-ex">
           <span class="sc-exlabel">例</span>
           <span class="sc-exchar">${v.appearsIn.char}</span>
@@ -47,7 +47,7 @@ function langView(cls, label, v, audioName, audioEx) {
           <span class="en">— ${v.appearsIn.gloss}</span>
           ${play(audioEx)}
         </div>` : '';
-  return `
+  return html`
       <div class="sc-view ${cls}">
         <div class="sc-vlabel">${label}</div>
         <div class="sc-nameline">${name}${play(audioName)}</div>
@@ -63,7 +63,7 @@ function langView(cls, label, v, audioName, audioEx) {
 // kun'yomi in hiragana — the script itself carries the reading-class cue.
 function wkView(wk, kanji) {
   if (!wk && !kanji) {
-    return `
+    return html`
       <div class="sc-view v-wk empty">
         <div class="sc-vlabel">Wanikani</div>
         <div class="sc-empty">—</div>
@@ -71,13 +71,13 @@ function wkView(wk, kanji) {
   }
   // single radical, no kanji yet → original full-bleed layout (unchanged).
   if (wk && !kanji) {
-    const glyph = wk.glyph ? ` <span class="sc-altglyph">${wk.glyph}</span>` : '';
+    const glyph = wk.glyph ? html` <span class="sc-altglyph">${wk.glyph}</span>` : '';
     const meaning = wk.kind === 'meaning';
-    const visual = meaning ? `<div class="sc-check">✓</div>` : mnemonic(wk.icon);
+    const visual = meaning ? html`<div class="sc-check">✓</div>` : mnemonic(wk.icon);
     const flag = meaning
-      ? `<div class="sc-only sc-true">实义 · 通用</div>`
-      : `<div class="sc-only">仅助记</div>`;
-    return `
+      ? html`<div class="sc-only sc-true">实义 · 通用</div>`
+      : html`<div class="sc-only">仅助记</div>`;
+    return html`
       <div class="sc-view v-wk ${meaning ? 'wk-meaning' : 'wk-mnemonic'}">
         <div class="sc-vlabel">Wanikani <span class="sc-lvl">Lv.${wk.level}</span></div>
         ${visual}
@@ -86,7 +86,7 @@ function wkView(wk, kanji) {
       </div>`;
   }
   // radical + kanji → stacked items, each carrying its own meaning/mnemonic cue.
-  return `
+  return html`
       <div class="sc-view v-wk v-wk-stack">
         <div class="sc-vlabel">Wanikani</div>
         ${wk ? wkItem('部首', wk) : ''}
@@ -98,9 +98,9 @@ function wkView(wk, kanji) {
 function wkItem(tag, wk) {
   const meaning = wk.kind === 'meaning';
   const icon = meaning ? '' : mnemonic(wk.icon);
-  const glyph = wk.glyph ? ` <span class="sc-altglyph">${wk.glyph}</span>` : '';
-  const flag = meaning ? `<span class="sc-only sc-true">实义</span>` : `<span class="sc-only">仅助记</span>`;
-  return `
+  const glyph = wk.glyph ? html` <span class="sc-altglyph">${wk.glyph}</span>` : '';
+  const flag = meaning ? html`<span class="sc-only sc-true">实义</span>` : html`<span class="sc-only">仅助记</span>`;
+  return html`
         <div class="sc-wk-item ${meaning ? 'wk-meaning' : 'wk-mnemonic'}">
           ${icon}
           <div class="sc-wk-head"><span class="sc-wk-tag">${tag}</span>
@@ -113,9 +113,9 @@ function wkItem(tag, wk) {
 // kanji sub-item: real meaning (always maps → green) + on/kun reading.
 function kanjiItem(k) {
   const rd = (k.readings || []).join('・');
-  const reading = rd ? ` <span class="sc-reading">${rd}</span>` : '';
+  const reading = rd ? html` <span class="sc-reading">${rd}</span>` : '';
   const yomi = k.on ? '音読み' : '訓読み';
-  return `
+  return html`
         <div class="sc-wk-item wk-meaning">
           <div class="sc-wk-head"><span class="sc-wk-tag">漢字</span>
             <span class="sc-name">${k.name}</span>${reading}
@@ -127,10 +127,10 @@ function kanjiItem(k) {
 const TAG_LABEL = { stroke: '笔画', comp: '部件', char: '字' };
 
 function renderCard(c) {
-  const img = c.image ? `<img class="sc-img" src="${c.image}" alt="">` : '';
+  const img = c.image ? html`<img class="sc-img" src="${c.image}" alt="">` : '';
   const tagCls = c.tag === 'char' ? 'tag-char' : (c.tag === 'comp' ? 'tag-comp' : '');
-  const tag = `<span class="sc-tag ${tagCls}">${TAG_LABEL[c.tag] || '笔画'}</span>`;
-  return `
+  const tag = html`<span class="sc-tag ${tagCls}">${TAG_LABEL[c.tag] || '笔画'}</span>`;
+  return html`
     <div class="scard">
       <div class="sc-glyph">
         ${diagram(c)}
@@ -147,9 +147,9 @@ function renderCard(c) {
 
 function renderGroup(g) {
   const head = g.title
-    ? `<div class="sc-grouphead"><span class="sc-gtitle">${g.title}</span>${g.sub ? `<span class="sc-gsub">${g.sub}</span>` : ''}</div>`
+    ? html`<div class="sc-grouphead"><span class="sc-gtitle">${g.title}</span>${g.sub ? html`<span class="sc-gsub">${g.sub}</span>` : ''}</div>`
     : '';
-  return `<div class="sc-group">${head}${g.cards.map(renderCard).join('')}</div>`;
+  return html`<div class="sc-group">${head}${g.cards.map(renderCard)}</div>`;
 }
 
 // Data-driven stroke-order animation for character cards (`hw: true`).

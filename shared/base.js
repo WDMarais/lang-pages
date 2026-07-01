@@ -1,3 +1,24 @@
+// ── html: escaping tagged-template ────────────────
+// Interpolations are escaped by default, so data (readings, glosses, names)
+// can't inject markup. Values already built with html`` pass through unescaped;
+// arrays are flattened and joined; wrap trusted raw markup (e.g. inline SVG icon
+// paths) in raw(). No build step — this is the whole templating layer.
+class Html { constructor(s) { this.s = s; } toString() { return this.s; } }
+const HTML_ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+function esc(s) { return String(s).replace(/[&<>"']/g, c => HTML_ESC[c]); }
+function raw(s) { return new Html(s == null ? '' : String(s)); }
+function htmlVal(v) {
+  if (v == null || v === false) return '';
+  if (v instanceof Html) return v.s;
+  if (Array.isArray(v)) return v.map(htmlVal).join('');
+  return esc(v);
+}
+function html(strings, ...vals) {
+  let out = strings[0];
+  for (let i = 0; i < vals.length; i++) out += htmlVal(vals[i]) + strings[i + 1];
+  return new Html(out);
+}
+
 function togglePy() {
   document.body.classList.toggle('show-py');
   const btn = document.getElementById('pyBtn');
@@ -27,9 +48,8 @@ function initVoicePicker() {
   if (!picker) return;
 
   const render = () => {
-    picker.innerHTML = voices.map((v, i) =>
-      `<button class="btn-voice${v === currentVoice ? ' active' : ''}" data-voice="${v}">${labels[i] || v}</button>`
-    ).join('');
+    picker.innerHTML = html`${voices.map((v, i) =>
+      html`<button class="btn-voice${v === currentVoice ? ' active' : ''}" data-voice="${v}">${labels[i] || v}</button>`)}`;
   };
   render();
 
