@@ -26,14 +26,6 @@ ROOT = Path(__file__).resolve().parent.parent
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
 JP_VOICE = "ja-JP-NanamiNeural"
 
-# Glyphs with no pronounceable reading in either language. The card still shows
-# an (always-on) name play button, so we voice a stand-in rather than feed the
-# raw glyph to TTS. 𠂉 (gun) → its example char 午 / ゴ. Kept here, not in the
-# card JSON, so the build-graph.py round-trip stays byte-identical.
-NAME_OVERRIDE = {
-    "gun": {"cn": "午", "jp": "ゴ"},
-}
-
 # xi-zhuang voice label → edge-tts voice. 录音 is a human recording, never synthesized.
 XZ_VOICES = {
     "晓晓": "zh-CN-XiaoxiaoNeural",
@@ -56,9 +48,8 @@ def glyph_jobs(path):
     jobs = []
     for c in _cards(path):
         slug, cn, jp = c["slug"], c["cn"], c["jp"]
-        ov = NAME_OVERRIDE.get(slug, {})
-        cn_name = ov.get("cn") or cn["name"]
-        jp_name = ov.get("jp") or jp.get("reading") or jp["name"]
+        cn_name = cn["name"]
+        jp_name = jp.get("reading") or jp["name"]
         jobs.append(Job(CN_VOICE, cn_name, audio / f"cn-{slug}.mp3"))
         jobs.append(Job(JP_VOICE, jp_name, audio / f"jp-{slug}.mp3"))
         if cn.get("ex"):

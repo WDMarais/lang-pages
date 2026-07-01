@@ -271,13 +271,13 @@
           "image": "",
           "hw": true,
           "cn": {
-            "name": "𠂉", "reading": "", "gloss": "pie-heng component",
+            "name": "撇横", "reading": "", "gloss": "pie-heng component",
             "extra": "无独立字义 · 撇 + 横 · 见于 午 年 失 朱",
             "ex": { "char": "午", "reading": "wǔ", "gloss": "noon" }
           },
           "jp": {
-            "name": "𠂉", "reading": "", "gloss": "stroke component",
-            "extra": "「午」「年」などの上部",
+            "name": "ノ", "reading": "", "gloss": "stroke component",
+            "extra": "「午」「年」などの上部 · ノ + 一",
             "ex": { "char": "午", "reading": "ゴ", "gloss": "noon" }
           },
           "wk": { "name": "Gun", "level": 1, "kind": "mnemonic", "icon": "gun" }
