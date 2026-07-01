@@ -316,6 +316,26 @@
       "kind": "composes"
     },
     {
+      "from": "g:⺊",
+      "to": "g:上",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:上",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:下",
+      "kind": "composes"
+    },
+    {
+      "from": "g:卜",
+      "to": "g:下",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:丸",
       "kind": "composes"

@@ -696,6 +696,20 @@
       "frontier": true
     },
     {
+      "id": "g:⺊",
+      "kind": "glyph",
+      "glyph": "⺊",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:卜",
+      "kind": "glyph",
+      "glyph": "卜",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:乙",
       "kind": "glyph",
       "glyph": "乙",
@@ -748,13 +762,6 @@
       "id": "g:夕",
       "kind": "glyph",
       "glyph": "夕",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:卜",
-      "kind": "glyph",
-      "glyph": "卜",
       "tier": null,
       "frontier": true
     },
