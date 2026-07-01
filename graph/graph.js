@@ -10,7 +10,7 @@ const TIERS = [
   { key: 'frontier',  zh: '前沿', en: 'frontier' },
 ];
 const TAGMAP = { stroke: 'stroke', component: 'comp', char: 'char' };
-const CAP = 6; // max neighbours shown per side before "+N"
+const CAP = 10; // max neighbours shown per side before "+N" (two bands hold more)
 
 let byGlyph = {}, bindById = {}, refLabel = {}, denotesOf = {};
 const parts = {};    // G → glyphs G is built from   (edge part → G)
@@ -74,15 +74,47 @@ function focus(glyph) {
   selected = glyph;
   Object.values(chipEls).forEach(c => c.classList.toggle('sel', c.dataset.glyph === glyph));
   renderEgo(glyph);
+  renderReferent(glyph);
   renderDetail(glyph);
 }
 
+// referent (义) — the glyph's meaning, in its own bay beside the ego graph
+function renderReferent(glyph) {
+  const refId = denotesOf[glyph];
+  const label = refId && refLabel[refId];
+  document.getElementById('referent').innerHTML = `
+    <div class="ref-mark">义</div>
+    <div class="ref-body">
+      ${label ? `<div class="ref-label en">${label}</div>` : ''}
+      <div class="ref-cap en">meaning · 义</div>
+    </div>`;
+}
+
 // ── ego stage: deterministic local-graph layout (no physics) ──
-function spread(n, lo = 16, hi = 84) {
+// place n nodes on an elliptical arc around the centre, fanned about a0
+// (degrees: 0 = east, 90 = south, 270 = north). spanMax stays under 180 so the
+// fans keep to the top/bottom and leave the east–west gap for the referent.
+function arc(n, a0, rx = 32, ry = 40, spanMax = 122) {
   if (n <= 0) return [];
-  if (n === 1) return [(lo + hi) / 2];
-  const step = (hi - lo) / (n - 1);
-  return Array.from({ length: n }, (_, i) => lo + i * step);
+  const span = n === 1 ? 0 : Math.min(spanMax, 24 * (n - 1));
+  const start = a0 - span / 2, step = n === 1 ? 0 : span / (n - 1);
+  return Array.from({ length: n }, (_, i) => {
+    const r = (start + i * step) * Math.PI / 180;
+    return { x: 50 + rx * Math.cos(r), y: 50 + ry * Math.sin(r) };
+  });
+}
+
+// fan a group about a0; past ~5 it splits into two concentric bands so a dense
+// side (e.g. 一's many appears-in) reads as two rows instead of one crush.
+// alternates items outer/inner so neighbours nestle between bands.
+function fan(n, a0) {
+  if (n <= 5) return arc(n, a0);
+  const outerN = Math.ceil(n / 2);
+  const outer = arc(outerN, a0, 36, 40, 150);
+  const inner = arc(n - outerN, a0, 24, 26, 132);
+  const pos = [];
+  for (let i = 0, o = 0, k = 0; i < n; i++) pos.push(i % 2 ? inner[k++] : outer[o++]);
+  return pos;
 }
 
 function facts(glyph) {
@@ -101,8 +133,9 @@ function nb(glyph, x, y, cls) {
 
 function renderEgo(glyph) {
   const P = parts[glyph] || [], A = appears[glyph] || [];
-  const Ps = P.slice(0, CAP), As = A.slice(0, CAP);
-  const px = spread(Ps.length), ax = spread(As.length);
+  const Pshow = P.slice(0, CAP), Ashow = A.slice(0, CAP);
+  const pp = fan(P.length > CAP ? CAP + 1 : Pshow.length, 270); // parts fan across the top
+  const ap = fan(A.length > CAP ? CAP + 1 : Ashow.length, 90);  // appears-in across the bottom
   const f = facts(glyph);
   const center = byGlyph[glyph] && byGlyph[glyph].frontier ? 'egonode center frontier' : 'egonode center';
   let html = `<div class="${center}" data-key="center">
@@ -110,15 +143,10 @@ function renderEgo(glyph) {
       ${(f.py || f.kana) ? `<span class="ec-facts">${[f.py, f.kana].filter(Boolean).join(' · ')}</span>` : ''}
       ${f.wk ? `<span class="ec-wk ${f.mean ? 'mean' : 'mnem'}">${f.wk}</span>` : ''}
     </div>`;
-  Ps.forEach((g, i) => (html += nb(g, px[i], 15, 'part')));
-  As.forEach((g, i) => (html += nb(g, ax[i], 85, 'whole')));
-  if (P.length > CAP) html += `<div class="egonode more" style="left:92%;top:15%">+${P.length - CAP}</div>`;
-  if (A.length > CAP) html += `<div class="egonode more" style="left:92%;top:85%">+${A.length - CAP}</div>`;
-  const refId = denotesOf[glyph];
-  if (refId && refLabel[refId]) {
-    html += `<div class="egonode ref" data-key="ref" style="left:89%;top:50%">
-        <span class="er-zh">义</span><span class="er-txt en">${refLabel[refId]}</span></div>`;
-  }
+  Pshow.forEach((g, i) => (html += nb(g, pp[i].x, pp[i].y, 'part')));
+  Ashow.forEach((g, i) => (html += nb(g, ap[i].x, ap[i].y, 'whole')));
+  if (P.length > CAP) { const m = pp[CAP]; html += `<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${P.length - CAP}</div>`; }
+  if (A.length > CAP) { const m = ap[CAP]; html += `<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${A.length - CAP}</div>`; }
   const stage = document.getElementById('ego');
   stage.innerHTML = '<svg id="egowires"></svg>' + html;
   egoEls = {};
