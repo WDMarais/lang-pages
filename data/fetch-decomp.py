@@ -6,15 +6,33 @@ Adds the structural 'parts' the card JSON lacks: 男 ← 田 力, 好 ← 女 �
 One level per character (immediate components). build-graph.py turns these into
 `composes` edges (new components become frontier nodes).
 
-Run: python3 data/fetch-decomp.py
+The MMAH dictionary (several MB) is cached under data/.cache after the first
+pull, so adding one glyph doesn't re-download the whole thing. It rarely
+changes; pass --refresh to force a fresh download.
+
+Run: python3 data/fetch-decomp.py [--refresh]
 """
-import json, urllib.request
+import json, sys, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DICT_URL = "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt"
+CACHE = DATA / ".cache" / "makemeahanzi-dictionary.txt"
 IDC = set(range(0x2FF0, 0x2FFC))  # ideographic description chars ⿰ ⿱ … ⿻
+
+
+def dictionary_lines(refresh=False):
+    """The MMAH dictionary as text lines, cached locally so repeat runs (e.g.
+    adding one card) reuse the download instead of re-pulling several MB."""
+    if refresh or not CACHE.exists():
+        CACHE.parent.mkdir(parents=True, exist_ok=True)
+        with urllib.request.urlopen(DICT_URL) as r:
+            CACHE.write_bytes(r.read())
+        print(f"downloaded dictionary → {CACHE.relative_to(ROOT)}")
+    else:
+        print(f"using cached dictionary  {CACHE.relative_to(ROOT)}")
+    return CACHE.read_text(encoding="utf-8").splitlines()
 
 
 def is_component(ch):
@@ -35,17 +53,19 @@ def needed_glyphs():
     return glyphs
 
 
-def main():
+def main(argv):
+    refresh = "--refresh" in argv
     want = needed_glyphs()
     decomp = {}
-    with urllib.request.urlopen(DICT_URL) as r:
-        for line in r:
-            e = json.loads(line)
-            ch = e["character"]
-            if ch in want and e.get("decomposition"):
-                comps = [c for c in e["decomposition"] if is_component(c) and c != ch]
-                if comps:
-                    decomp[ch] = comps
+    for line in dictionary_lines(refresh):
+        if not line.strip():
+            continue
+        e = json.loads(line)
+        ch = e["character"]
+        if ch in want and e.get("decomposition"):
+            comps = [c for c in e["decomposition"] if is_component(c) and c != ch]
+            if comps:
+                decomp[ch] = comps
     DATA.mkdir(exist_ok=True)
     (DATA / "decomposition.json").write_text(
         json.dumps(decomp, ensure_ascii=False, indent=2) + "\n")
@@ -55,4 +75,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
