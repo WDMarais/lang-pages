@@ -563,7 +563,16 @@
         "source": "wanikani",
         "name": "Nine",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Nine",
+          "readings": [
+            "ク",
+            "キュウ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -602,7 +611,15 @@
         "name": "Cross",
         "kind": "mnemonic",
         "level": 1,
-        "icon": "cross"
+        "icon": "cross",
+        "kanji": {
+          "name": "Ten",
+          "readings": [
+            "ジュウ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -712,7 +729,15 @@
         "source": "wanikani",
         "name": "River",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "River",
+          "readings": [
+            "かわ"
+          ],
+          "on": false,
+          "level": 1
+        }
       }
     },
     {
@@ -750,7 +775,16 @@
         "source": "wanikani",
         "name": "Construction",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Construction",
+          "readings": [
+            "コウ",
+            "ク"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -788,7 +822,15 @@
         "source": "wanikani",
         "name": "Mountain",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Mountain",
+          "readings": [
+            "サン"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {
@@ -865,6 +907,79 @@
         "name": "Sun",
         "kind": "meaning",
         "level": 1
+      }
+    },
+    {
+      "id": "b:上@cn",
+      "glyph_id": "g:上",
+      "lang": "cn",
+      "name": "上",
+      "readings": [
+        "shàng"
+      ],
+      "gloss": "above; up; on top",
+      "extra": "指事字 · 基准线上方加标记 · 与「下」相对"
+    },
+    {
+      "id": "b:上@jp",
+      "glyph_id": "g:上",
+      "lang": "jp",
+      "name": "上",
+      "readings": [
+        "うえ"
+      ],
+      "gloss": "above; up",
+      "extra": "漢字「上」(うえ · ジョウ)",
+      "program": {
+        "source": "wanikani",
+        "name": "Above",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Above",
+          "readings": [
+            "ジョウ"
+          ],
+          "on": true,
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:下@cn",
+      "glyph_id": "g:下",
+      "lang": "cn",
+      "name": "下",
+      "readings": [
+        "xià"
+      ],
+      "gloss": "below; down; under",
+      "extra": "指事字 · 基准线下方加标记 · 与「上」相对"
+    },
+    {
+      "id": "b:下@jp",
+      "glyph_id": "g:下",
+      "lang": "jp",
+      "name": "下",
+      "readings": [
+        "した"
+      ],
+      "gloss": "below; down",
+      "extra": "漢字「下」(した · カ · ゲ)",
+      "program": {
+        "source": "wanikani",
+        "name": "Below",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Below",
+          "readings": [
+            "カ",
+            "ゲ"
+          ],
+          "on": true,
+          "level": 1
+        }
       }
     },
     {

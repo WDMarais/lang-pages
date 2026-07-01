@@ -498,6 +498,40 @@
       "frontier": true
     },
     {
+      "id": "g:上",
+      "kind": "glyph",
+      "glyph": "上",
+      "tier": "char",
+      "slug": "shang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shang",
+      "kind": "referent",
+      "label": "above; up; on top"
+    },
+    {
+      "id": "g:下",
+      "kind": "glyph",
+      "glyph": "下",
+      "tier": "char",
+      "slug": "xia",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:xia",
+      "kind": "referent",
+      "label": "below; down; under"
+    },
+    {
       "id": "g:一",
       "kind": "glyph",
       "glyph": "一",

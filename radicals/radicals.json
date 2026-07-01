@@ -244,7 +244,8 @@
             "extra": "漢字「九」(ここの-つ · キュウ)",
             "appearsIn": { "char": "丸", "reading": "まる", "gloss": "round; circle" }
           },
-          "wk": { "name": "Nine", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Nine", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Nine", "readings": ["ク", "キュウ"], "on": true, "level": 1 }
         },
         {
           "glyph": "十",
@@ -262,7 +263,8 @@
             "extra": "漢字「十」(とお · ジュウ)",
             "appearsIn": { "char": "古", "reading": "ふるい", "gloss": "old" }
           },
-          "wk": { "name": "Cross", "level": 1, "kind": "mnemonic", "icon": "cross" }
+          "wk": { "name": "Cross", "level": 1, "kind": "mnemonic", "icon": "cross" },
+          "kanji": { "name": "Ten", "readings": ["ジュウ"], "on": true, "level": 1 }
         },
         {
           "glyph": "𠂉",
@@ -316,7 +318,8 @@
             "extra": "漢字「川」(かわ · セン)",
             "appearsIn": { "char": "州", "reading": "シュウ", "gloss": "state" }
           },
-          "wk": { "name": "River", "level": 1, "kind": "meaning" }
+          "wk": { "name": "River", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "River", "readings": ["かわ"], "on": false, "level": 1 }
         },
         {
           "glyph": "工",
@@ -334,7 +337,8 @@
             "extra": "漢字「工」(コウ · ク)",
             "appearsIn": { "char": "江", "reading": "コウ", "gloss": "large river; inlet" }
           },
-          "wk": { "name": "Construction", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Construction", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Construction", "readings": ["コウ", "ク"], "on": true, "level": 1 }
         },
         {
           "glyph": "山",
@@ -352,7 +356,8 @@
             "extra": "漢字「山」(やま · サン)",
             "appearsIn": { "char": "岩", "reading": "いわ", "gloss": "rock" }
           },
-          "wk": { "name": "Mountain", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Mountain", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Mountain", "readings": ["サン"], "on": true, "level": 1 }
         },
         {
           "glyph": "木",
@@ -389,6 +394,40 @@
             "appearsIn": { "char": "明", "reading": "あかるい", "gloss": "bright" }
           },
           "wk": { "name": "Sun", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "上",
+          "slug": "shang",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "上", "reading": "shàng", "gloss": "above; up; on top",
+            "extra": "指事字 · 基准线上方加标记 · 与「下」相对"
+          },
+          "jp": {
+            "name": "上", "reading": "うえ", "gloss": "above; up",
+            "extra": "漢字「上」(うえ · ジョウ)"
+          },
+          "wk": { "name": "Above", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Above", "readings": ["ジョウ"], "on": true, "level": 1 }
+        },
+        {
+          "glyph": "下",
+          "slug": "xia",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "下", "reading": "xià", "gloss": "below; down; under",
+            "extra": "指事字 · 基准线下方加标记 · 与「上」相对"
+          },
+          "jp": {
+            "name": "下", "reading": "した", "gloss": "below; down",
+            "extra": "漢字「下」(した · カ · ゲ)"
+          },
+          "wk": { "name": "Below", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Below", "readings": ["カ", "ゲ"], "on": true, "level": 1 }
         }
       ]
     }
