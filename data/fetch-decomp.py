@@ -21,6 +21,22 @@ DICT_URL = "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dicti
 CACHE = DATA / ".cache" / "makemeahanzi-dictionary.txt"
 IDC = set(range(0x2FF0, 0x2FFC))  # ideographic description chars ⿰ ⿱ … ⿻
 
+# MMAH's decomposition floor is the RADICAL, not the stroke: it marks
+# stroke-atomic glyphs (八, 人, 入) and sub-parts it can't name with '？', so
+# they arrive with no usable components. Our graph has a stroke tier BELOW that
+# floor, so we hand-author those stroke parts here. 八's own card already says
+# 撇+捺 — that's 丿+㇏; MMAH simply can't see it.
+#
+# Seeded only with decompositions that resolve to strokes ALREADY in the graph
+# (no inventory growth). Glyphs whose strokes aren't in the tier yet — 女 (㇛),
+# 力/勹 (㇆) — are deliberately left out until that stroke-inventory pass.
+STROKE_OVERRIDE = {
+    "八": ["丿", "㇏"],
+    "人": ["丿", "㇏"],
+    "入": ["丿", "㇏"],
+    "𠂉": ["丿", "一"],
+}
+
 
 def dictionary_lines(refresh=False):
     """The MMAH dictionary as text lines, cached locally so repeat runs (e.g.
@@ -66,6 +82,11 @@ def main(argv):
             comps = [c for c in e["decomposition"] if is_component(c) and c != ch]
             if comps:
                 decomp[ch] = comps
+    # hand-authored stroke parts below MMAH's radical floor (override any
+    # partial MMAH result — 力's '？'-truncated [丿] would otherwise stand).
+    for ch, comps in STROKE_OVERRIDE.items():
+        if ch in want:
+            decomp[ch] = comps
     DATA.mkdir(exist_ok=True)
     (DATA / "decomposition.json").write_text(
         json.dumps(decomp, ensure_ascii=False, indent=2) + "\n")

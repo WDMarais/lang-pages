@@ -556,6 +556,36 @@
       "kind": "composes"
     },
     {
+      "from": "g:丿",
+      "to": "g:八",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:人",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:入",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:入",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:𠂉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:𠂉",
+      "kind": "composes"
+    },
+    {
       "from": "g:七",
       "to": "w:七つ",
       "kind": "composes"
