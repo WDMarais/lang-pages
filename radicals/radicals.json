@@ -226,7 +226,7 @@
             "appearsIn": { "char": "切", "reading": "きる", "gloss": "to cut" }
           },
           "wk": { "name": "Seven", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Seven", "readings": ["シチ"], "on": true, "level": 1 }
+          "kanji": { "name": "Seven", "readings": ["シチ"], "on": true, "kun": ["なな"], "level": 1 }
         },
         {
           "glyph": "九",

@@ -112,9 +112,16 @@ function wkItem(tag, wk) {
 
 // kanji sub-item: real meaning (always maps → green) + on/kun reading.
 function kanjiItem(k) {
-  const rd = (k.readings || []).join('・');
+  const on = k.readings || [];
+  const kun = k.kun || [];
+  const rd = [...on, ...kun].join('・');
   const reading = rd ? html` <span class="sc-reading">${rd}</span>` : '';
-  const yomi = k.on ? '音読み' : '訓読み';
+  // Script itself cues the class (katakana on'yomi / hiragana kun'yomi); the
+  // label just names which classes are present.
+  const labels = [];
+  if (on.length) labels.push(k.on ? '音読み' : '訓読み');
+  if (kun.length) labels.push('訓読み');
+  const yomi = labels.join(' · ');
   return html`
         <div class="sc-wk-item wk-meaning">
           <div class="sc-wk-head"><span class="sc-wk-tag">漢字</span>

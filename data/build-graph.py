@@ -65,6 +65,8 @@ def make_binding(glyph, lang, v, wk, kanji=None):
                              "readings": kanji.get("readings", []),
                              "on": kanji.get("on", False),
                              "level": kanji.get("level", 1)}
+            if kanji.get("kun"):
+                prog["kanji"]["kun"] = kanji["kun"]
         b["program"] = prog
     return b
 
@@ -153,8 +155,11 @@ def kanji_from(jp):
     k = p.get("kanji") if p else None
     if not k:
         return None
-    return {"name": k["name"], "readings": k.get("readings", []),
-            "on": k.get("on", False), "level": k.get("level", 1)}
+    out = {"name": k["name"], "readings": k.get("readings", []),
+           "on": k.get("on", False), "level": k.get("level", 1)}
+    if k.get("kun"):
+        out["kun"] = k["kun"]
+    return out
 
 
 def project_cards(source, nodes, bindings):
