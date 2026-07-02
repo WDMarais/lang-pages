@@ -1,0 +1,15 @@
+{
+  "words": [
+    {
+      "surface": "七つ",
+      "slug": "nanatsu",
+      "audience": "jp",
+      "parts": ["七"],
+      "denotes": "qi",
+      "reading": "ななつ",
+      "gloss": "seven things",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    }
+  ]
+}

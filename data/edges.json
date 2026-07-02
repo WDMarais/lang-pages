@@ -554,6 +554,16 @@
       "from": "g:田",
       "to": "g:男",
       "kind": "composes"
+    },
+    {
+      "from": "g:七",
+      "to": "w:七つ",
+      "kind": "composes"
+    },
+    {
+      "from": "w:七つ",
+      "to": "r:qi",
+      "kind": "denotes"
     }
   ]
 }

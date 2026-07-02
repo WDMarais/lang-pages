@@ -124,6 +124,37 @@ def build():
                         "id": f"g:{comp}", "kind": "glyph", "glyph": comp,
                         "tier": None, "frontier": True})
 
+    # ── word tier: concrete lexemes instantiating the concept spine ─────────────
+    # Words are a SEPARATE graph from the character/concept layer: a word both
+    # composes-from its glyph parts (七つ ← 七) and denotes/instantiates a referent
+    # (七つ → r:qi "seven"). Unlike glyph nodes — one neutral node with CN+JP
+    # bindings — word nodes are audience-tagged and fork per language (七つ is JP;
+    # a CN counterpart is a different node), rejoining only at the shared referent.
+    # Surface/reading therefore live ON the node, not in a binding.
+    words_path = DATA / "words.json"
+    if words_path.exists():
+        for w in json.loads(words_path.read_text()).get("words", []):
+            wid = f"w:{w['surface']}"
+            node = {"id": wid, "kind": "word", "tier": "word",
+                    "audience": w["audience"], "glyph": w["surface"],
+                    "slug": w["slug"], "reading": w.get("reading", ""),
+                    "gloss": w.get("gloss", "")}
+            if w.get("okurigana"):
+                node["okurigana"] = w["okurigana"]
+            if w.get("program"):
+                node["program"] = w["program"]
+            nodes[wid] = node
+            for part in w.get("parts", []):
+                if (part, w["surface"]) not in seen_edge:
+                    seen_edge.add((part, w["surface"]))
+                    edges.append({"from": f"g:{part}", "to": wid, "kind": "composes"})
+                if part not in real:
+                    nodes.setdefault(f"g:{part}", {
+                        "id": f"g:{part}", "kind": "glyph", "glyph": part,
+                        "tier": None, "frontier": True})
+            if w.get("denotes"):
+                edges.append({"from": wid, "to": f"r:{w['denotes']}", "kind": "denotes"})
+
     return list(nodes.values()), bindings, edges
 
 
@@ -197,7 +228,8 @@ def main():
     print(f"nodes:    {len(nodes)}  "
           f"({sum(1 for n in glyphs if not n.get('frontier'))} real glyph, "
           f"{sum(1 for n in glyphs if n.get('frontier'))} frontier, "
-          f"{sum(1 for n in nodes if n['kind']=='referent')} referent)")
+          f"{sum(1 for n in nodes if n['kind']=='referent')} referent, "
+          f"{sum(1 for n in nodes if n['kind']=='word')} word)")
     print(f"bindings: {len(bindings)}")
     print(f"edges:    {len(edges)}  "
           f"({sum(1 for e in edges if e['kind']=='composes')} composes, "

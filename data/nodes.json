@@ -827,6 +827,22 @@
       "glyph": "田",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "w:七つ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "七つ",
+      "slug": "nanatsu",
+      "reading": "ななつ",
+      "gloss": "seven things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     }
   ]
 }
