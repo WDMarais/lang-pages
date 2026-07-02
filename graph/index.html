@@ -17,15 +17,37 @@
 </div>
 
 <header class="cover cover-slim">
-  <div class="cover-masthead">数据层 · 一张图</div>
+  <div class="cover-masthead">content graph · tooling</div>
   <div class="cover-title">字形图</div>
-  <div class="cover-py">zìxíng tú</div>
-  <div class="cover-sub"><span class="en">One neutral Han-script graph · CN + JP are binding layers</span><span class="zh-alt">同一张汉字图 · 中日为绑定层</span></div>
-  <div class="cover-meta">Character Graph</div>
+  <div class="cover-py">Author console</div>
+  <div class="cover-sub">A debug view over the content graph — coverage, integrity invariants, and the frontier worklist, with the seams showing.</div>
+  <div class="cover-meta">graph · author</div>
 </header>
+
+<section class="bg-cream">
+  <div class="wrap">
+    <div class="sec-label">coverage</div>
+    <h2>What the graph is made of</h2>
+    <div class="sec-rule"></div>
+    <div id="coverage" class="con-panel"></div>
+
+    <div class="sec-label" style="margin-top:2.6rem">integrity</div>
+    <h2>Structural invariants</h2>
+    <div class="sec-rule"></div>
+    <div id="integrity" class="con-panel"></div>
+
+    <div class="sec-label" style="margin-top:2.6rem">worklist</div>
+    <h2>What to author next</h2>
+    <div class="sec-rule"></div>
+    <div id="worklist" class="con-panel"></div>
+  </div>
+</section>
 
 <section class="bg-white">
   <div class="wrap">
+    <div class="sec-label">ego view</div>
+    <h2>A glyph's neighbourhood</h2>
+    <div class="sec-rule"></div>
     <div class="legend2" aria-hidden="true">
       <span class="lg-wire up"></span>部件
       <span class="lg-wire down"></span>出现于
@@ -51,5 +73,6 @@
 <script src="../shared/vendor/hanzi-writer.min.js"></script>
 <script src="../shared/cards3.js"></script>
 <script src="graph.js"></script>
+<script src="console.js"></script>
 </body>
 </html>

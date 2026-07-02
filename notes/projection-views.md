@@ -27,7 +27,8 @@ Two orthogonal families of view:
 |---|---|---|
 | Han-comparative | `radicals/`, `strokes/` via `shared/cards3.js` | Triptych card-list, 中文·日本語·Wanikani side by side. Pure card-list, no graph traversal. Rough draft of the eventual script/etymology page. |
 | JP-centered | `jp/` via `shared/cardsJP.js` | Master-detail focus-study. **First consumer to read the generated graph directly** (edge queries for the vocab tier and the denoted referent). Ten-frame referent illustration for numbers. |
-| Graph / ego | `graph/` via `graph/graph.js` | Ego-graph with frontier stubs shown — already ~60% of an author console. |
+| Graph / ego | `graph/` via `graph/graph.js` | Ego-graph with frontier stubs shown. The browse component of the author page. |
+| Author console | `graph/` via `graph/console.js` | Seams-showing dashboard above the ego view: coverage tiles, live integrity invariants, frontier worklist ranked by ready context. English chrome (it's tooling, not a study surface). Clicking any glyph drives the ego view. |
 
 ---
 
@@ -52,7 +53,7 @@ Two orthogonal families of view:
 
 | View | Root | Status | Gate / notes |
 |---|---|---|---|
-| **Author/debug console** | graph | next | Promote `graph/`: node ids, labelled edge kinds, integrity flags (orphans, single-denoter referents, dangling denotes), coverage dashboard, frontier-stubs-as-worklist. The dashboard for growing the graph card-by-card. |
+| **Author/debug console** | graph | **done** | Built into `graph/` (`console.js`): coverage tiles, integrity invariants (orphans, dangling edges, missing bindings, single-denoter referents), frontier worklist ranked by real-neighbour count. Next: edge-kind seams *on* the ego view itself, and node-id captions. |
 | **CN-centered** | glyph | pending | Mirror of JP but CN-first (pinyin/tone, CN compound words, 七夕/numerology notes). **Gated on the CN word tier existing** — needs a CN-side authoring pass (Pandanese is the CN feeder the way Wanikani is the JP feeder). CN words are *separate* nodes from JP (diverge at words), rejoining at the referent. Not "triptych minus columns" — needs more data than the triptych carries. |
 | **Script / etymology** | glyph | later | Hanzi + Kanji side by side + MMAH decomposition + etymology; the mature form of the Han-comparative triptych. Where simplified / traditional / shinjitai *divergence* is the content. MMAH covers both simplified and traditional (Arphic-derived, ~9k each); JP kanji mostly track the traditional forms, so traditional is the bridge glyph. Abstractness matters less here — the content is structural, not mnemonic. |
 | **SRS / atomized** | edge | later | One edge at a time; the **narrow-screen study surface**. Desktop stays browse/author; mobile is review. |
