@@ -945,6 +945,63 @@
       "id": "r:two-people",
       "kind": "referent",
       "label": "two people"
+    },
+    {
+      "id": "w:一つ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一つ",
+      "slug": "hitotsu",
+      "reading": "ひとつ",
+      "gloss": "one thing",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:one",
+      "kind": "referent",
+      "label": "one thing"
+    },
+    {
+      "id": "w:一人",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一人",
+      "slug": "hitori",
+      "reading": "ひとり",
+      "gloss": "one person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:one-person",
+      "kind": "referent",
+      "label": "one person"
+    },
+    {
+      "id": "w:三つ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "三つ",
+      "slug": "mittsu",
+      "reading": "みっつ",
+      "gloss": "three things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     }
   ]
 }

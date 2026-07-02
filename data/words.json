@@ -53,6 +53,38 @@
       "reading": "ふたり",
       "gloss": "two people",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "一つ",
+      "slug": "hitotsu",
+      "audience": "jp",
+      "parts": ["一"],
+      "denotes": "one",
+      "reading": "ひとつ",
+      "gloss": "one thing",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "一人",
+      "slug": "hitori",
+      "audience": "jp",
+      "parts": ["一", "人"],
+      "denotes": "one-person",
+      "reading": "ひとり",
+      "gloss": "one person",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "三つ",
+      "slug": "mittsu",
+      "audience": "jp",
+      "parts": ["三"],
+      "denotes": "three",
+      "reading": "みっつ",
+      "gloss": "three things",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

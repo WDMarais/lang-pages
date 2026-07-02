@@ -684,6 +684,41 @@
       "from": "w:二人",
       "to": "r:two-people",
       "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一つ",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一つ",
+      "to": "r:one",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一人",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:一人",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一人",
+      "to": "r:one-person",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:三",
+      "to": "w:三つ",
+      "kind": "composes"
+    },
+    {
+      "from": "w:三つ",
+      "to": "r:three",
+      "kind": "denotes"
     }
   ]
 }

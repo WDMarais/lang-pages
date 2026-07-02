@@ -57,7 +57,7 @@
             "extra": "訓 み(っ)つ · 音 サン"
           },
           "wk": null,
-          "kanji": { "name": "Three", "readings": ["サン"], "on": true, "level": 1 }
+          "kanji": { "name": "Three", "readings": ["サン"], "on": true, "kun": ["み"], "level": 1 }
         },
         {
           "glyph": "亠",
@@ -151,7 +151,7 @@
             "appearsIn": { "char": "男", "reading": "おとこ", "gloss": "man" }
           },
           "wk": { "name": "Power", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "level": 1 }
+          "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "kun": ["ちから"], "level": 1 }
         },
         {
           "glyph": "勹",
