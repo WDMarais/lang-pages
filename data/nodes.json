@@ -843,6 +843,22 @@
         "kind": "vocab",
         "level": 1
       }
+    },
+    {
+      "id": "w:二つ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "二つ",
+      "slug": "futatsu",
+      "reading": "ふたつ",
+      "gloss": "two things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     }
   ]
 }

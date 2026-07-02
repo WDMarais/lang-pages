@@ -564,6 +564,16 @@
       "from": "w:七つ",
       "to": "r:qi",
       "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:二つ",
+      "kind": "composes"
+    },
+    {
+      "from": "w:二つ",
+      "to": "r:er",
+      "kind": "denotes"
     }
   ]
 }

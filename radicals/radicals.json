@@ -40,7 +40,7 @@
             "appearsIn": { "char": "元", "reading": "ゲン", "gloss": "origin" }
           },
           "wk": { "name": "Two", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "level": 1 }
+          "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "kun": ["ふた"], "level": 1 }
         },
         {
           "glyph": "三",
@@ -113,7 +113,7 @@
             "appearsIn": { "char": "今", "reading": "いま", "gloss": "now" }
           },
           "wk": { "name": "Person", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "level": 1 }
+          "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "kun": ["ひと"], "level": 1 }
         },
         {
           "glyph": "入",
