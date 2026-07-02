@@ -27,14 +27,19 @@ IDC = set(range(0x2FF0, 0x2FFC))  # ideographic description chars ⿰ ⿱ … �
 # floor, so we hand-author those stroke parts here. 八's own card already says
 # 撇+捺 — that's 丿+㇏; MMAH simply can't see it.
 #
-# Seeded only with decompositions that resolve to strokes ALREADY in the graph
-# (no inventory growth). Glyphs whose strokes aren't in the tier yet — 女 (㇛),
-# 力/勹 (㇆) — are deliberately left out until that stroke-inventory pass.
+# Seeded with stroke-level decompositions MMAH leaves atomic. The compound
+# strokes 横折钩 (㇆) and 撇点 (㇛) are now carded (strokes.json), lifted from
+# 力 / 女 — so 力/勹/女 resolve to real stroke nodes rather than losing a stroke
+# to MMAH's '？'. ト follows its 卜 origin as 丿 + 丶 (the katakana-slant call).
 STROKE_OVERRIDE = {
     "八": ["丿", "㇏"],
     "人": ["丿", "㇏"],
     "入": ["丿", "㇏"],
     "𠂉": ["丿", "一"],
+    "力": ["㇆", "丿"],
+    "勹": ["丿", "㇆"],
+    "女": ["㇛", "丿", "一"],
+    "ト": ["丿", "丶"],
 }
 
 

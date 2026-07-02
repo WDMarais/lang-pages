@@ -301,6 +301,26 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇆",
+      "to": "r:horizontal-fold-hook",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇆",
+      "to": "g:力",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇛",
+      "to": "r:left-fall-then-dot",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇛",
+      "to": "g:女",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
       "to": "g:七",
       "kind": "composes"
@@ -392,6 +412,11 @@
     },
     {
       "from": "g:丿",
+      "to": "g:勹",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇆",
       "to": "g:勹",
       "kind": "composes"
     },
@@ -583,6 +608,26 @@
     {
       "from": "g:一",
       "to": "g:𠂉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:女",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:女",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:ト",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:ト",
       "kind": "composes"
     },
     {

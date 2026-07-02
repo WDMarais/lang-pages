@@ -148,6 +148,42 @@
             "appearsIn": { "char": "小", "reading": "ちいさい", "gloss": "small" }
           },
           "wk": { "name": "Barb", "level": 1, "kind": "mnemonic", "icon": "barb" }
+        },
+        {
+          "glyph": "㇆",
+          "slug": "hengzhegou",
+          "tag": "stroke",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "横折钩", "reading": "héngzhégōu", "gloss": "horizontal-fold hook",
+            "extra": "先横后竖、末端带钩 (如 力、勹、刀)",
+            "appearsIn": { "char": "力", "reading": "lì", "gloss": "power; strength" }
+          },
+          "jp": {
+            "name": "横折れ鉤", "reading": "おうせつこう", "gloss": "horizontal-fold hook",
+            "extra": "横に折れて鉤ではねる一画",
+            "appearsIn": { "char": "力", "reading": "ちから", "gloss": "power" }
+          },
+          "wk": null
+        },
+        {
+          "glyph": "㇛",
+          "slug": "piedian",
+          "tag": "stroke",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "撇点", "reading": "piědiǎn", "gloss": "left-fall then dot",
+            "extra": "撇后顺势接反捺 (女 的首笔)",
+            "appearsIn": { "char": "女", "reading": "nǚ", "gloss": "woman" }
+          },
+          "jp": {
+            "name": "撇点", "reading": "へつてん", "gloss": "sweep then dot",
+            "extra": "左払いから点へ続く一画 (女 の一画目)",
+            "appearsIn": { "char": "女", "reading": "おんな", "gloss": "woman" }
+          },
+          "wk": null
         }
       ]
     }

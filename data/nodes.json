@@ -689,6 +689,40 @@
       "frontier": true
     },
     {
+      "id": "g:㇆",
+      "kind": "glyph",
+      "glyph": "㇆",
+      "tier": "stroke",
+      "slug": "hengzhegou",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:horizontal-fold-hook",
+      "kind": "referent",
+      "label": "horizontal-fold hook"
+    },
+    {
+      "id": "g:㇛",
+      "kind": "glyph",
+      "glyph": "㇛",
+      "tier": "stroke",
+      "slug": "piedian",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:left-fall-then-dot",
+      "kind": "referent",
+      "label": "left-fall then dot"
+    },
+    {
       "id": "g:乚",
       "kind": "glyph",
       "glyph": "乚",
