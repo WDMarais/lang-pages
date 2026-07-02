@@ -5,6 +5,25 @@
       "sub": "",
       "cards": [
         {
+          "glyph": "一",
+          "slug": "yi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "一", "reading": "yī", "gloss": "one",
+            "extra": "一横 · 最简单的汉字 · 也是笔画「横」",
+            "appearsIn": { "char": "三", "reading": "sān", "gloss": "three" }
+          },
+          "jp": {
+            "name": "一", "reading": "いち", "gloss": "one",
+            "extra": "漢字「一」(ひと-つ) · 一画の字",
+            "appearsIn": { "char": "三", "reading": "サン", "gloss": "three" }
+          },
+          "wk": { "name": "Ground", "level": 1, "kind": "mnemonic", "icon": "ground" },
+          "kanji": { "name": "One", "readings": ["イチ", "イツ"], "on": true, "kun": ["ひと"], "level": 1 }
+        },
+        {
           "glyph": "八",
           "slug": "ba",
           "tag": "char",

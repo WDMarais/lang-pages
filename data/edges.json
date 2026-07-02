@@ -1,6 +1,16 @@
 {
   "edges": [
     {
+      "from": "g:一",
+      "to": "r:one",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:三",
+      "kind": "composes"
+    },
+    {
       "from": "g:八",
       "to": "r:eight",
       "kind": "denotes"
@@ -216,18 +226,13 @@
       "kind": "denotes"
     },
     {
-      "from": "g:一",
+      "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"
     },
     {
-      "from": "g:一",
-      "to": "g:三",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:二",
+      "from": "g:㇐",
+      "to": "g:一",
       "kind": "composes"
     },
     {
@@ -368,6 +373,11 @@
     {
       "from": "g:乙",
       "to": "g:九",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:二",
       "kind": "composes"
     },
     {

@@ -1,6 +1,57 @@
 {
   "bindings": [
     {
+      "id": "b:一@cn",
+      "glyph_id": "g:一",
+      "lang": "cn",
+      "name": "一",
+      "readings": [
+        "yī"
+      ],
+      "gloss": "one",
+      "extra": "一横 · 最简单的汉字 · 也是笔画「横」",
+      "appearsIn": {
+        "glyph": "三",
+        "reading": "sān",
+        "gloss": "three"
+      }
+    },
+    {
+      "id": "b:一@jp",
+      "glyph_id": "g:一",
+      "lang": "jp",
+      "name": "一",
+      "readings": [
+        "いち"
+      ],
+      "gloss": "one",
+      "extra": "漢字「一」(ひと-つ) · 一画の字",
+      "appearsIn": {
+        "glyph": "三",
+        "reading": "サン",
+        "gloss": "three"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Ground",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "ground",
+        "kanji": {
+          "name": "One",
+          "readings": [
+            "イチ",
+            "イツ"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "ひと"
+          ]
+        }
+      }
+    },
+    {
       "id": "b:八@cn",
       "glyph_id": "g:八",
       "lang": "cn",
@@ -1001,54 +1052,35 @@
       }
     },
     {
-      "id": "b:一@cn",
-      "glyph_id": "g:一",
+      "id": "b:㇐@cn",
+      "glyph_id": "g:㇐",
       "lang": "cn",
       "name": "横",
       "readings": [
         "héng"
       ],
       "gloss": "horizontal stroke",
-      "extra": "本身也是汉字 一 (yī)「one」· 康熙部首 1",
+      "extra": "写成汉字就是 一 (yī)「one」· 康熙部首 1",
       "appearsIn": {
-        "glyph": "三",
-        "reading": "sān",
-        "gloss": "three"
+        "glyph": "一",
+        "reading": "yī",
+        "gloss": "one"
       }
     },
     {
-      "id": "b:一@jp",
-      "glyph_id": "g:一",
+      "id": "b:㇐@jp",
+      "glyph_id": "g:㇐",
       "lang": "jp",
       "name": "横画",
       "readings": [
         "よこかく"
       ],
       "gloss": "horizontal stroke",
-      "extra": "漢字 一・部首名「いち」",
+      "extra": "漢字「一」を成す一画",
       "appearsIn": {
-        "glyph": "二",
-        "reading": "ニ",
-        "gloss": "two"
-      },
-      "program": {
-        "source": "wanikani",
-        "name": "Ground",
-        "kind": "mnemonic",
-        "level": 1,
-        "icon": "ground",
-        "kanji": {
-          "name": "One",
-          "readings": [
-            "イチ",
-            "イツ"
-          ],
-          "on": true,
-          "level": 1,
-          "kun": [
-            "ひと"
-          ]
-        }
+        "glyph": "一",
+        "reading": "いち",
+        "gloss": "one"
       }
     },
     {

@@ -5,23 +5,22 @@
       "sub": "",
       "cards": [
         {
-          "glyph": "一",
+          "glyph": "㇐",
           "slug": "heng",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cn": {
             "name": "横", "reading": "héng", "gloss": "horizontal stroke",
-            "extra": "本身也是汉字 一 (yī)「one」· 康熙部首 1",
-            "appearsIn": { "char": "三", "reading": "sān", "gloss": "three" }
+            "extra": "写成汉字就是 一 (yī)「one」· 康熙部首 1",
+            "appearsIn": { "char": "一", "reading": "yī", "gloss": "one" }
           },
           "jp": {
             "name": "横画", "reading": "よこかく", "gloss": "horizontal stroke",
-            "extra": "漢字 一・部首名「いち」",
-            "appearsIn": { "char": "二", "reading": "ニ", "gloss": "two" }
+            "extra": "漢字「一」を成す一画",
+            "appearsIn": { "char": "一", "reading": "いち", "gloss": "one" }
           },
-          "wk": { "name": "Ground", "level": 1, "kind": "mnemonic", "icon": "ground" },
-          "kanji": { "name": "One", "readings": ["イチ", "イツ"], "on": true, "kun": ["ひと"], "level": 1 }
+          "wk": null
         },
         {
           "glyph": "丨",

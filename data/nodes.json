@@ -1,6 +1,23 @@
 {
   "nodes": [
     {
+      "id": "g:一",
+      "kind": "glyph",
+      "glyph": "一",
+      "tier": "char",
+      "slug": "yi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:one",
+      "kind": "referent",
+      "label": "one"
+    },
+    {
       "id": "g:八",
       "kind": "glyph",
       "glyph": "八",
@@ -532,9 +549,9 @@
       "label": "below; down; under"
     },
     {
-      "id": "g:一",
+      "id": "g:㇐",
       "kind": "glyph",
-      "glyph": "一",
+      "glyph": "㇐",
       "tier": "stroke",
       "slug": "heng",
       "source": "strokes",
@@ -961,11 +978,6 @@
         "kind": "vocab",
         "level": 1
       }
-    },
-    {
-      "id": "r:one",
-      "kind": "referent",
-      "label": "one thing"
     },
     {
       "id": "w:一人",
