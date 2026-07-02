@@ -15,7 +15,7 @@ structural equality — proving the cards are just a projection of the graph.
 Run: python3 data/build-graph.py
 Schema: docs/content-graph-schema.md
 """
-import json, sys
+import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -29,6 +29,16 @@ TAG = {v: k for k, v in TIER.items()}
 def load_cards(path):
     d = json.loads(path.read_text())
     return [c for grp in d["groups"] for c in grp["cards"]]
+
+
+def referent_slug(gloss):
+    """Canonical ASCII key for a meaning, keeping the referent spine
+    language-neutral: first sense, parentheticals dropped, leading 'to '
+    dropped, hyphenated. The pinyin/kana card slug stays a per-glyph
+    presentation key and never reaches the concept layer."""
+    s = re.sub(r"\(.*?\)", "", gloss.split(";")[0]).strip().lower()
+    s = re.sub(r"^to\s+", "", s)
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
 # ── forward: cards → graph ──────────────────────────────────────────────────
@@ -87,10 +97,11 @@ def build():
             bindings.append(make_binding(g, "cn", c["cn"], None))
             bindings.append(make_binding(g, "jp", c["jp"], c.get("wk"), c.get("kanji")))
 
-            # denotes → bare referent stub (English gloss as label; shared meaning later)
-            rid = f"r:{c['slug']}"
-            nodes.setdefault(rid, {"id": rid, "kind": "referent",
-                                   "label": c["cn"].get("gloss") or c["jp"].get("gloss", "")})
+            # denotes → bare referent stub, keyed by the ASCII meaning-slug so the
+            # concept spine carries no CN/JP bias; the full gloss rides as label.
+            gloss = c["cn"].get("gloss") or c["jp"].get("gloss", "")
+            rid = f"r:{referent_slug(gloss)}"
+            nodes.setdefault(rid, {"id": rid, "kind": "referent", "label": gloss})
             edges.append({"from": f"g:{g}", "to": rid, "kind": "denotes"})
 
             # composes ← example chars (union CN+JP, dedup); seed frontier stubs

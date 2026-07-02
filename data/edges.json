@@ -2,7 +2,7 @@
   "edges": [
     {
       "from": "g:八",
-      "to": "r:ba",
+      "to": "r:eight",
       "kind": "denotes"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "from": "g:二",
-      "to": "r:er",
+      "to": "r:two",
       "kind": "denotes"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "from": "g:三",
-      "to": "r:san",
+      "to": "r:three",
       "kind": "denotes"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "from": "g:大",
-      "to": "r:da",
+      "to": "r:big",
       "kind": "denotes"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "from": "g:人",
-      "to": "r:ren",
+      "to": "r:person",
       "kind": "denotes"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "from": "g:入",
-      "to": "r:ru",
+      "to": "r:enter",
       "kind": "denotes"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "from": "g:力",
-      "to": "r:li",
+      "to": "r:power",
       "kind": "denotes"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "from": "g:勹",
-      "to": "r:bao",
+      "to": "r:wrap",
       "kind": "denotes"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "from": "g:口",
-      "to": "r:kou",
+      "to": "r:mouth",
       "kind": "denotes"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "from": "g:女",
-      "to": "r:nv",
+      "to": "r:woman",
       "kind": "denotes"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "from": "g:七",
-      "to": "r:qi",
+      "to": "r:seven",
       "kind": "denotes"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "from": "g:九",
-      "to": "r:jiu",
+      "to": "r:nine",
       "kind": "denotes"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "from": "g:十",
-      "to": "r:shi",
+      "to": "r:ten",
       "kind": "denotes"
     },
     {
@@ -137,7 +137,7 @@
     },
     {
       "from": "g:𠂉",
-      "to": "r:gun",
+      "to": "r:pie-heng-component",
       "kind": "denotes"
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "from": "g:ト",
-      "to": "r:toe",
+      "to": "r:divination",
       "kind": "denotes"
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "from": "g:川",
-      "to": "r:chuan",
+      "to": "r:river",
       "kind": "denotes"
     },
     {
@@ -167,7 +167,7 @@
     },
     {
       "from": "g:工",
-      "to": "r:gong",
+      "to": "r:work",
       "kind": "denotes"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "from": "g:山",
-      "to": "r:shan",
+      "to": "r:mountain",
       "kind": "denotes"
     },
     {
@@ -187,7 +187,7 @@
     },
     {
       "from": "g:木",
-      "to": "r:mu",
+      "to": "r:tree",
       "kind": "denotes"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
       "from": "g:日",
-      "to": "r:ri",
+      "to": "r:sun",
       "kind": "denotes"
     },
     {
@@ -207,17 +207,17 @@
     },
     {
       "from": "g:上",
-      "to": "r:shang",
+      "to": "r:above",
       "kind": "denotes"
     },
     {
       "from": "g:下",
-      "to": "r:xia",
+      "to": "r:below",
       "kind": "denotes"
     },
     {
       "from": "g:一",
-      "to": "r:heng",
+      "to": "r:horizontal-stroke",
       "kind": "denotes"
     },
     {
@@ -232,7 +232,7 @@
     },
     {
       "from": "g:丨",
-      "to": "r:shu",
+      "to": "r:vertical-stroke",
       "kind": "denotes"
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "from": "g:丿",
-      "to": "r:pie",
+      "to": "r:left-falling-stroke",
       "kind": "denotes"
     },
     {
@@ -252,7 +252,7 @@
     },
     {
       "from": "g:㇏",
-      "to": "r:na",
+      "to": "r:right-falling-stroke",
       "kind": "denotes"
     },
     {
@@ -262,7 +262,7 @@
     },
     {
       "from": "g:丶",
-      "to": "r:dian",
+      "to": "r:dot-stroke",
       "kind": "denotes"
     },
     {
@@ -272,7 +272,7 @@
     },
     {
       "from": "g:㇀",
-      "to": "r:ti",
+      "to": "r:rising-stroke",
       "kind": "denotes"
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "from": "g:乛",
-      "to": "r:zhe",
+      "to": "r:turning-stroke",
       "kind": "denotes"
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "from": "g:亅",
-      "to": "r:shugou",
+      "to": "r:vertical-hook",
       "kind": "denotes"
     },
     {
@@ -562,7 +562,7 @@
     },
     {
       "from": "w:七つ",
-      "to": "r:qi",
+      "to": "r:seven",
       "kind": "denotes"
     },
     {
@@ -572,7 +572,7 @@
     },
     {
       "from": "w:二つ",
-      "to": "r:er",
+      "to": "r:two",
       "kind": "denotes"
     },
     {
@@ -582,7 +582,7 @@
     },
     {
       "from": "w:入る",
-      "to": "r:ru",
+      "to": "r:enter",
       "kind": "denotes"
     },
     {
@@ -592,7 +592,7 @@
     },
     {
       "from": "w:八つ",
-      "to": "r:ba",
+      "to": "r:eight",
       "kind": "denotes"
     },
     {

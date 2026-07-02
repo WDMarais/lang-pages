@@ -13,7 +13,7 @@
       }
     },
     {
-      "id": "r:ba",
+      "id": "r:eight",
       "kind": "referent",
       "label": "eight"
     },
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "r:er",
+      "id": "r:two",
       "kind": "referent",
       "label": "two"
     },
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "r:san",
+      "id": "r:three",
       "kind": "referent",
       "label": "three"
     },
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "r:da",
+      "id": "r:big",
       "kind": "referent",
       "label": "big"
     },
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "r:ren",
+      "id": "r:person",
       "kind": "referent",
       "label": "person"
     },
@@ -150,7 +150,7 @@
       }
     },
     {
-      "id": "r:ru",
+      "id": "r:enter",
       "kind": "referent",
       "label": "to enter"
     },
@@ -174,7 +174,7 @@
       }
     },
     {
-      "id": "r:li",
+      "id": "r:power",
       "kind": "referent",
       "label": "power; strength"
     },
@@ -198,7 +198,7 @@
       }
     },
     {
-      "id": "r:bao",
+      "id": "r:wrap",
       "kind": "referent",
       "label": "wrap (enclosing component)"
     },
@@ -222,7 +222,7 @@
       }
     },
     {
-      "id": "r:kou",
+      "id": "r:mouth",
       "kind": "referent",
       "label": "mouth"
     },
@@ -246,7 +246,7 @@
       }
     },
     {
-      "id": "r:nv",
+      "id": "r:woman",
       "kind": "referent",
       "label": "woman"
     },
@@ -270,7 +270,7 @@
       }
     },
     {
-      "id": "r:qi",
+      "id": "r:seven",
       "kind": "referent",
       "label": "seven"
     },
@@ -294,7 +294,7 @@
       }
     },
     {
-      "id": "r:jiu",
+      "id": "r:nine",
       "kind": "referent",
       "label": "nine"
     },
@@ -318,7 +318,7 @@
       }
     },
     {
-      "id": "r:shi",
+      "id": "r:ten",
       "kind": "referent",
       "label": "ten"
     },
@@ -342,7 +342,7 @@
       }
     },
     {
-      "id": "r:gun",
+      "id": "r:pie-heng-component",
       "kind": "referent",
       "label": "pie-heng component"
     },
@@ -366,7 +366,7 @@
       }
     },
     {
-      "id": "r:toe",
+      "id": "r:divination",
       "kind": "referent",
       "label": "divination (卜)"
     },
@@ -390,7 +390,7 @@
       }
     },
     {
-      "id": "r:chuan",
+      "id": "r:river",
       "kind": "referent",
       "label": "river"
     },
@@ -414,7 +414,7 @@
       }
     },
     {
-      "id": "r:gong",
+      "id": "r:work",
       "kind": "referent",
       "label": "work; labour"
     },
@@ -438,7 +438,7 @@
       }
     },
     {
-      "id": "r:shan",
+      "id": "r:mountain",
       "kind": "referent",
       "label": "mountain"
     },
@@ -462,7 +462,7 @@
       }
     },
     {
-      "id": "r:mu",
+      "id": "r:tree",
       "kind": "referent",
       "label": "tree; wood"
     },
@@ -486,7 +486,7 @@
       }
     },
     {
-      "id": "r:ri",
+      "id": "r:sun",
       "kind": "referent",
       "label": "sun; day"
     },
@@ -510,7 +510,7 @@
       }
     },
     {
-      "id": "r:shang",
+      "id": "r:above",
       "kind": "referent",
       "label": "above; up; on top"
     },
@@ -527,7 +527,7 @@
       }
     },
     {
-      "id": "r:xia",
+      "id": "r:below",
       "kind": "referent",
       "label": "below; down; under"
     },
@@ -544,7 +544,7 @@
       }
     },
     {
-      "id": "r:heng",
+      "id": "r:horizontal-stroke",
       "kind": "referent",
       "label": "horizontal stroke"
     },
@@ -561,7 +561,7 @@
       }
     },
     {
-      "id": "r:shu",
+      "id": "r:vertical-stroke",
       "kind": "referent",
       "label": "vertical stroke"
     },
@@ -578,7 +578,7 @@
       }
     },
     {
-      "id": "r:pie",
+      "id": "r:left-falling-stroke",
       "kind": "referent",
       "label": "left-falling stroke"
     },
@@ -595,7 +595,7 @@
       }
     },
     {
-      "id": "r:na",
+      "id": "r:right-falling-stroke",
       "kind": "referent",
       "label": "right-falling stroke"
     },
@@ -612,7 +612,7 @@
       }
     },
     {
-      "id": "r:dian",
+      "id": "r:dot-stroke",
       "kind": "referent",
       "label": "dot stroke"
     },
@@ -636,7 +636,7 @@
       }
     },
     {
-      "id": "r:ti",
+      "id": "r:rising-stroke",
       "kind": "referent",
       "label": "rising stroke"
     },
@@ -660,7 +660,7 @@
       }
     },
     {
-      "id": "r:zhe",
+      "id": "r:turning-stroke",
       "kind": "referent",
       "label": "turning stroke"
     },
@@ -677,7 +677,7 @@
       }
     },
     {
-      "id": "r:shugou",
+      "id": "r:vertical-hook",
       "kind": "referent",
       "label": "vertical hook"
     },
