@@ -21,7 +21,7 @@
             "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
           "wk": { "name": "Fins", "level": 1, "kind": "mnemonic", "glyph": "ハ", "icon": "fins" },
-          "kanji": { "name": "Eight", "readings": ["ハチ"], "on": true, "level": 1 }
+          "kanji": { "name": "Eight", "readings": ["ハチ"], "on": true, "kun": ["や"], "level": 1 }
         },
         {
           "glyph": "二",

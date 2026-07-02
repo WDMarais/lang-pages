@@ -21,6 +21,38 @@
       "gloss": "two things",
       "okurigana": "つ",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "入る",
+      "slug": "hairu",
+      "audience": "jp",
+      "parts": ["入"],
+      "denotes": "ru",
+      "reading": "はいる",
+      "gloss": "to enter",
+      "okurigana": "る",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "八つ",
+      "slug": "yattsu",
+      "audience": "jp",
+      "parts": ["八"],
+      "denotes": "ba",
+      "reading": "やっつ",
+      "gloss": "eight things",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "二人",
+      "slug": "futari",
+      "audience": "jp",
+      "parts": ["二", "人"],
+      "denotes": "two-people",
+      "reading": "ふたり",
+      "gloss": "two people",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

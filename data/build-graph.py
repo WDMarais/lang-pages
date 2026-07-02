@@ -153,7 +153,13 @@ def build():
                         "id": f"g:{part}", "kind": "glyph", "glyph": part,
                         "tier": None, "frontier": True})
             if w.get("denotes"):
-                edges.append({"from": wid, "to": f"r:{w['denotes']}", "kind": "denotes"})
+                # A single-glyph word rejoins its head glyph's referent (already
+                # minted by the glyph card). A compound word (二人) denotes a
+                # referent no glyph card owns, so the word mints it here.
+                rid = f"r:{w['denotes']}"
+                nodes.setdefault(rid, {"id": rid, "kind": "referent",
+                                       "label": w.get("gloss", "")})
+                edges.append({"from": wid, "to": rid, "kind": "denotes"})
 
     return list(nodes.values()), bindings, edges
 

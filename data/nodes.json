@@ -859,6 +859,58 @@
         "kind": "vocab",
         "level": 1
       }
+    },
+    {
+      "id": "w:入る",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "入る",
+      "slug": "hairu",
+      "reading": "はいる",
+      "gloss": "to enter",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "w:八つ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "八つ",
+      "slug": "yattsu",
+      "reading": "やっつ",
+      "gloss": "eight things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "w:二人",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "二人",
+      "slug": "futari",
+      "reading": "ふたり",
+      "gloss": "two people",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:two-people",
+      "kind": "referent",
+      "label": "two people"
     }
   ]
 }
