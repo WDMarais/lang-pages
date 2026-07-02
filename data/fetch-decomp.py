@@ -30,7 +30,7 @@ IDC = set(range(0x2FF0, 0x2FFC))  # ideographic description chars ⿰ ⿱ … �
 # Seeded with stroke-level decompositions MMAH leaves atomic. The compound
 # strokes 横折钩 (㇆) and 撇点 (㇛) are now carded (strokes.json), lifted from
 # 力 / 女 — so 力/勹/女 resolve to real stroke nodes rather than losing a stroke
-# to MMAH's '？'. ト follows its 卜 origin as 丿 + 丶 (the katakana-slant call).
+# to MMAH's '？'. ト follows its 卜 origin: 丨 (竖) + 丶 (点).
 STROKE_OVERRIDE = {
     "八": ["丿", "㇏"],
     "人": ["丿", "㇏"],
@@ -39,7 +39,7 @@ STROKE_OVERRIDE = {
     "力": ["㇆", "丿"],
     "勹": ["丿", "㇆"],
     "女": ["㇛", "丿", "一"],
-    "ト": ["丿", "丶"],
+    "ト": ["丨", "丶"],
 }
 
 
