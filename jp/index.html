@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本語 · JP-centered</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- Kai (楷体) brush font for specimen glyphs — open-source, OFL licensed -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
+<link rel="stylesheet" href="../shared/cardsJP.css">
+</head>
+<body>
+
+<header class="cover">
+  <div class="cover-masthead">日本語 · 漢字と語彙</div>
+  <div class="cover-title">日本語</div>
+  <div class="cover-py">nihongo</div>
+  <div class="cover-sub">A Japanese-first study view — one kanji at a time, big</div>
+  <div class="cover-meta">JP-centered</div>
+</header>
+
+<section class="bg-white" style="padding-top:2.5rem">
+  <div class="wrap">
+    <div class="sec-label">使い方</div>
+    <h2>音・訓・語彙</h2>
+    <div class="sec-rule"></div>
+    <p class="intro">
+      左の一覧から字を選ぶと、大きなカードで表示されます。主役は字と読み——<strong>音</strong>（音読み・カタカナ）と
+      <strong>訓</strong>（訓読み・ひらがな）。<strong>意味</strong>は英単語ではなく絵で示し、数字はその数の丸で表します。
+      下は字から作る<strong>語彙</strong>（八 → 八つ、送り仮名は赤）。
+    </p>
+  </div>
+
+  <div id="jp-app" class="jp-layout">
+    <nav class="jp-rail"></nav>
+    <main class="jp-focus"></main>
+  </div>
+
+  <div class="wrap">
+    <p class="intro" style="margin-top:1rem">
+      → <a href="/radicals/">部件与单字</a> — the same glyphs in the three-view comparison (中文 · 日本語 · Wanikani).
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div>日本語 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/vendor/hanzi-writer.min.js"></script>
+<script src="../shared/cards3.js"></script>
+<script src="../shared/cardsJP.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* JP-centered projection — master-detail focus-study view. Tier-grouped rail on
+   the left, one large JP-forward card on the right. Reuses the glyph block
+   (.sc-hw / .sc-hero / .sc-gtext) and mnemonic icons from cards3.css. Desktop-
+   first by design: the narrow-screen study surface is the SRS view, not this. */
+
+.jp-layout {
+  display: grid; grid-template-columns: 190px 1fr; gap: 1.8rem;
+  max-width: 1180px; margin: 0 auto; padding: 0 1.5rem 3.5rem; align-items: start;
+}
+
+/* ── Rail ──────────────────────────────────────── */
+.jp-rail { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; }
+.jp-rail-group { margin-bottom: 1.3rem; }
+.jp-rail-head {
+  font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); font-weight: 700; margin-bottom: 0.55rem;
+}
+.jp-rail-items { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.jp-rail-item {
+  width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--border); border-radius: 9px; background: var(--white);
+  cursor: pointer; padding: 0; transition: border-color 0.15s, background 0.15s;
+}
+.jp-rail-item:hover { border-color: var(--navy2); }
+.jp-rail-item.sel { border-color: var(--navy); background: var(--navy); }
+.jp-rail-glyph { font-family: var(--kai); font-size: 1.45rem; color: var(--ink); line-height: 1; }
+.jp-rail-item.sel .jp-rail-glyph { color: #fff; }
+
+/* ── Focus card ────────────────────────────────── */
+.jp-focus { min-width: 0; }
+.jp-focus-card { background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 2rem 2.2rem; }
+.jp-focus-top { display: grid; grid-template-columns: 240px 1fr; gap: 2.2rem; align-items: start; }
+
+.jp-focus-glyph .sc-hw, .jp-focus-glyph .sc-hero {
+  width: 240px; height: 240px; background: var(--cream); border-radius: 16px;
+}
+.jp-focus-glyph .sc-gtext { font-size: 118px; }
+
+.jp-focus-head { min-width: 0; }
+
+/* readings — the JP-forward hero (big) */
+.jp-focus-head .jp-readings { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.3rem; }
+.jp-focus-head .jp-yomi { font-size: 1.7rem; color: var(--ink); font-weight: 500; }
+.jp-focus-head .jp-yomi-tag {
+  display: inline-block; min-width: 1.5em; margin-right: 0.6rem;
+  font-size: 0.85rem; font-weight: 700; text-align: center; vertical-align: 0.18em;
+  border-radius: 5px; padding: 0.12rem 0.4rem; background: var(--cream); color: var(--muted);
+}
+.jp-focus-head .jp-yomi.on  .jp-yomi-tag { background: rgba(30, 42, 74, 0.12); color: var(--navy); }
+.jp-focus-head .jp-yomi.kun .jp-yomi-tag { background: rgba(196, 30, 58, 0.10); color: var(--red); }
+
+/* referent — the meaning, illustrated (dot-pile for numbers) */
+.jp-referent { padding: 1rem 0; border-top: 1px dashed var(--border); border-bottom: 1px dashed var(--border); margin-bottom: 1.2rem; }
+.jp-ref-label { font-size: 0.92rem; letter-spacing: 0.06em; color: var(--navy); font-weight: 700; margin-bottom: 0.7rem; }
+.jp-dots { display: grid; grid-template-columns: repeat(5, 24px); gap: 0.5rem; width: max-content; margin-bottom: 0.7rem; }
+.jp-dot { width: 24px; height: 24px; border-radius: 50%; background: var(--navy); border: 1.5px solid var(--navy); box-sizing: border-box; }
+.jp-dot.empty { background: transparent; border-color: var(--border); }  /* unfilled ten-frame slot */
+.jp-illus-todo { height: 0; }            /* reserved slot: per-referent icon later */
+.jp-ref-gloss { font-size: 1.05rem; color: var(--muted); font-style: italic; }
+
+/* WK progression — demoted strip */
+.jp-wk { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.jp-wk-item {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  border-radius: 6px; padding: 0.22rem 0.6rem; font-size: 0.92rem; color: var(--ink);
+}
+.jp-wk-item.wk-meaning  { border: 1.5px solid var(--green); background: rgba(44, 107, 62, 0.06); }
+.jp-wk-item.wk-mnemonic { border: 1.5px dashed var(--red);  background: rgba(196, 30, 58, 0.05); }
+.jp-wk-item .sc-mnemonic { width: 22px; height: 22px; margin: 0; }
+.jp-wk-tag { font-size: 0.6rem; letter-spacing: 0.1em; color: var(--muted); font-weight: 700; }
+.jp-lvl { font-size: 0.74rem; font-weight: 700; color: var(--muted); }
+.jp-wk-item.wk-meaning  .jp-lvl { color: var(--green); }
+.jp-wk-item.wk-mnemonic .jp-lvl { color: var(--red); }
+
+/* vocabulary — the word tier, roomy */
+.jp-focus-card .jp-vocab { margin-top: 1.6rem; padding-top: 1.1rem; border-top: 1px solid var(--border); }
+.jp-vocab-tag { font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin-bottom: 0.7rem; }
+.jp-focus-card .jp-vocab-tag { font-size: 0.92rem; letter-spacing: 0.06em; text-transform: none; color: var(--navy); }
+.jp-word { display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; padding: 0.45rem 0; }
+.jp-word + .jp-word { border-top: 1px solid var(--cream); }
+.jp-word-surface { font-family: var(--kai); font-size: 1.7rem; color: var(--navy); }
+.jp-oku { color: var(--red); }
+.jp-word-reading { color: var(--navy2); font-size: 1.05rem; font-weight: 500; }
+.jp-word-gloss { color: var(--muted); font-size: 0.9rem; }
