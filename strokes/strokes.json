@@ -94,7 +94,8 @@
             "extra": "部首名「てん」",
             "appearsIn": { "char": "犬", "reading": "いぬ", "gloss": "dog" }
           },
-          "wk": { "name": "Drop", "level": 1, "kind": "mnemonic", "icon": "drop" }
+          "wk": { "name": "Drop", "level": 1, "kind": "mnemonic", "icon": "drop" },
+          "pd": { "name": "dot", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "㇀",

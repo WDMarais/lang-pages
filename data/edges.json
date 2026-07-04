@@ -306,6 +306,51 @@
       "kind": "composes"
     },
     {
+      "from": "g:厂",
+      "to": "r:cliff",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:厂",
+      "to": "g:原",
+      "kind": "composes"
+    },
+    {
+      "from": "g:先",
+      "to": "r:first",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:先",
+      "to": "g:洗",
+      "kind": "composes"
+    },
+    {
+      "from": "g:以",
+      "to": "r:by-means-of",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:以",
+      "to": "g:似",
+      "kind": "composes"
+    },
+    {
+      "from": "g:之",
+      "to": "r:of",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:父",
+      "to": "r:father",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:父",
+      "to": "g:斧",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"

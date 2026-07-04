@@ -747,6 +747,119 @@
       "label": "legs (walking-person radical)"
     },
     {
+      "id": "g:厂",
+      "kind": "glyph",
+      "glyph": "厂",
+      "tier": "component",
+      "slug": "han",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cliff",
+      "kind": "referent",
+      "label": "cliff"
+    },
+    {
+      "id": "g:原",
+      "kind": "glyph",
+      "glyph": "原",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:先",
+      "kind": "glyph",
+      "glyph": "先",
+      "tier": "char",
+      "slug": "xianfirst",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:first",
+      "kind": "referent",
+      "label": "first; before; earlier"
+    },
+    {
+      "id": "g:洗",
+      "kind": "glyph",
+      "glyph": "洗",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:以",
+      "kind": "glyph",
+      "glyph": "以",
+      "tier": "char",
+      "slug": "yiuse",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:by-means-of",
+      "kind": "referent",
+      "label": "by means of; with; using"
+    },
+    {
+      "id": "g:似",
+      "kind": "glyph",
+      "glyph": "似",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:之",
+      "kind": "glyph",
+      "glyph": "之",
+      "tier": "char",
+      "slug": "zhi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:of",
+      "kind": "referent",
+      "label": "(classical) of; 's; it; to go"
+    },
+    {
+      "id": "g:父",
+      "kind": "glyph",
+      "glyph": "父",
+      "tier": "char",
+      "slug": "fu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:father",
+      "kind": "referent",
+      "label": "father"
+    },
+    {
+      "id": "g:斧",
+      "kind": "glyph",
+      "glyph": "斧",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",

@@ -135,7 +135,8 @@
             "appearsIn": { "char": "今", "reading": "いま", "gloss": "now" }
           },
           "wk": { "name": "Person", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "kun": ["ひと"], "level": 1 }
+          "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "kun": ["ひと"], "level": 1 },
+          "pd": { "name": "man", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "入",
@@ -379,7 +380,8 @@
             "appearsIn": { "char": "岩", "reading": "いわ", "gloss": "rock" }
           },
           "wk": { "name": "Mountain", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Mountain", "readings": ["サン"], "on": true, "level": 1 }
+          "kanji": { "name": "Mountain", "readings": ["サン"], "on": true, "level": 1 },
+          "pd": { "name": "mountain", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "木",
@@ -397,7 +399,8 @@
             "extra": "漢字「木」(き · モク · ボク)",
             "appearsIn": { "char": "林", "reading": "はやし", "gloss": "woods" }
           },
-          "wk": { "name": "Tree", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Tree", "level": 1, "kind": "meaning" },
+          "pd": { "name": "tree", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "日",
@@ -415,7 +418,8 @@
             "extra": "漢字「日」(ひ · ニチ · ジツ)",
             "appearsIn": { "char": "明", "reading": "あかるい", "gloss": "bright" }
           },
-          "wk": { "name": "Sun", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Sun", "level": 1, "kind": "meaning" },
+          "pd": { "name": "sun", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "上",
@@ -614,7 +618,7 @@
           "hw": true,
           "cn": {
             "name": "儿", "reading": "ér", "gloss": "legs (walking-person radical)",
-            "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光",
+            "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光 · 繁: 兒",
             "appearsIn": { "char": "元", "reading": "yuán", "gloss": "first; origin" }
           },
           "jp": {
@@ -624,6 +628,99 @@
           },
           "wk": null,
           "pd": { "name": "legs", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "厂",
+          "slug": "han",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "厂", "reading": "hàn", "gloss": "cliff",
+            "extra": "康熙部首 27「厂 hàn」· 山崖形 · (今亦作「厂 chǎng」工厂)",
+            "appearsIn": { "char": "原", "reading": "yuán", "gloss": "origin; plain" }
+          },
+          "jp": {
+            "name": "がんだれ", "reading": "", "gloss": "cliff radical",
+            "extra": "部首「がんだれ」· 崖・屋根の形",
+            "appearsIn": { "char": "原", "reading": "ゲン", "gloss": "origin" }
+          },
+          "wk": null,
+          "pd": { "name": "cliff", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "先",
+          "slug": "xianfirst",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "先", "reading": "xiān", "gloss": "first; before; earlier",
+            "extra": "先后、先生 · 上部 𠂉/牛 + 下部 儿 · 潘达尼斯记作「战场 battleground」",
+            "appearsIn": { "char": "洗", "reading": "xǐ", "gloss": "to wash" }
+          },
+          "jp": {
+            "name": "先", "reading": "さき", "gloss": "ahead; previous; tip",
+            "extra": "漢字「先」(さき · セン)",
+            "appearsIn": { "char": "洗", "reading": "あらう", "gloss": "to wash" }
+          },
+          "wk": null,
+          "pd": { "name": "battleground", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "以",
+          "slug": "yiuse",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "以", "reading": "yǐ", "gloss": "by means of; with; using",
+            "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
+            "appearsIn": { "char": "似", "reading": "sì", "gloss": "similar; to resemble" }
+          },
+          "jp": {
+            "name": "以", "reading": "もって", "gloss": "by means of; with",
+            "extra": "漢字「以」(もっ-て · イ)",
+            "appearsIn": { "char": "似", "reading": "にる", "gloss": "to resemble" }
+          },
+          "wk": null,
+          "pd": { "name": "fisherman", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "之",
+          "slug": "zhi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "之", "reading": "zhī", "gloss": "(classical) of; 's; it; to go",
+            "extra": "文言虚词「的」· 亦作动词「往」· 潘达尼斯记作「佐罗 Zorro」(形似 Z)"
+          },
+          "jp": {
+            "name": "之", "reading": "これ", "gloss": "(classical) of; this",
+            "extra": "漢文の「の」· 現代日本語では稀 · 人名等に残る"
+          },
+          "wk": null,
+          "pd": { "name": "Zorro", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "父",
+          "slug": "fu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "父", "reading": "fù", "gloss": "father",
+            "extra": "父亲、父母 · 康熙部首 88 · 象形「持斧之手」",
+            "appearsIn": { "char": "斧", "reading": "fǔ", "gloss": "axe" }
+          },
+          "jp": {
+            "name": "父", "reading": "ちち", "gloss": "father",
+            "extra": "漢字「父」(ちち · フ)",
+            "appearsIn": { "char": "斧", "reading": "おの", "gloss": "axe" }
+          },
+          "wk": null,
+          "pd": { "name": "father", "level": 1, "kind": "meaning" }
         }
       ]
     }

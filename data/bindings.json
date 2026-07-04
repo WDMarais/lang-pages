@@ -304,6 +304,12 @@
         "glyph": "今",
         "reading": "jīn",
         "gloss": "now"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "man",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -889,6 +895,12 @@
         "glyph": "岩",
         "reading": "yán",
         "gloss": "rock; cliff"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "mountain",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -935,6 +947,12 @@
         "glyph": "林",
         "reading": "lín",
         "gloss": "woods; forest"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "tree",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -973,6 +991,12 @@
         "glyph": "明",
         "reading": "míng",
         "gloss": "bright"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "sun",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -1354,7 +1378,7 @@
         "ér"
       ],
       "gloss": "legs (walking-person radical)",
-      "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光",
+      "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光 · 繁: 兒",
       "appearsIn": {
         "glyph": "元",
         "reading": "yuán",
@@ -1379,6 +1403,184 @@
         "glyph": "元",
         "reading": "ゲン",
         "gloss": "origin"
+      }
+    },
+    {
+      "id": "b:厂@cn",
+      "glyph_id": "g:厂",
+      "lang": "cn",
+      "name": "厂",
+      "readings": [
+        "hàn"
+      ],
+      "gloss": "cliff",
+      "extra": "康熙部首 27「厂 hàn」· 山崖形 · (今亦作「厂 chǎng」工厂)",
+      "appearsIn": {
+        "glyph": "原",
+        "reading": "yuán",
+        "gloss": "origin; plain"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "cliff",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:厂@jp",
+      "glyph_id": "g:厂",
+      "lang": "jp",
+      "name": "がんだれ",
+      "readings": [],
+      "gloss": "cliff radical",
+      "extra": "部首「がんだれ」· 崖・屋根の形",
+      "appearsIn": {
+        "glyph": "原",
+        "reading": "ゲン",
+        "gloss": "origin"
+      }
+    },
+    {
+      "id": "b:先@cn",
+      "glyph_id": "g:先",
+      "lang": "cn",
+      "name": "先",
+      "readings": [
+        "xiān"
+      ],
+      "gloss": "first; before; earlier",
+      "extra": "先后、先生 · 上部 𠂉/牛 + 下部 儿 · 潘达尼斯记作「战场 battleground」",
+      "appearsIn": {
+        "glyph": "洗",
+        "reading": "xǐ",
+        "gloss": "to wash"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "battleground",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:先@jp",
+      "glyph_id": "g:先",
+      "lang": "jp",
+      "name": "先",
+      "readings": [
+        "さき"
+      ],
+      "gloss": "ahead; previous; tip",
+      "extra": "漢字「先」(さき · セン)",
+      "appearsIn": {
+        "glyph": "洗",
+        "reading": "あらう",
+        "gloss": "to wash"
+      }
+    },
+    {
+      "id": "b:以@cn",
+      "glyph_id": "g:以",
+      "lang": "cn",
+      "name": "以",
+      "readings": [
+        "yǐ"
+      ],
+      "gloss": "by means of; with; using",
+      "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
+      "appearsIn": {
+        "glyph": "似",
+        "reading": "sì",
+        "gloss": "similar; to resemble"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "fisherman",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:以@jp",
+      "glyph_id": "g:以",
+      "lang": "jp",
+      "name": "以",
+      "readings": [
+        "もって"
+      ],
+      "gloss": "by means of; with",
+      "extra": "漢字「以」(もっ-て · イ)",
+      "appearsIn": {
+        "glyph": "似",
+        "reading": "にる",
+        "gloss": "to resemble"
+      }
+    },
+    {
+      "id": "b:之@cn",
+      "glyph_id": "g:之",
+      "lang": "cn",
+      "name": "之",
+      "readings": [
+        "zhī"
+      ],
+      "gloss": "(classical) of; 's; it; to go",
+      "extra": "文言虚词「的」· 亦作动词「往」· 潘达尼斯记作「佐罗 Zorro」(形似 Z)",
+      "program": {
+        "source": "pandanese",
+        "name": "Zorro",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:之@jp",
+      "glyph_id": "g:之",
+      "lang": "jp",
+      "name": "之",
+      "readings": [
+        "これ"
+      ],
+      "gloss": "(classical) of; this",
+      "extra": "漢文の「の」· 現代日本語では稀 · 人名等に残る"
+    },
+    {
+      "id": "b:父@cn",
+      "glyph_id": "g:父",
+      "lang": "cn",
+      "name": "父",
+      "readings": [
+        "fù"
+      ],
+      "gloss": "father",
+      "extra": "父亲、父母 · 康熙部首 88 · 象形「持斧之手」",
+      "appearsIn": {
+        "glyph": "斧",
+        "reading": "fǔ",
+        "gloss": "axe"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "father",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:父@jp",
+      "glyph_id": "g:父",
+      "lang": "jp",
+      "name": "父",
+      "readings": [
+        "ちち"
+      ],
+      "gloss": "father",
+      "extra": "漢字「父」(ちち · フ)",
+      "appearsIn": {
+        "glyph": "斧",
+        "reading": "おの",
+        "gloss": "axe"
       }
     },
     {
@@ -1542,6 +1744,12 @@
         "glyph": "犬",
         "reading": "quǎn",
         "gloss": "dog"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "dot",
+        "kind": "mnemonic",
+        "level": 1
       }
     },
     {
