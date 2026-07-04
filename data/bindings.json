@@ -201,6 +201,13 @@
         "glyph": "六",
         "reading": "liù",
         "gloss": "six"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "lid",
+        "kind": "mnemonic",
+        "level": 1,
+        "icon": "lid"
       }
     },
     {
@@ -238,6 +245,12 @@
         "glyph": "天",
         "reading": "tiān",
         "gloss": "sky"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "big",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -1254,6 +1267,72 @@
       "extra": "漢字「線」(セン) · 糸 + 泉 · 水が 泉 として内に潜む"
     },
     {
+      "id": "b:火@cn",
+      "glyph_id": "g:火",
+      "lang": "cn",
+      "name": "火",
+      "readings": [
+        "huǒ"
+      ],
+      "gloss": "fire",
+      "extra": "象形「火焰」· 康熙部首 86 · 作偏旁作 灬 (四点底)",
+      "appearsIn": {
+        "glyph": "炎",
+        "reading": "yán",
+        "gloss": "flame; blaze"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "fire",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:火@jp",
+      "glyph_id": "g:火",
+      "lang": "jp",
+      "name": "火",
+      "readings": [
+        "ひ"
+      ],
+      "gloss": "fire",
+      "extra": "漢字「火」(ひ · カ) · 偏旁「れっか 灬」",
+      "appearsIn": {
+        "glyph": "炎",
+        "reading": "ほのお",
+        "gloss": "flame"
+      }
+    },
+    {
+      "id": "b:向@cn",
+      "glyph_id": "g:向",
+      "lang": "cn",
+      "name": "向",
+      "readings": [
+        "xiàng"
+      ],
+      "gloss": "toward; facing; direction",
+      "extra": "「方向、朝向」· 冂 内含 口 · 潘达尼斯记作电视「TV」",
+      "program": {
+        "source": "pandanese",
+        "name": "TV",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:向@jp",
+      "glyph_id": "g:向",
+      "lang": "jp",
+      "name": "向",
+      "readings": [
+        "むく"
+      ],
+      "gloss": "to face; turn toward",
+      "extra": "漢字「向」(む-く · コウ)"
+    },
+    {
       "id": "b:㇐@cn",
       "glyph_id": "g:㇐",
       "lang": "cn",
@@ -1505,6 +1584,12 @@
         "glyph": "小",
         "reading": "xiǎo",
         "gloss": "small"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "hook",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {

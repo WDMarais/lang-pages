@@ -1,4 +1,6 @@
-// Shared three-view (中文 · 日本語 · Wanikani) card renderer.
+// Shared four-view (Pandanese · 中文 · 日本語 · Wanikani) card renderer.
+// Programs bookend the two real-language views: Pandanese (CN-side) left,
+// Wanikani (JP-side) right, with 中文 · 日本語 centered for direct comparison.
 // A page supplies its data file via <div id="cards" data-src="...json">.
 // JSON shape: { groups: [ { title?, sub?, cards: [...] } ] }
 // A card animates its stroke order via HanziWriter when it sets `hw: true`;
@@ -94,6 +96,35 @@ function wkView(wk, kanji) {
       </div>`;
 }
 
+// Pandanese column — CN-side mirror of Wanikani, same meaning(green ✓) /
+// mnemonic(red-dashed) coding. No kanji concept, so no stacked variant. A
+// mnemonic with no matching line-icon (e.g. 向 "TV") drops the visual rather
+// than rendering an empty box. Kept in its own tagged block so a release build
+// can strip proprietary mnemonics (see memory: strippability).
+function pdView(pd) {
+  if (!pd) {
+    return html`
+      <div class="sc-view v-pd empty">
+        <div class="sc-vlabel">Pandanese</div>
+        <div class="sc-empty">—</div>
+      </div>`;
+  }
+  const meaning = pd.kind === 'meaning';
+  const visual = meaning
+    ? html`<div class="sc-check">✓</div>`
+    : (pd.icon && ICONS[pd.icon] ? mnemonic(pd.icon) : '');
+  const flag = meaning
+    ? html`<div class="sc-only sc-true">实义 · 通用</div>`
+    : html`<div class="sc-only">仅助记</div>`;
+  return html`
+      <div class="sc-view v-pd ${meaning ? 'pd-meaning' : 'pd-mnemonic'}">
+        <div class="sc-vlabel">Pandanese <span class="sc-lvl">Lv.${pd.level}</span></div>
+        ${visual}
+        <div class="sc-nameline"><span class="sc-name">${pd.name}</span></div>
+        ${flag}
+      </div>`;
+}
+
 // radical sub-item: keeps the mnemonic line-icon (the shape-only warning cue).
 function wkItem(tag, wk) {
   const meaning = wk.kind === 'meaning';
@@ -145,6 +176,7 @@ function renderCard(c) {
         ${img}
       </div>
       <div class="sc-views">
+        ${pdView(c.pd)}
         ${langView('v-cn', '中文', c.cn, `${c.audioBase || ''}audio/cn-${c.slug}.mp3`, `${c.audioBase || ''}audio/cn-${c.slug}-ex.mp3`)}
         ${langView('v-jp', '日本語', c.jp, `${c.audioBase || ''}audio/jp-${c.slug}.mp3`, `${c.audioBase || ''}audio/jp-${c.slug}-ex.mp3`)}
         ${wkView(c.wk, c.kanji)}

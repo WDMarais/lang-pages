@@ -94,7 +94,8 @@
             "extra": "部首「なべぶた / けいさんかんむり」",
             "appearsIn": { "char": "六", "reading": "ロク", "gloss": "six" }
           },
-          "wk": { "name": "Lid", "level": 1, "kind": "mnemonic", "icon": "lid" }
+          "wk": { "name": "Lid", "level": 1, "kind": "mnemonic", "icon": "lid" },
+          "pd": { "name": "lid", "level": 1, "kind": "mnemonic", "icon": "lid" }
         },
         {
           "glyph": "大",
@@ -113,7 +114,8 @@
             "appearsIn": { "char": "天", "reading": "テン", "gloss": "heaven; sky" }
           },
           "wk": { "name": "Big", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Big", "readings": ["ダイ", "タイ"], "on": true, "level": 1 }
+          "kanji": { "name": "Big", "readings": ["ダイ", "タイ"], "on": true, "level": 1 },
+          "pd": { "name": "big", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "人",
@@ -565,6 +567,42 @@
             "extra": "漢字「線」(セン) · 糸 + 泉 · 水が 泉 として内に潜む"
           },
           "wk": null
+        },
+        {
+          "glyph": "火",
+          "slug": "huo",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "火", "reading": "huǒ", "gloss": "fire",
+            "extra": "象形「火焰」· 康熙部首 86 · 作偏旁作 灬 (四点底)",
+            "appearsIn": { "char": "炎", "reading": "yán", "gloss": "flame; blaze" }
+          },
+          "jp": {
+            "name": "火", "reading": "ひ", "gloss": "fire",
+            "extra": "漢字「火」(ひ · カ) · 偏旁「れっか 灬」",
+            "appearsIn": { "char": "炎", "reading": "ほのお", "gloss": "flame" }
+          },
+          "wk": null,
+          "pd": { "name": "fire", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "向",
+          "slug": "xiang",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "向", "reading": "xiàng", "gloss": "toward; facing; direction",
+            "extra": "「方向、朝向」· 冂 内含 口 · 潘达尼斯记作电视「TV」"
+          },
+          "jp": {
+            "name": "向", "reading": "むく", "gloss": "to face; turn toward",
+            "extra": "漢字「向」(む-く · コウ)"
+          },
+          "wk": null,
+          "pd": { "name": "TV", "level": 1, "kind": "mnemonic" }
         }
       ]
     }

@@ -42,7 +42,7 @@ def referent_slug(gloss):
 
 
 # ── forward: cards → graph ──────────────────────────────────────────────────
-def make_binding(glyph, lang, v, wk, kanji=None):
+def make_binding(glyph, lang, v, wk, kanji=None, pd=None):
     b = {
         "id": f"b:{glyph}@{lang}",
         "glyph_id": f"g:{glyph}",
@@ -78,6 +78,15 @@ def make_binding(glyph, lang, v, wk, kanji=None):
             if kanji.get("kun"):
                 prog["kanji"]["kun"] = kanji["kun"]
         b["program"] = prog
+    # Pandanese is the CN-side program, mirror of WaniKani on the JP binding.
+    # Kept in its own tagged block so a release build can strip proprietary
+    # mnemonics wholesale (see docs / memory: strippability).
+    if lang == "cn" and pd:
+        prog = {"source": "pandanese", "name": pd["name"],
+                "kind": pd["kind"], "level": pd["level"]}
+        if pd.get("icon"):
+            prog["icon"] = pd["icon"]
+        b["program"] = prog
     return b
 
 
@@ -94,7 +103,7 @@ def build():
                 "tier": TIER[c["tag"]], "slug": c["slug"], "source": src,
                 "media": {"hw": c.get("hw", False), "image": c.get("image", "")},
             }
-            bindings.append(make_binding(g, "cn", c["cn"], None))
+            bindings.append(make_binding(g, "cn", c["cn"], None, pd=c.get("pd")))
             bindings.append(make_binding(g, "jp", c["jp"], c.get("wk"), c.get("kanji")))
 
             # denotes → bare referent stub, keyed by the ASCII meaning-slug so the
@@ -210,6 +219,16 @@ def kanji_from(jp):
     return out
 
 
+def pd_from(cn):
+    p = cn.get("program")
+    if not p or p.get("source") != "pandanese" or "name" not in p:
+        return None
+    pd = {"name": p["name"], "level": p["level"], "kind": p["kind"]}
+    if "icon" in p:
+        pd["icon"] = p["icon"]
+    return pd
+
+
 def project_cards(source, nodes, bindings):
     bb = {b["id"]: b for b in bindings}
     cards = []
@@ -228,6 +247,9 @@ def project_cards(source, nodes, bindings):
         kanji = kanji_from(jp)
         if kanji:
             card["kanji"] = kanji
+        pd = pd_from(bb[f"b:{g}@cn"])
+        if pd:
+            card["pd"] = pd
         cards.append(card)
     return cards
 

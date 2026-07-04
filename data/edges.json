@@ -281,6 +281,21 @@
       "kind": "denotes"
     },
     {
+      "from": "g:火",
+      "to": "r:fire",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:火",
+      "to": "g:炎",
+      "kind": "composes"
+    },
+    {
+      "from": "g:向",
+      "to": "r:toward",
+      "kind": "denotes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"

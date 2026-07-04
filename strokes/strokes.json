@@ -146,7 +146,8 @@
             "extra": "部首名「はねぼう」",
             "appearsIn": { "char": "小", "reading": "ちいさい", "gloss": "small" }
           },
-          "wk": { "name": "Barb", "level": 1, "kind": "mnemonic", "icon": "barb" }
+          "wk": { "name": "Barb", "level": 1, "kind": "mnemonic", "icon": "barb" },
+          "pd": { "name": "hook", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "㇆",

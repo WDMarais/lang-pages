@@ -689,6 +689,47 @@
       "label": "line; thread; wire"
     },
     {
+      "id": "g:火",
+      "kind": "glyph",
+      "glyph": "火",
+      "tier": "char",
+      "slug": "huo",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fire",
+      "kind": "referent",
+      "label": "fire"
+    },
+    {
+      "id": "g:炎",
+      "kind": "glyph",
+      "glyph": "炎",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:向",
+      "kind": "glyph",
+      "glyph": "向",
+      "tier": "char",
+      "slug": "xiang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:toward",
+      "kind": "referent",
+      "label": "toward; facing; direction"
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",

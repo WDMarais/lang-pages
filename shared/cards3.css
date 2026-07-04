@@ -59,23 +59,24 @@
 .sc-img[src=""] { display: none; }
 
 /* three columns */
-.sc-views { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; }
+.sc-views { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.7rem; }
 .sc-view {
   padding: 0.75rem 0.85rem; border-radius: 8px;
   background: var(--cream); border-left: 3px solid var(--border);
 }
 .v-cn { border-left-color: var(--red); }
 .v-jp { border-left-color: var(--navy); }
-/* Wanikani: shape-mnemonic (red, caution) vs real-meaning (green, transfers) */
-.wk-mnemonic {
+/* Program columns (Wanikani = JP-side, Pandanese = CN-side) share coding:
+   shape-mnemonic (red, caution) vs real-meaning (green, transfers) */
+.wk-mnemonic, .pd-mnemonic {
   border: 1.5px dashed var(--red);
   background: rgba(196, 30, 58, 0.05);
 }
-.wk-meaning {
+.wk-meaning, .pd-meaning {
   border: 1.5px solid var(--green);
   background: rgba(44, 107, 62, 0.06);
 }
-.v-wk.empty { border: 1.5px dashed var(--border); }
+.v-wk.empty, .v-pd.empty { border: 1.5px dashed var(--border); }
 
 /* stacked WK column: radical item + kanji item, each self-coloured */
 .v-wk-stack { border-left-color: var(--border); display: flex; flex-direction: column; gap: 0.5rem; }
@@ -92,8 +93,8 @@
 .sc-wk-item .sc-reading { color: var(--navy2); }
 
 .sc-vlabel { font-size: 0.58rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 0.4rem; }
-.wk-mnemonic .sc-lvl { color: var(--red); font-weight: 700; }
-.wk-meaning .sc-lvl { color: var(--green); font-weight: 700; }
+.wk-mnemonic .sc-lvl, .pd-mnemonic .sc-lvl { color: var(--red); font-weight: 700; }
+.wk-meaning .sc-lvl, .pd-meaning .sc-lvl { color: var(--green); font-weight: 700; }
 
 .sc-mnemonic { width: 48px; height: 48px; display: block; margin: 0.1rem 0 0.45rem; }
 .sc-mnemonic path, .sc-mnemonic circle { fill: none; stroke: #b0535d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }

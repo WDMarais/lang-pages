@@ -7,3 +7,6 @@ Thumbs.db
 
 # fetch-decomp local cache of the Make-Me-a-Hanzi dictionary
 data/.cache/
+
+# local venv for headless page-verification tooling (playwright)
+.venv/
