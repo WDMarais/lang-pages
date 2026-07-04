@@ -376,6 +376,21 @@
       "kind": "denotes"
     },
     {
+      "from": "g:与",
+      "to": "r:and",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:手",
+      "to": "r:hand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:手",
+      "to": "g:拳",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"

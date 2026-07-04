@@ -14,6 +14,12 @@
         "glyph": "三",
         "reading": "sān",
         "gloss": "three"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "one",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -122,6 +128,12 @@
         "glyph": "元",
         "reading": "yuán",
         "gloss": "first; origin"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "two",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -1696,6 +1708,72 @@
       ],
       "gloss": "deed; work; karma",
       "extra": "漢字「業」(わざ · ギョウ · ゴウ) · 簡体作「业」"
+    },
+    {
+      "id": "b:与@cn",
+      "glyph_id": "g:与",
+      "lang": "cn",
+      "name": "与",
+      "readings": [
+        "yǔ"
+      ],
+      "gloss": "and; with; to give",
+      "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 繁: 與",
+      "program": {
+        "source": "pandanese",
+        "name": "sleeping bag",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:与@jp",
+      "glyph_id": "g:与",
+      "lang": "jp",
+      "name": "与",
+      "readings": [
+        "あたえる"
+      ],
+      "gloss": "to give; grant",
+      "extra": "漢字「与」(あた-える · ヨ) · 旧字 與"
+    },
+    {
+      "id": "b:手@cn",
+      "glyph_id": "g:手",
+      "lang": "cn",
+      "name": "手",
+      "readings": [
+        "shǒu"
+      ],
+      "gloss": "hand",
+      "extra": "象形「手」· 康熙部首 64 · 作偏旁作 扌",
+      "appearsIn": {
+        "glyph": "拳",
+        "reading": "quán",
+        "gloss": "fist"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "hand",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:手@jp",
+      "glyph_id": "g:手",
+      "lang": "jp",
+      "name": "手",
+      "readings": [
+        "て"
+      ],
+      "gloss": "hand",
+      "extra": "漢字「手」(て · シュ) · 偏旁「てへん 扌」",
+      "appearsIn": {
+        "glyph": "拳",
+        "reading": "こぶし",
+        "gloss": "fist"
+      }
     },
     {
       "id": "b:㇐@cn",

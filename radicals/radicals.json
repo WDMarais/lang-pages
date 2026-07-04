@@ -21,7 +21,8 @@
             "appearsIn": { "char": "三", "reading": "サン", "gloss": "three" }
           },
           "wk": { "name": "Ground", "level": 1, "kind": "mnemonic", "icon": "ground" },
-          "kanji": { "name": "One", "readings": ["イチ", "イツ"], "on": true, "kun": ["ひと"], "level": 1 }
+          "kanji": { "name": "One", "readings": ["イチ", "イツ"], "on": true, "kun": ["ひと"], "level": 1 },
+          "pd": { "name": "one", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "八",
@@ -60,7 +61,8 @@
             "appearsIn": { "char": "元", "reading": "ゲン", "gloss": "origin" }
           },
           "wk": { "name": "Two", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "kun": ["ふた"], "level": 1 }
+          "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "kun": ["ふた"], "level": 1 },
+          "pd": { "name": "two", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "三",
@@ -778,6 +780,42 @@
           },
           "wk": null,
           "pd": { "name": "bloom", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "与",
+          "slug": "yu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "与", "reading": "yǔ", "gloss": "and; with; to give",
+            "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 繁: 與"
+          },
+          "jp": {
+            "name": "与", "reading": "あたえる", "gloss": "to give; grant",
+            "extra": "漢字「与」(あた-える · ヨ) · 旧字 與"
+          },
+          "wk": null,
+          "pd": { "name": "sleeping bag", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "手",
+          "slug": "shou",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "手", "reading": "shǒu", "gloss": "hand",
+            "extra": "象形「手」· 康熙部首 64 · 作偏旁作 扌",
+            "appearsIn": { "char": "拳", "reading": "quán", "gloss": "fist" }
+          },
+          "jp": {
+            "name": "手", "reading": "て", "gloss": "hand",
+            "extra": "漢字「手」(て · シュ) · 偏旁「てへん 扌」",
+            "appearsIn": { "char": "拳", "reading": "こぶし", "gloss": "fist" }
+          },
+          "wk": null,
+          "pd": { "name": "hand", "level": 1, "kind": "meaning" }
         }
       ]
     }

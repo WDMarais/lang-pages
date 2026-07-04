@@ -925,6 +925,47 @@
       "label": "industry; occupation; karma"
     },
     {
+      "id": "g:与",
+      "kind": "glyph",
+      "glyph": "与",
+      "tier": "char",
+      "slug": "yu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:and",
+      "kind": "referent",
+      "label": "and; with; to give"
+    },
+    {
+      "id": "g:手",
+      "kind": "glyph",
+      "glyph": "手",
+      "tier": "char",
+      "slug": "shou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:hand",
+      "kind": "referent",
+      "label": "hand"
+    },
+    {
+      "id": "g:拳",
+      "kind": "glyph",
+      "glyph": "拳",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",
