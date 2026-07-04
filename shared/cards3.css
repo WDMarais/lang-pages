@@ -19,6 +19,7 @@
 .lg-jp { background: var(--navy); }
 .lg-wk-m { background: rgba(44, 107, 62, 0.18); border: 1.5px solid var(--green); }
 .lg-wk { background: repeating-linear-gradient(45deg, var(--red), var(--red) 3px, transparent 3px, transparent 6px); border: 1px dashed var(--red); }
+.lg-note { font-weight: 600; }
 
 /* ── Stroke card ───────────────────────────────── */
 .scard {

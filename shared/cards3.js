@@ -21,7 +21,7 @@ const ICONS = {
   ground: '<path d="M5 28 H35"/><path d="M13 28 Q20 18 27 28"/><path d="M9 28 v-3"/><path d="M31 28 v-3"/>',
   slide:  '<path d="M11 33 V13 H15"/><path d="M15 13 C24 13 22 33 31 33"/><path d="M8 33 H34"/><path d="M7 19 H11"/><path d="M7 24 H11"/>',
   drop:   '<path d="M20 6 C20 6 9 21 9 28 a11 11 0 0 0 22 0 C31 21 20 6 20 6 Z"/>',
-  barb:   '<path d="M27 8 V24 a8 8 0 1 1 -16 0"/><path d="M11 24 l-2 -5"/><path d="M11 24 l5 -1"/>',
+  barb:   '<path d="M26 7 V22 a7 7 0 1 1 -12 2"/><path d="M14 24 l0 -7"/><path d="M14 24 l6 2"/>',
   fins:   '<path d="M6 20 C13 12 27 12 33 20 C27 28 13 28 6 20 Z"/><path d="M6 20 L1 15 L3 20 L1 25 Z"/><circle cx="27" cy="18" r="1.3"/><path d="M17 12 l3 -5 l3 5"/>',
   lid:    '<path d="M6 27 a14 9 0 0 1 28 0 Z"/><path d="M5 27 H35"/><path d="M20 14 v-4"/>',
   prison: '<path d="M9 9 H31 V33 H9 Z"/><path d="M16 9 V33"/><path d="M23 9 V33"/>',

@@ -775,7 +775,7 @@
       "kind": "glyph",
       "glyph": "先",
       "tier": "char",
-      "slug": "xianfirst",
+      "slug": "xian1",
       "source": "radicals",
       "media": {
         "hw": true,
@@ -799,7 +799,7 @@
       "kind": "glyph",
       "glyph": "以",
       "tier": "char",
-      "slug": "yiuse",
+      "slug": "yi3",
       "source": "radicals",
       "media": {
         "hw": true,
