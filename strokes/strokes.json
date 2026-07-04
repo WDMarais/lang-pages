@@ -38,7 +38,8 @@
             "extra": "部首名「たてぼう」",
             "appearsIn": { "char": "十", "reading": "ジュウ", "gloss": "ten" }
           },
-          "wk": null
+          "wk": null,
+          "pd": { "name": "line", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "丿",
@@ -56,7 +57,8 @@
             "extra": "部首名「の」(形が の に似る)",
             "appearsIn": { "char": "人", "reading": "ひと", "gloss": "person" }
           },
-          "wk": { "name": "Slide", "level": 1, "kind": "mnemonic", "icon": "slide" }
+          "wk": { "name": "Slide", "level": 1, "kind": "mnemonic", "icon": "slide" },
+          "pd": { "name": "slash", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "㇏",

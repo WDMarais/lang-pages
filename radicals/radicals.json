@@ -40,7 +40,8 @@
             "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
           "wk": { "name": "Fins", "level": 1, "kind": "mnemonic", "glyph": "ハ", "icon": "fins" },
-          "kanji": { "name": "Eight", "readings": ["ハチ"], "on": true, "kun": ["や"], "level": 1 }
+          "kanji": { "name": "Eight", "readings": ["ハチ"], "on": true, "kun": ["や"], "level": 1 },
+          "pd": { "name": "eight", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "二",
@@ -484,7 +485,8 @@
             "extra": "漢字「土」(つち · ド · ト)",
             "appearsIn": { "char": "地", "reading": "チ", "gloss": "ground" }
           },
-          "wk": { "name": "Dirt", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Dirt", "level": 1, "kind": "meaning" },
+          "pd": { "name": "earth", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "刀",
@@ -603,6 +605,25 @@
           },
           "wk": null,
           "pd": { "name": "TV", "level": 1, "kind": "mnemonic", "icon": "tv" }
+        },
+        {
+          "glyph": "儿",
+          "slug": "legs",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "儿", "reading": "ér", "gloss": "legs (walking-person radical)",
+            "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光",
+            "appearsIn": { "char": "元", "reading": "yuán", "gloss": "first; origin" }
+          },
+          "jp": {
+            "name": "ひとあし", "reading": "", "gloss": "legs (human-legs radical)",
+            "extra": "部首「ひとあし / にんにょう」·「人」の下部形",
+            "appearsIn": { "char": "元", "reading": "ゲン", "gloss": "origin" }
+          },
+          "wk": null,
+          "pd": { "name": "legs", "level": 1, "kind": "mnemonic" }
         }
       ]
     }

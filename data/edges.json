@@ -296,6 +296,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:儿",
+      "to": "r:legs",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:儿",
+      "to": "g:元",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"
@@ -458,11 +468,6 @@
     {
       "from": "g:一",
       "to": "g:亠",
-      "kind": "composes"
-    },
-    {
-      "from": "g:儿",
-      "to": "g:元",
       "kind": "composes"
     },
     {

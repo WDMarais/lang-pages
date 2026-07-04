@@ -65,6 +65,12 @@
         "glyph": "分",
         "reading": "fēn",
         "gloss": "to divide"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "eight",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -1116,6 +1122,12 @@
         "glyph": "地",
         "reading": "dì",
         "gloss": "ground; land"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "earth",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -1334,6 +1346,42 @@
       "extra": "漢字「向」(む-く · コウ)"
     },
     {
+      "id": "b:儿@cn",
+      "glyph_id": "g:儿",
+      "lang": "cn",
+      "name": "儿",
+      "readings": [
+        "ér"
+      ],
+      "gloss": "legs (walking-person radical)",
+      "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光",
+      "appearsIn": {
+        "glyph": "元",
+        "reading": "yuán",
+        "gloss": "first; origin"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "legs",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:儿@jp",
+      "glyph_id": "g:儿",
+      "lang": "jp",
+      "name": "ひとあし",
+      "readings": [],
+      "gloss": "legs (human-legs radical)",
+      "extra": "部首「ひとあし / にんにょう」·「人」の下部形",
+      "appearsIn": {
+        "glyph": "元",
+        "reading": "ゲン",
+        "gloss": "origin"
+      }
+    },
+    {
       "id": "b:㇐@cn",
       "glyph_id": "g:㇐",
       "lang": "cn",
@@ -1379,6 +1427,12 @@
         "glyph": "十",
         "reading": "shí",
         "gloss": "ten"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "line",
+        "kind": "mnemonic",
+        "level": 1
       }
     },
     {
@@ -1411,6 +1465,12 @@
         "glyph": "人",
         "reading": "rén",
         "gloss": "person"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "slash",
+        "kind": "mnemonic",
+        "level": 1
       }
     },
     {
