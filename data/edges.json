@@ -351,6 +351,31 @@
       "kind": "composes"
     },
     {
+      "from": "g:宀",
+      "to": "r:roof",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:宀",
+      "to": "g:家",
+      "kind": "composes"
+    },
+    {
+      "from": "g:不",
+      "to": "r:not",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "g:否",
+      "kind": "composes"
+    },
+    {
+      "from": "g:业",
+      "to": "r:industry",
+      "kind": "denotes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"

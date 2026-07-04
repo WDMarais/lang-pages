@@ -493,6 +493,12 @@
         "glyph": "名",
         "reading": "míng",
         "gloss": "name"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "mouth",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -540,6 +546,12 @@
         "glyph": "好",
         "reading": "hǎo",
         "gloss": "good"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "woman",
+        "kind": "meaning",
+        "level": 1
       }
     },
     {
@@ -1582,6 +1594,108 @@
         "reading": "おの",
         "gloss": "axe"
       }
+    },
+    {
+      "id": "b:宀@cn",
+      "glyph_id": "g:宀",
+      "lang": "cn",
+      "name": "宀",
+      "readings": [
+        "mián"
+      ],
+      "gloss": "roof (radical)",
+      "extra": "宝盖头 · 无独立字义 · 康熙部首 40 · 房屋顶形",
+      "appearsIn": {
+        "glyph": "家",
+        "reading": "jiā",
+        "gloss": "home; family"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "roof",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:宀@jp",
+      "glyph_id": "g:宀",
+      "lang": "jp",
+      "name": "うかんむり",
+      "readings": [],
+      "gloss": "roof radical",
+      "extra": "部首「うかんむり」· 屋根の形",
+      "appearsIn": {
+        "glyph": "家",
+        "reading": "いえ",
+        "gloss": "house"
+      }
+    },
+    {
+      "id": "b:不@cn",
+      "glyph_id": "g:不",
+      "lang": "cn",
+      "name": "不",
+      "readings": [
+        "bù"
+      ],
+      "gloss": "not; no",
+      "extra": "否定副词「不」· 潘达尼斯记作「黄蜂 wasp」",
+      "appearsIn": {
+        "glyph": "否",
+        "reading": "fǒu",
+        "gloss": "to negate; no"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "wasp",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:不@jp",
+      "glyph_id": "g:不",
+      "lang": "jp",
+      "name": "不",
+      "readings": [
+        "フ"
+      ],
+      "gloss": "un-; not (prefix)",
+      "extra": "漢字「不」(フ · ブ) · 不安・不便",
+      "appearsIn": {
+        "glyph": "否",
+        "reading": "いな",
+        "gloss": "nay; no"
+      }
+    },
+    {
+      "id": "b:业@cn",
+      "glyph_id": "g:业",
+      "lang": "cn",
+      "name": "业",
+      "readings": [
+        "yè"
+      ],
+      "gloss": "industry; occupation; karma",
+      "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業",
+      "program": {
+        "source": "pandanese",
+        "name": "bloom",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:业@jp",
+      "glyph_id": "g:业",
+      "lang": "jp",
+      "name": "業",
+      "readings": [
+        "わざ"
+      ],
+      "gloss": "deed; work; karma",
+      "extra": "漢字「業」(わざ · ギョウ · ゴウ) · 簡体作「业」"
     },
     {
       "id": "b:㇐@cn",

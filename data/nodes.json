@@ -860,6 +860,71 @@
       "frontier": true
     },
     {
+      "id": "g:宀",
+      "kind": "glyph",
+      "glyph": "宀",
+      "tier": "component",
+      "slug": "mian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:roof",
+      "kind": "referent",
+      "label": "roof (radical)"
+    },
+    {
+      "id": "g:家",
+      "kind": "glyph",
+      "glyph": "家",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:不",
+      "kind": "glyph",
+      "glyph": "不",
+      "tier": "char",
+      "slug": "bu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:not",
+      "kind": "referent",
+      "label": "not; no"
+    },
+    {
+      "id": "g:否",
+      "kind": "glyph",
+      "glyph": "否",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:业",
+      "kind": "glyph",
+      "glyph": "业",
+      "tier": "char",
+      "slug": "ye",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:industry",
+      "kind": "referent",
+      "label": "industry; occupation; karma"
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",

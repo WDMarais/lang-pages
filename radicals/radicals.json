@@ -211,7 +211,8 @@
             "appearsIn": { "char": "名", "reading": "メイ", "gloss": "name" }
           },
           "wk": { "name": "Mouth", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "level": 1 }
+          "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "level": 1 },
+          "pd": { "name": "mouth", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "女",
@@ -230,7 +231,8 @@
             "appearsIn": { "char": "好", "reading": "すき", "gloss": "to like" }
           },
           "wk": { "name": "Woman", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "level": 1 }
+          "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "level": 1 },
+          "pd": { "name": "woman", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "七",
@@ -721,6 +723,61 @@
           },
           "wk": null,
           "pd": { "name": "father", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "宀",
+          "slug": "mian",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "宀", "reading": "mián", "gloss": "roof (radical)",
+            "extra": "宝盖头 · 无独立字义 · 康熙部首 40 · 房屋顶形",
+            "appearsIn": { "char": "家", "reading": "jiā", "gloss": "home; family" }
+          },
+          "jp": {
+            "name": "うかんむり", "reading": "", "gloss": "roof radical",
+            "extra": "部首「うかんむり」· 屋根の形",
+            "appearsIn": { "char": "家", "reading": "いえ", "gloss": "house" }
+          },
+          "wk": null,
+          "pd": { "name": "roof", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "不",
+          "slug": "bu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "不", "reading": "bù", "gloss": "not; no",
+            "extra": "否定副词「不」· 潘达尼斯记作「黄蜂 wasp」",
+            "appearsIn": { "char": "否", "reading": "fǒu", "gloss": "to negate; no" }
+          },
+          "jp": {
+            "name": "不", "reading": "フ", "gloss": "un-; not (prefix)",
+            "extra": "漢字「不」(フ · ブ) · 不安・不便",
+            "appearsIn": { "char": "否", "reading": "いな", "gloss": "nay; no" }
+          },
+          "wk": null,
+          "pd": { "name": "wasp", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "业",
+          "slug": "ye",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "业", "reading": "yè", "gloss": "industry; occupation; karma",
+            "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業"
+          },
+          "jp": {
+            "name": "業", "reading": "わざ", "gloss": "deed; work; karma",
+            "extra": "漢字「業」(わざ · ギョウ · ゴウ) · 簡体作「业」"
+          },
+          "wk": null,
+          "pd": { "name": "bloom", "level": 1, "kind": "mnemonic" }
         }
       ]
     }
