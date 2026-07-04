@@ -549,6 +549,146 @@
       "label": "below; down; under"
     },
     {
+      "id": "g:水",
+      "kind": "glyph",
+      "glyph": "水",
+      "tier": "char",
+      "slug": "shui",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:water",
+      "kind": "referent",
+      "label": "water"
+    },
+    {
+      "id": "g:冰",
+      "kind": "glyph",
+      "glyph": "冰",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:氷",
+      "kind": "glyph",
+      "glyph": "氷",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:土",
+      "kind": "glyph",
+      "glyph": "土",
+      "tier": "char",
+      "slug": "tu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:earth",
+      "kind": "referent",
+      "label": "earth; soil"
+    },
+    {
+      "id": "g:地",
+      "kind": "glyph",
+      "glyph": "地",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:刀",
+      "kind": "glyph",
+      "glyph": "刀",
+      "tier": "char",
+      "slug": "dao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:knife",
+      "kind": "referent",
+      "label": "knife; blade"
+    },
+    {
+      "id": "g:糸",
+      "kind": "glyph",
+      "glyph": "糸",
+      "tier": "char",
+      "slug": "si",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:silk",
+      "kind": "referent",
+      "label": "silk; thread"
+    },
+    {
+      "id": "g:白",
+      "kind": "glyph",
+      "glyph": "白",
+      "tier": "char",
+      "slug": "bai",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:white",
+      "kind": "referent",
+      "label": "white"
+    },
+    {
+      "id": "g:泉",
+      "kind": "glyph",
+      "glyph": "泉",
+      "tier": "char",
+      "slug": "quan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:spring",
+      "kind": "referent",
+      "label": "spring; fountain"
+    },
+    {
+      "id": "g:線",
+      "kind": "glyph",
+      "glyph": "線",
+      "tier": "char",
+      "slug": "xian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:line",
+      "kind": "referent",
+      "label": "line; thread; wire"
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",
@@ -782,9 +922,9 @@
       "frontier": true
     },
     {
-      "id": "g:刀",
+      "id": "g:冫",
       "kind": "glyph",
-      "glyph": "刀",
+      "glyph": "冫",
       "tier": null,
       "frontier": true
     },
@@ -813,6 +953,13 @@
       "id": "g:夕",
       "kind": "glyph",
       "glyph": "夕",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:也",
+      "kind": "glyph",
+      "glyph": "也",
       "tier": null,
       "frontier": true
     },
@@ -876,6 +1023,13 @@
       "id": "g:田",
       "kind": "glyph",
       "glyph": "田",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:幺",
+      "kind": "glyph",
+      "glyph": "幺",
       "tier": null,
       "frontier": true
     },
@@ -1008,6 +1162,22 @@
       "slug": "mittsu",
       "reading": "みっつ",
       "gloss": "three things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "w:九つ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "九つ",
+      "slug": "kokonotsu",
+      "reading": "ここのつ",
+      "gloss": "nine things",
       "okurigana": "つ",
       "program": {
         "source": "wanikani",

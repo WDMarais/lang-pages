@@ -85,6 +85,17 @@
       "gloss": "three things",
       "okurigana": "つ",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "九つ",
+      "slug": "kokonotsu",
+      "audience": "jp",
+      "parts": ["九"],
+      "denotes": "nine",
+      "reading": "ここのつ",
+      "gloss": "nine things",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

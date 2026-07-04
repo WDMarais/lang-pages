@@ -226,6 +226,61 @@
       "kind": "denotes"
     },
     {
+      "from": "g:水",
+      "to": "r:water",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:水",
+      "to": "g:冰",
+      "kind": "composes"
+    },
+    {
+      "from": "g:水",
+      "to": "g:氷",
+      "kind": "composes"
+    },
+    {
+      "from": "g:土",
+      "to": "r:earth",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:土",
+      "to": "g:地",
+      "kind": "composes"
+    },
+    {
+      "from": "g:刀",
+      "to": "r:knife",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:刀",
+      "to": "g:分",
+      "kind": "composes"
+    },
+    {
+      "from": "g:糸",
+      "to": "r:silk",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:白",
+      "to": "r:white",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:泉",
+      "to": "r:spring",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:線",
+      "to": "r:line",
+      "kind": "denotes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"
@@ -406,8 +461,13 @@
       "kind": "composes"
     },
     {
-      "from": "g:刀",
-      "to": "g:分",
+      "from": "g:冫",
+      "to": "g:冰",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:刀",
       "kind": "composes"
     },
     {
@@ -468,6 +528,21 @@
     {
       "from": "g:夕",
       "to": "g:名",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "g:土",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:土",
+      "kind": "composes"
+    },
+    {
+      "from": "g:也",
+      "to": "g:地",
       "kind": "composes"
     },
     {
@@ -576,8 +651,23 @@
       "kind": "composes"
     },
     {
+      "from": "g:亅",
+      "to": "g:水",
+      "kind": "composes"
+    },
+    {
       "from": "g:氵",
       "to": "g:江",
+      "kind": "composes"
+    },
+    {
+      "from": "g:白",
+      "to": "g:泉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:水",
+      "to": "g:泉",
       "kind": "composes"
     },
     {
@@ -588,6 +678,36 @@
     {
       "from": "g:田",
       "to": "g:男",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:白",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "g:白",
+      "kind": "composes"
+    },
+    {
+      "from": "g:幺",
+      "to": "g:糸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:小",
+      "to": "g:糸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:糸",
+      "to": "g:線",
+      "kind": "composes"
+    },
+    {
+      "from": "g:泉",
+      "to": "g:線",
       "kind": "composes"
     },
     {
@@ -728,6 +848,16 @@
     {
       "from": "w:三つ",
       "to": "r:three",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:九",
+      "to": "w:九つ",
+      "kind": "composes"
+    },
+    {
+      "from": "w:九つ",
+      "to": "r:nine",
       "kind": "denotes"
     }
   ]

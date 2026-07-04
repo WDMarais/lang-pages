@@ -1052,6 +1052,208 @@
       }
     },
     {
+      "id": "b:水@cn",
+      "glyph_id": "g:水",
+      "lang": "cn",
+      "name": "水",
+      "readings": [
+        "shuǐ"
+      ],
+      "gloss": "water",
+      "extra": "象形「水流」· 康熙部首 85 · 作偏旁写作 氵",
+      "appearsIn": {
+        "glyph": "冰",
+        "reading": "bīng",
+        "gloss": "ice"
+      }
+    },
+    {
+      "id": "b:水@jp",
+      "glyph_id": "g:水",
+      "lang": "jp",
+      "name": "水",
+      "readings": [
+        "みず"
+      ],
+      "gloss": "water",
+      "extra": "漢字「水」(みず · スイ) · 偏旁「さんずい 氵」",
+      "appearsIn": {
+        "glyph": "氷",
+        "reading": "こおり",
+        "gloss": "ice"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Water",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:土@cn",
+      "glyph_id": "g:土",
+      "lang": "cn",
+      "name": "土",
+      "readings": [
+        "tǔ"
+      ],
+      "gloss": "earth; soil",
+      "extra": "横 + 竖 + 横 · 象形「土」· 康熙部首 32",
+      "appearsIn": {
+        "glyph": "地",
+        "reading": "dì",
+        "gloss": "ground; land"
+      }
+    },
+    {
+      "id": "b:土@jp",
+      "glyph_id": "g:土",
+      "lang": "jp",
+      "name": "土",
+      "readings": [
+        "つち"
+      ],
+      "gloss": "dirt; earth",
+      "extra": "漢字「土」(つち · ド · ト)",
+      "appearsIn": {
+        "glyph": "地",
+        "reading": "チ",
+        "gloss": "ground"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Dirt",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:刀@cn",
+      "glyph_id": "g:刀",
+      "lang": "cn",
+      "name": "刀",
+      "readings": [
+        "dāo"
+      ],
+      "gloss": "knife; blade",
+      "extra": "横折钩 + 撇 · 象形「刀」· 康熙部首 18 · 作偏旁作 刂",
+      "appearsIn": {
+        "glyph": "分",
+        "reading": "fēn",
+        "gloss": "to divide"
+      }
+    },
+    {
+      "id": "b:刀@jp",
+      "glyph_id": "g:刀",
+      "lang": "jp",
+      "name": "刀",
+      "readings": [
+        "かたな"
+      ],
+      "gloss": "sword; katana",
+      "extra": "漢字「刀」(かたな · トウ) · 偏旁「りっとう 刂」",
+      "appearsIn": {
+        "glyph": "分",
+        "reading": "わける",
+        "gloss": "to divide"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Sword",
+        "kind": "meaning",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:糸@cn",
+      "glyph_id": "g:糸",
+      "lang": "cn",
+      "name": "糸",
+      "readings": [
+        "mì"
+      ],
+      "gloss": "silk; thread",
+      "extra": "康熙部首 120 · 作偏旁写作 纟 (绞丝旁) · 幺 + 小"
+    },
+    {
+      "id": "b:糸@jp",
+      "glyph_id": "g:糸",
+      "lang": "jp",
+      "name": "糸",
+      "readings": [
+        "いと"
+      ],
+      "gloss": "thread",
+      "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
+    },
+    {
+      "id": "b:白@cn",
+      "glyph_id": "g:白",
+      "lang": "cn",
+      "name": "白",
+      "readings": [
+        "bái"
+      ],
+      "gloss": "white",
+      "extra": "撇 + 日 · 象形「白」· 康熙部首 106"
+    },
+    {
+      "id": "b:白@jp",
+      "glyph_id": "g:白",
+      "lang": "jp",
+      "name": "白",
+      "readings": [
+        "しろ"
+      ],
+      "gloss": "white",
+      "extra": "漢字「白」(しろ · ハク · ビャク)"
+    },
+    {
+      "id": "b:泉@cn",
+      "glyph_id": "g:泉",
+      "lang": "cn",
+      "name": "泉",
+      "readings": [
+        "quán"
+      ],
+      "gloss": "spring; fountain",
+      "extra": "会意 · 白 + 水 ·「泉水」从山石中流出"
+    },
+    {
+      "id": "b:泉@jp",
+      "glyph_id": "g:泉",
+      "lang": "jp",
+      "name": "泉",
+      "readings": [
+        "いずみ"
+      ],
+      "gloss": "spring; fountain",
+      "extra": "漢字「泉」(いずみ · セン) · 白 + 水"
+    },
+    {
+      "id": "b:線@cn",
+      "glyph_id": "g:線",
+      "lang": "cn",
+      "name": "線",
+      "readings": [
+        "xiàn"
+      ],
+      "gloss": "line; thread; wire",
+      "extra": "糸 + 泉 · 简体作「线」(纟 + 戋，右部不同)"
+    },
+    {
+      "id": "b:線@jp",
+      "glyph_id": "g:線",
+      "lang": "jp",
+      "name": "線",
+      "readings": [
+        "セン"
+      ],
+      "gloss": "line",
+      "extra": "漢字「線」(セン) · 糸 + 泉 · 水が 泉 として内に潜む"
+    },
+    {
       "id": "b:㇐@cn",
       "glyph_id": "g:㇐",
       "lang": "cn",

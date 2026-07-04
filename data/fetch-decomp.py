@@ -31,6 +31,10 @@ IDC = set(range(0x2FF0, 0x2FFC))  # ideographic description chars ⿰ ⿱ … �
 # strokes 横折钩 (㇆) and 撇点 (㇛) are now carded (strokes.json), lifted from
 # 力 / 女 — so 力/勹/女 resolve to real stroke nodes rather than losing a stroke
 # to MMAH's '？'. ト follows its 卜 origin: 丨 (竖) + 丶 (点).
+#
+# Also hand-fix two more MMAH quirks: 白 arrives as ⿻？日 (its top stroke is
+# below MMAH's floor) → 丿 + 日; and 線 arrives as ⿰糹泉 with the radical-variant
+# codepoint 糹 (U+7CF9) → fold to the standalone thread char 糸 (U+7CF8) we card.
 STROKE_OVERRIDE = {
     "八": ["丿", "㇏"],
     "人": ["丿", "㇏"],
@@ -40,6 +44,8 @@ STROKE_OVERRIDE = {
     "勹": ["丿", "㇆"],
     "女": ["㇛", "丿", "一"],
     "ト": ["丨", "丶"],
+    "白": ["丿", "日"],
+    "線": ["糸", "泉"],
 }
 
 

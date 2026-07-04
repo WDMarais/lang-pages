@@ -447,6 +447,124 @@
           },
           "wk": { "name": "Below", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Below", "readings": ["カ", "ゲ"], "on": true, "level": 1 }
+        },
+        {
+          "glyph": "水",
+          "slug": "shui",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "水", "reading": "shuǐ", "gloss": "water",
+            "extra": "象形「水流」· 康熙部首 85 · 作偏旁写作 氵",
+            "appearsIn": { "char": "冰", "reading": "bīng", "gloss": "ice" }
+          },
+          "jp": {
+            "name": "水", "reading": "みず", "gloss": "water",
+            "extra": "漢字「水」(みず · スイ) · 偏旁「さんずい 氵」",
+            "appearsIn": { "char": "氷", "reading": "こおり", "gloss": "ice" }
+          },
+          "wk": { "name": "Water", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "土",
+          "slug": "tu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "土", "reading": "tǔ", "gloss": "earth; soil",
+            "extra": "横 + 竖 + 横 · 象形「土」· 康熙部首 32",
+            "appearsIn": { "char": "地", "reading": "dì", "gloss": "ground; land" }
+          },
+          "jp": {
+            "name": "土", "reading": "つち", "gloss": "dirt; earth",
+            "extra": "漢字「土」(つち · ド · ト)",
+            "appearsIn": { "char": "地", "reading": "チ", "gloss": "ground" }
+          },
+          "wk": { "name": "Dirt", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "刀",
+          "slug": "dao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "刀", "reading": "dāo", "gloss": "knife; blade",
+            "extra": "横折钩 + 撇 · 象形「刀」· 康熙部首 18 · 作偏旁作 刂",
+            "appearsIn": { "char": "分", "reading": "fēn", "gloss": "to divide" }
+          },
+          "jp": {
+            "name": "刀", "reading": "かたな", "gloss": "sword; katana",
+            "extra": "漢字「刀」(かたな · トウ) · 偏旁「りっとう 刂」",
+            "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
+          },
+          "wk": { "name": "Sword", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "糸",
+          "slug": "si",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "糸", "reading": "mì", "gloss": "silk; thread",
+            "extra": "康熙部首 120 · 作偏旁写作 纟 (绞丝旁) · 幺 + 小"
+          },
+          "jp": {
+            "name": "糸", "reading": "いと", "gloss": "thread",
+            "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
+          },
+          "wk": null
+        },
+        {
+          "glyph": "白",
+          "slug": "bai",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "白", "reading": "bái", "gloss": "white",
+            "extra": "撇 + 日 · 象形「白」· 康熙部首 106"
+          },
+          "jp": {
+            "name": "白", "reading": "しろ", "gloss": "white",
+            "extra": "漢字「白」(しろ · ハク · ビャク)"
+          },
+          "wk": null
+        },
+        {
+          "glyph": "泉",
+          "slug": "quan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "泉", "reading": "quán", "gloss": "spring; fountain",
+            "extra": "会意 · 白 + 水 ·「泉水」从山石中流出"
+          },
+          "jp": {
+            "name": "泉", "reading": "いずみ", "gloss": "spring; fountain",
+            "extra": "漢字「泉」(いずみ · セン) · 白 + 水"
+          },
+          "wk": null
+        },
+        {
+          "glyph": "線",
+          "slug": "xian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "線", "reading": "xiàn", "gloss": "line; thread; wire",
+            "extra": "糸 + 泉 · 简体作「线」(纟 + 戋，右部不同)"
+          },
+          "jp": {
+            "name": "線", "reading": "セン", "gloss": "line",
+            "extra": "漢字「線」(セン) · 糸 + 泉 · 水が 泉 として内に潜む"
+          },
+          "wk": null
         }
       ]
     }
