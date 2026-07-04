@@ -1776,6 +1776,117 @@
       }
     },
     {
+      "id": "b:丸@cn",
+      "glyph_id": "g:丸",
+      "lang": "cn",
+      "name": "丸",
+      "readings": [
+        "wán"
+      ],
+      "gloss": "ball; pellet; pill",
+      "extra": "九 + 丶 · 药丸、弹丸、丸子"
+    },
+    {
+      "id": "b:丸@jp",
+      "glyph_id": "g:丸",
+      "lang": "jp",
+      "name": "丸",
+      "readings": [
+        "まる"
+      ],
+      "gloss": "circle; round",
+      "extra": "漢字「丸」(まる · ガン) · 丸い",
+      "program": {
+        "source": "wanikani",
+        "name": "Circle",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Circle",
+          "readings": [
+            "ガン"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "まる"
+          ]
+        }
+      }
+    },
+    {
+      "id": "b:丁@cn",
+      "glyph_id": "g:丁",
+      "lang": "cn",
+      "name": "丁",
+      "readings": [
+        "dīng"
+      ],
+      "gloss": "4th; nail; adult male",
+      "extra": "天干第四 · 园丁、丁目 · WK 记作 Street",
+      "appearsIn": {
+        "glyph": "打",
+        "reading": "dǎ",
+        "gloss": "to hit"
+      }
+    },
+    {
+      "id": "b:丁@jp",
+      "glyph_id": "g:丁",
+      "lang": "jp",
+      "name": "丁",
+      "readings": [
+        "チョウ"
+      ],
+      "gloss": "block; counter; leaf",
+      "extra": "漢字「丁」(チョウ · テイ) · 丁目 (street block)",
+      "appearsIn": {
+        "glyph": "打",
+        "reading": "うつ",
+        "gloss": "to hit"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Street",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:ナ@cn",
+      "glyph_id": "g:ナ",
+      "lang": "cn",
+      "name": "𠂇",
+      "readings": [],
+      "gloss": "left-hand component (ナ-shape)",
+      "extra": "见于 友 右 有 的上部 · 形如片假名 ナ · 无独立汉字",
+      "appearsIn": {
+        "glyph": "友",
+        "reading": "yǒu",
+        "gloss": "friend"
+      }
+    },
+    {
+      "id": "b:ナ@jp",
+      "glyph_id": "g:ナ",
+      "lang": "jp",
+      "name": "ナ",
+      "readings": [],
+      "gloss": "katakana \"na\" shape",
+      "extra": "片假名「ナ」· WK「Narwhal」· 友/右/有 の上部",
+      "appearsIn": {
+        "glyph": "友",
+        "reading": "とも",
+        "gloss": "friend"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Narwhal",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
       "id": "b:㇐@cn",
       "glyph_id": "g:㇐",
       "lang": "cn",

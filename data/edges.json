@@ -391,6 +391,31 @@
       "kind": "composes"
     },
     {
+      "from": "g:丸",
+      "to": "r:ball",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:丁",
+      "to": "r:4th",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:丁",
+      "to": "g:打",
+      "kind": "composes"
+    },
+    {
+      "from": "g:ナ",
+      "to": "r:left-hand-component",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:ナ",
+      "to": "g:友",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"
@@ -726,11 +751,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:丁",
-      "to": "g:打",
-      "kind": "composes"
-    },
-    {
       "from": "g:口",
       "to": "g:日",
       "kind": "composes"
@@ -963,6 +983,21 @@
     {
       "from": "w:九つ",
       "to": "r:nine",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:三",
+      "to": "w:三人",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:三人",
+      "kind": "composes"
+    },
+    {
+      "from": "w:三人",
+      "to": "r:three-people",
       "kind": "denotes"
     }
   ]

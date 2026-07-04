@@ -316,13 +316,6 @@
       "label": "nine"
     },
     {
-      "id": "g:丸",
-      "kind": "glyph",
-      "glyph": "丸",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:十",
       "kind": "glyph",
       "glyph": "十",
@@ -966,6 +959,71 @@
       "frontier": true
     },
     {
+      "id": "g:丸",
+      "kind": "glyph",
+      "glyph": "丸",
+      "tier": "char",
+      "slug": "wan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ball",
+      "kind": "referent",
+      "label": "ball; pellet; pill"
+    },
+    {
+      "id": "g:丁",
+      "kind": "glyph",
+      "glyph": "丁",
+      "tier": "char",
+      "slug": "ding",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:4th",
+      "kind": "referent",
+      "label": "4th; nail; adult male"
+    },
+    {
+      "id": "g:打",
+      "kind": "glyph",
+      "glyph": "打",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:ナ",
+      "kind": "glyph",
+      "glyph": "ナ",
+      "tier": "component",
+      "slug": "na",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:left-hand-component",
+      "kind": "referent",
+      "label": "left-hand component (ナ-shape)"
+    },
+    {
+      "id": "g:友",
+      "kind": "glyph",
+      "glyph": "友",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",
@@ -1073,13 +1131,6 @@
       "id": "r:rising-stroke",
       "kind": "referent",
       "label": "rising stroke"
-    },
-    {
-      "id": "g:打",
-      "kind": "glyph",
-      "glyph": "打",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:乛",
@@ -1269,13 +1320,6 @@
       "frontier": true
     },
     {
-      "id": "g:丁",
-      "kind": "glyph",
-      "glyph": "丁",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:月",
       "kind": "glyph",
       "glyph": "月",
@@ -1454,6 +1498,26 @@
         "kind": "vocab",
         "level": 1
       }
+    },
+    {
+      "id": "w:三人",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "三人",
+      "slug": "sannin",
+      "reading": "さんにん",
+      "gloss": "three people",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:three-people",
+      "kind": "referent",
+      "label": "three people"
     }
   ]
 }

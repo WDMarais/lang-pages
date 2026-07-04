@@ -96,6 +96,16 @@
       "gloss": "nine things",
       "okurigana": "つ",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "三人",
+      "slug": "sannin",
+      "audience": "jp",
+      "parts": ["三", "人"],
+      "denotes": "three-people",
+      "reading": "さんにん",
+      "gloss": "three people",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }
