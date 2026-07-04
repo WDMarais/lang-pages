@@ -1318,7 +1318,8 @@
         "source": "pandanese",
         "name": "TV",
         "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "icon": "tv"
       }
     },
     {

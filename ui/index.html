@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>UI · cn-pages</title>
 <link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
 <link rel="stylesheet" href="demo.css">
 </head>
 <body>
@@ -37,6 +38,12 @@
       <div class="swatch" style="background:var(--ink)"><span class="en">ink</span><span class="zh-alt">墨</span><span class="swatch-var">(.ink)</span></div>
       <div class="swatch light" style="background:var(--white)"><span class="en">white</span><span class="zh-alt">白</span><span class="swatch-var">(.white)</span></div>
     </div>
+  </div>
+
+  <!-- Mnemonic icons -->
+  <div class="demo-section">
+    <div class="demo-label"><span class="en">Mnemonic line-icons — ICONS map (shared/cards3.js)</span><span class="zh-alt">助记线条图标 — ICONS</span></div>
+    <div class="icon-grid" id="iconGrid"></div>
   </div>
 
   <!-- Section heading -->
@@ -143,5 +150,14 @@
 </footer>
 
 <script src="../shared/base.js"></script>
+<script src="../shared/cards3.js"></script>
+<script>
+  // Render every mnemonic icon straight from the production ICONS map, so this
+  // gallery can never drift from the icons the cards actually use.
+  const iconGrid = document.getElementById('iconGrid');
+  for (const name of Object.keys(ICONS))
+    iconGrid.insertAdjacentHTML('beforeend',
+      `<div class="icon-tile">${mnemonic(name)}<span class="icon-name">${name}</span></div>`);
+</script>
 </body>
 </html>

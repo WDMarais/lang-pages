@@ -602,7 +602,7 @@
             "extra": "漢字「向」(む-く · コウ)"
           },
           "wk": null,
-          "pd": { "name": "TV", "level": 1, "kind": "mnemonic" }
+          "pd": { "name": "TV", "level": 1, "kind": "mnemonic", "icon": "tv" }
         }
       ]
     }

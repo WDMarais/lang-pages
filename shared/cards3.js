@@ -28,6 +28,7 @@ const ICONS = {
   cross:  '<path d="M16 7 H24 V16 H33 V24 H24 V33 H16 V24 H7 V16 H16 Z"/>',
   gun:    '<path d="M7 13 H32 V19 H21 L18 31 H12 L15 19 H7 Z"/><path d="M16 19 q2 4 5 1"/><path d="M26 13 V10 H30 V13"/>',
   toe:    '<ellipse cx="18" cy="27" rx="8" ry="5"/><circle cx="13" cy="15" r="3"/><circle cx="20" cy="12" r="2.6"/><circle cx="26" cy="15" r="2.1"/>',
+  tv:     '<path d="M6 15 H30 V31 H6 Z"/><path d="M10 19 H26 V28 H10 Z"/><path d="M14 15 L9 6"/><path d="M22 15 L27 6"/><path d="M13 31 v3"/><path d="M23 31 v3"/>',
 };
 function mnemonic(name) {
   return html`<svg class="sc-mnemonic" viewBox="0 0 40 40" aria-hidden="true">${raw(ICONS[name] || '')}</svg>`;

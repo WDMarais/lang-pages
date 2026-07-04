@@ -97,7 +97,7 @@
 .wk-meaning .sc-lvl, .pd-meaning .sc-lvl { color: var(--green); font-weight: 700; }
 
 .sc-mnemonic { width: 48px; height: 48px; display: block; margin: 0.1rem 0 0.45rem; }
-.sc-mnemonic path, .sc-mnemonic circle { fill: none; stroke: #b0535d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.sc-mnemonic path, .sc-mnemonic circle, .sc-mnemonic ellipse { fill: none; stroke: #b0535d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .sc-check { font-size: 1.9rem; line-height: 1; color: var(--green); margin: 0.1rem 0 0.35rem; }
 .sc-only { margin-top: 0.4rem; font-size: 0.6rem; letter-spacing: 0.18em; color: var(--red); font-weight: 600; opacity: 0.85; }
 .sc-only.sc-true { color: var(--green); }
