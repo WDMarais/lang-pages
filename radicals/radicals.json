@@ -440,7 +440,7 @@
             "extra": "漢字「上」(うえ · ジョウ)"
           },
           "wk": { "name": "Above", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Above", "readings": ["ジョウ"], "on": true, "level": 1 }
+          "kanji": { "name": "Above", "readings": ["ジョウ"], "on": true, "kun": ["うえ"], "level": 1 }
         },
         {
           "glyph": "下",
@@ -630,7 +630,7 @@
             "extra": "部首「ひとあし / にんにょう」·「人」の下部形",
             "appearsIn": { "char": "元", "reading": "ゲン", "gloss": "origin" }
           },
-          "wk": null,
+          "wk": { "name": "Legs", "level": 1, "kind": "mnemonic" },
           "pd": { "name": "legs", "level": 1, "kind": "mnemonic" }
         },
         {
@@ -869,6 +869,43 @@
             "appearsIn": { "char": "友", "reading": "とも", "gloss": "friend" }
           },
           "wk": { "name": "Narwhal", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "才",
+          "slug": "cai",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "才", "reading": "cái", "gloss": "talent; ability; just now",
+            "extra": "才能、天才、刚才 · 象形",
+            "appearsIn": { "char": "材", "reading": "cái", "gloss": "material; timber" }
+          },
+          "jp": {
+            "name": "才", "reading": "サイ", "gloss": "talent; genius; years old",
+            "extra": "漢字「才」(サイ) · 才能 · 「歳」の代用",
+            "appearsIn": { "char": "材", "reading": "ザイ", "gloss": "material" }
+          },
+          "wk": { "name": "Talent", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 1 }
+        },
+        {
+          "glyph": "冂",
+          "slug": "jiong",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "冂", "reading": "jiōng", "gloss": "down-box (enclosure radical)",
+            "extra": "同字框 · 无独立字义 · 康熙部首 13",
+            "appearsIn": { "char": "内", "reading": "nèi", "gloss": "inside" }
+          },
+          "jp": {
+            "name": "けいがまえ", "reading": "", "gloss": "down-box enclosure",
+            "extra": "部首「けいがまえ / どうがまえ」· 囲む形",
+            "appearsIn": { "char": "内", "reading": "うち", "gloss": "inside" }
+          },
+          "wk": { "name": "Head", "level": 1, "kind": "mnemonic" }
         }
       ]
     }

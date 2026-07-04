@@ -106,6 +106,17 @@
       "reading": "さんにん",
       "gloss": "three people",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "上げる",
+      "slug": "ageru",
+      "audience": "jp",
+      "parts": ["上"],
+      "denotes": "raise",
+      "reading": "あげる",
+      "gloss": "to raise; lift up",
+      "okurigana": "げる",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

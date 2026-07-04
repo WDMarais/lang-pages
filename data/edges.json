@@ -416,6 +416,26 @@
       "kind": "composes"
     },
     {
+      "from": "g:才",
+      "to": "r:talent",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:才",
+      "to": "g:材",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "r:down-box",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:内",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"
@@ -998,6 +1018,16 @@
     {
       "from": "w:三人",
       "to": "r:three-people",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:上",
+      "to": "w:上げる",
+      "kind": "composes"
+    },
+    {
+      "from": "w:上げる",
+      "to": "r:raise",
       "kind": "denotes"
     }
   ]

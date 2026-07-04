@@ -1077,7 +1077,10 @@
             "ジョウ"
           ],
           "on": true,
-          "level": 1
+          "level": 1,
+          "kun": [
+            "うえ"
+          ]
         }
       }
     },
@@ -1427,6 +1430,12 @@
         "glyph": "元",
         "reading": "ゲン",
         "gloss": "origin"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Legs",
+        "kind": "mnemonic",
+        "level": 1
       }
     },
     {
@@ -1882,6 +1891,88 @@
       "program": {
         "source": "wanikani",
         "name": "Narwhal",
+        "kind": "mnemonic",
+        "level": 1
+      }
+    },
+    {
+      "id": "b:才@cn",
+      "glyph_id": "g:才",
+      "lang": "cn",
+      "name": "才",
+      "readings": [
+        "cái"
+      ],
+      "gloss": "talent; ability; just now",
+      "extra": "才能、天才、刚才 · 象形",
+      "appearsIn": {
+        "glyph": "材",
+        "reading": "cái",
+        "gloss": "material; timber"
+      }
+    },
+    {
+      "id": "b:才@jp",
+      "glyph_id": "g:才",
+      "lang": "jp",
+      "name": "才",
+      "readings": [
+        "サイ"
+      ],
+      "gloss": "talent; genius; years old",
+      "extra": "漢字「才」(サイ) · 才能 · 「歳」の代用",
+      "appearsIn": {
+        "glyph": "材",
+        "reading": "ザイ",
+        "gloss": "material"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Talent",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Talent",
+          "readings": [
+            "サイ"
+          ],
+          "on": true,
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:冂@cn",
+      "glyph_id": "g:冂",
+      "lang": "cn",
+      "name": "冂",
+      "readings": [
+        "jiōng"
+      ],
+      "gloss": "down-box (enclosure radical)",
+      "extra": "同字框 · 无独立字义 · 康熙部首 13",
+      "appearsIn": {
+        "glyph": "内",
+        "reading": "nèi",
+        "gloss": "inside"
+      }
+    },
+    {
+      "id": "b:冂@jp",
+      "glyph_id": "g:冂",
+      "lang": "jp",
+      "name": "けいがまえ",
+      "readings": [],
+      "gloss": "down-box enclosure",
+      "extra": "部首「けいがまえ / どうがまえ」· 囲む形",
+      "appearsIn": {
+        "glyph": "内",
+        "reading": "うち",
+        "gloss": "inside"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Head",
         "kind": "mnemonic",
         "level": 1
       }

@@ -1024,6 +1024,54 @@
       "frontier": true
     },
     {
+      "id": "g:才",
+      "kind": "glyph",
+      "glyph": "才",
+      "tier": "char",
+      "slug": "cai",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:talent",
+      "kind": "referent",
+      "label": "talent; ability; just now"
+    },
+    {
+      "id": "g:材",
+      "kind": "glyph",
+      "glyph": "材",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:冂",
+      "kind": "glyph",
+      "glyph": "冂",
+      "tier": "component",
+      "slug": "jiong",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:down-box",
+      "kind": "referent",
+      "label": "down-box (enclosure radical)"
+    },
+    {
+      "id": "g:内",
+      "kind": "glyph",
+      "glyph": "内",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",
@@ -1260,13 +1308,6 @@
       "id": "g:干",
       "kind": "glyph",
       "glyph": "干",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:冂",
-      "kind": "glyph",
-      "glyph": "冂",
       "tier": null,
       "frontier": true
     },
@@ -1518,6 +1559,27 @@
       "id": "r:three-people",
       "kind": "referent",
       "label": "three people"
+    },
+    {
+      "id": "w:上げる",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "上げる",
+      "slug": "ageru",
+      "reading": "あげる",
+      "gloss": "to raise; lift up",
+      "okurigana": "げる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:raise",
+      "kind": "referent",
+      "label": "to raise; lift up"
     }
   ]
 }
