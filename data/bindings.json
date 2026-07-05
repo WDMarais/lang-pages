@@ -1261,7 +1261,20 @@
         "source": "wanikani",
         "name": "Sun",
         "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kanji": {
+          "name": "Sun",
+          "readings": [
+            "ニチ",
+            "ジツ"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "ひ",
+            "か"
+          ]
+        }
       }
     },
     {
@@ -1513,6 +1526,55 @@
       }
     },
     {
+      "id": "b:弓@cn",
+      "glyph_id": "g:弓",
+      "lang": "cn",
+      "name": "弓",
+      "readings": [
+        "gōng"
+      ],
+      "gloss": "bow",
+      "extra": "康熙部首 57 · 弓箭 · 象形",
+      "appearsIn": {
+        "glyph": "引",
+        "reading": "yǐn",
+        "gloss": "to pull; draw"
+      }
+    },
+    {
+      "id": "b:弓@jp",
+      "glyph_id": "g:弓",
+      "lang": "jp",
+      "name": "弓",
+      "readings": [
+        "ゆみ"
+      ],
+      "gloss": "bow",
+      "extra": "漢字「弓」(ゆみ · キュウ) · 弓道",
+      "appearsIn": {
+        "glyph": "引",
+        "reading": "ひく",
+        "gloss": "to pull"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Bow",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Bow",
+          "readings": [
+            "キュウ"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "ゆみ"
+          ]
+        }
+      }
+    },
+    {
       "id": "b:糸@cn",
       "glyph_id": "g:糸",
       "lang": "cn",
@@ -1743,6 +1805,42 @@
         "glyph": "原",
         "reading": "ゲン",
         "gloss": "origin"
+      }
+    },
+    {
+      "id": "b:尸@cn",
+      "glyph_id": "g:尸",
+      "lang": "cn",
+      "name": "尸",
+      "readings": [
+        "shī"
+      ],
+      "gloss": "corpse (尸 radical)",
+      "extra": "康熙部首 44 · 尸部 · 象形（人卧）· 作偏旁",
+      "appearsIn": {
+        "glyph": "屋",
+        "reading": "wū",
+        "gloss": "house; room"
+      }
+    },
+    {
+      "id": "b:尸@jp",
+      "glyph_id": "g:尸",
+      "lang": "jp",
+      "name": "尸",
+      "readings": [],
+      "gloss": "flag shape (radical)",
+      "extra": "部首「尸」· WK「Flag」· 「屍」の偏旁",
+      "appearsIn": {
+        "glyph": "屋",
+        "reading": "や",
+        "gloss": "shop; roof"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Flag",
+        "kind": "mnemonic",
+        "level": 1
       }
     },
     {

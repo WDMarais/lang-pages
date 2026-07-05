@@ -481,6 +481,7 @@
             "appearsIn": { "char": "明", "reading": "あかるい", "gloss": "bright" }
           },
           "wk": { "name": "Sun", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Sun", "readings": ["ニチ", "ジツ"], "on": true, "kun": ["ひ", "か"], "level": 1 },
           "pd": { "name": "sun", "level": 1, "kind": "meaning" }
         },
         {
@@ -592,6 +593,25 @@
           "wk": { "name": "Sword", "level": 1, "kind": "meaning" }
         },
         {
+          "glyph": "弓",
+          "slug": "gongbow",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "弓", "reading": "gōng", "gloss": "bow",
+            "extra": "康熙部首 57 · 弓箭 · 象形",
+            "appearsIn": { "char": "引", "reading": "yǐn", "gloss": "to pull; draw" }
+          },
+          "jp": {
+            "name": "弓", "reading": "ゆみ", "gloss": "bow",
+            "extra": "漢字「弓」(ゆみ · キュウ) · 弓道",
+            "appearsIn": { "char": "引", "reading": "ひく", "gloss": "to pull" }
+          },
+          "wk": { "name": "Bow", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Bow", "readings": ["キュウ"], "on": true, "kun": ["ゆみ"], "level": 1 }
+        },
+        {
           "glyph": "糸",
           "slug": "si",
           "tag": "char",
@@ -696,6 +716,24 @@
           },
           "wk": null,
           "pd": { "name": "cliff", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "尸",
+          "slug": "shi1",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "尸", "reading": "shī", "gloss": "corpse (尸 radical)",
+            "extra": "康熙部首 44 · 尸部 · 象形（人卧）· 作偏旁",
+            "appearsIn": { "char": "屋", "reading": "wū", "gloss": "house; room" }
+          },
+          "jp": {
+            "name": "尸", "reading": "", "gloss": "flag shape (radical)",
+            "extra": "部首「尸」· WK「Flag」· 「屍」の偏旁",
+            "appearsIn": { "char": "屋", "reading": "や", "gloss": "shop; roof" }
+          },
+          "wk": { "name": "Flag", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "先",

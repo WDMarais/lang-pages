@@ -139,6 +139,27 @@
       "gloss": "please (give me)",
       "okurigana": "さい",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "入り口",
+      "slug": "iriguchi",
+      "audience": "jp",
+      "parts": ["入", "口"],
+      "denotes": "entrance",
+      "reading": "いりぐち",
+      "gloss": "entrance; entryway",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "大きい",
+      "slug": "ookii",
+      "audience": "jp",
+      "parts": ["大"],
+      "denotes": "big",
+      "reading": "おおきい",
+      "gloss": "big; large",
+      "okurigana": "きい",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

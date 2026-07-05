@@ -737,6 +737,30 @@
       "label": "knife; blade"
     },
     {
+      "id": "g:弓",
+      "kind": "glyph",
+      "glyph": "弓",
+      "tier": "char",
+      "slug": "gongbow",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bow",
+      "kind": "referent",
+      "label": "bow"
+    },
+    {
+      "id": "g:引",
+      "kind": "glyph",
+      "glyph": "引",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:糸",
       "kind": "glyph",
       "glyph": "糸",
@@ -883,6 +907,30 @@
       "id": "g:原",
       "kind": "glyph",
       "glyph": "原",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:尸",
+      "kind": "glyph",
+      "glyph": "尸",
+      "tier": "component",
+      "slug": "shi1",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:corpse",
+      "kind": "referent",
+      "label": "corpse (尸 radical)"
+    },
+    {
+      "id": "g:屋",
+      "kind": "glyph",
+      "glyph": "屋",
       "tier": null,
       "frontier": true
     },
@@ -1724,6 +1772,42 @@
       "id": "r:please-give",
       "kind": "referent",
       "label": "please (give me)"
+    },
+    {
+      "id": "w:入り口",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "入り口",
+      "slug": "iriguchi",
+      "reading": "いりぐち",
+      "gloss": "entrance; entryway",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:entrance",
+      "kind": "referent",
+      "label": "entrance; entryway"
+    },
+    {
+      "id": "w:大きい",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "大きい",
+      "slug": "ookii",
+      "reading": "おおきい",
+      "gloss": "big; large",
+      "okurigana": "きい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     }
   ]
 }

@@ -316,6 +316,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:弓",
+      "to": "r:bow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:弓",
+      "to": "g:引",
+      "kind": "composes"
+    },
+    {
       "from": "g:糸",
       "to": "r:silk",
       "kind": "denotes"
@@ -368,6 +378,16 @@
     {
       "from": "g:厂",
       "to": "g:原",
+      "kind": "composes"
+    },
+    {
+      "from": "g:尸",
+      "to": "r:corpse",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:尸",
+      "to": "g:屋",
       "kind": "composes"
     },
     {
@@ -1098,6 +1118,31 @@
     {
       "from": "w:下さい",
       "to": "r:please-give",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:入",
+      "to": "w:入り口",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "w:入り口",
+      "kind": "composes"
+    },
+    {
+      "from": "w:入り口",
+      "to": "r:entrance",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大きい",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大きい",
+      "to": "r:big",
       "kind": "denotes"
     }
   ]

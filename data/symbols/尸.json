@@ -1,0 +1,45 @@
+{
+  "glyph": "尸",
+  "cp": "U+5C38",
+  "slug": "shi1",
+  "class": "comp",
+  "kangxi": 44,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "尸",
+      "reading": "shī",
+      "gloss": "corpse (尸 radical)",
+      "extra": "康熙部首 44 · 尸部 · 象形（人卧）· 作偏旁",
+      "appearsIn": {
+        "char": "屋",
+        "reading": "wū",
+        "gloss": "house; room"
+      }
+    },
+    "jp": {
+      "name": "尸",
+      "reading": "",
+      "gloss": "flag shape (radical)",
+      "extra": "部首「尸」· WK「Flag」· 「屍」の偏旁",
+      "appearsIn": {
+        "char": "屋",
+        "reading": "や",
+        "gloss": "shop; roof"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Flag",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

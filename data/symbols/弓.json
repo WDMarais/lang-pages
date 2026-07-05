@@ -1,0 +1,59 @@
+{
+  "glyph": "弓",
+  "cp": "U+5F13",
+  "slug": "gongbow",
+  "class": "char",
+  "kangxi": 57,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "弓",
+      "reading": "gōng",
+      "gloss": "bow",
+      "extra": "康熙部首 57 · 弓箭 · 象形",
+      "appearsIn": {
+        "char": "引",
+        "reading": "yǐn",
+        "gloss": "to pull; draw"
+      }
+    },
+    "jp": {
+      "name": "弓",
+      "reading": "ゆみ",
+      "gloss": "bow",
+      "extra": "漢字「弓」(ゆみ · キュウ) · 弓道",
+      "appearsIn": {
+        "char": "引",
+        "reading": "ひく",
+        "gloss": "to pull"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Bow",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Bow",
+      "readings": [
+        "キュウ"
+      ],
+      "on": true,
+      "kun": [
+        "ゆみ"
+      ],
+      "level": 1
+    }
+  ]
+}

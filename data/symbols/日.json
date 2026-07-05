@@ -46,6 +46,22 @@
       "level": 1
     },
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Sun",
+      "readings": [
+        "ニチ",
+        "ジツ"
+      ],
+      "on": true,
+      "kun": [
+        "ひ",
+        "か"
+      ],
+      "level": 1
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",
