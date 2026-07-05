@@ -1,0 +1,61 @@
+{
+  "glyph": "十",
+  "cp": "U+5341",
+  "slug": "shi",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "丨"
+  ],
+  "readings": {
+    "cn": {
+      "name": "十",
+      "reading": "shí",
+      "gloss": "ten",
+      "extra": "横 + 竖 · 数字「十」· 康熙部首 24",
+      "appearsIn": {
+        "char": "古",
+        "reading": "gǔ",
+        "gloss": "ancient"
+      }
+    },
+    "jp": {
+      "name": "十",
+      "reading": "ジュウ",
+      "gloss": "ten",
+      "extra": "漢字「十」(とお · ジュウ)",
+      "appearsIn": {
+        "char": "古",
+        "reading": "ふるい",
+        "gloss": "old"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Cross",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "cross"
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Ten",
+      "readings": [
+        "ジュウ"
+      ],
+      "on": true,
+      "level": 1
+    }
+  ]
+}

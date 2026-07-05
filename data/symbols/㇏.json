@@ -1,0 +1,36 @@
+{
+  "glyph": "㇏",
+  "cp": "U+31CF",
+  "slug": "na",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "捺",
+      "reading": "nà",
+      "gloss": "right-falling stroke",
+      "extra": "撇与捺常成对 (如 人、八)",
+      "appearsIn": {
+        "char": "八",
+        "reading": "bā",
+        "gloss": "eight"
+      }
+    },
+    "jp": {
+      "name": "右払い",
+      "reading": "みぎばらい",
+      "gloss": "right-sweeping stroke",
+      "extra": "払いの一種",
+      "appearsIn": {
+        "char": "八",
+        "reading": "ハチ",
+        "gloss": "eight"
+      }
+    }
+  },
+  "programs": []
+}

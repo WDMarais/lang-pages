@@ -1,0 +1,36 @@
+{
+  "glyph": "㇆",
+  "cp": "U+31C6",
+  "slug": "hengzhegou",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "横折钩",
+      "reading": "héngzhégōu",
+      "gloss": "horizontal-fold hook",
+      "extra": "先横后竖、末端带钩 (如 力、勹、刀)",
+      "appearsIn": {
+        "char": "力",
+        "reading": "lì",
+        "gloss": "power; strength"
+      }
+    },
+    "jp": {
+      "name": "横折れ鉤",
+      "reading": "おうせつこう",
+      "gloss": "horizontal-fold hook",
+      "extra": "横に折れて鉤ではねる一画",
+      "appearsIn": {
+        "char": "力",
+        "reading": "ちから",
+        "gloss": "power"
+      }
+    }
+  },
+  "programs": []
+}

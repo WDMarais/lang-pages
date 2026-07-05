@@ -1,0 +1,57 @@
+{
+  "glyph": "土",
+  "cp": "U+571F",
+  "slug": "tu",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "十",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "土",
+      "reading": "tǔ",
+      "gloss": "earth; soil",
+      "extra": "横 + 竖 + 横 · 象形「土」· 康熙部首 32",
+      "appearsIn": {
+        "char": "地",
+        "reading": "dì",
+        "gloss": "ground; land"
+      }
+    },
+    "jp": {
+      "name": "土",
+      "reading": "つち",
+      "gloss": "dirt; earth",
+      "extra": "漢字「土」(つち · ド · ト)",
+      "appearsIn": {
+        "char": "地",
+        "reading": "チ",
+        "gloss": "ground"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Dirt",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "earth",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

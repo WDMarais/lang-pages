@@ -1,0 +1,71 @@
+{
+  "glyph": "二",
+  "cp": "U+4E8C",
+  "slug": "er",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "二",
+      "reading": "èr",
+      "gloss": "two",
+      "extra": "两个 横 · 也是数字「二」",
+      "appearsIn": {
+        "char": "元",
+        "reading": "yuán",
+        "gloss": "first; origin"
+      }
+    },
+    "jp": {
+      "name": "二",
+      "reading": "ニ",
+      "gloss": "two",
+      "extra": "漢字「二」(ふた-つ)",
+      "appearsIn": {
+        "char": "元",
+        "reading": "ゲン",
+        "gloss": "origin"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Two",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Two",
+      "readings": [
+        "ニ"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "ふた"
+      ]
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "two",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

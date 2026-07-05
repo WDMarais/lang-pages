@@ -1,0 +1,50 @@
+{
+  "glyph": "ト",
+  "cp": "U+30C8",
+  "slug": "toe",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丨",
+    "丶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "卜",
+      "reading": "bǔ",
+      "gloss": "divination (卜)",
+      "extra": "形如片假名「ト」· 汉字作「卜」· 竖 + 点",
+      "appearsIn": {
+        "char": "外",
+        "reading": "wài",
+        "gloss": "outside"
+      }
+    },
+    "jp": {
+      "name": "ト",
+      "reading": "",
+      "gloss": "katakana \"to\" shape",
+      "extra": "片假名「ト」· 偏旁「卜」",
+      "appearsIn": {
+        "char": "外",
+        "reading": "そと",
+        "gloss": "outside"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Toe",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "toe"
+    }
+  ]
+}

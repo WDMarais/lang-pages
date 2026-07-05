@@ -1,0 +1,45 @@
+{
+  "glyph": "丨",
+  "cp": "U+4E28",
+  "slug": "shu",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "竖",
+      "reading": "shù",
+      "gloss": "vertical stroke",
+      "extra": "康熙部首 2「丨 gǔn」",
+      "appearsIn": {
+        "char": "十",
+        "reading": "shí",
+        "gloss": "ten"
+      }
+    },
+    "jp": {
+      "name": "縦画",
+      "reading": "たてかく",
+      "gloss": "vertical stroke",
+      "extra": "部首名「たてぼう」",
+      "appearsIn": {
+        "char": "十",
+        "reading": "ジュウ",
+        "gloss": "ten"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "line",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

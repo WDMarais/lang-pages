@@ -1,0 +1,73 @@
+{
+  "glyph": "八",
+  "cp": "U+516B",
+  "slug": "ba",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "㇏"
+  ],
+  "readings": {
+    "cn": {
+      "name": "八",
+      "reading": "bā",
+      "gloss": "eight",
+      "extra": "撇 + 捺 · 作部件叫「八字头」",
+      "appearsIn": {
+        "char": "分",
+        "reading": "fēn",
+        "gloss": "to divide"
+      }
+    },
+    "jp": {
+      "name": "八",
+      "reading": "ハチ",
+      "gloss": "eight",
+      "extra": "部首「八」(はちがしら)",
+      "appearsIn": {
+        "char": "分",
+        "reading": "わける",
+        "gloss": "to divide"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Fins",
+      "kind": "mnemonic",
+      "level": 1,
+      "altglyph": "ハ",
+      "icon": "fins"
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Eight",
+      "readings": [
+        "ハチ"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "や"
+      ]
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "eight",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

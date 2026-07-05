@@ -1,0 +1,45 @@
+{
+  "glyph": "冂",
+  "cp": "U+5182",
+  "slug": "jiong",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "冂",
+      "reading": "jiōng",
+      "gloss": "down-box (enclosure radical)",
+      "extra": "同字框 · 无独立字义 · 康熙部首 13",
+      "appearsIn": {
+        "char": "内",
+        "reading": "nèi",
+        "gloss": "inside"
+      }
+    },
+    "jp": {
+      "name": "けいがまえ",
+      "reading": "",
+      "gloss": "down-box enclosure",
+      "extra": "部首「けいがまえ / どうがまえ」· 囲む形",
+      "appearsIn": {
+        "char": "内",
+        "reading": "うち",
+        "gloss": "inside"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Head",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

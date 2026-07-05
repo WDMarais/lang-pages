@@ -1,0 +1,45 @@
+{
+  "glyph": "三",
+  "cp": "U+4E09",
+  "slug": "san",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "二"
+  ],
+  "readings": {
+    "cn": {
+      "name": "三",
+      "reading": "sān",
+      "gloss": "three",
+      "extra": "三横 · 一二三 同源，皆积横"
+    },
+    "jp": {
+      "name": "三",
+      "reading": "みっつ",
+      "gloss": "three",
+      "extra": "訓 み(っ)つ · 音 サン"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Three",
+      "readings": [
+        "サン"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "み"
+      ]
+    }
+  ]
+}

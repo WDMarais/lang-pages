@@ -1,0 +1,60 @@
+{
+  "glyph": "入",
+  "cp": "U+5165",
+  "slug": "ru",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "㇏"
+  ],
+  "readings": {
+    "cn": {
+      "name": "入",
+      "reading": "rù",
+      "gloss": "to enter",
+      "extra": "左撇短，捺在上方起笔 · 易与「人」混",
+      "appearsIn": {
+        "char": "全",
+        "reading": "quán",
+        "gloss": "whole"
+      }
+    },
+    "jp": {
+      "name": "入",
+      "reading": "はいる",
+      "gloss": "to enter",
+      "extra": "「入」は「人」と区別すること",
+      "appearsIn": {
+        "char": "全",
+        "reading": "ゼン",
+        "gloss": "whole; all"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Enter",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Enter",
+      "readings": [
+        "ニュウ"
+      ],
+      "on": true,
+      "level": 1
+    }
+  ]
+}

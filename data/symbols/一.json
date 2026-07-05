@@ -1,0 +1,69 @@
+{
+  "glyph": "一",
+  "cp": "U+4E00",
+  "slug": "yi",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "一",
+      "reading": "yī",
+      "gloss": "one",
+      "extra": "一横 · 最简单的汉字 · 也是笔画「横」",
+      "appearsIn": {
+        "char": "三",
+        "reading": "sān",
+        "gloss": "three"
+      }
+    },
+    "jp": {
+      "name": "一",
+      "reading": "いち",
+      "gloss": "one",
+      "extra": "漢字「一」(ひと-つ) · 一画の字",
+      "appearsIn": {
+        "char": "三",
+        "reading": "サン",
+        "gloss": "three"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Ground",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "ground"
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "One",
+      "readings": [
+        "イチ",
+        "イツ"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "ひと"
+      ]
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "one",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "glyph": "先",
+  "cp": "U+5148",
+  "slug": "xian1",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "先",
+      "reading": "xiān",
+      "gloss": "first; before; earlier",
+      "extra": "先后、先生 · 上部 𠂉/牛 + 下部 儿 · 潘达尼斯记作「战场 battleground」",
+      "appearsIn": {
+        "char": "洗",
+        "reading": "xǐ",
+        "gloss": "to wash"
+      }
+    },
+    "jp": {
+      "name": "先",
+      "reading": "さき",
+      "gloss": "ahead; previous; tip",
+      "extra": "漢字「先」(さき · セン)",
+      "appearsIn": {
+        "char": "洗",
+        "reading": "あらう",
+        "gloss": "to wash"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "battleground",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

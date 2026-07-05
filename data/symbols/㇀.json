@@ -1,0 +1,36 @@
+{
+  "glyph": "㇀",
+  "cp": "U+31C0",
+  "slug": "ti",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "提",
+      "reading": "tí",
+      "gloss": "rising stroke",
+      "extra": "向右上挑 (如 扌 的末笔)",
+      "appearsIn": {
+        "char": "打",
+        "reading": "dǎ",
+        "gloss": "to hit"
+      }
+    },
+    "jp": {
+      "name": "はね",
+      "reading": "はね",
+      "gloss": "upward flick",
+      "extra": "上向きの画・払い系",
+      "appearsIn": {
+        "char": "打",
+        "reading": "うつ",
+        "gloss": "to hit"
+      }
+    }
+  },
+  "programs": []
+}

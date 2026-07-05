@@ -1,0 +1,36 @@
+{
+  "glyph": "㇐",
+  "cp": "U+31D0",
+  "slug": "heng",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "横",
+      "reading": "héng",
+      "gloss": "horizontal stroke",
+      "extra": "写成汉字就是 一 (yī)「one」· 康熙部首 1",
+      "appearsIn": {
+        "char": "一",
+        "reading": "yī",
+        "gloss": "one"
+      }
+    },
+    "jp": {
+      "name": "横画",
+      "reading": "よこかく",
+      "gloss": "horizontal stroke",
+      "extra": "漢字「一」を成す一画",
+      "appearsIn": {
+        "char": "一",
+        "reading": "いち",
+        "gloss": "one"
+      }
+    }
+  },
+  "programs": []
+}

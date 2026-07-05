@@ -1,0 +1,30 @@
+{
+  "glyph": "白",
+  "cp": "U+767D",
+  "slug": "bai",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "日"
+  ],
+  "readings": {
+    "cn": {
+      "name": "白",
+      "reading": "bái",
+      "gloss": "white",
+      "extra": "撇 + 日 · 象形「白」· 康熙部首 106"
+    },
+    "jp": {
+      "name": "白",
+      "reading": "しろ",
+      "gloss": "white",
+      "extra": "漢字「白」(しろ · ハク · ビャク)"
+    }
+  },
+  "programs": []
+}

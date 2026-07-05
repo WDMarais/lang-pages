@@ -1,0 +1,30 @@
+{
+  "glyph": "泉",
+  "cp": "U+6CC9",
+  "slug": "quan",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "白",
+    "水"
+  ],
+  "readings": {
+    "cn": {
+      "name": "泉",
+      "reading": "quán",
+      "gloss": "spring; fountain",
+      "extra": "会意 · 白 + 水 ·「泉水」从山石中流出"
+    },
+    "jp": {
+      "name": "泉",
+      "reading": "いずみ",
+      "gloss": "spring; fountain",
+      "extra": "漢字「泉」(いずみ · セン) · 白 + 水"
+    }
+  },
+  "programs": []
+}

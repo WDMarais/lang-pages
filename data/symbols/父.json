@@ -1,0 +1,45 @@
+{
+  "glyph": "父",
+  "cp": "U+7236",
+  "slug": "fu",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "父",
+      "reading": "fù",
+      "gloss": "father",
+      "extra": "父亲、父母 · 康熙部首 88 · 象形「持斧之手」",
+      "appearsIn": {
+        "char": "斧",
+        "reading": "fǔ",
+        "gloss": "axe"
+      }
+    },
+    "jp": {
+      "name": "父",
+      "reading": "ちち",
+      "gloss": "father",
+      "extra": "漢字「父」(ちち · フ)",
+      "appearsIn": {
+        "char": "斧",
+        "reading": "おの",
+        "gloss": "axe"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "father",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "glyph": "㇛",
+  "cp": "U+31DB",
+  "slug": "piedian",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "撇点",
+      "reading": "piědiǎn",
+      "gloss": "left-fall then dot",
+      "extra": "撇后顺势接反捺 (女 的首笔)",
+      "appearsIn": {
+        "char": "女",
+        "reading": "nǚ",
+        "gloss": "woman"
+      }
+    },
+    "jp": {
+      "name": "撇点",
+      "reading": "へつてん",
+      "gloss": "sweep then dot",
+      "extra": "左払いから点へ続く一画 (女 の一画目)",
+      "appearsIn": {
+        "char": "女",
+        "reading": "おんな",
+        "gloss": "woman"
+      }
+    }
+  },
+  "programs": []
+}

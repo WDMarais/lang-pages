@@ -1,0 +1,53 @@
+{
+  "glyph": "儿",
+  "cp": "U+513F",
+  "slug": "legs",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "儿",
+      "reading": "ér",
+      "gloss": "legs (walking-person radical)",
+      "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光 · 繁: 兒",
+      "appearsIn": {
+        "char": "元",
+        "reading": "yuán",
+        "gloss": "first; origin"
+      }
+    },
+    "jp": {
+      "name": "ひとあし",
+      "reading": "",
+      "gloss": "legs (human-legs radical)",
+      "extra": "部首「ひとあし / にんにょう」·「人」の下部形",
+      "appearsIn": {
+        "char": "元",
+        "reading": "ゲン",
+        "gloss": "origin"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Legs",
+      "kind": "mnemonic",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "legs",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "glyph": "手",
+  "cp": "U+624B",
+  "slug": "shou",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "手",
+      "reading": "shǒu",
+      "gloss": "hand",
+      "extra": "象形「手」· 康熙部首 64 · 作偏旁作 扌",
+      "appearsIn": {
+        "char": "拳",
+        "reading": "quán",
+        "gloss": "fist"
+      }
+    },
+    "jp": {
+      "name": "手",
+      "reading": "て",
+      "gloss": "hand",
+      "extra": "漢字「手」(て · シュ) · 偏旁「てへん 扌」",
+      "appearsIn": {
+        "char": "拳",
+        "reading": "こぶし",
+        "gloss": "fist"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "hand",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

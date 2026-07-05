@@ -1,0 +1,45 @@
+{
+  "glyph": "厂",
+  "cp": "U+5382",
+  "slug": "han",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "厂",
+      "reading": "hàn",
+      "gloss": "cliff",
+      "extra": "康熙部首 27「厂 hàn」· 山崖形 · (今亦作「厂 chǎng」工厂)",
+      "appearsIn": {
+        "char": "原",
+        "reading": "yuán",
+        "gloss": "origin; plain"
+      }
+    },
+    "jp": {
+      "name": "がんだれ",
+      "reading": "",
+      "gloss": "cliff radical",
+      "extra": "部首「がんだれ」· 崖・屋根の形",
+      "appearsIn": {
+        "char": "原",
+        "reading": "ゲン",
+        "gloss": "origin"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "cliff",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

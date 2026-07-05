@@ -1,0 +1,51 @@
+{
+  "glyph": "下",
+  "cp": "U+4E0B",
+  "slug": "xia",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "卜"
+  ],
+  "readings": {
+    "cn": {
+      "name": "下",
+      "reading": "xià",
+      "gloss": "below; down; under",
+      "extra": "指事字 · 基准线下方加标记 · 与「上」相对"
+    },
+    "jp": {
+      "name": "下",
+      "reading": "した",
+      "gloss": "below; down",
+      "extra": "漢字「下」(した · カ · ゲ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Below",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Below",
+      "readings": [
+        "カ",
+        "ゲ"
+      ],
+      "on": true,
+      "level": 1
+    }
+  ]
+}

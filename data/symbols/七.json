@@ -1,0 +1,63 @@
+{
+  "glyph": "七",
+  "cp": "U+4E03",
+  "slug": "qi",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "乚"
+  ],
+  "readings": {
+    "cn": {
+      "name": "七",
+      "reading": "qī",
+      "gloss": "seven",
+      "extra": "横 + 竖弯钩 · 数字「七」",
+      "appearsIn": {
+        "char": "切",
+        "reading": "qiē",
+        "gloss": "to cut"
+      }
+    },
+    "jp": {
+      "name": "七",
+      "reading": "なな",
+      "gloss": "seven",
+      "extra": "漢字「七」(なな · シチ)",
+      "appearsIn": {
+        "char": "切",
+        "reading": "きる",
+        "gloss": "to cut"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Seven",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Seven",
+      "readings": [
+        "シチ"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "なな"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "glyph": "水",
+  "cp": "U+6C34",
+  "slug": "shui",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "亅"
+  ],
+  "readings": {
+    "cn": {
+      "name": "水",
+      "reading": "shuǐ",
+      "gloss": "water",
+      "extra": "象形「水流」· 康熙部首 85 · 作偏旁写作 氵",
+      "appearsIn": {
+        "char": "冰",
+        "reading": "bīng",
+        "gloss": "ice"
+      }
+    },
+    "jp": {
+      "name": "水",
+      "reading": "みず",
+      "gloss": "water",
+      "extra": "漢字「水」(みず · スイ) · 偏旁「さんずい 氵」",
+      "appearsIn": {
+        "char": "氷",
+        "reading": "こおり",
+        "gloss": "ice"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Water",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

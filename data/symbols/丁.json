@@ -1,0 +1,45 @@
+{
+  "glyph": "丁",
+  "cp": "U+4E01",
+  "slug": "ding",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "丁",
+      "reading": "dīng",
+      "gloss": "4th; nail; adult male",
+      "extra": "天干第四 · 园丁、丁目 · WK 记作 Street",
+      "appearsIn": {
+        "char": "打",
+        "reading": "dǎ",
+        "gloss": "to hit"
+      }
+    },
+    "jp": {
+      "name": "丁",
+      "reading": "チョウ",
+      "gloss": "block; counter; leaf",
+      "extra": "漢字「丁」(チョウ · テイ) · 丁目 (street block)",
+      "appearsIn": {
+        "char": "打",
+        "reading": "うつ",
+        "gloss": "to hit"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Street",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

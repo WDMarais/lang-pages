@@ -1,0 +1,45 @@
+{
+  "glyph": "ナ",
+  "cp": "U+30CA",
+  "slug": "na",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "𠂇",
+      "reading": "",
+      "gloss": "left-hand component (ナ-shape)",
+      "extra": "见于 友 右 有 的上部 · 形如片假名 ナ · 无独立汉字",
+      "appearsIn": {
+        "char": "友",
+        "reading": "yǒu",
+        "gloss": "friend"
+      }
+    },
+    "jp": {
+      "name": "ナ",
+      "reading": "",
+      "gloss": "katakana \"na\" shape",
+      "extra": "片假名「ナ」· WK「Narwhal」· 友/右/有 の上部",
+      "appearsIn": {
+        "char": "友",
+        "reading": "とも",
+        "gloss": "friend"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Narwhal",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

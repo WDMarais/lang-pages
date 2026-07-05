@@ -1,0 +1,30 @@
+{
+  "glyph": "糸",
+  "cp": "U+7CF8",
+  "slug": "si",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "幺",
+    "小"
+  ],
+  "readings": {
+    "cn": {
+      "name": "糸",
+      "reading": "mì",
+      "gloss": "silk; thread",
+      "extra": "康熙部首 120 · 作偏旁写作 纟 (绞丝旁) · 幺 + 小"
+    },
+    "jp": {
+      "name": "糸",
+      "reading": "いと",
+      "gloss": "thread",
+      "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
+    }
+  },
+  "programs": []
+}

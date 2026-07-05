@@ -1,0 +1,35 @@
+{
+  "glyph": "之",
+  "cp": "U+4E4B",
+  "slug": "zhi",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "之",
+      "reading": "zhī",
+      "gloss": "(classical) of; 's; it; to go",
+      "extra": "文言虚词「的」· 亦作动词「往」· 潘达尼斯记作「佐罗 Zorro」(形似 Z)"
+    },
+    "jp": {
+      "name": "之",
+      "reading": "これ",
+      "gloss": "(classical) of; this",
+      "extra": "漢文の「の」· 現代日本語では稀 · 人名等に残る"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "Zorro",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

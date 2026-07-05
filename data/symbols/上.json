@@ -1,0 +1,53 @@
+{
+  "glyph": "上",
+  "cp": "U+4E0A",
+  "slug": "shang",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "⺊",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "上",
+      "reading": "shàng",
+      "gloss": "above; up; on top",
+      "extra": "指事字 · 基准线上方加标记 · 与「下」相对"
+    },
+    "jp": {
+      "name": "上",
+      "reading": "うえ",
+      "gloss": "above; up",
+      "extra": "漢字「上」(うえ · ジョウ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Above",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Above",
+      "readings": [
+        "ジョウ"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "うえ"
+      ]
+    }
+  ]
+}

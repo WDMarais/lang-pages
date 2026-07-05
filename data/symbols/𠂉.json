@@ -1,0 +1,50 @@
+{
+  "glyph": "𠂉",
+  "cp": "U+20089",
+  "slug": "gun",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "撇横",
+      "reading": "",
+      "gloss": "pie-heng component",
+      "extra": "无独立字义 · 撇 + 横 · 见于 午 年 失 朱",
+      "appearsIn": {
+        "char": "午",
+        "reading": "wǔ",
+        "gloss": "noon"
+      }
+    },
+    "jp": {
+      "name": "ノ",
+      "reading": "",
+      "gloss": "stroke component",
+      "extra": "「午」「年」などの上部 · ノ + 一",
+      "appearsIn": {
+        "char": "午",
+        "reading": "ゴ",
+        "gloss": "noon"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Gun",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "gun"
+    }
+  ]
+}

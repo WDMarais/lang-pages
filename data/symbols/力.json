@@ -1,0 +1,64 @@
+{
+  "glyph": "力",
+  "cp": "U+529B",
+  "slug": "li",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "㇆",
+    "丿"
+  ],
+  "readings": {
+    "cn": {
+      "name": "力",
+      "reading": "lì",
+      "gloss": "power; strength",
+      "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
+      "appearsIn": {
+        "char": "男",
+        "reading": "nán",
+        "gloss": "male"
+      }
+    },
+    "jp": {
+      "name": "力",
+      "reading": "ちから",
+      "gloss": "power",
+      "extra": "漢字「力」(ちから · リョク)",
+      "appearsIn": {
+        "char": "男",
+        "reading": "おとこ",
+        "gloss": "man"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Power",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Power",
+      "readings": [
+        "リョク",
+        "リキ"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "ちから"
+      ]
+    }
+  ]
+}

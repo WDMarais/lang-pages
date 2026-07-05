@@ -1,0 +1,54 @@
+{
+  "glyph": "丿",
+  "cp": "U+4E3F",
+  "slug": "pie",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "撇",
+      "reading": "piě",
+      "gloss": "left-falling stroke",
+      "extra": "康熙部首 4「丿 piě」",
+      "appearsIn": {
+        "char": "人",
+        "reading": "rén",
+        "gloss": "person"
+      }
+    },
+    "jp": {
+      "name": "左払い",
+      "reading": "ひだりばらい",
+      "gloss": "left-sweeping stroke",
+      "extra": "部首名「の」(形が の に似る)",
+      "appearsIn": {
+        "char": "人",
+        "reading": "ひと",
+        "gloss": "person"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Slide",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "slide"
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "slash",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

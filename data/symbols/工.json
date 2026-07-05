@@ -1,0 +1,61 @@
+{
+  "glyph": "工",
+  "cp": "U+5DE5",
+  "slug": "gong",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "丄"
+  ],
+  "readings": {
+    "cn": {
+      "name": "工",
+      "reading": "gōng",
+      "gloss": "work; labour",
+      "extra": "横 + 竖 + 横 · 工具/工作 · 康熙部首 48",
+      "appearsIn": {
+        "char": "江",
+        "reading": "jiāng",
+        "gloss": "river"
+      }
+    },
+    "jp": {
+      "name": "工",
+      "reading": "コウ",
+      "gloss": "construction; craft",
+      "extra": "漢字「工」(コウ · ク)",
+      "appearsIn": {
+        "char": "江",
+        "reading": "コウ",
+        "gloss": "large river; inlet"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Construction",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Construction",
+      "readings": [
+        "コウ",
+        "ク"
+      ],
+      "on": true,
+      "level": 1
+    }
+  ]
+}

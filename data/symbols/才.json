@@ -1,0 +1,56 @@
+{
+  "glyph": "才",
+  "cp": "U+624D",
+  "slug": "cai",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "才",
+      "reading": "cái",
+      "gloss": "talent; ability; just now",
+      "extra": "才能、天才、刚才 · 象形",
+      "appearsIn": {
+        "char": "材",
+        "reading": "cái",
+        "gloss": "material; timber"
+      }
+    },
+    "jp": {
+      "name": "才",
+      "reading": "サイ",
+      "gloss": "talent; genius; years old",
+      "extra": "漢字「才」(サイ) · 才能 · 「歳」の代用",
+      "appearsIn": {
+        "char": "材",
+        "reading": "ザイ",
+        "gloss": "material"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Talent",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Talent",
+      "readings": [
+        "サイ"
+      ],
+      "on": true,
+      "level": 1
+    }
+  ]
+}

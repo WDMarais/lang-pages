@@ -1,0 +1,35 @@
+{
+  "glyph": "业",
+  "cp": "U+4E1A",
+  "slug": "ye",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "业",
+      "reading": "yè",
+      "gloss": "industry; occupation; karma",
+      "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業"
+    },
+    "jp": {
+      "name": "業",
+      "reading": "わざ",
+      "gloss": "deed; work; karma",
+      "extra": "漢字「業」(わざ · ギョウ · ゴウ) · 簡体作「业」"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "bloom",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

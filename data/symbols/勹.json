@@ -1,0 +1,50 @@
+{
+  "glyph": "勹",
+  "cp": "U+52F9",
+  "slug": "bao",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "㇆"
+  ],
+  "readings": {
+    "cn": {
+      "name": "勹",
+      "reading": "bāo",
+      "gloss": "wrap (enclosing component)",
+      "extra": "无独立字义 · 「包字头」· 康熙部首 20",
+      "appearsIn": {
+        "char": "包",
+        "reading": "bāo",
+        "gloss": "to wrap"
+      }
+    },
+    "jp": {
+      "name": "つつみがまえ",
+      "reading": "",
+      "gloss": "wrapping enclosure",
+      "extra": "部首「つつみがまえ」",
+      "appearsIn": {
+        "char": "包",
+        "reading": "つつむ",
+        "gloss": "to wrap"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Prison",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "prison"
+    }
+  ]
+}

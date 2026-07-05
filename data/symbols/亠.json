@@ -1,0 +1,59 @@
+{
+  "glyph": "亠",
+  "cp": "U+4EA0",
+  "slug": "lid",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丶",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "亠",
+      "reading": "tóu",
+      "gloss": "lid (top component)",
+      "extra": "无独立字义 · 又称「点横头」· 康熙部首 8",
+      "appearsIn": {
+        "char": "六",
+        "reading": "liù",
+        "gloss": "six"
+      }
+    },
+    "jp": {
+      "name": "なべぶた",
+      "reading": "",
+      "gloss": "pot-lid top",
+      "extra": "部首「なべぶた / けいさんかんむり」",
+      "appearsIn": {
+        "char": "六",
+        "reading": "ロク",
+        "gloss": "six"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Lid",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "lid"
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "lid",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "lid"
+    }
+  ]
+}

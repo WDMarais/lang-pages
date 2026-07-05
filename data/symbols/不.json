@@ -1,0 +1,45 @@
+{
+  "glyph": "不",
+  "cp": "U+4E0D",
+  "slug": "bu",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "不",
+      "reading": "bù",
+      "gloss": "not; no",
+      "extra": "否定副词「不」· 潘达尼斯记作「黄蜂 wasp」",
+      "appearsIn": {
+        "char": "否",
+        "reading": "fǒu",
+        "gloss": "to negate; no"
+      }
+    },
+    "jp": {
+      "name": "不",
+      "reading": "フ",
+      "gloss": "un-; not (prefix)",
+      "extra": "漢字「不」(フ · ブ) · 不安・不便",
+      "appearsIn": {
+        "char": "否",
+        "reading": "いな",
+        "gloss": "nay; no"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "wasp",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

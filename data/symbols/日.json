@@ -1,0 +1,57 @@
+{
+  "glyph": "日",
+  "cp": "U+65E5",
+  "slug": "ri",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "口",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "日",
+      "reading": "rì",
+      "gloss": "sun; day",
+      "extra": "象形「太阳」· 竖 横折 横 横 · 康熙部首 72",
+      "appearsIn": {
+        "char": "明",
+        "reading": "míng",
+        "gloss": "bright"
+      }
+    },
+    "jp": {
+      "name": "日",
+      "reading": "ひ",
+      "gloss": "sun; day",
+      "extra": "漢字「日」(ひ · ニチ · ジツ)",
+      "appearsIn": {
+        "char": "明",
+        "reading": "あかるい",
+        "gloss": "bright"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Sun",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "sun",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

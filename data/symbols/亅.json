@@ -1,0 +1,54 @@
+{
+  "glyph": "亅",
+  "cp": "U+4E85",
+  "slug": "shugou",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "竖钩",
+      "reading": "shùgōu",
+      "gloss": "vertical hook",
+      "extra": "康熙部首 6「亅 jué」",
+      "appearsIn": {
+        "char": "小",
+        "reading": "xiǎo",
+        "gloss": "small"
+      }
+    },
+    "jp": {
+      "name": "はねぼう",
+      "reading": "はねぼう",
+      "gloss": "hooked vertical",
+      "extra": "部首名「はねぼう」",
+      "appearsIn": {
+        "char": "小",
+        "reading": "ちいさい",
+        "gloss": "small"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Barb",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "barb"
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "hook",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

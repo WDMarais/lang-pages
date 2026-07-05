@@ -1,0 +1,30 @@
+{
+  "glyph": "線",
+  "cp": "U+7DDA",
+  "slug": "xian",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "糸",
+    "泉"
+  ],
+  "readings": {
+    "cn": {
+      "name": "線",
+      "reading": "xiàn",
+      "gloss": "line; thread; wire",
+      "extra": "糸 + 泉 · 简体作「线」(纟 + 戋，右部不同)"
+    },
+    "jp": {
+      "name": "線",
+      "reading": "セン",
+      "gloss": "line",
+      "extra": "漢字「線」(セン) · 糸 + 泉 · 水が 泉 として内に潜む"
+    }
+  },
+  "programs": []
+}

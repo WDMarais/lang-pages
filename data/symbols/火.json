@@ -1,0 +1,45 @@
+{
+  "glyph": "火",
+  "cp": "U+706B",
+  "slug": "huo",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "火",
+      "reading": "huǒ",
+      "gloss": "fire",
+      "extra": "象形「火焰」· 康熙部首 86 · 作偏旁作 灬 (四点底)",
+      "appearsIn": {
+        "char": "炎",
+        "reading": "yán",
+        "gloss": "flame; blaze"
+      }
+    },
+    "jp": {
+      "name": "火",
+      "reading": "ひ",
+      "gloss": "fire",
+      "extra": "漢字「火」(ひ · カ) · 偏旁「れっか 灬」",
+      "appearsIn": {
+        "char": "炎",
+        "reading": "ほのお",
+        "gloss": "flame"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "fire",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

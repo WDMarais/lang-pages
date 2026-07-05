@@ -1,0 +1,45 @@
+{
+  "glyph": "以",
+  "cp": "U+4EE5",
+  "slug": "yi3",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "以",
+      "reading": "yǐ",
+      "gloss": "by means of; with; using",
+      "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
+      "appearsIn": {
+        "char": "似",
+        "reading": "sì",
+        "gloss": "similar; to resemble"
+      }
+    },
+    "jp": {
+      "name": "以",
+      "reading": "もって",
+      "gloss": "by means of; with",
+      "extra": "漢字「以」(もっ-て · イ)",
+      "appearsIn": {
+        "char": "似",
+        "reading": "にる",
+        "gloss": "to resemble"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "fisherman",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

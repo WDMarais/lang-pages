@@ -1,0 +1,48 @@
+{
+  "glyph": "刀",
+  "cp": "U+5200",
+  "slug": "dao",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿"
+  ],
+  "readings": {
+    "cn": {
+      "name": "刀",
+      "reading": "dāo",
+      "gloss": "knife; blade",
+      "extra": "横折钩 + 撇 · 象形「刀」· 康熙部首 18 · 作偏旁作 刂",
+      "appearsIn": {
+        "char": "分",
+        "reading": "fēn",
+        "gloss": "to divide"
+      }
+    },
+    "jp": {
+      "name": "刀",
+      "reading": "かたな",
+      "gloss": "sword; katana",
+      "extra": "漢字「刀」(かたな · トウ) · 偏旁「りっとう 刂」",
+      "appearsIn": {
+        "char": "分",
+        "reading": "わける",
+        "gloss": "to divide"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Sword",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

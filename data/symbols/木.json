@@ -1,0 +1,57 @@
+{
+  "glyph": "木",
+  "cp": "U+6728",
+  "slug": "mu",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "十",
+    "八"
+  ],
+  "readings": {
+    "cn": {
+      "name": "木",
+      "reading": "mù",
+      "gloss": "tree; wood",
+      "extra": "横 + 竖 + 撇 + 捺 · 象形「树」· 康熙部首 75",
+      "appearsIn": {
+        "char": "林",
+        "reading": "lín",
+        "gloss": "woods; forest"
+      }
+    },
+    "jp": {
+      "name": "木",
+      "reading": "き",
+      "gloss": "tree; wood",
+      "extra": "漢字「木」(き · モク · ボク)",
+      "appearsIn": {
+        "char": "林",
+        "reading": "はやし",
+        "gloss": "woods"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Tree",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "tree",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

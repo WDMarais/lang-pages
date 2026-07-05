@@ -1,0 +1,72 @@
+{
+  "glyph": "人",
+  "cp": "U+4EBA",
+  "slug": "ren",
+  "class": "char",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "㇏"
+  ],
+  "readings": {
+    "cn": {
+      "name": "人",
+      "reading": "rén",
+      "gloss": "person",
+      "extra": "撇 + 捺 · 注意与「入」之别",
+      "appearsIn": {
+        "char": "今",
+        "reading": "jīn",
+        "gloss": "now"
+      }
+    },
+    "jp": {
+      "name": "人",
+      "reading": "ひと",
+      "gloss": "person",
+      "extra": "「人」と「入」は紛らわしい",
+      "appearsIn": {
+        "char": "今",
+        "reading": "いま",
+        "gloss": "now"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Person",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Person",
+      "readings": [
+        "ニン",
+        "ジン"
+      ],
+      "on": true,
+      "level": 1,
+      "kun": [
+        "ひと"
+      ]
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "man",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

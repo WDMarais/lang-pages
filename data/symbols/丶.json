@@ -1,0 +1,54 @@
+{
+  "glyph": "丶",
+  "cp": "U+4E36",
+  "slug": "dian",
+  "class": "stroke",
+  "source": "strokes",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "点",
+      "reading": "diǎn",
+      "gloss": "dot stroke",
+      "extra": "康熙部首 3「丶 zhǔ」",
+      "appearsIn": {
+        "char": "犬",
+        "reading": "quǎn",
+        "gloss": "dog"
+      }
+    },
+    "jp": {
+      "name": "点",
+      "reading": "テン",
+      "gloss": "dot stroke",
+      "extra": "部首名「てん」",
+      "appearsIn": {
+        "char": "犬",
+        "reading": "いぬ",
+        "gloss": "dog"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Drop",
+      "kind": "mnemonic",
+      "level": 1,
+      "icon": "drop"
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "dot",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

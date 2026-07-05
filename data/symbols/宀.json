@@ -1,0 +1,45 @@
+{
+  "glyph": "宀",
+  "cp": "U+5B80",
+  "slug": "mian",
+  "class": "comp",
+  "source": "radicals",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "宀",
+      "reading": "mián",
+      "gloss": "roof (radical)",
+      "extra": "宝盖头 · 无独立字义 · 康熙部首 40 · 房屋顶形",
+      "appearsIn": {
+        "char": "家",
+        "reading": "jiā",
+        "gloss": "home; family"
+      }
+    },
+    "jp": {
+      "name": "うかんむり",
+      "reading": "",
+      "gloss": "roof radical",
+      "extra": "部首「うかんむり」· 屋根の形",
+      "appearsIn": {
+        "char": "家",
+        "reading": "いえ",
+        "gloss": "house"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "roof",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}
