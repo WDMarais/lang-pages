@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>单字 · Characters</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- Kai (楷体) brush font for specimen glyphs — open-source, OFL licensed -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">汉字 · 能独立成字者</div>
+  <div class="cover-title">单字</div>
+  <div class="cover-py">dānzì</div>
+  <div class="cover-sub"><span class="en">Standalone characters — built from the radicals</span><span class="zh-alt">由部件与笔画组成的单字</span></div>
+  <div class="cover-meta">Characters</div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">How to read this</span><span class="zh-alt">说明</span></div>
+    <h2>能独立成字的字</h2>
+    <div class="sec-rule"></div>
+
+    <p class="intro">
+      这些是能<strong>独立成字</strong>的单字 —— 由前面的部件和笔画搭起来。
+      有的本身也是部首（大、木、水），会同时出现在 <a href="/radicals/">部件</a> 页；
+      有的是纯粹的<strong>合体字</strong>（泉 = 白 + 水，線 = 糸 + 泉），只在这里出现。
+      <span class="en">These are characters that stand on their own — assembled from the
+      components and strokes. Some are also radicals (大, 木, 水) and appear on the
+      <a href="/radicals/">radicals</a> page too; others are pure <em>composite
+      characters</em> (泉 = 白 + 水, 線 = 糸 + 泉) that live only here.</span>
+    </p>
+    <p class="intro">
+      <span class="en">Same colour code as the radicals page: where a program's name
+      <strong>is</strong> the real meaning it carries across (green); a pure shape-mnemonic
+      does not (red). A blank column just means that program hasn't introduced this
+      character yet. Tap ▶ for audio.</span>
+      <span class="zh-alt">配色同部件页：程序的名字<strong>就是字义</strong>时通用（绿），
+      纯形状助记则不通用（红）；空栏表示该程序尚未收录此字。点 ▶ 听发音。</span>
+    </p>
+
+    <div class="legend">
+      <span><i class="lg-cn"></i> 中文 · 拼音</span>
+      <span><i class="lg-jp"></i> 日本語 · 仮名</span>
+      <span><i class="lg-wk-m"></i> WK · PD 实义 · <span class="en">real meaning</span><span class="zh-alt">通用</span></span>
+      <span><i class="lg-wk"></i> WK · PD 仅助记 ⚠ <span class="en">mnemonic</span></span>
+      <span class="lg-note">繁: <span class="en">traditional form</span><span class="zh-alt">繁体</span></span>
+    </div>
+
+    <div id="cards" data-src="characters.json"></div>
+
+    <p class="intro" style="margin-top:2rem">
+      → <a href="/radicals/">部件</a>
+      <span class="en">— the radicals &amp; components these are built from.</span>
+      <span class="zh-alt">—— 组成它们的部件与笔画。</span>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div>单字 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/vendor/hanzi-writer.min.js"></script>
+<script src="../shared/cards3.js"></script>
+</body>
+</html>

@@ -3,6 +3,7 @@
   "cp": "U+5382",
   "slug": "han",
   "class": "comp",
+  "kangxi": 27,
   "source": "radicals",
   "form": {
     "hw": true,

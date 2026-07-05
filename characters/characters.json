@@ -65,23 +65,21 @@
           "pd": { "name": "two", "level": 1, "kind": "meaning" }
         },
         {
-          "glyph": "亠",
-          "slug": "lid",
-          "tag": "comp",
+          "glyph": "三",
+          "slug": "san",
+          "tag": "char",
           "image": "",
           "hw": true,
           "cn": {
-            "name": "亠", "reading": "tóu", "gloss": "lid (top component)",
-            "extra": "无独立字义 · 又称「点横头」· 康熙部首 8",
-            "appearsIn": { "char": "六", "reading": "liù", "gloss": "six" }
+            "name": "三", "reading": "sān", "gloss": "three",
+            "extra": "三横 · 一二三 同源，皆积横"
           },
           "jp": {
-            "name": "なべぶた", "reading": "", "gloss": "pot-lid top",
-            "extra": "部首「なべぶた / けいさんかんむり」",
-            "appearsIn": { "char": "六", "reading": "ロク", "gloss": "six" }
+            "name": "三", "reading": "みっつ", "gloss": "three",
+            "extra": "訓 み(っ)つ · 音 サン"
           },
-          "wk": { "name": "Lid", "level": 1, "kind": "mnemonic", "icon": "lid" },
-          "pd": { "name": "lid", "level": 1, "kind": "mnemonic", "icon": "lid" }
+          "wk": null,
+          "kanji": { "name": "Three", "readings": ["サン"], "on": true, "kun": ["み"], "level": 1 }
         },
         {
           "glyph": "大",
@@ -160,24 +158,6 @@
           },
           "wk": { "name": "Power", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "kun": ["ちから"], "level": 1 }
-        },
-        {
-          "glyph": "勹",
-          "slug": "bao",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "勹", "reading": "bāo", "gloss": "wrap (enclosing component)",
-            "extra": "无独立字义 · 「包字头」· 康熙部首 20",
-            "appearsIn": { "char": "包", "reading": "bāo", "gloss": "to wrap" }
-          },
-          "jp": {
-            "name": "つつみがまえ", "reading": "", "gloss": "wrapping enclosure",
-            "extra": "部首「つつみがまえ」",
-            "appearsIn": { "char": "包", "reading": "つつむ", "gloss": "to wrap" }
-          },
-          "wk": { "name": "Prison", "level": 1, "kind": "mnemonic", "icon": "prison" }
         },
         {
           "glyph": "口",
@@ -275,42 +255,6 @@
           },
           "wk": { "name": "Cross", "level": 1, "kind": "mnemonic", "icon": "cross" },
           "kanji": { "name": "Ten", "readings": ["ジュウ"], "on": true, "level": 1 }
-        },
-        {
-          "glyph": "𠂉",
-          "slug": "gun",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "撇横", "reading": "", "gloss": "pie-heng component",
-            "extra": "无独立字义 · 撇 + 横 · 见于 午 年 失 朱",
-            "appearsIn": { "char": "午", "reading": "wǔ", "gloss": "noon" }
-          },
-          "jp": {
-            "name": "ノ", "reading": "", "gloss": "stroke component",
-            "extra": "「午」「年」などの上部 · ノ + 一",
-            "appearsIn": { "char": "午", "reading": "ゴ", "gloss": "noon" }
-          },
-          "wk": { "name": "Gun", "level": 1, "kind": "mnemonic", "icon": "gun" }
-        },
-        {
-          "glyph": "ト",
-          "slug": "toe",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "卜", "reading": "bǔ", "gloss": "divination (卜)",
-            "extra": "形如片假名「ト」· 汉字作「卜」· 竖 + 点",
-            "appearsIn": { "char": "外", "reading": "wài", "gloss": "outside" }
-          },
-          "jp": {
-            "name": "ト", "reading": "", "gloss": "katakana \"to\" shape",
-            "extra": "片假名「ト」· 偏旁「卜」",
-            "appearsIn": { "char": "外", "reading": "そと", "gloss": "outside" }
-          },
-          "wk": { "name": "Toe", "level": 1, "kind": "mnemonic", "icon": "toe" }
         },
         {
           "glyph": "川",
@@ -530,6 +474,38 @@
           "wk": null
         },
         {
+          "glyph": "泉",
+          "slug": "quan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "泉", "reading": "quán", "gloss": "spring; fountain",
+            "extra": "会意 · 白 + 水 ·「泉水」从山石中流出"
+          },
+          "jp": {
+            "name": "泉", "reading": "いずみ", "gloss": "spring; fountain",
+            "extra": "漢字「泉」(いずみ · セン) · 白 + 水"
+          },
+          "wk": null
+        },
+        {
+          "glyph": "線",
+          "slug": "xian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "線", "reading": "xiàn", "gloss": "line; thread; wire",
+            "extra": "糸 + 泉 · 简体作「线」(纟 + 戋，右部不同)"
+          },
+          "jp": {
+            "name": "線", "reading": "セン", "gloss": "line",
+            "extra": "漢字「線」(セン) · 糸 + 泉 · 水が 泉 として内に潜む"
+          },
+          "wk": null
+        },
+        {
           "glyph": "火",
           "slug": "huo",
           "tag": "char",
@@ -564,44 +540,6 @@
           },
           "wk": null,
           "pd": { "name": "TV", "level": 1, "kind": "mnemonic", "icon": "tv" }
-        },
-        {
-          "glyph": "儿",
-          "slug": "legs",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "儿", "reading": "ér", "gloss": "legs (walking-person radical)",
-            "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光 · 繁: 兒",
-            "appearsIn": { "char": "元", "reading": "yuán", "gloss": "first; origin" }
-          },
-          "jp": {
-            "name": "ひとあし", "reading": "", "gloss": "legs (human-legs radical)",
-            "extra": "部首「ひとあし / にんにょう」·「人」の下部形",
-            "appearsIn": { "char": "元", "reading": "ゲン", "gloss": "origin" }
-          },
-          "wk": { "name": "Legs", "level": 1, "kind": "mnemonic" },
-          "pd": { "name": "legs", "level": 1, "kind": "mnemonic" }
-        },
-        {
-          "glyph": "厂",
-          "slug": "han",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "厂", "reading": "hàn", "gloss": "cliff",
-            "extra": "康熙部首 27「厂 hàn」· 山崖形 · (今亦作「厂 chǎng」工厂)",
-            "appearsIn": { "char": "原", "reading": "yuán", "gloss": "origin; plain" }
-          },
-          "jp": {
-            "name": "がんだれ", "reading": "", "gloss": "cliff radical",
-            "extra": "部首「がんだれ」· 崖・屋根の形",
-            "appearsIn": { "char": "原", "reading": "ゲン", "gloss": "origin" }
-          },
-          "wk": null,
-          "pd": { "name": "cliff", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "先",
@@ -676,25 +614,6 @@
           },
           "wk": null,
           "pd": { "name": "father", "level": 1, "kind": "meaning" }
-        },
-        {
-          "glyph": "宀",
-          "slug": "mian",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "宀", "reading": "mián", "gloss": "roof (radical)",
-            "extra": "宝盖头 · 无独立字义 · 康熙部首 40 · 房屋顶形",
-            "appearsIn": { "char": "家", "reading": "jiā", "gloss": "home; family" }
-          },
-          "jp": {
-            "name": "うかんむり", "reading": "", "gloss": "roof radical",
-            "extra": "部首「うかんむり」· 屋根の形",
-            "appearsIn": { "char": "家", "reading": "いえ", "gloss": "house" }
-          },
-          "wk": null,
-          "pd": { "name": "roof", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "不",
@@ -804,24 +723,6 @@
           "wk": { "name": "Street", "level": 1, "kind": "mnemonic" }
         },
         {
-          "glyph": "ナ",
-          "slug": "na",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "𠂇", "reading": "", "gloss": "left-hand component (ナ-shape)",
-            "extra": "见于 友 右 有 的上部 · 形如片假名 ナ · 无独立汉字",
-            "appearsIn": { "char": "友", "reading": "yǒu", "gloss": "friend" }
-          },
-          "jp": {
-            "name": "ナ", "reading": "", "gloss": "katakana \"na\" shape",
-            "extra": "片假名「ナ」· WK「Narwhal」· 友/右/有 の上部",
-            "appearsIn": { "char": "友", "reading": "とも", "gloss": "friend" }
-          },
-          "wk": { "name": "Narwhal", "level": 1, "kind": "mnemonic" }
-        },
-        {
           "glyph": "才",
           "slug": "cai",
           "tag": "char",
@@ -839,24 +740,6 @@
           },
           "wk": { "name": "Talent", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 1 }
-        },
-        {
-          "glyph": "冂",
-          "slug": "jiong",
-          "tag": "comp",
-          "image": "",
-          "hw": true,
-          "cn": {
-            "name": "冂", "reading": "jiōng", "gloss": "down-box (enclosure radical)",
-            "extra": "同字框 · 无独立字义 · 康熙部首 13",
-            "appearsIn": { "char": "内", "reading": "nèi", "gloss": "inside" }
-          },
-          "jp": {
-            "name": "けいがまえ", "reading": "", "gloss": "down-box enclosure",
-            "extra": "部首「けいがまえ / どうがまえ」· 囲む形",
-            "appearsIn": { "char": "内", "reading": "うち", "gloss": "inside" }
-          },
-          "wk": { "name": "Head", "level": 1, "kind": "mnemonic" }
         }
       ]
     }

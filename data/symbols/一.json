@@ -3,6 +3,7 @@
   "cp": "U+4E00",
   "slug": "yi",
   "class": "char",
+  "kangxi": 1,
   "source": "radicals",
   "form": {
     "hw": true,

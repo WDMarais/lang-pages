@@ -18,17 +18,19 @@ Schema: docs/content-graph-schema.md
 import json, re, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from symbols_io import load_symbols, to_card
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-SOURCES = [("radicals", ROOT / "radicals/radicals.json"),
-           ("strokes",  ROOT / "strokes/strokes.json")]
 TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
 
 
-def load_cards(path):
-    d = json.loads(path.read_text())
-    return [c for grp in d["groups"] for c in grp["cards"]]
+def source_of(sym):
+    """Graph provenance (which authoring bucket) — derived from structural class
+    now that page membership lives in the symbols_io projection rules."""
+    return "strokes" if sym["class"] == "stroke" else "radicals"
 
 
 def referent_slug(gloss):
@@ -93,10 +95,14 @@ def make_binding(glyph, lang, v, wk, kanji=None, pd=None):
 def build():
     nodes, bindings, edges = {}, [], []
     seen_edge = set()
-    real = {c["glyph"] for _, path in SOURCES for c in load_cards(path)}
+    symbols = load_symbols()
+    real = set(symbols)
+    cards_by_source = {"radicals": [], "strokes": []}
+    for sym in symbols.values():
+        cards_by_source[source_of(sym)].append(to_card(sym))
 
-    for src, path in SOURCES:
-        for c in load_cards(path):
+    for src in ("radicals", "strokes"):
+        for c in cards_by_source[src]:
             g = c["glyph"]
             nodes[f"g:{g}"] = {
                 "id": f"g:{g}", "kind": "glyph", "glyph": g,
@@ -274,10 +280,14 @@ def main():
           f"({sum(1 for e in edges if e['kind']=='composes')} composes, "
           f"{sum(1 for e in edges if e['kind']=='denotes')} denotes)")
 
-    # round-trip proof
+    # round-trip proof: the graph must faithfully re-emit the symbol projection
     ok = True
-    for src, path in SOURCES:
-        original = load_cards(path)
+    syms = load_symbols()
+    by_source = {"radicals": [], "strokes": []}
+    for sym in syms.values():
+        by_source[source_of(sym)].append(to_card(sym))
+    for src in ("radicals", "strokes"):
+        original = by_source[src]
         rebuilt = project_cards(src, nodes, bindings)
         if original == rebuilt:
             print(f"round-trip {src+'.json':16} ✓  ({len(rebuilt)} cards identical)")

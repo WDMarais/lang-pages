@@ -41,6 +41,28 @@ up from WaniKani + Pandanese over time" = filling in each language's binding.
 Where the *form itself* forks (学/學, 国/國) there are separate glyph nodes joined
 by a `variant-of` edge, and each binding attaches to the variant it uses.
 
+## Physical source of truth: `data/symbols/<glyph>.json`
+
+The substrate is authored as **one file per glyph** — bare form + composition,
+adopted wholesale from Unicode + Make-Me-a-Hanzi (custom only at the edges), plus
+a **uniform `programs[]` instantiation list**. `role` / `source` / `lang` are
+*fields on a uniform record*, never nesting keys, so the (role × program × lang)
+cross-product never tangles and every projection is one linear pass. Native
+CN/JP readings stay a fixed two-key `readings` map (the binding, not part of the
+cross-product). `kangxi` tags radical-hood; `_spine.json` holds the editorial
+order.
+
+```
+data/symbols/*.json ──┬─ build-pages.py ─▶ radicals.json · strokes.json · characters.json
+                      └─ build-graph.py ─▶ nodes · bindings · edges  (round-trip proven)
+```
+
+Nothing about a glyph's *page* is stored on the atom — membership is a rule
+(`symbols_io.on_radicals` / `on_characters` / `on_strokes`), so 泉/線 (composite
+chars no program teaches as radicals, not Kangxi) fall off `/radicals/` and
+surface on `/characters/` without being re-filed. The card files stay committed
+(build-free deploy) but are generated; edit the symbols, never the cards.
+
 ## Edges vs facets
 
 Most "associated concepts" are **neighbouring nodes (edges)**, not **facets**:
