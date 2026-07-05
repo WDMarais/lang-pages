@@ -146,6 +146,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:千",
+      "to": "r:thousand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:千",
+      "to": "g:舌",
+      "kind": "composes"
+    },
+    {
       "from": "g:𠂉",
       "to": "r:pie-heng-component",
       "kind": "denotes"
@@ -163,6 +173,16 @@
     {
       "from": "g:ト",
       "to": "g:外",
+      "kind": "composes"
+    },
+    {
+      "from": "g:メ",
+      "to": "r:govern",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:メ",
+      "to": "g:文",
       "kind": "composes"
     },
     {
@@ -213,6 +233,16 @@
     {
       "from": "g:日",
       "to": "g:明",
+      "kind": "composes"
+    },
+    {
+      "from": "g:夕",
+      "to": "r:evening",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:夕",
+      "to": "g:外",
       "kind": "composes"
     },
     {
@@ -696,11 +726,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:夕",
-      "to": "g:外",
-      "kind": "composes"
-    },
-    {
       "from": "g:卜",
       "to": "g:外",
       "kind": "composes"
@@ -1028,6 +1053,16 @@
     {
       "from": "w:上げる",
       "to": "r:raise",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:下げる",
+      "kind": "composes"
+    },
+    {
+      "from": "w:下げる",
+      "to": "r:lower",
       "kind": "denotes"
     }
   ]

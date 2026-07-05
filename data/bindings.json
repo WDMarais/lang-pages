@@ -741,6 +741,52 @@
       }
     },
     {
+      "id": "b:千@cn",
+      "glyph_id": "g:千",
+      "lang": "cn",
+      "name": "千",
+      "readings": [
+        "qiān"
+      ],
+      "gloss": "thousand",
+      "extra": "撇 + 十 · 数字「千」· 千万、几千",
+      "appearsIn": {
+        "glyph": "舌",
+        "reading": "shé",
+        "gloss": "tongue"
+      }
+    },
+    {
+      "id": "b:千@jp",
+      "glyph_id": "g:千",
+      "lang": "jp",
+      "name": "千",
+      "readings": [
+        "セン"
+      ],
+      "gloss": "thousand",
+      "extra": "漢字「千」(セン · ち) · 千円",
+      "appearsIn": {
+        "glyph": "舌",
+        "reading": "した",
+        "gloss": "tongue"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Thousand",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Thousand",
+          "readings": [
+            "セン"
+          ],
+          "on": true,
+          "level": 1
+        }
+      }
+    },
+    {
       "id": "b:𠂉@cn",
       "glyph_id": "g:𠂉",
       "lang": "cn",
@@ -810,6 +856,42 @@
         "kind": "mnemonic",
         "level": 1,
         "icon": "toe"
+      }
+    },
+    {
+      "id": "b:メ@cn",
+      "glyph_id": "g:メ",
+      "lang": "cn",
+      "name": "乂",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "to govern; regulate (乂)",
+      "extra": "形如片假名「メ」· 撇 + 捺 交叉 · 汉字作「乂」",
+      "appearsIn": {
+        "glyph": "文",
+        "reading": "wén",
+        "gloss": "writing; script"
+      }
+    },
+    {
+      "id": "b:メ@jp",
+      "glyph_id": "g:メ",
+      "lang": "jp",
+      "name": "メ",
+      "readings": [],
+      "gloss": "katakana \"me\" shape",
+      "extra": "片假名「メ」· 「乂」形 · 撇捺交叉",
+      "appearsIn": {
+        "glyph": "文",
+        "reading": "ブン",
+        "gloss": "sentence; writing"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Treasure",
+        "kind": "mnemonic",
+        "level": 1
       }
     },
     {
@@ -1046,6 +1128,55 @@
       }
     },
     {
+      "id": "b:夕@cn",
+      "glyph_id": "g:夕",
+      "lang": "cn",
+      "name": "夕",
+      "readings": [
+        "xī"
+      ],
+      "gloss": "evening; dusk",
+      "extra": "康熙部首 36 · 夕阳、七夕 · 象形（半月）",
+      "appearsIn": {
+        "glyph": "外",
+        "reading": "wài",
+        "gloss": "outside"
+      }
+    },
+    {
+      "id": "b:夕@jp",
+      "glyph_id": "g:夕",
+      "lang": "jp",
+      "name": "夕",
+      "readings": [
+        "ゆう"
+      ],
+      "gloss": "evening",
+      "extra": "漢字「夕」(ゆう · セキ) · 夕べ、七夕",
+      "appearsIn": {
+        "glyph": "外",
+        "reading": "そと",
+        "gloss": "outside"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Evening",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Evening",
+          "readings": [
+            "セキ"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "ゆう"
+          ]
+        }
+      }
+    },
+    {
       "id": "b:上@cn",
       "glyph_id": "g:上",
       "lang": "cn",
@@ -1117,7 +1248,10 @@
             "ゲ"
           ],
           "on": true,
-          "level": 1
+          "level": 1,
+          "kun": [
+            "した"
+          ]
         }
       }
     },

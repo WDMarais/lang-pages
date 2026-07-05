@@ -340,6 +340,30 @@
       "frontier": true
     },
     {
+      "id": "g:千",
+      "kind": "glyph",
+      "glyph": "千",
+      "tier": "char",
+      "slug": "qian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:thousand",
+      "kind": "referent",
+      "label": "thousand"
+    },
+    {
+      "id": "g:舌",
+      "kind": "glyph",
+      "glyph": "舌",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:𠂉",
       "kind": "glyph",
       "glyph": "𠂉",
@@ -384,6 +408,30 @@
       "id": "g:外",
       "kind": "glyph",
       "glyph": "外",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:メ",
+      "kind": "glyph",
+      "glyph": "メ",
+      "tier": "component",
+      "slug": "me",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:govern",
+      "kind": "referent",
+      "label": "to govern; regulate (乂)"
+    },
+    {
+      "id": "g:文",
+      "kind": "glyph",
+      "glyph": "文",
       "tier": null,
       "frontier": true
     },
@@ -506,6 +554,23 @@
       "glyph": "明",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:夕",
+      "kind": "glyph",
+      "glyph": "夕",
+      "tier": "char",
+      "slug": "xi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:evening",
+      "kind": "referent",
+      "label": "evening; dusk"
     },
     {
       "id": "g:上",
@@ -1312,13 +1377,6 @@
       "frontier": true
     },
     {
-      "id": "g:夕",
-      "kind": "glyph",
-      "glyph": "夕",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:也",
       "kind": "glyph",
       "glyph": "也",
@@ -1580,6 +1638,27 @@
       "id": "r:raise",
       "kind": "referent",
       "label": "to raise; lift up"
+    },
+    {
+      "id": "w:下げる",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "下げる",
+      "slug": "sageru",
+      "reading": "さげる",
+      "gloss": "to lower something",
+      "okurigana": "げる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:lower",
+      "kind": "referent",
+      "label": "to lower something"
     }
   ]
 }

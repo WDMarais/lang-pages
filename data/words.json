@@ -117,6 +117,17 @@
       "gloss": "to raise; lift up",
       "okurigana": "げる",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "下げる",
+      "slug": "sageru",
+      "audience": "jp",
+      "parts": ["下"],
+      "denotes": "lower",
+      "reading": "さげる",
+      "gloss": "to lower something",
+      "okurigana": "げる",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

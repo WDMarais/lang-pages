@@ -1,0 +1,48 @@
+{
+  "glyph": "メ",
+  "cp": "U+30E1",
+  "slug": "me",
+  "class": "comp",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "㇏"
+  ],
+  "readings": {
+    "cn": {
+      "name": "乂",
+      "reading": "yì",
+      "gloss": "to govern; regulate (乂)",
+      "extra": "形如片假名「メ」· 撇 + 捺 交叉 · 汉字作「乂」",
+      "appearsIn": {
+        "char": "文",
+        "reading": "wén",
+        "gloss": "writing; script"
+      }
+    },
+    "jp": {
+      "name": "メ",
+      "reading": "",
+      "gloss": "katakana \"me\" shape",
+      "extra": "片假名「メ」· 「乂」形 · 撇捺交叉",
+      "appearsIn": {
+        "char": "文",
+        "reading": "ブン",
+        "gloss": "sentence; writing"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Treasure",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

@@ -257,6 +257,25 @@
           "kanji": { "name": "Ten", "readings": ["ジュウ"], "on": true, "level": 1 }
         },
         {
+          "glyph": "千",
+          "slug": "qian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "千", "reading": "qiān", "gloss": "thousand",
+            "extra": "撇 + 十 · 数字「千」· 千万、几千",
+            "appearsIn": { "char": "舌", "reading": "shé", "gloss": "tongue" }
+          },
+          "jp": {
+            "name": "千", "reading": "セン", "gloss": "thousand",
+            "extra": "漢字「千」(セン · ち) · 千円",
+            "appearsIn": { "char": "舌", "reading": "した", "gloss": "tongue" }
+          },
+          "wk": { "name": "Thousand", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Thousand", "readings": ["セン"], "on": true, "level": 1 }
+        },
+        {
           "glyph": "川",
           "slug": "chuan",
           "tag": "char",
@@ -353,6 +372,25 @@
           "pd": { "name": "sun", "level": 1, "kind": "meaning" }
         },
         {
+          "glyph": "夕",
+          "slug": "xi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "夕", "reading": "xī", "gloss": "evening; dusk",
+            "extra": "康熙部首 36 · 夕阳、七夕 · 象形（半月）",
+            "appearsIn": { "char": "外", "reading": "wài", "gloss": "outside" }
+          },
+          "jp": {
+            "name": "夕", "reading": "ゆう", "gloss": "evening",
+            "extra": "漢字「夕」(ゆう · セキ) · 夕べ、七夕",
+            "appearsIn": { "char": "外", "reading": "そと", "gloss": "outside" }
+          },
+          "wk": { "name": "Evening", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Evening", "readings": ["セキ"], "on": true, "kun": ["ゆう"], "level": 1 }
+        },
+        {
           "glyph": "上",
           "slug": "shang",
           "tag": "char",
@@ -384,7 +422,7 @@
             "extra": "漢字「下」(した · カ · ゲ)"
           },
           "wk": { "name": "Below", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Below", "readings": ["カ", "ゲ"], "on": true, "level": 1 }
+          "kanji": { "name": "Below", "readings": ["カ", "ゲ"], "on": true, "kun": ["した"], "level": 1 }
         },
         {
           "glyph": "水",
