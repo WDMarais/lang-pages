@@ -104,6 +104,25 @@
           "pd": { "name": "big", "level": 1, "kind": "meaning" }
         },
         {
+          "glyph": "小",
+          "slug": "xiao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "小", "reading": "xiǎo", "gloss": "small; little",
+            "extra": "康熙部首 42 · 与「大」相对 · 象形",
+            "appearsIn": { "char": "少", "reading": "shǎo", "gloss": "few; little" }
+          },
+          "jp": {
+            "name": "小", "reading": "ちいさい", "gloss": "small",
+            "extra": "漢字「小」(ちい-さい · ショウ) · 小さい",
+            "appearsIn": { "char": "少", "reading": "ショウ", "gloss": "few" }
+          },
+          "wk": { "name": "Small", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Small", "readings": ["ショウ"], "on": true, "kun": ["ちい"], "level": 1 }
+        },
+        {
           "glyph": "人",
           "slug": "ren",
           "tag": "char",
@@ -196,7 +215,7 @@
             "appearsIn": { "char": "名", "reading": "メイ", "gloss": "name" }
           },
           "wk": { "name": "Mouth", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "level": 1 },
+          "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "kun": ["くち"], "level": 1 },
           "pd": { "name": "mouth", "level": 1, "kind": "meaning" }
         },
         {
@@ -218,6 +237,25 @@
           "wk": { "name": "Woman", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "level": 1 },
           "pd": { "name": "woman", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "子",
+          "slug": "zi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "子", "reading": "zǐ", "gloss": "child; son",
+            "extra": "康熙部首 39 · 象形（婴儿）· 儿子、孩子",
+            "appearsIn": { "char": "字", "reading": "zì", "gloss": "character; word" }
+          },
+          "jp": {
+            "name": "子", "reading": "こ", "gloss": "child",
+            "extra": "漢字「子」(こ · シ) · 子供、様子",
+            "appearsIn": { "char": "字", "reading": "ジ", "gloss": "character" }
+          },
+          "wk": { "name": "Child", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Child", "readings": ["シ"], "on": true, "kun": ["こ"], "level": 1 }
         },
         {
           "glyph": "七",

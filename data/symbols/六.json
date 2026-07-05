@@ -1,0 +1,44 @@
+{
+  "glyph": "六",
+  "cp": "U+516D",
+  "slug": "liu",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "亠",
+    "八"
+  ],
+  "readings": {
+    "cn": {
+      "name": "六",
+      "reading": "liù",
+      "gloss": "six",
+      "extra": "亠 + 八 · 数字「六」· 六月、六十"
+    },
+    "jp": {
+      "name": "六",
+      "reading": "ロク",
+      "gloss": "six",
+      "extra": "漢字「六」(ロク · む・むっ-つ) · 六月"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Six",
+      "readings": [
+        "ロク"
+      ],
+      "on": true,
+      "kun": [
+        "む"
+      ],
+      "level": 1
+    }
+  ]
+}

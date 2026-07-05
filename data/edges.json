@@ -56,6 +56,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:小",
+      "to": "r:small",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:小",
+      "to": "g:少",
+      "kind": "composes"
+    },
+    {
       "from": "g:人",
       "to": "r:person",
       "kind": "denotes"
@@ -116,6 +126,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:子",
+      "to": "r:child",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:子",
+      "to": "g:字",
+      "kind": "composes"
+    },
+    {
       "from": "g:七",
       "to": "r:seven",
       "kind": "denotes"
@@ -154,6 +174,11 @@
       "from": "g:千",
       "to": "g:舌",
       "kind": "composes"
+    },
+    {
+      "from": "g:六",
+      "to": "r:six",
+      "kind": "denotes"
     },
     {
       "from": "g:𠂉",
@@ -1063,6 +1088,16 @@
     {
       "from": "w:下げる",
       "to": "r:lower",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:下さい",
+      "kind": "composes"
+    },
+    {
+      "from": "w:下さい",
+      "to": "r:please-give",
       "kind": "denotes"
     }
   ]

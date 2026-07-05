@@ -1,0 +1,59 @@
+{
+  "glyph": "小",
+  "cp": "U+5C0F",
+  "slug": "xiao",
+  "class": "char",
+  "kangxi": 42,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "小",
+      "reading": "xiǎo",
+      "gloss": "small; little",
+      "extra": "康熙部首 42 · 与「大」相对 · 象形",
+      "appearsIn": {
+        "char": "少",
+        "reading": "shǎo",
+        "gloss": "few; little"
+      }
+    },
+    "jp": {
+      "name": "小",
+      "reading": "ちいさい",
+      "gloss": "small",
+      "extra": "漢字「小」(ちい-さい · ショウ) · 小さい",
+      "appearsIn": {
+        "char": "少",
+        "reading": "ショウ",
+        "gloss": "few"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Small",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Small",
+      "readings": [
+        "ショウ"
+      ],
+      "on": true,
+      "kun": [
+        "ちい"
+      ],
+      "level": 1
+    }
+  ]
+}

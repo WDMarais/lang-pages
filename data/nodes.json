@@ -100,13 +100,6 @@
       "label": "lid (top component)"
     },
     {
-      "id": "g:六",
-      "kind": "glyph",
-      "glyph": "六",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:大",
       "kind": "glyph",
       "glyph": "大",
@@ -127,6 +120,30 @@
       "id": "g:天",
       "kind": "glyph",
       "glyph": "天",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:小",
+      "kind": "glyph",
+      "glyph": "小",
+      "tier": "char",
+      "slug": "xiao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:small",
+      "kind": "referent",
+      "label": "small; little"
+    },
+    {
+      "id": "g:少",
+      "kind": "glyph",
+      "glyph": "少",
       "tier": null,
       "frontier": true
     },
@@ -275,6 +292,30 @@
       "frontier": true
     },
     {
+      "id": "g:子",
+      "kind": "glyph",
+      "glyph": "子",
+      "tier": "char",
+      "slug": "zi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:child",
+      "kind": "referent",
+      "label": "child; son"
+    },
+    {
+      "id": "g:字",
+      "kind": "glyph",
+      "glyph": "字",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:七",
       "kind": "glyph",
       "glyph": "七",
@@ -362,6 +403,23 @@
       "glyph": "舌",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:六",
+      "kind": "glyph",
+      "glyph": "六",
+      "tier": "char",
+      "slug": "liu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:six",
+      "kind": "referent",
+      "label": "six"
     },
     {
       "id": "g:𠂉",
@@ -1280,13 +1338,6 @@
       "label": "vertical hook"
     },
     {
-      "id": "g:小",
-      "kind": "glyph",
-      "glyph": "小",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:㇆",
       "kind": "glyph",
       "glyph": "㇆",
@@ -1380,13 +1431,6 @@
       "id": "g:也",
       "kind": "glyph",
       "glyph": "也",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:子",
-      "kind": "glyph",
-      "glyph": "子",
       "tier": null,
       "frontier": true
     },
@@ -1659,6 +1703,27 @@
       "id": "r:lower",
       "kind": "referent",
       "label": "to lower something"
+    },
+    {
+      "id": "w:下さい",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "下さい",
+      "slug": "kudasai",
+      "reading": "ください",
+      "gloss": "please (give me)",
+      "okurigana": "さい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:please-give",
+      "kind": "referent",
+      "label": "please (give me)"
     }
   ]
 }

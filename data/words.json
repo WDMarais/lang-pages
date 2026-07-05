@@ -128,6 +128,17 @@
       "gloss": "to lower something",
       "okurigana": "げる",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "下さい",
+      "slug": "kudasai",
+      "audience": "jp",
+      "parts": ["下"],
+      "denotes": "please-give",
+      "reading": "ください",
+      "gloss": "please (give me)",
+      "okurigana": "さい",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

@@ -303,6 +303,55 @@
       }
     },
     {
+      "id": "b:小@cn",
+      "glyph_id": "g:小",
+      "lang": "cn",
+      "name": "小",
+      "readings": [
+        "xiǎo"
+      ],
+      "gloss": "small; little",
+      "extra": "康熙部首 42 · 与「大」相对 · 象形",
+      "appearsIn": {
+        "glyph": "少",
+        "reading": "shǎo",
+        "gloss": "few; little"
+      }
+    },
+    {
+      "id": "b:小@jp",
+      "glyph_id": "g:小",
+      "lang": "jp",
+      "name": "小",
+      "readings": [
+        "ちいさい"
+      ],
+      "gloss": "small",
+      "extra": "漢字「小」(ちい-さい · ショウ) · 小さい",
+      "appearsIn": {
+        "glyph": "少",
+        "reading": "ショウ",
+        "gloss": "few"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Small",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Small",
+          "readings": [
+            "ショウ"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "ちい"
+          ]
+        }
+      }
+    },
+    {
       "id": "b:人@cn",
       "glyph_id": "g:人",
       "lang": "cn",
@@ -540,7 +589,10 @@
             "ク"
           ],
           "on": true,
-          "level": 1
+          "level": 1,
+          "kun": [
+            "くち"
+          ]
         }
       }
     },
@@ -594,6 +646,55 @@
           ],
           "on": true,
           "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:子@cn",
+      "glyph_id": "g:子",
+      "lang": "cn",
+      "name": "子",
+      "readings": [
+        "zǐ"
+      ],
+      "gloss": "child; son",
+      "extra": "康熙部首 39 · 象形（婴儿）· 儿子、孩子",
+      "appearsIn": {
+        "glyph": "字",
+        "reading": "zì",
+        "gloss": "character; word"
+      }
+    },
+    {
+      "id": "b:子@jp",
+      "glyph_id": "g:子",
+      "lang": "jp",
+      "name": "子",
+      "readings": [
+        "こ"
+      ],
+      "gloss": "child",
+      "extra": "漢字「子」(こ · シ) · 子供、様子",
+      "appearsIn": {
+        "glyph": "字",
+        "reading": "ジ",
+        "gloss": "character"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Child",
+        "kind": "meaning",
+        "level": 1,
+        "kanji": {
+          "name": "Child",
+          "readings": [
+            "シ"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "こ"
+          ]
         }
       }
     },
@@ -783,6 +884,42 @@
           ],
           "on": true,
           "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:六@cn",
+      "glyph_id": "g:六",
+      "lang": "cn",
+      "name": "六",
+      "readings": [
+        "liù"
+      ],
+      "gloss": "six",
+      "extra": "亠 + 八 · 数字「六」· 六月、六十"
+    },
+    {
+      "id": "b:六@jp",
+      "glyph_id": "g:六",
+      "lang": "jp",
+      "name": "六",
+      "readings": [
+        "ロク"
+      ],
+      "gloss": "six",
+      "extra": "漢字「六」(ロク · む・むっ-つ) · 六月",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Six",
+          "readings": [
+            "ロク"
+          ],
+          "on": true,
+          "level": 1,
+          "kun": [
+            "む"
+          ]
         }
       }
     },
