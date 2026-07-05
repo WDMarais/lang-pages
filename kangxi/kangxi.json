@@ -1619,6 +1619,11 @@
               "label": "mountain",
               "images": [
                 {
+                  "src": "../shared/referents/mountain-clip.svg",
+                  "credit": "lang-pages",
+                  "license": "CC0"
+                },
+                {
                   "src": "../shared/referents/mountain-01.jpg",
                   "credit": "Vyacheslav Argenberg",
                   "license": "CC BY 4.0"
@@ -2305,6 +2310,11 @@
               "label": "sun; day",
               "images": [
                 {
+                  "src": "../shared/referents/sun-clip.svg",
+                  "credit": "lang-pages",
+                  "license": "CC0"
+                },
+                {
                   "src": "../shared/referents/sun-01.jpg",
                   "credit": "Khanahmedsam",
                   "license": "CC BY-SA 4.0"
@@ -2358,6 +2368,11 @@
             {
               "label": "moon",
               "images": [
+                {
+                  "src": "../shared/referents/moon-clip.svg",
+                  "credit": "lang-pages",
+                  "license": "CC0"
+                },
                 {
                   "src": "../shared/referents/moon-01.jpg",
                   "credit": "Megala Shankar",
@@ -2654,6 +2669,11 @@
               "label": "water",
               "images": [
                 {
+                  "src": "../shared/referents/water-clip.svg",
+                  "credit": "lang-pages",
+                  "license": "CC0"
+                },
+                {
                   "src": "../shared/referents/water-01.jpg",
                   "credit": "Radomianin",
                   "license": "CC BY-SA 4.0"
@@ -2702,6 +2722,11 @@
             {
               "label": "fire",
               "images": [
+                {
+                  "src": "../shared/referents/fire-clip.svg",
+                  "credit": "lang-pages",
+                  "license": "CC0"
+                },
                 {
                   "src": "../shared/referents/fire-01.jpg",
                   "credit": "Nenad Stojkovic",

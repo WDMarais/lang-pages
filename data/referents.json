@@ -3,6 +3,12 @@
     "label": "fire",
     "images": [
       {
+        "file": "fire-clip.svg",
+        "credit": "lang-pages",
+        "license": "CC0",
+        "source": ""
+      },
+      {
         "file": "fire-01.jpg",
         "credit": "Nenad Stojkovic",
         "license": "CC BY 2.0",
@@ -31,6 +37,12 @@
     "label": "water",
     "images": [
       {
+        "file": "water-clip.svg",
+        "credit": "lang-pages",
+        "license": "CC0",
+        "source": ""
+      },
+      {
         "file": "water-01.jpg",
         "credit": "Radomianin",
         "license": "CC BY-SA 4.0",
@@ -41,6 +53,12 @@
   "mountain": {
     "label": "mountain",
     "images": [
+      {
+        "file": "mountain-clip.svg",
+        "credit": "lang-pages",
+        "license": "CC0",
+        "source": ""
+      },
       {
         "file": "mountain-01.jpg",
         "credit": "Vyacheslav Argenberg",
@@ -53,6 +71,12 @@
     "label": "sun",
     "images": [
       {
+        "file": "sun-clip.svg",
+        "credit": "lang-pages",
+        "license": "CC0",
+        "source": ""
+      },
+      {
         "file": "sun-01.jpg",
         "credit": "Khanahmedsam",
         "license": "CC BY-SA 4.0",
@@ -63,6 +87,12 @@
   "moon": {
     "label": "moon",
     "images": [
+      {
+        "file": "moon-clip.svg",
+        "credit": "lang-pages",
+        "license": "CC0",
+        "source": ""
+      },
       {
         "file": "moon-01.jpg",
         "credit": "Megala Shankar",
