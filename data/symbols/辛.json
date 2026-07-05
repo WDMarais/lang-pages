@@ -1,0 +1,26 @@
+{
+  "glyph": "辛",
+  "cp": "U+8F9B",
+  "slug": "xin160",
+  "class": "char",
+  "kangxi": 160,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "辛",
+      "reading": "xīn",
+      "gloss": "bitter",
+      "extra": "康熙部首 160"
+    },
+    "jp": {
+      "name": "辛",
+      "reading": "",
+      "gloss": "bitter"
+    }
+  },
+  "programs": []
+}

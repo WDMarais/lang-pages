@@ -1,0 +1,26 @@
+{
+  "glyph": "匕",
+  "cp": "U+5315",
+  "slug": "bi",
+  "class": "char",
+  "kangxi": 21,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "匕",
+      "reading": "bǐ",
+      "gloss": "spoon",
+      "extra": "康熙部首 21"
+    },
+    "jp": {
+      "name": "匕",
+      "reading": "",
+      "gloss": "spoon"
+    }
+  },
+  "programs": []
+}

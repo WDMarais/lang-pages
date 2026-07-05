@@ -1,0 +1,26 @@
+{
+  "glyph": "虍",
+  "cp": "U+864D",
+  "slug": "hu141",
+  "class": "comp",
+  "kangxi": 141,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "虍",
+      "reading": "hū",
+      "gloss": "tiger",
+      "extra": "康熙部首 141"
+    },
+    "jp": {
+      "name": "虍",
+      "reading": "",
+      "gloss": "tiger"
+    }
+  },
+  "programs": []
+}

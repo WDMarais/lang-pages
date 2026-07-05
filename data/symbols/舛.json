@@ -1,0 +1,26 @@
+{
+  "glyph": "舛",
+  "cp": "U+821B",
+  "slug": "chuan136",
+  "class": "char",
+  "kangxi": 136,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "舛",
+      "reading": "chuǎn",
+      "gloss": "oppose",
+      "extra": "康熙部首 136"
+    },
+    "jp": {
+      "name": "舛",
+      "reading": "",
+      "gloss": "oppose"
+    }
+  },
+  "programs": []
+}

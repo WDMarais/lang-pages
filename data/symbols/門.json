@@ -1,0 +1,26 @@
+{
+  "glyph": "門",
+  "cp": "U+9580",
+  "slug": "men",
+  "class": "char",
+  "kangxi": 169,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "門",
+      "reading": "mén",
+      "gloss": "gate",
+      "extra": "康熙部首 169"
+    },
+    "jp": {
+      "name": "門",
+      "reading": "",
+      "gloss": "gate"
+    }
+  },
+  "programs": []
+}

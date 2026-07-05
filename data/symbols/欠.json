@@ -1,0 +1,26 @@
+{
+  "glyph": "欠",
+  "cp": "U+6B20",
+  "slug": "qian76",
+  "class": "char",
+  "kangxi": 76,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "欠",
+      "reading": "qiàn",
+      "gloss": "yawn",
+      "extra": "康熙部首 76"
+    },
+    "jp": {
+      "name": "欠",
+      "reading": "",
+      "gloss": "yawn"
+    }
+  },
+  "programs": []
+}

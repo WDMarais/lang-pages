@@ -1,0 +1,26 @@
+{
+  "glyph": "石",
+  "cp": "U+77F3",
+  "slug": "shi112",
+  "class": "char",
+  "kangxi": 112,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "石",
+      "reading": "shí",
+      "gloss": "stone",
+      "extra": "康熙部首 112"
+    },
+    "jp": {
+      "name": "石",
+      "reading": "",
+      "gloss": "stone"
+    }
+  },
+  "programs": []
+}

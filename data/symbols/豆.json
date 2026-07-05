@@ -1,0 +1,26 @@
+{
+  "glyph": "豆",
+  "cp": "U+8C46",
+  "slug": "dou151",
+  "class": "char",
+  "kangxi": 151,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "豆",
+      "reading": "dòu",
+      "gloss": "bean",
+      "extra": "康熙部首 151"
+    },
+    "jp": {
+      "name": "豆",
+      "reading": "",
+      "gloss": "bean"
+    }
+  },
+  "programs": []
+}

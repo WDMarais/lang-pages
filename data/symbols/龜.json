@@ -1,0 +1,26 @@
+{
+  "glyph": "龜",
+  "cp": "U+9F9C",
+  "slug": "gui213",
+  "class": "char",
+  "kangxi": 213,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "龜",
+      "reading": "guī",
+      "gloss": "turtle",
+      "extra": "康熙部首 213"
+    },
+    "jp": {
+      "name": "龜",
+      "reading": "",
+      "gloss": "turtle"
+    }
+  },
+  "programs": []
+}

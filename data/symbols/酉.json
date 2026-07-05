@@ -1,0 +1,26 @@
+{
+  "glyph": "酉",
+  "cp": "U+9149",
+  "slug": "you164",
+  "class": "char",
+  "kangxi": 164,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "酉",
+      "reading": "yǒu",
+      "gloss": "wine",
+      "extra": "康熙部首 164"
+    },
+    "jp": {
+      "name": "酉",
+      "reading": "",
+      "gloss": "wine"
+    }
+  },
+  "programs": []
+}

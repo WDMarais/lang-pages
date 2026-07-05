@@ -1,0 +1,26 @@
+{
+  "glyph": "歹",
+  "cp": "U+6B79",
+  "slug": "dai",
+  "class": "char",
+  "kangxi": 78,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "歹",
+      "reading": "dǎi",
+      "gloss": "death",
+      "extra": "康熙部首 78"
+    },
+    "jp": {
+      "name": "歹",
+      "reading": "",
+      "gloss": "death"
+    }
+  },
+  "programs": []
+}

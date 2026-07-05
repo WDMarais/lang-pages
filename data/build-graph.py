@@ -194,7 +194,12 @@ def build():
 def view(b):
     v = {"name": b["name"],
          "reading": b["readings"][0] if b["readings"] else "",
-         "gloss": b["gloss"], "extra": b["extra"]}
+         "gloss": b["gloss"]}
+    # `extra` is present iff meaningful — mirrors to_card, which carries the raw
+    # reading dict (thin form_only symbols have no JP extra yet). Emitting extra:""
+    # unconditionally would break the graph↔card round-trip for those.
+    if b.get("extra"):
+        v["extra"] = b["extra"]
     if "appearsIn" in b:
         e = b["appearsIn"]
         v["appearsIn"] = {"char": e["glyph"], "reading": e["reading"], "gloss": e["gloss"]}

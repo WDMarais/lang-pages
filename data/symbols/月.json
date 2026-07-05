@@ -1,0 +1,26 @@
+{
+  "glyph": "月",
+  "cp": "U+6708",
+  "slug": "yue74",
+  "class": "char",
+  "kangxi": 74,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "月",
+      "reading": "yuè",
+      "gloss": "moon",
+      "extra": "康熙部首 74"
+    },
+    "jp": {
+      "name": "月",
+      "reading": "",
+      "gloss": "moon"
+    }
+  },
+  "programs": []
+}

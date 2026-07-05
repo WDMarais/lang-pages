@@ -1,0 +1,26 @@
+{
+  "glyph": "襾",
+  "cp": "U+897E",
+  "slug": "ya146",
+  "class": "char",
+  "kangxi": 146,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "襾",
+      "reading": "yà",
+      "gloss": "cover",
+      "extra": "康熙部首 146"
+    },
+    "jp": {
+      "name": "襾",
+      "reading": "",
+      "gloss": "cover"
+    }
+  },
+  "programs": []
+}

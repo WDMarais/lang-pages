@@ -1,0 +1,26 @@
+{
+  "glyph": "耒",
+  "cp": "U+8012",
+  "slug": "lei",
+  "class": "char",
+  "kangxi": 127,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "耒",
+      "reading": "lěi",
+      "gloss": "plow",
+      "extra": "康熙部首 127"
+    },
+    "jp": {
+      "name": "耒",
+      "reading": "",
+      "gloss": "plow"
+    }
+  },
+  "programs": []
+}

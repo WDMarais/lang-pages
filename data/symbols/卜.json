@@ -1,0 +1,26 @@
+{
+  "glyph": "卜",
+  "cp": "U+535C",
+  "slug": "bu25",
+  "class": "char",
+  "kangxi": 25,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "卜",
+      "reading": "bǔ",
+      "gloss": "divination",
+      "extra": "康熙部首 25"
+    },
+    "jp": {
+      "name": "卜",
+      "reading": "",
+      "gloss": "divination"
+    }
+  },
+  "programs": []
+}

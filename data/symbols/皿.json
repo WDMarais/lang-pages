@@ -1,0 +1,26 @@
+{
+  "glyph": "皿",
+  "cp": "U+76BF",
+  "slug": "min",
+  "class": "char",
+  "kangxi": 108,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "皿",
+      "reading": "mǐn",
+      "gloss": "dish",
+      "extra": "康熙部首 108"
+    },
+    "jp": {
+      "name": "皿",
+      "reading": "",
+      "gloss": "dish"
+    }
+  },
+  "programs": []
+}

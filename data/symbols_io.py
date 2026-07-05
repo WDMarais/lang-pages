@@ -51,8 +51,11 @@ def on_components(sym):
 
 def on_characters(sym):
     """The full standalone-character inventory. Overlaps /kangxi/ for chars that
-    are also Kangxi radicals (大, 木, 口) — one symbol, two projected views."""
-    return sym["class"] == "char"
+    are also Kangxi radicals (大, 木, 口) — one symbol, two projected views.
+    Excludes `form_only` stubs — the CN-first Kangxi promotion (glyph + reading +
+    stroke data, no JP/programs/examples yet) shows only on /kangxi/ until a
+    content pass fleshes it out, so /characters/ stays a curated real-card deck."""
+    return sym["class"] == "char" and not sym.get("form_only")
 
 
 # ── symbol → card (the lang-pages presentation shape) ───────────────────────

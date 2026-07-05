@@ -1,0 +1,26 @@
+{
+  "glyph": "艮",
+  "cp": "U+826E",
+  "slug": "gen",
+  "class": "char",
+  "kangxi": 138,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "艮",
+      "reading": "gèn",
+      "gloss": "stopping",
+      "extra": "康熙部首 138"
+    },
+    "jp": {
+      "name": "艮",
+      "reading": "",
+      "gloss": "stopping"
+    }
+  },
+  "programs": []
+}

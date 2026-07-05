@@ -1,0 +1,26 @@
+{
+  "glyph": "邑",
+  "cp": "U+9091",
+  "slug": "yi163",
+  "class": "char",
+  "kangxi": 163,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "邑",
+      "reading": "yì",
+      "gloss": "city",
+      "extra": "康熙部首 163"
+    },
+    "jp": {
+      "name": "邑",
+      "reading": "",
+      "gloss": "city"
+    }
+  },
+  "programs": []
+}

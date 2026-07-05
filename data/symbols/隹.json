@@ -1,0 +1,26 @@
+{
+  "glyph": "隹",
+  "cp": "U+96B9",
+  "slug": "zhui",
+  "class": "char",
+  "kangxi": 172,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "隹",
+      "reading": "zhuī",
+      "gloss": "short-tailed bird",
+      "extra": "康熙部首 172"
+    },
+    "jp": {
+      "name": "隹",
+      "reading": "",
+      "gloss": "short-tailed bird"
+    }
+  },
+  "programs": []
+}

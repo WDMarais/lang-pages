@@ -1,0 +1,26 @@
+{
+  "glyph": "車",
+  "cp": "U+8ECA",
+  "slug": "che159",
+  "class": "char",
+  "kangxi": 159,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "車",
+      "reading": "chē",
+      "gloss": "cart",
+      "extra": "康熙部首 159"
+    },
+    "jp": {
+      "name": "車",
+      "reading": "",
+      "gloss": "cart"
+    }
+  },
+  "programs": []
+}

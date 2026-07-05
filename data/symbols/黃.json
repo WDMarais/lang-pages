@@ -1,0 +1,26 @@
+{
+  "glyph": "黃",
+  "cp": "U+9EC3",
+  "slug": "huang",
+  "class": "char",
+  "kangxi": 201,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "黃",
+      "reading": "huáng",
+      "gloss": "yellow",
+      "extra": "康熙部首 201"
+    },
+    "jp": {
+      "name": "黃",
+      "reading": "",
+      "gloss": "yellow"
+    }
+  },
+  "programs": []
+}

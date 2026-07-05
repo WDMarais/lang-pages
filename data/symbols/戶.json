@@ -1,0 +1,26 @@
+{
+  "glyph": "戶",
+  "cp": "U+6236",
+  "slug": "hu",
+  "class": "char",
+  "kangxi": 63,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "戶",
+      "reading": "hù",
+      "gloss": "door",
+      "extra": "康熙部首 63"
+    },
+    "jp": {
+      "name": "戶",
+      "reading": "",
+      "gloss": "door"
+    }
+  },
+  "programs": []
+}

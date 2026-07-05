@@ -1,0 +1,26 @@
+{
+  "glyph": "玄",
+  "cp": "U+7384",
+  "slug": "xuan",
+  "class": "char",
+  "kangxi": 95,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "玄",
+      "reading": "xuán",
+      "gloss": "profound",
+      "extra": "康熙部首 95"
+    },
+    "jp": {
+      "name": "玄",
+      "reading": "",
+      "gloss": "profound"
+    }
+  },
+  "programs": []
+}

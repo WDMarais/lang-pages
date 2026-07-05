@@ -1,0 +1,26 @@
+{
+  "glyph": "屮",
+  "cp": "U+5C6E",
+  "slug": "che",
+  "class": "comp",
+  "kangxi": 45,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "屮",
+      "reading": "chè",
+      "gloss": "sprout",
+      "extra": "康熙部首 45"
+    },
+    "jp": {
+      "name": "屮",
+      "reading": "",
+      "gloss": "sprout"
+    }
+  },
+  "programs": []
+}

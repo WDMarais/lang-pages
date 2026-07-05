@@ -1,0 +1,26 @@
+{
+  "glyph": "鼓",
+  "cp": "U+9F13",
+  "slug": "gu207",
+  "class": "char",
+  "kangxi": 207,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鼓",
+      "reading": "gǔ",
+      "gloss": "drum",
+      "extra": "康熙部首 207"
+    },
+    "jp": {
+      "name": "鼓",
+      "reading": "",
+      "gloss": "drum"
+    }
+  },
+  "programs": []
+}

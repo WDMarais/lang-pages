@@ -1,0 +1,26 @@
+{
+  "glyph": "足",
+  "cp": "U+8DB3",
+  "slug": "zu",
+  "class": "char",
+  "kangxi": 157,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "足",
+      "reading": "zú",
+      "gloss": "foot",
+      "extra": "康熙部首 157"
+    },
+    "jp": {
+      "name": "足",
+      "reading": "",
+      "gloss": "foot"
+    }
+  },
+  "programs": []
+}

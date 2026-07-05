@@ -1,0 +1,26 @@
+{
+  "glyph": "立",
+  "cp": "U+7ACB",
+  "slug": "li117",
+  "class": "char",
+  "kangxi": 117,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "立",
+      "reading": "lì",
+      "gloss": "stand",
+      "extra": "康熙部首 117"
+    },
+    "jp": {
+      "name": "立",
+      "reading": "",
+      "gloss": "stand"
+    }
+  },
+  "programs": []
+}

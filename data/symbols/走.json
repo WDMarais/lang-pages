@@ -1,0 +1,26 @@
+{
+  "glyph": "走",
+  "cp": "U+8D70",
+  "slug": "zou",
+  "class": "char",
+  "kangxi": 156,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "走",
+      "reading": "zǒu",
+      "gloss": "run",
+      "extra": "康熙部首 156"
+    },
+    "jp": {
+      "name": "走",
+      "reading": "",
+      "gloss": "run"
+    }
+  },
+  "programs": []
+}

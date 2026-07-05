@@ -1,0 +1,26 @@
+{
+  "glyph": "齒",
+  "cp": "U+9F52",
+  "slug": "chi211",
+  "class": "char",
+  "kangxi": 211,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "齒",
+      "reading": "chǐ",
+      "gloss": "tooth",
+      "extra": "康熙部首 211"
+    },
+    "jp": {
+      "name": "齒",
+      "reading": "",
+      "gloss": "tooth"
+    }
+  },
+  "programs": []
+}

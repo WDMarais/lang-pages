@@ -1,0 +1,26 @@
+{
+  "glyph": "髟",
+  "cp": "U+9ADF",
+  "slug": "biao",
+  "class": "comp",
+  "kangxi": 190,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "髟",
+      "reading": "biāo",
+      "gloss": "long hair",
+      "extra": "康熙部首 190"
+    },
+    "jp": {
+      "name": "髟",
+      "reading": "",
+      "gloss": "long hair"
+    }
+  },
+  "programs": []
+}

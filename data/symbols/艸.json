@@ -1,0 +1,26 @@
+{
+  "glyph": "艸",
+  "cp": "U+8278",
+  "slug": "cao",
+  "class": "char",
+  "kangxi": 140,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "艸",
+      "reading": "cǎo",
+      "gloss": "grass",
+      "extra": "康熙部首 140"
+    },
+    "jp": {
+      "name": "艸",
+      "reading": "",
+      "gloss": "grass"
+    }
+  },
+  "programs": []
+}

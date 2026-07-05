@@ -1,0 +1,26 @@
+{
+  "glyph": "虫",
+  "cp": "U+866B",
+  "slug": "chong",
+  "class": "char",
+  "kangxi": 142,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "虫",
+      "reading": "chóng",
+      "gloss": "insect",
+      "extra": "康熙部首 142"
+    },
+    "jp": {
+      "name": "虫",
+      "reading": "",
+      "gloss": "insect"
+    }
+  },
+  "programs": []
+}

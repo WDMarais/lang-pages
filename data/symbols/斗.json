@@ -1,0 +1,26 @@
+{
+  "glyph": "斗",
+  "cp": "U+6597",
+  "slug": "dou",
+  "class": "char",
+  "kangxi": 68,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "斗",
+      "reading": "dǒu",
+      "gloss": "dipper",
+      "extra": "康熙部首 68"
+    },
+    "jp": {
+      "name": "斗",
+      "reading": "",
+      "gloss": "dipper"
+    }
+  },
+  "programs": []
+}

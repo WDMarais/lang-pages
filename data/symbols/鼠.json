@@ -1,0 +1,26 @@
+{
+  "glyph": "鼠",
+  "cp": "U+9F20",
+  "slug": "shu208",
+  "class": "char",
+  "kangxi": 208,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鼠",
+      "reading": "shǔ",
+      "gloss": "rat",
+      "extra": "康熙部首 208"
+    },
+    "jp": {
+      "name": "鼠",
+      "reading": "",
+      "gloss": "rat"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "矢",
+  "cp": "U+77E2",
+  "slug": "shi111",
+  "class": "char",
+  "kangxi": 111,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "矢",
+      "reading": "shǐ",
+      "gloss": "arrow",
+      "extra": "康熙部首 111"
+    },
+    "jp": {
+      "name": "矢",
+      "reading": "",
+      "gloss": "arrow"
+    }
+  },
+  "programs": []
+}

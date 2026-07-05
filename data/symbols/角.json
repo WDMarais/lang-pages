@@ -1,0 +1,26 @@
+{
+  "glyph": "角",
+  "cp": "U+89D2",
+  "slug": "jiao",
+  "class": "char",
+  "kangxi": 148,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "角",
+      "reading": "jiǎo",
+      "gloss": "horn",
+      "extra": "康熙部首 148"
+    },
+    "jp": {
+      "name": "角",
+      "reading": "",
+      "gloss": "horn"
+    }
+  },
+  "programs": []
+}

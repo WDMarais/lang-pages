@@ -1,0 +1,26 @@
+{
+  "glyph": "非",
+  "cp": "U+975E",
+  "slug": "fei",
+  "class": "char",
+  "kangxi": 175,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "非",
+      "reading": "fēi",
+      "gloss": "wrong",
+      "extra": "康熙部首 175"
+    },
+    "jp": {
+      "name": "非",
+      "reading": "",
+      "gloss": "wrong"
+    }
+  },
+  "programs": []
+}

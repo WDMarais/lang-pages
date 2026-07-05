@@ -1,0 +1,26 @@
+{
+  "glyph": "豸",
+  "cp": "U+8C78",
+  "slug": "zhi153",
+  "class": "char",
+  "kangxi": 153,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "豸",
+      "reading": "zhì",
+      "gloss": "badger",
+      "extra": "康熙部首 153"
+    },
+    "jp": {
+      "name": "豸",
+      "reading": "",
+      "gloss": "badger"
+    }
+  },
+  "programs": []
+}

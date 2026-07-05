@@ -1,0 +1,26 @@
+{
+  "glyph": "彡",
+  "cp": "U+5F61",
+  "slug": "shan59",
+  "class": "char",
+  "kangxi": 59,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "彡",
+      "reading": "shān",
+      "gloss": "bristle",
+      "extra": "康熙部首 59"
+    },
+    "jp": {
+      "name": "彡",
+      "reading": "",
+      "gloss": "bristle"
+    }
+  },
+  "programs": []
+}

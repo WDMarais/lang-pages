@@ -1,0 +1,26 @@
+{
+  "glyph": "韋",
+  "cp": "U+97CB",
+  "slug": "wei178",
+  "class": "char",
+  "kangxi": 178,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "韋",
+      "reading": "wéi",
+      "gloss": "tanned leather",
+      "extra": "康熙部首 178"
+    },
+    "jp": {
+      "name": "韋",
+      "reading": "",
+      "gloss": "tanned leather"
+    }
+  },
+  "programs": []
+}

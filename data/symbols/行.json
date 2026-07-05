@@ -1,0 +1,26 @@
+{
+  "glyph": "行",
+  "cp": "U+884C",
+  "slug": "xing",
+  "class": "char",
+  "kangxi": 144,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "行",
+      "reading": "xíng",
+      "gloss": "walk",
+      "extra": "康熙部首 144"
+    },
+    "jp": {
+      "name": "行",
+      "reading": "",
+      "gloss": "walk"
+    }
+  },
+  "programs": []
+}

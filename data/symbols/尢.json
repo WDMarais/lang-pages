@@ -1,0 +1,26 @@
+{
+  "glyph": "尢",
+  "cp": "U+5C22",
+  "slug": "wang",
+  "class": "comp",
+  "kangxi": 43,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "尢",
+      "reading": "wāng",
+      "gloss": "lame",
+      "extra": "康熙部首 43"
+    },
+    "jp": {
+      "name": "尢",
+      "reading": "",
+      "gloss": "lame"
+    }
+  },
+  "programs": []
+}

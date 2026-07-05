@@ -1,0 +1,26 @@
+{
+  "glyph": "瓜",
+  "cp": "U+74DC",
+  "slug": "gua",
+  "class": "char",
+  "kangxi": 97,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "瓜",
+      "reading": "guā",
+      "gloss": "melon",
+      "extra": "康熙部首 97"
+    },
+    "jp": {
+      "name": "瓜",
+      "reading": "",
+      "gloss": "melon"
+    }
+  },
+  "programs": []
+}

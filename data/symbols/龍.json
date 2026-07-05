@@ -1,0 +1,26 @@
+{
+  "glyph": "龍",
+  "cp": "U+9F8D",
+  "slug": "long",
+  "class": "char",
+  "kangxi": 212,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "龍",
+      "reading": "lóng",
+      "gloss": "dragon",
+      "extra": "康熙部首 212"
+    },
+    "jp": {
+      "name": "龍",
+      "reading": "",
+      "gloss": "dragon"
+    }
+  },
+  "programs": []
+}

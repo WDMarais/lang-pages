@@ -2347,6 +2347,3526 @@
       }
     },
     {
+      "id": "b:乙@cn",
+      "glyph_id": "g:乙",
+      "lang": "cn",
+      "name": "乙",
+      "readings": [
+        "yǐ"
+      ],
+      "gloss": "second",
+      "extra": "康熙部首 5"
+    },
+    {
+      "id": "b:乙@jp",
+      "glyph_id": "g:乙",
+      "lang": "jp",
+      "name": "乙",
+      "readings": [],
+      "gloss": "second",
+      "extra": ""
+    },
+    {
+      "id": "b:冖@cn",
+      "glyph_id": "g:冖",
+      "lang": "cn",
+      "name": "冖",
+      "readings": [
+        "mì"
+      ],
+      "gloss": "cover",
+      "extra": "康熙部首 14"
+    },
+    {
+      "id": "b:冖@jp",
+      "glyph_id": "g:冖",
+      "lang": "jp",
+      "name": "冖",
+      "readings": [],
+      "gloss": "cover",
+      "extra": ""
+    },
+    {
+      "id": "b:冫@cn",
+      "glyph_id": "g:冫",
+      "lang": "cn",
+      "name": "冫",
+      "readings": [
+        "bīng"
+      ],
+      "gloss": "ice",
+      "extra": "康熙部首 15"
+    },
+    {
+      "id": "b:冫@jp",
+      "glyph_id": "g:冫",
+      "lang": "jp",
+      "name": "冫",
+      "readings": [],
+      "gloss": "ice",
+      "extra": ""
+    },
+    {
+      "id": "b:几@cn",
+      "glyph_id": "g:几",
+      "lang": "cn",
+      "name": "几",
+      "readings": [
+        "jī"
+      ],
+      "gloss": "table",
+      "extra": "康熙部首 16"
+    },
+    {
+      "id": "b:几@jp",
+      "glyph_id": "g:几",
+      "lang": "jp",
+      "name": "几",
+      "readings": [],
+      "gloss": "table",
+      "extra": ""
+    },
+    {
+      "id": "b:凵@cn",
+      "glyph_id": "g:凵",
+      "lang": "cn",
+      "name": "凵",
+      "readings": [
+        "kǎn"
+      ],
+      "gloss": "open box",
+      "extra": "康熙部首 17"
+    },
+    {
+      "id": "b:凵@jp",
+      "glyph_id": "g:凵",
+      "lang": "jp",
+      "name": "凵",
+      "readings": [],
+      "gloss": "open box",
+      "extra": ""
+    },
+    {
+      "id": "b:匕@cn",
+      "glyph_id": "g:匕",
+      "lang": "cn",
+      "name": "匕",
+      "readings": [
+        "bǐ"
+      ],
+      "gloss": "spoon",
+      "extra": "康熙部首 21"
+    },
+    {
+      "id": "b:匕@jp",
+      "glyph_id": "g:匕",
+      "lang": "jp",
+      "name": "匕",
+      "readings": [],
+      "gloss": "spoon",
+      "extra": ""
+    },
+    {
+      "id": "b:匚@cn",
+      "glyph_id": "g:匚",
+      "lang": "cn",
+      "name": "匚",
+      "readings": [
+        "fāng"
+      ],
+      "gloss": "box",
+      "extra": "康熙部首 22"
+    },
+    {
+      "id": "b:匚@jp",
+      "glyph_id": "g:匚",
+      "lang": "jp",
+      "name": "匚",
+      "readings": [],
+      "gloss": "box",
+      "extra": ""
+    },
+    {
+      "id": "b:匸@cn",
+      "glyph_id": "g:匸",
+      "lang": "cn",
+      "name": "匸",
+      "readings": [
+        "xì"
+      ],
+      "gloss": "hiding enclosure",
+      "extra": "康熙部首 23"
+    },
+    {
+      "id": "b:匸@jp",
+      "glyph_id": "g:匸",
+      "lang": "jp",
+      "name": "匸",
+      "readings": [],
+      "gloss": "hiding enclosure",
+      "extra": ""
+    },
+    {
+      "id": "b:卜@cn",
+      "glyph_id": "g:卜",
+      "lang": "cn",
+      "name": "卜",
+      "readings": [
+        "bǔ"
+      ],
+      "gloss": "divination",
+      "extra": "康熙部首 25"
+    },
+    {
+      "id": "b:卜@jp",
+      "glyph_id": "g:卜",
+      "lang": "jp",
+      "name": "卜",
+      "readings": [],
+      "gloss": "divination",
+      "extra": ""
+    },
+    {
+      "id": "b:卩@cn",
+      "glyph_id": "g:卩",
+      "lang": "cn",
+      "name": "卩",
+      "readings": [
+        "jié"
+      ],
+      "gloss": "seal",
+      "extra": "康熙部首 26"
+    },
+    {
+      "id": "b:卩@jp",
+      "glyph_id": "g:卩",
+      "lang": "jp",
+      "name": "卩",
+      "readings": [],
+      "gloss": "seal",
+      "extra": ""
+    },
+    {
+      "id": "b:厶@cn",
+      "glyph_id": "g:厶",
+      "lang": "cn",
+      "name": "厶",
+      "readings": [
+        "sī"
+      ],
+      "gloss": "private",
+      "extra": "康熙部首 28"
+    },
+    {
+      "id": "b:厶@jp",
+      "glyph_id": "g:厶",
+      "lang": "jp",
+      "name": "厶",
+      "readings": [],
+      "gloss": "private",
+      "extra": ""
+    },
+    {
+      "id": "b:又@cn",
+      "glyph_id": "g:又",
+      "lang": "cn",
+      "name": "又",
+      "readings": [
+        "yòu"
+      ],
+      "gloss": "again",
+      "extra": "康熙部首 29"
+    },
+    {
+      "id": "b:又@jp",
+      "glyph_id": "g:又",
+      "lang": "jp",
+      "name": "又",
+      "readings": [],
+      "gloss": "again",
+      "extra": ""
+    },
+    {
+      "id": "b:囗@cn",
+      "glyph_id": "g:囗",
+      "lang": "cn",
+      "name": "囗",
+      "readings": [
+        "wéi"
+      ],
+      "gloss": "enclosure",
+      "extra": "康熙部首 31"
+    },
+    {
+      "id": "b:囗@jp",
+      "glyph_id": "g:囗",
+      "lang": "jp",
+      "name": "囗",
+      "readings": [],
+      "gloss": "enclosure",
+      "extra": ""
+    },
+    {
+      "id": "b:士@cn",
+      "glyph_id": "g:士",
+      "lang": "cn",
+      "name": "士",
+      "readings": [
+        "shì"
+      ],
+      "gloss": "scholar",
+      "extra": "康熙部首 33"
+    },
+    {
+      "id": "b:士@jp",
+      "glyph_id": "g:士",
+      "lang": "jp",
+      "name": "士",
+      "readings": [],
+      "gloss": "scholar",
+      "extra": ""
+    },
+    {
+      "id": "b:夂@cn",
+      "glyph_id": "g:夂",
+      "lang": "cn",
+      "name": "夂",
+      "readings": [
+        "zhǐ"
+      ],
+      "gloss": "go",
+      "extra": "康熙部首 34"
+    },
+    {
+      "id": "b:夂@jp",
+      "glyph_id": "g:夂",
+      "lang": "jp",
+      "name": "夂",
+      "readings": [],
+      "gloss": "go",
+      "extra": ""
+    },
+    {
+      "id": "b:夊@cn",
+      "glyph_id": "g:夊",
+      "lang": "cn",
+      "name": "夊",
+      "readings": [
+        "suī"
+      ],
+      "gloss": "go slowly",
+      "extra": "康熙部首 35"
+    },
+    {
+      "id": "b:夊@jp",
+      "glyph_id": "g:夊",
+      "lang": "jp",
+      "name": "夊",
+      "readings": [],
+      "gloss": "go slowly",
+      "extra": ""
+    },
+    {
+      "id": "b:寸@cn",
+      "glyph_id": "g:寸",
+      "lang": "cn",
+      "name": "寸",
+      "readings": [
+        "cùn"
+      ],
+      "gloss": "inch",
+      "extra": "康熙部首 41"
+    },
+    {
+      "id": "b:寸@jp",
+      "glyph_id": "g:寸",
+      "lang": "jp",
+      "name": "寸",
+      "readings": [],
+      "gloss": "inch",
+      "extra": ""
+    },
+    {
+      "id": "b:尢@cn",
+      "glyph_id": "g:尢",
+      "lang": "cn",
+      "name": "尢",
+      "readings": [
+        "wāng"
+      ],
+      "gloss": "lame",
+      "extra": "康熙部首 43"
+    },
+    {
+      "id": "b:尢@jp",
+      "glyph_id": "g:尢",
+      "lang": "jp",
+      "name": "尢",
+      "readings": [],
+      "gloss": "lame",
+      "extra": ""
+    },
+    {
+      "id": "b:屮@cn",
+      "glyph_id": "g:屮",
+      "lang": "cn",
+      "name": "屮",
+      "readings": [
+        "chè"
+      ],
+      "gloss": "sprout",
+      "extra": "康熙部首 45"
+    },
+    {
+      "id": "b:屮@jp",
+      "glyph_id": "g:屮",
+      "lang": "jp",
+      "name": "屮",
+      "readings": [],
+      "gloss": "sprout",
+      "extra": ""
+    },
+    {
+      "id": "b:己@cn",
+      "glyph_id": "g:己",
+      "lang": "cn",
+      "name": "己",
+      "readings": [
+        "jǐ"
+      ],
+      "gloss": "oneself",
+      "extra": "康熙部首 49"
+    },
+    {
+      "id": "b:己@jp",
+      "glyph_id": "g:己",
+      "lang": "jp",
+      "name": "己",
+      "readings": [],
+      "gloss": "oneself",
+      "extra": ""
+    },
+    {
+      "id": "b:巾@cn",
+      "glyph_id": "g:巾",
+      "lang": "cn",
+      "name": "巾",
+      "readings": [
+        "jīn"
+      ],
+      "gloss": "cloth",
+      "extra": "康熙部首 50"
+    },
+    {
+      "id": "b:巾@jp",
+      "glyph_id": "g:巾",
+      "lang": "jp",
+      "name": "巾",
+      "readings": [],
+      "gloss": "cloth",
+      "extra": ""
+    },
+    {
+      "id": "b:干@cn",
+      "glyph_id": "g:干",
+      "lang": "cn",
+      "name": "干",
+      "readings": [
+        "gān"
+      ],
+      "gloss": "dry",
+      "extra": "康熙部首 51"
+    },
+    {
+      "id": "b:干@jp",
+      "glyph_id": "g:干",
+      "lang": "jp",
+      "name": "干",
+      "readings": [],
+      "gloss": "dry",
+      "extra": ""
+    },
+    {
+      "id": "b:幺@cn",
+      "glyph_id": "g:幺",
+      "lang": "cn",
+      "name": "幺",
+      "readings": [
+        "yāo"
+      ],
+      "gloss": "short thread",
+      "extra": "康熙部首 52"
+    },
+    {
+      "id": "b:幺@jp",
+      "glyph_id": "g:幺",
+      "lang": "jp",
+      "name": "幺",
+      "readings": [],
+      "gloss": "short thread",
+      "extra": ""
+    },
+    {
+      "id": "b:广@cn",
+      "glyph_id": "g:广",
+      "lang": "cn",
+      "name": "广",
+      "readings": [
+        "guǎng"
+      ],
+      "gloss": "shelter",
+      "extra": "康熙部首 53"
+    },
+    {
+      "id": "b:广@jp",
+      "glyph_id": "g:广",
+      "lang": "jp",
+      "name": "广",
+      "readings": [],
+      "gloss": "shelter",
+      "extra": ""
+    },
+    {
+      "id": "b:廴@cn",
+      "glyph_id": "g:廴",
+      "lang": "cn",
+      "name": "廴",
+      "readings": [
+        "yǐn"
+      ],
+      "gloss": "stride",
+      "extra": "康熙部首 54"
+    },
+    {
+      "id": "b:廴@jp",
+      "glyph_id": "g:廴",
+      "lang": "jp",
+      "name": "廴",
+      "readings": [],
+      "gloss": "stride",
+      "extra": ""
+    },
+    {
+      "id": "b:廾@cn",
+      "glyph_id": "g:廾",
+      "lang": "cn",
+      "name": "廾",
+      "readings": [
+        "gǒng"
+      ],
+      "gloss": "two hands",
+      "extra": "康熙部首 55"
+    },
+    {
+      "id": "b:廾@jp",
+      "glyph_id": "g:廾",
+      "lang": "jp",
+      "name": "廾",
+      "readings": [],
+      "gloss": "two hands",
+      "extra": ""
+    },
+    {
+      "id": "b:弋@cn",
+      "glyph_id": "g:弋",
+      "lang": "cn",
+      "name": "弋",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "shoot",
+      "extra": "康熙部首 56"
+    },
+    {
+      "id": "b:弋@jp",
+      "glyph_id": "g:弋",
+      "lang": "jp",
+      "name": "弋",
+      "readings": [],
+      "gloss": "shoot",
+      "extra": ""
+    },
+    {
+      "id": "b:彐@cn",
+      "glyph_id": "g:彐",
+      "lang": "cn",
+      "name": "彐",
+      "readings": [
+        "jì"
+      ],
+      "gloss": "snout",
+      "extra": "康熙部首 58"
+    },
+    {
+      "id": "b:彐@jp",
+      "glyph_id": "g:彐",
+      "lang": "jp",
+      "name": "彐",
+      "readings": [],
+      "gloss": "snout",
+      "extra": ""
+    },
+    {
+      "id": "b:彡@cn",
+      "glyph_id": "g:彡",
+      "lang": "cn",
+      "name": "彡",
+      "readings": [
+        "shān"
+      ],
+      "gloss": "bristle",
+      "extra": "康熙部首 59"
+    },
+    {
+      "id": "b:彡@jp",
+      "glyph_id": "g:彡",
+      "lang": "jp",
+      "name": "彡",
+      "readings": [],
+      "gloss": "bristle",
+      "extra": ""
+    },
+    {
+      "id": "b:彳@cn",
+      "glyph_id": "g:彳",
+      "lang": "cn",
+      "name": "彳",
+      "readings": [
+        "chì"
+      ],
+      "gloss": "step",
+      "extra": "康熙部首 60"
+    },
+    {
+      "id": "b:彳@jp",
+      "glyph_id": "g:彳",
+      "lang": "jp",
+      "name": "彳",
+      "readings": [],
+      "gloss": "step",
+      "extra": ""
+    },
+    {
+      "id": "b:心@cn",
+      "glyph_id": "g:心",
+      "lang": "cn",
+      "name": "心",
+      "readings": [
+        "xīn"
+      ],
+      "gloss": "heart",
+      "extra": "康熙部首 61"
+    },
+    {
+      "id": "b:心@jp",
+      "glyph_id": "g:心",
+      "lang": "jp",
+      "name": "心",
+      "readings": [],
+      "gloss": "heart",
+      "extra": ""
+    },
+    {
+      "id": "b:戈@cn",
+      "glyph_id": "g:戈",
+      "lang": "cn",
+      "name": "戈",
+      "readings": [
+        "gē"
+      ],
+      "gloss": "halberd",
+      "extra": "康熙部首 62"
+    },
+    {
+      "id": "b:戈@jp",
+      "glyph_id": "g:戈",
+      "lang": "jp",
+      "name": "戈",
+      "readings": [],
+      "gloss": "halberd",
+      "extra": ""
+    },
+    {
+      "id": "b:戶@cn",
+      "glyph_id": "g:戶",
+      "lang": "cn",
+      "name": "戶",
+      "readings": [
+        "hù"
+      ],
+      "gloss": "door",
+      "extra": "康熙部首 63"
+    },
+    {
+      "id": "b:戶@jp",
+      "glyph_id": "g:戶",
+      "lang": "jp",
+      "name": "戶",
+      "readings": [],
+      "gloss": "door",
+      "extra": ""
+    },
+    {
+      "id": "b:支@cn",
+      "glyph_id": "g:支",
+      "lang": "cn",
+      "name": "支",
+      "readings": [
+        "zhī"
+      ],
+      "gloss": "branch",
+      "extra": "康熙部首 65"
+    },
+    {
+      "id": "b:支@jp",
+      "glyph_id": "g:支",
+      "lang": "jp",
+      "name": "支",
+      "readings": [],
+      "gloss": "branch",
+      "extra": ""
+    },
+    {
+      "id": "b:攴@cn",
+      "glyph_id": "g:攴",
+      "lang": "cn",
+      "name": "攴",
+      "readings": [
+        "pū"
+      ],
+      "gloss": "tap",
+      "extra": "康熙部首 66"
+    },
+    {
+      "id": "b:攴@jp",
+      "glyph_id": "g:攴",
+      "lang": "jp",
+      "name": "攴",
+      "readings": [],
+      "gloss": "tap",
+      "extra": ""
+    },
+    {
+      "id": "b:文@cn",
+      "glyph_id": "g:文",
+      "lang": "cn",
+      "name": "文",
+      "readings": [
+        "wén"
+      ],
+      "gloss": "script",
+      "extra": "康熙部首 67"
+    },
+    {
+      "id": "b:文@jp",
+      "glyph_id": "g:文",
+      "lang": "jp",
+      "name": "文",
+      "readings": [],
+      "gloss": "script",
+      "extra": ""
+    },
+    {
+      "id": "b:斗@cn",
+      "glyph_id": "g:斗",
+      "lang": "cn",
+      "name": "斗",
+      "readings": [
+        "dǒu"
+      ],
+      "gloss": "dipper",
+      "extra": "康熙部首 68"
+    },
+    {
+      "id": "b:斗@jp",
+      "glyph_id": "g:斗",
+      "lang": "jp",
+      "name": "斗",
+      "readings": [],
+      "gloss": "dipper",
+      "extra": ""
+    },
+    {
+      "id": "b:斤@cn",
+      "glyph_id": "g:斤",
+      "lang": "cn",
+      "name": "斤",
+      "readings": [
+        "jīn"
+      ],
+      "gloss": "axe",
+      "extra": "康熙部首 69"
+    },
+    {
+      "id": "b:斤@jp",
+      "glyph_id": "g:斤",
+      "lang": "jp",
+      "name": "斤",
+      "readings": [],
+      "gloss": "axe",
+      "extra": ""
+    },
+    {
+      "id": "b:方@cn",
+      "glyph_id": "g:方",
+      "lang": "cn",
+      "name": "方",
+      "readings": [
+        "fāng"
+      ],
+      "gloss": "square",
+      "extra": "康熙部首 70"
+    },
+    {
+      "id": "b:方@jp",
+      "glyph_id": "g:方",
+      "lang": "jp",
+      "name": "方",
+      "readings": [],
+      "gloss": "square",
+      "extra": ""
+    },
+    {
+      "id": "b:无@cn",
+      "glyph_id": "g:无",
+      "lang": "cn",
+      "name": "无",
+      "readings": [
+        "wú"
+      ],
+      "gloss": "not",
+      "extra": "康熙部首 71"
+    },
+    {
+      "id": "b:无@jp",
+      "glyph_id": "g:无",
+      "lang": "jp",
+      "name": "无",
+      "readings": [],
+      "gloss": "not",
+      "extra": ""
+    },
+    {
+      "id": "b:曰@cn",
+      "glyph_id": "g:曰",
+      "lang": "cn",
+      "name": "曰",
+      "readings": [
+        "yuē"
+      ],
+      "gloss": "say",
+      "extra": "康熙部首 73"
+    },
+    {
+      "id": "b:曰@jp",
+      "glyph_id": "g:曰",
+      "lang": "jp",
+      "name": "曰",
+      "readings": [],
+      "gloss": "say",
+      "extra": ""
+    },
+    {
+      "id": "b:月@cn",
+      "glyph_id": "g:月",
+      "lang": "cn",
+      "name": "月",
+      "readings": [
+        "yuè"
+      ],
+      "gloss": "moon",
+      "extra": "康熙部首 74"
+    },
+    {
+      "id": "b:月@jp",
+      "glyph_id": "g:月",
+      "lang": "jp",
+      "name": "月",
+      "readings": [],
+      "gloss": "moon",
+      "extra": ""
+    },
+    {
+      "id": "b:欠@cn",
+      "glyph_id": "g:欠",
+      "lang": "cn",
+      "name": "欠",
+      "readings": [
+        "qiàn"
+      ],
+      "gloss": "yawn",
+      "extra": "康熙部首 76"
+    },
+    {
+      "id": "b:欠@jp",
+      "glyph_id": "g:欠",
+      "lang": "jp",
+      "name": "欠",
+      "readings": [],
+      "gloss": "yawn",
+      "extra": ""
+    },
+    {
+      "id": "b:止@cn",
+      "glyph_id": "g:止",
+      "lang": "cn",
+      "name": "止",
+      "readings": [
+        "zhǐ"
+      ],
+      "gloss": "stop",
+      "extra": "康熙部首 77"
+    },
+    {
+      "id": "b:止@jp",
+      "glyph_id": "g:止",
+      "lang": "jp",
+      "name": "止",
+      "readings": [],
+      "gloss": "stop",
+      "extra": ""
+    },
+    {
+      "id": "b:歹@cn",
+      "glyph_id": "g:歹",
+      "lang": "cn",
+      "name": "歹",
+      "readings": [
+        "dǎi"
+      ],
+      "gloss": "death",
+      "extra": "康熙部首 78"
+    },
+    {
+      "id": "b:歹@jp",
+      "glyph_id": "g:歹",
+      "lang": "jp",
+      "name": "歹",
+      "readings": [],
+      "gloss": "death",
+      "extra": ""
+    },
+    {
+      "id": "b:殳@cn",
+      "glyph_id": "g:殳",
+      "lang": "cn",
+      "name": "殳",
+      "readings": [
+        "shū"
+      ],
+      "gloss": "weapon",
+      "extra": "康熙部首 79"
+    },
+    {
+      "id": "b:殳@jp",
+      "glyph_id": "g:殳",
+      "lang": "jp",
+      "name": "殳",
+      "readings": [],
+      "gloss": "weapon",
+      "extra": ""
+    },
+    {
+      "id": "b:毋@cn",
+      "glyph_id": "g:毋",
+      "lang": "cn",
+      "name": "毋",
+      "readings": [
+        "wú"
+      ],
+      "gloss": "do not",
+      "extra": "康熙部首 80"
+    },
+    {
+      "id": "b:毋@jp",
+      "glyph_id": "g:毋",
+      "lang": "jp",
+      "name": "毋",
+      "readings": [],
+      "gloss": "do not",
+      "extra": ""
+    },
+    {
+      "id": "b:比@cn",
+      "glyph_id": "g:比",
+      "lang": "cn",
+      "name": "比",
+      "readings": [
+        "bǐ"
+      ],
+      "gloss": "compare",
+      "extra": "康熙部首 81"
+    },
+    {
+      "id": "b:比@jp",
+      "glyph_id": "g:比",
+      "lang": "jp",
+      "name": "比",
+      "readings": [],
+      "gloss": "compare",
+      "extra": ""
+    },
+    {
+      "id": "b:毛@cn",
+      "glyph_id": "g:毛",
+      "lang": "cn",
+      "name": "毛",
+      "readings": [
+        "máo"
+      ],
+      "gloss": "fur",
+      "extra": "康熙部首 82"
+    },
+    {
+      "id": "b:毛@jp",
+      "glyph_id": "g:毛",
+      "lang": "jp",
+      "name": "毛",
+      "readings": [],
+      "gloss": "fur",
+      "extra": ""
+    },
+    {
+      "id": "b:氏@cn",
+      "glyph_id": "g:氏",
+      "lang": "cn",
+      "name": "氏",
+      "readings": [
+        "shì"
+      ],
+      "gloss": "clan",
+      "extra": "康熙部首 83"
+    },
+    {
+      "id": "b:氏@jp",
+      "glyph_id": "g:氏",
+      "lang": "jp",
+      "name": "氏",
+      "readings": [],
+      "gloss": "clan",
+      "extra": ""
+    },
+    {
+      "id": "b:气@cn",
+      "glyph_id": "g:气",
+      "lang": "cn",
+      "name": "气",
+      "readings": [
+        "qì"
+      ],
+      "gloss": "steam",
+      "extra": "康熙部首 84"
+    },
+    {
+      "id": "b:气@jp",
+      "glyph_id": "g:气",
+      "lang": "jp",
+      "name": "气",
+      "readings": [],
+      "gloss": "steam",
+      "extra": ""
+    },
+    {
+      "id": "b:爪@cn",
+      "glyph_id": "g:爪",
+      "lang": "cn",
+      "name": "爪",
+      "readings": [
+        "zhǎo"
+      ],
+      "gloss": "claw",
+      "extra": "康熙部首 87"
+    },
+    {
+      "id": "b:爪@jp",
+      "glyph_id": "g:爪",
+      "lang": "jp",
+      "name": "爪",
+      "readings": [],
+      "gloss": "claw",
+      "extra": ""
+    },
+    {
+      "id": "b:爻@cn",
+      "glyph_id": "g:爻",
+      "lang": "cn",
+      "name": "爻",
+      "readings": [
+        "yáo"
+      ],
+      "gloss": "trigram lines",
+      "extra": "康熙部首 89"
+    },
+    {
+      "id": "b:爻@jp",
+      "glyph_id": "g:爻",
+      "lang": "jp",
+      "name": "爻",
+      "readings": [],
+      "gloss": "trigram lines",
+      "extra": ""
+    },
+    {
+      "id": "b:爿@cn",
+      "glyph_id": "g:爿",
+      "lang": "cn",
+      "name": "爿",
+      "readings": [
+        "qiáng"
+      ],
+      "gloss": "split wood",
+      "extra": "康熙部首 90"
+    },
+    {
+      "id": "b:爿@jp",
+      "glyph_id": "g:爿",
+      "lang": "jp",
+      "name": "爿",
+      "readings": [],
+      "gloss": "split wood",
+      "extra": ""
+    },
+    {
+      "id": "b:片@cn",
+      "glyph_id": "g:片",
+      "lang": "cn",
+      "name": "片",
+      "readings": [
+        "piàn"
+      ],
+      "gloss": "slice",
+      "extra": "康熙部首 91"
+    },
+    {
+      "id": "b:片@jp",
+      "glyph_id": "g:片",
+      "lang": "jp",
+      "name": "片",
+      "readings": [],
+      "gloss": "slice",
+      "extra": ""
+    },
+    {
+      "id": "b:牙@cn",
+      "glyph_id": "g:牙",
+      "lang": "cn",
+      "name": "牙",
+      "readings": [
+        "yá"
+      ],
+      "gloss": "fang",
+      "extra": "康熙部首 92"
+    },
+    {
+      "id": "b:牙@jp",
+      "glyph_id": "g:牙",
+      "lang": "jp",
+      "name": "牙",
+      "readings": [],
+      "gloss": "fang",
+      "extra": ""
+    },
+    {
+      "id": "b:牛@cn",
+      "glyph_id": "g:牛",
+      "lang": "cn",
+      "name": "牛",
+      "readings": [
+        "niú"
+      ],
+      "gloss": "cow",
+      "extra": "康熙部首 93"
+    },
+    {
+      "id": "b:牛@jp",
+      "glyph_id": "g:牛",
+      "lang": "jp",
+      "name": "牛",
+      "readings": [],
+      "gloss": "cow",
+      "extra": ""
+    },
+    {
+      "id": "b:犬@cn",
+      "glyph_id": "g:犬",
+      "lang": "cn",
+      "name": "犬",
+      "readings": [
+        "quǎn"
+      ],
+      "gloss": "dog",
+      "extra": "康熙部首 94"
+    },
+    {
+      "id": "b:犬@jp",
+      "glyph_id": "g:犬",
+      "lang": "jp",
+      "name": "犬",
+      "readings": [],
+      "gloss": "dog",
+      "extra": ""
+    },
+    {
+      "id": "b:玄@cn",
+      "glyph_id": "g:玄",
+      "lang": "cn",
+      "name": "玄",
+      "readings": [
+        "xuán"
+      ],
+      "gloss": "profound",
+      "extra": "康熙部首 95"
+    },
+    {
+      "id": "b:玄@jp",
+      "glyph_id": "g:玄",
+      "lang": "jp",
+      "name": "玄",
+      "readings": [],
+      "gloss": "profound",
+      "extra": ""
+    },
+    {
+      "id": "b:玉@cn",
+      "glyph_id": "g:玉",
+      "lang": "cn",
+      "name": "玉",
+      "readings": [
+        "yù"
+      ],
+      "gloss": "jade",
+      "extra": "康熙部首 96"
+    },
+    {
+      "id": "b:玉@jp",
+      "glyph_id": "g:玉",
+      "lang": "jp",
+      "name": "玉",
+      "readings": [],
+      "gloss": "jade",
+      "extra": ""
+    },
+    {
+      "id": "b:瓜@cn",
+      "glyph_id": "g:瓜",
+      "lang": "cn",
+      "name": "瓜",
+      "readings": [
+        "guā"
+      ],
+      "gloss": "melon",
+      "extra": "康熙部首 97"
+    },
+    {
+      "id": "b:瓜@jp",
+      "glyph_id": "g:瓜",
+      "lang": "jp",
+      "name": "瓜",
+      "readings": [],
+      "gloss": "melon",
+      "extra": ""
+    },
+    {
+      "id": "b:瓦@cn",
+      "glyph_id": "g:瓦",
+      "lang": "cn",
+      "name": "瓦",
+      "readings": [
+        "wǎ"
+      ],
+      "gloss": "tile",
+      "extra": "康熙部首 98"
+    },
+    {
+      "id": "b:瓦@jp",
+      "glyph_id": "g:瓦",
+      "lang": "jp",
+      "name": "瓦",
+      "readings": [],
+      "gloss": "tile",
+      "extra": ""
+    },
+    {
+      "id": "b:甘@cn",
+      "glyph_id": "g:甘",
+      "lang": "cn",
+      "name": "甘",
+      "readings": [
+        "gān"
+      ],
+      "gloss": "sweet",
+      "extra": "康熙部首 99"
+    },
+    {
+      "id": "b:甘@jp",
+      "glyph_id": "g:甘",
+      "lang": "jp",
+      "name": "甘",
+      "readings": [],
+      "gloss": "sweet",
+      "extra": ""
+    },
+    {
+      "id": "b:生@cn",
+      "glyph_id": "g:生",
+      "lang": "cn",
+      "name": "生",
+      "readings": [
+        "shēng"
+      ],
+      "gloss": "life",
+      "extra": "康熙部首 100"
+    },
+    {
+      "id": "b:生@jp",
+      "glyph_id": "g:生",
+      "lang": "jp",
+      "name": "生",
+      "readings": [],
+      "gloss": "life",
+      "extra": ""
+    },
+    {
+      "id": "b:用@cn",
+      "glyph_id": "g:用",
+      "lang": "cn",
+      "name": "用",
+      "readings": [
+        "yòng"
+      ],
+      "gloss": "use",
+      "extra": "康熙部首 101"
+    },
+    {
+      "id": "b:用@jp",
+      "glyph_id": "g:用",
+      "lang": "jp",
+      "name": "用",
+      "readings": [],
+      "gloss": "use",
+      "extra": ""
+    },
+    {
+      "id": "b:田@cn",
+      "glyph_id": "g:田",
+      "lang": "cn",
+      "name": "田",
+      "readings": [
+        "tián"
+      ],
+      "gloss": "field",
+      "extra": "康熙部首 102"
+    },
+    {
+      "id": "b:田@jp",
+      "glyph_id": "g:田",
+      "lang": "jp",
+      "name": "田",
+      "readings": [],
+      "gloss": "field",
+      "extra": ""
+    },
+    {
+      "id": "b:疋@cn",
+      "glyph_id": "g:疋",
+      "lang": "cn",
+      "name": "疋",
+      "readings": [
+        "pǐ"
+      ],
+      "gloss": "bolt of cloth",
+      "extra": "康熙部首 103"
+    },
+    {
+      "id": "b:疋@jp",
+      "glyph_id": "g:疋",
+      "lang": "jp",
+      "name": "疋",
+      "readings": [],
+      "gloss": "bolt of cloth",
+      "extra": ""
+    },
+    {
+      "id": "b:疒@cn",
+      "glyph_id": "g:疒",
+      "lang": "cn",
+      "name": "疒",
+      "readings": [
+        "nè"
+      ],
+      "gloss": "sickness",
+      "extra": "康熙部首 104"
+    },
+    {
+      "id": "b:疒@jp",
+      "glyph_id": "g:疒",
+      "lang": "jp",
+      "name": "疒",
+      "readings": [],
+      "gloss": "sickness",
+      "extra": ""
+    },
+    {
+      "id": "b:癶@cn",
+      "glyph_id": "g:癶",
+      "lang": "cn",
+      "name": "癶",
+      "readings": [
+        "bō"
+      ],
+      "gloss": "footsteps",
+      "extra": "康熙部首 105"
+    },
+    {
+      "id": "b:癶@jp",
+      "glyph_id": "g:癶",
+      "lang": "jp",
+      "name": "癶",
+      "readings": [],
+      "gloss": "footsteps",
+      "extra": ""
+    },
+    {
+      "id": "b:皮@cn",
+      "glyph_id": "g:皮",
+      "lang": "cn",
+      "name": "皮",
+      "readings": [
+        "pí"
+      ],
+      "gloss": "skin",
+      "extra": "康熙部首 107"
+    },
+    {
+      "id": "b:皮@jp",
+      "glyph_id": "g:皮",
+      "lang": "jp",
+      "name": "皮",
+      "readings": [],
+      "gloss": "skin",
+      "extra": ""
+    },
+    {
+      "id": "b:皿@cn",
+      "glyph_id": "g:皿",
+      "lang": "cn",
+      "name": "皿",
+      "readings": [
+        "mǐn"
+      ],
+      "gloss": "dish",
+      "extra": "康熙部首 108"
+    },
+    {
+      "id": "b:皿@jp",
+      "glyph_id": "g:皿",
+      "lang": "jp",
+      "name": "皿",
+      "readings": [],
+      "gloss": "dish",
+      "extra": ""
+    },
+    {
+      "id": "b:目@cn",
+      "glyph_id": "g:目",
+      "lang": "cn",
+      "name": "目",
+      "readings": [
+        "mù"
+      ],
+      "gloss": "eye",
+      "extra": "康熙部首 109"
+    },
+    {
+      "id": "b:目@jp",
+      "glyph_id": "g:目",
+      "lang": "jp",
+      "name": "目",
+      "readings": [],
+      "gloss": "eye",
+      "extra": ""
+    },
+    {
+      "id": "b:矛@cn",
+      "glyph_id": "g:矛",
+      "lang": "cn",
+      "name": "矛",
+      "readings": [
+        "máo"
+      ],
+      "gloss": "spear",
+      "extra": "康熙部首 110"
+    },
+    {
+      "id": "b:矛@jp",
+      "glyph_id": "g:矛",
+      "lang": "jp",
+      "name": "矛",
+      "readings": [],
+      "gloss": "spear",
+      "extra": ""
+    },
+    {
+      "id": "b:矢@cn",
+      "glyph_id": "g:矢",
+      "lang": "cn",
+      "name": "矢",
+      "readings": [
+        "shǐ"
+      ],
+      "gloss": "arrow",
+      "extra": "康熙部首 111"
+    },
+    {
+      "id": "b:矢@jp",
+      "glyph_id": "g:矢",
+      "lang": "jp",
+      "name": "矢",
+      "readings": [],
+      "gloss": "arrow",
+      "extra": ""
+    },
+    {
+      "id": "b:石@cn",
+      "glyph_id": "g:石",
+      "lang": "cn",
+      "name": "石",
+      "readings": [
+        "shí"
+      ],
+      "gloss": "stone",
+      "extra": "康熙部首 112"
+    },
+    {
+      "id": "b:石@jp",
+      "glyph_id": "g:石",
+      "lang": "jp",
+      "name": "石",
+      "readings": [],
+      "gloss": "stone",
+      "extra": ""
+    },
+    {
+      "id": "b:示@cn",
+      "glyph_id": "g:示",
+      "lang": "cn",
+      "name": "示",
+      "readings": [
+        "shì"
+      ],
+      "gloss": "altar",
+      "extra": "康熙部首 113"
+    },
+    {
+      "id": "b:示@jp",
+      "glyph_id": "g:示",
+      "lang": "jp",
+      "name": "示",
+      "readings": [],
+      "gloss": "altar",
+      "extra": ""
+    },
+    {
+      "id": "b:禸@cn",
+      "glyph_id": "g:禸",
+      "lang": "cn",
+      "name": "禸",
+      "readings": [
+        "róu"
+      ],
+      "gloss": "track",
+      "extra": "康熙部首 114"
+    },
+    {
+      "id": "b:禸@jp",
+      "glyph_id": "g:禸",
+      "lang": "jp",
+      "name": "禸",
+      "readings": [],
+      "gloss": "track",
+      "extra": ""
+    },
+    {
+      "id": "b:禾@cn",
+      "glyph_id": "g:禾",
+      "lang": "cn",
+      "name": "禾",
+      "readings": [
+        "hé"
+      ],
+      "gloss": "grain",
+      "extra": "康熙部首 115"
+    },
+    {
+      "id": "b:禾@jp",
+      "glyph_id": "g:禾",
+      "lang": "jp",
+      "name": "禾",
+      "readings": [],
+      "gloss": "grain",
+      "extra": ""
+    },
+    {
+      "id": "b:穴@cn",
+      "glyph_id": "g:穴",
+      "lang": "cn",
+      "name": "穴",
+      "readings": [
+        "xué"
+      ],
+      "gloss": "cave",
+      "extra": "康熙部首 116"
+    },
+    {
+      "id": "b:穴@jp",
+      "glyph_id": "g:穴",
+      "lang": "jp",
+      "name": "穴",
+      "readings": [],
+      "gloss": "cave",
+      "extra": ""
+    },
+    {
+      "id": "b:立@cn",
+      "glyph_id": "g:立",
+      "lang": "cn",
+      "name": "立",
+      "readings": [
+        "lì"
+      ],
+      "gloss": "stand",
+      "extra": "康熙部首 117"
+    },
+    {
+      "id": "b:立@jp",
+      "glyph_id": "g:立",
+      "lang": "jp",
+      "name": "立",
+      "readings": [],
+      "gloss": "stand",
+      "extra": ""
+    },
+    {
+      "id": "b:竹@cn",
+      "glyph_id": "g:竹",
+      "lang": "cn",
+      "name": "竹",
+      "readings": [
+        "zhú"
+      ],
+      "gloss": "bamboo",
+      "extra": "康熙部首 118"
+    },
+    {
+      "id": "b:竹@jp",
+      "glyph_id": "g:竹",
+      "lang": "jp",
+      "name": "竹",
+      "readings": [],
+      "gloss": "bamboo",
+      "extra": ""
+    },
+    {
+      "id": "b:米@cn",
+      "glyph_id": "g:米",
+      "lang": "cn",
+      "name": "米",
+      "readings": [
+        "mǐ"
+      ],
+      "gloss": "rice",
+      "extra": "康熙部首 119"
+    },
+    {
+      "id": "b:米@jp",
+      "glyph_id": "g:米",
+      "lang": "jp",
+      "name": "米",
+      "readings": [],
+      "gloss": "rice",
+      "extra": ""
+    },
+    {
+      "id": "b:缶@cn",
+      "glyph_id": "g:缶",
+      "lang": "cn",
+      "name": "缶",
+      "readings": [
+        "fǒu"
+      ],
+      "gloss": "jar",
+      "extra": "康熙部首 121"
+    },
+    {
+      "id": "b:缶@jp",
+      "glyph_id": "g:缶",
+      "lang": "jp",
+      "name": "缶",
+      "readings": [],
+      "gloss": "jar",
+      "extra": ""
+    },
+    {
+      "id": "b:网@cn",
+      "glyph_id": "g:网",
+      "lang": "cn",
+      "name": "网",
+      "readings": [
+        "wǎng"
+      ],
+      "gloss": "net",
+      "extra": "康熙部首 122"
+    },
+    {
+      "id": "b:网@jp",
+      "glyph_id": "g:网",
+      "lang": "jp",
+      "name": "网",
+      "readings": [],
+      "gloss": "net",
+      "extra": ""
+    },
+    {
+      "id": "b:羊@cn",
+      "glyph_id": "g:羊",
+      "lang": "cn",
+      "name": "羊",
+      "readings": [
+        "yáng"
+      ],
+      "gloss": "sheep",
+      "extra": "康熙部首 123"
+    },
+    {
+      "id": "b:羊@jp",
+      "glyph_id": "g:羊",
+      "lang": "jp",
+      "name": "羊",
+      "readings": [],
+      "gloss": "sheep",
+      "extra": ""
+    },
+    {
+      "id": "b:羽@cn",
+      "glyph_id": "g:羽",
+      "lang": "cn",
+      "name": "羽",
+      "readings": [
+        "yǔ"
+      ],
+      "gloss": "feather",
+      "extra": "康熙部首 124"
+    },
+    {
+      "id": "b:羽@jp",
+      "glyph_id": "g:羽",
+      "lang": "jp",
+      "name": "羽",
+      "readings": [],
+      "gloss": "feather",
+      "extra": ""
+    },
+    {
+      "id": "b:老@cn",
+      "glyph_id": "g:老",
+      "lang": "cn",
+      "name": "老",
+      "readings": [
+        "lǎo"
+      ],
+      "gloss": "old",
+      "extra": "康熙部首 125"
+    },
+    {
+      "id": "b:老@jp",
+      "glyph_id": "g:老",
+      "lang": "jp",
+      "name": "老",
+      "readings": [],
+      "gloss": "old",
+      "extra": ""
+    },
+    {
+      "id": "b:而@cn",
+      "glyph_id": "g:而",
+      "lang": "cn",
+      "name": "而",
+      "readings": [
+        "ér"
+      ],
+      "gloss": "and",
+      "extra": "康熙部首 126"
+    },
+    {
+      "id": "b:而@jp",
+      "glyph_id": "g:而",
+      "lang": "jp",
+      "name": "而",
+      "readings": [],
+      "gloss": "and",
+      "extra": ""
+    },
+    {
+      "id": "b:耒@cn",
+      "glyph_id": "g:耒",
+      "lang": "cn",
+      "name": "耒",
+      "readings": [
+        "lěi"
+      ],
+      "gloss": "plow",
+      "extra": "康熙部首 127"
+    },
+    {
+      "id": "b:耒@jp",
+      "glyph_id": "g:耒",
+      "lang": "jp",
+      "name": "耒",
+      "readings": [],
+      "gloss": "plow",
+      "extra": ""
+    },
+    {
+      "id": "b:耳@cn",
+      "glyph_id": "g:耳",
+      "lang": "cn",
+      "name": "耳",
+      "readings": [
+        "ěr"
+      ],
+      "gloss": "ear",
+      "extra": "康熙部首 128"
+    },
+    {
+      "id": "b:耳@jp",
+      "glyph_id": "g:耳",
+      "lang": "jp",
+      "name": "耳",
+      "readings": [],
+      "gloss": "ear",
+      "extra": ""
+    },
+    {
+      "id": "b:聿@cn",
+      "glyph_id": "g:聿",
+      "lang": "cn",
+      "name": "聿",
+      "readings": [
+        "yù"
+      ],
+      "gloss": "brush",
+      "extra": "康熙部首 129"
+    },
+    {
+      "id": "b:聿@jp",
+      "glyph_id": "g:聿",
+      "lang": "jp",
+      "name": "聿",
+      "readings": [],
+      "gloss": "brush",
+      "extra": ""
+    },
+    {
+      "id": "b:肉@cn",
+      "glyph_id": "g:肉",
+      "lang": "cn",
+      "name": "肉",
+      "readings": [
+        "ròu"
+      ],
+      "gloss": "meat",
+      "extra": "康熙部首 130"
+    },
+    {
+      "id": "b:肉@jp",
+      "glyph_id": "g:肉",
+      "lang": "jp",
+      "name": "肉",
+      "readings": [],
+      "gloss": "meat",
+      "extra": ""
+    },
+    {
+      "id": "b:臣@cn",
+      "glyph_id": "g:臣",
+      "lang": "cn",
+      "name": "臣",
+      "readings": [
+        "chén"
+      ],
+      "gloss": "minister",
+      "extra": "康熙部首 131"
+    },
+    {
+      "id": "b:臣@jp",
+      "glyph_id": "g:臣",
+      "lang": "jp",
+      "name": "臣",
+      "readings": [],
+      "gloss": "minister",
+      "extra": ""
+    },
+    {
+      "id": "b:自@cn",
+      "glyph_id": "g:自",
+      "lang": "cn",
+      "name": "自",
+      "readings": [
+        "zì"
+      ],
+      "gloss": "self",
+      "extra": "康熙部首 132"
+    },
+    {
+      "id": "b:自@jp",
+      "glyph_id": "g:自",
+      "lang": "jp",
+      "name": "自",
+      "readings": [],
+      "gloss": "self",
+      "extra": ""
+    },
+    {
+      "id": "b:至@cn",
+      "glyph_id": "g:至",
+      "lang": "cn",
+      "name": "至",
+      "readings": [
+        "zhì"
+      ],
+      "gloss": "arrive",
+      "extra": "康熙部首 133"
+    },
+    {
+      "id": "b:至@jp",
+      "glyph_id": "g:至",
+      "lang": "jp",
+      "name": "至",
+      "readings": [],
+      "gloss": "arrive",
+      "extra": ""
+    },
+    {
+      "id": "b:臼@cn",
+      "glyph_id": "g:臼",
+      "lang": "cn",
+      "name": "臼",
+      "readings": [
+        "jiù"
+      ],
+      "gloss": "mortar",
+      "extra": "康熙部首 134"
+    },
+    {
+      "id": "b:臼@jp",
+      "glyph_id": "g:臼",
+      "lang": "jp",
+      "name": "臼",
+      "readings": [],
+      "gloss": "mortar",
+      "extra": ""
+    },
+    {
+      "id": "b:舌@cn",
+      "glyph_id": "g:舌",
+      "lang": "cn",
+      "name": "舌",
+      "readings": [
+        "shé"
+      ],
+      "gloss": "tongue",
+      "extra": "康熙部首 135"
+    },
+    {
+      "id": "b:舌@jp",
+      "glyph_id": "g:舌",
+      "lang": "jp",
+      "name": "舌",
+      "readings": [],
+      "gloss": "tongue",
+      "extra": ""
+    },
+    {
+      "id": "b:舛@cn",
+      "glyph_id": "g:舛",
+      "lang": "cn",
+      "name": "舛",
+      "readings": [
+        "chuǎn"
+      ],
+      "gloss": "oppose",
+      "extra": "康熙部首 136"
+    },
+    {
+      "id": "b:舛@jp",
+      "glyph_id": "g:舛",
+      "lang": "jp",
+      "name": "舛",
+      "readings": [],
+      "gloss": "oppose",
+      "extra": ""
+    },
+    {
+      "id": "b:舟@cn",
+      "glyph_id": "g:舟",
+      "lang": "cn",
+      "name": "舟",
+      "readings": [
+        "zhōu"
+      ],
+      "gloss": "boat",
+      "extra": "康熙部首 137"
+    },
+    {
+      "id": "b:舟@jp",
+      "glyph_id": "g:舟",
+      "lang": "jp",
+      "name": "舟",
+      "readings": [],
+      "gloss": "boat",
+      "extra": ""
+    },
+    {
+      "id": "b:艮@cn",
+      "glyph_id": "g:艮",
+      "lang": "cn",
+      "name": "艮",
+      "readings": [
+        "gèn"
+      ],
+      "gloss": "stopping",
+      "extra": "康熙部首 138"
+    },
+    {
+      "id": "b:艮@jp",
+      "glyph_id": "g:艮",
+      "lang": "jp",
+      "name": "艮",
+      "readings": [],
+      "gloss": "stopping",
+      "extra": ""
+    },
+    {
+      "id": "b:色@cn",
+      "glyph_id": "g:色",
+      "lang": "cn",
+      "name": "色",
+      "readings": [
+        "sè"
+      ],
+      "gloss": "color",
+      "extra": "康熙部首 139"
+    },
+    {
+      "id": "b:色@jp",
+      "glyph_id": "g:色",
+      "lang": "jp",
+      "name": "色",
+      "readings": [],
+      "gloss": "color",
+      "extra": ""
+    },
+    {
+      "id": "b:艸@cn",
+      "glyph_id": "g:艸",
+      "lang": "cn",
+      "name": "艸",
+      "readings": [
+        "cǎo"
+      ],
+      "gloss": "grass",
+      "extra": "康熙部首 140"
+    },
+    {
+      "id": "b:艸@jp",
+      "glyph_id": "g:艸",
+      "lang": "jp",
+      "name": "艸",
+      "readings": [],
+      "gloss": "grass",
+      "extra": ""
+    },
+    {
+      "id": "b:虍@cn",
+      "glyph_id": "g:虍",
+      "lang": "cn",
+      "name": "虍",
+      "readings": [
+        "hū"
+      ],
+      "gloss": "tiger",
+      "extra": "康熙部首 141"
+    },
+    {
+      "id": "b:虍@jp",
+      "glyph_id": "g:虍",
+      "lang": "jp",
+      "name": "虍",
+      "readings": [],
+      "gloss": "tiger",
+      "extra": ""
+    },
+    {
+      "id": "b:虫@cn",
+      "glyph_id": "g:虫",
+      "lang": "cn",
+      "name": "虫",
+      "readings": [
+        "chóng"
+      ],
+      "gloss": "insect",
+      "extra": "康熙部首 142"
+    },
+    {
+      "id": "b:虫@jp",
+      "glyph_id": "g:虫",
+      "lang": "jp",
+      "name": "虫",
+      "readings": [],
+      "gloss": "insect",
+      "extra": ""
+    },
+    {
+      "id": "b:血@cn",
+      "glyph_id": "g:血",
+      "lang": "cn",
+      "name": "血",
+      "readings": [
+        "xuè"
+      ],
+      "gloss": "blood",
+      "extra": "康熙部首 143"
+    },
+    {
+      "id": "b:血@jp",
+      "glyph_id": "g:血",
+      "lang": "jp",
+      "name": "血",
+      "readings": [],
+      "gloss": "blood",
+      "extra": ""
+    },
+    {
+      "id": "b:行@cn",
+      "glyph_id": "g:行",
+      "lang": "cn",
+      "name": "行",
+      "readings": [
+        "xíng"
+      ],
+      "gloss": "walk",
+      "extra": "康熙部首 144"
+    },
+    {
+      "id": "b:行@jp",
+      "glyph_id": "g:行",
+      "lang": "jp",
+      "name": "行",
+      "readings": [],
+      "gloss": "walk",
+      "extra": ""
+    },
+    {
+      "id": "b:衣@cn",
+      "glyph_id": "g:衣",
+      "lang": "cn",
+      "name": "衣",
+      "readings": [
+        "yī"
+      ],
+      "gloss": "clothes",
+      "extra": "康熙部首 145"
+    },
+    {
+      "id": "b:衣@jp",
+      "glyph_id": "g:衣",
+      "lang": "jp",
+      "name": "衣",
+      "readings": [],
+      "gloss": "clothes",
+      "extra": ""
+    },
+    {
+      "id": "b:襾@cn",
+      "glyph_id": "g:襾",
+      "lang": "cn",
+      "name": "襾",
+      "readings": [
+        "yà"
+      ],
+      "gloss": "cover",
+      "extra": "康熙部首 146"
+    },
+    {
+      "id": "b:襾@jp",
+      "glyph_id": "g:襾",
+      "lang": "jp",
+      "name": "襾",
+      "readings": [],
+      "gloss": "cover",
+      "extra": ""
+    },
+    {
+      "id": "b:見@cn",
+      "glyph_id": "g:見",
+      "lang": "cn",
+      "name": "見",
+      "readings": [
+        "jiàn"
+      ],
+      "gloss": "see",
+      "extra": "康熙部首 147"
+    },
+    {
+      "id": "b:見@jp",
+      "glyph_id": "g:見",
+      "lang": "jp",
+      "name": "見",
+      "readings": [],
+      "gloss": "see",
+      "extra": ""
+    },
+    {
+      "id": "b:角@cn",
+      "glyph_id": "g:角",
+      "lang": "cn",
+      "name": "角",
+      "readings": [
+        "jiǎo"
+      ],
+      "gloss": "horn",
+      "extra": "康熙部首 148"
+    },
+    {
+      "id": "b:角@jp",
+      "glyph_id": "g:角",
+      "lang": "jp",
+      "name": "角",
+      "readings": [],
+      "gloss": "horn",
+      "extra": ""
+    },
+    {
+      "id": "b:言@cn",
+      "glyph_id": "g:言",
+      "lang": "cn",
+      "name": "言",
+      "readings": [
+        "yán"
+      ],
+      "gloss": "speech",
+      "extra": "康熙部首 149"
+    },
+    {
+      "id": "b:言@jp",
+      "glyph_id": "g:言",
+      "lang": "jp",
+      "name": "言",
+      "readings": [],
+      "gloss": "speech",
+      "extra": ""
+    },
+    {
+      "id": "b:谷@cn",
+      "glyph_id": "g:谷",
+      "lang": "cn",
+      "name": "谷",
+      "readings": [
+        "gǔ"
+      ],
+      "gloss": "valley",
+      "extra": "康熙部首 150"
+    },
+    {
+      "id": "b:谷@jp",
+      "glyph_id": "g:谷",
+      "lang": "jp",
+      "name": "谷",
+      "readings": [],
+      "gloss": "valley",
+      "extra": ""
+    },
+    {
+      "id": "b:豆@cn",
+      "glyph_id": "g:豆",
+      "lang": "cn",
+      "name": "豆",
+      "readings": [
+        "dòu"
+      ],
+      "gloss": "bean",
+      "extra": "康熙部首 151"
+    },
+    {
+      "id": "b:豆@jp",
+      "glyph_id": "g:豆",
+      "lang": "jp",
+      "name": "豆",
+      "readings": [],
+      "gloss": "bean",
+      "extra": ""
+    },
+    {
+      "id": "b:豕@cn",
+      "glyph_id": "g:豕",
+      "lang": "cn",
+      "name": "豕",
+      "readings": [
+        "shǐ"
+      ],
+      "gloss": "pig",
+      "extra": "康熙部首 152"
+    },
+    {
+      "id": "b:豕@jp",
+      "glyph_id": "g:豕",
+      "lang": "jp",
+      "name": "豕",
+      "readings": [],
+      "gloss": "pig",
+      "extra": ""
+    },
+    {
+      "id": "b:豸@cn",
+      "glyph_id": "g:豸",
+      "lang": "cn",
+      "name": "豸",
+      "readings": [
+        "zhì"
+      ],
+      "gloss": "badger",
+      "extra": "康熙部首 153"
+    },
+    {
+      "id": "b:豸@jp",
+      "glyph_id": "g:豸",
+      "lang": "jp",
+      "name": "豸",
+      "readings": [],
+      "gloss": "badger",
+      "extra": ""
+    },
+    {
+      "id": "b:貝@cn",
+      "glyph_id": "g:貝",
+      "lang": "cn",
+      "name": "貝",
+      "readings": [
+        "bèi"
+      ],
+      "gloss": "shell",
+      "extra": "康熙部首 154"
+    },
+    {
+      "id": "b:貝@jp",
+      "glyph_id": "g:貝",
+      "lang": "jp",
+      "name": "貝",
+      "readings": [],
+      "gloss": "shell",
+      "extra": ""
+    },
+    {
+      "id": "b:赤@cn",
+      "glyph_id": "g:赤",
+      "lang": "cn",
+      "name": "赤",
+      "readings": [
+        "chì"
+      ],
+      "gloss": "red",
+      "extra": "康熙部首 155"
+    },
+    {
+      "id": "b:赤@jp",
+      "glyph_id": "g:赤",
+      "lang": "jp",
+      "name": "赤",
+      "readings": [],
+      "gloss": "red",
+      "extra": ""
+    },
+    {
+      "id": "b:走@cn",
+      "glyph_id": "g:走",
+      "lang": "cn",
+      "name": "走",
+      "readings": [
+        "zǒu"
+      ],
+      "gloss": "run",
+      "extra": "康熙部首 156"
+    },
+    {
+      "id": "b:走@jp",
+      "glyph_id": "g:走",
+      "lang": "jp",
+      "name": "走",
+      "readings": [],
+      "gloss": "run",
+      "extra": ""
+    },
+    {
+      "id": "b:足@cn",
+      "glyph_id": "g:足",
+      "lang": "cn",
+      "name": "足",
+      "readings": [
+        "zú"
+      ],
+      "gloss": "foot",
+      "extra": "康熙部首 157"
+    },
+    {
+      "id": "b:足@jp",
+      "glyph_id": "g:足",
+      "lang": "jp",
+      "name": "足",
+      "readings": [],
+      "gloss": "foot",
+      "extra": ""
+    },
+    {
+      "id": "b:身@cn",
+      "glyph_id": "g:身",
+      "lang": "cn",
+      "name": "身",
+      "readings": [
+        "shēn"
+      ],
+      "gloss": "body",
+      "extra": "康熙部首 158"
+    },
+    {
+      "id": "b:身@jp",
+      "glyph_id": "g:身",
+      "lang": "jp",
+      "name": "身",
+      "readings": [],
+      "gloss": "body",
+      "extra": ""
+    },
+    {
+      "id": "b:車@cn",
+      "glyph_id": "g:車",
+      "lang": "cn",
+      "name": "車",
+      "readings": [
+        "chē"
+      ],
+      "gloss": "cart",
+      "extra": "康熙部首 159"
+    },
+    {
+      "id": "b:車@jp",
+      "glyph_id": "g:車",
+      "lang": "jp",
+      "name": "車",
+      "readings": [],
+      "gloss": "cart",
+      "extra": ""
+    },
+    {
+      "id": "b:辛@cn",
+      "glyph_id": "g:辛",
+      "lang": "cn",
+      "name": "辛",
+      "readings": [
+        "xīn"
+      ],
+      "gloss": "bitter",
+      "extra": "康熙部首 160"
+    },
+    {
+      "id": "b:辛@jp",
+      "glyph_id": "g:辛",
+      "lang": "jp",
+      "name": "辛",
+      "readings": [],
+      "gloss": "bitter",
+      "extra": ""
+    },
+    {
+      "id": "b:辰@cn",
+      "glyph_id": "g:辰",
+      "lang": "cn",
+      "name": "辰",
+      "readings": [
+        "chén"
+      ],
+      "gloss": "morning",
+      "extra": "康熙部首 161"
+    },
+    {
+      "id": "b:辰@jp",
+      "glyph_id": "g:辰",
+      "lang": "jp",
+      "name": "辰",
+      "readings": [],
+      "gloss": "morning",
+      "extra": ""
+    },
+    {
+      "id": "b:辵@cn",
+      "glyph_id": "g:辵",
+      "lang": "cn",
+      "name": "辵",
+      "readings": [
+        "chuò"
+      ],
+      "gloss": "walk",
+      "extra": "康熙部首 162"
+    },
+    {
+      "id": "b:辵@jp",
+      "glyph_id": "g:辵",
+      "lang": "jp",
+      "name": "辵",
+      "readings": [],
+      "gloss": "walk",
+      "extra": ""
+    },
+    {
+      "id": "b:邑@cn",
+      "glyph_id": "g:邑",
+      "lang": "cn",
+      "name": "邑",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "city",
+      "extra": "康熙部首 163"
+    },
+    {
+      "id": "b:邑@jp",
+      "glyph_id": "g:邑",
+      "lang": "jp",
+      "name": "邑",
+      "readings": [],
+      "gloss": "city",
+      "extra": ""
+    },
+    {
+      "id": "b:酉@cn",
+      "glyph_id": "g:酉",
+      "lang": "cn",
+      "name": "酉",
+      "readings": [
+        "yǒu"
+      ],
+      "gloss": "wine",
+      "extra": "康熙部首 164"
+    },
+    {
+      "id": "b:酉@jp",
+      "glyph_id": "g:酉",
+      "lang": "jp",
+      "name": "酉",
+      "readings": [],
+      "gloss": "wine",
+      "extra": ""
+    },
+    {
+      "id": "b:釆@cn",
+      "glyph_id": "g:釆",
+      "lang": "cn",
+      "name": "釆",
+      "readings": [
+        "biàn"
+      ],
+      "gloss": "distinguish",
+      "extra": "康熙部首 165"
+    },
+    {
+      "id": "b:釆@jp",
+      "glyph_id": "g:釆",
+      "lang": "jp",
+      "name": "釆",
+      "readings": [],
+      "gloss": "distinguish",
+      "extra": ""
+    },
+    {
+      "id": "b:里@cn",
+      "glyph_id": "g:里",
+      "lang": "cn",
+      "name": "里",
+      "readings": [
+        "lǐ"
+      ],
+      "gloss": "village",
+      "extra": "康熙部首 166"
+    },
+    {
+      "id": "b:里@jp",
+      "glyph_id": "g:里",
+      "lang": "jp",
+      "name": "里",
+      "readings": [],
+      "gloss": "village",
+      "extra": ""
+    },
+    {
+      "id": "b:金@cn",
+      "glyph_id": "g:金",
+      "lang": "cn",
+      "name": "金",
+      "readings": [
+        "jīn"
+      ],
+      "gloss": "gold",
+      "extra": "康熙部首 167"
+    },
+    {
+      "id": "b:金@jp",
+      "glyph_id": "g:金",
+      "lang": "jp",
+      "name": "金",
+      "readings": [],
+      "gloss": "gold",
+      "extra": ""
+    },
+    {
+      "id": "b:長@cn",
+      "glyph_id": "g:長",
+      "lang": "cn",
+      "name": "長",
+      "readings": [
+        "cháng"
+      ],
+      "gloss": "long",
+      "extra": "康熙部首 168"
+    },
+    {
+      "id": "b:長@jp",
+      "glyph_id": "g:長",
+      "lang": "jp",
+      "name": "長",
+      "readings": [],
+      "gloss": "long",
+      "extra": ""
+    },
+    {
+      "id": "b:門@cn",
+      "glyph_id": "g:門",
+      "lang": "cn",
+      "name": "門",
+      "readings": [
+        "mén"
+      ],
+      "gloss": "gate",
+      "extra": "康熙部首 169"
+    },
+    {
+      "id": "b:門@jp",
+      "glyph_id": "g:門",
+      "lang": "jp",
+      "name": "門",
+      "readings": [],
+      "gloss": "gate",
+      "extra": ""
+    },
+    {
+      "id": "b:阜@cn",
+      "glyph_id": "g:阜",
+      "lang": "cn",
+      "name": "阜",
+      "readings": [
+        "fù"
+      ],
+      "gloss": "mound",
+      "extra": "康熙部首 170"
+    },
+    {
+      "id": "b:阜@jp",
+      "glyph_id": "g:阜",
+      "lang": "jp",
+      "name": "阜",
+      "readings": [],
+      "gloss": "mound",
+      "extra": ""
+    },
+    {
+      "id": "b:隶@cn",
+      "glyph_id": "g:隶",
+      "lang": "cn",
+      "name": "隶",
+      "readings": [
+        "lì"
+      ],
+      "gloss": "slave",
+      "extra": "康熙部首 171"
+    },
+    {
+      "id": "b:隶@jp",
+      "glyph_id": "g:隶",
+      "lang": "jp",
+      "name": "隶",
+      "readings": [],
+      "gloss": "slave",
+      "extra": ""
+    },
+    {
+      "id": "b:隹@cn",
+      "glyph_id": "g:隹",
+      "lang": "cn",
+      "name": "隹",
+      "readings": [
+        "zhuī"
+      ],
+      "gloss": "short-tailed bird",
+      "extra": "康熙部首 172"
+    },
+    {
+      "id": "b:隹@jp",
+      "glyph_id": "g:隹",
+      "lang": "jp",
+      "name": "隹",
+      "readings": [],
+      "gloss": "short-tailed bird",
+      "extra": ""
+    },
+    {
+      "id": "b:雨@cn",
+      "glyph_id": "g:雨",
+      "lang": "cn",
+      "name": "雨",
+      "readings": [
+        "yǔ"
+      ],
+      "gloss": "rain",
+      "extra": "康熙部首 173"
+    },
+    {
+      "id": "b:雨@jp",
+      "glyph_id": "g:雨",
+      "lang": "jp",
+      "name": "雨",
+      "readings": [],
+      "gloss": "rain",
+      "extra": ""
+    },
+    {
+      "id": "b:青@cn",
+      "glyph_id": "g:青",
+      "lang": "cn",
+      "name": "青",
+      "readings": [
+        "qīng"
+      ],
+      "gloss": "blue-green",
+      "extra": "康熙部首 174"
+    },
+    {
+      "id": "b:青@jp",
+      "glyph_id": "g:青",
+      "lang": "jp",
+      "name": "青",
+      "readings": [],
+      "gloss": "blue-green",
+      "extra": ""
+    },
+    {
+      "id": "b:非@cn",
+      "glyph_id": "g:非",
+      "lang": "cn",
+      "name": "非",
+      "readings": [
+        "fēi"
+      ],
+      "gloss": "wrong",
+      "extra": "康熙部首 175"
+    },
+    {
+      "id": "b:非@jp",
+      "glyph_id": "g:非",
+      "lang": "jp",
+      "name": "非",
+      "readings": [],
+      "gloss": "wrong",
+      "extra": ""
+    },
+    {
+      "id": "b:面@cn",
+      "glyph_id": "g:面",
+      "lang": "cn",
+      "name": "面",
+      "readings": [
+        "miàn"
+      ],
+      "gloss": "face",
+      "extra": "康熙部首 176"
+    },
+    {
+      "id": "b:面@jp",
+      "glyph_id": "g:面",
+      "lang": "jp",
+      "name": "面",
+      "readings": [],
+      "gloss": "face",
+      "extra": ""
+    },
+    {
+      "id": "b:革@cn",
+      "glyph_id": "g:革",
+      "lang": "cn",
+      "name": "革",
+      "readings": [
+        "gé"
+      ],
+      "gloss": "leather",
+      "extra": "康熙部首 177"
+    },
+    {
+      "id": "b:革@jp",
+      "glyph_id": "g:革",
+      "lang": "jp",
+      "name": "革",
+      "readings": [],
+      "gloss": "leather",
+      "extra": ""
+    },
+    {
+      "id": "b:韋@cn",
+      "glyph_id": "g:韋",
+      "lang": "cn",
+      "name": "韋",
+      "readings": [
+        "wéi"
+      ],
+      "gloss": "tanned leather",
+      "extra": "康熙部首 178"
+    },
+    {
+      "id": "b:韋@jp",
+      "glyph_id": "g:韋",
+      "lang": "jp",
+      "name": "韋",
+      "readings": [],
+      "gloss": "tanned leather",
+      "extra": ""
+    },
+    {
+      "id": "b:韭@cn",
+      "glyph_id": "g:韭",
+      "lang": "cn",
+      "name": "韭",
+      "readings": [
+        "jiǔ"
+      ],
+      "gloss": "leek",
+      "extra": "康熙部首 179"
+    },
+    {
+      "id": "b:韭@jp",
+      "glyph_id": "g:韭",
+      "lang": "jp",
+      "name": "韭",
+      "readings": [],
+      "gloss": "leek",
+      "extra": ""
+    },
+    {
+      "id": "b:音@cn",
+      "glyph_id": "g:音",
+      "lang": "cn",
+      "name": "音",
+      "readings": [
+        "yīn"
+      ],
+      "gloss": "sound",
+      "extra": "康熙部首 180"
+    },
+    {
+      "id": "b:音@jp",
+      "glyph_id": "g:音",
+      "lang": "jp",
+      "name": "音",
+      "readings": [],
+      "gloss": "sound",
+      "extra": ""
+    },
+    {
+      "id": "b:頁@cn",
+      "glyph_id": "g:頁",
+      "lang": "cn",
+      "name": "頁",
+      "readings": [
+        "yè"
+      ],
+      "gloss": "head; page",
+      "extra": "康熙部首 181"
+    },
+    {
+      "id": "b:頁@jp",
+      "glyph_id": "g:頁",
+      "lang": "jp",
+      "name": "頁",
+      "readings": [],
+      "gloss": "head; page",
+      "extra": ""
+    },
+    {
+      "id": "b:風@cn",
+      "glyph_id": "g:風",
+      "lang": "cn",
+      "name": "風",
+      "readings": [
+        "fēng"
+      ],
+      "gloss": "wind",
+      "extra": "康熙部首 182"
+    },
+    {
+      "id": "b:風@jp",
+      "glyph_id": "g:風",
+      "lang": "jp",
+      "name": "風",
+      "readings": [],
+      "gloss": "wind",
+      "extra": ""
+    },
+    {
+      "id": "b:飛@cn",
+      "glyph_id": "g:飛",
+      "lang": "cn",
+      "name": "飛",
+      "readings": [
+        "fēi"
+      ],
+      "gloss": "fly",
+      "extra": "康熙部首 183"
+    },
+    {
+      "id": "b:飛@jp",
+      "glyph_id": "g:飛",
+      "lang": "jp",
+      "name": "飛",
+      "readings": [],
+      "gloss": "fly",
+      "extra": ""
+    },
+    {
+      "id": "b:食@cn",
+      "glyph_id": "g:食",
+      "lang": "cn",
+      "name": "食",
+      "readings": [
+        "shí"
+      ],
+      "gloss": "eat",
+      "extra": "康熙部首 184"
+    },
+    {
+      "id": "b:食@jp",
+      "glyph_id": "g:食",
+      "lang": "jp",
+      "name": "食",
+      "readings": [],
+      "gloss": "eat",
+      "extra": ""
+    },
+    {
+      "id": "b:首@cn",
+      "glyph_id": "g:首",
+      "lang": "cn",
+      "name": "首",
+      "readings": [
+        "shǒu"
+      ],
+      "gloss": "head",
+      "extra": "康熙部首 185"
+    },
+    {
+      "id": "b:首@jp",
+      "glyph_id": "g:首",
+      "lang": "jp",
+      "name": "首",
+      "readings": [],
+      "gloss": "head",
+      "extra": ""
+    },
+    {
+      "id": "b:香@cn",
+      "glyph_id": "g:香",
+      "lang": "cn",
+      "name": "香",
+      "readings": [
+        "xiāng"
+      ],
+      "gloss": "fragrant",
+      "extra": "康熙部首 186"
+    },
+    {
+      "id": "b:香@jp",
+      "glyph_id": "g:香",
+      "lang": "jp",
+      "name": "香",
+      "readings": [],
+      "gloss": "fragrant",
+      "extra": ""
+    },
+    {
+      "id": "b:馬@cn",
+      "glyph_id": "g:馬",
+      "lang": "cn",
+      "name": "馬",
+      "readings": [
+        "mǎ"
+      ],
+      "gloss": "horse",
+      "extra": "康熙部首 187"
+    },
+    {
+      "id": "b:馬@jp",
+      "glyph_id": "g:馬",
+      "lang": "jp",
+      "name": "馬",
+      "readings": [],
+      "gloss": "horse",
+      "extra": ""
+    },
+    {
+      "id": "b:骨@cn",
+      "glyph_id": "g:骨",
+      "lang": "cn",
+      "name": "骨",
+      "readings": [
+        "gǔ"
+      ],
+      "gloss": "bone",
+      "extra": "康熙部首 188"
+    },
+    {
+      "id": "b:骨@jp",
+      "glyph_id": "g:骨",
+      "lang": "jp",
+      "name": "骨",
+      "readings": [],
+      "gloss": "bone",
+      "extra": ""
+    },
+    {
+      "id": "b:高@cn",
+      "glyph_id": "g:高",
+      "lang": "cn",
+      "name": "高",
+      "readings": [
+        "gāo"
+      ],
+      "gloss": "tall",
+      "extra": "康熙部首 189"
+    },
+    {
+      "id": "b:高@jp",
+      "glyph_id": "g:高",
+      "lang": "jp",
+      "name": "高",
+      "readings": [],
+      "gloss": "tall",
+      "extra": ""
+    },
+    {
+      "id": "b:髟@cn",
+      "glyph_id": "g:髟",
+      "lang": "cn",
+      "name": "髟",
+      "readings": [
+        "biāo"
+      ],
+      "gloss": "long hair",
+      "extra": "康熙部首 190"
+    },
+    {
+      "id": "b:髟@jp",
+      "glyph_id": "g:髟",
+      "lang": "jp",
+      "name": "髟",
+      "readings": [],
+      "gloss": "long hair",
+      "extra": ""
+    },
+    {
+      "id": "b:鬥@cn",
+      "glyph_id": "g:鬥",
+      "lang": "cn",
+      "name": "鬥",
+      "readings": [
+        "dòu"
+      ],
+      "gloss": "fight",
+      "extra": "康熙部首 191"
+    },
+    {
+      "id": "b:鬥@jp",
+      "glyph_id": "g:鬥",
+      "lang": "jp",
+      "name": "鬥",
+      "readings": [],
+      "gloss": "fight",
+      "extra": ""
+    },
+    {
+      "id": "b:鬯@cn",
+      "glyph_id": "g:鬯",
+      "lang": "cn",
+      "name": "鬯",
+      "readings": [
+        "chàng"
+      ],
+      "gloss": "sacrificial wine",
+      "extra": "康熙部首 192"
+    },
+    {
+      "id": "b:鬯@jp",
+      "glyph_id": "g:鬯",
+      "lang": "jp",
+      "name": "鬯",
+      "readings": [],
+      "gloss": "sacrificial wine",
+      "extra": ""
+    },
+    {
+      "id": "b:鬲@cn",
+      "glyph_id": "g:鬲",
+      "lang": "cn",
+      "name": "鬲",
+      "readings": [
+        "lì"
+      ],
+      "gloss": "cauldron",
+      "extra": "康熙部首 193"
+    },
+    {
+      "id": "b:鬲@jp",
+      "glyph_id": "g:鬲",
+      "lang": "jp",
+      "name": "鬲",
+      "readings": [],
+      "gloss": "cauldron",
+      "extra": ""
+    },
+    {
+      "id": "b:鬼@cn",
+      "glyph_id": "g:鬼",
+      "lang": "cn",
+      "name": "鬼",
+      "readings": [
+        "guǐ"
+      ],
+      "gloss": "ghost",
+      "extra": "康熙部首 194"
+    },
+    {
+      "id": "b:鬼@jp",
+      "glyph_id": "g:鬼",
+      "lang": "jp",
+      "name": "鬼",
+      "readings": [],
+      "gloss": "ghost",
+      "extra": ""
+    },
+    {
+      "id": "b:魚@cn",
+      "glyph_id": "g:魚",
+      "lang": "cn",
+      "name": "魚",
+      "readings": [
+        "yú"
+      ],
+      "gloss": "fish",
+      "extra": "康熙部首 195"
+    },
+    {
+      "id": "b:魚@jp",
+      "glyph_id": "g:魚",
+      "lang": "jp",
+      "name": "魚",
+      "readings": [],
+      "gloss": "fish",
+      "extra": ""
+    },
+    {
+      "id": "b:鳥@cn",
+      "glyph_id": "g:鳥",
+      "lang": "cn",
+      "name": "鳥",
+      "readings": [
+        "niǎo"
+      ],
+      "gloss": "bird",
+      "extra": "康熙部首 196"
+    },
+    {
+      "id": "b:鳥@jp",
+      "glyph_id": "g:鳥",
+      "lang": "jp",
+      "name": "鳥",
+      "readings": [],
+      "gloss": "bird",
+      "extra": ""
+    },
+    {
+      "id": "b:鹵@cn",
+      "glyph_id": "g:鹵",
+      "lang": "cn",
+      "name": "鹵",
+      "readings": [
+        "lǔ"
+      ],
+      "gloss": "salt",
+      "extra": "康熙部首 197"
+    },
+    {
+      "id": "b:鹵@jp",
+      "glyph_id": "g:鹵",
+      "lang": "jp",
+      "name": "鹵",
+      "readings": [],
+      "gloss": "salt",
+      "extra": ""
+    },
+    {
+      "id": "b:鹿@cn",
+      "glyph_id": "g:鹿",
+      "lang": "cn",
+      "name": "鹿",
+      "readings": [
+        "lù"
+      ],
+      "gloss": "deer",
+      "extra": "康熙部首 198"
+    },
+    {
+      "id": "b:鹿@jp",
+      "glyph_id": "g:鹿",
+      "lang": "jp",
+      "name": "鹿",
+      "readings": [],
+      "gloss": "deer",
+      "extra": ""
+    },
+    {
+      "id": "b:麥@cn",
+      "glyph_id": "g:麥",
+      "lang": "cn",
+      "name": "麥",
+      "readings": [
+        "mài"
+      ],
+      "gloss": "wheat",
+      "extra": "康熙部首 199"
+    },
+    {
+      "id": "b:麥@jp",
+      "glyph_id": "g:麥",
+      "lang": "jp",
+      "name": "麥",
+      "readings": [],
+      "gloss": "wheat",
+      "extra": ""
+    },
+    {
+      "id": "b:麻@cn",
+      "glyph_id": "g:麻",
+      "lang": "cn",
+      "name": "麻",
+      "readings": [
+        "má"
+      ],
+      "gloss": "hemp",
+      "extra": "康熙部首 200"
+    },
+    {
+      "id": "b:麻@jp",
+      "glyph_id": "g:麻",
+      "lang": "jp",
+      "name": "麻",
+      "readings": [],
+      "gloss": "hemp",
+      "extra": ""
+    },
+    {
+      "id": "b:黃@cn",
+      "glyph_id": "g:黃",
+      "lang": "cn",
+      "name": "黃",
+      "readings": [
+        "huáng"
+      ],
+      "gloss": "yellow",
+      "extra": "康熙部首 201"
+    },
+    {
+      "id": "b:黃@jp",
+      "glyph_id": "g:黃",
+      "lang": "jp",
+      "name": "黃",
+      "readings": [],
+      "gloss": "yellow",
+      "extra": ""
+    },
+    {
+      "id": "b:黍@cn",
+      "glyph_id": "g:黍",
+      "lang": "cn",
+      "name": "黍",
+      "readings": [
+        "shǔ"
+      ],
+      "gloss": "millet",
+      "extra": "康熙部首 202"
+    },
+    {
+      "id": "b:黍@jp",
+      "glyph_id": "g:黍",
+      "lang": "jp",
+      "name": "黍",
+      "readings": [],
+      "gloss": "millet",
+      "extra": ""
+    },
+    {
+      "id": "b:黑@cn",
+      "glyph_id": "g:黑",
+      "lang": "cn",
+      "name": "黑",
+      "readings": [
+        "hēi"
+      ],
+      "gloss": "black",
+      "extra": "康熙部首 203"
+    },
+    {
+      "id": "b:黑@jp",
+      "glyph_id": "g:黑",
+      "lang": "jp",
+      "name": "黑",
+      "readings": [],
+      "gloss": "black",
+      "extra": ""
+    },
+    {
+      "id": "b:黹@cn",
+      "glyph_id": "g:黹",
+      "lang": "cn",
+      "name": "黹",
+      "readings": [
+        "zhǐ"
+      ],
+      "gloss": "embroidery",
+      "extra": "康熙部首 204"
+    },
+    {
+      "id": "b:黹@jp",
+      "glyph_id": "g:黹",
+      "lang": "jp",
+      "name": "黹",
+      "readings": [],
+      "gloss": "embroidery",
+      "extra": ""
+    },
+    {
+      "id": "b:黽@cn",
+      "glyph_id": "g:黽",
+      "lang": "cn",
+      "name": "黽",
+      "readings": [
+        "mǐn"
+      ],
+      "gloss": "frog",
+      "extra": "康熙部首 205"
+    },
+    {
+      "id": "b:黽@jp",
+      "glyph_id": "g:黽",
+      "lang": "jp",
+      "name": "黽",
+      "readings": [],
+      "gloss": "frog",
+      "extra": ""
+    },
+    {
+      "id": "b:鼎@cn",
+      "glyph_id": "g:鼎",
+      "lang": "cn",
+      "name": "鼎",
+      "readings": [
+        "dǐng"
+      ],
+      "gloss": "tripod",
+      "extra": "康熙部首 206"
+    },
+    {
+      "id": "b:鼎@jp",
+      "glyph_id": "g:鼎",
+      "lang": "jp",
+      "name": "鼎",
+      "readings": [],
+      "gloss": "tripod",
+      "extra": ""
+    },
+    {
+      "id": "b:鼓@cn",
+      "glyph_id": "g:鼓",
+      "lang": "cn",
+      "name": "鼓",
+      "readings": [
+        "gǔ"
+      ],
+      "gloss": "drum",
+      "extra": "康熙部首 207"
+    },
+    {
+      "id": "b:鼓@jp",
+      "glyph_id": "g:鼓",
+      "lang": "jp",
+      "name": "鼓",
+      "readings": [],
+      "gloss": "drum",
+      "extra": ""
+    },
+    {
+      "id": "b:鼠@cn",
+      "glyph_id": "g:鼠",
+      "lang": "cn",
+      "name": "鼠",
+      "readings": [
+        "shǔ"
+      ],
+      "gloss": "rat",
+      "extra": "康熙部首 208"
+    },
+    {
+      "id": "b:鼠@jp",
+      "glyph_id": "g:鼠",
+      "lang": "jp",
+      "name": "鼠",
+      "readings": [],
+      "gloss": "rat",
+      "extra": ""
+    },
+    {
+      "id": "b:鼻@cn",
+      "glyph_id": "g:鼻",
+      "lang": "cn",
+      "name": "鼻",
+      "readings": [
+        "bí"
+      ],
+      "gloss": "nose",
+      "extra": "康熙部首 209"
+    },
+    {
+      "id": "b:鼻@jp",
+      "glyph_id": "g:鼻",
+      "lang": "jp",
+      "name": "鼻",
+      "readings": [],
+      "gloss": "nose",
+      "extra": ""
+    },
+    {
+      "id": "b:齊@cn",
+      "glyph_id": "g:齊",
+      "lang": "cn",
+      "name": "齊",
+      "readings": [
+        "qí"
+      ],
+      "gloss": "even",
+      "extra": "康熙部首 210"
+    },
+    {
+      "id": "b:齊@jp",
+      "glyph_id": "g:齊",
+      "lang": "jp",
+      "name": "齊",
+      "readings": [],
+      "gloss": "even",
+      "extra": ""
+    },
+    {
+      "id": "b:齒@cn",
+      "glyph_id": "g:齒",
+      "lang": "cn",
+      "name": "齒",
+      "readings": [
+        "chǐ"
+      ],
+      "gloss": "tooth",
+      "extra": "康熙部首 211"
+    },
+    {
+      "id": "b:齒@jp",
+      "glyph_id": "g:齒",
+      "lang": "jp",
+      "name": "齒",
+      "readings": [],
+      "gloss": "tooth",
+      "extra": ""
+    },
+    {
+      "id": "b:龍@cn",
+      "glyph_id": "g:龍",
+      "lang": "cn",
+      "name": "龍",
+      "readings": [
+        "lóng"
+      ],
+      "gloss": "dragon",
+      "extra": "康熙部首 212"
+    },
+    {
+      "id": "b:龍@jp",
+      "glyph_id": "g:龍",
+      "lang": "jp",
+      "name": "龍",
+      "readings": [],
+      "gloss": "dragon",
+      "extra": ""
+    },
+    {
+      "id": "b:龜@cn",
+      "glyph_id": "g:龜",
+      "lang": "cn",
+      "name": "龜",
+      "readings": [
+        "guī"
+      ],
+      "gloss": "turtle",
+      "extra": "康熙部首 213"
+    },
+    {
+      "id": "b:龜@jp",
+      "glyph_id": "g:龜",
+      "lang": "jp",
+      "name": "龜",
+      "readings": [],
+      "gloss": "turtle",
+      "extra": ""
+    },
+    {
+      "id": "b:龠@cn",
+      "glyph_id": "g:龠",
+      "lang": "cn",
+      "name": "龠",
+      "readings": [
+        "yuè"
+      ],
+      "gloss": "flute",
+      "extra": "康熙部首 214"
+    },
+    {
+      "id": "b:龠@jp",
+      "glyph_id": "g:龠",
+      "lang": "jp",
+      "name": "龠",
+      "readings": [],
+      "gloss": "flute",
+      "extra": ""
+    },
+    {
       "id": "b:㇐@cn",
       "glyph_id": "g:㇐",
       "lang": "cn",

@@ -1,0 +1,26 @@
+{
+  "glyph": "舟",
+  "cp": "U+821F",
+  "slug": "zhou",
+  "class": "char",
+  "kangxi": 137,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "舟",
+      "reading": "zhōu",
+      "gloss": "boat",
+      "extra": "康熙部首 137"
+    },
+    "jp": {
+      "name": "舟",
+      "reading": "",
+      "gloss": "boat"
+    }
+  },
+  "programs": []
+}

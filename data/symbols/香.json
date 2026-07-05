@@ -1,0 +1,26 @@
+{
+  "glyph": "香",
+  "cp": "U+9999",
+  "slug": "xiang186",
+  "class": "char",
+  "kangxi": 186,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "香",
+      "reading": "xiāng",
+      "gloss": "fragrant",
+      "extra": "康熙部首 186"
+    },
+    "jp": {
+      "name": "香",
+      "reading": "",
+      "gloss": "fragrant"
+    }
+  },
+  "programs": []
+}

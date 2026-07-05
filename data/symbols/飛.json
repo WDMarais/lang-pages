@@ -1,0 +1,26 @@
+{
+  "glyph": "飛",
+  "cp": "U+98DB",
+  "slug": "fei183",
+  "class": "char",
+  "kangxi": 183,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "飛",
+      "reading": "fēi",
+      "gloss": "fly",
+      "extra": "康熙部首 183"
+    },
+    "jp": {
+      "name": "飛",
+      "reading": "",
+      "gloss": "fly"
+    }
+  },
+  "programs": []
+}

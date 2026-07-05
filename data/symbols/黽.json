@@ -1,0 +1,26 @@
+{
+  "glyph": "黽",
+  "cp": "U+9EFD",
+  "slug": "min205",
+  "class": "char",
+  "kangxi": 205,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "黽",
+      "reading": "mǐn",
+      "gloss": "frog",
+      "extra": "康熙部首 205"
+    },
+    "jp": {
+      "name": "黽",
+      "reading": "",
+      "gloss": "frog"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "馬",
+  "cp": "U+99AC",
+  "slug": "ma",
+  "class": "char",
+  "kangxi": 187,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "馬",
+      "reading": "mǎ",
+      "gloss": "horse",
+      "extra": "康熙部首 187"
+    },
+    "jp": {
+      "name": "馬",
+      "reading": "",
+      "gloss": "horse"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "禸",
+  "cp": "U+79B8",
+  "slug": "rou",
+  "class": "comp",
+  "kangxi": 114,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "禸",
+      "reading": "róu",
+      "gloss": "track",
+      "extra": "康熙部首 114"
+    },
+    "jp": {
+      "name": "禸",
+      "reading": "",
+      "gloss": "track"
+    }
+  },
+  "programs": []
+}

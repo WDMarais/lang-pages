@@ -1,0 +1,26 @@
+{
+  "glyph": "穴",
+  "cp": "U+7A74",
+  "slug": "xue",
+  "class": "char",
+  "kangxi": 116,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "穴",
+      "reading": "xué",
+      "gloss": "cave",
+      "extra": "康熙部首 116"
+    },
+    "jp": {
+      "name": "穴",
+      "reading": "",
+      "gloss": "cave"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "毋",
+  "cp": "U+6BCB",
+  "slug": "wu80",
+  "class": "char",
+  "kangxi": 80,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "毋",
+      "reading": "wú",
+      "gloss": "do not",
+      "extra": "康熙部首 80"
+    },
+    "jp": {
+      "name": "毋",
+      "reading": "",
+      "gloss": "do not"
+    }
+  },
+  "programs": []
+}

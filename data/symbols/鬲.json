@@ -1,0 +1,26 @@
+{
+  "glyph": "鬲",
+  "cp": "U+9B32",
+  "slug": "li193",
+  "class": "char",
+  "kangxi": 193,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鬲",
+      "reading": "lì",
+      "gloss": "cauldron",
+      "extra": "康熙部首 193"
+    },
+    "jp": {
+      "name": "鬲",
+      "reading": "",
+      "gloss": "cauldron"
+    }
+  },
+  "programs": []
+}

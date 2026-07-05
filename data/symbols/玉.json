@@ -1,0 +1,26 @@
+{
+  "glyph": "玉",
+  "cp": "U+7389",
+  "slug": "yu96",
+  "class": "char",
+  "kangxi": 96,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "玉",
+      "reading": "yù",
+      "gloss": "jade",
+      "extra": "康熙部首 96"
+    },
+    "jp": {
+      "name": "玉",
+      "reading": "",
+      "gloss": "jade"
+    }
+  },
+  "programs": []
+}

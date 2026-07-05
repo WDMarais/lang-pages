@@ -1,0 +1,26 @@
+{
+  "glyph": "曰",
+  "cp": "U+66F0",
+  "slug": "yue",
+  "class": "char",
+  "kangxi": 73,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "曰",
+      "reading": "yuē",
+      "gloss": "say",
+      "extra": "康熙部首 73"
+    },
+    "jp": {
+      "name": "曰",
+      "reading": "",
+      "gloss": "say"
+    }
+  },
+  "programs": []
+}

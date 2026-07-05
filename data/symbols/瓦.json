@@ -1,0 +1,26 @@
+{
+  "glyph": "瓦",
+  "cp": "U+74E6",
+  "slug": "wa",
+  "class": "char",
+  "kangxi": 98,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "瓦",
+      "reading": "wǎ",
+      "gloss": "tile",
+      "extra": "康熙部首 98"
+    },
+    "jp": {
+      "name": "瓦",
+      "reading": "",
+      "gloss": "tile"
+    }
+  },
+  "programs": []
+}

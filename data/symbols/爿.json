@@ -1,0 +1,26 @@
+{
+  "glyph": "爿",
+  "cp": "U+723F",
+  "slug": "qiang",
+  "class": "comp",
+  "kangxi": 90,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "爿",
+      "reading": "qiáng",
+      "gloss": "split wood",
+      "extra": "康熙部首 90"
+    },
+    "jp": {
+      "name": "爿",
+      "reading": "",
+      "gloss": "split wood"
+    }
+  },
+  "programs": []
+}

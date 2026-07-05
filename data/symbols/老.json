@@ -1,0 +1,26 @@
+{
+  "glyph": "老",
+  "cp": "U+8001",
+  "slug": "lao",
+  "class": "char",
+  "kangxi": 125,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "老",
+      "reading": "lǎo",
+      "gloss": "old",
+      "extra": "康熙部首 125"
+    },
+    "jp": {
+      "name": "老",
+      "reading": "",
+      "gloss": "old"
+    }
+  },
+  "programs": []
+}

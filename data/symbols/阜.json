@@ -1,0 +1,26 @@
+{
+  "glyph": "阜",
+  "cp": "U+961C",
+  "slug": "fu170",
+  "class": "char",
+  "kangxi": 170,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "阜",
+      "reading": "fù",
+      "gloss": "mound",
+      "extra": "康熙部首 170"
+    },
+    "jp": {
+      "name": "阜",
+      "reading": "",
+      "gloss": "mound"
+    }
+  },
+  "programs": []
+}

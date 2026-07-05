@@ -1,0 +1,26 @@
+{
+  "glyph": "网",
+  "cp": "U+7F51",
+  "slug": "wang122",
+  "class": "char",
+  "kangxi": 122,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "网",
+      "reading": "wǎng",
+      "gloss": "net",
+      "extra": "康熙部首 122"
+    },
+    "jp": {
+      "name": "网",
+      "reading": "",
+      "gloss": "net"
+    }
+  },
+  "programs": []
+}

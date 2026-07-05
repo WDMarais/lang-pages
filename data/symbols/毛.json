@@ -1,0 +1,26 @@
+{
+  "glyph": "毛",
+  "cp": "U+6BDB",
+  "slug": "mao",
+  "class": "char",
+  "kangxi": 82,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "毛",
+      "reading": "máo",
+      "gloss": "fur",
+      "extra": "康熙部首 82"
+    },
+    "jp": {
+      "name": "毛",
+      "reading": "",
+      "gloss": "fur"
+    }
+  },
+  "programs": []
+}

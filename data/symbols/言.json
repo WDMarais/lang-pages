@@ -1,0 +1,26 @@
+{
+  "glyph": "言",
+  "cp": "U+8A00",
+  "slug": "yan",
+  "class": "char",
+  "kangxi": 149,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "言",
+      "reading": "yán",
+      "gloss": "speech",
+      "extra": "康熙部首 149"
+    },
+    "jp": {
+      "name": "言",
+      "reading": "",
+      "gloss": "speech"
+    }
+  },
+  "programs": []
+}

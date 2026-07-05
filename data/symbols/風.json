@@ -1,0 +1,26 @@
+{
+  "glyph": "風",
+  "cp": "U+98A8",
+  "slug": "feng",
+  "class": "char",
+  "kangxi": 182,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "風",
+      "reading": "fēng",
+      "gloss": "wind",
+      "extra": "康熙部首 182"
+    },
+    "jp": {
+      "name": "風",
+      "reading": "",
+      "gloss": "wind"
+    }
+  },
+  "programs": []
+}

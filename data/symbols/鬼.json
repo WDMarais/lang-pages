@@ -1,0 +1,26 @@
+{
+  "glyph": "鬼",
+  "cp": "U+9B3C",
+  "slug": "gui",
+  "class": "char",
+  "kangxi": 194,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鬼",
+      "reading": "guǐ",
+      "gloss": "ghost",
+      "extra": "康熙部首 194"
+    },
+    "jp": {
+      "name": "鬼",
+      "reading": "",
+      "gloss": "ghost"
+    }
+  },
+  "programs": []
+}

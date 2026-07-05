@@ -1,0 +1,26 @@
+{
+  "glyph": "士",
+  "cp": "U+58EB",
+  "slug": "shi33",
+  "class": "char",
+  "kangxi": 33,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "士",
+      "reading": "shì",
+      "gloss": "scholar",
+      "extra": "康熙部首 33"
+    },
+    "jp": {
+      "name": "士",
+      "reading": "",
+      "gloss": "scholar"
+    }
+  },
+  "programs": []
+}

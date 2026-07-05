@@ -1,0 +1,26 @@
+{
+  "glyph": "齊",
+  "cp": "U+9F4A",
+  "slug": "qi210",
+  "class": "char",
+  "kangxi": 210,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "齊",
+      "reading": "qí",
+      "gloss": "even",
+      "extra": "康熙部首 210"
+    },
+    "jp": {
+      "name": "齊",
+      "reading": "",
+      "gloss": "even"
+    }
+  },
+  "programs": []
+}

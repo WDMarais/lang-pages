@@ -1,0 +1,26 @@
+{
+  "glyph": "又",
+  "cp": "U+53C8",
+  "slug": "you",
+  "class": "char",
+  "kangxi": 29,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "又",
+      "reading": "yòu",
+      "gloss": "again",
+      "extra": "康熙部首 29"
+    },
+    "jp": {
+      "name": "又",
+      "reading": "",
+      "gloss": "again"
+    }
+  },
+  "programs": []
+}

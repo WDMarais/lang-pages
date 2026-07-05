@@ -1,0 +1,26 @@
+{
+  "glyph": "无",
+  "cp": "U+65E0",
+  "slug": "wu",
+  "class": "char",
+  "kangxi": 71,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "无",
+      "reading": "wú",
+      "gloss": "not",
+      "extra": "康熙部首 71"
+    },
+    "jp": {
+      "name": "无",
+      "reading": "",
+      "gloss": "not"
+    }
+  },
+  "programs": []
+}

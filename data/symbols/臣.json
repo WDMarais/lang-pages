@@ -1,0 +1,26 @@
+{
+  "glyph": "臣",
+  "cp": "U+81E3",
+  "slug": "chen",
+  "class": "char",
+  "kangxi": 131,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "臣",
+      "reading": "chén",
+      "gloss": "minister",
+      "extra": "康熙部首 131"
+    },
+    "jp": {
+      "name": "臣",
+      "reading": "",
+      "gloss": "minister"
+    }
+  },
+  "programs": []
+}

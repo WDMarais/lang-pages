@@ -1,0 +1,26 @@
+{
+  "glyph": "缶",
+  "cp": "U+7F36",
+  "slug": "fou",
+  "class": "char",
+  "kangxi": 121,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "缶",
+      "reading": "fǒu",
+      "gloss": "jar",
+      "extra": "康熙部首 121"
+    },
+    "jp": {
+      "name": "缶",
+      "reading": "",
+      "gloss": "jar"
+    }
+  },
+  "programs": []
+}

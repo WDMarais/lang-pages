@@ -1,0 +1,26 @@
+{
+  "glyph": "牛",
+  "cp": "U+725B",
+  "slug": "niu",
+  "class": "char",
+  "kangxi": 93,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "牛",
+      "reading": "niú",
+      "gloss": "cow",
+      "extra": "康熙部首 93"
+    },
+    "jp": {
+      "name": "牛",
+      "reading": "",
+      "gloss": "cow"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "甘",
+  "cp": "U+7518",
+  "slug": "gan99",
+  "class": "char",
+  "kangxi": 99,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "甘",
+      "reading": "gān",
+      "gloss": "sweet",
+      "extra": "康熙部首 99"
+    },
+    "jp": {
+      "name": "甘",
+      "reading": "",
+      "gloss": "sweet"
+    }
+  },
+  "programs": []
+}

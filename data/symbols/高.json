@@ -1,0 +1,26 @@
+{
+  "glyph": "高",
+  "cp": "U+9AD8",
+  "slug": "gao",
+  "class": "char",
+  "kangxi": 189,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "高",
+      "reading": "gāo",
+      "gloss": "tall",
+      "extra": "康熙部首 189"
+    },
+    "jp": {
+      "name": "高",
+      "reading": "",
+      "gloss": "tall"
+    }
+  },
+  "programs": []
+}

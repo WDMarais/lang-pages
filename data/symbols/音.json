@@ -1,0 +1,26 @@
+{
+  "glyph": "音",
+  "cp": "U+97F3",
+  "slug": "yin180",
+  "class": "char",
+  "kangxi": 180,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "音",
+      "reading": "yīn",
+      "gloss": "sound",
+      "extra": "康熙部首 180"
+    },
+    "jp": {
+      "name": "音",
+      "reading": "",
+      "gloss": "sound"
+    }
+  },
+  "programs": []
+}

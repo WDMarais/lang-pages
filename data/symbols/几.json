@@ -1,0 +1,26 @@
+{
+  "glyph": "几",
+  "cp": "U+51E0",
+  "slug": "ji",
+  "class": "char",
+  "kangxi": 16,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "几",
+      "reading": "jī",
+      "gloss": "table",
+      "extra": "康熙部首 16"
+    },
+    "jp": {
+      "name": "几",
+      "reading": "",
+      "gloss": "table"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "鬯",
+  "cp": "U+9B2F",
+  "slug": "chang192",
+  "class": "char",
+  "kangxi": 192,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鬯",
+      "reading": "chàng",
+      "gloss": "sacrificial wine",
+      "extra": "康熙部首 192"
+    },
+    "jp": {
+      "name": "鬯",
+      "reading": "",
+      "gloss": "sacrificial wine"
+    }
+  },
+  "programs": []
+}

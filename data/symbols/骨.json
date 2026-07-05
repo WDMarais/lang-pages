@@ -1,0 +1,26 @@
+{
+  "glyph": "骨",
+  "cp": "U+9AA8",
+  "slug": "gu188",
+  "class": "char",
+  "kangxi": 188,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "骨",
+      "reading": "gǔ",
+      "gloss": "bone",
+      "extra": "康熙部首 188"
+    },
+    "jp": {
+      "name": "骨",
+      "reading": "",
+      "gloss": "bone"
+    }
+  },
+  "programs": []
+}

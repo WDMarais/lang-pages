@@ -1,0 +1,26 @@
+{
+  "glyph": "肉",
+  "cp": "U+8089",
+  "slug": "rou130",
+  "class": "char",
+  "kangxi": 130,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "肉",
+      "reading": "ròu",
+      "gloss": "meat",
+      "extra": "康熙部首 130"
+    },
+    "jp": {
+      "name": "肉",
+      "reading": "",
+      "gloss": "meat"
+    }
+  },
+  "programs": []
+}

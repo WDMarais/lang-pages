@@ -1,0 +1,26 @@
+{
+  "glyph": "而",
+  "cp": "U+800C",
+  "slug": "er126",
+  "class": "char",
+  "kangxi": 126,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "而",
+      "reading": "ér",
+      "gloss": "and",
+      "extra": "康熙部首 126"
+    },
+    "jp": {
+      "name": "而",
+      "reading": "",
+      "gloss": "and"
+    }
+  },
+  "programs": []
+}

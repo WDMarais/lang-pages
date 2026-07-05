@@ -1,0 +1,26 @@
+{
+  "glyph": "麻",
+  "cp": "U+9EBB",
+  "slug": "ma200",
+  "class": "char",
+  "kangxi": 200,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "麻",
+      "reading": "má",
+      "gloss": "hemp",
+      "extra": "康熙部首 200"
+    },
+    "jp": {
+      "name": "麻",
+      "reading": "",
+      "gloss": "hemp"
+    }
+  },
+  "programs": []
+}

@@ -180,6 +180,27 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "乙",
+          "slug": "yi5",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "乙",
+            "reading": "yǐ",
+            "gloss": "second",
+            "extra": "康熙部首 5"
+          },
+          "jp": {
+            "name": "乙",
+            "reading": "",
+            "gloss": "second"
+          },
+          "wk": null,
+          "kx": 5,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "亅",
           "slug": "shugou",
           "tag": "stroke",
@@ -220,14 +241,6 @@
           },
           "kx": 6,
           "audioBase": "../radicals/"
-        },
-        {
-          "stub": true,
-          "glyph": "乙",
-          "kx": 5,
-          "pinyin": "yǐ",
-          "meaning": "second",
-          "strokes": 1
         }
       ]
     },
@@ -559,6 +572,90 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "冖",
+          "slug": "mi",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "冖",
+            "reading": "mì",
+            "gloss": "cover",
+            "extra": "康熙部首 14"
+          },
+          "jp": {
+            "name": "冖",
+            "reading": "",
+            "gloss": "cover"
+          },
+          "wk": null,
+          "kx": 14,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "冫",
+          "slug": "bing",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "冫",
+            "reading": "bīng",
+            "gloss": "ice",
+            "extra": "康熙部首 15"
+          },
+          "jp": {
+            "name": "冫",
+            "reading": "",
+            "gloss": "ice"
+          },
+          "wk": null,
+          "kx": 15,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "几",
+          "slug": "ji",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "几",
+            "reading": "jī",
+            "gloss": "table",
+            "extra": "康熙部首 16"
+          },
+          "jp": {
+            "name": "几",
+            "reading": "",
+            "gloss": "table"
+          },
+          "wk": null,
+          "kx": 16,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "凵",
+          "slug": "kan",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "凵",
+            "reading": "kǎn",
+            "gloss": "open box",
+            "extra": "康熙部首 17"
+          },
+          "jp": {
+            "name": "凵",
+            "reading": "",
+            "gloss": "open box"
+          },
+          "wk": null,
+          "kx": 17,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "刀",
           "slug": "dao",
           "tag": "char",
@@ -680,6 +777,69 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "匕",
+          "slug": "bi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "匕",
+            "reading": "bǐ",
+            "gloss": "spoon",
+            "extra": "康熙部首 21"
+          },
+          "jp": {
+            "name": "匕",
+            "reading": "",
+            "gloss": "spoon"
+          },
+          "wk": null,
+          "kx": 21,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "匚",
+          "slug": "fang",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "匚",
+            "reading": "fāng",
+            "gloss": "box",
+            "extra": "康熙部首 22"
+          },
+          "jp": {
+            "name": "匚",
+            "reading": "",
+            "gloss": "box"
+          },
+          "wk": null,
+          "kx": 22,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "匸",
+          "slug": "xi23",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "匸",
+            "reading": "xì",
+            "gloss": "hiding enclosure",
+            "extra": "康熙部首 23"
+          },
+          "jp": {
+            "name": "匸",
+            "reading": "",
+            "gloss": "hiding enclosure"
+          },
+          "wk": null,
+          "kx": 23,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "十",
           "slug": "shi",
           "tag": "char",
@@ -725,6 +885,48 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "卜",
+          "slug": "bu25",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "卜",
+            "reading": "bǔ",
+            "gloss": "divination",
+            "extra": "康熙部首 25"
+          },
+          "jp": {
+            "name": "卜",
+            "reading": "",
+            "gloss": "divination"
+          },
+          "wk": null,
+          "kx": 25,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "卩",
+          "slug": "jie",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "卩",
+            "reading": "jié",
+            "gloss": "seal",
+            "extra": "康熙部首 26"
+          },
+          "jp": {
+            "name": "卩",
+            "reading": "",
+            "gloss": "seal"
+          },
+          "wk": null,
+          "kx": 26,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "厂",
           "slug": "han",
           "tag": "comp",
@@ -762,92 +964,46 @@
           "audioBase": "../radicals/"
         },
         {
-          "stub": true,
-          "glyph": "冖",
-          "kx": 14,
-          "pinyin": "mì",
-          "meaning": "cover",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "冫",
-          "kx": 15,
-          "pinyin": "bīng",
-          "meaning": "ice",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "几",
-          "kx": 16,
-          "pinyin": "jī",
-          "meaning": "table",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "凵",
-          "kx": 17,
-          "pinyin": "kǎn",
-          "meaning": "open box",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "匕",
-          "kx": 21,
-          "pinyin": "bǐ",
-          "meaning": "spoon",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "匚",
-          "kx": 22,
-          "pinyin": "fāng",
-          "meaning": "box",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "匸",
-          "kx": 23,
-          "pinyin": "xì",
-          "meaning": "hiding enclosure",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "卜",
-          "kx": 25,
-          "pinyin": "bǔ",
-          "meaning": "divination",
-          "strokes": 2
-        },
-        {
-          "stub": true,
-          "glyph": "卩",
-          "kx": 26,
-          "pinyin": "jié",
-          "meaning": "seal",
-          "strokes": 2
-        },
-        {
-          "stub": true,
           "glyph": "厶",
+          "slug": "si28",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "厶",
+            "reading": "sī",
+            "gloss": "private",
+            "extra": "康熙部首 28"
+          },
+          "jp": {
+            "name": "厶",
+            "reading": "",
+            "gloss": "private"
+          },
+          "wk": null,
           "kx": 28,
-          "pinyin": "sī",
-          "meaning": "private",
-          "strokes": 2
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "又",
+          "slug": "you",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "又",
+            "reading": "yòu",
+            "gloss": "again",
+            "extra": "康熙部首 29"
+          },
+          "jp": {
+            "name": "又",
+            "reading": "",
+            "gloss": "again"
+          },
+          "wk": null,
           "kx": 29,
-          "pinyin": "yòu",
-          "meaning": "again",
-          "strokes": 2
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -909,6 +1065,27 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "囗",
+          "slug": "wei",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "囗",
+            "reading": "wéi",
+            "gloss": "enclosure",
+            "extra": "康熙部首 31"
+          },
+          "jp": {
+            "name": "囗",
+            "reading": "",
+            "gloss": "enclosure"
+          },
+          "wk": null,
+          "kx": 31,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "土",
           "slug": "tu",
           "tag": "char",
@@ -947,6 +1124,69 @@
             "kind": "meaning"
           },
           "kx": 32,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "士",
+          "slug": "shi33",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "士",
+            "reading": "shì",
+            "gloss": "scholar",
+            "extra": "康熙部首 33"
+          },
+          "jp": {
+            "name": "士",
+            "reading": "",
+            "gloss": "scholar"
+          },
+          "wk": null,
+          "kx": 33,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "夂",
+          "slug": "zhi34",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "夂",
+            "reading": "zhǐ",
+            "gloss": "go",
+            "extra": "康熙部首 34"
+          },
+          "jp": {
+            "name": "夂",
+            "reading": "",
+            "gloss": "go"
+          },
+          "wk": null,
+          "kx": 34,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "夊",
+          "slug": "sui",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "夊",
+            "reading": "suī",
+            "gloss": "go slowly",
+            "extra": "康熙部首 35"
+          },
+          "jp": {
+            "name": "夊",
+            "reading": "",
+            "gloss": "go slowly"
+          },
+          "wk": null,
+          "kx": 35,
           "audioBase": "../radicals/"
         },
         {
@@ -1181,6 +1421,27 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "寸",
+          "slug": "cun",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "寸",
+            "reading": "cùn",
+            "gloss": "inch",
+            "extra": "康熙部首 41"
+          },
+          "jp": {
+            "name": "寸",
+            "reading": "",
+            "gloss": "inch"
+          },
+          "wk": null,
+          "kx": 41,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "小",
           "slug": "xiao",
           "tag": "char",
@@ -1228,6 +1489,27 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "尢",
+          "slug": "wang",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "尢",
+            "reading": "wāng",
+            "gloss": "lame",
+            "extra": "康熙部首 43"
+          },
+          "jp": {
+            "name": "尢",
+            "reading": "",
+            "gloss": "lame"
+          },
+          "wk": null,
+          "kx": 43,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "尸",
           "slug": "shi1",
           "tag": "comp",
@@ -1261,6 +1543,27 @@
             "kind": "mnemonic"
           },
           "kx": 44,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "屮",
+          "slug": "che",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "屮",
+            "reading": "chè",
+            "gloss": "sprout",
+            "extra": "康熙部首 45"
+          },
+          "jp": {
+            "name": "屮",
+            "reading": "",
+            "gloss": "sprout"
+          },
+          "wk": null,
+          "kx": 45,
           "audioBase": "../radicals/"
         },
         {
@@ -1402,6 +1705,174 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "己",
+          "slug": "ji49",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "己",
+            "reading": "jǐ",
+            "gloss": "oneself",
+            "extra": "康熙部首 49"
+          },
+          "jp": {
+            "name": "己",
+            "reading": "",
+            "gloss": "oneself"
+          },
+          "wk": null,
+          "kx": 49,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "巾",
+          "slug": "jin",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "巾",
+            "reading": "jīn",
+            "gloss": "cloth",
+            "extra": "康熙部首 50"
+          },
+          "jp": {
+            "name": "巾",
+            "reading": "",
+            "gloss": "cloth"
+          },
+          "wk": null,
+          "kx": 50,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "干",
+          "slug": "gan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "干",
+            "reading": "gān",
+            "gloss": "dry",
+            "extra": "康熙部首 51"
+          },
+          "jp": {
+            "name": "干",
+            "reading": "",
+            "gloss": "dry"
+          },
+          "wk": null,
+          "kx": 51,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "幺",
+          "slug": "yao",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "幺",
+            "reading": "yāo",
+            "gloss": "short thread",
+            "extra": "康熙部首 52"
+          },
+          "jp": {
+            "name": "幺",
+            "reading": "",
+            "gloss": "short thread"
+          },
+          "wk": null,
+          "kx": 52,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "广",
+          "slug": "guang",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "广",
+            "reading": "guǎng",
+            "gloss": "shelter",
+            "extra": "康熙部首 53"
+          },
+          "jp": {
+            "name": "广",
+            "reading": "",
+            "gloss": "shelter"
+          },
+          "wk": null,
+          "kx": 53,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "廴",
+          "slug": "yin",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "廴",
+            "reading": "yǐn",
+            "gloss": "stride",
+            "extra": "康熙部首 54"
+          },
+          "jp": {
+            "name": "廴",
+            "reading": "",
+            "gloss": "stride"
+          },
+          "wk": null,
+          "kx": 54,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "廾",
+          "slug": "gong55",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "廾",
+            "reading": "gǒng",
+            "gloss": "two hands",
+            "extra": "康熙部首 55"
+          },
+          "jp": {
+            "name": "廾",
+            "reading": "",
+            "gloss": "two hands"
+          },
+          "wk": null,
+          "kx": 55,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "弋",
+          "slug": "yi56",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "弋",
+            "reading": "yì",
+            "gloss": "shoot",
+            "extra": "康熙部首 56"
+          },
+          "jp": {
+            "name": "弋",
+            "reading": "",
+            "gloss": "shoot"
+          },
+          "wk": null,
+          "kx": 56,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "弓",
           "slug": "gongbow",
           "tag": "char",
@@ -1449,148 +1920,67 @@
           "audioBase": "../radicals/"
         },
         {
-          "stub": true,
-          "glyph": "囗",
-          "kx": 31,
-          "pinyin": "wéi",
-          "meaning": "enclosure",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "士",
-          "kx": 33,
-          "pinyin": "shì",
-          "meaning": "scholar",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "夂",
-          "kx": 34,
-          "pinyin": "zhǐ",
-          "meaning": "go",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "夊",
-          "kx": 35,
-          "pinyin": "suī",
-          "meaning": "go slowly",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "寸",
-          "kx": 41,
-          "pinyin": "cùn",
-          "meaning": "inch",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "尢",
-          "kx": 43,
-          "pinyin": "wāng",
-          "meaning": "lame",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "屮",
-          "kx": 45,
-          "pinyin": "chè",
-          "meaning": "sprout",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "己",
-          "kx": 49,
-          "pinyin": "jǐ",
-          "meaning": "oneself",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "巾",
-          "kx": 50,
-          "pinyin": "jīn",
-          "meaning": "cloth",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "干",
-          "kx": 51,
-          "pinyin": "gān",
-          "meaning": "dry",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "幺",
-          "kx": 52,
-          "pinyin": "yāo",
-          "meaning": "short thread",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "广",
-          "kx": 53,
-          "pinyin": "guǎng",
-          "meaning": "shelter",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "廴",
-          "kx": 54,
-          "pinyin": "yǐn",
-          "meaning": "stride",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "廾",
-          "kx": 55,
-          "pinyin": "gǒng",
-          "meaning": "two hands",
-          "strokes": 3
-        },
-        {
-          "stub": true,
-          "glyph": "弋",
-          "kx": 56,
-          "pinyin": "yì",
-          "meaning": "shoot",
-          "strokes": 3
-        },
-        {
-          "stub": true,
           "glyph": "彐",
+          "slug": "ji58",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "彐",
+            "reading": "jì",
+            "gloss": "snout",
+            "extra": "康熙部首 58"
+          },
+          "jp": {
+            "name": "彐",
+            "reading": "",
+            "gloss": "snout"
+          },
+          "wk": null,
           "kx": 58,
-          "pinyin": "jì",
-          "meaning": "snout",
-          "strokes": 3
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "彡",
+          "slug": "shan59",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "彡",
+            "reading": "shān",
+            "gloss": "bristle",
+            "extra": "康熙部首 59"
+          },
+          "jp": {
+            "name": "彡",
+            "reading": "",
+            "gloss": "bristle"
+          },
+          "wk": null,
           "kx": 59,
-          "pinyin": "shān",
-          "meaning": "bristle",
-          "strokes": 3
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "彳",
+          "slug": "chi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "彳",
+            "reading": "chì",
+            "gloss": "step",
+            "extra": "康熙部首 60"
+          },
+          "jp": {
+            "name": "彳",
+            "reading": "",
+            "gloss": "step"
+          },
+          "wk": null,
           "kx": 60,
-          "pinyin": "chì",
-          "meaning": "step",
-          "strokes": 3
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -1598,6 +1988,69 @@
       "title": "4 画",
       "sub": "4 strokes",
       "cards": [
+        {
+          "glyph": "心",
+          "slug": "xin",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "心",
+            "reading": "xīn",
+            "gloss": "heart",
+            "extra": "康熙部首 61"
+          },
+          "jp": {
+            "name": "心",
+            "reading": "",
+            "gloss": "heart"
+          },
+          "wk": null,
+          "kx": 61,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "戈",
+          "slug": "ge",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "戈",
+            "reading": "gē",
+            "gloss": "halberd",
+            "extra": "康熙部首 62"
+          },
+          "jp": {
+            "name": "戈",
+            "reading": "",
+            "gloss": "halberd"
+          },
+          "wk": null,
+          "kx": 62,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "戶",
+          "slug": "hu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "戶",
+            "reading": "hù",
+            "gloss": "door",
+            "extra": "康熙部首 63"
+          },
+          "jp": {
+            "name": "戶",
+            "reading": "",
+            "gloss": "door"
+          },
+          "wk": null,
+          "kx": 63,
+          "audioBase": "../radicals/"
+        },
         {
           "glyph": "手",
           "slug": "shou",
@@ -1633,6 +2086,153 @@
             "kind": "meaning"
           },
           "kx": 64,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "支",
+          "slug": "zhi65",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "支",
+            "reading": "zhī",
+            "gloss": "branch",
+            "extra": "康熙部首 65"
+          },
+          "jp": {
+            "name": "支",
+            "reading": "",
+            "gloss": "branch"
+          },
+          "wk": null,
+          "kx": 65,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "攴",
+          "slug": "pu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "攴",
+            "reading": "pū",
+            "gloss": "tap",
+            "extra": "康熙部首 66"
+          },
+          "jp": {
+            "name": "攴",
+            "reading": "",
+            "gloss": "tap"
+          },
+          "wk": null,
+          "kx": 66,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "文",
+          "slug": "wen",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "文",
+            "reading": "wén",
+            "gloss": "script",
+            "extra": "康熙部首 67"
+          },
+          "jp": {
+            "name": "文",
+            "reading": "",
+            "gloss": "script"
+          },
+          "wk": null,
+          "kx": 67,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "斗",
+          "slug": "dou",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "斗",
+            "reading": "dǒu",
+            "gloss": "dipper",
+            "extra": "康熙部首 68"
+          },
+          "jp": {
+            "name": "斗",
+            "reading": "",
+            "gloss": "dipper"
+          },
+          "wk": null,
+          "kx": 68,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "斤",
+          "slug": "jin69",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "斤",
+            "reading": "jīn",
+            "gloss": "axe",
+            "extra": "康熙部首 69"
+          },
+          "jp": {
+            "name": "斤",
+            "reading": "",
+            "gloss": "axe"
+          },
+          "wk": null,
+          "kx": 69,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "方",
+          "slug": "fang70",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "方",
+            "reading": "fāng",
+            "gloss": "square",
+            "extra": "康熙部首 70"
+          },
+          "jp": {
+            "name": "方",
+            "reading": "",
+            "gloss": "square"
+          },
+          "wk": null,
+          "kx": 70,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "无",
+          "slug": "wu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "无",
+            "reading": "wú",
+            "gloss": "not",
+            "extra": "康熙部首 71"
+          },
+          "jp": {
+            "name": "无",
+            "reading": "",
+            "gloss": "not"
+          },
+          "wk": null,
+          "kx": 71,
           "audioBase": "../radicals/"
         },
         {
@@ -1690,6 +2290,48 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "曰",
+          "slug": "yue",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "曰",
+            "reading": "yuē",
+            "gloss": "say",
+            "extra": "康熙部首 73"
+          },
+          "jp": {
+            "name": "曰",
+            "reading": "",
+            "gloss": "say"
+          },
+          "wk": null,
+          "kx": 73,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "月",
+          "slug": "yue74",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "月",
+            "reading": "yuè",
+            "gloss": "moon",
+            "extra": "康熙部首 74"
+          },
+          "jp": {
+            "name": "月",
+            "reading": "",
+            "gloss": "moon"
+          },
+          "wk": null,
+          "kx": 74,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "木",
           "slug": "mu",
           "tag": "char",
@@ -1728,6 +2370,195 @@
             "kind": "meaning"
           },
           "kx": 75,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "欠",
+          "slug": "qian76",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "欠",
+            "reading": "qiàn",
+            "gloss": "yawn",
+            "extra": "康熙部首 76"
+          },
+          "jp": {
+            "name": "欠",
+            "reading": "",
+            "gloss": "yawn"
+          },
+          "wk": null,
+          "kx": 76,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "止",
+          "slug": "zhi77",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "止",
+            "reading": "zhǐ",
+            "gloss": "stop",
+            "extra": "康熙部首 77"
+          },
+          "jp": {
+            "name": "止",
+            "reading": "",
+            "gloss": "stop"
+          },
+          "wk": null,
+          "kx": 77,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "歹",
+          "slug": "dai",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "歹",
+            "reading": "dǎi",
+            "gloss": "death",
+            "extra": "康熙部首 78"
+          },
+          "jp": {
+            "name": "歹",
+            "reading": "",
+            "gloss": "death"
+          },
+          "wk": null,
+          "kx": 78,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "殳",
+          "slug": "shu79",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "殳",
+            "reading": "shū",
+            "gloss": "weapon",
+            "extra": "康熙部首 79"
+          },
+          "jp": {
+            "name": "殳",
+            "reading": "",
+            "gloss": "weapon"
+          },
+          "wk": null,
+          "kx": 79,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "毋",
+          "slug": "wu80",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "毋",
+            "reading": "wú",
+            "gloss": "do not",
+            "extra": "康熙部首 80"
+          },
+          "jp": {
+            "name": "毋",
+            "reading": "",
+            "gloss": "do not"
+          },
+          "wk": null,
+          "kx": 80,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "比",
+          "slug": "bi81",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "比",
+            "reading": "bǐ",
+            "gloss": "compare",
+            "extra": "康熙部首 81"
+          },
+          "jp": {
+            "name": "比",
+            "reading": "",
+            "gloss": "compare"
+          },
+          "wk": null,
+          "kx": 81,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "毛",
+          "slug": "mao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "毛",
+            "reading": "máo",
+            "gloss": "fur",
+            "extra": "康熙部首 82"
+          },
+          "jp": {
+            "name": "毛",
+            "reading": "",
+            "gloss": "fur"
+          },
+          "wk": null,
+          "kx": 82,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "氏",
+          "slug": "shi83",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "氏",
+            "reading": "shì",
+            "gloss": "clan",
+            "extra": "康熙部首 83"
+          },
+          "jp": {
+            "name": "氏",
+            "reading": "",
+            "gloss": "clan"
+          },
+          "wk": null,
+          "kx": 83,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "气",
+          "slug": "qi84",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "气",
+            "reading": "qì",
+            "gloss": "steam",
+            "extra": "康熙部首 84"
+          },
+          "jp": {
+            "name": "气",
+            "reading": "",
+            "gloss": "steam"
+          },
+          "wk": null,
+          "kx": 84,
           "audioBase": "../radicals/"
         },
         {
@@ -1804,6 +2635,27 @@
           "audioBase": "../radicals/"
         },
         {
+          "glyph": "爪",
+          "slug": "zhao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "爪",
+            "reading": "zhǎo",
+            "gloss": "claw",
+            "extra": "康熙部首 87"
+          },
+          "jp": {
+            "name": "爪",
+            "reading": "",
+            "gloss": "claw"
+          },
+          "wk": null,
+          "kx": 87,
+          "audioBase": "../radicals/"
+        },
+        {
           "glyph": "父",
           "slug": "fu",
           "tag": "char",
@@ -1841,228 +2693,130 @@
           "audioBase": "../radicals/"
         },
         {
-          "stub": true,
-          "glyph": "心",
-          "kx": 61,
-          "pinyin": "xīn",
-          "meaning": "heart",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "戈",
-          "kx": 62,
-          "pinyin": "gē",
-          "meaning": "halberd",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "戶",
-          "kx": 63,
-          "pinyin": "hù",
-          "meaning": "door",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "支",
-          "kx": 65,
-          "pinyin": "zhī",
-          "meaning": "branch",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "攴",
-          "kx": 66,
-          "pinyin": "pū",
-          "meaning": "tap",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "文",
-          "kx": 67,
-          "pinyin": "wén",
-          "meaning": "script",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "斗",
-          "kx": 68,
-          "pinyin": "dǒu",
-          "meaning": "dipper",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "斤",
-          "kx": 69,
-          "pinyin": "jīn",
-          "meaning": "axe",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "方",
-          "kx": 70,
-          "pinyin": "fāng",
-          "meaning": "square",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "无",
-          "kx": 71,
-          "pinyin": "wú",
-          "meaning": "not",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "曰",
-          "kx": 73,
-          "pinyin": "yuē",
-          "meaning": "say",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "月",
-          "kx": 74,
-          "pinyin": "yuè",
-          "meaning": "moon",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "欠",
-          "kx": 76,
-          "pinyin": "qiàn",
-          "meaning": "yawn",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "止",
-          "kx": 77,
-          "pinyin": "zhǐ",
-          "meaning": "stop",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "歹",
-          "kx": 78,
-          "pinyin": "dǎi",
-          "meaning": "death",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "殳",
-          "kx": 79,
-          "pinyin": "shū",
-          "meaning": "weapon",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "毋",
-          "kx": 80,
-          "pinyin": "wú",
-          "meaning": "do not",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "比",
-          "kx": 81,
-          "pinyin": "bǐ",
-          "meaning": "compare",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "毛",
-          "kx": 82,
-          "pinyin": "máo",
-          "meaning": "fur",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "氏",
-          "kx": 83,
-          "pinyin": "shì",
-          "meaning": "clan",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "气",
-          "kx": 84,
-          "pinyin": "qì",
-          "meaning": "steam",
-          "strokes": 4
-        },
-        {
-          "stub": true,
-          "glyph": "爪",
-          "kx": 87,
-          "pinyin": "zhǎo",
-          "meaning": "claw",
-          "strokes": 4
-        },
-        {
-          "stub": true,
           "glyph": "爻",
+          "slug": "yao89",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "爻",
+            "reading": "yáo",
+            "gloss": "trigram lines",
+            "extra": "康熙部首 89"
+          },
+          "jp": {
+            "name": "爻",
+            "reading": "",
+            "gloss": "trigram lines"
+          },
+          "wk": null,
           "kx": 89,
-          "pinyin": "yáo",
-          "meaning": "trigram lines",
-          "strokes": 4
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "爿",
+          "slug": "qiang",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "爿",
+            "reading": "qiáng",
+            "gloss": "split wood",
+            "extra": "康熙部首 90"
+          },
+          "jp": {
+            "name": "爿",
+            "reading": "",
+            "gloss": "split wood"
+          },
+          "wk": null,
           "kx": 90,
-          "pinyin": "qiáng",
-          "meaning": "split wood",
-          "strokes": 4
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "片",
+          "slug": "pian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "片",
+            "reading": "piàn",
+            "gloss": "slice",
+            "extra": "康熙部首 91"
+          },
+          "jp": {
+            "name": "片",
+            "reading": "",
+            "gloss": "slice"
+          },
+          "wk": null,
           "kx": 91,
-          "pinyin": "piàn",
-          "meaning": "slice",
-          "strokes": 4
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "牙",
+          "slug": "ya",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "牙",
+            "reading": "yá",
+            "gloss": "fang",
+            "extra": "康熙部首 92"
+          },
+          "jp": {
+            "name": "牙",
+            "reading": "",
+            "gloss": "fang"
+          },
+          "wk": null,
           "kx": 92,
-          "pinyin": "yá",
-          "meaning": "fang",
-          "strokes": 4
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "牛",
+          "slug": "niu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "牛",
+            "reading": "niú",
+            "gloss": "cow",
+            "extra": "康熙部首 93"
+          },
+          "jp": {
+            "name": "牛",
+            "reading": "",
+            "gloss": "cow"
+          },
+          "wk": null,
           "kx": 93,
-          "pinyin": "niú",
-          "meaning": "cow",
-          "strokes": 4
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "犬",
+          "slug": "quan94",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "犬",
+            "reading": "quǎn",
+            "gloss": "dog",
+            "extra": "康熙部首 94"
+          },
+          "jp": {
+            "name": "犬",
+            "reading": "",
+            "gloss": "dog"
+          },
+          "wk": null,
           "kx": 94,
-          "pinyin": "quǎn",
-          "meaning": "dog",
-          "strokes": 4
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2070,6 +2824,237 @@
       "title": "5 画",
       "sub": "5 strokes",
       "cards": [
+        {
+          "glyph": "玄",
+          "slug": "xuan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "玄",
+            "reading": "xuán",
+            "gloss": "profound",
+            "extra": "康熙部首 95"
+          },
+          "jp": {
+            "name": "玄",
+            "reading": "",
+            "gloss": "profound"
+          },
+          "wk": null,
+          "kx": 95,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "玉",
+          "slug": "yu96",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "玉",
+            "reading": "yù",
+            "gloss": "jade",
+            "extra": "康熙部首 96"
+          },
+          "jp": {
+            "name": "玉",
+            "reading": "",
+            "gloss": "jade"
+          },
+          "wk": null,
+          "kx": 96,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "瓜",
+          "slug": "gua",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "瓜",
+            "reading": "guā",
+            "gloss": "melon",
+            "extra": "康熙部首 97"
+          },
+          "jp": {
+            "name": "瓜",
+            "reading": "",
+            "gloss": "melon"
+          },
+          "wk": null,
+          "kx": 97,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "瓦",
+          "slug": "wa",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "瓦",
+            "reading": "wǎ",
+            "gloss": "tile",
+            "extra": "康熙部首 98"
+          },
+          "jp": {
+            "name": "瓦",
+            "reading": "",
+            "gloss": "tile"
+          },
+          "wk": null,
+          "kx": 98,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "甘",
+          "slug": "gan99",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "甘",
+            "reading": "gān",
+            "gloss": "sweet",
+            "extra": "康熙部首 99"
+          },
+          "jp": {
+            "name": "甘",
+            "reading": "",
+            "gloss": "sweet"
+          },
+          "wk": null,
+          "kx": 99,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "生",
+          "slug": "sheng",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "生",
+            "reading": "shēng",
+            "gloss": "life",
+            "extra": "康熙部首 100"
+          },
+          "jp": {
+            "name": "生",
+            "reading": "",
+            "gloss": "life"
+          },
+          "wk": null,
+          "kx": 100,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "用",
+          "slug": "yong",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "用",
+            "reading": "yòng",
+            "gloss": "use",
+            "extra": "康熙部首 101"
+          },
+          "jp": {
+            "name": "用",
+            "reading": "",
+            "gloss": "use"
+          },
+          "wk": null,
+          "kx": 101,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "田",
+          "slug": "tian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "田",
+            "reading": "tián",
+            "gloss": "field",
+            "extra": "康熙部首 102"
+          },
+          "jp": {
+            "name": "田",
+            "reading": "",
+            "gloss": "field"
+          },
+          "wk": null,
+          "kx": 102,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "疋",
+          "slug": "pi",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "疋",
+            "reading": "pǐ",
+            "gloss": "bolt of cloth",
+            "extra": "康熙部首 103"
+          },
+          "jp": {
+            "name": "疋",
+            "reading": "",
+            "gloss": "bolt of cloth"
+          },
+          "wk": null,
+          "kx": 103,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "疒",
+          "slug": "ne",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "疒",
+            "reading": "nè",
+            "gloss": "sickness",
+            "extra": "康熙部首 104"
+          },
+          "jp": {
+            "name": "疒",
+            "reading": "",
+            "gloss": "sickness"
+          },
+          "wk": null,
+          "kx": 104,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "癶",
+          "slug": "bo",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "癶",
+            "reading": "bō",
+            "gloss": "footsteps",
+            "extra": "康熙部首 105"
+          },
+          "jp": {
+            "name": "癶",
+            "reading": "",
+            "gloss": "footsteps"
+          },
+          "wk": null,
+          "kx": 105,
+          "audioBase": "../radicals/"
+        },
         {
           "glyph": "白",
           "slug": "bai",
@@ -2093,180 +3078,235 @@
           "audioBase": "../radicals/"
         },
         {
-          "stub": true,
-          "glyph": "玄",
-          "kx": 95,
-          "pinyin": "xuán",
-          "meaning": "profound",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "玉",
-          "kx": 96,
-          "pinyin": "yù",
-          "meaning": "jade",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "瓜",
-          "kx": 97,
-          "pinyin": "guā",
-          "meaning": "melon",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "瓦",
-          "kx": 98,
-          "pinyin": "wǎ",
-          "meaning": "tile",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "甘",
-          "kx": 99,
-          "pinyin": "gān",
-          "meaning": "sweet",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "生",
-          "kx": 100,
-          "pinyin": "shēng",
-          "meaning": "life",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "用",
-          "kx": 101,
-          "pinyin": "yòng",
-          "meaning": "use",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "田",
-          "kx": 102,
-          "pinyin": "tián",
-          "meaning": "field",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "疋",
-          "kx": 103,
-          "pinyin": "pǐ",
-          "meaning": "bolt of cloth",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "疒",
-          "kx": 104,
-          "pinyin": "nè",
-          "meaning": "sickness",
-          "strokes": 5
-        },
-        {
-          "stub": true,
-          "glyph": "癶",
-          "kx": 105,
-          "pinyin": "bō",
-          "meaning": "footsteps",
-          "strokes": 5
-        },
-        {
-          "stub": true,
           "glyph": "皮",
+          "slug": "pi107",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "皮",
+            "reading": "pí",
+            "gloss": "skin",
+            "extra": "康熙部首 107"
+          },
+          "jp": {
+            "name": "皮",
+            "reading": "",
+            "gloss": "skin"
+          },
+          "wk": null,
           "kx": 107,
-          "pinyin": "pí",
-          "meaning": "skin",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "皿",
+          "slug": "min",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "皿",
+            "reading": "mǐn",
+            "gloss": "dish",
+            "extra": "康熙部首 108"
+          },
+          "jp": {
+            "name": "皿",
+            "reading": "",
+            "gloss": "dish"
+          },
+          "wk": null,
           "kx": 108,
-          "pinyin": "mǐn",
-          "meaning": "dish",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "目",
+          "slug": "mu109",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "目",
+            "reading": "mù",
+            "gloss": "eye",
+            "extra": "康熙部首 109"
+          },
+          "jp": {
+            "name": "目",
+            "reading": "",
+            "gloss": "eye"
+          },
+          "wk": null,
           "kx": 109,
-          "pinyin": "mù",
-          "meaning": "eye",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "矛",
+          "slug": "mao110",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "矛",
+            "reading": "máo",
+            "gloss": "spear",
+            "extra": "康熙部首 110"
+          },
+          "jp": {
+            "name": "矛",
+            "reading": "",
+            "gloss": "spear"
+          },
+          "wk": null,
           "kx": 110,
-          "pinyin": "máo",
-          "meaning": "spear",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "矢",
+          "slug": "shi111",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "矢",
+            "reading": "shǐ",
+            "gloss": "arrow",
+            "extra": "康熙部首 111"
+          },
+          "jp": {
+            "name": "矢",
+            "reading": "",
+            "gloss": "arrow"
+          },
+          "wk": null,
           "kx": 111,
-          "pinyin": "shǐ",
-          "meaning": "arrow",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "石",
+          "slug": "shi112",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "石",
+            "reading": "shí",
+            "gloss": "stone",
+            "extra": "康熙部首 112"
+          },
+          "jp": {
+            "name": "石",
+            "reading": "",
+            "gloss": "stone"
+          },
+          "wk": null,
           "kx": 112,
-          "pinyin": "shí",
-          "meaning": "stone",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "示",
+          "slug": "shi113",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "示",
+            "reading": "shì",
+            "gloss": "altar",
+            "extra": "康熙部首 113"
+          },
+          "jp": {
+            "name": "示",
+            "reading": "",
+            "gloss": "altar"
+          },
+          "wk": null,
           "kx": 113,
-          "pinyin": "shì",
-          "meaning": "altar",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "禸",
+          "slug": "rou",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "禸",
+            "reading": "róu",
+            "gloss": "track",
+            "extra": "康熙部首 114"
+          },
+          "jp": {
+            "name": "禸",
+            "reading": "",
+            "gloss": "track"
+          },
+          "wk": null,
           "kx": 114,
-          "pinyin": "róu",
-          "meaning": "track",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "禾",
+          "slug": "he",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "禾",
+            "reading": "hé",
+            "gloss": "grain",
+            "extra": "康熙部首 115"
+          },
+          "jp": {
+            "name": "禾",
+            "reading": "",
+            "gloss": "grain"
+          },
+          "wk": null,
           "kx": 115,
-          "pinyin": "hé",
-          "meaning": "grain",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "穴",
+          "slug": "xue",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "穴",
+            "reading": "xué",
+            "gloss": "cave",
+            "extra": "康熙部首 116"
+          },
+          "jp": {
+            "name": "穴",
+            "reading": "",
+            "gloss": "cave"
+          },
+          "wk": null,
           "kx": 116,
-          "pinyin": "xué",
-          "meaning": "cave",
-          "strokes": 5
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "立",
+          "slug": "li117",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "立",
+            "reading": "lì",
+            "gloss": "stand",
+            "extra": "康熙部首 117"
+          },
+          "jp": {
+            "name": "立",
+            "reading": "",
+            "gloss": "stand"
+          },
+          "wk": null,
           "kx": 117,
-          "pinyin": "lì",
-          "meaning": "stand",
-          "strokes": 5
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2274,6 +3314,48 @@
       "title": "6 画",
       "sub": "6 strokes",
       "cards": [
+        {
+          "glyph": "竹",
+          "slug": "zhu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "竹",
+            "reading": "zhú",
+            "gloss": "bamboo",
+            "extra": "康熙部首 118"
+          },
+          "jp": {
+            "name": "竹",
+            "reading": "",
+            "gloss": "bamboo"
+          },
+          "wk": null,
+          "kx": 118,
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "米",
+          "slug": "mi119",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "米",
+            "reading": "mǐ",
+            "gloss": "rice",
+            "extra": "康熙部首 119"
+          },
+          "jp": {
+            "name": "米",
+            "reading": "",
+            "gloss": "rice"
+          },
+          "wk": null,
+          "kx": 119,
+          "audioBase": "../radicals/"
+        },
         {
           "glyph": "糸",
           "slug": "si",
@@ -2297,228 +3379,550 @@
           "audioBase": "../radicals/"
         },
         {
-          "stub": true,
-          "glyph": "竹",
-          "kx": 118,
-          "pinyin": "zhú",
-          "meaning": "bamboo",
-          "strokes": 6
-        },
-        {
-          "stub": true,
-          "glyph": "米",
-          "kx": 119,
-          "pinyin": "mǐ",
-          "meaning": "rice",
-          "strokes": 6
-        },
-        {
-          "stub": true,
           "glyph": "缶",
+          "slug": "fou",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "缶",
+            "reading": "fǒu",
+            "gloss": "jar",
+            "extra": "康熙部首 121"
+          },
+          "jp": {
+            "name": "缶",
+            "reading": "",
+            "gloss": "jar"
+          },
+          "wk": null,
           "kx": 121,
-          "pinyin": "fǒu",
-          "meaning": "jar",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "网",
+          "slug": "wang122",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "网",
+            "reading": "wǎng",
+            "gloss": "net",
+            "extra": "康熙部首 122"
+          },
+          "jp": {
+            "name": "网",
+            "reading": "",
+            "gloss": "net"
+          },
+          "wk": null,
           "kx": 122,
-          "pinyin": "wǎng",
-          "meaning": "net",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "羊",
+          "slug": "yang",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "羊",
+            "reading": "yáng",
+            "gloss": "sheep",
+            "extra": "康熙部首 123"
+          },
+          "jp": {
+            "name": "羊",
+            "reading": "",
+            "gloss": "sheep"
+          },
+          "wk": null,
           "kx": 123,
-          "pinyin": "yáng",
-          "meaning": "sheep",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "羽",
+          "slug": "yu124",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "羽",
+            "reading": "yǔ",
+            "gloss": "feather",
+            "extra": "康熙部首 124"
+          },
+          "jp": {
+            "name": "羽",
+            "reading": "",
+            "gloss": "feather"
+          },
+          "wk": null,
           "kx": 124,
-          "pinyin": "yǔ",
-          "meaning": "feather",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "老",
+          "slug": "lao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "老",
+            "reading": "lǎo",
+            "gloss": "old",
+            "extra": "康熙部首 125"
+          },
+          "jp": {
+            "name": "老",
+            "reading": "",
+            "gloss": "old"
+          },
+          "wk": null,
           "kx": 125,
-          "pinyin": "lǎo",
-          "meaning": "old",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "而",
+          "slug": "er126",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "而",
+            "reading": "ér",
+            "gloss": "and",
+            "extra": "康熙部首 126"
+          },
+          "jp": {
+            "name": "而",
+            "reading": "",
+            "gloss": "and"
+          },
+          "wk": null,
           "kx": 126,
-          "pinyin": "ér",
-          "meaning": "and",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "耒",
+          "slug": "lei",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "耒",
+            "reading": "lěi",
+            "gloss": "plow",
+            "extra": "康熙部首 127"
+          },
+          "jp": {
+            "name": "耒",
+            "reading": "",
+            "gloss": "plow"
+          },
+          "wk": null,
           "kx": 127,
-          "pinyin": "lěi",
-          "meaning": "plow",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "耳",
+          "slug": "er128",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "耳",
+            "reading": "ěr",
+            "gloss": "ear",
+            "extra": "康熙部首 128"
+          },
+          "jp": {
+            "name": "耳",
+            "reading": "",
+            "gloss": "ear"
+          },
+          "wk": null,
           "kx": 128,
-          "pinyin": "ěr",
-          "meaning": "ear",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "聿",
+          "slug": "yu129",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "聿",
+            "reading": "yù",
+            "gloss": "brush",
+            "extra": "康熙部首 129"
+          },
+          "jp": {
+            "name": "聿",
+            "reading": "",
+            "gloss": "brush"
+          },
+          "wk": null,
           "kx": 129,
-          "pinyin": "yù",
-          "meaning": "brush",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "肉",
+          "slug": "rou130",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "肉",
+            "reading": "ròu",
+            "gloss": "meat",
+            "extra": "康熙部首 130"
+          },
+          "jp": {
+            "name": "肉",
+            "reading": "",
+            "gloss": "meat"
+          },
+          "wk": null,
           "kx": 130,
-          "pinyin": "ròu",
-          "meaning": "meat",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "臣",
+          "slug": "chen",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "臣",
+            "reading": "chén",
+            "gloss": "minister",
+            "extra": "康熙部首 131"
+          },
+          "jp": {
+            "name": "臣",
+            "reading": "",
+            "gloss": "minister"
+          },
+          "wk": null,
           "kx": 131,
-          "pinyin": "chén",
-          "meaning": "minister",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "自",
+          "slug": "zi132",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "自",
+            "reading": "zì",
+            "gloss": "self",
+            "extra": "康熙部首 132"
+          },
+          "jp": {
+            "name": "自",
+            "reading": "",
+            "gloss": "self"
+          },
+          "wk": null,
           "kx": 132,
-          "pinyin": "zì",
-          "meaning": "self",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "至",
+          "slug": "zhi133",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "至",
+            "reading": "zhì",
+            "gloss": "arrive",
+            "extra": "康熙部首 133"
+          },
+          "jp": {
+            "name": "至",
+            "reading": "",
+            "gloss": "arrive"
+          },
+          "wk": null,
           "kx": 133,
-          "pinyin": "zhì",
-          "meaning": "arrive",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "臼",
+          "slug": "jiu134",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "臼",
+            "reading": "jiù",
+            "gloss": "mortar",
+            "extra": "康熙部首 134"
+          },
+          "jp": {
+            "name": "臼",
+            "reading": "",
+            "gloss": "mortar"
+          },
+          "wk": null,
           "kx": 134,
-          "pinyin": "jiù",
-          "meaning": "mortar",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "舌",
+          "slug": "she",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "舌",
+            "reading": "shé",
+            "gloss": "tongue",
+            "extra": "康熙部首 135"
+          },
+          "jp": {
+            "name": "舌",
+            "reading": "",
+            "gloss": "tongue"
+          },
+          "wk": null,
           "kx": 135,
-          "pinyin": "shé",
-          "meaning": "tongue",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "舛",
+          "slug": "chuan136",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "舛",
+            "reading": "chuǎn",
+            "gloss": "oppose",
+            "extra": "康熙部首 136"
+          },
+          "jp": {
+            "name": "舛",
+            "reading": "",
+            "gloss": "oppose"
+          },
+          "wk": null,
           "kx": 136,
-          "pinyin": "chuǎn",
-          "meaning": "oppose",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "舟",
+          "slug": "zhou",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "舟",
+            "reading": "zhōu",
+            "gloss": "boat",
+            "extra": "康熙部首 137"
+          },
+          "jp": {
+            "name": "舟",
+            "reading": "",
+            "gloss": "boat"
+          },
+          "wk": null,
           "kx": 137,
-          "pinyin": "zhōu",
-          "meaning": "boat",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "艮",
+          "slug": "gen",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "艮",
+            "reading": "gèn",
+            "gloss": "stopping",
+            "extra": "康熙部首 138"
+          },
+          "jp": {
+            "name": "艮",
+            "reading": "",
+            "gloss": "stopping"
+          },
+          "wk": null,
           "kx": 138,
-          "pinyin": "gèn",
-          "meaning": "stopping",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "色",
+          "slug": "se",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "色",
+            "reading": "sè",
+            "gloss": "color",
+            "extra": "康熙部首 139"
+          },
+          "jp": {
+            "name": "色",
+            "reading": "",
+            "gloss": "color"
+          },
+          "wk": null,
           "kx": 139,
-          "pinyin": "sè",
-          "meaning": "color",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "艸",
+          "slug": "cao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "艸",
+            "reading": "cǎo",
+            "gloss": "grass",
+            "extra": "康熙部首 140"
+          },
+          "jp": {
+            "name": "艸",
+            "reading": "",
+            "gloss": "grass"
+          },
+          "wk": null,
           "kx": 140,
-          "pinyin": "cǎo",
-          "meaning": "grass",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "虍",
+          "slug": "hu141",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "虍",
+            "reading": "hū",
+            "gloss": "tiger",
+            "extra": "康熙部首 141"
+          },
+          "jp": {
+            "name": "虍",
+            "reading": "",
+            "gloss": "tiger"
+          },
+          "wk": null,
           "kx": 141,
-          "pinyin": "hū",
-          "meaning": "tiger",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "虫",
+          "slug": "chong",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "虫",
+            "reading": "chóng",
+            "gloss": "insect",
+            "extra": "康熙部首 142"
+          },
+          "jp": {
+            "name": "虫",
+            "reading": "",
+            "gloss": "insect"
+          },
+          "wk": null,
           "kx": 142,
-          "pinyin": "chóng",
-          "meaning": "insect",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "血",
+          "slug": "xue143",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "血",
+            "reading": "xuè",
+            "gloss": "blood",
+            "extra": "康熙部首 143"
+          },
+          "jp": {
+            "name": "血",
+            "reading": "",
+            "gloss": "blood"
+          },
+          "wk": null,
           "kx": 143,
-          "pinyin": "xuè",
-          "meaning": "blood",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "行",
+          "slug": "xing",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "行",
+            "reading": "xíng",
+            "gloss": "walk",
+            "extra": "康熙部首 144"
+          },
+          "jp": {
+            "name": "行",
+            "reading": "",
+            "gloss": "walk"
+          },
+          "wk": null,
           "kx": 144,
-          "pinyin": "xíng",
-          "meaning": "walk",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "衣",
+          "slug": "yi145",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "衣",
+            "reading": "yī",
+            "gloss": "clothes",
+            "extra": "康熙部首 145"
+          },
+          "jp": {
+            "name": "衣",
+            "reading": "",
+            "gloss": "clothes"
+          },
+          "wk": null,
           "kx": 145,
-          "pinyin": "yī",
-          "meaning": "clothes",
-          "strokes": 6
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "襾",
+          "slug": "ya146",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "襾",
+            "reading": "yà",
+            "gloss": "cover",
+            "extra": "康熙部首 146"
+          },
+          "jp": {
+            "name": "襾",
+            "reading": "",
+            "gloss": "cover"
+          },
+          "wk": null,
           "kx": 146,
-          "pinyin": "yà",
-          "meaning": "cover",
-          "strokes": 6
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2527,164 +3931,424 @@
       "sub": "7 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "見",
+          "slug": "jian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "見",
+            "reading": "jiàn",
+            "gloss": "see",
+            "extra": "康熙部首 147"
+          },
+          "jp": {
+            "name": "見",
+            "reading": "",
+            "gloss": "see"
+          },
+          "wk": null,
           "kx": 147,
-          "pinyin": "jiàn",
-          "meaning": "see",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "角",
+          "slug": "jiao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "角",
+            "reading": "jiǎo",
+            "gloss": "horn",
+            "extra": "康熙部首 148"
+          },
+          "jp": {
+            "name": "角",
+            "reading": "",
+            "gloss": "horn"
+          },
+          "wk": null,
           "kx": 148,
-          "pinyin": "jiǎo",
-          "meaning": "horn",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "言",
+          "slug": "yan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "言",
+            "reading": "yán",
+            "gloss": "speech",
+            "extra": "康熙部首 149"
+          },
+          "jp": {
+            "name": "言",
+            "reading": "",
+            "gloss": "speech"
+          },
+          "wk": null,
           "kx": 149,
-          "pinyin": "yán",
-          "meaning": "speech",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "谷",
+          "slug": "gu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "谷",
+            "reading": "gǔ",
+            "gloss": "valley",
+            "extra": "康熙部首 150"
+          },
+          "jp": {
+            "name": "谷",
+            "reading": "",
+            "gloss": "valley"
+          },
+          "wk": null,
           "kx": 150,
-          "pinyin": "gǔ",
-          "meaning": "valley",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "豆",
+          "slug": "dou151",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "豆",
+            "reading": "dòu",
+            "gloss": "bean",
+            "extra": "康熙部首 151"
+          },
+          "jp": {
+            "name": "豆",
+            "reading": "",
+            "gloss": "bean"
+          },
+          "wk": null,
           "kx": 151,
-          "pinyin": "dòu",
-          "meaning": "bean",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "豕",
+          "slug": "shi152",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "豕",
+            "reading": "shǐ",
+            "gloss": "pig",
+            "extra": "康熙部首 152"
+          },
+          "jp": {
+            "name": "豕",
+            "reading": "",
+            "gloss": "pig"
+          },
+          "wk": null,
           "kx": 152,
-          "pinyin": "shǐ",
-          "meaning": "pig",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "豸",
+          "slug": "zhi153",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "豸",
+            "reading": "zhì",
+            "gloss": "badger",
+            "extra": "康熙部首 153"
+          },
+          "jp": {
+            "name": "豸",
+            "reading": "",
+            "gloss": "badger"
+          },
+          "wk": null,
           "kx": 153,
-          "pinyin": "zhì",
-          "meaning": "badger",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "貝",
+          "slug": "bei",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "貝",
+            "reading": "bèi",
+            "gloss": "shell",
+            "extra": "康熙部首 154"
+          },
+          "jp": {
+            "name": "貝",
+            "reading": "",
+            "gloss": "shell"
+          },
+          "wk": null,
           "kx": 154,
-          "pinyin": "bèi",
-          "meaning": "shell",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "赤",
+          "slug": "chi155",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "赤",
+            "reading": "chì",
+            "gloss": "red",
+            "extra": "康熙部首 155"
+          },
+          "jp": {
+            "name": "赤",
+            "reading": "",
+            "gloss": "red"
+          },
+          "wk": null,
           "kx": 155,
-          "pinyin": "chì",
-          "meaning": "red",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "走",
+          "slug": "zou",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "走",
+            "reading": "zǒu",
+            "gloss": "run",
+            "extra": "康熙部首 156"
+          },
+          "jp": {
+            "name": "走",
+            "reading": "",
+            "gloss": "run"
+          },
+          "wk": null,
           "kx": 156,
-          "pinyin": "zǒu",
-          "meaning": "run",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "足",
+          "slug": "zu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "足",
+            "reading": "zú",
+            "gloss": "foot",
+            "extra": "康熙部首 157"
+          },
+          "jp": {
+            "name": "足",
+            "reading": "",
+            "gloss": "foot"
+          },
+          "wk": null,
           "kx": 157,
-          "pinyin": "zú",
-          "meaning": "foot",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "身",
+          "slug": "shen",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "身",
+            "reading": "shēn",
+            "gloss": "body",
+            "extra": "康熙部首 158"
+          },
+          "jp": {
+            "name": "身",
+            "reading": "",
+            "gloss": "body"
+          },
+          "wk": null,
           "kx": 158,
-          "pinyin": "shēn",
-          "meaning": "body",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "車",
+          "slug": "che159",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "車",
+            "reading": "chē",
+            "gloss": "cart",
+            "extra": "康熙部首 159"
+          },
+          "jp": {
+            "name": "車",
+            "reading": "",
+            "gloss": "cart"
+          },
+          "wk": null,
           "kx": 159,
-          "pinyin": "chē",
-          "meaning": "cart",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "辛",
+          "slug": "xin160",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "辛",
+            "reading": "xīn",
+            "gloss": "bitter",
+            "extra": "康熙部首 160"
+          },
+          "jp": {
+            "name": "辛",
+            "reading": "",
+            "gloss": "bitter"
+          },
+          "wk": null,
           "kx": 160,
-          "pinyin": "xīn",
-          "meaning": "bitter",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "辰",
+          "slug": "chen161",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "辰",
+            "reading": "chén",
+            "gloss": "morning",
+            "extra": "康熙部首 161"
+          },
+          "jp": {
+            "name": "辰",
+            "reading": "",
+            "gloss": "morning"
+          },
+          "wk": null,
           "kx": 161,
-          "pinyin": "chén",
-          "meaning": "morning",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "辵",
+          "slug": "chuo",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "辵",
+            "reading": "chuò",
+            "gloss": "walk",
+            "extra": "康熙部首 162"
+          },
+          "jp": {
+            "name": "辵",
+            "reading": "",
+            "gloss": "walk"
+          },
+          "wk": null,
           "kx": 162,
-          "pinyin": "chuò",
-          "meaning": "walk",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "邑",
+          "slug": "yi163",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "邑",
+            "reading": "yì",
+            "gloss": "city",
+            "extra": "康熙部首 163"
+          },
+          "jp": {
+            "name": "邑",
+            "reading": "",
+            "gloss": "city"
+          },
+          "wk": null,
           "kx": 163,
-          "pinyin": "yì",
-          "meaning": "city",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "酉",
+          "slug": "you164",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "酉",
+            "reading": "yǒu",
+            "gloss": "wine",
+            "extra": "康熙部首 164"
+          },
+          "jp": {
+            "name": "酉",
+            "reading": "",
+            "gloss": "wine"
+          },
+          "wk": null,
           "kx": 164,
-          "pinyin": "yǒu",
-          "meaning": "wine",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "釆",
+          "slug": "bian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "釆",
+            "reading": "biàn",
+            "gloss": "distinguish",
+            "extra": "康熙部首 165"
+          },
+          "jp": {
+            "name": "釆",
+            "reading": "",
+            "gloss": "distinguish"
+          },
+          "wk": null,
           "kx": 165,
-          "pinyin": "biàn",
-          "meaning": "distinguish",
-          "strokes": 7
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "里",
+          "slug": "li166",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "里",
+            "reading": "lǐ",
+            "gloss": "village",
+            "extra": "康熙部首 166"
+          },
+          "jp": {
+            "name": "里",
+            "reading": "",
+            "gloss": "village"
+          },
+          "wk": null,
           "kx": 166,
-          "pinyin": "lǐ",
-          "meaning": "village",
-          "strokes": 7
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2693,76 +4357,193 @@
       "sub": "8 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "金",
+          "slug": "jin167",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "金",
+            "reading": "jīn",
+            "gloss": "gold",
+            "extra": "康熙部首 167"
+          },
+          "jp": {
+            "name": "金",
+            "reading": "",
+            "gloss": "gold"
+          },
+          "wk": null,
           "kx": 167,
-          "pinyin": "jīn",
-          "meaning": "gold",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "長",
+          "slug": "chang",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "長",
+            "reading": "cháng",
+            "gloss": "long",
+            "extra": "康熙部首 168"
+          },
+          "jp": {
+            "name": "長",
+            "reading": "",
+            "gloss": "long"
+          },
+          "wk": null,
           "kx": 168,
-          "pinyin": "cháng",
-          "meaning": "long",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "門",
+          "slug": "men",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "門",
+            "reading": "mén",
+            "gloss": "gate",
+            "extra": "康熙部首 169"
+          },
+          "jp": {
+            "name": "門",
+            "reading": "",
+            "gloss": "gate"
+          },
+          "wk": null,
           "kx": 169,
-          "pinyin": "mén",
-          "meaning": "gate",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "阜",
+          "slug": "fu170",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "阜",
+            "reading": "fù",
+            "gloss": "mound",
+            "extra": "康熙部首 170"
+          },
+          "jp": {
+            "name": "阜",
+            "reading": "",
+            "gloss": "mound"
+          },
+          "wk": null,
           "kx": 170,
-          "pinyin": "fù",
-          "meaning": "mound",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "隶",
+          "slug": "li171",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "隶",
+            "reading": "lì",
+            "gloss": "slave",
+            "extra": "康熙部首 171"
+          },
+          "jp": {
+            "name": "隶",
+            "reading": "",
+            "gloss": "slave"
+          },
+          "wk": null,
           "kx": 171,
-          "pinyin": "lì",
-          "meaning": "slave",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "隹",
+          "slug": "zhui",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "隹",
+            "reading": "zhuī",
+            "gloss": "short-tailed bird",
+            "extra": "康熙部首 172"
+          },
+          "jp": {
+            "name": "隹",
+            "reading": "",
+            "gloss": "short-tailed bird"
+          },
+          "wk": null,
           "kx": 172,
-          "pinyin": "zhuī",
-          "meaning": "short-tailed bird",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "雨",
+          "slug": "yu173",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "雨",
+            "reading": "yǔ",
+            "gloss": "rain",
+            "extra": "康熙部首 173"
+          },
+          "jp": {
+            "name": "雨",
+            "reading": "",
+            "gloss": "rain"
+          },
+          "wk": null,
           "kx": 173,
-          "pinyin": "yǔ",
-          "meaning": "rain",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "青",
+          "slug": "qing",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "青",
+            "reading": "qīng",
+            "gloss": "blue-green",
+            "extra": "康熙部首 174"
+          },
+          "jp": {
+            "name": "青",
+            "reading": "",
+            "gloss": "blue-green"
+          },
+          "wk": null,
           "kx": 174,
-          "pinyin": "qīng",
-          "meaning": "blue-green",
-          "strokes": 8
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "非",
+          "slug": "fei",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "非",
+            "reading": "fēi",
+            "gloss": "wrong",
+            "extra": "康熙部首 175"
+          },
+          "jp": {
+            "name": "非",
+            "reading": "",
+            "gloss": "wrong"
+          },
+          "wk": null,
           "kx": 175,
-          "pinyin": "fēi",
-          "meaning": "wrong",
-          "strokes": 8
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2771,92 +4552,235 @@
       "sub": "9 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "面",
+          "slug": "mian176",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "面",
+            "reading": "miàn",
+            "gloss": "face",
+            "extra": "康熙部首 176"
+          },
+          "jp": {
+            "name": "面",
+            "reading": "",
+            "gloss": "face"
+          },
+          "wk": null,
           "kx": 176,
-          "pinyin": "miàn",
-          "meaning": "face",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "革",
+          "slug": "ge177",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "革",
+            "reading": "gé",
+            "gloss": "leather",
+            "extra": "康熙部首 177"
+          },
+          "jp": {
+            "name": "革",
+            "reading": "",
+            "gloss": "leather"
+          },
+          "wk": null,
           "kx": 177,
-          "pinyin": "gé",
-          "meaning": "leather",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "韋",
+          "slug": "wei178",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "韋",
+            "reading": "wéi",
+            "gloss": "tanned leather",
+            "extra": "康熙部首 178"
+          },
+          "jp": {
+            "name": "韋",
+            "reading": "",
+            "gloss": "tanned leather"
+          },
+          "wk": null,
           "kx": 178,
-          "pinyin": "wéi",
-          "meaning": "tanned leather",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "韭",
+          "slug": "jiu179",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "韭",
+            "reading": "jiǔ",
+            "gloss": "leek",
+            "extra": "康熙部首 179"
+          },
+          "jp": {
+            "name": "韭",
+            "reading": "",
+            "gloss": "leek"
+          },
+          "wk": null,
           "kx": 179,
-          "pinyin": "jiǔ",
-          "meaning": "leek",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "音",
+          "slug": "yin180",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "音",
+            "reading": "yīn",
+            "gloss": "sound",
+            "extra": "康熙部首 180"
+          },
+          "jp": {
+            "name": "音",
+            "reading": "",
+            "gloss": "sound"
+          },
+          "wk": null,
           "kx": 180,
-          "pinyin": "yīn",
-          "meaning": "sound",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "頁",
+          "slug": "ye181",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "頁",
+            "reading": "yè",
+            "gloss": "head; page",
+            "extra": "康熙部首 181"
+          },
+          "jp": {
+            "name": "頁",
+            "reading": "",
+            "gloss": "head; page"
+          },
+          "wk": null,
           "kx": 181,
-          "pinyin": "yè",
-          "meaning": "head; page",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "風",
+          "slug": "feng",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "風",
+            "reading": "fēng",
+            "gloss": "wind",
+            "extra": "康熙部首 182"
+          },
+          "jp": {
+            "name": "風",
+            "reading": "",
+            "gloss": "wind"
+          },
+          "wk": null,
           "kx": 182,
-          "pinyin": "fēng",
-          "meaning": "wind",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "飛",
+          "slug": "fei183",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "飛",
+            "reading": "fēi",
+            "gloss": "fly",
+            "extra": "康熙部首 183"
+          },
+          "jp": {
+            "name": "飛",
+            "reading": "",
+            "gloss": "fly"
+          },
+          "wk": null,
           "kx": 183,
-          "pinyin": "fēi",
-          "meaning": "fly",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "食",
+          "slug": "shi184",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "食",
+            "reading": "shí",
+            "gloss": "eat",
+            "extra": "康熙部首 184"
+          },
+          "jp": {
+            "name": "食",
+            "reading": "",
+            "gloss": "eat"
+          },
+          "wk": null,
           "kx": 184,
-          "pinyin": "shí",
-          "meaning": "eat",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "首",
+          "slug": "shou185",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "首",
+            "reading": "shǒu",
+            "gloss": "head",
+            "extra": "康熙部首 185"
+          },
+          "jp": {
+            "name": "首",
+            "reading": "",
+            "gloss": "head"
+          },
+          "wk": null,
           "kx": 185,
-          "pinyin": "shǒu",
-          "meaning": "head",
-          "strokes": 9
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "香",
+          "slug": "xiang186",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "香",
+            "reading": "xiāng",
+            "gloss": "fragrant",
+            "extra": "康熙部首 186"
+          },
+          "jp": {
+            "name": "香",
+            "reading": "",
+            "gloss": "fragrant"
+          },
+          "wk": null,
           "kx": 186,
-          "pinyin": "xiāng",
-          "meaning": "fragrant",
-          "strokes": 9
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2865,68 +4789,172 @@
       "sub": "10 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "馬",
+          "slug": "ma",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "馬",
+            "reading": "mǎ",
+            "gloss": "horse",
+            "extra": "康熙部首 187"
+          },
+          "jp": {
+            "name": "馬",
+            "reading": "",
+            "gloss": "horse"
+          },
+          "wk": null,
           "kx": 187,
-          "pinyin": "mǎ",
-          "meaning": "horse",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "骨",
+          "slug": "gu188",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "骨",
+            "reading": "gǔ",
+            "gloss": "bone",
+            "extra": "康熙部首 188"
+          },
+          "jp": {
+            "name": "骨",
+            "reading": "",
+            "gloss": "bone"
+          },
+          "wk": null,
           "kx": 188,
-          "pinyin": "gǔ",
-          "meaning": "bone",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "高",
+          "slug": "gao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "高",
+            "reading": "gāo",
+            "gloss": "tall",
+            "extra": "康熙部首 189"
+          },
+          "jp": {
+            "name": "高",
+            "reading": "",
+            "gloss": "tall"
+          },
+          "wk": null,
           "kx": 189,
-          "pinyin": "gāo",
-          "meaning": "tall",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "髟",
+          "slug": "biao",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "髟",
+            "reading": "biāo",
+            "gloss": "long hair",
+            "extra": "康熙部首 190"
+          },
+          "jp": {
+            "name": "髟",
+            "reading": "",
+            "gloss": "long hair"
+          },
+          "wk": null,
           "kx": 190,
-          "pinyin": "biāo",
-          "meaning": "long hair",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鬥",
+          "slug": "dou191",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鬥",
+            "reading": "dòu",
+            "gloss": "fight",
+            "extra": "康熙部首 191"
+          },
+          "jp": {
+            "name": "鬥",
+            "reading": "",
+            "gloss": "fight"
+          },
+          "wk": null,
           "kx": 191,
-          "pinyin": "dòu",
-          "meaning": "fight",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鬯",
+          "slug": "chang192",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鬯",
+            "reading": "chàng",
+            "gloss": "sacrificial wine",
+            "extra": "康熙部首 192"
+          },
+          "jp": {
+            "name": "鬯",
+            "reading": "",
+            "gloss": "sacrificial wine"
+          },
+          "wk": null,
           "kx": 192,
-          "pinyin": "chàng",
-          "meaning": "sacrificial wine",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鬲",
+          "slug": "li193",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鬲",
+            "reading": "lì",
+            "gloss": "cauldron",
+            "extra": "康熙部首 193"
+          },
+          "jp": {
+            "name": "鬲",
+            "reading": "",
+            "gloss": "cauldron"
+          },
+          "wk": null,
           "kx": 193,
-          "pinyin": "lì",
-          "meaning": "cauldron",
-          "strokes": 10
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鬼",
+          "slug": "gui",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鬼",
+            "reading": "guǐ",
+            "gloss": "ghost",
+            "extra": "康熙部首 194"
+          },
+          "jp": {
+            "name": "鬼",
+            "reading": "",
+            "gloss": "ghost"
+          },
+          "wk": null,
           "kx": 194,
-          "pinyin": "guǐ",
-          "meaning": "ghost",
-          "strokes": 10
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2935,52 +4963,130 @@
       "sub": "11 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "魚",
+          "slug": "yu195",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "魚",
+            "reading": "yú",
+            "gloss": "fish",
+            "extra": "康熙部首 195"
+          },
+          "jp": {
+            "name": "魚",
+            "reading": "",
+            "gloss": "fish"
+          },
+          "wk": null,
           "kx": 195,
-          "pinyin": "yú",
-          "meaning": "fish",
-          "strokes": 11
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鳥",
+          "slug": "niao",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鳥",
+            "reading": "niǎo",
+            "gloss": "bird",
+            "extra": "康熙部首 196"
+          },
+          "jp": {
+            "name": "鳥",
+            "reading": "",
+            "gloss": "bird"
+          },
+          "wk": null,
           "kx": 196,
-          "pinyin": "niǎo",
-          "meaning": "bird",
-          "strokes": 11
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鹵",
+          "slug": "lu",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鹵",
+            "reading": "lǔ",
+            "gloss": "salt",
+            "extra": "康熙部首 197"
+          },
+          "jp": {
+            "name": "鹵",
+            "reading": "",
+            "gloss": "salt"
+          },
+          "wk": null,
           "kx": 197,
-          "pinyin": "lǔ",
-          "meaning": "salt",
-          "strokes": 11
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鹿",
+          "slug": "lu198",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鹿",
+            "reading": "lù",
+            "gloss": "deer",
+            "extra": "康熙部首 198"
+          },
+          "jp": {
+            "name": "鹿",
+            "reading": "",
+            "gloss": "deer"
+          },
+          "wk": null,
           "kx": 198,
-          "pinyin": "lù",
-          "meaning": "deer",
-          "strokes": 11
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "麥",
+          "slug": "mai",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "麥",
+            "reading": "mài",
+            "gloss": "wheat",
+            "extra": "康熙部首 199"
+          },
+          "jp": {
+            "name": "麥",
+            "reading": "",
+            "gloss": "wheat"
+          },
+          "wk": null,
           "kx": 199,
-          "pinyin": "mài",
-          "meaning": "wheat",
-          "strokes": 11
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "麻",
+          "slug": "ma200",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "麻",
+            "reading": "má",
+            "gloss": "hemp",
+            "extra": "康熙部首 200"
+          },
+          "jp": {
+            "name": "麻",
+            "reading": "",
+            "gloss": "hemp"
+          },
+          "wk": null,
           "kx": 200,
-          "pinyin": "má",
-          "meaning": "hemp",
-          "strokes": 11
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -2989,36 +5095,88 @@
       "sub": "12 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "黃",
+          "slug": "huang",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "黃",
+            "reading": "huáng",
+            "gloss": "yellow",
+            "extra": "康熙部首 201"
+          },
+          "jp": {
+            "name": "黃",
+            "reading": "",
+            "gloss": "yellow"
+          },
+          "wk": null,
           "kx": 201,
-          "pinyin": "huáng",
-          "meaning": "yellow",
-          "strokes": 12
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "黍",
+          "slug": "shu202",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "黍",
+            "reading": "shǔ",
+            "gloss": "millet",
+            "extra": "康熙部首 202"
+          },
+          "jp": {
+            "name": "黍",
+            "reading": "",
+            "gloss": "millet"
+          },
+          "wk": null,
           "kx": 202,
-          "pinyin": "shǔ",
-          "meaning": "millet",
-          "strokes": 12
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "黑",
+          "slug": "hei",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "黑",
+            "reading": "hēi",
+            "gloss": "black",
+            "extra": "康熙部首 203"
+          },
+          "jp": {
+            "name": "黑",
+            "reading": "",
+            "gloss": "black"
+          },
+          "wk": null,
           "kx": 203,
-          "pinyin": "hēi",
-          "meaning": "black",
-          "strokes": 12
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "黹",
+          "slug": "zhi204",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "黹",
+            "reading": "zhǐ",
+            "gloss": "embroidery",
+            "extra": "康熙部首 204"
+          },
+          "jp": {
+            "name": "黹",
+            "reading": "",
+            "gloss": "embroidery"
+          },
+          "wk": null,
           "kx": 204,
-          "pinyin": "zhǐ",
-          "meaning": "embroidery",
-          "strokes": 12
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -3027,36 +5185,88 @@
       "sub": "13 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "黽",
+          "slug": "min205",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "黽",
+            "reading": "mǐn",
+            "gloss": "frog",
+            "extra": "康熙部首 205"
+          },
+          "jp": {
+            "name": "黽",
+            "reading": "",
+            "gloss": "frog"
+          },
+          "wk": null,
           "kx": 205,
-          "pinyin": "mǐn",
-          "meaning": "frog",
-          "strokes": 13
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鼎",
+          "slug": "ding206",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鼎",
+            "reading": "dǐng",
+            "gloss": "tripod",
+            "extra": "康熙部首 206"
+          },
+          "jp": {
+            "name": "鼎",
+            "reading": "",
+            "gloss": "tripod"
+          },
+          "wk": null,
           "kx": 206,
-          "pinyin": "dǐng",
-          "meaning": "tripod",
-          "strokes": 13
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鼓",
+          "slug": "gu207",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鼓",
+            "reading": "gǔ",
+            "gloss": "drum",
+            "extra": "康熙部首 207"
+          },
+          "jp": {
+            "name": "鼓",
+            "reading": "",
+            "gloss": "drum"
+          },
+          "wk": null,
           "kx": 207,
-          "pinyin": "gǔ",
-          "meaning": "drum",
-          "strokes": 13
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "鼠",
+          "slug": "shu208",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鼠",
+            "reading": "shǔ",
+            "gloss": "rat",
+            "extra": "康熙部首 208"
+          },
+          "jp": {
+            "name": "鼠",
+            "reading": "",
+            "gloss": "rat"
+          },
+          "wk": null,
           "kx": 208,
-          "pinyin": "shǔ",
-          "meaning": "rat",
-          "strokes": 13
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -3065,20 +5275,46 @@
       "sub": "14 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "鼻",
+          "slug": "bi209",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "鼻",
+            "reading": "bí",
+            "gloss": "nose",
+            "extra": "康熙部首 209"
+          },
+          "jp": {
+            "name": "鼻",
+            "reading": "",
+            "gloss": "nose"
+          },
+          "wk": null,
           "kx": 209,
-          "pinyin": "bí",
-          "meaning": "nose",
-          "strokes": 14
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "齊",
+          "slug": "qi210",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "齊",
+            "reading": "qí",
+            "gloss": "even",
+            "extra": "康熙部首 210"
+          },
+          "jp": {
+            "name": "齊",
+            "reading": "",
+            "gloss": "even"
+          },
+          "wk": null,
           "kx": 210,
-          "pinyin": "qí",
-          "meaning": "even",
-          "strokes": 14
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -3087,12 +5323,25 @@
       "sub": "15 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "齒",
+          "slug": "chi211",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "齒",
+            "reading": "chǐ",
+            "gloss": "tooth",
+            "extra": "康熙部首 211"
+          },
+          "jp": {
+            "name": "齒",
+            "reading": "",
+            "gloss": "tooth"
+          },
+          "wk": null,
           "kx": 211,
-          "pinyin": "chǐ",
-          "meaning": "tooth",
-          "strokes": 15
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -3101,20 +5350,46 @@
       "sub": "16 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "龍",
+          "slug": "long",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "龍",
+            "reading": "lóng",
+            "gloss": "dragon",
+            "extra": "康熙部首 212"
+          },
+          "jp": {
+            "name": "龍",
+            "reading": "",
+            "gloss": "dragon"
+          },
+          "wk": null,
           "kx": 212,
-          "pinyin": "lóng",
-          "meaning": "dragon",
-          "strokes": 16
+          "audioBase": "../radicals/"
         },
         {
-          "stub": true,
           "glyph": "龜",
+          "slug": "gui213",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "龜",
+            "reading": "guī",
+            "gloss": "turtle",
+            "extra": "康熙部首 213"
+          },
+          "jp": {
+            "name": "龜",
+            "reading": "",
+            "gloss": "turtle"
+          },
+          "wk": null,
           "kx": 213,
-          "pinyin": "guī",
-          "meaning": "turtle",
-          "strokes": 16
+          "audioBase": "../radicals/"
         }
       ]
     },
@@ -3123,12 +5398,25 @@
       "sub": "17 strokes",
       "cards": [
         {
-          "stub": true,
           "glyph": "龠",
+          "slug": "yue214",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "龠",
+            "reading": "yuè",
+            "gloss": "flute",
+            "extra": "康熙部首 214"
+          },
+          "jp": {
+            "name": "龠",
+            "reading": "",
+            "gloss": "flute"
+          },
+          "wk": null,
           "kx": 214,
-          "pinyin": "yuè",
-          "meaning": "flute",
-          "strokes": 17
+          "audioBase": "../radicals/"
         }
       ]
     },

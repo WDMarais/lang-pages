@@ -1,0 +1,26 @@
+{
+  "glyph": "鬥",
+  "cp": "U+9B25",
+  "slug": "dou191",
+  "class": "char",
+  "kangxi": 191,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鬥",
+      "reading": "dòu",
+      "gloss": "fight",
+      "extra": "康熙部首 191"
+    },
+    "jp": {
+      "name": "鬥",
+      "reading": "",
+      "gloss": "fight"
+    }
+  },
+  "programs": []
+}

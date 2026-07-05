@@ -1,0 +1,26 @@
+{
+  "glyph": "竹",
+  "cp": "U+7AF9",
+  "slug": "zhu",
+  "class": "char",
+  "kangxi": 118,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "竹",
+      "reading": "zhú",
+      "gloss": "bamboo",
+      "extra": "康熙部首 118"
+    },
+    "jp": {
+      "name": "竹",
+      "reading": "",
+      "gloss": "bamboo"
+    }
+  },
+  "programs": []
+}

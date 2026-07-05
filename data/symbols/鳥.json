@@ -1,0 +1,26 @@
+{
+  "glyph": "鳥",
+  "cp": "U+9CE5",
+  "slug": "niao",
+  "class": "char",
+  "kangxi": 196,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鳥",
+      "reading": "niǎo",
+      "gloss": "bird",
+      "extra": "康熙部首 196"
+    },
+    "jp": {
+      "name": "鳥",
+      "reading": "",
+      "gloss": "bird"
+    }
+  },
+  "programs": []
+}

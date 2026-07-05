@@ -1,0 +1,26 @@
+{
+  "glyph": "巾",
+  "cp": "U+5DFE",
+  "slug": "jin",
+  "class": "char",
+  "kangxi": 50,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "巾",
+      "reading": "jīn",
+      "gloss": "cloth",
+      "extra": "康熙部首 50"
+    },
+    "jp": {
+      "name": "巾",
+      "reading": "",
+      "gloss": "cloth"
+    }
+  },
+  "programs": []
+}

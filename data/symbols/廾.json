@@ -1,0 +1,26 @@
+{
+  "glyph": "廾",
+  "cp": "U+5EFE",
+  "slug": "gong55",
+  "class": "comp",
+  "kangxi": 55,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "廾",
+      "reading": "gǒng",
+      "gloss": "two hands",
+      "extra": "康熙部首 55"
+    },
+    "jp": {
+      "name": "廾",
+      "reading": "",
+      "gloss": "two hands"
+    }
+  },
+  "programs": []
+}

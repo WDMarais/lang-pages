@@ -1,0 +1,26 @@
+{
+  "glyph": "見",
+  "cp": "U+898B",
+  "slug": "jian",
+  "class": "char",
+  "kangxi": 147,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "見",
+      "reading": "jiàn",
+      "gloss": "see",
+      "extra": "康熙部首 147"
+    },
+    "jp": {
+      "name": "見",
+      "reading": "",
+      "gloss": "see"
+    }
+  },
+  "programs": []
+}

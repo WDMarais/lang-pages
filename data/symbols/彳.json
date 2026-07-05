@@ -1,0 +1,26 @@
+{
+  "glyph": "彳",
+  "cp": "U+5F73",
+  "slug": "chi",
+  "class": "char",
+  "kangxi": 60,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "彳",
+      "reading": "chì",
+      "gloss": "step",
+      "extra": "康熙部首 60"
+    },
+    "jp": {
+      "name": "彳",
+      "reading": "",
+      "gloss": "step"
+    }
+  },
+  "programs": []
+}

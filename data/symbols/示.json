@@ -1,0 +1,26 @@
+{
+  "glyph": "示",
+  "cp": "U+793A",
+  "slug": "shi113",
+  "class": "char",
+  "kangxi": 113,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "示",
+      "reading": "shì",
+      "gloss": "altar",
+      "extra": "康熙部首 113"
+    },
+    "jp": {
+      "name": "示",
+      "reading": "",
+      "gloss": "altar"
+    }
+  },
+  "programs": []
+}

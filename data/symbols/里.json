@@ -1,0 +1,26 @@
+{
+  "glyph": "里",
+  "cp": "U+91CC",
+  "slug": "li166",
+  "class": "char",
+  "kangxi": 166,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "里",
+      "reading": "lǐ",
+      "gloss": "village",
+      "extra": "康熙部首 166"
+    },
+    "jp": {
+      "name": "里",
+      "reading": "",
+      "gloss": "village"
+    }
+  },
+  "programs": []
+}

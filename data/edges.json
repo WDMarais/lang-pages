@@ -511,6 +511,886 @@
       "kind": "composes"
     },
     {
+      "from": "g:乙",
+      "to": "r:second",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:冖",
+      "to": "r:cover",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:冫",
+      "to": "r:ice",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:几",
+      "to": "r:table",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:凵",
+      "to": "r:open-box",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:匕",
+      "to": "r:spoon",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:匚",
+      "to": "r:box",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:匸",
+      "to": "r:hiding-enclosure",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:卜",
+      "to": "r:divination",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:卩",
+      "to": "r:seal",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:厶",
+      "to": "r:private",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:又",
+      "to": "r:again",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:囗",
+      "to": "r:enclosure",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:士",
+      "to": "r:scholar",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:夂",
+      "to": "r:go",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:夊",
+      "to": "r:go-slowly",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:寸",
+      "to": "r:inch",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:尢",
+      "to": "r:lame",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:屮",
+      "to": "r:sprout",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:己",
+      "to": "r:oneself",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:巾",
+      "to": "r:cloth",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:干",
+      "to": "r:dry",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:幺",
+      "to": "r:short-thread",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:广",
+      "to": "r:shelter",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:廴",
+      "to": "r:stride",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:廾",
+      "to": "r:two-hands",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:弋",
+      "to": "r:shoot",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:彐",
+      "to": "r:snout",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:彡",
+      "to": "r:bristle",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:彳",
+      "to": "r:step",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:心",
+      "to": "r:heart",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:戈",
+      "to": "r:halberd",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:戶",
+      "to": "r:door",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:支",
+      "to": "r:branch",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:攴",
+      "to": "r:tap",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:文",
+      "to": "r:script",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:斗",
+      "to": "r:dipper",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:斤",
+      "to": "r:axe",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:方",
+      "to": "r:square",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:无",
+      "to": "r:not",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:曰",
+      "to": "r:say",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:月",
+      "to": "r:moon",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:欠",
+      "to": "r:yawn",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:止",
+      "to": "r:stop",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:歹",
+      "to": "r:death",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:殳",
+      "to": "r:weapon",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:毋",
+      "to": "r:do-not",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:比",
+      "to": "r:compare",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:毛",
+      "to": "r:fur",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:氏",
+      "to": "r:clan",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:气",
+      "to": "r:steam",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:爪",
+      "to": "r:claw",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:爻",
+      "to": "r:trigram-lines",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:爿",
+      "to": "r:split-wood",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:片",
+      "to": "r:slice",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:牙",
+      "to": "r:fang",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:牛",
+      "to": "r:cow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:犬",
+      "to": "r:dog",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:玄",
+      "to": "r:profound",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:玉",
+      "to": "r:jade",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:瓜",
+      "to": "r:melon",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:瓦",
+      "to": "r:tile",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:甘",
+      "to": "r:sweet",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:生",
+      "to": "r:life",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:用",
+      "to": "r:use",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:田",
+      "to": "r:field",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:疋",
+      "to": "r:bolt-of-cloth",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:疒",
+      "to": "r:sickness",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:癶",
+      "to": "r:footsteps",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:皮",
+      "to": "r:skin",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:皿",
+      "to": "r:dish",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:目",
+      "to": "r:eye",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:矛",
+      "to": "r:spear",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:矢",
+      "to": "r:arrow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:石",
+      "to": "r:stone",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:示",
+      "to": "r:altar",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:禸",
+      "to": "r:track",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:禾",
+      "to": "r:grain",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:穴",
+      "to": "r:cave",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:立",
+      "to": "r:stand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:竹",
+      "to": "r:bamboo",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:米",
+      "to": "r:rice",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:缶",
+      "to": "r:jar",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:网",
+      "to": "r:net",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:羊",
+      "to": "r:sheep",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:羽",
+      "to": "r:feather",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:老",
+      "to": "r:old",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:而",
+      "to": "r:and",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:耒",
+      "to": "r:plow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:耳",
+      "to": "r:ear",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:聿",
+      "to": "r:brush",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:肉",
+      "to": "r:meat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:臣",
+      "to": "r:minister",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:自",
+      "to": "r:self",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:至",
+      "to": "r:arrive",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:臼",
+      "to": "r:mortar",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:舌",
+      "to": "r:tongue",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:舛",
+      "to": "r:oppose",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:舟",
+      "to": "r:boat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:艮",
+      "to": "r:stopping",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:色",
+      "to": "r:color",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:艸",
+      "to": "r:grass",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:虍",
+      "to": "r:tiger",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:虫",
+      "to": "r:insect",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:血",
+      "to": "r:blood",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:行",
+      "to": "r:walk",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:衣",
+      "to": "r:clothes",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:襾",
+      "to": "r:cover",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:見",
+      "to": "r:see",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:角",
+      "to": "r:horn",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:言",
+      "to": "r:speech",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:谷",
+      "to": "r:valley",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:豆",
+      "to": "r:bean",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:豕",
+      "to": "r:pig",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:豸",
+      "to": "r:badger",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:貝",
+      "to": "r:shell",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:赤",
+      "to": "r:red",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:走",
+      "to": "r:run",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:足",
+      "to": "r:foot",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:身",
+      "to": "r:body",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:車",
+      "to": "r:cart",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:辛",
+      "to": "r:bitter",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:辰",
+      "to": "r:morning",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:辵",
+      "to": "r:walk",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:邑",
+      "to": "r:city",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:酉",
+      "to": "r:wine",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:釆",
+      "to": "r:distinguish",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:里",
+      "to": "r:village",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:金",
+      "to": "r:gold",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:長",
+      "to": "r:long",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:門",
+      "to": "r:gate",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:阜",
+      "to": "r:mound",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:隶",
+      "to": "r:slave",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:隹",
+      "to": "r:short-tailed-bird",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:雨",
+      "to": "r:rain",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:青",
+      "to": "r:blue-green",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:非",
+      "to": "r:wrong",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:面",
+      "to": "r:face",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:革",
+      "to": "r:leather",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:韋",
+      "to": "r:tanned-leather",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:韭",
+      "to": "r:leek",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:音",
+      "to": "r:sound",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:頁",
+      "to": "r:head",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:風",
+      "to": "r:wind",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:飛",
+      "to": "r:fly",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:食",
+      "to": "r:eat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:首",
+      "to": "r:head",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:香",
+      "to": "r:fragrant",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:馬",
+      "to": "r:horse",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:骨",
+      "to": "r:bone",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:高",
+      "to": "r:tall",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:髟",
+      "to": "r:long-hair",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鬥",
+      "to": "r:fight",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鬯",
+      "to": "r:sacrificial-wine",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鬲",
+      "to": "r:cauldron",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鬼",
+      "to": "r:ghost",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:魚",
+      "to": "r:fish",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鳥",
+      "to": "r:bird",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鹵",
+      "to": "r:salt",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鹿",
+      "to": "r:deer",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:麥",
+      "to": "r:wheat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:麻",
+      "to": "r:hemp",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:黃",
+      "to": "r:yellow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:黍",
+      "to": "r:millet",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:黑",
+      "to": "r:black",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:黹",
+      "to": "r:embroidery",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:黽",
+      "to": "r:frog",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鼎",
+      "to": "r:tripod",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鼓",
+      "to": "r:drum",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鼠",
+      "to": "r:rat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:鼻",
+      "to": "r:nose",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:齊",
+      "to": "r:even",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:齒",
+      "to": "r:tooth",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:龍",
+      "to": "r:dragon",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:龜",
+      "to": "r:turtle",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:龠",
+      "to": "r:flute",
+      "kind": "denotes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"

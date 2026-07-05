@@ -1,0 +1,26 @@
+{
+  "glyph": "攴",
+  "cp": "U+6534",
+  "slug": "pu",
+  "class": "char",
+  "kangxi": 66,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "攴",
+      "reading": "pū",
+      "gloss": "tap",
+      "extra": "康熙部首 66"
+    },
+    "jp": {
+      "name": "攴",
+      "reading": "",
+      "gloss": "tap"
+    }
+  },
+  "programs": []
+}

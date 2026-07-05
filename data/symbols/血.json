@@ -1,0 +1,26 @@
+{
+  "glyph": "血",
+  "cp": "U+8840",
+  "slug": "xue143",
+  "class": "char",
+  "kangxi": 143,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "血",
+      "reading": "xuè",
+      "gloss": "blood",
+      "extra": "康熙部首 143"
+    },
+    "jp": {
+      "name": "血",
+      "reading": "",
+      "gloss": "blood"
+    }
+  },
+  "programs": []
+}

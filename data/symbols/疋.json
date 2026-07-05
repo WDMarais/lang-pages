@@ -1,0 +1,26 @@
+{
+  "glyph": "疋",
+  "cp": "U+758B",
+  "slug": "pi",
+  "class": "char",
+  "kangxi": 103,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "疋",
+      "reading": "pǐ",
+      "gloss": "bolt of cloth",
+      "extra": "康熙部首 103"
+    },
+    "jp": {
+      "name": "疋",
+      "reading": "",
+      "gloss": "bolt of cloth"
+    }
+  },
+  "programs": []
+}

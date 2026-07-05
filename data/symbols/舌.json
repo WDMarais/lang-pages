@@ -1,0 +1,26 @@
+{
+  "glyph": "舌",
+  "cp": "U+820C",
+  "slug": "she",
+  "class": "char",
+  "kangxi": 135,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "舌",
+      "reading": "shé",
+      "gloss": "tongue",
+      "extra": "康熙部首 135"
+    },
+    "jp": {
+      "name": "舌",
+      "reading": "",
+      "gloss": "tongue"
+    }
+  },
+  "programs": []
+}

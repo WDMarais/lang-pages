@@ -1,0 +1,26 @@
+{
+  "glyph": "夊",
+  "cp": "U+590A",
+  "slug": "sui",
+  "class": "comp",
+  "kangxi": 35,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "夊",
+      "reading": "suī",
+      "gloss": "go slowly",
+      "extra": "康熙部首 35"
+    },
+    "jp": {
+      "name": "夊",
+      "reading": "",
+      "gloss": "go slowly"
+    }
+  },
+  "programs": []
+}

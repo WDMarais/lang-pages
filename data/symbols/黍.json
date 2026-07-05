@@ -1,0 +1,26 @@
+{
+  "glyph": "黍",
+  "cp": "U+9ECD",
+  "slug": "shu202",
+  "class": "char",
+  "kangxi": 202,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "黍",
+      "reading": "shǔ",
+      "gloss": "millet",
+      "extra": "康熙部首 202"
+    },
+    "jp": {
+      "name": "黍",
+      "reading": "",
+      "gloss": "millet"
+    }
+  },
+  "programs": []
+}

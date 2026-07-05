@@ -1,0 +1,26 @@
+{
+  "glyph": "囗",
+  "cp": "U+56D7",
+  "slug": "wei",
+  "class": "char",
+  "kangxi": 31,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "囗",
+      "reading": "wéi",
+      "gloss": "enclosure",
+      "extra": "康熙部首 31"
+    },
+    "jp": {
+      "name": "囗",
+      "reading": "",
+      "gloss": "enclosure"
+    }
+  },
+  "programs": []
+}

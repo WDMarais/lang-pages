@@ -1,0 +1,26 @@
+{
+  "glyph": "斤",
+  "cp": "U+65A4",
+  "slug": "jin69",
+  "class": "char",
+  "kangxi": 69,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "斤",
+      "reading": "jīn",
+      "gloss": "axe",
+      "extra": "康熙部首 69"
+    },
+    "jp": {
+      "name": "斤",
+      "reading": "",
+      "gloss": "axe"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "用",
+  "cp": "U+7528",
+  "slug": "yong",
+  "class": "char",
+  "kangxi": 101,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "用",
+      "reading": "yòng",
+      "gloss": "use",
+      "extra": "康熙部首 101"
+    },
+    "jp": {
+      "name": "用",
+      "reading": "",
+      "gloss": "use"
+    }
+  },
+  "programs": []
+}

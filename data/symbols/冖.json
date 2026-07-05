@@ -1,0 +1,26 @@
+{
+  "glyph": "冖",
+  "cp": "U+5196",
+  "slug": "mi",
+  "class": "comp",
+  "kangxi": 14,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "冖",
+      "reading": "mì",
+      "gloss": "cover",
+      "extra": "康熙部首 14"
+    },
+    "jp": {
+      "name": "冖",
+      "reading": "",
+      "gloss": "cover"
+    }
+  },
+  "programs": []
+}

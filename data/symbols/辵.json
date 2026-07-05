@@ -1,0 +1,26 @@
+{
+  "glyph": "辵",
+  "cp": "U+8FB5",
+  "slug": "chuo",
+  "class": "char",
+  "kangxi": 162,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "辵",
+      "reading": "chuò",
+      "gloss": "walk",
+      "extra": "康熙部首 162"
+    },
+    "jp": {
+      "name": "辵",
+      "reading": "",
+      "gloss": "walk"
+    }
+  },
+  "programs": []
+}

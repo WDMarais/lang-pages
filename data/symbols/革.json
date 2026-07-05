@@ -1,0 +1,26 @@
+{
+  "glyph": "革",
+  "cp": "U+9769",
+  "slug": "ge177",
+  "class": "char",
+  "kangxi": 177,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "革",
+      "reading": "gé",
+      "gloss": "leather",
+      "extra": "康熙部首 177"
+    },
+    "jp": {
+      "name": "革",
+      "reading": "",
+      "gloss": "leather"
+    }
+  },
+  "programs": []
+}

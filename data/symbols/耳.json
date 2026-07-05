@@ -1,0 +1,26 @@
+{
+  "glyph": "耳",
+  "cp": "U+8033",
+  "slug": "er128",
+  "class": "char",
+  "kangxi": 128,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "耳",
+      "reading": "ěr",
+      "gloss": "ear",
+      "extra": "康熙部首 128"
+    },
+    "jp": {
+      "name": "耳",
+      "reading": "",
+      "gloss": "ear"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "止",
+  "cp": "U+6B62",
+  "slug": "zhi77",
+  "class": "char",
+  "kangxi": 77,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "止",
+      "reading": "zhǐ",
+      "gloss": "stop",
+      "extra": "康熙部首 77"
+    },
+    "jp": {
+      "name": "止",
+      "reading": "",
+      "gloss": "stop"
+    }
+  },
+  "programs": []
+}

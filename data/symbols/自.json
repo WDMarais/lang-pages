@@ -1,0 +1,26 @@
+{
+  "glyph": "自",
+  "cp": "U+81EA",
+  "slug": "zi132",
+  "class": "char",
+  "kangxi": 132,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "自",
+      "reading": "zì",
+      "gloss": "self",
+      "extra": "康熙部首 132"
+    },
+    "jp": {
+      "name": "自",
+      "reading": "",
+      "gloss": "self"
+    }
+  },
+  "programs": []
+}

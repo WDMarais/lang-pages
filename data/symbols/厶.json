@@ -1,0 +1,26 @@
+{
+  "glyph": "厶",
+  "cp": "U+53B6",
+  "slug": "si28",
+  "class": "comp",
+  "kangxi": 28,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "厶",
+      "reading": "sī",
+      "gloss": "private",
+      "extra": "康熙部首 28"
+    },
+    "jp": {
+      "name": "厶",
+      "reading": "",
+      "gloss": "private"
+    }
+  },
+  "programs": []
+}

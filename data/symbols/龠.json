@@ -1,0 +1,26 @@
+{
+  "glyph": "龠",
+  "cp": "U+9FA0",
+  "slug": "yue214",
+  "class": "char",
+  "kangxi": 214,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "龠",
+      "reading": "yuè",
+      "gloss": "flute",
+      "extra": "康熙部首 214"
+    },
+    "jp": {
+      "name": "龠",
+      "reading": "",
+      "gloss": "flute"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "長",
+  "cp": "U+9577",
+  "slug": "chang",
+  "class": "char",
+  "kangxi": 168,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "長",
+      "reading": "cháng",
+      "gloss": "long",
+      "extra": "康熙部首 168"
+    },
+    "jp": {
+      "name": "長",
+      "reading": "",
+      "gloss": "long"
+    }
+  },
+  "programs": []
+}

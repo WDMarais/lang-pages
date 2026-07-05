@@ -1,0 +1,26 @@
+{
+  "glyph": "金",
+  "cp": "U+91D1",
+  "slug": "jin167",
+  "class": "char",
+  "kangxi": 167,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "金",
+      "reading": "jīn",
+      "gloss": "gold",
+      "extra": "康熙部首 167"
+    },
+    "jp": {
+      "name": "金",
+      "reading": "",
+      "gloss": "gold"
+    }
+  },
+  "programs": []
+}

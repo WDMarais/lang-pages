@@ -1,0 +1,26 @@
+{
+  "glyph": "谷",
+  "cp": "U+8C37",
+  "slug": "gu",
+  "class": "char",
+  "kangxi": 150,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "谷",
+      "reading": "gǔ",
+      "gloss": "valley",
+      "extra": "康熙部首 150"
+    },
+    "jp": {
+      "name": "谷",
+      "reading": "",
+      "gloss": "valley"
+    }
+  },
+  "programs": []
+}

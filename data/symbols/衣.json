@@ -1,0 +1,26 @@
+{
+  "glyph": "衣",
+  "cp": "U+8863",
+  "slug": "yi145",
+  "class": "char",
+  "kangxi": 145,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "衣",
+      "reading": "yī",
+      "gloss": "clothes",
+      "extra": "康熙部首 145"
+    },
+    "jp": {
+      "name": "衣",
+      "reading": "",
+      "gloss": "clothes"
+    }
+  },
+  "programs": []
+}

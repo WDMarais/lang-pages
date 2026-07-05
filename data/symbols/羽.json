@@ -1,0 +1,26 @@
+{
+  "glyph": "羽",
+  "cp": "U+7FBD",
+  "slug": "yu124",
+  "class": "char",
+  "kangxi": 124,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "羽",
+      "reading": "yǔ",
+      "gloss": "feather",
+      "extra": "康熙部首 124"
+    },
+    "jp": {
+      "name": "羽",
+      "reading": "",
+      "gloss": "feather"
+    }
+  },
+  "programs": []
+}

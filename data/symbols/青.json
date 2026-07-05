@@ -1,0 +1,26 @@
+{
+  "glyph": "青",
+  "cp": "U+9752",
+  "slug": "qing",
+  "class": "char",
+  "kangxi": 174,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "青",
+      "reading": "qīng",
+      "gloss": "blue-green",
+      "extra": "康熙部首 174"
+    },
+    "jp": {
+      "name": "青",
+      "reading": "",
+      "gloss": "blue-green"
+    }
+  },
+  "programs": []
+}

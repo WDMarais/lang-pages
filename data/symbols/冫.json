@@ -1,0 +1,26 @@
+{
+  "glyph": "冫",
+  "cp": "U+51AB",
+  "slug": "bing",
+  "class": "comp",
+  "kangxi": 15,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "冫",
+      "reading": "bīng",
+      "gloss": "ice",
+      "extra": "康熙部首 15"
+    },
+    "jp": {
+      "name": "冫",
+      "reading": "",
+      "gloss": "ice"
+    }
+  },
+  "programs": []
+}

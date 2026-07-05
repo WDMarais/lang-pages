@@ -1,0 +1,26 @@
+{
+  "glyph": "鹵",
+  "cp": "U+9E75",
+  "slug": "lu",
+  "class": "char",
+  "kangxi": 197,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鹵",
+      "reading": "lǔ",
+      "gloss": "salt",
+      "extra": "康熙部首 197"
+    },
+    "jp": {
+      "name": "鹵",
+      "reading": "",
+      "gloss": "salt"
+    }
+  },
+  "programs": []
+}

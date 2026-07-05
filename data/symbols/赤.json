@@ -1,0 +1,26 @@
+{
+  "glyph": "赤",
+  "cp": "U+8D64",
+  "slug": "chi155",
+  "class": "char",
+  "kangxi": 155,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "赤",
+      "reading": "chì",
+      "gloss": "red",
+      "extra": "康熙部首 155"
+    },
+    "jp": {
+      "name": "赤",
+      "reading": "",
+      "gloss": "red"
+    }
+  },
+  "programs": []
+}

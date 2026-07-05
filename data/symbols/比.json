@@ -1,0 +1,26 @@
+{
+  "glyph": "比",
+  "cp": "U+6BD4",
+  "slug": "bi81",
+  "class": "char",
+  "kangxi": 81,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "比",
+      "reading": "bǐ",
+      "gloss": "compare",
+      "extra": "康熙部首 81"
+    },
+    "jp": {
+      "name": "比",
+      "reading": "",
+      "gloss": "compare"
+    }
+  },
+  "programs": []
+}

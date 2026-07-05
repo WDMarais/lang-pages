@@ -1,0 +1,26 @@
+{
+  "glyph": "黑",
+  "cp": "U+9ED1",
+  "slug": "hei",
+  "class": "char",
+  "kangxi": 203,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "黑",
+      "reading": "hēi",
+      "gloss": "black",
+      "extra": "康熙部首 203"
+    },
+    "jp": {
+      "name": "黑",
+      "reading": "",
+      "gloss": "black"
+    }
+  },
+  "programs": []
+}

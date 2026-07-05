@@ -1,0 +1,26 @@
+{
+  "glyph": "釆",
+  "cp": "U+91C6",
+  "slug": "bian",
+  "class": "char",
+  "kangxi": 165,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "釆",
+      "reading": "biàn",
+      "gloss": "distinguish",
+      "extra": "康熙部首 165"
+    },
+    "jp": {
+      "name": "釆",
+      "reading": "",
+      "gloss": "distinguish"
+    }
+  },
+  "programs": []
+}

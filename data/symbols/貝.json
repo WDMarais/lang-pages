@@ -1,0 +1,26 @@
+{
+  "glyph": "貝",
+  "cp": "U+8C9D",
+  "slug": "bei",
+  "class": "char",
+  "kangxi": 154,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "貝",
+      "reading": "bèi",
+      "gloss": "shell",
+      "extra": "康熙部首 154"
+    },
+    "jp": {
+      "name": "貝",
+      "reading": "",
+      "gloss": "shell"
+    }
+  },
+  "programs": []
+}

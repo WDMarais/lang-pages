@@ -1,0 +1,26 @@
+{
+  "glyph": "匸",
+  "cp": "U+5338",
+  "slug": "xi23",
+  "class": "comp",
+  "kangxi": 23,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "匸",
+      "reading": "xì",
+      "gloss": "hiding enclosure",
+      "extra": "康熙部首 23"
+    },
+    "jp": {
+      "name": "匸",
+      "reading": "",
+      "gloss": "hiding enclosure"
+    }
+  },
+  "programs": []
+}

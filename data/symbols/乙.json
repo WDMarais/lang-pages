@@ -1,0 +1,26 @@
+{
+  "glyph": "乙",
+  "cp": "U+4E59",
+  "slug": "yi5",
+  "class": "char",
+  "kangxi": 5,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "乙",
+      "reading": "yǐ",
+      "gloss": "second",
+      "extra": "康熙部首 5"
+    },
+    "jp": {
+      "name": "乙",
+      "reading": "",
+      "gloss": "second"
+    }
+  },
+  "programs": []
+}

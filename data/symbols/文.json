@@ -1,0 +1,26 @@
+{
+  "glyph": "文",
+  "cp": "U+6587",
+  "slug": "wen",
+  "class": "char",
+  "kangxi": 67,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "文",
+      "reading": "wén",
+      "gloss": "script",
+      "extra": "康熙部首 67"
+    },
+    "jp": {
+      "name": "文",
+      "reading": "",
+      "gloss": "script"
+    }
+  },
+  "programs": []
+}

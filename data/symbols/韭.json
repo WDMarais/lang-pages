@@ -1,0 +1,26 @@
+{
+  "glyph": "韭",
+  "cp": "U+97ED",
+  "slug": "jiu179",
+  "class": "char",
+  "kangxi": 179,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "韭",
+      "reading": "jiǔ",
+      "gloss": "leek",
+      "extra": "康熙部首 179"
+    },
+    "jp": {
+      "name": "韭",
+      "reading": "",
+      "gloss": "leek"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "首",
+  "cp": "U+9996",
+  "slug": "shou185",
+  "class": "char",
+  "kangxi": 185,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "首",
+      "reading": "shǒu",
+      "gloss": "head",
+      "extra": "康熙部首 185"
+    },
+    "jp": {
+      "name": "首",
+      "reading": "",
+      "gloss": "head"
+    }
+  },
+  "programs": []
+}

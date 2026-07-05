@@ -1,0 +1,26 @@
+{
+  "glyph": "至",
+  "cp": "U+81F3",
+  "slug": "zhi133",
+  "class": "char",
+  "kangxi": 133,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "至",
+      "reading": "zhì",
+      "gloss": "arrive",
+      "extra": "康熙部首 133"
+    },
+    "jp": {
+      "name": "至",
+      "reading": "",
+      "gloss": "arrive"
+    }
+  },
+  "programs": []
+}

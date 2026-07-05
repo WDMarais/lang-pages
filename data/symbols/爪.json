@@ -1,0 +1,26 @@
+{
+  "glyph": "爪",
+  "cp": "U+722A",
+  "slug": "zhao",
+  "class": "char",
+  "kangxi": 87,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "爪",
+      "reading": "zhǎo",
+      "gloss": "claw",
+      "extra": "康熙部首 87"
+    },
+    "jp": {
+      "name": "爪",
+      "reading": "",
+      "gloss": "claw"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "方",
+  "cp": "U+65B9",
+  "slug": "fang70",
+  "class": "char",
+  "kangxi": 70,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "方",
+      "reading": "fāng",
+      "gloss": "square",
+      "extra": "康熙部首 70"
+    },
+    "jp": {
+      "name": "方",
+      "reading": "",
+      "gloss": "square"
+    }
+  },
+  "programs": []
+}

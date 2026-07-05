@@ -1,0 +1,26 @@
+{
+  "glyph": "犬",
+  "cp": "U+72AC",
+  "slug": "quan94",
+  "class": "char",
+  "kangxi": 94,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "犬",
+      "reading": "quǎn",
+      "gloss": "dog",
+      "extra": "康熙部首 94"
+    },
+    "jp": {
+      "name": "犬",
+      "reading": "",
+      "gloss": "dog"
+    }
+  },
+  "programs": []
+}

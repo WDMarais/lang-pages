@@ -1,0 +1,26 @@
+{
+  "glyph": "己",
+  "cp": "U+5DF1",
+  "slug": "ji49",
+  "class": "char",
+  "kangxi": 49,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "己",
+      "reading": "jǐ",
+      "gloss": "oneself",
+      "extra": "康熙部首 49"
+    },
+    "jp": {
+      "name": "己",
+      "reading": "",
+      "gloss": "oneself"
+    }
+  },
+  "programs": []
+}

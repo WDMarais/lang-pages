@@ -1,0 +1,26 @@
+{
+  "glyph": "聿",
+  "cp": "U+807F",
+  "slug": "yu129",
+  "class": "char",
+  "kangxi": 129,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "聿",
+      "reading": "yù",
+      "gloss": "brush",
+      "extra": "康熙部首 129"
+    },
+    "jp": {
+      "name": "聿",
+      "reading": "",
+      "gloss": "brush"
+    }
+  },
+  "programs": []
+}

@@ -1,0 +1,26 @@
+{
+  "glyph": "凵",
+  "cp": "U+51F5",
+  "slug": "kan",
+  "class": "comp",
+  "kangxi": 17,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "凵",
+      "reading": "kǎn",
+      "gloss": "open box",
+      "extra": "康熙部首 17"
+    },
+    "jp": {
+      "name": "凵",
+      "reading": "",
+      "gloss": "open box"
+    }
+  },
+  "programs": []
+}

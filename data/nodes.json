@@ -398,13 +398,6 @@
       "label": "thousand"
     },
     {
-      "id": "g:舌",
-      "kind": "glyph",
-      "glyph": "舌",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:六",
       "kind": "glyph",
       "glyph": "六",
@@ -485,13 +478,6 @@
       "id": "r:govern",
       "kind": "referent",
       "label": "to govern; regulate (乂)"
-    },
-    {
-      "id": "g:文",
-      "kind": "glyph",
-      "glyph": "文",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:川",
@@ -1243,6 +1229,2968 @@
       "frontier": true
     },
     {
+      "id": "g:乙",
+      "kind": "glyph",
+      "glyph": "乙",
+      "tier": "char",
+      "slug": "yi5",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:second",
+      "kind": "referent",
+      "label": "second"
+    },
+    {
+      "id": "g:冖",
+      "kind": "glyph",
+      "glyph": "冖",
+      "tier": "component",
+      "slug": "mi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cover",
+      "kind": "referent",
+      "label": "cover"
+    },
+    {
+      "id": "g:冫",
+      "kind": "glyph",
+      "glyph": "冫",
+      "tier": "component",
+      "slug": "bing",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ice",
+      "kind": "referent",
+      "label": "ice"
+    },
+    {
+      "id": "g:几",
+      "kind": "glyph",
+      "glyph": "几",
+      "tier": "char",
+      "slug": "ji",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:table",
+      "kind": "referent",
+      "label": "table"
+    },
+    {
+      "id": "g:凵",
+      "kind": "glyph",
+      "glyph": "凵",
+      "tier": "component",
+      "slug": "kan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:open-box",
+      "kind": "referent",
+      "label": "open box"
+    },
+    {
+      "id": "g:匕",
+      "kind": "glyph",
+      "glyph": "匕",
+      "tier": "char",
+      "slug": "bi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:spoon",
+      "kind": "referent",
+      "label": "spoon"
+    },
+    {
+      "id": "g:匚",
+      "kind": "glyph",
+      "glyph": "匚",
+      "tier": "component",
+      "slug": "fang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:box",
+      "kind": "referent",
+      "label": "box"
+    },
+    {
+      "id": "g:匸",
+      "kind": "glyph",
+      "glyph": "匸",
+      "tier": "component",
+      "slug": "xi23",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:hiding-enclosure",
+      "kind": "referent",
+      "label": "hiding enclosure"
+    },
+    {
+      "id": "g:卜",
+      "kind": "glyph",
+      "glyph": "卜",
+      "tier": "char",
+      "slug": "bu25",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:卩",
+      "kind": "glyph",
+      "glyph": "卩",
+      "tier": "component",
+      "slug": "jie",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:seal",
+      "kind": "referent",
+      "label": "seal"
+    },
+    {
+      "id": "g:厶",
+      "kind": "glyph",
+      "glyph": "厶",
+      "tier": "component",
+      "slug": "si28",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:private",
+      "kind": "referent",
+      "label": "private"
+    },
+    {
+      "id": "g:又",
+      "kind": "glyph",
+      "glyph": "又",
+      "tier": "char",
+      "slug": "you",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:again",
+      "kind": "referent",
+      "label": "again"
+    },
+    {
+      "id": "g:囗",
+      "kind": "glyph",
+      "glyph": "囗",
+      "tier": "char",
+      "slug": "wei",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:enclosure",
+      "kind": "referent",
+      "label": "enclosure"
+    },
+    {
+      "id": "g:士",
+      "kind": "glyph",
+      "glyph": "士",
+      "tier": "char",
+      "slug": "shi33",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:scholar",
+      "kind": "referent",
+      "label": "scholar"
+    },
+    {
+      "id": "g:夂",
+      "kind": "glyph",
+      "glyph": "夂",
+      "tier": "component",
+      "slug": "zhi34",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:go",
+      "kind": "referent",
+      "label": "go"
+    },
+    {
+      "id": "g:夊",
+      "kind": "glyph",
+      "glyph": "夊",
+      "tier": "component",
+      "slug": "sui",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:go-slowly",
+      "kind": "referent",
+      "label": "go slowly"
+    },
+    {
+      "id": "g:寸",
+      "kind": "glyph",
+      "glyph": "寸",
+      "tier": "char",
+      "slug": "cun",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:inch",
+      "kind": "referent",
+      "label": "inch"
+    },
+    {
+      "id": "g:尢",
+      "kind": "glyph",
+      "glyph": "尢",
+      "tier": "component",
+      "slug": "wang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:lame",
+      "kind": "referent",
+      "label": "lame"
+    },
+    {
+      "id": "g:屮",
+      "kind": "glyph",
+      "glyph": "屮",
+      "tier": "component",
+      "slug": "che",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sprout",
+      "kind": "referent",
+      "label": "sprout"
+    },
+    {
+      "id": "g:己",
+      "kind": "glyph",
+      "glyph": "己",
+      "tier": "char",
+      "slug": "ji49",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:oneself",
+      "kind": "referent",
+      "label": "oneself"
+    },
+    {
+      "id": "g:巾",
+      "kind": "glyph",
+      "glyph": "巾",
+      "tier": "char",
+      "slug": "jin",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cloth",
+      "kind": "referent",
+      "label": "cloth"
+    },
+    {
+      "id": "g:干",
+      "kind": "glyph",
+      "glyph": "干",
+      "tier": "char",
+      "slug": "gan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dry",
+      "kind": "referent",
+      "label": "dry"
+    },
+    {
+      "id": "g:幺",
+      "kind": "glyph",
+      "glyph": "幺",
+      "tier": "component",
+      "slug": "yao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:short-thread",
+      "kind": "referent",
+      "label": "short thread"
+    },
+    {
+      "id": "g:广",
+      "kind": "glyph",
+      "glyph": "广",
+      "tier": "char",
+      "slug": "guang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shelter",
+      "kind": "referent",
+      "label": "shelter"
+    },
+    {
+      "id": "g:廴",
+      "kind": "glyph",
+      "glyph": "廴",
+      "tier": "component",
+      "slug": "yin",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:stride",
+      "kind": "referent",
+      "label": "stride"
+    },
+    {
+      "id": "g:廾",
+      "kind": "glyph",
+      "glyph": "廾",
+      "tier": "component",
+      "slug": "gong55",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:two-hands",
+      "kind": "referent",
+      "label": "two hands"
+    },
+    {
+      "id": "g:弋",
+      "kind": "glyph",
+      "glyph": "弋",
+      "tier": "char",
+      "slug": "yi56",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shoot",
+      "kind": "referent",
+      "label": "shoot"
+    },
+    {
+      "id": "g:彐",
+      "kind": "glyph",
+      "glyph": "彐",
+      "tier": "component",
+      "slug": "ji58",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:snout",
+      "kind": "referent",
+      "label": "snout"
+    },
+    {
+      "id": "g:彡",
+      "kind": "glyph",
+      "glyph": "彡",
+      "tier": "char",
+      "slug": "shan59",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bristle",
+      "kind": "referent",
+      "label": "bristle"
+    },
+    {
+      "id": "g:彳",
+      "kind": "glyph",
+      "glyph": "彳",
+      "tier": "char",
+      "slug": "chi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:step",
+      "kind": "referent",
+      "label": "step"
+    },
+    {
+      "id": "g:心",
+      "kind": "glyph",
+      "glyph": "心",
+      "tier": "char",
+      "slug": "xin",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:heart",
+      "kind": "referent",
+      "label": "heart"
+    },
+    {
+      "id": "g:戈",
+      "kind": "glyph",
+      "glyph": "戈",
+      "tier": "char",
+      "slug": "ge",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:halberd",
+      "kind": "referent",
+      "label": "halberd"
+    },
+    {
+      "id": "g:戶",
+      "kind": "glyph",
+      "glyph": "戶",
+      "tier": "char",
+      "slug": "hu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:door",
+      "kind": "referent",
+      "label": "door"
+    },
+    {
+      "id": "g:支",
+      "kind": "glyph",
+      "glyph": "支",
+      "tier": "char",
+      "slug": "zhi65",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:branch",
+      "kind": "referent",
+      "label": "branch"
+    },
+    {
+      "id": "g:攴",
+      "kind": "glyph",
+      "glyph": "攴",
+      "tier": "char",
+      "slug": "pu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tap",
+      "kind": "referent",
+      "label": "tap"
+    },
+    {
+      "id": "g:文",
+      "kind": "glyph",
+      "glyph": "文",
+      "tier": "char",
+      "slug": "wen",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:script",
+      "kind": "referent",
+      "label": "script"
+    },
+    {
+      "id": "g:斗",
+      "kind": "glyph",
+      "glyph": "斗",
+      "tier": "char",
+      "slug": "dou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dipper",
+      "kind": "referent",
+      "label": "dipper"
+    },
+    {
+      "id": "g:斤",
+      "kind": "glyph",
+      "glyph": "斤",
+      "tier": "char",
+      "slug": "jin69",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:axe",
+      "kind": "referent",
+      "label": "axe"
+    },
+    {
+      "id": "g:方",
+      "kind": "glyph",
+      "glyph": "方",
+      "tier": "char",
+      "slug": "fang70",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:square",
+      "kind": "referent",
+      "label": "square"
+    },
+    {
+      "id": "g:无",
+      "kind": "glyph",
+      "glyph": "无",
+      "tier": "char",
+      "slug": "wu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:曰",
+      "kind": "glyph",
+      "glyph": "曰",
+      "tier": "char",
+      "slug": "yue",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:say",
+      "kind": "referent",
+      "label": "say"
+    },
+    {
+      "id": "g:月",
+      "kind": "glyph",
+      "glyph": "月",
+      "tier": "char",
+      "slug": "yue74",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:moon",
+      "kind": "referent",
+      "label": "moon"
+    },
+    {
+      "id": "g:欠",
+      "kind": "glyph",
+      "glyph": "欠",
+      "tier": "char",
+      "slug": "qian76",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:yawn",
+      "kind": "referent",
+      "label": "yawn"
+    },
+    {
+      "id": "g:止",
+      "kind": "glyph",
+      "glyph": "止",
+      "tier": "char",
+      "slug": "zhi77",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:stop",
+      "kind": "referent",
+      "label": "stop"
+    },
+    {
+      "id": "g:歹",
+      "kind": "glyph",
+      "glyph": "歹",
+      "tier": "char",
+      "slug": "dai",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:death",
+      "kind": "referent",
+      "label": "death"
+    },
+    {
+      "id": "g:殳",
+      "kind": "glyph",
+      "glyph": "殳",
+      "tier": "char",
+      "slug": "shu79",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:weapon",
+      "kind": "referent",
+      "label": "weapon"
+    },
+    {
+      "id": "g:毋",
+      "kind": "glyph",
+      "glyph": "毋",
+      "tier": "char",
+      "slug": "wu80",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:do-not",
+      "kind": "referent",
+      "label": "do not"
+    },
+    {
+      "id": "g:比",
+      "kind": "glyph",
+      "glyph": "比",
+      "tier": "char",
+      "slug": "bi81",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:compare",
+      "kind": "referent",
+      "label": "compare"
+    },
+    {
+      "id": "g:毛",
+      "kind": "glyph",
+      "glyph": "毛",
+      "tier": "char",
+      "slug": "mao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fur",
+      "kind": "referent",
+      "label": "fur"
+    },
+    {
+      "id": "g:氏",
+      "kind": "glyph",
+      "glyph": "氏",
+      "tier": "char",
+      "slug": "shi83",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:clan",
+      "kind": "referent",
+      "label": "clan"
+    },
+    {
+      "id": "g:气",
+      "kind": "glyph",
+      "glyph": "气",
+      "tier": "char",
+      "slug": "qi84",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:steam",
+      "kind": "referent",
+      "label": "steam"
+    },
+    {
+      "id": "g:爪",
+      "kind": "glyph",
+      "glyph": "爪",
+      "tier": "char",
+      "slug": "zhao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:claw",
+      "kind": "referent",
+      "label": "claw"
+    },
+    {
+      "id": "g:爻",
+      "kind": "glyph",
+      "glyph": "爻",
+      "tier": "char",
+      "slug": "yao89",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:trigram-lines",
+      "kind": "referent",
+      "label": "trigram lines"
+    },
+    {
+      "id": "g:爿",
+      "kind": "glyph",
+      "glyph": "爿",
+      "tier": "component",
+      "slug": "qiang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:split-wood",
+      "kind": "referent",
+      "label": "split wood"
+    },
+    {
+      "id": "g:片",
+      "kind": "glyph",
+      "glyph": "片",
+      "tier": "char",
+      "slug": "pian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:slice",
+      "kind": "referent",
+      "label": "slice"
+    },
+    {
+      "id": "g:牙",
+      "kind": "glyph",
+      "glyph": "牙",
+      "tier": "char",
+      "slug": "ya",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fang",
+      "kind": "referent",
+      "label": "fang"
+    },
+    {
+      "id": "g:牛",
+      "kind": "glyph",
+      "glyph": "牛",
+      "tier": "char",
+      "slug": "niu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cow",
+      "kind": "referent",
+      "label": "cow"
+    },
+    {
+      "id": "g:犬",
+      "kind": "glyph",
+      "glyph": "犬",
+      "tier": "char",
+      "slug": "quan94",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dog",
+      "kind": "referent",
+      "label": "dog"
+    },
+    {
+      "id": "g:玄",
+      "kind": "glyph",
+      "glyph": "玄",
+      "tier": "char",
+      "slug": "xuan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:profound",
+      "kind": "referent",
+      "label": "profound"
+    },
+    {
+      "id": "g:玉",
+      "kind": "glyph",
+      "glyph": "玉",
+      "tier": "char",
+      "slug": "yu96",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:jade",
+      "kind": "referent",
+      "label": "jade"
+    },
+    {
+      "id": "g:瓜",
+      "kind": "glyph",
+      "glyph": "瓜",
+      "tier": "char",
+      "slug": "gua",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:melon",
+      "kind": "referent",
+      "label": "melon"
+    },
+    {
+      "id": "g:瓦",
+      "kind": "glyph",
+      "glyph": "瓦",
+      "tier": "char",
+      "slug": "wa",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tile",
+      "kind": "referent",
+      "label": "tile"
+    },
+    {
+      "id": "g:甘",
+      "kind": "glyph",
+      "glyph": "甘",
+      "tier": "char",
+      "slug": "gan99",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sweet",
+      "kind": "referent",
+      "label": "sweet"
+    },
+    {
+      "id": "g:生",
+      "kind": "glyph",
+      "glyph": "生",
+      "tier": "char",
+      "slug": "sheng",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:life",
+      "kind": "referent",
+      "label": "life"
+    },
+    {
+      "id": "g:用",
+      "kind": "glyph",
+      "glyph": "用",
+      "tier": "char",
+      "slug": "yong",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:use",
+      "kind": "referent",
+      "label": "use"
+    },
+    {
+      "id": "g:田",
+      "kind": "glyph",
+      "glyph": "田",
+      "tier": "char",
+      "slug": "tian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:field",
+      "kind": "referent",
+      "label": "field"
+    },
+    {
+      "id": "g:疋",
+      "kind": "glyph",
+      "glyph": "疋",
+      "tier": "char",
+      "slug": "pi",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bolt-of-cloth",
+      "kind": "referent",
+      "label": "bolt of cloth"
+    },
+    {
+      "id": "g:疒",
+      "kind": "glyph",
+      "glyph": "疒",
+      "tier": "component",
+      "slug": "ne",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sickness",
+      "kind": "referent",
+      "label": "sickness"
+    },
+    {
+      "id": "g:癶",
+      "kind": "glyph",
+      "glyph": "癶",
+      "tier": "component",
+      "slug": "bo",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:footsteps",
+      "kind": "referent",
+      "label": "footsteps"
+    },
+    {
+      "id": "g:皮",
+      "kind": "glyph",
+      "glyph": "皮",
+      "tier": "char",
+      "slug": "pi107",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:skin",
+      "kind": "referent",
+      "label": "skin"
+    },
+    {
+      "id": "g:皿",
+      "kind": "glyph",
+      "glyph": "皿",
+      "tier": "char",
+      "slug": "min",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dish",
+      "kind": "referent",
+      "label": "dish"
+    },
+    {
+      "id": "g:目",
+      "kind": "glyph",
+      "glyph": "目",
+      "tier": "char",
+      "slug": "mu109",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:eye",
+      "kind": "referent",
+      "label": "eye"
+    },
+    {
+      "id": "g:矛",
+      "kind": "glyph",
+      "glyph": "矛",
+      "tier": "char",
+      "slug": "mao110",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:spear",
+      "kind": "referent",
+      "label": "spear"
+    },
+    {
+      "id": "g:矢",
+      "kind": "glyph",
+      "glyph": "矢",
+      "tier": "char",
+      "slug": "shi111",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:arrow",
+      "kind": "referent",
+      "label": "arrow"
+    },
+    {
+      "id": "g:石",
+      "kind": "glyph",
+      "glyph": "石",
+      "tier": "char",
+      "slug": "shi112",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:stone",
+      "kind": "referent",
+      "label": "stone"
+    },
+    {
+      "id": "g:示",
+      "kind": "glyph",
+      "glyph": "示",
+      "tier": "char",
+      "slug": "shi113",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:altar",
+      "kind": "referent",
+      "label": "altar"
+    },
+    {
+      "id": "g:禸",
+      "kind": "glyph",
+      "glyph": "禸",
+      "tier": "component",
+      "slug": "rou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:track",
+      "kind": "referent",
+      "label": "track"
+    },
+    {
+      "id": "g:禾",
+      "kind": "glyph",
+      "glyph": "禾",
+      "tier": "char",
+      "slug": "he",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:grain",
+      "kind": "referent",
+      "label": "grain"
+    },
+    {
+      "id": "g:穴",
+      "kind": "glyph",
+      "glyph": "穴",
+      "tier": "char",
+      "slug": "xue",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cave",
+      "kind": "referent",
+      "label": "cave"
+    },
+    {
+      "id": "g:立",
+      "kind": "glyph",
+      "glyph": "立",
+      "tier": "char",
+      "slug": "li117",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:stand",
+      "kind": "referent",
+      "label": "stand"
+    },
+    {
+      "id": "g:竹",
+      "kind": "glyph",
+      "glyph": "竹",
+      "tier": "char",
+      "slug": "zhu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bamboo",
+      "kind": "referent",
+      "label": "bamboo"
+    },
+    {
+      "id": "g:米",
+      "kind": "glyph",
+      "glyph": "米",
+      "tier": "char",
+      "slug": "mi119",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:rice",
+      "kind": "referent",
+      "label": "rice"
+    },
+    {
+      "id": "g:缶",
+      "kind": "glyph",
+      "glyph": "缶",
+      "tier": "char",
+      "slug": "fou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:jar",
+      "kind": "referent",
+      "label": "jar"
+    },
+    {
+      "id": "g:网",
+      "kind": "glyph",
+      "glyph": "网",
+      "tier": "char",
+      "slug": "wang122",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:net",
+      "kind": "referent",
+      "label": "net"
+    },
+    {
+      "id": "g:羊",
+      "kind": "glyph",
+      "glyph": "羊",
+      "tier": "char",
+      "slug": "yang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sheep",
+      "kind": "referent",
+      "label": "sheep"
+    },
+    {
+      "id": "g:羽",
+      "kind": "glyph",
+      "glyph": "羽",
+      "tier": "char",
+      "slug": "yu124",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:feather",
+      "kind": "referent",
+      "label": "feather"
+    },
+    {
+      "id": "g:老",
+      "kind": "glyph",
+      "glyph": "老",
+      "tier": "char",
+      "slug": "lao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:old",
+      "kind": "referent",
+      "label": "old"
+    },
+    {
+      "id": "g:而",
+      "kind": "glyph",
+      "glyph": "而",
+      "tier": "char",
+      "slug": "er126",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:耒",
+      "kind": "glyph",
+      "glyph": "耒",
+      "tier": "char",
+      "slug": "lei",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:plow",
+      "kind": "referent",
+      "label": "plow"
+    },
+    {
+      "id": "g:耳",
+      "kind": "glyph",
+      "glyph": "耳",
+      "tier": "char",
+      "slug": "er128",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ear",
+      "kind": "referent",
+      "label": "ear"
+    },
+    {
+      "id": "g:聿",
+      "kind": "glyph",
+      "glyph": "聿",
+      "tier": "char",
+      "slug": "yu129",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:brush",
+      "kind": "referent",
+      "label": "brush"
+    },
+    {
+      "id": "g:肉",
+      "kind": "glyph",
+      "glyph": "肉",
+      "tier": "char",
+      "slug": "rou130",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:meat",
+      "kind": "referent",
+      "label": "meat"
+    },
+    {
+      "id": "g:臣",
+      "kind": "glyph",
+      "glyph": "臣",
+      "tier": "char",
+      "slug": "chen",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:minister",
+      "kind": "referent",
+      "label": "minister"
+    },
+    {
+      "id": "g:自",
+      "kind": "glyph",
+      "glyph": "自",
+      "tier": "char",
+      "slug": "zi132",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:self",
+      "kind": "referent",
+      "label": "self"
+    },
+    {
+      "id": "g:至",
+      "kind": "glyph",
+      "glyph": "至",
+      "tier": "char",
+      "slug": "zhi133",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:arrive",
+      "kind": "referent",
+      "label": "arrive"
+    },
+    {
+      "id": "g:臼",
+      "kind": "glyph",
+      "glyph": "臼",
+      "tier": "char",
+      "slug": "jiu134",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:mortar",
+      "kind": "referent",
+      "label": "mortar"
+    },
+    {
+      "id": "g:舌",
+      "kind": "glyph",
+      "glyph": "舌",
+      "tier": "char",
+      "slug": "she",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tongue",
+      "kind": "referent",
+      "label": "tongue"
+    },
+    {
+      "id": "g:舛",
+      "kind": "glyph",
+      "glyph": "舛",
+      "tier": "char",
+      "slug": "chuan136",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:oppose",
+      "kind": "referent",
+      "label": "oppose"
+    },
+    {
+      "id": "g:舟",
+      "kind": "glyph",
+      "glyph": "舟",
+      "tier": "char",
+      "slug": "zhou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:boat",
+      "kind": "referent",
+      "label": "boat"
+    },
+    {
+      "id": "g:艮",
+      "kind": "glyph",
+      "glyph": "艮",
+      "tier": "char",
+      "slug": "gen",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:stopping",
+      "kind": "referent",
+      "label": "stopping"
+    },
+    {
+      "id": "g:色",
+      "kind": "glyph",
+      "glyph": "色",
+      "tier": "char",
+      "slug": "se",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:color",
+      "kind": "referent",
+      "label": "color"
+    },
+    {
+      "id": "g:艸",
+      "kind": "glyph",
+      "glyph": "艸",
+      "tier": "char",
+      "slug": "cao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:grass",
+      "kind": "referent",
+      "label": "grass"
+    },
+    {
+      "id": "g:虍",
+      "kind": "glyph",
+      "glyph": "虍",
+      "tier": "component",
+      "slug": "hu141",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tiger",
+      "kind": "referent",
+      "label": "tiger"
+    },
+    {
+      "id": "g:虫",
+      "kind": "glyph",
+      "glyph": "虫",
+      "tier": "char",
+      "slug": "chong",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:insect",
+      "kind": "referent",
+      "label": "insect"
+    },
+    {
+      "id": "g:血",
+      "kind": "glyph",
+      "glyph": "血",
+      "tier": "char",
+      "slug": "xue143",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:blood",
+      "kind": "referent",
+      "label": "blood"
+    },
+    {
+      "id": "g:行",
+      "kind": "glyph",
+      "glyph": "行",
+      "tier": "char",
+      "slug": "xing",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:walk",
+      "kind": "referent",
+      "label": "walk"
+    },
+    {
+      "id": "g:衣",
+      "kind": "glyph",
+      "glyph": "衣",
+      "tier": "char",
+      "slug": "yi145",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:clothes",
+      "kind": "referent",
+      "label": "clothes"
+    },
+    {
+      "id": "g:襾",
+      "kind": "glyph",
+      "glyph": "襾",
+      "tier": "char",
+      "slug": "ya146",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:見",
+      "kind": "glyph",
+      "glyph": "見",
+      "tier": "char",
+      "slug": "jian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:see",
+      "kind": "referent",
+      "label": "see"
+    },
+    {
+      "id": "g:角",
+      "kind": "glyph",
+      "glyph": "角",
+      "tier": "char",
+      "slug": "jiao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:horn",
+      "kind": "referent",
+      "label": "horn"
+    },
+    {
+      "id": "g:言",
+      "kind": "glyph",
+      "glyph": "言",
+      "tier": "char",
+      "slug": "yan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:speech",
+      "kind": "referent",
+      "label": "speech"
+    },
+    {
+      "id": "g:谷",
+      "kind": "glyph",
+      "glyph": "谷",
+      "tier": "char",
+      "slug": "gu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:valley",
+      "kind": "referent",
+      "label": "valley"
+    },
+    {
+      "id": "g:豆",
+      "kind": "glyph",
+      "glyph": "豆",
+      "tier": "char",
+      "slug": "dou151",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bean",
+      "kind": "referent",
+      "label": "bean"
+    },
+    {
+      "id": "g:豕",
+      "kind": "glyph",
+      "glyph": "豕",
+      "tier": "char",
+      "slug": "shi152",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:pig",
+      "kind": "referent",
+      "label": "pig"
+    },
+    {
+      "id": "g:豸",
+      "kind": "glyph",
+      "glyph": "豸",
+      "tier": "char",
+      "slug": "zhi153",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:badger",
+      "kind": "referent",
+      "label": "badger"
+    },
+    {
+      "id": "g:貝",
+      "kind": "glyph",
+      "glyph": "貝",
+      "tier": "char",
+      "slug": "bei",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:shell",
+      "kind": "referent",
+      "label": "shell"
+    },
+    {
+      "id": "g:赤",
+      "kind": "glyph",
+      "glyph": "赤",
+      "tier": "char",
+      "slug": "chi155",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:red",
+      "kind": "referent",
+      "label": "red"
+    },
+    {
+      "id": "g:走",
+      "kind": "glyph",
+      "glyph": "走",
+      "tier": "char",
+      "slug": "zou",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:run",
+      "kind": "referent",
+      "label": "run"
+    },
+    {
+      "id": "g:足",
+      "kind": "glyph",
+      "glyph": "足",
+      "tier": "char",
+      "slug": "zu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:foot",
+      "kind": "referent",
+      "label": "foot"
+    },
+    {
+      "id": "g:身",
+      "kind": "glyph",
+      "glyph": "身",
+      "tier": "char",
+      "slug": "shen",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:body",
+      "kind": "referent",
+      "label": "body"
+    },
+    {
+      "id": "g:車",
+      "kind": "glyph",
+      "glyph": "車",
+      "tier": "char",
+      "slug": "che159",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cart",
+      "kind": "referent",
+      "label": "cart"
+    },
+    {
+      "id": "g:辛",
+      "kind": "glyph",
+      "glyph": "辛",
+      "tier": "char",
+      "slug": "xin160",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bitter",
+      "kind": "referent",
+      "label": "bitter"
+    },
+    {
+      "id": "g:辰",
+      "kind": "glyph",
+      "glyph": "辰",
+      "tier": "char",
+      "slug": "chen161",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:morning",
+      "kind": "referent",
+      "label": "morning"
+    },
+    {
+      "id": "g:辵",
+      "kind": "glyph",
+      "glyph": "辵",
+      "tier": "char",
+      "slug": "chuo",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:邑",
+      "kind": "glyph",
+      "glyph": "邑",
+      "tier": "char",
+      "slug": "yi163",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:city",
+      "kind": "referent",
+      "label": "city"
+    },
+    {
+      "id": "g:酉",
+      "kind": "glyph",
+      "glyph": "酉",
+      "tier": "char",
+      "slug": "you164",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:wine",
+      "kind": "referent",
+      "label": "wine"
+    },
+    {
+      "id": "g:釆",
+      "kind": "glyph",
+      "glyph": "釆",
+      "tier": "char",
+      "slug": "bian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:distinguish",
+      "kind": "referent",
+      "label": "distinguish"
+    },
+    {
+      "id": "g:里",
+      "kind": "glyph",
+      "glyph": "里",
+      "tier": "char",
+      "slug": "li166",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:village",
+      "kind": "referent",
+      "label": "village"
+    },
+    {
+      "id": "g:金",
+      "kind": "glyph",
+      "glyph": "金",
+      "tier": "char",
+      "slug": "jin167",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:gold",
+      "kind": "referent",
+      "label": "gold"
+    },
+    {
+      "id": "g:長",
+      "kind": "glyph",
+      "glyph": "長",
+      "tier": "char",
+      "slug": "chang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:long",
+      "kind": "referent",
+      "label": "long"
+    },
+    {
+      "id": "g:門",
+      "kind": "glyph",
+      "glyph": "門",
+      "tier": "char",
+      "slug": "men",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:gate",
+      "kind": "referent",
+      "label": "gate"
+    },
+    {
+      "id": "g:阜",
+      "kind": "glyph",
+      "glyph": "阜",
+      "tier": "char",
+      "slug": "fu170",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:mound",
+      "kind": "referent",
+      "label": "mound"
+    },
+    {
+      "id": "g:隶",
+      "kind": "glyph",
+      "glyph": "隶",
+      "tier": "char",
+      "slug": "li171",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:slave",
+      "kind": "referent",
+      "label": "slave"
+    },
+    {
+      "id": "g:隹",
+      "kind": "glyph",
+      "glyph": "隹",
+      "tier": "char",
+      "slug": "zhui",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:short-tailed-bird",
+      "kind": "referent",
+      "label": "short-tailed bird"
+    },
+    {
+      "id": "g:雨",
+      "kind": "glyph",
+      "glyph": "雨",
+      "tier": "char",
+      "slug": "yu173",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:rain",
+      "kind": "referent",
+      "label": "rain"
+    },
+    {
+      "id": "g:青",
+      "kind": "glyph",
+      "glyph": "青",
+      "tier": "char",
+      "slug": "qing",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:blue-green",
+      "kind": "referent",
+      "label": "blue-green"
+    },
+    {
+      "id": "g:非",
+      "kind": "glyph",
+      "glyph": "非",
+      "tier": "char",
+      "slug": "fei",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:wrong",
+      "kind": "referent",
+      "label": "wrong"
+    },
+    {
+      "id": "g:面",
+      "kind": "glyph",
+      "glyph": "面",
+      "tier": "char",
+      "slug": "mian176",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:face",
+      "kind": "referent",
+      "label": "face"
+    },
+    {
+      "id": "g:革",
+      "kind": "glyph",
+      "glyph": "革",
+      "tier": "char",
+      "slug": "ge177",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:leather",
+      "kind": "referent",
+      "label": "leather"
+    },
+    {
+      "id": "g:韋",
+      "kind": "glyph",
+      "glyph": "韋",
+      "tier": "char",
+      "slug": "wei178",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tanned-leather",
+      "kind": "referent",
+      "label": "tanned leather"
+    },
+    {
+      "id": "g:韭",
+      "kind": "glyph",
+      "glyph": "韭",
+      "tier": "char",
+      "slug": "jiu179",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:leek",
+      "kind": "referent",
+      "label": "leek"
+    },
+    {
+      "id": "g:音",
+      "kind": "glyph",
+      "glyph": "音",
+      "tier": "char",
+      "slug": "yin180",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sound",
+      "kind": "referent",
+      "label": "sound"
+    },
+    {
+      "id": "g:頁",
+      "kind": "glyph",
+      "glyph": "頁",
+      "tier": "char",
+      "slug": "ye181",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:head",
+      "kind": "referent",
+      "label": "head; page"
+    },
+    {
+      "id": "g:風",
+      "kind": "glyph",
+      "glyph": "風",
+      "tier": "char",
+      "slug": "feng",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:wind",
+      "kind": "referent",
+      "label": "wind"
+    },
+    {
+      "id": "g:飛",
+      "kind": "glyph",
+      "glyph": "飛",
+      "tier": "char",
+      "slug": "fei183",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fly",
+      "kind": "referent",
+      "label": "fly"
+    },
+    {
+      "id": "g:食",
+      "kind": "glyph",
+      "glyph": "食",
+      "tier": "char",
+      "slug": "shi184",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:eat",
+      "kind": "referent",
+      "label": "eat"
+    },
+    {
+      "id": "g:首",
+      "kind": "glyph",
+      "glyph": "首",
+      "tier": "char",
+      "slug": "shou185",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:香",
+      "kind": "glyph",
+      "glyph": "香",
+      "tier": "char",
+      "slug": "xiang186",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fragrant",
+      "kind": "referent",
+      "label": "fragrant"
+    },
+    {
+      "id": "g:馬",
+      "kind": "glyph",
+      "glyph": "馬",
+      "tier": "char",
+      "slug": "ma",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:horse",
+      "kind": "referent",
+      "label": "horse"
+    },
+    {
+      "id": "g:骨",
+      "kind": "glyph",
+      "glyph": "骨",
+      "tier": "char",
+      "slug": "gu188",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bone",
+      "kind": "referent",
+      "label": "bone"
+    },
+    {
+      "id": "g:高",
+      "kind": "glyph",
+      "glyph": "高",
+      "tier": "char",
+      "slug": "gao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tall",
+      "kind": "referent",
+      "label": "tall"
+    },
+    {
+      "id": "g:髟",
+      "kind": "glyph",
+      "glyph": "髟",
+      "tier": "component",
+      "slug": "biao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:long-hair",
+      "kind": "referent",
+      "label": "long hair"
+    },
+    {
+      "id": "g:鬥",
+      "kind": "glyph",
+      "glyph": "鬥",
+      "tier": "char",
+      "slug": "dou191",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fight",
+      "kind": "referent",
+      "label": "fight"
+    },
+    {
+      "id": "g:鬯",
+      "kind": "glyph",
+      "glyph": "鬯",
+      "tier": "char",
+      "slug": "chang192",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sacrificial-wine",
+      "kind": "referent",
+      "label": "sacrificial wine"
+    },
+    {
+      "id": "g:鬲",
+      "kind": "glyph",
+      "glyph": "鬲",
+      "tier": "char",
+      "slug": "li193",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:cauldron",
+      "kind": "referent",
+      "label": "cauldron"
+    },
+    {
+      "id": "g:鬼",
+      "kind": "glyph",
+      "glyph": "鬼",
+      "tier": "char",
+      "slug": "gui",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:ghost",
+      "kind": "referent",
+      "label": "ghost"
+    },
+    {
+      "id": "g:魚",
+      "kind": "glyph",
+      "glyph": "魚",
+      "tier": "char",
+      "slug": "yu195",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fish",
+      "kind": "referent",
+      "label": "fish"
+    },
+    {
+      "id": "g:鳥",
+      "kind": "glyph",
+      "glyph": "鳥",
+      "tier": "char",
+      "slug": "niao",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:bird",
+      "kind": "referent",
+      "label": "bird"
+    },
+    {
+      "id": "g:鹵",
+      "kind": "glyph",
+      "glyph": "鹵",
+      "tier": "char",
+      "slug": "lu",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:salt",
+      "kind": "referent",
+      "label": "salt"
+    },
+    {
+      "id": "g:鹿",
+      "kind": "glyph",
+      "glyph": "鹿",
+      "tier": "char",
+      "slug": "lu198",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:deer",
+      "kind": "referent",
+      "label": "deer"
+    },
+    {
+      "id": "g:麥",
+      "kind": "glyph",
+      "glyph": "麥",
+      "tier": "char",
+      "slug": "mai",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:wheat",
+      "kind": "referent",
+      "label": "wheat"
+    },
+    {
+      "id": "g:麻",
+      "kind": "glyph",
+      "glyph": "麻",
+      "tier": "char",
+      "slug": "ma200",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:hemp",
+      "kind": "referent",
+      "label": "hemp"
+    },
+    {
+      "id": "g:黃",
+      "kind": "glyph",
+      "glyph": "黃",
+      "tier": "char",
+      "slug": "huang",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:yellow",
+      "kind": "referent",
+      "label": "yellow"
+    },
+    {
+      "id": "g:黍",
+      "kind": "glyph",
+      "glyph": "黍",
+      "tier": "char",
+      "slug": "shu202",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:millet",
+      "kind": "referent",
+      "label": "millet"
+    },
+    {
+      "id": "g:黑",
+      "kind": "glyph",
+      "glyph": "黑",
+      "tier": "char",
+      "slug": "hei",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:black",
+      "kind": "referent",
+      "label": "black"
+    },
+    {
+      "id": "g:黹",
+      "kind": "glyph",
+      "glyph": "黹",
+      "tier": "char",
+      "slug": "zhi204",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:embroidery",
+      "kind": "referent",
+      "label": "embroidery"
+    },
+    {
+      "id": "g:黽",
+      "kind": "glyph",
+      "glyph": "黽",
+      "tier": "char",
+      "slug": "min205",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:frog",
+      "kind": "referent",
+      "label": "frog"
+    },
+    {
+      "id": "g:鼎",
+      "kind": "glyph",
+      "glyph": "鼎",
+      "tier": "char",
+      "slug": "ding206",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tripod",
+      "kind": "referent",
+      "label": "tripod"
+    },
+    {
+      "id": "g:鼓",
+      "kind": "glyph",
+      "glyph": "鼓",
+      "tier": "char",
+      "slug": "gu207",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:drum",
+      "kind": "referent",
+      "label": "drum"
+    },
+    {
+      "id": "g:鼠",
+      "kind": "glyph",
+      "glyph": "鼠",
+      "tier": "char",
+      "slug": "shu208",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:rat",
+      "kind": "referent",
+      "label": "rat"
+    },
+    {
+      "id": "g:鼻",
+      "kind": "glyph",
+      "glyph": "鼻",
+      "tier": "char",
+      "slug": "bi209",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:nose",
+      "kind": "referent",
+      "label": "nose"
+    },
+    {
+      "id": "g:齊",
+      "kind": "glyph",
+      "glyph": "齊",
+      "tier": "char",
+      "slug": "qi210",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:even",
+      "kind": "referent",
+      "label": "even"
+    },
+    {
+      "id": "g:齒",
+      "kind": "glyph",
+      "glyph": "齒",
+      "tier": "char",
+      "slug": "chi211",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:tooth",
+      "kind": "referent",
+      "label": "tooth"
+    },
+    {
+      "id": "g:龍",
+      "kind": "glyph",
+      "glyph": "龍",
+      "tier": "char",
+      "slug": "long",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dragon",
+      "kind": "referent",
+      "label": "dragon"
+    },
+    {
+      "id": "g:龜",
+      "kind": "glyph",
+      "glyph": "龜",
+      "tier": "char",
+      "slug": "gui213",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:turtle",
+      "kind": "referent",
+      "label": "turtle"
+    },
+    {
+      "id": "g:龠",
+      "kind": "glyph",
+      "glyph": "龠",
+      "tier": "char",
+      "slug": "yue214",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:flute",
+      "kind": "referent",
+      "label": "flute"
+    },
+    {
       "id": "g:㇐",
       "kind": "glyph",
       "glyph": "㇐",
@@ -1326,13 +4274,6 @@
       "id": "r:dot-stroke",
       "kind": "referent",
       "label": "dot stroke"
-    },
-    {
-      "id": "g:犬",
-      "kind": "glyph",
-      "glyph": "犬",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:㇀",
@@ -1434,34 +4375,6 @@
       "frontier": true
     },
     {
-      "id": "g:卜",
-      "kind": "glyph",
-      "glyph": "卜",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:乙",
-      "kind": "glyph",
-      "glyph": "乙",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:玉",
-      "kind": "glyph",
-      "glyph": "玉",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:冫",
-      "kind": "glyph",
-      "glyph": "冫",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:巳",
       "kind": "glyph",
       "glyph": "巳",
@@ -1469,30 +4382,9 @@
       "frontier": true
     },
     {
-      "id": "g:干",
-      "kind": "glyph",
-      "glyph": "干",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:也",
       "kind": "glyph",
       "glyph": "也",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:凵",
-      "kind": "glyph",
-      "glyph": "凵",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:石",
-      "kind": "glyph",
-      "glyph": "石",
       "tier": null,
       "frontier": true
     },
@@ -1511,30 +4403,9 @@
       "frontier": true
     },
     {
-      "id": "g:月",
-      "kind": "glyph",
-      "glyph": "月",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:氵",
       "kind": "glyph",
       "glyph": "氵",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:田",
-      "kind": "glyph",
-      "glyph": "田",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:幺",
-      "kind": "glyph",
-      "glyph": "幺",
       "tier": null,
       "frontier": true
     },

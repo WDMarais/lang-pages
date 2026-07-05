@@ -1,0 +1,26 @@
+{
+  "glyph": "辰",
+  "cp": "U+8FB0",
+  "slug": "chen161",
+  "class": "char",
+  "kangxi": 161,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "辰",
+      "reading": "chén",
+      "gloss": "morning",
+      "extra": "康熙部首 161"
+    },
+    "jp": {
+      "name": "辰",
+      "reading": "",
+      "gloss": "morning"
+    }
+  },
+  "programs": []
+}

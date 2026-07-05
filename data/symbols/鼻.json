@@ -1,0 +1,26 @@
+{
+  "glyph": "鼻",
+  "cp": "U+9F3B",
+  "slug": "bi209",
+  "class": "char",
+  "kangxi": 209,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鼻",
+      "reading": "bí",
+      "gloss": "nose",
+      "extra": "康熙部首 209"
+    },
+    "jp": {
+      "name": "鼻",
+      "reading": "",
+      "gloss": "nose"
+    }
+  },
+  "programs": []
+}

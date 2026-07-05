@@ -1,0 +1,26 @@
+{
+  "glyph": "目",
+  "cp": "U+76EE",
+  "slug": "mu109",
+  "class": "char",
+  "kangxi": 109,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "目",
+      "reading": "mù",
+      "gloss": "eye",
+      "extra": "康熙部首 109"
+    },
+    "jp": {
+      "name": "目",
+      "reading": "",
+      "gloss": "eye"
+    }
+  },
+  "programs": []
+}

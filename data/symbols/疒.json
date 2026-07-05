@@ -1,0 +1,26 @@
+{
+  "glyph": "疒",
+  "cp": "U+7592",
+  "slug": "ne",
+  "class": "comp",
+  "kangxi": 104,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "疒",
+      "reading": "nè",
+      "gloss": "sickness",
+      "extra": "康熙部首 104"
+    },
+    "jp": {
+      "name": "疒",
+      "reading": "",
+      "gloss": "sickness"
+    }
+  },
+  "programs": []
+}

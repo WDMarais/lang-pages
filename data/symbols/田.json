@@ -1,0 +1,26 @@
+{
+  "glyph": "田",
+  "cp": "U+7530",
+  "slug": "tian",
+  "class": "char",
+  "kangxi": 102,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "田",
+      "reading": "tián",
+      "gloss": "field",
+      "extra": "康熙部首 102"
+    },
+    "jp": {
+      "name": "田",
+      "reading": "",
+      "gloss": "field"
+    }
+  },
+  "programs": []
+}

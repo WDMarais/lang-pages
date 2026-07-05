@@ -1,0 +1,26 @@
+{
+  "glyph": "魚",
+  "cp": "U+9B5A",
+  "slug": "yu195",
+  "class": "char",
+  "kangxi": 195,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "魚",
+      "reading": "yú",
+      "gloss": "fish",
+      "extra": "康熙部首 195"
+    },
+    "jp": {
+      "name": "魚",
+      "reading": "",
+      "gloss": "fish"
+    }
+  },
+  "programs": []
+}

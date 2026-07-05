@@ -1,0 +1,26 @@
+{
+  "glyph": "氏",
+  "cp": "U+6C0F",
+  "slug": "shi83",
+  "class": "char",
+  "kangxi": 83,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "氏",
+      "reading": "shì",
+      "gloss": "clan",
+      "extra": "康熙部首 83"
+    },
+    "jp": {
+      "name": "氏",
+      "reading": "",
+      "gloss": "clan"
+    }
+  },
+  "programs": []
+}

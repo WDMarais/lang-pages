@@ -1,0 +1,26 @@
+{
+  "glyph": "麥",
+  "cp": "U+9EA5",
+  "slug": "mai",
+  "class": "char",
+  "kangxi": 199,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "麥",
+      "reading": "mài",
+      "gloss": "wheat",
+      "extra": "康熙部首 199"
+    },
+    "jp": {
+      "name": "麥",
+      "reading": "",
+      "gloss": "wheat"
+    }
+  },
+  "programs": []
+}

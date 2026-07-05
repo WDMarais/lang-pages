@@ -1,0 +1,26 @@
+{
+  "glyph": "气",
+  "cp": "U+6C14",
+  "slug": "qi84",
+  "class": "char",
+  "kangxi": 84,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "气",
+      "reading": "qì",
+      "gloss": "steam",
+      "extra": "康熙部首 84"
+    },
+    "jp": {
+      "name": "气",
+      "reading": "",
+      "gloss": "steam"
+    }
+  },
+  "programs": []
+}

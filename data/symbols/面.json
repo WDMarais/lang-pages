@@ -1,0 +1,26 @@
+{
+  "glyph": "面",
+  "cp": "U+9762",
+  "slug": "mian176",
+  "class": "char",
+  "kangxi": 176,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "面",
+      "reading": "miàn",
+      "gloss": "face",
+      "extra": "康熙部首 176"
+    },
+    "jp": {
+      "name": "面",
+      "reading": "",
+      "gloss": "face"
+    }
+  },
+  "programs": []
+}

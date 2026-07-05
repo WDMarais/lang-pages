@@ -1,0 +1,26 @@
+{
+  "glyph": "牙",
+  "cp": "U+7259",
+  "slug": "ya",
+  "class": "char",
+  "kangxi": 92,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "牙",
+      "reading": "yá",
+      "gloss": "fang",
+      "extra": "康熙部首 92"
+    },
+    "jp": {
+      "name": "牙",
+      "reading": "",
+      "gloss": "fang"
+    }
+  },
+  "programs": []
+}

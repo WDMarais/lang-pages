@@ -1,0 +1,26 @@
+{
+  "glyph": "戈",
+  "cp": "U+6208",
+  "slug": "ge",
+  "class": "char",
+  "kangxi": 62,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "戈",
+      "reading": "gē",
+      "gloss": "halberd",
+      "extra": "康熙部首 62"
+    },
+    "jp": {
+      "name": "戈",
+      "reading": "",
+      "gloss": "halberd"
+    }
+  },
+  "programs": []
+}

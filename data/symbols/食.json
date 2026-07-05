@@ -1,0 +1,26 @@
+{
+  "glyph": "食",
+  "cp": "U+98DF",
+  "slug": "shi184",
+  "class": "char",
+  "kangxi": 184,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "食",
+      "reading": "shí",
+      "gloss": "eat",
+      "extra": "康熙部首 184"
+    },
+    "jp": {
+      "name": "食",
+      "reading": "",
+      "gloss": "eat"
+    }
+  },
+  "programs": []
+}

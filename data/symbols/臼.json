@@ -1,0 +1,26 @@
+{
+  "glyph": "臼",
+  "cp": "U+81FC",
+  "slug": "jiu134",
+  "class": "char",
+  "kangxi": 134,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "臼",
+      "reading": "jiù",
+      "gloss": "mortar",
+      "extra": "康熙部首 134"
+    },
+    "jp": {
+      "name": "臼",
+      "reading": "",
+      "gloss": "mortar"
+    }
+  },
+  "programs": []
+}

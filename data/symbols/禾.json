@@ -1,0 +1,26 @@
+{
+  "glyph": "禾",
+  "cp": "U+79BE",
+  "slug": "he",
+  "class": "char",
+  "kangxi": 115,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "禾",
+      "reading": "hé",
+      "gloss": "grain",
+      "extra": "康熙部首 115"
+    },
+    "jp": {
+      "name": "禾",
+      "reading": "",
+      "gloss": "grain"
+    }
+  },
+  "programs": []
+}

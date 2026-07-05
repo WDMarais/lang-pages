@@ -1,0 +1,26 @@
+{
+  "glyph": "鼎",
+  "cp": "U+9F0E",
+  "slug": "ding206",
+  "class": "char",
+  "kangxi": 206,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "鼎",
+      "reading": "dǐng",
+      "gloss": "tripod",
+      "extra": "康熙部首 206"
+    },
+    "jp": {
+      "name": "鼎",
+      "reading": "",
+      "gloss": "tripod"
+    }
+  },
+  "programs": []
+}

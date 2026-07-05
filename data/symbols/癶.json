@@ -1,0 +1,26 @@
+{
+  "glyph": "癶",
+  "cp": "U+7676",
+  "slug": "bo",
+  "class": "comp",
+  "kangxi": 105,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "癶",
+      "reading": "bō",
+      "gloss": "footsteps",
+      "extra": "康熙部首 105"
+    },
+    "jp": {
+      "name": "癶",
+      "reading": "",
+      "gloss": "footsteps"
+    }
+  },
+  "programs": []
+}

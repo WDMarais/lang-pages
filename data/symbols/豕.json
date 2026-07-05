@@ -1,0 +1,26 @@
+{
+  "glyph": "豕",
+  "cp": "U+8C55",
+  "slug": "shi152",
+  "class": "char",
+  "kangxi": 152,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "豕",
+      "reading": "shǐ",
+      "gloss": "pig",
+      "extra": "康熙部首 152"
+    },
+    "jp": {
+      "name": "豕",
+      "reading": "",
+      "gloss": "pig"
+    }
+  },
+  "programs": []
+}

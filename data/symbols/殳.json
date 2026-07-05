@@ -1,0 +1,26 @@
+{
+  "glyph": "殳",
+  "cp": "U+6BB3",
+  "slug": "shu79",
+  "class": "char",
+  "kangxi": 79,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "殳",
+      "reading": "shū",
+      "gloss": "weapon",
+      "extra": "康熙部首 79"
+    },
+    "jp": {
+      "name": "殳",
+      "reading": "",
+      "gloss": "weapon"
+    }
+  },
+  "programs": []
+}

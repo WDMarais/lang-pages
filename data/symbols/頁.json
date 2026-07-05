@@ -1,0 +1,26 @@
+{
+  "glyph": "頁",
+  "cp": "U+9801",
+  "slug": "ye181",
+  "class": "char",
+  "kangxi": 181,
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "頁",
+      "reading": "yè",
+      "gloss": "head; page",
+      "extra": "康熙部首 181"
+    },
+    "jp": {
+      "name": "頁",
+      "reading": "",
+      "gloss": "head; page"
+    }
+  },
+  "programs": []
+}
