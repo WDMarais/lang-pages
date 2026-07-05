@@ -13,6 +13,7 @@
 <body class="hide-en">
 
 <div id="controls">
+  <button class="btn-ctrl" id="langBtn" onclick="toggleLang()">日本語</button>
   <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
 </div>
 
@@ -57,13 +58,14 @@
 
     <div class="legend">
       <span><i class="lg-cn"></i> 中文 · 拼音</span>
-      <span><i class="lg-jp"></i> 日本語 · 仮名</span>
-      <span><i class="lg-wk-m"></i> WK · PD 实义 · <span class="en">real meaning</span><span class="zh-alt">通用</span></span>
-      <span><i class="lg-wk"></i> WK · PD 仅助记 ⚠ <span class="en">mnemonic</span></span>
+      <span><i class="lg-jp"></i> 日本語 · 仮名 —
+        <span class="en">right/上角 「日本語」 toggles the reading language</span>
+        <span class="zh-alt">点右上「日本語」切换读音语言</span></span>
       <span class="lg-note">№ <span class="en">Kangxi index number</span><span class="zh-alt">部首序号</span></span>
+      <span class="lg-note"><span class="en">right panel: referent images (a later pass)</span><span class="zh-alt">右栏：象形参照图（后续补入）</span></span>
     </div>
 
-    <div id="cards" data-src="kangxi.json"></div>
+    <div id="cards" data-src="kangxi.json" data-layout="radical"></div>
 
     <p class="intro" style="margin-top:2rem">
       → <a href="/strokes/">笔画</a>

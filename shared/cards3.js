@@ -6,6 +6,10 @@
 // A card animates its stroke order via HanziWriter when it sets `hw: true`;
 // otherwise the diagram is just the crisp Kai glyph — for deferred / un-tuned cards.
 
+// Page-level layout mode, set from <div id="cards" data-layout="…">. Default ''
+// = the four-column comparison card; 'radical' = the lighter /kangxi/ card.
+let LAYOUT = '';
+
 function diagram(c) {
   // Character cards opt into data-driven stroke-order animation (HanziWriter);
   // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
@@ -203,11 +207,55 @@ function renderCard(c) {
     </div>`;
 }
 
+// ── Radical card (/kangxi/) — light on text, referent-image-forward ──
+// Left: animated glyph (+ Kangxi №) over a readings block that toggles CN⇄JP
+// (page-level, via toggleLang). Right: a scrollable referent-image gallery — the
+// anchor that also absorbs cross-program label divergence (person/man). Images
+// are a later content pass; until then the gallery shows a labelled empty state.
+function readingLine(langCls, v, audioName) {
+  return html`
+      <div class="rk-lang ${langCls}">
+        <div class="rk-nameline"><span class="sc-name">${v.name}</span>${
+          v.reading ? html` <span class="sc-reading">${v.reading}</span>` : ''}${play(audioName)}</div>
+        <div class="rk-gloss en">${v.gloss || ''}</div>
+      </div>`;
+}
+
+function renderKangxiCard(c) {
+  if (c.stub) return renderStub(c);
+  const base = c.audioBase || '';
+  const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
+  const imgs = (c.referents || []).flatMap(r =>
+    (r.images || []).map(im => html`<img class="rk-ref" src="${im.src}" alt="${r.label}" title="${r.label}${im.credit ? ' · ' + im.credit : ''}">`));
+  const gallery = imgs.length
+    ? html`<div class="rk-gallery">${imgs}</div>`
+    : html`<div class="rk-gallery rk-empty"><span>${c.cn.gloss || ''}</span></div>`;
+  return html`
+    <div class="scard rk-card">
+      <div class="rk-left">
+        <div class="sc-glyph">${kx}${diagram(c)}</div>
+        <div class="rk-readings">
+          ${readingLine('rk-cn', c.cn, `${base}audio/cn-${c.slug}.mp3`)}
+          ${readingLine('rk-jp', c.jp, `${base}audio/jp-${c.slug}.mp3`)}
+        </div>
+      </div>
+      <div class="rk-right">${gallery}</div>
+    </div>`;
+}
+
+// Page-level CN⇄JP toggle for the radical layout (button lives in the page).
+function toggleLang() {
+  document.body.classList.toggle('show-jp');
+  const b = document.getElementById('langBtn');
+  if (b) b.textContent = document.body.classList.contains('show-jp') ? '中文' : '日本語';
+}
+
 function renderGroup(g) {
   const head = g.title
     ? html`<div class="sc-grouphead"><span class="sc-gtitle">${g.title}</span>${g.sub ? html`<span class="sc-gsub">${g.sub}</span>` : ''}</div>`
     : '';
-  return html`<div class="sc-group">${head}${g.cards.map(renderCard)}</div>`;
+  const cardFn = LAYOUT === 'radical' ? renderKangxiCard : renderCard;
+  return html`<div class="sc-group">${head}${g.cards.map(cardFn)}</div>`;
 }
 
 // Data-driven stroke-order animation for character cards (`hw: true`).
@@ -234,6 +282,7 @@ function initHanzi() {
 // renderCard()/initHanzi() directly (e.g. /graph/) simply omit #cards.
 const host = document.getElementById('cards');
 if (host) {
+  LAYOUT = host.dataset.layout || '';
   fetch(host.dataset.src)
     .then(r => r.json())
     .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); initHanzi(); });
