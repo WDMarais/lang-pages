@@ -1,0 +1,140 @@
+{
+  "fire": {
+    "label": "fire",
+    "images": [
+      {
+        "file": "fire-01.jpg",
+        "credit": "Nenad Stojkovic",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Closeup_of_raging_flames_in_a_large_bonfire._-_Flickr_-_shixart1985.jpg"
+      }
+    ]
+  },
+  "tree": {
+    "label": "tree",
+    "images": [
+      {
+        "file": "tree-01.jpg",
+        "credit": "John Palmer",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Corfe_Mullen_Meadow_Nature_Reserve_-_geograph.org.uk_-_1230391.jpg"
+      },
+      {
+        "file": "tree-02.jpg",
+        "credit": "Sergey Pesterev",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lonely_tree_at_Fairy_lake.jpg"
+      }
+    ]
+  },
+  "water": {
+    "label": "water",
+    "images": [
+      {
+        "file": "water-01.jpg",
+        "credit": "Radomianin",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_alder_twig_and_water_ripples_at_Wolfsberger_M%C3%BChle,_2019-06-29.jpg"
+      }
+    ]
+  },
+  "mountain": {
+    "label": "mountain",
+    "images": [
+      {
+        "file": "mountain-01.jpg",
+        "credit": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountains_in_snow,_Mountain_lake,_Chola_Valley,_Nepal,_Himalayas.jpg"
+      }
+    ]
+  },
+  "sun": {
+    "label": "sun",
+    "images": [
+      {
+        "file": "sun-01.jpg",
+        "credit": "Khanahmedsam",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bright_Shades_Of_Sky_Ans_Sparkling_Sun_,_Aligarh.jpg"
+      }
+    ]
+  },
+  "moon": {
+    "label": "moon",
+    "images": [
+      {
+        "file": "moon-01.jpg",
+        "credit": "Megala Shankar",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Full_Moon_at_night_with_black_background.jpg"
+      }
+    ]
+  },
+  "eye": {
+    "label": "eye",
+    "images": [
+      {
+        "file": "eye-01.jpg",
+        "credit": "William Warby from London, England",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Eye_(11774111985).jpg"
+      }
+    ]
+  },
+  "field": {
+    "label": "field",
+    "images": [
+      {
+        "file": "field-01.jpg",
+        "credit": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Green_rice_sheaves_planted_in_a_paddy_field_with_long_shadows_at_golden_hour_in_Don_Det_Laos.jpg"
+      }
+    ]
+  },
+  "grain": {
+    "label": "grain",
+    "images": [
+      {
+        "file": "grain-01.jpg",
+        "credit": "Bärbel Miemietz",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2022-07-13_reifer_Weizen_03.jpg"
+      }
+    ]
+  },
+  "fish": {
+    "label": "fish",
+    "images": [
+      {
+        "file": "fish-01.jpg",
+        "credit": "Abogsr",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Grouper-be-steamedi-1-4-grouper-fish-isolated-white-background.jpg"
+      }
+    ]
+  },
+  "bird": {
+    "label": "bird",
+    "images": [
+      {
+        "file": "bird-01.jpg",
+        "credit": "Laitche",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Small_bird_perching_on_a_branch.jpg"
+      }
+    ]
+  },
+  "horse": {
+    "label": "horse",
+    "images": [
+      {
+        "file": "horse-01.jpg",
+        "credit": "Halyna Feshchak",
+        "license": "CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Brown_Horse_(198516275).jpeg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>图片来源 · Image Credits</title>
+<link rel="stylesheet" href="../shared/base.css">
+<style>
+  .cr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+  .cr-item { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--white); }
+  .cr-thumb { width: 100%; height: 150px; object-fit: cover; display: block; background: var(--cream); }
+  .cr-meta { padding: 0.7rem 0.8rem; font-size: 0.8rem; line-height: 1.5; }
+  .cr-label { font-weight: 700; color: var(--navy); }
+  .cr-by { color: var(--muted); }
+  .cr-lic { color: var(--green); font-weight: 600; }
+  .cr-src { font-size: 0.74rem; }
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="cover-masthead">图片来源 · 自由许可</div>
+  <div class="cover-title">图片来源</div>
+  <div class="cover-py">túpiàn láiyuán</div>
+  <div class="cover-sub">Referent images · Wikimedia Commons</div>
+  <div class="cover-meta">Image Credits</div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <p class="intro">
+      本站的<strong>象形参照图</strong>来自 <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>，
+      均为自由许可（公有领域 / CC0 / CC BY / CC BY-SA）。下列注明作者、许可与原始出处。
+      <span class="en">The <strong>referent images</strong> on this site come from
+      <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> under free licenses
+      (Public Domain / CC0 / CC BY / CC BY-SA). Author, license and source for each are listed below.</span>
+    </p>
+    <div class="cr-grid" id="grid"></div>
+  </div>
+</section>
+
+<footer><div>图片来源 · <a href="/kangxi/">← 康熙部首</a></div></footer>
+
+<script>
+fetch('/data/referents.json').then(r => r.json()).then(data => {
+  const grid = document.getElementById('grid');
+  const items = [];
+  for (const [slug, ent] of Object.entries(data)) {
+    for (const im of (ent.images || [])) {
+      items.push({ label: ent.label || slug, ...im });
+    }
+  }
+  grid.innerHTML = items.map(im => `
+    <figure class="cr-item">
+      <img class="cr-thumb" src="/shared/referents/${im.file}" alt="${im.label}" loading="lazy">
+      <figcaption class="cr-meta">
+        <div class="cr-label">${im.label}</div>
+        <div class="cr-by">${im.credit || 'Wikimedia Commons'}</div>
+        <div class="cr-lic">${im.license || ''}</div>
+        ${im.source ? `<div class="cr-src"><a href="${im.source}" rel="nofollow">Wikimedia Commons →</a></div>` : ''}
+      </figcaption>
+    </figure>`).join('');
+});
+</script>
+</body>
+</html>

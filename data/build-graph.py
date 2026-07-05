@@ -19,7 +19,7 @@ import json, re, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from symbols_io import load_symbols, to_card
+from symbols_io import load_symbols, to_card, referent_slug
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -31,16 +31,6 @@ def source_of(sym):
     """Graph provenance (which authoring bucket) — derived from structural class
     now that page membership lives in the symbols_io projection rules."""
     return "strokes" if sym["class"] == "stroke" else "radicals"
-
-
-def referent_slug(gloss):
-    """Canonical ASCII key for a meaning, keeping the referent spine
-    language-neutral: first sense, parentheticals dropped, leading 'to '
-    dropped, hyphenated. The pinyin/kana card slug stays a per-glyph
-    presentation key and never reaches the concept layer."""
-    s = re.sub(r"\(.*?\)", "", gloss.split(";")[0]).strip().lower()
-    s = re.sub(r"^to\s+", "", s)
-    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
 # ── forward: cards → graph ──────────────────────────────────────────────────

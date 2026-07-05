@@ -226,7 +226,7 @@ function renderKangxiCard(c) {
   const base = c.audioBase || '';
   const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
   const imgs = (c.referents || []).flatMap(r =>
-    (r.images || []).map(im => html`<img class="rk-ref" src="${im.src}" alt="${r.label}" title="${r.label}${im.credit ? ' · ' + im.credit : ''}">`));
+    (r.images || []).map(im => html`<img class="rk-ref" src="${im.src}" alt="${r.label}" title="${r.label} · ${im.credit || 'Wikimedia Commons'}${im.license ? ' (' + im.license + ')' : ''}">`));
   const gallery = imgs.length
     ? html`<div class="rk-gallery">${imgs}</div>`
     : html`<div class="rk-gallery rk-empty"><span>${c.cn.gloss || ''}</span></div>`;

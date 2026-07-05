@@ -1613,7 +1613,19 @@
             "kind": "meaning"
           },
           "kx": 46,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "mountain",
+              "images": [
+                {
+                  "src": "../shared/referents/mountain-01.jpg",
+                  "credit": "Vyacheslav Argenberg",
+                  "license": "CC BY 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "川",
@@ -2287,7 +2299,19 @@
             "kind": "meaning"
           },
           "kx": 72,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "sun; day",
+              "images": [
+                {
+                  "src": "../shared/referents/sun-01.jpg",
+                  "credit": "Khanahmedsam",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "曰",
@@ -2329,7 +2353,19 @@
           },
           "wk": null,
           "kx": 74,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "moon",
+              "images": [
+                {
+                  "src": "../shared/referents/moon-01.jpg",
+                  "credit": "Megala Shankar",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "木",
@@ -2370,7 +2406,24 @@
             "kind": "meaning"
           },
           "kx": 75,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "tree; wood",
+              "images": [
+                {
+                  "src": "../shared/referents/tree-01.jpg",
+                  "credit": "John Palmer",
+                  "license": "CC BY-SA 2.0"
+                },
+                {
+                  "src": "../shared/referents/tree-02.jpg",
+                  "credit": "Sergey Pesterev",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "欠",
@@ -2595,7 +2648,19 @@
             "kind": "meaning"
           },
           "kx": 85,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "water",
+              "images": [
+                {
+                  "src": "../shared/referents/water-01.jpg",
+                  "credit": "Radomianin",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "火",
@@ -2632,7 +2697,19 @@
             "kind": "meaning"
           },
           "kx": 86,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "fire",
+              "images": [
+                {
+                  "src": "../shared/referents/fire-01.jpg",
+                  "credit": "Nenad Stojkovic",
+                  "license": "CC BY 2.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "爪",
@@ -2990,7 +3067,19 @@
           },
           "wk": null,
           "kx": 102,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "field",
+              "images": [
+                {
+                  "src": "../shared/referents/field-01.jpg",
+                  "credit": "Basile Morin",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "疋",
@@ -3138,7 +3227,19 @@
           },
           "wk": null,
           "kx": 109,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "eye",
+              "images": [
+                {
+                  "src": "../shared/referents/eye-01.jpg",
+                  "credit": "William Warby from London, England",
+                  "license": "CC BY 2.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "矛",
@@ -3264,7 +3365,19 @@
           },
           "wk": null,
           "kx": 115,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "grain",
+              "images": [
+                {
+                  "src": "../shared/referents/grain-01.jpg",
+                  "credit": "Bärbel Miemietz",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "穴",
@@ -4807,7 +4920,19 @@
           },
           "wk": null,
           "kx": 187,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "horse",
+              "images": [
+                {
+                  "src": "../shared/referents/horse-01.jpg",
+                  "credit": "Halyna Feshchak",
+                  "license": "CC0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "骨",
@@ -4981,7 +5106,19 @@
           },
           "wk": null,
           "kx": 195,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "fish",
+              "images": [
+                {
+                  "src": "../shared/referents/fish-01.jpg",
+                  "credit": "Abogsr",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "鳥",
@@ -5002,7 +5139,19 @@
           },
           "wk": null,
           "kx": 196,
-          "audioBase": "../radicals/"
+          "audioBase": "../radicals/",
+          "referents": [
+            {
+              "label": "bird",
+              "images": [
+                {
+                  "src": "../shared/referents/bird-01.jpg",
+                  "credit": "Laitche",
+                  "license": "CC BY-SA 4.0"
+                }
+              ]
+            }
+          ]
         },
         {
           "glyph": "鹵",

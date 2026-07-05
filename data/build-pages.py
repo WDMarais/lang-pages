@@ -24,10 +24,32 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from symbols_io import (load_symbols, to_card, ROOT, SYM,
+from symbols_io import (load_symbols, to_card, referent_slug, ROOT, SYM,
                         on_strokes, on_kangxi, on_components, on_characters)
 
 DATA = SYM.parent
+
+
+def load_referents():
+    """Referent-keyed image store (data/referents.json) → {slug: [{src, credit}]}.
+    Homed on the referent, not the glyph, so one curated asset serves every glyph
+    that denotes it (木/林/森 → tree) and doubles as the cross-program label anchor."""
+    path = DATA / "referents.json"
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text())
+    return {slug: [{"src": f"../shared/referents/{im['file']}",
+                    "credit": im.get("credit", ""), "license": im.get("license", "")}
+                   for im in ent.get("images", [])]
+            for slug, ent in raw.items()}
+
+
+def attach_referents(card, refmap):
+    """Attach the referent's images to a card via its meaning-slug (CN gloss)."""
+    gloss = card.get("cn", {}).get("gloss", "")
+    imgs = refmap.get(referent_slug(gloss)) if gloss else None
+    if imgs:
+        card["referents"] = [{"label": gloss, "images": imgs}]
 
 
 def s(v):
@@ -79,6 +101,7 @@ def build_kangxi_page(syms):
     greyed stub), grouped by stroke count, then a non-Kangxi component annex."""
     ref = json.loads((DATA / "kangxi.json").read_text())["radicals"]
     by_num = {sym["kangxi"]: sym for sym in syms.values() if sym.get("kangxi")}
+    refmap = load_referents()
 
     by_strokes = defaultdict(list)
     real = 0
@@ -87,6 +110,7 @@ def build_kangxi_page(syms):
             c = to_card(by_num[e["num"]])
             c["kx"] = e["num"]
             c["audioBase"] = "../radicals/"   # asset bridge until the audio-reconcile pass
+            attach_referents(c, refmap)
             real += 1
         else:
             c = {"stub": True, "glyph": e["glyph"], "kx": e["num"],
@@ -103,6 +127,7 @@ def build_kangxi_page(syms):
     annex = [to_card(s) for s in syms.values() if on_components(s)]
     for c in annex:
         c["audioBase"] = "../radicals/"
+        attach_referents(c, refmap)
     if annex:
         groups.append({"title": "非部首部件", "sub": "non-Kangxi components", "cards": annex})
 

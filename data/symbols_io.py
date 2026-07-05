@@ -8,10 +8,20 @@ symbol→card projection, and the page-membership rules so build-pages.py and
 build-graph.py agree on one definition.
 """
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SYM = ROOT / "data" / "symbols"
+
+
+def referent_slug(gloss):
+    """Canonical ASCII key for a meaning — the language-neutral referent id shared
+    by every glyph that denotes it (so a curated referent image is looked up once,
+    not per-glyph). First sense, parentheticals dropped, leading 'to ' dropped."""
+    s = re.sub(r"\(.*?\)", "", gloss.split(";")[0]).strip().lower()
+    s = re.sub(r"^to\s+", "", s)
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
 def load_symbols():
