@@ -24,28 +24,34 @@ def load_symbols():
     return {g: json.loads(files[g].read_text()) for g in order}
 
 
-# ── page-membership rules (replace the old per-file 'source') ────────────────
-def has_radical_program(sym):
-    return any(p["role"] == "radical" for p in sym.get("programs", []))
-
-
+# ── page-membership rules — one axis per rule ────────────────────────────────
+# The old on_radicals unioned three distinct axes (Kangxi ∪ component ∪ "a program
+# teaches it as a radical") into one muddle. Untangled: each axis is its own rule,
+# and program-radical NO LONGER drives membership — that a course happens to teach
+# 七/上/メ as a "radical" is an accident of the course, not a fact about the glyph,
+# so it stays only as a per-card annotation (to_card still surfaces the WK item).
 def on_strokes(sym):
     return sym["class"] == "stroke"
 
 
-def on_radicals(sym):
-    """Components, Kangxi radicals, and anything a program teaches AS a radical.
-    A standalone character that is none of these (泉, 線, 三) is not a radical."""
-    if sym["class"] == "stroke":
-        return False
-    if sym["class"] == "comp":
-        return True
-    return bool(sym.get("kangxi")) or has_radical_program(sym)
+def on_kangxi(sym):
+    """The canonical 214 Kangxi radicals — the principled 'radical' axis. A glyph
+    is here iff it carries a Kangxi number (亠 is #8, so it stays; 七/上/千/才 fall
+    off — WK-radical ≠ Kangxi-radical). The /kangxi/ page joins these to the 214
+    reference spine by number; see data/kangxi.json + build-pages."""
+    return bool(sym.get("kangxi"))
+
+
+def on_components(sym):
+    """Non-Kangxi structural components — the small residue of building-block
+    shapes that are neither Kangxi radicals, standalone chars, nor single strokes
+    (ナ ト メ 𠂉). Surfaced as the annex on /kangxi/."""
+    return sym["class"] == "comp" and not sym.get("kangxi")
 
 
 def on_characters(sym):
-    """The full standalone-character inventory. Overlaps /radicals/ for chars
-    that are also radicals (才, 一) — one symbol, two projected views."""
+    """The full standalone-character inventory. Overlaps /kangxi/ for chars that
+    are also Kangxi radicals (大, 木, 口) — one symbol, two projected views."""
     return sym["class"] == "char"
 
 

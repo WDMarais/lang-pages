@@ -2,24 +2,32 @@
 """Project the symbol substrate onto the lang-pages card files.
 
     data/symbols/*.json  ──(membership rules in symbols_io)──▶
-        radicals/radicals.json     on_radicals
         strokes/strokes.json       on_strokes
         characters/characters.json on_characters
+        kangxi/kangxi.json         on_kangxi ⋈ data/kangxi.json (the 214 spine)
 
 The card files are GENERATED (kept committed so deploy stays build-free). Which
-page a glyph lands on is now a projection rule, not a stored 'source' — 泉/線/三
-leave /radicals/ because nothing teaches them as a radical and they aren't Kangxi
-radicals; they surface on /characters/ (the full standalone-character inventory).
+page a glyph lands on is a projection rule, not a stored 'source'. The radical
+axis is now the canonical 214 Kangxi radicals: /kangxi/ joins our kangxi-tagged
+symbols to the reference spine BY NUMBER — a real card where we have the symbol,
+a greyed stub where we don't — so the page is an honest, completable deck. The
+old /radicals/ page (Kangxi ∪ component ∪ program-radical) is retired; its chars
+were already on /characters/, its Kangxi entries move here, and the handful of
+non-Kangxi components (ナ ト メ 𠂉) ride along as an annex.
 
-Emits the hand-authored house format so diffs stay reviewable.
+strokes/characters emit the hand-authored house format so diffs stay reviewable;
+the big generated kangxi page uses plain indented JSON.
 Run: python3 data/build-pages.py
 """
 import json, sys
+from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from symbols_io import (load_symbols, to_card, ROOT,
-                        on_strokes, on_radicals, on_characters)
+from symbols_io import (load_symbols, to_card, ROOT, SYM,
+                        on_strokes, on_kangxi, on_components, on_characters)
+
+DATA = SYM.parent
 
 
 def s(v):
@@ -65,11 +73,54 @@ def dump_cardfile(cards):
             '      "cards": [\n' + body + "\n      ]\n    }\n  ]\n}\n")
 
 
+def build_kangxi_page(syms):
+    """Join our kangxi-tagged symbols to the 214-radical reference spine by NUMBER;
+    emit one card per radical (real projection where we have the symbol, else a
+    greyed stub), grouped by stroke count, then a non-Kangxi component annex."""
+    ref = json.loads((DATA / "kangxi.json").read_text())["radicals"]
+    by_num = {sym["kangxi"]: sym for sym in syms.values() if sym.get("kangxi")}
+
+    by_strokes = defaultdict(list)
+    real = 0
+    for e in ref:
+        if e["num"] in by_num:
+            c = to_card(by_num[e["num"]])
+            c["kx"] = e["num"]
+            c["audioBase"] = "../radicals/"   # asset bridge until the audio-reconcile pass
+            real += 1
+        else:
+            c = {"stub": True, "glyph": e["glyph"], "kx": e["num"],
+                 "pinyin": e["pinyin"], "meaning": e["meaning"], "strokes": e["strokes"]}
+        by_strokes[e["strokes"]].append(c)
+
+    groups = []
+    for st in sorted(by_strokes):
+        # reals (full cards) first, then stub tiles — both in canonical number order
+        cards = sorted(by_strokes[st], key=lambda c: (c.get("stub", False), c["kx"]))
+        groups.append({"title": f"{st} 画", "sub": f"{st} stroke" + ("s" if st > 1 else ""),
+                       "cards": cards})
+
+    annex = [to_card(s) for s in syms.values() if on_components(s)]
+    for c in annex:
+        c["audioBase"] = "../radicals/"
+    if annex:
+        groups.append({"title": "非部首部件", "sub": "non-Kangxi components", "cards": annex})
+
+    path = ROOT / "kangxi/kangxi.json"
+    path.parent.mkdir(exist_ok=True)
+    text = json.dumps({"groups": groups}, ensure_ascii=False, indent=2) + "\n"
+    reparsed = [c for g in json.loads(text)["groups"] for c in g["cards"]]
+    assert reparsed == [c for g in groups for c in g["cards"]], "kangxi: emit/parse mismatch"
+    path.write_text(text)
+    total = sum(len(g["cards"]) for g in groups)
+    print(f"{'kangxi.json':24} {total:3} cards ({real}/214 real, {214 - real} stub, "
+          f"{len(annex)} annex)")
+
+
 def main():
     syms = load_symbols()
     pages = [
         ("strokes",    ROOT / "strokes/strokes.json",       on_strokes),
-        ("radicals",   ROOT / "radicals/radicals.json",     on_radicals),
         ("characters", ROOT / "characters/characters.json", on_characters),
     ]
     for name, path, rule in pages:
@@ -82,9 +133,11 @@ def main():
         path.write_text(text)
         print(f"{name+'.json':24} {len(cards):3} cards")
 
-    off_radicals = [g for g, sym in syms.items()
-                    if sym["class"] == "char" and not on_radicals(sym)]
-    print("chars NOT on /radicals/ (character-only):", " ".join(off_radicals))
+    build_kangxi_page(syms)
+
+    char_only = [g for g, sym in syms.items()
+                 if sym["class"] == "char" and not on_kangxi(sym)]
+    print("character-only (not Kangxi radicals):", " ".join(char_only))
     return 0
 
 

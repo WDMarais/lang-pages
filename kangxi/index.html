@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>康熙部首 · Kangxi Radicals</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<!-- Kai (楷体) brush font for specimen glyphs — open-source, OFL licensed -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">康熙部首 · 214</div>
+  <div class="cover-title">部首</div>
+  <div class="cover-py">bùshǒu</div>
+  <div class="cover-sub"><span class="en">The 214 Kangxi radicals — the standard index of Han script</span><span class="zh-alt">汉字检字的标准部首</span></div>
+  <div class="cover-meta">Kangxi Radicals</div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">How to read this</span><span class="zh-alt">说明</span></div>
+    <h2>「部首」其实是四样东西</h2>
+    <div class="sec-rule"></div>
+
+    <p class="intro">
+      大家把好几样东西都叫「radical / 部首」，其实要分开：
+      <span class="en">"Radical" gets used for four different things that are worth keeping apart:</span>
+    </p>
+    <p class="intro">
+      ① <strong>康熙部首</strong>（本页）—— 检字用的<strong>标准</strong>索引，共 214 个。
+      ② <strong>笔画</strong>（<a href="/strokes/">单笔</a>）。
+      ③ <strong>部件</strong> —— 组字的零件，但不一定是部首（亠、ナ）。
+      ④ 某个课程<strong>碰巧当作「radical」教</strong>的字（WaniKani 把 七、上、メ 都叫 radical）——
+      那是课程的方便，不是字本身的性质，所以不该决定它归到哪一页。
+      <span class="en">① <strong>Kangxi radicals</strong> (this page) — the <strong>standard</strong>
+      214-entry lookup index. ② <strong>strokes</strong> (<a href="/strokes/">single strokes</a>).
+      ③ <strong>components</strong> — assembly parts that aren't necessarily radicals (亠, ナ).
+      ④ whatever a course <strong>happens to teach as a "radical"</strong> (WaniKani calls 七, 上,
+      メ radicals) — a convenience of the course, not a fact about the glyph, so it no longer
+      decides which page a glyph lives on.</span>
+    </p>
+    <p class="intro">
+      本页是<strong>完整的 214</strong>：已建好的显示整卡，其余是<strong>灰色占位</strong>——
+      是一份能逐步补全的清单（连同象形来源图，稍后加入）。点 ▶ 听发音。
+      <span class="en">This page is the <strong>complete 214</strong>: built ones show a full card,
+      the rest are <strong>grey stubs</strong> — an honest deck to fill in over time (referent
+      images for the pictographs are coming). Tap ▶ for audio.</span>
+    </p>
+
+    <div class="legend">
+      <span><i class="lg-cn"></i> 中文 · 拼音</span>
+      <span><i class="lg-jp"></i> 日本語 · 仮名</span>
+      <span><i class="lg-wk-m"></i> WK · PD 实义 · <span class="en">real meaning</span><span class="zh-alt">通用</span></span>
+      <span><i class="lg-wk"></i> WK · PD 仅助记 ⚠ <span class="en">mnemonic</span></span>
+      <span class="lg-note">№ <span class="en">Kangxi index number</span><span class="zh-alt">部首序号</span></span>
+    </div>
+
+    <div id="cards" data-src="kangxi.json"></div>
+
+    <p class="intro" style="margin-top:2rem">
+      → <a href="/strokes/">笔画</a>
+      <span class="en">— the single strokes these are built from, with stroke-order animation.</span>
+      <span class="zh-alt">—— 组成它们的基础笔画，附笔顺动画。</span>
+      <br>→ <a href="/characters/">单字</a>
+      <span class="en">— standalone characters, including the many that are also radicals.</span>
+      <span class="zh-alt">—— 能独立成字的单字（不少同时是部首）。</span>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div>康熙部首 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/vendor/hanzi-writer.min.js"></script>
+<script src="../shared/cards3.js"></script>
+</body>
+</html>

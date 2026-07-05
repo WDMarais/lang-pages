@@ -165,13 +165,31 @@ function kanjiItem(k) {
 
 const TAG_LABEL = { stroke: '笔画', comp: '部件', char: '字' };
 
+// Kangxi-spine stub: a radical we haven't built a full card for yet. Compact,
+// greyed tile carrying only the canonical glyph + Kangxi number + meaning, so the
+// /kangxi/ page is a complete, honest 214-deck with the gaps visible.
+function renderStub(c) {
+  return html`
+    <div class="scard scard-stub" title="Kangxi ${c.kx} · ${c.meaning}">
+      <span class="sc-kx">${c.kx}</span>
+      <svg class="sc-hero sc-stub-glyph" viewBox="0 0 100 100" aria-hidden="true">
+        <text class="sc-gtext" x="50" y="50">${c.glyph}</text>
+      </svg>
+      <div class="sc-stub-meaning en">${c.meaning}</div>
+      <div class="sc-stub-py">${c.pinyin || ''}</div>
+    </div>`;
+}
+
 function renderCard(c) {
+  if (c.stub) return renderStub(c);
   const img = c.image ? html`<img class="sc-img" src="${c.image}" alt="">` : '';
   const tagCls = c.tag === 'char' ? 'tag-char' : (c.tag === 'comp' ? 'tag-comp' : '');
   const tag = html`<span class="sc-tag ${tagCls}">${TAG_LABEL[c.tag] || '笔画'}</span>`;
+  const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
   return html`
     <div class="scard">
       <div class="sc-glyph">
+        ${kx}
         ${diagram(c)}
         ${tag}
         ${img}

@@ -1,0 +1,1607 @@
+{
+  "radicals": [
+    {
+      "num": 1,
+      "glyph": "一",
+      "pinyin": "yī",
+      "meaning": "one",
+      "strokes": 1
+    },
+    {
+      "num": 2,
+      "glyph": "丨",
+      "pinyin": "gǔn",
+      "meaning": "line",
+      "strokes": 1
+    },
+    {
+      "num": 3,
+      "glyph": "丶",
+      "pinyin": "zhǔ",
+      "meaning": "dot",
+      "strokes": 1
+    },
+    {
+      "num": 4,
+      "glyph": "丿",
+      "pinyin": "piě",
+      "meaning": "slash",
+      "strokes": 1
+    },
+    {
+      "num": 5,
+      "glyph": "乙",
+      "pinyin": "yǐ",
+      "meaning": "second",
+      "strokes": 1
+    },
+    {
+      "num": 6,
+      "glyph": "亅",
+      "pinyin": "jué",
+      "meaning": "hook",
+      "strokes": 1
+    },
+    {
+      "num": 7,
+      "glyph": "二",
+      "pinyin": "èr",
+      "meaning": "two",
+      "strokes": 2
+    },
+    {
+      "num": 8,
+      "glyph": "亠",
+      "pinyin": "tóu",
+      "meaning": "lid",
+      "strokes": 2
+    },
+    {
+      "num": 9,
+      "glyph": "人",
+      "pinyin": "rén",
+      "meaning": "person",
+      "strokes": 2
+    },
+    {
+      "num": 10,
+      "glyph": "儿",
+      "pinyin": "ér",
+      "meaning": "legs",
+      "strokes": 2
+    },
+    {
+      "num": 11,
+      "glyph": "入",
+      "pinyin": "rù",
+      "meaning": "enter",
+      "strokes": 2
+    },
+    {
+      "num": 12,
+      "glyph": "八",
+      "pinyin": "bā",
+      "meaning": "eight",
+      "strokes": 2
+    },
+    {
+      "num": 13,
+      "glyph": "冂",
+      "pinyin": "jiōng",
+      "meaning": "open enclosure",
+      "strokes": 2
+    },
+    {
+      "num": 14,
+      "glyph": "冖",
+      "pinyin": "mì",
+      "meaning": "cover",
+      "strokes": 2
+    },
+    {
+      "num": 15,
+      "glyph": "冫",
+      "pinyin": "bīng",
+      "meaning": "ice",
+      "strokes": 2
+    },
+    {
+      "num": 16,
+      "glyph": "几",
+      "pinyin": "jī",
+      "meaning": "table",
+      "strokes": 2
+    },
+    {
+      "num": 17,
+      "glyph": "凵",
+      "pinyin": "kǎn",
+      "meaning": "open box",
+      "strokes": 2
+    },
+    {
+      "num": 18,
+      "glyph": "刀",
+      "pinyin": "dāo",
+      "meaning": "knife",
+      "strokes": 2
+    },
+    {
+      "num": 19,
+      "glyph": "力",
+      "pinyin": "lì",
+      "meaning": "power",
+      "strokes": 2
+    },
+    {
+      "num": 20,
+      "glyph": "勹",
+      "pinyin": "bāo",
+      "meaning": "wrap",
+      "strokes": 2
+    },
+    {
+      "num": 21,
+      "glyph": "匕",
+      "pinyin": "bǐ",
+      "meaning": "spoon",
+      "strokes": 2
+    },
+    {
+      "num": 22,
+      "glyph": "匚",
+      "pinyin": "fāng",
+      "meaning": "box",
+      "strokes": 2
+    },
+    {
+      "num": 23,
+      "glyph": "匸",
+      "pinyin": "xì",
+      "meaning": "hiding enclosure",
+      "strokes": 2
+    },
+    {
+      "num": 24,
+      "glyph": "十",
+      "pinyin": "shí",
+      "meaning": "ten",
+      "strokes": 2
+    },
+    {
+      "num": 25,
+      "glyph": "卜",
+      "pinyin": "bǔ",
+      "meaning": "divination",
+      "strokes": 2
+    },
+    {
+      "num": 26,
+      "glyph": "卩",
+      "pinyin": "jié",
+      "meaning": "seal",
+      "strokes": 2
+    },
+    {
+      "num": 27,
+      "glyph": "厂",
+      "pinyin": "hàn",
+      "meaning": "cliff",
+      "strokes": 2
+    },
+    {
+      "num": 28,
+      "glyph": "厶",
+      "pinyin": "sī",
+      "meaning": "private",
+      "strokes": 2
+    },
+    {
+      "num": 29,
+      "glyph": "又",
+      "pinyin": "yòu",
+      "meaning": "again",
+      "strokes": 2
+    },
+    {
+      "num": 30,
+      "glyph": "口",
+      "pinyin": "kǒu",
+      "meaning": "mouth",
+      "strokes": 3
+    },
+    {
+      "num": 31,
+      "glyph": "囗",
+      "pinyin": "wéi",
+      "meaning": "enclosure",
+      "strokes": 3
+    },
+    {
+      "num": 32,
+      "glyph": "土",
+      "pinyin": "tǔ",
+      "meaning": "earth",
+      "strokes": 3
+    },
+    {
+      "num": 33,
+      "glyph": "士",
+      "pinyin": "shì",
+      "meaning": "scholar",
+      "strokes": 3
+    },
+    {
+      "num": 34,
+      "glyph": "夂",
+      "pinyin": "zhǐ",
+      "meaning": "go",
+      "strokes": 3
+    },
+    {
+      "num": 35,
+      "glyph": "夊",
+      "pinyin": "suī",
+      "meaning": "go slowly",
+      "strokes": 3
+    },
+    {
+      "num": 36,
+      "glyph": "夕",
+      "pinyin": "xī",
+      "meaning": "evening",
+      "strokes": 3
+    },
+    {
+      "num": 37,
+      "glyph": "大",
+      "pinyin": "dà",
+      "meaning": "big",
+      "strokes": 3
+    },
+    {
+      "num": 38,
+      "glyph": "女",
+      "pinyin": "nǚ",
+      "meaning": "woman",
+      "strokes": 3
+    },
+    {
+      "num": 39,
+      "glyph": "子",
+      "pinyin": "zǐ",
+      "meaning": "child",
+      "strokes": 3
+    },
+    {
+      "num": 40,
+      "glyph": "宀",
+      "pinyin": "mián",
+      "meaning": "roof",
+      "strokes": 3
+    },
+    {
+      "num": 41,
+      "glyph": "寸",
+      "pinyin": "cùn",
+      "meaning": "inch",
+      "strokes": 3
+    },
+    {
+      "num": 42,
+      "glyph": "小",
+      "pinyin": "xiǎo",
+      "meaning": "small",
+      "strokes": 3
+    },
+    {
+      "num": 43,
+      "glyph": "尢",
+      "pinyin": "wāng",
+      "meaning": "lame",
+      "strokes": 3
+    },
+    {
+      "num": 44,
+      "glyph": "尸",
+      "pinyin": "shī",
+      "meaning": "corpse",
+      "strokes": 3
+    },
+    {
+      "num": 45,
+      "glyph": "屮",
+      "pinyin": "chè",
+      "meaning": "sprout",
+      "strokes": 3
+    },
+    {
+      "num": 46,
+      "glyph": "山",
+      "pinyin": "shān",
+      "meaning": "mountain",
+      "strokes": 3
+    },
+    {
+      "num": 47,
+      "glyph": "巛",
+      "pinyin": "chuān",
+      "meaning": "river",
+      "strokes": 3,
+      "variants": [
+        "川"
+      ]
+    },
+    {
+      "num": 48,
+      "glyph": "工",
+      "pinyin": "gōng",
+      "meaning": "work",
+      "strokes": 3
+    },
+    {
+      "num": 49,
+      "glyph": "己",
+      "pinyin": "jǐ",
+      "meaning": "oneself",
+      "strokes": 3
+    },
+    {
+      "num": 50,
+      "glyph": "巾",
+      "pinyin": "jīn",
+      "meaning": "cloth",
+      "strokes": 3
+    },
+    {
+      "num": 51,
+      "glyph": "干",
+      "pinyin": "gān",
+      "meaning": "dry",
+      "strokes": 3
+    },
+    {
+      "num": 52,
+      "glyph": "幺",
+      "pinyin": "yāo",
+      "meaning": "short thread",
+      "strokes": 3
+    },
+    {
+      "num": 53,
+      "glyph": "广",
+      "pinyin": "guǎng",
+      "meaning": "shelter",
+      "strokes": 3
+    },
+    {
+      "num": 54,
+      "glyph": "廴",
+      "pinyin": "yǐn",
+      "meaning": "stride",
+      "strokes": 3
+    },
+    {
+      "num": 55,
+      "glyph": "廾",
+      "pinyin": "gǒng",
+      "meaning": "two hands",
+      "strokes": 3
+    },
+    {
+      "num": 56,
+      "glyph": "弋",
+      "pinyin": "yì",
+      "meaning": "shoot",
+      "strokes": 3
+    },
+    {
+      "num": 57,
+      "glyph": "弓",
+      "pinyin": "gōng",
+      "meaning": "bow",
+      "strokes": 3
+    },
+    {
+      "num": 58,
+      "glyph": "彐",
+      "pinyin": "jì",
+      "meaning": "snout",
+      "strokes": 3
+    },
+    {
+      "num": 59,
+      "glyph": "彡",
+      "pinyin": "shān",
+      "meaning": "bristle",
+      "strokes": 3
+    },
+    {
+      "num": 60,
+      "glyph": "彳",
+      "pinyin": "chì",
+      "meaning": "step",
+      "strokes": 3
+    },
+    {
+      "num": 61,
+      "glyph": "心",
+      "pinyin": "xīn",
+      "meaning": "heart",
+      "strokes": 4
+    },
+    {
+      "num": 62,
+      "glyph": "戈",
+      "pinyin": "gē",
+      "meaning": "halberd",
+      "strokes": 4
+    },
+    {
+      "num": 63,
+      "glyph": "戶",
+      "pinyin": "hù",
+      "meaning": "door",
+      "strokes": 4,
+      "variants": [
+        "户",
+        "戸"
+      ]
+    },
+    {
+      "num": 64,
+      "glyph": "手",
+      "pinyin": "shǒu",
+      "meaning": "hand",
+      "strokes": 4,
+      "variants": [
+        "扌"
+      ]
+    },
+    {
+      "num": 65,
+      "glyph": "支",
+      "pinyin": "zhī",
+      "meaning": "branch",
+      "strokes": 4
+    },
+    {
+      "num": 66,
+      "glyph": "攴",
+      "pinyin": "pū",
+      "meaning": "tap",
+      "strokes": 4,
+      "variants": [
+        "攵"
+      ]
+    },
+    {
+      "num": 67,
+      "glyph": "文",
+      "pinyin": "wén",
+      "meaning": "script",
+      "strokes": 4
+    },
+    {
+      "num": 68,
+      "glyph": "斗",
+      "pinyin": "dǒu",
+      "meaning": "dipper",
+      "strokes": 4
+    },
+    {
+      "num": 69,
+      "glyph": "斤",
+      "pinyin": "jīn",
+      "meaning": "axe",
+      "strokes": 4
+    },
+    {
+      "num": 70,
+      "glyph": "方",
+      "pinyin": "fāng",
+      "meaning": "square",
+      "strokes": 4
+    },
+    {
+      "num": 71,
+      "glyph": "无",
+      "pinyin": "wú",
+      "meaning": "not",
+      "strokes": 4
+    },
+    {
+      "num": 72,
+      "glyph": "日",
+      "pinyin": "rì",
+      "meaning": "sun",
+      "strokes": 4
+    },
+    {
+      "num": 73,
+      "glyph": "曰",
+      "pinyin": "yuē",
+      "meaning": "say",
+      "strokes": 4
+    },
+    {
+      "num": 74,
+      "glyph": "月",
+      "pinyin": "yuè",
+      "meaning": "moon",
+      "strokes": 4
+    },
+    {
+      "num": 75,
+      "glyph": "木",
+      "pinyin": "mù",
+      "meaning": "tree",
+      "strokes": 4
+    },
+    {
+      "num": 76,
+      "glyph": "欠",
+      "pinyin": "qiàn",
+      "meaning": "yawn",
+      "strokes": 4
+    },
+    {
+      "num": 77,
+      "glyph": "止",
+      "pinyin": "zhǐ",
+      "meaning": "stop",
+      "strokes": 4
+    },
+    {
+      "num": 78,
+      "glyph": "歹",
+      "pinyin": "dǎi",
+      "meaning": "death",
+      "strokes": 4
+    },
+    {
+      "num": 79,
+      "glyph": "殳",
+      "pinyin": "shū",
+      "meaning": "weapon",
+      "strokes": 4
+    },
+    {
+      "num": 80,
+      "glyph": "毋",
+      "pinyin": "wú",
+      "meaning": "do not",
+      "strokes": 4
+    },
+    {
+      "num": 81,
+      "glyph": "比",
+      "pinyin": "bǐ",
+      "meaning": "compare",
+      "strokes": 4
+    },
+    {
+      "num": 82,
+      "glyph": "毛",
+      "pinyin": "máo",
+      "meaning": "fur",
+      "strokes": 4
+    },
+    {
+      "num": 83,
+      "glyph": "氏",
+      "pinyin": "shì",
+      "meaning": "clan",
+      "strokes": 4
+    },
+    {
+      "num": 84,
+      "glyph": "气",
+      "pinyin": "qì",
+      "meaning": "steam",
+      "strokes": 4
+    },
+    {
+      "num": 85,
+      "glyph": "水",
+      "pinyin": "shuǐ",
+      "meaning": "water",
+      "strokes": 4,
+      "variants": [
+        "氵"
+      ]
+    },
+    {
+      "num": 86,
+      "glyph": "火",
+      "pinyin": "huǒ",
+      "meaning": "fire",
+      "strokes": 4,
+      "variants": [
+        "灬"
+      ]
+    },
+    {
+      "num": 87,
+      "glyph": "爪",
+      "pinyin": "zhǎo",
+      "meaning": "claw",
+      "strokes": 4
+    },
+    {
+      "num": 88,
+      "glyph": "父",
+      "pinyin": "fù",
+      "meaning": "father",
+      "strokes": 4
+    },
+    {
+      "num": 89,
+      "glyph": "爻",
+      "pinyin": "yáo",
+      "meaning": "trigram lines",
+      "strokes": 4
+    },
+    {
+      "num": 90,
+      "glyph": "爿",
+      "pinyin": "qiáng",
+      "meaning": "split wood",
+      "strokes": 4
+    },
+    {
+      "num": 91,
+      "glyph": "片",
+      "pinyin": "piàn",
+      "meaning": "slice",
+      "strokes": 4
+    },
+    {
+      "num": 92,
+      "glyph": "牙",
+      "pinyin": "yá",
+      "meaning": "fang",
+      "strokes": 4
+    },
+    {
+      "num": 93,
+      "glyph": "牛",
+      "pinyin": "niú",
+      "meaning": "cow",
+      "strokes": 4
+    },
+    {
+      "num": 94,
+      "glyph": "犬",
+      "pinyin": "quǎn",
+      "meaning": "dog",
+      "strokes": 4
+    },
+    {
+      "num": 95,
+      "glyph": "玄",
+      "pinyin": "xuán",
+      "meaning": "profound",
+      "strokes": 5
+    },
+    {
+      "num": 96,
+      "glyph": "玉",
+      "pinyin": "yù",
+      "meaning": "jade",
+      "strokes": 5
+    },
+    {
+      "num": 97,
+      "glyph": "瓜",
+      "pinyin": "guā",
+      "meaning": "melon",
+      "strokes": 5
+    },
+    {
+      "num": 98,
+      "glyph": "瓦",
+      "pinyin": "wǎ",
+      "meaning": "tile",
+      "strokes": 5
+    },
+    {
+      "num": 99,
+      "glyph": "甘",
+      "pinyin": "gān",
+      "meaning": "sweet",
+      "strokes": 5
+    },
+    {
+      "num": 100,
+      "glyph": "生",
+      "pinyin": "shēng",
+      "meaning": "life",
+      "strokes": 5
+    },
+    {
+      "num": 101,
+      "glyph": "用",
+      "pinyin": "yòng",
+      "meaning": "use",
+      "strokes": 5
+    },
+    {
+      "num": 102,
+      "glyph": "田",
+      "pinyin": "tián",
+      "meaning": "field",
+      "strokes": 5
+    },
+    {
+      "num": 103,
+      "glyph": "疋",
+      "pinyin": "pǐ",
+      "meaning": "bolt of cloth",
+      "strokes": 5
+    },
+    {
+      "num": 104,
+      "glyph": "疒",
+      "pinyin": "nè",
+      "meaning": "sickness",
+      "strokes": 5
+    },
+    {
+      "num": 105,
+      "glyph": "癶",
+      "pinyin": "bō",
+      "meaning": "footsteps",
+      "strokes": 5
+    },
+    {
+      "num": 106,
+      "glyph": "白",
+      "pinyin": "bái",
+      "meaning": "white",
+      "strokes": 5
+    },
+    {
+      "num": 107,
+      "glyph": "皮",
+      "pinyin": "pí",
+      "meaning": "skin",
+      "strokes": 5
+    },
+    {
+      "num": 108,
+      "glyph": "皿",
+      "pinyin": "mǐn",
+      "meaning": "dish",
+      "strokes": 5
+    },
+    {
+      "num": 109,
+      "glyph": "目",
+      "pinyin": "mù",
+      "meaning": "eye",
+      "strokes": 5
+    },
+    {
+      "num": 110,
+      "glyph": "矛",
+      "pinyin": "máo",
+      "meaning": "spear",
+      "strokes": 5
+    },
+    {
+      "num": 111,
+      "glyph": "矢",
+      "pinyin": "shǐ",
+      "meaning": "arrow",
+      "strokes": 5
+    },
+    {
+      "num": 112,
+      "glyph": "石",
+      "pinyin": "shí",
+      "meaning": "stone",
+      "strokes": 5
+    },
+    {
+      "num": 113,
+      "glyph": "示",
+      "pinyin": "shì",
+      "meaning": "altar",
+      "strokes": 5
+    },
+    {
+      "num": 114,
+      "glyph": "禸",
+      "pinyin": "róu",
+      "meaning": "track",
+      "strokes": 5
+    },
+    {
+      "num": 115,
+      "glyph": "禾",
+      "pinyin": "hé",
+      "meaning": "grain",
+      "strokes": 5
+    },
+    {
+      "num": 116,
+      "glyph": "穴",
+      "pinyin": "xué",
+      "meaning": "cave",
+      "strokes": 5
+    },
+    {
+      "num": 117,
+      "glyph": "立",
+      "pinyin": "lì",
+      "meaning": "stand",
+      "strokes": 5
+    },
+    {
+      "num": 118,
+      "glyph": "竹",
+      "pinyin": "zhú",
+      "meaning": "bamboo",
+      "strokes": 6
+    },
+    {
+      "num": 119,
+      "glyph": "米",
+      "pinyin": "mǐ",
+      "meaning": "rice",
+      "strokes": 6
+    },
+    {
+      "num": 120,
+      "glyph": "糸",
+      "pinyin": "mì",
+      "meaning": "silk",
+      "strokes": 6
+    },
+    {
+      "num": 121,
+      "glyph": "缶",
+      "pinyin": "fǒu",
+      "meaning": "jar",
+      "strokes": 6
+    },
+    {
+      "num": 122,
+      "glyph": "网",
+      "pinyin": "wǎng",
+      "meaning": "net",
+      "strokes": 6
+    },
+    {
+      "num": 123,
+      "glyph": "羊",
+      "pinyin": "yáng",
+      "meaning": "sheep",
+      "strokes": 6
+    },
+    {
+      "num": 124,
+      "glyph": "羽",
+      "pinyin": "yǔ",
+      "meaning": "feather",
+      "strokes": 6
+    },
+    {
+      "num": 125,
+      "glyph": "老",
+      "pinyin": "lǎo",
+      "meaning": "old",
+      "strokes": 6
+    },
+    {
+      "num": 126,
+      "glyph": "而",
+      "pinyin": "ér",
+      "meaning": "and",
+      "strokes": 6
+    },
+    {
+      "num": 127,
+      "glyph": "耒",
+      "pinyin": "lěi",
+      "meaning": "plow",
+      "strokes": 6
+    },
+    {
+      "num": 128,
+      "glyph": "耳",
+      "pinyin": "ěr",
+      "meaning": "ear",
+      "strokes": 6
+    },
+    {
+      "num": 129,
+      "glyph": "聿",
+      "pinyin": "yù",
+      "meaning": "brush",
+      "strokes": 6
+    },
+    {
+      "num": 130,
+      "glyph": "肉",
+      "pinyin": "ròu",
+      "meaning": "meat",
+      "strokes": 6
+    },
+    {
+      "num": 131,
+      "glyph": "臣",
+      "pinyin": "chén",
+      "meaning": "minister",
+      "strokes": 6
+    },
+    {
+      "num": 132,
+      "glyph": "自",
+      "pinyin": "zì",
+      "meaning": "self",
+      "strokes": 6
+    },
+    {
+      "num": 133,
+      "glyph": "至",
+      "pinyin": "zhì",
+      "meaning": "arrive",
+      "strokes": 6
+    },
+    {
+      "num": 134,
+      "glyph": "臼",
+      "pinyin": "jiù",
+      "meaning": "mortar",
+      "strokes": 6
+    },
+    {
+      "num": 135,
+      "glyph": "舌",
+      "pinyin": "shé",
+      "meaning": "tongue",
+      "strokes": 6
+    },
+    {
+      "num": 136,
+      "glyph": "舛",
+      "pinyin": "chuǎn",
+      "meaning": "oppose",
+      "strokes": 6
+    },
+    {
+      "num": 137,
+      "glyph": "舟",
+      "pinyin": "zhōu",
+      "meaning": "boat",
+      "strokes": 6
+    },
+    {
+      "num": 138,
+      "glyph": "艮",
+      "pinyin": "gèn",
+      "meaning": "stopping",
+      "strokes": 6
+    },
+    {
+      "num": 139,
+      "glyph": "色",
+      "pinyin": "sè",
+      "meaning": "color",
+      "strokes": 6
+    },
+    {
+      "num": 140,
+      "glyph": "艸",
+      "pinyin": "cǎo",
+      "meaning": "grass",
+      "strokes": 6,
+      "variants": [
+        "艹"
+      ]
+    },
+    {
+      "num": 141,
+      "glyph": "虍",
+      "pinyin": "hū",
+      "meaning": "tiger",
+      "strokes": 6
+    },
+    {
+      "num": 142,
+      "glyph": "虫",
+      "pinyin": "chóng",
+      "meaning": "insect",
+      "strokes": 6
+    },
+    {
+      "num": 143,
+      "glyph": "血",
+      "pinyin": "xuè",
+      "meaning": "blood",
+      "strokes": 6
+    },
+    {
+      "num": 144,
+      "glyph": "行",
+      "pinyin": "xíng",
+      "meaning": "walk",
+      "strokes": 6
+    },
+    {
+      "num": 145,
+      "glyph": "衣",
+      "pinyin": "yī",
+      "meaning": "clothes",
+      "strokes": 6,
+      "variants": [
+        "衤"
+      ]
+    },
+    {
+      "num": 146,
+      "glyph": "襾",
+      "pinyin": "yà",
+      "meaning": "cover",
+      "strokes": 6,
+      "variants": [
+        "西",
+        "覀"
+      ]
+    },
+    {
+      "num": 147,
+      "glyph": "見",
+      "pinyin": "jiàn",
+      "meaning": "see",
+      "strokes": 7,
+      "variants": [
+        "见"
+      ]
+    },
+    {
+      "num": 148,
+      "glyph": "角",
+      "pinyin": "jiǎo",
+      "meaning": "horn",
+      "strokes": 7
+    },
+    {
+      "num": 149,
+      "glyph": "言",
+      "pinyin": "yán",
+      "meaning": "speech",
+      "strokes": 7,
+      "variants": [
+        "讠"
+      ]
+    },
+    {
+      "num": 150,
+      "glyph": "谷",
+      "pinyin": "gǔ",
+      "meaning": "valley",
+      "strokes": 7
+    },
+    {
+      "num": 151,
+      "glyph": "豆",
+      "pinyin": "dòu",
+      "meaning": "bean",
+      "strokes": 7
+    },
+    {
+      "num": 152,
+      "glyph": "豕",
+      "pinyin": "shǐ",
+      "meaning": "pig",
+      "strokes": 7
+    },
+    {
+      "num": 153,
+      "glyph": "豸",
+      "pinyin": "zhì",
+      "meaning": "badger",
+      "strokes": 7
+    },
+    {
+      "num": 154,
+      "glyph": "貝",
+      "pinyin": "bèi",
+      "meaning": "shell",
+      "strokes": 7,
+      "variants": [
+        "贝"
+      ]
+    },
+    {
+      "num": 155,
+      "glyph": "赤",
+      "pinyin": "chì",
+      "meaning": "red",
+      "strokes": 7
+    },
+    {
+      "num": 156,
+      "glyph": "走",
+      "pinyin": "zǒu",
+      "meaning": "run",
+      "strokes": 7
+    },
+    {
+      "num": 157,
+      "glyph": "足",
+      "pinyin": "zú",
+      "meaning": "foot",
+      "strokes": 7
+    },
+    {
+      "num": 158,
+      "glyph": "身",
+      "pinyin": "shēn",
+      "meaning": "body",
+      "strokes": 7
+    },
+    {
+      "num": 159,
+      "glyph": "車",
+      "pinyin": "chē",
+      "meaning": "cart",
+      "strokes": 7,
+      "variants": [
+        "车"
+      ]
+    },
+    {
+      "num": 160,
+      "glyph": "辛",
+      "pinyin": "xīn",
+      "meaning": "bitter",
+      "strokes": 7
+    },
+    {
+      "num": 161,
+      "glyph": "辰",
+      "pinyin": "chén",
+      "meaning": "morning",
+      "strokes": 7
+    },
+    {
+      "num": 162,
+      "glyph": "辵",
+      "pinyin": "chuò",
+      "meaning": "walk",
+      "strokes": 7,
+      "variants": [
+        "辶"
+      ]
+    },
+    {
+      "num": 163,
+      "glyph": "邑",
+      "pinyin": "yì",
+      "meaning": "city",
+      "strokes": 7,
+      "variants": [
+        "⻏"
+      ]
+    },
+    {
+      "num": 164,
+      "glyph": "酉",
+      "pinyin": "yǒu",
+      "meaning": "wine",
+      "strokes": 7
+    },
+    {
+      "num": 165,
+      "glyph": "釆",
+      "pinyin": "biàn",
+      "meaning": "distinguish",
+      "strokes": 7
+    },
+    {
+      "num": 166,
+      "glyph": "里",
+      "pinyin": "lǐ",
+      "meaning": "village",
+      "strokes": 7
+    },
+    {
+      "num": 167,
+      "glyph": "金",
+      "pinyin": "jīn",
+      "meaning": "gold",
+      "strokes": 8,
+      "variants": [
+        "钅"
+      ]
+    },
+    {
+      "num": 168,
+      "glyph": "長",
+      "pinyin": "cháng",
+      "meaning": "long",
+      "strokes": 8,
+      "variants": [
+        "长"
+      ]
+    },
+    {
+      "num": 169,
+      "glyph": "門",
+      "pinyin": "mén",
+      "meaning": "gate",
+      "strokes": 8,
+      "variants": [
+        "门"
+      ]
+    },
+    {
+      "num": 170,
+      "glyph": "阜",
+      "pinyin": "fù",
+      "meaning": "mound",
+      "strokes": 8,
+      "variants": [
+        "⻖"
+      ]
+    },
+    {
+      "num": 171,
+      "glyph": "隶",
+      "pinyin": "lì",
+      "meaning": "slave",
+      "strokes": 8
+    },
+    {
+      "num": 172,
+      "glyph": "隹",
+      "pinyin": "zhuī",
+      "meaning": "short-tailed bird",
+      "strokes": 8
+    },
+    {
+      "num": 173,
+      "glyph": "雨",
+      "pinyin": "yǔ",
+      "meaning": "rain",
+      "strokes": 8
+    },
+    {
+      "num": 174,
+      "glyph": "青",
+      "pinyin": "qīng",
+      "meaning": "blue-green",
+      "strokes": 8
+    },
+    {
+      "num": 175,
+      "glyph": "非",
+      "pinyin": "fēi",
+      "meaning": "wrong",
+      "strokes": 8
+    },
+    {
+      "num": 176,
+      "glyph": "面",
+      "pinyin": "miàn",
+      "meaning": "face",
+      "strokes": 9
+    },
+    {
+      "num": 177,
+      "glyph": "革",
+      "pinyin": "gé",
+      "meaning": "leather",
+      "strokes": 9
+    },
+    {
+      "num": 178,
+      "glyph": "韋",
+      "pinyin": "wéi",
+      "meaning": "tanned leather",
+      "strokes": 9
+    },
+    {
+      "num": 179,
+      "glyph": "韭",
+      "pinyin": "jiǔ",
+      "meaning": "leek",
+      "strokes": 9
+    },
+    {
+      "num": 180,
+      "glyph": "音",
+      "pinyin": "yīn",
+      "meaning": "sound",
+      "strokes": 9
+    },
+    {
+      "num": 181,
+      "glyph": "頁",
+      "pinyin": "yè",
+      "meaning": "head; page",
+      "strokes": 9,
+      "variants": [
+        "页"
+      ]
+    },
+    {
+      "num": 182,
+      "glyph": "風",
+      "pinyin": "fēng",
+      "meaning": "wind",
+      "strokes": 9,
+      "variants": [
+        "风"
+      ]
+    },
+    {
+      "num": 183,
+      "glyph": "飛",
+      "pinyin": "fēi",
+      "meaning": "fly",
+      "strokes": 9,
+      "variants": [
+        "飞"
+      ]
+    },
+    {
+      "num": 184,
+      "glyph": "食",
+      "pinyin": "shí",
+      "meaning": "eat",
+      "strokes": 9,
+      "variants": [
+        "飠",
+        "饣"
+      ]
+    },
+    {
+      "num": 185,
+      "glyph": "首",
+      "pinyin": "shǒu",
+      "meaning": "head",
+      "strokes": 9
+    },
+    {
+      "num": 186,
+      "glyph": "香",
+      "pinyin": "xiāng",
+      "meaning": "fragrant",
+      "strokes": 9
+    },
+    {
+      "num": 187,
+      "glyph": "馬",
+      "pinyin": "mǎ",
+      "meaning": "horse",
+      "strokes": 10,
+      "variants": [
+        "马"
+      ]
+    },
+    {
+      "num": 188,
+      "glyph": "骨",
+      "pinyin": "gǔ",
+      "meaning": "bone",
+      "strokes": 10
+    },
+    {
+      "num": 189,
+      "glyph": "高",
+      "pinyin": "gāo",
+      "meaning": "tall",
+      "strokes": 10
+    },
+    {
+      "num": 190,
+      "glyph": "髟",
+      "pinyin": "biāo",
+      "meaning": "long hair",
+      "strokes": 10
+    },
+    {
+      "num": 191,
+      "glyph": "鬥",
+      "pinyin": "dòu",
+      "meaning": "fight",
+      "strokes": 10
+    },
+    {
+      "num": 192,
+      "glyph": "鬯",
+      "pinyin": "chàng",
+      "meaning": "sacrificial wine",
+      "strokes": 10
+    },
+    {
+      "num": 193,
+      "glyph": "鬲",
+      "pinyin": "lì",
+      "meaning": "cauldron",
+      "strokes": 10
+    },
+    {
+      "num": 194,
+      "glyph": "鬼",
+      "pinyin": "guǐ",
+      "meaning": "ghost",
+      "strokes": 10
+    },
+    {
+      "num": 195,
+      "glyph": "魚",
+      "pinyin": "yú",
+      "meaning": "fish",
+      "strokes": 11,
+      "variants": [
+        "鱼"
+      ]
+    },
+    {
+      "num": 196,
+      "glyph": "鳥",
+      "pinyin": "niǎo",
+      "meaning": "bird",
+      "strokes": 11,
+      "variants": [
+        "鸟"
+      ]
+    },
+    {
+      "num": 197,
+      "glyph": "鹵",
+      "pinyin": "lǔ",
+      "meaning": "salt",
+      "strokes": 11,
+      "variants": [
+        "卤"
+      ]
+    },
+    {
+      "num": 198,
+      "glyph": "鹿",
+      "pinyin": "lù",
+      "meaning": "deer",
+      "strokes": 11
+    },
+    {
+      "num": 199,
+      "glyph": "麥",
+      "pinyin": "mài",
+      "meaning": "wheat",
+      "strokes": 11,
+      "variants": [
+        "麦"
+      ]
+    },
+    {
+      "num": 200,
+      "glyph": "麻",
+      "pinyin": "má",
+      "meaning": "hemp",
+      "strokes": 11
+    },
+    {
+      "num": 201,
+      "glyph": "黃",
+      "pinyin": "huáng",
+      "meaning": "yellow",
+      "strokes": 12,
+      "variants": [
+        "黄"
+      ]
+    },
+    {
+      "num": 202,
+      "glyph": "黍",
+      "pinyin": "shǔ",
+      "meaning": "millet",
+      "strokes": 12
+    },
+    {
+      "num": 203,
+      "glyph": "黑",
+      "pinyin": "hēi",
+      "meaning": "black",
+      "strokes": 12
+    },
+    {
+      "num": 204,
+      "glyph": "黹",
+      "pinyin": "zhǐ",
+      "meaning": "embroidery",
+      "strokes": 12
+    },
+    {
+      "num": 205,
+      "glyph": "黽",
+      "pinyin": "mǐn",
+      "meaning": "frog",
+      "strokes": 13,
+      "variants": [
+        "黾"
+      ]
+    },
+    {
+      "num": 206,
+      "glyph": "鼎",
+      "pinyin": "dǐng",
+      "meaning": "tripod",
+      "strokes": 13
+    },
+    {
+      "num": 207,
+      "glyph": "鼓",
+      "pinyin": "gǔ",
+      "meaning": "drum",
+      "strokes": 13
+    },
+    {
+      "num": 208,
+      "glyph": "鼠",
+      "pinyin": "shǔ",
+      "meaning": "rat",
+      "strokes": 13
+    },
+    {
+      "num": 209,
+      "glyph": "鼻",
+      "pinyin": "bí",
+      "meaning": "nose",
+      "strokes": 14
+    },
+    {
+      "num": 210,
+      "glyph": "齊",
+      "pinyin": "qí",
+      "meaning": "even",
+      "strokes": 14,
+      "variants": [
+        "齐"
+      ]
+    },
+    {
+      "num": 211,
+      "glyph": "齒",
+      "pinyin": "chǐ",
+      "meaning": "tooth",
+      "strokes": 15,
+      "variants": [
+        "齿"
+      ]
+    },
+    {
+      "num": 212,
+      "glyph": "龍",
+      "pinyin": "lóng",
+      "meaning": "dragon",
+      "strokes": 16,
+      "variants": [
+        "龙"
+      ]
+    },
+    {
+      "num": 213,
+      "glyph": "龜",
+      "pinyin": "guī",
+      "meaning": "turtle",
+      "strokes": 16,
+      "variants": [
+        "龟"
+      ]
+    },
+    {
+      "num": 214,
+      "glyph": "龠",
+      "pinyin": "yuè",
+      "meaning": "flute",
+      "strokes": 17
+    }
+  ]
+}

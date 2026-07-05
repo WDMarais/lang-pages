@@ -128,3 +128,29 @@
   .sc-hero, .sc-hw { margin: 0; flex: 0 0 auto; }
   .sc-views { grid-template-columns: 1fr; }
 }
+
+/* ── Kangxi number badge (on real cards + stubs) ── */
+.sc-glyph { position: relative; }
+.sc-kx {
+  position: absolute; top: 4px; left: 4px; z-index: 1;
+  font-size: 0.66rem; font-weight: 700; color: var(--muted);
+  background: var(--cream); border: 1px solid var(--border);
+  border-radius: 5px; padding: 0 0.32rem; line-height: 1.4;
+}
+
+/* ── Kangxi stub tile — a radical not yet built into a full card ── */
+.scard-stub {
+  position: relative; display: inline-flex; flex-direction: column;
+  align-items: center; vertical-align: top; width: 92px; gap: 0.15rem;
+  padding: 0.6rem 0.4rem 0.5rem; margin: 0 0.5rem 0.5rem 0;
+  background: var(--white); border: 1px dashed var(--border);
+  border-radius: 10px; opacity: 0.66; transition: opacity 0.15s, box-shadow 0.15s;
+}
+.scard-stub:hover { opacity: 1; box-shadow: 0 3px 12px rgba(0,0,0,0.06); }
+.scard-stub .sc-kx { top: 3px; left: 3px; font-size: 0.58rem; }
+.sc-stub-glyph {
+  width: 58px; height: 58px; background: transparent; border-radius: 8px;
+}
+.scard-stub .sc-gtext { font-size: 46px; fill: var(--muted); }
+.sc-stub-meaning { font-size: 0.72rem; color: var(--ink); text-align: center; line-height: 1.2; }
+.sc-stub-py { font-size: 0.62rem; color: var(--muted); }
