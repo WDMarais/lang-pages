@@ -18,8 +18,8 @@
       "program": {
         "source": "pandanese",
         "name": "one",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -40,8 +40,8 @@
       "program": {
         "source": "wanikani",
         "name": "Ground",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "ground",
         "kanji": {
           "name": "One",
@@ -50,10 +50,10 @@
             "イツ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ひと"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -75,8 +75,8 @@
       "program": {
         "source": "pandanese",
         "name": "eight",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -97,8 +97,8 @@
       "program": {
         "source": "wanikani",
         "name": "Fins",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "altglyph": "ハ",
         "icon": "fins",
         "kanji": {
@@ -107,10 +107,10 @@
             "ハチ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "や"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -132,8 +132,8 @@
       "program": {
         "source": "pandanese",
         "name": "two",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -154,18 +154,18 @@
       "program": {
         "source": "wanikani",
         "name": "Two",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Two",
           "readings": [
             "ニ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ふた"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -198,10 +198,10 @@
             "サン"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "み"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -223,8 +223,8 @@
       "program": {
         "source": "pandanese",
         "name": "lid",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "lid"
       }
     },
@@ -244,8 +244,8 @@
       "program": {
         "source": "wanikani",
         "name": "Lid",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "lid"
       }
     },
@@ -267,8 +267,8 @@
       "program": {
         "source": "pandanese",
         "name": "big",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -289,8 +289,8 @@
       "program": {
         "source": "wanikani",
         "name": "Big",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Big",
           "readings": [
@@ -336,18 +336,18 @@
       "program": {
         "source": "wanikani",
         "name": "Small",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Small",
           "readings": [
             "ショウ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ちい"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -369,8 +369,8 @@
       "program": {
         "source": "pandanese",
         "name": "man",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -391,8 +391,8 @@
       "program": {
         "source": "wanikani",
         "name": "Person",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Person",
           "readings": [
@@ -400,10 +400,10 @@
             "ジン"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ひと"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -441,8 +441,8 @@
       "program": {
         "source": "wanikani",
         "name": "Enter",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Enter",
           "readings": [
@@ -487,8 +487,8 @@
       "program": {
         "source": "wanikani",
         "name": "Power",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Power",
           "readings": [
@@ -496,10 +496,10 @@
             "リキ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ちから"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -535,8 +535,8 @@
       "program": {
         "source": "wanikani",
         "name": "Prison",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "prison"
       }
     },
@@ -558,8 +558,8 @@
       "program": {
         "source": "pandanese",
         "name": "mouth",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -580,8 +580,8 @@
       "program": {
         "source": "wanikani",
         "name": "Mouth",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Mouth",
           "readings": [
@@ -589,10 +589,10 @@
             "ク"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "くち"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -614,8 +614,8 @@
       "program": {
         "source": "pandanese",
         "name": "woman",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -636,8 +636,8 @@
       "program": {
         "source": "wanikani",
         "name": "Woman",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Woman",
           "readings": [
@@ -683,18 +683,18 @@
       "program": {
         "source": "wanikani",
         "name": "Child",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Child",
           "readings": [
             "シ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "こ"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -732,18 +732,18 @@
       "program": {
         "source": "wanikani",
         "name": "Seven",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Seven",
           "readings": [
             "シチ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "なな"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -781,8 +781,8 @@
       "program": {
         "source": "wanikani",
         "name": "Nine",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Nine",
           "readings": [
@@ -828,8 +828,8 @@
       "program": {
         "source": "wanikani",
         "name": "Cross",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "cross",
         "kanji": {
           "name": "Ten",
@@ -875,8 +875,8 @@
       "program": {
         "source": "wanikani",
         "name": "Thousand",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Thousand",
           "readings": [
@@ -916,10 +916,10 @@
             "ロク"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "む"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -953,8 +953,8 @@
       "program": {
         "source": "wanikani",
         "name": "Gun",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "gun"
       }
     },
@@ -990,8 +990,8 @@
       "program": {
         "source": "wanikani",
         "name": "Toe",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "toe"
       }
     },
@@ -1027,8 +1027,8 @@
       "program": {
         "source": "wanikani",
         "name": "Treasure",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1065,8 +1065,8 @@
       "program": {
         "source": "wanikani",
         "name": "River",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "River",
           "readings": [
@@ -1111,8 +1111,8 @@
       "program": {
         "source": "wanikani",
         "name": "Construction",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Construction",
           "readings": [
@@ -1142,8 +1142,8 @@
       "program": {
         "source": "pandanese",
         "name": "mountain",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1164,8 +1164,8 @@
       "program": {
         "source": "wanikani",
         "name": "Mountain",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Mountain",
           "readings": [
@@ -1194,8 +1194,8 @@
       "program": {
         "source": "pandanese",
         "name": "tree",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1216,8 +1216,8 @@
       "program": {
         "source": "wanikani",
         "name": "Tree",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1238,8 +1238,8 @@
       "program": {
         "source": "pandanese",
         "name": "sun",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1260,8 +1260,8 @@
       "program": {
         "source": "wanikani",
         "name": "Sun",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Sun",
           "readings": [
@@ -1269,11 +1269,11 @@
             "ジツ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ひ",
             "か"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -1311,18 +1311,18 @@
       "program": {
         "source": "wanikani",
         "name": "Evening",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Evening",
           "readings": [
             "セキ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ゆう"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -1350,18 +1350,18 @@
       "program": {
         "source": "wanikani",
         "name": "Above",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Above",
           "readings": [
             "ジョウ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "うえ"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -1389,8 +1389,8 @@
       "program": {
         "source": "wanikani",
         "name": "Below",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Below",
           "readings": [
@@ -1398,10 +1398,10 @@
             "ゲ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "した"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -1439,8 +1439,8 @@
       "program": {
         "source": "wanikani",
         "name": "Water",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1461,8 +1461,8 @@
       "program": {
         "source": "pandanese",
         "name": "earth",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1483,8 +1483,8 @@
       "program": {
         "source": "wanikani",
         "name": "Dirt",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1521,8 +1521,8 @@
       "program": {
         "source": "wanikani",
         "name": "Sword",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1559,18 +1559,18 @@
       "program": {
         "source": "wanikani",
         "name": "Bow",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Bow",
           "readings": [
             "キュウ"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "ゆみ"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -1680,8 +1680,8 @@
       "program": {
         "source": "pandanese",
         "name": "fire",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1713,8 +1713,8 @@
       "program": {
         "source": "pandanese",
         "name": "TV",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "tv"
       }
     },
@@ -1747,8 +1747,8 @@
       "program": {
         "source": "pandanese",
         "name": "legs",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1767,8 +1767,8 @@
       "program": {
         "source": "wanikani",
         "name": "Legs",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1789,8 +1789,8 @@
       "program": {
         "source": "pandanese",
         "name": "cliff",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -1839,8 +1839,8 @@
       "program": {
         "source": "wanikani",
         "name": "Flag",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1861,8 +1861,8 @@
       "program": {
         "source": "pandanese",
         "name": "battleground",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1899,8 +1899,8 @@
       "program": {
         "source": "pandanese",
         "name": "fisherman",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1932,8 +1932,8 @@
       "program": {
         "source": "pandanese",
         "name": "Zorro",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -1965,8 +1965,8 @@
       "program": {
         "source": "pandanese",
         "name": "father",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -2003,8 +2003,8 @@
       "program": {
         "source": "pandanese",
         "name": "roof",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -2039,8 +2039,8 @@
       "program": {
         "source": "pandanese",
         "name": "wasp",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -2072,8 +2072,8 @@
       "program": {
         "source": "pandanese",
         "name": "bloom",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -2100,8 +2100,8 @@
       "program": {
         "source": "pandanese",
         "name": "sleeping bag",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -2133,8 +2133,8 @@
       "program": {
         "source": "pandanese",
         "name": "hand",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -2177,18 +2177,18 @@
       "program": {
         "source": "wanikani",
         "name": "Circle",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Circle",
           "readings": [
             "ガン"
           ],
           "on": true,
-          "level": 1,
           "kun": [
             "まる"
-          ]
+          ],
+          "level": 1
         }
       }
     },
@@ -2226,8 +2226,8 @@
       "program": {
         "source": "wanikani",
         "name": "Street",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -2260,8 +2260,8 @@
       "program": {
         "source": "wanikani",
         "name": "Narwhal",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -2298,8 +2298,8 @@
       "program": {
         "source": "wanikani",
         "name": "Talent",
-        "kind": "meaning",
         "level": 1,
+        "kind": "meaning",
         "kanji": {
           "name": "Talent",
           "readings": [
@@ -2342,8 +2342,8 @@
       "program": {
         "source": "wanikani",
         "name": "Head",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -5916,8 +5916,8 @@
       "program": {
         "source": "pandanese",
         "name": "line",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -5954,8 +5954,8 @@
       "program": {
         "source": "pandanese",
         "name": "slash",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -5976,8 +5976,8 @@
       "program": {
         "source": "wanikani",
         "name": "Slide",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "slide"
       }
     },
@@ -6031,8 +6031,8 @@
       "program": {
         "source": "pandanese",
         "name": "dot",
-        "kind": "mnemonic",
-        "level": 1
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -6053,8 +6053,8 @@
       "program": {
         "source": "wanikani",
         "name": "Drop",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "drop"
       }
     },
@@ -6140,8 +6140,8 @@
       "program": {
         "source": "pandanese",
         "name": "hook",
-        "kind": "meaning",
-        "level": 1
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -6162,8 +6162,8 @@
       "program": {
         "source": "wanikani",
         "name": "Barb",
-        "kind": "mnemonic",
         "level": 1,
+        "kind": "mnemonic",
         "icon": "barb"
       }
     },

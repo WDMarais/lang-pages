@@ -24,8 +24,19 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from symbols_io import (load_symbols, to_card, referent_slug, ROOT, SYM,
-                        on_strokes, on_kangxi, on_components, on_characters)
+from symbols_io import (
+    load_symbols,
+    to_card,
+    referent_slug,
+    ROOT,
+    SYM,
+    on_strokes,
+    on_kangxi,
+    on_components,
+    on_characters,
+    PROGRAM_TIERS,
+    TIER_BY_CARD,
+)
 
 DATA = SYM.parent
 
@@ -76,13 +87,14 @@ def emit_card(c):
         L.append(f'          {s(k)}: {s(c[k])},')
     L.append(f'          "cn": {lang_block(c["cn"])},')
     L.append(f'          "jp": {lang_block(c["jp"])},')
-    tail = []
-    if "kanji" in c:
-        tail.append(("kanji", inline_obj(c["kanji"], ["name", "readings", "on", "kun", "level"])))
-    if "pd" in c:
-        tail.append(("pd", inline_obj(c["pd"], ["name", "level", "kind", "icon"])))
-    wk = "null" if c["wk"] is None else inline_obj(c["wk"], ["name", "level", "kind", "glyph", "icon"])
-    L.append(f'          "wk": {wk}' + ("," if tail else ""))
+    # program tiers — order + per-tier field lists come from the PROGRAM_TIERS
+    # registry (symbols_io). The always-present tier (WK radical) leads and may be
+    # null; the rest form a trailing block only when the card carries them.
+    tail = [(t["card"], inline_obj(c[t["card"]], t["fields"]))
+            for t in PROGRAM_TIERS if not t.get("always") and t["card"] in c]
+    lead = next(t for t in PROGRAM_TIERS if t.get("always"))
+    lv = "null" if c[lead["card"]] is None else inline_obj(c[lead["card"]], lead["fields"])
+    L.append(f'          {s(lead["card"])}: {lv}' + ("," if tail else ""))
     for i, (k, v) in enumerate(tail):
         L.append(f'          {s(k)}: {v}' + ("," if i < len(tail) - 1 else ""))
     L.append("        }")

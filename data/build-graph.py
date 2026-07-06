@@ -19,7 +19,13 @@ import json, re, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from symbols_io import load_symbols, to_card, referent_slug
+from symbols_io import (
+    load_symbols,
+    to_card,
+    referent_slug,
+    bind_programs,
+    unbind_programs,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -34,7 +40,7 @@ def source_of(sym):
 
 
 # ── forward: cards → graph ──────────────────────────────────────────────────
-def make_binding(glyph, lang, v, wk, kanji=None, pd=None):
+def make_binding(glyph, lang, v, card):
     b = {
         "id": f"b:{glyph}@{lang}",
         "glyph_id": f"g:{glyph}",
@@ -49,35 +55,12 @@ def make_binding(glyph, lang, v, wk, kanji=None, pd=None):
         b["appearsIn"] = {"glyph": ai["char"],
                           "reading": ai.get("reading", ""),
                           "gloss": ai.get("gloss", "")}
-    # source-program metadata lives on the language binding it belongs to.
-    # WaniKani ships radical + kanji as SEPARATE items on the same glyph; the
-    # program's top-level fields describe the radical, program.kanji the kanji
-    # (its real meaning + on/kun reading). They diverge for shape-mnemonic
-    # radicals — 八 is radical "Fins" (mnemonic) but kanji "Eight" (meaning).
-    if lang == "jp" and (wk or kanji):
-        prog = {"source": "wanikani"}
-        if wk:
-            prog.update({"name": wk["name"], "kind": wk["kind"], "level": wk["level"]})
-            if wk.get("glyph"):
-                prog["altglyph"] = wk["glyph"]
-            if wk.get("icon"):
-                prog["icon"] = wk["icon"]
-        if kanji:
-            prog["kanji"] = {"name": kanji["name"],
-                             "readings": kanji.get("readings", []),
-                             "on": kanji.get("on", False),
-                             "level": kanji.get("level", 1)}
-            if kanji.get("kun"):
-                prog["kanji"]["kun"] = kanji["kun"]
-        b["program"] = prog
-    # Pandanese is the CN-side program, mirror of WaniKani on the JP binding.
-    # Kept in its own tagged block so a release build can strip proprietary
-    # mnemonics wholesale (see docs / memory: strippability).
-    if lang == "cn" and pd:
-        prog = {"source": "pandanese", "name": pd["name"],
-                "kind": pd["kind"], "level": pd["level"]}
-        if pd.get("icon"):
-            prog["icon"] = pd["icon"]
+    # source-program metadata (WK on jp, Pandanese on cn) rides on the language
+    # binding it belongs to; the per-tier flatten/nest rules live in symbols_io's
+    # PROGRAM_TIERS registry so cards and graph agree on one shape. Kept in its own
+    # tagged block so a release build can strip proprietary mnemonics wholesale.
+    prog = bind_programs(lang, card)
+    if prog:
         b["program"] = prog
     return b
 
@@ -99,8 +82,8 @@ def build():
                 "tier": TIER[c["tag"]], "slug": c["slug"], "source": src,
                 "media": {"hw": c.get("hw", False), "image": c.get("image", "")},
             }
-            bindings.append(make_binding(g, "cn", c["cn"], None, pd=c.get("pd")))
-            bindings.append(make_binding(g, "jp", c["jp"], c.get("wk"), c.get("kanji")))
+            bindings.append(make_binding(g, "cn", c["cn"], c))
+            bindings.append(make_binding(g, "jp", c["jp"], c))
 
             # denotes → bare referent stub, keyed by the ASCII meaning-slug so the
             # concept spine carries no CN/JP bias; the full gloss rides as label.
@@ -196,40 +179,6 @@ def view(b):
     return v
 
 
-def wk_from(jp):
-    p = jp.get("program")
-    if not p or p.get("source") != "wanikani" or "name" not in p:
-        return None
-    wk = {"name": p["name"], "level": p["level"], "kind": p["kind"]}
-    if "altglyph" in p:
-        wk["glyph"] = p["altglyph"]
-    if "icon" in p:
-        wk["icon"] = p["icon"]
-    return wk
-
-
-def kanji_from(jp):
-    p = jp.get("program")
-    k = p.get("kanji") if p else None
-    if not k:
-        return None
-    out = {"name": k["name"], "readings": k.get("readings", []),
-           "on": k.get("on", False), "level": k.get("level", 1)}
-    if k.get("kun"):
-        out["kun"] = k["kun"]
-    return out
-
-
-def pd_from(cn):
-    p = cn.get("program")
-    if not p or p.get("source") != "pandanese" or "name" not in p:
-        return None
-    pd = {"name": p["name"], "level": p["level"], "kind": p["kind"]}
-    if "icon" in p:
-        pd["icon"] = p["icon"]
-    return pd
-
-
 def project_cards(source, nodes, bindings):
     bb = {b["id"]: b for b in bindings}
     cards = []
@@ -237,20 +186,17 @@ def project_cards(source, nodes, bindings):
         if n.get("source") != source:
             continue
         g = n["glyph"]
-        jp = bb[f"b:{g}@jp"]
+        cn, jp = bb[f"b:{g}@cn"], bb[f"b:{g}@jp"]
         card = {
             "glyph": g, "slug": n["slug"], "tag": TAG[n["tier"]],
             "image": n["media"]["image"], "hw": n["media"]["hw"],
-            "cn": view(bb[f"b:{g}@cn"]),
+            "cn": view(cn),
             "jp": view(jp),
-            "wk": wk_from(jp),
         }
-        kanji = kanji_from(jp)
-        if kanji:
-            card["kanji"] = kanji
-        pd = pd_from(bb[f"b:{g}@cn"])
-        if pd:
-            card["pd"] = pd
+        # recover the flat card tiers from each binding's `program` (inverse of the
+        # bind_programs projection above) — one registry, both directions.
+        card.update(unbind_programs(cn.get("program"), "cn"))
+        card.update(unbind_programs(jp.get("program"), "jp"))
         cards.append(card)
     return cards
 

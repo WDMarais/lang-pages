@@ -68,6 +68,40 @@ def on_characters(sym):
     return sym["class"] == "char" and not sym.get("form_only")
 
 
+# ── source-program tiers: single source of truth ────────────────────────────
+# A glyph's programs[] entries (keyed by source+role) project onto flat card
+# fields and, in the graph, nest back onto a per-language `program` object. Each
+# tier is described ONCE here; to_card + bind_programs/unbind_programs (below) and
+# build-pages.emit_card all derive from it, so adding a tier (e.g. a WK/PD vocab
+# item) is a single row rather than a parallel edit at four hand-rolled sites.
+#   card    flat card-field name (wk/kanji/pd/pdc)
+#   lang    which language binding the tier rides on (WK=jp, Pandanese=cn)
+#   nest    None → the tier's fields flatten onto `program`; else nested under
+#           program[nest] (WK ships radical+kanji, Pandanese radical+character —
+#           the primary/radical tier flattens, the single-glyph tier nests)
+#   fields  card-side field names, in canonical emit order; absent ones are skipped
+#   rename  card-field → symbol/graph-field, for the lone altglyph↔glyph mismatch
+#   always  card always carries this key (None when absent) — only the WK radical
+PROGRAM_TIERS = [
+    {"source": "wanikani", "role": "radical", "lang": "jp", "card": "wk",
+     "nest": None, "fields": ["name", "level", "kind", "glyph", "icon"],
+     "rename": {"glyph": "altglyph"}, "always": True},
+    {"source": "wanikani", "role": "kanji", "lang": "jp", "card": "kanji",
+     "nest": "kanji", "fields": ["name", "readings", "on", "kun", "level"]},
+    {"source": "pandanese", "role": "radical", "lang": "cn", "card": "pd",
+     "nest": None, "fields": ["name", "level", "kind", "icon"]},
+]
+TIER_BY_CARD = {t["card"]: t for t in PROGRAM_TIERS}
+
+
+def _pick(entry, src):
+    """Copy `entry`'s fields out of dict `src`, applying the card↔store rename and
+    skipping absent (optional) fields. Same mapping both directions — the store key
+    for card-field f is rename[f], whether `src` is a symbol program or a graph one."""
+    rn = entry.get("rename", {})
+    return {f: src[rn.get(f, f)] for f in entry["fields"] if rn.get(f, f) in src}
+
+
 # ── symbol → card (the lang-pages presentation shape) ───────────────────────
 def to_card(sym):
     prog = {(p["source"], p["role"]): p for p in sym.get("programs", [])}
@@ -80,27 +114,55 @@ def to_card(sym):
         "cn": sym["readings"]["cn"],
         "jp": sym["readings"]["jp"],
     }
-    wkp = prog.get(("wanikani", "radical"))
-    if wkp:
-        wk = {"name": wkp["name"], "level": wkp["level"], "kind": wkp["kind"]}
-        if "altglyph" in wkp:
-            wk["glyph"] = wkp["altglyph"]
-        if "icon" in wkp:
-            wk["icon"] = wkp["icon"]
-        card["wk"] = wk
-    else:
-        card["wk"] = None
-    kp = prog.get(("wanikani", "kanji"))
-    if kp:
-        k = {"name": kp["name"], "readings": kp["readings"],
-             "on": kp["on"], "level": kp["level"]}
-        if "kun" in kp:
-            k["kun"] = kp["kun"]
-        card["kanji"] = k
-    pdp = prog.get(("pandanese", "radical"))
-    if pdp:
-        pd = {"name": pdp["name"], "level": pdp["level"], "kind": pdp["kind"]}
-        if "icon" in pdp:
-            pd["icon"] = pdp["icon"]
-        card["pd"] = pd
+    for t in PROGRAM_TIERS:
+        p = prog.get((t["source"], t["role"]))
+        if p:
+            card[t["card"]] = _pick(t, p)
+        elif t.get("always"):
+            card[t["card"]] = None
     return card
+
+
+# ── card ⇄ graph `program` object (the two inverse graph projections) ────────
+def bind_programs(lang, card):
+    """Assemble the per-language `program` object for a binding from card fields:
+    the radical tier flattens onto it, the single-glyph tier nests under its key."""
+    prog, source = {}, None
+    for t in PROGRAM_TIERS:
+        if t["lang"] != lang:
+            continue
+        val = card.get(t["card"])
+        if not val:
+            continue
+        source = t["source"]
+        if t["nest"] is None:
+            rn = t.get("rename", {})
+            for f in t["fields"]:
+                if f in val:
+                    prog[rn.get(f, f)] = val[f]
+        else:
+            prog[t["nest"]] = {f: val[f] for f in t["fields"] if f in val}
+    return {"source": source, **prog} if source else None
+
+
+def unbind_programs(program, lang):
+    """Inverse of bind_programs: recover the flat card fields from a binding's
+    `program`. Presence of a top-level `name` marks the radical tier as present
+    (a program carrying only the nested tier has none)."""
+    out = {}
+    for t in PROGRAM_TIERS:
+        if t["lang"] != lang:
+            continue
+        val = None
+        if program and program.get("source") == t["source"]:
+            if t["nest"] is None:
+                if "name" in program:
+                    val = _pick(t, program)
+            elif program.get(t["nest"]):
+                val = {f: program[t["nest"]][f] for f in t["fields"]
+                       if f in program[t["nest"]]}
+        if val is not None:
+            out[t["card"]] = val
+        elif t.get("always"):
+            out[t["card"]] = None
+    return out
