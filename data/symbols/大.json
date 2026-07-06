@@ -16,7 +16,7 @@
     "cn": {
       "name": "大",
       "reading": "dà",
-      "gloss": "big",
+      "gloss": "big; huge; large",
       "extra": "一 + 人 形 · 也是汉字「大」",
       "appearsIn": {
         "char": "天",
@@ -62,6 +62,14 @@
       "lang": "cn",
       "role": "radical",
       "name": "big",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "big; huge; large",
       "kind": "meaning",
       "level": 1
     }

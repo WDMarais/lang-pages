@@ -114,7 +114,7 @@
     {
       "id": "r:big",
       "kind": "referent",
-      "label": "big"
+      "label": "big; huge; large"
     },
     {
       "id": "g:天",
@@ -959,7 +959,7 @@
     {
       "id": "r:by-means-of",
       "kind": "referent",
-      "label": "by means of; with; using"
+      "label": "by means of; with; according to; in order to; because of"
     },
     {
       "id": "g:似",

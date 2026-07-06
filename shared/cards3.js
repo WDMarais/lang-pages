@@ -102,32 +102,70 @@ function wkView(wk, kanji) {
 }
 
 // Pandanese column — CN-side mirror of Wanikani, same meaning(green ✓) /
-// mnemonic(red-dashed) coding. No kanji concept, so no stacked variant. A
-// mnemonic with no matching line-icon (e.g. 向 "TV") drops the visual rather
-// than rendering an empty box. Kept in its own tagged block so a release build
-// can strip proprietary mnemonics (see memory: strippability).
-function pdView(pd) {
-  if (!pd) {
+// mnemonic(red-dashed) coding. Pandanese ships two tiers like WK does: a radical
+// plus a CHARACTER item (the CN analog of kanji — real meaning, always green), so
+// it takes the same radical+item stacked variant. A mnemonic with no matching
+// line-icon (e.g. 向 "TV") drops the visual rather than rendering an empty box.
+// Kept in its own tagged block so a release build can strip proprietary mnemonics
+// (see memory: strippability).
+function pdView(pd, pdc) {
+  if (!pd && !pdc) {
     return html`
       <div class="sc-view v-pd empty">
         <div class="sc-vlabel">Pandanese</div>
         <div class="sc-empty">—</div>
       </div>`;
   }
-  const meaning = pd.kind === 'meaning';
-  const visual = meaning
-    ? html`<div class="sc-check">✓</div>`
-    : (pd.icon && ICONS[pd.icon] ? mnemonic(pd.icon) : '');
-  const flag = meaning
-    ? html`<div class="sc-only sc-true">实义 · 通用</div>`
-    : html`<div class="sc-only">仅助记</div>`;
-  return html`
+  // single radical, no character yet → original full-bleed layout (unchanged).
+  if (pd && !pdc) {
+    const meaning = pd.kind === 'meaning';
+    const visual = meaning
+      ? html`<div class="sc-check">✓</div>`
+      : (pd.icon && ICONS[pd.icon] ? mnemonic(pd.icon) : '');
+    const flag = meaning
+      ? html`<div class="sc-only sc-true">实义 · 通用</div>`
+      : html`<div class="sc-only">仅助记</div>`;
+    return html`
       <div class="sc-view v-pd ${meaning ? 'pd-meaning' : 'pd-mnemonic'}">
         <div class="sc-vlabel">Pandanese <span class="sc-lvl">Lv.${pd.level}</span></div>
         ${visual}
         <div class="sc-nameline"><span class="sc-name">${pd.name}</span></div>
         ${flag}
       </div>`;
+  }
+  // radical + character → stacked items, each carrying its own meaning/mnemonic cue.
+  return html`
+      <div class="sc-view v-pd v-pd-stack">
+        <div class="sc-vlabel">Pandanese</div>
+        ${pd ? pdItem('部首', pd) : ''}
+        ${pdc ? pdCharItem(pdc) : ''}
+      </div>`;
+}
+
+// radical sub-item: keeps the mnemonic line-icon (the shape-only warning cue).
+function pdItem(tag, pd) {
+  const meaning = pd.kind === 'meaning';
+  const icon = meaning ? '' : (pd.icon && ICONS[pd.icon] ? mnemonic(pd.icon) : '');
+  const flag = meaning ? html`<span class="sc-only sc-true">实义</span>` : html`<span class="sc-only">仅助记</span>`;
+  return html`
+        <div class="sc-pd-item ${meaning ? 'pd-meaning' : 'pd-mnemonic'}">
+          ${icon}
+          <div class="sc-wk-head"><span class="sc-wk-tag">${tag}</span>
+            <span class="sc-name">${pd.name}</span>
+            <span class="sc-lvl">Lv.${pd.level}</span></div>
+          ${flag}
+        </div>`;
+}
+
+// character sub-item: real meaning (always → green), the CN analog of kanjiItem.
+function pdCharItem(pdc) {
+  return html`
+        <div class="sc-pd-item pd-meaning">
+          <div class="sc-wk-head"><span class="sc-wk-tag">字</span>
+            <span class="sc-name">${pdc.name}</span>
+            <span class="sc-lvl">Lv.${pdc.level}</span></div>
+          <span class="sc-only sc-true">实义 · 通用</span>
+        </div>`;
 }
 
 // radical sub-item: keeps the mnemonic line-icon (the shape-only warning cue).
@@ -199,7 +237,7 @@ function renderCard(c) {
         ${img}
       </div>
       <div class="sc-views">
-        ${pdView(c.pd)}
+        ${pdView(c.pd, c.pdc)}
         ${langView('v-cn', '中文', c.cn, `${c.audioBase || ''}audio/cn-${c.slug}.mp3`, `${c.audioBase || ''}audio/cn-${c.slug}-ex.mp3`)}
         ${langView('v-jp', '日本語', c.jp, `${c.audioBase || ''}audio/jp-${c.slug}.mp3`, `${c.audioBase || ''}audio/jp-${c.slug}-ex.mp3`)}
         ${wkView(c.wk, c.kanji)}

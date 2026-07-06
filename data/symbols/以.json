@@ -11,7 +11,7 @@
     "cn": {
       "name": "以",
       "reading": "yǐ",
-      "gloss": "by means of; with; using",
+      "gloss": "by means of; with; according to; in order to; because of",
       "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
       "appearsIn": {
         "char": "似",
@@ -38,6 +38,14 @@
       "role": "radical",
       "name": "fisherman",
       "kind": "mnemonic",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "by means of; according to",
+      "kind": "meaning",
       "level": 1
     }
   ]

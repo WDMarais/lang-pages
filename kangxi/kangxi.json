@@ -1245,7 +1245,7 @@
           "cn": {
             "name": "大",
             "reading": "dà",
-            "gloss": "big",
+            "gloss": "big; huge; large",
             "extra": "一 + 人 形 · 也是汉字「大」",
             "appearsIn": {
               "char": "天",
@@ -1282,6 +1282,11 @@
             "name": "big",
             "level": 1,
             "kind": "meaning"
+          },
+          "pdc": {
+            "name": "big; huge; large",
+            "kind": "meaning",
+            "level": 1
           },
           "kx": 37,
           "audioBase": "../radicals/"
@@ -2302,6 +2307,11 @@
             "name": "sun",
             "level": 1,
             "kind": "meaning"
+          },
+          "pdc": {
+            "name": "sun; day",
+            "kind": "meaning",
+            "level": 1
           },
           "kx": 72,
           "audioBase": "../radicals/",

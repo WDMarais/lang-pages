@@ -88,7 +88,7 @@
           "image": "",
           "hw": true,
           "cn": {
-            "name": "大", "reading": "dà", "gloss": "big",
+            "name": "大", "reading": "dà", "gloss": "big; huge; large",
             "extra": "一 + 人 形 · 也是汉字「大」",
             "appearsIn": { "char": "天", "reading": "tiān", "gloss": "sky" }
           },
@@ -99,7 +99,8 @@
           },
           "wk": { "name": "Big", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Big", "readings": ["ダイ", "タイ"], "on": true, "level": 1 },
-          "pd": { "name": "big", "level": 1, "kind": "meaning" }
+          "pd": { "name": "big", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "big; huge; large", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "小",
@@ -425,7 +426,8 @@
           },
           "wk": { "name": "Sun", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Sun", "readings": ["ニチ", "ジツ"], "on": true, "kun": ["ひ", "か"], "level": 1 },
-          "pd": { "name": "sun", "level": 1, "kind": "meaning" }
+          "pd": { "name": "sun", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "sun; day", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "夕",
@@ -680,7 +682,7 @@
           "image": "",
           "hw": true,
           "cn": {
-            "name": "以", "reading": "yǐ", "gloss": "by means of; with; using",
+            "name": "以", "reading": "yǐ", "gloss": "by means of; with; according to; in order to; because of",
             "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
             "appearsIn": { "char": "似", "reading": "sì", "gloss": "similar; to resemble" }
           },
@@ -690,7 +692,8 @@
             "appearsIn": { "char": "似", "reading": "にる", "gloss": "to resemble" }
           },
           "wk": null,
-          "pd": { "name": "fisherman", "level": 1, "kind": "mnemonic" }
+          "pd": { "name": "fisherman", "level": 1, "kind": "mnemonic" },
+          "pdc": { "name": "by means of; according to", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "之",
@@ -707,7 +710,8 @@
             "extra": "漢文の「の」· 現代日本語では稀 · 人名等に残る"
           },
           "wk": null,
-          "pd": { "name": "Zorro", "level": 1, "kind": "mnemonic" }
+          "pd": { "name": "Zorro", "level": 1, "kind": "mnemonic" },
+          "pdc": { "name": "of", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "父",

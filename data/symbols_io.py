@@ -90,6 +90,8 @@ PROGRAM_TIERS = [
      "nest": "kanji", "fields": ["name", "readings", "on", "kun", "level"]},
     {"source": "pandanese", "role": "radical", "lang": "cn", "card": "pd",
      "nest": None, "fields": ["name", "level", "kind", "icon"]},
+    {"source": "pandanese", "role": "character", "lang": "cn", "card": "pdc",
+     "nest": "character", "fields": ["name", "kind", "level"]},
 ]
 TIER_BY_CARD = {t["card"]: t for t in PROGRAM_TIERS}
 

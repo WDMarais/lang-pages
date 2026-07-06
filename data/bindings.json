@@ -257,7 +257,7 @@
       "readings": [
         "dà"
       ],
-      "gloss": "big",
+      "gloss": "big; huge; large",
       "extra": "一 + 人 形 · 也是汉字「大」",
       "appearsIn": {
         "glyph": "天",
@@ -268,7 +268,12 @@
         "source": "pandanese",
         "name": "big",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "big; huge; large",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -1239,7 +1244,12 @@
         "source": "pandanese",
         "name": "sun",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "sun; day",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -1889,7 +1899,7 @@
       "readings": [
         "yǐ"
       ],
-      "gloss": "by means of; with; using",
+      "gloss": "by means of; with; according to; in order to; because of",
       "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
       "appearsIn": {
         "glyph": "似",
@@ -1900,7 +1910,12 @@
         "source": "pandanese",
         "name": "fisherman",
         "level": 1,
-        "kind": "mnemonic"
+        "kind": "mnemonic",
+        "character": {
+          "name": "by means of; according to",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -1933,7 +1948,12 @@
         "source": "pandanese",
         "name": "Zorro",
         "level": 1,
-        "kind": "mnemonic"
+        "kind": "mnemonic",
+        "character": {
+          "name": "of",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {

@@ -29,6 +29,14 @@
       "name": "Zorro",
       "kind": "mnemonic",
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "of",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

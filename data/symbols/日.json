@@ -68,6 +68,14 @@
       "name": "sun",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "sun; day",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }
