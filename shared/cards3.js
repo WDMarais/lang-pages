@@ -259,25 +259,61 @@ function readingLine(langCls, v, audioName) {
       </div>`;
 }
 
+// Flatten a card's referents to a single image list (each tagged with its label).
+function refImages(referents) {
+  return (referents || []).flatMap(r =>
+    (r.images || []).map(im => ({ ...im, label: r.label })));
+}
+
+const refTitle = im => `${im.label} · ${im.credit || 'Wikimedia Commons'}${im.license ? ' (' + im.license + ')' : ''}`;
+
+// Hero collage: show up to 4 available referents at once — the CC0 schematic (the
+// controlled anchor) alongside real photos. Layout is count-aware (1 fills, 2
+// split, 3 banner+pair, 4 quad); SVGs `contain` so the diagram never crops,
+// photos `cover`. Fewer referents → fewer cells, no gaps.
+function refCollage(referents) {
+  const imgs = refImages(referents).slice(0, 4);
+  if (!imgs.length) return null;
+  const cells = imgs.map(im => {
+    const svg = /\.svg(\?|$)/.test(im.src);
+    return html`<img class="rk-cell ${svg ? 'rk-cell-svg' : 'rk-cell-photo'}" src="${im.src}" alt="${im.label}" title="${refTitle(im)}">`;
+  });
+  return html`<div class="rk-hero rk-hero-n${imgs.length}">${cells}</div>`;
+}
+
+// /kangxi/ tile. Two states along one gradient: a card WITH referents leads with
+// a collage hero + a compact glyph below; a card with NONE yet is glyph-forward —
+// the animated glyph IS the hero (no dead dashed box), flipping to collage as
+// images get added. The full gallery rides a hidden detail block for Phase 2.
 function renderKangxiCard(c) {
   if (c.stub) return renderStub(c);
   const base = c.audioBase || '';
   const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
-  const imgs = (c.referents || []).flatMap(r =>
-    (r.images || []).map(im => html`<img class="rk-ref" src="${im.src}" alt="${r.label}" title="${r.label} · ${im.credit || 'Wikimedia Commons'}${im.license ? ' (' + im.license + ')' : ''}">`));
-  const gallery = imgs.length
-    ? html`<div class="rk-gallery">${imgs}</div>`
-    : html`<div class="rk-gallery rk-empty"><span>${c.cn.gloss || ''}</span></div>`;
-  return html`
-    <div class="scard rk-card">
-      <div class="rk-left">
-        <div class="sc-glyph">${kx}${diagram(c)}</div>
+  const readings = html`
         <div class="rk-readings">
           ${readingLine('rk-cn', c.cn, `${base}audio/cn-${c.slug}.mp3`)}
           ${readingLine('rk-jp', c.jp, `${base}audio/jp-${c.slug}.mp3`)}
-        </div>
+        </div>`;
+  const collage = refCollage(c.referents);
+  if (!collage) {
+    return html`
+    <div class="scard rk-card rk-card-glyph">
+      <div class="rk-herowrap">${kx}
+        <div class="rk-hero rk-hero-glyph"><div class="rk-heroglyph">${diagram(c)}</div></div>
       </div>
-      <div class="rk-right">${gallery}</div>
+      <div class="rk-cap">${readings}</div>
+    </div>`;
+  }
+  const imgs = refImages(c.referents).map(im =>
+    html`<img class="rk-ref" src="${im.src}" alt="${im.label}" title="${refTitle(im)}">`);
+  return html`
+    <div class="scard rk-card">
+      <div class="rk-herowrap">${kx}${collage}</div>
+      <div class="rk-cap">
+        <div class="rk-capglyph">${diagram(c)}</div>
+        ${readings}
+      </div>
+      <div class="rk-detail" hidden><div class="rk-gallery">${imgs}</div></div>
     </div>`;
 }
 
@@ -292,8 +328,11 @@ function renderGroup(g) {
   const head = g.title
     ? html`<div class="sc-grouphead"><span class="sc-gtitle">${g.title}</span>${g.sub ? html`<span class="sc-gsub">${g.sub}</span>` : ''}</div>`
     : '';
-  const cardFn = LAYOUT === 'radical' ? renderKangxiCard : renderCard;
-  return html`<div class="sc-group">${head}${g.cards.map(cardFn)}</div>`;
+  // /kangxi/ lays its tiles out as a grid ladder; the comparison page stacks rows.
+  if (LAYOUT === 'radical') {
+    return html`<div class="sc-group">${head}<div class="rk-grid">${g.cards.map(renderKangxiCard)}</div></div>`;
+  }
+  return html`<div class="sc-group">${head}${g.cards.map(renderCard)}</div>`;
 }
 
 // Data-driven stroke-order animation for character cards (`hw: true`).
@@ -301,19 +340,43 @@ function renderGroup(g) {
 // Module pages live one level deep, so ../shared/ resolves for all of them.
 function initHanzi() {
   if (typeof HanziWriter === 'undefined') return;
+  const nodes = document.querySelectorAll('.sc-hw');
+  if (!nodes.length) return;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const navy = getComputedStyle(document.documentElement)
     .getPropertyValue('--navy').trim() || '#1E2A4A';
-  document.querySelectorAll('.sc-hw').forEach(el => {
+  const writers = new Map();
+  const build = (el) => {
+    // /kangxi/ tiles get a generous caption glyph; HanziWriter sizes the SVG inline
+    // (beating CSS), so the size must be set here, not in the stylesheet.
+    const sz = el.closest('.rk-heroglyph') ? 200 : el.closest('.rk-capglyph') ? 104 : 112;
     const w = HanziWriter.create(el, el.dataset.char, {
-      width: 112, height: 112, padding: 12,
+      width: sz, height: sz, padding: sz * 0.09,
       strokeColor: navy, outlineColor: '#D8D2C4', showOutline: true,
       strokeAnimationSpeed: 1, delayBetweenStrokes: 240,
       charDataLoader: (c, onComplete) =>
         fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(onComplete),
     });
+    writers.set(el, w);
     if (!reduce) w.loopCharacterAnimation();
-  });
+    return w;
+  };
+  // HanziWriter loops each glyph on its own rAF with NO offscreen culling, so the
+  // 214-tile grid would run every animation at once and swamp the main thread. Gate
+  // to the viewport: build lazily on approach, pause on exit, resume on return —
+  // active loops stay bounded to what's actually visible.
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      const w = writers.get(e.target);
+      if (e.isIntersecting) {
+        if (!w) build(e.target);
+        else if (!reduce) w.resumeAnimation();
+      } else if (w && !reduce) {
+        w.pauseAnimation();
+      }
+    });
+  }, { rootMargin: '300px 0px' });
+  nodes.forEach(el => io.observe(el));
 }
 
 // Auto-load when a page provides <div id="cards" data-src>. Pages that reuse
@@ -321,6 +384,7 @@ function initHanzi() {
 const host = document.getElementById('cards');
 if (host) {
   LAYOUT = host.dataset.layout || '';
+  if (LAYOUT === 'radical') host.classList.add('rk-host');  // break the tile grid out wider
   fetch(host.dataset.src)
     .then(r => r.json())
     .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); initHanzi(); });
