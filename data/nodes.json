@@ -120,8 +120,18 @@
       "id": "g:天",
       "kind": "glyph",
       "glyph": "天",
-      "tier": null,
-      "frontier": true
+      "tier": "char",
+      "slug": "tian1",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:sky",
+      "kind": "referent",
+      "label": "sky; heaven; day"
     },
     {
       "id": "g:小",
@@ -396,6 +406,30 @@
       "id": "r:thousand",
       "kind": "referent",
       "label": "thousand"
+    },
+    {
+      "id": "g:五",
+      "kind": "glyph",
+      "glyph": "五",
+      "tier": "char",
+      "slug": "wu3",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:five",
+      "kind": "referent",
+      "label": "five"
+    },
+    {
+      "id": "g:吾",
+      "kind": "glyph",
+      "glyph": "吾",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:六",
@@ -4679,6 +4713,68 @@
         "kind": "vocab",
         "level": 1
       }
+    },
+    {
+      "id": "w:大きさ",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "大きさ",
+      "slug": "ookisa",
+      "reading": "おおきさ",
+      "gloss": "size",
+      "okurigana": "きさ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:size",
+      "kind": "referent",
+      "label": "size"
+    },
+    {
+      "id": "w:大した",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "大した",
+      "slug": "taishita",
+      "reading": "たいした",
+      "gloss": "great; considerable",
+      "okurigana": "した",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:great",
+      "kind": "referent",
+      "label": "great; considerable"
+    },
+    {
+      "id": "w:大人",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "大人",
+      "slug": "otona",
+      "reading": "おとな",
+      "gloss": "adult",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:adult",
+      "kind": "referent",
+      "label": "adult"
     }
   ]
 }

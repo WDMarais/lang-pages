@@ -43,6 +43,20 @@
       "name": "Sword",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Sword",
+      "readings": [
+        "トウ"
+      ],
+      "on": true,
+      "kun": [
+        "かたな"
+      ],
+      "level": 1
     }
   ]
 }

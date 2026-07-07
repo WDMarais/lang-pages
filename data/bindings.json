@@ -308,6 +308,46 @@
       }
     },
     {
+      "id": "b:天@cn",
+      "glyph_id": "g:天",
+      "lang": "cn",
+      "name": "天",
+      "readings": [
+        "tiān"
+      ],
+      "gloss": "sky; heaven; day",
+      "extra": "一 + 大 · 指事「人上之天」"
+    },
+    {
+      "id": "b:天@jp",
+      "glyph_id": "g:天",
+      "lang": "jp",
+      "name": "天",
+      "readings": [
+        "テン"
+      ],
+      "gloss": "heaven; sky",
+      "extra": "漢字「天」(あめ · あま · テン)",
+      "program": {
+        "source": "wanikani",
+        "name": "Heaven",
+        "level": 1,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Heaven",
+          "readings": [
+            "テン"
+          ],
+          "on": true,
+          "kun": [
+            "あめ",
+            "あま"
+          ],
+          "level": 1
+        }
+      }
+    },
+    {
       "id": "b:小@cn",
       "glyph_id": "g:小",
       "lang": "cn",
@@ -650,6 +690,9 @@
             "ニョ"
           ],
           "on": true,
+          "kun": [
+            "おんな"
+          ],
           "level": 1
         }
       }
@@ -888,6 +931,55 @@
             "セン"
           ],
           "on": true,
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:五@cn",
+      "glyph_id": "g:五",
+      "lang": "cn",
+      "name": "五",
+      "readings": [
+        "wǔ"
+      ],
+      "gloss": "five",
+      "extra": "数字「五」",
+      "appearsIn": {
+        "glyph": "吾",
+        "reading": "wú",
+        "gloss": "I; me"
+      }
+    },
+    {
+      "id": "b:五@jp",
+      "glyph_id": "g:五",
+      "lang": "jp",
+      "name": "五",
+      "readings": [
+        "ご"
+      ],
+      "gloss": "five",
+      "extra": "漢字「五」(いつ-つ · ゴ) · 例:吾(ゴ)・語(ゴ)",
+      "appearsIn": {
+        "glyph": "吾",
+        "reading": "われ",
+        "gloss": "I; me"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Five",
+        "level": 1,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Five",
+          "readings": [
+            "ゴ"
+          ],
+          "on": true,
+          "kun": [
+            "いつ"
+          ],
           "level": 1
         }
       }
@@ -1494,7 +1586,19 @@
         "source": "wanikani",
         "name": "Dirt",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "kanji": {
+          "name": "Dirt",
+          "readings": [
+            "ド",
+            "ト"
+          ],
+          "on": true,
+          "kun": [
+            "つち"
+          ],
+          "level": 1
+        }
       }
     },
     {
@@ -1532,7 +1636,18 @@
         "source": "wanikani",
         "name": "Sword",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "kanji": {
+          "name": "Sword",
+          "readings": [
+            "トウ"
+          ],
+          "on": true,
+          "kun": [
+            "かたな"
+          ],
+          "level": 1
+        }
       }
     },
     {
@@ -2171,6 +2286,23 @@
         "glyph": "拳",
         "reading": "こぶし",
         "gloss": "fist"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Hand",
+        "level": 1,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Hand",
+          "readings": [
+            "シュ"
+          ],
+          "on": true,
+          "kun": [
+            "て"
+          ],
+          "level": 1
+        }
       }
     },
     {
@@ -2943,8 +3075,14 @@
       "lang": "jp",
       "name": "彡",
       "readings": [],
-      "gloss": "bristle",
-      "extra": ""
+      "gloss": "bristle; hair",
+      "extra": "漢字部首「さんづくり」",
+      "program": {
+        "source": "wanikani",
+        "name": "Hair",
+        "level": 1,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:彳@cn",

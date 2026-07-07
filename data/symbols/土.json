@@ -46,6 +46,21 @@
       "level": 1
     },
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Dirt",
+      "readings": [
+        "ド",
+        "ト"
+      ],
+      "on": true,
+      "kun": [
+        "つち"
+      ],
+      "level": 1
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

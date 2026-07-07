@@ -34,6 +34,28 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Hand",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Hand",
+      "readings": [
+        "シュ"
+      ],
+      "on": true,
+      "kun": [
+        "て"
+      ],
+      "level": 1
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

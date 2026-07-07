@@ -688,6 +688,17 @@
             "level": 1,
             "kind": "meaning"
           },
+          "kanji": {
+            "name": "Sword",
+            "readings": [
+              "トウ"
+            ],
+            "on": true,
+            "kun": [
+              "かたな"
+            ],
+            "level": 1
+          },
           "kx": 18,
           "audioBase": "../radicals/"
         },
@@ -1118,6 +1129,18 @@
             "level": 1,
             "kind": "meaning"
           },
+          "kanji": {
+            "name": "Dirt",
+            "readings": [
+              "ド",
+              "ト"
+            ],
+            "on": true,
+            "kun": [
+              "つち"
+            ],
+            "level": 1
+          },
           "pd": {
             "name": "earth",
             "level": 1,
@@ -1331,6 +1354,9 @@
               "ニョ"
             ],
             "on": true,
+            "kun": [
+              "おんな"
+            ],
             "level": 1
           },
           "pd": {
@@ -1977,9 +2003,14 @@
           "jp": {
             "name": "彡",
             "reading": "",
-            "gloss": "bristle"
+            "gloss": "bristle; hair",
+            "extra": "漢字部首「さんづくり」"
           },
-          "wk": null,
+          "wk": {
+            "name": "Hair",
+            "level": 1,
+            "kind": "meaning"
+          },
           "kx": 59,
           "audioBase": "../radicals/"
         },
@@ -2101,7 +2132,22 @@
               "gloss": "fist"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Hand",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Hand",
+            "readings": [
+              "シュ"
+            ],
+            "on": true,
+            "kun": [
+              "て"
+            ],
+            "level": 1
+          },
           "pd": {
             "name": "hand",
             "level": 1,

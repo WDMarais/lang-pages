@@ -56,6 +56,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:天",
+      "to": "r:sky",
+      "kind": "denotes"
+    },
+    {
       "from": "g:小",
       "to": "r:small",
       "kind": "denotes"
@@ -173,6 +178,16 @@
     {
       "from": "g:千",
       "to": "g:舌",
+      "kind": "composes"
+    },
+    {
+      "from": "g:五",
+      "to": "r:five",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:五",
+      "to": "g:吾",
       "kind": "composes"
     },
     {
@@ -2023,6 +2038,41 @@
     {
       "from": "w:大きい",
       "to": "r:big",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大きさ",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大きさ",
+      "to": "r:size",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大した",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大した",
+      "to": "r:great",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大人",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:大人",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大人",
+      "to": "r:adult",
       "kind": "denotes"
     }
   ]

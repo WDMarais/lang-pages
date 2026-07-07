@@ -1,0 +1,58 @@
+{
+  "glyph": "五",
+  "cp": "U+4E94",
+  "slug": "wu3",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "五",
+      "reading": "wǔ",
+      "gloss": "five",
+      "extra": "数字「五」",
+      "appearsIn": {
+        "char": "吾",
+        "reading": "wú",
+        "gloss": "I; me"
+      }
+    },
+    "jp": {
+      "name": "五",
+      "reading": "ご",
+      "gloss": "five",
+      "extra": "漢字「五」(いつ-つ · ゴ) · 例:吾(ゴ)・語(ゴ)",
+      "appearsIn": {
+        "char": "吾",
+        "reading": "われ",
+        "gloss": "I; me"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Five",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Five",
+      "readings": [
+        "ゴ"
+      ],
+      "on": true,
+      "kun": [
+        "いつ"
+      ],
+      "level": 1
+    }
+  ]
+}

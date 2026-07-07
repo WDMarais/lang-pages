@@ -19,8 +19,18 @@
     "jp": {
       "name": "彡",
       "reading": "",
-      "gloss": "bristle"
+      "gloss": "bristle; hair",
+      "extra": "漢字部首「さんづくり」"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Hair",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

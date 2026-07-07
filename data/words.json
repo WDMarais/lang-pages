@@ -160,6 +160,38 @@
       "gloss": "big; large",
       "okurigana": "きい",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "大きさ",
+      "slug": "ookisa",
+      "audience": "jp",
+      "parts": ["大"],
+      "denotes": "size",
+      "reading": "おおきさ",
+      "gloss": "size",
+      "okurigana": "きさ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "大した",
+      "slug": "taishita",
+      "audience": "jp",
+      "parts": ["大"],
+      "denotes": "great",
+      "reading": "たいした",
+      "gloss": "great; considerable",
+      "okurigana": "した",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "大人",
+      "slug": "otona",
+      "audience": "jp",
+      "parts": ["大", "人"],
+      "denotes": "adult",
+      "reading": "おとな",
+      "gloss": "adult",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

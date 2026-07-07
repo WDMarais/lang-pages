@@ -103,6 +103,23 @@
           "pdc": { "name": "big; huge; large", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "天",
+          "slug": "tian1",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "天", "reading": "tiān", "gloss": "sky; heaven; day",
+            "extra": "一 + 大 · 指事「人上之天」"
+          },
+          "jp": {
+            "name": "天", "reading": "テン", "gloss": "heaven; sky",
+            "extra": "漢字「天」(あめ · あま · テン)"
+          },
+          "wk": { "name": "Heaven", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Heaven", "readings": ["テン"], "on": true, "kun": ["あめ", "あま"], "level": 1 }
+        },
+        {
           "glyph": "小",
           "slug": "xiao",
           "tag": "char",
@@ -216,7 +233,7 @@
             "appearsIn": { "char": "好", "reading": "すき", "gloss": "to like" }
           },
           "wk": { "name": "Woman", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "level": 1 },
+          "kanji": { "name": "Woman", "readings": ["ジョ", "ニョ"], "on": true, "kun": ["おんな"], "level": 1 },
           "pd": { "name": "woman", "level": 1, "kind": "meaning" }
         },
         {
@@ -313,6 +330,25 @@
           },
           "wk": { "name": "Thousand", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Thousand", "readings": ["セン"], "on": true, "level": 1 }
+        },
+        {
+          "glyph": "五",
+          "slug": "wu3",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "五", "reading": "wǔ", "gloss": "five",
+            "extra": "数字「五」",
+            "appearsIn": { "char": "吾", "reading": "wú", "gloss": "I; me" }
+          },
+          "jp": {
+            "name": "五", "reading": "ご", "gloss": "five",
+            "extra": "漢字「五」(いつ-つ · ゴ) · 例:吾(ゴ)・語(ゴ)",
+            "appearsIn": { "char": "吾", "reading": "われ", "gloss": "I; me" }
+          },
+          "wk": { "name": "Five", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Five", "readings": ["ゴ"], "on": true, "kun": ["いつ"], "level": 1 }
         },
         {
           "glyph": "六",
@@ -517,6 +553,7 @@
             "appearsIn": { "char": "地", "reading": "チ", "gloss": "ground" }
           },
           "wk": { "name": "Dirt", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Dirt", "readings": ["ド", "ト"], "on": true, "kun": ["つち"], "level": 1 },
           "pd": { "name": "earth", "level": 1, "kind": "meaning" }
         },
         {
@@ -535,7 +572,8 @@
             "extra": "漢字「刀」(かたな · トウ) · 偏旁「りっとう 刂」",
             "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
-          "wk": { "name": "Sword", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Sword", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Sword", "readings": ["トウ"], "on": true, "kun": ["かたな"], "level": 1 }
         },
         {
           "glyph": "弓",
@@ -801,7 +839,8 @@
             "extra": "漢字「手」(て · シュ) · 偏旁「てへん 扌」",
             "appearsIn": { "char": "拳", "reading": "こぶし", "gloss": "fist" }
           },
-          "wk": null,
+          "wk": { "name": "Hand", "level": 1, "kind": "meaning" },
+          "kanji": { "name": "Hand", "readings": ["シュ"], "on": true, "kun": ["て"], "level": 1 },
           "pd": { "name": "hand", "level": 1, "kind": "meaning" }
         },
         {
