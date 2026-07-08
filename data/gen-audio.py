@@ -15,7 +15,10 @@ Each job mirrors exactly what the page renders, so we neither 404 nor orphan:
   - xi-zhuang: cards.json already lists each clip's file per voice; we synthesize
     the four synthetic voices and leave the 录音 human recording alone.
 
-Run:  python3 data/gen-audio.py [radicals|strokes|xi-zhuang|all] [--dry-run]
+Run:  python3 data/gen-audio.py [radicals|strokes|xi-zhuang|all] [--dry-run] [--prune]
+      --prune deletes clips in a glyph bucket (radicals/strokes) that no card
+      references, keeping the committed bucket in sync with the projected set.
+      xi-zhuang is never pruned — its dir holds the human 录音 recording.
 Requires: uv tool install edge-tts
 """
 import subprocess
@@ -129,15 +132,46 @@ def run(jobs, dry_run):
         print(f"  ⚠ no audio for «{text}» → {rel} (readingless; button stays silent)")
 
 
+# Buckets gen-audio fully owns, so an unreferenced file there is safe to delete.
+# xi-zhuang is excluded: its audio dir also holds the human 录音 recording, which
+# is never a synthesized job and must never be pruned.
+PRUNABLE = {"radicals", "strokes"}
+
+
+def prune_bucket(name, jobs, dry_run):
+    """Delete clips in this module's bucket(s) that no current job references —
+    keeps the committed audio in sync with the projected card set (e.g. after a
+    reading is added/removed or a glyph is re-slugged)."""
+    if name not in PRUNABLE:
+        print(f"prune {name}: skipped (bucket not exclusively synthesized)")
+        return
+    referenced = {j.outfile.name for j in jobs}
+    buckets = {j.outfile.parent for j in jobs}  # derived from the jobs, never guessed
+    removed = 0
+    for bucket in sorted(buckets):
+        for f in sorted(bucket.glob("*.mp3")):
+            if f.name not in referenced:
+                removed += 1
+                print(f"prune {'(dry) ' if dry_run else ''}{f.relative_to(ROOT)}")
+                if not dry_run:
+                    f.unlink()
+    verb = "to remove" if dry_run else "removed"
+    print(f"prune {name}: {removed} unreferenced {verb}")
+
+
 def main(argv):
     args = [a for a in argv if not a.startswith("-")]
     dry_run = "--dry-run" in argv
+    prune = "--prune" in argv
     which = args[0] if args else "all"
     names = list(MODULES) if which == "all" else [which]
     if any(n not in MODULES for n in names):
         sys.exit(f"unknown module: {which}  (choose: {', '.join(MODULES)}, all)")
-    jobs = [j for n in names for j in MODULES[n]()]
-    run(jobs, dry_run)
+    per_module = {n: MODULES[n]() for n in names}
+    run([j for js in per_module.values() for j in js], dry_run)
+    if prune:
+        for n in names:
+            prune_bucket(n, per_module[n], dry_run)
 
 
 if __name__ == "__main__":
