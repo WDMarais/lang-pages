@@ -1,0 +1,182 @@
+# Authoring & Batch-Ingest Runbook
+
+How content gets into lang-pages: what you hand-author, which scripts project it
+into the graph and the pages, and in what order. Companion to
+[content-graph-schema.md](content-graph-schema.md) (the *shape* of the data);
+this doc is the *process*.
+
+> Status: **skeleton, traced from the scripts (2026-07-08)**. Sections tagged
+> **⟨verify-on-ingest⟩** are read-from-code but not yet re-run end to end — confirm
+> and correct them on the next real batch. See *Known debt* at the bottom.
+
+---
+
+## The stance
+
+`data/symbols/<glyph>.json` is the **single source of truth**. Everything else —
+the page card files, the content graph, the audio — is a **projection** of it, and
+is *generated* (but kept committed, so deploy stays build-free). You never
+hand-edit a generated file; you edit a symbol (or a curated side-input) and re-run
+the projection.
+
+```
+                                     ┌─▶ build-graph.py ─▶ data/{nodes,bindings,edges}.json   (+ round-trip proof)
+ data/symbols/*.json  ──────────────┤
+   (+ _spine.json order)            └─▶ build-pages.py ─▶ strokes/  characters/  kangxi/  *.json
+                                                            │
+ side-inputs (hand-curated):                                └─ pages render these + shared/*.js
+   data/words.json              (word tier: 七つ ← 七)
+   data/composition-roles.json  (edge roles: 打 ← 丁 phonetic)   ─▶ consumed by build-graph
+   data/kangxi.json             (214-radical reference spine)    ─▶ consumed by build-pages
+   data/referents.json          (referent → images)              ─▶ consumed by build-pages
+
+ fetched (do NOT hand-edit):
+   data/decomposition.json      ◀─ fetch-decomp.py   (Make-Me-a-Hanzi IDS + stroke overrides)
+   shared/referents/*           ◀─ fetch-referent.py (Wikimedia Commons)
+   */audio/*.mp3                ◀─ gen-audio.py       (edge-tts)
+```
+
+---
+
+## The symbol file (source of truth)
+
+`data/symbols/<glyph>.json` — one per glyph. Shape (from `大`, a Kangxi radical):
+
+| field | req | notes |
+|---|---|---|
+| `glyph` | ✓ | the character; also the filename |
+| `cp` | ✓ | codepoint, `"U+5927"` |
+| `slug` | ✓ | ASCII key (audio filenames, referent lookup) |
+| `class` | ✓ | `stroke` \| `comp` \| `char` — drives page membership |
+| `kangxi` | – | Kangxi radical number (present → shows on `/kangxi/`) |
+| `form` | ✓ | `{ "hw": bool, "image": str }` — `hw` = has HanziWriter stroke data |
+| `composes` | – | authored structural note. ⟨verify-on-ingest⟩ **not** the edge source — `composes` edges come from `decomposition.json`; this field is sparse (many cards omit it). Flagged as debt below. |
+| `readings` | ✓ | `{ cn: {...}, jp: {...} }`, each `{ name, reading, gloss, extra?, appearsIn? }` |
+| `readings.*.appearsIn` | – | `{ char, reading, gloss }` — the "example" link; becomes a reverse `composes` edge |
+| `programs` | – | list of course tiers; see below |
+| `form_only` | – | CN-first stub (glyph + reading + strokes, no JP/programs yet). Shows only on `/kangxi/`. |
+
+**`programs[]`** — each entry is `{ source, lang, role, …fields }`. The tier registry
+is `PROGRAM_TIERS` in `symbols_io.py` (single source of truth for how these flatten
+onto cards and nest into the graph). Current tiers:
+
+| source | role | lang | card field | fields |
+|---|---|---|---|---|
+| wanikani | radical | jp | `wk` | name, level, kind (`meaning`\|`mnemonic`), glyph→altglyph, icon |
+| wanikani | kanji | jp | `kanji` | name, readings, on, kun, level |
+| pandanese | radical | cn | `pd` | name, level, kind, icon |
+| pandanese | character | cn | `pdc` | name, kind, level |
+
+Adding a new tier (e.g. WK vocab) is **one row** in `PROGRAM_TIERS`, not a parallel
+edit across `to_card` / `bind_programs` / `emit_card`.
+
+**Editorial order** lives in `data/symbols/_spine.json` (`{"order": [...]}`). Files
+missing from the spine are appended sorted (nothing is silently dropped), but add
+new glyphs to the spine to control where they land.
+
+---
+
+## Batch ingest — the steps
+
+Authoring a batch of new glyphs, start to finish:
+
+1. **Write the symbol files.** One `data/symbols/<glyph>.json` per glyph (schema
+   above). Add each new glyph to `data/symbols/_spine.json` in editorial position.
+
+2. **Curate side-inputs as needed:**
+   - new **words** → `data/words.json`
+   - **component roles** (semantic/phonetic/form) → `data/composition-roles.json`
+     (keyed `char → comp → role`; incremental — untyped is fine)
+   - new Kangxi radicals must exist in `data/kangxi.json`'s 214 spine (usually already there)
+
+3. **Fetch structural decomposition** → `python3 data/fetch-decomp.py`
+   Writes `data/decomposition.json` (immediate components per glyph). Hand-fix the
+   stroke-floor cases in the script's `STROKE_OVERRIDE` map, not in the JSON.
+   ⟨verify-on-ingest⟩ **currently reads `radicals/radicals.json`, a retired file** —
+   see Known debt; confirm it still resolves the glyph set on a real run.
+
+4. **Fetch referent images** (optional, multipass) →
+   `python3 data/fetch-referent.py <slug> "<query>" -n N`
+   Needs `export WIKIMEDIA_CONTACT="you@example.com"`. Registers into
+   `data/referents.json`, images into `shared/referents/`.
+
+5. **Build the graph** → `python3 data/build-graph.py`
+   Emits `data/{nodes,bindings,edges}.json`. Must print `round-trip … ✓` for every
+   page and zero `⚠ composition-roles` warnings.
+
+6. **Build the pages** → `python3 data/build-pages.py`
+   Emits `strokes/strokes.json`, `characters/characters.json`, `kangxi/kangxi.json`.
+   Emit/parse assertions guard validity.
+
+7. **Generate audio** → `python3 data/gen-audio.py all` (or a specific module)
+   Needs `uv tool install edge-tts`. `--dry-run` to preview.
+   ⟨verify-on-ingest⟩ glyph audio is homed under `radicals/audio/` and cards point at
+   it via `audioBase: "../radicals/"` (the "asset bridge" — see Known debt).
+
+8. **Sanity-check locally** → serve the root (`python3 -m http.server`) and open the
+   affected pages + `/graph/`.
+
+9. **Commit** the symbol files, side-inputs, *and* the regenerated outputs together
+   (generated files are committed so deploy is build-free).
+
+**⟨verify-on-ingest⟩ ordering question:** step 3 (`fetch-decomp`) derives its glyph
+set from page card files, which are written by step 6 (`build-pages`). For a *new*
+glyph this looks circular — confirm whether a first pass needs
+build-pages → fetch-decomp → build-graph, or whether fetch-decomp should read the
+symbol set directly (candidate fix below).
+
+---
+
+## Mechanical helpers & guarantees
+
+These are the self-checks that make a batch safe to trust:
+
+- **Round-trip proof** (`build-graph.py`) — regenerates each source card from the
+  graph and asserts structural equality. Proves cards are a faithful projection.
+- **Emit/parse assertions** (`build-pages.py`) — the hand-formatted card files are
+  re-parsed and compared to the projection before writing.
+- **Role-overlay validation** (`build-graph.py`) — warns on unknown role values and
+  on `composition-roles.json` entries that hit no real edge (typo catch).
+- **`PROGRAM_TIERS`** (`symbols_io.py`) — one registry drives card-flatten,
+  graph-nest, and page-emit for every course tier.
+- **`STROKE_OVERRIDE`** (`fetch-decomp.py`) — hand-authored decompositions for the
+  sub-radical strokes MMAH can't see (八 ← 丿 ㇏).
+
+---
+
+## Rules of thumb
+
+- **Never hand-edit a generated file**: `data/{nodes,bindings,edges}.json`,
+  `strokes/strokes.json`, `characters/characters.json`, `kangxi/kangxi.json`,
+  `data/decomposition.json`. Edit a symbol or a curated side-input and re-run.
+- **Functional roles** go in `composition-roles.json` (curated), **structural parts**
+  come from `decomposition.json` (fetched) — separate concerns, separate files.
+- **Page membership is a rule, not a stored field** — see the `on_*` predicates in
+  `symbols_io.py`. A glyph can project onto multiple pages (大 is both a character and
+  a Kangxi radical).
+
+---
+
+## Known debt / consolidation candidates
+
+Surfaced while tracing; not yet fixed. Ranked roughly by bite:
+
+1. **`fetch-decomp` reads retired `radicals/radicals.json`.** The `/radicals/` page
+   was retired (split into `/characters/` + `/kangxi/`) but `needed_glyphs()` still
+   lists `radicals/radicals.json`. Candidate: read the symbol set directly via
+   `load_symbols()` instead of page files (also resolves the step-3/6 ordering
+   question).
+2. **`source` / audio bucket vs page mismatch.** `build-graph` tags glyphs
+   `source: radicals|strokes`; pages are `strokes|characters|kangxi`; kangxi cards
+   carry `audioBase: "../radicals/"` — an explicit "bridge until the audio-reconcile
+   pass." The `radicals/` dir persists as an *asset* bucket after the *page* retired.
+3. **No orchestration.** A batch is 5 manual script runs in a specific order. A
+   `data/build.py` (or Makefile) chaining decomp → graph → pages → audio would make a
+   batch one command and encode the ordering.
+4. **Landing page is hand-maintained** (`index.html`). The module grid is fully
+   hardcoded and mixes real substrate pages (strokes/kangxi/characters), standalone
+   decks (yan-se, xi-zhuang — a *separate* content system, not symbol-projected), and
+   dev/demo pages (`/ui/…`). Candidate: a small module manifest both the landing page
+   and README derive from.
+5. **`composes` field on symbols is vestigial** — sparsely authored and not the edge
+   source. Either make it authoritative (feed the graph) or drop it.
