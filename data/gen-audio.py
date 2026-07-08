@@ -93,23 +93,37 @@ MODULES = {
 
 
 def run(jobs, dry_run):
-    made = skipped = 0
+    made = skipped = failed = 0
+    unspeakable = []
     for j in jobs:
         rel = j.outfile.relative_to(ROOT)
-        if j.outfile.exists():
+        # a 0-byte file is a partial write from an aborted run — regenerate it
+        if j.outfile.exists() and j.outfile.stat().st_size > 0:
             skipped += 1
             if dry_run:
                 print(f"skip  {rel}  «{j.text}»  [{j.voice}]")
             continue
-        made += 1
         if dry_run:
+            made += 1
             print(f"gen   {rel}  «{j.text}»  [{j.voice}]")
             continue
         print(f"gen   {rel}")
         j.outfile.parent.mkdir(parents=True, exist_ok=True)
-        subprocess.run(["edge-tts", "--voice", j.voice, "--text", j.text,
-                        "--write-media", str(j.outfile)], check=True)
-    print(f"done  ({made} generated, {skipped} skipped, {len(jobs)} total)")
+        try:
+            subprocess.run(["edge-tts", "--voice", j.voice, "--text", j.text,
+                            "--write-media", str(j.outfile)], check=True,
+                           capture_output=True)
+            made += 1
+        except subprocess.CalledProcessError:
+            # edge-tts yields no audio for a readingless shape component (丆 has no
+            # pronunciation) — skip that one clip rather than abort the whole batch.
+            j.outfile.unlink(missing_ok=True)  # don't leave a 0-byte file behind
+            failed += 1
+            unspeakable.append((rel, j.text))
+    tail = f", {failed} failed" if failed else ""
+    print(f"done  ({made} generated, {skipped} skipped{tail}, {len(jobs)} total)")
+    for rel, text in unspeakable:
+        print(f"  ⚠ no audio for «{text}» → {rel} (readingless; button stays silent)")
 
 
 def main(argv):
