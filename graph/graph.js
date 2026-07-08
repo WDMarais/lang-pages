@@ -11,12 +11,26 @@ const TIERS = [
   { key: 'frontier',  zh: '前沿', en: 'frontier' },
 ];
 const TAGMAP = { stroke: 'stroke', component: 'comp', char: 'char' };
-const CAP = 10; // max neighbours shown per side before "+N" (two bands hold more)
+
+// appears-in (children) radial rings — the layer *count* is a magnitude gauge:
+// sparse glyph → 1 ring; hub → 3. Fill inner→outer; cap at 3 then spill to a list.
+const RING_CAPS = [6, 8, 10];                      // per-ring max & distribution weight (≈circumference), inner→outer
+const RING_RXY  = [[26, 25], [37, 37], [45, 48]]; // [rx, ry] % of stage, inner→outer
+const RING_SPAN = 240;                            // sweep centred south (leaves top for parts)
+const RING_OFF  = 11;                             // per-ring angular stagger (deg) — break spokes
+const RING_AT   = [6, 14];                         // ring-count gauge: ≤6 → 1 ring, ≤14 → 2, else 3
+const RING_TOTAL = RING_CAPS.reduce((a, b) => a + b, 0);
+
+// golden-angle (Vogel) spiral params — uniform-density alternative to rings.
+const GOLDEN       = Math.PI * (3 - Math.sqrt(5)); // ~137.508°
+const SPIRAL_SCALE = 8;                            // % of stage between successive shells (≈ tile pitch)
+const SPIRAL_R0    = 13;                           // % inner clearance so seeds miss the centre card
+const SPIRAL_TILT  = Math.PI / 2;                  // start index 0 pointing south
 
 let byGlyph = {}, bindById = {}, refLabel = {}, denotesOf = {};
 const parts = {};    // G → glyphs G is built from   (edge part → G)
 const appears = {};  // G → glyphs G appears in       (edge G → whole)
-let chipEls = {}, egoEls = {}, selected = null;
+let chipEls = {}, egoEls = {}, wireEls = {}, selected = null;
 
 Promise.all([
   fetch('../data/nodes.json').then(r => r.json()),
@@ -92,30 +106,62 @@ function renderReferent(glyph) {
 }
 
 // ── ego stage: deterministic local-graph layout (no physics) ──
-// place n nodes on an elliptical arc around the centre, fanned about a0
-// (degrees: 0 = east, 90 = south, 270 = north). spanMax stays under 180 so the
-// fans keep to the top/bottom and leave the east–west sides clear.
-function arc(n, a0, rx = 32, ry = 40, spanMax = 122) {
-  if (n <= 0) return [];
-  const span = n === 1 ? 0 : Math.min(spanMax, 24 * (n - 1));
-  const start = a0 - span / 2, step = n === 1 ? 0 : span / (n - 1);
-  return Array.from({ length: n }, (_, i) => {
-    const r = (start + i * step) * Math.PI / 180;
-    return { x: 50 + rx * Math.cos(r), y: 50 + ry * Math.sin(r) };
-  });
+// centre glyph in a card (with its parts as chips); appears-in placed around it
+// as rings or a golden spiral. degrees: 0 = east, 90 = south, 270 = north.
+
+// choose how many rings to use (the gauge) and how many tiles go in each. the
+// ring COUNT still encodes magnitude (RING_AT thresholds), but within the active
+// rings the load is split proportional to circumference (RING_CAPS as weights),
+// via largest-remainder, so every ring lands at ~equal fill — no crowded-inner /
+// starved-outer. returns {counts:[…], shown, overflow}.
+function ringPlan(n) {
+  const shown = Math.min(n, RING_TOTAL);
+  const R = shown <= RING_AT[0] ? 1 : shown <= RING_AT[1] ? 2 : RING_CAPS.length;
+  const w = RING_CAPS.slice(0, R), ws = w.reduce((a, b) => a + b, 0);
+  const counts = w.map(x => Math.floor(shown * x / ws));
+  let rem = shown - counts.reduce((a, b) => a + b, 0);
+  w.map((x, i) => ({ i, frac: shown * x / ws - counts[i] }))
+    .sort((a, b) => b.frac - a.frac)
+    .forEach(o => { if (rem-- > 0) counts[o.i]++; });
+  return { counts, shown, overflow: n - shown };
 }
 
-// fan a group about a0; past ~5 it splits into two concentric bands so a dense
-// side (e.g. 一's many appears-in) reads as two rows instead of one crush.
-// alternates items outer/inner so neighbours nestle between bands.
-function fan(n, a0) {
-  if (n <= 5) return arc(n, a0);
-  const outerN = Math.ceil(n / 2);
-  const outer = arc(outerN, a0, 36, 40, 150);
-  const inner = arc(n - outerN, a0, 24, 26, 132);
+// place appears-in as concentric shells about a0 (south). a lone ring hugs
+// bottom-centre when sparse (tidy fan); nested shells each spread the full sweep,
+// staggered, so the annulus reads as even density. returns {pos:[{x,y,ring}], …}.
+function rings(n, a0 = 90, span = RING_SPAN) {
+  const plan = ringPlan(n);
+  const R = plan.counts.length;
   const pos = [];
-  for (let i = 0, o = 0, k = 0; i < n; i++) pos.push(i % 2 ? inner[k++] : outer[o++]);
-  return pos;
+  plan.counts.forEach((k, r) => {
+    if (k <= 0) return;
+    const [rx, ry] = RING_RXY[r];
+    const arc = k <= 1 ? 0
+      : R === 1 ? span * (k - 1) / (RING_CAPS[r] - 1) // lone ring: tidy bottom fan
+      : span;                                          // nested shells: full sweep
+    const start = a0 - arc / 2 + r * RING_OFF;
+    const step = k <= 1 ? 0 : arc / (k - 1);
+    for (let i = 0; i < k; i++) {
+      const a = (k === 1 ? a0 + r * RING_OFF : start + i * step) * Math.PI / 180;
+      pos.push({ x: 50 + rx * Math.cos(a), y: 50 + ry * Math.sin(a), ring: r });
+    }
+  });
+  return { pos, shown: plan.shown, overflow: plan.overflow };
+}
+
+// golden-angle phyllotaxis: radius ∝ √index gives uniform seed density (no ring
+// crowding), and the blob's extent reads as magnitude. offset past the card;
+// bucket radius into 3 tiers so the solid→halo grading + wire code still apply.
+function spiral(n, cx = 50, cy = 50) {
+  const shown = Math.min(n, RING_TOTAL);
+  const pos = [];
+  for (let i = 0; i < shown; i++) {
+    const radius = SPIRAL_R0 + SPIRAL_SCALE * Math.sqrt(i + 0.5);
+    const theta = i * GOLDEN + SPIRAL_TILT;
+    const ring = i < shown / 3 ? 0 : i < 2 * shown / 3 ? 1 : 2; // solid / halo / faint, by index
+    pos.push({ x: cx + radius * Math.cos(theta), y: cy + radius * Math.sin(theta), ring });
+  }
+  return { pos, shown, overflow: n - shown };
 }
 
 function facts(glyph) {
@@ -134,27 +180,65 @@ function nb(glyph, x, y, cls) {
 
 function renderEgo(glyph) {
   const P = parts[glyph] || [], A = appears[glyph] || [];
-  const Pshow = P.slice(0, CAP), Ashow = A.slice(0, CAP);
-  const pp = fan(P.length > CAP ? CAP + 1 : Pshow.length, 270); // parts fan across the top
-  const ap = fan(A.length > CAP ? CAP + 1 : Ashow.length, 90);  // appears-in across the bottom
+
+  // appears-in layout: rings (?layout=rings) or golden spiral (default). with parts
+  // now inside the card, the spiral owns the full 360°. when it overflows, the last
+  // slot becomes the "+N → list" affordance, not a dropped child.
+  const layout = new URLSearchParams(location.search).get('layout') === 'rings' ? 'rings' : 'spiral';
+  const R = layout === 'rings' ? rings(A.length) : spiral(A.length);
+  const overflow = R.overflow > 0;
+  const nReal = overflow ? R.shown - 1 : R.shown;
+  const Ashow = A.slice(0, nReal);
+  const sp = layout === 'spiral' ? ' spiral' : '';
+
   const f = facts(glyph);
   const center = byGlyph[glyph] && byGlyph[glyph].frontier ? 'egonode center frontier' : 'egonode center';
+  // parts (what this glyph is built from) live inside the card as clickable chips
+  const partStrip = P.length ? html`<div class="ec-parts">${P.map(g =>
+    html`<button class="ec-part" data-glyph="${g}">${g}</button>`)}</div>` : '';
   const nodes = [html`<div class="${center}" data-key="center">
       <span class="ec-glyph">${glyph}</span>
       ${(f.py || f.kana) ? html`<span class="ec-facts">${[f.py, f.kana].filter(Boolean).join(' · ')}</span>` : ''}
       ${f.wk ? html`<span class="ec-wk ${f.mean ? 'mean' : 'mnem'}">${f.wk}</span>` : ''}
+      ${partStrip}
     </div>`];
-  Pshow.forEach((g, i) => nodes.push(nb(g, pp[i].x, pp[i].y, 'part')));
-  Ashow.forEach((g, i) => nodes.push(nb(g, ap[i].x, ap[i].y, 'whole')));
-  if (P.length > CAP) { const m = pp[CAP]; nodes.push(html`<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${P.length - CAP}</div>`); }
-  if (A.length > CAP) { const m = ap[CAP]; nodes.push(html`<div class="egonode more" style="left:${m.x}%;top:${m.y}%">+${A.length - CAP}</div>`); }
+  Ashow.forEach((g, i) => { const p = R.pos[i]; nodes.push(nb(g, p.x, p.y, `whole ring${p.ring}${sp}`)); });
+  if (overflow) {
+    const p = R.pos[R.shown - 1]; // last outer slot → swap to sorted list
+    nodes.push(html`<button class="egonode more overflow" data-more="1" style="left:${p.x}%;top:${p.y}%">+${A.length - nReal}</button>`);
+  }
   const stage = document.getElementById('ego');
   stage.innerHTML = html`<svg id="egowires"></svg>${nodes}`;
   egoEls = {};
   stage.querySelectorAll('.egonode[data-key]').forEach(e => (egoEls[e.dataset.key] = e));
-  stage.querySelectorAll('.egonode.nb').forEach(e =>
+  stage.querySelectorAll('.egonode.nb').forEach(e => {
+    e.addEventListener('click', () => focus(e.dataset.glyph));
+    e.addEventListener('mouseenter', () => { const l = wireEls[e.dataset.key]; if (l) l.classList.add('hot'); });
+    e.addEventListener('mouseleave', () => { const l = wireEls[e.dataset.key]; if (l) l.classList.remove('hot'); });
+  });
+  stage.querySelectorAll('.ec-part').forEach(e =>
     e.addEventListener('click', () => focus(e.dataset.glyph)));
+  const of = stage.querySelector('.overflow');
+  if (of) of.addEventListener('click', () => showList(glyph));
   drawEgoWires();
+}
+
+// overflow escape hatch: the full appears-in set as a sorted, scrollable grid —
+// the honest browse view the radial "vibe" deliberately isn't.
+function showList(glyph) {
+  const A = (appears[glyph] || []).slice().sort();
+  const stage = document.getElementById('ego');
+  stage.innerHTML = html`
+    <div class="ego-list">
+      <div class="el-head">
+        <span>${A.length} <span class="en">appears-in</span> · ${glyph}</span>
+        <button class="el-back" type="button">↩ graph</button>
+      </div>
+      <div class="el-grid">${A.map(g => html`<button class="chip" data-glyph="${g}">${g}</button>`)}</div>
+    </div>`;
+  stage.querySelector('.el-back').addEventListener('click', () => renderEgo(glyph));
+  stage.querySelectorAll('.el-grid .chip').forEach(c =>
+    c.addEventListener('click', () => focus(c.dataset.glyph)));
 }
 
 function drawEgoWires() {
@@ -175,11 +259,17 @@ function drawEgoWires() {
   const lines = [];
   Object.entries(egoEls).forEach(([key, el]) => {
     if (key === 'center') return;
-    const cls = el.classList.contains('part') ? 'up' : 'down';
+    // radial spokes share one origin so they never cross; grade weight by ring
+    // (solid → light → dashed) so outer stays ambient without going lineless.
+    let cls = 'down';
+    if (el.classList.contains('ring1')) cls += ' r1';
+    else if (el.classList.contains('ring2')) cls += ' r2';
     const b = ctr(key);
-    if (c && b) lines.push(html`<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}"/>`);
+    if (c && b) lines.push(html`<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}" data-key="${key}"/>`);
   });
   svg.innerHTML = html`${lines}`;
+  wireEls = {};
+  svg.querySelectorAll('line[data-key]').forEach(l => (wireEls[l.dataset.key] = l));
 }
 
 // ── full facts: reuse cards3 (or a frontier stub) ──

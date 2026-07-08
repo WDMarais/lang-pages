@@ -24,9 +24,13 @@
 }
 
 /* wires (shared by the ego stage) */
-.wire { fill: none; stroke-width: 2; stroke-linecap: round; opacity: .8; }
+.wire { fill: none; stroke-width: 2; stroke-linecap: round; opacity: .8; transition: opacity .12s, stroke-width .12s; }
 .wire.down { stroke: var(--red); }
-.wire.up { stroke: var(--navy); }
+/* appears-in rings: solid (ring0) → light (ring1) → light+dashed (ring2) halo */
+.wire.down.r1 { opacity: .42; }
+.wire.down.r2 { opacity: .26; stroke-width: 1.5; stroke-dasharray: 3 4; }
+/* hover-promote a child's spoke to a hard red line, whatever its ring */
+.wire.hot { stroke: var(--red); opacity: 1; stroke-width: 2.5; stroke-dasharray: none; }
 
 /* ── two columns: tier index (left ~60%) + ego graph (right ~40%) ── */
 .graph-cols { display: flex; align-items: flex-start; gap: 1.6rem; }
@@ -37,7 +41,7 @@
 }
 
 /* ── ego stage: current-glyph-centred local graph ── */
-#ego { position: relative; height: 26rem; margin: 0; }
+#ego { position: relative; height: 32rem; margin: 0; }
 
 /* referent (义) — the glyph's meaning, given its own bay (future: sense image) */
 #referent {
@@ -63,6 +67,20 @@
 .ec-wk.mean { color: var(--green); border: 1px solid var(--green); }
 .ec-wk.mnem { color: var(--red); border: 1px dashed var(--red); }
 
+/* parts ("built from") as clickable chips inside the card — navy = ingredient */
+.ec-parts {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: .25rem;
+  margin-top: .4rem; padding-top: .4rem; max-width: 9.5rem;
+  border-top: 1px solid var(--border);
+}
+.ec-part {
+  font-family: "LXGW WenKai", serif; font-size: 1rem; line-height: 1;
+  width: 1.55rem; height: 1.55rem; display: grid; place-items: center; padding: 0;
+  background: var(--white); color: var(--ink); border: 1px solid var(--navy);
+  border-radius: 5px; cursor: pointer; transition: transform .12s, box-shadow .12s;
+}
+.ec-part:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(30, 42, 74, .18); }
+
 .egonode.nb {
   width: 2.6rem; height: 2.6rem; display: grid; place-items: center; padding: 0;
   font-family: "LXGW WenKai", serif; font-size: 1.4rem; line-height: 1;
@@ -70,11 +88,44 @@
   border-radius: 8px; cursor: pointer; transition: transform .12s, box-shadow .12s;
 }
 .egonode.nb:hover { transform: translate(-50%, -50%) translateY(-2px); box-shadow: 0 2px 8px rgba(0,0,0,.12); }
-.egonode.nb.part { border-color: var(--navy); }
 .egonode.nb.whole { border-color: var(--red); }
 .egonode.nb.frontier { opacity: .5; border-style: dashed; color: var(--muted); }
 
+/* appears-in rings: ring0 is wired & full-weight; rings 1–2 are lineless halo,
+   shrinking and fading outward so density registers without demanding attention. */
+.egonode.nb.ring1 { width: 2.05rem; height: 2.05rem; font-size: 1.1rem; opacity: .72; }
+.egonode.nb.ring2 { width: 1.65rem; height: 1.65rem; font-size: .9rem; opacity: .5; background: transparent; }
+.egonode.nb.ring1:hover, .egonode.nb.ring2:hover { opacity: 1; }
+
+/* spiral: uniform tile size (even density), grade by opacity only */
+.egonode.nb.spiral { width: 2rem; height: 2rem; font-size: 1.05rem; }
+.egonode.nb.spiral.ring1 { opacity: .72; }
+.egonode.nb.spiral.ring2 { opacity: .5; background: transparent; }
+
 .egonode.more { font-size: .78rem; color: var(--muted); }
+.egonode.more.overflow {
+  width: 1.85rem; height: 1.85rem; display: grid; place-items: center; padding: 0;
+  font-size: .72rem; color: var(--red); background: var(--white); cursor: pointer;
+  border: 1px dashed var(--red); border-radius: 8px; opacity: .7;
+  transition: opacity .12s, transform .12s;
+}
+.egonode.more.overflow:hover { opacity: 1; transform: translate(-50%, -50%) translateY(-2px); }
+
+/* overflow → sorted list overlay (fills the ego stage) */
+.ego-list {
+  position: absolute; inset: 0; z-index: 2; background: var(--white);
+  border-radius: 12px; display: flex; flex-direction: column; padding: .6rem .35rem;
+}
+.el-head {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: .82rem; color: var(--muted); padding: 0 .55rem .55rem;
+}
+.el-back { font-size: .78rem; color: var(--navy); background: none; border: none; cursor: pointer; padding: 0; }
+.el-grid {
+  display: flex; flex-wrap: wrap; gap: .4rem; overflow-y: auto;
+  padding: 0 .55rem; align-content: flex-start;
+}
+.el-grid .chip { width: 2.4rem; height: 2.4rem; font-size: 1.35rem; }
 
 .band {
   display: flex; align-items: flex-start; gap: 1rem;
