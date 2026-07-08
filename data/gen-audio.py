@@ -15,13 +15,11 @@ Each job mirrors exactly what the page requests, so we neither 404 nor orphan:
 Run:  python3 data/gen-audio.py [radicals|strokes|xi-zhuang|all] [--dry-run]
 Requires: uv tool install edge-tts
 """
-import json
 import subprocess
 import sys
 from collections import namedtuple
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+from paths import ROOT, read_json
 
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
 JP_VOICE = "ja-JP-NanamiNeural"
@@ -38,7 +36,7 @@ Job = namedtuple("Job", "voice text outfile")
 
 
 def _cards(path):
-    d = json.loads(path.read_text())
+    d = read_json(path)
     return [c for grp in d["groups"] for c in grp["cards"]]
 
 
@@ -64,7 +62,7 @@ def glyph_jobs(path):
 def xizhuang_jobs(path):
     """xi-zhuang: one clip per (example sentence × synthetic voice), from the manifest."""
     base = path.parent
-    d = json.loads(path.read_text())
+    d = read_json(path)
     jobs = []
     for category in d.values():
         for entry in category:

@@ -15,10 +15,9 @@ structural equality — proving the cards are just a projection of the graph.
 Run: python3 data/build-graph.py
 Schema: docs/content-graph-schema.md
 """
-import json, re, sys
-from pathlib import Path
+import sys
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import DATA, read_json, write_json
 from symbols_io import (
     load_symbols,
     to_card,
@@ -26,9 +25,6 @@ from symbols_io import (
     bind_programs,
     unbind_programs,
 )
-
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
 TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
 ROLE_VALUES = {"semantic", "phonetic", "form"}  # functional role of a part in a whole
@@ -40,7 +36,7 @@ def load_roles():
     p = DATA / "composition-roles.json"
     if not p.exists():
         return {}
-    return {c: m for c, m in json.loads(p.read_text()).items() if not c.startswith("_")}
+    return {c: m for c, m in read_json(p).items() if not c.startswith("_")}
 
 
 def source_of(sym):
@@ -135,7 +131,7 @@ def build():
     # These are the real 'parts' the cards lack (男 ← 田 力, 七 ← 一 乚).
     decomp_path = DATA / "decomposition.json"
     if decomp_path.exists():
-        decomp = json.loads(decomp_path.read_text())
+        decomp = read_json(decomp_path)
         for char, comps in decomp.items():
             if f"g:{char}" not in nodes:
                 continue  # only decompose glyphs already in the graph
@@ -157,7 +153,7 @@ def build():
     # Surface/reading therefore live ON the node, not in a binding.
     words_path = DATA / "words.json"
     if words_path.exists():
-        for w in json.loads(words_path.read_text()).get("words", []):
+        for w in read_json(words_path).get("words", []):
             wid = f"w:{w['surface']}"
             node = {"id": wid, "kind": "word", "tier": "word",
                     "audience": w["audience"], "glyph": w["surface"],
@@ -244,8 +240,7 @@ def main():
     for name, payload in [("nodes", {"nodes": nodes}),
                           ("bindings", {"bindings": bindings}),
                           ("edges", {"edges": edges})]:
-        (DATA / f"{name}.json").write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+        write_json(DATA / f"{name}.json", payload)
 
     glyphs = [n for n in nodes if n["kind"] == "glyph"]
     print(f"nodes:    {len(nodes)}  "

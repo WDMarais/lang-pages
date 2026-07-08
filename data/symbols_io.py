@@ -7,12 +7,9 @@ the content graph — is projected from it. This module holds the loader, the
 symbol→card projection, and the page-membership rules so build-pages.py and
 build-graph.py agree on one definition.
 """
-import json
 import re
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-SYM = ROOT / "data" / "symbols"
+from paths import ROOT, DATA, SYM, read_json  # noqa: F401  (ROOT/DATA re-exported)
 
 
 def referent_slug(gloss):
@@ -28,10 +25,10 @@ def load_symbols():
     """Ordered {glyph: symbol} following data/symbols/_spine.json (the editorial
     order); any file missing from the spine is appended sorted, so nothing is
     silently dropped."""
-    spine = json.loads((SYM / "_spine.json").read_text())["order"]
+    spine = read_json(SYM / "_spine.json")["order"]
     files = {f.stem: f for f in SYM.glob("*.json") if not f.name.startswith("_")}
     order = [g for g in spine if g in files] + sorted(set(files) - set(spine))
-    return {g: json.loads(files[g].read_text()) for g in order}
+    return {g: read_json(files[g]) for g in order}
 
 
 # ── page-membership rules — one axis per rule ────────────────────────────────

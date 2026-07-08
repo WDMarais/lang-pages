@@ -21,15 +21,12 @@ Run: python3 data/build-pages.py
 """
 import json, sys
 from collections import defaultdict
-from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import ROOT, DATA, read_json
 from symbols_io import (
     load_symbols,
     to_card,
     referent_slug,
-    ROOT,
-    SYM,
     on_strokes,
     on_kangxi,
     on_components,
@@ -37,8 +34,6 @@ from symbols_io import (
     PROGRAM_TIERS,
     TIER_BY_CARD,
 )
-
-DATA = SYM.parent
 
 
 def load_referents():
@@ -48,7 +43,7 @@ def load_referents():
     path = DATA / "referents.json"
     if not path.exists():
         return {}
-    raw = json.loads(path.read_text())
+    raw = read_json(path)
     return {slug: [{"src": f"../shared/referents/{im['file']}",
                     "credit": im.get("credit", ""), "license": im.get("license", "")}
                    for im in ent.get("images", [])]
@@ -111,7 +106,7 @@ def build_kangxi_page(syms):
     """Join our kangxi-tagged symbols to the 214-radical reference spine by NUMBER;
     emit one card per radical (real projection where we have the symbol, else a
     greyed stub), grouped by stroke count, then a non-Kangxi component annex."""
-    ref = json.loads((DATA / "kangxi.json").read_text())["radicals"]
+    ref = read_json(DATA / "kangxi.json")["radicals"]
     by_num = {sym["kangxi"]: sym for sym in syms.values() if sym.get("kangxi")}
     refmap = load_referents()
 

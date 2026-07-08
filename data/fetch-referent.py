@@ -14,9 +14,8 @@ Usage:
     e.g. python3 data/fetch-referent.py tree "tree isolated white background" -n 2
 """
 import json, os, sys, time, urllib.parse, urllib.request
-from pathlib import Path
+from paths import ROOT, read_json, write_json
 
-ROOT = Path(__file__).resolve().parent.parent
 REF_JSON = ROOT / "data" / "referents.json"
 IMG_DIR = ROOT / "shared" / "referents"
 API = "https://commons.wikimedia.org/w/api.php"
@@ -78,7 +77,7 @@ def plain(html):
 
 def fetch(slug, query, label, n):
     IMG_DIR.mkdir(parents=True, exist_ok=True)
-    store = json.loads(REF_JSON.read_text()) if REF_JSON.exists() else {}
+    store = read_json(REF_JSON) if REF_JSON.exists() else {}
     ent = store.setdefault(slug, {"label": label or slug, "images": []})
     if label:
         ent["label"] = label
@@ -114,7 +113,7 @@ def fetch(slug, query, label, n):
         })
         added += 1
         print(f"  + {fname}  «{plain(title)}»  [{lic}]")
-    REF_JSON.write_text(json.dumps(store, ensure_ascii=False, indent=2) + "\n")
+    write_json(REF_JSON, store)
     print(f"{slug}: added {added} (total {len(ent['images'])})")
 
 
