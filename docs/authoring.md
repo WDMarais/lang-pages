@@ -5,9 +5,10 @@ into the graph and the pages, and in what order. Companion to
 [content-graph-schema.md](content-graph-schema.md) (the *shape* of the data);
 this doc is the *process*.
 
-> Status: **skeleton, traced from the scripts (2026-07-08)**. Sections tagged
-> **⟨verify-on-ingest⟩** are read-from-code but not yet re-run end to end — confirm
-> and correct them on the next real batch. See *Known debt* at the bottom.
+> Status: **validated by one real ingest (2026-07-08)** — the 止/川/子/人口/丆 batch
+> was run end to end and the steps corrected against what actually happened. The one
+> remaining **⟨verify-on-ingest⟩** marker is the audio-homing step (7), only dry-run
+> so far. See *Known debt* at the bottom.
 
 ---
 
@@ -97,7 +98,10 @@ So the real first move is **route + resolve**, before any file is written:
 - **Resolve** the underspecified bits — decide the radical's `kind: meaning|mnemonic`,
   confirm the ?-marked reading (川), honour constraints (子 readings-subset) — and
   **surface the assumptions back** ("took 止 as meaning; 川 already carded, patched
-  the JP layer only").
+  the JP layer only"). Fill in what's *readily in reach* from the glyph itself (子's
+  kun こ alongside the batch's シ・ス; 止's on/kun) but **omit** metadata that needs a
+  course lookup (WK `level`) rather than fabricate it — the registry skips an absent
+  `level` cleanly, so an under-filled program is honest, not broken.
 - **Derive** the mechanical fields the prompt omits — `cp`, `kangxi` number,
   decomposition, `slug`. (A scaffolder should do this — see Known debt.)
 
@@ -105,6 +109,14 @@ Then, per routed item:
 
 1. **Write the symbol files.** One `data/symbols/<glyph>.json` per glyph (schema
    above). Add each new glyph to `data/symbols/_spine.json` in editorial position.
+   - **Stroke data for `hw:true` glyphs.** The animation loads
+     `shared/hanzi-data/<glyph>.json`; if it isn't already committed, fetch it:
+     `python3 shared/hanzi-data/fetch.py <glyph>`. For a component NOT in the base
+     dataset (丆, katakana-shaped parts), *lift* its strokes out of a character that
+     contains it — and that source char is usually also its `appearsIn`, so one
+     char gives you both: `python3 shared/hanzi-data/fetch.py --lift 午:0,1 --as 𠂉`.
+     A component with no available source stays `hw:false` (a valid stub) until a
+     char using it is carded.
 
 2. **Curate side-inputs as needed:**
    - new **words** → `data/words.json`
@@ -113,10 +125,11 @@ Then, per routed item:
    - new Kangxi radicals must exist in `data/kangxi.json`'s 214 spine (usually already there)
 
 3. **Fetch structural decomposition** → `python3 data/fetch-decomp.py`
-   Writes `data/decomposition.json` (immediate components per glyph). Hand-fix the
-   stroke-floor cases in the script's `STROKE_OVERRIDE` map, not in the JSON.
-   ⟨verify-on-ingest⟩ **currently reads `radicals/radicals.json`, a retired file** —
-   see Known debt; confirm it still resolves the glyph set on a real run.
+   Writes `data/decomposition.json` (immediate components per glyph), reading the
+   glyph set straight from `load_symbols()`. Hand-fix the stroke-floor cases — parts
+   MMAH truncates to `？` (八 ← 丿 ㇏) or glyphs not in the dataset at all (丆 ← 一 丿)
+   — in the script's `STROKE_OVERRIDE` map, not in the JSON. A carded glyph MMAH
+   *does* know decomposes automatically (止 ← 上 丨).
 
 4. **Fetch referent images** (optional, multipass) →
    `python3 data/fetch-referent.py <slug> "<query>" -n N`
@@ -142,11 +155,12 @@ Then, per routed item:
 9. **Commit** the symbol files, side-inputs, *and* the regenerated outputs together
    (generated files are committed so deploy is build-free).
 
-**⟨verify-on-ingest⟩ ordering question:** step 3 (`fetch-decomp`) derives its glyph
-set from page card files, which are written by step 6 (`build-pages`). For a *new*
-glyph this looks circular — confirm whether a first pass needs
-build-pages → fetch-decomp → build-graph, or whether fetch-decomp should read the
-symbol set directly (candidate fix below).
+**Ordering (resolved by an ingest run).** Every step is strictly downstream of the
+symbols — `fetch-decomp` reads `load_symbols()` directly, not the page files
+build-pages writes — so the order is linear with no back-edge:
+symbols → decomp → graph → pages → audio. Each step is idempotent (deterministic
+output over the same inputs), so a **partial batch plus a re-run is safe**: prefer
+shipping 70% now and taking another pass over blocking on 100%.
 
 ---
 
@@ -184,11 +198,11 @@ These are the self-checks that make a batch safe to trust:
 
 Surfaced while tracing; not yet fixed. Ranked roughly by bite:
 
-1. **`fetch-decomp` reads retired `radicals/radicals.json`.** The `/radicals/` page
-   was retired (split into `/characters/` + `/kangxi/`) but `needed_glyphs()` still
-   lists `radicals/radicals.json`. Candidate: read the symbol set directly via
-   `load_symbols()` instead of page files (also resolves the step-3/6 ordering
-   question).
+1. **~~`fetch-decomp` reads retired `radicals/radicals.json`~~ — FIXED.**
+   `needed_glyphs()` now reads `load_symbols()` directly, so the script no longer
+   crashes on run, the step-3/6 circularity is gone, and the stale decomposition
+   (55 → 227 glyphs) is restored. Still open: `gen-audio.py`'s `radicals` job reads
+   the *same* retired file (its audio bucket) — folds into candidate #2.
 2. **`source` / audio bucket vs page mismatch.** `build-graph` tags glyphs
    `source: radicals|strokes`; pages are `strokes|characters|kangxi`; kangxi cards
    carry `audioBase: "../radicals/"` — an explicit "bridge until the audio-reconcile
