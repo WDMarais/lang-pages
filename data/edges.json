@@ -18,7 +18,8 @@
     {
       "from": "g:八",
       "to": "g:分",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:二",
@@ -128,7 +129,8 @@
     {
       "from": "g:女",
       "to": "g:好",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:子",
@@ -148,7 +150,8 @@
     {
       "from": "g:七",
       "to": "g:切",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "phonetic"
     },
     {
       "from": "g:九",
@@ -273,7 +276,8 @@
     {
       "from": "g:日",
       "to": "g:明",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:夕",
@@ -318,7 +322,8 @@
     {
       "from": "g:土",
       "to": "g:地",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:刀",
@@ -328,7 +333,8 @@
     {
       "from": "g:刀",
       "to": "g:分",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:弓",
@@ -493,7 +499,8 @@
     {
       "from": "g:丁",
       "to": "g:打",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "phonetic"
     },
     {
       "from": "g:ナ",
@@ -1593,7 +1600,8 @@
     {
       "from": "g:刀",
       "to": "g:切",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:丿",
@@ -1663,7 +1671,8 @@
     {
       "from": "g:也",
       "to": "g:地",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "phonetic"
     },
     {
       "from": "g:卜",
@@ -1688,7 +1697,8 @@
     {
       "from": "g:子",
       "to": "g:好",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:八",
@@ -1733,7 +1743,8 @@
     {
       "from": "g:扌",
       "to": "g:打",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:口",
@@ -1748,7 +1759,8 @@
     {
       "from": "g:月",
       "to": "g:明",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:十",

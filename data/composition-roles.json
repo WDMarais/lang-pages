@@ -1,0 +1,9 @@
+{
+  "_note": "Hand-curated FUNCTIONAL role of each component IN a given character, overlaid onto composes edges by build-graph.py. Keyed char → component → role. Values: 'semantic' (义符, contributes meaning), 'phonetic' (声符, contributes sound), 'form' (记号, shape-only residue incl. stroke-level parts). A pair absent here = not yet typed (edge stays role-less). Structural decomposition (WHICH parts) is fetched into decomposition.json; this is the separate, non-clobbered functional layer (WHAT each part does). build-graph.py warns on unknown role values and on entries matching no real edge.",
+  "打": { "扌": "semantic", "丁": "phonetic" },
+  "地": { "土": "semantic", "也": "phonetic" },
+  "切": { "刀": "semantic", "七": "phonetic" },
+  "分": { "八": "semantic", "刀": "semantic" },
+  "好": { "女": "semantic", "子": "semantic" },
+  "明": { "日": "semantic", "月": "semantic" }
+}

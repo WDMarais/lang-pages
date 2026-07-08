@@ -31,6 +31,16 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
+ROLE_VALUES = {"semantic", "phonetic", "form"}  # functional role of a part in a whole
+
+
+def load_roles():
+    """Hand-curated functional role overlay (char → comp → role). Separate from
+    the fetched decomposition.json so `fetch-decomp --refresh` never clobbers it."""
+    p = DATA / "composition-roles.json"
+    if not p.exists():
+        return {}
+    return {c: m for c, m in json.loads(p.read_text()).items() if not c.startswith("_")}
 
 
 def source_of(sym):
@@ -70,6 +80,21 @@ def build():
     seen_edge = set()
     symbols = load_symbols()
     real = set(symbols)
+
+    roles = load_roles()
+    role_used = set()
+
+    def role_of(char, comp):
+        r = roles.get(char, {}).get(comp)
+        if r is not None:
+            role_used.add((char, comp))
+        return r
+
+    def cedge(from_id, to_id, role=None):
+        e = {"from": from_id, "to": to_id, "kind": "composes"}
+        if role:
+            e["role"] = role
+        return e
     cards_by_source = {"radicals": [], "strokes": []}
     for sym in symbols.values():
         cards_by_source[source_of(sym)].append(to_card(sym))
@@ -100,7 +125,7 @@ def build():
                 tgt = ai["char"]
                 if (g, tgt) not in seen_edge:
                     seen_edge.add((g, tgt))
-                    edges.append({"from": f"g:{g}", "to": f"g:{tgt}", "kind": "composes"})
+                    edges.append(cedge(f"g:{g}", f"g:{tgt}", role_of(tgt, g)))
                 if tgt not in real:
                     nodes.setdefault(f"g:{tgt}", {
                         "id": f"g:{tgt}", "kind": "glyph", "glyph": tgt,
@@ -117,7 +142,7 @@ def build():
             for comp in comps:
                 if (comp, char) not in seen_edge:
                     seen_edge.add((comp, char))
-                    edges.append({"from": f"g:{comp}", "to": f"g:{char}", "kind": "composes"})
+                    edges.append(cedge(f"g:{comp}", f"g:{char}", role_of(char, comp)))
                 if comp not in real:
                     nodes.setdefault(f"g:{comp}", {
                         "id": f"g:{comp}", "kind": "glyph", "glyph": comp,
@@ -146,7 +171,7 @@ def build():
             for part in w.get("parts", []):
                 if (part, w["surface"]) not in seen_edge:
                     seen_edge.add((part, w["surface"]))
-                    edges.append({"from": f"g:{part}", "to": wid, "kind": "composes"})
+                    edges.append(cedge(f"g:{part}", wid))
                 if part not in real:
                     nodes.setdefault(f"g:{part}", {
                         "id": f"g:{part}", "kind": "glyph", "glyph": part,
@@ -159,6 +184,18 @@ def build():
                 nodes.setdefault(rid, {"id": rid, "kind": "referent",
                                        "label": w.get("gloss", "")})
                 edges.append({"from": wid, "to": rid, "kind": "denotes"})
+
+    # validate the role overlay: in-vocabulary values, and every declared pair
+    # actually landed on a composes edge (an unused entry means a typo'd char/comp).
+    for char, m in roles.items():
+        for comp, r in m.items():
+            if r not in ROLE_VALUES:
+                print(f"⚠ composition-roles: {char}←{comp} unknown role {r!r} "
+                      f"(expected {sorted(ROLE_VALUES)})", file=sys.stderr)
+    declared = {(c, k) for c, m in roles.items() for k in m}
+    for char, comp in sorted(declared - role_used):
+        print(f"⚠ composition-roles: {char}←{comp} matches no composes edge (typo?)",
+              file=sys.stderr)
 
     return list(nodes.values()), bindings, edges
 
@@ -217,8 +254,9 @@ def main():
           f"{sum(1 for n in nodes if n['kind']=='referent')} referent, "
           f"{sum(1 for n in nodes if n['kind']=='word')} word)")
     print(f"bindings: {len(bindings)}")
+    composes = [e for e in edges if e["kind"] == "composes"]
     print(f"edges:    {len(edges)}  "
-          f"({sum(1 for e in edges if e['kind']=='composes')} composes, "
+          f"({len(composes)} composes [{sum(1 for e in composes if e.get('role'))} typed], "
           f"{sum(1 for e in edges if e['kind']=='denotes')} denotes)")
 
     # round-trip proof: the graph must faithfully re-emit the symbol projection

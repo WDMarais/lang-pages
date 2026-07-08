@@ -140,14 +140,25 @@ srs-tool's type-based slots (see Projection).
 ## Edges (built now)
 
 ```jsonc
-{ "from": "g:一", "to": "g:木", "kind": "composes" }    // part → whole, ACYCLIC
-{ "from": "g:木", "to": "g:林", "kind": "composes" }    // 木's example (reverse traversal)
-{ "from": "g:學", "to": "g:学", "kind": "variant-of" }  // form fork
-{ "from": "g:木", "to": "r:tree", "kind": "denotes" }   // → bare referent LABEL stub
+{ "from": "g:一", "to": "g:木", "kind": "composes" }                     // part → whole, ACYCLIC
+{ "from": "g:扌", "to": "g:打", "kind": "composes", "role": "semantic" } // typed: 义符
+{ "from": "g:丁", "to": "g:打", "kind": "composes", "role": "phonetic" } // typed: 声符
+{ "from": "g:木", "to": "g:林", "kind": "composes" }                     // 木's example (reverse traversal)
+{ "from": "g:學", "to": "g:学", "kind": "variant-of" }                   // form fork
+{ "from": "g:木", "to": "r:tree", "kind": "denotes" }                    // → bare referent LABEL stub
 ```
 
 - **`composes`** — the resolution ladder; acyclic (a part is always "smaller"). Maps
   to srs-tool composite slots. Reverse traversal gives a glyph's examples.
+  - **`role`** *(optional)* — the part's FUNCTIONAL role in this specific whole:
+    `semantic` (义符, contributes meaning), `phonetic` (声符, contributes sound), or
+    `form` (记号, shape-only residue incl. stroke-level parts). Absent = not yet
+    typed. Per-EDGE, not per-node (丁 is phonetic in 打 but can be semantic elsewhere).
+    Lets the SRS scheduler propagate credit by channel; `form` transfers nothing.
+    Source of truth is the hand-curated `data/composition-roles.json` overlay
+    (kept separate from the fetched `decomposition.json` so `--refresh` can't clobber
+    it); `build-graph.py` joins it on and validates the vocabulary + that each entry
+    hits a real edge.
 - **`variant-of`** — links divergent forms of the same character.
 - **`denotes`** — glyph → referent. For now the referent is just `{ "id":"r:tree",
   "label":"tree" }`, a plain handle. (Graded/property referents → Future exploration.)
