@@ -12,11 +12,10 @@ changes; pass --refresh to force a fresh download.
 
 Run: python3 data/fetch-decomp.py [--refresh]
 """
-import json, sys, urllib.request
-from pathlib import Path
+import json, sys, urllib.request  # json: MMAH ships JSONL text lines, parsed inline
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+from paths import ROOT, DATA, write_json
+from symbols_io import load_symbols
 DICT_URL = "https://raw.githubusercontent.com/skishore/makemeahanzi/master/dictionary.txt"
 CACHE = DATA / ".cache" / "makemeahanzi-dictionary.txt"
 IDC = set(range(0x2FF0, 0x2FFC))  # ideographic description chars ⿰ ⿱ … ⿻
@@ -67,16 +66,17 @@ def is_component(ch):
 
 
 def needed_glyphs():
-    """The glyphs we card (radicals + strokes) plus the example chars they cite."""
+    """Every carded glyph plus the example chars it cites — read straight from
+    the symbol source of truth, not the projected page files. Reading the pages
+    was both circular (build-pages writes them, but a new glyph needs its decomp
+    *before* it can be paged) and stale (it named the retired radicals/radicals.json)."""
     glyphs = set()
-    for f in ("radicals/radicals.json", "strokes/strokes.json"):
-        d = json.loads((ROOT / f).read_text())
-        for grp in d["groups"]:
-            for c in grp["cards"]:
-                glyphs.add(c["glyph"])
-                for v in (c["cn"], c["jp"]):
-                    if v.get("appearsIn"):
-                        glyphs.add(v["appearsIn"]["char"])
+    for sym in load_symbols().values():
+        glyphs.add(sym["glyph"])
+        for v in (sym["readings"]["cn"], sym["readings"]["jp"]):
+            ai = v.get("appearsIn")
+            if ai:
+                glyphs.add(ai["char"])
     return glyphs
 
 
@@ -99,8 +99,7 @@ def main(argv):
         if ch in want:
             decomp[ch] = comps
     DATA.mkdir(exist_ok=True)
-    (DATA / "decomposition.json").write_text(
-        json.dumps(decomp, ensure_ascii=False, indent=2) + "\n")
+    write_json(DATA / "decomposition.json", decomp)
     print(f"decomposition for {len(decomp)}/{len(want)} glyphs")
     for k in list(decomp)[:10]:
         print(f"  {k} ← {' '.join(decomp[k])}")

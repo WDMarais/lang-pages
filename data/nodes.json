@@ -4409,6 +4409,13 @@
       "frontier": true
     },
     {
+      "id": "g:亻",
+      "kind": "glyph",
+      "glyph": "亻",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:巳",
       "kind": "glyph",
       "glyph": "巳",
@@ -4419,6 +4426,13 @@
       "id": "g:也",
       "kind": "glyph",
       "glyph": "也",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:了",
+      "kind": "glyph",
+      "glyph": "了",
       "tier": null,
       "frontier": true
     },
@@ -4437,9 +4451,275 @@
       "frontier": true
     },
     {
+      "id": "g:龹",
+      "kind": "glyph",
+      "glyph": "龹",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:乂",
+      "kind": "glyph",
+      "glyph": "乂",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:⺈",
+      "kind": "glyph",
+      "glyph": "⺈",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:乇",
+      "kind": "glyph",
+      "glyph": "乇",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:氵",
       "kind": "glyph",
       "glyph": "氵",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丷",
+      "kind": "glyph",
+      "glyph": "丷",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丩",
+      "kind": "glyph",
+      "glyph": "丩",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:王",
+      "kind": "glyph",
+      "glyph": "王",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:卄",
+      "kind": "glyph",
+      "glyph": "卄",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:习",
+      "kind": "glyph",
+      "glyph": "习",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:耂",
+      "kind": "glyph",
+      "glyph": "耂",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丰",
+      "kind": "glyph",
+      "glyph": "丰",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:肀",
+      "kind": "glyph",
+      "glyph": "肀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:仌",
+      "kind": "glyph",
+      "glyph": "仌",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:巴",
+      "kind": "glyph",
+      "glyph": "巴",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:中",
+      "kind": "glyph",
+      "glyph": "中",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:亍",
+      "kind": "glyph",
+      "glyph": "亍",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:勿",
+      "kind": "glyph",
+      "glyph": "勿",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:爫",
+      "kind": "glyph",
+      "glyph": "爫",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:犭",
+      "kind": "glyph",
+      "glyph": "犭",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:兀",
+      "kind": "glyph",
+      "glyph": "兀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:㠯",
+      "kind": "glyph",
+      "glyph": "㠯",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:氺",
+      "kind": "glyph",
+      "glyph": "氺",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:帀",
+      "kind": "glyph",
+      "glyph": "帀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:龶",
+      "kind": "glyph",
+      "glyph": "龶",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:廿",
+      "kind": "glyph",
+      "glyph": "廿",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:飞",
+      "kind": "glyph",
+      "glyph": "飞",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:良",
+      "kind": "glyph",
+      "glyph": "良",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:灬",
+      "kind": "glyph",
+      "glyph": "灬",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:冎",
+      "kind": "glyph",
+      "glyph": "冎",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:⺼",
+      "kind": "glyph",
+      "glyph": "⺼",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:冋",
+      "kind": "glyph",
+      "glyph": "冋",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:镸",
+      "kind": "glyph",
+      "glyph": "镸",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:來",
+      "kind": "glyph",
+      "glyph": "來",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:由",
+      "kind": "glyph",
+      "glyph": "由",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:壴",
+      "kind": "glyph",
+      "glyph": "壴",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:畀",
+      "kind": "glyph",
+      "glyph": "畀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:从",
+      "kind": "glyph",
+      "glyph": "从",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:亼",
+      "kind": "glyph",
+      "glyph": "亼",
       "tier": null,
       "frontier": true
     },
