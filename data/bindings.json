@@ -736,7 +736,8 @@
         "kanji": {
           "name": "Child",
           "readings": [
-            "シ"
+            "シ",
+            "ス"
           ],
           "on": true,
           "kun": [
@@ -1270,6 +1271,54 @@
           ],
           "on": true,
           "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:止@cn",
+      "glyph_id": "g:止",
+      "lang": "cn",
+      "name": "止",
+      "readings": [
+        "zhǐ"
+      ],
+      "gloss": "stop",
+      "extra": "康熙部首 77 · 象形（脚趾）· 停止/禁止",
+      "appearsIn": {
+        "glyph": "正",
+        "reading": "zhèng",
+        "gloss": "upright; correct"
+      }
+    },
+    {
+      "id": "b:止@jp",
+      "glyph_id": "g:止",
+      "lang": "jp",
+      "name": "止",
+      "readings": [
+        "シ"
+      ],
+      "gloss": "stop",
+      "extra": "漢字「止」(シ · と-まる/と-める) · 中止・禁止・止まる",
+      "appearsIn": {
+        "glyph": "正",
+        "reading": "セイ",
+        "gloss": "correct; justice"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Stop",
+        "kind": "meaning",
+        "kanji": {
+          "name": "Stop",
+          "readings": [
+            "シ"
+          ],
+          "on": true,
+          "kun": [
+            "とまる",
+            "とめる"
+          ]
         }
       }
     },
@@ -2417,6 +2466,29 @@
       }
     },
     {
+      "id": "b:丆@cn",
+      "glyph_id": "g:丆",
+      "lang": "cn",
+      "name": "丆",
+      "readings": [],
+      "gloss": "leaf-shape component",
+      "extra": "无独立字义 · 横 + 撇 · WK「Leaf」形"
+    },
+    {
+      "id": "b:丆@jp",
+      "glyph_id": "g:丆",
+      "lang": "jp",
+      "name": "丆",
+      "readings": [],
+      "gloss": "\"leaf\" shape component",
+      "extra": "横 + 撇 · WK「Leaf」· 独立字なし",
+      "program": {
+        "source": "wanikani",
+        "name": "Leaf",
+        "kind": "mnemonic"
+      }
+    },
+    {
       "id": "b:才@cn",
       "glyph_id": "g:才",
       "lang": "cn",
@@ -3362,26 +3434,6 @@
       "name": "欠",
       "readings": [],
       "gloss": "yawn",
-      "extra": ""
-    },
-    {
-      "id": "b:止@cn",
-      "glyph_id": "g:止",
-      "lang": "cn",
-      "name": "止",
-      "readings": [
-        "zhǐ"
-      ],
-      "gloss": "stop",
-      "extra": "康熙部首 77"
-    },
-    {
-      "id": "b:止@jp",
-      "glyph_id": "g:止",
-      "lang": "jp",
-      "name": "止",
-      "readings": [],
-      "gloss": "stop",
       "extra": ""
     },
     {

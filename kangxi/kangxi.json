@@ -1403,7 +1403,8 @@
           "kanji": {
             "name": "Child",
             "readings": [
-              "シ"
+              "シ",
+              "ス"
             ],
             "on": true,
             "kun": [
@@ -2527,14 +2528,39 @@
             "name": "止",
             "reading": "zhǐ",
             "gloss": "stop",
-            "extra": "康熙部首 77"
+            "extra": "康熙部首 77 · 象形（脚趾）· 停止/禁止",
+            "appearsIn": {
+              "char": "正",
+              "reading": "zhèng",
+              "gloss": "upright; correct"
+            }
           },
           "jp": {
             "name": "止",
-            "reading": "",
-            "gloss": "stop"
+            "reading": "シ",
+            "gloss": "stop",
+            "extra": "漢字「止」(シ · と-まる/と-める) · 中止・禁止・止まる",
+            "appearsIn": {
+              "char": "正",
+              "reading": "セイ",
+              "gloss": "correct; justice"
+            }
           },
-          "wk": null,
+          "wk": {
+            "name": "Stop",
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Stop",
+            "readings": [
+              "シ"
+            ],
+            "on": true,
+            "kun": [
+              "とまる",
+              "とめる"
+            ]
+          },
           "kx": 77,
           "audioBase": "../radicals/"
         },
@@ -5792,6 +5818,30 @@
           "wk": {
             "name": "Narwhal",
             "level": 1,
+            "kind": "mnemonic"
+          },
+          "audioBase": "../radicals/"
+        },
+        {
+          "glyph": "丆",
+          "slug": "leaf",
+          "tag": "comp",
+          "image": "",
+          "hw": false,
+          "cn": {
+            "name": "丆",
+            "reading": "",
+            "gloss": "leaf-shape component",
+            "extra": "无独立字义 · 横 + 撇 · WK「Leaf」形"
+          },
+          "jp": {
+            "name": "丆",
+            "reading": "",
+            "gloss": "\"leaf\" shape component",
+            "extra": "横 + 撇 · WK「Leaf」· 独立字なし"
+          },
+          "wk": {
+            "name": "Leaf",
             "kind": "mnemonic"
           },
           "audioBase": "../radicals/"

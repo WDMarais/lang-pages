@@ -4,7 +4,6 @@
   "slug": "zhi77",
   "class": "char",
   "kangxi": 77,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -14,13 +13,46 @@
       "name": "止",
       "reading": "zhǐ",
       "gloss": "stop",
-      "extra": "康熙部首 77"
+      "extra": "康熙部首 77 · 象形（脚趾）· 停止/禁止",
+      "appearsIn": {
+        "char": "正",
+        "reading": "zhèng",
+        "gloss": "upright; correct"
+      }
     },
     "jp": {
       "name": "止",
-      "reading": "",
-      "gloss": "stop"
+      "reading": "シ",
+      "gloss": "stop",
+      "extra": "漢字「止」(シ · と-まる/と-める) · 中止・禁止・止まる",
+      "appearsIn": {
+        "char": "正",
+        "reading": "セイ",
+        "gloss": "correct; justice"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Stop",
+      "kind": "meaning"
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Stop",
+      "readings": [
+        "シ"
+      ],
+      "on": true,
+      "kun": [
+        "とまる",
+        "とめる"
+      ]
+    }
+  ]
 }

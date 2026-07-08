@@ -259,6 +259,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:止",
+      "to": "r:stop",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:止",
+      "to": "g:正",
+      "kind": "composes"
+    },
+    {
       "from": "g:木",
       "to": "r:tree",
       "kind": "denotes"
@@ -513,6 +523,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:丆",
+      "to": "r:leaf-shape-component",
+      "kind": "denotes"
+    },
+    {
       "from": "g:才",
       "to": "r:talent",
       "kind": "denotes"
@@ -745,11 +760,6 @@
     {
       "from": "g:欠",
       "to": "r:yawn",
-      "kind": "denotes"
-    },
-    {
-      "from": "g:止",
-      "to": "r:stop",
       "kind": "denotes"
     },
     {
@@ -2194,6 +2204,11 @@
     },
     {
       "from": "g:一",
+      "to": "g:正",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
       "to": "g:歹",
       "kind": "composes"
     },
@@ -3308,6 +3323,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:一",
+      "to": "g:丆",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:丆",
+      "kind": "composes"
+    },
+    {
       "from": "g:七",
       "to": "w:七つ",
       "kind": "composes"
@@ -3510,6 +3535,21 @@
     {
       "from": "w:大人",
       "to": "r:adult",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:人口",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "w:人口",
+      "kind": "composes"
+    },
+    {
+      "from": "w:人口",
+      "to": "r:population",
       "kind": "denotes"
     }
   ]

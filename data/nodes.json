@@ -586,6 +586,30 @@
       "frontier": true
     },
     {
+      "id": "g:止",
+      "kind": "glyph",
+      "glyph": "止",
+      "tier": "char",
+      "slug": "zhi77",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:stop",
+      "kind": "referent",
+      "label": "stop"
+    },
+    {
+      "id": "g:正",
+      "kind": "glyph",
+      "glyph": "正",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:木",
       "kind": "glyph",
       "glyph": "木",
@@ -1213,6 +1237,23 @@
       "glyph": "友",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:丆",
+      "kind": "glyph",
+      "glyph": "丆",
+      "tier": "component",
+      "slug": "leaf",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:leaf-shape-component",
+      "kind": "referent",
+      "label": "leaf-shape component"
     },
     {
       "id": "g:才",
@@ -1982,23 +2023,6 @@
       "id": "r:yawn",
       "kind": "referent",
       "label": "yawn"
-    },
-    {
-      "id": "g:止",
-      "kind": "glyph",
-      "glyph": "止",
-      "tier": "char",
-      "slug": "zhi77",
-      "source": "radicals",
-      "media": {
-        "hw": true,
-        "image": ""
-      }
-    },
-    {
-      "id": "r:stop",
-      "kind": "referent",
-      "label": "stop"
     },
     {
       "id": "g:歹",
@@ -5055,6 +5079,21 @@
       "id": "r:adult",
       "kind": "referent",
       "label": "adult"
+    },
+    {
+      "id": "w:人口",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "人口",
+      "slug": "jinkou",
+      "reading": "じんこう",
+      "gloss": "population"
+    },
+    {
+      "id": "r:population",
+      "kind": "referent",
+      "label": "population"
     }
   ]
 }

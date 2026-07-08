@@ -253,7 +253,7 @@
             "appearsIn": { "char": "字", "reading": "ジ", "gloss": "character" }
           },
           "wk": { "name": "Child", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Child", "readings": ["シ"], "on": true, "kun": ["こ"], "level": 1 }
+          "kanji": { "name": "Child", "readings": ["シ", "ス"], "on": true, "kun": ["こ"], "level": 1 }
         },
         {
           "glyph": "七",
@@ -424,6 +424,25 @@
           "wk": { "name": "Mountain", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Mountain", "readings": ["サン"], "on": true, "level": 1 },
           "pd": { "name": "mountain", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "止",
+          "slug": "zhi77",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "止", "reading": "zhǐ", "gloss": "stop",
+            "extra": "康熙部首 77 · 象形（脚趾）· 停止/禁止",
+            "appearsIn": { "char": "正", "reading": "zhèng", "gloss": "upright; correct" }
+          },
+          "jp": {
+            "name": "止", "reading": "シ", "gloss": "stop",
+            "extra": "漢字「止」(シ · と-まる/と-める) · 中止・禁止・止まる",
+            "appearsIn": { "char": "正", "reading": "セイ", "gloss": "correct; justice" }
+          },
+          "wk": { "name": "Stop", "kind": "meaning" },
+          "kanji": { "name": "Stop", "readings": ["シ"], "on": true, "kun": ["とまる", "とめる"] }
         },
         {
           "glyph": "木",

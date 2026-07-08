@@ -1,0 +1,33 @@
+{
+  "glyph": "丆",
+  "cp": "U+4E06",
+  "slug": "leaf",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "丆",
+      "reading": "",
+      "gloss": "leaf-shape component",
+      "extra": "无独立字义 · 横 + 撇 · WK「Leaf」形"
+    },
+    "jp": {
+      "name": "丆",
+      "reading": "",
+      "gloss": "\"leaf\" shape component",
+      "extra": "横 + 撇 · WK「Leaf」· 独立字なし"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Leaf",
+      "kind": "mnemonic"
+    }
+  ]
+}

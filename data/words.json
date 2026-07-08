@@ -192,6 +192,15 @@
       "reading": "おとな",
       "gloss": "adult",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "人口",
+      "slug": "jinkou",
+      "audience": "jp",
+      "parts": ["人", "口"],
+      "denotes": "population",
+      "reading": "じんこう",
+      "gloss": "population"
     }
   ]
 }
