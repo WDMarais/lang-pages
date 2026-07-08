@@ -6,9 +6,8 @@ into the graph and the pages, and in what order. Companion to
 this doc is the *process*.
 
 > Status: **validated by one real ingest (2026-07-08)** — the 止/川/子/人口/丆 batch
-> was run end to end and the steps corrected against what actually happened. The one
-> remaining **⟨verify-on-ingest⟩** marker is the audio-homing step (7), only dry-run
-> so far. See *Known debt* at the bottom.
+> was run end to end and the steps corrected against what actually happened. All
+> **⟨verify-on-ingest⟩** markers are now resolved. See *Known debt* at the bottom.
 
 ---
 
@@ -145,9 +144,11 @@ Then, per routed item:
    Emit/parse assertions guard validity.
 
 7. **Generate audio** → `python3 data/gen-audio.py all` (or a specific module)
-   Needs `uv tool install edge-tts`. `--dry-run` to preview.
-   ⟨verify-on-ingest⟩ glyph audio is homed under `radicals/audio/` and cards point at
-   it via `audioBase: "../radicals/"` (the "asset bridge" — see Known debt).
+   Needs `uv tool install edge-tts`. `--dry-run` to preview. Sourced from the symbol
+   set (load_symbols → to_card), not page files. Non-stroke glyph audio lands in the
+   shared `radicals/audio/` bucket, which `/characters/` and `/kangxi/` both fetch from
+   via a page-level `data-audio-base="../radicals/"` (cards3.js); strokes keeps its own
+   `strokes/audio/`.
 
 8. **Sanity-check locally** → serve the root (`python3 -m http.server`) and open the
    affected pages + `/graph/`.
@@ -203,10 +204,15 @@ Surfaced while tracing; not yet fixed. Ranked roughly by bite:
    crashes on run, the step-3/6 circularity is gone, and the stale decomposition
    (55 → 227 glyphs) is restored. Still open: `gen-audio.py`'s `radicals` job reads
    the *same* retired file (its audio bucket) — folds into candidate #2.
-2. **`source` / audio bucket vs page mismatch.** `build-graph` tags glyphs
-   `source: radicals|strokes`; pages are `strokes|characters|kangxi`; kangxi cards
-   carry `audioBase: "../radicals/"` — an explicit "bridge until the audio-reconcile
-   pass." The `radicals/` dir persists as an *asset* bucket after the *page* retired.
+2. **~~`source` / audio bucket vs page mismatch~~ — audio halves FIXED.** gen-audio's
+   `radicals` job crashed on the retired `radicals/radicals.json`; it now projects the
+   non-stroke glyph set from the symbols (like fetch-decomp) into `radicals/audio/`.
+   `/characters/` was silent (no `audioBase`, empty `audio/`); both it and `/kangxi/`
+   now share `radicals/audio/` via a page-level `data-audio-base` in cards3.js.
+   Revealed a real gap: ~364 `form_only` Kangxi-radical clips that never existed (the
+   crash masked them) — run `gen-audio radicals` to fill. Residual: `radicals/` is now
+   a deliberate shared asset bucket whose name is historical, and build-graph still
+   tags nodes `source: radicals|strokes` — a naming pass for another day.
 3. **No orchestration.** A batch is 5 manual script runs in a specific order. A
    `data/build.py` (or Makefile) chaining decomp → graph → pages → audio would make a
    batch one command and encode the ordering.

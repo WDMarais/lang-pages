@@ -10,6 +10,11 @@
 // = the four-column comparison card; 'radical' = the lighter /kangxi/ card.
 let LAYOUT = '';
 
+// Page-level audio bucket, set from <div id="cards" data-audio-base="…">. Default ''
+// = the page's own audio/ dir; /characters/ + /kangxi/ set "../radicals/" to share the
+// one non-stroke glyph-audio asset bucket. A per-card `audioBase` still overrides this.
+let AUDIO_BASE = '';
+
 function diagram(c) {
   // Character cards opt into data-driven stroke-order animation (HanziWriter);
   // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
@@ -238,8 +243,8 @@ function renderCard(c) {
       </div>
       <div class="sc-views">
         ${pdView(c.pd, c.pdc)}
-        ${langView('v-cn', '中文', c.cn, `${c.audioBase || ''}audio/cn-${c.slug}.mp3`, `${c.audioBase || ''}audio/cn-${c.slug}-ex.mp3`)}
-        ${langView('v-jp', '日本語', c.jp, `${c.audioBase || ''}audio/jp-${c.slug}.mp3`, `${c.audioBase || ''}audio/jp-${c.slug}-ex.mp3`)}
+        ${langView('v-cn', '中文', c.cn, `${c.audioBase || AUDIO_BASE}audio/cn-${c.slug}.mp3`, `${c.audioBase || AUDIO_BASE}audio/cn-${c.slug}-ex.mp3`)}
+        ${langView('v-jp', '日本語', c.jp, `${c.audioBase || AUDIO_BASE}audio/jp-${c.slug}.mp3`, `${c.audioBase || AUDIO_BASE}audio/jp-${c.slug}-ex.mp3`)}
         ${wkView(c.wk, c.kanji)}
       </div>
     </div>`;
@@ -287,7 +292,7 @@ function refCollage(referents) {
 // images get added. The full gallery rides a hidden detail block for Phase 2.
 function renderKangxiCard(c) {
   if (c.stub) return renderStub(c);
-  const base = c.audioBase || '';
+  const base = c.audioBase || AUDIO_BASE;
   const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
   const readings = html`
         <div class="rk-readings">
@@ -384,6 +389,7 @@ function initHanzi() {
 const host = document.getElementById('cards');
 if (host) {
   LAYOUT = host.dataset.layout || '';
+  AUDIO_BASE = host.dataset.audioBase || '';
   if (LAYOUT === 'radical') host.classList.add('rk-host');  // break the tile grid out wider
   fetch(host.dataset.src)
     .then(r => r.json())

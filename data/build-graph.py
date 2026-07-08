@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
-"""Build the data-layer content graph from the committed card JSON.
+"""Build the data-layer content graph from the symbol source of truth.
 
-Ingests the hand-authored projections —
-    radicals/radicals.json   (tier: component | char)
-    strokes/strokes.json     (tier: stroke)
-— and emits the canonical graph:
+Ingests `data/symbols/*.json` (via symbols_io.load_symbols) plus the curated
+side-inputs (decomposition.json, composition-roles.json, words.json) and emits
+the canonical graph:
     data/nodes.json      glyph nodes + referent stubs + frontier stubs
     data/bindings.json   one CN + one JP binding per glyph (WK metadata → JP binding)
     data/edges.json      composes (part→whole) + denotes (glyph→referent stub)
 
-Then ROUND-TRIPS: regenerates each source card-file from the graph and checks
-structural equality — proving the cards are just a projection of the graph.
+Then ROUND-TRIPS: regenerates each source card projection from the graph and
+checks structural equality — proving the cards are just a projection of the graph.
 
 Run: python3 data/build-graph.py
 Schema: docs/content-graph-schema.md
