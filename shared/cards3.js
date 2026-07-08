@@ -62,7 +62,7 @@ function langView(cls, label, v, audioName, audioEx) {
   return html`
       <div class="sc-view ${cls}">
         <div class="sc-vlabel">${label}</div>
-        <div class="sc-nameline">${name}${play(audioName)}</div>
+        <div class="sc-nameline">${name}${v.reading ? play(audioName) : ''}</div>
         <div class="sc-gloss en">${v.gloss || ''}</div>
         ${extra}${ex}
       </div>`;
@@ -259,7 +259,7 @@ function readingLine(langCls, v, audioName) {
   return html`
       <div class="rk-lang ${langCls}">
         <div class="rk-nameline"><span class="sc-name">${v.name}</span>${
-          v.reading ? html` <span class="sc-reading">${v.reading}</span>` : ''}${play(audioName)}</div>
+          v.reading ? html` <span class="sc-reading">${v.reading}</span>` : ''}${v.reading ? play(audioName) : ''}</div>
         <div class="rk-gloss en">${v.gloss || ''}</div>
       </div>`;
 }

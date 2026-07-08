@@ -9,7 +9,7 @@ single source of truth; no hand-maintained word lists live in shell.
 Each job mirrors exactly what the page renders, so we neither 404 nor orphan:
   - glyph modules (radicals, strokes): projected straight from the symbol source of
     truth (load_symbols → to_card), NOT a page file — cards3.js renders the name play
-    button unconditionally and the example button only when the binding has an
+    button when the binding has a reading and the example button only when it has an
     `appearsIn`. Non-stroke glyph audio is homed in the shared radicals/audio/ bucket
     that /characters/ and /kangxi/ both point at via audioBase; strokes has its own.
   - xi-zhuang: cards.json already lists each clip's file per voice; we synthesize
@@ -47,15 +47,18 @@ def glyph_cards(keep):
 
 
 def glyph_jobs(cards, audio):
-    """Name button ({cn,jp}-{slug}.mp3) + example button (-ex) when the binding has an
-    appearsIn. `audio` is the bucket the page actually fetches from (per its audioBase)."""
+    """Name button ({cn,jp}-{slug}.mp3) when the binding has a reading + example button
+    (-ex) when it has an appearsIn — matching cards3.js, which gates each play button on
+    those same fields. Gating the name job on a reading is also what keeps us from
+    feeding a readingless shape component (匸, no JP reading) to a voice that can't say
+    it. `audio` is the bucket the page fetches from (per its audioBase)."""
     jobs = []
     for c in cards:
         slug, cn, jp = c["slug"], c["cn"], c["jp"]
-        cn_name = cn["name"]
-        jp_name = jp.get("reading") or jp["name"]
-        jobs.append(Job(CN_VOICE, cn_name, audio / f"cn-{slug}.mp3"))
-        jobs.append(Job(JP_VOICE, jp_name, audio / f"jp-{slug}.mp3"))
+        if cn.get("reading"):
+            jobs.append(Job(CN_VOICE, cn["name"], audio / f"cn-{slug}.mp3"))
+        if jp.get("reading"):
+            jobs.append(Job(JP_VOICE, jp["reading"], audio / f"jp-{slug}.mp3"))
         if cn.get("appearsIn"):
             jobs.append(Job(CN_VOICE, cn["appearsIn"]["char"], audio / f"cn-{slug}-ex.mp3"))
         if jp.get("appearsIn"):
