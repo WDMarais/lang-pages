@@ -82,8 +82,8 @@
 .ec-part:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(30, 42, 74, .18); }
 
 .egonode.nb {
-  width: 2.6rem; height: 2.6rem; display: grid; place-items: center; padding: 0;
-  font-family: "LXGW WenKai", serif; font-size: 1.4rem; line-height: 1;
+  width: 2rem; height: 2rem; display: grid; place-items: center; padding: 0;
+  font-family: "LXGW WenKai", serif; font-size: 1.05rem; line-height: 1;
   background: var(--cream); color: var(--ink); border: 1px solid var(--border);
   border-radius: 8px; cursor: pointer; transition: transform .12s, box-shadow .12s;
 }
@@ -91,16 +91,11 @@
 .egonode.nb.whole { border-color: var(--red); }
 .egonode.nb.frontier { opacity: .5; border-style: dashed; color: var(--muted); }
 
-/* appears-in rings: ring0 is wired & full-weight; rings 1–2 are lineless halo,
-   shrinking and fading outward so density registers without demanding attention. */
-.egonode.nb.ring1 { width: 2.05rem; height: 2.05rem; font-size: 1.1rem; opacity: .72; }
-.egonode.nb.ring2 { width: 1.65rem; height: 1.65rem; font-size: .9rem; opacity: .5; background: transparent; }
+/* spiral tiers: ring0 solid & wired, ring1–2 fade to an ambient halo. size stays
+   uniform (even seed density), grade by opacity only. */
+.egonode.nb.ring1 { opacity: .72; }
+.egonode.nb.ring2 { opacity: .5; background: transparent; }
 .egonode.nb.ring1:hover, .egonode.nb.ring2:hover { opacity: 1; }
-
-/* spiral: uniform tile size (even density), grade by opacity only */
-.egonode.nb.spiral { width: 2rem; height: 2rem; font-size: 1.05rem; }
-.egonode.nb.spiral.ring1 { opacity: .72; }
-.egonode.nb.spiral.ring2 { opacity: .5; background: transparent; }
 
 .egonode.more { font-size: .78rem; color: var(--muted); }
 .egonode.more.overflow {

@@ -12,20 +12,12 @@ const TIERS = [
 ];
 const TAGMAP = { stroke: 'stroke', component: 'comp', char: 'char' };
 
-// appears-in (children) radial rings — the layer *count* is a magnitude gauge:
-// sparse glyph → 1 ring; hub → 3. Fill inner→outer; cap at 3 then spill to a list.
-const RING_CAPS = [6, 8, 10];                      // per-ring max & distribution weight (≈circumference), inner→outer
-const RING_RXY  = [[26, 25], [37, 37], [45, 48]]; // [rx, ry] % of stage, inner→outer
-const RING_SPAN = 240;                            // sweep centred south (leaves top for parts)
-const RING_OFF  = 11;                             // per-ring angular stagger (deg) — break spokes
-const RING_AT   = [6, 14];                         // ring-count gauge: ≤6 → 1 ring, ≤14 → 2, else 3
-const RING_TOTAL = RING_CAPS.reduce((a, b) => a + b, 0);
-
-// golden-angle (Vogel) spiral params — uniform-density alternative to rings.
+// golden-angle (Vogel) spiral: uniform-density placement of appears-in around the card.
 const GOLDEN       = Math.PI * (3 - Math.sqrt(5)); // ~137.508°
 const SPIRAL_SCALE = 8;                            // % of stage between successive shells (≈ tile pitch)
 const SPIRAL_R0    = 13;                           // % inner clearance so seeds miss the centre card
 const SPIRAL_TILT  = Math.PI / 2;                  // start index 0 pointing south
+const SPIRAL_CAP   = 24;                           // max seeds before the +N → list overflow
 
 let byGlyph = {}, bindById = {}, refLabel = {}, denotesOf = {};
 const parts = {};    // G → glyphs G is built from   (edge part → G)
@@ -107,53 +99,13 @@ function renderReferent(glyph) {
 
 // ── ego stage: deterministic local-graph layout (no physics) ──
 // centre glyph in a card (with its parts as chips); appears-in placed around it
-// as rings or a golden spiral. degrees: 0 = east, 90 = south, 270 = north.
-
-// choose how many rings to use (the gauge) and how many tiles go in each. the
-// ring COUNT still encodes magnitude (RING_AT thresholds), but within the active
-// rings the load is split proportional to circumference (RING_CAPS as weights),
-// via largest-remainder, so every ring lands at ~equal fill — no crowded-inner /
-// starved-outer. returns {counts:[…], shown, overflow}.
-function ringPlan(n) {
-  const shown = Math.min(n, RING_TOTAL);
-  const R = shown <= RING_AT[0] ? 1 : shown <= RING_AT[1] ? 2 : RING_CAPS.length;
-  const w = RING_CAPS.slice(0, R), ws = w.reduce((a, b) => a + b, 0);
-  const counts = w.map(x => Math.floor(shown * x / ws));
-  let rem = shown - counts.reduce((a, b) => a + b, 0);
-  w.map((x, i) => ({ i, frac: shown * x / ws - counts[i] }))
-    .sort((a, b) => b.frac - a.frac)
-    .forEach(o => { if (rem-- > 0) counts[o.i]++; });
-  return { counts, shown, overflow: n - shown };
-}
-
-// place appears-in as concentric shells about a0 (south). a lone ring hugs
-// bottom-centre when sparse (tidy fan); nested shells each spread the full sweep,
-// staggered, so the annulus reads as even density. returns {pos:[{x,y,ring}], …}.
-function rings(n, a0 = 90, span = RING_SPAN) {
-  const plan = ringPlan(n);
-  const R = plan.counts.length;
-  const pos = [];
-  plan.counts.forEach((k, r) => {
-    if (k <= 0) return;
-    const [rx, ry] = RING_RXY[r];
-    const arc = k <= 1 ? 0
-      : R === 1 ? span * (k - 1) / (RING_CAPS[r] - 1) // lone ring: tidy bottom fan
-      : span;                                          // nested shells: full sweep
-    const start = a0 - arc / 2 + r * RING_OFF;
-    const step = k <= 1 ? 0 : arc / (k - 1);
-    for (let i = 0; i < k; i++) {
-      const a = (k === 1 ? a0 + r * RING_OFF : start + i * step) * Math.PI / 180;
-      pos.push({ x: 50 + rx * Math.cos(a), y: 50 + ry * Math.sin(a), ring: r });
-    }
-  });
-  return { pos, shown: plan.shown, overflow: plan.overflow };
-}
+// as a golden spiral. degrees: 0 = east, 90 = south, 270 = north.
 
 // golden-angle phyllotaxis: radius ∝ √index gives uniform seed density (no ring
 // crowding), and the blob's extent reads as magnitude. offset past the card;
-// bucket radius into 3 tiers so the solid→halo grading + wire code still apply.
+// bucket by index into 3 tiers so the solid→halo grading + wire code still apply.
 function spiral(n, cx = 50, cy = 50) {
-  const shown = Math.min(n, RING_TOTAL);
+  const shown = Math.min(n, SPIRAL_CAP);
   const pos = [];
   for (let i = 0; i < shown; i++) {
     const radius = SPIRAL_R0 + SPIRAL_SCALE * Math.sqrt(i + 0.5);
@@ -181,15 +133,12 @@ function nb(glyph, x, y, cls) {
 function renderEgo(glyph) {
   const P = parts[glyph] || [], A = appears[glyph] || [];
 
-  // appears-in layout: rings (?layout=rings) or golden spiral (default). with parts
-  // now inside the card, the spiral owns the full 360°. when it overflows, the last
-  // slot becomes the "+N → list" affordance, not a dropped child.
-  const layout = new URLSearchParams(location.search).get('layout') === 'rings' ? 'rings' : 'spiral';
-  const R = layout === 'rings' ? rings(A.length) : spiral(A.length);
+  // appears-in as a golden spiral around the card. when it overflows the cap, the
+  // last slot becomes the "+N → list" affordance, not a dropped child.
+  const R = spiral(A.length);
   const overflow = R.overflow > 0;
   const nReal = overflow ? R.shown - 1 : R.shown;
   const Ashow = A.slice(0, nReal);
-  const sp = layout === 'spiral' ? ' spiral' : '';
 
   const f = facts(glyph);
   const center = byGlyph[glyph] && byGlyph[glyph].frontier ? 'egonode center frontier' : 'egonode center';
@@ -202,7 +151,7 @@ function renderEgo(glyph) {
       ${f.wk ? html`<span class="ec-wk ${f.mean ? 'mean' : 'mnem'}">${f.wk}</span>` : ''}
       ${partStrip}
     </div>`];
-  Ashow.forEach((g, i) => { const p = R.pos[i]; nodes.push(nb(g, p.x, p.y, `whole ring${p.ring}${sp}`)); });
+  Ashow.forEach((g, i) => { const p = R.pos[i]; nodes.push(nb(g, p.x, p.y, `whole ring${p.ring}`)); });
   if (overflow) {
     const p = R.pos[R.shown - 1]; // last outer slot → swap to sorted list
     nodes.push(html`<button class="egonode more overflow" data-more="1" style="left:${p.x}%;top:${p.y}%">+${A.length - nReal}</button>`);
