@@ -78,7 +78,30 @@ new glyphs to the spine to control where they land.
 
 ## Batch ingest — the steps
 
-Authoring a batch of new glyphs, start to finish:
+Batches arrive as a **terse, shotgun prompt**, not as files — a mixed list with
+inline hints and deliberate uncertainty. That underspecification is expected; part
+of the exercise is finding where a terse prompt is sufficient and where it needs
+tightening, so keep this example realistic rather than idealized. A representative
+batch:
+
+> *"Ingest this batch: 止 (stop; radical — meaning or mnemonic?); 川 (river; confirm
+> the reading); 子 (child; readings shi/su only); 人口 (population — a word); 丆 (leaf);
+> also add an I-beam image for the existing 工 card."*
+
+So the real first move is **route + resolve**, before any file is written:
+
+- **Route** each item to its bucket — a *glyph* card (`symbols/`), a *word*
+  (`words.json`, e.g. 人口), a *referent/asset* task (工's image), or an *edit to an
+  existing* glyph (工 — and check whether 川/子 are already carded). One prompt
+  routinely spans all four.
+- **Resolve** the underspecified bits — decide the radical's `kind: meaning|mnemonic`,
+  confirm the ?-marked reading (川), honour constraints (子 readings-subset) — and
+  **surface the assumptions back** ("took 止 as meaning; 川 already carded, patched
+  the JP layer only").
+- **Derive** the mechanical fields the prompt omits — `cp`, `kangxi` number,
+  decomposition, `slug`. (A scaffolder should do this — see Known debt.)
+
+Then, per routed item:
 
 1. **Write the symbol files.** One `data/symbols/<glyph>.json` per glyph (schema
    above). Add each new glyph to `data/symbols/_spine.json` in editorial position.
@@ -180,3 +203,28 @@ Surfaced while tracing; not yet fixed. Ranked roughly by bite:
    and README derive from.
 5. **`composes` field on symbols is vestigial** — sparsely authored and not the edge
    source. Either make it authoritative (feed the graph) or drop it.
+6. **Card scaffolder (high leverage for ingest).** Nothing turns a bare glyph into a
+   symbol stub; `cp`, `class`, `kangxi` #, decomposition, and `slug` are looked up by
+   hand every time. A `data/scaffold.py <glyph>…` emitting a stub with those derived
+   and `TODO` markers on the judgment fields (readings, program `kind`) would cut most
+   of the per-glyph toil in Step 1.
+7. **Referent (shared) vs glyph-specific images.** `referents.json` is meaning-homed
+   — one asset per gloss, shared by every glyph that denotes it. The test for where an
+   image lives is NOT shape-vs-meaning but **generalization**: *would it make sense on
+   a different glyph with the same gloss?* A fire photo serves any glyph meaning "fire"
+   (火/灯/炎) → referent-homed. An I-beam fits 工 on both shape *and* concept, but only
+   工 — it wouldn't serve 劳/工作 → glyph-homed (a mnemonic slot, see #8), else it
+   leaks to every work-glyph. Pictographs (火, 山, 木) are the easy case where origin,
+   shape, and meaning coincide; shape re-readings like 工's I-beam are the trap — apt,
+   but glyph-specific. Decide and document the split before it gets conflated.
+8. **No first-class "substantive mnemonic" slot.** Today "mnemonic" means only the
+   WK/PD `program.kind: mnemonic` cue — program-scoped, negatively-valenced (a
+   *warning* that a course's radical name is shape-only and doesn't transfer to the
+   real meaning; red/dashed + line-icon). There's no glyph-homed, program-independent
+   slot for a *positive*, curated aid that resonates substantively with form+meaning
+   without being the definitional referent (I-beam↔工). `form.image` exists but is
+   unused (0 cards). Candidate: a glyph-level `mnemonic` block (image and/or note) —
+   the de-proprietized generalization of the WK/PD idea, marked **non-definitional**
+   like `kind: mnemonic` already is (transfers recall, not semantic authority).
+   Distinct from the referent (#7, shared + definitional) and the program cue
+   (proprietary); optionally graded by substantiveness (I-beam vs arbitrary shock).
