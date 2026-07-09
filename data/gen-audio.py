@@ -15,6 +15,11 @@ Each job mirrors exactly what the page renders, so we neither 404 nor orphan:
   - xi-zhuang: cards.json already lists each clip's file per voice; we synthesize
     the four synthetic voices and leave the 录音 human recording alone.
 
+Each bucket carries a manifest.json recording the text+voice synthesized into every
+clip. Filenames are keyed by slug, not by what they say, so the manifest is the only
+thing that can notice a reading edited in place under an unchanged slug; such a clip
+is regenerated ("stale"), not skipped. Clips predating the manifest are adopted.
+
 Run:  python3 data/gen-audio.py [radicals|strokes|xi-zhuang|all] [--dry-run] [--prune]
       --prune deletes clips in a glyph bucket (radicals/strokes) that no card
       references, keeping the committed bucket in sync with the projected set.
@@ -25,7 +30,7 @@ import subprocess
 import sys
 from collections import namedtuple
 
-from paths import ROOT, read_json
+from paths import ROOT, read_json, write_json
 from symbols_io import load_symbols, to_card, on_strokes
 
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
@@ -98,36 +103,71 @@ MODULES = {
 }
 
 
+# A clip's filename is keyed by slug, not by the text it speaks, so "the file
+# exists" cannot answer "does it still say the right thing?". Each bucket keeps a
+# manifest of what was synthesized into it, and a job whose text or voice has
+# moved since is regenerated. Without this, editing a reading in place leaves the
+# old clip sitting there under the same slug, silently wrong.
+MANIFEST = "manifest.json"
+
+
+def load_manifest(bucket):
+    path = bucket / MANIFEST
+    return read_json(path) if path.exists() else {}
+
+
 def run(jobs, dry_run):
-    made = skipped = failed = 0
+    made = adopted = skipped = failed = 0
     unspeakable = []
+    manifests = {b: load_manifest(b) for b in {j.outfile.parent for j in jobs}}
     for j in jobs:
         rel = j.outfile.relative_to(ROOT)
+        man = manifests[j.outfile.parent]
+        said = {"text": j.text, "voice": j.voice}
         # a 0-byte file is a partial write from an aborted run — regenerate it
-        if j.outfile.exists() and j.outfile.stat().st_size > 0:
+        present = j.outfile.exists() and j.outfile.stat().st_size > 0
+        recorded = man.get(j.outfile.name)
+        if present and recorded is None:
+            # Pre-manifest clip. Its text is unknowable after the fact, so adopt it
+            # as-is rather than resynthesize every committed bucket on first run.
+            adopted += 1
+            man[j.outfile.name] = said
+            if dry_run:
+                print(f"adopt {rel}  «{j.text}»  [{j.voice}]")
+            continue
+        if present and recorded == said:
             skipped += 1
             if dry_run:
                 print(f"skip  {rel}  «{j.text}»  [{j.voice}]")
             continue
+        why = "stale" if present else "gen"
         if dry_run:
             made += 1
-            print(f"gen   {rel}  «{j.text}»  [{j.voice}]")
+            was = f"  (was «{recorded['text']}»)" if present else ""
+            print(f"{why:5} {rel}  «{j.text}»  [{j.voice}]{was}")
             continue
-        print(f"gen   {rel}")
+        print(f"{why:5} {rel}")
         j.outfile.parent.mkdir(parents=True, exist_ok=True)
         try:
             subprocess.run(["edge-tts", "--voice", j.voice, "--text", j.text,
                             "--write-media", str(j.outfile)], check=True,
                            capture_output=True)
             made += 1
+            man[j.outfile.name] = said
         except subprocess.CalledProcessError:
             # edge-tts yields no audio for a readingless shape component (丆 has no
             # pronunciation) — skip that one clip rather than abort the whole batch.
             j.outfile.unlink(missing_ok=True)  # don't leave a 0-byte file behind
+            man.pop(j.outfile.name, None)
             failed += 1
             unspeakable.append((rel, j.text))
+    if not dry_run:
+        for bucket, man in manifests.items():
+            if bucket.exists():
+                write_json(bucket / MANIFEST, dict(sorted(man.items())))
     tail = f", {failed} failed" if failed else ""
-    print(f"done  ({made} generated, {skipped} skipped{tail}, {len(jobs)} total)")
+    kept = f"{skipped} skipped" + (f", {adopted} adopted" if adopted else "")
+    print(f"done  ({made} generated, {kept}{tail}, {len(jobs)} total)")
     for rel, text in unspeakable:
         print(f"  ⚠ no audio for «{text}» → {rel} (readingless; button stays silent)")
 
@@ -155,6 +195,11 @@ def prune_bucket(name, jobs, dry_run):
                 print(f"prune {'(dry) ' if dry_run else ''}{f.relative_to(ROOT)}")
                 if not dry_run:
                     f.unlink()
+        # the manifest tracks the clips, so it prunes with them
+        man = load_manifest(bucket)
+        if not dry_run and (stale := man.keys() - referenced):
+            write_json(bucket / MANIFEST,
+                       dict(sorted((k, v) for k, v in man.items() if k not in stale)))
     verb = "to remove" if dry_run else "removed"
     print(f"prune {name}: {removed} unreferenced {verb}")
 

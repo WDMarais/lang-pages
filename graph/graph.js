@@ -36,10 +36,14 @@ Promise.all([
   });
   ed.edges.forEach(e => {
     if (e.kind === 'composes') {
+      // composes also carries the word tier (g:人 → w:人工). This is a glyph ego
+      // graph — byGlyph is keyed by glyph, never by a word surface — so a word
+      // target here would render a bubble that resolves to nothing on click.
+      if (!e.from.startsWith('g:') || !e.to.startsWith('g:')) return;
       const f = e.from.slice(2), t = e.to.slice(2);
       (appears[f] = appears[f] || []).push(t);
       (parts[t] = parts[t] || []).push(f);
-    } else if (e.kind === 'denotes') {
+    } else if (e.kind === 'denotes' && e.from.startsWith('g:')) {
       denotesOf[e.from.slice(2)] = e.to;
     }
   });
@@ -225,6 +229,7 @@ function drawEgoWires() {
 function renderDetail(glyph) {
   const node = byGlyph[glyph];
   const panel = document.getElementById('detail');
+  if (!node) { panel.innerHTML = ''; return; }
   if (node.frontier) {
     const built = parts[glyph] || [];
     panel.innerHTML = html`
