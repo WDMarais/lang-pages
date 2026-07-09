@@ -201,6 +201,27 @@
       "denotes": "population",
       "reading": "じんこう",
       "gloss": "population"
+    },
+    {
+      "surface": "人工",
+      "slug": "jinkou",
+      "audience": "jp",
+      "parts": ["人", "工"],
+      "denotes": "artificial",
+      "reading": "じんこう",
+      "gloss": "artificial; man-made",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "力いっぱい",
+      "slug": "chikaraippai",
+      "audience": "jp",
+      "parts": ["力"],
+      "denotes": "full-power",
+      "reading": "ちからいっぱい",
+      "gloss": "with all one's strength",
+      "okurigana": "いっぱい",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
     }
   ]
 }

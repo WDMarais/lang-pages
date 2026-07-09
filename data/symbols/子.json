@@ -39,7 +39,7 @@
       "role": "radical",
       "name": "Child",
       "kind": "meaning",
-      "level": 1
+      "level": 2
     },
     {
       "source": "wanikani",
@@ -54,7 +54,7 @@
       "kun": [
         "こ"
       ],
-      "level": 1
+      "level": 2
     }
   ]
 }

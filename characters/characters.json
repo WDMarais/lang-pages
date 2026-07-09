@@ -116,8 +116,8 @@
             "name": "天", "reading": "テン", "gloss": "heaven; sky",
             "extra": "漢字「天」(あめ · あま · テン)"
           },
-          "wk": { "name": "Heaven", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Heaven", "readings": ["テン"], "on": true, "kun": ["あめ", "あま"], "level": 1 }
+          "wk": { "name": "Heaven", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Heaven", "readings": ["テン"], "on": true, "kun": ["あめ", "あま"], "level": 2 }
         },
         {
           "glyph": "小",
@@ -135,8 +135,8 @@
             "extra": "漢字「小」(ちい-さい · ショウ) · 小さい",
             "appearsIn": { "char": "少", "reading": "ショウ", "gloss": "few" }
           },
-          "wk": { "name": "Small", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Small", "readings": ["ショウ"], "on": true, "kun": ["ちい"], "level": 1 }
+          "wk": { "name": "Small", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Small", "readings": ["ショウ"], "on": true, "kun": ["ちい"], "level": 2 }
         },
         {
           "glyph": "人",
@@ -252,8 +252,8 @@
             "extra": "漢字「子」(こ · シ) · 子供、様子",
             "appearsIn": { "char": "字", "reading": "ジ", "gloss": "character" }
           },
-          "wk": { "name": "Child", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Child", "readings": ["シ", "ス"], "on": true, "kun": ["こ"], "level": 1 }
+          "wk": { "name": "Child", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Child", "readings": ["シ", "ス"], "on": true, "kun": ["こ"], "level": 2 }
         },
         {
           "glyph": "七",
@@ -328,8 +328,8 @@
             "extra": "漢字「千」(セン · ち) · 千円",
             "appearsIn": { "char": "舌", "reading": "した", "gloss": "tongue" }
           },
-          "wk": { "name": "Thousand", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Thousand", "readings": ["セン"], "on": true, "level": 1 }
+          "wk": { "name": "Thousand", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Thousand", "readings": ["セン"], "on": true, "level": 2 }
         },
         {
           "glyph": "五",
@@ -347,8 +347,8 @@
             "extra": "漢字「五」(いつ-つ · ゴ) · 例:吾(ゴ)・語(ゴ)",
             "appearsIn": { "char": "吾", "reading": "われ", "gloss": "I; me" }
           },
-          "wk": { "name": "Five", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Five", "readings": ["ゴ"], "on": true, "kun": ["いつ"], "level": 1 }
+          "wk": { "name": "Five", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Five", "readings": ["ゴ"], "on": true, "kun": ["いつ"], "level": 2 }
         },
         {
           "glyph": "六",
@@ -365,7 +365,7 @@
             "extra": "漢字「六」(ロク · む・むっ-つ) · 六月"
           },
           "wk": null,
-          "kanji": { "name": "Six", "readings": ["ロク"], "on": true, "kun": ["む"], "level": 1 }
+          "kanji": { "name": "Six", "readings": ["ロク"], "on": true, "kun": ["む"], "level": 2 }
         },
         {
           "glyph": "川",
@@ -441,8 +441,8 @@
             "extra": "漢字「止」(シ · と-まる/と-める) · 中止・禁止・止まる",
             "appearsIn": { "char": "正", "reading": "セイ", "gloss": "correct; justice" }
           },
-          "wk": { "name": "Stop", "kind": "meaning" },
-          "kanji": { "name": "Stop", "readings": ["シ"], "on": true, "kun": ["とまる", "とめる"] }
+          "wk": { "name": "Stop", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Stop", "readings": ["シ"], "on": true, "kun": ["とまる", "とめる"], "level": 2 }
         },
         {
           "glyph": "木",
@@ -480,7 +480,7 @@
             "appearsIn": { "char": "明", "reading": "あかるい", "gloss": "bright" }
           },
           "wk": { "name": "Sun", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Sun", "readings": ["ニチ", "ジツ"], "on": true, "kun": ["ひ", "か"], "level": 1 },
+          "kanji": { "name": "Sun", "readings": ["ニチ", "ジツ"], "on": true, "kun": ["ひ", "か"], "level": 2 },
           "pd": { "name": "sun", "level": 1, "kind": "meaning" },
           "pdc": { "name": "sun; day", "kind": "meaning", "level": 1 }
         },
@@ -500,8 +500,8 @@
             "extra": "漢字「夕」(ゆう · セキ) · 夕べ、七夕",
             "appearsIn": { "char": "外", "reading": "そと", "gloss": "outside" }
           },
-          "wk": { "name": "Evening", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Evening", "readings": ["セキ"], "on": true, "kun": ["ゆう"], "level": 1 }
+          "wk": { "name": "Evening", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Evening", "readings": ["セキ"], "on": true, "kun": ["ゆう"], "level": 2 }
         },
         {
           "glyph": "上",
@@ -553,7 +553,7 @@
             "extra": "漢字「水」(みず · スイ) · 偏旁「さんずい 氵」",
             "appearsIn": { "char": "氷", "reading": "こおり", "gloss": "ice" }
           },
-          "wk": { "name": "Water", "level": 1, "kind": "meaning" }
+          "wk": { "name": "Water", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "土",
@@ -571,8 +571,8 @@
             "extra": "漢字「土」(つち · ド · ト)",
             "appearsIn": { "char": "地", "reading": "チ", "gloss": "ground" }
           },
-          "wk": { "name": "Dirt", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Dirt", "readings": ["ド", "ト"], "on": true, "kun": ["つち"], "level": 1 },
+          "wk": { "name": "Dirt", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Dirt", "readings": ["ド", "ト"], "on": true, "kun": ["つち"], "level": 2 },
           "pd": { "name": "earth", "level": 1, "kind": "meaning" }
         },
         {
@@ -591,8 +591,8 @@
             "extra": "漢字「刀」(かたな · トウ) · 偏旁「りっとう 刂」",
             "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
-          "wk": { "name": "Sword", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Sword", "readings": ["トウ"], "on": true, "kun": ["かたな"], "level": 1 }
+          "wk": { "name": "Sword", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Sword", "readings": ["トウ"], "on": true, "kun": ["かたな"], "level": 2 }
         },
         {
           "glyph": "弓",
@@ -610,8 +610,8 @@
             "extra": "漢字「弓」(ゆみ · キュウ) · 弓道",
             "appearsIn": { "char": "引", "reading": "ひく", "gloss": "to pull" }
           },
-          "wk": { "name": "Bow", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Bow", "readings": ["キュウ"], "on": true, "kun": ["ゆみ"], "level": 1 }
+          "wk": { "name": "Bow", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Bow", "readings": ["キュウ"], "on": true, "kun": ["ゆみ"], "level": 2 }
         },
         {
           "glyph": "糸",
@@ -693,8 +693,28 @@
             "extra": "漢字「火」(ひ · カ) · 偏旁「れっか 灬」",
             "appearsIn": { "char": "炎", "reading": "ほのお", "gloss": "flame" }
           },
-          "wk": null,
+          "wk": { "name": "Fire", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Fire", "readings": ["カ"], "on": true, "kun": ["ひ"], "level": 2 },
           "pd": { "name": "fire", "level": 1, "kind": "meaning" }
+        },
+        {
+          "glyph": "犬",
+          "slug": "quan94",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "犬", "reading": "quǎn", "gloss": "dog",
+            "extra": "康熙部首 94 · 象形 · 作偏旁作 犭 (反犬旁)",
+            "appearsIn": { "char": "伏", "reading": "fú", "gloss": "lie prone; crouch" }
+          },
+          "jp": {
+            "name": "犬", "reading": "いぬ", "gloss": "dog",
+            "extra": "漢字「犬」(いぬ · ケン) · 偏旁「けものへん 犭」",
+            "appearsIn": { "char": "伏", "reading": "ふせる", "gloss": "to lie face down" }
+          },
+          "wk": { "name": "Dog", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Dog", "readings": ["ケン"], "on": true, "kun": ["いぬ"], "level": 2 }
         },
         {
           "glyph": "向",
@@ -858,8 +878,8 @@
             "extra": "漢字「手」(て · シュ) · 偏旁「てへん 扌」",
             "appearsIn": { "char": "拳", "reading": "こぶし", "gloss": "fist" }
           },
-          "wk": { "name": "Hand", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Hand", "readings": ["シュ"], "on": true, "kun": ["て"], "level": 1 },
+          "wk": { "name": "Hand", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Hand", "readings": ["シュ"], "on": true, "kun": ["て"], "level": 2 },
           "pd": { "name": "hand", "level": 1, "kind": "meaning" }
         },
         {
@@ -876,8 +896,8 @@
             "name": "丸", "reading": "まる", "gloss": "circle; round",
             "extra": "漢字「丸」(まる · ガン) · 丸い"
           },
-          "wk": { "name": "Circle", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Circle", "readings": ["ガン"], "on": true, "kun": ["まる"], "level": 1 }
+          "wk": { "name": "Circle", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Circle", "readings": ["ガン"], "on": true, "kun": ["まる"], "level": 2 }
         },
         {
           "glyph": "丁",
@@ -895,7 +915,7 @@
             "extra": "漢字「丁」(チョウ · テイ) · 丁目 (street block)",
             "appearsIn": { "char": "打", "reading": "うつ", "gloss": "to hit" }
           },
-          "wk": { "name": "Street", "level": 1, "kind": "mnemonic" }
+          "wk": { "name": "Street", "level": 2, "kind": "mnemonic" }
         },
         {
           "glyph": "才",
@@ -913,8 +933,8 @@
             "extra": "漢字「才」(サイ) · 才能 · 「歳」の代用",
             "appearsIn": { "char": "材", "reading": "ザイ", "gloss": "material" }
           },
-          "wk": { "name": "Talent", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 1 }
+          "wk": { "name": "Talent", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 2 }
         }
       ]
     }

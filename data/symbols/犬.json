@@ -4,7 +4,6 @@
   "slug": "quan94",
   "class": "char",
   "kangxi": 94,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -14,13 +13,47 @@
       "name": "犬",
       "reading": "quǎn",
       "gloss": "dog",
-      "extra": "康熙部首 94"
+      "extra": "康熙部首 94 · 象形 · 作偏旁作 犭 (反犬旁)",
+      "appearsIn": {
+        "char": "伏",
+        "reading": "fú",
+        "gloss": "lie prone; crouch"
+      }
     },
     "jp": {
       "name": "犬",
-      "reading": "",
-      "gloss": "dog"
+      "reading": "いぬ",
+      "gloss": "dog",
+      "extra": "漢字「犬」(いぬ · ケン) · 偏旁「けものへん 犭」",
+      "appearsIn": {
+        "char": "伏",
+        "reading": "ふせる",
+        "gloss": "to lie face down"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Dog",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Dog",
+      "readings": [
+        "ケン"
+      ],
+      "on": true,
+      "kun": [
+        "いぬ"
+      ],
+      "level": 2
+    }
+  ]
 }

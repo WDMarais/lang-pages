@@ -897,6 +897,30 @@
       "frontier": true
     },
     {
+      "id": "g:犬",
+      "kind": "glyph",
+      "glyph": "犬",
+      "tier": "char",
+      "slug": "quan94",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dog",
+      "kind": "referent",
+      "label": "dog"
+    },
+    {
+      "id": "g:伏",
+      "kind": "glyph",
+      "glyph": "伏",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:向",
       "kind": "glyph",
       "glyph": "向",
@@ -2244,23 +2268,6 @@
       "id": "r:cow",
       "kind": "referent",
       "label": "cow"
-    },
-    {
-      "id": "g:犬",
-      "kind": "glyph",
-      "glyph": "犬",
-      "tier": "char",
-      "slug": "quan94",
-      "source": "radicals",
-      "media": {
-        "hw": true,
-        "image": ""
-      }
-    },
-    {
-      "id": "r:dog",
-      "kind": "referent",
-      "label": "dog"
     },
     {
       "id": "g:玄",
@@ -5094,6 +5101,47 @@
       "id": "r:population",
       "kind": "referent",
       "label": "population"
+    },
+    {
+      "id": "w:人工",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "人工",
+      "slug": "jinkou",
+      "reading": "じんこう",
+      "gloss": "artificial; man-made",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:artificial",
+      "kind": "referent",
+      "label": "artificial; man-made"
+    },
+    {
+      "id": "w:力いっぱい",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "力いっぱい",
+      "slug": "chikaraippai",
+      "reading": "ちからいっぱい",
+      "gloss": "with all one's strength",
+      "okurigana": "いっぱい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:full-power",
+      "kind": "referent",
+      "label": "with all one's strength"
     }
   ]
 }

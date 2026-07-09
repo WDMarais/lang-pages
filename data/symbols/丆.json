@@ -27,7 +27,8 @@
       "lang": "jp",
       "role": "radical",
       "name": "Leaf",
-      "kind": "mnemonic"
+      "kind": "mnemonic",
+      "level": 2
     }
   ]
 }

@@ -331,7 +331,7 @@
       "program": {
         "source": "wanikani",
         "name": "Heaven",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Heaven",
@@ -343,7 +343,7 @@
             "あめ",
             "あま"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -381,7 +381,7 @@
       "program": {
         "source": "wanikani",
         "name": "Small",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Small",
@@ -392,7 +392,7 @@
           "kun": [
             "ちい"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -731,7 +731,7 @@
       "program": {
         "source": "wanikani",
         "name": "Child",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Child",
@@ -743,7 +743,7 @@
           "kun": [
             "こ"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -924,7 +924,7 @@
       "program": {
         "source": "wanikani",
         "name": "Thousand",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Thousand",
@@ -932,7 +932,7 @@
             "セン"
           ],
           "on": true,
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -970,7 +970,7 @@
       "program": {
         "source": "wanikani",
         "name": "Five",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Five",
@@ -981,7 +981,7 @@
           "kun": [
             "いつ"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1017,7 +1017,7 @@
           "kun": [
             "む"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1125,7 +1125,7 @@
       "program": {
         "source": "wanikani",
         "name": "Treasure",
-        "level": 1,
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -1308,6 +1308,7 @@
       "program": {
         "source": "wanikani",
         "name": "Stop",
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Stop",
@@ -1318,7 +1319,8 @@
           "kun": [
             "とまる",
             "とめる"
-          ]
+          ],
+          "level": 2
         }
       }
     },
@@ -1424,7 +1426,7 @@
             "ひ",
             "か"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1462,7 +1464,7 @@
       "program": {
         "source": "wanikani",
         "name": "Evening",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Evening",
@@ -1473,7 +1475,7 @@
           "kun": [
             "ゆう"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1590,7 +1592,7 @@
       "program": {
         "source": "wanikani",
         "name": "Water",
-        "level": 1,
+        "level": 2,
         "kind": "meaning"
       }
     },
@@ -1634,7 +1636,7 @@
       "program": {
         "source": "wanikani",
         "name": "Dirt",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Dirt",
@@ -1646,7 +1648,7 @@
           "kun": [
             "つち"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1684,7 +1686,7 @@
       "program": {
         "source": "wanikani",
         "name": "Sword",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Sword",
@@ -1695,7 +1697,7 @@
           "kun": [
             "かたな"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1733,7 +1735,7 @@
       "program": {
         "source": "wanikani",
         "name": "Bow",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Bow",
@@ -1744,7 +1746,7 @@
           "kun": [
             "ゆみ"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -1872,6 +1874,72 @@
         "glyph": "炎",
         "reading": "ほのお",
         "gloss": "flame"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Fire",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Fire",
+          "readings": [
+            "カ"
+          ],
+          "on": true,
+          "kun": [
+            "ひ"
+          ],
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:犬@cn",
+      "glyph_id": "g:犬",
+      "lang": "cn",
+      "name": "犬",
+      "readings": [
+        "quǎn"
+      ],
+      "gloss": "dog",
+      "extra": "康熙部首 94 · 象形 · 作偏旁作 犭 (反犬旁)",
+      "appearsIn": {
+        "glyph": "伏",
+        "reading": "fú",
+        "gloss": "lie prone; crouch"
+      }
+    },
+    {
+      "id": "b:犬@jp",
+      "glyph_id": "g:犬",
+      "lang": "jp",
+      "name": "犬",
+      "readings": [
+        "いぬ"
+      ],
+      "gloss": "dog",
+      "extra": "漢字「犬」(いぬ · ケン) · 偏旁「けものへん 犭」",
+      "appearsIn": {
+        "glyph": "伏",
+        "reading": "ふせる",
+        "gloss": "to lie face down"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Dog",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Dog",
+          "readings": [
+            "ケン"
+          ],
+          "on": true,
+          "kun": [
+            "いぬ"
+          ],
+          "level": 2
+        }
       }
     },
     {
@@ -1941,7 +2009,7 @@
       "program": {
         "source": "wanikani",
         "name": "Legs",
-        "level": 1,
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -2013,7 +2081,7 @@
       "program": {
         "source": "wanikani",
         "name": "Flag",
-        "level": 1,
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -2339,7 +2407,7 @@
       "program": {
         "source": "wanikani",
         "name": "Hand",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Hand",
@@ -2350,7 +2418,7 @@
           "kun": [
             "て"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -2378,7 +2446,7 @@
       "program": {
         "source": "wanikani",
         "name": "Circle",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Circle",
@@ -2389,7 +2457,7 @@
           "kun": [
             "まる"
           ],
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -2427,7 +2495,7 @@
       "program": {
         "source": "wanikani",
         "name": "Street",
-        "level": 1,
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -2461,7 +2529,7 @@
       "program": {
         "source": "wanikani",
         "name": "Narwhal",
-        "level": 1,
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -2485,6 +2553,7 @@
       "program": {
         "source": "wanikani",
         "name": "Leaf",
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -2522,7 +2591,7 @@
       "program": {
         "source": "wanikani",
         "name": "Talent",
-        "level": 1,
+        "level": 2,
         "kind": "meaning",
         "kanji": {
           "name": "Talent",
@@ -2530,7 +2599,7 @@
             "サイ"
           ],
           "on": true,
-          "level": 1
+          "level": 2
         }
       }
     },
@@ -2566,7 +2635,7 @@
       "program": {
         "source": "wanikani",
         "name": "Head",
-        "level": 1,
+        "level": 2,
         "kind": "mnemonic"
       }
     },
@@ -3152,7 +3221,7 @@
       "program": {
         "source": "wanikani",
         "name": "Hair",
-        "level": 1,
+        "level": 2,
         "kind": "meaning"
       }
     },
@@ -3694,26 +3763,6 @@
       "name": "牛",
       "readings": [],
       "gloss": "cow",
-      "extra": ""
-    },
-    {
-      "id": "b:犬@cn",
-      "glyph_id": "g:犬",
-      "lang": "cn",
-      "name": "犬",
-      "readings": [
-        "quǎn"
-      ],
-      "gloss": "dog",
-      "extra": "康熙部首 94"
-    },
-    {
-      "id": "b:犬@jp",
-      "glyph_id": "g:犬",
-      "lang": "jp",
-      "name": "犬",
-      "readings": [],
-      "gloss": "dog",
       "extra": ""
     },
     {

@@ -387,6 +387,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:犬",
+      "to": "r:dog",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:犬",
+      "to": "g:伏",
+      "kind": "composes"
+    },
+    {
       "from": "g:向",
       "to": "r:toward",
       "kind": "denotes"
@@ -825,11 +835,6 @@
     {
       "from": "g:牛",
       "to": "r:cow",
-      "kind": "denotes"
-    },
-    {
-      "from": "g:犬",
-      "to": "r:dog",
       "kind": "denotes"
     },
     {
@@ -1620,6 +1625,11 @@
     {
       "from": "g:人",
       "to": "g:以",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亻",
+      "to": "g:伏",
       "kind": "composes"
     },
     {
@@ -3550,6 +3560,31 @@
     {
       "from": "w:人口",
       "to": "r:population",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:人工",
+      "kind": "composes"
+    },
+    {
+      "from": "g:工",
+      "to": "w:人工",
+      "kind": "composes"
+    },
+    {
+      "from": "w:人工",
+      "to": "r:artificial",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:力",
+      "to": "w:力いっぱい",
+      "kind": "composes"
+    },
+    {
+      "from": "w:力いっぱい",
+      "to": "r:full-power",
       "kind": "denotes"
     }
   ]

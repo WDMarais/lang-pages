@@ -426,7 +426,7 @@
           },
           "wk": {
             "name": "Legs",
-            "level": 1,
+            "level": 2,
             "kind": "mnemonic"
           },
           "pd": {
@@ -565,7 +565,7 @@
           },
           "wk": {
             "name": "Head",
-            "level": 1,
+            "level": 2,
             "kind": "mnemonic"
           },
           "kx": 13,
@@ -685,7 +685,7 @@
           },
           "wk": {
             "name": "Sword",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -697,7 +697,7 @@
             "kun": [
               "かたな"
             ],
-            "level": 1
+            "level": 2
           },
           "kx": 18,
           "audioBase": "../radicals/"
@@ -1126,7 +1126,7 @@
           },
           "wk": {
             "name": "Dirt",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -1139,7 +1139,7 @@
             "kun": [
               "つち"
             ],
-            "level": 1
+            "level": 2
           },
           "pd": {
             "name": "earth",
@@ -1242,7 +1242,7 @@
           },
           "wk": {
             "name": "Evening",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -1254,7 +1254,7 @@
             "kun": [
               "ゆう"
             ],
-            "level": 1
+            "level": 2
           },
           "kx": 36,
           "audioBase": "../radicals/"
@@ -1397,7 +1397,7 @@
           },
           "wk": {
             "name": "Child",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -1410,7 +1410,7 @@
             "kun": [
               "こ"
             ],
-            "level": 1
+            "level": 2
           },
           "kx": 39,
           "audioBase": "../radicals/"
@@ -1503,7 +1503,7 @@
           },
           "wk": {
             "name": "Small",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -1515,7 +1515,7 @@
             "kun": [
               "ちい"
             ],
-            "level": 1
+            "level": 2
           },
           "kx": 42,
           "audioBase": "../radicals/"
@@ -1571,7 +1571,7 @@
           },
           "wk": {
             "name": "Flag",
-            "level": 1,
+            "level": 2,
             "kind": "mnemonic"
           },
           "kx": 44,
@@ -1951,7 +1951,7 @@
           },
           "wk": {
             "name": "Bow",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -1963,7 +1963,7 @@
             "kun": [
               "ゆみ"
             ],
-            "level": 1
+            "level": 2
           },
           "kx": 57,
           "audioBase": "../radicals/"
@@ -2009,7 +2009,7 @@
           },
           "wk": {
             "name": "Hair",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kx": 59,
@@ -2135,7 +2135,7 @@
           },
           "wk": {
             "name": "Hand",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -2147,7 +2147,7 @@
             "kun": [
               "て"
             ],
-            "level": 1
+            "level": 2
           },
           "pd": {
             "name": "hand",
@@ -2348,7 +2348,7 @@
               "ひ",
               "か"
             ],
-            "level": 1
+            "level": 2
           },
           "pd": {
             "name": "sun",
@@ -2548,6 +2548,7 @@
           },
           "wk": {
             "name": "Stop",
+            "level": 2,
             "kind": "meaning"
           },
           "kanji": {
@@ -2559,7 +2560,8 @@
             "kun": [
               "とまる",
               "とめる"
-            ]
+            ],
+            "level": 2
           },
           "kx": 77,
           "audioBase": "../radicals/"
@@ -2741,7 +2743,7 @@
           },
           "wk": {
             "name": "Water",
-            "level": 1,
+            "level": 2,
             "kind": "meaning"
           },
           "kx": 85,
@@ -2792,7 +2794,22 @@
               "gloss": "flame"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Fire",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Fire",
+            "readings": [
+              "カ"
+            ],
+            "on": true,
+            "kun": [
+              "ひ"
+            ],
+            "level": 2
+          },
           "pd": {
             "name": "fire",
             "level": 1,
@@ -2991,14 +3008,40 @@
             "name": "犬",
             "reading": "quǎn",
             "gloss": "dog",
-            "extra": "康熙部首 94"
+            "extra": "康熙部首 94 · 象形 · 作偏旁作 犭 (反犬旁)",
+            "appearsIn": {
+              "char": "伏",
+              "reading": "fú",
+              "gloss": "lie prone; crouch"
+            }
           },
           "jp": {
             "name": "犬",
-            "reading": "",
-            "gloss": "dog"
+            "reading": "いぬ",
+            "gloss": "dog",
+            "extra": "漢字「犬」(いぬ · ケン) · 偏旁「けものへん 犭」",
+            "appearsIn": {
+              "char": "伏",
+              "reading": "ふせる",
+              "gloss": "to lie face down"
+            }
           },
-          "wk": null,
+          "wk": {
+            "name": "Dog",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Dog",
+            "readings": [
+              "ケン"
+            ],
+            "on": true,
+            "kun": [
+              "いぬ"
+            ],
+            "level": 2
+          },
           "kx": 94,
           "audioBase": "../radicals/"
         }
@@ -5782,7 +5825,7 @@
           },
           "wk": {
             "name": "Treasure",
-            "level": 1,
+            "level": 2,
             "kind": "mnemonic"
           },
           "audioBase": "../radicals/"
@@ -5817,7 +5860,7 @@
           },
           "wk": {
             "name": "Narwhal",
-            "level": 1,
+            "level": 2,
             "kind": "mnemonic"
           },
           "audioBase": "../radicals/"
@@ -5842,6 +5885,7 @@
           },
           "wk": {
             "name": "Leaf",
+            "level": 2,
             "kind": "mnemonic"
           },
           "audioBase": "../radicals/"

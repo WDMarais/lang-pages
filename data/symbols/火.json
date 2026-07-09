@@ -34,6 +34,28 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Fire",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Fire",
+      "readings": [
+        "カ"
+      ],
+      "on": true,
+      "kun": [
+        "ひ"
+      ],
+      "level": 2
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",
