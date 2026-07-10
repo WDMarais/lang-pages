@@ -485,6 +485,99 @@
           "pdc": { "name": "sun; day", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "田",
+          "slug": "tian",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "田", "reading": "tián", "gloss": "field",
+            "extra": "康熙部首 102 · 象形（阡陌纵横的农田）· 田地、水田",
+            "appearsIn": { "char": "男", "reading": "nán", "gloss": "male" }
+          },
+          "jp": {
+            "name": "田", "reading": "た", "gloss": "rice paddy",
+            "extra": "漢字「田」(た · デン) · 田んぼ、水田",
+            "appearsIn": { "char": "男", "reading": "おとこ", "gloss": "man" }
+          },
+          "wk": { "name": "Rice Paddy", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Rice Paddy", "readings": ["デン"], "on": true, "kun": ["た"], "level": 2 }
+        },
+        {
+          "glyph": "中",
+          "slug": "zhong",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "中", "reading": "zhōng", "gloss": "middle; centre",
+            "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
+            "appearsIn": { "char": "忠", "reading": "zhōng", "gloss": "loyal" }
+          },
+          "jp": {
+            "name": "中", "reading": "なか", "gloss": "middle; inside",
+            "extra": "漢字「中」(なか · チュウ) · 中に、中国",
+            "appearsIn": { "char": "忠", "reading": "チュウ", "gloss": "loyalty" }
+          },
+          "wk": { "name": "Middle", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Middle", "readings": ["チュウ"], "on": true, "kun": ["なか"], "level": 2 }
+        },
+        {
+          "glyph": "王",
+          "slug": "wang2",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "王", "reading": "wáng", "gloss": "king",
+            "extra": "三横一竖 · 「玉」去一点 · 作偏旁称「王字旁」(玉 康熙部首 96)",
+            "appearsIn": { "char": "主", "reading": "zhǔ", "gloss": "master; host" }
+          },
+          "jp": {
+            "name": "王", "reading": "オウ", "gloss": "king",
+            "extra": "漢字「王」(オウ) · 部首「おうへん 王」は「玉」の変形",
+            "appearsIn": { "char": "主", "reading": "ぬし", "gloss": "master; owner" }
+          },
+          "wk": { "name": "King", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "King", "readings": ["オウ"], "on": true, "level": 2 }
+        },
+        {
+          "glyph": "本",
+          "slug": "ben",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "本", "reading": "běn", "gloss": "root; origin",
+            "extra": "木 + 一 · 指事「树根所在」· 本来、课本",
+            "appearsIn": { "char": "体", "reading": "tǐ", "gloss": "body" }
+          },
+          "jp": {
+            "name": "本", "reading": "ホン", "gloss": "book; origin",
+            "extra": "漢字「本」(ホン · もと) · 本を読む、日本",
+            "appearsIn": { "char": "体", "reading": "からだ", "gloss": "body" }
+          },
+          "wk": { "name": "Book", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Book", "readings": ["ホン"], "on": true, "kun": ["もと"], "level": 2 }
+        },
+        {
+          "glyph": "円",
+          "slug": "yuan",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "円", "reading": "yuán", "gloss": "circle; yen",
+            "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
+          },
+          "jp": {
+            "name": "円", "reading": "エン", "gloss": "yen; circle",
+            "extra": "漢字「円」(エン · まる) · 旧字体「圓」· 百円"
+          },
+          "wk": null,
+          "kanji": { "name": "Yen", "readings": ["エン"], "on": true, "kun": ["まる"], "level": 2 }
+        },
+        {
           "glyph": "夕",
           "slug": "xi",
           "tag": "char",
@@ -896,7 +989,7 @@
             "name": "丸", "reading": "まる", "gloss": "circle; round",
             "extra": "漢字「丸」(まる · ガン) · 丸い"
           },
-          "wk": { "name": "Circle", "level": 2, "kind": "meaning" },
+          "wk": { "name": "Circle", "level": 13, "kind": "meaning" },
           "kanji": { "name": "Circle", "readings": ["ガン"], "on": true, "kun": ["まる"], "level": 2 }
         },
         {
@@ -915,7 +1008,8 @@
             "extra": "漢字「丁」(チョウ · テイ) · 丁目 (street block)",
             "appearsIn": { "char": "打", "reading": "うつ", "gloss": "to hit" }
           },
-          "wk": { "name": "Street", "level": 2, "kind": "mnemonic" }
+          "wk": { "name": "Street", "level": 2, "kind": "mnemonic" },
+          "kanji": { "name": "Street", "readings": ["チョウ", "テイ"], "on": true, "level": 2 }
         },
         {
           "glyph": "才",

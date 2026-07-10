@@ -1,0 +1,55 @@
+{
+  "glyph": "王",
+  "cp": "U+738B",
+  "slug": "wang2",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "王",
+      "reading": "wáng",
+      "gloss": "king",
+      "extra": "三横一竖 · 「玉」去一点 · 作偏旁称「王字旁」(玉 康熙部首 96)",
+      "appearsIn": {
+        "char": "主",
+        "reading": "zhǔ",
+        "gloss": "master; host"
+      }
+    },
+    "jp": {
+      "name": "王",
+      "reading": "オウ",
+      "gloss": "king",
+      "extra": "漢字「王」(オウ) · 部首「おうへん 王」は「玉」の変形",
+      "appearsIn": {
+        "char": "主",
+        "reading": "ぬし",
+        "gloss": "master; owner"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "King",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "King",
+      "readings": [
+        "オウ"
+      ],
+      "on": true,
+      "level": 2
+    }
+  ]
+}

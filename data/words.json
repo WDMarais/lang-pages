@@ -222,6 +222,37 @@
       "gloss": "with all one's strength",
       "okurigana": "いっぱい",
       "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "上る",
+      "slug": "noboru",
+      "audience": "jp",
+      "parts": ["上"],
+      "denotes": "climb",
+      "reading": "のぼる",
+      "gloss": "to climb; to go up",
+      "okurigana": "る",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "おはよう",
+      "slug": "ohayou",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "good-morning",
+      "reading": "おはよう",
+      "gloss": "good morning",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "ホテル",
+      "slug": "hoteru",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "hotel",
+      "reading": "ホテル",
+      "gloss": "hotel",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
     }
   ]
 }

@@ -3208,14 +3208,40 @@
             "name": "田",
             "reading": "tián",
             "gloss": "field",
-            "extra": "康熙部首 102"
+            "extra": "康熙部首 102 · 象形（阡陌纵横的农田）· 田地、水田",
+            "appearsIn": {
+              "char": "男",
+              "reading": "nán",
+              "gloss": "male"
+            }
           },
           "jp": {
             "name": "田",
-            "reading": "",
-            "gloss": "field"
+            "reading": "た",
+            "gloss": "rice paddy",
+            "extra": "漢字「田」(た · デン) · 田んぼ、水田",
+            "appearsIn": {
+              "char": "男",
+              "reading": "おとこ",
+              "gloss": "man"
+            }
           },
-          "wk": null,
+          "wk": {
+            "name": "Rice Paddy",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Rice Paddy",
+            "readings": [
+              "デン"
+            ],
+            "on": true,
+            "kun": [
+              "た"
+            ],
+            "level": 2
+          },
           "kx": 102,
           "audioBase": "../radicals/",
           "referents": [

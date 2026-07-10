@@ -658,6 +658,112 @@
       "frontier": true
     },
     {
+      "id": "g:田",
+      "kind": "glyph",
+      "glyph": "田",
+      "tier": "char",
+      "slug": "tian",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:field",
+      "kind": "referent",
+      "label": "field"
+    },
+    {
+      "id": "g:中",
+      "kind": "glyph",
+      "glyph": "中",
+      "tier": "char",
+      "slug": "zhong",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:middle",
+      "kind": "referent",
+      "label": "middle; centre"
+    },
+    {
+      "id": "g:忠",
+      "kind": "glyph",
+      "glyph": "忠",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:王",
+      "kind": "glyph",
+      "glyph": "王",
+      "tier": "char",
+      "slug": "wang2",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:king",
+      "kind": "referent",
+      "label": "king"
+    },
+    {
+      "id": "g:主",
+      "kind": "glyph",
+      "glyph": "主",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:本",
+      "kind": "glyph",
+      "glyph": "本",
+      "tier": "char",
+      "slug": "ben",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:root",
+      "kind": "referent",
+      "label": "root; origin"
+    },
+    {
+      "id": "g:体",
+      "kind": "glyph",
+      "glyph": "体",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:円",
+      "kind": "glyph",
+      "glyph": "円",
+      "tier": "char",
+      "slug": "yuan",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:circle",
+      "kind": "referent",
+      "label": "circle; yen"
+    },
+    {
       "id": "g:夕",
       "kind": "glyph",
       "glyph": "夕",
@@ -2387,23 +2493,6 @@
       "id": "r:use",
       "kind": "referent",
       "label": "use"
-    },
-    {
-      "id": "g:田",
-      "kind": "glyph",
-      "glyph": "田",
-      "tier": "char",
-      "slug": "tian",
-      "source": "radicals",
-      "media": {
-        "hw": true,
-        "image": ""
-      }
-    },
-    {
-      "id": "r:field",
-      "kind": "referent",
-      "label": "field"
     },
     {
       "id": "g:疋",
@@ -4447,6 +4536,13 @@
       "frontier": true
     },
     {
+      "id": "g:丄",
+      "kind": "glyph",
+      "glyph": "丄",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:巳",
       "kind": "glyph",
       "glyph": "巳",
@@ -4464,13 +4560,6 @@
       "id": "g:了",
       "kind": "glyph",
       "glyph": "了",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:丄",
-      "kind": "glyph",
-      "glyph": "丄",
       "tier": null,
       "frontier": true
     },
@@ -4531,13 +4620,6 @@
       "frontier": true
     },
     {
-      "id": "g:王",
-      "kind": "glyph",
-      "glyph": "王",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:卄",
       "kind": "glyph",
       "glyph": "卄",
@@ -4583,13 +4665,6 @@
       "id": "g:巴",
       "kind": "glyph",
       "glyph": "巴",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:中",
-      "kind": "glyph",
-      "glyph": "中",
       "tier": null,
       "frontier": true
     },
@@ -5142,6 +5217,67 @@
       "id": "r:full-power",
       "kind": "referent",
       "label": "with all one's strength"
+    },
+    {
+      "id": "w:上る",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "上る",
+      "slug": "noboru",
+      "reading": "のぼる",
+      "gloss": "to climb; to go up",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:climb",
+      "kind": "referent",
+      "label": "to climb; to go up"
+    },
+    {
+      "id": "w:おはよう",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "おはよう",
+      "slug": "ohayou",
+      "reading": "おはよう",
+      "gloss": "good morning",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:good-morning",
+      "kind": "referent",
+      "label": "good morning"
+    },
+    {
+      "id": "w:ホテル",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "ホテル",
+      "slug": "hoteru",
+      "reading": "ホテル",
+      "gloss": "hotel",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:hotel",
+      "kind": "referent",
+      "label": "hotel"
     }
   ]
 }

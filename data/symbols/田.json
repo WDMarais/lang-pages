@@ -4,7 +4,6 @@
   "slug": "tian",
   "class": "char",
   "kangxi": 102,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -14,13 +13,47 @@
       "name": "田",
       "reading": "tián",
       "gloss": "field",
-      "extra": "康熙部首 102"
+      "extra": "康熙部首 102 · 象形（阡陌纵横的农田）· 田地、水田",
+      "appearsIn": {
+        "char": "男",
+        "reading": "nán",
+        "gloss": "male"
+      }
     },
     "jp": {
       "name": "田",
-      "reading": "",
-      "gloss": "field"
+      "reading": "た",
+      "gloss": "rice paddy",
+      "extra": "漢字「田」(た · デン) · 田んぼ、水田",
+      "appearsIn": {
+        "char": "男",
+        "reading": "おとこ",
+        "gloss": "man"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Rice Paddy",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Rice Paddy",
+      "readings": [
+        "デン"
+      ],
+      "on": true,
+      "kun": [
+        "た"
+      ],
+      "level": 2
+    }
+  ]
 }

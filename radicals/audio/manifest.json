@@ -23,6 +23,14 @@
     "text": "貝",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-ben-ex.mp3": {
+    "text": "体",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-ben.mp3": {
+    "text": "本",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-bi.mp3": {
     "text": "匕",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -795,6 +803,10 @@
     "text": "夊",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-tian-ex.mp3": {
+    "text": "男",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-tian.mp3": {
     "text": "田",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -833,6 +845,14 @@
   },
   "cn-wang122.mp3": {
     "text": "网",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-wang2-ex.mp3": {
+    "text": "主",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-wang2.mp3": {
+    "text": "王",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-wei.mp3": {
@@ -1039,6 +1059,10 @@
     "text": "玉",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-yuan.mp3": {
+    "text": "円",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-yue.mp3": {
     "text": "曰",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1087,6 +1111,14 @@
     "text": "止",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-zhong-ex.mp3": {
+    "text": "忠",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-zhong.mp3": {
+    "text": "中",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-zhou.mp3": {
     "text": "舟",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1133,6 +1165,14 @@
   },
   "jp-bao-ex.mp3": {
     "text": "つつむ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-ben-ex.mp3": {
+    "text": "からだ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-ben.mp3": {
+    "text": "ホン",
     "voice": "ja-JP-NanamiNeural"
   },
   "jp-bu-ex.mp3": {
@@ -1399,6 +1439,14 @@
     "text": "いと",
     "voice": "ja-JP-NanamiNeural"
   },
+  "jp-tian-ex.mp3": {
+    "text": "おとこ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-tian.mp3": {
+    "text": "た",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "jp-tian1.mp3": {
     "text": "テン",
     "voice": "ja-JP-NanamiNeural"
@@ -1417,6 +1465,14 @@
   },
   "jp-wan.mp3": {
     "text": "まる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-wang2-ex.mp3": {
+    "text": "ぬし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-wang2.mp3": {
+    "text": "オウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "jp-wu3-ex.mp3": {
@@ -1487,6 +1543,10 @@
     "text": "あたえる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "jp-yuan.mp3": {
+    "text": "エン",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "jp-zhi.mp3": {
     "text": "これ",
     "voice": "ja-JP-NanamiNeural"
@@ -1497,6 +1557,14 @@
   },
   "jp-zhi77.mp3": {
     "text": "シ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-zhong-ex.mp3": {
+    "text": "チュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-zhong.mp3": {
+    "text": "なか",
     "voice": "ja-JP-NanamiNeural"
   },
   "jp-zi-ex.mp3": {

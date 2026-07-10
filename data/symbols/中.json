@@ -1,0 +1,58 @@
+{
+  "glyph": "中",
+  "cp": "U+4E2D",
+  "slug": "zhong",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "中",
+      "reading": "zhōng",
+      "gloss": "middle; centre",
+      "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
+      "appearsIn": {
+        "char": "忠",
+        "reading": "zhōng",
+        "gloss": "loyal"
+      }
+    },
+    "jp": {
+      "name": "中",
+      "reading": "なか",
+      "gloss": "middle; inside",
+      "extra": "漢字「中」(なか · チュウ) · 中に、中国",
+      "appearsIn": {
+        "char": "忠",
+        "reading": "チュウ",
+        "gloss": "loyalty"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Middle",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Middle",
+      "readings": [
+        "チュウ"
+      ],
+      "on": true,
+      "kun": [
+        "なか"
+      ],
+      "level": 2
+    }
+  ]
+}

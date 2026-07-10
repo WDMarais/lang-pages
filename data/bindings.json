@@ -1431,6 +1431,235 @@
       }
     },
     {
+      "id": "b:田@cn",
+      "glyph_id": "g:田",
+      "lang": "cn",
+      "name": "田",
+      "readings": [
+        "tián"
+      ],
+      "gloss": "field",
+      "extra": "康熙部首 102 · 象形（阡陌纵横的农田）· 田地、水田",
+      "appearsIn": {
+        "glyph": "男",
+        "reading": "nán",
+        "gloss": "male"
+      }
+    },
+    {
+      "id": "b:田@jp",
+      "glyph_id": "g:田",
+      "lang": "jp",
+      "name": "田",
+      "readings": [
+        "た"
+      ],
+      "gloss": "rice paddy",
+      "extra": "漢字「田」(た · デン) · 田んぼ、水田",
+      "appearsIn": {
+        "glyph": "男",
+        "reading": "おとこ",
+        "gloss": "man"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Rice Paddy",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Rice Paddy",
+          "readings": [
+            "デン"
+          ],
+          "on": true,
+          "kun": [
+            "た"
+          ],
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:中@cn",
+      "glyph_id": "g:中",
+      "lang": "cn",
+      "name": "中",
+      "readings": [
+        "zhōng"
+      ],
+      "gloss": "middle; centre",
+      "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
+      "appearsIn": {
+        "glyph": "忠",
+        "reading": "zhōng",
+        "gloss": "loyal"
+      }
+    },
+    {
+      "id": "b:中@jp",
+      "glyph_id": "g:中",
+      "lang": "jp",
+      "name": "中",
+      "readings": [
+        "なか"
+      ],
+      "gloss": "middle; inside",
+      "extra": "漢字「中」(なか · チュウ) · 中に、中国",
+      "appearsIn": {
+        "glyph": "忠",
+        "reading": "チュウ",
+        "gloss": "loyalty"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Middle",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Middle",
+          "readings": [
+            "チュウ"
+          ],
+          "on": true,
+          "kun": [
+            "なか"
+          ],
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:王@cn",
+      "glyph_id": "g:王",
+      "lang": "cn",
+      "name": "王",
+      "readings": [
+        "wáng"
+      ],
+      "gloss": "king",
+      "extra": "三横一竖 · 「玉」去一点 · 作偏旁称「王字旁」(玉 康熙部首 96)",
+      "appearsIn": {
+        "glyph": "主",
+        "reading": "zhǔ",
+        "gloss": "master; host"
+      }
+    },
+    {
+      "id": "b:王@jp",
+      "glyph_id": "g:王",
+      "lang": "jp",
+      "name": "王",
+      "readings": [
+        "オウ"
+      ],
+      "gloss": "king",
+      "extra": "漢字「王」(オウ) · 部首「おうへん 王」は「玉」の変形",
+      "appearsIn": {
+        "glyph": "主",
+        "reading": "ぬし",
+        "gloss": "master; owner"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "King",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "King",
+          "readings": [
+            "オウ"
+          ],
+          "on": true,
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:本@cn",
+      "glyph_id": "g:本",
+      "lang": "cn",
+      "name": "本",
+      "readings": [
+        "běn"
+      ],
+      "gloss": "root; origin",
+      "extra": "木 + 一 · 指事「树根所在」· 本来、课本",
+      "appearsIn": {
+        "glyph": "体",
+        "reading": "tǐ",
+        "gloss": "body"
+      }
+    },
+    {
+      "id": "b:本@jp",
+      "glyph_id": "g:本",
+      "lang": "jp",
+      "name": "本",
+      "readings": [
+        "ホン"
+      ],
+      "gloss": "book; origin",
+      "extra": "漢字「本」(ホン · もと) · 本を読む、日本",
+      "appearsIn": {
+        "glyph": "体",
+        "reading": "からだ",
+        "gloss": "body"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Book",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Book",
+          "readings": [
+            "ホン"
+          ],
+          "on": true,
+          "kun": [
+            "もと"
+          ],
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:円@cn",
+      "glyph_id": "g:円",
+      "lang": "cn",
+      "name": "円",
+      "readings": [
+        "yuán"
+      ],
+      "gloss": "circle; yen",
+      "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
+    },
+    {
+      "id": "b:円@jp",
+      "glyph_id": "g:円",
+      "lang": "jp",
+      "name": "円",
+      "readings": [
+        "エン"
+      ],
+      "gloss": "yen; circle",
+      "extra": "漢字「円」(エン · まる) · 旧字体「圓」· 百円",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Yen",
+          "readings": [
+            "エン"
+          ],
+          "on": true,
+          "kun": [
+            "まる"
+          ],
+          "level": 2
+        }
+      }
+    },
+    {
       "id": "b:夕@cn",
       "glyph_id": "g:夕",
       "lang": "cn",
@@ -2446,7 +2675,7 @@
       "program": {
         "source": "wanikani",
         "name": "Circle",
-        "level": 2,
+        "level": 13,
         "kind": "meaning",
         "kanji": {
           "name": "Circle",
@@ -2496,7 +2725,16 @@
         "source": "wanikani",
         "name": "Street",
         "level": 2,
-        "kind": "mnemonic"
+        "kind": "mnemonic",
+        "kanji": {
+          "name": "Street",
+          "readings": [
+            "チョウ",
+            "テイ"
+          ],
+          "on": true,
+          "level": 2
+        }
       }
     },
     {
@@ -3903,26 +4141,6 @@
       "name": "用",
       "readings": [],
       "gloss": "use",
-      "extra": ""
-    },
-    {
-      "id": "b:田@cn",
-      "glyph_id": "g:田",
-      "lang": "cn",
-      "name": "田",
-      "readings": [
-        "tián"
-      ],
-      "gloss": "field",
-      "extra": "康熙部首 102"
-    },
-    {
-      "id": "b:田@jp",
-      "glyph_id": "g:田",
-      "lang": "jp",
-      "name": "田",
-      "readings": [],
-      "gloss": "field",
       "extra": ""
     },
     {

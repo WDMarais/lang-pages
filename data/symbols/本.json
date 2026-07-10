@@ -1,0 +1,58 @@
+{
+  "glyph": "本",
+  "cp": "U+672C",
+  "slug": "ben",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "本",
+      "reading": "běn",
+      "gloss": "root; origin",
+      "extra": "木 + 一 · 指事「树根所在」· 本来、课本",
+      "appearsIn": {
+        "char": "体",
+        "reading": "tǐ",
+        "gloss": "body"
+      }
+    },
+    "jp": {
+      "name": "本",
+      "reading": "ホン",
+      "gloss": "book; origin",
+      "extra": "漢字「本」(ホン · もと) · 本を読む、日本",
+      "appearsIn": {
+        "char": "体",
+        "reading": "からだ",
+        "gloss": "body"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Book",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Book",
+      "readings": [
+        "ホン"
+      ],
+      "on": true,
+      "kun": [
+        "もと"
+      ],
+      "level": 2
+    }
+  ]
+}

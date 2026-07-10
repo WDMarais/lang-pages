@@ -290,6 +290,51 @@
       "role": "semantic"
     },
     {
+      "from": "g:田",
+      "to": "r:field",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:田",
+      "to": "g:男",
+      "kind": "composes"
+    },
+    {
+      "from": "g:中",
+      "to": "r:middle",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:中",
+      "to": "g:忠",
+      "kind": "composes"
+    },
+    {
+      "from": "g:王",
+      "to": "r:king",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:王",
+      "to": "g:主",
+      "kind": "composes"
+    },
+    {
+      "from": "g:本",
+      "to": "r:root",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:本",
+      "to": "g:体",
+      "kind": "composes"
+    },
+    {
+      "from": "g:円",
+      "to": "r:circle",
+      "kind": "denotes"
+    },
+    {
       "from": "g:夕",
       "to": "r:evening",
       "kind": "denotes"
@@ -870,11 +915,6 @@
     {
       "from": "g:用",
       "to": "r:use",
-      "kind": "denotes"
-    },
-    {
-      "from": "g:田",
-      "to": "r:field",
       "kind": "denotes"
     },
     {
@@ -1583,8 +1623,23 @@
       "kind": "composes"
     },
     {
+      "from": "g:口",
+      "to": "g:中",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:中",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:丸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:主",
       "kind": "composes"
     },
     {
@@ -1638,6 +1693,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:亻",
+      "to": "g:体",
+      "kind": "composes"
+    },
+    {
       "from": "g:丿",
       "to": "g:儿",
       "kind": "composes"
@@ -1675,6 +1735,16 @@
     {
       "from": "g:人",
       "to": "g:内",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:円",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丄",
+      "to": "g:円",
       "kind": "composes"
     },
     {
@@ -2056,6 +2126,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:心",
+      "to": "g:忠",
+      "kind": "composes"
+    },
+    {
       "from": "g:尸",
       "to": "g:戶",
       "kind": "composes"
@@ -2185,6 +2260,16 @@
     {
       "from": "g:八",
       "to": "g:木",
+      "kind": "composes"
+    },
+    {
+      "from": "g:木",
+      "to": "g:本",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:本",
       "kind": "composes"
     },
     {
@@ -2348,6 +2433,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:一",
+      "to": "g:王",
+      "kind": "composes"
+    },
+    {
+      "from": "g:土",
+      "to": "g:王",
+      "kind": "composes"
+    },
+    {
       "from": "g:厶",
       "to": "g:瓜",
       "kind": "composes"
@@ -2385,11 +2480,6 @@
     {
       "from": "g:土",
       "to": "g:田",
-      "kind": "composes"
-    },
-    {
-      "from": "g:田",
-      "to": "g:男",
       "kind": "composes"
     },
     {
@@ -3585,6 +3675,26 @@
     {
       "from": "w:力いっぱい",
       "to": "r:full-power",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:上",
+      "to": "w:上る",
+      "kind": "composes"
+    },
+    {
+      "from": "w:上る",
+      "to": "r:climb",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:おはよう",
+      "to": "r:good-morning",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:ホテル",
+      "to": "r:hotel",
       "kind": "denotes"
     }
   ]

@@ -39,6 +39,18 @@
       "name": "Street",
       "kind": "mnemonic",
       "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Street",
+      "readings": [
+        "チョウ",
+        "テイ"
+      ],
+      "on": true,
+      "level": 2
     }
   ]
 }
