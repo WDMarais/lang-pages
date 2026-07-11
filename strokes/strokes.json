@@ -6,12 +6,13 @@
       "cards": [
         {
           "glyph": "㇐",
-          "slug": "heng",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "heng2",
           "cnExAudioKey": "yi1",
+          "jpAudioKey": "yokokaku",
+          "jpExAudioKey": "ichi",
           "cn": {
             "name": "横", "reading": "héng", "gloss": "horizontal stroke",
             "extra": "写成汉字就是 一 (yī)「one」· 康熙部首 1",
@@ -26,12 +27,13 @@
         },
         {
           "glyph": "丨",
-          "slug": "shu",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "shu4",
           "cnExAudioKey": "shi2",
+          "jpAudioKey": "tatekaku",
+          "jpExAudioKey": "juu",
           "cn": {
             "name": "竖", "reading": "shù", "gloss": "vertical stroke",
             "extra": "康熙部首 2「丨 gǔn」",
@@ -47,12 +49,13 @@
         },
         {
           "glyph": "丿",
-          "slug": "pie",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "pie3",
           "cnExAudioKey": "ren2",
+          "jpAudioKey": "hidaribarai",
+          "jpExAudioKey": "hito",
           "cn": {
             "name": "撇", "reading": "piě", "gloss": "left-falling stroke",
             "extra": "康熙部首 4「丿 piě」",
@@ -68,12 +71,13 @@
         },
         {
           "glyph": "㇏",
-          "slug": "na",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "na4",
           "cnExAudioKey": "ba1",
+          "jpAudioKey": "migibarai",
+          "jpExAudioKey": "hachi",
           "cn": {
             "name": "捺", "reading": "nà", "gloss": "right-falling stroke",
             "extra": "撇与捺常成对 (如 人、八)",
@@ -88,12 +92,13 @@
         },
         {
           "glyph": "丶",
-          "slug": "dian",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "dian3",
           "cnExAudioKey": "quan3",
+          "jpAudioKey": "ten",
+          "jpExAudioKey": "inu",
           "cn": {
             "name": "点", "reading": "diǎn", "gloss": "dot stroke",
             "extra": "康熙部首 3「丶 zhǔ」",
@@ -109,12 +114,13 @@
         },
         {
           "glyph": "㇀",
-          "slug": "ti",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "ti2",
           "cnExAudioKey": "da3",
+          "jpAudioKey": "hane",
+          "jpExAudioKey": "utsu",
           "cn": {
             "name": "提", "reading": "tí", "gloss": "rising stroke",
             "extra": "向右上挑 (如 扌 的末笔)",
@@ -129,12 +135,13 @@
         },
         {
           "glyph": "乛",
-          "slug": "zhe",
           "tag": "stroke",
           "image": "",
           "hw": true,
           "cnAudioKey": "zhe2",
           "cnExAudioKey": "kou3",
+          "jpAudioKey": "ore",
+          "jpExAudioKey": "kuchi",
           "cn": {
             "name": "折", "reading": "zhé", "gloss": "turning stroke",
             "extra": "一笔之中改变方向 (如 横折)",
@@ -149,11 +156,13 @@
         },
         {
           "glyph": "亅",
-          "slug": "shugou",
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shugou",
           "cnExAudioKey": "xiao3",
+          "jpAudioKey": "hanebou",
+          "jpExAudioKey": "chiisai",
           "cn": {
             "name": "竖钩", "reading": "shùgōu", "gloss": "vertical hook",
             "extra": "康熙部首 6「亅 jué」",
@@ -169,11 +178,13 @@
         },
         {
           "glyph": "㇆",
-          "slug": "hengzhegou",
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "hengzhegou",
           "cnExAudioKey": "li4",
+          "jpAudioKey": "ousetsukou",
+          "jpExAudioKey": "chikara",
           "cn": {
             "name": "横折钩", "reading": "héngzhégōu", "gloss": "horizontal-fold hook",
             "extra": "先横后竖、末端带钩 (如 力、勹、刀)",
@@ -188,11 +199,13 @@
         },
         {
           "glyph": "㇛",
-          "slug": "piedian",
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "piedian",
           "cnExAudioKey": "nv3",
+          "jpAudioKey": "hetsuten",
+          "jpExAudioKey": "onna",
           "cn": {
             "name": "撇点", "reading": "piědiǎn", "gloss": "left-fall then dot",
             "extra": "撇后顺势接反捺 (女 的首笔)",

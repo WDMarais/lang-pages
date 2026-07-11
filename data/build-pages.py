@@ -23,10 +23,10 @@ import json, sys
 from collections import defaultdict
 
 from paths import ROOT, DATA, read_json
-from phonetics import audio_key
 from symbols_io import (
     load_symbols,
     to_card,
+    card_audio_keys,
     referent_slug,
     on_strokes,
     on_kangxi,
@@ -37,16 +37,13 @@ from symbols_io import (
 )
 
 
-def stamp_cn_audio(card):
-    """Stamp the CN syllable-bank key(s) so cards3.js can resolve audio to the shared
-    /audio/cn/ bank without any normalization of its own. A single bank-eligible
-    reading gets cnAudioKey (千→qian1); its example reading gets cnExAudioKey. Multi-
-    syllable readings (stroke names) get neither and fall back to the per-slug clip."""
-    cn = card.get("cn") or {}
-    if k := audio_key(cn.get("reading")):
-        card["cnAudioKey"] = k
-    if k := audio_key((cn.get("appearsIn") or {}).get("reading")):
-        card["cnExAudioKey"] = k
+def stamp_audio(card):
+    """Stamp the content-keyed bank keys so cards3.js resolves audio with no
+    normalization of its own: cnAudioKey/cnExAudioKey → /audio/cn/, jpAudioKey/
+    jpExAudioKey → /audio/jp/. Both sides are keyed by *sound* (千→qian1, セン→sen),
+    never by the glyph — the reason the per-symbol slug is gone. card_audio_keys is
+    the single definition, shared with build-graph's graph-panel nodes."""
+    card.update(card_audio_keys(card.get("cn"), card.get("jp")))
 
 
 def load_referents():
@@ -91,9 +88,9 @@ def lang_block(v):
 
 def emit_card(c):
     L = ["        {"]
-    for k in ("glyph", "slug", "tag", "image", "hw"):
+    for k in ("glyph", "tag", "image", "hw"):
         L.append(f'          {s(k)}: {s(c[k])},')
-    for k in ("cnAudioKey", "cnExAudioKey"):  # optional — present only for bank-eligible readings
+    for k in ("cnAudioKey", "cnExAudioKey", "jpAudioKey", "jpExAudioKey"):  # present only for readings with a sound key
         if k in c:
             L.append(f'          {s(k)}: {s(c[k])},')
     L.append(f'          "cn": {lang_block(c["cn"])},')
@@ -132,8 +129,7 @@ def build_kangxi_page(syms):
         if e["num"] in by_num:
             c = to_card(by_num[e["num"]])
             c["kx"] = e["num"]
-            c["audioBase"] = "../radicals/"   # JP (+ non-bank CN) per-slug clip bucket
-            stamp_cn_audio(c)                 # CN single-syllable audio → /audio/cn/ bank
+            stamp_audio(c)                    # CN + JP audio → /audio/{cn,jp}/ banks
             attach_referents(c, refmap)
             real += 1
         else:
@@ -150,8 +146,7 @@ def build_kangxi_page(syms):
 
     annex = [to_card(s) for s in syms.values() if on_components(s)]
     for c in annex:
-        c["audioBase"] = "../radicals/"
-        stamp_cn_audio(c)
+        stamp_audio(c)
         attach_referents(c, refmap)
     if annex:
         groups.append({"title": "非部首部件", "sub": "non-Kangxi components", "cards": annex})
@@ -176,7 +171,7 @@ def main():
     for name, path, rule in pages:
         cards = [to_card(sym) for sym in syms.values() if rule(sym)]
         for c in cards:
-            stamp_cn_audio(c)
+            stamp_audio(c)
         path.parent.mkdir(exist_ok=True)
         text = dump_cardfile(cards)
         # validity + content check: reparse must equal the projected cards

@@ -10,21 +10,20 @@
 // = the four-column comparison card; 'radical' = the lighter /kangxi/ card.
 let LAYOUT = '';
 
-// Page-level audio bucket, set from <div id="cards" data-audio-base="…">. Default ''
-// = the page's own audio/ dir; /characters/ + /kangxi/ set "../radicals/" to share the
-// one non-stroke glyph-audio asset bucket. A per-card `audioBase` still overrides this.
-let AUDIO_BASE = '';
-
-// CN audio resolves to the shared, content-keyed syllable bank (/audio/cn/<key>.mp3)
-// when build-pages stamped a bank key on the card — every character reading qiān
-// shares one clip. Multi-syllable readings (stroke names) carry no key and fall back
-// to the per-slug clip in the page's bucket. JP audio is never banked (words aren't
-// syllable-assemblable), so it always uses the per-slug path.
+// Audio resolves to the shared, content-keyed banks that build-pages stamped onto
+// the card: /audio/cn/<key>.mp3 (千→qian1, stroke names→hengzhegou) and
+// /audio/jp/<key>.mp3 (セン→sen). Keyed by SOUND, not the glyph — so every reading
+// qiān shares one clip and no per-card slug is needed. A readingless view carries no
+// key; its play button isn't rendered (langView gates on the reading).
 const CN_BANK = '/audio/cn/';
+const JP_BANK = '/audio/jp/';
 function cnSrc(c, ex) {
   const key = ex ? c.cnExAudioKey : c.cnAudioKey;
-  if (key) return `${CN_BANK}${key}.mp3`;
-  return `${c.audioBase || AUDIO_BASE}audio/cn-${c.slug}${ex ? '-ex' : ''}.mp3`;
+  return key ? `${CN_BANK}${key}.mp3` : '';
+}
+function jpSrc(c, ex) {
+  const key = ex ? c.jpExAudioKey : c.jpAudioKey;
+  return key ? `${JP_BANK}${key}.mp3` : '';
 }
 
 function diagram(c) {
@@ -256,7 +255,7 @@ function renderCard(c) {
       <div class="sc-views">
         ${pdView(c.pd, c.pdc)}
         ${langView('v-cn', '中文', c.cn, cnSrc(c, false), cnSrc(c, true))}
-        ${langView('v-jp', '日本語', c.jp, `${c.audioBase || AUDIO_BASE}audio/jp-${c.slug}.mp3`, `${c.audioBase || AUDIO_BASE}audio/jp-${c.slug}-ex.mp3`)}
+        ${langView('v-jp', '日本語', c.jp, jpSrc(c, false), jpSrc(c, true))}
         ${wkView(c.wk, c.kanji)}
       </div>
     </div>`;
@@ -304,12 +303,11 @@ function refCollage(referents) {
 // images get added. The full gallery rides a hidden detail block for Phase 2.
 function renderKangxiCard(c) {
   if (c.stub) return renderStub(c);
-  const base = c.audioBase || AUDIO_BASE;
   const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
   const readings = html`
         <div class="rk-readings">
           ${readingLine('rk-cn', c.cn, cnSrc(c, false))}
-          ${readingLine('rk-jp', c.jp, `${base}audio/jp-${c.slug}.mp3`)}
+          ${readingLine('rk-jp', c.jp, jpSrc(c, false))}
         </div>`;
   const collage = refCollage(c.referents);
   if (!collage) {
@@ -401,7 +399,6 @@ function initHanzi() {
 const host = document.getElementById('cards');
 if (host) {
   LAYOUT = host.dataset.layout || '';
-  AUDIO_BASE = host.dataset.audioBase || '';
   if (LAYOUT === 'radical') host.classList.add('rk-host');  // break the tile grid out wider
   fetch(host.dataset.src)
     .then(r => r.json())

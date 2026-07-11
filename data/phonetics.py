@@ -71,6 +71,22 @@ def audio_key(reading):
     return f"{base}{tone}"
 
 
+def multi_key(reading):
+    """Companion to audio_key for the handful of multi-syllable stroke names it
+    returns None for (héngzhégōu → 'hengzhegou'): strip the tones to an ASCII base so
+    those clips are content-keyed too, not slug-keyed. None for empty/non-ASCII."""
+    if not reading:
+        return None
+    base, _ = strip_tone(reading)
+    return base if base and base.isascii() and base.isalpha() else None
+
+
+def cn_key(reading):
+    """The CN bank key for any reading: the single-syllable key when there is one
+    (qiān → qian1), else the multi-syllable base (shùgōu → shugou)."""
+    return audio_key(reading) or multi_key(reading)
+
+
 # ── pinyin → zhuyin (注音/Bopomofo) ────────────────────────────────────────────
 # For the Taiwan phonetic column on the syllable page. Input is the ASCII base from
 # strip_tone (no tone mark; ü already 'v'). Zhuyin has no letters for the syllabic

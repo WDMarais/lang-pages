@@ -20,6 +20,7 @@ from paths import DATA, read_json, write_json
 from symbols_io import (
     load_symbols,
     to_card,
+    card_audio_keys,
     referent_slug,
     bind_programs,
     unbind_programs,
@@ -99,8 +100,12 @@ def build():
             g = c["glyph"]
             nodes[f"g:{g}"] = {
                 "id": f"g:{g}", "kind": "glyph", "glyph": g,
-                "tier": TIER[c["tag"]], "slug": c["slug"], "source": src,
+                "tier": TIER[c["tag"]], "source": src,
                 "media": {"hw": c.get("hw", False), "image": c.get("image", "")},
+                # content-keyed bank keys for the graph detail panel (renderCard →
+                # cnSrc/jpSrc). NOT part of the round-tripped card — stamped on the
+                # node only. Same definition build-pages uses, so they can't drift.
+                **card_audio_keys(c["cn"], c["jp"]),
             }
             bindings.append(make_binding(g, "cn", c["cn"], c))
             bindings.append(make_binding(g, "jp", c["jp"], c))
@@ -156,7 +161,7 @@ def build():
             wid = f"w:{w['surface']}"
             node = {"id": wid, "kind": "word", "tier": "word",
                     "audience": w["audience"], "glyph": w["surface"],
-                    "slug": w["slug"], "reading": w.get("reading", ""),
+                    "reading": w.get("reading", ""),
                     "gloss": w.get("gloss", "")}
             if w.get("okurigana"):
                 node["okurigana"] = w["okurigana"]
@@ -220,7 +225,7 @@ def project_cards(source, nodes, bindings):
         g = n["glyph"]
         cn, jp = bb[f"b:{g}@cn"], bb[f"b:{g}@jp"]
         card = {
-            "glyph": g, "slug": n["slug"], "tag": TAG[n["tier"]],
+            "glyph": g, "tag": TAG[n["tier"]],
             "image": n["media"]["image"], "hw": n["media"]["hw"],
             "cn": view(cn),
             "jp": view(jp),

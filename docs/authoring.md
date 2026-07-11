@@ -33,7 +33,7 @@ the projection.
  fetched (do NOT hand-edit):
    data/decomposition.json      ◀─ fetch-decomp.py   (Make-Me-a-Hanzi IDS + stroke overrides)
    shared/referents/*           ◀─ fetch-referent.py (Wikimedia Commons)
-   */audio/*.mp3                ◀─ gen-audio.py       (edge-tts)
+   audio/{cn,jp,kana}/*.mp3     ◀─ gen-audio.py       (edge-tts; content-keyed banks)
 ```
 
 ---
@@ -44,9 +44,8 @@ the projection.
 
 | field | req | notes |
 |---|---|---|
-| `glyph` | ✓ | the character; also the filename |
+| `glyph` | ✓ | the character; also the filename — **the** symbol identity |
 | `cp` | ✓ | codepoint, `"U+5927"` |
-| `slug` | ✓ | ASCII key (audio filenames, referent lookup) |
 | `class` | ✓ | `stroke` \| `comp` \| `char` — drives page membership |
 | `kangxi` | – | Kangxi radical number (present → shows on `/kangxi/`) |
 | `form` | ✓ | `{ "hw": bool, "image": str }` — `hw` = has HanziWriter stroke data |
@@ -102,7 +101,7 @@ So the real first move is **route + resolve**, before any file is written:
   course lookup (WK `level`) rather than fabricate it — the registry skips an absent
   `level` cleanly, so an under-filled program is honest, not broken.
 - **Derive** the mechanical fields the prompt omits — `cp`, `kangxi` number,
-  decomposition, `slug`. (A scaffolder should do this — see Known debt.)
+  decomposition. (A scaffolder should do this — see Known debt.)
 
 Then, per routed item:
 
@@ -145,10 +144,13 @@ Then, per routed item:
 
 7. **Generate audio** → `python3 data/gen-audio.py all` (or a specific module)
    Needs `uv tool install edge-tts`. `--dry-run` to preview. Sourced from the symbol
-   set (load_symbols → to_card), not page files. Non-stroke glyph audio lands in the
-   shared `radicals/audio/` bucket, which `/characters/` and `/kangxi/` both fetch from
-   via a page-level `data-audio-base="../radicals/"` (cards3.js); strokes keeps its own
-   `strokes/audio/`.
+   set (load_symbols → to_card), not page files. All glyph audio is **content-keyed by
+   sound** in site-level banks — `/audio/cn/<pinyin+tone>.mp3` (+ multi-syllable stroke
+   names like `shugou`) and `/audio/jp/<romaji>.mp3` — voiced once and shared by every
+   glyph that reads it. build-pages stamps `cnAudioKey`/`jpAudioKey` on each card and
+   cards3.js resolves the bank path (`cnSrc`/`jpSrc`); there are no per-page audio
+   buckets. Keys come from one place: `symbols_io.card_audio_keys` (CN `phonetics.cn_key`,
+   JP `phonetics_jp.kana_key`).
 
 8. **Sanity-check locally** → serve the root (`python3 -m http.server`) and open the
    affected pages + `/graph/`.
@@ -224,7 +226,7 @@ Surfaced while tracing; not yet fixed. Ranked roughly by bite:
 5. **`composes` field on symbols is vestigial** — sparsely authored and not the edge
    source. Either make it authoritative (feed the graph) or drop it.
 6. **Card scaffolder (high leverage for ingest).** Nothing turns a bare glyph into a
-   symbol stub; `cp`, `class`, `kangxi` #, decomposition, and `slug` are looked up by
+   symbol stub; `cp`, `class`, `kangxi` #, and decomposition are looked up by
    hand every time. A `data/scaffold.py <glyph>…` emitting a stub with those derived
    and `TODO` markers on the judgment fields (readings, program `kind`) would cut most
    of the per-glyph toil in Step 1.

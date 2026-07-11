@@ -5,12 +5,15 @@
       "kind": "glyph",
       "glyph": "一",
       "tier": "char",
-      "slug": "yi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi1",
+      "cnExAudioKey": "san1",
+      "jpAudioKey": "ichi",
+      "jpExAudioKey": "san"
     },
     {
       "id": "r:one",
@@ -22,12 +25,15 @@
       "kind": "glyph",
       "glyph": "八",
       "tier": "char",
-      "slug": "ba",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ba1",
+      "cnExAudioKey": "fen1",
+      "jpAudioKey": "hachi",
+      "jpExAudioKey": "wakeru"
     },
     {
       "id": "r:eight",
@@ -46,12 +52,15 @@
       "kind": "glyph",
       "glyph": "二",
       "tier": "char",
-      "slug": "er",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "er4",
+      "cnExAudioKey": "yuan2",
+      "jpAudioKey": "ni",
+      "jpExAudioKey": "gen"
     },
     {
       "id": "r:two",
@@ -70,12 +79,13 @@
       "kind": "glyph",
       "glyph": "三",
       "tier": "char",
-      "slug": "san",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "san1",
+      "jpAudioKey": "mittsu"
     },
     {
       "id": "r:three",
@@ -87,12 +97,14 @@
       "kind": "glyph",
       "glyph": "亠",
       "tier": "component",
-      "slug": "lid",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "tou2",
+      "cnExAudioKey": "liu4",
+      "jpExAudioKey": "roku"
     },
     {
       "id": "r:lid",
@@ -104,12 +116,15 @@
       "kind": "glyph",
       "glyph": "大",
       "tier": "char",
-      "slug": "da",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "da4",
+      "cnExAudioKey": "tian1",
+      "jpAudioKey": "dai",
+      "jpExAudioKey": "ten"
     },
     {
       "id": "r:big",
@@ -121,12 +136,13 @@
       "kind": "glyph",
       "glyph": "天",
       "tier": "char",
-      "slug": "tian1",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "tian1",
+      "jpAudioKey": "ten"
     },
     {
       "id": "r:sky",
@@ -138,12 +154,15 @@
       "kind": "glyph",
       "glyph": "小",
       "tier": "char",
-      "slug": "xiao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xiao3",
+      "cnExAudioKey": "shao3",
+      "jpAudioKey": "chiisai",
+      "jpExAudioKey": "shou"
     },
     {
       "id": "r:small",
@@ -162,12 +181,15 @@
       "kind": "glyph",
       "glyph": "人",
       "tier": "char",
-      "slug": "ren",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ren2",
+      "cnExAudioKey": "jin1",
+      "jpAudioKey": "hito",
+      "jpExAudioKey": "ima"
     },
     {
       "id": "r:person",
@@ -186,12 +208,13 @@
       "kind": "glyph",
       "glyph": "亻",
       "tier": "component",
-      "slug": "danren",
       "source": "radicals",
       "media": {
         "hw": false,
         "image": ""
-      }
+      },
+      "cnExAudioKey": "xiu1",
+      "jpExAudioKey": "yasu"
     },
     {
       "id": "g:休",
@@ -205,12 +228,15 @@
       "kind": "glyph",
       "glyph": "入",
       "tier": "char",
-      "slug": "ru",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ru4",
+      "cnExAudioKey": "quan2",
+      "jpAudioKey": "hairu",
+      "jpExAudioKey": "zen"
     },
     {
       "id": "r:enter",
@@ -229,12 +255,15 @@
       "kind": "glyph",
       "glyph": "力",
       "tier": "char",
-      "slug": "li",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "li4",
+      "cnExAudioKey": "nan2",
+      "jpAudioKey": "chikara",
+      "jpExAudioKey": "otoko"
     },
     {
       "id": "r:power",
@@ -253,12 +282,14 @@
       "kind": "glyph",
       "glyph": "勹",
       "tier": "component",
-      "slug": "bao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bao1",
+      "cnExAudioKey": "bao1",
+      "jpExAudioKey": "tsutsumu"
     },
     {
       "id": "r:wrap",
@@ -277,12 +308,15 @@
       "kind": "glyph",
       "glyph": "口",
       "tier": "char",
-      "slug": "kou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "kou3",
+      "cnExAudioKey": "ming2",
+      "jpAudioKey": "kuchi",
+      "jpExAudioKey": "mei"
     },
     {
       "id": "r:mouth",
@@ -301,12 +335,15 @@
       "kind": "glyph",
       "glyph": "女",
       "tier": "char",
-      "slug": "nv",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "nv3",
+      "cnExAudioKey": "hao3",
+      "jpAudioKey": "onna",
+      "jpExAudioKey": "suki"
     },
     {
       "id": "r:woman",
@@ -325,12 +362,15 @@
       "kind": "glyph",
       "glyph": "子",
       "tier": "char",
-      "slug": "zi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zi3",
+      "cnExAudioKey": "zi4",
+      "jpAudioKey": "ko",
+      "jpExAudioKey": "ji"
     },
     {
       "id": "r:child",
@@ -349,12 +389,15 @@
       "kind": "glyph",
       "glyph": "七",
       "tier": "char",
-      "slug": "qi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qi1",
+      "cnExAudioKey": "qie1",
+      "jpAudioKey": "nana",
+      "jpExAudioKey": "kiru"
     },
     {
       "id": "r:seven",
@@ -373,12 +416,15 @@
       "kind": "glyph",
       "glyph": "九",
       "tier": "char",
-      "slug": "jiu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jiu3",
+      "cnExAudioKey": "wan2",
+      "jpAudioKey": "kyuu",
+      "jpExAudioKey": "maru"
     },
     {
       "id": "r:nine",
@@ -390,12 +436,15 @@
       "kind": "glyph",
       "glyph": "十",
       "tier": "char",
-      "slug": "shi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi2",
+      "cnExAudioKey": "gu3",
+      "jpAudioKey": "juu",
+      "jpExAudioKey": "furui"
     },
     {
       "id": "r:ten",
@@ -414,12 +463,15 @@
       "kind": "glyph",
       "glyph": "千",
       "tier": "char",
-      "slug": "qian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qian1",
+      "cnExAudioKey": "she2",
+      "jpAudioKey": "sen",
+      "jpExAudioKey": "shita"
     },
     {
       "id": "r:thousand",
@@ -431,12 +483,15 @@
       "kind": "glyph",
       "glyph": "五",
       "tier": "char",
-      "slug": "wu3",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wu3",
+      "cnExAudioKey": "wu2",
+      "jpAudioKey": "go",
+      "jpExAudioKey": "ware"
     },
     {
       "id": "r:five",
@@ -455,12 +510,13 @@
       "kind": "glyph",
       "glyph": "六",
       "tier": "char",
-      "slug": "liu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "liu4",
+      "jpAudioKey": "roku"
     },
     {
       "id": "r:six",
@@ -472,12 +528,13 @@
       "kind": "glyph",
       "glyph": "𠂉",
       "tier": "component",
-      "slug": "gun",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnExAudioKey": "wu3",
+      "jpExAudioKey": "go"
     },
     {
       "id": "r:pie-heng-component",
@@ -496,12 +553,14 @@
       "kind": "glyph",
       "glyph": "ト",
       "tier": "component",
-      "slug": "toe",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bu3",
+      "cnExAudioKey": "wai4",
+      "jpExAudioKey": "soto"
     },
     {
       "id": "r:divination",
@@ -520,12 +579,14 @@
       "kind": "glyph",
       "glyph": "メ",
       "tier": "component",
-      "slug": "me",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi4",
+      "cnExAudioKey": "wen2",
+      "jpExAudioKey": "bun"
     },
     {
       "id": "r:govern",
@@ -537,12 +598,15 @@
       "kind": "glyph",
       "glyph": "川",
       "tier": "char",
-      "slug": "chuan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chuan1",
+      "cnExAudioKey": "zhou1",
+      "jpAudioKey": "kawa",
+      "jpExAudioKey": "shuu"
     },
     {
       "id": "r:river",
@@ -561,12 +625,15 @@
       "kind": "glyph",
       "glyph": "工",
       "tier": "char",
-      "slug": "gong",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gong1",
+      "cnExAudioKey": "jiang1",
+      "jpAudioKey": "kou",
+      "jpExAudioKey": "kou"
     },
     {
       "id": "r:work",
@@ -585,12 +652,15 @@
       "kind": "glyph",
       "glyph": "山",
       "tier": "char",
-      "slug": "shan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shan1",
+      "cnExAudioKey": "yan2",
+      "jpAudioKey": "yama",
+      "jpExAudioKey": "iwa"
     },
     {
       "id": "r:mountain",
@@ -609,12 +679,15 @@
       "kind": "glyph",
       "glyph": "止",
       "tier": "char",
-      "slug": "zhi77",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi3",
+      "cnExAudioKey": "zheng4",
+      "jpAudioKey": "shi",
+      "jpExAudioKey": "sei"
     },
     {
       "id": "r:stop",
@@ -633,12 +706,15 @@
       "kind": "glyph",
       "glyph": "木",
       "tier": "char",
-      "slug": "mu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mu4",
+      "cnExAudioKey": "lin2",
+      "jpAudioKey": "ki",
+      "jpExAudioKey": "hayashi"
     },
     {
       "id": "r:tree",
@@ -657,12 +733,15 @@
       "kind": "glyph",
       "glyph": "日",
       "tier": "char",
-      "slug": "ri",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ri4",
+      "cnExAudioKey": "ming2",
+      "jpAudioKey": "hi",
+      "jpExAudioKey": "akarui"
     },
     {
       "id": "r:sun",
@@ -681,12 +760,15 @@
       "kind": "glyph",
       "glyph": "田",
       "tier": "char",
-      "slug": "tian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "tian2",
+      "cnExAudioKey": "nan2",
+      "jpAudioKey": "ta",
+      "jpExAudioKey": "otoko"
     },
     {
       "id": "r:field",
@@ -698,12 +780,15 @@
       "kind": "glyph",
       "glyph": "中",
       "tier": "char",
-      "slug": "zhong",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhong1",
+      "cnExAudioKey": "zhong1",
+      "jpAudioKey": "naka",
+      "jpExAudioKey": "chuu"
     },
     {
       "id": "r:middle",
@@ -722,12 +807,15 @@
       "kind": "glyph",
       "glyph": "王",
       "tier": "char",
-      "slug": "wang2",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wang2",
+      "cnExAudioKey": "zhu3",
+      "jpAudioKey": "ou",
+      "jpExAudioKey": "nushi"
     },
     {
       "id": "r:king",
@@ -746,12 +834,15 @@
       "kind": "glyph",
       "glyph": "本",
       "tier": "char",
-      "slug": "ben",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ben3",
+      "cnExAudioKey": "ti3",
+      "jpAudioKey": "hon",
+      "jpExAudioKey": "karada"
     },
     {
       "id": "r:root",
@@ -770,12 +861,13 @@
       "kind": "glyph",
       "glyph": "円",
       "tier": "char",
-      "slug": "yuan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yuan2",
+      "jpAudioKey": "en"
     },
     {
       "id": "r:circle",
@@ -787,12 +879,15 @@
       "kind": "glyph",
       "glyph": "夕",
       "tier": "char",
-      "slug": "xi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xi1",
+      "cnExAudioKey": "wai4",
+      "jpAudioKey": "yuu",
+      "jpExAudioKey": "soto"
     },
     {
       "id": "r:evening",
@@ -804,12 +899,13 @@
       "kind": "glyph",
       "glyph": "上",
       "tier": "char",
-      "slug": "shang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shang4",
+      "jpAudioKey": "ue"
     },
     {
       "id": "r:above",
@@ -821,12 +917,13 @@
       "kind": "glyph",
       "glyph": "下",
       "tier": "char",
-      "slug": "xia",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xia4",
+      "jpAudioKey": "shita"
     },
     {
       "id": "r:below",
@@ -838,12 +935,15 @@
       "kind": "glyph",
       "glyph": "水",
       "tier": "char",
-      "slug": "shui",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shui3",
+      "cnExAudioKey": "bing1",
+      "jpAudioKey": "mizu",
+      "jpExAudioKey": "koori"
     },
     {
       "id": "r:water",
@@ -869,12 +969,15 @@
       "kind": "glyph",
       "glyph": "土",
       "tier": "char",
-      "slug": "tu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "tu3",
+      "cnExAudioKey": "di4",
+      "jpAudioKey": "tsuchi",
+      "jpExAudioKey": "chi"
     },
     {
       "id": "r:earth",
@@ -893,12 +996,15 @@
       "kind": "glyph",
       "glyph": "刀",
       "tier": "char",
-      "slug": "dao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "dao1",
+      "cnExAudioKey": "fen1",
+      "jpAudioKey": "katana",
+      "jpExAudioKey": "wakeru"
     },
     {
       "id": "r:knife",
@@ -910,12 +1016,15 @@
       "kind": "glyph",
       "glyph": "弓",
       "tier": "char",
-      "slug": "gongbow",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gong1",
+      "cnExAudioKey": "yin3",
+      "jpAudioKey": "yumi",
+      "jpExAudioKey": "hiku"
     },
     {
       "id": "r:bow",
@@ -934,12 +1043,13 @@
       "kind": "glyph",
       "glyph": "糸",
       "tier": "char",
-      "slug": "si",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mi4",
+      "jpAudioKey": "ito"
     },
     {
       "id": "r:silk",
@@ -951,12 +1061,13 @@
       "kind": "glyph",
       "glyph": "白",
       "tier": "char",
-      "slug": "bai",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bai2",
+      "jpAudioKey": "shiro"
     },
     {
       "id": "r:white",
@@ -968,12 +1079,13 @@
       "kind": "glyph",
       "glyph": "泉",
       "tier": "char",
-      "slug": "quan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "quan2",
+      "jpAudioKey": "izumi"
     },
     {
       "id": "r:spring",
@@ -985,12 +1097,13 @@
       "kind": "glyph",
       "glyph": "線",
       "tier": "char",
-      "slug": "xian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xian4",
+      "jpAudioKey": "sen"
     },
     {
       "id": "r:line",
@@ -1002,12 +1115,15 @@
       "kind": "glyph",
       "glyph": "火",
       "tier": "char",
-      "slug": "huo",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "huo3",
+      "cnExAudioKey": "yan2",
+      "jpAudioKey": "hi",
+      "jpExAudioKey": "honoo"
     },
     {
       "id": "r:fire",
@@ -1026,12 +1142,15 @@
       "kind": "glyph",
       "glyph": "犬",
       "tier": "char",
-      "slug": "quan94",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "quan3",
+      "cnExAudioKey": "fu2",
+      "jpAudioKey": "inu",
+      "jpExAudioKey": "fuseru"
     },
     {
       "id": "r:dog",
@@ -1050,12 +1169,13 @@
       "kind": "glyph",
       "glyph": "向",
       "tier": "char",
-      "slug": "xiang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xiang4",
+      "jpAudioKey": "muku"
     },
     {
       "id": "r:toward",
@@ -1067,12 +1187,14 @@
       "kind": "glyph",
       "glyph": "儿",
       "tier": "component",
-      "slug": "legs",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "er2",
+      "cnExAudioKey": "yuan2",
+      "jpExAudioKey": "gen"
     },
     {
       "id": "r:legs",
@@ -1084,12 +1206,14 @@
       "kind": "glyph",
       "glyph": "厂",
       "tier": "component",
-      "slug": "han",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "han4",
+      "cnExAudioKey": "yuan2",
+      "jpExAudioKey": "gen"
     },
     {
       "id": "r:cliff",
@@ -1108,12 +1232,14 @@
       "kind": "glyph",
       "glyph": "尸",
       "tier": "component",
-      "slug": "shi1",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi1",
+      "cnExAudioKey": "wu1",
+      "jpExAudioKey": "ya"
     },
     {
       "id": "r:corpse",
@@ -1132,12 +1258,15 @@
       "kind": "glyph",
       "glyph": "先",
       "tier": "char",
-      "slug": "xian1",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xian1",
+      "cnExAudioKey": "xi3",
+      "jpAudioKey": "saki",
+      "jpExAudioKey": "arau"
     },
     {
       "id": "r:first",
@@ -1156,12 +1285,15 @@
       "kind": "glyph",
       "glyph": "以",
       "tier": "char",
-      "slug": "yi3",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi3",
+      "cnExAudioKey": "si4",
+      "jpAudioKey": "motte",
+      "jpExAudioKey": "niru"
     },
     {
       "id": "r:by-means-of",
@@ -1180,12 +1312,13 @@
       "kind": "glyph",
       "glyph": "之",
       "tier": "char",
-      "slug": "zhi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi1",
+      "jpAudioKey": "kore"
     },
     {
       "id": "r:of",
@@ -1197,12 +1330,15 @@
       "kind": "glyph",
       "glyph": "合",
       "tier": "char",
-      "slug": "he2",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "he2",
+      "cnExAudioKey": "da2",
+      "jpAudioKey": "au",
+      "jpExAudioKey": "tou"
     },
     {
       "id": "r:close",
@@ -1221,12 +1357,15 @@
       "kind": "glyph",
       "glyph": "父",
       "tier": "char",
-      "slug": "fu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fu4",
+      "cnExAudioKey": "fu3",
+      "jpAudioKey": "chichi",
+      "jpExAudioKey": "ono"
     },
     {
       "id": "r:father",
@@ -1245,12 +1384,14 @@
       "kind": "glyph",
       "glyph": "宀",
       "tier": "component",
-      "slug": "mian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mian2",
+      "cnExAudioKey": "jia1",
+      "jpExAudioKey": "ie"
     },
     {
       "id": "r:roof",
@@ -1269,12 +1410,15 @@
       "kind": "glyph",
       "glyph": "不",
       "tier": "char",
-      "slug": "bu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bu4",
+      "cnExAudioKey": "fou3",
+      "jpAudioKey": "fu",
+      "jpExAudioKey": "ina"
     },
     {
       "id": "r:not",
@@ -1293,12 +1437,13 @@
       "kind": "glyph",
       "glyph": "业",
       "tier": "char",
-      "slug": "ye",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ye4",
+      "jpAudioKey": "waza"
     },
     {
       "id": "r:industry",
@@ -1310,12 +1455,13 @@
       "kind": "glyph",
       "glyph": "与",
       "tier": "char",
-      "slug": "yu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yu3",
+      "jpAudioKey": "ataeru"
     },
     {
       "id": "r:and",
@@ -1327,12 +1473,15 @@
       "kind": "glyph",
       "glyph": "手",
       "tier": "char",
-      "slug": "shou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shou3",
+      "cnExAudioKey": "quan2",
+      "jpAudioKey": "te",
+      "jpExAudioKey": "kobushi"
     },
     {
       "id": "r:hand",
@@ -1351,12 +1500,13 @@
       "kind": "glyph",
       "glyph": "丸",
       "tier": "char",
-      "slug": "wan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wan2",
+      "jpAudioKey": "maru"
     },
     {
       "id": "r:ball",
@@ -1368,12 +1518,15 @@
       "kind": "glyph",
       "glyph": "丁",
       "tier": "char",
-      "slug": "ding",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ding1",
+      "cnExAudioKey": "da3",
+      "jpAudioKey": "chou",
+      "jpExAudioKey": "utsu"
     },
     {
       "id": "r:4th",
@@ -1392,12 +1545,13 @@
       "kind": "glyph",
       "glyph": "ナ",
       "tier": "component",
-      "slug": "na",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnExAudioKey": "you3",
+      "jpExAudioKey": "tomo"
     },
     {
       "id": "r:left-hand-component",
@@ -1416,24 +1570,24 @@
       "kind": "glyph",
       "glyph": "𠂇",
       "tier": "component",
-      "slug": "zuo3",
       "source": "radicals",
       "media": {
         "hw": false,
         "image": ""
-      }
+      },
+      "cnExAudioKey": "you3"
     },
     {
       "id": "g:乚",
       "kind": "glyph",
       "glyph": "乚",
       "tier": "component",
-      "slug": "shuwangou",
       "source": "radicals",
       "media": {
         "hw": false,
         "image": ""
-      }
+      },
+      "cnExAudioKey": "ye3"
     },
     {
       "id": "r:hook-stroke",
@@ -1452,7 +1606,6 @@
       "kind": "glyph",
       "glyph": "丆",
       "tier": "component",
-      "slug": "leaf",
       "source": "radicals",
       "media": {
         "hw": false,
@@ -1469,12 +1622,15 @@
       "kind": "glyph",
       "glyph": "才",
       "tier": "char",
-      "slug": "cai",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "cai2",
+      "cnExAudioKey": "cai2",
+      "jpAudioKey": "sai",
+      "jpExAudioKey": "zai"
     },
     {
       "id": "r:talent",
@@ -1493,12 +1649,14 @@
       "kind": "glyph",
       "glyph": "冂",
       "tier": "component",
-      "slug": "jiong",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jiong1",
+      "cnExAudioKey": "nei4",
+      "jpExAudioKey": "uchi"
     },
     {
       "id": "r:down-box",
@@ -1517,12 +1675,12 @@
       "kind": "glyph",
       "glyph": "乙",
       "tier": "char",
-      "slug": "yi5",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi3"
     },
     {
       "id": "r:second",
@@ -1534,12 +1692,12 @@
       "kind": "glyph",
       "glyph": "冖",
       "tier": "component",
-      "slug": "mi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mi4"
     },
     {
       "id": "r:cover",
@@ -1551,12 +1709,12 @@
       "kind": "glyph",
       "glyph": "冫",
       "tier": "component",
-      "slug": "bing",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bing1"
     },
     {
       "id": "r:ice",
@@ -1568,12 +1726,12 @@
       "kind": "glyph",
       "glyph": "几",
       "tier": "char",
-      "slug": "ji",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ji1"
     },
     {
       "id": "r:table",
@@ -1585,12 +1743,12 @@
       "kind": "glyph",
       "glyph": "凵",
       "tier": "component",
-      "slug": "kan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "kan3"
     },
     {
       "id": "r:open-box",
@@ -1602,12 +1760,12 @@
       "kind": "glyph",
       "glyph": "匕",
       "tier": "char",
-      "slug": "bi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bi3"
     },
     {
       "id": "r:spoon",
@@ -1619,12 +1777,12 @@
       "kind": "glyph",
       "glyph": "匚",
       "tier": "component",
-      "slug": "fang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fang1"
     },
     {
       "id": "r:box",
@@ -1636,12 +1794,12 @@
       "kind": "glyph",
       "glyph": "匸",
       "tier": "component",
-      "slug": "xi23",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xi4"
     },
     {
       "id": "r:hiding-enclosure",
@@ -1653,24 +1811,24 @@
       "kind": "glyph",
       "glyph": "卜",
       "tier": "char",
-      "slug": "bu25",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bu3"
     },
     {
       "id": "g:卩",
       "kind": "glyph",
       "glyph": "卩",
       "tier": "component",
-      "slug": "jie",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jie2"
     },
     {
       "id": "r:seal",
@@ -1682,12 +1840,12 @@
       "kind": "glyph",
       "glyph": "厶",
       "tier": "component",
-      "slug": "si28",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "si1"
     },
     {
       "id": "r:private",
@@ -1699,12 +1857,12 @@
       "kind": "glyph",
       "glyph": "又",
       "tier": "char",
-      "slug": "you",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "you4"
     },
     {
       "id": "r:again",
@@ -1716,12 +1874,12 @@
       "kind": "glyph",
       "glyph": "囗",
       "tier": "char",
-      "slug": "wei",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wei2"
     },
     {
       "id": "r:enclosure",
@@ -1733,12 +1891,12 @@
       "kind": "glyph",
       "glyph": "士",
       "tier": "char",
-      "slug": "shi33",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi4"
     },
     {
       "id": "r:scholar",
@@ -1750,12 +1908,12 @@
       "kind": "glyph",
       "glyph": "夂",
       "tier": "component",
-      "slug": "zhi34",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi3"
     },
     {
       "id": "r:go",
@@ -1767,12 +1925,12 @@
       "kind": "glyph",
       "glyph": "夊",
       "tier": "component",
-      "slug": "sui",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "sui1"
     },
     {
       "id": "r:go-slowly",
@@ -1784,12 +1942,12 @@
       "kind": "glyph",
       "glyph": "寸",
       "tier": "char",
-      "slug": "cun",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "cun4"
     },
     {
       "id": "r:inch",
@@ -1801,12 +1959,12 @@
       "kind": "glyph",
       "glyph": "尢",
       "tier": "component",
-      "slug": "wang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wang1"
     },
     {
       "id": "r:lame",
@@ -1818,12 +1976,12 @@
       "kind": "glyph",
       "glyph": "屮",
       "tier": "component",
-      "slug": "che",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "che4"
     },
     {
       "id": "r:sprout",
@@ -1835,12 +1993,12 @@
       "kind": "glyph",
       "glyph": "己",
       "tier": "char",
-      "slug": "ji49",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ji3"
     },
     {
       "id": "r:oneself",
@@ -1852,12 +2010,12 @@
       "kind": "glyph",
       "glyph": "巾",
       "tier": "char",
-      "slug": "jin",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jin1"
     },
     {
       "id": "r:cloth",
@@ -1869,12 +2027,12 @@
       "kind": "glyph",
       "glyph": "干",
       "tier": "char",
-      "slug": "gan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gan1"
     },
     {
       "id": "r:dry",
@@ -1886,12 +2044,12 @@
       "kind": "glyph",
       "glyph": "幺",
       "tier": "component",
-      "slug": "yao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yao1"
     },
     {
       "id": "r:short-thread",
@@ -1903,12 +2061,12 @@
       "kind": "glyph",
       "glyph": "广",
       "tier": "char",
-      "slug": "guang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "guang3"
     },
     {
       "id": "r:shelter",
@@ -1920,12 +2078,12 @@
       "kind": "glyph",
       "glyph": "廴",
       "tier": "component",
-      "slug": "yin",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yin3"
     },
     {
       "id": "r:stride",
@@ -1937,12 +2095,12 @@
       "kind": "glyph",
       "glyph": "廾",
       "tier": "component",
-      "slug": "gong55",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gong3"
     },
     {
       "id": "r:two-hands",
@@ -1954,12 +2112,12 @@
       "kind": "glyph",
       "glyph": "弋",
       "tier": "char",
-      "slug": "yi56",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi4"
     },
     {
       "id": "r:shoot",
@@ -1971,12 +2129,12 @@
       "kind": "glyph",
       "glyph": "彐",
       "tier": "component",
-      "slug": "ji58",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ji4"
     },
     {
       "id": "r:snout",
@@ -1988,12 +2146,12 @@
       "kind": "glyph",
       "glyph": "彡",
       "tier": "char",
-      "slug": "shan59",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shan1"
     },
     {
       "id": "r:bristle",
@@ -2005,12 +2163,12 @@
       "kind": "glyph",
       "glyph": "彳",
       "tier": "char",
-      "slug": "chi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chi4"
     },
     {
       "id": "r:step",
@@ -2022,12 +2180,12 @@
       "kind": "glyph",
       "glyph": "心",
       "tier": "char",
-      "slug": "xin",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xin1"
     },
     {
       "id": "r:heart",
@@ -2039,12 +2197,12 @@
       "kind": "glyph",
       "glyph": "戈",
       "tier": "char",
-      "slug": "ge",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ge1"
     },
     {
       "id": "r:halberd",
@@ -2056,12 +2214,12 @@
       "kind": "glyph",
       "glyph": "戶",
       "tier": "char",
-      "slug": "hu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "hu4"
     },
     {
       "id": "r:door",
@@ -2073,12 +2231,12 @@
       "kind": "glyph",
       "glyph": "支",
       "tier": "char",
-      "slug": "zhi65",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi1"
     },
     {
       "id": "r:branch",
@@ -2090,12 +2248,12 @@
       "kind": "glyph",
       "glyph": "攴",
       "tier": "char",
-      "slug": "pu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "pu1"
     },
     {
       "id": "r:tap",
@@ -2107,12 +2265,12 @@
       "kind": "glyph",
       "glyph": "文",
       "tier": "char",
-      "slug": "wen",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wen2"
     },
     {
       "id": "r:script",
@@ -2124,12 +2282,12 @@
       "kind": "glyph",
       "glyph": "斗",
       "tier": "char",
-      "slug": "dou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "dou3"
     },
     {
       "id": "r:dipper",
@@ -2141,12 +2299,12 @@
       "kind": "glyph",
       "glyph": "斤",
       "tier": "char",
-      "slug": "jin69",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jin1"
     },
     {
       "id": "r:axe",
@@ -2158,12 +2316,12 @@
       "kind": "glyph",
       "glyph": "方",
       "tier": "char",
-      "slug": "fang70",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fang1"
     },
     {
       "id": "r:square",
@@ -2175,24 +2333,24 @@
       "kind": "glyph",
       "glyph": "无",
       "tier": "char",
-      "slug": "wu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wu2"
     },
     {
       "id": "g:曰",
       "kind": "glyph",
       "glyph": "曰",
       "tier": "char",
-      "slug": "yue",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yue1"
     },
     {
       "id": "r:say",
@@ -2204,12 +2362,15 @@
       "kind": "glyph",
       "glyph": "月",
       "tier": "char",
-      "slug": "yue74",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yue4",
+      "cnExAudioKey": "ming2",
+      "jpAudioKey": "tsuki",
+      "jpExAudioKey": "mei"
     },
     {
       "id": "r:moon",
@@ -2221,12 +2382,12 @@
       "kind": "glyph",
       "glyph": "欠",
       "tier": "char",
-      "slug": "qian76",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qian4"
     },
     {
       "id": "r:yawn",
@@ -2238,12 +2399,12 @@
       "kind": "glyph",
       "glyph": "歹",
       "tier": "char",
-      "slug": "dai",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "dai3"
     },
     {
       "id": "r:death",
@@ -2255,12 +2416,12 @@
       "kind": "glyph",
       "glyph": "殳",
       "tier": "char",
-      "slug": "shu79",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shu1"
     },
     {
       "id": "r:weapon",
@@ -2272,12 +2433,12 @@
       "kind": "glyph",
       "glyph": "毋",
       "tier": "char",
-      "slug": "wu80",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wu2"
     },
     {
       "id": "r:do-not",
@@ -2289,12 +2450,12 @@
       "kind": "glyph",
       "glyph": "比",
       "tier": "char",
-      "slug": "bi81",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bi3"
     },
     {
       "id": "r:compare",
@@ -2306,12 +2467,12 @@
       "kind": "glyph",
       "glyph": "毛",
       "tier": "char",
-      "slug": "mao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mao2"
     },
     {
       "id": "r:fur",
@@ -2323,12 +2484,12 @@
       "kind": "glyph",
       "glyph": "氏",
       "tier": "char",
-      "slug": "shi83",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi4"
     },
     {
       "id": "r:clan",
@@ -2340,12 +2501,12 @@
       "kind": "glyph",
       "glyph": "气",
       "tier": "char",
-      "slug": "qi84",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qi4"
     },
     {
       "id": "r:steam",
@@ -2357,12 +2518,12 @@
       "kind": "glyph",
       "glyph": "爪",
       "tier": "char",
-      "slug": "zhao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhao3"
     },
     {
       "id": "r:claw",
@@ -2374,12 +2535,12 @@
       "kind": "glyph",
       "glyph": "爻",
       "tier": "char",
-      "slug": "yao89",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yao2"
     },
     {
       "id": "r:trigram-lines",
@@ -2391,12 +2552,12 @@
       "kind": "glyph",
       "glyph": "爿",
       "tier": "component",
-      "slug": "qiang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qiang2"
     },
     {
       "id": "r:split-wood",
@@ -2408,12 +2569,12 @@
       "kind": "glyph",
       "glyph": "片",
       "tier": "char",
-      "slug": "pian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "pian4"
     },
     {
       "id": "r:slice",
@@ -2425,12 +2586,12 @@
       "kind": "glyph",
       "glyph": "牙",
       "tier": "char",
-      "slug": "ya",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ya2"
     },
     {
       "id": "r:fang",
@@ -2442,12 +2603,12 @@
       "kind": "glyph",
       "glyph": "牛",
       "tier": "char",
-      "slug": "niu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "niu2"
     },
     {
       "id": "r:cow",
@@ -2459,12 +2620,12 @@
       "kind": "glyph",
       "glyph": "玄",
       "tier": "char",
-      "slug": "xuan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xuan2"
     },
     {
       "id": "r:profound",
@@ -2476,12 +2637,12 @@
       "kind": "glyph",
       "glyph": "玉",
       "tier": "char",
-      "slug": "yu96",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yu4"
     },
     {
       "id": "r:jade",
@@ -2493,12 +2654,12 @@
       "kind": "glyph",
       "glyph": "瓜",
       "tier": "char",
-      "slug": "gua",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gua1"
     },
     {
       "id": "r:melon",
@@ -2510,12 +2671,12 @@
       "kind": "glyph",
       "glyph": "瓦",
       "tier": "char",
-      "slug": "wa",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wa3"
     },
     {
       "id": "r:tile",
@@ -2527,12 +2688,12 @@
       "kind": "glyph",
       "glyph": "甘",
       "tier": "char",
-      "slug": "gan99",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gan1"
     },
     {
       "id": "r:sweet",
@@ -2544,12 +2705,12 @@
       "kind": "glyph",
       "glyph": "生",
       "tier": "char",
-      "slug": "sheng",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "sheng1"
     },
     {
       "id": "r:life",
@@ -2561,12 +2722,12 @@
       "kind": "glyph",
       "glyph": "用",
       "tier": "char",
-      "slug": "yong",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yong4"
     },
     {
       "id": "r:use",
@@ -2578,12 +2739,12 @@
       "kind": "glyph",
       "glyph": "疋",
       "tier": "char",
-      "slug": "pi",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "pi3"
     },
     {
       "id": "r:bolt-of-cloth",
@@ -2595,12 +2756,12 @@
       "kind": "glyph",
       "glyph": "疒",
       "tier": "component",
-      "slug": "ne",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ne4"
     },
     {
       "id": "r:sickness",
@@ -2612,12 +2773,12 @@
       "kind": "glyph",
       "glyph": "癶",
       "tier": "component",
-      "slug": "bo",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bo1"
     },
     {
       "id": "r:footsteps",
@@ -2629,12 +2790,12 @@
       "kind": "glyph",
       "glyph": "皮",
       "tier": "char",
-      "slug": "pi107",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "pi2"
     },
     {
       "id": "r:skin",
@@ -2646,12 +2807,12 @@
       "kind": "glyph",
       "glyph": "皿",
       "tier": "char",
-      "slug": "min",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "min3"
     },
     {
       "id": "r:dish",
@@ -2663,12 +2824,12 @@
       "kind": "glyph",
       "glyph": "目",
       "tier": "char",
-      "slug": "mu109",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mu4"
     },
     {
       "id": "r:eye",
@@ -2680,12 +2841,12 @@
       "kind": "glyph",
       "glyph": "矛",
       "tier": "char",
-      "slug": "mao110",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mao2"
     },
     {
       "id": "r:spear",
@@ -2697,12 +2858,12 @@
       "kind": "glyph",
       "glyph": "矢",
       "tier": "char",
-      "slug": "shi111",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi3"
     },
     {
       "id": "r:arrow",
@@ -2714,12 +2875,12 @@
       "kind": "glyph",
       "glyph": "石",
       "tier": "char",
-      "slug": "shi112",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi2"
     },
     {
       "id": "r:stone",
@@ -2731,12 +2892,12 @@
       "kind": "glyph",
       "glyph": "示",
       "tier": "char",
-      "slug": "shi113",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi4"
     },
     {
       "id": "r:altar",
@@ -2748,12 +2909,12 @@
       "kind": "glyph",
       "glyph": "禸",
       "tier": "component",
-      "slug": "rou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "rou2"
     },
     {
       "id": "r:track",
@@ -2765,12 +2926,12 @@
       "kind": "glyph",
       "glyph": "禾",
       "tier": "char",
-      "slug": "he",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "he2"
     },
     {
       "id": "r:grain",
@@ -2782,12 +2943,12 @@
       "kind": "glyph",
       "glyph": "穴",
       "tier": "char",
-      "slug": "xue",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xue2"
     },
     {
       "id": "r:cave",
@@ -2799,12 +2960,12 @@
       "kind": "glyph",
       "glyph": "立",
       "tier": "char",
-      "slug": "li117",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "li4"
     },
     {
       "id": "r:stand",
@@ -2816,12 +2977,12 @@
       "kind": "glyph",
       "glyph": "竹",
       "tier": "char",
-      "slug": "zhu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhu2"
     },
     {
       "id": "r:bamboo",
@@ -2833,12 +2994,12 @@
       "kind": "glyph",
       "glyph": "米",
       "tier": "char",
-      "slug": "mi119",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mi3"
     },
     {
       "id": "r:rice",
@@ -2850,12 +3011,12 @@
       "kind": "glyph",
       "glyph": "缶",
       "tier": "char",
-      "slug": "fou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fou3"
     },
     {
       "id": "r:jar",
@@ -2867,12 +3028,12 @@
       "kind": "glyph",
       "glyph": "网",
       "tier": "char",
-      "slug": "wang122",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wang3"
     },
     {
       "id": "r:net",
@@ -2884,12 +3045,12 @@
       "kind": "glyph",
       "glyph": "羊",
       "tier": "char",
-      "slug": "yang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yang2"
     },
     {
       "id": "r:sheep",
@@ -2901,12 +3062,12 @@
       "kind": "glyph",
       "glyph": "羽",
       "tier": "char",
-      "slug": "yu124",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yu3"
     },
     {
       "id": "r:feather",
@@ -2918,12 +3079,12 @@
       "kind": "glyph",
       "glyph": "老",
       "tier": "char",
-      "slug": "lao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "lao3"
     },
     {
       "id": "r:old",
@@ -2935,24 +3096,24 @@
       "kind": "glyph",
       "glyph": "而",
       "tier": "char",
-      "slug": "er126",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "er2"
     },
     {
       "id": "g:耒",
       "kind": "glyph",
       "glyph": "耒",
       "tier": "char",
-      "slug": "lei",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "lei3"
     },
     {
       "id": "r:plow",
@@ -2964,12 +3125,12 @@
       "kind": "glyph",
       "glyph": "耳",
       "tier": "char",
-      "slug": "er128",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "er3"
     },
     {
       "id": "r:ear",
@@ -2981,12 +3142,12 @@
       "kind": "glyph",
       "glyph": "聿",
       "tier": "char",
-      "slug": "yu129",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yu4"
     },
     {
       "id": "r:brush",
@@ -2998,12 +3159,12 @@
       "kind": "glyph",
       "glyph": "肉",
       "tier": "char",
-      "slug": "rou130",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "rou4"
     },
     {
       "id": "r:meat",
@@ -3015,12 +3176,12 @@
       "kind": "glyph",
       "glyph": "臣",
       "tier": "char",
-      "slug": "chen",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chen2"
     },
     {
       "id": "r:minister",
@@ -3032,12 +3193,12 @@
       "kind": "glyph",
       "glyph": "自",
       "tier": "char",
-      "slug": "zi132",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zi4"
     },
     {
       "id": "r:self",
@@ -3049,12 +3210,12 @@
       "kind": "glyph",
       "glyph": "至",
       "tier": "char",
-      "slug": "zhi133",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi4"
     },
     {
       "id": "r:arrive",
@@ -3066,12 +3227,12 @@
       "kind": "glyph",
       "glyph": "臼",
       "tier": "char",
-      "slug": "jiu134",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jiu4"
     },
     {
       "id": "r:mortar",
@@ -3083,12 +3244,12 @@
       "kind": "glyph",
       "glyph": "舌",
       "tier": "char",
-      "slug": "she",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "she2"
     },
     {
       "id": "r:tongue",
@@ -3100,12 +3261,12 @@
       "kind": "glyph",
       "glyph": "舛",
       "tier": "char",
-      "slug": "chuan136",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chuan3"
     },
     {
       "id": "r:oppose",
@@ -3117,12 +3278,12 @@
       "kind": "glyph",
       "glyph": "舟",
       "tier": "char",
-      "slug": "zhou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhou1"
     },
     {
       "id": "r:boat",
@@ -3134,12 +3295,12 @@
       "kind": "glyph",
       "glyph": "艮",
       "tier": "char",
-      "slug": "gen",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gen4"
     },
     {
       "id": "r:stopping",
@@ -3151,12 +3312,12 @@
       "kind": "glyph",
       "glyph": "色",
       "tier": "char",
-      "slug": "se",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "se4"
     },
     {
       "id": "r:color",
@@ -3168,12 +3329,12 @@
       "kind": "glyph",
       "glyph": "艸",
       "tier": "char",
-      "slug": "cao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "cao3"
     },
     {
       "id": "r:grass",
@@ -3185,12 +3346,12 @@
       "kind": "glyph",
       "glyph": "虍",
       "tier": "component",
-      "slug": "hu141",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "hu1"
     },
     {
       "id": "r:tiger",
@@ -3202,12 +3363,12 @@
       "kind": "glyph",
       "glyph": "虫",
       "tier": "char",
-      "slug": "chong",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chong2"
     },
     {
       "id": "r:insect",
@@ -3219,12 +3380,12 @@
       "kind": "glyph",
       "glyph": "血",
       "tier": "char",
-      "slug": "xue143",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xue4"
     },
     {
       "id": "r:blood",
@@ -3236,12 +3397,12 @@
       "kind": "glyph",
       "glyph": "行",
       "tier": "char",
-      "slug": "xing",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xing2"
     },
     {
       "id": "r:walk",
@@ -3253,12 +3414,12 @@
       "kind": "glyph",
       "glyph": "衣",
       "tier": "char",
-      "slug": "yi145",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi1"
     },
     {
       "id": "r:clothes",
@@ -3270,24 +3431,24 @@
       "kind": "glyph",
       "glyph": "襾",
       "tier": "char",
-      "slug": "ya146",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ya4"
     },
     {
       "id": "g:見",
       "kind": "glyph",
       "glyph": "見",
       "tier": "char",
-      "slug": "jian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jian4"
     },
     {
       "id": "r:see",
@@ -3299,12 +3460,12 @@
       "kind": "glyph",
       "glyph": "角",
       "tier": "char",
-      "slug": "jiao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jiao3"
     },
     {
       "id": "r:horn",
@@ -3316,12 +3477,12 @@
       "kind": "glyph",
       "glyph": "言",
       "tier": "char",
-      "slug": "yan",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yan2"
     },
     {
       "id": "r:speech",
@@ -3333,12 +3494,12 @@
       "kind": "glyph",
       "glyph": "谷",
       "tier": "char",
-      "slug": "gu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gu3"
     },
     {
       "id": "r:valley",
@@ -3350,12 +3511,12 @@
       "kind": "glyph",
       "glyph": "豆",
       "tier": "char",
-      "slug": "dou151",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "dou4"
     },
     {
       "id": "r:bean",
@@ -3367,12 +3528,12 @@
       "kind": "glyph",
       "glyph": "豕",
       "tier": "char",
-      "slug": "shi152",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi3"
     },
     {
       "id": "r:pig",
@@ -3384,12 +3545,12 @@
       "kind": "glyph",
       "glyph": "豸",
       "tier": "char",
-      "slug": "zhi153",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi4"
     },
     {
       "id": "r:badger",
@@ -3401,12 +3562,12 @@
       "kind": "glyph",
       "glyph": "貝",
       "tier": "char",
-      "slug": "bei",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bei4"
     },
     {
       "id": "r:shell",
@@ -3418,12 +3579,12 @@
       "kind": "glyph",
       "glyph": "赤",
       "tier": "char",
-      "slug": "chi155",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chi4"
     },
     {
       "id": "r:red",
@@ -3435,12 +3596,12 @@
       "kind": "glyph",
       "glyph": "走",
       "tier": "char",
-      "slug": "zou",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zou3"
     },
     {
       "id": "r:run",
@@ -3452,12 +3613,12 @@
       "kind": "glyph",
       "glyph": "足",
       "tier": "char",
-      "slug": "zu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zu2"
     },
     {
       "id": "r:foot",
@@ -3469,12 +3630,12 @@
       "kind": "glyph",
       "glyph": "身",
       "tier": "char",
-      "slug": "shen",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shen1"
     },
     {
       "id": "r:body",
@@ -3486,12 +3647,12 @@
       "kind": "glyph",
       "glyph": "車",
       "tier": "char",
-      "slug": "che159",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "che1"
     },
     {
       "id": "r:cart",
@@ -3503,12 +3664,12 @@
       "kind": "glyph",
       "glyph": "辛",
       "tier": "char",
-      "slug": "xin160",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xin1"
     },
     {
       "id": "r:bitter",
@@ -3520,12 +3681,12 @@
       "kind": "glyph",
       "glyph": "辰",
       "tier": "char",
-      "slug": "chen161",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chen2"
     },
     {
       "id": "r:morning",
@@ -3537,24 +3698,24 @@
       "kind": "glyph",
       "glyph": "辵",
       "tier": "char",
-      "slug": "chuo",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chuo4"
     },
     {
       "id": "g:邑",
       "kind": "glyph",
       "glyph": "邑",
       "tier": "char",
-      "slug": "yi163",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yi4"
     },
     {
       "id": "r:city",
@@ -3566,12 +3727,12 @@
       "kind": "glyph",
       "glyph": "酉",
       "tier": "char",
-      "slug": "you164",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "you3"
     },
     {
       "id": "r:wine",
@@ -3583,12 +3744,12 @@
       "kind": "glyph",
       "glyph": "釆",
       "tier": "char",
-      "slug": "bian",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bian4"
     },
     {
       "id": "r:distinguish",
@@ -3600,12 +3761,12 @@
       "kind": "glyph",
       "glyph": "里",
       "tier": "char",
-      "slug": "li166",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "li3"
     },
     {
       "id": "r:village",
@@ -3617,12 +3778,12 @@
       "kind": "glyph",
       "glyph": "金",
       "tier": "char",
-      "slug": "jin167",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jin1"
     },
     {
       "id": "r:gold",
@@ -3634,12 +3795,12 @@
       "kind": "glyph",
       "glyph": "長",
       "tier": "char",
-      "slug": "chang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chang2"
     },
     {
       "id": "r:long",
@@ -3651,12 +3812,12 @@
       "kind": "glyph",
       "glyph": "門",
       "tier": "char",
-      "slug": "men",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "men2"
     },
     {
       "id": "r:gate",
@@ -3668,12 +3829,12 @@
       "kind": "glyph",
       "glyph": "阜",
       "tier": "char",
-      "slug": "fu170",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fu4"
     },
     {
       "id": "r:mound",
@@ -3685,12 +3846,12 @@
       "kind": "glyph",
       "glyph": "隶",
       "tier": "char",
-      "slug": "li171",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "li4"
     },
     {
       "id": "r:slave",
@@ -3702,12 +3863,12 @@
       "kind": "glyph",
       "glyph": "隹",
       "tier": "char",
-      "slug": "zhui",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhui1"
     },
     {
       "id": "r:short-tailed-bird",
@@ -3719,12 +3880,12 @@
       "kind": "glyph",
       "glyph": "雨",
       "tier": "char",
-      "slug": "yu173",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yu3"
     },
     {
       "id": "r:rain",
@@ -3736,12 +3897,12 @@
       "kind": "glyph",
       "glyph": "青",
       "tier": "char",
-      "slug": "qing",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qing1"
     },
     {
       "id": "r:blue-green",
@@ -3753,12 +3914,12 @@
       "kind": "glyph",
       "glyph": "非",
       "tier": "char",
-      "slug": "fei",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fei1"
     },
     {
       "id": "r:wrong",
@@ -3770,12 +3931,12 @@
       "kind": "glyph",
       "glyph": "面",
       "tier": "char",
-      "slug": "mian176",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mian4"
     },
     {
       "id": "r:face",
@@ -3787,12 +3948,12 @@
       "kind": "glyph",
       "glyph": "革",
       "tier": "char",
-      "slug": "ge177",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ge2"
     },
     {
       "id": "r:leather",
@@ -3804,12 +3965,12 @@
       "kind": "glyph",
       "glyph": "韋",
       "tier": "char",
-      "slug": "wei178",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "wei2"
     },
     {
       "id": "r:tanned-leather",
@@ -3821,12 +3982,12 @@
       "kind": "glyph",
       "glyph": "韭",
       "tier": "char",
-      "slug": "jiu179",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "jiu3"
     },
     {
       "id": "r:leek",
@@ -3838,12 +3999,12 @@
       "kind": "glyph",
       "glyph": "音",
       "tier": "char",
-      "slug": "yin180",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yin1"
     },
     {
       "id": "r:sound",
@@ -3855,12 +4016,12 @@
       "kind": "glyph",
       "glyph": "頁",
       "tier": "char",
-      "slug": "ye181",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ye4"
     },
     {
       "id": "r:head",
@@ -3872,12 +4033,12 @@
       "kind": "glyph",
       "glyph": "風",
       "tier": "char",
-      "slug": "feng",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "feng1"
     },
     {
       "id": "r:wind",
@@ -3889,12 +4050,12 @@
       "kind": "glyph",
       "glyph": "飛",
       "tier": "char",
-      "slug": "fei183",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "fei1"
     },
     {
       "id": "r:fly",
@@ -3906,12 +4067,12 @@
       "kind": "glyph",
       "glyph": "食",
       "tier": "char",
-      "slug": "shi184",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shi2"
     },
     {
       "id": "r:eat",
@@ -3923,24 +4084,24 @@
       "kind": "glyph",
       "glyph": "首",
       "tier": "char",
-      "slug": "shou185",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shou3"
     },
     {
       "id": "g:香",
       "kind": "glyph",
       "glyph": "香",
       "tier": "char",
-      "slug": "xiang186",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "xiang1"
     },
     {
       "id": "r:fragrant",
@@ -3952,12 +4113,12 @@
       "kind": "glyph",
       "glyph": "馬",
       "tier": "char",
-      "slug": "ma",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ma3"
     },
     {
       "id": "r:horse",
@@ -3969,12 +4130,12 @@
       "kind": "glyph",
       "glyph": "骨",
       "tier": "char",
-      "slug": "gu188",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gu3"
     },
     {
       "id": "r:bone",
@@ -3986,12 +4147,12 @@
       "kind": "glyph",
       "glyph": "高",
       "tier": "char",
-      "slug": "gao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gao1"
     },
     {
       "id": "r:tall",
@@ -4003,12 +4164,12 @@
       "kind": "glyph",
       "glyph": "髟",
       "tier": "component",
-      "slug": "biao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "biao1"
     },
     {
       "id": "r:long-hair",
@@ -4020,12 +4181,12 @@
       "kind": "glyph",
       "glyph": "鬥",
       "tier": "char",
-      "slug": "dou191",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "dou4"
     },
     {
       "id": "r:fight",
@@ -4037,12 +4198,12 @@
       "kind": "glyph",
       "glyph": "鬯",
       "tier": "char",
-      "slug": "chang192",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chang4"
     },
     {
       "id": "r:sacrificial-wine",
@@ -4054,12 +4215,12 @@
       "kind": "glyph",
       "glyph": "鬲",
       "tier": "char",
-      "slug": "li193",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "li4"
     },
     {
       "id": "r:cauldron",
@@ -4071,12 +4232,12 @@
       "kind": "glyph",
       "glyph": "鬼",
       "tier": "char",
-      "slug": "gui",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gui3"
     },
     {
       "id": "r:ghost",
@@ -4088,12 +4249,12 @@
       "kind": "glyph",
       "glyph": "魚",
       "tier": "char",
-      "slug": "yu195",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yu2"
     },
     {
       "id": "r:fish",
@@ -4105,12 +4266,12 @@
       "kind": "glyph",
       "glyph": "鳥",
       "tier": "char",
-      "slug": "niao",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "niao3"
     },
     {
       "id": "r:bird",
@@ -4122,12 +4283,12 @@
       "kind": "glyph",
       "glyph": "鹵",
       "tier": "char",
-      "slug": "lu",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "lu3"
     },
     {
       "id": "r:salt",
@@ -4139,12 +4300,12 @@
       "kind": "glyph",
       "glyph": "鹿",
       "tier": "char",
-      "slug": "lu198",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "lu4"
     },
     {
       "id": "r:deer",
@@ -4156,12 +4317,12 @@
       "kind": "glyph",
       "glyph": "麥",
       "tier": "char",
-      "slug": "mai",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "mai4"
     },
     {
       "id": "r:wheat",
@@ -4173,12 +4334,12 @@
       "kind": "glyph",
       "glyph": "麻",
       "tier": "char",
-      "slug": "ma200",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ma2"
     },
     {
       "id": "r:hemp",
@@ -4190,12 +4351,12 @@
       "kind": "glyph",
       "glyph": "黃",
       "tier": "char",
-      "slug": "huang",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "huang2"
     },
     {
       "id": "r:yellow",
@@ -4207,12 +4368,12 @@
       "kind": "glyph",
       "glyph": "黍",
       "tier": "char",
-      "slug": "shu202",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shu3"
     },
     {
       "id": "r:millet",
@@ -4224,12 +4385,12 @@
       "kind": "glyph",
       "glyph": "黑",
       "tier": "char",
-      "slug": "hei",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "hei1"
     },
     {
       "id": "r:black",
@@ -4241,12 +4402,12 @@
       "kind": "glyph",
       "glyph": "黹",
       "tier": "char",
-      "slug": "zhi204",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhi3"
     },
     {
       "id": "r:embroidery",
@@ -4258,12 +4419,12 @@
       "kind": "glyph",
       "glyph": "黽",
       "tier": "char",
-      "slug": "min205",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "min3"
     },
     {
       "id": "r:frog",
@@ -4275,12 +4436,12 @@
       "kind": "glyph",
       "glyph": "鼎",
       "tier": "char",
-      "slug": "ding206",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ding3"
     },
     {
       "id": "r:tripod",
@@ -4292,12 +4453,12 @@
       "kind": "glyph",
       "glyph": "鼓",
       "tier": "char",
-      "slug": "gu207",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gu3"
     },
     {
       "id": "r:drum",
@@ -4309,12 +4470,12 @@
       "kind": "glyph",
       "glyph": "鼠",
       "tier": "char",
-      "slug": "shu208",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shu3"
     },
     {
       "id": "r:rat",
@@ -4326,12 +4487,12 @@
       "kind": "glyph",
       "glyph": "鼻",
       "tier": "char",
-      "slug": "bi209",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "bi2"
     },
     {
       "id": "r:nose",
@@ -4343,12 +4504,12 @@
       "kind": "glyph",
       "glyph": "齊",
       "tier": "char",
-      "slug": "qi210",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "qi2"
     },
     {
       "id": "r:even",
@@ -4360,12 +4521,12 @@
       "kind": "glyph",
       "glyph": "齒",
       "tier": "char",
-      "slug": "chi211",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "chi3"
     },
     {
       "id": "r:tooth",
@@ -4377,12 +4538,12 @@
       "kind": "glyph",
       "glyph": "龍",
       "tier": "char",
-      "slug": "long",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "long2"
     },
     {
       "id": "r:dragon",
@@ -4394,12 +4555,12 @@
       "kind": "glyph",
       "glyph": "龜",
       "tier": "char",
-      "slug": "gui213",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "gui1"
     },
     {
       "id": "r:turtle",
@@ -4411,12 +4572,12 @@
       "kind": "glyph",
       "glyph": "龠",
       "tier": "char",
-      "slug": "yue214",
       "source": "radicals",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "yue4"
     },
     {
       "id": "r:flute",
@@ -4428,12 +4589,15 @@
       "kind": "glyph",
       "glyph": "㇐",
       "tier": "stroke",
-      "slug": "heng",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "heng2",
+      "cnExAudioKey": "yi1",
+      "jpAudioKey": "yokokaku",
+      "jpExAudioKey": "ichi"
     },
     {
       "id": "r:horizontal-stroke",
@@ -4445,12 +4609,15 @@
       "kind": "glyph",
       "glyph": "丨",
       "tier": "stroke",
-      "slug": "shu",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shu4",
+      "cnExAudioKey": "shi2",
+      "jpAudioKey": "tatekaku",
+      "jpExAudioKey": "juu"
     },
     {
       "id": "r:vertical-stroke",
@@ -4462,12 +4629,15 @@
       "kind": "glyph",
       "glyph": "丿",
       "tier": "stroke",
-      "slug": "pie",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "pie3",
+      "cnExAudioKey": "ren2",
+      "jpAudioKey": "hidaribarai",
+      "jpExAudioKey": "hito"
     },
     {
       "id": "r:left-falling-stroke",
@@ -4479,12 +4649,15 @@
       "kind": "glyph",
       "glyph": "㇏",
       "tier": "stroke",
-      "slug": "na",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "na4",
+      "cnExAudioKey": "ba1",
+      "jpAudioKey": "migibarai",
+      "jpExAudioKey": "hachi"
     },
     {
       "id": "r:right-falling-stroke",
@@ -4496,12 +4669,15 @@
       "kind": "glyph",
       "glyph": "丶",
       "tier": "stroke",
-      "slug": "dian",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "dian3",
+      "cnExAudioKey": "quan3",
+      "jpAudioKey": "ten",
+      "jpExAudioKey": "inu"
     },
     {
       "id": "r:dot-stroke",
@@ -4513,12 +4689,15 @@
       "kind": "glyph",
       "glyph": "㇀",
       "tier": "stroke",
-      "slug": "ti",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "ti2",
+      "cnExAudioKey": "da3",
+      "jpAudioKey": "hane",
+      "jpExAudioKey": "utsu"
     },
     {
       "id": "r:rising-stroke",
@@ -4530,12 +4709,15 @@
       "kind": "glyph",
       "glyph": "乛",
       "tier": "stroke",
-      "slug": "zhe",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "zhe2",
+      "cnExAudioKey": "kou3",
+      "jpAudioKey": "ore",
+      "jpExAudioKey": "kuchi"
     },
     {
       "id": "r:turning-stroke",
@@ -4547,12 +4729,15 @@
       "kind": "glyph",
       "glyph": "亅",
       "tier": "stroke",
-      "slug": "shugou",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "shugou",
+      "cnExAudioKey": "xiao3",
+      "jpAudioKey": "hanebou",
+      "jpExAudioKey": "chiisai"
     },
     {
       "id": "r:vertical-hook",
@@ -4564,12 +4749,15 @@
       "kind": "glyph",
       "glyph": "㇆",
       "tier": "stroke",
-      "slug": "hengzhegou",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "hengzhegou",
+      "cnExAudioKey": "li4",
+      "jpAudioKey": "ousetsukou",
+      "jpExAudioKey": "chikara"
     },
     {
       "id": "r:horizontal-fold-hook",
@@ -4581,12 +4769,15 @@
       "kind": "glyph",
       "glyph": "㇛",
       "tier": "stroke",
-      "slug": "piedian",
       "source": "strokes",
       "media": {
         "hw": true,
         "image": ""
-      }
+      },
+      "cnAudioKey": "piedian",
+      "cnExAudioKey": "nv3",
+      "jpAudioKey": "hetsuten",
+      "jpExAudioKey": "onna"
     },
     {
       "id": "r:left-fall-then-dot",
@@ -4900,7 +5091,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "七つ",
-      "slug": "nanatsu",
       "reading": "ななつ",
       "gloss": "seven things",
       "okurigana": "つ",
@@ -4916,7 +5106,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "二つ",
-      "slug": "futatsu",
       "reading": "ふたつ",
       "gloss": "two things",
       "okurigana": "つ",
@@ -4932,7 +5121,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "入る",
-      "slug": "hairu",
       "reading": "はいる",
       "gloss": "to enter",
       "okurigana": "る",
@@ -4948,7 +5136,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "八つ",
-      "slug": "yattsu",
       "reading": "やっつ",
       "gloss": "eight things",
       "okurigana": "つ",
@@ -4964,7 +5151,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "二人",
-      "slug": "futari",
       "reading": "ふたり",
       "gloss": "two people",
       "program": {
@@ -4984,7 +5170,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "一つ",
-      "slug": "hitotsu",
       "reading": "ひとつ",
       "gloss": "one thing",
       "okurigana": "つ",
@@ -5000,7 +5185,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "一人",
-      "slug": "hitori",
       "reading": "ひとり",
       "gloss": "one person",
       "program": {
@@ -5020,7 +5204,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "三つ",
-      "slug": "mittsu",
       "reading": "みっつ",
       "gloss": "three things",
       "okurigana": "つ",
@@ -5036,7 +5219,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "九つ",
-      "slug": "kokonotsu",
       "reading": "ここのつ",
       "gloss": "nine things",
       "okurigana": "つ",
@@ -5052,7 +5234,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "三人",
-      "slug": "sannin",
       "reading": "さんにん",
       "gloss": "three people",
       "program": {
@@ -5072,7 +5253,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "上げる",
-      "slug": "ageru",
       "reading": "あげる",
       "gloss": "to raise; lift up",
       "okurigana": "げる",
@@ -5093,7 +5273,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "下げる",
-      "slug": "sageru",
       "reading": "さげる",
       "gloss": "to lower something",
       "okurigana": "げる",
@@ -5114,7 +5293,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "下さい",
-      "slug": "kudasai",
       "reading": "ください",
       "gloss": "please (give me)",
       "okurigana": "さい",
@@ -5135,7 +5313,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "入り口",
-      "slug": "iriguchi",
       "reading": "いりぐち",
       "gloss": "entrance; entryway",
       "program": {
@@ -5155,7 +5332,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "大きい",
-      "slug": "ookii",
       "reading": "おおきい",
       "gloss": "big; large",
       "okurigana": "きい",
@@ -5171,7 +5347,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "大きさ",
-      "slug": "ookisa",
       "reading": "おおきさ",
       "gloss": "size",
       "okurigana": "きさ",
@@ -5192,7 +5367,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "大した",
-      "slug": "taishita",
       "reading": "たいした",
       "gloss": "great; considerable",
       "okurigana": "した",
@@ -5213,7 +5387,6 @@
       "tier": "word",
       "audience": "cn",
       "glyph": "大人",
-      "slug": "daren",
       "reading": "dàrén",
       "gloss": "adult; grown-up",
       "program": {
@@ -5233,7 +5406,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "人口",
-      "slug": "jinkou",
       "reading": "じんこう",
       "gloss": "population"
     },
@@ -5248,7 +5420,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "人工",
-      "slug": "jinkou",
       "reading": "じんこう",
       "gloss": "artificial; man-made",
       "program": {
@@ -5268,7 +5439,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "力いっぱい",
-      "slug": "chikaraippai",
       "reading": "ちからいっぱい",
       "gloss": "with all one's strength",
       "okurigana": "いっぱい",
@@ -5289,7 +5459,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "上る",
-      "slug": "noboru",
       "reading": "のぼる",
       "gloss": "to climb; to go up",
       "okurigana": "る",
@@ -5310,7 +5479,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "おはよう",
-      "slug": "ohayou",
       "reading": "おはよう",
       "gloss": "good morning",
       "program": {
@@ -5330,7 +5498,6 @@
       "tier": "word",
       "audience": "jp",
       "glyph": "ホテル",
-      "slug": "hoteru",
       "reading": "ホテル",
       "gloss": "hotel",
       "program": {
@@ -5350,7 +5517,6 @@
       "tier": "word",
       "audience": "cn",
       "glyph": "之中",
-      "slug": "zhizhong",
       "reading": "zhīzhōng",
       "gloss": "among; amidst; in the middle of",
       "program": {
@@ -5370,7 +5536,6 @@
       "tier": "word",
       "audience": "cn",
       "glyph": "从不",
-      "slug": "congbu",
       "reading": "cóngbù",
       "gloss": "never (in the past); never once",
       "program": {
@@ -5390,7 +5555,6 @@
       "tier": "word",
       "audience": "cn",
       "glyph": "之后",
-      "slug": "zhihou",
       "reading": "zhīhòu",
       "gloss": "after; afterwards; later",
       "program": {

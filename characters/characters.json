@@ -6,12 +6,13 @@
       "cards": [
         {
           "glyph": "一",
-          "slug": "yi",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "yi1",
           "cnExAudioKey": "san1",
+          "jpAudioKey": "ichi",
+          "jpExAudioKey": "san",
           "cn": {
             "name": "一", "reading": "yī", "gloss": "one",
             "extra": "一横 · 最简单的汉字 · 也是笔画「横」",
@@ -28,12 +29,13 @@
         },
         {
           "glyph": "八",
-          "slug": "ba",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ba1",
           "cnExAudioKey": "fen1",
+          "jpAudioKey": "hachi",
+          "jpExAudioKey": "wakeru",
           "cn": {
             "name": "八", "reading": "bā", "gloss": "eight",
             "extra": "撇 + 捺 · 作部件叫「八字头」",
@@ -50,12 +52,13 @@
         },
         {
           "glyph": "二",
-          "slug": "er",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "er4",
           "cnExAudioKey": "yuan2",
+          "jpAudioKey": "ni",
+          "jpExAudioKey": "gen",
           "cn": {
             "name": "二", "reading": "èr", "gloss": "two",
             "extra": "两个 横 · 也是数字「二」",
@@ -72,11 +75,11 @@
         },
         {
           "glyph": "三",
-          "slug": "san",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "san1",
+          "jpAudioKey": "mittsu",
           "cn": {
             "name": "三", "reading": "sān", "gloss": "three",
             "extra": "三横 · 一二三 同源，皆积横"
@@ -90,12 +93,13 @@
         },
         {
           "glyph": "大",
-          "slug": "da",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "da4",
           "cnExAudioKey": "tian1",
+          "jpAudioKey": "dai",
+          "jpExAudioKey": "ten",
           "cn": {
             "name": "大", "reading": "dà", "gloss": "big; huge; large",
             "extra": "一 + 人 形 · 也是汉字「大」",
@@ -113,11 +117,11 @@
         },
         {
           "glyph": "天",
-          "slug": "tian1",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "tian1",
+          "jpAudioKey": "ten",
           "cn": {
             "name": "天", "reading": "tiān", "gloss": "sky; heaven; day",
             "extra": "一 + 大 · 指事「人上之天」"
@@ -131,12 +135,13 @@
         },
         {
           "glyph": "小",
-          "slug": "xiao",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "xiao3",
           "cnExAudioKey": "shao3",
+          "jpAudioKey": "chiisai",
+          "jpExAudioKey": "shou",
           "cn": {
             "name": "小", "reading": "xiǎo", "gloss": "small; little",
             "extra": "康熙部首 42 · 与「大」相对 · 象形",
@@ -152,12 +157,13 @@
         },
         {
           "glyph": "人",
-          "slug": "ren",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ren2",
           "cnExAudioKey": "jin1",
+          "jpAudioKey": "hito",
+          "jpExAudioKey": "ima",
           "cn": {
             "name": "人", "reading": "rén", "gloss": "person",
             "extra": "撇 + 捺 · 注意与「入」之别",
@@ -174,12 +180,13 @@
         },
         {
           "glyph": "入",
-          "slug": "ru",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ru4",
           "cnExAudioKey": "quan2",
+          "jpAudioKey": "hairu",
+          "jpExAudioKey": "zen",
           "cn": {
             "name": "入", "reading": "rù", "gloss": "to enter",
             "extra": "左撇短，捺在上方起笔 · 易与「人」混",
@@ -196,12 +203,13 @@
         },
         {
           "glyph": "力",
-          "slug": "li",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "li4",
           "cnExAudioKey": "nan2",
+          "jpAudioKey": "chikara",
+          "jpExAudioKey": "otoko",
           "cn": {
             "name": "力", "reading": "lì", "gloss": "power; strength",
             "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
@@ -217,12 +225,13 @@
         },
         {
           "glyph": "口",
-          "slug": "kou",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "kou3",
           "cnExAudioKey": "ming2",
+          "jpAudioKey": "kuchi",
+          "jpExAudioKey": "mei",
           "cn": {
             "name": "口", "reading": "kǒu", "gloss": "mouth",
             "extra": "竖 + 横折 + 横 · 汉字「口」· 康熙部首 30",
@@ -239,12 +248,13 @@
         },
         {
           "glyph": "女",
-          "slug": "nv",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "nv3",
           "cnExAudioKey": "hao3",
+          "jpAudioKey": "onna",
+          "jpExAudioKey": "suki",
           "cn": {
             "name": "女", "reading": "nǚ", "gloss": "woman",
             "extra": "撇折 + 撇 + 横 · 汉字「女」· 康熙部首 38",
@@ -261,12 +271,13 @@
         },
         {
           "glyph": "子",
-          "slug": "zi",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "zi3",
           "cnExAudioKey": "zi4",
+          "jpAudioKey": "ko",
+          "jpExAudioKey": "ji",
           "cn": {
             "name": "子", "reading": "zǐ", "gloss": "child; son",
             "extra": "康熙部首 39 · 象形（婴儿）· 儿子、孩子",
@@ -282,12 +293,13 @@
         },
         {
           "glyph": "七",
-          "slug": "qi",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "qi1",
           "cnExAudioKey": "qie1",
+          "jpAudioKey": "nana",
+          "jpExAudioKey": "kiru",
           "cn": {
             "name": "七", "reading": "qī", "gloss": "seven",
             "extra": "横 + 竖弯钩 · 数字「七」",
@@ -303,12 +315,13 @@
         },
         {
           "glyph": "九",
-          "slug": "jiu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "jiu3",
           "cnExAudioKey": "wan2",
+          "jpAudioKey": "kyuu",
+          "jpExAudioKey": "maru",
           "cn": {
             "name": "九", "reading": "jiǔ", "gloss": "nine",
             "extra": "撇 + 横折弯钩 · 数字「九」",
@@ -324,12 +337,13 @@
         },
         {
           "glyph": "十",
-          "slug": "shi",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "shi2",
           "cnExAudioKey": "gu3",
+          "jpAudioKey": "juu",
+          "jpExAudioKey": "furui",
           "cn": {
             "name": "十", "reading": "shí", "gloss": "ten",
             "extra": "横 + 竖 · 数字「十」· 康熙部首 24",
@@ -345,12 +359,13 @@
         },
         {
           "glyph": "千",
-          "slug": "qian",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "qian1",
           "cnExAudioKey": "she2",
+          "jpAudioKey": "sen",
+          "jpExAudioKey": "shita",
           "cn": {
             "name": "千", "reading": "qiān", "gloss": "thousand",
             "extra": "撇 + 十 · 数字「千」· 千万、几千",
@@ -366,12 +381,13 @@
         },
         {
           "glyph": "五",
-          "slug": "wu3",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "wu3",
           "cnExAudioKey": "wu2",
+          "jpAudioKey": "go",
+          "jpExAudioKey": "ware",
           "cn": {
             "name": "五", "reading": "wǔ", "gloss": "five",
             "extra": "数字「五」",
@@ -387,11 +403,11 @@
         },
         {
           "glyph": "六",
-          "slug": "liu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "liu4",
+          "jpAudioKey": "roku",
           "cn": {
             "name": "六", "reading": "liù", "gloss": "six",
             "extra": "亠 + 八 · 数字「六」· 六月、六十"
@@ -405,12 +421,13 @@
         },
         {
           "glyph": "川",
-          "slug": "chuan",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "chuan1",
           "cnExAudioKey": "zhou1",
+          "jpAudioKey": "kawa",
+          "jpExAudioKey": "shuu",
           "cn": {
             "name": "川", "reading": "chuān", "gloss": "river",
             "extra": "三竖 · 象形「河流」· 康熙部首 47",
@@ -426,12 +443,13 @@
         },
         {
           "glyph": "工",
-          "slug": "gong",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "gong1",
           "cnExAudioKey": "jiang1",
+          "jpAudioKey": "kou",
+          "jpExAudioKey": "kou",
           "cn": {
             "name": "工", "reading": "gōng", "gloss": "work; labour",
             "extra": "横 + 竖 + 横 · 工具/工作 · 康熙部首 48",
@@ -447,12 +465,13 @@
         },
         {
           "glyph": "山",
-          "slug": "shan",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "shan1",
           "cnExAudioKey": "yan2",
+          "jpAudioKey": "yama",
+          "jpExAudioKey": "iwa",
           "cn": {
             "name": "山", "reading": "shān", "gloss": "mountain",
             "extra": "象形「三峰」· 康熙部首 46",
@@ -469,12 +488,13 @@
         },
         {
           "glyph": "止",
-          "slug": "zhi77",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "zhi3",
           "cnExAudioKey": "zheng4",
+          "jpAudioKey": "shi",
+          "jpExAudioKey": "sei",
           "cn": {
             "name": "止", "reading": "zhǐ", "gloss": "stop",
             "extra": "康熙部首 77 · 象形（脚趾）· 停止/禁止",
@@ -490,12 +510,13 @@
         },
         {
           "glyph": "木",
-          "slug": "mu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "mu4",
           "cnExAudioKey": "lin2",
+          "jpAudioKey": "ki",
+          "jpExAudioKey": "hayashi",
           "cn": {
             "name": "木", "reading": "mù", "gloss": "tree; wood",
             "extra": "横 + 竖 + 撇 + 捺 · 象形「树」· 康熙部首 75",
@@ -511,12 +532,13 @@
         },
         {
           "glyph": "日",
-          "slug": "ri",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ri4",
           "cnExAudioKey": "ming2",
+          "jpAudioKey": "hi",
+          "jpExAudioKey": "akarui",
           "cn": {
             "name": "日", "reading": "rì", "gloss": "sun; day",
             "extra": "象形「太阳」· 竖 横折 横 横 · 康熙部首 72",
@@ -534,12 +556,13 @@
         },
         {
           "glyph": "田",
-          "slug": "tian",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "tian2",
           "cnExAudioKey": "nan2",
+          "jpAudioKey": "ta",
+          "jpExAudioKey": "otoko",
           "cn": {
             "name": "田", "reading": "tián", "gloss": "field",
             "extra": "康熙部首 102 · 象形（阡陌纵横的农田）· 田地、水田",
@@ -555,12 +578,13 @@
         },
         {
           "glyph": "中",
-          "slug": "zhong",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "zhong1",
           "cnExAudioKey": "zhong1",
+          "jpAudioKey": "naka",
+          "jpExAudioKey": "chuu",
           "cn": {
             "name": "中", "reading": "zhōng", "gloss": "middle; centre",
             "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
@@ -576,12 +600,13 @@
         },
         {
           "glyph": "王",
-          "slug": "wang2",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "wang2",
           "cnExAudioKey": "zhu3",
+          "jpAudioKey": "ou",
+          "jpExAudioKey": "nushi",
           "cn": {
             "name": "王", "reading": "wáng", "gloss": "king",
             "extra": "三横一竖 · 「玉」去一点 · 作偏旁称「王字旁」(玉 康熙部首 96)",
@@ -597,12 +622,13 @@
         },
         {
           "glyph": "本",
-          "slug": "ben",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ben3",
           "cnExAudioKey": "ti3",
+          "jpAudioKey": "hon",
+          "jpExAudioKey": "karada",
           "cn": {
             "name": "本", "reading": "běn", "gloss": "root; origin",
             "extra": "木 + 一 · 指事「树根所在」· 本来、课本",
@@ -618,11 +644,11 @@
         },
         {
           "glyph": "円",
-          "slug": "yuan",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "yuan2",
+          "jpAudioKey": "en",
           "cn": {
             "name": "円", "reading": "yuán", "gloss": "circle; yen",
             "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
@@ -636,12 +662,13 @@
         },
         {
           "glyph": "夕",
-          "slug": "xi",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "xi1",
           "cnExAudioKey": "wai4",
+          "jpAudioKey": "yuu",
+          "jpExAudioKey": "soto",
           "cn": {
             "name": "夕", "reading": "xī", "gloss": "evening; dusk",
             "extra": "康熙部首 36 · 夕阳、七夕 · 象形（半月）",
@@ -657,11 +684,11 @@
         },
         {
           "glyph": "上",
-          "slug": "shang",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "shang4",
+          "jpAudioKey": "ue",
           "cn": {
             "name": "上", "reading": "shàng", "gloss": "above; up; on top",
             "extra": "指事字 · 基准线上方加标记 · 与「下」相对"
@@ -675,11 +702,11 @@
         },
         {
           "glyph": "下",
-          "slug": "xia",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "xia4",
+          "jpAudioKey": "shita",
           "cn": {
             "name": "下", "reading": "xià", "gloss": "below; down; under",
             "extra": "指事字 · 基准线下方加标记 · 与「上」相对"
@@ -693,12 +720,13 @@
         },
         {
           "glyph": "水",
-          "slug": "shui",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "shui3",
           "cnExAudioKey": "bing1",
+          "jpAudioKey": "mizu",
+          "jpExAudioKey": "koori",
           "cn": {
             "name": "水", "reading": "shuǐ", "gloss": "water",
             "extra": "象形「水流」· 康熙部首 85 · 作偏旁写作 氵",
@@ -713,12 +741,13 @@
         },
         {
           "glyph": "土",
-          "slug": "tu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "tu3",
           "cnExAudioKey": "di4",
+          "jpAudioKey": "tsuchi",
+          "jpExAudioKey": "chi",
           "cn": {
             "name": "土", "reading": "tǔ", "gloss": "earth; soil",
             "extra": "横 + 竖 + 横 · 象形「土」· 康熙部首 32",
@@ -735,12 +764,13 @@
         },
         {
           "glyph": "刀",
-          "slug": "dao",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "dao1",
           "cnExAudioKey": "fen1",
+          "jpAudioKey": "katana",
+          "jpExAudioKey": "wakeru",
           "cn": {
             "name": "刀", "reading": "dāo", "gloss": "knife; blade",
             "extra": "横折钩 + 撇 · 象形「刀」· 康熙部首 18 · 作偏旁作 刂",
@@ -756,12 +786,13 @@
         },
         {
           "glyph": "弓",
-          "slug": "gongbow",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "gong1",
           "cnExAudioKey": "yin3",
+          "jpAudioKey": "yumi",
+          "jpExAudioKey": "hiku",
           "cn": {
             "name": "弓", "reading": "gōng", "gloss": "bow",
             "extra": "康熙部首 57 · 弓箭 · 象形",
@@ -777,11 +808,11 @@
         },
         {
           "glyph": "糸",
-          "slug": "si",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "mi4",
+          "jpAudioKey": "ito",
           "cn": {
             "name": "糸", "reading": "mì", "gloss": "silk; thread",
             "extra": "康熙部首 120 · 作偏旁写作 纟 (绞丝旁) · 幺 + 小"
@@ -794,11 +825,11 @@
         },
         {
           "glyph": "白",
-          "slug": "bai",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "bai2",
+          "jpAudioKey": "shiro",
           "cn": {
             "name": "白", "reading": "bái", "gloss": "white",
             "extra": "撇 + 日 · 象形「白」· 康熙部首 106"
@@ -811,11 +842,11 @@
         },
         {
           "glyph": "泉",
-          "slug": "quan",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "quan2",
+          "jpAudioKey": "izumi",
           "cn": {
             "name": "泉", "reading": "quán", "gloss": "spring; fountain",
             "extra": "会意 · 白 + 水 ·「泉水」从山石中流出"
@@ -828,11 +859,11 @@
         },
         {
           "glyph": "線",
-          "slug": "xian",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "xian4",
+          "jpAudioKey": "sen",
           "cn": {
             "name": "線", "reading": "xiàn", "gloss": "line; thread; wire",
             "extra": "糸 + 泉 · 简体作「线」(纟 + 戋，右部不同)"
@@ -845,12 +876,13 @@
         },
         {
           "glyph": "火",
-          "slug": "huo",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "huo3",
           "cnExAudioKey": "yan2",
+          "jpAudioKey": "hi",
+          "jpExAudioKey": "honoo",
           "cn": {
             "name": "火", "reading": "huǒ", "gloss": "fire",
             "extra": "象形「火焰」· 康熙部首 86 · 作偏旁作 灬 (四点底)",
@@ -867,12 +899,13 @@
         },
         {
           "glyph": "犬",
-          "slug": "quan94",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "quan3",
           "cnExAudioKey": "fu2",
+          "jpAudioKey": "inu",
+          "jpExAudioKey": "fuseru",
           "cn": {
             "name": "犬", "reading": "quǎn", "gloss": "dog",
             "extra": "康熙部首 94 · 象形 · 作偏旁作 犭 (反犬旁)",
@@ -888,11 +921,11 @@
         },
         {
           "glyph": "向",
-          "slug": "xiang",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "xiang4",
+          "jpAudioKey": "muku",
           "cn": {
             "name": "向", "reading": "xiàng", "gloss": "toward; facing; direction",
             "extra": "「方向、朝向」· 冂 内含 口 · 潘达尼斯记作电视「TV」"
@@ -906,12 +939,13 @@
         },
         {
           "glyph": "先",
-          "slug": "xian1",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "xian1",
           "cnExAudioKey": "xi3",
+          "jpAudioKey": "saki",
+          "jpExAudioKey": "arau",
           "cn": {
             "name": "先", "reading": "xiān", "gloss": "first; before; earlier",
             "extra": "先后、先生 · 上部 𠂉/牛 + 下部 儿 · 潘达尼斯记作「战场 battleground」",
@@ -927,12 +961,13 @@
         },
         {
           "glyph": "以",
-          "slug": "yi3",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "yi3",
           "cnExAudioKey": "si4",
+          "jpAudioKey": "motte",
+          "jpExAudioKey": "niru",
           "cn": {
             "name": "以", "reading": "yǐ", "gloss": "by means of; with; according to; in order to; because of",
             "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
@@ -949,11 +984,11 @@
         },
         {
           "glyph": "之",
-          "slug": "zhi",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "zhi1",
+          "jpAudioKey": "kore",
           "cn": {
             "name": "之", "reading": "zhī", "gloss": "(classical) of; 's; it; to go",
             "extra": "文言虚词「的」· 亦作动词「往」· 潘达尼斯记作「佐罗 Zorro」(形似 Z)"
@@ -968,12 +1003,13 @@
         },
         {
           "glyph": "合",
-          "slug": "he2",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "he2",
           "cnExAudioKey": "da2",
+          "jpAudioKey": "au",
+          "jpExAudioKey": "tou",
           "cn": {
             "name": "合", "reading": "hé", "gloss": "to close; to combine; to fit",
             "extra": "人 + 一 + 口 · 亼(聚集)覆于口上 · 合适、合并、合作",
@@ -989,12 +1025,13 @@
         },
         {
           "glyph": "父",
-          "slug": "fu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "fu4",
           "cnExAudioKey": "fu3",
+          "jpAudioKey": "chichi",
+          "jpExAudioKey": "ono",
           "cn": {
             "name": "父", "reading": "fù", "gloss": "father",
             "extra": "父亲、父母 · 康熙部首 88 · 象形「持斧之手」",
@@ -1010,12 +1047,13 @@
         },
         {
           "glyph": "不",
-          "slug": "bu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "bu4",
           "cnExAudioKey": "fou3",
+          "jpAudioKey": "fu",
+          "jpExAudioKey": "ina",
           "cn": {
             "name": "不", "reading": "bù", "gloss": "not; no",
             "extra": "否定副词「不」· 潘达尼斯记作「黄蜂 wasp」",
@@ -1031,11 +1069,11 @@
         },
         {
           "glyph": "业",
-          "slug": "ye",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ye4",
+          "jpAudioKey": "waza",
           "cn": {
             "name": "业", "reading": "yè", "gloss": "industry; occupation; karma",
             "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業"
@@ -1049,11 +1087,11 @@
         },
         {
           "glyph": "与",
-          "slug": "yu",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "yu3",
+          "jpAudioKey": "ataeru",
           "cn": {
             "name": "与", "reading": "yǔ", "gloss": "and; with; to give",
             "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 繁: 與"
@@ -1067,12 +1105,13 @@
         },
         {
           "glyph": "手",
-          "slug": "shou",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "shou3",
           "cnExAudioKey": "quan2",
+          "jpAudioKey": "te",
+          "jpExAudioKey": "kobushi",
           "cn": {
             "name": "手", "reading": "shǒu", "gloss": "hand",
             "extra": "象形「手」· 康熙部首 64 · 作偏旁作 扌",
@@ -1089,11 +1128,11 @@
         },
         {
           "glyph": "丸",
-          "slug": "wan",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "wan2",
+          "jpAudioKey": "maru",
           "cn": {
             "name": "丸", "reading": "wán", "gloss": "ball; pellet; pill",
             "extra": "九 + 丶 · 药丸、弹丸、丸子"
@@ -1107,12 +1146,13 @@
         },
         {
           "glyph": "丁",
-          "slug": "ding",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "ding1",
           "cnExAudioKey": "da3",
+          "jpAudioKey": "chou",
+          "jpExAudioKey": "utsu",
           "cn": {
             "name": "丁", "reading": "dīng", "gloss": "4th; nail; adult male",
             "extra": "天干第四 · 园丁、丁目 · WK 记作 Street",
@@ -1128,12 +1168,13 @@
         },
         {
           "glyph": "才",
-          "slug": "cai",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "cai2",
           "cnExAudioKey": "cai2",
+          "jpAudioKey": "sai",
+          "jpExAudioKey": "zai",
           "cn": {
             "name": "才", "reading": "cái", "gloss": "talent; ability; just now",
             "extra": "才能、天才、刚才 · 象形",
@@ -1149,12 +1190,13 @@
         },
         {
           "glyph": "月",
-          "slug": "yue74",
           "tag": "char",
           "image": "",
           "hw": true,
           "cnAudioKey": "yue4",
           "cnExAudioKey": "ming2",
+          "jpAudioKey": "tsuki",
+          "jpExAudioKey": "mei",
           "cn": {
             "name": "月", "reading": "yuè", "gloss": "moon; month",
             "extra": "康熙部首 74 · 象形「月牙」· 月亮、月份 · 亦作「肉」旁",

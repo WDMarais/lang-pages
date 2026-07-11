@@ -6,7 +6,6 @@
       "cards": [
         {
           "glyph": "一",
-          "slug": "yi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -56,13 +55,13 @@
             "kind": "meaning"
           },
           "kx": 1,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yi1",
-          "cnExAudioKey": "san1"
+          "cnExAudioKey": "san1",
+          "jpAudioKey": "ichi",
+          "jpExAudioKey": "san"
         },
         {
           "glyph": "丨",
-          "slug": "shu",
           "tag": "stroke",
           "image": "",
           "hw": true,
@@ -95,13 +94,13 @@
             "kind": "mnemonic"
           },
           "kx": 2,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shu4",
-          "cnExAudioKey": "shi2"
+          "cnExAudioKey": "shi2",
+          "jpAudioKey": "tatekaku",
+          "jpExAudioKey": "juu"
         },
         {
           "glyph": "丶",
-          "slug": "dian",
           "tag": "stroke",
           "image": "",
           "hw": true,
@@ -139,13 +138,13 @@
             "kind": "mnemonic"
           },
           "kx": 3,
-          "audioBase": "../radicals/",
           "cnAudioKey": "dian3",
-          "cnExAudioKey": "quan3"
+          "cnExAudioKey": "quan3",
+          "jpAudioKey": "ten",
+          "jpExAudioKey": "inu"
         },
         {
           "glyph": "丿",
-          "slug": "pie",
           "tag": "stroke",
           "image": "",
           "hw": true,
@@ -183,13 +182,13 @@
             "kind": "mnemonic"
           },
           "kx": 4,
-          "audioBase": "../radicals/",
           "cnAudioKey": "pie3",
-          "cnExAudioKey": "ren2"
+          "cnExAudioKey": "ren2",
+          "jpAudioKey": "hidaribarai",
+          "jpExAudioKey": "hito"
         },
         {
           "glyph": "乙",
-          "slug": "yi5",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -206,12 +205,10 @@
           },
           "wk": null,
           "kx": 5,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yi3"
         },
         {
           "glyph": "亅",
-          "slug": "shugou",
           "tag": "stroke",
           "image": "",
           "hw": true,
@@ -249,8 +246,10 @@
             "kind": "meaning"
           },
           "kx": 6,
-          "audioBase": "../radicals/",
-          "cnExAudioKey": "xiao3"
+          "cnAudioKey": "shugou",
+          "cnExAudioKey": "xiao3",
+          "jpAudioKey": "hanebou",
+          "jpExAudioKey": "chiisai"
         }
       ]
     },
@@ -260,7 +259,6 @@
       "cards": [
         {
           "glyph": "二",
-          "slug": "er",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -308,13 +306,13 @@
             "kind": "meaning"
           },
           "kx": 7,
-          "audioBase": "../radicals/",
           "cnAudioKey": "er4",
-          "cnExAudioKey": "yuan2"
+          "cnExAudioKey": "yuan2",
+          "jpAudioKey": "ni",
+          "jpExAudioKey": "gen"
         },
         {
           "glyph": "亠",
-          "slug": "lid",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -353,13 +351,12 @@
             "icon": "lid"
           },
           "kx": 8,
-          "audioBase": "../radicals/",
           "cnAudioKey": "tou2",
-          "cnExAudioKey": "liu4"
+          "cnExAudioKey": "liu4",
+          "jpExAudioKey": "roku"
         },
         {
           "glyph": "人",
-          "slug": "ren",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -408,13 +405,13 @@
             "kind": "meaning"
           },
           "kx": 9,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ren2",
-          "cnExAudioKey": "jin1"
+          "cnExAudioKey": "jin1",
+          "jpAudioKey": "hito",
+          "jpExAudioKey": "ima"
         },
         {
           "glyph": "儿",
-          "slug": "legs",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -451,13 +448,12 @@
             "kind": "mnemonic"
           },
           "kx": 10,
-          "audioBase": "../radicals/",
           "cnAudioKey": "er2",
-          "cnExAudioKey": "yuan2"
+          "cnExAudioKey": "yuan2",
+          "jpExAudioKey": "gen"
         },
         {
           "glyph": "入",
-          "slug": "ru",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -502,13 +498,13 @@
             "kind": "meaning"
           },
           "kx": 11,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ru4",
-          "cnExAudioKey": "quan2"
+          "cnExAudioKey": "quan2",
+          "jpAudioKey": "hairu",
+          "jpExAudioKey": "zen"
         },
         {
           "glyph": "八",
-          "slug": "ba",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -558,13 +554,13 @@
             "kind": "meaning"
           },
           "kx": 12,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ba1",
-          "cnExAudioKey": "fen1"
+          "cnExAudioKey": "fen1",
+          "jpAudioKey": "hachi",
+          "jpExAudioKey": "wakeru"
         },
         {
           "glyph": "冂",
-          "slug": "jiong",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -596,13 +592,12 @@
             "kind": "mnemonic"
           },
           "kx": 13,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jiong1",
-          "cnExAudioKey": "nei4"
+          "cnExAudioKey": "nei4",
+          "jpExAudioKey": "uchi"
         },
         {
           "glyph": "冖",
-          "slug": "mi",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -619,12 +614,10 @@
           },
           "wk": null,
           "kx": 14,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mi4"
         },
         {
           "glyph": "冫",
-          "slug": "bing",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -641,12 +634,10 @@
           },
           "wk": null,
           "kx": 15,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bing1"
         },
         {
           "glyph": "几",
-          "slug": "ji",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -663,12 +654,10 @@
           },
           "wk": null,
           "kx": 16,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ji1"
         },
         {
           "glyph": "凵",
-          "slug": "kan",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -685,12 +674,10 @@
           },
           "wk": null,
           "kx": 17,
-          "audioBase": "../radicals/",
           "cnAudioKey": "kan3"
         },
         {
           "glyph": "刀",
-          "slug": "dao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -733,13 +720,13 @@
             "level": 2
           },
           "kx": 18,
-          "audioBase": "../radicals/",
           "cnAudioKey": "dao1",
-          "cnExAudioKey": "fen1"
+          "cnExAudioKey": "fen1",
+          "jpAudioKey": "katana",
+          "jpExAudioKey": "wakeru"
         },
         {
           "glyph": "力",
-          "slug": "li",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -783,13 +770,13 @@
             "level": 1
           },
           "kx": 19,
-          "audioBase": "../radicals/",
           "cnAudioKey": "li4",
-          "cnExAudioKey": "nan2"
+          "cnExAudioKey": "nan2",
+          "jpAudioKey": "chikara",
+          "jpExAudioKey": "otoko"
         },
         {
           "glyph": "勹",
-          "slug": "bao",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -822,13 +809,12 @@
             "icon": "prison"
           },
           "kx": 20,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bao1",
-          "cnExAudioKey": "bao1"
+          "cnExAudioKey": "bao1",
+          "jpExAudioKey": "tsutsumu"
         },
         {
           "glyph": "匕",
-          "slug": "bi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -845,12 +831,10 @@
           },
           "wk": null,
           "kx": 21,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bi3"
         },
         {
           "glyph": "匚",
-          "slug": "fang",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -867,12 +851,10 @@
           },
           "wk": null,
           "kx": 22,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fang1"
         },
         {
           "glyph": "匸",
-          "slug": "xi23",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -889,12 +871,10 @@
           },
           "wk": null,
           "kx": 23,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xi4"
         },
         {
           "glyph": "十",
-          "slug": "shi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -935,13 +915,13 @@
             "level": 1
           },
           "kx": 24,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi2",
-          "cnExAudioKey": "gu3"
+          "cnExAudioKey": "gu3",
+          "jpAudioKey": "juu",
+          "jpExAudioKey": "furui"
         },
         {
           "glyph": "卜",
-          "slug": "bu25",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -958,12 +938,10 @@
           },
           "wk": null,
           "kx": 25,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bu3"
         },
         {
           "glyph": "卩",
-          "slug": "jie",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -980,12 +958,10 @@
           },
           "wk": null,
           "kx": 26,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jie2"
         },
         {
           "glyph": "厂",
-          "slug": "han",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1018,13 +994,12 @@
             "kind": "meaning"
           },
           "kx": 27,
-          "audioBase": "../radicals/",
           "cnAudioKey": "han4",
-          "cnExAudioKey": "yuan2"
+          "cnExAudioKey": "yuan2",
+          "jpExAudioKey": "gen"
         },
         {
           "glyph": "厶",
-          "slug": "si28",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1041,12 +1016,10 @@
           },
           "wk": null,
           "kx": 28,
-          "audioBase": "../radicals/",
           "cnAudioKey": "si1"
         },
         {
           "glyph": "又",
-          "slug": "you",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1063,7 +1036,6 @@
           },
           "wk": null,
           "kx": 29,
-          "audioBase": "../radicals/",
           "cnAudioKey": "you4"
         }
       ]
@@ -1074,7 +1046,6 @@
       "cards": [
         {
           "glyph": "口",
-          "slug": "kou",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1123,13 +1094,13 @@
             "kind": "meaning"
           },
           "kx": 30,
-          "audioBase": "../radicals/",
           "cnAudioKey": "kou3",
-          "cnExAudioKey": "ming2"
+          "cnExAudioKey": "ming2",
+          "jpAudioKey": "kuchi",
+          "jpExAudioKey": "mei"
         },
         {
           "glyph": "囗",
-          "slug": "wei",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1146,12 +1117,10 @@
           },
           "wk": null,
           "kx": 31,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wei2"
         },
         {
           "glyph": "土",
-          "slug": "tu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1200,13 +1169,13 @@
             "kind": "meaning"
           },
           "kx": 32,
-          "audioBase": "../radicals/",
           "cnAudioKey": "tu3",
-          "cnExAudioKey": "di4"
+          "cnExAudioKey": "di4",
+          "jpAudioKey": "tsuchi",
+          "jpExAudioKey": "chi"
         },
         {
           "glyph": "士",
-          "slug": "shi33",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1223,12 +1192,10 @@
           },
           "wk": null,
           "kx": 33,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi4"
         },
         {
           "glyph": "夂",
-          "slug": "zhi34",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1245,12 +1212,10 @@
           },
           "wk": null,
           "kx": 34,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhi3"
         },
         {
           "glyph": "夊",
-          "slug": "sui",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1267,12 +1232,10 @@
           },
           "wk": null,
           "kx": 35,
-          "audioBase": "../radicals/",
           "cnAudioKey": "sui1"
         },
         {
           "glyph": "夕",
-          "slug": "xi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1315,13 +1278,13 @@
             "level": 2
           },
           "kx": 36,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xi1",
-          "cnExAudioKey": "wai4"
+          "cnExAudioKey": "wai4",
+          "jpAudioKey": "yuu",
+          "jpExAudioKey": "soto"
         },
         {
           "glyph": "大",
-          "slug": "da",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1372,13 +1335,13 @@
             "level": 1
           },
           "kx": 37,
-          "audioBase": "../radicals/",
           "cnAudioKey": "da4",
-          "cnExAudioKey": "tian1"
+          "cnExAudioKey": "tian1",
+          "jpAudioKey": "dai",
+          "jpExAudioKey": "ten"
         },
         {
           "glyph": "女",
-          "slug": "nv",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1427,13 +1390,13 @@
             "kind": "meaning"
           },
           "kx": 38,
-          "audioBase": "../radicals/",
           "cnAudioKey": "nv3",
-          "cnExAudioKey": "hao3"
+          "cnExAudioKey": "hao3",
+          "jpAudioKey": "onna",
+          "jpExAudioKey": "suki"
         },
         {
           "glyph": "子",
-          "slug": "zi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1477,13 +1440,13 @@
             "level": 2
           },
           "kx": 39,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zi3",
-          "cnExAudioKey": "zi4"
+          "cnExAudioKey": "zi4",
+          "jpAudioKey": "ko",
+          "jpExAudioKey": "ji"
         },
         {
           "glyph": "宀",
-          "slug": "mian",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1516,13 +1479,12 @@
             "kind": "mnemonic"
           },
           "kx": 40,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mian2",
-          "cnExAudioKey": "jia1"
+          "cnExAudioKey": "jia1",
+          "jpExAudioKey": "ie"
         },
         {
           "glyph": "寸",
-          "slug": "cun",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1539,12 +1501,10 @@
           },
           "wk": null,
           "kx": 41,
-          "audioBase": "../radicals/",
           "cnAudioKey": "cun4"
         },
         {
           "glyph": "小",
-          "slug": "xiao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1587,13 +1547,13 @@
             "level": 2
           },
           "kx": 42,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xiao3",
-          "cnExAudioKey": "shao3"
+          "cnExAudioKey": "shao3",
+          "jpAudioKey": "chiisai",
+          "jpExAudioKey": "shou"
         },
         {
           "glyph": "尢",
-          "slug": "wang",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1610,12 +1570,10 @@
           },
           "wk": null,
           "kx": 43,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wang1"
         },
         {
           "glyph": "尸",
-          "slug": "shi1",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1647,13 +1605,12 @@
             "kind": "mnemonic"
           },
           "kx": 44,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi1",
-          "cnExAudioKey": "wu1"
+          "cnExAudioKey": "wu1",
+          "jpExAudioKey": "ya"
         },
         {
           "glyph": "屮",
-          "slug": "che",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1670,12 +1627,10 @@
           },
           "wk": null,
           "kx": 45,
-          "audioBase": "../radicals/",
           "cnAudioKey": "che4"
         },
         {
           "glyph": "山",
-          "slug": "shan",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1720,9 +1675,10 @@
             "kind": "meaning"
           },
           "kx": 46,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shan1",
           "cnExAudioKey": "yan2",
+          "jpAudioKey": "yama",
+          "jpExAudioKey": "iwa",
           "referents": [
             {
               "label": "mountain",
@@ -1743,7 +1699,6 @@
         },
         {
           "glyph": "川",
-          "slug": "chuan",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1783,13 +1738,13 @@
             "level": 1
           },
           "kx": 47,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chuan1",
-          "cnExAudioKey": "zhou1"
+          "cnExAudioKey": "zhou1",
+          "jpAudioKey": "kawa",
+          "jpExAudioKey": "shuu"
         },
         {
           "glyph": "工",
-          "slug": "gong",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1830,13 +1785,13 @@
             "level": 1
           },
           "kx": 48,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gong1",
-          "cnExAudioKey": "jiang1"
+          "cnExAudioKey": "jiang1",
+          "jpAudioKey": "kou",
+          "jpExAudioKey": "kou"
         },
         {
           "glyph": "己",
-          "slug": "ji49",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1853,12 +1808,10 @@
           },
           "wk": null,
           "kx": 49,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ji3"
         },
         {
           "glyph": "巾",
-          "slug": "jin",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1875,12 +1828,10 @@
           },
           "wk": null,
           "kx": 50,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jin1"
         },
         {
           "glyph": "干",
-          "slug": "gan",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1897,12 +1848,10 @@
           },
           "wk": null,
           "kx": 51,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gan1"
         },
         {
           "glyph": "幺",
-          "slug": "yao",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1919,12 +1868,10 @@
           },
           "wk": null,
           "kx": 52,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yao1"
         },
         {
           "glyph": "广",
-          "slug": "guang",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -1941,12 +1888,10 @@
           },
           "wk": null,
           "kx": 53,
-          "audioBase": "../radicals/",
           "cnAudioKey": "guang3"
         },
         {
           "glyph": "廴",
-          "slug": "yin",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1963,12 +1908,10 @@
           },
           "wk": null,
           "kx": 54,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yin3"
         },
         {
           "glyph": "廾",
-          "slug": "gong55",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -1985,12 +1928,10 @@
           },
           "wk": null,
           "kx": 55,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gong3"
         },
         {
           "glyph": "弋",
-          "slug": "yi56",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2007,12 +1948,10 @@
           },
           "wk": null,
           "kx": 56,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yi4"
         },
         {
           "glyph": "弓",
-          "slug": "gongbow",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2055,13 +1994,13 @@
             "level": 2
           },
           "kx": 57,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gong1",
-          "cnExAudioKey": "yin3"
+          "cnExAudioKey": "yin3",
+          "jpAudioKey": "yumi",
+          "jpExAudioKey": "hiku"
         },
         {
           "glyph": "彐",
-          "slug": "ji58",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -2078,12 +2017,10 @@
           },
           "wk": null,
           "kx": 58,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ji4"
         },
         {
           "glyph": "彡",
-          "slug": "shan59",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2105,12 +2042,10 @@
             "kind": "meaning"
           },
           "kx": 59,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shan1"
         },
         {
           "glyph": "彳",
-          "slug": "chi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2127,7 +2062,6 @@
           },
           "wk": null,
           "kx": 60,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chi4"
         }
       ]
@@ -2138,7 +2072,6 @@
       "cards": [
         {
           "glyph": "心",
-          "slug": "xin",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2155,12 +2088,10 @@
           },
           "wk": null,
           "kx": 61,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xin1"
         },
         {
           "glyph": "戈",
-          "slug": "ge",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2177,12 +2108,10 @@
           },
           "wk": null,
           "kx": 62,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ge1"
         },
         {
           "glyph": "戶",
-          "slug": "hu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2199,12 +2128,10 @@
           },
           "wk": null,
           "kx": 63,
-          "audioBase": "../radicals/",
           "cnAudioKey": "hu4"
         },
         {
           "glyph": "手",
-          "slug": "shou",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2252,13 +2179,13 @@
             "kind": "meaning"
           },
           "kx": 64,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shou3",
-          "cnExAudioKey": "quan2"
+          "cnExAudioKey": "quan2",
+          "jpAudioKey": "te",
+          "jpExAudioKey": "kobushi"
         },
         {
           "glyph": "支",
-          "slug": "zhi65",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2275,12 +2202,10 @@
           },
           "wk": null,
           "kx": 65,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhi1"
         },
         {
           "glyph": "攴",
-          "slug": "pu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2297,12 +2222,10 @@
           },
           "wk": null,
           "kx": 66,
-          "audioBase": "../radicals/",
           "cnAudioKey": "pu1"
         },
         {
           "glyph": "文",
-          "slug": "wen",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2319,12 +2242,10 @@
           },
           "wk": null,
           "kx": 67,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wen2"
         },
         {
           "glyph": "斗",
-          "slug": "dou",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2341,12 +2262,10 @@
           },
           "wk": null,
           "kx": 68,
-          "audioBase": "../radicals/",
           "cnAudioKey": "dou3"
         },
         {
           "glyph": "斤",
-          "slug": "jin69",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2363,12 +2282,10 @@
           },
           "wk": null,
           "kx": 69,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jin1"
         },
         {
           "glyph": "方",
-          "slug": "fang70",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2385,12 +2302,10 @@
           },
           "wk": null,
           "kx": 70,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fang1"
         },
         {
           "glyph": "无",
-          "slug": "wu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2407,12 +2322,10 @@
           },
           "wk": null,
           "kx": 71,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wu2"
         },
         {
           "glyph": "日",
-          "slug": "ri",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2467,9 +2380,10 @@
             "level": 1
           },
           "kx": 72,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ri4",
           "cnExAudioKey": "ming2",
+          "jpAudioKey": "hi",
+          "jpExAudioKey": "akarui",
           "referents": [
             {
               "label": "sun; day",
@@ -2490,7 +2404,6 @@
         },
         {
           "glyph": "曰",
-          "slug": "yue",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2507,12 +2420,10 @@
           },
           "wk": null,
           "kx": 73,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yue1"
         },
         {
           "glyph": "月",
-          "slug": "yue74",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2550,9 +2461,10 @@
             "level": 1
           },
           "kx": 74,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yue4",
           "cnExAudioKey": "ming2",
+          "jpAudioKey": "tsuki",
+          "jpExAudioKey": "mei",
           "referents": [
             {
               "label": "moon; month",
@@ -2573,7 +2485,6 @@
         },
         {
           "glyph": "木",
-          "slug": "mu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2610,9 +2521,10 @@
             "kind": "meaning"
           },
           "kx": 75,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mu4",
           "cnExAudioKey": "lin2",
+          "jpAudioKey": "ki",
+          "jpExAudioKey": "hayashi",
           "referents": [
             {
               "label": "tree; wood",
@@ -2633,7 +2545,6 @@
         },
         {
           "glyph": "欠",
-          "slug": "qian76",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2650,12 +2561,10 @@
           },
           "wk": null,
           "kx": 76,
-          "audioBase": "../radicals/",
           "cnAudioKey": "qian4"
         },
         {
           "glyph": "止",
-          "slug": "zhi77",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2699,13 +2608,13 @@
             "level": 2
           },
           "kx": 77,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhi3",
-          "cnExAudioKey": "zheng4"
+          "cnExAudioKey": "zheng4",
+          "jpAudioKey": "shi",
+          "jpExAudioKey": "sei"
         },
         {
           "glyph": "歹",
-          "slug": "dai",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2722,12 +2631,10 @@
           },
           "wk": null,
           "kx": 78,
-          "audioBase": "../radicals/",
           "cnAudioKey": "dai3"
         },
         {
           "glyph": "殳",
-          "slug": "shu79",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2744,12 +2651,10 @@
           },
           "wk": null,
           "kx": 79,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shu1"
         },
         {
           "glyph": "毋",
-          "slug": "wu80",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2766,12 +2671,10 @@
           },
           "wk": null,
           "kx": 80,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wu2"
         },
         {
           "glyph": "比",
-          "slug": "bi81",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2788,12 +2691,10 @@
           },
           "wk": null,
           "kx": 81,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bi3"
         },
         {
           "glyph": "毛",
-          "slug": "mao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2810,12 +2711,10 @@
           },
           "wk": null,
           "kx": 82,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mao2"
         },
         {
           "glyph": "氏",
-          "slug": "shi83",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2832,12 +2731,10 @@
           },
           "wk": null,
           "kx": 83,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi4"
         },
         {
           "glyph": "气",
-          "slug": "qi84",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2854,12 +2751,10 @@
           },
           "wk": null,
           "kx": 84,
-          "audioBase": "../radicals/",
           "cnAudioKey": "qi4"
         },
         {
           "glyph": "水",
-          "slug": "shui",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2891,9 +2786,10 @@
             "kind": "meaning"
           },
           "kx": 85,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shui3",
           "cnExAudioKey": "bing1",
+          "jpAudioKey": "mizu",
+          "jpExAudioKey": "koori",
           "referents": [
             {
               "label": "water",
@@ -2914,7 +2810,6 @@
         },
         {
           "glyph": "火",
-          "slug": "huo",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -2962,9 +2857,10 @@
             "kind": "meaning"
           },
           "kx": 86,
-          "audioBase": "../radicals/",
           "cnAudioKey": "huo3",
           "cnExAudioKey": "yan2",
+          "jpAudioKey": "hi",
+          "jpExAudioKey": "honoo",
           "referents": [
             {
               "label": "fire",
@@ -2985,7 +2881,6 @@
         },
         {
           "glyph": "爪",
-          "slug": "zhao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3002,12 +2897,10 @@
           },
           "wk": null,
           "kx": 87,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhao3"
         },
         {
           "glyph": "父",
-          "slug": "fu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3040,13 +2933,13 @@
             "kind": "meaning"
           },
           "kx": 88,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fu4",
-          "cnExAudioKey": "fu3"
+          "cnExAudioKey": "fu3",
+          "jpAudioKey": "chichi",
+          "jpExAudioKey": "ono"
         },
         {
           "glyph": "爻",
-          "slug": "yao89",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3063,12 +2956,10 @@
           },
           "wk": null,
           "kx": 89,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yao2"
         },
         {
           "glyph": "爿",
-          "slug": "qiang",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -3085,12 +2976,10 @@
           },
           "wk": null,
           "kx": 90,
-          "audioBase": "../radicals/",
           "cnAudioKey": "qiang2"
         },
         {
           "glyph": "片",
-          "slug": "pian",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3107,12 +2996,10 @@
           },
           "wk": null,
           "kx": 91,
-          "audioBase": "../radicals/",
           "cnAudioKey": "pian4"
         },
         {
           "glyph": "牙",
-          "slug": "ya",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3129,12 +3016,10 @@
           },
           "wk": null,
           "kx": 92,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ya2"
         },
         {
           "glyph": "牛",
-          "slug": "niu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3151,12 +3036,10 @@
           },
           "wk": null,
           "kx": 93,
-          "audioBase": "../radicals/",
           "cnAudioKey": "niu2"
         },
         {
           "glyph": "犬",
-          "slug": "quan94",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3199,9 +3082,10 @@
             "level": 2
           },
           "kx": 94,
-          "audioBase": "../radicals/",
           "cnAudioKey": "quan3",
-          "cnExAudioKey": "fu2"
+          "cnExAudioKey": "fu2",
+          "jpAudioKey": "inu",
+          "jpExAudioKey": "fuseru"
         }
       ]
     },
@@ -3211,7 +3095,6 @@
       "cards": [
         {
           "glyph": "玄",
-          "slug": "xuan",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3228,12 +3111,10 @@
           },
           "wk": null,
           "kx": 95,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xuan2"
         },
         {
           "glyph": "玉",
-          "slug": "yu96",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3250,12 +3131,10 @@
           },
           "wk": null,
           "kx": 96,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yu4"
         },
         {
           "glyph": "瓜",
-          "slug": "gua",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3272,12 +3151,10 @@
           },
           "wk": null,
           "kx": 97,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gua1"
         },
         {
           "glyph": "瓦",
-          "slug": "wa",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3294,12 +3171,10 @@
           },
           "wk": null,
           "kx": 98,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wa3"
         },
         {
           "glyph": "甘",
-          "slug": "gan99",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3316,12 +3191,10 @@
           },
           "wk": null,
           "kx": 99,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gan1"
         },
         {
           "glyph": "生",
-          "slug": "sheng",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3338,12 +3211,10 @@
           },
           "wk": null,
           "kx": 100,
-          "audioBase": "../radicals/",
           "cnAudioKey": "sheng1"
         },
         {
           "glyph": "用",
-          "slug": "yong",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3360,12 +3231,10 @@
           },
           "wk": null,
           "kx": 101,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yong4"
         },
         {
           "glyph": "田",
-          "slug": "tian",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3408,9 +3277,10 @@
             "level": 2
           },
           "kx": 102,
-          "audioBase": "../radicals/",
           "cnAudioKey": "tian2",
           "cnExAudioKey": "nan2",
+          "jpAudioKey": "ta",
+          "jpExAudioKey": "otoko",
           "referents": [
             {
               "label": "field",
@@ -3426,7 +3296,6 @@
         },
         {
           "glyph": "疋",
-          "slug": "pi",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3443,12 +3312,10 @@
           },
           "wk": null,
           "kx": 103,
-          "audioBase": "../radicals/",
           "cnAudioKey": "pi3"
         },
         {
           "glyph": "疒",
-          "slug": "ne",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -3465,12 +3332,10 @@
           },
           "wk": null,
           "kx": 104,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ne4"
         },
         {
           "glyph": "癶",
-          "slug": "bo",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -3487,12 +3352,10 @@
           },
           "wk": null,
           "kx": 105,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bo1"
         },
         {
           "glyph": "白",
-          "slug": "bai",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3510,12 +3373,11 @@
           },
           "wk": null,
           "kx": 106,
-          "audioBase": "../radicals/",
-          "cnAudioKey": "bai2"
+          "cnAudioKey": "bai2",
+          "jpAudioKey": "shiro"
         },
         {
           "glyph": "皮",
-          "slug": "pi107",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3532,12 +3394,10 @@
           },
           "wk": null,
           "kx": 107,
-          "audioBase": "../radicals/",
           "cnAudioKey": "pi2"
         },
         {
           "glyph": "皿",
-          "slug": "min",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3554,12 +3414,10 @@
           },
           "wk": null,
           "kx": 108,
-          "audioBase": "../radicals/",
           "cnAudioKey": "min3"
         },
         {
           "glyph": "目",
-          "slug": "mu109",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3576,7 +3434,6 @@
           },
           "wk": null,
           "kx": 109,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mu4",
           "referents": [
             {
@@ -3593,7 +3450,6 @@
         },
         {
           "glyph": "矛",
-          "slug": "mao110",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3610,12 +3466,10 @@
           },
           "wk": null,
           "kx": 110,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mao2"
         },
         {
           "glyph": "矢",
-          "slug": "shi111",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3632,12 +3486,10 @@
           },
           "wk": null,
           "kx": 111,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi3"
         },
         {
           "glyph": "石",
-          "slug": "shi112",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3654,12 +3506,10 @@
           },
           "wk": null,
           "kx": 112,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi2"
         },
         {
           "glyph": "示",
-          "slug": "shi113",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3676,12 +3526,10 @@
           },
           "wk": null,
           "kx": 113,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi4"
         },
         {
           "glyph": "禸",
-          "slug": "rou",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -3698,12 +3546,10 @@
           },
           "wk": null,
           "kx": 114,
-          "audioBase": "../radicals/",
           "cnAudioKey": "rou2"
         },
         {
           "glyph": "禾",
-          "slug": "he",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3720,7 +3566,6 @@
           },
           "wk": null,
           "kx": 115,
-          "audioBase": "../radicals/",
           "cnAudioKey": "he2",
           "referents": [
             {
@@ -3737,7 +3582,6 @@
         },
         {
           "glyph": "穴",
-          "slug": "xue",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3754,12 +3598,10 @@
           },
           "wk": null,
           "kx": 116,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xue2"
         },
         {
           "glyph": "立",
-          "slug": "li117",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3776,7 +3618,6 @@
           },
           "wk": null,
           "kx": 117,
-          "audioBase": "../radicals/",
           "cnAudioKey": "li4"
         }
       ]
@@ -3787,7 +3628,6 @@
       "cards": [
         {
           "glyph": "竹",
-          "slug": "zhu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3804,12 +3644,10 @@
           },
           "wk": null,
           "kx": 118,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhu2"
         },
         {
           "glyph": "米",
-          "slug": "mi119",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3826,12 +3664,10 @@
           },
           "wk": null,
           "kx": 119,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mi3"
         },
         {
           "glyph": "糸",
-          "slug": "si",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3849,12 +3685,11 @@
           },
           "wk": null,
           "kx": 120,
-          "audioBase": "../radicals/",
-          "cnAudioKey": "mi4"
+          "cnAudioKey": "mi4",
+          "jpAudioKey": "ito"
         },
         {
           "glyph": "缶",
-          "slug": "fou",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3871,12 +3706,10 @@
           },
           "wk": null,
           "kx": 121,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fou3"
         },
         {
           "glyph": "网",
-          "slug": "wang122",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3893,12 +3726,10 @@
           },
           "wk": null,
           "kx": 122,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wang3"
         },
         {
           "glyph": "羊",
-          "slug": "yang",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3915,12 +3746,10 @@
           },
           "wk": null,
           "kx": 123,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yang2"
         },
         {
           "glyph": "羽",
-          "slug": "yu124",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3937,12 +3766,10 @@
           },
           "wk": null,
           "kx": 124,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yu3"
         },
         {
           "glyph": "老",
-          "slug": "lao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3959,12 +3786,10 @@
           },
           "wk": null,
           "kx": 125,
-          "audioBase": "../radicals/",
           "cnAudioKey": "lao3"
         },
         {
           "glyph": "而",
-          "slug": "er126",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -3981,12 +3806,10 @@
           },
           "wk": null,
           "kx": 126,
-          "audioBase": "../radicals/",
           "cnAudioKey": "er2"
         },
         {
           "glyph": "耒",
-          "slug": "lei",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4003,12 +3826,10 @@
           },
           "wk": null,
           "kx": 127,
-          "audioBase": "../radicals/",
           "cnAudioKey": "lei3"
         },
         {
           "glyph": "耳",
-          "slug": "er128",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4025,12 +3846,10 @@
           },
           "wk": null,
           "kx": 128,
-          "audioBase": "../radicals/",
           "cnAudioKey": "er3"
         },
         {
           "glyph": "聿",
-          "slug": "yu129",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4047,12 +3866,10 @@
           },
           "wk": null,
           "kx": 129,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yu4"
         },
         {
           "glyph": "肉",
-          "slug": "rou130",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4069,12 +3886,10 @@
           },
           "wk": null,
           "kx": 130,
-          "audioBase": "../radicals/",
           "cnAudioKey": "rou4"
         },
         {
           "glyph": "臣",
-          "slug": "chen",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4091,12 +3906,10 @@
           },
           "wk": null,
           "kx": 131,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chen2"
         },
         {
           "glyph": "自",
-          "slug": "zi132",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4113,12 +3926,10 @@
           },
           "wk": null,
           "kx": 132,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zi4"
         },
         {
           "glyph": "至",
-          "slug": "zhi133",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4135,12 +3946,10 @@
           },
           "wk": null,
           "kx": 133,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhi4"
         },
         {
           "glyph": "臼",
-          "slug": "jiu134",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4157,12 +3966,10 @@
           },
           "wk": null,
           "kx": 134,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jiu4"
         },
         {
           "glyph": "舌",
-          "slug": "she",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4179,12 +3986,10 @@
           },
           "wk": null,
           "kx": 135,
-          "audioBase": "../radicals/",
           "cnAudioKey": "she2"
         },
         {
           "glyph": "舛",
-          "slug": "chuan136",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4201,12 +4006,10 @@
           },
           "wk": null,
           "kx": 136,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chuan3"
         },
         {
           "glyph": "舟",
-          "slug": "zhou",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4223,12 +4026,10 @@
           },
           "wk": null,
           "kx": 137,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhou1"
         },
         {
           "glyph": "艮",
-          "slug": "gen",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4245,12 +4046,10 @@
           },
           "wk": null,
           "kx": 138,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gen4"
         },
         {
           "glyph": "色",
-          "slug": "se",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4267,12 +4066,10 @@
           },
           "wk": null,
           "kx": 139,
-          "audioBase": "../radicals/",
           "cnAudioKey": "se4"
         },
         {
           "glyph": "艸",
-          "slug": "cao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4289,12 +4086,10 @@
           },
           "wk": null,
           "kx": 140,
-          "audioBase": "../radicals/",
           "cnAudioKey": "cao3"
         },
         {
           "glyph": "虍",
-          "slug": "hu141",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -4311,12 +4106,10 @@
           },
           "wk": null,
           "kx": 141,
-          "audioBase": "../radicals/",
           "cnAudioKey": "hu1"
         },
         {
           "glyph": "虫",
-          "slug": "chong",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4333,12 +4126,10 @@
           },
           "wk": null,
           "kx": 142,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chong2"
         },
         {
           "glyph": "血",
-          "slug": "xue143",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4355,12 +4146,10 @@
           },
           "wk": null,
           "kx": 143,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xue4"
         },
         {
           "glyph": "行",
-          "slug": "xing",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4377,12 +4166,10 @@
           },
           "wk": null,
           "kx": 144,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xing2"
         },
         {
           "glyph": "衣",
-          "slug": "yi145",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4399,12 +4186,10 @@
           },
           "wk": null,
           "kx": 145,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yi1"
         },
         {
           "glyph": "襾",
-          "slug": "ya146",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4421,7 +4206,6 @@
           },
           "wk": null,
           "kx": 146,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ya4"
         }
       ]
@@ -4432,7 +4216,6 @@
       "cards": [
         {
           "glyph": "見",
-          "slug": "jian",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4449,12 +4232,10 @@
           },
           "wk": null,
           "kx": 147,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jian4"
         },
         {
           "glyph": "角",
-          "slug": "jiao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4471,12 +4252,10 @@
           },
           "wk": null,
           "kx": 148,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jiao3"
         },
         {
           "glyph": "言",
-          "slug": "yan",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4493,12 +4272,10 @@
           },
           "wk": null,
           "kx": 149,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yan2"
         },
         {
           "glyph": "谷",
-          "slug": "gu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4515,12 +4292,10 @@
           },
           "wk": null,
           "kx": 150,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gu3"
         },
         {
           "glyph": "豆",
-          "slug": "dou151",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4537,12 +4312,10 @@
           },
           "wk": null,
           "kx": 151,
-          "audioBase": "../radicals/",
           "cnAudioKey": "dou4"
         },
         {
           "glyph": "豕",
-          "slug": "shi152",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4559,12 +4332,10 @@
           },
           "wk": null,
           "kx": 152,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi3"
         },
         {
           "glyph": "豸",
-          "slug": "zhi153",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4581,12 +4352,10 @@
           },
           "wk": null,
           "kx": 153,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhi4"
         },
         {
           "glyph": "貝",
-          "slug": "bei",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4603,12 +4372,10 @@
           },
           "wk": null,
           "kx": 154,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bei4"
         },
         {
           "glyph": "赤",
-          "slug": "chi155",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4625,12 +4392,10 @@
           },
           "wk": null,
           "kx": 155,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chi4"
         },
         {
           "glyph": "走",
-          "slug": "zou",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4647,12 +4412,10 @@
           },
           "wk": null,
           "kx": 156,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zou3"
         },
         {
           "glyph": "足",
-          "slug": "zu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4669,12 +4432,10 @@
           },
           "wk": null,
           "kx": 157,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zu2"
         },
         {
           "glyph": "身",
-          "slug": "shen",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4691,12 +4452,10 @@
           },
           "wk": null,
           "kx": 158,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shen1"
         },
         {
           "glyph": "車",
-          "slug": "che159",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4713,12 +4472,10 @@
           },
           "wk": null,
           "kx": 159,
-          "audioBase": "../radicals/",
           "cnAudioKey": "che1"
         },
         {
           "glyph": "辛",
-          "slug": "xin160",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4735,12 +4492,10 @@
           },
           "wk": null,
           "kx": 160,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xin1"
         },
         {
           "glyph": "辰",
-          "slug": "chen161",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4757,12 +4512,10 @@
           },
           "wk": null,
           "kx": 161,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chen2"
         },
         {
           "glyph": "辵",
-          "slug": "chuo",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4779,12 +4532,10 @@
           },
           "wk": null,
           "kx": 162,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chuo4"
         },
         {
           "glyph": "邑",
-          "slug": "yi163",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4801,12 +4552,10 @@
           },
           "wk": null,
           "kx": 163,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yi4"
         },
         {
           "glyph": "酉",
-          "slug": "you164",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4823,12 +4572,10 @@
           },
           "wk": null,
           "kx": 164,
-          "audioBase": "../radicals/",
           "cnAudioKey": "you3"
         },
         {
           "glyph": "釆",
-          "slug": "bian",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4845,12 +4592,10 @@
           },
           "wk": null,
           "kx": 165,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bian4"
         },
         {
           "glyph": "里",
-          "slug": "li166",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4867,7 +4612,6 @@
           },
           "wk": null,
           "kx": 166,
-          "audioBase": "../radicals/",
           "cnAudioKey": "li3"
         }
       ]
@@ -4878,7 +4622,6 @@
       "cards": [
         {
           "glyph": "金",
-          "slug": "jin167",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4895,12 +4638,10 @@
           },
           "wk": null,
           "kx": 167,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jin1"
         },
         {
           "glyph": "長",
-          "slug": "chang",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4917,12 +4658,10 @@
           },
           "wk": null,
           "kx": 168,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chang2"
         },
         {
           "glyph": "門",
-          "slug": "men",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4939,12 +4678,10 @@
           },
           "wk": null,
           "kx": 169,
-          "audioBase": "../radicals/",
           "cnAudioKey": "men2"
         },
         {
           "glyph": "阜",
-          "slug": "fu170",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4961,12 +4698,10 @@
           },
           "wk": null,
           "kx": 170,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fu4"
         },
         {
           "glyph": "隶",
-          "slug": "li171",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -4983,12 +4718,10 @@
           },
           "wk": null,
           "kx": 171,
-          "audioBase": "../radicals/",
           "cnAudioKey": "li4"
         },
         {
           "glyph": "隹",
-          "slug": "zhui",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5005,12 +4738,10 @@
           },
           "wk": null,
           "kx": 172,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhui1"
         },
         {
           "glyph": "雨",
-          "slug": "yu173",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5027,12 +4758,10 @@
           },
           "wk": null,
           "kx": 173,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yu3"
         },
         {
           "glyph": "青",
-          "slug": "qing",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5049,12 +4778,10 @@
           },
           "wk": null,
           "kx": 174,
-          "audioBase": "../radicals/",
           "cnAudioKey": "qing1"
         },
         {
           "glyph": "非",
-          "slug": "fei",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5071,7 +4798,6 @@
           },
           "wk": null,
           "kx": 175,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fei1"
         }
       ]
@@ -5082,7 +4808,6 @@
       "cards": [
         {
           "glyph": "面",
-          "slug": "mian176",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5099,12 +4824,10 @@
           },
           "wk": null,
           "kx": 176,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mian4"
         },
         {
           "glyph": "革",
-          "slug": "ge177",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5121,12 +4844,10 @@
           },
           "wk": null,
           "kx": 177,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ge2"
         },
         {
           "glyph": "韋",
-          "slug": "wei178",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5143,12 +4864,10 @@
           },
           "wk": null,
           "kx": 178,
-          "audioBase": "../radicals/",
           "cnAudioKey": "wei2"
         },
         {
           "glyph": "韭",
-          "slug": "jiu179",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5165,12 +4884,10 @@
           },
           "wk": null,
           "kx": 179,
-          "audioBase": "../radicals/",
           "cnAudioKey": "jiu3"
         },
         {
           "glyph": "音",
-          "slug": "yin180",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5187,12 +4904,10 @@
           },
           "wk": null,
           "kx": 180,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yin1"
         },
         {
           "glyph": "頁",
-          "slug": "ye181",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5209,12 +4924,10 @@
           },
           "wk": null,
           "kx": 181,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ye4"
         },
         {
           "glyph": "風",
-          "slug": "feng",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5231,12 +4944,10 @@
           },
           "wk": null,
           "kx": 182,
-          "audioBase": "../radicals/",
           "cnAudioKey": "feng1"
         },
         {
           "glyph": "飛",
-          "slug": "fei183",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5253,12 +4964,10 @@
           },
           "wk": null,
           "kx": 183,
-          "audioBase": "../radicals/",
           "cnAudioKey": "fei1"
         },
         {
           "glyph": "食",
-          "slug": "shi184",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5275,12 +4984,10 @@
           },
           "wk": null,
           "kx": 184,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shi2"
         },
         {
           "glyph": "首",
-          "slug": "shou185",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5297,12 +5004,10 @@
           },
           "wk": null,
           "kx": 185,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shou3"
         },
         {
           "glyph": "香",
-          "slug": "xiang186",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5319,7 +5024,6 @@
           },
           "wk": null,
           "kx": 186,
-          "audioBase": "../radicals/",
           "cnAudioKey": "xiang1"
         }
       ]
@@ -5330,7 +5034,6 @@
       "cards": [
         {
           "glyph": "馬",
-          "slug": "ma",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5347,7 +5050,6 @@
           },
           "wk": null,
           "kx": 187,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ma3",
           "referents": [
             {
@@ -5364,7 +5066,6 @@
         },
         {
           "glyph": "骨",
-          "slug": "gu188",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5381,12 +5082,10 @@
           },
           "wk": null,
           "kx": 188,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gu3"
         },
         {
           "glyph": "高",
-          "slug": "gao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5403,12 +5102,10 @@
           },
           "wk": null,
           "kx": 189,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gao1"
         },
         {
           "glyph": "髟",
-          "slug": "biao",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -5425,12 +5122,10 @@
           },
           "wk": null,
           "kx": 190,
-          "audioBase": "../radicals/",
           "cnAudioKey": "biao1"
         },
         {
           "glyph": "鬥",
-          "slug": "dou191",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5447,12 +5142,10 @@
           },
           "wk": null,
           "kx": 191,
-          "audioBase": "../radicals/",
           "cnAudioKey": "dou4"
         },
         {
           "glyph": "鬯",
-          "slug": "chang192",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5469,12 +5162,10 @@
           },
           "wk": null,
           "kx": 192,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chang4"
         },
         {
           "glyph": "鬲",
-          "slug": "li193",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5491,12 +5182,10 @@
           },
           "wk": null,
           "kx": 193,
-          "audioBase": "../radicals/",
           "cnAudioKey": "li4"
         },
         {
           "glyph": "鬼",
-          "slug": "gui",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5513,7 +5202,6 @@
           },
           "wk": null,
           "kx": 194,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gui3"
         }
       ]
@@ -5524,7 +5212,6 @@
       "cards": [
         {
           "glyph": "魚",
-          "slug": "yu195",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5541,7 +5228,6 @@
           },
           "wk": null,
           "kx": 195,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yu2",
           "referents": [
             {
@@ -5558,7 +5244,6 @@
         },
         {
           "glyph": "鳥",
-          "slug": "niao",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5575,7 +5260,6 @@
           },
           "wk": null,
           "kx": 196,
-          "audioBase": "../radicals/",
           "cnAudioKey": "niao3",
           "referents": [
             {
@@ -5592,7 +5276,6 @@
         },
         {
           "glyph": "鹵",
-          "slug": "lu",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5609,12 +5292,10 @@
           },
           "wk": null,
           "kx": 197,
-          "audioBase": "../radicals/",
           "cnAudioKey": "lu3"
         },
         {
           "glyph": "鹿",
-          "slug": "lu198",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5631,12 +5312,10 @@
           },
           "wk": null,
           "kx": 198,
-          "audioBase": "../radicals/",
           "cnAudioKey": "lu4"
         },
         {
           "glyph": "麥",
-          "slug": "mai",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5653,12 +5332,10 @@
           },
           "wk": null,
           "kx": 199,
-          "audioBase": "../radicals/",
           "cnAudioKey": "mai4"
         },
         {
           "glyph": "麻",
-          "slug": "ma200",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5675,7 +5352,6 @@
           },
           "wk": null,
           "kx": 200,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ma2"
         }
       ]
@@ -5686,7 +5362,6 @@
       "cards": [
         {
           "glyph": "黃",
-          "slug": "huang",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5703,12 +5378,10 @@
           },
           "wk": null,
           "kx": 201,
-          "audioBase": "../radicals/",
           "cnAudioKey": "huang2"
         },
         {
           "glyph": "黍",
-          "slug": "shu202",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5725,12 +5398,10 @@
           },
           "wk": null,
           "kx": 202,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shu3"
         },
         {
           "glyph": "黑",
-          "slug": "hei",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5747,12 +5418,10 @@
           },
           "wk": null,
           "kx": 203,
-          "audioBase": "../radicals/",
           "cnAudioKey": "hei1"
         },
         {
           "glyph": "黹",
-          "slug": "zhi204",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5769,7 +5438,6 @@
           },
           "wk": null,
           "kx": 204,
-          "audioBase": "../radicals/",
           "cnAudioKey": "zhi3"
         }
       ]
@@ -5780,7 +5448,6 @@
       "cards": [
         {
           "glyph": "黽",
-          "slug": "min205",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5797,12 +5464,10 @@
           },
           "wk": null,
           "kx": 205,
-          "audioBase": "../radicals/",
           "cnAudioKey": "min3"
         },
         {
           "glyph": "鼎",
-          "slug": "ding206",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5819,12 +5484,10 @@
           },
           "wk": null,
           "kx": 206,
-          "audioBase": "../radicals/",
           "cnAudioKey": "ding3"
         },
         {
           "glyph": "鼓",
-          "slug": "gu207",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5841,12 +5504,10 @@
           },
           "wk": null,
           "kx": 207,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gu3"
         },
         {
           "glyph": "鼠",
-          "slug": "shu208",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5863,7 +5524,6 @@
           },
           "wk": null,
           "kx": 208,
-          "audioBase": "../radicals/",
           "cnAudioKey": "shu3"
         }
       ]
@@ -5874,7 +5534,6 @@
       "cards": [
         {
           "glyph": "鼻",
-          "slug": "bi209",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5891,12 +5550,10 @@
           },
           "wk": null,
           "kx": 209,
-          "audioBase": "../radicals/",
           "cnAudioKey": "bi2"
         },
         {
           "glyph": "齊",
-          "slug": "qi210",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5913,7 +5570,6 @@
           },
           "wk": null,
           "kx": 210,
-          "audioBase": "../radicals/",
           "cnAudioKey": "qi2"
         }
       ]
@@ -5924,7 +5580,6 @@
       "cards": [
         {
           "glyph": "齒",
-          "slug": "chi211",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5941,7 +5596,6 @@
           },
           "wk": null,
           "kx": 211,
-          "audioBase": "../radicals/",
           "cnAudioKey": "chi3"
         }
       ]
@@ -5952,7 +5606,6 @@
       "cards": [
         {
           "glyph": "龍",
-          "slug": "long",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5969,12 +5622,10 @@
           },
           "wk": null,
           "kx": 212,
-          "audioBase": "../radicals/",
           "cnAudioKey": "long2"
         },
         {
           "glyph": "龜",
-          "slug": "gui213",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -5991,7 +5642,6 @@
           },
           "wk": null,
           "kx": 213,
-          "audioBase": "../radicals/",
           "cnAudioKey": "gui1"
         }
       ]
@@ -6002,7 +5652,6 @@
       "cards": [
         {
           "glyph": "龠",
-          "slug": "yue214",
           "tag": "char",
           "image": "",
           "hw": true,
@@ -6019,7 +5668,6 @@
           },
           "wk": null,
           "kx": 214,
-          "audioBase": "../radicals/",
           "cnAudioKey": "yue4"
         }
       ]
@@ -6030,7 +5678,6 @@
       "cards": [
         {
           "glyph": "亻",
-          "slug": "danren",
           "tag": "comp",
           "image": "",
           "hw": false,
@@ -6062,12 +5709,11 @@
             "level": 1,
             "kind": "mnemonic"
           },
-          "audioBase": "../radicals/",
-          "cnExAudioKey": "xiu1"
+          "cnExAudioKey": "xiu1",
+          "jpExAudioKey": "yasu"
         },
         {
           "glyph": "𠂉",
-          "slug": "gun",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -6099,12 +5745,11 @@
             "kind": "mnemonic",
             "icon": "gun"
           },
-          "audioBase": "../radicals/",
-          "cnExAudioKey": "wu3"
+          "cnExAudioKey": "wu3",
+          "jpExAudioKey": "go"
         },
         {
           "glyph": "ト",
-          "slug": "toe",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -6136,13 +5781,12 @@
             "kind": "mnemonic",
             "icon": "toe"
           },
-          "audioBase": "../radicals/",
           "cnAudioKey": "bu3",
-          "cnExAudioKey": "wai4"
+          "cnExAudioKey": "wai4",
+          "jpExAudioKey": "soto"
         },
         {
           "glyph": "メ",
-          "slug": "me",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -6173,13 +5817,12 @@
             "level": 2,
             "kind": "mnemonic"
           },
-          "audioBase": "../radicals/",
           "cnAudioKey": "yi4",
-          "cnExAudioKey": "wen2"
+          "cnExAudioKey": "wen2",
+          "jpExAudioKey": "bun"
         },
         {
           "glyph": "ナ",
-          "slug": "na",
           "tag": "comp",
           "image": "",
           "hw": true,
@@ -6210,12 +5853,11 @@
             "level": 2,
             "kind": "mnemonic"
           },
-          "audioBase": "../radicals/",
-          "cnExAudioKey": "you3"
+          "cnExAudioKey": "you3",
+          "jpExAudioKey": "tomo"
         },
         {
           "glyph": "𠂇",
-          "slug": "zuo3",
           "tag": "comp",
           "image": "",
           "hw": false,
@@ -6242,12 +5884,10 @@
             "level": 1,
             "kind": "mnemonic"
           },
-          "audioBase": "../radicals/",
           "cnExAudioKey": "you3"
         },
         {
           "glyph": "乚",
-          "slug": "shuwangou",
           "tag": "comp",
           "image": "",
           "hw": false,
@@ -6274,12 +5914,10 @@
             "level": 1,
             "kind": "mnemonic"
           },
-          "audioBase": "../radicals/",
           "cnExAudioKey": "ye3"
         },
         {
           "glyph": "丆",
-          "slug": "leaf",
           "tag": "comp",
           "image": "",
           "hw": false,
@@ -6299,8 +5937,7 @@
             "name": "Leaf",
             "level": 2,
             "kind": "mnemonic"
-          },
-          "audioBase": "../radicals/"
+          }
         }
       ]
     }

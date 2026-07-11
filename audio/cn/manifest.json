@@ -259,6 +259,10 @@
     "text": "黑",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "hengzhegou.mp3": {
+    "text": "横折钩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "hu1.mp3": {
     "text": "虍",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -467,6 +471,10 @@
     "text": "丿",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "piedian.mp3": {
+    "text": "撇点",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "pu1.mp3": {
     "text": "攴",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -593,6 +601,10 @@
   },
   "shu4.mp3": {
     "text": "丨",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shugou.mp3": {
+    "text": "竖钩",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shui3.mp3": {

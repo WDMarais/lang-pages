@@ -2,7 +2,6 @@
   "words": [
     {
       "surface": "七つ",
-      "slug": "nanatsu",
       "audience": "jp",
       "parts": ["七"],
       "denotes": "seven",
@@ -13,7 +12,6 @@
     },
     {
       "surface": "二つ",
-      "slug": "futatsu",
       "audience": "jp",
       "parts": ["二"],
       "denotes": "two",
@@ -24,7 +22,6 @@
     },
     {
       "surface": "入る",
-      "slug": "hairu",
       "audience": "jp",
       "parts": ["入"],
       "denotes": "enter",
@@ -35,7 +32,6 @@
     },
     {
       "surface": "八つ",
-      "slug": "yattsu",
       "audience": "jp",
       "parts": ["八"],
       "denotes": "eight",
@@ -46,7 +42,6 @@
     },
     {
       "surface": "二人",
-      "slug": "futari",
       "audience": "jp",
       "parts": ["二", "人"],
       "denotes": "two-people",
@@ -56,7 +51,6 @@
     },
     {
       "surface": "一つ",
-      "slug": "hitotsu",
       "audience": "jp",
       "parts": ["一"],
       "denotes": "one",
@@ -67,7 +61,6 @@
     },
     {
       "surface": "一人",
-      "slug": "hitori",
       "audience": "jp",
       "parts": ["一", "人"],
       "denotes": "one-person",
@@ -77,7 +70,6 @@
     },
     {
       "surface": "三つ",
-      "slug": "mittsu",
       "audience": "jp",
       "parts": ["三"],
       "denotes": "three",
@@ -88,7 +80,6 @@
     },
     {
       "surface": "九つ",
-      "slug": "kokonotsu",
       "audience": "jp",
       "parts": ["九"],
       "denotes": "nine",
@@ -99,7 +90,6 @@
     },
     {
       "surface": "三人",
-      "slug": "sannin",
       "audience": "jp",
       "parts": ["三", "人"],
       "denotes": "three-people",
@@ -109,7 +99,6 @@
     },
     {
       "surface": "上げる",
-      "slug": "ageru",
       "audience": "jp",
       "parts": ["上"],
       "denotes": "raise",
@@ -120,7 +109,6 @@
     },
     {
       "surface": "下げる",
-      "slug": "sageru",
       "audience": "jp",
       "parts": ["下"],
       "denotes": "lower",
@@ -131,7 +119,6 @@
     },
     {
       "surface": "下さい",
-      "slug": "kudasai",
       "audience": "jp",
       "parts": ["下"],
       "denotes": "please-give",
@@ -142,7 +129,6 @@
     },
     {
       "surface": "入り口",
-      "slug": "iriguchi",
       "audience": "jp",
       "parts": ["入", "口"],
       "denotes": "entrance",
@@ -152,7 +138,6 @@
     },
     {
       "surface": "大きい",
-      "slug": "ookii",
       "audience": "jp",
       "parts": ["大"],
       "denotes": "big",
@@ -163,7 +148,6 @@
     },
     {
       "surface": "大きさ",
-      "slug": "ookisa",
       "audience": "jp",
       "parts": ["大"],
       "denotes": "size",
@@ -174,7 +158,6 @@
     },
     {
       "surface": "大した",
-      "slug": "taishita",
       "audience": "jp",
       "parts": ["大"],
       "denotes": "great",
@@ -185,7 +168,6 @@
     },
     {
       "surface": "大人",
-      "slug": "otona",
       "audience": "jp",
       "parts": ["大", "人"],
       "denotes": "adult",
@@ -195,7 +177,6 @@
     },
     {
       "surface": "人口",
-      "slug": "jinkou",
       "audience": "jp",
       "parts": ["人", "口"],
       "denotes": "population",
@@ -204,7 +185,6 @@
     },
     {
       "surface": "人工",
-      "slug": "jinkou",
       "audience": "jp",
       "parts": ["人", "工"],
       "denotes": "artificial",
@@ -214,7 +194,6 @@
     },
     {
       "surface": "力いっぱい",
-      "slug": "chikaraippai",
       "audience": "jp",
       "parts": ["力"],
       "denotes": "full-power",
@@ -225,7 +204,6 @@
     },
     {
       "surface": "上る",
-      "slug": "noboru",
       "audience": "jp",
       "parts": ["上"],
       "denotes": "climb",
@@ -236,7 +214,6 @@
     },
     {
       "surface": "おはよう",
-      "slug": "ohayou",
       "audience": "jp",
       "parts": [],
       "denotes": "good-morning",
@@ -246,7 +223,6 @@
     },
     {
       "surface": "ホテル",
-      "slug": "hoteru",
       "audience": "jp",
       "parts": [],
       "denotes": "hotel",
@@ -256,7 +232,6 @@
     },
     {
       "surface": "之中",
-      "slug": "zhizhong",
       "audience": "cn",
       "parts": ["之", "中"],
       "denotes": "among",
@@ -266,7 +241,6 @@
     },
     {
       "surface": "从不",
-      "slug": "congbu",
       "audience": "cn",
       "parts": ["从", "不"],
       "denotes": "never",
@@ -276,7 +250,6 @@
     },
     {
       "surface": "之后",
-      "slug": "zhihou",
       "audience": "cn",
       "parts": ["之", "后"],
       "denotes": "after",
@@ -286,7 +259,6 @@
     },
     {
       "surface": "大人",
-      "slug": "daren",
       "audience": "cn",
       "parts": ["大", "人"],
       "denotes": "adult",

@@ -6,24 +6,26 @@ graph (build-graph.py) and the decomposition edges (fetch-decomp.py). The text
 to synthesize is derived from the same card JSON the pages render, so there is a
 single source of truth; no hand-maintained word lists live in shell.
 
-Each job mirrors exactly what the page renders, so we neither 404 nor orphan:
-  - glyph modules (radicals, strokes): projected straight from the symbol source of
-    truth (load_symbols → to_card), NOT a page file — cards3.js renders the name play
-    button when the binding has a reading and the example button only when it has an
-    `appearsIn`. Non-stroke glyph audio is homed in the shared radicals/audio/ bucket
-    that /characters/ and /kangxi/ both point at via audioBase; strokes has its own.
-  - xi-zhuang: cards.json already lists each clip's file per voice; we synthesize
-    the four synthetic voices and leave the 录音 human recording alone.
+Every glyph clip is content-keyed by SOUND, in a shared site-level bank, so a
+reading is voiced once and every glyph that uses it shares the clip:
+  - cn-bank: /audio/cn/<pinyin+tone>.mp3 (千→qian1), plus the few multi-syllable
+    stroke names (竖钩→shugou); projected from phonetics.bank so it matches /zhuyin/.
+  - jp-bank: /audio/jp/<romaji>.mp3 (セン→sen), voiced from the kana reading itself.
+  - kana:    /audio/kana/<romaji>.mp3, the fixed mora board (/kana/).
+  - xi-zhuang: cards.json lists each clip per voice; we synthesize the four synthetic
+    voices and leave the 录音 human recording alone.
+cards3.js resolves each card to these banks by the keys build-pages stamps (cnSrc/
+jpSrc), so there are no per-page, slug-keyed audio buckets to 404 or orphan.
 
 Each bucket carries a manifest.json recording the text+voice synthesized into every
-clip. Filenames are keyed by slug, not by what they say, so the manifest is the only
-thing that can notice a reading edited in place under an unchanged slug; such a clip
-is regenerated ("stale"), not skipped. Clips predating the manifest are adopted.
+clip. A content key still can't tell whether the representative hanzi changed (禾→合
+both voice he2), so the manifest catches that: such a clip is regenerated ("stale"),
+not skipped. Clips predating the manifest are adopted.
 
-Run:  python3 data/gen-audio.py [radicals|strokes|xi-zhuang|all] [--dry-run] [--prune]
-      --prune deletes clips in a glyph bucket (radicals/strokes) that no card
-      references, keeping the committed bucket in sync with the projected set.
-      xi-zhuang is never pruned — its dir holds the human 录音 recording.
+Run:  python3 data/gen-audio.py [cn-bank|jp-bank|kana|xi-zhuang|all] [--dry-run] [--prune]
+      --prune deletes clips in a bank that no card references, keeping the committed
+      bank in sync with the projected set. xi-zhuang is never pruned — its dir holds
+      the human 录音 recording.
 Requires: uv tool install edge-tts
 """
 import subprocess
@@ -31,8 +33,9 @@ import sys
 from collections import namedtuple
 
 from paths import ROOT, read_json, write_json
-from symbols_io import load_symbols, to_card, on_strokes
-from phonetics import bank as cn_bank, audio_key
+from symbols_io import load_symbols
+from phonetics import bank as cn_bank, audio_key, multi_key
+from phonetics_jp import kana_key
 
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
 JP_VOICE = "ja-JP-NanamiNeural"
@@ -52,40 +55,6 @@ XZ_VOICES = {
 }
 
 Job = namedtuple("Job", "voice text outfile")
-
-
-def glyph_cards(keep):
-    """Glyph cards from the symbol source of truth (load_symbols → to_card), filtered
-    by a page-membership rule. Same projection build-pages renders, so the audio set
-    matches the page exactly without reading a (possibly retired) page file."""
-    return [to_card(s) for s in load_symbols().values() if keep(s)]
-
-
-def glyph_jobs(cards, audio):
-    """Name button ({cn,jp}-{slug}.mp3) when the binding has a reading + example button
-    (-ex) when it has an appearsIn — matching cards3.js, which gates each play button on
-    those same fields. Gating the name job on a reading is also what keeps us from
-    feeding a readingless shape component (匸, no JP reading) to a voice that can't say
-    it. `audio` is the bucket the page fetches from (per its audioBase).
-
-    CN readings that are a single bank-eligible syllable are NOT cut here — cards3.js
-    resolves them to the shared /audio/cn/ bank (cnSrc), so a per-slug CN clip would be
-    a duplicate that prune then removes. Only multi-syllable CN readings (stroke names)
-    keep a per-slug clip. JP is never banked, so every JP job stays."""
-    jobs = []
-    for c in cards:
-        slug, cn, jp = c["slug"], c["cn"], c["jp"]
-        if cn.get("reading") and audio_key(cn["reading"]) is None:
-            jobs.append(Job(CN_VOICE, cn["name"], audio / f"cn-{slug}.mp3"))
-        if jp.get("reading"):
-            jobs.append(Job(JP_VOICE, jp["reading"], audio / f"jp-{slug}.mp3"))
-        if cn.get("appearsIn") and audio_key(cn["appearsIn"].get("reading")) is None:
-            jobs.append(Job(CN_VOICE, cn["appearsIn"]["char"], audio / f"cn-{slug}-ex.mp3"))
-        if jp.get("appearsIn"):
-            jp_ai = jp["appearsIn"]
-            jobs.append(Job(JP_VOICE, jp_ai.get("reading") or jp_ai["char"],
-                            audio / f"jp-{slug}-ex.mp3"))
-    return jobs
 
 
 def xizhuang_jobs(path):
@@ -109,14 +78,38 @@ TONE_DEMO = {"ma1": "妈", "ma2": "麻", "ma3": "马", "ma4": "骂", "ma5": "吗
 
 
 def cn_bank_jobs():
-    """One clip per CN syllable → audio/cn/<key>.mp3, voiced by a representative hanzi
-    (edge-tts can't pronounce bare pinyin). Deduped by syllable: every hanzi reading
-    qiān shares audio/cn/qian1.mp3. phonetics.bank is the shared inventory, so the clip
-    set matches the /zhuyin/ page exactly. Tone-demo syllables are folded in."""
-    reps = {k: e["glyphs"][0]["glyph"] for k, e in cn_bank(load_symbols()).items()}
+    """One clip per CN sound → audio/cn/<key>.mp3, voiced by a representative hanzi
+    (edge-tts can't pronounce bare pinyin). Single syllables come from phonetics.bank
+    (the shared inventory the /zhuyin/ page also uses), deduped so every hanzi reading
+    qiān shares audio/cn/qian1.mp3; tone-demo syllables are folded in. The handful of
+    multi-syllable stroke names (竖钩 shùgōu → shugou) audio_key skips are added too,
+    keyed by multi_key and voiced by the stroke's hanzi name — so /audio/cn/ is the one
+    CN store and no clip is slug-keyed."""
+    syms = load_symbols()
+    text = {k: e["glyphs"][0]["glyph"] for k, e in cn_bank(syms).items()}
     for k, hz in TONE_DEMO.items():
-        reps.setdefault(k, hz)
-    return [Job(CN_VOICE, hz, AUDIO / "cn" / f"{k}.mp3") for k, hz in sorted(reps.items())]
+        text.setdefault(k, hz)
+    for s in syms.values():
+        cn = (s.get("readings") or {}).get("cn") or {}
+        r = cn.get("reading")
+        if r and audio_key(r) is None and (k := multi_key(r)):
+            text.setdefault(k, cn.get("name") or s["glyph"])
+    return [Job(CN_VOICE, t, AUDIO / "cn" / f"{k}.mp3") for k, t in sorted(text.items())]
+
+
+def jp_bank_jobs():
+    """One clip per JP reading → audio/jp/<romaji>.mp3, voiced from the kana reading
+    itself — unlike CN, kana is directly speakable, so no representative glyph is
+    needed. Deduped by romaji key: 天 and 丶 both read テン → one audio/jp/ten.mp3.
+    Scans a glyph's reading and its example (appearsIn), the JP analog of the CN bank;
+    readingless components contribute nothing (kana_key → None)."""
+    text = {}
+    for s in load_symbols().values():
+        jp = (s.get("readings") or {}).get("jp") or {}
+        for reading in (jp.get("reading"), (jp.get("appearsIn") or {}).get("reading")):
+            if k := kana_key(reading):
+                text.setdefault(k, reading)
+    return [Job(JP_VOICE, t, AUDIO / "jp" / f"{k}.mp3") for k, t in sorted(text.items())]
 
 
 def kana_jobs():
@@ -133,25 +126,23 @@ def kana_jobs():
     return [Job(JP_VOICE, hira, AUDIO / "kana" / f"{r}.mp3") for r, hira in sorted(seen.items())]
 
 
+# All glyph audio is content-keyed now: CN (single + multi-syllable) → /audio/cn/,
+# JP → /audio/jp/, kana mora → /audio/kana/. The old per-page, slug-keyed buckets
+# (radicals/audio, strokes/audio) and their glyph_jobs are retired — cards3.js resolves
+# every card to a bank by sound, so a page no longer owns an audio dir.
 MODULES = {
-    # radicals/audio/ is the shared non-stroke glyph audio bucket — its dir name is
-    # historical (the /radicals/ page retired into /characters/ + /kangxi/, which both
-    # point here via audioBase "../radicals/"). Sourced from the symbols, so it never
-    # reads a retired projection.
-    "radicals": lambda: glyph_jobs(glyph_cards(lambda s: not on_strokes(s)),
-                                   ROOT / "radicals/audio"),
-    "strokes": lambda: glyph_jobs(glyph_cards(on_strokes), ROOT / "strokes/audio"),
-    "xi-zhuang": lambda: xizhuang_jobs(ROOT / "xi-zhuang/cards.json"),
     "cn-bank": cn_bank_jobs,
+    "jp-bank": jp_bank_jobs,
     "kana": kana_jobs,
+    "xi-zhuang": lambda: xizhuang_jobs(ROOT / "xi-zhuang/cards.json"),
 }
 
 
-# A clip's filename is keyed by slug, not by the text it speaks, so "the file
-# exists" cannot answer "does it still say the right thing?". Each bucket keeps a
-# manifest of what was synthesized into it, and a job whose text or voice has
-# moved since is regenerated. Without this, editing a reading in place leaves the
-# old clip sitting there under the same slug, silently wrong.
+# A clip's filename is the sound key, not the text spoken, so "the file exists"
+# cannot answer "is it voiced by the right hanzi?" (禾 and 合 both key he2). Each
+# bucket keeps a manifest of what was synthesized into it, and a job whose text or
+# voice has moved since is regenerated — otherwise a changed representative would
+# leave the old clip sitting there under the same key.
 MANIFEST = "manifest.json"
 
 
@@ -219,7 +210,7 @@ def run(jobs, dry_run):
 # Buckets gen-audio fully owns, so an unreferenced file there is safe to delete.
 # xi-zhuang is excluded: its audio dir also holds the human 录音 recording, which
 # is never a synthesized job and must never be pruned.
-PRUNABLE = {"radicals", "strokes", "cn-bank", "kana"}
+PRUNABLE = {"cn-bank", "jp-bank", "kana"}
 
 
 def prune_bucket(name, jobs, dry_run):

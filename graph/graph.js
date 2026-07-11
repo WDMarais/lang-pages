@@ -249,8 +249,11 @@ function renderDetail(glyph) {
 function cardFromNode(node) {
   const cn = bindById[`b:${node.glyph}@cn`], jp = bindById[`b:${node.glyph}@jp`];
   return {
-    glyph: node.glyph, slug: node.slug, tag: TAGMAP[node.tier],
-    image: node.media.image, hw: node.media.hw, audioBase: `../${node.source}/`,
+    glyph: node.glyph, tag: TAGMAP[node.tier],
+    image: node.media.image, hw: node.media.hw,
+    // content-keyed bank keys stamped on the node by build-graph (cnSrc/jpSrc)
+    cnAudioKey: node.cnAudioKey, cnExAudioKey: node.cnExAudioKey,
+    jpAudioKey: node.jpAudioKey, jpExAudioKey: node.jpExAudioKey,
     cn: view(cn), jp: view(jp), wk: wkFrom(jp), kanji: kanjiFrom(jp),
   };
 }

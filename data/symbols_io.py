@@ -10,6 +10,8 @@ build-graph.py agree on one definition.
 import re
 
 from paths import ROOT, DATA, SYM, read_json  # noqa: F401  (ROOT/DATA re-exported)
+from phonetics import cn_key
+from phonetics_jp import kana_key
 
 
 def referent_slug(gloss):
@@ -106,7 +108,6 @@ def to_card(sym):
     prog = {(p["source"], p["role"]): p for p in sym.get("programs", [])}
     card = {
         "glyph": sym["glyph"],
-        "slug": sym["slug"],
         "tag": sym["class"],
         "image": sym["form"]["image"],
         "hw": sym["form"]["hw"],
@@ -120,6 +121,26 @@ def to_card(sym):
         elif t.get("always"):
             card[t["card"]] = None
     return card
+
+
+def card_audio_keys(cn, jp):
+    """A card/node's content-keyed audio bank keys, from its CN/JP reading views:
+    cnAudioKey/cnExAudioKey → /audio/cn/, jpAudioKey/jpExAudioKey → /audio/jp/. Keyed
+    by *sound* (千→qian1, セン→sen), never the glyph — which is why the per-symbol slug
+    is gone. The ONE definition, so build-pages (cards) and build-graph (graph-panel
+    nodes) never drift. Returns only the keys that exist — a readingless view
+    contributes nothing (cards3.js gates the play button on a reading)."""
+    cn, jp = cn or {}, jp or {}
+    out = {}
+    if k := cn_key(cn.get("reading")):
+        out["cnAudioKey"] = k
+    if k := cn_key((cn.get("appearsIn") or {}).get("reading")):
+        out["cnExAudioKey"] = k
+    if k := kana_key(jp.get("reading")):
+        out["jpAudioKey"] = k
+    if k := kana_key((jp.get("appearsIn") or {}).get("reading")):
+        out["jpExAudioKey"] = k
+    return out
 
 
 # ── card ⇄ graph `program` object (the two inverse graph projections) ────────

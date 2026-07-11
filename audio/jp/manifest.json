@@ -1,0 +1,426 @@
+{
+  "akarui.mp3": {
+    "text": "あかるい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "arau.mp3": {
+    "text": "あらう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ataeru.mp3": {
+    "text": "あたえる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "au.mp3": {
+    "text": "あう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "bun.mp3": {
+    "text": "ブン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chi.mp3": {
+    "text": "チ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chichi.mp3": {
+    "text": "ちち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chiisai.mp3": {
+    "text": "ちいさい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chikara.mp3": {
+    "text": "ちから",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chou.mp3": {
+    "text": "チョウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chuu.mp3": {
+    "text": "チュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "dai.mp3": {
+    "text": "ダイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "en.mp3": {
+    "text": "エン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "fu.mp3": {
+    "text": "フ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "furui.mp3": {
+    "text": "ふるい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "fuseru.mp3": {
+    "text": "ふせる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gen.mp3": {
+    "text": "ゲン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "go.mp3": {
+    "text": "ご",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hachi.mp3": {
+    "text": "ハチ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hairu.mp3": {
+    "text": "はいる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hane.mp3": {
+    "text": "はね",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hanebou.mp3": {
+    "text": "はねぼう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hayashi.mp3": {
+    "text": "はやし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hetsuten.mp3": {
+    "text": "へつてん",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hi.mp3": {
+    "text": "ひ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hidaribarai.mp3": {
+    "text": "ひだりばらい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hiku.mp3": {
+    "text": "ひく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hito.mp3": {
+    "text": "ひと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hon.mp3": {
+    "text": "ホン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "honoo.mp3": {
+    "text": "ほのお",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ichi.mp3": {
+    "text": "いち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ie.mp3": {
+    "text": "いえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ima.mp3": {
+    "text": "いま",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ina.mp3": {
+    "text": "いな",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "inu.mp3": {
+    "text": "いぬ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ito.mp3": {
+    "text": "いと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "iwa.mp3": {
+    "text": "いわ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "izumi.mp3": {
+    "text": "いずみ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ji.mp3": {
+    "text": "ジ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juu.mp3": {
+    "text": "ジュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "karada.mp3": {
+    "text": "からだ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "katana.mp3": {
+    "text": "かたな",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kawa.mp3": {
+    "text": "かわ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ki.mp3": {
+    "text": "き",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kiru.mp3": {
+    "text": "きる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ko.mp3": {
+    "text": "こ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kobushi.mp3": {
+    "text": "こぶし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "koori.mp3": {
+    "text": "こおり",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kore.mp3": {
+    "text": "これ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kou.mp3": {
+    "text": "コウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kuchi.mp3": {
+    "text": "くち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kyuu.mp3": {
+    "text": "キュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "maru.mp3": {
+    "text": "まる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mei.mp3": {
+    "text": "メイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "migibarai.mp3": {
+    "text": "みぎばらい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mittsu.mp3": {
+    "text": "みっつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mizu.mp3": {
+    "text": "みず",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "motte.mp3": {
+    "text": "もって",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "muku.mp3": {
+    "text": "むく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "naka.mp3": {
+    "text": "なか",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nana.mp3": {
+    "text": "なな",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ni.mp3": {
+    "text": "ニ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "niru.mp3": {
+    "text": "にる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nushi.mp3": {
+    "text": "ぬし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "onna.mp3": {
+    "text": "おんな",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ono.mp3": {
+    "text": "おの",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ore.mp3": {
+    "text": "おれ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "otoko.mp3": {
+    "text": "おとこ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ou.mp3": {
+    "text": "オウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ousetsukou.mp3": {
+    "text": "おうせつこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "roku.mp3": {
+    "text": "ロク",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sai.mp3": {
+    "text": "サイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "saki.mp3": {
+    "text": "さき",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "san.mp3": {
+    "text": "サン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sei.mp3": {
+    "text": "セイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sen.mp3": {
+    "text": "セン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shi.mp3": {
+    "text": "シ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shiro.mp3": {
+    "text": "しろ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shita.mp3": {
+    "text": "した",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shou.mp3": {
+    "text": "ショウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shuu.mp3": {
+    "text": "シュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "soto.mp3": {
+    "text": "そと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "suki.mp3": {
+    "text": "すき",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ta.mp3": {
+    "text": "た",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tatekaku.mp3": {
+    "text": "たてかく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "te.mp3": {
+    "text": "て",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ten.mp3": {
+    "text": "テン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tomo.mp3": {
+    "text": "とも",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tou.mp3": {
+    "text": "トウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsuchi.mp3": {
+    "text": "つち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsuki.mp3": {
+    "text": "つき",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsutsumu.mp3": {
+    "text": "つつむ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "uchi.mp3": {
+    "text": "うち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ue.mp3": {
+    "text": "うえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "utsu.mp3": {
+    "text": "うつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "wakeru.mp3": {
+    "text": "わける",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ware.mp3": {
+    "text": "われ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "waza.mp3": {
+    "text": "わざ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ya.mp3": {
+    "text": "や",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yama.mp3": {
+    "text": "やま",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yasu.mp3": {
+    "text": "やす",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yokokaku.mp3": {
+    "text": "よこかく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yumi.mp3": {
+    "text": "ゆみ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yuu.mp3": {
+    "text": "ゆう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "zai.mp3": {
+    "text": "ザイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "zen.mp3": {
+    "text": "ゼン",
+    "voice": "ja-JP-NanamiNeural"
+  }
+}
