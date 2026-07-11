@@ -138,27 +138,49 @@ def to_zhuyin(base):
 # page) and gen-audio (the audio clips) so the two can never drift on which syllables
 # exist or which hanzi voices each one.
 
-def bank(symbols):
-    """Project the CN syllable bank from the symbol store: {key: entry}, one entry
-    per bank-eligible syllable, sorted by key. Each entry carries the pinyin base,
-    tone, zhuyin, and every hanzi that reads it (`glyphs`), the first of which is the
-    representative used to synthesize the clip (edge-tts can't voice bare pinyin).
+# Representative preference: a real character voices a syllable cleanly; a stroke or
+# bare component (㇐ ㇏ メ) can't be spoken by the TTS voice, so it must never be the
+# clip's representative when a character reads the same syllable. Lower rank wins.
+_REP_RANK = {"char": 0, "comp": 1, "stroke": 2}
 
-    Both the page and the audio generator consume this, so "what syllables exist" and
-    "which hanzi says each one" have a single source."""
+
+def _observe(entries, glyph, reading, gloss, rank):
+    """Record one (glyph reads syllable) observation into the bank, if it is a single
+    bank-eligible syllable voiced by a single hanzi. First writer sets the canonical
+    pinyin/zhuyin; a glyph is listed once even if seen as both a reading and an example."""
+    key = audio_key(reading)
+    if key is None or not glyph or len(glyph) != 1:
+        return
+    base, tone = strip_tone(reading)
+    e = entries.setdefault(key, {
+        "key": key, "pinyin": reading, "base": base, "tone": tone,
+        "zhuyin": to_zhuyin(base), "glyphs": [],
+    })
+    if all(g["glyph"] != glyph for g in e["glyphs"]):
+        e["glyphs"].append({"glyph": glyph, "gloss": gloss, "rank": rank})
+
+
+def bank(symbols):
+    """Project the CN syllable bank from the symbol store: {key: entry}, one entry per
+    bank-eligible syllable, sorted by key. Each entry carries the pinyin base, tone,
+    zhuyin, and every hanzi that reads it (`glyphs`), the first of which is the
+    representative used to synthesize the clip (edge-tts can't voice bare pinyin) — a
+    real character where one exists, never an unspeakable stroke/component.
+
+    Scans both a glyph's own reading and its example (`appearsIn`) — the example plays
+    the appearing character's reading, itself just a syllable, so it dedupes into the
+    same bank. Both the page and the audio generator consume this, so "what syllables
+    exist" and "which hanzi says each one" have a single source."""
     entries = {}
     for s in symbols.values():
         r = (s.get("readings") or {}).get("cn") or {}
-        reading = r.get("reading")
-        key = audio_key(reading)
-        if key is None:
-            continue
-        base, tone = strip_tone(reading)
-        e = entries.setdefault(key, {
-            "key": key, "pinyin": reading, "base": base, "tone": tone,
-            "zhuyin": to_zhuyin(base), "glyphs": [],
-        })
-        e["glyphs"].append({"glyph": s["glyph"], "gloss": r.get("gloss", "")})
+        _observe(entries, s["glyph"], r.get("reading"), r.get("gloss", ""),
+                 _REP_RANK.get(s.get("class"), 3))
+    for s in symbols.values():  # examples are real chars in context → rank as characters
+        ai = ((s.get("readings") or {}).get("cn") or {}).get("appearsIn") or {}
+        _observe(entries, ai.get("char"), ai.get("reading"), ai.get("gloss", ""), 0)
+    for e in entries.values():  # most-speakable representative first, then stable by glyph
+        e["glyphs"].sort(key=lambda g: (g["rank"], g["glyph"]))
     return {k: entries[k] for k in sorted(entries)}
 
 

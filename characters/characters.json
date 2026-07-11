@@ -10,6 +10,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "yi1",
+          "cnExAudioKey": "san1",
           "cn": {
             "name": "一", "reading": "yī", "gloss": "one",
             "extra": "一横 · 最简单的汉字 · 也是笔画「横」",
@@ -30,6 +32,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ba1",
+          "cnExAudioKey": "fen1",
           "cn": {
             "name": "八", "reading": "bā", "gloss": "eight",
             "extra": "撇 + 捺 · 作部件叫「八字头」",
@@ -50,6 +54,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "er4",
+          "cnExAudioKey": "yuan2",
           "cn": {
             "name": "二", "reading": "èr", "gloss": "two",
             "extra": "两个 横 · 也是数字「二」",
@@ -70,6 +76,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "san1",
           "cn": {
             "name": "三", "reading": "sān", "gloss": "three",
             "extra": "三横 · 一二三 同源，皆积横"
@@ -87,6 +94,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "da4",
+          "cnExAudioKey": "tian1",
           "cn": {
             "name": "大", "reading": "dà", "gloss": "big; huge; large",
             "extra": "一 + 人 形 · 也是汉字「大」",
@@ -108,6 +117,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "tian1",
           "cn": {
             "name": "天", "reading": "tiān", "gloss": "sky; heaven; day",
             "extra": "一 + 大 · 指事「人上之天」"
@@ -125,6 +135,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "xiao3",
+          "cnExAudioKey": "shao3",
           "cn": {
             "name": "小", "reading": "xiǎo", "gloss": "small; little",
             "extra": "康熙部首 42 · 与「大」相对 · 象形",
@@ -144,6 +156,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ren2",
+          "cnExAudioKey": "jin1",
           "cn": {
             "name": "人", "reading": "rén", "gloss": "person",
             "extra": "撇 + 捺 · 注意与「入」之别",
@@ -164,6 +178,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ru4",
+          "cnExAudioKey": "quan2",
           "cn": {
             "name": "入", "reading": "rù", "gloss": "to enter",
             "extra": "左撇短，捺在上方起笔 · 易与「人」混",
@@ -183,6 +199,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "li4",
+          "cnExAudioKey": "nan2",
           "cn": {
             "name": "力", "reading": "lì", "gloss": "power; strength",
             "extra": "横折钩 + 撇 · 汉字「力」· 康熙部首 19",
@@ -202,6 +220,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "kou3",
+          "cnExAudioKey": "ming2",
           "cn": {
             "name": "口", "reading": "kǒu", "gloss": "mouth",
             "extra": "竖 + 横折 + 横 · 汉字「口」· 康熙部首 30",
@@ -222,6 +242,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "nv3",
+          "cnExAudioKey": "hao3",
           "cn": {
             "name": "女", "reading": "nǚ", "gloss": "woman",
             "extra": "撇折 + 撇 + 横 · 汉字「女」· 康熙部首 38",
@@ -242,6 +264,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "zi3",
+          "cnExAudioKey": "zi4",
           "cn": {
             "name": "子", "reading": "zǐ", "gloss": "child; son",
             "extra": "康熙部首 39 · 象形（婴儿）· 儿子、孩子",
@@ -261,6 +285,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "qi1",
+          "cnExAudioKey": "qie1",
           "cn": {
             "name": "七", "reading": "qī", "gloss": "seven",
             "extra": "横 + 竖弯钩 · 数字「七」",
@@ -280,6 +306,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "jiu3",
+          "cnExAudioKey": "wan2",
           "cn": {
             "name": "九", "reading": "jiǔ", "gloss": "nine",
             "extra": "撇 + 横折弯钩 · 数字「九」",
@@ -299,6 +327,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shi2",
+          "cnExAudioKey": "gu3",
           "cn": {
             "name": "十", "reading": "shí", "gloss": "ten",
             "extra": "横 + 竖 · 数字「十」· 康熙部首 24",
@@ -318,6 +348,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "qian1",
+          "cnExAudioKey": "she2",
           "cn": {
             "name": "千", "reading": "qiān", "gloss": "thousand",
             "extra": "撇 + 十 · 数字「千」· 千万、几千",
@@ -337,6 +369,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "wu3",
+          "cnExAudioKey": "wu2",
           "cn": {
             "name": "五", "reading": "wǔ", "gloss": "five",
             "extra": "数字「五」",
@@ -356,6 +390,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "liu4",
           "cn": {
             "name": "六", "reading": "liù", "gloss": "six",
             "extra": "亠 + 八 · 数字「六」· 六月、六十"
@@ -373,6 +408,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "chuan1",
+          "cnExAudioKey": "zhou1",
           "cn": {
             "name": "川", "reading": "chuān", "gloss": "river",
             "extra": "三竖 · 象形「河流」· 康熙部首 47",
@@ -392,6 +429,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "gong1",
+          "cnExAudioKey": "jiang1",
           "cn": {
             "name": "工", "reading": "gōng", "gloss": "work; labour",
             "extra": "横 + 竖 + 横 · 工具/工作 · 康熙部首 48",
@@ -411,6 +450,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shan1",
+          "cnExAudioKey": "yan2",
           "cn": {
             "name": "山", "reading": "shān", "gloss": "mountain",
             "extra": "象形「三峰」· 康熙部首 46",
@@ -431,6 +472,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "zhi3",
+          "cnExAudioKey": "zheng4",
           "cn": {
             "name": "止", "reading": "zhǐ", "gloss": "stop",
             "extra": "康熙部首 77 · 象形（脚趾）· 停止/禁止",
@@ -450,6 +493,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "mu4",
+          "cnExAudioKey": "lin2",
           "cn": {
             "name": "木", "reading": "mù", "gloss": "tree; wood",
             "extra": "横 + 竖 + 撇 + 捺 · 象形「树」· 康熙部首 75",
@@ -469,6 +514,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ri4",
+          "cnExAudioKey": "ming2",
           "cn": {
             "name": "日", "reading": "rì", "gloss": "sun; day",
             "extra": "象形「太阳」· 竖 横折 横 横 · 康熙部首 72",
@@ -490,6 +537,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "tian2",
+          "cnExAudioKey": "nan2",
           "cn": {
             "name": "田", "reading": "tián", "gloss": "field",
             "extra": "康熙部首 102 · 象形（阡陌纵横的农田）· 田地、水田",
@@ -509,6 +558,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "zhong1",
+          "cnExAudioKey": "zhong1",
           "cn": {
             "name": "中", "reading": "zhōng", "gloss": "middle; centre",
             "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
@@ -528,6 +579,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "wang2",
+          "cnExAudioKey": "zhu3",
           "cn": {
             "name": "王", "reading": "wáng", "gloss": "king",
             "extra": "三横一竖 · 「玉」去一点 · 作偏旁称「王字旁」(玉 康熙部首 96)",
@@ -547,6 +600,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ben3",
+          "cnExAudioKey": "ti3",
           "cn": {
             "name": "本", "reading": "běn", "gloss": "root; origin",
             "extra": "木 + 一 · 指事「树根所在」· 本来、课本",
@@ -566,6 +621,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "yuan2",
           "cn": {
             "name": "円", "reading": "yuán", "gloss": "circle; yen",
             "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
@@ -583,6 +639,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "xi1",
+          "cnExAudioKey": "wai4",
           "cn": {
             "name": "夕", "reading": "xī", "gloss": "evening; dusk",
             "extra": "康熙部首 36 · 夕阳、七夕 · 象形（半月）",
@@ -602,6 +660,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shang4",
           "cn": {
             "name": "上", "reading": "shàng", "gloss": "above; up; on top",
             "extra": "指事字 · 基准线上方加标记 · 与「下」相对"
@@ -619,6 +678,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "xia4",
           "cn": {
             "name": "下", "reading": "xià", "gloss": "below; down; under",
             "extra": "指事字 · 基准线下方加标记 · 与「上」相对"
@@ -636,6 +696,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shui3",
+          "cnExAudioKey": "bing1",
           "cn": {
             "name": "水", "reading": "shuǐ", "gloss": "water",
             "extra": "象形「水流」· 康熙部首 85 · 作偏旁写作 氵",
@@ -654,6 +716,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "tu3",
+          "cnExAudioKey": "di4",
           "cn": {
             "name": "土", "reading": "tǔ", "gloss": "earth; soil",
             "extra": "横 + 竖 + 横 · 象形「土」· 康熙部首 32",
@@ -674,6 +738,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "dao1",
+          "cnExAudioKey": "fen1",
           "cn": {
             "name": "刀", "reading": "dāo", "gloss": "knife; blade",
             "extra": "横折钩 + 撇 · 象形「刀」· 康熙部首 18 · 作偏旁作 刂",
@@ -693,6 +759,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "gong1",
+          "cnExAudioKey": "yin3",
           "cn": {
             "name": "弓", "reading": "gōng", "gloss": "bow",
             "extra": "康熙部首 57 · 弓箭 · 象形",
@@ -712,6 +780,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "mi4",
           "cn": {
             "name": "糸", "reading": "mì", "gloss": "silk; thread",
             "extra": "康熙部首 120 · 作偏旁写作 纟 (绞丝旁) · 幺 + 小"
@@ -728,6 +797,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "bai2",
           "cn": {
             "name": "白", "reading": "bái", "gloss": "white",
             "extra": "撇 + 日 · 象形「白」· 康熙部首 106"
@@ -744,6 +814,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "quan2",
           "cn": {
             "name": "泉", "reading": "quán", "gloss": "spring; fountain",
             "extra": "会意 · 白 + 水 ·「泉水」从山石中流出"
@@ -760,6 +831,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "xian4",
           "cn": {
             "name": "線", "reading": "xiàn", "gloss": "line; thread; wire",
             "extra": "糸 + 泉 · 简体作「线」(纟 + 戋，右部不同)"
@@ -776,6 +848,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "huo3",
+          "cnExAudioKey": "yan2",
           "cn": {
             "name": "火", "reading": "huǒ", "gloss": "fire",
             "extra": "象形「火焰」· 康熙部首 86 · 作偏旁作 灬 (四点底)",
@@ -796,6 +870,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "quan3",
+          "cnExAudioKey": "fu2",
           "cn": {
             "name": "犬", "reading": "quǎn", "gloss": "dog",
             "extra": "康熙部首 94 · 象形 · 作偏旁作 犭 (反犬旁)",
@@ -815,6 +891,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "xiang4",
           "cn": {
             "name": "向", "reading": "xiàng", "gloss": "toward; facing; direction",
             "extra": "「方向、朝向」· 冂 内含 口 · 潘达尼斯记作电视「TV」"
@@ -832,6 +909,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "xian1",
+          "cnExAudioKey": "xi3",
           "cn": {
             "name": "先", "reading": "xiān", "gloss": "first; before; earlier",
             "extra": "先后、先生 · 上部 𠂉/牛 + 下部 儿 · 潘达尼斯记作「战场 battleground」",
@@ -851,6 +930,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "yi3",
+          "cnExAudioKey": "si4",
           "cn": {
             "name": "以", "reading": "yǐ", "gloss": "by means of; with; according to; in order to; because of",
             "extra": "以为、可以、以及 · 潘达尼斯记作「渔夫 fisherman」",
@@ -871,6 +952,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "zhi1",
           "cn": {
             "name": "之", "reading": "zhī", "gloss": "(classical) of; 's; it; to go",
             "extra": "文言虚词「的」· 亦作动词「往」· 潘达尼斯记作「佐罗 Zorro」(形似 Z)"
@@ -889,6 +971,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "fu4",
+          "cnExAudioKey": "fu3",
           "cn": {
             "name": "父", "reading": "fù", "gloss": "father",
             "extra": "父亲、父母 · 康熙部首 88 · 象形「持斧之手」",
@@ -908,6 +992,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "bu4",
+          "cnExAudioKey": "fou3",
           "cn": {
             "name": "不", "reading": "bù", "gloss": "not; no",
             "extra": "否定副词「不」· 潘达尼斯记作「黄蜂 wasp」",
@@ -927,6 +1013,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ye4",
           "cn": {
             "name": "业", "reading": "yè", "gloss": "industry; occupation; karma",
             "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業"
@@ -944,6 +1031,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "yu3",
           "cn": {
             "name": "与", "reading": "yǔ", "gloss": "and; with; to give",
             "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 繁: 與"
@@ -961,6 +1049,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shou3",
+          "cnExAudioKey": "quan2",
           "cn": {
             "name": "手", "reading": "shǒu", "gloss": "hand",
             "extra": "象形「手」· 康熙部首 64 · 作偏旁作 扌",
@@ -981,6 +1071,7 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "wan2",
           "cn": {
             "name": "丸", "reading": "wán", "gloss": "ball; pellet; pill",
             "extra": "九 + 丶 · 药丸、弹丸、丸子"
@@ -998,6 +1089,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ding1",
+          "cnExAudioKey": "da3",
           "cn": {
             "name": "丁", "reading": "dīng", "gloss": "4th; nail; adult male",
             "extra": "天干第四 · 园丁、丁目 · WK 记作 Street",
@@ -1017,6 +1110,8 @@
           "tag": "char",
           "image": "",
           "hw": true,
+          "cnAudioKey": "cai2",
+          "cnExAudioKey": "cai2",
           "cn": {
             "name": "才", "reading": "cái", "gloss": "talent; ability; just now",
             "extra": "才能、天才、刚才 · 象形",

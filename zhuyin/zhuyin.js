@@ -2,7 +2,7 @@
 // the symbol store, built by data/build-phonetics.py). Depends on shared/base.js for
 // the `html` tagged template and the .vplay audio click handler.
 
-const AUDIO = '../audio/cn/';   // content-keyed syllable bank, shared by every page + card
+const AUDIO = '/audio/cn/';   // content-keyed syllable bank, shared by every page + card
 
 // Pinyin initial of a syllable base ('qian' → 'q', 'zhi' → 'zh', 'er' → '∅') for
 // grouping the bank into syllabary rows. Zero-initial (a/e/o/y/w) groups under '∅'.

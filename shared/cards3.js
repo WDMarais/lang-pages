@@ -15,6 +15,18 @@ let LAYOUT = '';
 // one non-stroke glyph-audio asset bucket. A per-card `audioBase` still overrides this.
 let AUDIO_BASE = '';
 
+// CN audio resolves to the shared, content-keyed syllable bank (/audio/cn/<key>.mp3)
+// when build-pages stamped a bank key on the card — every character reading qiān
+// shares one clip. Multi-syllable readings (stroke names) carry no key and fall back
+// to the per-slug clip in the page's bucket. JP audio is never banked (words aren't
+// syllable-assemblable), so it always uses the per-slug path.
+const CN_BANK = '/audio/cn/';
+function cnSrc(c, ex) {
+  const key = ex ? c.cnExAudioKey : c.cnAudioKey;
+  if (key) return `${CN_BANK}${key}.mp3`;
+  return `${c.audioBase || AUDIO_BASE}audio/cn-${c.slug}${ex ? '-ex' : ''}.mp3`;
+}
+
 function diagram(c) {
   // Character cards opt into data-driven stroke-order animation (HanziWriter);
   // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
@@ -243,7 +255,7 @@ function renderCard(c) {
       </div>
       <div class="sc-views">
         ${pdView(c.pd, c.pdc)}
-        ${langView('v-cn', '中文', c.cn, `${c.audioBase || AUDIO_BASE}audio/cn-${c.slug}.mp3`, `${c.audioBase || AUDIO_BASE}audio/cn-${c.slug}-ex.mp3`)}
+        ${langView('v-cn', '中文', c.cn, cnSrc(c, false), cnSrc(c, true))}
         ${langView('v-jp', '日本語', c.jp, `${c.audioBase || AUDIO_BASE}audio/jp-${c.slug}.mp3`, `${c.audioBase || AUDIO_BASE}audio/jp-${c.slug}-ex.mp3`)}
         ${wkView(c.wk, c.kanji)}
       </div>
@@ -296,7 +308,7 @@ function renderKangxiCard(c) {
   const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
   const readings = html`
         <div class="rk-readings">
-          ${readingLine('rk-cn', c.cn, `${base}audio/cn-${c.slug}.mp3`)}
+          ${readingLine('rk-cn', c.cn, cnSrc(c, false))}
           ${readingLine('rk-jp', c.jp, `${base}audio/jp-${c.slug}.mp3`)}
         </div>`;
   const collage = refCollage(c.referents);

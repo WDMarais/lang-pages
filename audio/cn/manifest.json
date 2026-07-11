@@ -1,0 +1,874 @@
+{
+  "ba1.mp3": {
+    "text": "八",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bai2.mp3": {
+    "text": "白",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bao1.mp3": {
+    "text": "包",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bei4.mp3": {
+    "text": "貝",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ben3.mp3": {
+    "text": "本",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bi2.mp3": {
+    "text": "鼻",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bi3.mp3": {
+    "text": "匕",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bian4.mp3": {
+    "text": "釆",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "biao1.mp3": {
+    "text": "髟",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bing1.mp3": {
+    "text": "冰",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bo1.mp3": {
+    "text": "癶",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bu3.mp3": {
+    "text": "卜",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bu4.mp3": {
+    "text": "不",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cai2.mp3": {
+    "text": "才",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cao3.mp3": {
+    "text": "艸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chang2.mp3": {
+    "text": "長",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chang4.mp3": {
+    "text": "鬯",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "che1.mp3": {
+    "text": "車",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "che4.mp3": {
+    "text": "屮",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chen2.mp3": {
+    "text": "臣",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chi3.mp3": {
+    "text": "齒",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chi4.mp3": {
+    "text": "彳",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chong2.mp3": {
+    "text": "虫",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chuan1.mp3": {
+    "text": "川",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chuan3.mp3": {
+    "text": "舛",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chuo4.mp3": {
+    "text": "辵",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cun4.mp3": {
+    "text": "寸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "da3.mp3": {
+    "text": "打",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "da4.mp3": {
+    "text": "大",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dai3.mp3": {
+    "text": "歹",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dao1.mp3": {
+    "text": "刀",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "di4.mp3": {
+    "text": "地",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dian3.mp3": {
+    "text": "丶",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ding1.mp3": {
+    "text": "丁",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ding3.mp3": {
+    "text": "鼎",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dou3.mp3": {
+    "text": "斗",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dou4.mp3": {
+    "text": "豆",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "er2.mp3": {
+    "text": "而",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "er3.mp3": {
+    "text": "耳",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "er4.mp3": {
+    "text": "二",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fang1.mp3": {
+    "text": "方",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fei1.mp3": {
+    "text": "非",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fen1.mp3": {
+    "text": "分",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "feng1.mp3": {
+    "text": "風",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fou3.mp3": {
+    "text": "否",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fu2.mp3": {
+    "text": "伏",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fu3.mp3": {
+    "text": "斧",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fu4.mp3": {
+    "text": "父",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gan1.mp3": {
+    "text": "干",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gao1.mp3": {
+    "text": "高",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ge1.mp3": {
+    "text": "戈",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ge2.mp3": {
+    "text": "革",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gen4.mp3": {
+    "text": "艮",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gong1.mp3": {
+    "text": "工",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gong3.mp3": {
+    "text": "廾",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gu3.mp3": {
+    "text": "古",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gua1.mp3": {
+    "text": "瓜",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "guang3.mp3": {
+    "text": "广",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gui1.mp3": {
+    "text": "龜",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gui3.mp3": {
+    "text": "鬼",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "han4.mp3": {
+    "text": "厂",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hao3.mp3": {
+    "text": "好",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "he2.mp3": {
+    "text": "禾",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hei1.mp3": {
+    "text": "黑",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hu1.mp3": {
+    "text": "虍",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hu4.mp3": {
+    "text": "戶",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "huang2.mp3": {
+    "text": "黃",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "huo3.mp3": {
+    "text": "火",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ji1.mp3": {
+    "text": "几",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ji3.mp3": {
+    "text": "己",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ji4.mp3": {
+    "text": "彐",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jia1.mp3": {
+    "text": "家",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jian4.mp3": {
+    "text": "見",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiang1.mp3": {
+    "text": "江",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiao3.mp3": {
+    "text": "角",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jie2.mp3": {
+    "text": "卩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jin1.mp3": {
+    "text": "今",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiong1.mp3": {
+    "text": "冂",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiu3.mp3": {
+    "text": "九",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiu4.mp3": {
+    "text": "臼",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "kan3.mp3": {
+    "text": "凵",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "kou3.mp3": {
+    "text": "口",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lao3.mp3": {
+    "text": "老",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lei3.mp3": {
+    "text": "耒",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "li3.mp3": {
+    "text": "里",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "li4.mp3": {
+    "text": "力",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lin2.mp3": {
+    "text": "林",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "liu4.mp3": {
+    "text": "六",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "long2.mp3": {
+    "text": "龍",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lu3.mp3": {
+    "text": "鹵",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lu4.mp3": {
+    "text": "鹿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ma1.mp3": {
+    "text": "妈",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ma2.mp3": {
+    "text": "麻",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ma3.mp3": {
+    "text": "馬",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ma4.mp3": {
+    "text": "骂",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ma5.mp3": {
+    "text": "吗",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mai4.mp3": {
+    "text": "麥",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mao2.mp3": {
+    "text": "毛",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "men2.mp3": {
+    "text": "門",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mi3.mp3": {
+    "text": "米",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mi4.mp3": {
+    "text": "糸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mian2.mp3": {
+    "text": "宀",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mian4.mp3": {
+    "text": "面",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "min3.mp3": {
+    "text": "皿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ming2.mp3": {
+    "text": "名",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mu4.mp3": {
+    "text": "木",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "nan2.mp3": {
+    "text": "男",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ne4.mp3": {
+    "text": "疒",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "nei4.mp3": {
+    "text": "内",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "niao3.mp3": {
+    "text": "鳥",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "niu2.mp3": {
+    "text": "牛",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "nv3.mp3": {
+    "text": "女",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "pi2.mp3": {
+    "text": "皮",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "pi3.mp3": {
+    "text": "疋",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "pian4.mp3": {
+    "text": "片",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "pie3.mp3": {
+    "text": "丿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "pu1.mp3": {
+    "text": "攴",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qi1.mp3": {
+    "text": "七",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qi2.mp3": {
+    "text": "齊",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qi4.mp3": {
+    "text": "气",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qian1.mp3": {
+    "text": "千",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qian4.mp3": {
+    "text": "欠",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qiang2.mp3": {
+    "text": "爿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qie1.mp3": {
+    "text": "切",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qing1.mp3": {
+    "text": "青",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "quan2.mp3": {
+    "text": "全",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "quan3.mp3": {
+    "text": "犬",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ren2.mp3": {
+    "text": "人",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ri4.mp3": {
+    "text": "日",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "rou2.mp3": {
+    "text": "禸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "rou4.mp3": {
+    "text": "肉",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ru4.mp3": {
+    "text": "入",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "san1.mp3": {
+    "text": "三",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "se4.mp3": {
+    "text": "色",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shan1.mp3": {
+    "text": "山",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shang4.mp3": {
+    "text": "上",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shao3.mp3": {
+    "text": "少",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "she2.mp3": {
+    "text": "舌",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shen1.mp3": {
+    "text": "身",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "sheng1.mp3": {
+    "text": "生",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shi1.mp3": {
+    "text": "尸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shi2.mp3": {
+    "text": "十",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shi3.mp3": {
+    "text": "矢",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shi4.mp3": {
+    "text": "士",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shou3.mp3": {
+    "text": "手",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shu1.mp3": {
+    "text": "殳",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shu3.mp3": {
+    "text": "黍",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shu4.mp3": {
+    "text": "丨",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shui3.mp3": {
+    "text": "水",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "si1.mp3": {
+    "text": "厶",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "si4.mp3": {
+    "text": "似",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "sui1.mp3": {
+    "text": "夊",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ti3.mp3": {
+    "text": "体",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tian1.mp3": {
+    "text": "天",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tian2.mp3": {
+    "text": "田",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tou2.mp3": {
+    "text": "亠",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tu3.mp3": {
+    "text": "土",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wa3.mp3": {
+    "text": "瓦",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wai4.mp3": {
+    "text": "外",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wan2.mp3": {
+    "text": "丸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wang1.mp3": {
+    "text": "尢",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wang2.mp3": {
+    "text": "王",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wang3.mp3": {
+    "text": "网",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wei2.mp3": {
+    "text": "囗",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wen2.mp3": {
+    "text": "文",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wu1.mp3": {
+    "text": "屋",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wu2.mp3": {
+    "text": "吾",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wu3.mp3": {
+    "text": "五",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xi1.mp3": {
+    "text": "夕",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xi3.mp3": {
+    "text": "洗",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xi4.mp3": {
+    "text": "匸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xia4.mp3": {
+    "text": "下",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xian1.mp3": {
+    "text": "先",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xian4.mp3": {
+    "text": "線",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiang1.mp3": {
+    "text": "香",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiang4.mp3": {
+    "text": "向",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiao3.mp3": {
+    "text": "小",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xin1.mp3": {
+    "text": "心",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xing2.mp3": {
+    "text": "行",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xuan2.mp3": {
+    "text": "玄",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xue2.mp3": {
+    "text": "穴",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xue4.mp3": {
+    "text": "血",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ya2.mp3": {
+    "text": "牙",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ya4.mp3": {
+    "text": "襾",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yan2.mp3": {
+    "text": "岩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yang2.mp3": {
+    "text": "羊",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yao1.mp3": {
+    "text": "幺",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yao2.mp3": {
+    "text": "爻",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ye4.mp3": {
+    "text": "业",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yi1.mp3": {
+    "text": "一",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yi3.mp3": {
+    "text": "乙",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yi4.mp3": {
+    "text": "弋",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yin1.mp3": {
+    "text": "音",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yin3.mp3": {
+    "text": "引",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yong4.mp3": {
+    "text": "用",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "you3.mp3": {
+    "text": "友",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "you4.mp3": {
+    "text": "又",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yu2.mp3": {
+    "text": "魚",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yu3.mp3": {
+    "text": "与",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yu4.mp3": {
+    "text": "玉",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yuan2.mp3": {
+    "text": "元",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yue1.mp3": {
+    "text": "曰",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yue4.mp3": {
+    "text": "月",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhao3.mp3": {
+    "text": "爪",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhe2.mp3": {
+    "text": "乛",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zheng4.mp3": {
+    "text": "正",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhi1.mp3": {
+    "text": "之",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhi3.mp3": {
+    "text": "止",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhi4.mp3": {
+    "text": "至",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhong1.mp3": {
+    "text": "中",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhou1.mp3": {
+    "text": "州",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhu2.mp3": {
+    "text": "竹",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhu3.mp3": {
+    "text": "主",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhui1.mp3": {
+    "text": "隹",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zi3.mp3": {
+    "text": "子",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zi4.mp3": {
+    "text": "字",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zou3.mp3": {
+    "text": "走",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zu2.mp3": {
+    "text": "足",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  }
+}

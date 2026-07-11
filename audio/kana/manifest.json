@@ -1,0 +1,410 @@
+{
+  "a.mp3": {
+    "text": "あ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ba.mp3": {
+    "text": "ば",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "be.mp3": {
+    "text": "べ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "bi.mp3": {
+    "text": "び",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "bo.mp3": {
+    "text": "ぼ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "bu.mp3": {
+    "text": "ぶ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "bya.mp3": {
+    "text": "びゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "byo.mp3": {
+    "text": "びょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "byu.mp3": {
+    "text": "びゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "cha.mp3": {
+    "text": "ちゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chi.mp3": {
+    "text": "ち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "cho.mp3": {
+    "text": "ちょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "chu.mp3": {
+    "text": "ちゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "da.mp3": {
+    "text": "だ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "de.mp3": {
+    "text": "で",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "do.mp3": {
+    "text": "ど",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "e.mp3": {
+    "text": "え",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "fu.mp3": {
+    "text": "ふ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ga.mp3": {
+    "text": "が",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ge.mp3": {
+    "text": "げ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gi.mp3": {
+    "text": "ぎ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "go.mp3": {
+    "text": "ご",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gu.mp3": {
+    "text": "ぐ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gya.mp3": {
+    "text": "ぎゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gyo.mp3": {
+    "text": "ぎょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gyu.mp3": {
+    "text": "ぎゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ha.mp3": {
+    "text": "は",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "he.mp3": {
+    "text": "へ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hi.mp3": {
+    "text": "ひ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ho.mp3": {
+    "text": "ほ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hya.mp3": {
+    "text": "ひゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hyo.mp3": {
+    "text": "ひょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hyu.mp3": {
+    "text": "ひゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "i.mp3": {
+    "text": "い",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja.mp3": {
+    "text": "じゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ji.mp3": {
+    "text": "じ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jo.mp3": {
+    "text": "じょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ju.mp3": {
+    "text": "じゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ka.mp3": {
+    "text": "か",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ke.mp3": {
+    "text": "け",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ki.mp3": {
+    "text": "き",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ko.mp3": {
+    "text": "こ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ku.mp3": {
+    "text": "く",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kya.mp3": {
+    "text": "きゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kyo.mp3": {
+    "text": "きょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kyu.mp3": {
+    "text": "きゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ma.mp3": {
+    "text": "ま",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "me.mp3": {
+    "text": "め",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mi.mp3": {
+    "text": "み",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mo.mp3": {
+    "text": "も",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mu.mp3": {
+    "text": "む",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mya.mp3": {
+    "text": "みゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "myo.mp3": {
+    "text": "みょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "myu.mp3": {
+    "text": "みゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "n.mp3": {
+    "text": "ん",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "na.mp3": {
+    "text": "な",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ne.mp3": {
+    "text": "ね",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ni.mp3": {
+    "text": "に",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "no.mp3": {
+    "text": "の",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nu.mp3": {
+    "text": "ぬ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nya.mp3": {
+    "text": "にゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nyo.mp3": {
+    "text": "にょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nyu.mp3": {
+    "text": "にゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "o.mp3": {
+    "text": "お",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pa.mp3": {
+    "text": "ぱ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pe.mp3": {
+    "text": "ぺ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pi.mp3": {
+    "text": "ぴ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "po.mp3": {
+    "text": "ぽ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pu.mp3": {
+    "text": "ぷ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pya.mp3": {
+    "text": "ぴゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pyo.mp3": {
+    "text": "ぴょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "pyu.mp3": {
+    "text": "ぴゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ra.mp3": {
+    "text": "ら",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "re.mp3": {
+    "text": "れ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ri.mp3": {
+    "text": "り",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ro.mp3": {
+    "text": "ろ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ru.mp3": {
+    "text": "る",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "rya.mp3": {
+    "text": "りゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ryo.mp3": {
+    "text": "りょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ryu.mp3": {
+    "text": "りゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sa.mp3": {
+    "text": "さ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "se.mp3": {
+    "text": "せ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sha.mp3": {
+    "text": "しゃ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shi.mp3": {
+    "text": "し",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sho.mp3": {
+    "text": "しょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shu.mp3": {
+    "text": "しゅ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "so.mp3": {
+    "text": "そ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "su.mp3": {
+    "text": "す",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ta.mp3": {
+    "text": "た",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "te.mp3": {
+    "text": "て",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "to.mp3": {
+    "text": "と",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsu.mp3": {
+    "text": "つ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "u.mp3": {
+    "text": "う",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "wa.mp3": {
+    "text": "わ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "wo.mp3": {
+    "text": "を",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ya.mp3": {
+    "text": "や",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yo.mp3": {
+    "text": "よ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yu.mp3": {
+    "text": "ゆ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "za.mp3": {
+    "text": "ざ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ze.mp3": {
+    "text": "ぜ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "zo.mp3": {
+    "text": "ぞ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "zu.mp3": {
+    "text": "ず",
+    "voice": "ja-JP-NanamiNeural"
+  }
+}

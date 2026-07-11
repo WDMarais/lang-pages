@@ -23,6 +23,7 @@ import json, sys
 from collections import defaultdict
 
 from paths import ROOT, DATA, read_json
+from phonetics import audio_key
 from symbols_io import (
     load_symbols,
     to_card,
@@ -34,6 +35,18 @@ from symbols_io import (
     PROGRAM_TIERS,
     TIER_BY_CARD,
 )
+
+
+def stamp_cn_audio(card):
+    """Stamp the CN syllable-bank key(s) so cards3.js can resolve audio to the shared
+    /audio/cn/ bank without any normalization of its own. A single bank-eligible
+    reading gets cnAudioKey (千→qian1); its example reading gets cnExAudioKey. Multi-
+    syllable readings (stroke names) get neither and fall back to the per-slug clip."""
+    cn = card.get("cn") or {}
+    if k := audio_key(cn.get("reading")):
+        card["cnAudioKey"] = k
+    if k := audio_key((cn.get("appearsIn") or {}).get("reading")):
+        card["cnExAudioKey"] = k
 
 
 def load_referents():
@@ -80,6 +93,9 @@ def emit_card(c):
     L = ["        {"]
     for k in ("glyph", "slug", "tag", "image", "hw"):
         L.append(f'          {s(k)}: {s(c[k])},')
+    for k in ("cnAudioKey", "cnExAudioKey"):  # optional — present only for bank-eligible readings
+        if k in c:
+            L.append(f'          {s(k)}: {s(c[k])},')
     L.append(f'          "cn": {lang_block(c["cn"])},')
     L.append(f'          "jp": {lang_block(c["jp"])},')
     # program tiers — order + per-tier field lists come from the PROGRAM_TIERS
@@ -116,7 +132,8 @@ def build_kangxi_page(syms):
         if e["num"] in by_num:
             c = to_card(by_num[e["num"]])
             c["kx"] = e["num"]
-            c["audioBase"] = "../radicals/"   # asset bridge until the audio-reconcile pass
+            c["audioBase"] = "../radicals/"   # JP (+ non-bank CN) per-slug clip bucket
+            stamp_cn_audio(c)                 # CN single-syllable audio → /audio/cn/ bank
             attach_referents(c, refmap)
             real += 1
         else:
@@ -134,6 +151,7 @@ def build_kangxi_page(syms):
     annex = [to_card(s) for s in syms.values() if on_components(s)]
     for c in annex:
         c["audioBase"] = "../radicals/"
+        stamp_cn_audio(c)
         attach_referents(c, refmap)
     if annex:
         groups.append({"title": "非部首部件", "sub": "non-Kangxi components", "cards": annex})
@@ -157,6 +175,8 @@ def main():
     ]
     for name, path, rule in pages:
         cards = [to_card(sym) for sym in syms.values() if rule(sym)]
+        for c in cards:
+            stamp_cn_audio(c)
         path.parent.mkdir(exist_ok=True)
         text = dump_cardfile(cards)
         # validity + content check: reparse must equal the projected cards

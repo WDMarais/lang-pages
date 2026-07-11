@@ -2,7 +2,7 @@
 // Depends on shared/base.js for the `html` template + the .vplay audio handler.
 // The board flips hiragana⇄katakana as the primary glyph via a body class.
 
-const AUDIO = '../audio/kana/';   // content-keyed mora bank, voiced from the kana glyph
+const AUDIO = '/audio/kana/';   // content-keyed mora bank, voiced from the kana glyph
 
 function toggleScript() {
   document.body.classList.toggle('show-kata');

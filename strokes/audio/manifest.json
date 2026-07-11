@@ -1,82 +1,14 @@
 {
-  "cn-dian-ex.mp3": {
-    "text": "犬",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-dian.mp3": {
-    "text": "点",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-heng-ex.mp3": {
-    "text": "一",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-heng.mp3": {
-    "text": "横",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-hengzhegou-ex.mp3": {
-    "text": "力",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
   "cn-hengzhegou.mp3": {
     "text": "横折钩",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-na-ex.mp3": {
-    "text": "八",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-na.mp3": {
-    "text": "捺",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-pie-ex.mp3": {
-    "text": "人",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-pie.mp3": {
-    "text": "撇",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-piedian-ex.mp3": {
-    "text": "女",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-piedian.mp3": {
     "text": "撇点",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
-  "cn-shu-ex.mp3": {
-    "text": "十",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-shu.mp3": {
-    "text": "竖",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-shugou-ex.mp3": {
-    "text": "小",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
   "cn-shugou.mp3": {
     "text": "竖钩",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-ti-ex.mp3": {
-    "text": "打",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-ti.mp3": {
-    "text": "提",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-zhe-ex.mp3": {
-    "text": "口",
-    "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  "cn-zhe.mp3": {
-    "text": "折",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "jp-dian-ex.mp3": {

@@ -10,6 +10,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "heng2",
+          "cnExAudioKey": "yi1",
           "cn": {
             "name": "横", "reading": "héng", "gloss": "horizontal stroke",
             "extra": "写成汉字就是 一 (yī)「one」· 康熙部首 1",
@@ -28,6 +30,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "shu4",
+          "cnExAudioKey": "shi2",
           "cn": {
             "name": "竖", "reading": "shù", "gloss": "vertical stroke",
             "extra": "康熙部首 2「丨 gǔn」",
@@ -47,6 +51,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "pie3",
+          "cnExAudioKey": "ren2",
           "cn": {
             "name": "撇", "reading": "piě", "gloss": "left-falling stroke",
             "extra": "康熙部首 4「丿 piě」",
@@ -66,6 +72,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "na4",
+          "cnExAudioKey": "ba1",
           "cn": {
             "name": "捺", "reading": "nà", "gloss": "right-falling stroke",
             "extra": "撇与捺常成对 (如 人、八)",
@@ -84,6 +92,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "dian3",
+          "cnExAudioKey": "quan3",
           "cn": {
             "name": "点", "reading": "diǎn", "gloss": "dot stroke",
             "extra": "康熙部首 3「丶 zhǔ」",
@@ -103,6 +113,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "ti2",
+          "cnExAudioKey": "da3",
           "cn": {
             "name": "提", "reading": "tí", "gloss": "rising stroke",
             "extra": "向右上挑 (如 扌 的末笔)",
@@ -121,6 +133,8 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnAudioKey": "zhe2",
+          "cnExAudioKey": "kou3",
           "cn": {
             "name": "折", "reading": "zhé", "gloss": "turning stroke",
             "extra": "一笔之中改变方向 (如 横折)",
@@ -139,6 +153,7 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnExAudioKey": "xiao3",
           "cn": {
             "name": "竖钩", "reading": "shùgōu", "gloss": "vertical hook",
             "extra": "康熙部首 6「亅 jué」",
@@ -158,6 +173,7 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnExAudioKey": "li4",
           "cn": {
             "name": "横折钩", "reading": "héngzhégōu", "gloss": "horizontal-fold hook",
             "extra": "先横后竖、末端带钩 (如 力、勹、刀)",
@@ -176,6 +192,7 @@
           "tag": "stroke",
           "image": "",
           "hw": true,
+          "cnExAudioKey": "nv3",
           "cn": {
             "name": "撇点", "reading": "piědiǎn", "gloss": "left-fall then dot",
             "extra": "撇后顺势接反捺 (女 的首笔)",

@@ -32,9 +32,16 @@ from collections import namedtuple
 
 from paths import ROOT, read_json, write_json
 from symbols_io import load_symbols, to_card, on_strokes
+from phonetics import bank as cn_bank, audio_key
 
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
 JP_VOICE = "ja-JP-NanamiNeural"
+
+# Site-level, content-keyed audio banks (the shared store the audio-slug memory calls
+# for): /audio/cn/<pinyin+tone>.mp3 and /audio/kana/<romaji>.mp3. Referenced by the
+# phonetics pages now and (after the reconcile) by the CN cards, so a syllable is
+# voiced once and shared by every character and page that uses it.
+AUDIO = ROOT / "audio"
 
 # xi-zhuang voice label → edge-tts voice. 录音 is a human recording, never synthesized.
 XZ_VOICES = {
@@ -59,15 +66,20 @@ def glyph_jobs(cards, audio):
     (-ex) when it has an appearsIn — matching cards3.js, which gates each play button on
     those same fields. Gating the name job on a reading is also what keeps us from
     feeding a readingless shape component (匸, no JP reading) to a voice that can't say
-    it. `audio` is the bucket the page fetches from (per its audioBase)."""
+    it. `audio` is the bucket the page fetches from (per its audioBase).
+
+    CN readings that are a single bank-eligible syllable are NOT cut here — cards3.js
+    resolves them to the shared /audio/cn/ bank (cnSrc), so a per-slug CN clip would be
+    a duplicate that prune then removes. Only multi-syllable CN readings (stroke names)
+    keep a per-slug clip. JP is never banked, so every JP job stays."""
     jobs = []
     for c in cards:
         slug, cn, jp = c["slug"], c["cn"], c["jp"]
-        if cn.get("reading"):
+        if cn.get("reading") and audio_key(cn["reading"]) is None:
             jobs.append(Job(CN_VOICE, cn["name"], audio / f"cn-{slug}.mp3"))
         if jp.get("reading"):
             jobs.append(Job(JP_VOICE, jp["reading"], audio / f"jp-{slug}.mp3"))
-        if cn.get("appearsIn"):
+        if cn.get("appearsIn") and audio_key(cn["appearsIn"].get("reading")) is None:
             jobs.append(Job(CN_VOICE, cn["appearsIn"]["char"], audio / f"cn-{slug}-ex.mp3"))
         if jp.get("appearsIn"):
             jp_ai = jp["appearsIn"]
@@ -91,6 +103,36 @@ def xizhuang_jobs(path):
     return jobs
 
 
+# Tone-demo syllables for /tones/: a representative hanzi per tone so ma1–5 always
+# exist even when no card reads them. Merged into the CN syllable jobs, keyed the same.
+TONE_DEMO = {"ma1": "妈", "ma2": "麻", "ma3": "马", "ma4": "骂", "ma5": "吗"}
+
+
+def cn_bank_jobs():
+    """One clip per CN syllable → audio/cn/<key>.mp3, voiced by a representative hanzi
+    (edge-tts can't pronounce bare pinyin). Deduped by syllable: every hanzi reading
+    qiān shares audio/cn/qian1.mp3. phonetics.bank is the shared inventory, so the clip
+    set matches the /zhuyin/ page exactly. Tone-demo syllables are folded in."""
+    reps = {k: e["glyphs"][0]["glyph"] for k, e in cn_bank(load_symbols()).items()}
+    for k, hz in TONE_DEMO.items():
+        reps.setdefault(k, hz)
+    return [Job(CN_VOICE, hz, AUDIO / "cn" / f"{k}.mp3") for k, hz in sorted(reps.items())]
+
+
+def kana_jobs():
+    """One clip per mora → audio/kana/<romaji>.mp3, voiced from the kana glyph. Deduped
+    by romaji so ぢ/づ don't re-cut じ/ず's ji/zu. Projects kana/data.json, so the clip
+    set matches the /kana/ board exactly."""
+    data = read_json(ROOT / "kana/data.json")
+    seen = {}
+    for section in data.values():
+        for row in section:
+            for c in row:
+                if c:
+                    seen.setdefault(c["romaji"], c["hira"])
+    return [Job(JP_VOICE, hira, AUDIO / "kana" / f"{r}.mp3") for r, hira in sorted(seen.items())]
+
+
 MODULES = {
     # radicals/audio/ is the shared non-stroke glyph audio bucket — its dir name is
     # historical (the /radicals/ page retired into /characters/ + /kangxi/, which both
@@ -100,6 +142,8 @@ MODULES = {
                                    ROOT / "radicals/audio"),
     "strokes": lambda: glyph_jobs(glyph_cards(on_strokes), ROOT / "strokes/audio"),
     "xi-zhuang": lambda: xizhuang_jobs(ROOT / "xi-zhuang/cards.json"),
+    "cn-bank": cn_bank_jobs,
+    "kana": kana_jobs,
 }
 
 
@@ -175,7 +219,7 @@ def run(jobs, dry_run):
 # Buckets gen-audio fully owns, so an unreferenced file there is safe to delete.
 # xi-zhuang is excluded: its audio dir also holds the human 录音 recording, which
 # is never a synthesized job and must never be pruned.
-PRUNABLE = {"radicals", "strokes"}
+PRUNABLE = {"radicals", "strokes", "cn-bank", "kana"}
 
 
 def prune_bucket(name, jobs, dry_run):
