@@ -77,6 +77,21 @@ def build():
     symbols = load_symbols()
     real = set(symbols)
 
+    # variant folding: a twin form (覀→西, ナ→𠂇), declared as `variants` on its
+    # canonical symbol, composes AS its canonical — so a whole shows ONE part chip.
+    # The twin survives as a `variant` edge + a `variants` badge on the canonical
+    # node, never as a duplicate part. A twin with no symbol of its own (覀) simply
+    # stops minting a frontier stub once its only edge folds onto the canonical.
+    variant_of = {}           # twin glyph → canonical glyph
+    canon_variants = {}       # canonical glyph → [twin glyphs]
+    for sym in symbols.values():
+        for v in sym.get("variants") or []:
+            variant_of[v] = sym["glyph"]
+            canon_variants.setdefault(sym["glyph"], []).append(v)
+
+    def canon(gl):
+        return variant_of.get(gl, gl)
+
     roles = load_roles()
     role_used = set()
 
@@ -117,15 +132,17 @@ def build():
             nodes.setdefault(rid, {"id": rid, "kind": "referent", "label": gloss})
             edges.append({"from": f"g:{g}", "to": rid, "kind": "denotes"})
 
-            # composes ← example chars (union CN+JP, dedup); seed frontier stubs
+            # composes ← example chars (union CN+JP, dedup); seed frontier stubs.
+            # The part (this glyph) folds onto its canonical twin, if any.
+            gsrc = canon(g)
             for v in (c["cn"], c["jp"]):
                 ai = v.get("appearsIn")
                 if not ai:
                     continue
                 tgt = ai["char"]
-                if (g, tgt) not in seen_edge:
-                    seen_edge.add((g, tgt))
-                    edges.append(cedge(f"g:{g}", f"g:{tgt}", role_of(tgt, g)))
+                if (gsrc, tgt) not in seen_edge:
+                    seen_edge.add((gsrc, tgt))
+                    edges.append(cedge(f"g:{gsrc}", f"g:{tgt}", role_of(tgt, gsrc)))
                 if tgt not in real:
                     nodes.setdefault(f"g:{tgt}", {
                         "id": f"g:{tgt}", "kind": "glyph", "glyph": tgt,
@@ -140,12 +157,13 @@ def build():
             if f"g:{char}" not in nodes:
                 continue  # only decompose glyphs already in the graph
             for comp in comps:
-                if (comp, char) not in seen_edge:
-                    seen_edge.add((comp, char))
-                    edges.append(cedge(f"g:{comp}", f"g:{char}", role_of(char, comp)))
-                if comp not in real:
-                    nodes.setdefault(f"g:{comp}", {
-                        "id": f"g:{comp}", "kind": "glyph", "glyph": comp,
+                csrc = canon(comp)   # fold twin part onto its canonical (覀 → 西)
+                if (csrc, char) not in seen_edge:
+                    seen_edge.add((csrc, char))
+                    edges.append(cedge(f"g:{csrc}", f"g:{char}", role_of(char, csrc)))
+                if csrc not in real:
+                    nodes.setdefault(f"g:{csrc}", {
+                        "id": f"g:{csrc}", "kind": "glyph", "glyph": csrc,
                         "tier": None, "frontier": True})
 
     # ── word tier: concrete lexemes instantiating the concept spine ─────────────
@@ -172,12 +190,13 @@ def build():
                 node["program"] = w["program"]
             nodes[wid] = node
             for part in w.get("parts", []):
-                if (part, wid) not in seen_edge:  # per-word (audience-scoped), not per-surface
-                    seen_edge.add((part, wid))
-                    edges.append(cedge(f"g:{part}", wid))
-                if part not in real:
-                    nodes.setdefault(f"g:{part}", {
-                        "id": f"g:{part}", "kind": "glyph", "glyph": part,
+                psrc = canon(part)   # fold twin part onto its canonical
+                if (psrc, wid) not in seen_edge:  # per-word (audience-scoped), not per-surface
+                    seen_edge.add((psrc, wid))
+                    edges.append(cedge(f"g:{psrc}", wid))
+                if psrc not in real:
+                    nodes.setdefault(f"g:{psrc}", {
+                        "id": f"g:{psrc}", "kind": "glyph", "glyph": psrc,
                         "tier": None, "frontier": True})
             if w.get("denotes"):
                 # A single-glyph word rejoins its head glyph's referent (already
@@ -187,6 +206,17 @@ def build():
                 nodes.setdefault(rid, {"id": rid, "kind": "referent",
                                        "label": w.get("gloss", "")})
                 edges.append({"from": wid, "to": rid, "kind": "denotes"})
+
+    # variant relation: the canonical node advertises its twin forms (UI collapses
+    # them to a badge); a twin that is itself a real symbol (ナ, carrying WK Narwhal)
+    # also gets a variant→canonical edge so the two program lenses stay linked.
+    for canonical, twins in canon_variants.items():
+        node = nodes.get(f"g:{canonical}")
+        if node is not None:
+            node["variants"] = twins
+        for v in twins:
+            if v in real:
+                edges.append({"from": f"g:{v}", "to": f"g:{canonical}", "kind": "variant"})
 
     # validate the role overlay: in-vocabulary values, and every declared pair
     # actually landed on a composes edge (an unused entry means a typo'd char/comp).
@@ -259,7 +289,8 @@ def main():
     composes = [e for e in edges if e["kind"] == "composes"]
     print(f"edges:    {len(edges)}  "
           f"({len(composes)} composes [{sum(1 for e in composes if e.get('role'))} typed], "
-          f"{sum(1 for e in edges if e['kind']=='denotes')} denotes)")
+          f"{sum(1 for e in edges if e['kind']=='denotes')} denotes, "
+          f"{sum(1 for e in edges if e['kind']=='variant')} variant)")
 
     # round-trip proof: the graph must faithfully re-emit the symbol projection
     ok = True

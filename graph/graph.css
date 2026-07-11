@@ -80,6 +80,17 @@
   border-radius: 5px; cursor: pointer; transition: transform .12s, box-shadow .12s;
 }
 .ec-part:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(30, 42, 74, .18); }
+/* twin form of the canonical part — smaller, muted, riding the chip's top-right */
+.ec-part-wrap { position: relative; display: inline-flex; }
+.ec-var {
+  font-family: "LXGW WenKai", serif; font-size: .72rem; line-height: 1;
+  min-width: 1rem; height: 1rem; padding: 0 .12rem; margin-left: -.35rem; align-self: flex-start;
+  display: grid; place-items: center; color: var(--muted, #7c86a2);
+  background: var(--white); border: 1px dashed var(--border); border-radius: 4px;
+  cursor: pointer; transition: transform .12s, color .12s;
+}
+.ec-var.ghost { cursor: default; opacity: .75; }
+.ec-var:not(.ghost):hover { transform: translateY(-1px); color: var(--ink); }
 
 .egonode.nb {
   width: 2rem; height: 2rem; display: grid; place-items: center; padding: 0;

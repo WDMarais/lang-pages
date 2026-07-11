@@ -1575,7 +1575,10 @@
         "hw": false,
         "image": ""
       },
-      "cnExAudioKey": "you3"
+      "cnExAudioKey": "you3",
+      "variants": [
+        "ナ"
+      ]
     },
     {
       "id": "g:乚",
@@ -3479,7 +3482,10 @@
       "cnAudioKey": "xi1",
       "cnExAudioKey": "yao4",
       "jpAudioKey": "nishi",
-      "jpExAudioKey": "kaname"
+      "jpExAudioKey": "kaname",
+      "variants": [
+        "覀"
+      ]
     },
     {
       "id": "r:west",
@@ -4997,13 +5003,6 @@
       "id": "g:兀",
       "kind": "glyph",
       "glyph": "兀",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:覀",
-      "kind": "glyph",
-      "glyph": "覀",
       "tier": null,
       "frontier": true
     },

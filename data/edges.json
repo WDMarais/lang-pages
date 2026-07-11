@@ -593,7 +593,7 @@
       "kind": "denotes"
     },
     {
-      "from": "g:ナ",
+      "from": "g:𠂇",
       "to": "g:友",
       "kind": "composes"
     },
@@ -601,11 +601,6 @@
       "from": "g:𠂇",
       "to": "r:left-hand-component",
       "kind": "denotes"
-    },
-    {
-      "from": "g:𠂇",
-      "to": "g:友",
-      "kind": "composes"
     },
     {
       "from": "g:乚",
@@ -2888,11 +2883,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:覀",
-      "to": "g:要",
-      "kind": "composes"
-    },
-    {
       "from": "g:女",
       "to": "g:要",
       "kind": "composes"
@@ -3956,6 +3946,11 @@
       "from": "w:之一@cn",
       "to": "r:one-of",
       "kind": "denotes"
+    },
+    {
+      "from": "g:ナ",
+      "to": "g:𠂇",
+      "kind": "variant"
     }
   ]
 }

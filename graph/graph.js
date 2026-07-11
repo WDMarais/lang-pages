@@ -146,9 +146,16 @@ function renderEgo(glyph) {
 
   const f = facts(glyph);
   const center = byGlyph[glyph] && byGlyph[glyph].frontier ? 'egonode center frontier' : 'egonode center';
-  // parts (what this glyph is built from) live inside the card as clickable chips
-  const partStrip = P.length ? html`<div class="ec-parts">${P.map(g =>
-    html`<button class="ec-part" data-glyph="${g}">${g}</button>`)}</div>` : '';
+  // parts (what this glyph is built from) live inside the card as clickable chips.
+  // a canonical part carries its twin form(s) as a small variant badge (西 [覀]),
+  // so a whole reads as one part per slot instead of duplicate look-alikes.
+  const partStrip = P.length ? html`<div class="ec-parts">${P.map(g => {
+    const vs = (byGlyph[g] && byGlyph[g].variants) || [];
+    return html`<span class="ec-part-wrap"><button class="ec-part" data-glyph="${g}">${g}</button>${
+      vs.map(v => byGlyph[v]
+        ? html`<button class="ec-var" data-glyph="${v}" title="variant form of ${g}">${v}</button>`
+        : html`<span class="ec-var ghost" title="variant form of ${g}">${v}</span>`)}</span>`;
+  })}</div>` : '';
   const nodes = [html`<div class="${center}" data-key="center">
       <span class="ec-glyph">${glyph}</span>
       ${(f.py || f.kana) ? html`<span class="ec-facts">${[f.py, f.kana].filter(Boolean).join(' · ')}</span>` : ''}
@@ -171,6 +178,8 @@ function renderEgo(glyph) {
   });
   stage.querySelectorAll('.ec-part').forEach(e =>
     e.addEventListener('click', () => focus(e.dataset.glyph)));
+  stage.querySelectorAll('.ec-var[data-glyph]').forEach(e =>
+    e.addEventListener('click', ev => { ev.stopPropagation(); focus(e.dataset.glyph); }));
   const of = stage.querySelector('.overflow');
   if (of) of.addEventListener('click', () => showList(glyph));
   drawEgoWires();
