@@ -3499,316 +3499,326 @@
     },
     {
       "from": "g:七",
-      "to": "w:七つ",
+      "to": "w:七つ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:七つ",
+      "from": "w:七つ@jp",
       "to": "r:seven",
       "kind": "denotes"
     },
     {
       "from": "g:二",
-      "to": "w:二つ",
+      "to": "w:二つ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:二つ",
+      "from": "w:二つ@jp",
       "to": "r:two",
       "kind": "denotes"
     },
     {
       "from": "g:入",
-      "to": "w:入る",
+      "to": "w:入る@jp",
       "kind": "composes"
     },
     {
-      "from": "w:入る",
+      "from": "w:入る@jp",
       "to": "r:enter",
       "kind": "denotes"
     },
     {
       "from": "g:八",
-      "to": "w:八つ",
+      "to": "w:八つ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:八つ",
+      "from": "w:八つ@jp",
       "to": "r:eight",
       "kind": "denotes"
     },
     {
       "from": "g:二",
-      "to": "w:二人",
+      "to": "w:二人@jp",
       "kind": "composes"
     },
     {
       "from": "g:人",
-      "to": "w:二人",
+      "to": "w:二人@jp",
       "kind": "composes"
     },
     {
-      "from": "w:二人",
+      "from": "w:二人@jp",
       "to": "r:two-people",
       "kind": "denotes"
     },
     {
       "from": "g:一",
-      "to": "w:一つ",
+      "to": "w:一つ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:一つ",
+      "from": "w:一つ@jp",
       "to": "r:one",
       "kind": "denotes"
     },
     {
       "from": "g:一",
-      "to": "w:一人",
+      "to": "w:一人@jp",
       "kind": "composes"
     },
     {
       "from": "g:人",
-      "to": "w:一人",
+      "to": "w:一人@jp",
       "kind": "composes"
     },
     {
-      "from": "w:一人",
+      "from": "w:一人@jp",
       "to": "r:one-person",
       "kind": "denotes"
     },
     {
       "from": "g:三",
-      "to": "w:三つ",
+      "to": "w:三つ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:三つ",
+      "from": "w:三つ@jp",
       "to": "r:three",
       "kind": "denotes"
     },
     {
       "from": "g:九",
-      "to": "w:九つ",
+      "to": "w:九つ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:九つ",
+      "from": "w:九つ@jp",
       "to": "r:nine",
       "kind": "denotes"
     },
     {
       "from": "g:三",
-      "to": "w:三人",
+      "to": "w:三人@jp",
       "kind": "composes"
     },
     {
       "from": "g:人",
-      "to": "w:三人",
+      "to": "w:三人@jp",
       "kind": "composes"
     },
     {
-      "from": "w:三人",
+      "from": "w:三人@jp",
       "to": "r:three-people",
       "kind": "denotes"
     },
     {
       "from": "g:上",
-      "to": "w:上げる",
+      "to": "w:上げる@jp",
       "kind": "composes"
     },
     {
-      "from": "w:上げる",
+      "from": "w:上げる@jp",
       "to": "r:raise",
       "kind": "denotes"
     },
     {
       "from": "g:下",
-      "to": "w:下げる",
+      "to": "w:下げる@jp",
       "kind": "composes"
     },
     {
-      "from": "w:下げる",
+      "from": "w:下げる@jp",
       "to": "r:lower",
       "kind": "denotes"
     },
     {
       "from": "g:下",
-      "to": "w:下さい",
+      "to": "w:下さい@jp",
       "kind": "composes"
     },
     {
-      "from": "w:下さい",
+      "from": "w:下さい@jp",
       "to": "r:please-give",
       "kind": "denotes"
     },
     {
       "from": "g:入",
-      "to": "w:入り口",
+      "to": "w:入り口@jp",
       "kind": "composes"
     },
     {
       "from": "g:口",
-      "to": "w:入り口",
+      "to": "w:入り口@jp",
       "kind": "composes"
     },
     {
-      "from": "w:入り口",
+      "from": "w:入り口@jp",
       "to": "r:entrance",
       "kind": "denotes"
     },
     {
       "from": "g:大",
-      "to": "w:大きい",
+      "to": "w:大きい@jp",
       "kind": "composes"
     },
     {
-      "from": "w:大きい",
+      "from": "w:大きい@jp",
       "to": "r:big",
       "kind": "denotes"
     },
     {
       "from": "g:大",
-      "to": "w:大きさ",
+      "to": "w:大きさ@jp",
       "kind": "composes"
     },
     {
-      "from": "w:大きさ",
+      "from": "w:大きさ@jp",
       "to": "r:size",
       "kind": "denotes"
     },
     {
       "from": "g:大",
-      "to": "w:大した",
+      "to": "w:大した@jp",
       "kind": "composes"
     },
     {
-      "from": "w:大した",
+      "from": "w:大した@jp",
       "to": "r:great",
       "kind": "denotes"
     },
     {
       "from": "g:大",
-      "to": "w:大人",
+      "to": "w:大人@jp",
       "kind": "composes"
     },
     {
       "from": "g:人",
-      "to": "w:大人",
+      "to": "w:大人@jp",
       "kind": "composes"
     },
     {
-      "from": "w:大人",
+      "from": "w:大人@jp",
       "to": "r:adult",
       "kind": "denotes"
     },
     {
       "from": "g:人",
-      "to": "w:人口",
+      "to": "w:人口@jp",
       "kind": "composes"
     },
     {
       "from": "g:口",
-      "to": "w:人口",
+      "to": "w:人口@jp",
       "kind": "composes"
     },
     {
-      "from": "w:人口",
+      "from": "w:人口@jp",
       "to": "r:population",
       "kind": "denotes"
     },
     {
       "from": "g:人",
-      "to": "w:人工",
+      "to": "w:人工@jp",
       "kind": "composes"
     },
     {
       "from": "g:工",
-      "to": "w:人工",
+      "to": "w:人工@jp",
       "kind": "composes"
     },
     {
-      "from": "w:人工",
+      "from": "w:人工@jp",
       "to": "r:artificial",
       "kind": "denotes"
     },
     {
       "from": "g:力",
-      "to": "w:力いっぱい",
+      "to": "w:力いっぱい@jp",
       "kind": "composes"
     },
     {
-      "from": "w:力いっぱい",
+      "from": "w:力いっぱい@jp",
       "to": "r:full-power",
       "kind": "denotes"
     },
     {
       "from": "g:上",
-      "to": "w:上る",
+      "to": "w:上る@jp",
       "kind": "composes"
     },
     {
-      "from": "w:上る",
+      "from": "w:上る@jp",
       "to": "r:climb",
       "kind": "denotes"
     },
     {
-      "from": "w:おはよう",
+      "from": "w:おはよう@jp",
       "to": "r:good-morning",
       "kind": "denotes"
     },
     {
-      "from": "w:ホテル",
+      "from": "w:ホテル@jp",
       "to": "r:hotel",
       "kind": "denotes"
     },
     {
       "from": "g:之",
-      "to": "w:之中",
+      "to": "w:之中@cn",
       "kind": "composes"
     },
     {
       "from": "g:中",
-      "to": "w:之中",
+      "to": "w:之中@cn",
       "kind": "composes"
     },
     {
-      "from": "w:之中",
+      "from": "w:之中@cn",
       "to": "r:among",
       "kind": "denotes"
     },
     {
       "from": "g:从",
-      "to": "w:从不",
+      "to": "w:从不@cn",
       "kind": "composes"
     },
     {
       "from": "g:不",
-      "to": "w:从不",
+      "to": "w:从不@cn",
       "kind": "composes"
     },
     {
-      "from": "w:从不",
+      "from": "w:从不@cn",
       "to": "r:never",
       "kind": "denotes"
     },
     {
       "from": "g:之",
-      "to": "w:之后",
+      "to": "w:之后@cn",
       "kind": "composes"
     },
     {
       "from": "g:后",
-      "to": "w:之后",
+      "to": "w:之后@cn",
       "kind": "composes"
     },
     {
-      "from": "w:之后",
+      "from": "w:之后@cn",
       "to": "r:after",
       "kind": "denotes"
     },
     {
-      "from": "w:大人",
+      "from": "g:大",
+      "to": "w:大人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:大人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大人@cn",
       "to": "r:adult",
       "kind": "denotes"
     }

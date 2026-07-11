@@ -5086,7 +5086,7 @@
       "frontier": true
     },
     {
-      "id": "w:七つ",
+      "id": "w:七つ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5101,7 +5101,7 @@
       }
     },
     {
-      "id": "w:二つ",
+      "id": "w:二つ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5116,7 +5116,7 @@
       }
     },
     {
-      "id": "w:入る",
+      "id": "w:入る@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5131,7 +5131,7 @@
       }
     },
     {
-      "id": "w:八つ",
+      "id": "w:八つ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5146,7 +5146,7 @@
       }
     },
     {
-      "id": "w:二人",
+      "id": "w:二人@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5165,7 +5165,7 @@
       "label": "two people"
     },
     {
-      "id": "w:一つ",
+      "id": "w:一つ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5180,7 +5180,7 @@
       }
     },
     {
-      "id": "w:一人",
+      "id": "w:一人@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5199,7 +5199,7 @@
       "label": "one person"
     },
     {
-      "id": "w:三つ",
+      "id": "w:三つ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5214,7 +5214,7 @@
       }
     },
     {
-      "id": "w:九つ",
+      "id": "w:九つ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5229,7 +5229,7 @@
       }
     },
     {
-      "id": "w:三人",
+      "id": "w:三人@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5248,7 +5248,7 @@
       "label": "three people"
     },
     {
-      "id": "w:上げる",
+      "id": "w:上げる@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5268,7 +5268,7 @@
       "label": "to raise; lift up"
     },
     {
-      "id": "w:下げる",
+      "id": "w:下げる@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5288,7 +5288,7 @@
       "label": "to lower something"
     },
     {
-      "id": "w:下さい",
+      "id": "w:下さい@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5308,7 +5308,7 @@
       "label": "please (give me)"
     },
     {
-      "id": "w:入り口",
+      "id": "w:入り口@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5327,7 +5327,7 @@
       "label": "entrance; entryway"
     },
     {
-      "id": "w:大きい",
+      "id": "w:大きい@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5342,7 +5342,7 @@
       }
     },
     {
-      "id": "w:大きさ",
+      "id": "w:大きさ@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5362,7 +5362,7 @@
       "label": "size"
     },
     {
-      "id": "w:大した",
+      "id": "w:大した@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5382,15 +5382,15 @@
       "label": "great; considerable"
     },
     {
-      "id": "w:大人",
+      "id": "w:大人@jp",
       "kind": "word",
       "tier": "word",
-      "audience": "cn",
+      "audience": "jp",
       "glyph": "大人",
-      "reading": "dàrén",
-      "gloss": "adult; grown-up",
+      "reading": "おとな",
+      "gloss": "adult",
       "program": {
-        "source": "pandanese",
+        "source": "wanikani",
         "kind": "vocab",
         "level": 1
       }
@@ -5401,7 +5401,7 @@
       "label": "adult"
     },
     {
-      "id": "w:人口",
+      "id": "w:人口@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5415,7 +5415,7 @@
       "label": "population"
     },
     {
-      "id": "w:人工",
+      "id": "w:人工@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5434,7 +5434,7 @@
       "label": "artificial; man-made"
     },
     {
-      "id": "w:力いっぱい",
+      "id": "w:力いっぱい@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5454,7 +5454,7 @@
       "label": "with all one's strength"
     },
     {
-      "id": "w:上る",
+      "id": "w:上る@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5474,7 +5474,7 @@
       "label": "to climb; to go up"
     },
     {
-      "id": "w:おはよう",
+      "id": "w:おはよう@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5493,7 +5493,7 @@
       "label": "good morning"
     },
     {
-      "id": "w:ホテル",
+      "id": "w:ホテル@jp",
       "kind": "word",
       "tier": "word",
       "audience": "jp",
@@ -5512,7 +5512,7 @@
       "label": "hotel"
     },
     {
-      "id": "w:之中",
+      "id": "w:之中@cn",
       "kind": "word",
       "tier": "word",
       "audience": "cn",
@@ -5531,7 +5531,7 @@
       "label": "among; amidst; in the middle of"
     },
     {
-      "id": "w:从不",
+      "id": "w:从不@cn",
       "kind": "word",
       "tier": "word",
       "audience": "cn",
@@ -5550,7 +5550,7 @@
       "label": "never (in the past); never once"
     },
     {
-      "id": "w:之后",
+      "id": "w:之后@cn",
       "kind": "word",
       "tier": "word",
       "audience": "cn",
@@ -5574,6 +5574,20 @@
       "id": "r:after",
       "kind": "referent",
       "label": "after; afterwards; later"
+    },
+    {
+      "id": "w:大人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "大人",
+      "reading": "dàrén",
+      "gloss": "adult; grown-up",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     }
   ]
 }

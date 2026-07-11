@@ -158,7 +158,10 @@ def build():
     words_path = DATA / "words.json"
     if words_path.exists():
         for w in read_json(words_path).get("words", []):
-            wid = f"w:{w['surface']}"
+            # audience is part of the id (like a binding's b:<glyph>@<lang>) so a
+            # JP and CN word sharing a surface — 大人 おとな vs dàrén — are the two
+            # distinct nodes the fork intends, not one silently overwriting the other.
+            wid = f"w:{w['surface']}@{w['audience']}"
             node = {"id": wid, "kind": "word", "tier": "word",
                     "audience": w["audience"], "glyph": w["surface"],
                     "reading": w.get("reading", ""),
@@ -169,8 +172,8 @@ def build():
                 node["program"] = w["program"]
             nodes[wid] = node
             for part in w.get("parts", []):
-                if (part, w["surface"]) not in seen_edge:
-                    seen_edge.add((part, w["surface"]))
+                if (part, wid) not in seen_edge:  # per-word (audience-scoped), not per-surface
+                    seen_edge.add((part, wid))
                     edges.append(cedge(f"g:{part}", wid))
                 if part not in real:
                     nodes.setdefault(f"g:{part}", {
