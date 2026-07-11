@@ -1,0 +1,51 @@
+/* /kana/ — the mora bank. Rides on shared/base.css tokens. */
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP',
+    -apple-system, 'Microsoft YaHei', sans-serif;
+}
+
+.intro {
+  font-size: calc(0.95rem * var(--scale)); color: var(--muted);
+  line-height: 1.7; margin-bottom: 1.4rem; max-width: 64ch;
+}
+.intro em     { color: var(--red); font-style: normal; font-weight: 600; }
+.intro strong { color: var(--navy); }
+.hint {
+  background: var(--navy); color: white; border-radius: 12px;
+  padding: 0.05rem 0.5rem; font-size: 0.85em; white-space: nowrap;
+}
+
+.kana-section { padding-top: 2.4rem; }
+.kana-section:first-child { padding-top: 0; }
+.sec-roma { font-size: 0.5em; color: var(--muted); font-weight: 400; letter-spacing: 0.04em; }
+
+/* ── Mora grid ───────────────────────────────────── */
+.kana-grid { display: flex; flex-direction: column; gap: 0.5rem; }
+.kana-row  { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.5rem; }
+
+.mora {
+  display: grid; justify-items: center; align-content: center; gap: 0.1rem;
+  aspect-ratio: 1 / 1; padding: 0.4rem;
+  background: var(--white); border: 1px solid var(--border); border-radius: 10px;
+  cursor: pointer; font-family: inherit; transition: all 0.15s;
+}
+.mora:hover   { border-color: var(--navy); box-shadow: 0 3px 14px rgba(0,0,0,0.08); transform: translateY(-1px); }
+.mora.playing { border-color: var(--red); background: var(--red); }
+.mora.playing .m-hira, .mora.playing .m-kata, .mora.playing .m-romaji { color: white; }
+.mora.empty   { background: transparent; border: 1px dashed var(--border); box-shadow: none; cursor: default; }
+.mora.empty:hover { transform: none; box-shadow: none; border-color: var(--border); }
+
+/* Primary glyph = hiragana; katakana secondary. The board flips on body.show-kata. */
+.m-hira   { font-size: calc(1.7rem * var(--scale)); line-height: 1; color: var(--navy); font-weight: 400; }
+.m-kata   { font-size: calc(0.9rem * var(--scale)); line-height: 1; color: var(--muted); }
+.m-romaji { font-size: 0.8rem; color: var(--red); letter-spacing: 0.03em; margin-top: 0.1rem; }
+
+body.show-kata .m-hira { font-size: calc(0.9rem * var(--scale)); color: var(--muted); order: 2; }
+body.show-kata .m-kata { font-size: calc(1.7rem * var(--scale)); color: var(--navy); order: 1; }
+body.show-kata .m-romaji { order: 3; }
+
+@media (max-width: 620px) {
+  .m-hira { font-size: calc(1.3rem * var(--scale)); }
+  body.show-kata .m-kata { font-size: calc(1.3rem * var(--scale)); }
+}

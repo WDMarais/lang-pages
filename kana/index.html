@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>かな · The kana bank</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="kana.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="scriptBtn" onclick="toggleScript()">カタカナ</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">英語</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">音 · Phonetics</div>
+  <div class="cover-title">かな</div>
+  <div class="cover-py">kana</div>
+  <div class="cover-sub">The sound inventory of Japanese — one mora at a time</div>
+  <div class="cover-meta"><span class="en">Hiragana &amp; Katakana · the mora bank</span><span class="zh-alt">平仮名・片仮名 · 音の一覧</span></div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Read me first</span><span class="zh-alt">はじめに</span></div>
+    <h2>音の一覧</h2>
+    <div class="sec-rule"></div>
+    <p class="intro">
+      Every Japanese word is built from these <em>mora</em> — short, equal-length beats.
+      Each has two written forms: <strong>ひらがな</strong> (native words, grammar) and
+      <strong>カタカナ</strong> (loanwords, emphasis). Tap any mora to hear it; use the
+      <span class="hint">カタカナ</span> toggle to flip the whole board between scripts.
+      <span class="zh-alt">日本語の単語はすべてこの<em>モーラ</em>——短く等しい長さの拍——からできています。各モーラには<strong>ひらがな</strong>（和語・文法）と<strong>カタカナ</strong>（外来語・強調）の二つの書き方があります。タップで音を再生。トグルで全体の文字を切り替えられます。</span>
+    </p>
+    <p class="intro" style="margin-top:-0.8rem; font-size:calc(0.82rem * var(--scale))">
+      <span class="en">Note: the kana bank teaches the sounds. Words are more than a string of
+      mora — pitch accent, rendaku and gemination live above this level — so the study
+      cards carry their own whole-word audio.</span>
+      <span class="zh-alt">注：仮名の一覧は音を教えます。単語はモーラの連なり以上のもの——高低アクセント・連濁・促音はこの上の階層——なので、学習カードは単語ごとの音声を持ちます。</span>
+    </p>
+  </div>
+</section>
+
+<section id="board"></section>
+
+<footer>
+  <div>かな · 平仮名・片仮名 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="kana.js"></script>
+</body>
+</html>
