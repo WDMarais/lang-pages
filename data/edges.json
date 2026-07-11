@@ -502,6 +502,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:合",
+      "to": "r:close",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:合",
+      "to": "g:答",
+      "kind": "composes"
+    },
+    {
       "from": "g:父",
       "to": "r:father",
       "kind": "denotes"
@@ -575,6 +585,26 @@
     {
       "from": "g:ナ",
       "to": "g:友",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂇",
+      "to": "r:left-hand-component",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:𠂇",
+      "to": "g:友",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乚",
+      "to": "r:hook-stroke",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:乚",
+      "to": "g:也",
       "kind": "composes"
     },
     {
@@ -1879,6 +1909,21 @@
       "kind": "composes"
     },
     {
+      "from": "g:人",
+      "to": "g:合",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:合",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:合",
+      "kind": "composes"
+    },
+    {
       "from": "g:夕",
       "to": "g:名",
       "kind": "composes"
@@ -2595,6 +2640,11 @@
     {
       "from": "g:一",
       "to": "g:立",
+      "kind": "composes"
+    },
+    {
+      "from": "g:⺮",
+      "to": "g:答",
       "kind": "composes"
     },
     {
@@ -3695,6 +3745,21 @@
     {
       "from": "w:ホテル",
       "to": "r:hotel",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:之",
+      "to": "w:之中",
+      "kind": "composes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:之中",
+      "kind": "composes"
+    },
+    {
+      "from": "w:之中",
+      "to": "r:among",
       "kind": "denotes"
     }
   ]

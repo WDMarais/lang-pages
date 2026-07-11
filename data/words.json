@@ -253,6 +253,16 @@
       "reading": "ホテル",
       "gloss": "hotel",
       "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "之中",
+      "slug": "zhizhong",
+      "audience": "cn",
+      "parts": ["之", "中"],
+      "denotes": "among",
+      "reading": "zhīzhōng",
+      "gloss": "among; amidst; in the middle of",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

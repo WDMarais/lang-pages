@@ -1,0 +1,39 @@
+{
+  "glyph": "𠂇",
+  "cp": "U+200C7",
+  "slug": "zuo3",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "𠂇",
+      "reading": "",
+      "gloss": "left-hand component",
+      "extra": "左手之形 · 潘达尼斯记作「舞 dance」· 形如片假名 ナ · 见于 友/右/有 的上部",
+      "appearsIn": {
+        "char": "友",
+        "reading": "yǒu",
+        "gloss": "friend"
+      }
+    },
+    "jp": {
+      "name": "𠂇",
+      "reading": "",
+      "gloss": "left-hand shape (ナ-form)",
+      "extra": "片假名「ナ」に同じ形 · 友/右/有 の上部 · WK は片仮名「ナ」で扱う"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "dance",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

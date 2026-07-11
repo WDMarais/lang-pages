@@ -466,6 +466,12 @@
         "glyph": "全",
         "reading": "quán",
         "gloss": "whole"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "enter",
+        "level": 1,
+        "kind": "meaning"
       }
     },
     {
@@ -2429,6 +2435,46 @@
       "extra": "漢文の「の」· 現代日本語では稀 · 人名等に残る"
     },
     {
+      "id": "b:合@cn",
+      "glyph_id": "g:合",
+      "lang": "cn",
+      "name": "合",
+      "readings": [
+        "hé"
+      ],
+      "gloss": "to close; to combine; to fit",
+      "extra": "人 + 一 + 口 · 亼(聚集)覆于口上 · 合适、合并、合作",
+      "appearsIn": {
+        "glyph": "答",
+        "reading": "dá",
+        "gloss": "to answer"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "combine",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:合@jp",
+      "glyph_id": "g:合",
+      "lang": "jp",
+      "name": "合",
+      "readings": [
+        "あう"
+      ],
+      "gloss": "to fit; to combine; to match",
+      "extra": "漢字「合」(あう · ゴウ・ガッ) · 合う、合計",
+      "appearsIn": {
+        "glyph": "答",
+        "reading": "トウ",
+        "gloss": "answer"
+      }
+    },
+    {
       "id": "b:父@cn",
       "glyph_id": "g:父",
       "lang": "cn",
@@ -2770,6 +2816,64 @@
         "level": 2,
         "kind": "mnemonic"
       }
+    },
+    {
+      "id": "b:𠂇@cn",
+      "glyph_id": "g:𠂇",
+      "lang": "cn",
+      "name": "𠂇",
+      "readings": [],
+      "gloss": "left-hand component",
+      "extra": "左手之形 · 潘达尼斯记作「舞 dance」· 形如片假名 ナ · 见于 友/右/有 的上部",
+      "appearsIn": {
+        "glyph": "友",
+        "reading": "yǒu",
+        "gloss": "friend"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "dance",
+        "level": 1,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:𠂇@jp",
+      "glyph_id": "g:𠂇",
+      "lang": "jp",
+      "name": "𠂇",
+      "readings": [],
+      "gloss": "left-hand shape (ナ-form)",
+      "extra": "片假名「ナ」に同じ形 · 友/右/有 の上部 · WK は片仮名「ナ」で扱う"
+    },
+    {
+      "id": "b:乚@cn",
+      "glyph_id": "g:乚",
+      "lang": "cn",
+      "name": "乚",
+      "readings": [],
+      "gloss": "hook stroke (snake-shape)",
+      "extra": "竖弯钩 shùwāngōu · 潘达尼斯记作「蛇 snake」· 见于 也/electricity 电/毛 的收笔",
+      "appearsIn": {
+        "glyph": "也",
+        "reading": "yě",
+        "gloss": "also; too"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "snake",
+        "level": 1,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:乚@jp",
+      "glyph_id": "g:乚",
+      "lang": "jp",
+      "name": "乚",
+      "readings": [],
+      "gloss": "hook stroke (turning-and-hook)",
+      "extra": "曲がって跳ねる一画 · 也/毛 等の終画"
     },
     {
       "id": "b:丆@cn",

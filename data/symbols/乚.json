@@ -1,0 +1,39 @@
+{
+  "glyph": "乚",
+  "cp": "U+4E5A",
+  "slug": "shuwangou",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "乚",
+      "reading": "",
+      "gloss": "hook stroke (snake-shape)",
+      "extra": "竖弯钩 shùwāngōu · 潘达尼斯记作「蛇 snake」· 见于 也/electricity 电/毛 的收笔",
+      "appearsIn": {
+        "char": "也",
+        "reading": "yě",
+        "gloss": "also; too"
+      }
+    },
+    "jp": {
+      "name": "乚",
+      "reading": "",
+      "gloss": "hook stroke (turning-and-hook)",
+      "extra": "曲がって跳ねる一画 · 也/毛 等の終画"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "snake",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

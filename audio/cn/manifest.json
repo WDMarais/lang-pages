@@ -107,6 +107,10 @@
     "text": "寸",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "da2.mp3": {
+    "text": "答",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "da3.mp3": {
     "text": "打",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -248,7 +252,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "he2.mp3": {
-    "text": "禾",
+    "text": "合",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "hei1.mp3": {
@@ -749,6 +753,10 @@
   },
   "yao2.mp3": {
     "text": "爻",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ye3.mp3": {
+    "text": "也",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ye4.mp3": {

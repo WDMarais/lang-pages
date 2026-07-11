@@ -496,6 +496,11 @@
             "on": true,
             "level": 1
           },
+          "pd": {
+            "name": "enter",
+            "level": 1,
+            "kind": "meaning"
+          },
           "kx": 11,
           "audioBase": "../radicals/",
           "cnAudioKey": "ru4",
@@ -6148,6 +6153,70 @@
           },
           "audioBase": "../radicals/",
           "cnExAudioKey": "you3"
+        },
+        {
+          "glyph": "𠂇",
+          "slug": "zuo3",
+          "tag": "comp",
+          "image": "",
+          "hw": false,
+          "cn": {
+            "name": "𠂇",
+            "reading": "",
+            "gloss": "left-hand component",
+            "extra": "左手之形 · 潘达尼斯记作「舞 dance」· 形如片假名 ナ · 见于 友/右/有 的上部",
+            "appearsIn": {
+              "char": "友",
+              "reading": "yǒu",
+              "gloss": "friend"
+            }
+          },
+          "jp": {
+            "name": "𠂇",
+            "reading": "",
+            "gloss": "left-hand shape (ナ-form)",
+            "extra": "片假名「ナ」に同じ形 · 友/右/有 の上部 · WK は片仮名「ナ」で扱う"
+          },
+          "wk": null,
+          "pd": {
+            "name": "dance",
+            "level": 1,
+            "kind": "mnemonic"
+          },
+          "audioBase": "../radicals/",
+          "cnExAudioKey": "you3"
+        },
+        {
+          "glyph": "乚",
+          "slug": "shuwangou",
+          "tag": "comp",
+          "image": "",
+          "hw": false,
+          "cn": {
+            "name": "乚",
+            "reading": "",
+            "gloss": "hook stroke (snake-shape)",
+            "extra": "竖弯钩 shùwāngōu · 潘达尼斯记作「蛇 snake」· 见于 也/electricity 电/毛 的收笔",
+            "appearsIn": {
+              "char": "也",
+              "reading": "yě",
+              "gloss": "also; too"
+            }
+          },
+          "jp": {
+            "name": "乚",
+            "reading": "",
+            "gloss": "hook stroke (turning-and-hook)",
+            "extra": "曲がって跳ねる一画 · 也/毛 等の終画"
+          },
+          "wk": null,
+          "pd": {
+            "name": "snake",
+            "level": 1,
+            "kind": "mnemonic"
+          },
+          "audioBase": "../radicals/",
+          "cnExAudioKey": "ye3"
         },
         {
           "glyph": "丆",

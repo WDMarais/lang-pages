@@ -1174,6 +1174,30 @@
       "label": "(classical) of; 's; it; to go"
     },
     {
+      "id": "g:合",
+      "kind": "glyph",
+      "glyph": "合",
+      "tier": "char",
+      "slug": "he2",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:close",
+      "kind": "referent",
+      "label": "to close; to combine; to fit"
+    },
+    {
+      "id": "g:答",
+      "kind": "glyph",
+      "glyph": "答",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:父",
       "kind": "glyph",
       "glyph": "父",
@@ -1365,6 +1389,42 @@
       "id": "g:友",
       "kind": "glyph",
       "glyph": "友",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:𠂇",
+      "kind": "glyph",
+      "glyph": "𠂇",
+      "tier": "component",
+      "slug": "zuo3",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:乚",
+      "kind": "glyph",
+      "glyph": "乚",
+      "tier": "component",
+      "slug": "shuwangou",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:hook-stroke",
+      "kind": "referent",
+      "label": "hook stroke (snake-shape)"
+    },
+    {
+      "id": "g:也",
+      "kind": "glyph",
+      "glyph": "也",
       "tier": null,
       "frontier": true
     },
@@ -4515,13 +4575,6 @@
       "label": "left-fall then dot"
     },
     {
-      "id": "g:乚",
-      "kind": "glyph",
-      "glyph": "乚",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:⺊",
       "kind": "glyph",
       "glyph": "⺊",
@@ -4546,13 +4599,6 @@
       "id": "g:巳",
       "kind": "glyph",
       "glyph": "巳",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:也",
-      "kind": "glyph",
-      "glyph": "也",
       "tier": null,
       "frontier": true
     },
@@ -4623,6 +4669,13 @@
       "id": "g:卄",
       "kind": "glyph",
       "glyph": "卄",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:⺮",
+      "kind": "glyph",
+      "glyph": "⺮",
       "tier": null,
       "frontier": true
     },
@@ -5278,6 +5331,26 @@
       "id": "r:hotel",
       "kind": "referent",
       "label": "hotel"
+    },
+    {
+      "id": "w:之中",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "之中",
+      "slug": "zhizhong",
+      "reading": "zhīzhōng",
+      "gloss": "among; amidst; in the middle of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:among",
+      "kind": "referent",
+      "label": "among; amidst; in the middle of"
     }
   ]
 }

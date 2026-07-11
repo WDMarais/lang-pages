@@ -55,6 +55,14 @@
       ],
       "on": true,
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "enter",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

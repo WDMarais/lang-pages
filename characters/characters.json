@@ -191,7 +191,8 @@
             "appearsIn": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
           },
           "wk": { "name": "Enter", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Enter", "readings": ["ニュウ"], "on": true, "level": 1 }
+          "kanji": { "name": "Enter", "readings": ["ニュウ"], "on": true, "level": 1 },
+          "pd": { "name": "enter", "level": 1, "kind": "meaning" }
         },
         {
           "glyph": "力",
@@ -964,6 +965,27 @@
           "wk": null,
           "pd": { "name": "Zorro", "level": 1, "kind": "mnemonic" },
           "pdc": { "name": "of", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "合",
+          "slug": "he2",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "he2",
+          "cnExAudioKey": "da2",
+          "cn": {
+            "name": "合", "reading": "hé", "gloss": "to close; to combine; to fit",
+            "extra": "人 + 一 + 口 · 亼(聚集)覆于口上 · 合适、合并、合作",
+            "appearsIn": { "char": "答", "reading": "dá", "gloss": "to answer" }
+          },
+          "jp": {
+            "name": "合", "reading": "あう", "gloss": "to fit; to combine; to match",
+            "extra": "漢字「合」(あう · ゴウ・ガッ) · 合う、合計",
+            "appearsIn": { "char": "答", "reading": "トウ", "gloss": "answer" }
+          },
+          "wk": null,
+          "pdc": { "name": "combine", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "父",

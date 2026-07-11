@@ -46,6 +46,7 @@ STROKE_OVERRIDE = {
     "白": ["丿", "日"],
     "線": ["糸", "泉"],
     "丆": ["一", "丿"],  # WK "Leaf" — not in MMAH; 横 + 撇
+    "合": ["人", "一", "口"],  # MMAH gives 亼 口; 亼 (人+一) not carded → its carded parts
 }
 
 
