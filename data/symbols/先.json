@@ -38,6 +38,14 @@
       "name": "battleground",
       "kind": "mnemonic",
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "first; early",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

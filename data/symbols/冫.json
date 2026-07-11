@@ -21,5 +21,14 @@
       "gloss": "ice"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "ice",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

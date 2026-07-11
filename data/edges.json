@@ -1184,6 +1184,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:西",
+      "to": "r:west",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:西",
+      "to": "g:要",
+      "kind": "composes"
+    },
+    {
       "from": "g:見",
       "to": "r:see",
       "kind": "denotes"
@@ -2868,6 +2878,26 @@
       "kind": "composes"
     },
     {
+      "from": "g:兀",
+      "to": "g:西",
+      "kind": "composes"
+    },
+    {
+      "from": "g:囗",
+      "to": "g:西",
+      "kind": "composes"
+    },
+    {
+      "from": "g:覀",
+      "to": "g:要",
+      "kind": "composes"
+    },
+    {
+      "from": "g:女",
+      "to": "g:要",
+      "kind": "composes"
+    },
+    {
       "from": "g:目",
       "to": "g:見",
       "kind": "composes"
@@ -3895,6 +3925,36 @@
     {
       "from": "w:女子@jp",
       "to": "r:girl",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:日本@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:本",
+      "to": "w:日本@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:日本@cn",
+      "to": "r:japan",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:之",
+      "to": "w:之一@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:之一@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:之一@cn",
+      "to": "r:one-of",
       "kind": "denotes"
     }
   ]

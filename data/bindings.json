@@ -2402,7 +2402,12 @@
         "source": "pandanese",
         "name": "battleground",
         "level": 1,
-        "kind": "mnemonic"
+        "kind": "mnemonic",
+        "character": {
+          "name": "first; early",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -3093,7 +3098,13 @@
         "bīng"
       ],
       "gloss": "ice",
-      "extra": "康熙部首 15"
+      "extra": "康熙部首 15",
+      "program": {
+        "source": "pandanese",
+        "name": "ice",
+        "level": 1,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:冫@jp",
@@ -5235,6 +5246,49 @@
       "readings": [],
       "gloss": "cover",
       "extra": ""
+    },
+    {
+      "id": "b:西@cn",
+      "glyph_id": "g:西",
+      "lang": "cn",
+      "name": "西",
+      "readings": [
+        "xī"
+      ],
+      "gloss": "west",
+      "extra": "归入康熙部首 146「襾」· 象形（鸟巢）借作方位 · 西方、东西、西班牙",
+      "appearsIn": {
+        "glyph": "要",
+        "reading": "yào",
+        "gloss": "to want; important"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "west",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "west",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:西@jp",
+      "glyph_id": "g:西",
+      "lang": "jp",
+      "name": "西",
+      "readings": [
+        "にし"
+      ],
+      "gloss": "west",
+      "extra": "漢字「西」(にし · セイ・サイ) · 西口、関西、北西",
+      "appearsIn": {
+        "glyph": "要",
+        "reading": "かなめ",
+        "gloss": "pivot; essence"
+      }
     },
     {
       "id": "b:見@cn",

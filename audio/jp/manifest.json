@@ -163,6 +163,10 @@
     "text": "ジュウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kaname.mp3": {
+    "text": "かなめ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "karada.mp3": {
     "text": "からだ",
     "voice": "ja-JP-NanamiNeural"
@@ -253,6 +257,10 @@
   },
   "niru.mp3": {
     "text": "にる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nishi.mp3": {
+    "text": "にし",
     "voice": "ja-JP-NanamiNeural"
   },
   "nushi.mp3": {

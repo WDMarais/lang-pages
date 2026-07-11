@@ -301,6 +301,24 @@
       "reading": "じょし",
       "gloss": "girl; young woman",
       "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "日本",
+      "audience": "cn",
+      "parts": ["日", "本"],
+      "denotes": "japan",
+      "reading": "rìběn",
+      "gloss": "Japan",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "之一",
+      "audience": "cn",
+      "parts": ["之", "一"],
+      "denotes": "one-of",
+      "reading": "zhīyī",
+      "gloss": "one of (a group); among",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

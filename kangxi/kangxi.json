@@ -633,6 +633,11 @@
             "gloss": "ice"
           },
           "wk": null,
+          "pd": {
+            "name": "ice",
+            "level": 1,
+            "kind": "meaning"
+          },
           "kx": 15,
           "cnAudioKey": "bing1"
         },

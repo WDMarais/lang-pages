@@ -3467,6 +3467,33 @@
       "cnAudioKey": "ya4"
     },
     {
+      "id": "g:西",
+      "kind": "glyph",
+      "glyph": "西",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "xi1",
+      "cnExAudioKey": "yao4",
+      "jpAudioKey": "nishi",
+      "jpExAudioKey": "kaname"
+    },
+    {
+      "id": "r:west",
+      "kind": "referent",
+      "label": "west"
+    },
+    {
+      "id": "g:要",
+      "kind": "glyph",
+      "glyph": "要",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:見",
       "kind": "glyph",
       "glyph": "見",
@@ -4967,6 +4994,20 @@
       "frontier": true
     },
     {
+      "id": "g:兀",
+      "kind": "glyph",
+      "glyph": "兀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:覀",
+      "kind": "glyph",
+      "glyph": "覀",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:勿",
       "kind": "glyph",
       "glyph": "勿",
@@ -4984,13 +5025,6 @@
       "id": "g:犭",
       "kind": "glyph",
       "glyph": "犭",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:兀",
-      "kind": "glyph",
-      "glyph": "兀",
       "tier": null,
       "frontier": true
     },
@@ -5701,6 +5735,44 @@
       "id": "r:girl",
       "kind": "referent",
       "label": "girl; young woman"
+    },
+    {
+      "id": "w:日本@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "日本",
+      "reading": "rìběn",
+      "gloss": "Japan",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:japan",
+      "kind": "referent",
+      "label": "Japan"
+    },
+    {
+      "id": "w:之一@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "之一",
+      "reading": "zhīyī",
+      "gloss": "one of (a group); among",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:one-of",
+      "kind": "referent",
+      "label": "one of (a group); among"
     }
   ]
 }
