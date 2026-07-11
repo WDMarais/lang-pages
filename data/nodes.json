@@ -182,6 +182,25 @@
       "frontier": true
     },
     {
+      "id": "g:亻",
+      "kind": "glyph",
+      "glyph": "亻",
+      "tier": "component",
+      "slug": "danren",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      }
+    },
+    {
+      "id": "g:休",
+      "kind": "glyph",
+      "glyph": "休",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:入",
       "kind": "glyph",
       "glyph": "入",
@@ -2195,7 +2214,7 @@
     {
       "id": "r:moon",
       "kind": "referent",
-      "label": "moon"
+      "label": "moon; month"
     },
     {
       "id": "g:欠",
@@ -4582,13 +4601,6 @@
       "frontier": true
     },
     {
-      "id": "g:亻",
-      "kind": "glyph",
-      "glyph": "亻",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:丄",
       "kind": "glyph",
       "glyph": "丄",
@@ -5199,13 +5211,13 @@
       "id": "w:大人",
       "kind": "word",
       "tier": "word",
-      "audience": "jp",
+      "audience": "cn",
       "glyph": "大人",
-      "slug": "otona",
-      "reading": "おとな",
-      "gloss": "adult",
+      "slug": "daren",
+      "reading": "dàrén",
+      "gloss": "adult; grown-up",
       "program": {
-        "source": "wanikani",
+        "source": "pandanese",
         "kind": "vocab",
         "level": 1
       }
@@ -5351,6 +5363,53 @@
       "id": "r:among",
       "kind": "referent",
       "label": "among; amidst; in the middle of"
+    },
+    {
+      "id": "w:从不",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "从不",
+      "slug": "congbu",
+      "reading": "cóngbù",
+      "gloss": "never (in the past); never once",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:never",
+      "kind": "referent",
+      "label": "never (in the past); never once"
+    },
+    {
+      "id": "w:之后",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "之后",
+      "slug": "zhihou",
+      "reading": "zhīhòu",
+      "gloss": "after; afterwards; later",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "g:后",
+      "kind": "glyph",
+      "glyph": "后",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "r:after",
+      "kind": "referent",
+      "label": "after; afterwards; later"
     }
   ]
 }

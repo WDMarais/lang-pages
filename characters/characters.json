@@ -1146,6 +1146,28 @@
           },
           "wk": { "name": "Talent", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 2 }
+        },
+        {
+          "glyph": "月",
+          "slug": "yue74",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yue4",
+          "cnExAudioKey": "ming2",
+          "cn": {
+            "name": "月", "reading": "yuè", "gloss": "moon; month",
+            "extra": "康熙部首 74 · 象形「月牙」· 月亮、月份 · 亦作「肉」旁",
+            "appearsIn": { "char": "明", "reading": "míng", "gloss": "bright" }
+          },
+          "jp": {
+            "name": "月", "reading": "つき", "gloss": "moon; month",
+            "extra": "漢字「月」(つき · ゲツ・ガツ) · 月曜日、一月",
+            "appearsIn": { "char": "明", "reading": "メイ", "gloss": "bright" }
+          },
+          "wk": null,
+          "pd": { "name": "moon", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "month", "kind": "meaning", "level": 1 }
         }
       ]
     }

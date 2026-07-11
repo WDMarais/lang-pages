@@ -2519,21 +2519,43 @@
           "cn": {
             "name": "月",
             "reading": "yuè",
-            "gloss": "moon",
-            "extra": "康熙部首 74"
+            "gloss": "moon; month",
+            "extra": "康熙部首 74 · 象形「月牙」· 月亮、月份 · 亦作「肉」旁",
+            "appearsIn": {
+              "char": "明",
+              "reading": "míng",
+              "gloss": "bright"
+            }
           },
           "jp": {
             "name": "月",
-            "reading": "",
-            "gloss": "moon"
+            "reading": "つき",
+            "gloss": "moon; month",
+            "extra": "漢字「月」(つき · ゲツ・ガツ) · 月曜日、一月",
+            "appearsIn": {
+              "char": "明",
+              "reading": "メイ",
+              "gloss": "bright"
+            }
           },
           "wk": null,
+          "pd": {
+            "name": "moon",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "month",
+            "kind": "meaning",
+            "level": 1
+          },
           "kx": 74,
           "audioBase": "../radicals/",
           "cnAudioKey": "yue4",
+          "cnExAudioKey": "ming2",
           "referents": [
             {
-              "label": "moon",
+              "label": "moon; month",
               "images": [
                 {
                   "src": "../shared/referents/moon-clip.svg",
@@ -6006,6 +6028,43 @@
       "title": "非部首部件",
       "sub": "non-Kangxi components",
       "cards": [
+        {
+          "glyph": "亻",
+          "slug": "danren",
+          "tag": "comp",
+          "image": "",
+          "hw": false,
+          "cn": {
+            "name": "亻",
+            "reading": "",
+            "gloss": "person (side radical)",
+            "extra": "「人」的偏旁形 · 单人旁 · 潘达尼斯记作「员工 staff」· 见于 你/他/休/作 的左侧",
+            "appearsIn": {
+              "char": "休",
+              "reading": "xiū",
+              "gloss": "to rest"
+            }
+          },
+          "jp": {
+            "name": "亻",
+            "reading": "",
+            "gloss": "person radical (left form)",
+            "extra": "「人」の偏旁「にんべん」· 休/体/作 の左",
+            "appearsIn": {
+              "char": "休",
+              "reading": "やす",
+              "gloss": "to rest"
+            }
+          },
+          "wk": null,
+          "pd": {
+            "name": "staff",
+            "level": 1,
+            "kind": "mnemonic"
+          },
+          "audioBase": "../radicals/",
+          "cnExAudioKey": "xiu1"
+        },
         {
           "glyph": "𠂉",
           "slug": "gun",

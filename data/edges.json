@@ -82,6 +82,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:亻",
+      "to": "r:person",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:亻",
+      "to": "g:休",
+      "kind": "composes"
+    },
+    {
       "from": "g:入",
       "to": "r:enter",
       "kind": "denotes"
@@ -841,6 +851,12 @@
       "from": "g:月",
       "to": "r:moon",
       "kind": "denotes"
+    },
+    {
+      "from": "g:月",
+      "to": "g:明",
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:欠",
@@ -1718,6 +1734,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:木",
+      "to": "g:休",
+      "kind": "composes"
+    },
+    {
       "from": "g:亻",
       "to": "g:似",
       "kind": "composes"
@@ -2270,12 +2291,6 @@
       "from": "g:一",
       "to": "g:日",
       "kind": "composes"
-    },
-    {
-      "from": "g:月",
-      "to": "g:明",
-      "kind": "composes",
-      "role": "semantic"
     },
     {
       "from": "g:口",
@@ -3760,6 +3775,41 @@
     {
       "from": "w:之中",
       "to": "r:among",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:从",
+      "to": "w:从不",
+      "kind": "composes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:从不",
+      "kind": "composes"
+    },
+    {
+      "from": "w:从不",
+      "to": "r:never",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:之",
+      "to": "w:之后",
+      "kind": "composes"
+    },
+    {
+      "from": "g:后",
+      "to": "w:之后",
+      "kind": "composes"
+    },
+    {
+      "from": "w:之后",
+      "to": "r:after",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:大人",
+      "to": "r:adult",
       "kind": "denotes"
     }
   ]

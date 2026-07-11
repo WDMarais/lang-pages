@@ -1,0 +1,44 @@
+{
+  "glyph": "亻",
+  "cp": "U+4EBB",
+  "slug": "danren",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "亻",
+      "reading": "",
+      "gloss": "person (side radical)",
+      "extra": "「人」的偏旁形 · 单人旁 · 潘达尼斯记作「员工 staff」· 见于 你/他/休/作 的左侧",
+      "appearsIn": {
+        "char": "休",
+        "reading": "xiū",
+        "gloss": "to rest"
+      }
+    },
+    "jp": {
+      "name": "亻",
+      "reading": "",
+      "gloss": "person radical (left form)",
+      "extra": "「人」の偏旁「にんべん」· 休/体/作 の左",
+      "appearsIn": {
+        "char": "休",
+        "reading": "やす",
+        "gloss": "to rest"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "staff",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}

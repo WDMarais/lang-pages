@@ -263,6 +263,36 @@
       "reading": "zhīzhōng",
       "gloss": "among; amidst; in the middle of",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "从不",
+      "slug": "congbu",
+      "audience": "cn",
+      "parts": ["从", "不"],
+      "denotes": "never",
+      "reading": "cóngbù",
+      "gloss": "never (in the past); never once",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "之后",
+      "slug": "zhihou",
+      "audience": "cn",
+      "parts": ["之", "后"],
+      "denotes": "after",
+      "reading": "zhīhòu",
+      "gloss": "after; afterwards; later",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "大人",
+      "slug": "daren",
+      "audience": "cn",
+      "parts": ["大", "人"],
+      "denotes": "adult",
+      "reading": "dàrén",
+      "gloss": "adult; grown-up",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

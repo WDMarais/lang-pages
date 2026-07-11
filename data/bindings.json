@@ -453,6 +453,40 @@
       }
     },
     {
+      "id": "b:亻@cn",
+      "glyph_id": "g:亻",
+      "lang": "cn",
+      "name": "亻",
+      "readings": [],
+      "gloss": "person (side radical)",
+      "extra": "「人」的偏旁形 · 单人旁 · 潘达尼斯记作「员工 staff」· 见于 你/他/休/作 的左侧",
+      "appearsIn": {
+        "glyph": "休",
+        "reading": "xiū",
+        "gloss": "to rest"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "staff",
+        "level": 1,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:亻@jp",
+      "glyph_id": "g:亻",
+      "lang": "jp",
+      "name": "亻",
+      "readings": [],
+      "gloss": "person radical (left form)",
+      "extra": "「人」の偏旁「にんべん」· 休/体/作 の左",
+      "appearsIn": {
+        "glyph": "休",
+        "reading": "やす",
+        "gloss": "to rest"
+      }
+    },
+    {
       "id": "b:入@cn",
       "glyph_id": "g:入",
       "lang": "cn",
@@ -3815,17 +3849,40 @@
       "readings": [
         "yuè"
       ],
-      "gloss": "moon",
-      "extra": "康熙部首 74"
+      "gloss": "moon; month",
+      "extra": "康熙部首 74 · 象形「月牙」· 月亮、月份 · 亦作「肉」旁",
+      "appearsIn": {
+        "glyph": "明",
+        "reading": "míng",
+        "gloss": "bright"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "moon",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "month",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:月@jp",
       "glyph_id": "g:月",
       "lang": "jp",
       "name": "月",
-      "readings": [],
-      "gloss": "moon",
-      "extra": ""
+      "readings": [
+        "つき"
+      ],
+      "gloss": "moon; month",
+      "extra": "漢字「月」(つき · ゲツ・ガツ) · 月曜日、一月",
+      "appearsIn": {
+        "glyph": "明",
+        "reading": "メイ",
+        "gloss": "bright"
+      }
     },
     {
       "id": "b:欠@cn",

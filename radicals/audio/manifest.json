@@ -55,6 +55,10 @@
     "text": "ダイ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "jp-danren-ex.mp3": {
+    "text": "やす",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "jp-dao-ex.mp3": {
     "text": "わける",
     "voice": "ja-JP-NanamiNeural"
@@ -401,6 +405,14 @@
   },
   "jp-yuan.mp3": {
     "text": "エン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-yue74-ex.mp3": {
+    "text": "メイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jp-yue74.mp3": {
+    "text": "つき",
     "voice": "ja-JP-NanamiNeural"
   },
   "jp-zhi.mp3": {
