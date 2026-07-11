@@ -574,7 +574,9 @@
             "appearsIn": { "char": "男", "reading": "おとこ", "gloss": "man" }
           },
           "wk": { "name": "Rice Paddy", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Rice Paddy", "readings": ["デン"], "on": true, "kun": ["た"], "level": 2 }
+          "kanji": { "name": "Rice Paddy", "readings": ["デン"], "on": true, "kun": ["た"], "level": 2 },
+          "pd": { "name": "field", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "field", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "中",
@@ -1210,6 +1212,29 @@
           "wk": null,
           "pd": { "name": "moon", "level": 1, "kind": "meaning" },
           "pdc": { "name": "month", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "母",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "mu3",
+          "cnExAudioKey": "hai3",
+          "jpAudioKey": "haha",
+          "jpExAudioKey": "umi",
+          "cn": {
+            "name": "母", "reading": "mǔ", "gloss": "mother; female (animal)",
+            "extra": "康熙部首 80 · 象形（女子胸前两点象哺乳）· 母亲、父母、字母",
+            "appearsIn": { "char": "海", "reading": "hǎi", "gloss": "sea" }
+          },
+          "jp": {
+            "name": "母", "reading": "はは", "gloss": "mother",
+            "extra": "漢字「母」(はは · ボ) · お母さん、母国",
+            "appearsIn": { "char": "海", "reading": "うみ", "gloss": "sea" }
+          },
+          "wk": null,
+          "pd": { "name": "mother", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "mother", "kind": "meaning", "level": 1 }
         }
       ]
     }

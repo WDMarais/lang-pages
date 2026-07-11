@@ -243,6 +243,10 @@
     "text": "鬼",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "hai3.mp3": {
+    "text": "海",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "han4.mp3": {
     "text": "厂",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -425,6 +429,10 @@
   },
   "ming2.mp3": {
     "text": "名",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mu3.mp3": {
+    "text": "母",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "mu4.mp3": {

@@ -1,0 +1,52 @@
+{
+  "glyph": "母",
+  "cp": "U+6BCD",
+  "class": "char",
+  "kangxi": 80,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "母",
+      "reading": "mǔ",
+      "gloss": "mother; female (animal)",
+      "extra": "康熙部首 80 · 象形（女子胸前两点象哺乳）· 母亲、父母、字母",
+      "appearsIn": {
+        "char": "海",
+        "reading": "hǎi",
+        "gloss": "sea"
+      }
+    },
+    "jp": {
+      "name": "母",
+      "reading": "はは",
+      "gloss": "mother",
+      "extra": "漢字「母」(はは · ボ) · お母さん、母国",
+      "appearsIn": {
+        "char": "海",
+        "reading": "うみ",
+        "gloss": "sea"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "mother",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "mother",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

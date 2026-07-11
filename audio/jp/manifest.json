@@ -75,6 +75,10 @@
     "text": "ハチ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "haha.mp3": {
+    "text": "はは",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hairu.mp3": {
     "text": "はいる",
     "voice": "ja-JP-NanamiNeural"
@@ -373,6 +377,10 @@
   },
   "ue.mp3": {
     "text": "うえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "umi.mp3": {
+    "text": "うみ",
     "voice": "ja-JP-NanamiNeural"
   },
   "utsu.mp3": {

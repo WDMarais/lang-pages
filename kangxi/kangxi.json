@@ -2654,24 +2654,48 @@
           "cnAudioKey": "shu1"
         },
         {
-          "glyph": "毋",
+          "glyph": "母",
           "tag": "char",
           "image": "",
           "hw": true,
           "cn": {
-            "name": "毋",
-            "reading": "wú",
-            "gloss": "do not",
-            "extra": "康熙部首 80"
+            "name": "母",
+            "reading": "mǔ",
+            "gloss": "mother; female (animal)",
+            "extra": "康熙部首 80 · 象形（女子胸前两点象哺乳）· 母亲、父母、字母",
+            "appearsIn": {
+              "char": "海",
+              "reading": "hǎi",
+              "gloss": "sea"
+            }
           },
           "jp": {
-            "name": "毋",
-            "reading": "",
-            "gloss": "do not"
+            "name": "母",
+            "reading": "はは",
+            "gloss": "mother",
+            "extra": "漢字「母」(はは · ボ) · お母さん、母国",
+            "appearsIn": {
+              "char": "海",
+              "reading": "うみ",
+              "gloss": "sea"
+            }
           },
           "wk": null,
+          "pd": {
+            "name": "mother",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "mother",
+            "kind": "meaning",
+            "level": 1
+          },
           "kx": 80,
-          "cnAudioKey": "wu2"
+          "cnAudioKey": "mu3",
+          "cnExAudioKey": "hai3",
+          "jpAudioKey": "haha",
+          "jpExAudioKey": "umi"
         },
         {
           "glyph": "比",
@@ -3275,6 +3299,16 @@
               "た"
             ],
             "level": 2
+          },
+          "pd": {
+            "name": "field",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "field",
+            "kind": "meaning",
+            "level": 1
           },
           "kx": 102,
           "cnAudioKey": "tian2",

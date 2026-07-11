@@ -879,6 +879,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:母",
+      "to": "r:mother",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:母",
+      "to": "g:海",
+      "kind": "composes"
+    },
+    {
       "from": "g:比",
       "to": "r:compare",
       "kind": "denotes"
@@ -2428,6 +2438,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:氵",
+      "to": "g:海",
+      "kind": "composes"
+    },
+    {
+      "from": "g:每",
+      "to": "g:海",
+      "kind": "composes"
+    },
+    {
       "from": "g:丷",
       "to": "g:火",
       "kind": "composes"
@@ -3820,6 +3840,46 @@
     {
       "from": "w:大人@cn",
       "to": "r:adult",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一一@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一一@cn",
+      "to": "r:one-by-one",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:可",
+      "to": "w:可以@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:以",
+      "to": "w:可以@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:可以@cn",
+      "to": "r:can-may",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:以",
+      "to": "w:以后@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:后",
+      "to": "w:以后@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:以后@cn",
+      "to": "r:after",
       "kind": "denotes"
     }
   ]

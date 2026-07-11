@@ -265,6 +265,33 @@
       "reading": "dàrén",
       "gloss": "adult; grown-up",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "一一",
+      "audience": "cn",
+      "parts": ["一"],
+      "denotes": "one-by-one",
+      "reading": "yīyī",
+      "gloss": "one by one; one after another",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "可以",
+      "audience": "cn",
+      "parts": ["可", "以"],
+      "denotes": "can-may",
+      "reading": "kěyǐ",
+      "gloss": "can; may; possible; OK",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "以后",
+      "audience": "cn",
+      "parts": ["以", "后"],
+      "denotes": "after",
+      "reading": "yǐhòu",
+      "gloss": "after; afterward; later; from now on",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

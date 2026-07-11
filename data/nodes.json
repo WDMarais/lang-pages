@@ -2446,6 +2446,33 @@
       "label": "do not"
     },
     {
+      "id": "g:母",
+      "kind": "glyph",
+      "glyph": "母",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "mu3",
+      "cnExAudioKey": "hai3",
+      "jpAudioKey": "haha",
+      "jpExAudioKey": "umi"
+    },
+    {
+      "id": "r:mother",
+      "kind": "referent",
+      "label": "mother; female (animal)"
+    },
+    {
+      "id": "g:海",
+      "kind": "glyph",
+      "glyph": "海",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:比",
       "kind": "glyph",
       "glyph": "比",
@@ -4855,6 +4882,13 @@
       "frontier": true
     },
     {
+      "id": "g:每",
+      "kind": "glyph",
+      "glyph": "每",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:丷",
       "kind": "glyph",
       "glyph": "丷",
@@ -5583,6 +5617,65 @@
       "glyph": "大人",
       "reading": "dàrén",
       "gloss": "adult; grown-up",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "w:一一@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一一",
+      "reading": "yīyī",
+      "gloss": "one by one; one after another",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:one-by-one",
+      "kind": "referent",
+      "label": "one by one; one after another"
+    },
+    {
+      "id": "w:可以@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "可以",
+      "reading": "kěyǐ",
+      "gloss": "can; may; possible; OK",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "g:可",
+      "kind": "glyph",
+      "glyph": "可",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "r:can-may",
+      "kind": "referent",
+      "label": "can; may; possible; OK"
+    },
+    {
+      "id": "w:以后@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "以后",
+      "reading": "yǐhòu",
+      "gloss": "after; afterward; later; from now on",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
