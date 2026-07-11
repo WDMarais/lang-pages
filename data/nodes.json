@@ -2270,12 +2270,13 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "wen2"
+      "cnAudioKey": "wen2",
+      "jpAudioKey": "bun"
     },
     {
-      "id": "r:script",
+      "id": "r:writing",
       "kind": "referent",
-      "label": "script"
+      "label": "writing; script; language"
     },
     {
       "id": "g:斗",
@@ -5681,6 +5682,25 @@
         "kind": "vocab",
         "level": 1
       }
+    },
+    {
+      "id": "w:女子@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "女子",
+      "reading": "じょし",
+      "gloss": "girl; young woman",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:girl",
+      "kind": "referent",
+      "label": "girl; young woman"
     }
   ]
 }

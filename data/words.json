@@ -292,6 +292,15 @@
       "reading": "yǐhòu",
       "gloss": "after; afterward; later; from now on",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "女子",
+      "audience": "jp",
+      "parts": ["女", "子"],
+      "denotes": "girl",
+      "reading": "じょし",
+      "gloss": "girl; young woman",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
     }
   ]
 }

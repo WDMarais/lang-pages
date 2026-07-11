@@ -2072,7 +2072,25 @@
         "しろ"
       ],
       "gloss": "white",
-      "extra": "漢字「白」(しろ · ハク · ビャク)"
+      "extra": "漢字「白」(しろ · ハク · ビャク)",
+      "program": {
+        "source": "wanikani",
+        "name": "White",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "White",
+          "readings": [
+            "ハク",
+            "ビャク"
+          ],
+          "on": true,
+          "kun": [
+            "しろ"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:泉@cn",
@@ -3740,17 +3758,37 @@
       "readings": [
         "wén"
       ],
-      "gloss": "script",
-      "extra": "康熙部首 67"
+      "gloss": "writing; script; language",
+      "extra": "康熙部首 67 · 象形（交错的花纹）· 文字、文化、语文"
     },
     {
       "id": "b:文@jp",
       "glyph_id": "g:文",
       "lang": "jp",
       "name": "文",
-      "readings": [],
-      "gloss": "script",
-      "extra": ""
+      "readings": [
+        "ブン"
+      ],
+      "gloss": "writing; sentence; text",
+      "extra": "漢字「文」(ブン・モン · ふみ) · 文章、作文、注文",
+      "program": {
+        "source": "wanikani",
+        "name": "Writing",
+        "level": 2,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Writing",
+          "readings": [
+            "ブン",
+            "モン"
+          ],
+          "on": true,
+          "kun": [
+            "ふみ"
+          ],
+          "level": 2
+        }
+      }
     },
     {
       "id": "b:斗@cn",

@@ -3,7 +3,6 @@
   "cp": "U+6587",
   "class": "char",
   "kangxi": 67,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -12,14 +11,39 @@
     "cn": {
       "name": "文",
       "reading": "wén",
-      "gloss": "script",
-      "extra": "康熙部首 67"
+      "gloss": "writing; script; language",
+      "extra": "康熙部首 67 · 象形（交错的花纹）· 文字、文化、语文"
     },
     "jp": {
       "name": "文",
-      "reading": "",
-      "gloss": "script"
+      "reading": "ブン",
+      "gloss": "writing; sentence; text",
+      "extra": "漢字「文」(ブン・モン · ふみ) · 文章、作文、注文"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Writing",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Writing",
+      "readings": [
+        "ブン",
+        "モン"
+      ],
+      "on": true,
+      "kun": [
+        "ふみ"
+      ],
+      "level": 2
+    }
+  ]
 }
