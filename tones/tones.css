@@ -1,0 +1,81 @@
+/* /tones/ — the four tones + neutral. Rides on shared/base.css tokens. */
+
+.intro {
+  font-size: calc(0.95rem * var(--scale)); color: var(--muted);
+  line-height: 1.7; margin-bottom: 0; max-width: 62ch;
+}
+.intro em     { color: var(--red); font-style: italic; }
+.intro strong { color: var(--navy); }
+
+/* ── Tone cards ──────────────────────────────────── */
+.tone-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.9rem;
+}
+.tone-card {
+  display: grid; justify-items: center; gap: 0.4rem;
+  background: var(--white); border: 1px solid var(--border);
+  border-top: 3px solid var(--muted); border-radius: 10px;
+  padding: 1.3rem 0.8rem 1.1rem; cursor: pointer;
+  font-family: inherit; text-align: center; transition: box-shadow 0.18s, transform 0.18s;
+}
+.tone-card:hover   { box-shadow: 0 6px 20px rgba(0,0,0,0.09); transform: translateY(-2px); }
+.tone-card.playing { box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+
+.tone-card.t1 { border-top-color: var(--red); }
+.tone-card.t2 { border-top-color: var(--gold); }
+.tone-card.t3 { border-top-color: var(--green); }
+.tone-card.t4 { border-top-color: var(--navy); }
+.tone-card.t0 { border-top-color: var(--muted); }
+
+.tone-no {
+  font-size: calc(1.4rem * var(--scale)); font-weight: 800; color: var(--navy); line-height: 1;
+  display: flex; flex-direction: column; align-items: center; gap: 0.2rem;
+}
+.tone-name {
+  font-size: 0.6rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted);
+}
+.tone-syl { font-size: calc(1.5rem * var(--scale)); color: var(--red); line-height: 1; }
+.tone-hz  { font-family: 'LXGW WenKai', 'PingFang SC', serif; font-size: calc(2rem * var(--scale)); color: var(--ink); line-height: 1; }
+.tone-gloss { font-size: 0.82rem; color: var(--muted); }
+
+/* Per-card contour, colour-matched to the tone */
+.contour { width: 100%; max-width: 84px; height: auto; }
+.contour .grid line { stroke: var(--border); stroke-width: 1; }
+.contour polyline, .contour circle { fill: none; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.contour circle { fill: currentColor; }
+.t1 .contour { color: var(--red); }
+.t2 .contour { color: var(--gold); }
+.t3 .contour { color: var(--green); }
+.t4 .contour { color: var(--navy); }
+.t0 .contour { color: var(--muted); }
+.contour polyline { stroke: currentColor; }
+.contour circle   { stroke: currentColor; }
+
+/* ── Combined contour chart (navy section) ───────── */
+.contour-all { width: 100%; max-width: 480px; height: auto; margin: 0.5rem 0 1.6rem; display: block; }
+.contour-all .grid line { stroke: rgba(255,255,255,0.14); stroke-width: 1; }
+.contour-all .lvl { fill: rgba(255,255,255,0.4); font-size: 11px; }
+.contour-all polyline { fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.contour-all .t1 { stroke: #E86A78; }
+.contour-all .t2 { stroke: var(--gold); }
+.contour-all .t3 { stroke: #5FB07A; }
+.contour-all .t4 { stroke: #7E93C8; }
+
+/* ── Cross-link (from yan-se house style) ────────── */
+.xlink {
+  display: flex; align-items: center; gap: 1rem;
+  background: var(--navy); color: white;
+  border-radius: 10px; padding: 1.1rem 1.4rem;
+  text-decoration: none; transition: background 0.18s; margin-top: 2rem;
+}
+.xlink:hover { background: var(--navy2); }
+.xl-label { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); font-weight: 600; display: block; margin-bottom: 0.2rem; }
+.xl-title { font-size: 1.1rem; font-weight: 700; }
+.xl-py    { font-size: 0.75rem; color: var(--gold); margin-top: 0.15rem; }
+.xl-desc  { font-size: 0.78rem; color: rgba(255,255,255,0.55); margin-top: 0.2rem; }
+.xl-arrow { margin-left: auto; font-size: 1.4rem; color: var(--gold); flex-shrink: 0; }
+
+@media (max-width: 620px) {
+  .tone-grid { grid-template-columns: repeat(2, 1fr); }
+}

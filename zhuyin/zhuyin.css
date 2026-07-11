@@ -1,0 +1,60 @@
+/* /zhuyin/ — Bopomofo chart + syllable bank. Rides on shared/base.css tokens. */
+
+.intro {
+  font-size: calc(0.95rem * var(--scale)); color: var(--muted);
+  line-height: 1.7; margin-bottom: 2rem; max-width: 62ch;
+}
+.intro em { color: var(--red); font-style: italic; }
+
+/* ── Bopomofo alphabet chart ─────────────────────── */
+.chart-group { margin-bottom: 1.6rem; }
+.chart-label {
+  font-size: 0.62rem; letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; margin-bottom: 0.7rem;
+}
+.chart-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.bpmf {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 3.1rem; padding: 0.55rem 0.4rem;
+  background: var(--cream); border: 1px solid var(--border); border-radius: 8px;
+}
+.bpmf-zh { font-size: calc(1.5rem * var(--scale)); line-height: 1; color: var(--navy); font-weight: 300; }
+.bpmf-py { font-size: 0.82rem; color: var(--red); margin-top: 0.3rem; letter-spacing: 0.02em; }
+
+/* ── Syllable bank ───────────────────────────────── */
+.bank-group {
+  display: grid; grid-template-columns: 2.2rem 1fr; align-items: start;
+  gap: 0.6rem; padding: 0.7rem 0; border-top: 1px solid var(--border);
+}
+.bank-group:first-child { border-top: none; }
+.bank-initial {
+  font-size: calc(1rem * var(--scale)); color: var(--gold); font-weight: 700;
+  text-align: right; padding-top: 0.35rem; font-variant: small-caps;
+}
+.bank-row { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+
+.syl {
+  display: grid; grid-template-rows: auto auto auto; justify-items: center;
+  gap: 0.12rem; min-width: 3.4rem; padding: 0.5rem 0.5rem 0.4rem;
+  background: var(--white); border: 1px solid var(--border); border-radius: 8px;
+  cursor: pointer; font-family: inherit; transition: all 0.15s;
+}
+.syl:hover { border-color: var(--navy); box-shadow: 0 3px 12px rgba(0,0,0,0.07); }
+.syl.playing { border-color: var(--red); background: var(--red); }
+.syl.playing .syl-zh, .syl.playing .syl-py, .syl.playing .syl-glyph { color: white; }
+
+.syl-zh    { font-size: calc(0.95rem * var(--scale)); color: var(--navy); line-height: 1; }
+.syl-py    { font-size: 0.8rem; color: var(--red); }
+.syl-glyph {
+  font-family: 'LXGW WenKai', 'PingFang SC', serif;
+  font-size: calc(1.05rem * var(--scale)); color: var(--ink); line-height: 1;
+  margin-top: 0.15rem; position: relative;
+}
+.syl-more {
+  font-size: 0.6rem; color: var(--muted); vertical-align: super;
+  margin-left: 0.1rem; letter-spacing: 0;
+}
+
+@media (max-width: 620px) {
+  .bank-group { grid-template-columns: 1.6rem 1fr; }
+}

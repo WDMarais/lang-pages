@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>声调 · The four tones</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="tones.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">语音 · Phonetics</div>
+  <div class="cover-title">声调</div>
+  <div class="cover-py">shēngdiào</div>
+  <div class="cover-sub">Same syllable, four melodies, four words</div>
+  <div class="cover-meta"><span class="en">The four tones + the neutral tone</span><span class="zh-alt">四声与轻声</span></div>
+</header>
+
+<!-- ── 1. Why tones ──────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Pitch is meaning</span><span class="zh-alt">音高即语义</span></div>
+    <h2>一个音节，四个字</h2>
+    <div class="sec-rule"></div>
+    <p class="intro">
+      In Mandarin the <em>pitch shape</em> of a syllable is part of the word, not expression.
+      The syllable <strong>ma</strong> is four different words depending on how the pitch moves —
+      and a fifth, toneless, when it's light and unstressed. Tap each to hear it.
+      <span class="zh-alt">在普通话里，音节的<strong>音高走向</strong>是词的一部分，而非语气。同一个 <strong>ma</strong> 因调不同而成四个不同的字——再加一个不带调的轻声，共五个。点击即可听。</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── 2. The tone cards ─────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="tone-grid">
+
+      <button class="tone-card vplay t1" data-src="../audio/cn/ma1.mp3">
+        <div class="tone-no">1<span class="tone-name"><span class="en">high level</span><span class="zh-alt">阴平</span></span></div>
+        <svg class="contour" viewBox="0 0 100 66" aria-hidden="true"><g class="grid"><line x1="8" y1="11" x2="92" y2="11"/><line x1="8" y1="55" x2="92" y2="55"/></g><polyline points="12,11 88,11"/></svg>
+        <div class="tone-syl">mā</div>
+        <div class="tone-hz">妈</div>
+        <div class="tone-gloss"><span class="en">mother</span><span class="zh-alt">妈妈</span></div>
+      </button>
+
+      <button class="tone-card vplay t2" data-src="../audio/cn/ma2.mp3">
+        <div class="tone-no">2<span class="tone-name"><span class="en">rising</span><span class="zh-alt">阳平</span></span></div>
+        <svg class="contour" viewBox="0 0 100 66" aria-hidden="true"><g class="grid"><line x1="8" y1="11" x2="92" y2="11"/><line x1="8" y1="55" x2="92" y2="55"/></g><polyline points="12,44 88,11"/></svg>
+        <div class="tone-syl">má</div>
+        <div class="tone-hz">麻</div>
+        <div class="tone-gloss"><span class="en">hemp</span><span class="zh-alt">麻</span></div>
+      </button>
+
+      <button class="tone-card vplay t3" data-src="../audio/cn/ma3.mp3">
+        <div class="tone-no">3<span class="tone-name"><span class="en">dipping</span><span class="zh-alt">上声</span></span></div>
+        <svg class="contour" viewBox="0 0 100 66" aria-hidden="true"><g class="grid"><line x1="8" y1="11" x2="92" y2="11"/><line x1="8" y1="55" x2="92" y2="55"/></g><polyline points="12,33 40,55 88,22"/></svg>
+        <div class="tone-syl">mǎ</div>
+        <div class="tone-hz">马</div>
+        <div class="tone-gloss"><span class="en">horse</span><span class="zh-alt">马</span></div>
+      </button>
+
+      <button class="tone-card vplay t4" data-src="../audio/cn/ma4.mp3">
+        <div class="tone-no">4<span class="tone-name"><span class="en">falling</span><span class="zh-alt">去声</span></span></div>
+        <svg class="contour" viewBox="0 0 100 66" aria-hidden="true"><g class="grid"><line x1="8" y1="11" x2="92" y2="11"/><line x1="8" y1="55" x2="92" y2="55"/></g><polyline points="12,11 88,55"/></svg>
+        <div class="tone-syl">mà</div>
+        <div class="tone-hz">骂</div>
+        <div class="tone-gloss"><span class="en">to scold</span><span class="zh-alt">骂</span></div>
+      </button>
+
+      <button class="tone-card vplay t0" data-src="../audio/cn/ma5.mp3">
+        <div class="tone-no">·<span class="tone-name"><span class="en">neutral</span><span class="zh-alt">轻声</span></span></div>
+        <svg class="contour" viewBox="0 0 100 66" aria-hidden="true"><g class="grid"><line x1="8" y1="11" x2="92" y2="11"/><line x1="8" y1="55" x2="92" y2="55"/></g><circle cx="50" cy="40" r="4"/></svg>
+        <div class="tone-syl">ma</div>
+        <div class="tone-hz">吗</div>
+        <div class="tone-gloss"><span class="en">? (question)</span><span class="zh-alt">吗（疑问）</span></div>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── 3. All four at once ───────────────────────── -->
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Together</span><span class="zh-alt">对照</span></div>
+    <h2>四声对照</h2>
+    <div class="sec-rule"></div>
+    <svg class="contour-all" viewBox="0 0 300 150" role="img" aria-label="The four tone contours on a five-level pitch scale">
+      <g class="grid">
+        <line x1="30" y1="20" x2="290" y2="20"/><line x1="30" y1="46" x2="290" y2="46"/>
+        <line x1="30" y1="72" x2="290" y2="72"/><line x1="30" y1="98" x2="290" y2="98"/>
+        <line x1="30" y1="124" x2="290" y2="124"/>
+      </g>
+      <text class="lvl" x="20" y="24">5</text><text class="lvl" x="20" y="128">1</text>
+      <polyline class="t1" points="40,20 90,20"/>
+      <polyline class="t2" points="115,72 165,20"/>
+      <polyline class="t3" points="190,46 215,124 240,33"/>
+      <polyline class="t4" points="255,20 290,124"/>
+    </svg>
+    <p class="intro" style="color:rgba(255,255,255,0.65)">
+      The pitch scale runs 1 (low) to 5 (high). Tone 1 holds high; tone 2 rises; tone 3 dips low then lifts;
+      tone 4 drops sharply. The neutral tone is short and light, its pitch borrowed from the syllable before it.
+      <span class="zh-alt">音高从 1（低）到 5（高）。一声保持高平，二声上扬，三声先降后升，四声急降。轻声短而轻，音高取决于前一个音节。</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── 4. Tone sandhi (parked, brief) ────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">A note</span><span class="zh-alt">注</span></div>
+    <h2>连读变调</h2>
+    <div class="sec-rule"></div>
+    <p class="intro">
+      Tones can shift in connected speech (tone sandhi): two 3rd tones in a row make the first rise
+      (nǐ hǎo → ní hǎo), and 不 / 一 change tone before certain syllables. These are effects
+      <em>above</em> the single syllable — the bank teaches each syllable in isolation; sequences come later.
+      <span class="zh-alt">在连读中声调会变（变调）：两个三声相连，前一个变二声（nǐ hǎo → ní hǎo）；不、一在某些音节前也变调。这些是音节<em>之上</em>的现象——音节库先教单音，连读留待后续。</span>
+    </p>
+    <a class="xlink" href="/zhuyin/">
+      <div>
+        <span class="xl-label"><span class="en">Next</span><span class="zh-alt">下一步</span></span>
+        <div class="xl-title">注音 · 拼音</div>
+        <div class="xl-py">zhùyīn · pīnyīn</div>
+        <div class="xl-desc"><span class="en">The full syllable bank — every sound our characters use</span><span class="zh-alt">完整音节库——所有汉字用到的声音</span></div>
+      </div>
+      <div class="xl-arrow">→</div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div>声调 · 四声与轻声 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+</body>
+</html>

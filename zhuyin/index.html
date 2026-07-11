@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>注音 · 拼音 · Syllable bank</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="zhuyin.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">语音 · Phonetics</div>
+  <div class="cover-title">注音 · 拼音</div>
+  <div class="cover-py">zhùyīn · pīnyīn</div>
+  <div class="cover-sub">The sound inventory — every syllable our characters use, once</div>
+  <div class="cover-meta"><span class="en">Bopomofo &amp; Pinyin · syllable bank</span><span class="zh-alt">注音符号与拼音 · 音节库</span></div>
+</header>
+
+<!-- ── 1. The Bopomofo alphabet ──────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The alphabet</span><span class="zh-alt">字母</span></div>
+    <h2>注音符号</h2>
+    <div class="sec-rule"></div>
+    <p class="intro">
+      Taiwan writes the sounds of Mandarin with 注音符号 (zhùyīn fúhào, “Bopomofo”) —
+      one symbol per initial, medial, and final. Each maps exactly onto a piece of pinyin.
+      <span class="zh-alt">台湾用注音符号拼写普通话的声音——声母、介母、韵母各有一个符号，与拼音一一对应。</span>
+    </p>
+    <div id="chart"></div>
+  </div>
+</section>
+
+<!-- ── 2. The syllable bank ──────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The bank</span><span class="zh-alt">音节库</span></div>
+    <h2>音节库</h2>
+    <div class="sec-rule"></div>
+    <p class="intro">
+      Every hanzi reads as exactly one toned syllable, so the sounds are <em>enumerable</em>:
+      the whole character set collapses to the syllables below. Tap any one to hear it —
+      one clip per sound, shared by every character that reads it.
+      <span class="zh-alt">每个汉字只读一个带调音节，声音是可枚举的：整套字收拢成下面这些音节。点击即可听——每个音一段录音，读该音的所有字共用。</span>
+    </p>
+    <div id="bank"></div>
+  </div>
+</section>
+
+<footer>
+  <div>注音 · 拼音 · 音节库 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="zhuyin.js"></script>
+</body>
+</html>

@@ -1,0 +1,2909 @@
+{
+  "chart": {
+    "声母 · initials": [
+      {
+        "zhuyin": "ㄅ",
+        "pinyin": "b"
+      },
+      {
+        "zhuyin": "ㄆ",
+        "pinyin": "p"
+      },
+      {
+        "zhuyin": "ㄇ",
+        "pinyin": "m"
+      },
+      {
+        "zhuyin": "ㄈ",
+        "pinyin": "f"
+      },
+      {
+        "zhuyin": "ㄉ",
+        "pinyin": "d"
+      },
+      {
+        "zhuyin": "ㄊ",
+        "pinyin": "t"
+      },
+      {
+        "zhuyin": "ㄋ",
+        "pinyin": "n"
+      },
+      {
+        "zhuyin": "ㄌ",
+        "pinyin": "l"
+      },
+      {
+        "zhuyin": "ㄍ",
+        "pinyin": "g"
+      },
+      {
+        "zhuyin": "ㄎ",
+        "pinyin": "k"
+      },
+      {
+        "zhuyin": "ㄏ",
+        "pinyin": "h"
+      },
+      {
+        "zhuyin": "ㄐ",
+        "pinyin": "j"
+      },
+      {
+        "zhuyin": "ㄑ",
+        "pinyin": "q"
+      },
+      {
+        "zhuyin": "ㄒ",
+        "pinyin": "x"
+      },
+      {
+        "zhuyin": "ㄓ",
+        "pinyin": "zh"
+      },
+      {
+        "zhuyin": "ㄔ",
+        "pinyin": "ch"
+      },
+      {
+        "zhuyin": "ㄕ",
+        "pinyin": "sh"
+      },
+      {
+        "zhuyin": "ㄖ",
+        "pinyin": "r"
+      },
+      {
+        "zhuyin": "ㄗ",
+        "pinyin": "z"
+      },
+      {
+        "zhuyin": "ㄘ",
+        "pinyin": "c"
+      },
+      {
+        "zhuyin": "ㄙ",
+        "pinyin": "s"
+      }
+    ],
+    "介母 · medials": [
+      {
+        "zhuyin": "ㄧ",
+        "pinyin": "i / y"
+      },
+      {
+        "zhuyin": "ㄨ",
+        "pinyin": "u / w"
+      },
+      {
+        "zhuyin": "ㄩ",
+        "pinyin": "ü / yu"
+      }
+    ],
+    "韵母 · finals": [
+      {
+        "zhuyin": "ㄚ",
+        "pinyin": "a"
+      },
+      {
+        "zhuyin": "ㄛ",
+        "pinyin": "o"
+      },
+      {
+        "zhuyin": "ㄜ",
+        "pinyin": "e"
+      },
+      {
+        "zhuyin": "ㄝ",
+        "pinyin": "ê"
+      },
+      {
+        "zhuyin": "ㄞ",
+        "pinyin": "ai"
+      },
+      {
+        "zhuyin": "ㄟ",
+        "pinyin": "ei"
+      },
+      {
+        "zhuyin": "ㄠ",
+        "pinyin": "ao"
+      },
+      {
+        "zhuyin": "ㄡ",
+        "pinyin": "ou"
+      },
+      {
+        "zhuyin": "ㄢ",
+        "pinyin": "an"
+      },
+      {
+        "zhuyin": "ㄣ",
+        "pinyin": "en"
+      },
+      {
+        "zhuyin": "ㄤ",
+        "pinyin": "ang"
+      },
+      {
+        "zhuyin": "ㄥ",
+        "pinyin": "eng"
+      },
+      {
+        "zhuyin": "ㄦ",
+        "pinyin": "er"
+      }
+    ]
+  },
+  "syllables": {
+    "ba1": {
+      "key": "ba1",
+      "pinyin": "bā",
+      "base": "ba",
+      "tone": 1,
+      "zhuyin": "ㄅㄚ",
+      "glyphs": [
+        {
+          "glyph": "八",
+          "gloss": "eight"
+        }
+      ]
+    },
+    "bai2": {
+      "key": "bai2",
+      "pinyin": "bái",
+      "base": "bai",
+      "tone": 2,
+      "zhuyin": "ㄅㄞ",
+      "glyphs": [
+        {
+          "glyph": "白",
+          "gloss": "white"
+        }
+      ]
+    },
+    "bao1": {
+      "key": "bao1",
+      "pinyin": "bāo",
+      "base": "bao",
+      "tone": 1,
+      "zhuyin": "ㄅㄠ",
+      "glyphs": [
+        {
+          "glyph": "勹",
+          "gloss": "wrap (enclosing component)"
+        }
+      ]
+    },
+    "bei4": {
+      "key": "bei4",
+      "pinyin": "bèi",
+      "base": "bei",
+      "tone": 4,
+      "zhuyin": "ㄅㄟ",
+      "glyphs": [
+        {
+          "glyph": "貝",
+          "gloss": "shell"
+        }
+      ]
+    },
+    "ben3": {
+      "key": "ben3",
+      "pinyin": "běn",
+      "base": "ben",
+      "tone": 3,
+      "zhuyin": "ㄅㄣ",
+      "glyphs": [
+        {
+          "glyph": "本",
+          "gloss": "root; origin"
+        }
+      ]
+    },
+    "bi2": {
+      "key": "bi2",
+      "pinyin": "bí",
+      "base": "bi",
+      "tone": 2,
+      "zhuyin": "ㄅㄧ",
+      "glyphs": [
+        {
+          "glyph": "鼻",
+          "gloss": "nose"
+        }
+      ]
+    },
+    "bi3": {
+      "key": "bi3",
+      "pinyin": "bǐ",
+      "base": "bi",
+      "tone": 3,
+      "zhuyin": "ㄅㄧ",
+      "glyphs": [
+        {
+          "glyph": "匕",
+          "gloss": "spoon"
+        },
+        {
+          "glyph": "比",
+          "gloss": "compare"
+        }
+      ]
+    },
+    "bian4": {
+      "key": "bian4",
+      "pinyin": "biàn",
+      "base": "bian",
+      "tone": 4,
+      "zhuyin": "ㄅㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "釆",
+          "gloss": "distinguish"
+        }
+      ]
+    },
+    "biao1": {
+      "key": "biao1",
+      "pinyin": "biāo",
+      "base": "biao",
+      "tone": 1,
+      "zhuyin": "ㄅㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "髟",
+          "gloss": "long hair"
+        }
+      ]
+    },
+    "bing1": {
+      "key": "bing1",
+      "pinyin": "bīng",
+      "base": "bing",
+      "tone": 1,
+      "zhuyin": "ㄅㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "冫",
+          "gloss": "ice"
+        }
+      ]
+    },
+    "bo1": {
+      "key": "bo1",
+      "pinyin": "bō",
+      "base": "bo",
+      "tone": 1,
+      "zhuyin": "ㄅㄛ",
+      "glyphs": [
+        {
+          "glyph": "癶",
+          "gloss": "footsteps"
+        }
+      ]
+    },
+    "bu3": {
+      "key": "bu3",
+      "pinyin": "bǔ",
+      "base": "bu",
+      "tone": 3,
+      "zhuyin": "ㄅㄨ",
+      "glyphs": [
+        {
+          "glyph": "ト",
+          "gloss": "divination (卜)"
+        },
+        {
+          "glyph": "卜",
+          "gloss": "divination"
+        }
+      ]
+    },
+    "bu4": {
+      "key": "bu4",
+      "pinyin": "bù",
+      "base": "bu",
+      "tone": 4,
+      "zhuyin": "ㄅㄨ",
+      "glyphs": [
+        {
+          "glyph": "不",
+          "gloss": "not; no"
+        }
+      ]
+    },
+    "cai2": {
+      "key": "cai2",
+      "pinyin": "cái",
+      "base": "cai",
+      "tone": 2,
+      "zhuyin": "ㄘㄞ",
+      "glyphs": [
+        {
+          "glyph": "才",
+          "gloss": "talent; ability; just now"
+        }
+      ]
+    },
+    "cao3": {
+      "key": "cao3",
+      "pinyin": "cǎo",
+      "base": "cao",
+      "tone": 3,
+      "zhuyin": "ㄘㄠ",
+      "glyphs": [
+        {
+          "glyph": "艸",
+          "gloss": "grass"
+        }
+      ]
+    },
+    "chang2": {
+      "key": "chang2",
+      "pinyin": "cháng",
+      "base": "chang",
+      "tone": 2,
+      "zhuyin": "ㄔㄤ",
+      "glyphs": [
+        {
+          "glyph": "長",
+          "gloss": "long"
+        }
+      ]
+    },
+    "chang4": {
+      "key": "chang4",
+      "pinyin": "chàng",
+      "base": "chang",
+      "tone": 4,
+      "zhuyin": "ㄔㄤ",
+      "glyphs": [
+        {
+          "glyph": "鬯",
+          "gloss": "sacrificial wine"
+        }
+      ]
+    },
+    "che1": {
+      "key": "che1",
+      "pinyin": "chē",
+      "base": "che",
+      "tone": 1,
+      "zhuyin": "ㄔㄜ",
+      "glyphs": [
+        {
+          "glyph": "車",
+          "gloss": "cart"
+        }
+      ]
+    },
+    "che4": {
+      "key": "che4",
+      "pinyin": "chè",
+      "base": "che",
+      "tone": 4,
+      "zhuyin": "ㄔㄜ",
+      "glyphs": [
+        {
+          "glyph": "屮",
+          "gloss": "sprout"
+        }
+      ]
+    },
+    "chen2": {
+      "key": "chen2",
+      "pinyin": "chén",
+      "base": "chen",
+      "tone": 2,
+      "zhuyin": "ㄔㄣ",
+      "glyphs": [
+        {
+          "glyph": "臣",
+          "gloss": "minister"
+        },
+        {
+          "glyph": "辰",
+          "gloss": "morning"
+        }
+      ]
+    },
+    "chi3": {
+      "key": "chi3",
+      "pinyin": "chǐ",
+      "base": "chi",
+      "tone": 3,
+      "zhuyin": "ㄔ",
+      "glyphs": [
+        {
+          "glyph": "齒",
+          "gloss": "tooth"
+        }
+      ]
+    },
+    "chi4": {
+      "key": "chi4",
+      "pinyin": "chì",
+      "base": "chi",
+      "tone": 4,
+      "zhuyin": "ㄔ",
+      "glyphs": [
+        {
+          "glyph": "彳",
+          "gloss": "step"
+        },
+        {
+          "glyph": "赤",
+          "gloss": "red"
+        }
+      ]
+    },
+    "chong2": {
+      "key": "chong2",
+      "pinyin": "chóng",
+      "base": "chong",
+      "tone": 2,
+      "zhuyin": "ㄔㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "虫",
+          "gloss": "insect"
+        }
+      ]
+    },
+    "chuan1": {
+      "key": "chuan1",
+      "pinyin": "chuān",
+      "base": "chuan",
+      "tone": 1,
+      "zhuyin": "ㄔㄨㄢ",
+      "glyphs": [
+        {
+          "glyph": "川",
+          "gloss": "river"
+        }
+      ]
+    },
+    "chuan3": {
+      "key": "chuan3",
+      "pinyin": "chuǎn",
+      "base": "chuan",
+      "tone": 3,
+      "zhuyin": "ㄔㄨㄢ",
+      "glyphs": [
+        {
+          "glyph": "舛",
+          "gloss": "oppose"
+        }
+      ]
+    },
+    "chuo4": {
+      "key": "chuo4",
+      "pinyin": "chuò",
+      "base": "chuo",
+      "tone": 4,
+      "zhuyin": "ㄔㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "辵",
+          "gloss": "walk"
+        }
+      ]
+    },
+    "cun4": {
+      "key": "cun4",
+      "pinyin": "cùn",
+      "base": "cun",
+      "tone": 4,
+      "zhuyin": "ㄘㄨㄣ",
+      "glyphs": [
+        {
+          "glyph": "寸",
+          "gloss": "inch"
+        }
+      ]
+    },
+    "da4": {
+      "key": "da4",
+      "pinyin": "dà",
+      "base": "da",
+      "tone": 4,
+      "zhuyin": "ㄉㄚ",
+      "glyphs": [
+        {
+          "glyph": "大",
+          "gloss": "big; huge; large"
+        }
+      ]
+    },
+    "dai3": {
+      "key": "dai3",
+      "pinyin": "dǎi",
+      "base": "dai",
+      "tone": 3,
+      "zhuyin": "ㄉㄞ",
+      "glyphs": [
+        {
+          "glyph": "歹",
+          "gloss": "death"
+        }
+      ]
+    },
+    "dao1": {
+      "key": "dao1",
+      "pinyin": "dāo",
+      "base": "dao",
+      "tone": 1,
+      "zhuyin": "ㄉㄠ",
+      "glyphs": [
+        {
+          "glyph": "刀",
+          "gloss": "knife; blade"
+        }
+      ]
+    },
+    "dian3": {
+      "key": "dian3",
+      "pinyin": "diǎn",
+      "base": "dian",
+      "tone": 3,
+      "zhuyin": "ㄉㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "丶",
+          "gloss": "dot stroke"
+        }
+      ]
+    },
+    "ding1": {
+      "key": "ding1",
+      "pinyin": "dīng",
+      "base": "ding",
+      "tone": 1,
+      "zhuyin": "ㄉㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "丁",
+          "gloss": "4th; nail; adult male"
+        }
+      ]
+    },
+    "ding3": {
+      "key": "ding3",
+      "pinyin": "dǐng",
+      "base": "ding",
+      "tone": 3,
+      "zhuyin": "ㄉㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "鼎",
+          "gloss": "tripod"
+        }
+      ]
+    },
+    "dou3": {
+      "key": "dou3",
+      "pinyin": "dǒu",
+      "base": "dou",
+      "tone": 3,
+      "zhuyin": "ㄉㄡ",
+      "glyphs": [
+        {
+          "glyph": "斗",
+          "gloss": "dipper"
+        }
+      ]
+    },
+    "dou4": {
+      "key": "dou4",
+      "pinyin": "dòu",
+      "base": "dou",
+      "tone": 4,
+      "zhuyin": "ㄉㄡ",
+      "glyphs": [
+        {
+          "glyph": "豆",
+          "gloss": "bean"
+        },
+        {
+          "glyph": "鬥",
+          "gloss": "fight"
+        }
+      ]
+    },
+    "er2": {
+      "key": "er2",
+      "pinyin": "ér",
+      "base": "er",
+      "tone": 2,
+      "zhuyin": "ㄦ",
+      "glyphs": [
+        {
+          "glyph": "儿",
+          "gloss": "legs (walking-person radical)"
+        },
+        {
+          "glyph": "而",
+          "gloss": "and"
+        }
+      ]
+    },
+    "er3": {
+      "key": "er3",
+      "pinyin": "ěr",
+      "base": "er",
+      "tone": 3,
+      "zhuyin": "ㄦ",
+      "glyphs": [
+        {
+          "glyph": "耳",
+          "gloss": "ear"
+        }
+      ]
+    },
+    "er4": {
+      "key": "er4",
+      "pinyin": "èr",
+      "base": "er",
+      "tone": 4,
+      "zhuyin": "ㄦ",
+      "glyphs": [
+        {
+          "glyph": "二",
+          "gloss": "two"
+        }
+      ]
+    },
+    "fang1": {
+      "key": "fang1",
+      "pinyin": "fāng",
+      "base": "fang",
+      "tone": 1,
+      "zhuyin": "ㄈㄤ",
+      "glyphs": [
+        {
+          "glyph": "匚",
+          "gloss": "box"
+        },
+        {
+          "glyph": "方",
+          "gloss": "square"
+        }
+      ]
+    },
+    "fei1": {
+      "key": "fei1",
+      "pinyin": "fēi",
+      "base": "fei",
+      "tone": 1,
+      "zhuyin": "ㄈㄟ",
+      "glyphs": [
+        {
+          "glyph": "非",
+          "gloss": "wrong"
+        },
+        {
+          "glyph": "飛",
+          "gloss": "fly"
+        }
+      ]
+    },
+    "feng1": {
+      "key": "feng1",
+      "pinyin": "fēng",
+      "base": "feng",
+      "tone": 1,
+      "zhuyin": "ㄈㄥ",
+      "glyphs": [
+        {
+          "glyph": "風",
+          "gloss": "wind"
+        }
+      ]
+    },
+    "fou3": {
+      "key": "fou3",
+      "pinyin": "fǒu",
+      "base": "fou",
+      "tone": 3,
+      "zhuyin": "ㄈㄡ",
+      "glyphs": [
+        {
+          "glyph": "缶",
+          "gloss": "jar"
+        }
+      ]
+    },
+    "fu4": {
+      "key": "fu4",
+      "pinyin": "fù",
+      "base": "fu",
+      "tone": 4,
+      "zhuyin": "ㄈㄨ",
+      "glyphs": [
+        {
+          "glyph": "父",
+          "gloss": "father"
+        },
+        {
+          "glyph": "阜",
+          "gloss": "mound"
+        }
+      ]
+    },
+    "gan1": {
+      "key": "gan1",
+      "pinyin": "gān",
+      "base": "gan",
+      "tone": 1,
+      "zhuyin": "ㄍㄢ",
+      "glyphs": [
+        {
+          "glyph": "干",
+          "gloss": "dry"
+        },
+        {
+          "glyph": "甘",
+          "gloss": "sweet"
+        }
+      ]
+    },
+    "gao1": {
+      "key": "gao1",
+      "pinyin": "gāo",
+      "base": "gao",
+      "tone": 1,
+      "zhuyin": "ㄍㄠ",
+      "glyphs": [
+        {
+          "glyph": "高",
+          "gloss": "tall"
+        }
+      ]
+    },
+    "ge1": {
+      "key": "ge1",
+      "pinyin": "gē",
+      "base": "ge",
+      "tone": 1,
+      "zhuyin": "ㄍㄜ",
+      "glyphs": [
+        {
+          "glyph": "戈",
+          "gloss": "halberd"
+        }
+      ]
+    },
+    "ge2": {
+      "key": "ge2",
+      "pinyin": "gé",
+      "base": "ge",
+      "tone": 2,
+      "zhuyin": "ㄍㄜ",
+      "glyphs": [
+        {
+          "glyph": "革",
+          "gloss": "leather"
+        }
+      ]
+    },
+    "gen4": {
+      "key": "gen4",
+      "pinyin": "gèn",
+      "base": "gen",
+      "tone": 4,
+      "zhuyin": "ㄍㄣ",
+      "glyphs": [
+        {
+          "glyph": "艮",
+          "gloss": "stopping"
+        }
+      ]
+    },
+    "gong1": {
+      "key": "gong1",
+      "pinyin": "gōng",
+      "base": "gong",
+      "tone": 1,
+      "zhuyin": "ㄍㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "工",
+          "gloss": "work; labour"
+        },
+        {
+          "glyph": "弓",
+          "gloss": "bow"
+        }
+      ]
+    },
+    "gong3": {
+      "key": "gong3",
+      "pinyin": "gǒng",
+      "base": "gong",
+      "tone": 3,
+      "zhuyin": "ㄍㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "廾",
+          "gloss": "two hands"
+        }
+      ]
+    },
+    "gu3": {
+      "key": "gu3",
+      "pinyin": "gǔ",
+      "base": "gu",
+      "tone": 3,
+      "zhuyin": "ㄍㄨ",
+      "glyphs": [
+        {
+          "glyph": "谷",
+          "gloss": "valley"
+        },
+        {
+          "glyph": "骨",
+          "gloss": "bone"
+        },
+        {
+          "glyph": "鼓",
+          "gloss": "drum"
+        }
+      ]
+    },
+    "gua1": {
+      "key": "gua1",
+      "pinyin": "guā",
+      "base": "gua",
+      "tone": 1,
+      "zhuyin": "ㄍㄨㄚ",
+      "glyphs": [
+        {
+          "glyph": "瓜",
+          "gloss": "melon"
+        }
+      ]
+    },
+    "guang3": {
+      "key": "guang3",
+      "pinyin": "guǎng",
+      "base": "guang",
+      "tone": 3,
+      "zhuyin": "ㄍㄨㄤ",
+      "glyphs": [
+        {
+          "glyph": "广",
+          "gloss": "shelter"
+        }
+      ]
+    },
+    "gui1": {
+      "key": "gui1",
+      "pinyin": "guī",
+      "base": "gui",
+      "tone": 1,
+      "zhuyin": "ㄍㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "龜",
+          "gloss": "turtle"
+        }
+      ]
+    },
+    "gui3": {
+      "key": "gui3",
+      "pinyin": "guǐ",
+      "base": "gui",
+      "tone": 3,
+      "zhuyin": "ㄍㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "鬼",
+          "gloss": "ghost"
+        }
+      ]
+    },
+    "han4": {
+      "key": "han4",
+      "pinyin": "hàn",
+      "base": "han",
+      "tone": 4,
+      "zhuyin": "ㄏㄢ",
+      "glyphs": [
+        {
+          "glyph": "厂",
+          "gloss": "cliff"
+        }
+      ]
+    },
+    "he2": {
+      "key": "he2",
+      "pinyin": "hé",
+      "base": "he",
+      "tone": 2,
+      "zhuyin": "ㄏㄜ",
+      "glyphs": [
+        {
+          "glyph": "禾",
+          "gloss": "grain"
+        }
+      ]
+    },
+    "hei1": {
+      "key": "hei1",
+      "pinyin": "hēi",
+      "base": "hei",
+      "tone": 1,
+      "zhuyin": "ㄏㄟ",
+      "glyphs": [
+        {
+          "glyph": "黑",
+          "gloss": "black"
+        }
+      ]
+    },
+    "heng2": {
+      "key": "heng2",
+      "pinyin": "héng",
+      "base": "heng",
+      "tone": 2,
+      "zhuyin": "ㄏㄥ",
+      "glyphs": [
+        {
+          "glyph": "㇐",
+          "gloss": "horizontal stroke"
+        }
+      ]
+    },
+    "hu1": {
+      "key": "hu1",
+      "pinyin": "hū",
+      "base": "hu",
+      "tone": 1,
+      "zhuyin": "ㄏㄨ",
+      "glyphs": [
+        {
+          "glyph": "虍",
+          "gloss": "tiger"
+        }
+      ]
+    },
+    "hu4": {
+      "key": "hu4",
+      "pinyin": "hù",
+      "base": "hu",
+      "tone": 4,
+      "zhuyin": "ㄏㄨ",
+      "glyphs": [
+        {
+          "glyph": "戶",
+          "gloss": "door"
+        }
+      ]
+    },
+    "huang2": {
+      "key": "huang2",
+      "pinyin": "huáng",
+      "base": "huang",
+      "tone": 2,
+      "zhuyin": "ㄏㄨㄤ",
+      "glyphs": [
+        {
+          "glyph": "黃",
+          "gloss": "yellow"
+        }
+      ]
+    },
+    "huo3": {
+      "key": "huo3",
+      "pinyin": "huǒ",
+      "base": "huo",
+      "tone": 3,
+      "zhuyin": "ㄏㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "火",
+          "gloss": "fire"
+        }
+      ]
+    },
+    "ji1": {
+      "key": "ji1",
+      "pinyin": "jī",
+      "base": "ji",
+      "tone": 1,
+      "zhuyin": "ㄐㄧ",
+      "glyphs": [
+        {
+          "glyph": "几",
+          "gloss": "table"
+        }
+      ]
+    },
+    "ji3": {
+      "key": "ji3",
+      "pinyin": "jǐ",
+      "base": "ji",
+      "tone": 3,
+      "zhuyin": "ㄐㄧ",
+      "glyphs": [
+        {
+          "glyph": "己",
+          "gloss": "oneself"
+        }
+      ]
+    },
+    "ji4": {
+      "key": "ji4",
+      "pinyin": "jì",
+      "base": "ji",
+      "tone": 4,
+      "zhuyin": "ㄐㄧ",
+      "glyphs": [
+        {
+          "glyph": "彐",
+          "gloss": "snout"
+        }
+      ]
+    },
+    "jian4": {
+      "key": "jian4",
+      "pinyin": "jiàn",
+      "base": "jian",
+      "tone": 4,
+      "zhuyin": "ㄐㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "見",
+          "gloss": "see"
+        }
+      ]
+    },
+    "jiao3": {
+      "key": "jiao3",
+      "pinyin": "jiǎo",
+      "base": "jiao",
+      "tone": 3,
+      "zhuyin": "ㄐㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "角",
+          "gloss": "horn"
+        }
+      ]
+    },
+    "jie2": {
+      "key": "jie2",
+      "pinyin": "jié",
+      "base": "jie",
+      "tone": 2,
+      "zhuyin": "ㄐㄧㄝ",
+      "glyphs": [
+        {
+          "glyph": "卩",
+          "gloss": "seal"
+        }
+      ]
+    },
+    "jin1": {
+      "key": "jin1",
+      "pinyin": "jīn",
+      "base": "jin",
+      "tone": 1,
+      "zhuyin": "ㄐㄧㄣ",
+      "glyphs": [
+        {
+          "glyph": "巾",
+          "gloss": "cloth"
+        },
+        {
+          "glyph": "斤",
+          "gloss": "axe"
+        },
+        {
+          "glyph": "金",
+          "gloss": "gold"
+        }
+      ]
+    },
+    "jiong1": {
+      "key": "jiong1",
+      "pinyin": "jiōng",
+      "base": "jiong",
+      "tone": 1,
+      "zhuyin": "ㄐㄩㄥ",
+      "glyphs": [
+        {
+          "glyph": "冂",
+          "gloss": "down-box (enclosure radical)"
+        }
+      ]
+    },
+    "jiu3": {
+      "key": "jiu3",
+      "pinyin": "jiǔ",
+      "base": "jiu",
+      "tone": 3,
+      "zhuyin": "ㄐㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "九",
+          "gloss": "nine"
+        },
+        {
+          "glyph": "韭",
+          "gloss": "leek"
+        }
+      ]
+    },
+    "jiu4": {
+      "key": "jiu4",
+      "pinyin": "jiù",
+      "base": "jiu",
+      "tone": 4,
+      "zhuyin": "ㄐㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "臼",
+          "gloss": "mortar"
+        }
+      ]
+    },
+    "kan3": {
+      "key": "kan3",
+      "pinyin": "kǎn",
+      "base": "kan",
+      "tone": 3,
+      "zhuyin": "ㄎㄢ",
+      "glyphs": [
+        {
+          "glyph": "凵",
+          "gloss": "open box"
+        }
+      ]
+    },
+    "kou3": {
+      "key": "kou3",
+      "pinyin": "kǒu",
+      "base": "kou",
+      "tone": 3,
+      "zhuyin": "ㄎㄡ",
+      "glyphs": [
+        {
+          "glyph": "口",
+          "gloss": "mouth"
+        }
+      ]
+    },
+    "lao3": {
+      "key": "lao3",
+      "pinyin": "lǎo",
+      "base": "lao",
+      "tone": 3,
+      "zhuyin": "ㄌㄠ",
+      "glyphs": [
+        {
+          "glyph": "老",
+          "gloss": "old"
+        }
+      ]
+    },
+    "lei3": {
+      "key": "lei3",
+      "pinyin": "lěi",
+      "base": "lei",
+      "tone": 3,
+      "zhuyin": "ㄌㄟ",
+      "glyphs": [
+        {
+          "glyph": "耒",
+          "gloss": "plow"
+        }
+      ]
+    },
+    "li3": {
+      "key": "li3",
+      "pinyin": "lǐ",
+      "base": "li",
+      "tone": 3,
+      "zhuyin": "ㄌㄧ",
+      "glyphs": [
+        {
+          "glyph": "里",
+          "gloss": "village"
+        }
+      ]
+    },
+    "li4": {
+      "key": "li4",
+      "pinyin": "lì",
+      "base": "li",
+      "tone": 4,
+      "zhuyin": "ㄌㄧ",
+      "glyphs": [
+        {
+          "glyph": "力",
+          "gloss": "power; strength"
+        },
+        {
+          "glyph": "立",
+          "gloss": "stand"
+        },
+        {
+          "glyph": "隶",
+          "gloss": "slave"
+        },
+        {
+          "glyph": "鬲",
+          "gloss": "cauldron"
+        }
+      ]
+    },
+    "liu4": {
+      "key": "liu4",
+      "pinyin": "liù",
+      "base": "liu",
+      "tone": 4,
+      "zhuyin": "ㄌㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "六",
+          "gloss": "six"
+        }
+      ]
+    },
+    "long2": {
+      "key": "long2",
+      "pinyin": "lóng",
+      "base": "long",
+      "tone": 2,
+      "zhuyin": "ㄌㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "龍",
+          "gloss": "dragon"
+        }
+      ]
+    },
+    "lu3": {
+      "key": "lu3",
+      "pinyin": "lǔ",
+      "base": "lu",
+      "tone": 3,
+      "zhuyin": "ㄌㄨ",
+      "glyphs": [
+        {
+          "glyph": "鹵",
+          "gloss": "salt"
+        }
+      ]
+    },
+    "lu4": {
+      "key": "lu4",
+      "pinyin": "lù",
+      "base": "lu",
+      "tone": 4,
+      "zhuyin": "ㄌㄨ",
+      "glyphs": [
+        {
+          "glyph": "鹿",
+          "gloss": "deer"
+        }
+      ]
+    },
+    "ma2": {
+      "key": "ma2",
+      "pinyin": "má",
+      "base": "ma",
+      "tone": 2,
+      "zhuyin": "ㄇㄚ",
+      "glyphs": [
+        {
+          "glyph": "麻",
+          "gloss": "hemp"
+        }
+      ]
+    },
+    "ma3": {
+      "key": "ma3",
+      "pinyin": "mǎ",
+      "base": "ma",
+      "tone": 3,
+      "zhuyin": "ㄇㄚ",
+      "glyphs": [
+        {
+          "glyph": "馬",
+          "gloss": "horse"
+        }
+      ]
+    },
+    "mai4": {
+      "key": "mai4",
+      "pinyin": "mài",
+      "base": "mai",
+      "tone": 4,
+      "zhuyin": "ㄇㄞ",
+      "glyphs": [
+        {
+          "glyph": "麥",
+          "gloss": "wheat"
+        }
+      ]
+    },
+    "mao2": {
+      "key": "mao2",
+      "pinyin": "máo",
+      "base": "mao",
+      "tone": 2,
+      "zhuyin": "ㄇㄠ",
+      "glyphs": [
+        {
+          "glyph": "毛",
+          "gloss": "fur"
+        },
+        {
+          "glyph": "矛",
+          "gloss": "spear"
+        }
+      ]
+    },
+    "men2": {
+      "key": "men2",
+      "pinyin": "mén",
+      "base": "men",
+      "tone": 2,
+      "zhuyin": "ㄇㄣ",
+      "glyphs": [
+        {
+          "glyph": "門",
+          "gloss": "gate"
+        }
+      ]
+    },
+    "mi3": {
+      "key": "mi3",
+      "pinyin": "mǐ",
+      "base": "mi",
+      "tone": 3,
+      "zhuyin": "ㄇㄧ",
+      "glyphs": [
+        {
+          "glyph": "米",
+          "gloss": "rice"
+        }
+      ]
+    },
+    "mi4": {
+      "key": "mi4",
+      "pinyin": "mì",
+      "base": "mi",
+      "tone": 4,
+      "zhuyin": "ㄇㄧ",
+      "glyphs": [
+        {
+          "glyph": "糸",
+          "gloss": "silk; thread"
+        },
+        {
+          "glyph": "冖",
+          "gloss": "cover"
+        }
+      ]
+    },
+    "mian2": {
+      "key": "mian2",
+      "pinyin": "mián",
+      "base": "mian",
+      "tone": 2,
+      "zhuyin": "ㄇㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "宀",
+          "gloss": "roof (radical)"
+        }
+      ]
+    },
+    "mian4": {
+      "key": "mian4",
+      "pinyin": "miàn",
+      "base": "mian",
+      "tone": 4,
+      "zhuyin": "ㄇㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "面",
+          "gloss": "face"
+        }
+      ]
+    },
+    "min3": {
+      "key": "min3",
+      "pinyin": "mǐn",
+      "base": "min",
+      "tone": 3,
+      "zhuyin": "ㄇㄧㄣ",
+      "glyphs": [
+        {
+          "glyph": "皿",
+          "gloss": "dish"
+        },
+        {
+          "glyph": "黽",
+          "gloss": "frog"
+        }
+      ]
+    },
+    "mu4": {
+      "key": "mu4",
+      "pinyin": "mù",
+      "base": "mu",
+      "tone": 4,
+      "zhuyin": "ㄇㄨ",
+      "glyphs": [
+        {
+          "glyph": "木",
+          "gloss": "tree; wood"
+        },
+        {
+          "glyph": "目",
+          "gloss": "eye"
+        }
+      ]
+    },
+    "na4": {
+      "key": "na4",
+      "pinyin": "nà",
+      "base": "na",
+      "tone": 4,
+      "zhuyin": "ㄋㄚ",
+      "glyphs": [
+        {
+          "glyph": "㇏",
+          "gloss": "right-falling stroke"
+        }
+      ]
+    },
+    "ne4": {
+      "key": "ne4",
+      "pinyin": "nè",
+      "base": "ne",
+      "tone": 4,
+      "zhuyin": "ㄋㄜ",
+      "glyphs": [
+        {
+          "glyph": "疒",
+          "gloss": "sickness"
+        }
+      ]
+    },
+    "niao3": {
+      "key": "niao3",
+      "pinyin": "niǎo",
+      "base": "niao",
+      "tone": 3,
+      "zhuyin": "ㄋㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "鳥",
+          "gloss": "bird"
+        }
+      ]
+    },
+    "niu2": {
+      "key": "niu2",
+      "pinyin": "niú",
+      "base": "niu",
+      "tone": 2,
+      "zhuyin": "ㄋㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "牛",
+          "gloss": "cow"
+        }
+      ]
+    },
+    "nv3": {
+      "key": "nv3",
+      "pinyin": "nǚ",
+      "base": "nv",
+      "tone": 3,
+      "zhuyin": "ㄋㄩ",
+      "glyphs": [
+        {
+          "glyph": "女",
+          "gloss": "woman"
+        }
+      ]
+    },
+    "pi2": {
+      "key": "pi2",
+      "pinyin": "pí",
+      "base": "pi",
+      "tone": 2,
+      "zhuyin": "ㄆㄧ",
+      "glyphs": [
+        {
+          "glyph": "皮",
+          "gloss": "skin"
+        }
+      ]
+    },
+    "pi3": {
+      "key": "pi3",
+      "pinyin": "pǐ",
+      "base": "pi",
+      "tone": 3,
+      "zhuyin": "ㄆㄧ",
+      "glyphs": [
+        {
+          "glyph": "疋",
+          "gloss": "bolt of cloth"
+        }
+      ]
+    },
+    "pian4": {
+      "key": "pian4",
+      "pinyin": "piàn",
+      "base": "pian",
+      "tone": 4,
+      "zhuyin": "ㄆㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "片",
+          "gloss": "slice"
+        }
+      ]
+    },
+    "pie3": {
+      "key": "pie3",
+      "pinyin": "piě",
+      "base": "pie",
+      "tone": 3,
+      "zhuyin": "ㄆㄧㄝ",
+      "glyphs": [
+        {
+          "glyph": "丿",
+          "gloss": "left-falling stroke"
+        }
+      ]
+    },
+    "pu1": {
+      "key": "pu1",
+      "pinyin": "pū",
+      "base": "pu",
+      "tone": 1,
+      "zhuyin": "ㄆㄨ",
+      "glyphs": [
+        {
+          "glyph": "攴",
+          "gloss": "tap"
+        }
+      ]
+    },
+    "qi1": {
+      "key": "qi1",
+      "pinyin": "qī",
+      "base": "qi",
+      "tone": 1,
+      "zhuyin": "ㄑㄧ",
+      "glyphs": [
+        {
+          "glyph": "七",
+          "gloss": "seven"
+        }
+      ]
+    },
+    "qi2": {
+      "key": "qi2",
+      "pinyin": "qí",
+      "base": "qi",
+      "tone": 2,
+      "zhuyin": "ㄑㄧ",
+      "glyphs": [
+        {
+          "glyph": "齊",
+          "gloss": "even"
+        }
+      ]
+    },
+    "qi4": {
+      "key": "qi4",
+      "pinyin": "qì",
+      "base": "qi",
+      "tone": 4,
+      "zhuyin": "ㄑㄧ",
+      "glyphs": [
+        {
+          "glyph": "气",
+          "gloss": "steam"
+        }
+      ]
+    },
+    "qian1": {
+      "key": "qian1",
+      "pinyin": "qiān",
+      "base": "qian",
+      "tone": 1,
+      "zhuyin": "ㄑㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "千",
+          "gloss": "thousand"
+        }
+      ]
+    },
+    "qian4": {
+      "key": "qian4",
+      "pinyin": "qiàn",
+      "base": "qian",
+      "tone": 4,
+      "zhuyin": "ㄑㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "欠",
+          "gloss": "yawn"
+        }
+      ]
+    },
+    "qiang2": {
+      "key": "qiang2",
+      "pinyin": "qiáng",
+      "base": "qiang",
+      "tone": 2,
+      "zhuyin": "ㄑㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "爿",
+          "gloss": "split wood"
+        }
+      ]
+    },
+    "qing1": {
+      "key": "qing1",
+      "pinyin": "qīng",
+      "base": "qing",
+      "tone": 1,
+      "zhuyin": "ㄑㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "青",
+          "gloss": "blue-green"
+        }
+      ]
+    },
+    "quan2": {
+      "key": "quan2",
+      "pinyin": "quán",
+      "base": "quan",
+      "tone": 2,
+      "zhuyin": "ㄑㄩㄢ",
+      "glyphs": [
+        {
+          "glyph": "泉",
+          "gloss": "spring; fountain"
+        }
+      ]
+    },
+    "quan3": {
+      "key": "quan3",
+      "pinyin": "quǎn",
+      "base": "quan",
+      "tone": 3,
+      "zhuyin": "ㄑㄩㄢ",
+      "glyphs": [
+        {
+          "glyph": "犬",
+          "gloss": "dog"
+        }
+      ]
+    },
+    "ren2": {
+      "key": "ren2",
+      "pinyin": "rén",
+      "base": "ren",
+      "tone": 2,
+      "zhuyin": "ㄖㄣ",
+      "glyphs": [
+        {
+          "glyph": "人",
+          "gloss": "person"
+        }
+      ]
+    },
+    "ri4": {
+      "key": "ri4",
+      "pinyin": "rì",
+      "base": "ri",
+      "tone": 4,
+      "zhuyin": "ㄖ",
+      "glyphs": [
+        {
+          "glyph": "日",
+          "gloss": "sun; day"
+        }
+      ]
+    },
+    "rou2": {
+      "key": "rou2",
+      "pinyin": "róu",
+      "base": "rou",
+      "tone": 2,
+      "zhuyin": "ㄖㄡ",
+      "glyphs": [
+        {
+          "glyph": "禸",
+          "gloss": "track"
+        }
+      ]
+    },
+    "rou4": {
+      "key": "rou4",
+      "pinyin": "ròu",
+      "base": "rou",
+      "tone": 4,
+      "zhuyin": "ㄖㄡ",
+      "glyphs": [
+        {
+          "glyph": "肉",
+          "gloss": "meat"
+        }
+      ]
+    },
+    "ru4": {
+      "key": "ru4",
+      "pinyin": "rù",
+      "base": "ru",
+      "tone": 4,
+      "zhuyin": "ㄖㄨ",
+      "glyphs": [
+        {
+          "glyph": "入",
+          "gloss": "to enter"
+        }
+      ]
+    },
+    "san1": {
+      "key": "san1",
+      "pinyin": "sān",
+      "base": "san",
+      "tone": 1,
+      "zhuyin": "ㄙㄢ",
+      "glyphs": [
+        {
+          "glyph": "三",
+          "gloss": "three"
+        }
+      ]
+    },
+    "se4": {
+      "key": "se4",
+      "pinyin": "sè",
+      "base": "se",
+      "tone": 4,
+      "zhuyin": "ㄙㄜ",
+      "glyphs": [
+        {
+          "glyph": "色",
+          "gloss": "color"
+        }
+      ]
+    },
+    "shan1": {
+      "key": "shan1",
+      "pinyin": "shān",
+      "base": "shan",
+      "tone": 1,
+      "zhuyin": "ㄕㄢ",
+      "glyphs": [
+        {
+          "glyph": "山",
+          "gloss": "mountain"
+        },
+        {
+          "glyph": "彡",
+          "gloss": "bristle"
+        }
+      ]
+    },
+    "shang4": {
+      "key": "shang4",
+      "pinyin": "shàng",
+      "base": "shang",
+      "tone": 4,
+      "zhuyin": "ㄕㄤ",
+      "glyphs": [
+        {
+          "glyph": "上",
+          "gloss": "above; up; on top"
+        }
+      ]
+    },
+    "she2": {
+      "key": "she2",
+      "pinyin": "shé",
+      "base": "she",
+      "tone": 2,
+      "zhuyin": "ㄕㄜ",
+      "glyphs": [
+        {
+          "glyph": "舌",
+          "gloss": "tongue"
+        }
+      ]
+    },
+    "shen1": {
+      "key": "shen1",
+      "pinyin": "shēn",
+      "base": "shen",
+      "tone": 1,
+      "zhuyin": "ㄕㄣ",
+      "glyphs": [
+        {
+          "glyph": "身",
+          "gloss": "body"
+        }
+      ]
+    },
+    "sheng1": {
+      "key": "sheng1",
+      "pinyin": "shēng",
+      "base": "sheng",
+      "tone": 1,
+      "zhuyin": "ㄕㄥ",
+      "glyphs": [
+        {
+          "glyph": "生",
+          "gloss": "life"
+        }
+      ]
+    },
+    "shi1": {
+      "key": "shi1",
+      "pinyin": "shī",
+      "base": "shi",
+      "tone": 1,
+      "zhuyin": "ㄕ",
+      "glyphs": [
+        {
+          "glyph": "尸",
+          "gloss": "corpse (尸 radical)"
+        }
+      ]
+    },
+    "shi2": {
+      "key": "shi2",
+      "pinyin": "shí",
+      "base": "shi",
+      "tone": 2,
+      "zhuyin": "ㄕ",
+      "glyphs": [
+        {
+          "glyph": "十",
+          "gloss": "ten"
+        },
+        {
+          "glyph": "石",
+          "gloss": "stone"
+        },
+        {
+          "glyph": "食",
+          "gloss": "eat"
+        }
+      ]
+    },
+    "shi3": {
+      "key": "shi3",
+      "pinyin": "shǐ",
+      "base": "shi",
+      "tone": 3,
+      "zhuyin": "ㄕ",
+      "glyphs": [
+        {
+          "glyph": "矢",
+          "gloss": "arrow"
+        },
+        {
+          "glyph": "豕",
+          "gloss": "pig"
+        }
+      ]
+    },
+    "shi4": {
+      "key": "shi4",
+      "pinyin": "shì",
+      "base": "shi",
+      "tone": 4,
+      "zhuyin": "ㄕ",
+      "glyphs": [
+        {
+          "glyph": "士",
+          "gloss": "scholar"
+        },
+        {
+          "glyph": "氏",
+          "gloss": "clan"
+        },
+        {
+          "glyph": "示",
+          "gloss": "altar"
+        }
+      ]
+    },
+    "shou3": {
+      "key": "shou3",
+      "pinyin": "shǒu",
+      "base": "shou",
+      "tone": 3,
+      "zhuyin": "ㄕㄡ",
+      "glyphs": [
+        {
+          "glyph": "手",
+          "gloss": "hand"
+        },
+        {
+          "glyph": "首",
+          "gloss": "head"
+        }
+      ]
+    },
+    "shu1": {
+      "key": "shu1",
+      "pinyin": "shū",
+      "base": "shu",
+      "tone": 1,
+      "zhuyin": "ㄕㄨ",
+      "glyphs": [
+        {
+          "glyph": "殳",
+          "gloss": "weapon"
+        }
+      ]
+    },
+    "shu3": {
+      "key": "shu3",
+      "pinyin": "shǔ",
+      "base": "shu",
+      "tone": 3,
+      "zhuyin": "ㄕㄨ",
+      "glyphs": [
+        {
+          "glyph": "黍",
+          "gloss": "millet"
+        },
+        {
+          "glyph": "鼠",
+          "gloss": "rat"
+        }
+      ]
+    },
+    "shu4": {
+      "key": "shu4",
+      "pinyin": "shù",
+      "base": "shu",
+      "tone": 4,
+      "zhuyin": "ㄕㄨ",
+      "glyphs": [
+        {
+          "glyph": "丨",
+          "gloss": "vertical stroke"
+        }
+      ]
+    },
+    "shui3": {
+      "key": "shui3",
+      "pinyin": "shuǐ",
+      "base": "shui",
+      "tone": 3,
+      "zhuyin": "ㄕㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "水",
+          "gloss": "water"
+        }
+      ]
+    },
+    "si1": {
+      "key": "si1",
+      "pinyin": "sī",
+      "base": "si",
+      "tone": 1,
+      "zhuyin": "ㄙ",
+      "glyphs": [
+        {
+          "glyph": "厶",
+          "gloss": "private"
+        }
+      ]
+    },
+    "sui1": {
+      "key": "sui1",
+      "pinyin": "suī",
+      "base": "sui",
+      "tone": 1,
+      "zhuyin": "ㄙㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "夊",
+          "gloss": "go slowly"
+        }
+      ]
+    },
+    "ti2": {
+      "key": "ti2",
+      "pinyin": "tí",
+      "base": "ti",
+      "tone": 2,
+      "zhuyin": "ㄊㄧ",
+      "glyphs": [
+        {
+          "glyph": "㇀",
+          "gloss": "rising stroke"
+        }
+      ]
+    },
+    "tian1": {
+      "key": "tian1",
+      "pinyin": "tiān",
+      "base": "tian",
+      "tone": 1,
+      "zhuyin": "ㄊㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "天",
+          "gloss": "sky; heaven; day"
+        }
+      ]
+    },
+    "tian2": {
+      "key": "tian2",
+      "pinyin": "tián",
+      "base": "tian",
+      "tone": 2,
+      "zhuyin": "ㄊㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "田",
+          "gloss": "field"
+        }
+      ]
+    },
+    "tou2": {
+      "key": "tou2",
+      "pinyin": "tóu",
+      "base": "tou",
+      "tone": 2,
+      "zhuyin": "ㄊㄡ",
+      "glyphs": [
+        {
+          "glyph": "亠",
+          "gloss": "lid (top component)"
+        }
+      ]
+    },
+    "tu3": {
+      "key": "tu3",
+      "pinyin": "tǔ",
+      "base": "tu",
+      "tone": 3,
+      "zhuyin": "ㄊㄨ",
+      "glyphs": [
+        {
+          "glyph": "土",
+          "gloss": "earth; soil"
+        }
+      ]
+    },
+    "wa3": {
+      "key": "wa3",
+      "pinyin": "wǎ",
+      "base": "wa",
+      "tone": 3,
+      "zhuyin": "ㄨㄚ",
+      "glyphs": [
+        {
+          "glyph": "瓦",
+          "gloss": "tile"
+        }
+      ]
+    },
+    "wan2": {
+      "key": "wan2",
+      "pinyin": "wán",
+      "base": "wan",
+      "tone": 2,
+      "zhuyin": "ㄨㄢ",
+      "glyphs": [
+        {
+          "glyph": "丸",
+          "gloss": "ball; pellet; pill"
+        }
+      ]
+    },
+    "wang1": {
+      "key": "wang1",
+      "pinyin": "wāng",
+      "base": "wang",
+      "tone": 1,
+      "zhuyin": "ㄨㄤ",
+      "glyphs": [
+        {
+          "glyph": "尢",
+          "gloss": "lame"
+        }
+      ]
+    },
+    "wang2": {
+      "key": "wang2",
+      "pinyin": "wáng",
+      "base": "wang",
+      "tone": 2,
+      "zhuyin": "ㄨㄤ",
+      "glyphs": [
+        {
+          "glyph": "王",
+          "gloss": "king"
+        }
+      ]
+    },
+    "wang3": {
+      "key": "wang3",
+      "pinyin": "wǎng",
+      "base": "wang",
+      "tone": 3,
+      "zhuyin": "ㄨㄤ",
+      "glyphs": [
+        {
+          "glyph": "网",
+          "gloss": "net"
+        }
+      ]
+    },
+    "wei2": {
+      "key": "wei2",
+      "pinyin": "wéi",
+      "base": "wei",
+      "tone": 2,
+      "zhuyin": "ㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "囗",
+          "gloss": "enclosure"
+        },
+        {
+          "glyph": "韋",
+          "gloss": "tanned leather"
+        }
+      ]
+    },
+    "wen2": {
+      "key": "wen2",
+      "pinyin": "wén",
+      "base": "wen",
+      "tone": 2,
+      "zhuyin": "ㄨㄣ",
+      "glyphs": [
+        {
+          "glyph": "文",
+          "gloss": "script"
+        }
+      ]
+    },
+    "wu2": {
+      "key": "wu2",
+      "pinyin": "wú",
+      "base": "wu",
+      "tone": 2,
+      "zhuyin": "ㄨ",
+      "glyphs": [
+        {
+          "glyph": "无",
+          "gloss": "not"
+        },
+        {
+          "glyph": "毋",
+          "gloss": "do not"
+        }
+      ]
+    },
+    "wu3": {
+      "key": "wu3",
+      "pinyin": "wǔ",
+      "base": "wu",
+      "tone": 3,
+      "zhuyin": "ㄨ",
+      "glyphs": [
+        {
+          "glyph": "五",
+          "gloss": "five"
+        }
+      ]
+    },
+    "xi1": {
+      "key": "xi1",
+      "pinyin": "xī",
+      "base": "xi",
+      "tone": 1,
+      "zhuyin": "ㄒㄧ",
+      "glyphs": [
+        {
+          "glyph": "夕",
+          "gloss": "evening; dusk"
+        }
+      ]
+    },
+    "xi4": {
+      "key": "xi4",
+      "pinyin": "xì",
+      "base": "xi",
+      "tone": 4,
+      "zhuyin": "ㄒㄧ",
+      "glyphs": [
+        {
+          "glyph": "匸",
+          "gloss": "hiding enclosure"
+        }
+      ]
+    },
+    "xia4": {
+      "key": "xia4",
+      "pinyin": "xià",
+      "base": "xia",
+      "tone": 4,
+      "zhuyin": "ㄒㄧㄚ",
+      "glyphs": [
+        {
+          "glyph": "下",
+          "gloss": "below; down; under"
+        }
+      ]
+    },
+    "xian1": {
+      "key": "xian1",
+      "pinyin": "xiān",
+      "base": "xian",
+      "tone": 1,
+      "zhuyin": "ㄒㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "先",
+          "gloss": "first; before; earlier"
+        }
+      ]
+    },
+    "xian4": {
+      "key": "xian4",
+      "pinyin": "xiàn",
+      "base": "xian",
+      "tone": 4,
+      "zhuyin": "ㄒㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "線",
+          "gloss": "line; thread; wire"
+        }
+      ]
+    },
+    "xiang1": {
+      "key": "xiang1",
+      "pinyin": "xiāng",
+      "base": "xiang",
+      "tone": 1,
+      "zhuyin": "ㄒㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "香",
+          "gloss": "fragrant"
+        }
+      ]
+    },
+    "xiang4": {
+      "key": "xiang4",
+      "pinyin": "xiàng",
+      "base": "xiang",
+      "tone": 4,
+      "zhuyin": "ㄒㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "向",
+          "gloss": "toward; facing; direction"
+        }
+      ]
+    },
+    "xiao3": {
+      "key": "xiao3",
+      "pinyin": "xiǎo",
+      "base": "xiao",
+      "tone": 3,
+      "zhuyin": "ㄒㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "小",
+          "gloss": "small; little"
+        }
+      ]
+    },
+    "xin1": {
+      "key": "xin1",
+      "pinyin": "xīn",
+      "base": "xin",
+      "tone": 1,
+      "zhuyin": "ㄒㄧㄣ",
+      "glyphs": [
+        {
+          "glyph": "心",
+          "gloss": "heart"
+        },
+        {
+          "glyph": "辛",
+          "gloss": "bitter"
+        }
+      ]
+    },
+    "xing2": {
+      "key": "xing2",
+      "pinyin": "xíng",
+      "base": "xing",
+      "tone": 2,
+      "zhuyin": "ㄒㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "行",
+          "gloss": "walk"
+        }
+      ]
+    },
+    "xuan2": {
+      "key": "xuan2",
+      "pinyin": "xuán",
+      "base": "xuan",
+      "tone": 2,
+      "zhuyin": "ㄒㄩㄢ",
+      "glyphs": [
+        {
+          "glyph": "玄",
+          "gloss": "profound"
+        }
+      ]
+    },
+    "xue2": {
+      "key": "xue2",
+      "pinyin": "xué",
+      "base": "xue",
+      "tone": 2,
+      "zhuyin": "ㄒㄩㄝ",
+      "glyphs": [
+        {
+          "glyph": "穴",
+          "gloss": "cave"
+        }
+      ]
+    },
+    "xue4": {
+      "key": "xue4",
+      "pinyin": "xuè",
+      "base": "xue",
+      "tone": 4,
+      "zhuyin": "ㄒㄩㄝ",
+      "glyphs": [
+        {
+          "glyph": "血",
+          "gloss": "blood"
+        }
+      ]
+    },
+    "ya2": {
+      "key": "ya2",
+      "pinyin": "yá",
+      "base": "ya",
+      "tone": 2,
+      "zhuyin": "ㄧㄚ",
+      "glyphs": [
+        {
+          "glyph": "牙",
+          "gloss": "fang"
+        }
+      ]
+    },
+    "ya4": {
+      "key": "ya4",
+      "pinyin": "yà",
+      "base": "ya",
+      "tone": 4,
+      "zhuyin": "ㄧㄚ",
+      "glyphs": [
+        {
+          "glyph": "襾",
+          "gloss": "cover"
+        }
+      ]
+    },
+    "yan2": {
+      "key": "yan2",
+      "pinyin": "yán",
+      "base": "yan",
+      "tone": 2,
+      "zhuyin": "ㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "言",
+          "gloss": "speech"
+        }
+      ]
+    },
+    "yang2": {
+      "key": "yang2",
+      "pinyin": "yáng",
+      "base": "yang",
+      "tone": 2,
+      "zhuyin": "ㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "羊",
+          "gloss": "sheep"
+        }
+      ]
+    },
+    "yao1": {
+      "key": "yao1",
+      "pinyin": "yāo",
+      "base": "yao",
+      "tone": 1,
+      "zhuyin": "ㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "幺",
+          "gloss": "short thread"
+        }
+      ]
+    },
+    "yao2": {
+      "key": "yao2",
+      "pinyin": "yáo",
+      "base": "yao",
+      "tone": 2,
+      "zhuyin": "ㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "爻",
+          "gloss": "trigram lines"
+        }
+      ]
+    },
+    "ye4": {
+      "key": "ye4",
+      "pinyin": "yè",
+      "base": "ye",
+      "tone": 4,
+      "zhuyin": "ㄧㄝ",
+      "glyphs": [
+        {
+          "glyph": "业",
+          "gloss": "industry; occupation; karma"
+        },
+        {
+          "glyph": "頁",
+          "gloss": "head; page"
+        }
+      ]
+    },
+    "yi1": {
+      "key": "yi1",
+      "pinyin": "yī",
+      "base": "yi",
+      "tone": 1,
+      "zhuyin": "ㄧ",
+      "glyphs": [
+        {
+          "glyph": "一",
+          "gloss": "one"
+        },
+        {
+          "glyph": "衣",
+          "gloss": "clothes"
+        }
+      ]
+    },
+    "yi3": {
+      "key": "yi3",
+      "pinyin": "yǐ",
+      "base": "yi",
+      "tone": 3,
+      "zhuyin": "ㄧ",
+      "glyphs": [
+        {
+          "glyph": "以",
+          "gloss": "by means of; with; according to; in order to; because of"
+        },
+        {
+          "glyph": "乙",
+          "gloss": "second"
+        }
+      ]
+    },
+    "yi4": {
+      "key": "yi4",
+      "pinyin": "yì",
+      "base": "yi",
+      "tone": 4,
+      "zhuyin": "ㄧ",
+      "glyphs": [
+        {
+          "glyph": "メ",
+          "gloss": "to govern; regulate (乂)"
+        },
+        {
+          "glyph": "弋",
+          "gloss": "shoot"
+        },
+        {
+          "glyph": "邑",
+          "gloss": "city"
+        }
+      ]
+    },
+    "yin1": {
+      "key": "yin1",
+      "pinyin": "yīn",
+      "base": "yin",
+      "tone": 1,
+      "zhuyin": "ㄧㄣ",
+      "glyphs": [
+        {
+          "glyph": "音",
+          "gloss": "sound"
+        }
+      ]
+    },
+    "yin3": {
+      "key": "yin3",
+      "pinyin": "yǐn",
+      "base": "yin",
+      "tone": 3,
+      "zhuyin": "ㄧㄣ",
+      "glyphs": [
+        {
+          "glyph": "廴",
+          "gloss": "stride"
+        }
+      ]
+    },
+    "yong4": {
+      "key": "yong4",
+      "pinyin": "yòng",
+      "base": "yong",
+      "tone": 4,
+      "zhuyin": "ㄩㄥ",
+      "glyphs": [
+        {
+          "glyph": "用",
+          "gloss": "use"
+        }
+      ]
+    },
+    "you3": {
+      "key": "you3",
+      "pinyin": "yǒu",
+      "base": "you",
+      "tone": 3,
+      "zhuyin": "ㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "酉",
+          "gloss": "wine"
+        }
+      ]
+    },
+    "you4": {
+      "key": "you4",
+      "pinyin": "yòu",
+      "base": "you",
+      "tone": 4,
+      "zhuyin": "ㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "又",
+          "gloss": "again"
+        }
+      ]
+    },
+    "yu2": {
+      "key": "yu2",
+      "pinyin": "yú",
+      "base": "yu",
+      "tone": 2,
+      "zhuyin": "ㄩ",
+      "glyphs": [
+        {
+          "glyph": "魚",
+          "gloss": "fish"
+        }
+      ]
+    },
+    "yu3": {
+      "key": "yu3",
+      "pinyin": "yǔ",
+      "base": "yu",
+      "tone": 3,
+      "zhuyin": "ㄩ",
+      "glyphs": [
+        {
+          "glyph": "与",
+          "gloss": "and; with; to give"
+        },
+        {
+          "glyph": "羽",
+          "gloss": "feather"
+        },
+        {
+          "glyph": "雨",
+          "gloss": "rain"
+        }
+      ]
+    },
+    "yu4": {
+      "key": "yu4",
+      "pinyin": "yù",
+      "base": "yu",
+      "tone": 4,
+      "zhuyin": "ㄩ",
+      "glyphs": [
+        {
+          "glyph": "玉",
+          "gloss": "jade"
+        },
+        {
+          "glyph": "聿",
+          "gloss": "brush"
+        }
+      ]
+    },
+    "yuan2": {
+      "key": "yuan2",
+      "pinyin": "yuán",
+      "base": "yuan",
+      "tone": 2,
+      "zhuyin": "ㄩㄢ",
+      "glyphs": [
+        {
+          "glyph": "円",
+          "gloss": "circle; yen"
+        }
+      ]
+    },
+    "yue1": {
+      "key": "yue1",
+      "pinyin": "yuē",
+      "base": "yue",
+      "tone": 1,
+      "zhuyin": "ㄩㄝ",
+      "glyphs": [
+        {
+          "glyph": "曰",
+          "gloss": "say"
+        }
+      ]
+    },
+    "yue4": {
+      "key": "yue4",
+      "pinyin": "yuè",
+      "base": "yue",
+      "tone": 4,
+      "zhuyin": "ㄩㄝ",
+      "glyphs": [
+        {
+          "glyph": "月",
+          "gloss": "moon"
+        },
+        {
+          "glyph": "龠",
+          "gloss": "flute"
+        }
+      ]
+    },
+    "zhao3": {
+      "key": "zhao3",
+      "pinyin": "zhǎo",
+      "base": "zhao",
+      "tone": 3,
+      "zhuyin": "ㄓㄠ",
+      "glyphs": [
+        {
+          "glyph": "爪",
+          "gloss": "claw"
+        }
+      ]
+    },
+    "zhe2": {
+      "key": "zhe2",
+      "pinyin": "zhé",
+      "base": "zhe",
+      "tone": 2,
+      "zhuyin": "ㄓㄜ",
+      "glyphs": [
+        {
+          "glyph": "乛",
+          "gloss": "turning stroke"
+        }
+      ]
+    },
+    "zhi1": {
+      "key": "zhi1",
+      "pinyin": "zhī",
+      "base": "zhi",
+      "tone": 1,
+      "zhuyin": "ㄓ",
+      "glyphs": [
+        {
+          "glyph": "之",
+          "gloss": "(classical) of; 's; it; to go"
+        },
+        {
+          "glyph": "支",
+          "gloss": "branch"
+        }
+      ]
+    },
+    "zhi3": {
+      "key": "zhi3",
+      "pinyin": "zhǐ",
+      "base": "zhi",
+      "tone": 3,
+      "zhuyin": "ㄓ",
+      "glyphs": [
+        {
+          "glyph": "止",
+          "gloss": "stop"
+        },
+        {
+          "glyph": "夂",
+          "gloss": "go"
+        },
+        {
+          "glyph": "黹",
+          "gloss": "embroidery"
+        }
+      ]
+    },
+    "zhi4": {
+      "key": "zhi4",
+      "pinyin": "zhì",
+      "base": "zhi",
+      "tone": 4,
+      "zhuyin": "ㄓ",
+      "glyphs": [
+        {
+          "glyph": "至",
+          "gloss": "arrive"
+        },
+        {
+          "glyph": "豸",
+          "gloss": "badger"
+        }
+      ]
+    },
+    "zhong1": {
+      "key": "zhong1",
+      "pinyin": "zhōng",
+      "base": "zhong",
+      "tone": 1,
+      "zhuyin": "ㄓㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "中",
+          "gloss": "middle; centre"
+        }
+      ]
+    },
+    "zhou1": {
+      "key": "zhou1",
+      "pinyin": "zhōu",
+      "base": "zhou",
+      "tone": 1,
+      "zhuyin": "ㄓㄡ",
+      "glyphs": [
+        {
+          "glyph": "舟",
+          "gloss": "boat"
+        }
+      ]
+    },
+    "zhu2": {
+      "key": "zhu2",
+      "pinyin": "zhú",
+      "base": "zhu",
+      "tone": 2,
+      "zhuyin": "ㄓㄨ",
+      "glyphs": [
+        {
+          "glyph": "竹",
+          "gloss": "bamboo"
+        }
+      ]
+    },
+    "zhui1": {
+      "key": "zhui1",
+      "pinyin": "zhuī",
+      "base": "zhui",
+      "tone": 1,
+      "zhuyin": "ㄓㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "隹",
+          "gloss": "short-tailed bird"
+        }
+      ]
+    },
+    "zi3": {
+      "key": "zi3",
+      "pinyin": "zǐ",
+      "base": "zi",
+      "tone": 3,
+      "zhuyin": "ㄗ",
+      "glyphs": [
+        {
+          "glyph": "子",
+          "gloss": "child; son"
+        }
+      ]
+    },
+    "zi4": {
+      "key": "zi4",
+      "pinyin": "zì",
+      "base": "zi",
+      "tone": 4,
+      "zhuyin": "ㄗ",
+      "glyphs": [
+        {
+          "glyph": "自",
+          "gloss": "self"
+        }
+      ]
+    },
+    "zou3": {
+      "key": "zou3",
+      "pinyin": "zǒu",
+      "base": "zou",
+      "tone": 3,
+      "zhuyin": "ㄗㄡ",
+      "glyphs": [
+        {
+          "glyph": "走",
+          "gloss": "run"
+        }
+      ]
+    },
+    "zu2": {
+      "key": "zu2",
+      "pinyin": "zú",
+      "base": "zu",
+      "tone": 2,
+      "zhuyin": "ㄗㄨ",
+      "glyphs": [
+        {
+          "glyph": "足",
+          "gloss": "foot"
+        }
+      ]
+    }
+  }
+}
