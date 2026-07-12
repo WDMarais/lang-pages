@@ -219,6 +219,10 @@
     "text": "まる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "me.mp3": {
+    "text": "め",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "mei.mp3": {
     "text": "メイ",
     "voice": "ja-JP-NanamiNeural"

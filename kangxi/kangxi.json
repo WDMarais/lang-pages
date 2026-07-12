@@ -2472,7 +2472,23 @@
               "gloss": "bright"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Moon",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Moon",
+            "readings": [
+              "ゲツ",
+              "ガツ"
+            ],
+            "on": true,
+            "kun": [
+              "つき"
+            ],
+            "level": 3
+          },
           "pd": {
             "name": "moon",
             "level": 1,
@@ -2537,6 +2553,19 @@
             "name": "Tree",
             "level": 1,
             "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Tree",
+            "readings": [
+              "モク",
+              "ボク"
+            ],
+            "on": true,
+            "kun": [
+              "き",
+              "こ"
+            ],
+            "level": 2
           },
           "pd": {
             "name": "tree",
@@ -3498,16 +3527,34 @@
             "name": "目",
             "reading": "mù",
             "gloss": "eye",
-            "extra": "康熙部首 109"
+            "extra": "康熙部首 109 · 象形（竖起的眼睛）· 目光、目的、题目"
           },
           "jp": {
             "name": "目",
-            "reading": "",
-            "gloss": "eye"
+            "reading": "め",
+            "gloss": "eye",
+            "extra": "漢字「目」(め · モク・ボク) · 目、目的、注目"
           },
-          "wk": null,
+          "wk": {
+            "name": "Eye",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Eye",
+            "readings": [
+              "モク",
+              "ボク"
+            ],
+            "on": true,
+            "kun": [
+              "め"
+            ],
+            "level": 3
+          },
           "kx": 109,
           "cnAudioKey": "mu4",
+          "jpAudioKey": "me",
           "referents": [
             {
               "label": "eye",

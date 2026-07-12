@@ -319,6 +319,16 @@
       "reading": "zhīyī",
       "gloss": "one of (a group); among",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "夕べ",
+      "audience": "jp",
+      "parts": ["夕"],
+      "denotes": "evening",
+      "reading": "ゆうべ",
+      "gloss": "evening; last night",
+      "okurigana": "べ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
     }
   ]
 }

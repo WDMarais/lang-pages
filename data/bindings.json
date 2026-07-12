@@ -1405,7 +1405,20 @@
         "source": "wanikani",
         "name": "Tree",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "kanji": {
+          "name": "Tree",
+          "readings": [
+            "モク",
+            "ボク"
+          ],
+          "on": true,
+          "kun": [
+            "き",
+            "こ"
+          ],
+          "level": 2
+        }
       }
     },
     {
@@ -3942,6 +3955,24 @@
         "glyph": "明",
         "reading": "メイ",
         "gloss": "bright"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Moon",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Moon",
+          "readings": [
+            "ゲツ",
+            "ガツ"
+          ],
+          "on": true,
+          "kun": [
+            "つき"
+          ],
+          "level": 3
+        }
       }
     },
     {
@@ -4516,16 +4547,36 @@
         "mù"
       ],
       "gloss": "eye",
-      "extra": "康熙部首 109"
+      "extra": "康熙部首 109 · 象形（竖起的眼睛）· 目光、目的、题目"
     },
     {
       "id": "b:目@jp",
       "glyph_id": "g:目",
       "lang": "jp",
       "name": "目",
-      "readings": [],
+      "readings": [
+        "め"
+      ],
       "gloss": "eye",
-      "extra": ""
+      "extra": "漢字「目」(め · モク・ボク) · 目、目的、注目",
+      "program": {
+        "source": "wanikani",
+        "name": "Eye",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Eye",
+          "readings": [
+            "モク",
+            "ボク"
+          ],
+          "on": true,
+          "kun": [
+            "め"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:矛@cn",

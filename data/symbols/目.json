@@ -3,7 +3,6 @@
   "cp": "U+76EE",
   "class": "char",
   "kangxi": 109,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,38 @@
       "name": "目",
       "reading": "mù",
       "gloss": "eye",
-      "extra": "康熙部首 109"
+      "extra": "康熙部首 109 · 象形（竖起的眼睛）· 目光、目的、题目"
     },
     "jp": {
       "name": "目",
-      "reading": "",
-      "gloss": "eye"
+      "reading": "め",
+      "gloss": "eye",
+      "extra": "漢字「目」(め · モク・ボク) · 目、目的、注目"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Eye",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Eye",
+      "readings": [
+        "モク",
+        "ボク"
+      ],
+      "on": true,
+      "kun": [
+        "め"
+      ],
+      "level": 3
+    }
+  ]
 }

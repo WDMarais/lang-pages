@@ -33,6 +33,29 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Moon",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Moon",
+      "readings": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "on": true,
+      "kun": [
+        "つき"
+      ],
+      "level": 3
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

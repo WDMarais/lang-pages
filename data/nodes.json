@@ -2860,7 +2860,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "mu4"
+      "cnAudioKey": "mu4",
+      "jpAudioKey": "me"
     },
     {
       "id": "r:eye",
@@ -5784,6 +5785,21 @@
       "id": "r:one-of",
       "kind": "referent",
       "label": "one of (a group); among"
+    },
+    {
+      "id": "w:夕べ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "夕べ",
+      "reading": "ゆうべ",
+      "gloss": "evening; last night",
+      "okurigana": "べ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

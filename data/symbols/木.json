@@ -45,6 +45,22 @@
       "level": 1
     },
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Tree",
+      "readings": [
+        "モク",
+        "ボク"
+      ],
+      "on": true,
+      "kun": [
+        "き",
+        "こ"
+      ],
+      "level": 2
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

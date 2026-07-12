@@ -3953,6 +3953,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:夕",
+      "to": "w:夕べ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:夕べ@jp",
+      "to": "r:evening",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
