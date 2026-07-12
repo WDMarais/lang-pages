@@ -6069,6 +6069,44 @@
       "id": "r:inferior-to",
       "kind": "referent",
       "label": "not as good as; inferior to; would be better to"
+    },
+    {
+      "id": "w:人人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "人人",
+      "reading": "rénrén",
+      "gloss": "everyone; everybody; each person",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:everyone",
+      "kind": "referent",
+      "label": "everyone; everybody; each person"
+    },
+    {
+      "id": "w:不可@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不可",
+      "reading": "bùkě",
+      "gloss": "cannot; must not; impossible (cf. reversed 可不)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:cannot",
+      "kind": "referent",
+      "label": "cannot; must not; impossible (cf. reversed 可不)"
     }
   ]
 }

@@ -56,6 +56,22 @@
         "かたな"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "knife",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "knife",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

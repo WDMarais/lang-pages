@@ -305,6 +305,11 @@
             "level": 1,
             "kind": "meaning"
           },
+          "pdc": {
+            "name": "two",
+            "kind": "meaning",
+            "level": 1
+          },
           "kx": 7,
           "cnAudioKey": "er4",
           "cnExAudioKey": "yuan2",
@@ -728,6 +733,16 @@
               "かたな"
             ],
             "level": 2
+          },
+          "pd": {
+            "name": "knife",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "knife",
+            "kind": "meaning",
+            "level": 1
           },
           "kx": 18,
           "cnAudioKey": "dao1",
@@ -2896,6 +2911,16 @@
               "みず"
             ],
             "level": 2
+          },
+          "pd": {
+            "name": "water",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "water",
+            "kind": "meaning",
+            "level": 1
           },
           "kx": 85,
           "cnAudioKey": "shui3",

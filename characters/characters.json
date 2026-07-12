@@ -71,7 +71,8 @@
           },
           "wk": { "name": "Two", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Two", "readings": ["ニ"], "on": true, "kun": ["ふた"], "level": 1 },
-          "pd": { "name": "two", "level": 1, "kind": "meaning" }
+          "pd": { "name": "two", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "two", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "三",
@@ -745,7 +746,9 @@
             "appearsIn": { "char": "氷", "reading": "こおり", "gloss": "ice" }
           },
           "wk": { "name": "Water", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Water", "readings": ["スイ"], "on": true, "kun": ["みず"], "level": 2 }
+          "kanji": { "name": "Water", "readings": ["スイ"], "on": true, "kun": ["みず"], "level": 2 },
+          "pd": { "name": "water", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "water", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "土",
@@ -790,7 +793,9 @@
             "appearsIn": { "char": "分", "reading": "わける", "gloss": "to divide" }
           },
           "wk": { "name": "Sword", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Sword", "readings": ["トウ"], "on": true, "kun": ["かたな"], "level": 2 }
+          "kanji": { "name": "Sword", "readings": ["トウ"], "on": true, "kun": ["かたな"], "level": 2 },
+          "pd": { "name": "knife", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "knife", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "弓",

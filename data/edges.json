@@ -4168,6 +4168,31 @@
       "kind": "denotes"
     },
     {
+      "from": "g:人",
+      "to": "w:人人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:人人@cn",
+      "to": "r:everyone",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不可@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:可",
+      "to": "w:不可@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不可@cn",
+      "to": "r:cannot",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

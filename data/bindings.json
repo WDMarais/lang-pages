@@ -133,7 +133,12 @@
         "source": "pandanese",
         "name": "two",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "two",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -1887,6 +1892,17 @@
         "glyph": "冰",
         "reading": "bīng",
         "gloss": "ice"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "water",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "water",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -1992,6 +2008,17 @@
         "glyph": "分",
         "reading": "fēn",
         "gloss": "to divide"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "knife",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "knife",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {

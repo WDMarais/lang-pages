@@ -56,6 +56,22 @@
         "みず"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "water",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "water",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

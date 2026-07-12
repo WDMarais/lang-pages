@@ -385,6 +385,24 @@
       "reading": "bùrú",
       "gloss": "not as good as; inferior to; would be better to",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "人人",
+      "audience": "cn",
+      "parts": ["人"],
+      "denotes": "everyone",
+      "reading": "rénrén",
+      "gloss": "everyone; everybody; each person",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "不可",
+      "audience": "cn",
+      "parts": ["不", "可"],
+      "denotes": "cannot",
+      "reading": "bùkě",
+      "gloss": "cannot; must not; impossible (cf. reversed 可不)",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }
