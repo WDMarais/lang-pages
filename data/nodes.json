@@ -4859,6 +4859,33 @@
       "label": "left-fall then dot"
     },
     {
+      "id": "g:㇂",
+      "kind": "glyph",
+      "glyph": "㇂",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "xiegou",
+      "cnExAudioKey": "wo3",
+      "jpAudioKey": "nanamekou",
+      "jpExAudioKey": "ware"
+    },
+    {
+      "id": "r:slant-hook",
+      "kind": "referent",
+      "label": "slant hook"
+    },
+    {
+      "id": "g:我",
+      "kind": "glyph",
+      "glyph": "我",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:⺊",
       "kind": "glyph",
       "glyph": "⺊",

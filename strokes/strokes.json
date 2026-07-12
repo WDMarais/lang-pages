@@ -195,7 +195,8 @@
             "extra": "横に折れて鉤ではねる一画",
             "appearsIn": { "char": "力", "reading": "ちから", "gloss": "power" }
           },
-          "wk": null
+          "wk": null,
+          "pd": { "name": "crane", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "㇛",
@@ -217,6 +218,28 @@
             "appearsIn": { "char": "女", "reading": "おんな", "gloss": "woman" }
           },
           "wk": null
+        },
+        {
+          "glyph": "㇂",
+          "tag": "stroke",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "xiegou",
+          "cnExAudioKey": "wo3",
+          "jpAudioKey": "nanamekou",
+          "jpExAudioKey": "ware",
+          "cn": {
+            "name": "斜钩", "reading": "xiégōu", "gloss": "slant hook",
+            "extra": "自左上斜下、末端上钩 (如 我、戈、成)",
+            "appearsIn": { "char": "我", "reading": "wǒ", "gloss": "I; me" }
+          },
+          "jp": {
+            "name": "斜め鉤", "reading": "ななめこう", "gloss": "slant hook",
+            "extra": "斜めに引いて末で鉤ではねる一画",
+            "appearsIn": { "char": "我", "reading": "われ", "gloss": "I; oneself" }
+          },
+          "wk": null,
+          "pd": { "name": "worm", "level": 1, "kind": "mnemonic" }
         }
       ]
     }

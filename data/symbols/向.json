@@ -29,6 +29,14 @@
       "kind": "mnemonic",
       "level": 1,
       "icon": "tv"
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "direction",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

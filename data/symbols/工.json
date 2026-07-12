@@ -55,6 +55,22 @@
       ],
       "on": true,
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "work",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "work",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

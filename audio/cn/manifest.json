@@ -683,6 +683,10 @@
     "text": "文",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "wo3.mp3": {
+    "text": "我",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "wu1.mp3": {
     "text": "屋",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -729,6 +733,10 @@
   },
   "xiao3.mp3": {
     "text": "小",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiegou.mp3": {
+    "text": "斜钩",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xin1.mp3": {

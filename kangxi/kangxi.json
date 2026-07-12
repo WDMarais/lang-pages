@@ -1789,6 +1789,16 @@
             "on": true,
             "level": 1
           },
+          "pd": {
+            "name": "work",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "work",
+            "kind": "meaning",
+            "level": 1
+          },
           "kx": 48,
           "cnAudioKey": "gong1",
           "cnExAudioKey": "jiang1",
@@ -3551,6 +3561,16 @@
               "め"
             ],
             "level": 3
+          },
+          "pd": {
+            "name": "eye",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "eye",
+            "kind": "meaning",
+            "level": 1
           },
           "kx": 109,
           "cnAudioKey": "mu4",

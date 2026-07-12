@@ -44,6 +44,22 @@
         "め"
       ],
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "eye",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "eye",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

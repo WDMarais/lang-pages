@@ -461,7 +461,9 @@
             "appearsIn": { "char": "江", "reading": "コウ", "gloss": "large river; inlet" }
           },
           "wk": { "name": "Construction", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Construction", "readings": ["コウ", "ク"], "on": true, "level": 1 }
+          "kanji": { "name": "Construction", "readings": ["コウ", "ク"], "on": true, "level": 1 },
+          "pd": { "name": "work", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "work", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "山",
@@ -939,7 +941,8 @@
             "extra": "漢字「向」(む-く · コウ)"
           },
           "wk": null,
-          "pd": { "name": "TV", "level": 1, "kind": "mnemonic", "icon": "tv" }
+          "pd": { "name": "TV", "level": 1, "kind": "mnemonic", "icon": "tv" },
+          "pdc": { "name": "direction", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "先",
@@ -1274,7 +1277,9 @@
             "extra": "漢字「目」(め · モク・ボク) · 目、目的、注目"
           },
           "wk": { "name": "Eye", "level": 3, "kind": "meaning" },
-          "kanji": { "name": "Eye", "readings": ["モク", "ボク"], "on": true, "kun": ["め"], "level": 3 }
+          "kanji": { "name": "Eye", "readings": ["モク", "ボク"], "on": true, "kun": ["め"], "level": 3 },
+          "pd": { "name": "eye", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "eye", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "西",

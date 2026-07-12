@@ -1634,6 +1634,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇂",
+      "to": "r:slant-hook",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇂",
+      "to": "g:我",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
       "to": "g:丁",
       "kind": "composes"
@@ -2214,6 +2224,16 @@
     {
       "from": "g:心",
       "to": "g:忠",
+      "kind": "composes"
+    },
+    {
+      "from": "g:扌",
+      "to": "g:我",
+      "kind": "composes"
+    },
+    {
+      "from": "g:戈",
+      "to": "g:我",
       "kind": "composes"
     },
     {

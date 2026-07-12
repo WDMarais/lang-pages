@@ -1229,6 +1229,17 @@
         "glyph": "江",
         "reading": "jiāng",
         "gloss": "river"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "work",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "work",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -2268,7 +2279,12 @@
         "name": "TV",
         "level": 1,
         "kind": "mnemonic",
-        "icon": "tv"
+        "icon": "tv",
+        "character": {
+          "name": "direction",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -4547,7 +4563,18 @@
         "mù"
       ],
       "gloss": "eye",
-      "extra": "康熙部首 109 · 象形（竖起的眼睛）· 目光、目的、题目"
+      "extra": "康熙部首 109 · 象形（竖起的眼睛）· 目光、目的、题目",
+      "program": {
+        "source": "pandanese",
+        "name": "eye",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "eye",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:目@jp",
@@ -7034,6 +7061,12 @@
         "glyph": "力",
         "reading": "lì",
         "gloss": "power; strength"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "crane",
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {
@@ -7082,6 +7115,44 @@
         "glyph": "女",
         "reading": "おんな",
         "gloss": "woman"
+      }
+    },
+    {
+      "id": "b:㇂@cn",
+      "glyph_id": "g:㇂",
+      "lang": "cn",
+      "name": "斜钩",
+      "readings": [
+        "xiégōu"
+      ],
+      "gloss": "slant hook",
+      "extra": "自左上斜下、末端上钩 (如 我、戈、成)",
+      "appearsIn": {
+        "glyph": "我",
+        "reading": "wǒ",
+        "gloss": "I; me"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "worm",
+        "level": 1,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:㇂@jp",
+      "glyph_id": "g:㇂",
+      "lang": "jp",
+      "name": "斜め鉤",
+      "readings": [
+        "ななめこう"
+      ],
+      "gloss": "slant hook",
+      "extra": "斜めに引いて末で鉤ではねる一画",
+      "appearsIn": {
+        "glyph": "我",
+        "reading": "われ",
+        "gloss": "I; oneself"
       }
     }
   ]

@@ -1,0 +1,43 @@
+{
+  "glyph": "㇂",
+  "cp": "U+31C2",
+  "class": "stroke",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "斜钩",
+      "reading": "xiégōu",
+      "gloss": "slant hook",
+      "extra": "自左上斜下、末端上钩 (如 我、戈、成)",
+      "appearsIn": {
+        "char": "我",
+        "reading": "wǒ",
+        "gloss": "I; me"
+      }
+    },
+    "jp": {
+      "name": "斜め鉤",
+      "reading": "ななめこう",
+      "gloss": "slant hook",
+      "extra": "斜めに引いて末で鉤ではねる一画",
+      "appearsIn": {
+        "char": "我",
+        "reading": "われ",
+        "gloss": "I; oneself"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "worm",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}
