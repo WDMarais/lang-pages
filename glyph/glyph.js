@@ -42,23 +42,32 @@ function route() {
 
 // ── resolution ──────────────────────────────────────────────────────────────────
 // Generous on input: a node id, a bare glyph, or a word surface. Reports honestly
-// which of the three states we landed in — real / frontier / absent — because
-// "absent" is a real and useful answer for an authoring probe, not an error.
-function resolve(q) {
-  if (G.byId[q]) return { state: nodeState(G.byId[q]), node: G.byId[q], id: q };
+// which state we landed in — real / frontier / ambiguous / absent — because "absent"
+// is a real and useful answer for an authoring probe, not an error.
+//
+// A bare SURFACE is not an identity: 大人 is BOTH w:大人@jp (おとな) and w:大人@cn
+// (dàrén) — the homograph fork the word-node ids exist to keep apart. Silently
+// preferring one audience would hide the other from anyone typing the surface. So we
+// gather every candidate and, if more than one survives, we ASK rather than guess.
+// Stated generally (not as an audience special-case) it also covers the collision
+// waiting to happen: a one-char word that shares its surface with a glyph node.
+function candidates(q) {
+  if (G.byId[q]) return [G.byId[q]];               // an explicit id is already an identity
+  const out = [];
+  if (G.byGlyph[q]) out.push(G.byGlyph[q]);        // bare glyph → g:X
+  for (const aud of ['cn', 'jp']) {                // surface → w:X@aud, every audience
+    const n = G.byId[`w:${q}@${aud}`];
+    if (n) out.push(n);
+  }
+  return out;
+}
 
-  // bare glyph → g:X
-  if ([...q].length === 1) {
-    const node = G.byGlyph[q];
-    if (node) return { state: nodeState(node), node, id: node.id };
-    return { state: 'absent', q };
-  }
-  // word surface → try each audience
-  for (const aud of ['cn', 'jp']) {
-    const id = `w:${q}@${aud}`;
-    if (G.byId[id]) return { state: 'real', node: G.byId[id], id };
-  }
-  // a multi-glyph string that isn't a word: offer its glyphs as a fallback
+function resolve(q) {
+  const cs = candidates(q);
+  if (cs.length === 1) return { state: nodeState(cs[0]), node: cs[0], id: cs[0].id };
+  if (cs.length > 1) return { state: 'ambiguous', q, options: cs };
+
+  // nothing carries it — offer its constituent glyphs, which usually DO exist
   const glyphs = [...q].filter(c => G.byGlyph[c]);
   return { state: 'absent', q, glyphs };
 }
@@ -81,14 +90,61 @@ function renderEmpty() {
   document.getElementById('examples').innerHTML = '';
 }
 
+const AUD = { cn: { zh: '中文', en: 'Chinese' }, jp: { zh: '日本語', en: 'Japanese' } };
+const KIND = { glyph: { zh: '字', en: 'glyph' }, word: { zh: '词', en: 'word' } };
+
+// One surface, several nodes. Show them ALL and make the user pick — each choice
+// navigates to the node's explicit id, so the resulting URL is unambiguous and
+// linkable (#w:大人@jp), and the fork is visible rather than silently resolved.
+function renderAmbiguous(r) {
+  return html`
+    <div class="gl-ambig">
+      <div class="gl-ambig-head">
+        <div class="gl-ambig-glyph">${r.q}</div>
+        <div>
+          <div class="gl-state ambiguous">歧义<span class="en"> · ${r.options.length} nodes share this surface</span></div>
+          <p class="en">A surface isn't an identity — pick the one you mean.</p>
+        </div>
+      </div>
+      <div class="gl-ambig-opts">
+        ${r.options.map(n => {
+          const isWord = n.kind === 'word';
+          const aud = isWord ? AUD[n.audience] : null;
+          const k = KIND[n.kind] || { zh: '', en: n.kind };
+          const f = isWord ? null : gdFacts(G, n.glyph);
+          const reading = isWord ? (n.reading || '') : [f.py, f.kana].filter(Boolean).join(' · ');
+          const gloss = isWord ? (n.gloss || '') : f.gloss;
+          return html`
+            <button class="gl-ambig-opt" data-goto="${n.id}">
+              <div class="gl-ao-tags">
+                <span class="gl-ao-kind">${k.zh} <span class="en">${k.en}</span></span>
+                ${aud ? html`<span class="gl-ao-aud gl-ao-${n.audience}">${aud.zh} <span class="en">${aud.en}</span></span>` : ''}
+              </div>
+              <div class="gl-ao-surface">${n.glyph || ''}</div>
+              ${reading ? html`<div class="gl-ao-reading">${reading}</div>` : ''}
+              ${gloss ? html`<div class="gl-ao-gloss en">${gloss}</div>` : ''}
+              <div class="gl-ao-id en">${n.id}</div>
+            </button>`;
+        })}
+      </div>
+    </div>`;
+}
+
 function render(r) {
   const host = document.getElementById('dossier');
+
+  if (r.state === 'ambiguous') {
+    host.innerHTML = renderAmbiguous(r);
+    document.getElementById('examples').innerHTML = '';
+    bindGoto(host);
+    return;
+  }
 
   if (r.state === 'absent') {
     host.innerHTML = html`
       <div class="gl-absent">
         <div class="gl-absent-glyph">${r.q}</div>
-        <div class="gl-state absent">缺 · <span class="en">absent from the graph</span></div>
+        <div class="gl-state absent">缺<span class="en"> · absent from the graph</span></div>
         <p class="en">No node carries this. It isn't authored, and nothing composes it.</p>
         ${r.glyphs && r.glyphs.length ? html`
           <div class="gl-try en">its glyphs are in the graph:
@@ -134,7 +190,9 @@ function hero(n, r, isWord, surface) {
              : html`<div class="gl-hero-glyph${[...surface].length > 1 ? ' multi' : ''}">${surface}</div>`}
       </div>
       <div class="gl-hero-facts">
-        <div class="gl-state ${r.state}">${r.state === 'frontier' ? '前沿 · frontier' : '在图 · in graph'}</div>
+        <div class="gl-state ${r.state}">${r.state === 'frontier'
+          ? html`前沿<span class="en"> · frontier</span>`
+          : html`在图<span class="en"> · in graph</span>`}</div>
         <div class="gl-tier en">${tier}</div>
         ${reading ? html`<div class="gl-reading">${reading}</div>` : ''}
         ${gloss ? html`<div class="gl-gloss en">${gloss}</div>` : ''}

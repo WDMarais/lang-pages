@@ -83,6 +83,42 @@
 .gl-asset-v { color: #4A5568; font-family: ui-monospace, monospace; }
 .gl-asset.missing .gl-asset-v { color: #C9C2B4; }
 
+/* ── ambiguous: one surface, several nodes (大人 = おとな AND dàrén) ── */
+.gl-ambig { padding: 1.4rem 0; }
+.gl-ambig-head { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 1.1rem; }
+.gl-ambig-glyph {
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: 3rem; color: var(--navy, #1E2A4A); line-height: 1;
+}
+.gl-ambig-head p { margin: .35rem 0 0; font-size: .84rem; color: #8A8274; }
+.gl-state.ambiguous { background: #F1EADC; color: #6B5B3E; border: 1px solid #E2D8C2; display: inline-block; }
+
+.gl-ambig-opts { display: flex; flex-wrap: wrap; gap: .7rem; }
+.gl-ambig-opt {
+  flex: 1 1 13rem; min-width: 13rem;
+  display: flex; flex-direction: column; align-items: flex-start; gap: .25rem;
+  padding: .85rem .95rem;
+  background: #fff; border: 1px solid var(--rule, #D8D2C4); border-radius: 3px;
+  cursor: pointer; font: inherit; text-align: left;
+  transition: border-color .15s, transform .15s;
+}
+.gl-ambig-opt:hover { border-color: var(--gold, #B08D57); transform: translateY(-1px); }
+.gl-ao-tags { display: flex; gap: .35rem; flex-wrap: wrap; }
+.gl-ao-kind, .gl-ao-aud {
+  font-size: .68rem; padding: .12rem .42rem; border-radius: 2px;
+  font-family: var(--zh, 'LXGW WenKai', serif);
+}
+.gl-ao-kind { background: #F1EADC; color: #6B5B3E; border: 1px solid #E2D8C2; }
+.gl-ao-cn   { background: #F6EAEA; color: #8A3A3A; border: 1px solid #E8D0D0; }
+.gl-ao-jp   { background: #EAF0F6; color: #33506F; border: 1px solid #D3E0EC; }
+.gl-ao-surface {
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: 1.9rem; color: var(--navy, #1E2A4A); line-height: 1.15; margin-top: .1rem;
+}
+.gl-ao-reading { font-size: .92rem; color: #6E6656; }
+.gl-ao-gloss   { font-size: .76rem; color: #9A9284; line-height: 1.35; }
+.gl-ao-id { font-size: .68rem; color: #B5AE9F; font-family: ui-monospace, monospace; margin-top: .15rem; }
+
 /* ── empty / absent ── */
 .gl-empty, .gl-absent { padding: 2.4rem 0; text-align: center; }
 .gl-empty-mark, .gl-absent-glyph {
