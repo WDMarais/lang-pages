@@ -23,6 +23,10 @@
     "text": "ブン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "butsu.mp3": {
+    "text": "ブツ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "chi.mp3": {
     "text": "チ",
     "voice": "ja-JP-NanamiNeural"
@@ -453,6 +457,10 @@
   },
   "umi.mp3": {
     "text": "うみ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ushi.mp3": {
+    "text": "うし",
     "voice": "ja-JP-NanamiNeural"
   },
   "utsu.mp3": {

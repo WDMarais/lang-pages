@@ -2704,12 +2704,22 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "niu2"
+      "cnAudioKey": "niu2",
+      "cnExAudioKey": "wu4",
+      "jpAudioKey": "ushi",
+      "jpExAudioKey": "butsu"
     },
     {
       "id": "r:cow",
       "kind": "referent",
-      "label": "cow"
+      "label": "cow; ox"
+    },
+    {
+      "id": "g:物",
+      "kind": "glyph",
+      "glyph": "物",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:玄",
@@ -5099,6 +5109,13 @@
       "frontier": true
     },
     {
+      "id": "g:勿",
+      "kind": "glyph",
+      "glyph": "勿",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:卄",
       "kind": "glyph",
       "glyph": "卄",
@@ -5165,13 +5182,6 @@
       "id": "g:兀",
       "kind": "glyph",
       "glyph": "兀",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:勿",
-      "kind": "glyph",
-      "glyph": "勿",
       "tier": null,
       "frontier": true
     },
@@ -6107,6 +6117,25 @@
       "id": "r:cannot",
       "kind": "referent",
       "label": "cannot; must not; impossible (cf. reversed 可不)"
+    },
+    {
+      "id": "w:〜才@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "〜才",
+      "reading": "さい",
+      "gloss": "… years old (age counter, e.g. 30才; substitutes for 歳)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:years-old",
+      "kind": "referent",
+      "label": "… years old (age counter, e.g. 30才; substitutes for 歳)"
     }
   ]
 }

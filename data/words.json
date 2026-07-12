@@ -403,6 +403,15 @@
       "reading": "bùkě",
       "gloss": "cannot; must not; impossible (cf. reversed 可不)",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "〜才",
+      "audience": "jp",
+      "parts": ["才"],
+      "denotes": "years-old",
+      "reading": "さい",
+      "gloss": "… years old (age counter, e.g. 30才; substitutes for 歳)",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
     }
   ]
 }

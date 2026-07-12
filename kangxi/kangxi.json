@@ -3163,17 +3163,46 @@
           "cn": {
             "name": "牛",
             "reading": "niú",
-            "gloss": "cow",
-            "extra": "康熙部首 93"
+            "gloss": "cow; ox",
+            "extra": "康熙部首 93 · 象形（牛头）· 牛、水牛 · 作偏旁作 牜",
+            "appearsIn": {
+              "char": "物",
+              "reading": "wù",
+              "gloss": "thing; matter"
+            }
           },
           "jp": {
             "name": "牛",
-            "reading": "",
-            "gloss": "cow"
+            "reading": "うし",
+            "gloss": "cow; ox; cattle",
+            "extra": "漢字「牛」(うし · ギュウ) · 牛、牛肉 · 偏旁「うしへん 牜」",
+            "appearsIn": {
+              "char": "物",
+              "reading": "ブツ",
+              "gloss": "thing"
+            }
           },
-          "wk": null,
+          "wk": {
+            "name": "Cow",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Cow",
+            "readings": [
+              "ギュウ"
+            ],
+            "on": true,
+            "kun": [
+              "うし"
+            ],
+            "level": 2
+          },
           "kx": 93,
-          "cnAudioKey": "niu2"
+          "cnAudioKey": "niu2",
+          "cnExAudioKey": "wu4",
+          "jpAudioKey": "ushi",
+          "jpExAudioKey": "butsu"
         },
         {
           "glyph": "犬",

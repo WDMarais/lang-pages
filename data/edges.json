@@ -965,6 +965,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:牛",
+      "to": "g:物",
+      "kind": "composes"
+    },
+    {
       "from": "g:玄",
       "to": "r:profound",
       "kind": "denotes"
@@ -2608,6 +2613,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:勿",
+      "to": "g:物",
+      "kind": "composes"
+    },
+    {
       "from": "g:大",
       "to": "g:犬",
       "kind": "composes"
@@ -4190,6 +4200,16 @@
     {
       "from": "w:不可@cn",
       "to": "r:cannot",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:才",
+      "to": "w:〜才@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:〜才@jp",
+      "to": "r:years-old",
       "kind": "denotes"
     },
     {
