@@ -1055,6 +1055,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:立",
+      "to": "g:音",
+      "kind": "composes"
+    },
+    {
       "from": "g:竹",
       "to": "r:bamboo",
       "kind": "denotes"
@@ -3223,11 +3228,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:立",
-      "to": "g:音",
-      "kind": "composes"
-    },
-    {
       "from": "g:日",
       "to": "g:音",
       "kind": "composes"
@@ -4030,6 +4030,26 @@
     {
       "from": "w:本人@cn",
       "to": "r:oneself",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:小",
+      "to": "w:小さい@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:小さい@jp",
+      "to": "r:small",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:丸",
+      "to": "w:丸い@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:丸い@jp",
+      "to": "r:round",
       "kind": "denotes"
     },
     {

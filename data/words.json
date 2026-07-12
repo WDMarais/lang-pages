@@ -338,6 +338,26 @@
       "reading": "běnrén",
       "gloss": "oneself; the person in question; in person",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "小さい",
+      "audience": "jp",
+      "parts": ["小"],
+      "denotes": "small",
+      "reading": "ちいさい",
+      "gloss": "small; little",
+      "okurigana": "さい",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "丸い",
+      "audience": "jp",
+      "parts": ["丸"],
+      "denotes": "round",
+      "reading": "まるい",
+      "gloss": "round; circular",
+      "okurigana": "い",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
     }
   ]
 }

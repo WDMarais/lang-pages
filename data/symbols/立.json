@@ -3,7 +3,6 @@
   "cp": "U+7ACB",
   "class": "char",
   "kangxi": 117,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,47 @@
       "name": "立",
       "reading": "lì",
       "gloss": "stand",
-      "extra": "康熙部首 117"
+      "extra": "康熙部首 117 · 站立、成立 · 象形（人立于地）",
+      "appearsIn": {
+        "char": "音",
+        "reading": "yīn",
+        "gloss": "sound"
+      }
     },
     "jp": {
       "name": "立",
-      "reading": "",
-      "gloss": "stand"
+      "reading": "たつ",
+      "gloss": "to stand",
+      "extra": "漢字「立」(た-つ · リツ) · 立つ、独立",
+      "appearsIn": {
+        "char": "音",
+        "reading": "オン",
+        "gloss": "sound"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Stand",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Stand",
+      "readings": [
+        "リツ"
+      ],
+      "on": true,
+      "kun": [
+        "たつ"
+      ],
+      "level": 3
+    }
+  ]
 }

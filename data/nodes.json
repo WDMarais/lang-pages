@@ -3017,7 +3017,10 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "li4"
+      "cnAudioKey": "li4",
+      "cnExAudioKey": "yin1",
+      "jpAudioKey": "tatsu",
+      "jpExAudioKey": "on"
     },
     {
       "id": "r:stand",
@@ -5878,6 +5881,41 @@
         "kind": "vocab",
         "level": 1
       }
+    },
+    {
+      "id": "w:小さい@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "小さい",
+      "reading": "ちいさい",
+      "gloss": "small; little",
+      "okurigana": "さい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:丸い@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "丸い",
+      "reading": "まるい",
+      "gloss": "round; circular",
+      "okurigana": "い",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:round",
+      "kind": "referent",
+      "label": "round; circular"
     }
   ]
 }

@@ -2886,6 +2886,17 @@
             "level": 2,
             "kind": "meaning"
           },
+          "kanji": {
+            "name": "Water",
+            "readings": [
+              "スイ"
+            ],
+            "on": true,
+            "kun": [
+              "みず"
+            ],
+            "level": 2
+          },
           "kx": 85,
           "cnAudioKey": "shui3",
           "cnExAudioKey": "bing1",
@@ -3764,16 +3775,45 @@
             "name": "立",
             "reading": "lì",
             "gloss": "stand",
-            "extra": "康熙部首 117"
+            "extra": "康熙部首 117 · 站立、成立 · 象形（人立于地）",
+            "appearsIn": {
+              "char": "音",
+              "reading": "yīn",
+              "gloss": "sound"
+            }
           },
           "jp": {
             "name": "立",
-            "reading": "",
-            "gloss": "stand"
+            "reading": "たつ",
+            "gloss": "to stand",
+            "extra": "漢字「立」(た-つ · リツ) · 立つ、独立",
+            "appearsIn": {
+              "char": "音",
+              "reading": "オン",
+              "gloss": "sound"
+            }
           },
-          "wk": null,
+          "wk": {
+            "name": "Stand",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Stand",
+            "readings": [
+              "リツ"
+            ],
+            "on": true,
+            "kun": [
+              "たつ"
+            ],
+            "level": 3
+          },
           "kx": 117,
-          "cnAudioKey": "li4"
+          "cnAudioKey": "li4",
+          "cnExAudioKey": "yin1",
+          "jpAudioKey": "tatsu",
+          "jpExAudioKey": "on"
         }
       ]
     },

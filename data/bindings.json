@@ -1908,7 +1908,18 @@
         "source": "wanikani",
         "name": "Water",
         "level": 2,
-        "kind": "meaning"
+        "kind": "meaning",
+        "kanji": {
+          "name": "Water",
+          "readings": [
+            "スイ"
+          ],
+          "on": true,
+          "kun": [
+            "みず"
+          ],
+          "level": 2
+        }
       }
     },
     {
@@ -4813,16 +4824,45 @@
         "lì"
       ],
       "gloss": "stand",
-      "extra": "康熙部首 117"
+      "extra": "康熙部首 117 · 站立、成立 · 象形（人立于地）",
+      "appearsIn": {
+        "glyph": "音",
+        "reading": "yīn",
+        "gloss": "sound"
+      }
     },
     {
       "id": "b:立@jp",
       "glyph_id": "g:立",
       "lang": "jp",
       "name": "立",
-      "readings": [],
-      "gloss": "stand",
-      "extra": ""
+      "readings": [
+        "たつ"
+      ],
+      "gloss": "to stand",
+      "extra": "漢字「立」(た-つ · リツ) · 立つ、独立",
+      "appearsIn": {
+        "glyph": "音",
+        "reading": "オン",
+        "gloss": "sound"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Stand",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Stand",
+          "readings": [
+            "リツ"
+          ],
+          "on": true,
+          "kun": [
+            "たつ"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:竹@cn",

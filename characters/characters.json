@@ -744,7 +744,8 @@
             "extra": "漢字「水」(みず · スイ) · 偏旁「さんずい 氵」",
             "appearsIn": { "char": "氷", "reading": "こおり", "gloss": "ice" }
           },
-          "wk": { "name": "Water", "level": 2, "kind": "meaning" }
+          "wk": { "name": "Water", "level": 2, "kind": "meaning" },
+          "kanji": { "name": "Water", "readings": ["スイ"], "on": true, "kun": ["みず"], "level": 2 }
         },
         {
           "glyph": "土",
@@ -1305,6 +1306,28 @@
           "kanji": { "name": "Eye", "readings": ["モク", "ボク"], "on": true, "kun": ["め"], "level": 3 },
           "pd": { "name": "eye", "level": 1, "kind": "meaning" },
           "pdc": { "name": "eye", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "立",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "li4",
+          "cnExAudioKey": "yin1",
+          "jpAudioKey": "tatsu",
+          "jpExAudioKey": "on",
+          "cn": {
+            "name": "立", "reading": "lì", "gloss": "stand",
+            "extra": "康熙部首 117 · 站立、成立 · 象形（人立于地）",
+            "appearsIn": { "char": "音", "reading": "yīn", "gloss": "sound" }
+          },
+          "jp": {
+            "name": "立", "reading": "たつ", "gloss": "to stand",
+            "extra": "漢字「立」(た-つ · リツ) · 立つ、独立",
+            "appearsIn": { "char": "音", "reading": "オン", "gloss": "sound" }
+          },
+          "wk": { "name": "Stand", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Stand", "readings": ["リツ"], "on": true, "kun": ["たつ"], "level": 3 }
         },
         {
           "glyph": "西",

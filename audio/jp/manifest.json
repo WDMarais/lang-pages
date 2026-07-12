@@ -279,6 +279,10 @@
     "text": "ぬし",
     "voice": "ja-JP-NanamiNeural"
   },
+  "on.mp3": {
+    "text": "オン",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "onna.mp3": {
     "text": "おんな",
     "voice": "ja-JP-NanamiNeural"
@@ -365,6 +369,10 @@
   },
   "tatekaku.mp3": {
     "text": "たてかく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tatsu.mp3": {
+    "text": "たつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "te.mp3": {
