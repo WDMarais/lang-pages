@@ -75,6 +75,10 @@
     "text": "ご",
     "voice": "ja-JP-NanamiNeural"
   },
+  "gun.mp3": {
+    "text": "グン",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hachi.mp3": {
     "text": "ハチ",
     "voice": "ja-JP-NanamiNeural"
@@ -211,12 +215,20 @@
     "text": "これ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "koromo.mp3": {
+    "text": "ころも",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kou.mp3": {
     "text": "コウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "kuchi.mp3": {
     "text": "くち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kuruma.mp3": {
+    "text": "くるま",
     "voice": "ja-JP-NanamiNeural"
   },
   "kyuu.mp3": {
@@ -357,6 +369,10 @@
   },
   "shita.mp3": {
     "text": "した",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sho.mp3": {
+    "text": "ショ",
     "voice": "ja-JP-NanamiNeural"
   },
   "shou.mp3": {

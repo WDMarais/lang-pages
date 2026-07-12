@@ -152,7 +152,8 @@
             "extra": "向きが変わる一画",
             "appearsIn": { "char": "口", "reading": "くち", "gloss": "mouth" }
           },
-          "wk": null
+          "wk": null,
+          "pd": { "name": "spear", "level": 1, "kind": "mnemonic" }
         },
         {
           "glyph": "亅",

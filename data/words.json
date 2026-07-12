@@ -367,6 +367,24 @@
       "reading": "kěbù",
       "gloss": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\"",
       "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "个人",
+      "audience": "cn",
+      "parts": ["个", "人"],
+      "denotes": "individual",
+      "reading": "gèrén",
+      "gloss": "individual; personal; (of) oneself",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+    },
+    {
+      "surface": "不如",
+      "audience": "cn",
+      "parts": ["不", "如"],
+      "denotes": "inferior-to",
+      "reading": "bùrú",
+      "gloss": "not as good as; inferior to; would be better to",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

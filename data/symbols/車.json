@@ -3,7 +3,6 @@
   "cp": "U+8ECA",
   "class": "char",
   "kangxi": 159,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -12,14 +11,37 @@
     "cn": {
       "name": "車",
       "reading": "chē",
-      "gloss": "cart",
-      "extra": "康熙部首 159"
+      "gloss": "cart; vehicle",
+      "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车 · 简: 车"
     },
     "jp": {
       "name": "車",
-      "reading": "",
-      "gloss": "cart"
+      "reading": "くるま",
+      "gloss": "car; vehicle",
+      "extra": "漢字「車」(くるま · シャ) · 車、電車、自動車",
+      "appearsIn": {
+        "char": "軍",
+        "reading": "グン",
+        "gloss": "army"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "cart",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "cart",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

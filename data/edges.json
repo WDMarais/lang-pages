@@ -638,6 +638,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:⻂",
+      "to": "r:clothing",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:⻂",
+      "to": "g:初",
+      "kind": "composes"
+    },
+    {
       "from": "g:乙",
       "to": "r:second",
       "kind": "denotes"
@@ -1305,6 +1315,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:車",
+      "to": "g:軍",
+      "kind": "composes"
+    },
+    {
       "from": "g:辛",
       "to": "r:bitter",
       "kind": "denotes"
@@ -1914,6 +1929,16 @@
       "to": "g:切",
       "kind": "composes",
       "role": "semantic"
+    },
+    {
+      "from": "g:衤",
+      "to": "g:初",
+      "kind": "composes"
+    },
+    {
+      "from": "g:刀",
+      "to": "g:初",
+      "kind": "composes"
     },
     {
       "from": "g:丿",
@@ -3118,6 +3143,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:冖",
+      "to": "g:軍",
+      "kind": "composes"
+    },
+    {
       "from": "g:立",
       "to": "g:辛",
       "kind": "composes"
@@ -4105,6 +4135,36 @@
     {
       "from": "w:可不@cn",
       "to": "r:whether-or-not",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:个",
+      "to": "w:个人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:个人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:个人@cn",
+      "to": "r:individual",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不如@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:如",
+      "to": "w:不如@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不如@cn",
+      "to": "r:inferior-to",
       "kind": "denotes"
     },
     {

@@ -3106,6 +3106,44 @@
       }
     },
     {
+      "id": "b:⻂@cn",
+      "glyph_id": "g:⻂",
+      "lang": "cn",
+      "name": "衤",
+      "readings": [
+        "yī"
+      ],
+      "gloss": "clothing",
+      "extra": "「衣」的偏旁形（衤）· 康熙部首 145「衣」的变体 · 见于 初、被、袖",
+      "appearsIn": {
+        "glyph": "初",
+        "reading": "chū",
+        "gloss": "beginning; first"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "firework",
+        "level": 1,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:⻂@jp",
+      "glyph_id": "g:⻂",
+      "lang": "jp",
+      "name": "衤",
+      "readings": [
+        "ころも"
+      ],
+      "gloss": "clothing",
+      "extra": "部首「ころもへん 衤」·「衣」の偏旁形 · 初、被",
+      "appearsIn": {
+        "glyph": "初",
+        "reading": "ショ",
+        "gloss": "first; beginning"
+      }
+    },
+    {
       "id": "b:乙@cn",
       "glyph_id": "g:乙",
       "lang": "cn",
@@ -5845,17 +5883,35 @@
       "readings": [
         "chē"
       ],
-      "gloss": "cart",
-      "extra": "康熙部首 159"
+      "gloss": "cart; vehicle",
+      "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车 · 简: 车",
+      "program": {
+        "source": "pandanese",
+        "name": "cart",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "cart",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:車@jp",
       "glyph_id": "g:車",
       "lang": "jp",
       "name": "車",
-      "readings": [],
-      "gloss": "cart",
-      "extra": ""
+      "readings": [
+        "くるま"
+      ],
+      "gloss": "car; vehicle",
+      "extra": "漢字「車」(くるま · シャ) · 車、電車、自動車",
+      "appearsIn": {
+        "glyph": "軍",
+        "reading": "グン",
+        "gloss": "army"
+      }
     },
     {
       "id": "b:辛@cn",
@@ -7195,6 +7251,12 @@
         "glyph": "口",
         "reading": "kǒu",
         "gloss": "mouth"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "spear",
+        "level": 1,
+        "kind": "mnemonic"
       }
     },
     {

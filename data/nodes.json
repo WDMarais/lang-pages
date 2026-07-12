@@ -1667,6 +1667,33 @@
       "frontier": true
     },
     {
+      "id": "g:⻂",
+      "kind": "glyph",
+      "glyph": "⻂",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      },
+      "cnAudioKey": "yi1",
+      "cnExAudioKey": "chu1",
+      "jpAudioKey": "koromo",
+      "jpExAudioKey": "sho"
+    },
+    {
+      "id": "r:clothing",
+      "kind": "referent",
+      "label": "clothing"
+    },
+    {
+      "id": "g:初",
+      "kind": "glyph",
+      "glyph": "初",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:乙",
       "kind": "glyph",
       "glyph": "乙",
@@ -3805,12 +3832,21 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "che1"
+      "cnAudioKey": "che1",
+      "jpAudioKey": "kuruma",
+      "jpExAudioKey": "gun"
     },
     {
       "id": "r:cart",
       "kind": "referent",
-      "label": "cart"
+      "label": "cart; vehicle"
+    },
+    {
+      "id": "g:軍",
+      "kind": "glyph",
+      "glyph": "軍",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:辛",
@@ -4979,6 +5015,13 @@
       "frontier": true
     },
     {
+      "id": "g:衤",
+      "kind": "glyph",
+      "glyph": "衤",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:巳",
       "kind": "glyph",
       "glyph": "巳",
@@ -5974,6 +6017,58 @@
       "id": "r:whether-or-not",
       "kind": "referent",
       "label": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\""
+    },
+    {
+      "id": "w:个人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "个人",
+      "reading": "gèrén",
+      "gloss": "individual; personal; (of) oneself",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "g:个",
+      "kind": "glyph",
+      "glyph": "个",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "r:individual",
+      "kind": "referent",
+      "label": "individual; personal; (of) oneself"
+    },
+    {
+      "id": "w:不如@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不如",
+      "reading": "bùrú",
+      "gloss": "not as good as; inferior to; would be better to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "g:如",
+      "kind": "glyph",
+      "glyph": "如",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "r:inferior-to",
+      "kind": "referent",
+      "label": "not as good as; inferior to; would be better to"
     }
   ]
 }

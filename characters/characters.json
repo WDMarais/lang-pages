@@ -1457,6 +1457,27 @@
           "wk": null,
           "pd": { "name": "foot", "level": 1, "kind": "meaning" },
           "pdc": { "name": "foot", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "車",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "che1",
+          "jpAudioKey": "kuruma",
+          "jpExAudioKey": "gun",
+          "cn": {
+            "name": "車", "reading": "chē", "gloss": "cart; vehicle",
+            "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车 · 简: 车"
+          },
+          "jp": {
+            "name": "車", "reading": "くるま", "gloss": "car; vehicle",
+            "extra": "漢字「車」(くるま · シャ) · 車、電車、自動車",
+            "appearsIn": { "char": "軍", "reading": "グン", "gloss": "army" }
+          },
+          "wk": null,
+          "pd": { "name": "cart", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "cart", "kind": "meaning", "level": 1 }
         }
       ]
     }

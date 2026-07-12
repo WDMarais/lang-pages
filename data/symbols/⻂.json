@@ -1,0 +1,43 @@
+{
+  "glyph": "⻂",
+  "cp": "U+2EC2",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "衤",
+      "reading": "yī",
+      "gloss": "clothing",
+      "extra": "「衣」的偏旁形（衤）· 康熙部首 145「衣」的变体 · 见于 初、被、袖",
+      "appearsIn": {
+        "char": "初",
+        "reading": "chū",
+        "gloss": "beginning; first"
+      }
+    },
+    "jp": {
+      "name": "衤",
+      "reading": "ころも",
+      "gloss": "clothing",
+      "extra": "部首「ころもへん 衤」·「衣」の偏旁形 · 初、被",
+      "appearsIn": {
+        "char": "初",
+        "reading": "ショ",
+        "gloss": "first; beginning"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "firework",
+      "kind": "mnemonic",
+      "level": 1
+    }
+  ]
+}
