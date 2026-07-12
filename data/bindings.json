@@ -5291,6 +5291,24 @@
       }
     },
     {
+      "id": "b:覀@cn",
+      "glyph_id": "g:覀",
+      "lang": "cn",
+      "name": "覀",
+      "readings": [],
+      "gloss": "'west/cover' radical, top form",
+      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西 同族"
+    },
+    {
+      "id": "b:覀@jp",
+      "glyph_id": "g:覀",
+      "lang": "jp",
+      "name": "覀",
+      "readings": [],
+      "gloss": "top form of the 襾 (west/cover) radical",
+      "extra": ""
+    },
+    {
       "id": "b:見@cn",
       "glyph_id": "g:見",
       "lang": "cn",

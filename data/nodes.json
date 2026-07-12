@@ -3484,7 +3484,8 @@
       "jpAudioKey": "nishi",
       "jpExAudioKey": "kaname",
       "variants": [
-        "覀"
+        "覀",
+        "襾"
       ]
     },
     {
@@ -3498,6 +3499,22 @@
       "glyph": "要",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:覀",
+      "kind": "glyph",
+      "glyph": "覀",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:west-cover-radical-top-form",
+      "kind": "referent",
+      "label": "'west/cover' radical, top form"
     },
     {
       "id": "g:見",

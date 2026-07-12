@@ -1189,6 +1189,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:覀",
+      "to": "r:west-cover-radical-top-form",
+      "kind": "denotes"
+    },
+    {
       "from": "g:見",
       "to": "r:see",
       "kind": "denotes"
@@ -3950,6 +3955,16 @@
     {
       "from": "g:ナ",
       "to": "g:𠂇",
+      "kind": "variant"
+    },
+    {
+      "from": "g:覀",
+      "to": "g:西",
+      "kind": "variant"
+    },
+    {
+      "from": "g:襾",
+      "to": "g:西",
       "kind": "variant"
     }
   ]

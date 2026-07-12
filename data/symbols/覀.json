@@ -1,0 +1,23 @@
+{
+  "glyph": "覀",
+  "cp": "U+8980",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "覀",
+      "reading": "",
+      "gloss": "'west/cover' radical, top form",
+      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西 同族"
+    },
+    "jp": {
+      "name": "覀",
+      "reading": "",
+      "gloss": "top form of the 襾 (west/cover) radical"
+    }
+  },
+  "programs": []
+}
