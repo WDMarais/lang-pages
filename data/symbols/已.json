@@ -1,0 +1,24 @@
+{
+  "glyph": "已",
+  "cp": "U+5DF2",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "已",
+      "reading": "yǐ",
+      "gloss": "already",
+      "extra": "半口已 —— 左上一笔半封口（对比 开口己、闭口巳）· 已经、而已 · 归入部首 49 己部"
+    },
+    "jp": {
+      "name": "已",
+      "reading": "すでに",
+      "gloss": "already",
+      "extra": "漢字「已」(すでに · イ) · 現代日本語ではまれ（已に・已む）· 上の筆画が半開き（己 は開く、巳 は閉じる）"
+    }
+  },
+  "programs": []
+}

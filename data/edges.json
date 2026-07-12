@@ -769,6 +769,31 @@
       "kind": "denotes"
     },
     {
+      "from": "g:己",
+      "to": "g:起",
+      "kind": "composes"
+    },
+    {
+      "from": "g:己",
+      "to": "g:記",
+      "kind": "composes"
+    },
+    {
+      "from": "g:已",
+      "to": "r:already",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:巳",
+      "to": "r:the-6th-earthly-branch",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:巳",
+      "to": "g:包",
+      "kind": "composes"
+    },
+    {
       "from": "g:巾",
       "to": "r:cloth",
       "kind": "denotes"
@@ -1961,11 +1986,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:巳",
-      "to": "g:包",
-      "kind": "composes"
-    },
-    {
       "from": "g:乚",
       "to": "g:匕",
       "kind": "composes"
@@ -2264,6 +2284,11 @@
     {
       "from": "g:乚",
       "to": "g:己",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乚",
+      "to": "g:巳",
       "kind": "composes"
     },
     {
@@ -3058,6 +3083,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:言",
+      "to": "g:記",
+      "kind": "composes"
+    },
+    {
       "from": "g:八",
       "to": "g:谷",
       "kind": "composes"
@@ -3135,6 +3165,11 @@
     {
       "from": "g:止",
       "to": "g:走",
+      "kind": "composes"
+    },
+    {
+      "from": "g:走",
+      "to": "g:起",
       "kind": "composes"
     },
     {
@@ -4228,12 +4263,109 @@
       "kind": "variant"
     },
     {
+      "from": "g:己",
+      "to": "g:已",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:1",
+      "source": "authored"
+    },
+    {
+      "from": "g:己",
+      "to": "g:巳",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:1",
+      "source": "authored"
+    },
+    {
+      "from": "g:已",
+      "to": "g:巳",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:1",
+      "source": "authored"
+    },
+    {
+      "from": "g:人",
+      "to": "g:入",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:2",
+      "source": "authored"
+    },
+    {
       "from": "w:不可@cn",
       "to": "w:可不@cn",
       "kind": "confusable",
       "symmetric": true,
-      "cluster": "cf:1",
-      "source": "authored",
+      "cluster": "cf:3",
+      "source": "authored"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "cf:1",
+      "kind": "confusable",
+      "members": [
+        "g:己",
+        "g:已",
+        "g:巳"
+      ],
+      "basis": "visual",
+      "note": "The classic three-way. They differ ONLY in how far the top-left stroke closes: 开口己、半口已、闭口巳 — 'open-mouth jǐ, half-mouth yǐ, closed-mouth sì'. 己 (self) leaves a clear gap; 已 (already) closes it halfway; 巳 (6th earthly branch, the snake) seals it shut. Same three strokes, three characters.",
+      "examples": [
+        {
+          "for": "g:己",
+          "text": "自己",
+          "gloss": "zìjǐ — oneself (己 = self; the mouth stays OPEN)",
+          "audioKey": null
+        },
+        {
+          "for": "g:已",
+          "text": "已经",
+          "gloss": "yǐjīng — already (已 = already; the mouth is HALF closed)",
+          "audioKey": null
+        },
+        {
+          "for": "g:巳",
+          "text": "巳时",
+          "gloss": "sìshí — the hour of the snake, 9–11am (巳 = 6th branch; the mouth is SHUT)",
+          "audioKey": null
+        }
+      ]
+    },
+    {
+      "id": "cf:2",
+      "kind": "confusable",
+      "members": [
+        "g:人",
+        "g:入"
+      ],
+      "basis": "visual",
+      "note": "Two strokes each, mirrored. In 人 (person) the two strokes MEET at the apex. In 入 (to enter) the short stroke starts partway down the long one, so the top is a CROSSING, not a clean peak — and the long stroke is the one on the right.",
+      "examples": [
+        {
+          "for": "g:人",
+          "text": "人人",
+          "gloss": "rénrén — everyone (人 = person)",
+          "audioKey": null
+        },
+        {
+          "for": "g:入",
+          "text": "入口",
+          "gloss": "rùkǒu — entrance (入 = to enter)",
+          "audioKey": null
+        }
+      ]
+    },
+    {
+      "id": "cf:3",
+      "kind": "confusable",
+      "members": [
+        "w:不可@cn",
+        "w:可不@cn"
+      ],
       "basis": "phonetic",
       "note": "The same two characters reversed. 不可 = 'cannot / must not'. 可不 is NOT its negation: it is either the 可不可… A-not-A frame ('can or can't…?') or, colloquially, 可不(是) = emphatic agreement ('isn't it just').",
       "examples": [

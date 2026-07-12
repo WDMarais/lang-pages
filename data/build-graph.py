@@ -88,7 +88,7 @@ def make_binding(glyph, lang, v, card):
 
 
 def build():
-    nodes, bindings, edges = {}, [], []
+    nodes, bindings, edges, clusters = {}, [], [], []
     seen_edge = set()
     symbols = load_symbols()
     real = set(symbols)
@@ -287,23 +287,24 @@ def build():
             examples.append({"for": tgt, "text": ex["text"], "gloss": ex.get("gloss", ""),
                              "audioKey": ex.get("audioKey")})
 
-        # `confusable` is SYMMETRIC (unlike composes/variant): authored as an unordered
-        # `between` set, emitted as the pairwise clique with endpoints sorted, so the
-        # edge is order-independent (stable diffs, natural dedup). A >2 cluster (己/已/巳)
-        # yields C(n,2) links sharing one `cluster` id; note/examples ground the SET, and
-        # ride on each link (for the 2-ref case that is exactly one edge — no duplication).
-        # If an n>2 cluster ever lands, a consumer dedupes them by `cluster`.
+        # `confusable` is SYMMETRIC (unlike composes/variant) and N-ARY (己/已/巳 is a
+        # three-way set, not three pairs that happen to coincide). So the shared payload
+        # — basis/note/examples — is NORMALIZED onto a cluster record, and the graph gets
+        # the pairwise clique of slim links pointing back at it by id.
+        #
+        # Clique (not a star through a reified cluster node) because the query a card asks
+        # is "what does 已 confuse with?" — that stays a one-hop edge filter, and no
+        # non-linguistic node leaks into nodes.json. Endpoints sorted so an edge is
+        # order-independent: stable diffs, natural dedup.
+        members = sorted(set(refs))
         cluster = f"cf:{i + 1}"
-        for x, y in combinations(sorted(set(refs)), 2):
-            e = {"from": x, "to": y, "kind": "confusable", "symmetric": True,
-                 "cluster": cluster, "source": "authored"}
-            if basis:
-                e["basis"] = basis
-            if a.get("note"):
-                e["note"] = a["note"]
-            if examples:
-                e["examples"] = examples
-            edges.append(e)
+        clusters.append({"id": cluster, "kind": "confusable", "members": members,
+                         **({"basis": basis} if basis else {}),
+                         **({"note": a["note"]} if a.get("note") else {}),
+                         **({"examples": examples} if examples else {})})
+        for x, y in combinations(members, 2):
+            edges.append({"from": x, "to": y, "kind": "confusable", "symmetric": True,
+                          "cluster": cluster, "source": "authored"})
 
     # validate the role overlay: in-vocabulary values, and every declared pair
     # actually landed on a composes edge (an unused entry means a typo'd char/comp).
@@ -317,7 +318,7 @@ def build():
         print(f"⚠ composition-roles: {char}←{comp} matches no composes edge (typo?)",
               file=sys.stderr)
 
-    return list(nodes.values()), bindings, edges
+    return list(nodes.values()), bindings, edges, clusters
 
 
 # ── reverse: graph → cards (the lang-pages projection) ──────────────────────
@@ -359,11 +360,14 @@ def project_cards(source, nodes, bindings):
 
 
 def main():
-    nodes, bindings, edges = build()
+    nodes, bindings, edges, clusters = build()
     DATA.mkdir(exist_ok=True)
+    # `clusters` rides as a sibling key in edges.json: the n-ary payload of an authored
+    # relation, stored ONCE and referenced by each clique link's `cluster` id. Existing
+    # consumers read `.edges` (an array) and are unaffected by the new key.
     for name, payload in [("nodes", {"nodes": nodes}),
                           ("bindings", {"bindings": bindings}),
-                          ("edges", {"edges": edges})]:
+                          ("edges", {"edges": edges, "clusters": clusters})]:
         write_json(DATA / f"{name}.json", payload)
 
     glyphs = [n for n in nodes if n["kind"] == "glyph"]
@@ -380,7 +384,8 @@ def main():
           f"({len(composes)} composes [{sum(1 for e in composes if e.get('role'))} typed], "
           f"{sum(1 for e in edges if e['kind']=='denotes')} denotes, "
           f"{sum(1 for e in edges if e['kind']=='variant')} variant, "
-          f"{sum(1 for e in edges if e['kind']=='confusable')} confusable)")
+          f"{sum(1 for e in edges if e['kind']=='confusable')} confusable "
+          f"in {len(clusters)} cluster{'' if len(clusters)==1 else 's'})")
 
     # round-trip proof: the graph must faithfully re-emit the symbol projection
     ok = True

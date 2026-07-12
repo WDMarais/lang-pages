@@ -1,7 +1,54 @@
 {
-  "_doc": "Authored enrichment layer — edges a human asserts that the graph cannot derive. Schema: docs/authored-edges.md. Joined by build-graph.py; additive to edges.json (no card projects these, so the round-trip is untouched).",
-  "_refs": "between/for take a bare glyph (人 → g:人), a word surface + the entry's `audience` (可不 + cn → w:可不@cn), or an explicit node id (g:入, w:不可@cn). Every ref must resolve to a real node or the build errors.",
+  "_doc": "Authored enrichment layer — relations a human asserts that the graph cannot derive. Schema: docs/authored-edges.md. Joined by build-graph.py; additive to edges.json (no card projects these, so the round-trip is untouched).",
+  "_refs": "between/for take a bare glyph (人 → g:人), a word surface + the entry's `audience` (可不 + cn → w:可不@cn), or an explicit node id (g:入, w:不可@cn). Every ref must resolve to a real node or the build warns and drops the entry.",
+  "_shape": "`between` is an unordered SET of ≥2. build-graph emits the pairwise clique of slim links plus ONE cluster record carrying basis/note/examples — so a 3-way (己/已/巳) stores its payload once, not three times.",
   "edges": [
+    {
+      "kind": "confusable",
+      "between": ["己", "已", "巳"],
+      "basis": "visual",
+      "note": "The classic three-way. They differ ONLY in how far the top-left stroke closes: 开口己、半口已、闭口巳 — 'open-mouth jǐ, half-mouth yǐ, closed-mouth sì'. 己 (self) leaves a clear gap; 已 (already) closes it halfway; 巳 (6th earthly branch, the snake) seals it shut. Same three strokes, three characters.",
+      "examples": [
+        {
+          "for": "己",
+          "text": "自己",
+          "gloss": "zìjǐ — oneself (己 = self; the mouth stays OPEN)",
+          "audioKey": null
+        },
+        {
+          "for": "已",
+          "text": "已经",
+          "gloss": "yǐjīng — already (已 = already; the mouth is HALF closed)",
+          "audioKey": null
+        },
+        {
+          "for": "巳",
+          "text": "巳时",
+          "gloss": "sìshí — the hour of the snake, 9–11am (巳 = 6th branch; the mouth is SHUT)",
+          "audioKey": null
+        }
+      ]
+    },
+    {
+      "kind": "confusable",
+      "between": ["人", "入"],
+      "basis": "visual",
+      "note": "Two strokes each, mirrored. In 人 (person) the two strokes MEET at the apex. In 入 (to enter) the short stroke starts partway down the long one, so the top is a CROSSING, not a clean peak — and the long stroke is the one on the right.",
+      "examples": [
+        {
+          "for": "人",
+          "text": "人人",
+          "gloss": "rénrén — everyone (人 = person)",
+          "audioKey": null
+        },
+        {
+          "for": "入",
+          "text": "入口",
+          "gloss": "rùkǒu — entrance (入 = to enter)",
+          "audioKey": null
+        }
+      ]
+    },
     {
       "kind": "confusable",
       "between": ["可不", "不可"],

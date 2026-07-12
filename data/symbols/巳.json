@@ -1,0 +1,34 @@
+{
+  "glyph": "巳",
+  "cp": "U+5DF3",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "巳",
+      "reading": "sì",
+      "gloss": "the 6th earthly branch (snake)",
+      "extra": "闭口巳 —— 左上一笔完全封口（对比 开口己、半口已）· 十二地支之六 · 巳时 = 9–11 时 · 归入部首 49 己部",
+      "appearsIn": {
+        "char": "包",
+        "reading": "bāo",
+        "gloss": "to wrap"
+      }
+    },
+    "jp": {
+      "name": "巳",
+      "reading": "み",
+      "gloss": "the 6th earthly branch (snake)",
+      "extra": "漢字「巳」(み · シ) · 十二支の六番目「巳（へび）」· 上の筆画が閉じる（己 は開く、已 は半開き）",
+      "appearsIn": {
+        "char": "包",
+        "reading": "ホウ",
+        "gloss": "to wrap"
+      }
+    }
+  },
+  "programs": []
+}

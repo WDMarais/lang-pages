@@ -3637,17 +3637,83 @@
       "readings": [
         "jǐ"
       ],
-      "gloss": "oneself",
-      "extra": "康熙部首 49"
+      "gloss": "oneself; self",
+      "extra": "康熙部首 49 · 开口己 —— 左上一笔不封口（对比 半口已、闭口巳）· 自己、知己",
+      "appearsIn": {
+        "glyph": "起",
+        "reading": "qǐ",
+        "gloss": "to rise; to get up"
+      }
     },
     {
       "id": "b:己@jp",
       "glyph_id": "g:己",
       "lang": "jp",
       "name": "己",
-      "readings": [],
-      "gloss": "oneself",
-      "extra": ""
+      "readings": [
+        "おのれ"
+      ],
+      "gloss": "oneself; self",
+      "extra": "漢字「己」(おのれ · コ・キ) · 自己、知己 · 上の筆画が開く（已 は半開き、巳 は閉じる）",
+      "appearsIn": {
+        "glyph": "記",
+        "reading": "キ",
+        "gloss": "to record; note"
+      }
+    },
+    {
+      "id": "b:已@cn",
+      "glyph_id": "g:已",
+      "lang": "cn",
+      "name": "已",
+      "readings": [
+        "yǐ"
+      ],
+      "gloss": "already",
+      "extra": "半口已 —— 左上一笔半封口（对比 开口己、闭口巳）· 已经、而已 · 归入部首 49 己部"
+    },
+    {
+      "id": "b:已@jp",
+      "glyph_id": "g:已",
+      "lang": "jp",
+      "name": "已",
+      "readings": [
+        "すでに"
+      ],
+      "gloss": "already",
+      "extra": "漢字「已」(すでに · イ) · 現代日本語ではまれ（已に・已む）· 上の筆画が半開き（己 は開く、巳 は閉じる）"
+    },
+    {
+      "id": "b:巳@cn",
+      "glyph_id": "g:巳",
+      "lang": "cn",
+      "name": "巳",
+      "readings": [
+        "sì"
+      ],
+      "gloss": "the 6th earthly branch (snake)",
+      "extra": "闭口巳 —— 左上一笔完全封口（对比 开口己、半口已）· 十二地支之六 · 巳时 = 9–11 时 · 归入部首 49 己部",
+      "appearsIn": {
+        "glyph": "包",
+        "reading": "bāo",
+        "gloss": "to wrap"
+      }
+    },
+    {
+      "id": "b:巳@jp",
+      "glyph_id": "g:巳",
+      "lang": "jp",
+      "name": "巳",
+      "readings": [
+        "み"
+      ],
+      "gloss": "the 6th earthly branch (snake)",
+      "extra": "漢字「巳」(み · シ) · 十二支の六番目「巳（へび）」· 上の筆画が閉じる（己 は開く、已 は半開き）",
+      "appearsIn": {
+        "glyph": "包",
+        "reading": "ホウ",
+        "gloss": "to wrap"
+      }
     },
     {
       "id": "b:巾@cn",

@@ -1246,6 +1246,65 @@
           "pdc": { "name": "return", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "己",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ji3",
+          "cnExAudioKey": "qi3",
+          "jpAudioKey": "onore",
+          "jpExAudioKey": "ki",
+          "cn": {
+            "name": "己", "reading": "jǐ", "gloss": "oneself; self",
+            "extra": "康熙部首 49 · 开口己 —— 左上一笔不封口（对比 半口已、闭口巳）· 自己、知己",
+            "appearsIn": { "char": "起", "reading": "qǐ", "gloss": "to rise; to get up" }
+          },
+          "jp": {
+            "name": "己", "reading": "おのれ", "gloss": "oneself; self",
+            "extra": "漢字「己」(おのれ · コ・キ) · 自己、知己 · 上の筆画が開く（已 は半開き、巳 は閉じる）",
+            "appearsIn": { "char": "記", "reading": "キ", "gloss": "to record; note" }
+          },
+          "wk": null
+        },
+        {
+          "glyph": "已",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yi3",
+          "jpAudioKey": "sudeni",
+          "cn": {
+            "name": "已", "reading": "yǐ", "gloss": "already",
+            "extra": "半口已 —— 左上一笔半封口（对比 开口己、闭口巳）· 已经、而已 · 归入部首 49 己部"
+          },
+          "jp": {
+            "name": "已", "reading": "すでに", "gloss": "already",
+            "extra": "漢字「已」(すでに · イ) · 現代日本語ではまれ（已に・已む）· 上の筆画が半開き（己 は開く、巳 は閉じる）"
+          },
+          "wk": null
+        },
+        {
+          "glyph": "巳",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "si4",
+          "cnExAudioKey": "bao1",
+          "jpAudioKey": "mi",
+          "jpExAudioKey": "hou",
+          "cn": {
+            "name": "巳", "reading": "sì", "gloss": "the 6th earthly branch (snake)",
+            "extra": "闭口巳 —— 左上一笔完全封口（对比 开口己、半口已）· 十二地支之六 · 巳时 = 9–11 时 · 归入部首 49 己部",
+            "appearsIn": { "char": "包", "reading": "bāo", "gloss": "to wrap" }
+          },
+          "jp": {
+            "name": "巳", "reading": "み", "gloss": "the 6th earthly branch (snake)",
+            "extra": "漢字「巳」(み · シ) · 十二支の六番目「巳（へび）」· 上の筆画が閉じる（己 は開く、已 は半開き）",
+            "appearsIn": { "char": "包", "reading": "ホウ", "gloss": "to wrap" }
+          },
+          "wk": null
+        },
+        {
           "glyph": "文",
           "tag": "char",
           "image": "",

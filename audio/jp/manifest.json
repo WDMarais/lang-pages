@@ -135,6 +135,10 @@
     "text": "ほのお",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hou.mp3": {
+    "text": "ホウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ichi.mp3": {
     "text": "いち",
     "voice": "ja-JP-NanamiNeural"
@@ -255,6 +259,10 @@
     "text": "メイ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "mi.mp3": {
+    "text": "み",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "migibarai.mp3": {
     "text": "みぎばらい",
     "voice": "ja-JP-NanamiNeural"
@@ -321,6 +329,10 @@
   },
   "ono.mp3": {
     "text": "おの",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "onore.mp3": {
+    "text": "おのれ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ore.mp3": {
@@ -397,6 +409,10 @@
   },
   "soto.mp3": {
     "text": "そと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sudeni.mp3": {
+    "text": "すでに",
     "voice": "ja-JP-NanamiNeural"
   },
   "suki.mp3": {

@@ -1843,17 +1843,31 @@
           "cn": {
             "name": "己",
             "reading": "jǐ",
-            "gloss": "oneself",
-            "extra": "康熙部首 49"
+            "gloss": "oneself; self",
+            "extra": "康熙部首 49 · 开口己 —— 左上一笔不封口（对比 半口已、闭口巳）· 自己、知己",
+            "appearsIn": {
+              "char": "起",
+              "reading": "qǐ",
+              "gloss": "to rise; to get up"
+            }
           },
           "jp": {
             "name": "己",
-            "reading": "",
-            "gloss": "oneself"
+            "reading": "おのれ",
+            "gloss": "oneself; self",
+            "extra": "漢字「己」(おのれ · コ・キ) · 自己、知己 · 上の筆画が開く（已 は半開き、巳 は閉じる）",
+            "appearsIn": {
+              "char": "記",
+              "reading": "キ",
+              "gloss": "to record; note"
+            }
           },
           "wk": null,
           "kx": 49,
-          "cnAudioKey": "ji3"
+          "cnAudioKey": "ji3",
+          "cnExAudioKey": "qi3",
+          "jpAudioKey": "onore",
+          "jpExAudioKey": "ki"
         },
         {
           "glyph": "巾",
