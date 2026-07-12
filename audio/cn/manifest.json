@@ -136,7 +136,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "dian3.mp3": {
-    "text": "丶",
+    "text": "点",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ding1.mp3": {
@@ -265,6 +265,10 @@
   },
   "hei1.mp3": {
     "text": "黑",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "heng2.mp3": {
+    "text": "横",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "hengzhegou.mp3": {
@@ -451,6 +455,10 @@
     "text": "木",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "na4.mp3": {
+    "text": "捺",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "nan2.mp3": {
     "text": "男",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -492,7 +500,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "pie3.mp3": {
-    "text": "丿",
+    "text": "撇",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "piedian.mp3": {
@@ -632,7 +640,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shu4.mp3": {
-    "text": "丨",
+    "text": "竖",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shugou.mp3": {
@@ -657,6 +665,10 @@
   },
   "ta1.mp3": {
     "text": "他",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ti2.mp3": {
+    "text": "提",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ti3.mp3": {
@@ -892,7 +904,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhe2.mp3": {
-    "text": "乛",
+    "text": "折",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zheng4.mp3": {

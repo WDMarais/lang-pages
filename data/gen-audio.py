@@ -86,7 +86,21 @@ def cn_bank_jobs():
     keyed by multi_key and voiced by the stroke's hanzi name — so /audio/cn/ is the one
     CN store and no clip is slug-keyed."""
     syms = load_symbols()
-    text = {k: e["glyphs"][0]["glyph"] for k, e in cn_bank(syms).items()}
+
+    def voiceable(entry):
+        """Pick the hanzi that will VOICE this sound. A stroke codepoint (㇐ héng) is not
+        pronounceable by edge-tts — it yields an empty clip — so a sound carried only by
+        strokes falls back to the stroke's hanzi NAME (㇐ → 横), which says the very same
+        syllable. Exactly the fallback the multi-syllable branch below already relies on;
+        without it heng2/na4/ti2 silently never generated and those play buttons were mute."""
+        for g in entry["glyphs"]:
+            if (syms.get(g["glyph"], {}).get("class")) != "stroke":
+                return g["glyph"]
+        first = entry["glyphs"][0]["glyph"]
+        cn = ((syms.get(first, {}).get("readings") or {}).get("cn") or {})
+        return cn.get("name") or first
+
+    text = {k: voiceable(e) for k, e in cn_bank(syms).items()}
     for k, hz in TONE_DEMO.items():
         text.setdefault(k, hz)
     for s in syms.values():
