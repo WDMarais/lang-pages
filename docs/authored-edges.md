@@ -78,34 +78,46 @@ error (typo guard), not a silent drop.
 
 ### Symmetric, and n-ary
 
-`confusable` is genuinely **undirected** (unlike `composes`/`variant`). Authored as
-an unordered `between` set; build-graph normalizes to deterministic output. For a
-cluster of >2 (己/已/巳) it emits the **pairwise clique**, every emitted edge
-carrying a shared `cluster` id so the UI can group the set:
+`confusable` is genuinely **undirected** (unlike `composes`/`variant`) and genuinely
+**n-ary** — 己/已/巳 is ONE three-way set, not three coincidental pairs. Authored as
+an unordered `between` set of ≥2; build-graph splits that into two output pieces:
 
 ```jsonc
-// emitted into edges.json (from/to sorted for stable dedup; symmetric flag tells the renderer to draw it undirected)
-{ "from": "w:不可@cn", "to": "w:可不@cn", "kind": "confusable",
-  "symmetric": true, "cluster": "cf:1", "basis": "phonetic", "source": "authored" }
+// edges.json → "edges": the pairwise CLIQUE, slim (from/to sorted → order-independent, stable diffs)
+{ "from": "g:己", "to": "g:已", "kind": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
+{ "from": "g:己", "to": "g:巳", "kind": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
+{ "from": "g:已", "to": "g:巳", "kind": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
+
+// edges.json → "clusters": the n-ary payload, stored ONCE
+{ "id": "cf:1", "kind": "confusable", "members": ["g:己","g:已","g:巳"],
+  "basis": "visual", "note": "开口己、半口已、闭口巳 …", "examples": [ … ] }
 ```
 
 - `symmetric: true` — renderer draws one undirected link; traversal treats it both ways.
-- `cluster` — ties clique edges + their `examples` back to one authored entry.
+- `cluster` — every clique link points back at the one cluster record.
 - `source: "authored"` — provenance tag (see below).
+- `"clusters"` is a **sibling key** of `"edges"`. Existing consumers (`graph.js`,
+  `cardsJP.js`, `console.js`) read `.edges` as an array and are unaffected.
+
+**Clique, not a star.** The alternative — reify the cluster as a node and emit
+`member-of` edges — is arguably the more correct model for an n-ary relation, but it
+forces the query a card actually asks ("what does 已 confuse with?") into a two-hop
+traversal, and leaks a non-linguistic node into `nodes.json`. The clique keeps that a
+one-hop edge filter; normalizing the payload into `clusters` gets the storage win
+without paying the traversal cost.
 
 ### Grounding (`examples`)
 
-The pedagogical half, per memory `confusable-pair-anchoring`: each endpoint gets
-≥1 example sentence so the two meanings anchor to **distinct contexts from the
-start** (Hebbian; cf. `referent-anchoring-associative`). `audioKey` reuses the
-content-keyed audio-bank convention (memory `phonetics-architecture`): a key into
-a sentence bank, or `null` for now. When null, the play button hides — exactly the
-existing "no reading → no play button" behaviour (commit 09174a9). So we can ship
-text+gloss today and wire sentence audio later without a schema change.
+The pedagogical half, per memory `confusable-pair-anchoring`: each member gets ≥1
+example so the meanings anchor to **distinct contexts from the start** (Hebbian; cf.
+`referent-anchoring-associative`). They ground the *set*, so they live on the cluster
+record, not on any single pairwise link.
 
-`examples` live on the authored entry (attached to the cluster), **not** on the
-output edges — they're grounding for the *set*, surfaced by the confusable panel,
-not a property of any single pairwise link.
+`audioKey` reuses the content-keyed audio-bank convention (memory
+`phonetics-architecture`): a key into a sentence bank, or `null` for now. When null the
+play button hides — exactly the existing "no reading → no play button" behaviour
+(commit 09174a9). So text+gloss ships today and sentence audio wires in later with **no
+schema change**.
 
 ## Provenance (runtime tag, not a boundary mechanism)
 
@@ -141,10 +153,18 @@ prerequisite unlock. It informs the scheduler and the renderer; it never blocks.
 
 Renderer (`graph.js`) + any confusable panel: separate follow-up, not in this pass.
 
-## First entries to hand-author (v1)
+## Shipped (v1)
 
-- 可不 / 不可 (`basis: phonetic`) — the motivating pair, with the two example sentences above.
-- Candidate look-alikes for a `basis: visual` sanity check: 人/入, 己/已/巳 (three-way clique test).
+Three entries, deliberately one of each shape:
+
+| cluster | members | basis | shape |
+|---------|---------|-------|-------|
+| `cf:1` | 己 / 已 / 巳 | visual | glyph **triple** — 开口己、半口已、闭口巳 |
+| `cf:2` | 人 / 入 | visual | glyph pair |
+| `cf:3` | 可不 / 不可 | phonetic | **word** pair |
+
+→ 5 confusable edges in 3 clusters. 己 was promoted from `form_only`; 已 and 巳 were
+new symbols added to make the archetype real.
 
 ## Deferred (NOT built now)
 
