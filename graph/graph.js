@@ -151,10 +151,10 @@ function renderEgo(glyph) {
   // so a whole reads as one part per slot instead of duplicate look-alikes.
   const partStrip = P.length ? html`<div class="ec-parts">${P.map(g => {
     const vs = (byGlyph[g] && byGlyph[g].variants) || [];
-    return html`<span class="ec-part-wrap"><button class="ec-part" data-glyph="${g}">${g}</button>${
-      vs.map(v => byGlyph[v]
-        ? html`<button class="ec-var" data-glyph="${v}" title="variant form of ${g}">${v}</button>`
-        : html`<span class="ec-var ghost" title="variant form of ${g}">${v}</span>`)}</span>`;
+    const varsRow = vs.length ? html`<div class="ec-vars">${vs.map(v => byGlyph[v]
+      ? html`<button class="ec-var" data-glyph="${v}" title="variant form of ${g}">${v}</button>`
+      : html`<span class="ec-var ghost" title="variant form of ${g}">${v}</span>`)}</div>` : '';
+    return html`<span class="ec-part-wrap"><button class="ec-part" data-glyph="${g}">${g}</button>${varsRow}</span>`;
   })}</div>` : '';
   const nodes = [html`<div class="${center}" data-key="center">
       <span class="ec-glyph">${glyph}</span>

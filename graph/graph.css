@@ -80,17 +80,20 @@
   border-radius: 5px; cursor: pointer; transition: transform .12s, box-shadow .12s;
 }
 .ec-part:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(30, 42, 74, .18); }
-/* twin form of the canonical part — smaller, muted, riding the chip's top-right */
-.ec-part-wrap { position: relative; display: inline-flex; }
+/* a part chip stacks its twin form(s) as a small muted row directly beneath it,
+   so 西 [覀 襾] reads as one grouped slot instead of crowding the chip row */
+.ec-parts { align-items: flex-start; }
+.ec-part-wrap { display: inline-flex; flex-direction: column; align-items: center; gap: .16rem; }
+.ec-vars { display: flex; gap: .16rem; }
 .ec-var {
-  font-family: "LXGW WenKai", serif; font-size: .72rem; line-height: 1;
-  min-width: 1rem; height: 1rem; padding: 0 .12rem; margin-left: -.35rem; align-self: flex-start;
+  font-family: "LXGW WenKai", serif; font-size: .66rem; line-height: 1;
+  min-width: .95rem; height: .95rem; padding: 0 .12rem;
   display: grid; place-items: center; color: var(--muted, #7c86a2);
   background: var(--white); border: 1px dashed var(--border); border-radius: 4px;
-  cursor: pointer; transition: transform .12s, color .12s;
+  cursor: pointer; transition: transform .12s, color .12s, border-color .12s;
 }
-.ec-var.ghost { cursor: default; opacity: .75; }
-.ec-var:not(.ghost):hover { transform: translateY(-1px); color: var(--ink); }
+.ec-var.ghost { cursor: default; opacity: .7; }
+.ec-var:not(.ghost):hover { transform: translateY(-1px); color: var(--ink); border-color: var(--navy); }
 
 .egonode.nb {
   width: 2rem; height: 2rem; display: grid; place-items: center; padding: 0;

@@ -10,13 +10,14 @@
     "cn": {
       "name": "覀",
       "reading": "",
-      "gloss": "'west/cover' radical, top form",
-      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西 同族"
+      "gloss": "cover",
+      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族"
     },
     "jp": {
       "name": "覀",
       "reading": "",
-      "gloss": "top form of the 襾 (west/cover) radical"
+      "gloss": "cover",
+      "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族"
     }
   },
   "programs": []
