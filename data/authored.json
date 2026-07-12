@@ -1,0 +1,28 @@
+{
+  "_doc": "Authored enrichment layer — edges a human asserts that the graph cannot derive. Schema: docs/authored-edges.md. Joined by build-graph.py; additive to edges.json (no card projects these, so the round-trip is untouched).",
+  "_refs": "between/for take a bare glyph (人 → g:人), a word surface + the entry's `audience` (可不 + cn → w:可不@cn), or an explicit node id (g:入, w:不可@cn). Every ref must resolve to a real node or the build errors.",
+  "edges": [
+    {
+      "kind": "confusable",
+      "between": ["可不", "不可"],
+      "audience": "cn",
+      "basis": "phonetic",
+      "note": "The same two characters reversed. 不可 = 'cannot / must not'. 可不 is NOT its negation: it is either the 可不可… A-not-A frame ('can or can't…?') or, colloquially, 可不(是) = emphatic agreement ('isn't it just').",
+      "examples": [
+        {
+          "for": "可不",
+          "text": "可不是嘛!",
+          "gloss": "Isn't it just! / That's so true! — 可不(是) = emphatic agreement",
+          "audioKey": null
+        },
+        {
+          "for": "不可",
+          "text": "非去不可。",
+          "gloss": "(I) simply must go. — 非…不可 = 'cannot not' = must",
+          "audioKey": null
+        }
+      ]
+    }
+  ],
+  "nodes": []
+}

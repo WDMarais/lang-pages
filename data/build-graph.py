@@ -15,6 +15,7 @@ Run: python3 data/build-graph.py
 Schema: docs/content-graph-schema.md
 """
 import sys
+from itertools import combinations
 
 from paths import DATA, read_json, write_json
 from symbols_io import (
@@ -28,6 +29,11 @@ from symbols_io import (
 TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
 ROLE_VALUES = {"semantic", "phonetic", "form"}  # functional role of a part in a whole
+AUTHORED_KINDS = {"confusable"}                 # authored enrichment edges (docs/authored-edges.md)
+BASIS_VALUES = {"visual", "phonetic", "semantic"}  # WHY two nodes confuse — a render hint,
+#                                                    deliberately a field, not a kind fork:
+#                                                    traversal/gating/sequencing are identical
+#                                                    across bases, only presentation differs.
 
 
 def load_roles():
@@ -37,6 +43,16 @@ def load_roles():
     if not p.exists():
         return {}
     return {c: m for c, m in read_json(p).items() if not c.startswith("_")}
+
+
+def load_authored():
+    """Hand-authored enrichment layer — relations the substrate cannot derive
+    (confusable pairs). Absent file → no-op, like words.json. Schema: docs/authored-edges.md."""
+    p = DATA / "authored.json"
+    if not p.exists():
+        return {"edges": [], "nodes": []}
+    d = read_json(p)
+    return {"edges": d.get("edges", []), "nodes": d.get("nodes", [])}
 
 
 def source_of(sym):
@@ -218,6 +234,77 @@ def build():
             if v in real:
                 edges.append({"from": f"g:{v}", "to": f"g:{canonical}", "kind": "variant"})
 
+    # ── authored enrichment layer (docs/authored-edges.md) ──────────────────────
+    # Human-asserted relations the substrate cannot derive. Purely ADDITIVE to
+    # edges.json — no card projects them, so the round-trip proof is untouched.
+    # ENDPOINT-AGNOSTIC: a ref may name a glyph, a word or an authored entity, so the
+    # kind never forks by endpoint type — 人/入 (glyph), 可不/不可 (word) and an authored
+    # entity pair are all one `confusable` kind. Runs last: every node it can point at
+    # (glyph, frontier, referent, word) has been minted by now.
+    authored = load_authored()
+    for n in authored["nodes"]:
+        nodes.setdefault(n["id"], {"id": n["id"], "kind": "entity",
+                                   "label": n.get("label", "")})
+
+    def resolve(ref, audience, where):
+        """bare glyph → g:人 · word surface + entry audience → w:可不@cn · explicit id → itself."""
+        if ":" in ref:
+            rid = ref
+        elif len(ref) == 1:                      # one codepoint → a glyph
+            rid = f"g:{ref}"
+        elif audience:
+            rid = f"w:{ref}@{audience}"
+        else:
+            print(f"⚠ authored[{where}]: {ref!r} is multi-char but the entry declares no "
+                  f"`audience` to resolve it as a word (or give an explicit id)", file=sys.stderr)
+            return None
+        if rid not in nodes:
+            print(f"⚠ authored[{where}]: {ref!r} → {rid} matches no node (typo?)", file=sys.stderr)
+            return None
+        return rid
+
+    for i, a in enumerate(authored["edges"]):
+        where = "/".join(a.get("between", [])) or f"#{i}"
+        aud = a.get("audience")
+        if a.get("kind") not in AUTHORED_KINDS:
+            print(f"⚠ authored[{where}]: unknown kind {a.get('kind')!r} "
+                  f"(expected {sorted(AUTHORED_KINDS)})", file=sys.stderr)
+            continue
+        basis = a.get("basis")
+        if basis and basis not in BASIS_VALUES:
+            print(f"⚠ authored[{where}]: unknown basis {basis!r} "
+                  f"(expected {sorted(BASIS_VALUES)})", file=sys.stderr)
+            basis = None
+        refs = [resolve(r, aud, where) for r in a.get("between", [])]
+        if len(refs) < 2 or any(r is None for r in refs):
+            print(f"⚠ authored[{where}]: skipped (needs ≥2 resolvable refs)", file=sys.stderr)
+            continue
+        examples = []
+        for ex in a.get("examples", []):
+            tgt = resolve(ex["for"], aud, where)
+            if tgt is None:
+                continue
+            examples.append({"for": tgt, "text": ex["text"], "gloss": ex.get("gloss", ""),
+                             "audioKey": ex.get("audioKey")})
+
+        # `confusable` is SYMMETRIC (unlike composes/variant): authored as an unordered
+        # `between` set, emitted as the pairwise clique with endpoints sorted, so the
+        # edge is order-independent (stable diffs, natural dedup). A >2 cluster (己/已/巳)
+        # yields C(n,2) links sharing one `cluster` id; note/examples ground the SET, and
+        # ride on each link (for the 2-ref case that is exactly one edge — no duplication).
+        # If an n>2 cluster ever lands, a consumer dedupes them by `cluster`.
+        cluster = f"cf:{i + 1}"
+        for x, y in combinations(sorted(set(refs)), 2):
+            e = {"from": x, "to": y, "kind": "confusable", "symmetric": True,
+                 "cluster": cluster, "source": "authored"}
+            if basis:
+                e["basis"] = basis
+            if a.get("note"):
+                e["note"] = a["note"]
+            if examples:
+                e["examples"] = examples
+            edges.append(e)
+
     # validate the role overlay: in-vocabulary values, and every declared pair
     # actually landed on a composes edge (an unused entry means a typo'd char/comp).
     for char, m in roles.items():
@@ -280,17 +367,20 @@ def main():
         write_json(DATA / f"{name}.json", payload)
 
     glyphs = [n for n in nodes if n["kind"] == "glyph"]
+    entities = sum(1 for n in nodes if n["kind"] == "entity")
     print(f"nodes:    {len(nodes)}  "
           f"({sum(1 for n in glyphs if not n.get('frontier'))} real glyph, "
           f"{sum(1 for n in glyphs if n.get('frontier'))} frontier, "
           f"{sum(1 for n in nodes if n['kind']=='referent')} referent, "
-          f"{sum(1 for n in nodes if n['kind']=='word')} word)")
+          f"{sum(1 for n in nodes if n['kind']=='word')} word"
+          + (f", {entities} entity" if entities else "") + ")")
     print(f"bindings: {len(bindings)}")
     composes = [e for e in edges if e["kind"] == "composes"]
     print(f"edges:    {len(edges)}  "
           f"({len(composes)} composes [{sum(1 for e in composes if e.get('role'))} typed], "
           f"{sum(1 for e in edges if e['kind']=='denotes')} denotes, "
-          f"{sum(1 for e in edges if e['kind']=='variant')} variant)")
+          f"{sum(1 for e in edges if e['kind']=='variant')} variant, "
+          f"{sum(1 for e in edges if e['kind']=='confusable')} confusable)")
 
     # round-trip proof: the graph must faithfully re-emit the symbol projection
     ok = True

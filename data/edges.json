@@ -4226,6 +4226,30 @@
       "from": "g:襾",
       "to": "g:西",
       "kind": "variant"
+    },
+    {
+      "from": "w:不可@cn",
+      "to": "w:可不@cn",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:1",
+      "source": "authored",
+      "basis": "phonetic",
+      "note": "The same two characters reversed. 不可 = 'cannot / must not'. 可不 is NOT its negation: it is either the 可不可… A-not-A frame ('can or can't…?') or, colloquially, 可不(是) = emphatic agreement ('isn't it just').",
+      "examples": [
+        {
+          "for": "w:可不@cn",
+          "text": "可不是嘛!",
+          "gloss": "Isn't it just! / That's so true! — 可不(是) = emphatic agreement",
+          "audioKey": null
+        },
+        {
+          "for": "w:不可@cn",
+          "text": "非去不可。",
+          "gloss": "(I) simply must go. — 非…不可 = 'cannot not' = must",
+          "audioKey": null
+        }
+      ]
     }
   ]
 }
