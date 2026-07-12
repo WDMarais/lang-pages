@@ -1910,6 +1910,24 @@
       "label": "enclosure"
     },
     {
+      "id": "g:回",
+      "kind": "glyph",
+      "glyph": "回",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "hui2",
+      "jpAudioKey": "mawaru"
+    },
+    {
+      "id": "r:return",
+      "kind": "referent",
+      "label": "to return; time(s)"
+    },
+    {
       "id": "g:士",
       "kind": "glyph",
       "glyph": "士",
@@ -3185,12 +3203,22 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "er3"
+      "cnAudioKey": "er3",
+      "cnExAudioKey": "qu3",
+      "jpAudioKey": "mimi",
+      "jpExAudioKey": "shu"
     },
     {
       "id": "r:ear",
       "kind": "referent",
       "label": "ear"
+    },
+    {
+      "id": "g:取",
+      "kind": "glyph",
+      "glyph": "取",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:聿",
@@ -3219,7 +3247,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "rou4"
+      "cnAudioKey": "rou4",
+      "jpAudioKey": "niku"
     },
     {
       "id": "r:meat",
@@ -3562,12 +3591,22 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "jiao3"
+      "cnAudioKey": "jiao3",
+      "cnExAudioKey": "jie3",
+      "jpAudioKey": "tsuno",
+      "jpExAudioKey": "kai"
     },
     {
       "id": "r:horn",
       "kind": "referent",
-      "label": "horn"
+      "label": "horn; angle"
+    },
+    {
+      "id": "g:解",
+      "kind": "glyph",
+      "glyph": "解",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:言",
@@ -5916,6 +5955,25 @@
       "id": "r:round",
       "kind": "referent",
       "label": "round; circular"
+    },
+    {
+      "id": "w:可不@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "可不",
+      "reading": "kěbù",
+      "gloss": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\"",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
+    },
+    {
+      "id": "r:whether-or-not",
+      "kind": "referent",
+      "label": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\""
     }
   ]
 }

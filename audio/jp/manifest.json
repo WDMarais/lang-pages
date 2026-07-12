@@ -167,6 +167,10 @@
     "text": "ジュウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kai.mp3": {
+    "text": "カイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kaname.mp3": {
     "text": "かなめ",
     "voice": "ja-JP-NanamiNeural"
@@ -223,6 +227,10 @@
     "text": "まる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "mawaru.mp3": {
+    "text": "まわる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "me.mp3": {
     "text": "め",
     "voice": "ja-JP-NanamiNeural"
@@ -233,6 +241,10 @@
   },
   "migibarai.mp3": {
     "text": "みぎばらい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mimi.mp3": {
+    "text": "みみ",
     "voice": "ja-JP-NanamiNeural"
   },
   "mittsu.mp3": {
@@ -265,6 +277,10 @@
   },
   "ni.mp3": {
     "text": "ニ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "niku.mp3": {
+    "text": "ニク",
     "voice": "ja-JP-NanamiNeural"
   },
   "niru.mp3": {
@@ -347,6 +363,10 @@
     "text": "ショウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "shu.mp3": {
+    "text": "シュ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "shuu.mp3": {
     "text": "シュウ",
     "voice": "ja-JP-NanamiNeural"
@@ -397,6 +417,10 @@
   },
   "tsuki.mp3": {
     "text": "つき",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsuno.mp3": {
+    "text": "つの",
     "voice": "ja-JP-NanamiNeural"
   },
   "tsutsumu.mp3": {

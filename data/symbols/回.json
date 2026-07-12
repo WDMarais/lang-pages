@@ -1,0 +1,37 @@
+{
+  "glyph": "回",
+  "cp": "U+56DE",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "囗",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "回",
+      "reading": "huí",
+      "gloss": "to return; time(s)",
+      "extra": "囗 + 口 · 回来、回家、一回 · 象形（回旋）"
+    },
+    "jp": {
+      "name": "回",
+      "reading": "まわる",
+      "gloss": "to turn; times (counter)",
+      "extra": "漢字「回」(まわ-る · カイ・エ) · 回る、一回、今回"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "return",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

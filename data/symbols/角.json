@@ -3,7 +3,6 @@
   "cp": "U+89D2",
   "class": "char",
   "kangxi": 148,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -12,14 +11,42 @@
     "cn": {
       "name": "角",
       "reading": "jiǎo",
-      "gloss": "horn",
-      "extra": "康熙部首 148"
+      "gloss": "horn; angle",
+      "extra": "康熙部首 148 · 象形（兽角）· 牛角、角度、墙角",
+      "appearsIn": {
+        "char": "解",
+        "reading": "jiě",
+        "gloss": "to untie; to solve"
+      }
     },
     "jp": {
       "name": "角",
-      "reading": "",
-      "gloss": "horn"
+      "reading": "つの",
+      "gloss": "horn; corner",
+      "extra": "漢字「角」(つの・かど · カク) · 角、三角、街角",
+      "appearsIn": {
+        "char": "解",
+        "reading": "カイ",
+        "gloss": "untie; solve"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "horn",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "horn",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

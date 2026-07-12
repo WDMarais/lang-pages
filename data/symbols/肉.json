@@ -3,7 +3,6 @@
   "cp": "U+8089",
   "class": "char",
   "kangxi": 130,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,31 @@
       "name": "肉",
       "reading": "ròu",
       "gloss": "meat",
-      "extra": "康熙部首 130"
+      "extra": "康熙部首 130 · 象形（一块肉）· 肉、肌肉 · 作偏旁写作「月」(肉月)"
     },
     "jp": {
       "name": "肉",
-      "reading": "",
-      "gloss": "meat"
+      "reading": "ニク",
+      "gloss": "meat; flesh",
+      "extra": "漢字「肉」(ニク) · 偏旁「にくづき 月」· 筋肉、肉屋"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "meat",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "meat",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

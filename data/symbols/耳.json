@@ -3,7 +3,6 @@
   "cp": "U+8033",
   "class": "char",
   "kangxi": 128,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,41 @@
       "name": "耳",
       "reading": "ěr",
       "gloss": "ear",
-      "extra": "康熙部首 128"
+      "extra": "康熙部首 128 · 象形（耳朵）· 耳朵、耳目",
+      "appearsIn": {
+        "char": "取",
+        "reading": "qǔ",
+        "gloss": "to take"
+      }
     },
     "jp": {
       "name": "耳",
-      "reading": "",
-      "gloss": "ear"
+      "reading": "みみ",
+      "gloss": "ear",
+      "extra": "漢字「耳」(みみ · ジ) · 耳、中耳",
+      "appearsIn": {
+        "char": "取",
+        "reading": "シュ",
+        "gloss": "take"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "ear",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "ear",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

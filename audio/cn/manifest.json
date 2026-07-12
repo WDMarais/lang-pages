@@ -279,6 +279,10 @@
     "text": "黃",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "hui2.mp3": {
+    "text": "回",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "huo3.mp3": {
     "text": "火",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -313,6 +317,10 @@
   },
   "jie2.mp3": {
     "text": "卩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jie3.mp3": {
+    "text": "解",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "jin1.mp3": {
@@ -521,6 +529,10 @@
   },
   "qing1.mp3": {
     "text": "青",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qu3.mp3": {
+    "text": "取",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "quan2.mp3": {

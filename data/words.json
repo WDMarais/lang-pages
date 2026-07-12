@@ -358,6 +358,15 @@
       "gloss": "round; circular",
       "okurigana": "い",
       "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "可不",
+      "audience": "cn",
+      "parts": ["可", "不"],
+      "denotes": "whether-or-not",
+      "reading": "kěbù",
+      "gloss": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\"",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

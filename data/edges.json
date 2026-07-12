@@ -719,6 +719,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:回",
+      "to": "r:return",
+      "kind": "denotes"
+    },
+    {
       "from": "g:士",
       "to": "r:scholar",
       "kind": "denotes"
@@ -1110,6 +1115,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:耳",
+      "to": "g:取",
+      "kind": "composes"
+    },
+    {
       "from": "g:聿",
       "to": "r:brush",
       "kind": "denotes"
@@ -1223,6 +1233,11 @@
       "from": "g:角",
       "to": "r:horn",
       "kind": "denotes"
+    },
+    {
+      "from": "g:角",
+      "to": "g:解",
+      "kind": "composes"
     },
     {
       "from": "g:言",
@@ -1986,6 +2001,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:又",
+      "to": "g:取",
+      "kind": "composes"
+    },
+    {
       "from": "g:冂",
       "to": "g:口",
       "kind": "composes"
@@ -2043,6 +2063,16 @@
     {
       "from": "g:一",
       "to": "g:囗",
+      "kind": "composes"
+    },
+    {
+      "from": "g:囗",
+      "to": "g:回",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:回",
       "kind": "composes"
     },
     {
@@ -2965,6 +2995,16 @@
     {
       "from": "g:用",
       "to": "g:角",
+      "kind": "composes"
+    },
+    {
+      "from": "g:刀",
+      "to": "g:解",
+      "kind": "composes"
+    },
+    {
+      "from": "g:牛",
+      "to": "g:解",
       "kind": "composes"
     },
     {
@@ -4050,6 +4090,21 @@
     {
       "from": "w:丸い@jp",
       "to": "r:round",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:可",
+      "to": "w:可不@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:可不@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:可不@cn",
+      "to": "r:whether-or-not",
       "kind": "denotes"
     },
     {

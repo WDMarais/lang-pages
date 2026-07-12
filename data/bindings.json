@@ -3415,6 +3415,36 @@
       "extra": ""
     },
     {
+      "id": "b:回@cn",
+      "glyph_id": "g:回",
+      "lang": "cn",
+      "name": "回",
+      "readings": [
+        "huí"
+      ],
+      "gloss": "to return; time(s)",
+      "extra": "囗 + 口 · 回来、回家、一回 · 象形（回旋）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "return",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:回@jp",
+      "glyph_id": "g:回",
+      "lang": "jp",
+      "name": "回",
+      "readings": [
+        "まわる"
+      ],
+      "gloss": "to turn; times (counter)",
+      "extra": "漢字「回」(まわ-る · カイ・エ) · 回る、一回、今回"
+    },
+    {
       "id": "b:士@cn",
       "glyph_id": "g:士",
       "lang": "cn",
@@ -5053,16 +5083,39 @@
         "ěr"
       ],
       "gloss": "ear",
-      "extra": "康熙部首 128"
+      "extra": "康熙部首 128 · 象形（耳朵）· 耳朵、耳目",
+      "appearsIn": {
+        "glyph": "取",
+        "reading": "qǔ",
+        "gloss": "to take"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "ear",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "ear",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:耳@jp",
       "glyph_id": "g:耳",
       "lang": "jp",
       "name": "耳",
-      "readings": [],
+      "readings": [
+        "みみ"
+      ],
       "gloss": "ear",
-      "extra": ""
+      "extra": "漢字「耳」(みみ · ジ) · 耳、中耳",
+      "appearsIn": {
+        "glyph": "取",
+        "reading": "シュ",
+        "gloss": "take"
+      }
     },
     {
       "id": "b:聿@cn",
@@ -5093,16 +5146,29 @@
         "ròu"
       ],
       "gloss": "meat",
-      "extra": "康熙部首 130"
+      "extra": "康熙部首 130 · 象形（一块肉）· 肉、肌肉 · 作偏旁写作「月」(肉月)",
+      "program": {
+        "source": "pandanese",
+        "name": "meat",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "meat",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:肉@jp",
       "glyph_id": "g:肉",
       "lang": "jp",
       "name": "肉",
-      "readings": [],
-      "gloss": "meat",
-      "extra": ""
+      "readings": [
+        "ニク"
+      ],
+      "gloss": "meat; flesh",
+      "extra": "漢字「肉」(ニク) · 偏旁「にくづき 月」· 筋肉、肉屋"
     },
     {
       "id": "b:臣@cn",
@@ -5513,17 +5579,40 @@
       "readings": [
         "jiǎo"
       ],
-      "gloss": "horn",
-      "extra": "康熙部首 148"
+      "gloss": "horn; angle",
+      "extra": "康熙部首 148 · 象形（兽角）· 牛角、角度、墙角",
+      "appearsIn": {
+        "glyph": "解",
+        "reading": "jiě",
+        "gloss": "to untie; to solve"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "horn",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "horn",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:角@jp",
       "glyph_id": "g:角",
       "lang": "jp",
       "name": "角",
-      "readings": [],
-      "gloss": "horn",
-      "extra": ""
+      "readings": [
+        "つの"
+      ],
+      "gloss": "horn; corner",
+      "extra": "漢字「角」(つの・かど · カク) · 角、三角、街角",
+      "appearsIn": {
+        "glyph": "解",
+        "reading": "カイ",
+        "gloss": "untie; solve"
+      }
     },
     {
       "id": "b:言@cn",
