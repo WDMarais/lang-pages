@@ -5,53 +5,60 @@
   "edges": [
     {
       "kind": "confusable",
-      "between": ["己", "已", "巳"],
+      "between": [
+        "己",
+        "已",
+        "巳"
+      ],
       "basis": "visual",
       "note": "The classic three-way. They differ ONLY in how far the top-left stroke closes: 开口己、半口已、闭口巳 — 'open-mouth jǐ, half-mouth yǐ, closed-mouth sì'. 己 (self) leaves a clear gap; 已 (already) closes it halfway; 巳 (6th earthly branch, the snake) seals it shut. Same three strokes, three characters.",
       "examples": [
         {
           "for": "己",
           "text": "自己",
-          "gloss": "zìjǐ — oneself (己 = self; the mouth stays OPEN)",
-          "audioKey": null
+          "gloss": "zìjǐ — oneself (己 = self; the mouth stays OPEN)"
         },
         {
           "for": "已",
           "text": "已经",
-          "gloss": "yǐjīng — already (已 = already; the mouth is HALF closed)",
-          "audioKey": null
+          "gloss": "yǐjīng — already (已 = already; the mouth is HALF closed)"
         },
         {
           "for": "巳",
           "text": "巳时",
-          "gloss": "sìshí — the hour of the snake, 9–11am (巳 = 6th branch; the mouth is SHUT)",
-          "audioKey": null
+          "gloss": "sìshí — the hour of the snake, 9–11am (巳 = 6th branch; the mouth is SHUT)"
         }
-      ]
+      ],
+      "lang": "cn"
     },
     {
       "kind": "confusable",
-      "between": ["人", "入"],
+      "between": [
+        "人",
+        "入"
+      ],
       "basis": "visual",
       "note": "Two strokes each, mirrored. In 人 (person) the two strokes MEET at the apex. In 入 (to enter) the short stroke starts partway down the long one, so the top is a CROSSING, not a clean peak — and the long stroke is the one on the right.",
       "examples": [
         {
           "for": "人",
           "text": "人人",
-          "gloss": "rénrén — everyone (人 = person)",
-          "audioKey": null
+          "gloss": "rénrén — everyone (人 = person)"
         },
         {
           "for": "入",
           "text": "入口",
-          "gloss": "rùkǒu — entrance (入 = to enter)",
-          "audioKey": null
+          "gloss": "rùkǒu — entrance (入 = to enter)"
         }
-      ]
+      ],
+      "lang": "cn"
     },
     {
       "kind": "confusable",
-      "between": ["可不", "不可"],
+      "between": [
+        "可不",
+        "不可"
+      ],
       "audience": "cn",
       "basis": "phonetic",
       "note": "The same two characters reversed. 不可 = 'cannot / must not'. 可不 is NOT its negation: it is either the 可不可… A-not-A frame ('can or can't…?') or, colloquially, 可不(是) = emphatic agreement ('isn't it just').",
@@ -59,17 +66,16 @@
         {
           "for": "可不",
           "text": "可不是嘛!",
-          "gloss": "Isn't it just! / That's so true! — 可不(是) = emphatic agreement",
-          "audioKey": null
+          "gloss": "Isn't it just! / That's so true! — 可不(是) = emphatic agreement"
         },
         {
           "for": "不可",
           "text": "非去不可。",
-          "gloss": "(I) simply must go. — 非…不可 = 'cannot not' = must",
-          "audioKey": null
+          "gloss": "(I) simply must go. — 非…不可 = 'cannot not' = must"
         }
       ]
     }
   ],
-  "nodes": []
+  "nodes": [],
+  "_audio": "examples are voiced into /audio/sent/ by gen-audio (sent-bank). `lang` (cn|jp) picks the voice — set it per-entry or per-example; a word entry's `audience` is the fallback. audioKey is DERIVED (content-keyed off lang+text by phonetics.sentence_key) and stamped into edges.json by build-graph — never author it."
 }

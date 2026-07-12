@@ -16,6 +16,7 @@ anything that is not exactly one syllable — multi-syllable stroke names ("hén
 Keys are ASCII: the ü umlaut becomes 'v' (nǚ → "nv3"), tone is a trailing digit
 1–4, neutral tone is 5. So a key is /^[a-z]+[1-5]$/ and is filename-safe.
 """
+import hashlib
 
 # Each tone-marked vowel → (plain letter, tone number). ü and its accents map to the
 # ASCII 'v' used in keys/filenames; the reference page can still render 'ü'.
@@ -85,6 +86,25 @@ def cn_key(reading):
     """The CN bank key for any reading: the single-syllable key when there is one
     (qiān → qian1), else the multi-syllable base (shùgōu → shugou)."""
     return audio_key(reading) or multi_key(reading)
+
+
+def sentence_key(lang, text):
+    """Content-key for a whole SENTENCE clip → audio/sent/<lang>-<digest>.mp3.
+
+    The syllable banks key by the sound spelled out (qian1, sen) because a syllable has
+    a short canonical spelling. A sentence has none — so it is keyed by a digest of its
+    own text. That is the same content-keyed principle (the identical sentence, authored
+    in two clusters, is voiced ONCE) under the only spelling that scales.
+
+    `lang` sits in the key rather than the digest, so a clip still says which voice it
+    belongs to at a glance. The VOICE deliberately does not: swapping CN_VOICE must
+    RESTAMP the clip, not rename every file — gen-audio's manifest already regenerates a
+    clip whose recorded voice has moved. Language-neutral, hence no cn/jp in the name.
+    """
+    if not lang or not text:
+        return None
+    digest = hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
+    return f"{lang}-{digest}"
 
 
 # ── pinyin → zhuyin (注音/Bopomofo) ────────────────────────────────────────────

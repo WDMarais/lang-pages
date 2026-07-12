@@ -18,6 +18,7 @@ import sys
 from itertools import combinations
 
 from paths import DATA, read_json, write_json
+from phonetics import sentence_key
 from symbols_io import (
     load_symbols,
     to_card,
@@ -30,6 +31,7 @@ TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
 ROLE_VALUES = {"semantic", "phonetic", "form"}  # functional role of a part in a whole
 AUTHORED_KINDS = {"confusable"}                 # authored enrichment edges (docs/authored-edges.md)
+AUDIO_LANGS = {"cn", "jp"}                        # languages the sentence bank can voice
 BASIS_VALUES = {"visual", "phonetic", "semantic"}  # WHY two nodes confuse — a render hint,
 #                                                    deliberately a field, not a kind fork:
 #                                                    traversal/gating/sequencing are identical
@@ -279,13 +281,25 @@ def build():
         if len(refs) < 2 or any(r is None for r in refs):
             print(f"⚠ authored[{where}]: skipped (needs ≥2 resolvable refs)", file=sys.stderr)
             continue
+        # Grounding examples. `audioKey` is DERIVED, never authored — content-keyed off
+        # (lang, text) by the same function gen-audio names the clip with, exactly as
+        # cnAudioKey/jpAudioKey are stamped onto a card. An example with no resolvable
+        # lang still renders its text; it just carries no key, and a null key already
+        # means "hide the play button" (09774a9), so silence degrades cleanly.
         examples = []
         for ex in a.get("examples", []):
             tgt = resolve(ex["for"], aud, where)
             if tgt is None:
                 continue
+            lang = ex.get("lang") or a.get("lang") or aud
+            if lang not in AUDIO_LANGS:
+                print(f"⚠ authored[{where}]: example «{ex['text']}» has no lang "
+                      f"({'|'.join(sorted(AUDIO_LANGS))}) — text shows, but it stays silent",
+                      file=sys.stderr)
+                lang = None
             examples.append({"for": tgt, "text": ex["text"], "gloss": ex.get("gloss", ""),
-                             "audioKey": ex.get("audioKey")})
+                             "lang": lang,
+                             "audioKey": sentence_key(lang, ex["text"]) if lang else None})
 
         # `confusable` is SYMMETRIC (unlike composes/variant) and N-ARY (己/已/巳 is a
         # three-way set, not three pairs that happen to coincide). So the shared payload

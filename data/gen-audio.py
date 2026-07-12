@@ -11,6 +11,9 @@ reading is voiced once and every glyph that uses it shares the clip:
   - cn-bank: /audio/cn/<pinyin+tone>.mp3 (千→qian1), plus the few multi-syllable
     stroke names (竖钩→shugou); projected from phonetics.bank so it matches /zhuyin/.
   - jp-bank: /audio/jp/<romaji>.mp3 (セン→sen), voiced from the kana reading itself.
+  - sent-bank: /audio/sent/<lang>-<digest>.mp3 — the authored example SENTENCES that
+    ground a confusable cluster. A sentence has no short canonical spelling, so it is
+    keyed by a digest of its text (phonetics.sentence_key); same content-keyed rule.
   - kana:    /audio/kana/<romaji>.mp3, the fixed mora board (/kana/).
   - xi-zhuang: cards.json lists each clip per voice; we synthesize the four synthetic
     voices and leave the 录音 human recording alone.
@@ -22,7 +25,7 @@ clip. A content key still can't tell whether the representative hanzi changed (�
 both voice he2), so the manifest catches that: such a clip is regenerated ("stale"),
 not skipped. Clips predating the manifest are adopted.
 
-Run:  python3 data/gen-audio.py [cn-bank|jp-bank|kana|xi-zhuang|all] [--dry-run] [--prune]
+Run:  python3 data/gen-audio.py [cn-bank|jp-bank|sent-bank|kana|xi-zhuang|all] [--dry-run] [--prune]
       --prune deletes clips in a bank that no card references, keeping the committed
       bank in sync with the projected set. xi-zhuang is never pruned — its dir holds
       the human 录音 recording.
@@ -32,9 +35,9 @@ import subprocess
 import sys
 from collections import namedtuple
 
-from paths import ROOT, read_json, write_json
+from paths import ROOT, DATA, read_json, write_json
 from symbols_io import load_symbols
-from phonetics import bank as cn_bank, audio_key, multi_key
+from phonetics import bank as cn_bank, audio_key, multi_key, sentence_key
 from phonetics_jp import kana_key
 
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
@@ -126,6 +129,32 @@ def jp_bank_jobs():
     return [Job(JP_VOICE, t, AUDIO / "jp" / f"{k}.mp3") for k, t in sorted(text.items())]
 
 
+def sent_bank_jobs():
+    """One clip per authored example SENTENCE → audio/sent/<lang>-<digest>.mp3.
+
+    The grounding half of a confusable cluster: each member gets a sentence that anchors
+    it to its own context, and the contexts have to be HEARD for a phonetic pair (可不 vs
+    不可) to come apart. Content-keyed by (lang, text) like every other bank, so the same
+    sentence authored in two clusters is voiced once.
+
+    Projects data/authored.json — the SOURCE, not edges.json — so gen-audio stays free of
+    build order; sentence_key() is the shared contract that keeps the clip build-graph
+    stamped and the clip synthesized here under one name."""
+    p = DATA / "authored.json"
+    if not p.exists():
+        return []
+    voices = {"cn": CN_VOICE, "jp": JP_VOICE}
+    text = {}
+    for e in read_json(p).get("edges", []):
+        for ex in e.get("examples", []):
+            lang = ex.get("lang") or e.get("lang") or e.get("audience")
+            if lang not in voices or not ex.get("text"):
+                continue
+            text.setdefault(sentence_key(lang, ex["text"]), (lang, ex["text"]))
+    return [Job(voices[lang], t, AUDIO / "sent" / f"{k}.mp3")
+            for k, (lang, t) in sorted(text.items())]
+
+
 def kana_jobs():
     """One clip per mora → audio/kana/<romaji>.mp3, voiced from the kana glyph. Deduped
     by romaji so ぢ/づ don't re-cut じ/ず's ji/zu. Projects kana/data.json, so the clip
@@ -147,6 +176,7 @@ def kana_jobs():
 MODULES = {
     "cn-bank": cn_bank_jobs,
     "jp-bank": jp_bank_jobs,
+    "sent-bank": sent_bank_jobs,
     "kana": kana_jobs,
     "xi-zhuang": lambda: xizhuang_jobs(ROOT / "xi-zhuang/cards.json"),
 }
@@ -224,7 +254,7 @@ def run(jobs, dry_run):
 # Buckets gen-audio fully owns, so an unreferenced file there is safe to delete.
 # xi-zhuang is excluded: its audio dir also holds the human 录音 recording, which
 # is never a synthesized job and must never be pruned.
-PRUNABLE = {"cn-bank", "jp-bank", "kana"}
+PRUNABLE = {"cn-bank", "jp-bank", "sent-bank", "kana"}
 
 
 def prune_bucket(name, jobs, dry_run):

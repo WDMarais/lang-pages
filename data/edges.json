@@ -4319,19 +4319,22 @@
           "for": "g:己",
           "text": "自己",
           "gloss": "zìjǐ — oneself (己 = self; the mouth stays OPEN)",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-4b8c923ecd"
         },
         {
           "for": "g:已",
           "text": "已经",
           "gloss": "yǐjīng — already (已 = already; the mouth is HALF closed)",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-0328a7a6bc"
         },
         {
           "for": "g:巳",
           "text": "巳时",
           "gloss": "sìshí — the hour of the snake, 9–11am (巳 = 6th branch; the mouth is SHUT)",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-5ca949bbb6"
         }
       ]
     },
@@ -4349,13 +4352,15 @@
           "for": "g:人",
           "text": "人人",
           "gloss": "rénrén — everyone (人 = person)",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-32b967db19"
         },
         {
           "for": "g:入",
           "text": "入口",
           "gloss": "rùkǒu — entrance (入 = to enter)",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-38e9cd1ffb"
         }
       ]
     },
@@ -4373,13 +4378,15 @@
           "for": "w:可不@cn",
           "text": "可不是嘛!",
           "gloss": "Isn't it just! / That's so true! — 可不(是) = emphatic agreement",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-5a1d5bba38"
         },
         {
           "for": "w:不可@cn",
           "text": "非去不可。",
           "gloss": "(I) simply must go. — 非…不可 = 'cannot not' = must",
-          "audioKey": null
+          "lang": "cn",
+          "audioKey": "cn-abec9a1cdd"
         }
       ]
     }

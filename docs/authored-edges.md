@@ -54,12 +54,16 @@ so the radicals/strokes round-trip identity is untouched.
   "audience": "cn",                      // disambiguates bare-glyph / word refs; optional if all refs are full ids
   "basis": "phonetic",                   // visual | phonetic | semantic  (optional; a RENDERING hint, not a fork)
   "note": "same two chars reversed; 可不(是) = 'isn't it just', 不可 = 'cannot'",
+  "lang": "cn",                          // voice for the examples (cn|jp); `audience` is the fallback
   "examples": [                          // OPTIONAL grounding — the pedagogical half
-    { "for": "可不", "text": "可不可以好好相处?", "gloss": "Can we (or can't we) get along?", "audioKey": null },
-    { "for": "不可", "text": "不可能。",           "gloss": "Impossible.",                     "audioKey": null }
+    { "for": "可不", "text": "可不是嘛!",  "gloss": "Isn't it just! — emphatic agreement" },
+    { "for": "不可", "text": "非去不可。", "gloss": "(I) simply must go. — 非…不可 = must" }
   ]
 }
 ```
+
+No `audioKey` here — it is **derived** and stamped by build-graph (see *Audio* below).
+Authors write the sentence; the key and the clip follow from it.
 
 ### Node references (`between`, `for`)
 
@@ -113,11 +117,25 @@ example so the meanings anchor to **distinct contexts from the start** (Hebbian;
 `referent-anchoring-associative`). They ground the *set*, so they live on the cluster
 record, not on any single pairwise link.
 
-`audioKey` reuses the content-keyed audio-bank convention (memory
-`phonetics-architecture`): a key into a sentence bank, or `null` for now. When null the
-play button hides — exactly the existing "no reading → no play button" behaviour
-(commit 09174a9). So text+gloss ships today and sentence audio wires in later with **no
-schema change**.
+**Audio (shipped).** Each example is voiced into `/audio/sent/<lang>-<digest>.mp3` by
+gen-audio's `sent-bank` module. `lang` (`cn`|`jp`) picks the voice — set it per-example or
+per-entry; a word entry's `audience` is the fallback.
+
+`audioKey` is **derived, never authored**: build-graph stamps it from `(lang, text)` via
+`phonetics.sentence_key`, exactly as `cnAudioKey`/`jpAudioKey` are stamped onto a card.
+gen-audio names the clip with the same function, so the stamp and the file cannot drift —
+and because gen-audio reads `authored.json` (the source) rather than `edges.json`, it stays
+free of build order.
+
+The syllable banks key by the sound spelled out (`qian1`, `sen`) because a syllable has a
+short canonical spelling. A sentence has none, so it is keyed by a **digest of its own
+text** — the same content-keyed rule (the identical sentence, authored in two clusters, is
+voiced once) under the only spelling that scales. The voice is deliberately NOT in the key:
+swapping `CN_VOICE` must restamp the clip, not rename every file (the manifest already
+regenerates on a voice change).
+
+An example with no resolvable `lang` still renders its text and simply carries no key — and
+a null key already means "hide the play button" (09174a9), so silence degrades cleanly.
 
 ## Provenance (runtime tag, not a boundary mechanism)
 
@@ -168,7 +186,6 @@ new symbols added to make the archetype real.
 
 ## Deferred (NOT built now)
 
-- Sentence audio bank + `audioKey` synthesis (gen-audio sentence module).
 - Confusable-aware **sequencing rule** (co-schedule a cluster) — belongs with SRS cadence, out of scope here.
 - Authored `entity` nodes in anger (the Three-Kingdoms corpus) — schema reserves the slot; no content yet.
 - A general authored `see-also` / weighted `assoc` kind — same file, same join, when it earns its keep.
