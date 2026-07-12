@@ -1,0 +1,51 @@
+{
+  "glyph": "也",
+  "cp": "U+4E5F",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "也",
+      "reading": "yě",
+      "gloss": "also; too",
+      "extra": "「也」表「也是、亦」· 见于 他 地 池 她",
+      "appearsIn": {
+        "char": "他",
+        "reading": "tā",
+        "gloss": "he; him"
+      }
+    },
+    "jp": {
+      "name": "也",
+      "reading": "ヤ",
+      "gloss": "also; classical copula «nari»",
+      "extra": "漢字「也」(ヤ) · 古語・人名用",
+      "appearsIn": {
+        "char": "地",
+        "reading": "チ",
+        "gloss": "ground; earth"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "also",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "also",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
+}

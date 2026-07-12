@@ -1598,13 +1598,6 @@
       "label": "hook stroke (snake-shape)"
     },
     {
-      "id": "g:也",
-      "kind": "glyph",
-      "glyph": "也",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:丆",
       "kind": "glyph",
       "glyph": "丆",
@@ -1689,6 +1682,33 @@
       "id": "r:second",
       "kind": "referent",
       "label": "second"
+    },
+    {
+      "id": "g:也",
+      "kind": "glyph",
+      "glyph": "也",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ye3",
+      "cnExAudioKey": "ta1",
+      "jpAudioKey": "ya",
+      "jpExAudioKey": "chi"
+    },
+    {
+      "id": "r:also",
+      "kind": "referent",
+      "label": "also; too"
+    },
+    {
+      "id": "g:他",
+      "kind": "glyph",
+      "glyph": "他",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:冖",
@@ -3692,12 +3712,29 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "zu2"
+      "cnAudioKey": "zu2",
+      "cnExAudioKey": "pao3",
+      "jpAudioKey": "ashi",
+      "jpExAudioKey": "soku"
     },
     {
       "id": "r:foot",
       "kind": "referent",
       "label": "foot"
+    },
+    {
+      "id": "g:跑",
+      "kind": "glyph",
+      "glyph": "跑",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:促",
+      "kind": "glyph",
+      "glyph": "促",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:身",
@@ -5826,6 +5863,20 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
+      }
+    },
+    {
+      "id": "w:本人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "本人",
+      "reading": "běnrén",
+      "gloss": "oneself; the person in question; in person",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
       }
     }
   ]

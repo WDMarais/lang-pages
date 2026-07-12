@@ -355,7 +355,9 @@
             "appearsIn": { "char": "古", "reading": "ふるい", "gloss": "old" }
           },
           "wk": { "name": "Cross", "level": 1, "kind": "mnemonic", "icon": "cross" },
-          "kanji": { "name": "Ten", "readings": ["ジュウ"], "on": true, "level": 1 }
+          "kanji": { "name": "Ten", "readings": ["ジュウ"], "on": true, "level": 1 },
+          "pd": { "name": "ten", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "ten", "kind": "meaning", "level": 1 }
         },
         {
           "glyph": "千",
@@ -1197,6 +1199,29 @@
           "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 2 }
         },
         {
+          "glyph": "也",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ye3",
+          "cnExAudioKey": "ta1",
+          "jpAudioKey": "ya",
+          "jpExAudioKey": "chi",
+          "cn": {
+            "name": "也", "reading": "yě", "gloss": "also; too",
+            "extra": "「也」表「也是、亦」· 见于 他 地 池 她",
+            "appearsIn": { "char": "他", "reading": "tā", "gloss": "he; him" }
+          },
+          "jp": {
+            "name": "也", "reading": "ヤ", "gloss": "also; classical copula «nari»",
+            "extra": "漢字「也」(ヤ) · 古語・人名用",
+            "appearsIn": { "char": "地", "reading": "チ", "gloss": "ground; earth" }
+          },
+          "wk": null,
+          "pd": { "name": "also", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "also", "kind": "meaning", "level": 1 }
+        },
+        {
           "glyph": "文",
           "tag": "char",
           "image": "",
@@ -1303,6 +1328,29 @@
           "wk": null,
           "pd": { "name": "west", "level": 1, "kind": "meaning" },
           "pdc": { "name": "west", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "足",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "zu2",
+          "cnExAudioKey": "pao3",
+          "jpAudioKey": "ashi",
+          "jpExAudioKey": "soku",
+          "cn": {
+            "name": "足", "reading": "zú", "gloss": "foot",
+            "extra": "康熙部首 157 · 脚、足够 · 口 + 龰(止)",
+            "appearsIn": { "char": "跑", "reading": "pǎo", "gloss": "to run" }
+          },
+          "jp": {
+            "name": "足", "reading": "あし", "gloss": "foot; leg",
+            "extra": "漢字「足」(あし · ソク) · 足りる（た-りる）",
+            "appearsIn": { "char": "促", "reading": "ソク", "gloss": "urge; prompt" }
+          },
+          "wk": null,
+          "pd": { "name": "foot", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "foot", "kind": "meaning", "level": 1 }
         }
       ]
     }

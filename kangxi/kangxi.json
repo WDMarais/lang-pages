@@ -447,6 +447,11 @@
             "level": 1,
             "kind": "mnemonic"
           },
+          "pdc": {
+            "name": "son",
+            "kind": "meaning",
+            "level": 1
+          },
           "kx": 10,
           "cnAudioKey": "er2",
           "cnExAudioKey": "yuan2",
@@ -917,6 +922,16 @@
               "ジュウ"
             ],
             "on": true,
+            "level": 1
+          },
+          "pd": {
+            "name": "ten",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "ten",
+            "kind": "meaning",
             "level": 1
           },
           "kx": 24,
@@ -4563,16 +4578,40 @@
             "name": "足",
             "reading": "zú",
             "gloss": "foot",
-            "extra": "康熙部首 157"
+            "extra": "康熙部首 157 · 脚、足够 · 口 + 龰(止)",
+            "appearsIn": {
+              "char": "跑",
+              "reading": "pǎo",
+              "gloss": "to run"
+            }
           },
           "jp": {
             "name": "足",
-            "reading": "",
-            "gloss": "foot"
+            "reading": "あし",
+            "gloss": "foot; leg",
+            "extra": "漢字「足」(あし · ソク) · 足りる（た-りる）",
+            "appearsIn": {
+              "char": "促",
+              "reading": "ソク",
+              "gloss": "urge; prompt"
+            }
           },
           "wk": null,
+          "pd": {
+            "name": "foot",
+            "level": 1,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "foot",
+            "kind": "meaning",
+            "level": 1
+          },
           "kx": 157,
-          "cnAudioKey": "zu2"
+          "cnAudioKey": "zu2",
+          "cnExAudioKey": "pao3",
+          "jpAudioKey": "ashi",
+          "jpExAudioKey": "soku"
         },
         {
           "glyph": "身",

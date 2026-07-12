@@ -7,6 +7,10 @@
     "text": "あらう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ashi.mp3": {
+    "text": "あし",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ataeru.mp3": {
     "text": "あたえる",
     "voice": "ja-JP-NanamiNeural"
@@ -341,6 +345,10 @@
   },
   "shuu.mp3": {
     "text": "シュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "soku.mp3": {
+    "text": "ソク",
     "voice": "ja-JP-NanamiNeural"
   },
   "soto.mp3": {

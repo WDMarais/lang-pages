@@ -3,7 +3,6 @@
   "cp": "U+8DB3",
   "class": "char",
   "kangxi": 157,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,41 @@
       "name": "足",
       "reading": "zú",
       "gloss": "foot",
-      "extra": "康熙部首 157"
+      "extra": "康熙部首 157 · 脚、足够 · 口 + 龰(止)",
+      "appearsIn": {
+        "char": "跑",
+        "reading": "pǎo",
+        "gloss": "to run"
+      }
     },
     "jp": {
       "name": "足",
-      "reading": "",
-      "gloss": "foot"
+      "reading": "あし",
+      "gloss": "foot; leg",
+      "extra": "漢字「足」(あし · ソク) · 足りる（た-りる）",
+      "appearsIn": {
+        "char": "促",
+        "reading": "ソク",
+        "gloss": "urge; prompt"
+      }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "foot",
+      "kind": "meaning",
+      "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "foot",
+      "kind": "meaning",
+      "level": 1
+    }
+  ]
 }

@@ -47,6 +47,14 @@
       "name": "legs",
       "kind": "mnemonic",
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "son",
+      "kind": "meaning",
+      "level": 1
     }
   ]
 }

@@ -463,6 +463,10 @@
     "text": "女",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "pao3.mp3": {
+    "text": "跑",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "pi2.mp3": {
     "text": "皮",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -629,6 +633,10 @@
   },
   "sui1.mp3": {
     "text": "夊",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ta1.mp3": {
+    "text": "他",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ti3.mp3": {

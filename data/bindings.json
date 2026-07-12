@@ -897,6 +897,17 @@
         "glyph": "古",
         "reading": "gǔ",
         "gloss": "ancient"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "ten",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "ten",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -2317,7 +2328,12 @@
         "source": "pandanese",
         "name": "legs",
         "level": 1,
-        "kind": "mnemonic"
+        "kind": "mnemonic",
+        "character": {
+          "name": "son",
+          "kind": "meaning",
+          "level": 1
+        }
       }
     },
     {
@@ -3097,6 +3113,49 @@
       "readings": [],
       "gloss": "second",
       "extra": ""
+    },
+    {
+      "id": "b:也@cn",
+      "glyph_id": "g:也",
+      "lang": "cn",
+      "name": "也",
+      "readings": [
+        "yě"
+      ],
+      "gloss": "also; too",
+      "extra": "「也」表「也是、亦」· 见于 他 地 池 她",
+      "appearsIn": {
+        "glyph": "他",
+        "reading": "tā",
+        "gloss": "he; him"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "also",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "also",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
+    },
+    {
+      "id": "b:也@jp",
+      "glyph_id": "g:也",
+      "lang": "jp",
+      "name": "也",
+      "readings": [
+        "ヤ"
+      ],
+      "gloss": "also; classical copula «nari»",
+      "extra": "漢字「也」(ヤ) · 古語・人名用",
+      "appearsIn": {
+        "glyph": "地",
+        "reading": "チ",
+        "gloss": "ground; earth"
+      }
     },
     {
       "id": "b:冖@cn",
@@ -5595,16 +5654,39 @@
         "zú"
       ],
       "gloss": "foot",
-      "extra": "康熙部首 157"
+      "extra": "康熙部首 157 · 脚、足够 · 口 + 龰(止)",
+      "appearsIn": {
+        "glyph": "跑",
+        "reading": "pǎo",
+        "gloss": "to run"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "foot",
+        "level": 1,
+        "kind": "meaning",
+        "character": {
+          "name": "foot",
+          "kind": "meaning",
+          "level": 1
+        }
+      }
     },
     {
       "id": "b:足@jp",
       "glyph_id": "g:足",
       "lang": "jp",
       "name": "足",
-      "readings": [],
-      "gloss": "foot",
-      "extra": ""
+      "readings": [
+        "あし"
+      ],
+      "gloss": "foot; leg",
+      "extra": "漢字「足」(あし · ソク) · 足りる（た-りる）",
+      "appearsIn": {
+        "glyph": "促",
+        "reading": "ソク",
+        "gloss": "urge; prompt"
+      }
     },
     {
       "id": "b:身@cn",

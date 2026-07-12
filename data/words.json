@@ -329,6 +329,15 @@
       "gloss": "evening; last night",
       "okurigana": "べ",
       "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "本人",
+      "audience": "cn",
+      "parts": ["本", "人"],
+      "denotes": "oneself",
+      "reading": "běnrén",
+      "gloss": "oneself; the person in question; in person",
+      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
     }
   ]
 }

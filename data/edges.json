@@ -643,6 +643,22 @@
       "kind": "denotes"
     },
     {
+      "from": "g:也",
+      "to": "r:also",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:也",
+      "to": "g:他",
+      "kind": "composes"
+    },
+    {
+      "from": "g:也",
+      "to": "g:地",
+      "kind": "composes",
+      "role": "phonetic"
+    },
+    {
       "from": "g:冖",
       "to": "r:cover",
       "kind": "denotes"
@@ -1249,6 +1265,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:足",
+      "to": "g:跑",
+      "kind": "composes"
+    },
+    {
+      "from": "g:足",
+      "to": "g:促",
+      "kind": "composes"
+    },
+    {
       "from": "g:身",
       "to": "r:body",
       "kind": "denotes"
@@ -1754,6 +1780,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:亻",
+      "to": "g:他",
+      "kind": "composes"
+    },
+    {
       "from": "g:人",
       "to": "g:以",
       "kind": "composes"
@@ -1776,6 +1807,11 @@
     {
       "from": "g:亻",
       "to": "g:体",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亻",
+      "to": "g:促",
       "kind": "composes"
     },
     {
@@ -2013,12 +2049,6 @@
       "from": "g:一",
       "to": "g:土",
       "kind": "composes"
-    },
-    {
-      "from": "g:也",
-      "to": "g:地",
-      "kind": "composes",
-      "role": "phonetic"
     },
     {
       "from": "g:丿",
@@ -3033,6 +3063,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:包",
+      "to": "g:跑",
+      "kind": "composes"
+    },
+    {
       "from": "g:日",
       "to": "g:車",
       "kind": "composes"
@@ -3980,6 +4015,21 @@
     {
       "from": "w:夕べ@jp",
       "to": "r:evening",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:本",
+      "to": "w:本人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:本人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:本人@cn",
+      "to": "r:oneself",
       "kind": "denotes"
     },
     {
