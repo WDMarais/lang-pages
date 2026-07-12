@@ -364,7 +364,12 @@ function initHanzi() {
   const build = (el) => {
     // /kangxi/ tiles get a generous caption glyph; HanziWriter sizes the SVG inline
     // (beating CSS), so the size must be set here, not in the stylesheet.
-    const sz = el.closest('.rk-heroglyph') ? 200 : el.closest('.rk-capglyph') ? 104 : 112;
+    // .cf-hw = a confusable member tile, .gl-hw = the /glyph/ dossier hero — both want
+    // to be big enough that a stroke-level difference (己/已/巳) is actually legible.
+    const sz = el.closest('.rk-heroglyph') ? 200
+             : el.classList.contains('gl-hw') ? 148
+             : el.classList.contains('cf-hw') ? 132
+             : el.closest('.rk-capglyph') ? 104 : 112;
     const w = HanziWriter.create(el, el.dataset.char, {
       width: sz, height: sz, padding: sz * 0.09,
       strokeColor: navy, outlineColor: '#D8D2C4', showOutline: true,

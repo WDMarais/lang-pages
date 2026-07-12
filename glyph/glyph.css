@@ -1,0 +1,102 @@
+/* /glyph/ — single-endpoint dossier. Hero → confusables → relations → assets. */
+
+/* ── search ── */
+.gl-search { display: flex; gap: .6rem; margin-bottom: 1.6rem; }
+.gl-search input {
+  flex: 0 1 12rem;
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: 1.5rem; text-align: center;
+  padding: .4rem .7rem;
+  border: 1px solid var(--rule, #D8D2C4); border-radius: 3px;
+  background: #fff; color: var(--navy, #1E2A4A);
+}
+.gl-search input:focus { outline: none; border-color: var(--gold, #B08D57); }
+
+/* ── hero ── */
+.gl-hero {
+  display: flex; align-items: center; gap: 1.6rem;
+  padding: 1.2rem 0 1.4rem;
+  border-bottom: 1px solid var(--rule, #D8D2C4);
+}
+.gl-hero-art { flex: 0 0 auto; }
+.gl-hw { width: 148px; height: 148px; }
+.gl-hero-glyph {
+  width: 148px; height: 148px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: 4.6rem; color: var(--navy, #1E2A4A);
+  border: 1px dashed var(--rule, #D8D2C4); border-radius: 3px;
+}
+/* a word surface (可不) is multi-glyph — keep it on ONE line and let the box grow */
+.gl-hero-glyph.multi {
+  width: auto; min-width: 148px; padding: 0 1.1rem;
+  font-size: 2.9rem; white-space: nowrap;
+}
+.gl-hero-facts { flex: 1 1 auto; display: flex; flex-direction: column; gap: .3rem; }
+
+.gl-state {
+  align-self: flex-start;
+  font-size: .72rem; letter-spacing: .04em;
+  padding: .16rem .5rem; border-radius: 2px;
+}
+.gl-state.real     { background: #EAF3EC; color: #35603F; border: 1px solid #D3E7D8; }
+.gl-state.frontier { background: #FDF3E3; color: #8A6A2F; border: 1px solid #EFDFC0; }
+.gl-state.absent   { background: #F6EAEA; color: #8A3A3A; border: 1px solid #E8D0D0; }
+
+.gl-tier    { font-size: .76rem; color: #9A9284; letter-spacing: .04em; }
+.gl-reading { font-size: 1.15rem; color: #6E6656; }
+.gl-gloss   { font-size: .95rem; color: var(--navy, #1E2A4A); }
+.gl-id      { font-size: .7rem; color: #B5AE9F; font-family: ui-monospace, monospace; margin-top: .2rem; }
+
+/* ── relations ── */
+.gl-rels { padding: 1.2rem 0; display: flex; flex-direction: column; gap: .75rem; }
+.gl-rel { display: flex; align-items: baseline; gap: .9rem; }
+.gl-rel-label {
+  flex: 0 0 7rem; display: flex; flex-direction: column; line-height: 1.25;
+}
+.gl-rel-label span:first-child {
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: .95rem; color: var(--gold, #B08D57);
+}
+.gl-rel-label .en { font-size: .68rem; color: #9A9284; }
+.gl-rel-body { flex: 1 1 auto; display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; }
+
+.gl-chip {
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: 1.25rem; line-height: 1;
+  padding: .34rem .5rem;
+  background: #fff; color: var(--navy, #1E2A4A);
+  border: 1px solid var(--rule, #D8D2C4); border-radius: 3px;
+  cursor: pointer; transition: border-color .15s, transform .15s;
+}
+.gl-chip:hover { border-color: var(--gold, #B08D57); transform: translateY(-1px); }
+.gl-chip.frontier { border-style: dashed; color: #9A8A6A; }
+.gl-none { font-size: .78rem; color: #B5AE9F; font-style: italic; }
+.gl-ref  { font-size: .95rem; color: var(--navy, #1E2A4A); }
+
+/* ── assets ── */
+.gl-assets { padding: 1.1rem 0 .4rem; border-top: 1px solid var(--rule, #D8D2C4); }
+.gl-assets-label { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: #9A9284; margin-bottom: .55rem; }
+.gl-assets-grid { display: flex; flex-wrap: wrap; gap: .4rem .9rem; }
+.gl-asset { display: flex; gap: .45rem; align-items: baseline; font-size: .74rem; }
+.gl-asset-k { color: #9A9284; }
+.gl-asset-v { color: #4A5568; font-family: ui-monospace, monospace; }
+.gl-asset.missing .gl-asset-v { color: #C9C2B4; }
+
+/* ── empty / absent ── */
+.gl-empty, .gl-absent { padding: 2.4rem 0; text-align: center; }
+.gl-empty-mark, .gl-absent-glyph {
+  font-family: var(--zh, 'LXGW WenKai', serif);
+  font-size: 3.4rem; color: #D8D2C4; margin-bottom: .6rem;
+}
+.gl-absent-glyph { color: var(--navy, #1E2A4A); }
+.gl-absent .gl-state { display: inline-block; margin-bottom: .7rem; }
+.gl-empty p, .gl-absent p { color: #8A8274; font-size: .86rem; }
+.gl-try { margin-top: 1rem; font-size: .76rem; color: #9A9284; }
+.gl-try .gl-chip { margin-left: .2rem; }
+
+@media (max-width: 560px) {
+  .gl-hero { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .gl-rel { flex-direction: column; gap: .3rem; }
+  .gl-rel-label { flex-direction: row; gap: .4rem; align-items: baseline; }
+}

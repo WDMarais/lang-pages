@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>字 · Glyph Dossier</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/cards3.css">
+<link rel="stylesheet" href="../shared/confusable.css">
+<link rel="stylesheet" href="glyph.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover cover-slim">
+  <div class="cover-masthead">content graph · single endpoint</div>
+  <div class="cover-title">字</div>
+  <div class="cover-py">Glyph dossier</div>
+  <div class="cover-sub">One glyph in, everything the graph knows about it out — shape, confusables, parts, what it builds, meaning, assets. Addressable: <code>#己</code></div>
+  <div class="cover-meta">glyph · probe</div>
+</header>
+
+<section class="bg-cream">
+  <div class="wrap">
+    <div class="gl-search">
+      <input id="q" type="text" placeholder="己" autocomplete="off" spellcheck="false" aria-label="glyph">
+      <button id="go" class="btn-ctrl" type="button">查 look up</button>
+    </div>
+    <div id="dossier"></div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div id="examples"></div>
+  </div>
+</section>
+
+<footer>
+  <div>字形图 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/vendor/hanzi-writer.min.js"></script>
+<script src="../shared/cards3.js"></script>
+<script src="../shared/graphdata.js"></script>
+<script src="../shared/confusable.js"></script>
+<script src="glyph.js"></script>
+</body>
+</html>

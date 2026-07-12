@@ -10,7 +10,6 @@ const TIERS = [
   { key: 'char',      zh: '字',   en: 'characters' },
   { key: 'frontier',  zh: '前沿', en: 'frontier' },
 ];
-const TAGMAP = { stroke: 'stroke', component: 'comp', char: 'char' };
 
 // golden-angle (Vogel) spiral: uniform-density placement of appears-in around the card.
 const GOLDEN       = Math.PI * (3 - Math.sqrt(5)); // ~137.508°
@@ -19,35 +18,16 @@ const SPIRAL_R0    = 13;                           // % inner clearance so seeds
 const SPIRAL_TILT  = Math.PI / 2;                  // start index 0 pointing south
 const SPIRAL_CAP   = 24;                           // max seeds before the +N → list overflow
 
-let byGlyph = {}, bindById = {}, refLabel = {}, denotesOf = {};
-const parts = {};    // G → glyphs G is built from   (edge part → G)
-const appears = {};  // G → glyphs G appears in       (edge G → whole)
+// the read model (nodes/bindings/edges + the parts/appears/cluster indexes) comes from
+// shared/graphdata.js, so /graph/ and /glyph/ project a node to a card the same way.
+let G = null;
+let byGlyph = {}, parts = {}, appears = {}, refLabel = {}, denotesOf = {};
 let chipEls = {}, egoEls = {}, wireEls = {}, selected = null;
 
-Promise.all([
-  fetch('../data/nodes.json').then(r => r.json()),
-  fetch('../data/edges.json').then(r => r.json()),
-  fetch('../data/bindings.json').then(r => r.json()),
-]).then(([nd, ed, bd]) => {
-  bd.bindings.forEach(b => (bindById[b.id] = b));
-  nd.nodes.forEach(n => {
-    if (n.kind === 'glyph') byGlyph[n.glyph] = n;
-    else if (n.kind === 'referent') refLabel[n.id] = n.label;
-  });
-  ed.edges.forEach(e => {
-    if (e.kind === 'composes') {
-      // composes also carries the word tier (g:人 → w:人工). This is a glyph ego
-      // graph — byGlyph is keyed by glyph, never by a word surface — so a word
-      // target here would render a bubble that resolves to nothing on click.
-      if (!e.from.startsWith('g:') || !e.to.startsWith('g:')) return;
-      const f = e.from.slice(2), t = e.to.slice(2);
-      (appears[f] = appears[f] || []).push(t);
-      (parts[t] = parts[t] || []).push(f);
-    } else if (e.kind === 'denotes' && e.from.startsWith('g:')) {
-      denotesOf[e.from.slice(2)] = e.to;
-    }
-  });
-  renderIndex(nd.nodes);
+loadGraph().then(g => {
+  G = g;
+  ({ byGlyph, parts, appears, refLabel, denotesOf } = g);
+  renderIndex(g.nodes);
   window.addEventListener('resize', () => { if (selected) drawEgoWires(); });
   focus('木');
 });
@@ -120,13 +100,7 @@ function spiral(n, cx = 50, cy = 50) {
   return { pos, shown, overflow: n - shown };
 }
 
-function facts(glyph) {
-  const cn = bindById[`b:${glyph}@cn`], jp = bindById[`b:${glyph}@jp`];
-  const py = (cn && cn.readings[0]) || '';
-  const kana = (jp && jp.readings[0]) || '';
-  const p = jp && jp.program;
-  return { py, kana, wk: p && p.source === 'wanikani' ? p.name : '', mean: p && p.kind === 'meaning' };
-}
+function facts(glyph) { return gdFacts(G, glyph); }
 
 function nb(glyph, x, y, cls) {
   const fr = byGlyph[glyph] && byGlyph[glyph].frontier ? ' frontier' : '';
@@ -234,14 +208,19 @@ function drawEgoWires() {
   svg.querySelectorAll('line[data-key]').forEach(l => (wireEls[l.dataset.key] = l));
 }
 
-// ── full facts: reuse cards3 (or a frontier stub) ──
+// ── full facts: the authored confusable cluster (if any), then cards3 ──
+// The confusable panel sits ABOVE the card: if this glyph is one of a look-alike set,
+// that is the first thing worth knowing about it — before any reading or mnemonic.
 function renderDetail(glyph) {
   const node = byGlyph[glyph];
   const panel = document.getElementById('detail');
   if (!node) { panel.innerHTML = ''; return; }
+
+  const cf = renderConfusable(G, `g:${glyph}`);
   if (node.frontier) {
     const built = parts[glyph] || [];
     panel.innerHTML = html`
+      ${cf}
       <div class="frontier-card">
         <div class="fc-glyph">${glyph}</div>
         <div class="fc-meta">
@@ -249,37 +228,9 @@ function renderDetail(glyph) {
           ${built.length ? html`<div class="fc-built">含${built.map(g => html` <b>${g}</b>`)}</div>` : ''}
         </div>
       </div>`;
-    return;
+  } else {
+    panel.innerHTML = html`${cf}${renderCard(cardFromNode(G, node))}`;
   }
-  panel.innerHTML = renderCard(cardFromNode(node));
+  bindConfusable(panel, id => { if (id.startsWith('g:')) focus(id.slice(2)); });
   initHanzi();
-}
-
-function cardFromNode(node) {
-  const cn = bindById[`b:${node.glyph}@cn`], jp = bindById[`b:${node.glyph}@jp`];
-  return {
-    glyph: node.glyph, tag: TAGMAP[node.tier],
-    image: node.media.image, hw: node.media.hw,
-    // content-keyed bank keys stamped on the node by build-graph (cnSrc/jpSrc)
-    cnAudioKey: node.cnAudioKey, cnExAudioKey: node.cnExAudioKey,
-    jpAudioKey: node.jpAudioKey, jpExAudioKey: node.jpExAudioKey,
-    cn: view(cn), jp: view(jp), wk: wkFrom(jp), kanji: kanjiFrom(jp),
-  };
-}
-function kanjiFrom(jp) {
-  const k = jp.program && jp.program.kanji;
-  return k ? { name: k.name, readings: k.readings, on: k.on, level: k.level } : null;
-}
-function view(b) {
-  const v = { name: b.name, reading: b.readings[0] || '', gloss: b.gloss, extra: b.extra };
-  if (b.appearsIn) v.appearsIn = { char: b.appearsIn.glyph, reading: b.appearsIn.reading, gloss: b.appearsIn.gloss };
-  return v;
-}
-function wkFrom(jp) {
-  const p = jp.program;
-  if (!p || p.source !== 'wanikani' || !p.name) return null;
-  const wk = { name: p.name, level: p.level, kind: p.kind };
-  if (p.altglyph) wk.glyph = p.altglyph;
-  if (p.icon) wk.icon = p.icon;
-  return wk;
 }
