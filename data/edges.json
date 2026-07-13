@@ -603,6 +603,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:ム",
+      "to": "r:private",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:台",
+      "kind": "composes"
+    },
+    {
       "from": "g:乚",
       "to": "r:hook-stroke",
       "kind": "denotes"
@@ -2068,6 +2078,11 @@
     {
       "from": "g:口",
       "to": "g:古",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:台",
       "kind": "composes"
     },
     {
@@ -4248,8 +4263,58 @@
       "kind": "denotes"
     },
     {
+      "from": "g:五",
+      "to": "w:五つ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:五つ@jp",
+      "to": "r:five",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:五",
+      "to": "w:五十@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:五十@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:五十@jp",
+      "to": "r:fifty",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:中@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:中@jp",
+      "to": "r:middle",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:六",
+      "to": "w:六@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:六@jp",
+      "to": "r:six",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
+      "kind": "variant"
+    },
+    {
+      "from": "g:ム",
+      "to": "g:厶",
       "kind": "variant"
     },
     {

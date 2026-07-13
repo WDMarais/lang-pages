@@ -412,6 +412,43 @@
       "reading": "さい",
       "gloss": "… years old (age counter, e.g. 30才; substitutes for 歳)",
       "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "五つ",
+      "audience": "jp",
+      "parts": ["五"],
+      "denotes": "five",
+      "reading": "いつつ",
+      "gloss": "five things",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "五十",
+      "audience": "jp",
+      "parts": ["五", "十"],
+      "denotes": "fifty",
+      "reading": "ごじゅう",
+      "gloss": "fifty",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "中",
+      "audience": "jp",
+      "parts": ["中"],
+      "denotes": "middle",
+      "reading": "なか",
+      "gloss": "middle; inside",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "六",
+      "audience": "jp",
+      "parts": ["六"],
+      "denotes": "six",
+      "reading": "ろく",
+      "gloss": "six",
+      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
     }
   ]
 }

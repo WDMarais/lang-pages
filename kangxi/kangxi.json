@@ -6252,6 +6252,40 @@
           "cnExAudioKey": "you3"
         },
         {
+          "glyph": "ム",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "ム",
+            "reading": "",
+            "gloss": "private",
+            "extra": "形如片假名「ム」· 同康熙部首 厶 (sī «private») · 见于 台/公/私/去 的上部",
+            "appearsIn": {
+              "char": "台",
+              "reading": "tái",
+              "gloss": "platform"
+            }
+          },
+          "jp": {
+            "name": "ム",
+            "reading": "",
+            "gloss": "private",
+            "extra": "片仮名「ム」· 康熙部首「厶」に同じ形 · 台/公/私/去 の上部",
+            "appearsIn": {
+              "char": "台",
+              "reading": "だい",
+              "gloss": "platform; stand"
+            }
+          },
+          "wk": {
+            "name": "Private",
+            "kind": "meaning"
+          },
+          "cnExAudioKey": "tai2",
+          "jpExAudioKey": "dai"
+        },
+        {
           "glyph": "乚",
           "tag": "comp",
           "image": "",

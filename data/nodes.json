@@ -1581,6 +1581,31 @@
       ]
     },
     {
+      "id": "g:ム",
+      "kind": "glyph",
+      "glyph": "ム",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnExAudioKey": "tai2",
+      "jpExAudioKey": "dai"
+    },
+    {
+      "id": "r:private",
+      "kind": "referent",
+      "label": "private"
+    },
+    {
+      "id": "g:台",
+      "kind": "glyph",
+      "glyph": "台",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:乚",
       "kind": "glyph",
       "glyph": "乚",
@@ -1895,12 +1920,10 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "si1"
-    },
-    {
-      "id": "r:private",
-      "kind": "referent",
-      "label": "private"
+      "cnAudioKey": "si1",
+      "variants": [
+        "ム"
+      ]
     },
     {
       "id": "g:又",
@@ -6184,6 +6207,68 @@
       "id": "r:years-old",
       "kind": "referent",
       "label": "… years old (age counter, e.g. 30才; substitutes for 歳)"
+    },
+    {
+      "id": "w:五つ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "五つ",
+      "reading": "いつつ",
+      "gloss": "five things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:五十@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "五十",
+      "reading": "ごじゅう",
+      "gloss": "fifty",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:fifty",
+      "kind": "referent",
+      "label": "fifty"
+    },
+    {
+      "id": "w:中@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "中",
+      "reading": "なか",
+      "gloss": "middle; inside",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:六@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "六",
+      "reading": "ろく",
+      "gloss": "six",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

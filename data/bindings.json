@@ -2998,6 +2998,39 @@
       "extra": "片假名「ナ」に同じ形 · 友/右/有 の上部 · WK は片仮名「ナ」で扱う"
     },
     {
+      "id": "b:ム@cn",
+      "glyph_id": "g:ム",
+      "lang": "cn",
+      "name": "ム",
+      "readings": [],
+      "gloss": "private",
+      "extra": "形如片假名「ム」· 同康熙部首 厶 (sī «private») · 见于 台/公/私/去 的上部",
+      "appearsIn": {
+        "glyph": "台",
+        "reading": "tái",
+        "gloss": "platform"
+      }
+    },
+    {
+      "id": "b:ム@jp",
+      "glyph_id": "g:ム",
+      "lang": "jp",
+      "name": "ム",
+      "readings": [],
+      "gloss": "private",
+      "extra": "片仮名「ム」· 康熙部首「厶」に同じ形 · 台/公/私/去 の上部",
+      "appearsIn": {
+        "glyph": "台",
+        "reading": "だい",
+        "gloss": "platform; stand"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Private",
+        "kind": "meaning"
+      }
+    },
+    {
       "id": "b:乚@cn",
       "glyph_id": "g:乚",
       "lang": "cn",
