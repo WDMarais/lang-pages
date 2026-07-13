@@ -225,11 +225,14 @@ Surfaced while tracing; not yet fixed. Ranked roughly by bite:
    and README derive from.
 5. **`composes` field on symbols is vestigial** — sparsely authored and not the edge
    source. Either make it authoritative (feed the graph) or drop it.
-6. **Card scaffolder (high leverage for ingest).** Nothing turns a bare glyph into a
-   symbol stub; `cp`, `class`, `kangxi` #, and decomposition are looked up by
-   hand every time. A `data/scaffold.py <glyph>…` emitting a stub with those derived
-   and `TODO` markers on the judgment fields (readings, program `kind`) would cut most
-   of the per-glyph toil in Step 1.
+6. **~~Card scaffolder~~ — DONE.** `python3 data/scaffold.py <glyph>… [--fetch]`
+   writes a stub with `cp`, `kangxi` #, `class` and `form.hw` derived (and `--fetch`
+   pulls HanziWriter data), leaving a literal `TODO` on every judgment field —
+   readings, glosses, program `kind`. It deliberately does **not** guess content: a
+   stub that invents a reading is worse than no stub. Run it, fill the TODOs, then
+   take the normal path from step 3. Still hand-work: `class` defaults to `char`
+   (carrying a Kangxi number doesn't settle it — 口 is a char, 亠 is a comp), and
+   the `_spine.json` editorial position.
 7. **Referent (shared) vs glyph-specific images.** `referents.json` is meaning-homed
    — one asset per gloss, shared by every glyph that denotes it. The test for where an
    image lives is NOT shape-vs-meaning but **generalization**: *would it make sense on
