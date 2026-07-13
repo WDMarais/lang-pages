@@ -211,6 +211,42 @@
       }
     },
     {
+      "id": "b:四@cn",
+      "glyph_id": "g:四",
+      "lang": "cn",
+      "name": "四",
+      "readings": [
+        "sì"
+      ],
+      "gloss": "four",
+      "extra": "数字「四」· 四月、四十"
+    },
+    {
+      "id": "b:四@jp",
+      "glyph_id": "g:四",
+      "lang": "jp",
+      "name": "四",
+      "readings": [
+        "シ"
+      ],
+      "gloss": "four",
+      "extra": "漢字「四」(シ · よん・よっ-つ) · 四月 · 日常は よん が普通",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Four",
+          "readings": [
+            "シ"
+          ],
+          "on": true,
+          "kun": [
+            "よん",
+            "よっ"
+          ]
+        }
+      }
+    },
+    {
       "id": "b:亠@cn",
       "glyph_id": "g:亠",
       "lang": "cn",
@@ -1616,6 +1652,111 @@
             "なか"
           ],
           "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:出@cn",
+      "glyph_id": "g:出",
+      "lang": "cn",
+      "name": "出",
+      "readings": [
+        "chū"
+      ],
+      "gloss": "to go out; exit",
+      "extra": "屮 + 凵 · 本象足(止)出于坎穴«离开» · 出口、出去"
+    },
+    {
+      "id": "b:出@jp",
+      "glyph_id": "g:出",
+      "lang": "jp",
+      "name": "出",
+      "readings": [
+        "シュツ"
+      ],
+      "gloss": "exit; go out",
+      "extra": "漢字「出」(で-る · シュツ) · 出口、外出",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Exit",
+          "readings": [
+            "シュツ"
+          ],
+          "on": true,
+          "kun": [
+            "で"
+          ]
+        }
+      }
+    },
+    {
+      "id": "b:右@cn",
+      "glyph_id": "g:右",
+      "lang": "cn",
+      "name": "右",
+      "readings": [
+        "yòu"
+      ],
+      "gloss": "right (side)",
+      "extra": "𠂇 + 口 · 右手、左右、右边"
+    },
+    {
+      "id": "b:右@jp",
+      "glyph_id": "g:右",
+      "lang": "jp",
+      "name": "右",
+      "readings": [
+        "みぎ"
+      ],
+      "gloss": "right (side)",
+      "extra": "漢字「右」(みぎ · ウ・ユウ) · 右手、左右",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Right",
+          "readings": [
+            "ウ"
+          ],
+          "on": true,
+          "kun": [
+            "みぎ"
+          ]
+        }
+      }
+    },
+    {
+      "id": "b:左@cn",
+      "glyph_id": "g:左",
+      "lang": "cn",
+      "name": "左",
+      "readings": [
+        "zuǒ"
+      ],
+      "gloss": "left (side)",
+      "extra": "𠂇 + 工 · 与 右 (𠂇 + 口) 成对 · 左手、左右"
+    },
+    {
+      "id": "b:左@jp",
+      "glyph_id": "g:左",
+      "lang": "jp",
+      "name": "左",
+      "readings": [
+        "ひだり"
+      ],
+      "gloss": "left (side)",
+      "extra": "漢字「左」(ひだり · サ) · 右 (𠂇 + 口) と対 · 左手、左右",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Left",
+          "readings": [
+            "サ"
+          ],
+          "on": true,
+          "kun": [
+            "ひだり"
+          ]
         }
       }
     },

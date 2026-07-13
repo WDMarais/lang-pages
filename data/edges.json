@@ -37,6 +37,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:四",
+      "to": "r:four",
+      "kind": "denotes"
+    },
+    {
       "from": "g:亠",
       "to": "r:lid",
       "kind": "denotes"
@@ -318,6 +323,21 @@
       "from": "g:中",
       "to": "g:忠",
       "kind": "composes"
+    },
+    {
+      "from": "g:出",
+      "to": "r:go-out",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:右",
+      "to": "r:right",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:左",
+      "to": "r:left",
+      "kind": "denotes"
     },
     {
       "from": "g:王",
@@ -1960,6 +1980,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:屮",
+      "to": "g:出",
+      "kind": "composes"
+    },
+    {
+      "from": "g:凵",
+      "to": "g:出",
+      "kind": "composes"
+    },
+    {
       "from": "g:丿",
       "to": "g:刀",
       "kind": "composes"
@@ -2086,6 +2116,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:𠂇",
+      "to": "g:右",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:右",
+      "kind": "composes"
+    },
+    {
       "from": "g:人",
       "to": "g:合",
       "kind": "composes"
@@ -2128,6 +2168,16 @@
     {
       "from": "g:一",
       "to": "g:囗",
+      "kind": "composes"
+    },
+    {
+      "from": "g:囗",
+      "to": "g:四",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "g:四",
       "kind": "composes"
     },
     {
@@ -2294,6 +2344,16 @@
     {
       "from": "g:丄",
       "to": "g:工",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂇",
+      "to": "g:左",
+      "kind": "composes"
+    },
+    {
+      "from": "g:工",
+      "to": "g:左",
       "kind": "composes"
     },
     {
@@ -4305,6 +4365,81 @@
     {
       "from": "w:六@jp",
       "to": "r:six",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:六",
+      "to": "w:六つ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:六つ@jp",
+      "to": "r:six",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十六@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:六",
+      "to": "w:十六@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十六@jp",
+      "to": "r:sixteen",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:円",
+      "to": "w:〜円@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:〜円@jp",
+      "to": "r:yen",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:千",
+      "to": "w:千円@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:円",
+      "to": "w:千円@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:千円@jp",
+      "to": "r:thousand-yen",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:手@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:手@jp",
+      "to": "r:hand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:下手@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:下手@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:下手@jp",
+      "to": "r:unskillful",
       "kind": "denotes"
     },
     {

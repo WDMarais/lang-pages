@@ -115,6 +115,10 @@
     "text": "ひ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hidari.mp3": {
+    "text": "ひだり",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hidaribarai.mp3": {
     "text": "ひだりばらい",
     "voice": "ja-JP-NanamiNeural"
@@ -263,6 +267,10 @@
     "text": "み",
     "voice": "ja-JP-NanamiNeural"
   },
+  "migi.mp3": {
+    "text": "みぎ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "migibarai.mp3": {
     "text": "みぎばらい",
     "voice": "ja-JP-NanamiNeural"
@@ -397,6 +405,10 @@
   },
   "shu.mp3": {
     "text": "シュ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shutsu.mp3": {
+    "text": "シュツ",
     "voice": "ja-JP-NanamiNeural"
   },
   "shuu.mp3": {

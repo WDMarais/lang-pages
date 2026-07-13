@@ -93,6 +93,24 @@
           "kanji": { "name": "Three", "readings": ["サン"], "on": true, "kun": ["み"], "level": 1 }
         },
         {
+          "glyph": "四",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "si4",
+          "jpAudioKey": "shi",
+          "cn": {
+            "name": "四", "reading": "sì", "gloss": "four",
+            "extra": "数字「四」· 四月、四十"
+          },
+          "jp": {
+            "name": "四", "reading": "シ", "gloss": "four",
+            "extra": "漢字「四」(シ · よん・よっ-つ) · 四月 · 日常は よん が普通"
+          },
+          "wk": null,
+          "kanji": { "name": "Four", "readings": ["シ"], "on": true, "kun": ["よん", "よっ"] }
+        },
+        {
           "glyph": "大",
           "tag": "char",
           "image": "",
@@ -605,6 +623,60 @@
           },
           "wk": { "name": "Middle", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Middle", "readings": ["チュウ"], "on": true, "kun": ["なか"], "level": 2 }
+        },
+        {
+          "glyph": "出",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "chu1",
+          "jpAudioKey": "shutsu",
+          "cn": {
+            "name": "出", "reading": "chū", "gloss": "to go out; exit",
+            "extra": "屮 + 凵 · 本象足(止)出于坎穴«离开» · 出口、出去"
+          },
+          "jp": {
+            "name": "出", "reading": "シュツ", "gloss": "exit; go out",
+            "extra": "漢字「出」(で-る · シュツ) · 出口、外出"
+          },
+          "wk": null,
+          "kanji": { "name": "Exit", "readings": ["シュツ"], "on": true, "kun": ["で"] }
+        },
+        {
+          "glyph": "右",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "you4",
+          "jpAudioKey": "migi",
+          "cn": {
+            "name": "右", "reading": "yòu", "gloss": "right (side)",
+            "extra": "𠂇 + 口 · 右手、左右、右边"
+          },
+          "jp": {
+            "name": "右", "reading": "みぎ", "gloss": "right (side)",
+            "extra": "漢字「右」(みぎ · ウ・ユウ) · 右手、左右"
+          },
+          "wk": null,
+          "kanji": { "name": "Right", "readings": ["ウ"], "on": true, "kun": ["みぎ"] }
+        },
+        {
+          "glyph": "左",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "zuo3",
+          "jpAudioKey": "hidari",
+          "cn": {
+            "name": "左", "reading": "zuǒ", "gloss": "left (side)",
+            "extra": "𠂇 + 工 · 与 右 (𠂇 + 口) 成对 · 左手、左右"
+          },
+          "jp": {
+            "name": "左", "reading": "ひだり", "gloss": "left (side)",
+            "extra": "漢字「左」(ひだり · サ) · 右 (𠂇 + 口) と対 · 左手、左右"
+          },
+          "wk": null,
+          "kanji": { "name": "Left", "readings": ["サ"], "on": true, "kun": ["ひだり"] }
         },
         {
           "glyph": "王",

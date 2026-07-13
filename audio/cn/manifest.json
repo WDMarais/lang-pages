@@ -92,7 +92,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "chu1.mp3": {
-    "text": "初",
+    "text": "出",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "chuan1.mp3": {
@@ -961,6 +961,10 @@
   },
   "zu2.mp3": {
     "text": "足",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zuo3.mp3": {
+    "text": "左",
     "voice": "zh-CN-XiaoxiaoNeural"
   }
 }

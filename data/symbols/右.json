@@ -1,0 +1,42 @@
+{
+  "glyph": "右",
+  "cp": "U+53F3",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "𠂇",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "右",
+      "reading": "yòu",
+      "gloss": "right (side)",
+      "extra": "𠂇 + 口 · 右手、左右、右边"
+    },
+    "jp": {
+      "name": "右",
+      "reading": "みぎ",
+      "gloss": "right (side)",
+      "extra": "漢字「右」(みぎ · ウ・ユウ) · 右手、左右"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Right",
+      "readings": [
+        "ウ"
+      ],
+      "on": true,
+      "kun": [
+        "みぎ"
+      ]
+    }
+  ]
+}

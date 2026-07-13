@@ -449,6 +449,61 @@
       "reading": "ろく",
       "gloss": "six",
       "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+    },
+    {
+      "surface": "六つ",
+      "audience": "jp",
+      "parts": ["六"],
+      "denotes": "six",
+      "reading": "むっつ",
+      "gloss": "six things",
+      "okurigana": "つ",
+      "program": { "source": "wanikani", "kind": "vocab" }
+    },
+    {
+      "surface": "十六",
+      "audience": "jp",
+      "parts": ["十", "六"],
+      "denotes": "sixteen",
+      "reading": "じゅうろく",
+      "gloss": "sixteen",
+      "program": { "source": "wanikani", "kind": "vocab" }
+    },
+    {
+      "surface": "〜円",
+      "audience": "jp",
+      "parts": ["円"],
+      "denotes": "yen",
+      "reading": "えん",
+      "gloss": "… yen (currency counter, e.g. 千円; the money sense of 円 «circle»)",
+      "program": { "source": "wanikani", "kind": "vocab" }
+    },
+    {
+      "surface": "千円",
+      "audience": "jp",
+      "parts": ["千", "円"],
+      "denotes": "thousand-yen",
+      "reading": "せんえん",
+      "gloss": "1000 yen",
+      "program": { "source": "wanikani", "kind": "vocab" }
+    },
+    {
+      "surface": "手",
+      "audience": "jp",
+      "parts": ["手"],
+      "denotes": "hand",
+      "reading": "て",
+      "gloss": "hand",
+      "program": { "source": "wanikani", "kind": "vocab" }
+    },
+    {
+      "surface": "下手",
+      "audience": "jp",
+      "parts": ["下", "手"],
+      "denotes": "unskillful",
+      "reading": "へた",
+      "gloss": "unskillful; bad at (lit. below-hand)",
+      "program": { "source": "wanikani", "kind": "vocab" }
     }
   ]
 }

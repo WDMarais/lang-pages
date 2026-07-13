@@ -1,0 +1,38 @@
+{
+  "glyph": "出",
+  "cp": "U+51FA",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "出",
+      "reading": "chū",
+      "gloss": "to go out; exit",
+      "extra": "屮 + 凵 · 本象足(止)出于坎穴«离开» · 出口、出去"
+    },
+    "jp": {
+      "name": "出",
+      "reading": "シュツ",
+      "gloss": "exit; go out",
+      "extra": "漢字「出」(で-る · シュツ) · 出口、外出"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Exit",
+      "readings": [
+        "シュツ"
+      ],
+      "on": true,
+      "kun": [
+        "で"
+      ]
+    }
+  ]
+}

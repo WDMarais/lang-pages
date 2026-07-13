@@ -1,0 +1,39 @@
+{
+  "glyph": "四",
+  "cp": "U+56DB",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "四",
+      "reading": "sì",
+      "gloss": "four",
+      "extra": "数字「四」· 四月、四十"
+    },
+    "jp": {
+      "name": "四",
+      "reading": "シ",
+      "gloss": "four",
+      "extra": "漢字「四」(シ · よん・よっ-つ) · 四月 · 日常は よん が普通"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Four",
+      "readings": [
+        "シ"
+      ],
+      "on": true,
+      "kun": [
+        "よん",
+        "よっ"
+      ]
+    }
+  ]
+}

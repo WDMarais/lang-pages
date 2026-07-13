@@ -93,6 +93,24 @@
       "label": "three"
     },
     {
+      "id": "g:四",
+      "kind": "glyph",
+      "glyph": "四",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "si4",
+      "jpAudioKey": "shi"
+    },
+    {
+      "id": "r:four",
+      "kind": "referent",
+      "label": "four"
+    },
+    {
       "id": "g:亠",
       "kind": "glyph",
       "glyph": "亠",
@@ -801,6 +819,60 @@
       "glyph": "忠",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:出",
+      "kind": "glyph",
+      "glyph": "出",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "chu1",
+      "jpAudioKey": "shutsu"
+    },
+    {
+      "id": "r:go-out",
+      "kind": "referent",
+      "label": "to go out; exit"
+    },
+    {
+      "id": "g:右",
+      "kind": "glyph",
+      "glyph": "右",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "you4",
+      "jpAudioKey": "migi"
+    },
+    {
+      "id": "r:right",
+      "kind": "referent",
+      "label": "right (side)"
+    },
+    {
+      "id": "g:左",
+      "kind": "glyph",
+      "glyph": "左",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zuo3",
+      "jpAudioKey": "hidari"
+    },
+    {
+      "id": "r:left",
+      "kind": "referent",
+      "label": "left (side)"
     },
     {
       "id": "g:王",
@@ -6269,6 +6341,105 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "id": "w:六つ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "六つ",
+      "reading": "むっつ",
+      "gloss": "six things",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:十六@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十六",
+      "reading": "じゅうろく",
+      "gloss": "sixteen",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:sixteen",
+      "kind": "referent",
+      "label": "sixteen"
+    },
+    {
+      "id": "w:〜円@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "〜円",
+      "reading": "えん",
+      "gloss": "… yen (currency counter, e.g. 千円; the money sense of 円 «circle»)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:yen",
+      "kind": "referent",
+      "label": "… yen (currency counter, e.g. 千円; the money sense of 円 «circle»)"
+    },
+    {
+      "id": "w:千円@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "千円",
+      "reading": "せんえん",
+      "gloss": "1000 yen",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:thousand-yen",
+      "kind": "referent",
+      "label": "1000 yen"
+    },
+    {
+      "id": "w:手@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "手",
+      "reading": "て",
+      "gloss": "hand",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:下手@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "下手",
+      "reading": "へた",
+      "gloss": "unskillful; bad at (lit. below-hand)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:unskillful",
+      "kind": "referent",
+      "label": "unskillful; bad at (lit. below-hand)"
     }
   ]
 }
