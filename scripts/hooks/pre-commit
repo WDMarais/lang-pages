@@ -16,10 +16,11 @@ cd "$repo_root"
 
 mapfile -t staged < <(git diff --cached --name-only --diff-filter=ACM)
 
-js=(); py=()
+js=(); py=(); src=0
 for f in "${staged[@]}"; do
   case "$f" in
     shared/vendor/*) ;;                 # vendored library — never ours to lint
+    data/symbols/*.json|data/words.json) src=1 ;;   # authored source layer
     *.js) js+=("$f") ;;
     *.py) py+=("$f") ;;
   esac
@@ -40,6 +41,17 @@ if ((${#py[@]})); then
     ruff check "${py[@]}" || status=1
   else
     echo "pre-commit: ruff not installed (run scripts/dev-setup.sh) — skipping Python lint" >&2
+  fi
+fi
+
+# Authored source layer changed → validate the whole set (integrity is global: one
+# edited symbol can dangle a reference from another), so check-source runs in full,
+# not just on the staged files.
+if ((src)); then
+  if command -v python3 >/dev/null 2>&1; then
+    python3 data/check-source.py || status=1
+  else
+    echo "pre-commit: python3 not found — skipping source-integrity gate" >&2
   fi
 fi
 
