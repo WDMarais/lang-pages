@@ -25,4 +25,4 @@ echo "==> reload nginx"
 sudo systemctl reload nginx
 
 echo ""
-echo "done -- verify: bash scripts/check-deploy.sh"
+echo "done -- verify: python3 scripts/check-deploy.py"
