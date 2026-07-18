@@ -21,14 +21,14 @@ const JP_NUM = { one: 1, two: 2, three: 3, four: 4, five: 5,
 // Split kanji readings into 音読み / 訓読み. `readings` are on'yomi when on=true,
 // else kun'yomi; `kun` is always kun. (Same reading-class logic as cards3.js.)
 function jpReadings(kanji) {
-  if (!kanji) return { on: [], kun: [] };
+  if (!kanji) { return { on: [], kun: [] }; }
   const on = kanji.on ? (kanji.readings || []) : [];
   const kun = [...(kanji.on ? [] : (kanji.readings || [])), ...(kanji.kun || [])];
   return { on, kun };
 }
 
 function jpReadingRow(cls, tag, list) {
-  if (!list.length) return '';
+  if (!list.length) { return ''; }
   return html`<div class="jp-yomi ${cls}"><span class="jp-yomi-tag">${tag}</span>${list.join('・')}</div>`;
 }
 
@@ -42,7 +42,7 @@ function jpWordSurface(w) {
 }
 
 function jpVocab(words) {
-  if (!words.length) return '';
+  if (!words.length) { return ''; }
   return html`
       <div class="jp-vocab">
         <div class="jp-vocab-tag">語彙</div>
@@ -58,7 +58,7 @@ function jpVocab(words) {
 // Referent slot — the meaning, illustrated. Numbers get a dot-pile (the proof);
 // everything else shows the gloss and leaves the illustration slot for later.
 function jpReferent(ref) {
-  if (!ref) return '';
+  if (!ref) { return ''; }
   const n = JP_NUM[ref.id.slice(2)];  // strip "r:"
   // Ten-frame: a fixed 2×5 grid, first n cells filled. The frame is identical on
   // every number card, so the count reads against a stable anchor (七 = 5 + 2,
@@ -132,9 +132,14 @@ function jpRail(state) {
 }
 
 // Larger, animated glyph for the focus pane (cards3's initHanzi is fixed at 112).
-function jpFocusHanzi(char) {
+// Each select() replaces the focus innerHTML, detaching the previous writer's SVG —
+// but its loop keeps scheduling rAF/timeouts on the orphaned node. Stop the old one
+// (pauseAnimation clears its pending timeouts) before minting the next, or every
+// navigation leaks another live loop.
+function jpFocusHanzi(state, char) {
   const el = document.querySelector('.jp-focus-glyph .sc-hw');
   if (!el || typeof HanziWriter === 'undefined') return;
+  if (state.focusWriter) state.focusWriter.pauseAnimation();
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const navy = getComputedStyle(document.documentElement).getPropertyValue('--navy').trim() || '#1E2A4A';
   const w = HanziWriter.create(el, char, {
@@ -143,6 +148,7 @@ function jpFocusHanzi(char) {
     strokeAnimationSpeed: 1, delayBetweenStrokes: 240,
     charDataLoader: (c, done) => fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(done),
   });
+  state.focusWriter = w;
   if (!reduce) w.loopCharacterAnimation();
 }
 
@@ -153,7 +159,7 @@ function jpMount(state) {
     state.rail.querySelectorAll('.jp-rail-item').forEach(b =>
       b.classList.toggle('sel', b.dataset.id === id));
     const n = state.byId[id];
-    if (n.media && n.media.hw) jpFocusHanzi(n.glyph);
+    if (n.media && n.media.hw) jpFocusHanzi(state, n.glyph);
   };
   state.rail.addEventListener('click', e => {
     const btn = e.target.closest('.jp-rail-item');
@@ -185,7 +191,7 @@ if (jpApp) {
       }
     });
     jpMount({
-      byId, jpBind, vocabOf, refOf,
+      byId, jpBind, vocabOf, refOf, focusWriter: null,
       glyphs: nd.nodes.filter(n => n.kind === 'glyph' && !n.frontier),
       rail: jpApp.querySelector('.jp-rail'),
       focus: jpApp.querySelector('.jp-focus'),
