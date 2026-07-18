@@ -4520,6 +4520,14 @@
       "symmetric": true,
       "cluster": "cg:6",
       "source": "authored"
+    },
+    {
+      "from": "g:毋",
+      "to": "g:母",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:7",
+      "source": "authored"
     }
   ],
   "clusters": [
@@ -4654,6 +4662,32 @@
       ],
       "basis": "orthographic",
       "note": "Kangxi radical 80, two glyph-forms of one slot. 毋 (wú, 'do not') is the authoritative dictionary radical; 母 ('mother') is the form actually seen in the characters classed under it (每/毒/毓). Distinguished by the inner marks — 母 has two dots, 毋 a single bar — so also easily confused."
+    },
+    {
+      "id": "cf:7",
+      "kind": "confusable",
+      "members": [
+        "g:毋",
+        "g:母"
+      ],
+      "basis": "visual",
+      "note": "Same 母-frame, different inner marks: 母 (mother) keeps the two nursing dots; 毋 (wú, 'do not') strikes a single bar through them — 'don't'. A third form 毌 (guàn, 'pass through') runs the bar clear across; not carded here, so this is a pair, not the full 己/已/巳-style triple.",
+      "examples": [
+        {
+          "for": "g:母",
+          "text": "母亲",
+          "gloss": "mǔqīn — mother; 母 keeps the two dots",
+          "lang": "cn",
+          "audioKey": "cn-166846cf0e"
+        },
+        {
+          "for": "g:毋",
+          "text": "毋庸",
+          "gloss": "wúyōng — no need; 毋 = 'do not', one bar through",
+          "lang": "cn",
+          "audioKey": "cn-f193efec44"
+        }
+      ]
     }
   ]
 }

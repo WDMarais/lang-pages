@@ -3,6 +3,10 @@
     "text": "已经",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-166846cf0e.mp3": {
+    "text": "母亲",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-32b967db19.mp3": {
     "text": "人人",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -33,6 +37,10 @@
   },
   "cn-abec9a1cdd.mp3": {
     "text": "非去不可。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-f193efec44.mp3": {
+    "text": "毋庸",
     "voice": "zh-CN-XiaoxiaoNeural"
   }
 }
