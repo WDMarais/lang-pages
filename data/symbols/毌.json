@@ -1,0 +1,24 @@
+{
+  "glyph": "毌",
+  "cp": "U+6BCC",
+  "class": "char",
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "毌",
+      "reading": "guàn",
+      "gloss": "pass through; string together",
+      "extra": "古字，后作 貫/贯 · 母/毋/毌 一族，别于内画：两点/一横/一竖贯穿"
+    },
+    "jp": {
+      "name": "毌",
+      "reading": "",
+      "gloss": "pass through"
+    }
+  },
+  "programs": []
+}

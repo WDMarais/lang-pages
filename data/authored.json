@@ -121,10 +121,11 @@
       "kind": "confusable",
       "between": [
         "母",
-        "毋"
+        "毋",
+        "毌"
       ],
       "basis": "visual",
-      "note": "Same 母-frame, different inner marks: 母 (mother) keeps the two nursing dots; 毋 (wú, 'do not') strikes a single bar through them — 'don't'. A third form 毌 (guàn, 'pass through') runs the bar clear across; not carded here, so this is a pair, not the full 己/已/巳-style triple.",
+      "note": "Same 母-frame, three different inner marks — tell them apart by what's inside the box: 母 (mother) keeps the two nursing dots; 毋 (wú, 'do not') strikes a single bar through them — 'don't'; 毌 (guàn, 'pass through') runs the bar clear across. A 己/已/巳-style triple.",
       "examples": [
         {
           "for": "母",
@@ -135,6 +136,11 @@
           "for": "毋",
           "text": "毋庸",
           "gloss": "wúyōng — no need; 毋 = 'do not', one bar through"
+        },
+        {
+          "for": "毌",
+          "text": "贯",
+          "gloss": "guàn — 毌 depicts piercing-through; it survives atop 贯 (毌+贝) 'pierce / string of cash'"
         }
       ],
       "lang": "cn"

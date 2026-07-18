@@ -2665,6 +2665,23 @@
       "label": "do not"
     },
     {
+      "id": "g:毌",
+      "kind": "glyph",
+      "glyph": "毌",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "guan4"
+    },
+    {
+      "id": "r:pass-through",
+      "kind": "referent",
+      "label": "pass through; string together"
+    },
+    {
       "id": "g:母",
       "kind": "glyph",
       "glyph": "母",

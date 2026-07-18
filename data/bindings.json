@@ -4477,6 +4477,26 @@
       "extra": ""
     },
     {
+      "id": "b:毌@cn",
+      "glyph_id": "g:毌",
+      "lang": "cn",
+      "name": "毌",
+      "readings": [
+        "guàn"
+      ],
+      "gloss": "pass through; string together",
+      "extra": "古字，后作 貫/贯 · 母/毋/毌 一族，别于内画：两点/一横/一竖贯穿"
+    },
+    {
+      "id": "b:毌@jp",
+      "glyph_id": "g:毌",
+      "lang": "jp",
+      "name": "毌",
+      "readings": [],
+      "gloss": "pass through",
+      "extra": ""
+    },
+    {
       "id": "b:母@cn",
       "glyph_id": "g:母",
       "lang": "cn",

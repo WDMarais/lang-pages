@@ -960,6 +960,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:毌",
+      "to": "r:pass-through",
+      "kind": "denotes"
+    },
+    {
       "from": "g:母",
       "to": "r:mother",
       "kind": "denotes"
@@ -4523,6 +4528,22 @@
     },
     {
       "from": "g:毋",
+      "to": "g:毌",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:7",
+      "source": "authored"
+    },
+    {
+      "from": "g:毋",
+      "to": "g:母",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:7",
+      "source": "authored"
+    },
+    {
+      "from": "g:毌",
       "to": "g:母",
       "kind": "confusable",
       "symmetric": true,
@@ -4668,10 +4689,11 @@
       "kind": "confusable",
       "members": [
         "g:毋",
+        "g:毌",
         "g:母"
       ],
       "basis": "visual",
-      "note": "Same 母-frame, different inner marks: 母 (mother) keeps the two nursing dots; 毋 (wú, 'do not') strikes a single bar through them — 'don't'. A third form 毌 (guàn, 'pass through') runs the bar clear across; not carded here, so this is a pair, not the full 己/已/巳-style triple.",
+      "note": "Same 母-frame, three different inner marks — tell them apart by what's inside the box: 母 (mother) keeps the two nursing dots; 毋 (wú, 'do not') strikes a single bar through them — 'don't'; 毌 (guàn, 'pass through') runs the bar clear across. A 己/已/巳-style triple.",
       "examples": [
         {
           "for": "g:母",
@@ -4686,6 +4708,13 @@
           "gloss": "wúyōng — no need; 毋 = 'do not', one bar through",
           "lang": "cn",
           "audioKey": "cn-f193efec44"
+        },
+        {
+          "for": "g:毌",
+          "text": "贯",
+          "gloss": "guàn — 毌 depicts piercing-through; it survives atop 贯 (毌+贝) 'pierce / string of cash'",
+          "lang": "cn",
+          "audioKey": "cn-c571ce8e52"
         }
       ]
     }
