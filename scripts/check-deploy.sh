@@ -42,7 +42,12 @@ WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 
 # Expected blob hash per tracked path, straight out of the ref's tree.
-git ls-tree -r --format='%(objectname) %(path)' "$REF" |
+# core.quotePath=false is load-bearing: git otherwise renders non-ASCII paths
+# as C-quoted octal ("data/symbols/\345\207\272.json"), which no bash glob below
+# matches — silently dropping every CJK-named file (symbols, hanzi-data: >500 of
+# them, over half the tree). That is the exact silent-coverage gap this verifier
+# exists to prevent, so it must not have one itself.
+git -c core.quotePath=false ls-tree -r --format='%(objectname) %(path)' "$REF" |
   while read -r hash path; do
     for p in "${PATTERNS[@]}"; do
       # shellcheck disable=SC2053
