@@ -11,3 +11,6 @@ data/.cache/
 # local venv for headless page-verification tooling (playwright)
 .venv/
 __pycache__/
+
+# npm (eslint dev toolchain)
+node_modules/

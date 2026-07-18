@@ -1,0 +1,14 @@
+# Ruff — lint the Python data pipeline. Deliberately narrow to start, so the
+# rules earn their keep instead of drowning real findings in style noise:
+#   F   pyflakes           — real bugs: unused / undefined / shadowed names
+#   E7  statement style     — no semicolon-chained statements (one per line, the
+#                             Python analog of our braces-always JS rule), no
+#                             ambiguous single-char names (l / O / I)
+#   E9  runtime / syntax    — parse and IO errors
+# Import grouping (E4) and line length (E5) are intentionally left off: the
+# pipeline groups imports on purpose, and wrapping is not worth churning now.
+line-length = 100
+target-version = "py312"
+
+[lint]
+select = ["F", "E7", "E9"]

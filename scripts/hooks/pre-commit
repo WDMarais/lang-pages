@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# Pre-commit lint gate. Activated (once) by scripts/dev-setup.sh via
+#   git config core.hooksPath scripts/hooks
+#
+# Lints only the files staged for this commit, so you are blocked by problems
+# this commit introduces — not by pre-existing debt in files you did not touch.
+# (It lints the working-tree copy, not the staged blob; keep partial staging in
+# mind on a file that also has unstaged edits.)
+#
+# If a linter is not installed, it warns and skips rather than blocking a commit
+# on a machine that never ran dev-setup. Run scripts/dev-setup.sh to wire it up.
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+mapfile -t staged < <(git diff --cached --name-only --diff-filter=ACM)
+
+js=(); py=()
+for f in "${staged[@]}"; do
+  case "$f" in
+    shared/vendor/*) ;;                 # vendored library — never ours to lint
+    *.js) js+=("$f") ;;
+    *.py) py+=("$f") ;;
+  esac
+done
+
+status=0
+
+if ((${#js[@]})); then
+  if [[ -x node_modules/.bin/eslint ]]; then
+    node_modules/.bin/eslint "${js[@]}" || status=1
+  else
+    echo "pre-commit: eslint not installed (run scripts/dev-setup.sh) — skipping JS lint" >&2
+  fi
+fi
+
+if ((${#py[@]})); then
+  if command -v ruff >/dev/null 2>&1; then
+    ruff check "${py[@]}" || status=1
+  else
+    echo "pre-commit: ruff not installed (run scripts/dev-setup.sh) — skipping Python lint" >&2
+  fi
+fi
+
+if ((status != 0)); then
+  echo "" >&2
+  echo "pre-commit: lint failed. Fix, or auto-fix with:" >&2
+  echo "    npm run lint:fix        # JS braces" >&2
+  echo "    ruff check --fix .      # Python" >&2
+  echo "then re-stage and commit again." >&2
+fi
+
+exit "$status"

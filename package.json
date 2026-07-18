@@ -1,0 +1,13 @@
+{
+  "name": "lang-pages",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Static language-study pages; JS linted for the braces-always house style.",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0"
+  }
+}
