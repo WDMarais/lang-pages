@@ -30,12 +30,19 @@ from symbols_io import (
 TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
 ROLE_VALUES = {"semantic", "phonetic", "form"}  # functional role of a part in a whole
-AUTHORED_KINDS = {"confusable"}                 # authored enrichment edges (docs/authored-edges.md)
 AUDIO_LANGS = {"cn", "jp"}                        # languages the sentence bank can voice
-BASIS_VALUES = {"visual", "phonetic", "semantic"}  # WHY two nodes confuse — a render hint,
-#                                                    deliberately a field, not a kind fork:
-#                                                    traversal/gating/sequencing are identical
-#                                                    across bases, only presentation differs.
+# Authored enrichment kinds (docs/authored-edges.md), each with a cluster-id prefix and
+# its own `basis` vocabulary. `basis` stays a FIELD within a kind (a render hint —
+# traversal/gating are identical across bases, only presentation differs). But the two
+# KINDS are ORTHOGONAL axes, not one scale: `confusable` is a form/sound/sense MIX-UP (a
+# learner warning), `cognate` is a shared ORIGIN (an enrichment note). A pair can carry
+# either, both (西/襾), or neither — hence separate kinds, and a basis from one kind is
+# not valid on the other.
+AUTHORED = {
+    "confusable": {"prefix": "cf", "basis": {"visual", "phonetic", "semantic"}},
+    "cognate": {"prefix": "cg", "basis": {"historical", "etymological", "orthographic"}},
+}
+AUTHORED_KINDS = set(AUTHORED)
 
 
 def load_roles():
@@ -268,14 +275,15 @@ def build():
     for i, a in enumerate(authored["edges"]):
         where = "/".join(a.get("between", [])) or f"#{i}"
         aud = a.get("audience")
-        if a.get("kind") not in AUTHORED_KINDS:
-            print(f"⚠ authored[{where}]: unknown kind {a.get('kind')!r} "
+        kind = a.get("kind")
+        if kind not in AUTHORED_KINDS:
+            print(f"⚠ authored[{where}]: unknown kind {kind!r} "
                   f"(expected {sorted(AUTHORED_KINDS)})", file=sys.stderr)
             continue
         basis = a.get("basis")
-        if basis and basis not in BASIS_VALUES:
-            print(f"⚠ authored[{where}]: unknown basis {basis!r} "
-                  f"(expected {sorted(BASIS_VALUES)})", file=sys.stderr)
+        if basis and basis not in AUTHORED[kind]["basis"]:
+            print(f"⚠ authored[{where}]: basis {basis!r} not valid for {kind} "
+                  f"(expected {sorted(AUTHORED[kind]['basis'])})", file=sys.stderr)
             basis = None
         refs = [resolve(r, aud, where) for r in a.get("between", [])]
         if len(refs) < 2 or any(r is None for r in refs):
@@ -301,7 +309,7 @@ def build():
                              "lang": lang,
                              "audioKey": sentence_key(lang, ex["text"]) if lang else None})
 
-        # `confusable` is SYMMETRIC (unlike composes/variant) and N-ARY (己/已/巳 is a
+        # Both authored kinds are SYMMETRIC (unlike composes/variant) and N-ARY (己/已/巳 is a
         # three-way set, not three pairs that happen to coincide). So the shared payload
         # — basis/note/examples — is NORMALIZED onto a cluster record, and the graph gets
         # the pairwise clique of slim links pointing back at it by id.
@@ -311,13 +319,13 @@ def build():
         # non-linguistic node leaks into nodes.json. Endpoints sorted so an edge is
         # order-independent: stable diffs, natural dedup.
         members = sorted(set(refs))
-        cluster = f"cf:{i + 1}"
-        clusters.append({"id": cluster, "kind": "confusable", "members": members,
+        cluster = f"{AUTHORED[kind]['prefix']}:{i + 1}"
+        clusters.append({"id": cluster, "kind": kind, "members": members,
                          **({"basis": basis} if basis else {}),
                          **({"note": a["note"]} if a.get("note") else {}),
                          **({"examples": examples} if examples else {})})
         for x, y in combinations(members, 2):
-            edges.append({"from": x, "to": y, "kind": "confusable", "symmetric": True,
+            edges.append({"from": x, "to": y, "kind": kind, "symmetric": True,
                           "cluster": cluster, "source": "authored"})
 
     # validate the role overlay: in-vocabulary values, and every declared pair
@@ -398,7 +406,8 @@ def main():
           f"({len(composes)} composes [{sum(1 for e in composes if e.get('role'))} typed], "
           f"{sum(1 for e in edges if e['kind']=='denotes')} denotes, "
           f"{sum(1 for e in edges if e['kind']=='variant')} variant, "
-          f"{sum(1 for e in edges if e['kind']=='confusable')} confusable "
+          f"{sum(1 for e in edges if e['kind']=='confusable')} confusable, "
+          f"{sum(1 for e in edges if e['kind']=='cognate')} cognate "
           f"in {len(clusters)} cluster{'' if len(clusters)==1 else 's'})")
 
     # round-trip proof: the graph must faithfully re-emit the symbol projection

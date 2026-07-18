@@ -2,7 +2,7 @@
 
 > Status: **draft / proposal**. Extends `content-graph-schema.md`. Defines the
 > first member of the **authored enrichment layer** — edges a human asserts that
-> the decomposition graph cannot derive. First concrete kind: `confusable`.
+> the decomposition graph cannot derive. Concrete kinds: `confusable`, `cognate`.
 >
 > Design stance (unchanged): **bootstrap, don't boil the ocean.** Ship one
 > explicit file + a linear join in build-graph, hand-write the first few entries,
@@ -137,6 +137,50 @@ regenerates on a voice change).
 An example with no resolvable `lang` still renders its text and simply carries no key — and
 a null key already means "hide the play button" (09174a9), so silence degrades cleanly.
 
+## The `cognate` edge — shared origin, not shared look
+
+`confusable` and `cognate` are **orthogonal axes**, not two points on one scale, so
+`cognate` is a genuine second *kind* rather than another `basis` value:
+
+| pair | look alike? (`confusable`) | shared origin? (`cognate`) |
+|------|:---:|:---:|
+| カ / 力 | ✅ | ❌ (katakana vs kanji — unrelated) |
+| 東 / 东 | ❌ | ✅ (same char, traditional/simplified) |
+| 西 / 襾 | ✅ | ✅ (same 西-body **and** Kangxi radical 146) |
+
+Because a pair can carry either, both, or neither, one edge with a widened `basis`
+would conflate two independent relations. They also differ in *intent*: `confusable`
+is a **warning** (about the learner's failure mode — "don't mix these up"), `cognate`
+is **enrichment** (about the writing system's structure — "these share an origin").
+
+Everything else is shared with `confusable` — symmetric, n-ary, clique + `clusters`
+payload, `source:"authored"`, additive to `edges.json` (round-trip untouched). The two
+differ only in three registry fields (`data/build-graph.py`, `AUTHORED`):
+
+| kind | cluster prefix | `basis` vocabulary |
+|------|----------------|--------------------|
+| `confusable` | `cf:` | `visual` \| `phonetic` \| `semantic` |
+| `cognate` | `cg:` | `historical` \| `etymological` \| `orthographic` |
+
+A `basis` from one kind is **not valid on the other** (build-graph drops it with a
+warning) — that's what keeps the axes from bleeding together.
+
+```jsonc
+{
+  "kind": "cognate",
+  "between": ["西", "襾"],               // same ref sugar + validation as confusable
+  "basis": "historical",                 // historical | etymological | orthographic
+  "note": "同族 — 西 is classed under Kangxi radical 146 襾 'cover'; same origin, now distinct senses."
+  // examples OPTIONAL — a cognate is a statement about origin, not a per-glyph usage demo,
+  // so v1 ships note-only. When present, they voice exactly as confusable examples do.
+}
+```
+
+Shipped: `cg:5` — 西 / 襾, basis `historical`. The same pair also carries `cf:4`
+(basis `visual`): the graph records both that they look alike **and** that they share
+radical 146, without merging them into one node (that would be the mis-`variant` this
+whole change corrected).
+
 ## Provenance (runtime tag, not a boundary mechanism)
 
 `source:"authored"` distinguishes these from derived edges at *runtime* — for a
@@ -151,9 +195,9 @@ into `edges.json`.
 ## Where it sits in the edge taxonomy
 
 ```
-STRUCTURAL (derived, acyclic, hard)   composes            → SRS composite gates
+STRUCTURAL (derived, acyclic, hard)   composes                     → SRS composite gates
 DERIVED    (from bindings)            denotes · variant
-AUTHORED   (enrichment, cyclic, soft) confusable  ← NEW   → sequencing + contrast render, NOT a gate
+AUTHORED   (enrichment, cyclic, soft) confusable · cognate ← NEW    → sequencing + contrast render, NOT a gate
 ```
 
 `confusable` is the first named member of the **enrichment** family sketched as

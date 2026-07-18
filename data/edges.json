@@ -4496,6 +4496,22 @@
       "symmetric": true,
       "cluster": "cf:3",
       "source": "authored"
+    },
+    {
+      "from": "g:襾",
+      "to": "g:西",
+      "kind": "confusable",
+      "symmetric": true,
+      "cluster": "cf:4",
+      "source": "authored"
+    },
+    {
+      "from": "g:襾",
+      "to": "g:西",
+      "kind": "cognate",
+      "symmetric": true,
+      "cluster": "cg:5",
+      "source": "authored"
     }
   ],
   "clusters": [
@@ -4584,6 +4600,42 @@
           "audioKey": "cn-abec9a1cdd"
         }
       ]
+    },
+    {
+      "id": "cf:4",
+      "kind": "confusable",
+      "members": [
+        "g:襾",
+        "g:西"
+      ],
+      "basis": "visual",
+      "note": "Same body shape. 西 (west) and the cover radical 襾 share the 西-form — 襾 is 西 with an extra horizontal stroke across the very top, and its top-only variant 覀 sits atop 要/票/覆. So a 西-looking top in those characters is the COVER radical, not 西 'west'.",
+      "examples": [
+        {
+          "for": "g:西",
+          "text": "东西",
+          "gloss": "dōngxi — thing (lit. east-west); here 西 = west",
+          "lang": "cn",
+          "audioKey": "cn-949fb2e914"
+        },
+        {
+          "for": "g:襾",
+          "text": "要",
+          "gloss": "yào — to want / important; its top is the 覀/襾 cover radical, NOT 西",
+          "lang": "cn",
+          "audioKey": "cn-93e27107a1"
+        }
+      ]
+    },
+    {
+      "id": "cg:5",
+      "kind": "cognate",
+      "members": [
+        "g:襾",
+        "g:西"
+      ],
+      "basis": "historical",
+      "note": "同族 — 西 is classified under Kangxi radical 146 襾 ('cover'). Historically one radical family: 西 became the everyday character 'west', while 襾 (and its top-form 覀) is the radical 'cover' seen atop 要/票/覆. Same origin, now distinct senses — the mirror image of a confusable, which shares a look but not an origin."
     }
   ]
 }
