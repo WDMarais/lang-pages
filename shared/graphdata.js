@@ -28,14 +28,14 @@ function loadGraph() {
     bd.bindings.forEach(b => (G.bindById[b.id] = b));
     nd.nodes.forEach(n => {
       G.byId[n.id] = n;
-      if (n.kind === 'glyph') G.byGlyph[n.glyph] = n;
-      else if (n.kind === 'referent') G.refLabel[n.id] = n.label;
+      if (n.kind === 'glyph') { G.byGlyph[n.glyph] = n; }
+      else if (n.kind === 'referent') { G.refLabel[n.id] = n.label; }
     });
     ed.edges.forEach(e => {
       if (e.kind === 'composes') {
         // composes also carries the word tier (g:人 → w:人工); a glyph ego graph
         // keys on glyphs only, so word targets are skipped here.
-        if (!e.from.startsWith('g:') || !e.to.startsWith('g:')) return;
+        if (!e.from.startsWith('g:') || !e.to.startsWith('g:')) { return; }
         const f = e.from.slice(2), t = e.to.slice(2);
         (G.appears[f] = G.appears[f] || []).push(t);
         (G.parts[t] = G.parts[t] || []).push(f);
@@ -57,15 +57,15 @@ function loadGraph() {
 // ── node → cards3 card (the projection /graph/ and /glyph/ both render) ──
 function gdView(b) {
   const v = { name: b.name, reading: b.readings[0] || '', gloss: b.gloss, extra: b.extra };
-  if (b.appearsIn) v.appearsIn = { char: b.appearsIn.glyph, reading: b.appearsIn.reading, gloss: b.appearsIn.gloss };
+  if (b.appearsIn) { v.appearsIn = { char: b.appearsIn.glyph, reading: b.appearsIn.reading, gloss: b.appearsIn.gloss }; }
   return v;
 }
 function gdWk(jp) {
   const p = jp && jp.program;
-  if (!p || p.source !== 'wanikani' || !p.name) return null;
+  if (!p || p.source !== 'wanikani' || !p.name) { return null; }
   const wk = { name: p.name, level: p.level, kind: p.kind };
-  if (p.altglyph) wk.glyph = p.altglyph;
-  if (p.icon) wk.icon = p.icon;
+  if (p.altglyph) { wk.glyph = p.altglyph; }
+  if (p.icon) { wk.icon = p.icon; }
   return wk;
 }
 function gdKanji(jp) {

@@ -25,9 +25,9 @@ Promise.all([
 
 // jump to a glyph in the ego stage and scroll it into view
 function inspect(glyph) {
-  if (typeof focus === 'function') focus(glyph);
+  if (typeof focus === 'function') { focus(glyph); }
   const ego = document.getElementById('ego');
-  if (ego) ego.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  if (ego) { ego.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
 }
 
 // ── derived views over the graph ────────────────────────────────────────────
@@ -150,13 +150,13 @@ function renderWorklist() {
   const P = partition();
   const isReal = {}, isFront = {};
   CON.nodes.forEach(n => {
-    if (n.kind !== 'glyph') return;
+    if (n.kind !== 'glyph') { return; }
     (n.frontier ? isFront : isReal)[n.id] = n;
   });
   const parts = {}, wholes = {}; // frontier id → real glyphs that are its parts / wholes
   P.composes.forEach(e => {
-    if (isFront[e.to] && isReal[e.from]) (parts[e.to] = parts[e.to] || []).push(CON.byId[e.from].glyph);
-    if (isFront[e.from] && isReal[e.to]) (wholes[e.from] = wholes[e.from] || []).push(CON.byId[e.to].glyph);
+    if (isFront[e.to] && isReal[e.from]) { (parts[e.to] = parts[e.to] || []).push(CON.byId[e.from].glyph); }
+    if (isFront[e.from] && isReal[e.to]) { (wholes[e.from] = wholes[e.from] || []).push(CON.byId[e.to].glyph); }
   });
   const ranked = P.frontier.map(n => ({
     glyph: n.glyph,

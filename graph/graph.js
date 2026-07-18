@@ -28,7 +28,7 @@ loadGraph().then(g => {
   G = g;
   ({ byGlyph, parts, appears, refLabel, denotesOf } = g);
   renderIndex(g.nodes);
-  window.addEventListener('resize', () => { if (selected) drawEgoWires(); });
+  window.addEventListener('resize', () => { if (selected) { drawEgoWires(); } });
   focus('木');
 });
 
@@ -36,7 +36,7 @@ loadGraph().then(g => {
 function renderIndex(nodes) {
   const groups = { stroke: [], component: [], char: [], frontier: [] };
   nodes.forEach(n => {
-    if (n.kind !== 'glyph') return;
+    if (n.kind !== 'glyph') { return; }
     groups[n.frontier ? 'frontier' : n.tier].push(n);
   });
   const ladder = document.getElementById('ladder');
@@ -57,7 +57,7 @@ function renderIndex(nodes) {
   ladder.querySelectorAll('.chip').forEach(c => (chipEls[c.dataset.glyph] = c));
   ladder.addEventListener('click', e => {
     const btn = e.target.closest('.chip');
-    if (btn) focus(btn.dataset.glyph);
+    if (btn) { focus(btn.dataset.glyph); }
   });
 }
 
@@ -147,15 +147,15 @@ function renderEgo(glyph) {
   stage.querySelectorAll('.egonode[data-key]').forEach(e => (egoEls[e.dataset.key] = e));
   stage.querySelectorAll('.egonode.nb').forEach(e => {
     e.addEventListener('click', () => focus(e.dataset.glyph));
-    e.addEventListener('mouseenter', () => { const l = wireEls[e.dataset.key]; if (l) l.classList.add('hot'); });
-    e.addEventListener('mouseleave', () => { const l = wireEls[e.dataset.key]; if (l) l.classList.remove('hot'); });
+    e.addEventListener('mouseenter', () => { const l = wireEls[e.dataset.key]; if (l) { l.classList.add('hot'); } });
+    e.addEventListener('mouseleave', () => { const l = wireEls[e.dataset.key]; if (l) { l.classList.remove('hot'); } });
   });
   stage.querySelectorAll('.ec-part').forEach(e =>
     e.addEventListener('click', () => focus(e.dataset.glyph)));
   stage.querySelectorAll('.ec-var[data-glyph]').forEach(e =>
     e.addEventListener('click', ev => { ev.stopPropagation(); focus(e.dataset.glyph); }));
   const of = stage.querySelector('.overflow');
-  if (of) of.addEventListener('click', () => showList(glyph));
+  if (of) { of.addEventListener('click', () => showList(glyph)); }
   drawEgoWires();
 }
 
@@ -180,28 +180,28 @@ function showList(glyph) {
 function drawEgoWires() {
   const stage = document.getElementById('ego');
   const svg = document.getElementById('egowires');
-  if (!svg) return;
+  if (!svg) { return; }
   const sr = stage.getBoundingClientRect();
   svg.setAttribute('width', sr.width);
   svg.setAttribute('height', sr.height);
   svg.setAttribute('viewBox', `0 0 ${sr.width} ${sr.height}`);
   const ctr = key => {
     const el = egoEls[key];
-    if (!el) return null;
+    if (!el) { return null; }
     const r = el.getBoundingClientRect();
     return { x: r.left - sr.left + r.width / 2, y: r.top - sr.top + r.height / 2 };
   };
   const c = ctr('center');
   const lines = [];
   Object.entries(egoEls).forEach(([key, el]) => {
-    if (key === 'center') return;
+    if (key === 'center') { return; }
     // radial spokes share one origin so they never cross; grade weight by ring
     // (solid → light → dashed) so outer stays ambient without going lineless.
     let cls = 'down';
-    if (el.classList.contains('ring1')) cls += ' r1';
-    else if (el.classList.contains('ring2')) cls += ' r2';
+    if (el.classList.contains('ring1')) { cls += ' r1'; }
+    else if (el.classList.contains('ring2')) { cls += ' r2'; }
     const b = ctr(key);
-    if (c && b) lines.push(html`<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}" data-key="${key}"/>`);
+    if (c && b) { lines.push(html`<line x1="${c.x}" y1="${c.y}" x2="${b.x}" y2="${b.y}" class="wire ${cls}" data-key="${key}"/>`); }
   });
   svg.innerHTML = html`${lines}`;
   wireEls = {};
@@ -231,6 +231,6 @@ function renderDetail(glyph) {
   } else {
     panel.innerHTML = html`${cf}${renderCard(cardFromNode(G, node))}`;
   }
-  bindConfusable(panel, id => { if (id.startsWith('g:')) focus(id.slice(2)); });
+  bindConfusable(panel, id => { if (id.startsWith('g:')) { focus(id.slice(2)); } });
   initHanzi();
 }

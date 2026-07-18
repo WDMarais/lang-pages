@@ -48,11 +48,12 @@ def is_free(lic):
     non-free CC modifiers NonCommercial (-nc) and NoDerivatives (-nd), plus
     fair-use / all-rights-reserved. GFDL-only is skipped (attribution too onerous
     for our use)."""
-    l = (lic or "").strip().lower()
-    if not l or "-nc" in l or "-nd" in l or "fair use" in l or "all rights" in l:
+    norm = (lic or "").strip().lower()
+    reject = ("-nc", "-nd", "fair use", "all rights")
+    accept = ("pdm", "cc0", "public domain", "cc by", "cc-by")
+    if not norm or any(t in norm for t in reject):
         return False
-    return (l.startswith("pd") or "pdm" in l or "cc0" in l
-            or "public domain" in l or "cc by" in l or "cc-by" in l)
+    return norm.startswith("pd") or any(t in norm for t in accept)
 
 
 def search(query, limit=12):
@@ -119,16 +120,19 @@ def fetch(slug, query, label, n):
 
 def main(argv):
     if len(argv) < 2:
-        print(__doc__); return 1
+        print(__doc__)
+        return 1
     require_contact()
     slug, query = argv[0], argv[1]
     label, n = None, 1
     i = 2
     while i < len(argv):
         if argv[i] == "--label":
-            label = argv[i + 1]; i += 2
+            label = argv[i + 1]
+            i += 2
         elif argv[i] == "-n":
-            n = int(argv[i + 1]); i += 2
+            n = int(argv[i + 1])
+            i += 2
         else:
             i += 1
     fetch(slug, query, label, n)

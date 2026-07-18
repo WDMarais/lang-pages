@@ -33,7 +33,6 @@ from symbols_io import (
     on_components,
     on_characters,
     PROGRAM_TIERS,
-    TIER_BY_CARD,
 )
 
 

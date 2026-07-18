@@ -65,7 +65,7 @@ function cfExample(G, ex) {
 // renderConfusable(G, id) → the panel(s) for every cluster `id` belongs to, or '' if none.
 function renderConfusable(G, id) {
   const cs = G.confusOf[id] || [];
-  if (!cs.length) return '';
+  if (!cs.length) { return ''; }
   return html`${cs.map(c => {
     const b = BASIS[c.basis] || { zh: '易混', en: 'confusable' };
     const others = (c.members || []).filter(m => m !== id).length;

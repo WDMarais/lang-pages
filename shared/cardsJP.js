@@ -77,7 +77,7 @@ function jpReferent(ref) {
 
 // WK progression — radical (mnemonic-cautioned) + kanji, demoted to a small strip.
 function jpWk(prog) {
-  if (!prog) return '';
+  if (!prog) { return ''; }
   let rad = '';
   if (prog.name) {
     const meaning = prog.kind === 'meaning';
@@ -88,7 +88,7 @@ function jpWk(prog) {
   const k = prog.kanji;
   const kan = k ? html`<span class="jp-wk-item wk-meaning"><span class="jp-wk-tag">漢字</span> ${k.name}
         <span class="jp-lvl">Lv.${k.level}</span></span>` : '';
-  if (!rad && !kan) return '';
+  if (!rad && !kan) { return ''; }
   return html`<div class="jp-wk">${rad}${kan}</div>`;
 }
 
@@ -119,7 +119,7 @@ function jpFocusCard(state, id) {
 function jpRail(state) {
   return JP_TIER.map(g => {
     const items = state.glyphs.filter(n => n.tier === g.tier);
-    if (!items.length) return '';
+    if (!items.length) { return ''; }
     return html`
       <div class="jp-rail-group">
         <div class="jp-rail-head">${g.label}</div>
@@ -138,8 +138,8 @@ function jpRail(state) {
 // navigation leaks another live loop.
 function jpFocusHanzi(state, char) {
   const el = document.querySelector('.jp-focus-glyph .sc-hw');
-  if (!el || typeof HanziWriter === 'undefined') return;
-  if (state.focusWriter) state.focusWriter.pauseAnimation();
+  if (!el || typeof HanziWriter === 'undefined') { return; }
+  if (state.focusWriter) { state.focusWriter.pauseAnimation(); }
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const navy = getComputedStyle(document.documentElement).getPropertyValue('--navy').trim() || '#1E2A4A';
   const w = HanziWriter.create(el, char, {
@@ -149,7 +149,7 @@ function jpFocusHanzi(state, char) {
     charDataLoader: (c, done) => fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(done),
   });
   state.focusWriter = w;
-  if (!reduce) w.loopCharacterAnimation();
+  if (!reduce) { w.loopCharacterAnimation(); }
 }
 
 function jpMount(state) {
@@ -159,14 +159,14 @@ function jpMount(state) {
     state.rail.querySelectorAll('.jp-rail-item').forEach(b =>
       b.classList.toggle('sel', b.dataset.id === id));
     const n = state.byId[id];
-    if (n.media && n.media.hw) jpFocusHanzi(state, n.glyph);
+    if (n.media && n.media.hw) { jpFocusHanzi(state, n.glyph); }
   };
   state.rail.addEventListener('click', e => {
     const btn = e.target.closest('.jp-rail-item');
-    if (btn) select(btn.dataset.id);
+    if (btn) { select(btn.dataset.id); }
   });
   const first = state.glyphs.find(n => n.tier === 'char') || state.glyphs[0];
-  if (first) select(first.id);
+  if (first) { select(first.id); }
 }
 
 const jpApp = document.getElementById('jp-app');
@@ -179,7 +179,7 @@ if (jpApp) {
     const byId = {};
     nd.nodes.forEach(n => { byId[n.id] = n; });
     const jpBind = {};
-    bd.bindings.forEach(b => { if (b.lang === 'jp') jpBind[b.glyph_id] = b; });
+    bd.bindings.forEach(b => { if (b.lang === 'jp') { jpBind[b.glyph_id] = b; } });
     const vocabOf = {}, refOf = {};
     ed.edges.forEach(e => {
       const from = byId[e.from];

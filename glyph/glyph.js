@@ -13,7 +13,7 @@ loadGraph().then(g => {
   G = g;
   window.addEventListener('hashchange', route);
   const box = document.getElementById('q');
-  box.addEventListener('keydown', e => { if (e.key === 'Enter') submit(box.value); });
+  box.addEventListener('keydown', e => { if (e.key === 'Enter') { submit(box.value); } });
   document.getElementById('go').addEventListener('click', () => submit(box.value));
   document.getElementById('examples').addEventListener('click', e => {
     const b = e.target.closest('[data-goto]');
@@ -24,7 +24,7 @@ loadGraph().then(g => {
 
 function submit(v) {
   const q = (v || '').trim();
-  if (q) location.hash = encodeURIComponent(q);
+  if (q) { location.hash = encodeURIComponent(q); }
 }
 
 // go(target) — target is a node id (g:己 / w:可不@cn) or a bare glyph.
@@ -52,27 +52,27 @@ function route() {
 // Stated generally (not as an audience special-case) it also covers the collision
 // waiting to happen: a one-char word that shares its surface with a glyph node.
 function candidates(q) {
-  if (G.byId[q]) return [G.byId[q]];               // an explicit id is already an identity
+  if (G.byId[q]) { return [G.byId[q]]; }               // an explicit id is already an identity
   const out = [];
-  if (G.byGlyph[q]) out.push(G.byGlyph[q]);        // bare glyph → g:X
+  if (G.byGlyph[q]) { out.push(G.byGlyph[q]); }        // bare glyph → g:X
   for (const aud of ['cn', 'jp']) {                // surface → w:X@aud, every audience
     const n = G.byId[`w:${q}@${aud}`];
-    if (n) out.push(n);
+    if (n) { out.push(n); }
   }
   return out;
 }
 
 function resolve(q) {
   const cs = candidates(q);
-  if (cs.length === 1) return { state: nodeState(cs[0]), node: cs[0], id: cs[0].id };
-  if (cs.length > 1) return { state: 'ambiguous', q, options: cs };
+  if (cs.length === 1) { return { state: nodeState(cs[0]), node: cs[0], id: cs[0].id }; }
+  if (cs.length > 1) { return { state: 'ambiguous', q, options: cs }; }
 
   // nothing carries it — offer its constituent glyphs, which usually DO exist
   const glyphs = [...q].filter(c => G.byGlyph[c]);
   return { state: 'absent', q, glyphs };
 }
 function nodeState(n) {
-  if (n.kind === 'glyph') return n.frontier ? 'frontier' : 'real';
+  if (n.kind === 'glyph') { return n.frontier ? 'frontier' : 'real'; }
   return 'real';
 }
 
@@ -236,7 +236,7 @@ function wordBody(n) {
 }
 
 function relRow(zh, en, glyphs, emptyNote) {
-  if (!glyphs.length && !emptyNote) return '';
+  if (!glyphs.length && !emptyNote) { return ''; }
   return html`
     <div class="gl-rel">
       <div class="gl-rel-label"><span>${zh}</span><span class="en">${en}</span></div>
@@ -275,7 +275,7 @@ function assets(n, r, isWord) {
 
 function bindGoto(root) {
   root.querySelectorAll('[data-goto]').forEach(el => {
-    if (el.classList.contains('cf-member')) return;   // confusable panel binds its own
+    if (el.classList.contains('cf-member')) { return; }   // confusable panel binds its own
     el.addEventListener('click', () => go(el.dataset.goto));
   });
 }

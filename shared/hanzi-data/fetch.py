@@ -42,7 +42,8 @@ def coords(path):
 def translate_path(path, dx, dy):
     i = [0]
     def repl(m):
-        k = i[0]; i[0] += 1
+        k = i[0]
+        i[0] += 1
         v = float(m.group()) + (dx if k % 2 == 0 else dy)
         return str(int(round(v)))
     return NUM.sub(repl, path)
@@ -56,7 +57,9 @@ def lift(char, idxs):
     medians = [d["medians"][i] for i in idxs]
     xs, ys = [], []
     for p in strokes:
-        c = coords(p); xs += c[0::2]; ys += c[1::2]
+        c = coords(p)
+        xs += c[0::2]
+        ys += c[1::2]
     dx = CENTER - (min(xs) + max(xs)) / 2
     dy = CENTER - (min(ys) + max(ys)) / 2
     return {
@@ -74,7 +77,8 @@ def write(glyph, data):
 
 def main(argv):
     if not argv:
-        print(__doc__); return 1
+        print(__doc__)
+        return 1
     i = 0
     while i < len(argv):
         a = argv[i]

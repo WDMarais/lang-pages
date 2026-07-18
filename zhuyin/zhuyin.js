@@ -8,7 +8,7 @@ const AUDIO = '/audio/cn/';   // content-keyed syllable bank, shared by every pa
 // grouping the bank into syllabary rows. Zero-initial (a/e/o/y/w) groups under '∅'.
 const INITIALS = ['zh','ch','sh','b','p','m','f','d','t','n','l','g','k','h','j','q','x','r','z','c','s'];
 function initialOf(base) {
-  for (const i of INITIALS) if (base.startsWith(i)) return i;
+  for (const i of INITIALS) { if (base.startsWith(i)) { return i; } }
   return '∅';
 }
 
@@ -36,7 +36,7 @@ function render(data) {
   const groups = new Map();
   for (const e of Object.values(data.syllables)) {
     const i = initialOf(e.base);
-    if (!groups.has(i)) groups.set(i, []);
+    if (!groups.has(i)) { groups.set(i, []); }
     groups.get(i).push(e);
   }
   const order = [...INITIALS, '∅'].filter(i => groups.has(i));

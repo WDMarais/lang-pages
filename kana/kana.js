@@ -7,11 +7,11 @@ const AUDIO = '/audio/kana/';   // content-keyed mora bank, voiced from the kana
 function toggleScript() {
   document.body.classList.toggle('show-kata');
   const btn = document.getElementById('scriptBtn');
-  if (btn) btn.textContent = document.body.classList.contains('show-kata') ? 'ひらがな' : 'カタカナ';
+  if (btn) { btn.textContent = document.body.classList.contains('show-kata') ? 'ひらがな' : 'カタカナ'; }
 }
 
 function moraTile(c) {
-  if (!c) return html`<div class="mora empty"></div>`;
+  if (!c) { return html`<div class="mora empty"></div>`; }
   return html`
     <button class="mora vplay" data-src="${AUDIO}${c.romaji}.mp3" title="${c.romaji}">
       <span class="m-hira">${c.hira}</span>

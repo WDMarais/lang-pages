@@ -29,7 +29,7 @@ function jpSrc(c, ex) {
 function diagram(c) {
   // Character cards opt into data-driven stroke-order animation (HanziWriter);
   // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
-  if (c.hw) return html`<div class="sc-hw" data-char="${c.glyph}"></div>`;
+  if (c.hw) { return html`<div class="sc-hw" data-char="${c.glyph}"></div>`; }
   return html`
         <svg class="sc-hero" viewBox="0 0 100 100" aria-hidden="true">
           <text class="sc-gtext" x="50" y="50">${c.glyph}</text>
@@ -209,8 +209,8 @@ function kanjiItem(k) {
   // Script itself cues the class (katakana on'yomi / hiragana kun'yomi); the
   // label just names which classes are present.
   const labels = [];
-  if (on.length) labels.push(k.on ? '音読み' : '訓読み');
-  if (kun.length) labels.push('訓読み');
+  if (on.length) { labels.push(k.on ? '音読み' : '訓読み'); }
+  if (kun.length) { labels.push('訓読み'); }
   const yomi = labels.join(' · ');
   return html`
         <div class="sc-wk-item wk-meaning">
@@ -239,7 +239,7 @@ function renderStub(c) {
 }
 
 function renderCard(c) {
-  if (c.stub) return renderStub(c);
+  if (c.stub) { return renderStub(c); }
   const img = c.image ? html`<img class="sc-img" src="${c.image}" alt="">` : '';
   const tagCls = c.tag === 'char' ? 'tag-char' : (c.tag === 'comp' ? 'tag-comp' : '');
   const tag = html`<span class="sc-tag ${tagCls}">${TAG_LABEL[c.tag] || '笔画'}</span>`;
@@ -289,7 +289,7 @@ const refTitle = im => `${im.label} · ${im.credit || 'Wikimedia Commons'}${im.l
 // photos `cover`. Fewer referents → fewer cells, no gaps.
 function refCollage(referents) {
   const imgs = refImages(referents).slice(0, 4);
-  if (!imgs.length) return null;
+  if (!imgs.length) { return null; }
   const cells = imgs.map(im => {
     const svg = /\.svg(\?|$)/.test(im.src);
     return html`<img class="rk-cell ${svg ? 'rk-cell-svg' : 'rk-cell-photo'}" src="${im.src}" alt="${im.label}" title="${refTitle(im)}">`;
@@ -302,7 +302,7 @@ function refCollage(referents) {
 // the animated glyph IS the hero (no dead dashed box), flipping to collage as
 // images get added. The full gallery rides a hidden detail block for Phase 2.
 function renderKangxiCard(c) {
-  if (c.stub) return renderStub(c);
+  if (c.stub) { return renderStub(c); }
   const kx = c.kx ? html`<span class="sc-kx">${c.kx}</span>` : '';
   const readings = html`
         <div class="rk-readings">
@@ -336,7 +336,7 @@ function renderKangxiCard(c) {
 function toggleLang() {
   document.body.classList.toggle('show-jp');
   const b = document.getElementById('langBtn');
-  if (b) b.textContent = document.body.classList.contains('show-jp') ? '中文' : '日本語';
+  if (b) { b.textContent = document.body.classList.contains('show-jp') ? '中文' : '日本語'; }
 }
 
 function renderGroup(g) {
@@ -354,9 +354,9 @@ function renderGroup(g) {
 // Self-hosted: lib in shared/vendor, per-char data in shared/hanzi-data (APL).
 // Module pages live one level deep, so ../shared/ resolves for all of them.
 function initHanzi() {
-  if (typeof HanziWriter === 'undefined') return;
+  if (typeof HanziWriter === 'undefined') { return; }
   const nodes = document.querySelectorAll('.sc-hw');
-  if (!nodes.length) return;
+  if (!nodes.length) { return; }
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const navy = getComputedStyle(document.documentElement)
     .getPropertyValue('--navy').trim() || '#1E2A4A';
@@ -378,7 +378,7 @@ function initHanzi() {
         fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(onComplete),
     });
     writers.set(el, w);
-    if (!reduce) w.loopCharacterAnimation();
+    if (!reduce) { w.loopCharacterAnimation(); }
     return w;
   };
   // HanziWriter loops each glyph on its own rAF with NO offscreen culling, so the
@@ -389,8 +389,8 @@ function initHanzi() {
     entries.forEach(e => {
       const w = writers.get(e.target);
       if (e.isIntersecting) {
-        if (!w) build(e.target);
-        else if (!reduce) w.resumeAnimation();
+        if (!w) { build(e.target); }
+        else if (!reduce) { w.resumeAnimation(); }
       } else if (w && !reduce) {
         w.pauseAnimation();
       }
@@ -404,7 +404,7 @@ function initHanzi() {
 const host = document.getElementById('cards');
 if (host) {
   LAYOUT = host.dataset.layout || '';
-  if (LAYOUT === 'radical') host.classList.add('rk-host');  // break the tile grid out wider
+  if (LAYOUT === 'radical') { host.classList.add('rk-host'); }  // break the tile grid out wider
   fetch(host.dataset.src)
     .then(r => r.json())
     .then(d => { host.innerHTML = d.groups.map(renderGroup).join(''); initHanzi(); });

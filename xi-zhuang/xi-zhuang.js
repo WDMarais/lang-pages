@@ -41,7 +41,7 @@ function renderCard(card) {
 
 function renderSection(containerId, cards) {
   const el = document.getElementById(containerId);
-  if (!el || !cards) return;
+  if (!el || !cards) { return; }
   el.innerHTML = cards.map(renderCard).join('');
 }
 
