@@ -106,6 +106,16 @@
       ],
       "basis": "historical",
       "note": "同族 — 西 is classified under Kangxi radical 146 襾 ('cover'). Historically one radical family: 西 became the everyday character 'west', while 襾 (and its top-form 覀) is the radical 'cover' seen atop 要/票/覆. Same origin, now distinct senses — the mirror image of a confusable, which shares a look but not an origin."
+    },
+    {
+      "kind": "cognate",
+      "between": [
+        "毋",
+        "母"
+      ],
+      "basis": "orthographic",
+      "note": "Kangxi radical 80, two glyph-forms of one slot. 毋 (wú, 'do not') is the authoritative dictionary radical; 母 ('mother') is the form actually seen in the characters classed under it (每/毒/毓). Distinguished by the inner marks — 母 has two dots, 毋 a single bar — so also easily confused.",
+      "lang": "cn"
     }
   ],
   "nodes": [],
