@@ -3707,7 +3707,10 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "ya4"
+      "cnAudioKey": "ya4",
+      "variants": [
+        "覀"
+      ]
     },
     {
       "id": "g:西",
@@ -3720,25 +3723,12 @@
         "image": ""
       },
       "cnAudioKey": "xi1",
-      "cnExAudioKey": "yao4",
-      "jpAudioKey": "nishi",
-      "jpExAudioKey": "kaname",
-      "variants": [
-        "覀",
-        "襾"
-      ]
+      "jpAudioKey": "nishi"
     },
     {
       "id": "r:west",
       "kind": "referent",
       "label": "west"
-    },
-    {
-      "id": "g:要",
-      "kind": "glyph",
-      "glyph": "要",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:覀",
@@ -3749,7 +3739,16 @@
       "media": {
         "hw": false,
         "image": ""
-      }
+      },
+      "cnExAudioKey": "yao4",
+      "jpExAudioKey": "kaname"
+    },
+    {
+      "id": "g:要",
+      "kind": "glyph",
+      "glyph": "要",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:見",

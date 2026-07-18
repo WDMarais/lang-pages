@@ -5834,11 +5834,6 @@
       ],
       "gloss": "west",
       "extra": "归入康熙部首 146「襾」· 象形（鸟巢）借作方位 · 西方、东西、西班牙",
-      "appearsIn": {
-        "glyph": "要",
-        "reading": "yào",
-        "gloss": "to want; important"
-      },
       "program": {
         "source": "pandanese",
         "name": "west",
@@ -5860,12 +5855,7 @@
         "にし"
       ],
       "gloss": "west",
-      "extra": "漢字「西」(にし · セイ・サイ) · 西口、関西、北西",
-      "appearsIn": {
-        "glyph": "要",
-        "reading": "かなめ",
-        "gloss": "pivot; essence"
-      }
+      "extra": "漢字「西」(にし · セイ・サイ) · 西口、関西、北西"
     },
     {
       "id": "b:覀@cn",
@@ -5874,7 +5864,12 @@
       "name": "覀",
       "readings": [],
       "gloss": "cover",
-      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族"
+      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族",
+      "appearsIn": {
+        "glyph": "要",
+        "reading": "yào",
+        "gloss": "to want; important"
+      }
     },
     {
       "id": "b:覀@jp",
@@ -5883,7 +5878,12 @@
       "name": "覀",
       "readings": [],
       "gloss": "cover",
-      "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族"
+      "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族",
+      "appearsIn": {
+        "glyph": "要",
+        "reading": "かなめ",
+        "gloss": "pivot; essence"
+      }
     },
     {
       "id": "b:見@cn",

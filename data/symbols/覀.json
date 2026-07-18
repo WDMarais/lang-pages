@@ -11,13 +11,23 @@
       "name": "覀",
       "reading": "",
       "gloss": "cover",
-      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族"
+      "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族",
+      "appearsIn": {
+        "char": "要",
+        "reading": "yào",
+        "gloss": "to want; important"
+      }
     },
     "jp": {
       "name": "覀",
       "reading": "",
       "gloss": "cover",
-      "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族"
+      "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族",
+      "appearsIn": {
+        "char": "要",
+        "reading": "かなめ",
+        "gloss": "pivot; essence"
+      }
     }
   },
   "programs": []

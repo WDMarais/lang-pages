@@ -1285,14 +1285,14 @@
       "kind": "denotes"
     },
     {
-      "from": "g:西",
-      "to": "g:要",
-      "kind": "composes"
-    },
-    {
       "from": "g:覀",
       "to": "r:cover",
       "kind": "denotes"
+    },
+    {
+      "from": "g:襾",
+      "to": "g:要",
+      "kind": "composes"
     },
     {
       "from": "g:見",
@@ -4454,12 +4454,7 @@
     },
     {
       "from": "g:覀",
-      "to": "g:西",
-      "kind": "variant"
-    },
-    {
-      "from": "g:襾",
-      "to": "g:西",
+      "to": "g:襾",
       "kind": "variant"
     },
     {
