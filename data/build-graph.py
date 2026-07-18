@@ -31,18 +31,18 @@ TIER = {"stroke": "stroke", "comp": "component", "char": "char"}
 TAG = {v: k for k, v in TIER.items()}
 ROLE_VALUES = {"semantic", "phonetic", "form"}  # functional role of a part in a whole
 AUDIO_LANGS = {"cn", "jp"}                        # languages the sentence bank can voice
-# Authored enrichment kinds (docs/authored-edges.md), each with a cluster-id prefix and
-# its own `basis` vocabulary. `basis` stays a FIELD within a kind (a render hint —
-# traversal/gating are identical across bases, only presentation differs). But the two
-# KINDS are ORTHOGONAL axes, not one scale: `confusable` is a form/sound/sense MIX-UP (a
-# learner warning), `cognate` is a shared ORIGIN (an enrichment note). A pair can carry
-# either, both (西/襾), or neither — hence separate kinds, and a basis from one kind is
-# not valid on the other.
-AUTHORED = {
+# Authored enrichment edges all share ONE graph kind, `association` (soft, symmetric,
+# non-gating — docs/authored-edges.md), discriminated by `type` (the relation) and
+# `basis` (the reason — a render hint; traversal/gating are identical across bases).
+# The two axes are orthogonal: a pair can be confusable (form/sound/sense MIX-UP, a
+# warning), cognate (shared ORIGIN, enrichment), both (西/襾), or neither. Each type
+# owns a cluster-id prefix + its own basis vocabulary; a basis from one type is not
+# valid on another. Glossary: docs/glossary.md.
+ASSOCIATION_KIND = "association"
+ASSOCIATION_TYPES = {
     "confusable": {"prefix": "cf", "basis": {"visual", "phonetic", "semantic"}},
     "cognate": {"prefix": "cg", "basis": {"historical", "etymological", "orthographic"}},
 }
-AUTHORED_KINDS = set(AUTHORED)
 
 
 def load_roles():
@@ -56,7 +56,8 @@ def load_roles():
 
 def load_authored():
     """Hand-authored enrichment layer — relations the substrate cannot derive
-    (confusable pairs). Absent file → no-op, like words.json. Schema: docs/authored-edges.md."""
+    (association edges: confusable / cognate). Absent file → no-op, like words.json.
+    Schema: docs/authored-edges.md; glossary: docs/glossary.md."""
     p = DATA / "authored.json"
     if not p.exists():
         return {"edges": [], "nodes": []}
@@ -248,8 +249,8 @@ def build():
     # edges.json — no card projects them, so the round-trip proof is untouched.
     # ENDPOINT-AGNOSTIC: a ref may name a glyph, a word or an authored entity, so the
     # kind never forks by endpoint type — 人/入 (glyph), 可不/不可 (word) and an authored
-    # entity pair are all one `confusable` kind. Runs last: every node it can point at
-    # (glyph, frontier, referent, word) has been minted by now.
+    # entity pair are all one `association` kind (the `type` says which relation). Runs
+    # last: every node it can point at (glyph, frontier, referent, word) is minted by now.
     authored = load_authored()
     for n in authored["nodes"]:
         nodes.setdefault(n["id"], {"id": n["id"], "kind": "entity",
@@ -275,15 +276,15 @@ def build():
     for i, a in enumerate(authored["edges"]):
         where = "/".join(a.get("between", [])) or f"#{i}"
         aud = a.get("audience")
-        kind = a.get("kind")
-        if kind not in AUTHORED_KINDS:
-            print(f"⚠ authored[{where}]: unknown kind {kind!r} "
-                  f"(expected {sorted(AUTHORED_KINDS)})", file=sys.stderr)
+        atype = a.get("type")
+        if atype not in ASSOCIATION_TYPES:
+            print(f"⚠ authored[{where}]: unknown association type {atype!r} "
+                  f"(expected {sorted(ASSOCIATION_TYPES)})", file=sys.stderr)
             continue
         basis = a.get("basis")
-        if basis and basis not in AUTHORED[kind]["basis"]:
-            print(f"⚠ authored[{where}]: basis {basis!r} not valid for {kind} "
-                  f"(expected {sorted(AUTHORED[kind]['basis'])})", file=sys.stderr)
+        if basis and basis not in ASSOCIATION_TYPES[atype]["basis"]:
+            print(f"⚠ authored[{where}]: basis {basis!r} not valid for type {atype} "
+                  f"(expected {sorted(ASSOCIATION_TYPES[atype]['basis'])})", file=sys.stderr)
             basis = None
         refs = [resolve(r, aud, where) for r in a.get("between", [])]
         if len(refs) < 2 or any(r is None for r in refs):
@@ -309,7 +310,7 @@ def build():
                              "lang": lang,
                              "audioKey": sentence_key(lang, ex["text"]) if lang else None})
 
-        # Both authored kinds are SYMMETRIC (unlike composes/variant) and N-ARY (己/已/巳 is a
+        # Every association type is SYMMETRIC (unlike composes/variant) and N-ARY (己/已/巳 is a
         # three-way set, not three pairs that happen to coincide). So the shared payload
         # — basis/note/examples — is NORMALIZED onto a cluster record, and the graph gets
         # the pairwise clique of slim links pointing back at it by id.
@@ -319,14 +320,15 @@ def build():
         # non-linguistic node leaks into nodes.json. Endpoints sorted so an edge is
         # order-independent: stable diffs, natural dedup.
         members = sorted(set(refs))
-        cluster = f"{AUTHORED[kind]['prefix']}:{i + 1}"
-        clusters.append({"id": cluster, "kind": kind, "members": members,
+        cluster = f"{ASSOCIATION_TYPES[atype]['prefix']}:{i + 1}"
+        clusters.append({"id": cluster, "kind": ASSOCIATION_KIND, "type": atype,
+                         "members": members,
                          **({"basis": basis} if basis else {}),
                          **({"note": a["note"]} if a.get("note") else {}),
                          **({"examples": examples} if examples else {})})
         for x, y in combinations(members, 2):
-            edges.append({"from": x, "to": y, "kind": kind, "symmetric": True,
-                          "cluster": cluster, "source": "authored"})
+            edges.append({"from": x, "to": y, "kind": ASSOCIATION_KIND, "type": atype,
+                          "symmetric": True, "cluster": cluster, "source": "authored"})
 
     # validate the role overlay: in-vocabulary values, and every declared pair
     # actually landed on a composes edge (an unused entry means a typo'd char/comp).
@@ -406,9 +408,9 @@ def main():
           f"({len(composes)} composes [{sum(1 for e in composes if e.get('role'))} typed], "
           f"{sum(1 for e in edges if e['kind']=='denotes')} denotes, "
           f"{sum(1 for e in edges if e['kind']=='variant')} variant, "
-          f"{sum(1 for e in edges if e['kind']=='confusable')} confusable, "
-          f"{sum(1 for e in edges if e['kind']=='cognate')} cognate "
-          f"in {len(clusters)} cluster{'' if len(clusters)==1 else 's'})")
+          f"{sum(1 for e in edges if e.get('type')=='confusable')} confusable, "
+          f"{sum(1 for e in edges if e.get('type')=='cognate')} cognate "
+          f"association in {len(clusters)} cluster{'' if len(clusters)==1 else 's'})")
 
     # round-trip proof: the graph must faithfully re-emit the symbol projection
     ok = True

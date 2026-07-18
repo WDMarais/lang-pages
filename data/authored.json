@@ -1,11 +1,11 @@
 {
   "_doc": "Authored enrichment layer — relations a human asserts that the graph cannot derive. Schema: docs/authored-edges.md. Joined by build-graph.py; additive to edges.json (no card projects these, so the round-trip is untouched).",
-  "_kinds": "Two ORTHOGONAL kinds (a pair may carry either, both, or neither): `confusable` = a form/sound/sense MIX-UP to warn against (basis visual|phonetic|semantic); `cognate` = a shared ORIGIN to enrich with (basis historical|etymological|orthographic). 西/襾 are both; カ/力 confusable-only; 東/东 cognate-only.",
+  "_types": "Every edge here is kind `association` (soft, symmetric, non-gating) — build-graph stamps that. Author the `type` (the RELATION) + `basis` (the reason): `confusable` = a form/sound/sense MIX-UP to warn against (basis visual|phonetic|semantic); `cognate` = a shared ORIGIN to enrich with (basis historical|etymological|orthographic). Two ORTHOGONAL axes — a pair may carry either, both (西/襾), or neither. カ/力 confusable-only; 東/东 cognate-only. Glossary: docs/glossary.md.",
   "_refs": "between/for take a bare glyph (人 → g:人), a word surface + the entry's `audience` (可不 + cn → w:可不@cn), or an explicit node id (g:入, w:不可@cn). Every ref must resolve to a real node or the build warns and drops the entry.",
   "_shape": "`between` is an unordered SET of ≥2. build-graph emits the pairwise clique of slim links plus ONE cluster record carrying basis/note/examples — so a 3-way (己/已/巳) stores its payload once, not three times.",
   "edges": [
     {
-      "kind": "confusable",
+      "type": "confusable",
       "between": [
         "己",
         "已",
@@ -33,7 +33,7 @@
       "lang": "cn"
     },
     {
-      "kind": "confusable",
+      "type": "confusable",
       "between": [
         "人",
         "入"
@@ -55,7 +55,7 @@
       "lang": "cn"
     },
     {
-      "kind": "confusable",
+      "type": "confusable",
       "between": [
         "可不",
         "不可"
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "kind": "confusable",
+      "type": "confusable",
       "between": [
         "西",
         "襾"
@@ -99,7 +99,7 @@
       "lang": "cn"
     },
     {
-      "kind": "cognate",
+      "type": "cognate",
       "between": [
         "西",
         "襾"
@@ -108,7 +108,7 @@
       "note": "同族 — 西 is classified under Kangxi radical 146 襾 ('cover'). Historically one radical family: 西 became the everyday character 'west', while 襾 (and its top-form 覀) is the radical 'cover' seen atop 要/票/覆. Same origin, now distinct senses — the mirror image of a confusable, which shares a look but not an origin."
     },
     {
-      "kind": "cognate",
+      "type": "cognate",
       "between": [
         "毋",
         "母"
@@ -118,7 +118,7 @@
       "lang": "cn"
     },
     {
-      "kind": "confusable",
+      "type": "confusable",
       "between": [
         "母",
         "毋",

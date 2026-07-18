@@ -13,8 +13,9 @@ const TAGMAP = { stroke: 'stroke', component: 'comp', char: 'char' };
 //   denotesOf   glyph        → r:… id
 //   parts       glyph        → [glyphs it is built from]
 //   appears     glyph        → [glyphs it appears in]
-//   clusters    cf:… id      → cluster record (authored; n-ary payload)
-//   confusOf    node id      → [cluster records] the node is a member of
+//   clusters    cf:…/cg: id  → cluster record (authored association; n-ary payload)
+//   confusOf    node id      → [clusters] the node is in, type=confusable (look-alikes)
+//   cognateOf   node id      → [clusters] the node is in, type=cognate (shared origin)
 function loadGraph() {
   return Promise.all([
     fetch('../data/nodes.json').then(r => r.json()),
@@ -23,7 +24,7 @@ function loadGraph() {
   ]).then(([nd, ed, bd]) => {
     const G = {
       nodes: nd.nodes, byGlyph: {}, byId: {}, bindById: {}, refLabel: {},
-      denotesOf: {}, parts: {}, appears: {}, clusters: {}, confusOf: {},
+      denotesOf: {}, parts: {}, appears: {}, clusters: {}, confusOf: {}, cognateOf: {},
     };
     bd.bindings.forEach(b => (G.bindById[b.id] = b));
     nd.nodes.forEach(n => {
@@ -44,11 +45,15 @@ function loadGraph() {
       }
     });
     // authored clusters: the n-ary payload lives once in edges.json's `clusters`
-    // sibling key; index it by member so a node can ask "what am I confused with?"
-    // without walking the clique. Absent key (older data) → simply no clusters.
+    // sibling key; index by member so a node can ask "what am I confused with / kin to?"
+    // without walking the clique. Split by association `type`: confusable feeds the
+    // (warning) look-alike panel, cognate the (enrichment) shared-origin one — a cognate
+    // must NOT surface as a confusable. Anything not cognate → confusOf (back-compat with
+    // pre-`type` data). Absent key (older data) → simply no clusters.
     (ed.clusters || []).forEach(c => {
       G.clusters[c.id] = c;
-      (c.members || []).forEach(m => (G.confusOf[m] = G.confusOf[m] || []).push(c));
+      const idx = c.type === 'cognate' ? G.cognateOf : G.confusOf;
+      (c.members || []).forEach(m => (idx[m] = idx[m] || []).push(c));
     });
     return G;
   });

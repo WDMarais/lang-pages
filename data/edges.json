@@ -4465,7 +4465,8 @@
     {
       "from": "g:己",
       "to": "g:已",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:1",
       "source": "authored"
@@ -4473,7 +4474,8 @@
     {
       "from": "g:己",
       "to": "g:巳",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:1",
       "source": "authored"
@@ -4481,7 +4483,8 @@
     {
       "from": "g:已",
       "to": "g:巳",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:1",
       "source": "authored"
@@ -4489,7 +4492,8 @@
     {
       "from": "g:人",
       "to": "g:入",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:2",
       "source": "authored"
@@ -4497,7 +4501,8 @@
     {
       "from": "w:不可@cn",
       "to": "w:可不@cn",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:3",
       "source": "authored"
@@ -4505,7 +4510,8 @@
     {
       "from": "g:襾",
       "to": "g:西",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:4",
       "source": "authored"
@@ -4513,7 +4519,8 @@
     {
       "from": "g:襾",
       "to": "g:西",
-      "kind": "cognate",
+      "kind": "association",
+      "type": "cognate",
       "symmetric": true,
       "cluster": "cg:5",
       "source": "authored"
@@ -4521,7 +4528,8 @@
     {
       "from": "g:毋",
       "to": "g:母",
-      "kind": "cognate",
+      "kind": "association",
+      "type": "cognate",
       "symmetric": true,
       "cluster": "cg:6",
       "source": "authored"
@@ -4529,7 +4537,8 @@
     {
       "from": "g:毋",
       "to": "g:毌",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:7",
       "source": "authored"
@@ -4537,7 +4546,8 @@
     {
       "from": "g:毋",
       "to": "g:母",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:7",
       "source": "authored"
@@ -4545,7 +4555,8 @@
     {
       "from": "g:毌",
       "to": "g:母",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "symmetric": true,
       "cluster": "cf:7",
       "source": "authored"
@@ -4554,7 +4565,8 @@
   "clusters": [
     {
       "id": "cf:1",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "members": [
         "g:己",
         "g:已",
@@ -4588,7 +4600,8 @@
     },
     {
       "id": "cf:2",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "members": [
         "g:人",
         "g:入"
@@ -4614,7 +4627,8 @@
     },
     {
       "id": "cf:3",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "members": [
         "w:不可@cn",
         "w:可不@cn"
@@ -4640,7 +4654,8 @@
     },
     {
       "id": "cf:4",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "members": [
         "g:襾",
         "g:西"
@@ -4666,7 +4681,8 @@
     },
     {
       "id": "cg:5",
-      "kind": "cognate",
+      "kind": "association",
+      "type": "cognate",
       "members": [
         "g:襾",
         "g:西"
@@ -4676,7 +4692,8 @@
     },
     {
       "id": "cg:6",
-      "kind": "cognate",
+      "kind": "association",
+      "type": "cognate",
       "members": [
         "g:毋",
         "g:母"
@@ -4686,7 +4703,8 @@
     },
     {
       "id": "cf:7",
-      "kind": "confusable",
+      "kind": "association",
+      "type": "confusable",
       "members": [
         "g:毋",
         "g:毌",

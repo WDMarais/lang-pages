@@ -2,7 +2,8 @@
 
 > Status: **draft / proposal**. Extends `content-graph-schema.md`. Defines the
 > first member of the **authored enrichment layer** — edges a human asserts that
-> the decomposition graph cannot derive. Concrete kinds: `confusable`, `cognate`.
+> the decomposition graph cannot derive. One graph kind — `association` — with
+> `type` ∈ {`confusable`, `cognate`}. Controlled vocabulary: [glossary.md](glossary.md).
 >
 > Design stance (unchanged): **bootstrap, don't boil the ocean.** Ship one
 > explicit file + a linear join in build-graph, hand-write the first few entries,
@@ -20,10 +21,10 @@ It's the concrete first case of the "custom authored-edge layer" named in memory
 that will later hold custom ordering and "see also" links.
 
 Endpoint-agnostic by design (resolved 2026-07-12, memory
-`confusable-pair-anchoring`): ONE `confusable` kind covers glyph↔glyph (人/入),
+`confusable-pair-anchoring`): ONE `association` kind covers glyph↔glyph (人/入),
 word↔word (可不/不可), and authored-entity↔entity (Three Kingdoms 馬謖/馬岱). The
-endpoint *type* is carried by the node ids the edge connects, so it is never
-re-encoded in the edge kind.
+endpoint kind is carried by the node ids the edge connects, so it is never
+re-encoded — nor is the relation, which rides the `type` field, not the edge kind.
 
 ## Physical source of truth: `data/authored.json`
 
@@ -49,7 +50,7 @@ so the radicals/strokes round-trip identity is untouched.
 
 ```jsonc
 {
-  "kind": "confusable",
+  "type": "confusable",                  // the relation; build-graph stamps kind:"association"
   "between": ["可不", "不可"],          // ≥2 node refs, UNORDERED (symmetric relation)
   "audience": "cn",                      // disambiguates bare-glyph / word refs; optional if all refs are full ids
   "basis": "phonetic",                   // visual | phonetic | semantic  (optional; a RENDERING hint, not a fork)
@@ -88,12 +89,12 @@ an unordered `between` set of ≥2; build-graph splits that into two output piec
 
 ```jsonc
 // edges.json → "edges": the pairwise CLIQUE, slim (from/to sorted → order-independent, stable diffs)
-{ "from": "g:己", "to": "g:已", "kind": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
-{ "from": "g:己", "to": "g:巳", "kind": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
-{ "from": "g:已", "to": "g:巳", "kind": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
+{ "from": "g:己", "to": "g:已", "kind": "association", "type": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
+{ "from": "g:己", "to": "g:巳", "kind": "association", "type": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
+{ "from": "g:已", "to": "g:巳", "kind": "association", "type": "confusable", "symmetric": true, "cluster": "cf:1", "source": "authored" }
 
 // edges.json → "clusters": the n-ary payload, stored ONCE
-{ "id": "cf:1", "kind": "confusable", "members": ["g:己","g:已","g:巳"],
+{ "id": "cf:1", "kind": "association", "type": "confusable", "members": ["g:己","g:已","g:巳"],
   "basis": "visual", "note": "开口己、半口已、闭口巳 …", "examples": [ … ] }
 ```
 
@@ -140,7 +141,7 @@ a null key already means "hide the play button" (09174a9), so silence degrades c
 ## The `cognate` edge — shared origin, not shared look
 
 `confusable` and `cognate` are **orthogonal axes**, not two points on one scale, so
-`cognate` is a genuine second *kind* rather than another `basis` value:
+`cognate` is a genuine second *type* (under the one `association` kind) rather than another `basis` value:
 
 | pair | look alike? (`confusable`) | shared origin? (`cognate`) |
 |------|:---:|:---:|
@@ -167,7 +168,7 @@ warning) — that's what keeps the axes from bleeding together.
 
 ```jsonc
 {
-  "kind": "cognate",
+  "type": "cognate",
   "between": ["西", "襾"],               // same ref sugar + validation as confusable
   "basis": "historical",                 // historical | etymological | orthographic
   "note": "同族 — 西 is classed under Kangxi radical 146 襾 'cover'; same origin, now distinct senses."
@@ -197,7 +198,7 @@ into `edges.json`.
 ```
 STRUCTURAL (derived, acyclic, hard)   composes                     → SRS composite gates
 DERIVED    (from bindings)            denotes · variant
-AUTHORED   (enrichment, cyclic, soft) confusable · cognate ← NEW    → sequencing + contrast render, NOT a gate
+AUTHORED   (enrichment, cyclic, soft) association {confusable · cognate} → sequencing + contrast render, NOT a gate
 ```
 
 `confusable` is the first named member of the **enrichment** family sketched as
