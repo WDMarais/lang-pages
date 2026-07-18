@@ -21,7 +21,7 @@ usually mistakes worth seeing.
 import json
 import sys
 
-from paths import DATA, SYM
+from paths import DATA, ROOT, SYM
 from phonetics import cn_key
 from phonetics_jp import kana_key
 from symbols_io import PROGRAM_TIERS, referent_slug
@@ -86,6 +86,10 @@ def check_symbol(rep, g, s):
     else:
         if not isinstance(form.get("hw"), bool):
             rep.err(where, "form.hw must be a bool")
+        elif form["hw"] and not (ROOT / "shared" / "hanzi-data" / f"{g}.json").exists():
+            # hw promises a local stroke-data file — cards3/cardsJP fetch it to animate
+            # the tile, so hw=True with no file is a 404 (a silent, blank animation).
+            rep.err(where, "form.hw is true but shared/hanzi-data/<glyph>.json is missing")
         if not isinstance(form.get("image"), str):
             rep.err(where, "form.image must be a string")
 
