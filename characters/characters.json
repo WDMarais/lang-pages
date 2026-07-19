@@ -1454,6 +1454,28 @@
           "pdc": { "name": "month", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "正",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "zheng4",
+          "cnExAudioKey": "zheng4",
+          "jpAudioKey": "sei",
+          "jpExAudioKey": "sei",
+          "cn": {
+            "name": "正", "reading": "zhèng", "gloss": "correct; upright",
+            "extra": "一 + 止 · 正确、改正 · 又读 zhēng（正月）",
+            "appearsIn": { "char": "政", "reading": "zhèng", "gloss": "government; politics" }
+          },
+          "jp": {
+            "name": "正", "reading": "セイ", "gloss": "correct",
+            "extra": "漢字「正」(セイ・ショウ · ただ-しい・まさ) · 正しい・正月(しょうがつ)",
+            "appearsIn": { "char": "政", "reading": "セイ", "gloss": "politics; government" }
+          },
+          "wk": null,
+          "kanji": { "name": "Correct", "readings": ["セイ"], "on": true, "level": 2 }
+        },
+        {
           "glyph": "母",
           "tag": "char",
           "image": "",

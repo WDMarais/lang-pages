@@ -955,6 +955,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:正",
+      "to": "r:correct",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:正",
+      "to": "g:政",
+      "kind": "composes"
+    },
+    {
       "from": "g:歹",
       "to": "r:death",
       "kind": "denotes"
@@ -4680,6 +4690,66 @@
     {
       "from": "w:四つ@jp",
       "to": "r:four",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:天",
+      "to": "w:天才@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:才",
+      "to": "w:天才@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:天才@jp",
+      "to": "r:genius",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:上",
+      "to": "w:上手@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:上手@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:上手@jp",
+      "to": "r:skillful",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:女",
+      "to": "w:女の子@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:女の子@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:女の子@jp",
+      "to": "r:girl",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:五",
+      "to": "w:五日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:五日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:五日@jp",
+      "to": "r:5th",
       "kind": "denotes"
     },
     {

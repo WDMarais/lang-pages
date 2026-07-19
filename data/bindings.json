@@ -4472,6 +4472,49 @@
       "extra": ""
     },
     {
+      "id": "b:正@cn",
+      "glyph_id": "g:正",
+      "lang": "cn",
+      "name": "正",
+      "readings": [
+        "zhèng"
+      ],
+      "gloss": "correct; upright",
+      "extra": "一 + 止 · 正确、改正 · 又读 zhēng（正月）",
+      "appearsIn": {
+        "glyph": "政",
+        "reading": "zhèng",
+        "gloss": "government; politics"
+      }
+    },
+    {
+      "id": "b:正@jp",
+      "glyph_id": "g:正",
+      "lang": "jp",
+      "name": "正",
+      "readings": [
+        "セイ"
+      ],
+      "gloss": "correct",
+      "extra": "漢字「正」(セイ・ショウ · ただ-しい・まさ) · 正しい・正月(しょうがつ)",
+      "appearsIn": {
+        "glyph": "政",
+        "reading": "セイ",
+        "gloss": "politics; government"
+      },
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Correct",
+          "readings": [
+            "セイ"
+          ],
+          "on": true,
+          "level": 2
+        }
+      }
+    },
+    {
       "id": "b:歹@cn",
       "glyph_id": "g:歹",
       "lang": "cn",

@@ -1023,6 +1023,66 @@
       "reading": "よっつ",
       "gloss": "four things",
       "okurigana": "つ"
+    },
+    {
+      "surface": "天才",
+      "audience": "jp",
+      "parts": [
+        "天",
+        "才"
+      ],
+      "denotes": "genius",
+      "reading": "てんさい",
+      "gloss": "genius",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "上手",
+      "audience": "jp",
+      "parts": [
+        "上",
+        "手"
+      ],
+      "denotes": "skillful",
+      "reading": "じょうず",
+      "gloss": "skillful; good at (lit. above-hand)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "女の子",
+      "audience": "jp",
+      "parts": [
+        "女",
+        "子"
+      ],
+      "denotes": "girl",
+      "reading": "おんなのこ",
+      "gloss": "girl",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "五日",
+      "audience": "jp",
+      "parts": [
+        "五",
+        "日"
+      ],
+      "denotes": "5th",
+      "reading": "いつか",
+      "gloss": "the 5th (of the month); five days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }

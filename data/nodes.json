@@ -713,13 +713,6 @@
       "label": "stop"
     },
     {
-      "id": "g:正",
-      "kind": "glyph",
-      "glyph": "正",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:木",
       "kind": "glyph",
       "glyph": "木",
@@ -2648,6 +2641,33 @@
       "id": "r:yawn",
       "kind": "referent",
       "label": "yawn"
+    },
+    {
+      "id": "g:正",
+      "kind": "glyph",
+      "glyph": "正",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zheng4",
+      "cnExAudioKey": "zheng4",
+      "jpAudioKey": "sei",
+      "jpExAudioKey": "sei"
+    },
+    {
+      "id": "r:correct",
+      "kind": "referent",
+      "label": "correct; upright"
+    },
+    {
+      "id": "g:政",
+      "kind": "glyph",
+      "glyph": "政",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:歹",
@@ -6739,6 +6759,73 @@
       "reading": "よっつ",
       "gloss": "four things",
       "okurigana": "つ"
+    },
+    {
+      "id": "w:天才@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "天才",
+      "reading": "てんさい",
+      "gloss": "genius",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:genius",
+      "kind": "referent",
+      "label": "genius"
+    },
+    {
+      "id": "w:上手@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "上手",
+      "reading": "じょうず",
+      "gloss": "skillful; good at (lit. above-hand)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:skillful",
+      "kind": "referent",
+      "label": "skillful; good at (lit. above-hand)"
+    },
+    {
+      "id": "w:女の子@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "女の子",
+      "reading": "おんなのこ",
+      "gloss": "girl",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:五日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "五日",
+      "reading": "いつか",
+      "gloss": "the 5th (of the month); five days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:5th",
+      "kind": "referent",
+      "label": "the 5th (of the month); five days"
     }
   ]
 }
