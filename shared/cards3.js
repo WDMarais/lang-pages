@@ -350,6 +350,25 @@ function renderGroup(g) {
   return html`<div class="sc-group">${head}${g.cards.map(renderCard)}</div>`;
 }
 
+// The one HanziWriter.create call for the site: colours, speed, and the self-hosted
+// APL data loader in ONE place, so the grid lifecycle (initHanzi) and the JP focus
+// pane (cardsJP.jpFocusHanzi) can't drift on options — they were copy-pasted into two
+// files, which is where the /jp/ writer leak was born. `sz` sizes the SVG; `opts`
+// overrides per-caller (the focus pane pins its own padding). Callers own the loop and
+// (for the grid) the IntersectionObserver; this owns only the create contract.
+function hzCreate(el, char, sz, opts) {
+  const navy = getComputedStyle(document.documentElement)
+    .getPropertyValue('--navy').trim() || '#1E2A4A';
+  return HanziWriter.create(el, char, {
+    width: sz, height: sz, padding: sz * 0.09,
+    strokeColor: navy, outlineColor: '#D8D2C4', showOutline: true,
+    strokeAnimationSpeed: 1, delayBetweenStrokes: 240,
+    charDataLoader: (c, onComplete) =>
+      fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(onComplete),
+    ...(opts || {}),
+  });
+}
+
 // Data-driven stroke-order animation for character cards (`hw: true`).
 // Self-hosted: lib in shared/vendor, per-char data in shared/hanzi-data (APL).
 // Module pages live one level deep, so ../shared/ resolves for all of them.
@@ -358,8 +377,6 @@ function initHanzi() {
   const nodes = document.querySelectorAll('.sc-hw');
   if (!nodes.length) { return; }
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const navy = getComputedStyle(document.documentElement)
-    .getPropertyValue('--navy').trim() || '#1E2A4A';
   const writers = new Map();
   const build = (el) => {
     // /kangxi/ tiles get a generous caption glyph; HanziWriter sizes the SVG inline
@@ -370,13 +387,7 @@ function initHanzi() {
              : el.classList.contains('gl-hw') ? 148
              : el.classList.contains('cf-hw') ? 132
              : el.closest('.rk-capglyph') ? 104 : 112;
-    const w = HanziWriter.create(el, el.dataset.char, {
-      width: sz, height: sz, padding: sz * 0.09,
-      strokeColor: navy, outlineColor: '#D8D2C4', showOutline: true,
-      strokeAnimationSpeed: 1, delayBetweenStrokes: 240,
-      charDataLoader: (c, onComplete) =>
-        fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(onComplete),
-    });
+    const w = hzCreate(el, el.dataset.char, sz);
     writers.set(el, w);
     if (!reduce) { w.loopCharacterAnimation(); }
     return w;

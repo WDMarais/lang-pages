@@ -131,25 +131,19 @@ function jpRail(state) {
   }).join('');
 }
 
-// Larger, animated glyph for the focus pane (cards3's initHanzi is fixed at 112).
-// Each select() replaces the focus innerHTML, detaching the previous writer's SVG —
-// but its loop keeps scheduling rAF/timeouts on the orphaned node. Stop the old one
-// (pauseAnimation clears its pending timeouts) before minting the next, or every
-// navigation leaks another live loop.
+// Larger, animated glyph for the focus pane (the grid's writers are ≤200). The
+// create contract is shared via cards3's hzCreate (loaded first on /jp/) — this owns
+// only the single-writer LIFECYCLE: each select() replaces the focus innerHTML,
+// detaching the previous writer's SVG, but its loop keeps scheduling rAF/timeouts on
+// the orphaned node. Stop the old one (pauseAnimation clears its pending timeouts)
+// before minting the next, or every navigation leaks another live loop.
 function jpFocusHanzi(state, char) {
   const el = document.querySelector('.jp-focus-glyph .sc-hw');
   if (!el || typeof HanziWriter === 'undefined') { return; }
   if (state.focusWriter) { state.focusWriter.pauseAnimation(); }
-  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const navy = getComputedStyle(document.documentElement).getPropertyValue('--navy').trim() || '#1E2A4A';
-  const w = HanziWriter.create(el, char, {
-    width: 240, height: 240, padding: 16,
-    strokeColor: navy, outlineColor: '#D8D2C4', showOutline: true,
-    strokeAnimationSpeed: 1, delayBetweenStrokes: 240,
-    charDataLoader: (c, done) => fetch(`../shared/hanzi-data/${c}.json`).then(r => r.json()).then(done),
-  });
+  const w = hzCreate(el, char, 240, { padding: 16 });
   state.focusWriter = w;
-  if (!reduce) { w.loopCharacterAnimation(); }
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) { w.loopCharacterAnimation(); }
 }
 
 function jpMount(state) {
@@ -169,30 +163,21 @@ function jpMount(state) {
   if (first) { select(first.id); }
 }
 
+// One graph-read layer: /jp/ consumes graphdata's loadGraph() (core + bindings + vocab +
+// referents) rather than re-fetching and re-indexing the graph itself. jpBind is the JP
+// interface over the core — the per-language binding keyed by node id for this view.
 const jpApp = document.getElementById('jp-app');
 if (jpApp) {
-  Promise.all([
-    fetch('../data/nodes.json').then(r => r.json()),
-    fetch('../data/edges.json').then(r => r.json()),
-    fetch('../data/bindings.json').then(r => r.json()),
-  ]).then(([nd, ed, bd]) => {
-    const byId = {};
-    nd.nodes.forEach(n => { byId[n.id] = n; });
+  loadGraph().then(G => {
     const jpBind = {};
-    bd.bindings.forEach(b => { if (b.lang === 'jp') { jpBind[b.glyph_id] = b; } });
-    const vocabOf = {}, refOf = {};
-    ed.edges.forEach(e => {
-      const from = byId[e.from];
-      if (e.kind === 'composes' && byId[e.to] && byId[e.to].kind === 'word') {
-        (vocabOf[e.from] = vocabOf[e.from] || []).push(byId[e.to]);
-      }
-      if (e.kind === 'denotes' && from && from.kind === 'glyph' && byId[e.to]) {
-        refOf[e.from] = byId[e.to];
-      }
+    G.nodes.forEach(n => {
+      if (n.kind !== 'glyph') { return; }
+      const b = G.bindById[`b:${n.glyph}@jp`];
+      if (b) { jpBind[n.id] = b; }
     });
     jpMount({
-      byId, jpBind, vocabOf, refOf, focusWriter: null,
-      glyphs: nd.nodes.filter(n => n.kind === 'glyph' && !n.frontier),
+      byId: G.byId, jpBind, vocabOf: G.vocabOf, refOf: G.refOf, focusWriter: null,
+      glyphs: G.nodes.filter(n => n.kind === 'glyph' && !n.frontier),
       rail: jpApp.querySelector('.jp-rail'),
       focus: jpApp.querySelector('.jp-focus'),
     });

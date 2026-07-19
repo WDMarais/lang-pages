@@ -13,6 +13,8 @@ const TAGMAP = { stroke: 'stroke', component: 'comp', char: 'char' };
 //   denotesOf   glyph        → r:… id
 //   parts       glyph        → [glyphs it is built from]
 //   appears     glyph        → [glyphs it appears in]
+//   vocabOf     node id      → [word nodes the glyph composes into]  (語彙, JP view)
+//   refOf       node id      → referent node the glyph denotes       (the meaning)
 //   clusters    cf:…/cg: id  → cluster record (authored association; n-ary payload)
 //   confusOf    node id      → [clusters] the node is in, type=confusable (look-alikes)
 //   cognateOf   node id      → [clusters] the node is in, type=cognate (shared origin)
@@ -24,7 +26,8 @@ function loadGraph() {
   ]).then(([nd, ed, bd]) => {
     const G = {
       nodes: nd.nodes, byGlyph: {}, byId: {}, bindById: {}, refLabel: {},
-      denotesOf: {}, parts: {}, appears: {}, clusters: {}, confusOf: {}, cognateOf: {},
+      denotesOf: {}, parts: {}, appears: {}, vocabOf: {}, refOf: {},
+      clusters: {}, confusOf: {}, cognateOf: {},
     };
     bd.bindings.forEach(b => (G.bindById[b.id] = b));
     nd.nodes.forEach(n => {
@@ -34,14 +37,22 @@ function loadGraph() {
     });
     ed.edges.forEach(e => {
       if (e.kind === 'composes') {
-        // composes also carries the word tier (g:人 → w:人工); a glyph ego graph
-        // keys on glyphs only, so word targets are skipped here.
+        // composes spans two tiers: glyph → glyph is sub-character structure (女 → 好);
+        // glyph → word is vocabulary membership (人 → 人工). A glyph ego graph keys on
+        // glyphs, so word targets feed vocabOf (the JP 語彙 list) rather than parts/appears.
+        const toNode = G.byId[e.to];
+        if (toNode && toNode.kind === 'word') {
+          (G.vocabOf[e.from] = G.vocabOf[e.from] || []).push(toNode);
+          return;
+        }
         if (!e.from.startsWith('g:') || !e.to.startsWith('g:')) { return; }
         const f = e.from.slice(2), t = e.to.slice(2);
         (G.appears[f] = G.appears[f] || []).push(t);
         (G.parts[t] = G.parts[t] || []).push(f);
       } else if (e.kind === 'denotes' && e.from.startsWith('g:')) {
         G.denotesOf[e.from.slice(2)] = e.to;
+        const fromNode = G.byId[e.from];
+        if (fromNode && fromNode.kind === 'glyph' && G.byId[e.to]) { G.refOf[e.from] = G.byId[e.to]; }
       }
     });
     // authored clusters: the n-ary payload lives once in edges.json's `clusters`
