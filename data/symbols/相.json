@@ -1,0 +1,47 @@
+{
+  "glyph": "相",
+  "cp": "U+76F8",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "木",
+    "目"
+  ],
+  "readings": {
+    "cn": {
+      "name": "相",
+      "reading": "xiàng",
+      "gloss": "appearance; looks",
+      "extra": "木 + 目 · 相片、长相、首相 · 又读 xiāng（相信、互相）",
+      "appearsIn": {
+        "char": "想",
+        "reading": "xiǎng",
+        "gloss": "to think; to want"
+      }
+    },
+    "jp": {
+      "name": "相",
+      "reading": "あい",
+      "gloss": "phase; aspect; each other",
+      "extra": "漢字「相」(あい · ソウ・ショウ) · 相手(あいて)、相談(そうだん)",
+      "appearsIn": {
+        "char": "想",
+        "reading": "ソウ",
+        "gloss": "idea; thought"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "appearance",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

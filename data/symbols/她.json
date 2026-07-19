@@ -1,0 +1,37 @@
+{
+  "glyph": "她",
+  "cp": "U+5979",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "女",
+    "也"
+  ],
+  "readings": {
+    "cn": {
+      "name": "她",
+      "reading": "tā",
+      "gloss": "she; her",
+      "extra": "女 + 也 · 她们 · 现代新造字（区别于「他」）· 他/她/它 同音 tā"
+    },
+    "jp": {
+      "name": "她",
+      "reading": "",
+      "gloss": "she (modern Chinese; not a Japanese kanji)",
+      "extra": "日本語では用いない（中国語の新造字）"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "she",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

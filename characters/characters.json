@@ -1407,6 +1407,23 @@
           "pdc": { "name": "return", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "她",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ta1",
+          "cn": {
+            "name": "她", "reading": "tā", "gloss": "she; her",
+            "extra": "女 + 也 · 她们 · 现代新造字（区别于「他」）· 他/她/它 同音 tā"
+          },
+          "jp": {
+            "name": "她", "reading": "", "gloss": "she (modern Chinese; not a Japanese kanji)",
+            "extra": "日本語では用いない（中国語の新造字）"
+          },
+          "wk": null,
+          "pdc": { "name": "she", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "己",
           "tag": "char",
           "image": "",
@@ -1484,6 +1501,24 @@
           "kanji": { "name": "Writing", "readings": ["ブン", "モン"], "on": true, "kun": ["ふみ"], "level": 2 }
         },
         {
+          "glyph": "明",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ming2",
+          "jpAudioKey": "akarui",
+          "cn": {
+            "name": "明", "reading": "míng", "gloss": "bright; clear",
+            "extra": "日 + 月 · 明天、明白、光明 · 会意（日月为明）"
+          },
+          "jp": {
+            "name": "明", "reading": "あかるい", "gloss": "bright",
+            "extra": "漢字「明」(あか-るい · メイ・ミョウ) · 明るい、明日(あした)、説明(せつめい)"
+          },
+          "wk": null,
+          "pdc": { "name": "bright", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "月",
           "tag": "char",
           "image": "",
@@ -1506,6 +1541,24 @@
           "kanji": { "name": "Moon", "readings": ["ゲツ", "ガツ"], "on": true, "kun": ["つき"], "level": 3 },
           "pd": { "name": "moon", "level": 1, "kind": "meaning" },
           "pdc": { "name": "month", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "有",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "you3",
+          "jpAudioKey": "aru",
+          "cn": {
+            "name": "有", "reading": "yǒu", "gloss": "to have; there is",
+            "extra": "𠂇(手) + 月(肉) · 有没有、所有、有名 · 又读 yòu（古通「又」）"
+          },
+          "jp": {
+            "name": "有", "reading": "ある", "gloss": "to exist; to have",
+            "extra": "漢字「有」(あ-る · ユウ・ウ) · 有る、有名(ゆうめい)"
+          },
+          "wk": null,
+          "pdc": { "name": "have", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "果",
@@ -1636,6 +1689,28 @@
           "kanji": { "name": "Eye", "readings": ["モク", "ボク"], "on": true, "kun": ["め"], "level": 3 },
           "pd": { "name": "eye", "level": 1, "kind": "meaning" },
           "pdc": { "name": "eye", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "相",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "xiang4",
+          "cnExAudioKey": "xiang3",
+          "jpAudioKey": "ai",
+          "jpExAudioKey": "sou",
+          "cn": {
+            "name": "相", "reading": "xiàng", "gloss": "appearance; looks",
+            "extra": "木 + 目 · 相片、长相、首相 · 又读 xiāng（相信、互相）",
+            "appearsIn": { "char": "想", "reading": "xiǎng", "gloss": "to think; to want" }
+          },
+          "jp": {
+            "name": "相", "reading": "あい", "gloss": "phase; aspect; each other",
+            "extra": "漢字「相」(あい · ソウ・ショウ) · 相手(あいて)、相談(そうだん)",
+            "appearsIn": { "char": "想", "reading": "ソウ", "gloss": "idea; thought" }
+          },
+          "wk": null,
+          "pdc": { "name": "appearance", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "立",

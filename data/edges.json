@@ -804,6 +804,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:她",
+      "to": "r:she",
+      "kind": "denotes"
+    },
+    {
       "from": "g:寸",
       "to": "r:inch",
       "kind": "denotes"
@@ -949,6 +954,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:明",
+      "to": "r:bright",
+      "kind": "denotes"
+    },
+    {
       "from": "g:曰",
       "to": "r:say",
       "kind": "denotes"
@@ -963,6 +973,11 @@
       "to": "g:明",
       "kind": "composes",
       "role": "semantic"
+    },
+    {
+      "from": "g:有",
+      "to": "r:have",
+      "kind": "denotes"
     },
     {
       "from": "g:果",
@@ -1148,6 +1163,16 @@
       "from": "g:目",
       "to": "r:eye",
       "kind": "denotes"
+    },
+    {
+      "from": "g:相",
+      "to": "r:appearance",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:相",
+      "to": "g:想",
+      "kind": "composes"
     },
     {
       "from": "g:矛",

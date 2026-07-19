@@ -760,13 +760,6 @@
       "label": "sun; day"
     },
     {
-      "id": "g:明",
-      "kind": "glyph",
-      "glyph": "明",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:田",
       "kind": "glyph",
       "glyph": "田",
@@ -2170,6 +2163,23 @@
       "label": "go slowly"
     },
     {
+      "id": "g:她",
+      "kind": "glyph",
+      "glyph": "她",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ta1"
+    },
+    {
+      "id": "r:she",
+      "kind": "referent",
+      "label": "she; her"
+    },
+    {
       "id": "g:寸",
       "kind": "glyph",
       "glyph": "寸",
@@ -2629,6 +2639,24 @@
       "cnAudioKey": "wu2"
     },
     {
+      "id": "g:明",
+      "kind": "glyph",
+      "glyph": "明",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ming2",
+      "jpAudioKey": "akarui"
+    },
+    {
+      "id": "r:bright",
+      "kind": "referent",
+      "label": "bright; clear"
+    },
+    {
       "id": "g:曰",
       "kind": "glyph",
       "glyph": "曰",
@@ -2664,6 +2692,24 @@
       "id": "r:moon",
       "kind": "referent",
       "label": "moon; month"
+    },
+    {
+      "id": "g:有",
+      "kind": "glyph",
+      "glyph": "有",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "you3",
+      "jpAudioKey": "aru"
+    },
+    {
+      "id": "r:have",
+      "kind": "referent",
+      "label": "to have; there is"
     },
     {
       "id": "g:果",
@@ -3259,6 +3305,33 @@
       "id": "r:eye",
       "kind": "referent",
       "label": "eye"
+    },
+    {
+      "id": "g:相",
+      "kind": "glyph",
+      "glyph": "相",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "xiang4",
+      "cnExAudioKey": "xiang3",
+      "jpAudioKey": "ai",
+      "jpExAudioKey": "sou"
+    },
+    {
+      "id": "r:appearance",
+      "kind": "referent",
+      "label": "appearance; looks"
+    },
+    {
+      "id": "g:想",
+      "kind": "glyph",
+      "glyph": "想",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:矛",

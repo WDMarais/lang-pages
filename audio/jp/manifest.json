@@ -1,10 +1,18 @@
 {
+  "ai.mp3": {
+    "text": "あい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "akarui.mp3": {
     "text": "あかるい",
     "voice": "ja-JP-NanamiNeural"
   },
   "arau.mp3": {
     "text": "あらう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "aru.mp3": {
+    "text": "ある",
     "voice": "ja-JP-NanamiNeural"
   },
   "ashi.mp3": {
@@ -445,6 +453,10 @@
   },
   "soto.mp3": {
     "text": "そと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sou.mp3": {
+    "text": "ソウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "sudeni.mp3": {
