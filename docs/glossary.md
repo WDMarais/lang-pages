@@ -36,6 +36,25 @@ The data-layer graph is three generated files (from `data/symbols/*.json` via
   but not yet carded (a stub). It becomes a full node when a symbol file is authored.
 - **`tier`** — a glyph's level in the substrate: `stroke` ⊂ `component` ⊂ `char`.
 
+## Core vs interface — node (shared) + binding (per-language)
+
+The data layer already splits a glyph into a **language-neutral core** and a
+**per-language interface**, and the consumer (card) projection keeps the same seam:
+
+- **core** (a `node`) — the shared facts: `glyph`, `tier`, `hw`/`image`/`kx`, and the
+  `referent`s it denotes (the *meaning*, language-neutral).
+- **interface** (a `binding`, one per `cn`/`jp`) — that language's rendering: `name`,
+  `reading`, `gloss`, `extra`, program annotations, vocabulary, audio keys (content-keyed
+  by *sound*, hence per-language).
+
+The general schema carries only the core; a language's fields never enter it. The
+**referent** is the shared meaning and a binding's **`gloss`** is one language's rendering
+of it — which is why `gloss` is per-language but `referent` is core. A renderer *selects
+interfaces over one core* (the comparison card takes both bindings; the JP focus card takes
+JP). **Strict at ingest, tolerant at render:** authoring validates hard (`check-source.py`),
+but a renderer quietly ignores a binding field it doesn't yet handle (additive enrichment),
+so new per-language data lands without touching the core.
+
 ## Edge — a relationship between two nodes
 
 `edge.kind`, in three families:
