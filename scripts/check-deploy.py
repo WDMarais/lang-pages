@@ -12,6 +12,13 @@ we compare against is the ref's blob objectname, and git's blob hash of the
 downloaded bytes must equal it — recomputed locally (no git call per file), which
 is exact here because the repo has no .gitattributes filters.
 
+Also asserts a cache-policy invariant, because content drift is not the only silent
+deploy bug: a stale-bytes check passes green while browsers still run week-old code
+if that code was served `Cache-Control: immutable` under a stable filename (the
+2026-07-19 dossier bug). So any mutable app asset — anything NOT under audio/ —
+served `immutable` is flagged. This is the one class of drift the byte-hash sweep
+is blind to, since it fetches without a prior immutable cache entry of its own.
+
 Gentle on the box: keep-alive connections are reused (one per worker thread), so
 a full sweep opens ~JOBS connections rather than a fresh TCP+TLS handshake per
 file — the actual cost of a 1000-file check against a small instance.
@@ -44,7 +51,9 @@ from pathlib import Path
 # since deploy tooling deliberately does not reach into the data pipeline.
 ROOT = Path(__file__).resolve().parents[1]
 
-DEFAULT_PATTERNS = ["audio/*.mp3", "*.json"]
+# audio banks + page data + the app code/shell — the code globs are cheap to sweep
+# and are what exercises the cache-policy invariant (a mutable asset served immutable).
+DEFAULT_PATTERNS = ["audio/*.mp3", "*.json", "*.js", "*.css", "*.html"]
 UA = "lang-pages-check-deploy (+https://github.com/WDMarais/lang-pages)"
 
 # One keep-alive connection per worker thread, reused across the files that
@@ -104,18 +113,20 @@ def _drop():
 
 
 def probe(scheme, host, ref, item):
-    """Fetch one path over the thread's keep-alive connection; return a drift
-    line (MISSING / STALE) or None if it matches. One retry, on connection errors
-    only: a server may close an idle keep-alive connection mid-sweep, which must
-    not read as drift — but a genuinely-down box is not re-hit per file."""
+    """Fetch one path over the thread's keep-alive connection; return the list of
+    problems found for it (empty if clean): a drift line (MISSING / STALE) and/or a
+    cache-policy line (IMMUTABLE). One retry, on connection errors only: a server may
+    close an idle keep-alive connection mid-sweep, which must not read as drift — but
+    a genuinely-down box is not re-hit per file."""
     obj, path = item
     target = "/" + urllib.parse.quote(path, safe="/")
-    code = body = None
+    code = body = cache_control = None
     for attempt in (0, 1):
         try:
             conn = _connection(scheme, host)
             conn.request("GET", target, headers={"User-Agent": UA})
             resp = conn.getresponse()
+            cache_control = resp.getheader("Cache-Control") or ""
             body = resp.read()  # drain fully so the connection stays reusable
             code = resp.status
             break
@@ -124,12 +135,17 @@ def probe(scheme, host, ref, item):
             if attempt == 0:
                 time.sleep(0.25)
                 continue
-            return f"MISSING  {path}  (HTTP 000)"
+            return [f"MISSING    {path}  (HTTP 000)"]
     if code != 200:
-        return f"MISSING  {path}  (HTTP {code})"
+        return [f"MISSING    {path}  (HTTP {code})"]
+    problems = []
     if git_blob_sha1(body) != obj:
-        return f"STALE    {path}  (200, but content differs from {ref})"
-    return None
+        problems.append(f"STALE      {path}  (200, but content differs from {ref})")
+    # Cache invariant: only the audio banks may be pinned; a mutable app asset served
+    # `immutable` never revalidates, so a returning browser runs stale bytes forever.
+    if not path.startswith("audio/") and "immutable" in cache_control.lower():
+        problems.append(f"IMMUTABLE  {path}  (Cache-Control: {cache_control})")
+    return problems
 
 
 def main(argv):
@@ -146,17 +162,25 @@ def main(argv):
 
     print(f"==> checking {len(items)} files on {host} against {ref}")
     with ThreadPoolExecutor(max_workers=jobs) as pool:
-        drift = [d for d in pool.map(lambda it: probe(scheme, host, ref, it), items) if d]
+        problems = [p for res in pool.map(lambda it: probe(scheme, host, ref, it), items) for p in res]
 
-    if not drift:
-        print(f"==> ok: all {len(items)} files match {ref}")
+    if not problems:
+        print(f"==> ok: all {len(items)} files match {ref}, cache policy sane")
         return 0
 
-    for line in sorted(drift):
+    for line in sorted(problems):
         print(line)
     print()
-    print(f"==> {len(drift)} of {len(items)} files drifted -- the box needs:")
-    print("    cd /var/www/lang-pages && git pull --ff-only")
+    # Two distinct fault classes, two distinct fixes: stale/missing bytes want a pull;
+    # an immutable mutable-asset wants the nginx config re-applied.
+    drift = [p for p in problems if not p.startswith("IMMUTABLE")]
+    cache = [p for p in problems if p.startswith("IMMUTABLE")]
+    if drift:
+        print(f"==> {len(drift)} file(s) drifted -- the box needs:")
+        print("    cd /var/www/lang-pages && git pull --ff-only")
+    if cache:
+        print(f"==> {len(cache)} mutable asset(s) served `immutable` -- the box needs:")
+        print("    cd /var/www/lang-pages && git pull --ff-only && bash scripts/apply-repo.sh")
     return 1
 
 

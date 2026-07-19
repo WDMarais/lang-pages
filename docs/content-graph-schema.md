@@ -160,8 +160,14 @@ srs-tool's type-based slots (see Projection).
     it); `build-graph.py` joins it on and validates the vocabulary + that each entry
     hits a real edge.
 - **`variant-of`** — links divergent forms of the same character.
-- **`denotes`** — glyph → referent. For now the referent is just `{ "id":"r:tree",
-  "label":"tree" }`, a plain handle. (Graded/property referents → Future exploration.)
+- **`denotes`** — glyph/word → referent. For now the referent is just `{ "id":"r:tree",
+  "label":"tree" }`, a plain handle, and the `/glyph/` 所指 row renders that label as a
+  placeholder. **Direction:** the referent is meant to be anchored by *sense-data* — an
+  image, a sound, a motion — not the label, which is only a gloss handle ("a picture and
+  sound of an elephant IS the referent; 'a large grey animal' is a description of one").
+  The sense-data overlay is `data/referents.json`; a composite referent (orchestra =
+  players + instruments + emergent sound) decomposes the same way the glyph graph does,
+  one layer up. (Graded/property + composite referents → Future exploration.)
 
 ## Worked cluster: 木
 

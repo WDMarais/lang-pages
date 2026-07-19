@@ -33,7 +33,7 @@ data-src="X.json">` + a local built JSON. Same template, differ only by data + a
 
 | page | shows | decision |
 |------|-------|----------|
-| `/glyph/` | glyph dossier: one node's shape, parts, appears-in, confusables, meaning, assets; hash-addressable | **keep — core probe; fold renderer** |
+| `/glyph/` | glyph dossier: one node's shape, parts, appears-in, confusables, referent (所指), assets; hash-addressable | **keep — core probe; fold renderer** |
 | `/graph/` | author/debug console: coverage, invariants, frontier worklist, ego view | **keep as tooling** — explicitly "seams showing"; not a study surface, don't polish as one |
 
 ### 3. Phonetics banks (CORE)

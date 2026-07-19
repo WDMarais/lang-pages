@@ -201,11 +201,26 @@ function hero(n, r, isWord, surface) {
     </div>`;
 }
 
+// 所指 / referent — the thing the glyph POINTS AT, not a definition of it. This is
+// the skeleton of the concrete-referent panel: the label handle here ("round") is a
+// placeholder for authored sense-data (image + sound + motion) — see the referents.json
+// overlay and concrete-referent-panel design note. Deliberately NOT labelled 义/"means":
+// a picture-and-sound of an elephant IS the referent; "a large grey animal" is a gloss.
+// Absent sense-data shows honestly in the assets grid (image: —), so this stays a plain
+// pointer for now rather than faking an empty media well.
+function referentRow(refId) {
+  const label = refId && G.refLabel[refId];
+  if (!label) { return ''; }
+  return html`
+    <div class="gl-rel">
+      <div class="gl-rel-label"><span>所指</span><span class="en">referent</span></div>
+      <div class="gl-rel-body"><span class="gl-ref en">${label}</span></div>
+    </div>`;
+}
+
 function glyphBody(n, surface) {
   const P = G.parts[surface] || [];
   const A = G.appears[surface] || [];
-  const refId = G.denotesOf[surface];
-  const label = refId && G.refLabel[refId];
   const vars = n.variants || [];
 
   return html`
@@ -213,11 +228,7 @@ function glyphBody(n, surface) {
       ${relRow('部件', 'built from', P, 'nothing decomposes it — it is a primitive here')}
       ${relRow('出现于', 'appears in', A, 'nothing in the graph is built from it yet')}
       ${vars.length ? relRow('异体', 'variant forms', vars, '') : ''}
-      ${label ? html`
-        <div class="gl-rel">
-          <div class="gl-rel-label"><span>义</span><span class="en">means</span></div>
-          <div class="gl-rel-body"><span class="gl-ref en">${label}</span></div>
-        </div>` : ''}
+      ${referentRow(G.denotesOf[surface])}
     </div>`;
 }
 
@@ -232,6 +243,7 @@ function wordBody(n) {
           <div class="gl-rel-label"><span>送假名</span><span class="en">okurigana</span></div>
           <div class="gl-rel-body"><span class="gl-ref">${n.okurigana}</span></div>
         </div>` : ''}
+      ${referentRow(refId)}
     </div>`;
 }
 
