@@ -3471,6 +3471,36 @@
       "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
     },
     {
+      "id": "b:但@cn",
+      "glyph_id": "g:但",
+      "lang": "cn",
+      "name": "但",
+      "readings": [
+        "dàn"
+      ],
+      "gloss": "but; only; merely",
+      "extra": "亻 + 旦 · 但是、不但、但愿",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "but",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:但@jp",
+      "glyph_id": "g:但",
+      "lang": "jp",
+      "name": "但",
+      "readings": [
+        "ただし"
+      ],
+      "gloss": "but; however",
+      "extra": "漢字「但」(ただ-し · タン) · 但し(ただし)、但し書き"
+    },
+    {
       "id": "b:体@cn",
       "glyph_id": "g:体",
       "lang": "cn",
@@ -3529,6 +3559,36 @@
       ],
       "gloss": "to make",
       "extra": "漢字「作」(つく-る · サク・サ) · 作る、作品、作家"
+    },
+    {
+      "id": "b:使@cn",
+      "glyph_id": "g:使",
+      "lang": "cn",
+      "name": "使",
+      "readings": [
+        "shǐ"
+      ],
+      "gloss": "to use; to make/cause; envoy",
+      "extra": "亻 + 吏 · 使用、大使、使得",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "use",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:使@jp",
+      "glyph_id": "g:使",
+      "lang": "jp",
+      "name": "使",
+      "readings": [
+        "つかう"
+      ],
+      "gloss": "to use; messenger",
+      "extra": "漢字「使」(つか-う · シ) · 使う、大使(たいし)"
     },
     {
       "id": "b:億@cn",
@@ -3637,6 +3697,46 @@
       "readings": [],
       "gloss": "open box",
       "extra": ""
+    },
+    {
+      "id": "b:分@cn",
+      "glyph_id": "g:分",
+      "lang": "cn",
+      "name": "分",
+      "readings": [
+        "fēn"
+      ],
+      "gloss": "to divide; minute; point",
+      "extra": "八 + 刀 · 分开、十分、分钟 · 又读 fèn（身分、成分）",
+      "appearsIn": {
+        "glyph": "粉",
+        "reading": "fěn",
+        "gloss": "powder; flour"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "divide",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:分@jp",
+      "glyph_id": "g:分",
+      "lang": "jp",
+      "name": "分",
+      "readings": [
+        "わける"
+      ],
+      "gloss": "to divide; part; minute",
+      "extra": "漢字「分」(わ-ける · ブン・フン・ブ) · 分ける、半分(はんぶん)、五分(ごふん)",
+      "appearsIn": {
+        "glyph": "粉",
+        "reading": "コ",
+        "gloss": "powder; flour"
+      }
     },
     {
       "id": "b:匕@cn",
@@ -5253,6 +5353,46 @@
       "readings": [],
       "gloss": "use",
       "extra": ""
+    },
+    {
+      "id": "b:由@cn",
+      "glyph_id": "g:由",
+      "lang": "cn",
+      "name": "由",
+      "readings": [
+        "yóu"
+      ],
+      "gloss": "from; by; cause; reason",
+      "extra": "田 中竖上出 · 由于、理由、自由 · 与 甲/申/田 形近",
+      "appearsIn": {
+        "glyph": "油",
+        "reading": "yóu",
+        "gloss": "oil"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "from",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:由@jp",
+      "glyph_id": "g:由",
+      "lang": "jp",
+      "name": "由",
+      "readings": [
+        "ユウ"
+      ],
+      "gloss": "reason; cause",
+      "extra": "漢字「由」(ユ・ユウ・ユイ · よし) · 理由(りゆう)、自由(じゆう)",
+      "appearsIn": {
+        "glyph": "油",
+        "reading": "ユ",
+        "gloss": "oil"
+      }
     },
     {
       "id": "b:疋@cn",

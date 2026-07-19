@@ -131,6 +131,10 @@
     "text": "歹",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "dan4.mp3": {
+    "text": "但",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "dao1.mp3": {
     "text": "刀",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -181,6 +185,10 @@
   },
   "fen1.mp3": {
     "text": "分",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fen3.mp3": {
+    "text": "粉",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "feng1.mp3": {
@@ -640,7 +648,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shi3.mp3": {
-    "text": "矢",
+    "text": "使",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shi4.mp3": {
@@ -901,6 +909,10 @@
   },
   "yong4.mp3": {
     "text": "用",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "you2.mp3": {
+    "text": "油",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "you3.mp3": {

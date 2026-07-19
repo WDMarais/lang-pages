@@ -41,13 +41,6 @@
       "label": "eight"
     },
     {
-      "id": "g:分",
-      "kind": "glyph",
-      "glyph": "分",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:二",
       "kind": "glyph",
       "glyph": "二",
@@ -1836,6 +1829,24 @@
       "label": "he; him; other"
     },
     {
+      "id": "g:但",
+      "kind": "glyph",
+      "glyph": "但",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "dan4",
+      "jpAudioKey": "tadashi"
+    },
+    {
+      "id": "r:but",
+      "kind": "referent",
+      "label": "but; only; merely"
+    },
+    {
       "id": "g:体",
       "kind": "glyph",
       "glyph": "体",
@@ -1870,6 +1881,24 @@
       "id": "r:make",
       "kind": "referent",
       "label": "to make; to do; to write (a work)"
+    },
+    {
+      "id": "g:使",
+      "kind": "glyph",
+      "glyph": "使",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "shi3",
+      "jpAudioKey": "tsukau"
+    },
+    {
+      "id": "r:use",
+      "kind": "referent",
+      "label": "to use; to make/cause; envoy"
     },
     {
       "id": "g:億",
@@ -1956,6 +1985,33 @@
       "id": "r:open-box",
       "kind": "referent",
       "label": "open box"
+    },
+    {
+      "id": "g:分",
+      "kind": "glyph",
+      "glyph": "分",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "fen1",
+      "cnExAudioKey": "fen3",
+      "jpAudioKey": "wakeru",
+      "jpExAudioKey": "ko"
+    },
+    {
+      "id": "r:divide",
+      "kind": "referent",
+      "label": "to divide; minute; point"
+    },
+    {
+      "id": "g:粉",
+      "kind": "glyph",
+      "glyph": "粉",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:匕",
@@ -3183,9 +3239,31 @@
       "cnAudioKey": "yong4"
     },
     {
-      "id": "r:use",
+      "id": "g:由",
+      "kind": "glyph",
+      "glyph": "由",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "you2",
+      "cnExAudioKey": "you2",
+      "jpAudioKey": "yuu",
+      "jpExAudioKey": "yu"
+    },
+    {
+      "id": "r:from",
       "kind": "referent",
-      "label": "use"
+      "label": "from; by; cause; reason"
+    },
+    {
+      "id": "g:油",
+      "kind": "glyph",
+      "glyph": "油",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:疋",
@@ -5693,13 +5771,6 @@
       "id": "g:來",
       "kind": "glyph",
       "glyph": "來",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:由",
-      "kind": "glyph",
-      "glyph": "由",
       "tier": null,
       "frontier": true
     },

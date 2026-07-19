@@ -475,6 +475,10 @@
     "text": "た",
     "voice": "ja-JP-NanamiNeural"
   },
+  "tadashi.mp3": {
+    "text": "ただし",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "tatekaku.mp3": {
     "text": "たてかく",
     "voice": "ja-JP-NanamiNeural"
@@ -501,6 +505,10 @@
   },
   "tsuchi.mp3": {
     "text": "つち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsukau.mp3": {
+    "text": "つかう",
     "voice": "ja-JP-NanamiNeural"
   },
   "tsuki.mp3": {
@@ -569,6 +577,10 @@
   },
   "yokokaku.mp3": {
     "text": "よこかく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yu.mp3": {
+    "text": "ユ",
     "voice": "ja-JP-NanamiNeural"
   },
   "yumi.mp3": {

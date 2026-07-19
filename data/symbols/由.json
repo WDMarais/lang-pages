@@ -1,0 +1,43 @@
+{
+  "glyph": "由",
+  "cp": "U+7531",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "由",
+      "reading": "yóu",
+      "gloss": "from; by; cause; reason",
+      "extra": "田 中竖上出 · 由于、理由、自由 · 与 甲/申/田 形近",
+      "appearsIn": {
+        "char": "油",
+        "reading": "yóu",
+        "gloss": "oil"
+      }
+    },
+    "jp": {
+      "name": "由",
+      "reading": "ユウ",
+      "gloss": "reason; cause",
+      "extra": "漢字「由」(ユ・ユウ・ユイ · よし) · 理由(りゆう)、自由(じゆう)",
+      "appearsIn": {
+        "char": "油",
+        "reading": "ユ",
+        "gloss": "oil"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "from",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

@@ -1336,6 +1336,24 @@
           "pdc": { "name": "he", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "但",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "dan4",
+          "jpAudioKey": "tadashi",
+          "cn": {
+            "name": "但", "reading": "dàn", "gloss": "but; only; merely",
+            "extra": "亻 + 旦 · 但是、不但、但愿"
+          },
+          "jp": {
+            "name": "但", "reading": "ただし", "gloss": "but; however",
+            "extra": "漢字「但」(ただ-し · タン) · 但し(ただし)、但し書き"
+          },
+          "wk": null,
+          "pdc": { "name": "but", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "体",
           "tag": "char",
           "image": "",
@@ -1372,6 +1390,24 @@
           "pdc": { "name": "make", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "使",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "shi3",
+          "jpAudioKey": "tsukau",
+          "cn": {
+            "name": "使", "reading": "shǐ", "gloss": "to use; to make/cause; envoy",
+            "extra": "亻 + 吏 · 使用、大使、使得"
+          },
+          "jp": {
+            "name": "使", "reading": "つかう", "gloss": "to use; messenger",
+            "extra": "漢字「使」(つか-う · シ) · 使う、大使(たいし)"
+          },
+          "wk": null,
+          "pdc": { "name": "use", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "億",
           "tag": "char",
           "image": "",
@@ -1387,6 +1423,28 @@
             "extra": "漢字「億」(オク) · 一億、億万長者"
           },
           "wk": null
+        },
+        {
+          "glyph": "分",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "fen1",
+          "cnExAudioKey": "fen3",
+          "jpAudioKey": "wakeru",
+          "jpExAudioKey": "ko",
+          "cn": {
+            "name": "分", "reading": "fēn", "gloss": "to divide; minute; point",
+            "extra": "八 + 刀 · 分开、十分、分钟 · 又读 fèn（身分、成分）",
+            "appearsIn": { "char": "粉", "reading": "fěn", "gloss": "powder; flour" }
+          },
+          "jp": {
+            "name": "分", "reading": "わける", "gloss": "to divide; part; minute",
+            "extra": "漢字「分」(わ-ける · ブン・フン・ブ) · 分ける、半分(はんぶん)、五分(ごふん)",
+            "appearsIn": { "char": "粉", "reading": "コ", "gloss": "powder; flour" }
+          },
+          "wk": null,
+          "pdc": { "name": "divide", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "回",
@@ -1666,6 +1724,28 @@
           },
           "wk": { "name": "Cow", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Cow", "readings": ["ギュウ"], "on": true, "kun": ["うし"], "level": 2 }
+        },
+        {
+          "glyph": "由",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "you2",
+          "cnExAudioKey": "you2",
+          "jpAudioKey": "yuu",
+          "jpExAudioKey": "yu",
+          "cn": {
+            "name": "由", "reading": "yóu", "gloss": "from; by; cause; reason",
+            "extra": "田 中竖上出 · 由于、理由、自由 · 与 甲/申/田 形近",
+            "appearsIn": { "char": "油", "reading": "yóu", "gloss": "oil" }
+          },
+          "jp": {
+            "name": "由", "reading": "ユウ", "gloss": "reason; cause",
+            "extra": "漢字「由」(ユ・ユウ・ユイ · よし) · 理由(りゆう)、自由(じゆう)",
+            "appearsIn": { "char": "油", "reading": "ユ", "gloss": "oil" }
+          },
+          "wk": null,
+          "pdc": { "name": "from", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "百",

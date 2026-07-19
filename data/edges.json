@@ -709,6 +709,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:但",
+      "to": "r:but",
+      "kind": "denotes"
+    },
+    {
       "from": "g:体",
       "to": "r:body",
       "kind": "denotes"
@@ -716,6 +721,11 @@
     {
       "from": "g:作",
       "to": "r:make",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:使",
+      "to": "r:use",
       "kind": "denotes"
     },
     {
@@ -742,6 +752,16 @@
       "from": "g:凵",
       "to": "r:open-box",
       "kind": "denotes"
+    },
+    {
+      "from": "g:分",
+      "to": "r:divide",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:分",
+      "to": "g:粉",
+      "kind": "composes"
     },
     {
       "from": "g:匕",
@@ -1128,6 +1148,16 @@
       "from": "g:用",
       "to": "r:use",
       "kind": "denotes"
+    },
+    {
+      "from": "g:由",
+      "to": "r:from",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:由",
+      "to": "g:油",
+      "kind": "composes"
     },
     {
       "from": "g:疋",
