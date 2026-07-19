@@ -789,6 +789,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:地",
+      "to": "r:land",
+      "kind": "denotes"
+    },
+    {
       "from": "g:士",
       "to": "r:scholar",
       "kind": "denotes"
@@ -1173,6 +1178,11 @@
       "from": "g:相",
       "to": "g:想",
       "kind": "composes"
+    },
+    {
+      "from": "g:看",
+      "to": "r:look",
+      "kind": "denotes"
     },
     {
       "from": "g:矛",

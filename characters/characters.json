@@ -1407,6 +1407,24 @@
           "pdc": { "name": "return", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "地",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "di4",
+          "jpAudioKey": "chi",
+          "cn": {
+            "name": "地", "reading": "dì", "gloss": "land; earth; ground",
+            "extra": "土 + 也 · 地方、土地、地图 · 又读 de（结构助词，如「慢慢地」）"
+          },
+          "jp": {
+            "name": "地", "reading": "チ", "gloss": "ground; earth",
+            "extra": "漢字「地」(チ · ジ) · 地面(じめん)、土地(とち)"
+          },
+          "wk": null,
+          "pdc": { "name": "land", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "她",
           "tag": "char",
           "image": "",
@@ -1711,6 +1729,24 @@
           },
           "wk": null,
           "pdc": { "name": "appearance", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "看",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "kan4",
+          "jpAudioKey": "kan",
+          "cn": {
+            "name": "看", "reading": "kàn", "gloss": "to look; to watch; to read",
+            "extra": "手 + 目 · 看见、看书 · 手遮目而望 · 又读 kān（看守、看护）"
+          },
+          "jp": {
+            "name": "看", "reading": "カン", "gloss": "to watch; to look after",
+            "extra": "漢字「看」(カン) · 看護(かんご)、看板(かんばん)"
+          },
+          "wk": null,
+          "pdc": { "name": "look", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "立",

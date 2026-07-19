@@ -1,0 +1,37 @@
+{
+  "glyph": "看",
+  "cp": "U+770B",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "手",
+    "目"
+  ],
+  "readings": {
+    "cn": {
+      "name": "看",
+      "reading": "kàn",
+      "gloss": "to look; to watch; to read",
+      "extra": "手 + 目 · 看见、看书 · 手遮目而望 · 又读 kān（看守、看护）"
+    },
+    "jp": {
+      "name": "看",
+      "reading": "カン",
+      "gloss": "to watch; to look after",
+      "extra": "漢字「看」(カン) · 看護(かんご)、看板(かんばん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "look",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

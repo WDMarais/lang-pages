@@ -3829,6 +3829,36 @@
       "extra": "漢字「回」(まわ-る · カイ・エ) · 回る、一回、今回"
     },
     {
+      "id": "b:地@cn",
+      "glyph_id": "g:地",
+      "lang": "cn",
+      "name": "地",
+      "readings": [
+        "dì"
+      ],
+      "gloss": "land; earth; ground",
+      "extra": "土 + 也 · 地方、土地、地图 · 又读 de（结构助词，如「慢慢地」）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "land",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:地@jp",
+      "glyph_id": "g:地",
+      "lang": "jp",
+      "name": "地",
+      "readings": [
+        "チ"
+      ],
+      "gloss": "ground; earth",
+      "extra": "漢字「地」(チ · ジ) · 地面(じめん)、土地(とち)"
+    },
+    {
       "id": "b:士@cn",
       "glyph_id": "g:士",
       "lang": "cn",
@@ -5446,6 +5476,36 @@
         "reading": "ソウ",
         "gloss": "idea; thought"
       }
+    },
+    {
+      "id": "b:看@cn",
+      "glyph_id": "g:看",
+      "lang": "cn",
+      "name": "看",
+      "readings": [
+        "kàn"
+      ],
+      "gloss": "to look; to watch; to read",
+      "extra": "手 + 目 · 看见、看书 · 手遮目而望 · 又读 kān（看守、看护）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "look",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:看@jp",
+      "glyph_id": "g:看",
+      "lang": "jp",
+      "name": "看",
+      "readings": [
+        "カン"
+      ],
+      "gloss": "to watch; to look after",
+      "extra": "漢字「看」(カン) · 看護(かんご)、看板(かんばん)"
     },
     {
       "id": "b:矛@cn",

@@ -1036,13 +1036,6 @@
       "label": "earth; soil"
     },
     {
-      "id": "g:地",
-      "kind": "glyph",
-      "glyph": "地",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:刀",
       "kind": "glyph",
       "glyph": "刀",
@@ -2110,6 +2103,24 @@
       "id": "r:return",
       "kind": "referent",
       "label": "to return; time(s)"
+    },
+    {
+      "id": "g:地",
+      "kind": "glyph",
+      "glyph": "地",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "di4",
+      "jpAudioKey": "chi"
+    },
+    {
+      "id": "r:land",
+      "kind": "referent",
+      "label": "land; earth; ground"
     },
     {
       "id": "g:士",
@@ -3332,6 +3343,24 @@
       "glyph": "想",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:看",
+      "kind": "glyph",
+      "glyph": "看",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "kan4",
+      "jpAudioKey": "kan"
+    },
+    {
+      "id": "r:look",
+      "kind": "referent",
+      "label": "to look; to watch; to read"
     },
     {
       "id": "g:矛",

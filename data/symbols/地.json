@@ -1,0 +1,37 @@
+{
+  "glyph": "地",
+  "cp": "U+5730",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "土",
+    "也"
+  ],
+  "readings": {
+    "cn": {
+      "name": "地",
+      "reading": "dì",
+      "gloss": "land; earth; ground",
+      "extra": "土 + 也 · 地方、土地、地图 · 又读 de（结构助词，如「慢慢地」）"
+    },
+    "jp": {
+      "name": "地",
+      "reading": "チ",
+      "gloss": "ground; earth",
+      "extra": "漢字「地」(チ · ジ) · 地面(じめん)、土地(とち)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "land",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}
