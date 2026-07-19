@@ -1099,6 +1099,22 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "一向",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "向"
+      ],
+      "denotes": "all-along",
+      "reading": "yīxiàng",
+      "gloss": "all along; consistently; always (up to now)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

@@ -704,6 +704,16 @@
       "role": "phonetic"
     },
     {
+      "from": "g:了",
+      "to": "r:complete",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:什",
+      "to": "r:what",
+      "kind": "denotes"
+    },
+    {
       "from": "g:他",
       "to": "r:he",
       "kind": "denotes"
@@ -806,6 +816,11 @@
     {
       "from": "g:回",
       "to": "r:return",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:在",
+      "to": "r:exist",
       "kind": "denotes"
     },
     {
@@ -4855,6 +4870,21 @@
     {
       "from": "w:回合@cn",
       "to": "r:round",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一向@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:向",
+      "to": "w:一向@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一向@cn",
+      "to": "r:all-along",
       "kind": "denotes"
     },
     {

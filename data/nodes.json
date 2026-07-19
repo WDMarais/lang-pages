@@ -1811,6 +1811,42 @@
       "label": "also; too"
     },
     {
+      "id": "g:了",
+      "kind": "glyph",
+      "glyph": "了",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "liao3",
+      "jpAudioKey": "ryou"
+    },
+    {
+      "id": "r:complete",
+      "kind": "referent",
+      "label": "to complete; to finish"
+    },
+    {
+      "id": "g:什",
+      "kind": "glyph",
+      "glyph": "什",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "shen2",
+      "jpAudioKey": "juu"
+    },
+    {
+      "id": "r:what",
+      "kind": "referent",
+      "label": "what (in 什么)"
+    },
+    {
       "id": "g:他",
       "kind": "glyph",
       "glyph": "他",
@@ -2159,6 +2195,24 @@
       "id": "r:return",
       "kind": "referent",
       "label": "to return; time(s)"
+    },
+    {
+      "id": "g:在",
+      "kind": "glyph",
+      "glyph": "在",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zai4",
+      "jpAudioKey": "zai"
+    },
+    {
+      "id": "r:exist",
+      "kind": "referent",
+      "label": "to exist; to be (located) at"
     },
     {
       "id": "g:地",
@@ -5523,13 +5577,6 @@
       "frontier": true
     },
     {
-      "id": "g:了",
-      "kind": "glyph",
-      "glyph": "了",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:扌",
       "kind": "glyph",
       "glyph": "扌",
@@ -7075,6 +7122,25 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "id": "w:一向@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一向",
+      "reading": "yīxiàng",
+      "gloss": "all along; consistently; always (up to now)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:all-along",
+      "kind": "referent",
+      "label": "all along; consistently; always (up to now)"
     }
   ]
 }

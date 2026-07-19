@@ -1,0 +1,37 @@
+{
+  "glyph": "在",
+  "cp": "U+5728",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "才",
+    "土"
+  ],
+  "readings": {
+    "cn": {
+      "name": "在",
+      "reading": "zài",
+      "gloss": "to exist; to be (located) at",
+      "extra": "才 + 土 · 三用：① 动词 = 在/存在（我在家 I'm home）② 介词 = at/in/on（在桌上 on the table）③ 进行体 = 正在做（我在吃饭 I'm eating）· 现在、在于"
+    },
+    "jp": {
+      "name": "在",
+      "reading": "ザイ",
+      "gloss": "existence; presence",
+      "extra": "漢字「在」(ザイ · あ-る) · 存在(そんざい)、現在(げんざい)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "exist",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

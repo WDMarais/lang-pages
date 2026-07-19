@@ -3441,6 +3441,66 @@
       }
     },
     {
+      "id": "b:了@cn",
+      "glyph_id": "g:了",
+      "lang": "cn",
+      "name": "了",
+      "readings": [
+        "liǎo"
+      ],
+      "gloss": "to complete; to finish",
+      "extra": "单体 · 了解、了结、了不起 · 又读 le（助词：吃了 = ate / 完成体）· 象形（襁褓之子）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "complete",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:了@jp",
+      "glyph_id": "g:了",
+      "lang": "jp",
+      "name": "了",
+      "readings": [
+        "リョウ"
+      ],
+      "gloss": "complete; finish",
+      "extra": "漢字「了」(リョウ) · 完了(かんりょう)、終了(しゅうりょう)"
+    },
+    {
+      "id": "b:什@cn",
+      "glyph_id": "g:什",
+      "lang": "cn",
+      "name": "什",
+      "readings": [
+        "shén"
+      ],
+      "gloss": "what (in 什么)",
+      "extra": "亻 + 十 · 什么(shénme) = what · 又读 shí（什锦 assorted、家什 utensils）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "what",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:什@jp",
+      "glyph_id": "g:什",
+      "lang": "jp",
+      "name": "什",
+      "readings": [
+        "ジュウ"
+      ],
+      "gloss": "assorted; miscellany",
+      "extra": "漢字「什」(ジュウ・シュウ) · 什器(じゅうき) = household goods（日本語では「何」の意味では使わない）"
+    },
+    {
       "id": "b:他@cn",
       "glyph_id": "g:他",
       "lang": "cn",
@@ -3927,6 +3987,36 @@
       ],
       "gloss": "to turn; times (counter)",
       "extra": "漢字「回」(まわ-る · カイ・エ) · 回る、一回、今回"
+    },
+    {
+      "id": "b:在@cn",
+      "glyph_id": "g:在",
+      "lang": "cn",
+      "name": "在",
+      "readings": [
+        "zài"
+      ],
+      "gloss": "to exist; to be (located) at",
+      "extra": "才 + 土 · 三用：① 动词 = 在/存在（我在家 I'm home）② 介词 = at/in/on（在桌上 on the table）③ 进行体 = 正在做（我在吃饭 I'm eating）· 现在、在于",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "exist",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:在@jp",
+      "glyph_id": "g:在",
+      "lang": "jp",
+      "name": "在",
+      "readings": [
+        "ザイ"
+      ],
+      "gloss": "existence; presence",
+      "extra": "漢字「在」(ザイ · あ-る) · 存在(そんざい)、現在(げんざい)"
     },
     {
       "id": "b:地@cn",

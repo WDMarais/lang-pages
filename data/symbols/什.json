@@ -1,0 +1,37 @@
+{
+  "glyph": "什",
+  "cp": "U+4EC0",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "亻",
+    "十"
+  ],
+  "readings": {
+    "cn": {
+      "name": "什",
+      "reading": "shén",
+      "gloss": "what (in 什么)",
+      "extra": "亻 + 十 · 什么(shénme) = what · 又读 shí（什锦 assorted、家什 utensils）"
+    },
+    "jp": {
+      "name": "什",
+      "reading": "ジュウ",
+      "gloss": "assorted; miscellany",
+      "extra": "漢字「什」(ジュウ・シュウ) · 什器(じゅうき) = household goods（日本語では「何」の意味では使わない）"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "what",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

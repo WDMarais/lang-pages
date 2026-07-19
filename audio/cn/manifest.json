@@ -399,6 +399,10 @@
     "text": "力",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "liao3.mp3": {
+    "text": "了",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "lin2.mp3": {
     "text": "林",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -633,6 +637,10 @@
   },
   "shen1.mp3": {
     "text": "身",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shen2.mp3": {
+    "text": "什",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "sheng1.mp3": {
@@ -945,6 +953,10 @@
   },
   "yue4.mp3": {
     "text": "月",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zai4.mp3": {
+    "text": "在",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhao3.mp3": {
