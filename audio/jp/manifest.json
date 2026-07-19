@@ -103,6 +103,10 @@
     "text": "はねぼう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hatasu.mp3": {
+    "text": "はたす",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hayashi.mp3": {
     "text": "はやし",
     "voice": "ja-JP-NanamiNeural"
@@ -129,6 +133,10 @@
   },
   "hito.mp3": {
     "text": "ひと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hoka.mp3": {
+    "text": "ほか",
     "voice": "ja-JP-NanamiNeural"
   },
   "hon.mp3": {
@@ -185,6 +193,10 @@
   },
   "juu.mp3": {
     "text": "ジュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ka.mp3": {
+    "text": "カ",
     "voice": "ja-JP-NanamiNeural"
   },
   "kai.mp3": {
@@ -477,6 +489,10 @@
   },
   "tsuki.mp3": {
     "text": "つき",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsukuru.mp3": {
+    "text": "つくる",
     "voice": "ja-JP-NanamiNeural"
   },
   "tsuno.mp3": {

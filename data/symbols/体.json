@@ -1,0 +1,37 @@
+{
+  "glyph": "体",
+  "cp": "U+4F53",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "亻",
+    "本"
+  ],
+  "readings": {
+    "cn": {
+      "name": "体",
+      "reading": "tǐ",
+      "gloss": "body; form; style",
+      "extra": "亻 + 本 · 身体、体育、体重 · 繁: 體"
+    },
+    "jp": {
+      "name": "体",
+      "reading": "からだ",
+      "gloss": "body",
+      "extra": "漢字「体」(からだ · タイ・テイ) · 体、身体(しんたい) · 旧字: 體"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "body",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

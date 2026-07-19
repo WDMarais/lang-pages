@@ -1,0 +1,37 @@
+{
+  "glyph": "作",
+  "cp": "U+4F5C",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "亻",
+    "乍"
+  ],
+  "readings": {
+    "cn": {
+      "name": "作",
+      "reading": "zuò",
+      "gloss": "to make; to do; to write (a work)",
+      "extra": "亻 + 乍 · 工作、作业、作家 · 又读 zuō（作坊）"
+    },
+    "jp": {
+      "name": "作",
+      "reading": "つくる",
+      "gloss": "to make",
+      "extra": "漢字「作」(つく-る · サク・サ) · 作る、作品、作家"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "make",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

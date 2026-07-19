@@ -3441,6 +3441,96 @@
       }
     },
     {
+      "id": "b:他@cn",
+      "glyph_id": "g:他",
+      "lang": "cn",
+      "name": "他",
+      "readings": [
+        "tā"
+      ],
+      "gloss": "he; him; other",
+      "extra": "亻 + 也 · 他们、其他、他人 · 他/她/它 同音 tā",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "he",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:他@jp",
+      "glyph_id": "g:他",
+      "lang": "jp",
+      "name": "他",
+      "readings": [
+        "ほか"
+      ],
+      "gloss": "other",
+      "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
+    },
+    {
+      "id": "b:体@cn",
+      "glyph_id": "g:体",
+      "lang": "cn",
+      "name": "体",
+      "readings": [
+        "tǐ"
+      ],
+      "gloss": "body; form; style",
+      "extra": "亻 + 本 · 身体、体育、体重 · 繁: 體",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "body",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:体@jp",
+      "glyph_id": "g:体",
+      "lang": "jp",
+      "name": "体",
+      "readings": [
+        "からだ"
+      ],
+      "gloss": "body",
+      "extra": "漢字「体」(からだ · タイ・テイ) · 体、身体(しんたい) · 旧字: 體"
+    },
+    {
+      "id": "b:作@cn",
+      "glyph_id": "g:作",
+      "lang": "cn",
+      "name": "作",
+      "readings": [
+        "zuò"
+      ],
+      "gloss": "to make; to do; to write (a work)",
+      "extra": "亻 + 乍 · 工作、作业、作家 · 又读 zuō（作坊）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "make",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:作@jp",
+      "glyph_id": "g:作",
+      "lang": "jp",
+      "name": "作",
+      "readings": [
+        "つくる"
+      ],
+      "gloss": "to make",
+      "extra": "漢字「作」(つく-る · サク・サ) · 作る、作品、作家"
+    },
+    {
       "id": "b:億@cn",
       "glyph_id": "g:億",
       "lang": "cn",
@@ -4449,6 +4539,46 @@
           ],
           "level": 3
         }
+      }
+    },
+    {
+      "id": "b:果@cn",
+      "glyph_id": "g:果",
+      "lang": "cn",
+      "name": "果",
+      "readings": [
+        "guǒ"
+      ],
+      "gloss": "fruit; result; consequence",
+      "extra": "田 + 木 · 水果、果实、结果 · 象形（树上结果）",
+      "appearsIn": {
+        "glyph": "課",
+        "reading": "kè",
+        "gloss": "lesson; class; subject"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "fruit",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:果@jp",
+      "glyph_id": "g:果",
+      "lang": "jp",
+      "name": "果",
+      "readings": [
+        "はたす"
+      ],
+      "gloss": "to fulfill; fruit",
+      "extra": "漢字「果」(は-たす · カ) · 果物(くだもの)、結果(けっか)",
+      "appearsIn": {
+        "glyph": "課",
+        "reading": "カ",
+        "gloss": "section; lesson"
       }
     },
     {

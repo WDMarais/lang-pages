@@ -1083,6 +1083,22 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "surface": "回合",
+      "audience": "cn",
+      "parts": [
+        "回",
+        "合"
+      ],
+      "denotes": "round",
+      "reading": "huíhé",
+      "gloss": "round; bout (e.g. 三回合 three rounds)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

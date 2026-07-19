@@ -1,0 +1,47 @@
+{
+  "glyph": "果",
+  "cp": "U+679C",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "田",
+    "木"
+  ],
+  "readings": {
+    "cn": {
+      "name": "果",
+      "reading": "guǒ",
+      "gloss": "fruit; result; consequence",
+      "extra": "田 + 木 · 水果、果实、结果 · 象形（树上结果）",
+      "appearsIn": {
+        "char": "課",
+        "reading": "kè",
+        "gloss": "lesson; class; subject"
+      }
+    },
+    "jp": {
+      "name": "果",
+      "reading": "はたす",
+      "gloss": "to fulfill; fruit",
+      "extra": "漢字「果」(は-たす · カ) · 果物(くだもの)、結果(けっか)",
+      "appearsIn": {
+        "char": "課",
+        "reading": "カ",
+        "gloss": "section; lesson"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "fruit",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

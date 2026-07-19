@@ -1,0 +1,37 @@
+{
+  "glyph": "他",
+  "cp": "U+4ED6",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "亻",
+    "也"
+  ],
+  "readings": {
+    "cn": {
+      "name": "他",
+      "reading": "tā",
+      "gloss": "he; him; other",
+      "extra": "亻 + 也 · 他们、其他、他人 · 他/她/它 同音 tā"
+    },
+    "jp": {
+      "name": "他",
+      "reading": "ほか",
+      "gloss": "other",
+      "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "he",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

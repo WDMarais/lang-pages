@@ -915,13 +915,6 @@
       "label": "root; origin"
     },
     {
-      "id": "g:体",
-      "kind": "glyph",
-      "glyph": "体",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:円",
       "kind": "glyph",
       "glyph": "円",
@@ -1842,8 +1835,55 @@
       "id": "g:他",
       "kind": "glyph",
       "glyph": "他",
-      "tier": null,
-      "frontier": true
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ta1",
+      "jpAudioKey": "hoka"
+    },
+    {
+      "id": "r:he",
+      "kind": "referent",
+      "label": "he; him; other"
+    },
+    {
+      "id": "g:体",
+      "kind": "glyph",
+      "glyph": "体",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ti3",
+      "jpAudioKey": "karada"
+    },
+    {
+      "id": "r:body",
+      "kind": "referent",
+      "label": "body; form; style"
+    },
+    {
+      "id": "g:作",
+      "kind": "glyph",
+      "glyph": "作",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zuo4",
+      "jpAudioKey": "tsukuru"
+    },
+    {
+      "id": "r:make",
+      "kind": "referent",
+      "label": "to make; to do; to write (a work)"
     },
     {
       "id": "g:億",
@@ -2624,6 +2664,33 @@
       "id": "r:moon",
       "kind": "referent",
       "label": "moon; month"
+    },
+    {
+      "id": "g:果",
+      "kind": "glyph",
+      "glyph": "果",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "guo3",
+      "cnExAudioKey": "ke4",
+      "jpAudioKey": "hatasu",
+      "jpExAudioKey": "ka"
+    },
+    {
+      "id": "r:fruit",
+      "kind": "referent",
+      "label": "fruit; result; consequence"
+    },
+    {
+      "id": "g:課",
+      "kind": "glyph",
+      "glyph": "課",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:欠",
@@ -4075,11 +4142,6 @@
         "image": ""
       },
       "cnAudioKey": "shen1"
-    },
-    {
-      "id": "r:body",
-      "kind": "referent",
-      "label": "body"
     },
     {
       "id": "g:車",
@@ -6826,6 +6888,20 @@
       "id": "r:5th",
       "kind": "referent",
       "label": "the 5th (of the month); five days"
+    },
+    {
+      "id": "w:回合@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "回合",
+      "reading": "huíhé",
+      "gloss": "round; bout (e.g. 三回合 three rounds)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

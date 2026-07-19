@@ -1318,6 +1318,60 @@
           "pdc": { "name": "also", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "他",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ta1",
+          "jpAudioKey": "hoka",
+          "cn": {
+            "name": "他", "reading": "tā", "gloss": "he; him; other",
+            "extra": "亻 + 也 · 他们、其他、他人 · 他/她/它 同音 tā"
+          },
+          "jp": {
+            "name": "他", "reading": "ほか", "gloss": "other",
+            "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
+          },
+          "wk": null,
+          "pdc": { "name": "he", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "体",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ti3",
+          "jpAudioKey": "karada",
+          "cn": {
+            "name": "体", "reading": "tǐ", "gloss": "body; form; style",
+            "extra": "亻 + 本 · 身体、体育、体重 · 繁: 體"
+          },
+          "jp": {
+            "name": "体", "reading": "からだ", "gloss": "body",
+            "extra": "漢字「体」(からだ · タイ・テイ) · 体、身体(しんたい) · 旧字: 體"
+          },
+          "wk": null,
+          "pdc": { "name": "body", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "作",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "zuo4",
+          "jpAudioKey": "tsukuru",
+          "cn": {
+            "name": "作", "reading": "zuò", "gloss": "to make; to do; to write (a work)",
+            "extra": "亻 + 乍 · 工作、作业、作家 · 又读 zuō（作坊）"
+          },
+          "jp": {
+            "name": "作", "reading": "つくる", "gloss": "to make",
+            "extra": "漢字「作」(つく-る · サク・サ) · 作る、作品、作家"
+          },
+          "wk": null,
+          "pdc": { "name": "make", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "億",
           "tag": "char",
           "image": "",
@@ -1452,6 +1506,28 @@
           "kanji": { "name": "Moon", "readings": ["ゲツ", "ガツ"], "on": true, "kun": ["つき"], "level": 3 },
           "pd": { "name": "moon", "level": 1, "kind": "meaning" },
           "pdc": { "name": "month", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "果",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "guo3",
+          "cnExAudioKey": "ke4",
+          "jpAudioKey": "hatasu",
+          "jpExAudioKey": "ka",
+          "cn": {
+            "name": "果", "reading": "guǒ", "gloss": "fruit; result; consequence",
+            "extra": "田 + 木 · 水果、果实、结果 · 象形（树上结果）",
+            "appearsIn": { "char": "課", "reading": "kè", "gloss": "lesson; class; subject" }
+          },
+          "jp": {
+            "name": "果", "reading": "はたす", "gloss": "to fulfill; fruit",
+            "extra": "漢字「果」(は-たす · カ) · 果物(くだもの)、結果(けっか)",
+            "appearsIn": { "char": "課", "reading": "カ", "gloss": "section; lesson" }
+          },
+          "wk": null,
+          "pdc": { "name": "fruit", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "正",

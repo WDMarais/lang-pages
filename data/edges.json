@@ -704,6 +704,21 @@
       "role": "phonetic"
     },
     {
+      "from": "g:他",
+      "to": "r:he",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:体",
+      "to": "r:body",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:作",
+      "to": "r:make",
+      "kind": "denotes"
+    },
+    {
       "from": "g:億",
       "to": "r:hundred-million",
       "kind": "denotes"
@@ -948,6 +963,16 @@
       "to": "g:明",
       "kind": "composes",
       "role": "semantic"
+    },
+    {
+      "from": "g:果",
+      "to": "r:fruit",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:果",
+      "to": "g:課",
+      "kind": "composes"
     },
     {
       "from": "g:欠",
@@ -4750,6 +4775,21 @@
     {
       "from": "w:五日@jp",
       "to": "r:5th",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:回",
+      "to": "w:回合@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:合",
+      "to": "w:回合@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:回合@cn",
+      "to": "r:round",
       "kind": "denotes"
     },
     {
