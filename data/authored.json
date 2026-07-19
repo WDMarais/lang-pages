@@ -144,6 +144,50 @@
         }
       ],
       "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "由",
+        "田"
+      ],
+      "basis": "visual",
+      "note": "The 'field with a line' family. 田 (field) is the closed grid. 由 (from / cause) is 田 with the central vertical pushing UP through the top. Its cousins extend the same stroke elsewhere: 甲 (jiǎ, first) pushes it DOWN through the bottom, 申 (shēn, to extend) through BOTH ends. Read 由 by the top-exit.",
+      "examples": [
+        {
+          "for": "由",
+          "text": "自由",
+          "gloss": "zìyóu — freedom (由 = from / cause; the stroke exits the TOP)"
+        },
+        {
+          "for": "田",
+          "text": "田地",
+          "gloss": "tiándì — farmland (田 = field; the grid stays CLOSED)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "他",
+        "她"
+      ],
+      "basis": "phonetic",
+      "note": "Homophones — both read tā, both built on the 也 phonetic. The radical carries the sense: 亻(person) → 他 'he', 女(woman) → 她 'she'. The set's third member 它 (roof 宀 → 'it', for things and animals) is the same tā again; pick the character by its referent, not by the sound.",
+      "examples": [
+        {
+          "for": "他",
+          "text": "他们",
+          "gloss": "tāmen — they (men / mixed group; 他 = he, person radical)"
+        },
+        {
+          "for": "她",
+          "text": "她们",
+          "gloss": "tāmen — they (all female; 她 = she, woman radical)"
+        }
+      ],
+      "lang": "cn"
     }
   ],
   "nodes": [],
