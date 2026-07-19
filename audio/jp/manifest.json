@@ -143,6 +143,10 @@
     "text": "ホウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hyaku.mp3": {
+    "text": "ヒャク",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ichi.mp3": {
     "text": "いち",
     "voice": "ja-JP-NanamiNeural"
@@ -247,6 +251,10 @@
     "text": "キュウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "man.mp3": {
+    "text": "マン",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "maru.mp3": {
     "text": "まる",
     "voice": "ja-JP-NanamiNeural"
@@ -325,6 +333,10 @@
   },
   "nushi.mp3": {
     "text": "ぬし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "oku.mp3": {
+    "text": "オク",
     "voice": "ja-JP-NanamiNeural"
   },
   "on.mp3": {
@@ -509,6 +521,10 @@
   },
   "ya.mp3": {
     "text": "や",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yado.mp3": {
+    "text": "やど",
     "voice": "ja-JP-NanamiNeural"
   },
   "yama.mp3": {

@@ -3345,6 +3345,39 @@
       }
     },
     {
+      "id": "b:万@cn",
+      "glyph_id": "g:万",
+      "lang": "cn",
+      "name": "万",
+      "readings": [
+        "wàn"
+      ],
+      "gloss": "ten thousand",
+      "extra": "数字「万」· 万一、几万 · 繁: 萬"
+    },
+    {
+      "id": "b:万@jp",
+      "glyph_id": "g:万",
+      "lang": "jp",
+      "name": "万",
+      "readings": [
+        "マン"
+      ],
+      "gloss": "ten thousand",
+      "extra": "漢字「万」(マン · バン) · 一万、万年筆 · 旧字: 萬",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Ten Thousand",
+          "readings": [
+            "マン"
+          ],
+          "on": true,
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:乙@cn",
       "glyph_id": "g:乙",
       "lang": "cn",
@@ -3406,6 +3439,28 @@
         "reading": "チ",
         "gloss": "ground; earth"
       }
+    },
+    {
+      "id": "b:億@cn",
+      "glyph_id": "g:億",
+      "lang": "cn",
+      "name": "億",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "hundred million",
+      "extra": "亻 + 意 · 数字「億」· 简: 亿"
+    },
+    {
+      "id": "b:億@jp",
+      "glyph_id": "g:億",
+      "lang": "jp",
+      "name": "億",
+      "readings": [
+        "オク"
+      ],
+      "gloss": "hundred million",
+      "extra": "漢字「億」(オク) · 一億、億万長者"
     },
     {
       "id": "b:冖@cn",
@@ -4967,6 +5022,38 @@
       "readings": [],
       "gloss": "footsteps",
       "extra": ""
+    },
+    {
+      "id": "b:百@cn",
+      "glyph_id": "g:百",
+      "lang": "cn",
+      "name": "百",
+      "readings": [
+        "bǎi"
+      ],
+      "gloss": "hundred",
+      "extra": "一 + 白 · 数字「百」· 百万、几百",
+      "appearsIn": {
+        "glyph": "宿",
+        "reading": "sù",
+        "gloss": "to stay overnight"
+      }
+    },
+    {
+      "id": "b:百@jp",
+      "glyph_id": "g:百",
+      "lang": "jp",
+      "name": "百",
+      "readings": [
+        "ヒャク"
+      ],
+      "gloss": "hundred",
+      "extra": "漢字「百」(ヒャク) · 百円、三百 · 音便: 三百(さんびゃく)・六百(ろっぴゃく)・八百(はっぴゃく)",
+      "appearsIn": {
+        "glyph": "宿",
+        "reading": "やど",
+        "gloss": "inn"
+      }
     },
     {
       "id": "b:皮@cn",

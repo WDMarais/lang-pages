@@ -3,182 +3,298 @@
     {
       "surface": "七つ",
       "audience": "jp",
-      "parts": ["七"],
+      "parts": [
+        "七"
+      ],
       "denotes": "seven",
       "reading": "ななつ",
       "gloss": "seven things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "二つ",
       "audience": "jp",
-      "parts": ["二"],
+      "parts": [
+        "二"
+      ],
       "denotes": "two",
       "reading": "ふたつ",
       "gloss": "two things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "入る",
       "audience": "jp",
-      "parts": ["入"],
+      "parts": [
+        "入"
+      ],
       "denotes": "enter",
       "reading": "はいる",
       "gloss": "to enter",
       "okurigana": "る",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "八つ",
       "audience": "jp",
-      "parts": ["八"],
+      "parts": [
+        "八"
+      ],
       "denotes": "eight",
       "reading": "やっつ",
       "gloss": "eight things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "二人",
       "audience": "jp",
-      "parts": ["二", "人"],
+      "parts": [
+        "二",
+        "人"
+      ],
       "denotes": "two-people",
       "reading": "ふたり",
       "gloss": "two people",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "一つ",
       "audience": "jp",
-      "parts": ["一"],
+      "parts": [
+        "一"
+      ],
       "denotes": "one",
       "reading": "ひとつ",
       "gloss": "one thing",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "一人",
       "audience": "jp",
-      "parts": ["一", "人"],
+      "parts": [
+        "一",
+        "人"
+      ],
       "denotes": "one-person",
       "reading": "ひとり",
       "gloss": "one person",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "三つ",
       "audience": "jp",
-      "parts": ["三"],
+      "parts": [
+        "三"
+      ],
       "denotes": "three",
       "reading": "みっつ",
       "gloss": "three things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "九つ",
       "audience": "jp",
-      "parts": ["九"],
+      "parts": [
+        "九"
+      ],
       "denotes": "nine",
       "reading": "ここのつ",
       "gloss": "nine things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "三人",
       "audience": "jp",
-      "parts": ["三", "人"],
+      "parts": [
+        "三",
+        "人"
+      ],
       "denotes": "three-people",
       "reading": "さんにん",
       "gloss": "three people",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "上げる",
       "audience": "jp",
-      "parts": ["上"],
+      "parts": [
+        "上"
+      ],
       "denotes": "raise",
       "reading": "あげる",
       "gloss": "to raise; lift up",
       "okurigana": "げる",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "下げる",
       "audience": "jp",
-      "parts": ["下"],
+      "parts": [
+        "下"
+      ],
       "denotes": "lower",
       "reading": "さげる",
       "gloss": "to lower something",
       "okurigana": "げる",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "下さい",
       "audience": "jp",
-      "parts": ["下"],
+      "parts": [
+        "下"
+      ],
       "denotes": "please-give",
       "reading": "ください",
       "gloss": "please (give me)",
       "okurigana": "さい",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "入り口",
       "audience": "jp",
-      "parts": ["入", "口"],
+      "parts": [
+        "入",
+        "口"
+      ],
       "denotes": "entrance",
       "reading": "いりぐち",
       "gloss": "entrance; entryway",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "大きい",
       "audience": "jp",
-      "parts": ["大"],
+      "parts": [
+        "大"
+      ],
       "denotes": "big",
       "reading": "おおきい",
       "gloss": "big; large",
       "okurigana": "きい",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "大きさ",
       "audience": "jp",
-      "parts": ["大"],
+      "parts": [
+        "大"
+      ],
       "denotes": "size",
       "reading": "おおきさ",
       "gloss": "size",
       "okurigana": "きさ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "大した",
       "audience": "jp",
-      "parts": ["大"],
+      "parts": [
+        "大"
+      ],
       "denotes": "great",
       "reading": "たいした",
       "gloss": "great; considerable",
       "okurigana": "した",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "大人",
       "audience": "jp",
-      "parts": ["大", "人"],
+      "parts": [
+        "大",
+        "人"
+      ],
       "denotes": "adult",
       "reading": "おとな",
       "gloss": "adult",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "人口",
       "audience": "jp",
-      "parts": ["人", "口"],
+      "parts": [
+        "人",
+        "口"
+      ],
       "denotes": "population",
       "reading": "じんこう",
       "gloss": "population"
@@ -186,31 +302,50 @@
     {
       "surface": "人工",
       "audience": "jp",
-      "parts": ["人", "工"],
+      "parts": [
+        "人",
+        "工"
+      ],
       "denotes": "artificial",
       "reading": "じんこう",
       "gloss": "artificial; man-made",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "力いっぱい",
       "audience": "jp",
-      "parts": ["力"],
+      "parts": [
+        "力"
+      ],
       "denotes": "full-power",
       "reading": "ちからいっぱい",
       "gloss": "with all one's strength",
       "okurigana": "いっぱい",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "上る",
       "audience": "jp",
-      "parts": ["上"],
+      "parts": [
+        "上"
+      ],
       "denotes": "climb",
       "reading": "のぼる",
       "gloss": "to climb; to go up",
       "okurigana": "る",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "おはよう",
@@ -219,7 +354,11 @@
       "denotes": "good-morning",
       "reading": "おはよう",
       "gloss": "good morning",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "ホテル",
@@ -228,282 +367,662 @@
       "denotes": "hotel",
       "reading": "ホテル",
       "gloss": "hotel",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "之中",
       "audience": "cn",
-      "parts": ["之", "中"],
+      "parts": [
+        "之",
+        "中"
+      ],
       "denotes": "among",
       "reading": "zhīzhōng",
       "gloss": "among; amidst; in the middle of",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "从不",
       "audience": "cn",
-      "parts": ["从", "不"],
+      "parts": [
+        "从",
+        "不"
+      ],
       "denotes": "never",
       "reading": "cóngbù",
       "gloss": "never (in the past); never once",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "之后",
       "audience": "cn",
-      "parts": ["之", "后"],
+      "parts": [
+        "之",
+        "后"
+      ],
       "denotes": "after",
       "reading": "zhīhòu",
       "gloss": "after; afterwards; later",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "大人",
       "audience": "cn",
-      "parts": ["大", "人"],
+      "parts": [
+        "大",
+        "人"
+      ],
       "denotes": "adult",
       "reading": "dàrén",
       "gloss": "adult; grown-up",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "一一",
       "audience": "cn",
-      "parts": ["一"],
+      "parts": [
+        "一"
+      ],
       "denotes": "one-by-one",
       "reading": "yīyī",
       "gloss": "one by one; one after another",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "可以",
       "audience": "cn",
-      "parts": ["可", "以"],
+      "parts": [
+        "可",
+        "以"
+      ],
       "denotes": "can-may",
       "reading": "kěyǐ",
       "gloss": "can; may; possible; OK",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "以后",
       "audience": "cn",
-      "parts": ["以", "后"],
+      "parts": [
+        "以",
+        "后"
+      ],
       "denotes": "after",
       "reading": "yǐhòu",
       "gloss": "after; afterward; later; from now on",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "女子",
       "audience": "jp",
-      "parts": ["女", "子"],
+      "parts": [
+        "女",
+        "子"
+      ],
       "denotes": "girl",
       "reading": "じょし",
       "gloss": "girl; young woman",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "日本",
       "audience": "cn",
-      "parts": ["日", "本"],
+      "parts": [
+        "日",
+        "本"
+      ],
       "denotes": "japan",
       "reading": "rìběn",
       "gloss": "Japan",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "之一",
       "audience": "cn",
-      "parts": ["之", "一"],
+      "parts": [
+        "之",
+        "一"
+      ],
       "denotes": "one-of",
       "reading": "zhīyī",
       "gloss": "one of (a group); among",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "夕べ",
       "audience": "jp",
-      "parts": ["夕"],
+      "parts": [
+        "夕"
+      ],
       "denotes": "evening",
       "reading": "ゆうべ",
       "gloss": "evening; last night",
       "okurigana": "べ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "本人",
       "audience": "cn",
-      "parts": ["本", "人"],
+      "parts": [
+        "本",
+        "人"
+      ],
       "denotes": "oneself",
       "reading": "běnrén",
       "gloss": "oneself; the person in question; in person",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "小さい",
       "audience": "jp",
-      "parts": ["小"],
+      "parts": [
+        "小"
+      ],
       "denotes": "small",
       "reading": "ちいさい",
       "gloss": "small; little",
       "okurigana": "さい",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "丸い",
       "audience": "jp",
-      "parts": ["丸"],
+      "parts": [
+        "丸"
+      ],
       "denotes": "round",
       "reading": "まるい",
       "gloss": "round; circular",
       "okurigana": "い",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "可不",
       "audience": "cn",
-      "parts": ["可", "不"],
+      "parts": [
+        "可",
+        "不"
+      ],
       "denotes": "whether-or-not",
       "reading": "kěbù",
       "gloss": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\"",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "个人",
       "audience": "cn",
-      "parts": ["个", "人"],
+      "parts": [
+        "个",
+        "人"
+      ],
       "denotes": "individual",
       "reading": "gèrén",
       "gloss": "individual; personal; (of) oneself",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "不如",
       "audience": "cn",
-      "parts": ["不", "如"],
+      "parts": [
+        "不",
+        "如"
+      ],
       "denotes": "inferior-to",
       "reading": "bùrú",
       "gloss": "not as good as; inferior to; would be better to",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "人人",
       "audience": "cn",
-      "parts": ["人"],
+      "parts": [
+        "人"
+      ],
       "denotes": "everyone",
       "reading": "rénrén",
       "gloss": "everyone; everybody; each person",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "不可",
       "audience": "cn",
-      "parts": ["不", "可"],
+      "parts": [
+        "不",
+        "可"
+      ],
       "denotes": "cannot",
       "reading": "bùkě",
       "gloss": "cannot; must not; impossible (cf. reversed 可不)",
-      "program": { "source": "pandanese", "kind": "vocab", "level": 1 }
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 1
+      }
     },
     {
       "surface": "〜才",
       "audience": "jp",
-      "parts": ["才"],
+      "parts": [
+        "才"
+      ],
       "denotes": "years-old",
       "reading": "さい",
       "gloss": "… years old (age counter, e.g. 30才; substitutes for 歳)",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "五つ",
       "audience": "jp",
-      "parts": ["五"],
+      "parts": [
+        "五"
+      ],
       "denotes": "five",
       "reading": "いつつ",
       "gloss": "five things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "五十",
       "audience": "jp",
-      "parts": ["五", "十"],
+      "parts": [
+        "五",
+        "十"
+      ],
       "denotes": "fifty",
       "reading": "ごじゅう",
       "gloss": "fifty",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "中",
       "audience": "jp",
-      "parts": ["中"],
+      "parts": [
+        "中"
+      ],
       "denotes": "middle",
       "reading": "なか",
       "gloss": "middle; inside",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "六",
       "audience": "jp",
-      "parts": ["六"],
+      "parts": [
+        "六"
+      ],
       "denotes": "six",
       "reading": "ろく",
       "gloss": "six",
-      "program": { "source": "wanikani", "kind": "vocab", "level": 2 }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     },
     {
       "surface": "六つ",
       "audience": "jp",
-      "parts": ["六"],
+      "parts": [
+        "六"
+      ],
       "denotes": "six",
       "reading": "むっつ",
       "gloss": "six things",
       "okurigana": "つ",
-      "program": { "source": "wanikani", "kind": "vocab" }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     },
     {
       "surface": "十六",
       "audience": "jp",
-      "parts": ["十", "六"],
+      "parts": [
+        "十",
+        "六"
+      ],
       "denotes": "sixteen",
       "reading": "じゅうろく",
       "gloss": "sixteen",
-      "program": { "source": "wanikani", "kind": "vocab" }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     },
     {
       "surface": "〜円",
       "audience": "jp",
-      "parts": ["円"],
+      "parts": [
+        "円"
+      ],
       "denotes": "yen",
       "reading": "えん",
       "gloss": "… yen (currency counter, e.g. 千円; the money sense of 円 «circle»)",
-      "program": { "source": "wanikani", "kind": "vocab" }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     },
     {
       "surface": "千円",
       "audience": "jp",
-      "parts": ["千", "円"],
+      "parts": [
+        "千",
+        "円"
+      ],
       "denotes": "thousand-yen",
       "reading": "せんえん",
       "gloss": "1000 yen",
-      "program": { "source": "wanikani", "kind": "vocab" }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     },
     {
       "surface": "手",
       "audience": "jp",
-      "parts": ["手"],
+      "parts": [
+        "手"
+      ],
       "denotes": "hand",
       "reading": "て",
       "gloss": "hand",
-      "program": { "source": "wanikani", "kind": "vocab" }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     },
     {
       "surface": "下手",
       "audience": "jp",
-      "parts": ["下", "手"],
+      "parts": [
+        "下",
+        "手"
+      ],
       "denotes": "unskillful",
       "reading": "へた",
       "gloss": "unskillful; bad at (lit. below-hand)",
-      "program": { "source": "wanikani", "kind": "vocab" }
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "女王",
+      "audience": "jp",
+      "parts": [
+        "女",
+        "王"
+      ],
+      "denotes": "queen",
+      "reading": "じょおう",
+      "gloss": "queen (lit. woman-king)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "五月",
+      "audience": "jp",
+      "parts": [
+        "五",
+        "月"
+      ],
+      "denotes": "may",
+      "reading": "ごがつ",
+      "gloss": "May",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "六月",
+      "audience": "jp",
+      "parts": [
+        "六",
+        "月"
+      ],
+      "denotes": "june",
+      "reading": "ろくがつ",
+      "gloss": "June",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "一月",
+      "audience": "jp",
+      "parts": [
+        "一",
+        "月"
+      ],
+      "denotes": "january",
+      "reading": "いちがつ",
+      "gloss": "January",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "二月",
+      "audience": "jp",
+      "parts": [
+        "二",
+        "月"
+      ],
+      "denotes": "february",
+      "reading": "にがつ",
+      "gloss": "February",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "三月",
+      "audience": "jp",
+      "parts": [
+        "三",
+        "月"
+      ],
+      "denotes": "march",
+      "reading": "さんがつ",
+      "gloss": "March"
+    },
+    {
+      "surface": "四月",
+      "audience": "jp",
+      "parts": [
+        "四",
+        "月"
+      ],
+      "denotes": "april",
+      "reading": "しがつ",
+      "gloss": "April",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "七月",
+      "audience": "jp",
+      "parts": [
+        "七",
+        "月"
+      ],
+      "denotes": "july",
+      "reading": "しちがつ",
+      "gloss": "July"
+    },
+    {
+      "surface": "八月",
+      "audience": "jp",
+      "parts": [
+        "八",
+        "月"
+      ],
+      "denotes": "august",
+      "reading": "はちがつ",
+      "gloss": "August"
+    },
+    {
+      "surface": "九月",
+      "audience": "jp",
+      "parts": [
+        "九",
+        "月"
+      ],
+      "denotes": "september",
+      "reading": "くがつ",
+      "gloss": "September"
+    },
+    {
+      "surface": "十月",
+      "audience": "jp",
+      "parts": [
+        "十",
+        "月"
+      ],
+      "denotes": "october",
+      "reading": "じゅうがつ",
+      "gloss": "October",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "十一月",
+      "audience": "jp",
+      "parts": [
+        "十",
+        "一",
+        "月"
+      ],
+      "denotes": "november",
+      "reading": "じゅういちがつ",
+      "gloss": "November"
+    },
+    {
+      "surface": "十二月",
+      "audience": "jp",
+      "parts": [
+        "十",
+        "二",
+        "月"
+      ],
+      "denotes": "december",
+      "reading": "じゅうにがつ",
+      "gloss": "December"
+    },
+    {
+      "surface": "四つ",
+      "audience": "jp",
+      "parts": [
+        "四"
+      ],
+      "denotes": "four",
+      "reading": "よっつ",
+      "gloss": "four things",
+      "okurigana": "つ"
     }
   ]
 }

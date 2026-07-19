@@ -7,6 +7,10 @@
     "text": "白",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "bai3.mp3": {
+    "text": "百",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "bao1.mp3": {
     "text": "包",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -233,6 +237,10 @@
   },
   "gua1.mp3": {
     "text": "瓜",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "guan4.mp3": {
+    "text": "毌",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "guang3.mp3": {
@@ -659,6 +667,10 @@
     "text": "似",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "su4.mp3": {
+    "text": "宿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "sui1.mp3": {
     "text": "夊",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -705,6 +717,10 @@
   },
   "wan2.mp3": {
     "text": "丸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wan4.mp3": {
+    "text": "万",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wang1.mp3": {
@@ -856,7 +872,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yi4.mp3": {
-    "text": "弋",
+    "text": "億",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yin1.mp3": {

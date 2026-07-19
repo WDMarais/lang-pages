@@ -1,0 +1,38 @@
+{
+  "glyph": "百",
+  "cp": "U+767E",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "白"
+  ],
+  "readings": {
+    "cn": {
+      "name": "百",
+      "reading": "bǎi",
+      "gloss": "hundred",
+      "extra": "一 + 白 · 数字「百」· 百万、几百",
+      "appearsIn": {
+        "char": "宿",
+        "reading": "sù",
+        "gloss": "to stay overnight"
+      }
+    },
+    "jp": {
+      "name": "百",
+      "reading": "ヒャク",
+      "gloss": "hundred",
+      "extra": "漢字「百」(ヒャク) · 百円、三百 · 音便: 三百(さんびゃく)・六百(ろっぴゃく)・八百(はっぴゃく)",
+      "appearsIn": {
+        "char": "宿",
+        "reading": "やど",
+        "gloss": "inn"
+      }
+    }
+  },
+  "programs": []
+}

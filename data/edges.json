@@ -678,6 +678,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:万",
+      "to": "r:ten-thousand",
+      "kind": "denotes"
+    },
+    {
       "from": "g:乙",
       "to": "r:second",
       "kind": "denotes"
@@ -697,6 +702,11 @@
       "to": "g:地",
       "kind": "composes",
       "role": "phonetic"
+    },
+    {
+      "from": "g:億",
+      "to": "r:hundred-million",
+      "kind": "denotes"
     },
     {
       "from": "g:冖",
@@ -1078,6 +1088,16 @@
       "from": "g:癶",
       "to": "r:footsteps",
       "kind": "denotes"
+    },
+    {
+      "from": "g:百",
+      "to": "r:hundred",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:百",
+      "to": "g:宿",
+      "kind": "composes"
     },
     {
       "from": "g:皮",
@@ -4445,6 +4465,221 @@
     {
       "from": "w:下手@jp",
       "to": "r:unskillful",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:女",
+      "to": "w:女王@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:王",
+      "to": "w:女王@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:女王@jp",
+      "to": "r:queen",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:五",
+      "to": "w:五月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:五月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:五月@jp",
+      "to": "r:may",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:六",
+      "to": "w:六月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:六月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:六月@jp",
+      "to": "r:june",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:一月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一月@jp",
+      "to": "r:january",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:二月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:二月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:二月@jp",
+      "to": "r:february",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:三",
+      "to": "w:三月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:三月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:三月@jp",
+      "to": "r:march",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:四",
+      "to": "w:四月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:四月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:四月@jp",
+      "to": "r:april",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:七",
+      "to": "w:七月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:七月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:七月@jp",
+      "to": "r:july",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:八",
+      "to": "w:八月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:八月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:八月@jp",
+      "to": "r:august",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:九",
+      "to": "w:九月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:九月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:九月@jp",
+      "to": "r:september",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:十月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十月@jp",
+      "to": "r:october",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十一月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:十一月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:十一月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十一月@jp",
+      "to": "r:november",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十二月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:十二月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:十二月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十二月@jp",
+      "to": "r:december",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:四",
+      "to": "w:四つ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:四つ@jp",
+      "to": "r:four",
       "kind": "denotes"
     },
     {

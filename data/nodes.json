@@ -1791,6 +1791,24 @@
       "frontier": true
     },
     {
+      "id": "g:万",
+      "kind": "glyph",
+      "glyph": "万",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "wan4",
+      "jpAudioKey": "man"
+    },
+    {
+      "id": "r:ten-thousand",
+      "kind": "referent",
+      "label": "ten thousand"
+    },
+    {
       "id": "g:乙",
       "kind": "glyph",
       "glyph": "乙",
@@ -1833,6 +1851,24 @@
       "glyph": "他",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:億",
+      "kind": "glyph",
+      "glyph": "億",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yi4",
+      "jpAudioKey": "oku"
+    },
+    {
+      "id": "r:hundred-million",
+      "kind": "referent",
+      "label": "hundred million"
     },
     {
       "id": "g:冖",
@@ -3057,6 +3093,33 @@
       "id": "r:footsteps",
       "kind": "referent",
       "label": "footsteps"
+    },
+    {
+      "id": "g:百",
+      "kind": "glyph",
+      "glyph": "百",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "bai3",
+      "cnExAudioKey": "su4",
+      "jpAudioKey": "hyaku",
+      "jpExAudioKey": "yado"
+    },
+    {
+      "id": "r:hundred",
+      "kind": "referent",
+      "label": "hundred"
+    },
+    {
+      "id": "g:宿",
+      "kind": "glyph",
+      "glyph": "宿",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:皮",
@@ -6456,6 +6519,226 @@
       "id": "r:unskillful",
       "kind": "referent",
       "label": "unskillful; bad at (lit. below-hand)"
+    },
+    {
+      "id": "w:女王@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "女王",
+      "reading": "じょおう",
+      "gloss": "queen (lit. woman-king)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:queen",
+      "kind": "referent",
+      "label": "queen (lit. woman-king)"
+    },
+    {
+      "id": "w:五月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "五月",
+      "reading": "ごがつ",
+      "gloss": "May",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:may",
+      "kind": "referent",
+      "label": "May"
+    },
+    {
+      "id": "w:六月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "六月",
+      "reading": "ろくがつ",
+      "gloss": "June",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:june",
+      "kind": "referent",
+      "label": "June"
+    },
+    {
+      "id": "w:一月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一月",
+      "reading": "いちがつ",
+      "gloss": "January",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:january",
+      "kind": "referent",
+      "label": "January"
+    },
+    {
+      "id": "w:二月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "二月",
+      "reading": "にがつ",
+      "gloss": "February",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:february",
+      "kind": "referent",
+      "label": "February"
+    },
+    {
+      "id": "w:三月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "三月",
+      "reading": "さんがつ",
+      "gloss": "March"
+    },
+    {
+      "id": "r:march",
+      "kind": "referent",
+      "label": "March"
+    },
+    {
+      "id": "w:四月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "四月",
+      "reading": "しがつ",
+      "gloss": "April",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:april",
+      "kind": "referent",
+      "label": "April"
+    },
+    {
+      "id": "w:七月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "七月",
+      "reading": "しちがつ",
+      "gloss": "July"
+    },
+    {
+      "id": "r:july",
+      "kind": "referent",
+      "label": "July"
+    },
+    {
+      "id": "w:八月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "八月",
+      "reading": "はちがつ",
+      "gloss": "August"
+    },
+    {
+      "id": "r:august",
+      "kind": "referent",
+      "label": "August"
+    },
+    {
+      "id": "w:九月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "九月",
+      "reading": "くがつ",
+      "gloss": "September"
+    },
+    {
+      "id": "r:september",
+      "kind": "referent",
+      "label": "September"
+    },
+    {
+      "id": "w:十月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十月",
+      "reading": "じゅうがつ",
+      "gloss": "October",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:october",
+      "kind": "referent",
+      "label": "October"
+    },
+    {
+      "id": "w:十一月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十一月",
+      "reading": "じゅういちがつ",
+      "gloss": "November"
+    },
+    {
+      "id": "r:november",
+      "kind": "referent",
+      "label": "November"
+    },
+    {
+      "id": "w:十二月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十二月",
+      "reading": "じゅうにがつ",
+      "gloss": "December"
+    },
+    {
+      "id": "r:december",
+      "kind": "referent",
+      "label": "December"
+    },
+    {
+      "id": "w:四つ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "四つ",
+      "reading": "よっつ",
+      "gloss": "four things",
+      "okurigana": "つ"
     }
   ]
 }

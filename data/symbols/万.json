@@ -1,0 +1,36 @@
+{
+  "glyph": "万",
+  "cp": "U+4E07",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "万",
+      "reading": "wàn",
+      "gloss": "ten thousand",
+      "extra": "数字「万」· 万一、几万 · 繁: 萬"
+    },
+    "jp": {
+      "name": "万",
+      "reading": "マン",
+      "gloss": "ten thousand",
+      "extra": "漢字「万」(マン · バン) · 一万、万年筆 · 旧字: 萬"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Ten Thousand",
+      "readings": [
+        "マン"
+      ],
+      "on": true,
+      "level": 3
+    }
+  ]
+}
