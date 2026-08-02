@@ -21,5 +21,14 @@
       "gloss": "tongue"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "tongue",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

@@ -1774,6 +1774,32 @@
       "label": "ten thousand"
     },
     {
+      "id": "g:义",
+      "kind": "glyph",
+      "glyph": "义",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yi4",
+      "cnExAudioKey": "yi4",
+      "jpAudioKey": "gi"
+    },
+    {
+      "id": "r:meaning",
+      "kind": "referent",
+      "label": "meaning; righteousness; justice"
+    },
+    {
+      "id": "g:议",
+      "kind": "glyph",
+      "glyph": "议",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:乙",
       "kind": "glyph",
       "glyph": "乙",
@@ -1827,6 +1853,32 @@
       "id": "r:complete",
       "kind": "referent",
       "label": "to complete; to finish"
+    },
+    {
+      "id": "g:于",
+      "kind": "glyph",
+      "glyph": "于",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yu2",
+      "cnExAudioKey": "yu2",
+      "jpAudioKey": "u"
+    },
+    {
+      "id": "r:in",
+      "kind": "referent",
+      "label": "in; at; to; from (preposition)"
+    },
+    {
+      "id": "g:盂",
+      "kind": "glyph",
+      "glyph": "盂",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:什",
@@ -5563,6 +5615,41 @@
       "frontier": true
     },
     {
+      "id": "g:乂",
+      "kind": "glyph",
+      "glyph": "乂",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:旦",
+      "kind": "glyph",
+      "glyph": "旦",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:乍",
+      "kind": "glyph",
+      "glyph": "乍",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:吏",
+      "kind": "glyph",
+      "glyph": "吏",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:意",
+      "kind": "glyph",
+      "glyph": "意",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:丄",
       "kind": "glyph",
       "glyph": "丄",
@@ -5573,6 +5660,13 @@
       "id": "g:衤",
       "kind": "glyph",
       "glyph": "衤",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:佰",
+      "kind": "glyph",
+      "glyph": "佰",
       "tier": null,
       "frontier": true
     },
@@ -5591,9 +5685,9 @@
       "frontier": true
     },
     {
-      "id": "g:乂",
+      "id": "g:攵",
       "kind": "glyph",
-      "glyph": "乂",
+      "glyph": "攵",
       "tier": null,
       "frontier": true
     },
@@ -5713,6 +5807,13 @@
       "id": "g:兀",
       "kind": "glyph",
       "glyph": "兀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:讠",
+      "kind": "glyph",
+      "glyph": "讠",
       "tier": null,
       "frontier": true
     },
@@ -7310,6 +7411,44 @@
       "id": "r:way-out",
       "kind": "referent",
       "label": "exit; way out"
+    },
+    {
+      "id": "w:在于@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "在于",
+      "reading": "zàiyú",
+      "gloss": "to lie in; to consist in; to rest with; to depend on",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:consist-in",
+      "kind": "referent",
+      "label": "to lie in; to consist in; to rest with; to depend on"
+    },
+    {
+      "id": "w:人体@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "人体",
+      "reading": "réntǐ",
+      "gloss": "human body",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:human-body",
+      "kind": "referent",
+      "label": "human body"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "glyph": "义",
+  "cp": "U+4E49",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "义",
+      "reading": "yì",
+      "gloss": "meaning; righteousness; justice",
+      "extra": "从丶从乂 · 意义、正义、义务、主义 · 繁: 義",
+      "appearsIn": {
+        "char": "议",
+        "reading": "yì",
+        "gloss": "discuss; comment"
+      }
+    },
+    "jp": {
+      "name": "義",
+      "reading": "ギ",
+      "gloss": "righteousness; justice; meaning",
+      "extra": "漢字「義」(ギ) · 正義(せいぎ)、意義(いぎ) · 簡体作「义」"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "meaning",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

@@ -83,6 +83,10 @@
     "text": "ゲン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "gi.mp3": {
+    "text": "ギ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "go.mp3": {
     "text": "ご",
     "voice": "ja-JP-NanamiNeural"
@@ -529,6 +533,10 @@
   },
   "tsutsumu.mp3": {
     "text": "つつむ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "u.mp3": {
+    "text": "ウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "uchi.mp3": {

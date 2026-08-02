@@ -240,7 +240,8 @@
             "appearsIn": { "char": "男", "reading": "おとこ", "gloss": "man" }
           },
           "wk": { "name": "Power", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "kun": ["ちから"], "level": 1 }
+          "kanji": { "name": "Power", "readings": ["リョク", "リキ"], "on": true, "kun": ["ちから"], "level": 1 },
+          "pd": { "name": "power", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "口",
@@ -1295,6 +1296,26 @@
           "kanji": { "name": "Ten Thousand", "readings": ["マン"], "on": true, "level": 3 }
         },
         {
+          "glyph": "义",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yi4",
+          "cnExAudioKey": "yi4",
+          "jpAudioKey": "gi",
+          "cn": {
+            "name": "义", "reading": "yì", "gloss": "meaning; righteousness; justice",
+            "extra": "从丶从乂 · 意义、正义、义务、主义 · 繁: 義",
+            "appearsIn": { "char": "议", "reading": "yì", "gloss": "discuss; comment" }
+          },
+          "jp": {
+            "name": "義", "reading": "ギ", "gloss": "righteousness; justice; meaning",
+            "extra": "漢字「義」(ギ) · 正義(せいぎ)、意義(いぎ) · 簡体作「义」"
+          },
+          "wk": null,
+          "pdc": { "name": "meaning", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "也",
           "tag": "char",
           "image": "",
@@ -1334,6 +1355,25 @@
           },
           "wk": null,
           "pdc": { "name": "complete", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "于",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yu2",
+          "cnExAudioKey": "yu2",
+          "jpAudioKey": "u",
+          "cn": {
+            "name": "于", "reading": "yú", "gloss": "in; at; to; from (preposition)",
+            "extra": "介词 · 在于、对于、关于、由于 · 繁体作「於」",
+            "appearsIn": { "char": "盂", "reading": "yú", "gloss": "basin; bowl" }
+          },
+          "jp": {
+            "name": "於", "reading": "ウ", "gloss": "at; in; on",
+            "extra": "漢字「於」(ウ · お-いて) · 中文簡体多作「于」"
+          },
+          "wk": null
         },
         {
           "glyph": "什",

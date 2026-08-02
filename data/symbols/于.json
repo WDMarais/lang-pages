@@ -1,0 +1,29 @@
+{
+  "glyph": "于",
+  "cp": "U+4E8E",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "于",
+      "reading": "yú",
+      "gloss": "in; at; to; from (preposition)",
+      "extra": "介词 · 在于、对于、关于、由于 · 繁体作「於」",
+      "appearsIn": {
+        "char": "盂",
+        "reading": "yú",
+        "gloss": "basin; bowl"
+      }
+    },
+    "jp": {
+      "name": "於",
+      "reading": "ウ",
+      "gloss": "at; in; on",
+      "extra": "漢字「於」(ウ · お-いて) · 中文簡体多作「于」"
+    }
+  },
+  "programs": []
+}

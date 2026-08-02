@@ -1274,6 +1274,38 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "surface": "在于",
+      "audience": "cn",
+      "parts": [
+        "在",
+        "于"
+      ],
+      "denotes": "consist-in",
+      "reading": "zàiyú",
+      "gloss": "to lie in; to consist in; to rest with; to depend on",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "人体",
+      "audience": "cn",
+      "parts": [
+        "人",
+        "体"
+      ],
+      "denotes": "human-body",
+      "reading": "réntǐ",
+      "gloss": "human body",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

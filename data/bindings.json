@@ -593,6 +593,12 @@
         "glyph": "男",
         "reading": "nán",
         "gloss": "male"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "power",
+        "level": 2,
+        "kind": "meaning"
       }
     },
     {
@@ -3378,6 +3384,41 @@
       }
     },
     {
+      "id": "b:义@cn",
+      "glyph_id": "g:义",
+      "lang": "cn",
+      "name": "义",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "meaning; righteousness; justice",
+      "extra": "从丶从乂 · 意义、正义、义务、主义 · 繁: 義",
+      "appearsIn": {
+        "glyph": "议",
+        "reading": "yì",
+        "gloss": "discuss; comment"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "meaning",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:义@jp",
+      "glyph_id": "g:义",
+      "lang": "jp",
+      "name": "義",
+      "readings": [
+        "ギ"
+      ],
+      "gloss": "righteousness; justice; meaning",
+      "extra": "漢字「義」(ギ) · 正義(せいぎ)、意義(いぎ) · 簡体作「义」"
+    },
+    {
       "id": "b:乙@cn",
       "glyph_id": "g:乙",
       "lang": "cn",
@@ -3469,6 +3510,33 @@
       ],
       "gloss": "complete; finish",
       "extra": "漢字「了」(リョウ) · 完了(かんりょう)、終了(しゅうりょう)"
+    },
+    {
+      "id": "b:于@cn",
+      "glyph_id": "g:于",
+      "lang": "cn",
+      "name": "于",
+      "readings": [
+        "yú"
+      ],
+      "gloss": "in; at; to; from (preposition)",
+      "extra": "介词 · 在于、对于、关于、由于 · 繁体作「於」",
+      "appearsIn": {
+        "glyph": "盂",
+        "reading": "yú",
+        "gloss": "basin; bowl"
+      }
+    },
+    {
+      "id": "b:于@jp",
+      "glyph_id": "g:于",
+      "lang": "jp",
+      "name": "於",
+      "readings": [
+        "ウ"
+      ],
+      "gloss": "at; in; on",
+      "extra": "漢字「於」(ウ · お-いて) · 中文簡体多作「于」"
     },
     {
       "id": "b:什@cn",
@@ -6291,7 +6359,13 @@
         "shé"
       ],
       "gloss": "tongue",
-      "extra": "康熙部首 135"
+      "extra": "康熙部首 135",
+      "program": {
+        "source": "pandanese",
+        "name": "tongue",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:舌@jp",

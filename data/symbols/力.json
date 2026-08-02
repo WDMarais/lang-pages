@@ -58,6 +58,14 @@
       "kun": [
         "ちから"
       ]
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "power",
+      "kind": "meaning",
+      "level": 2
     }
   ]
 }

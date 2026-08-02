@@ -794,6 +794,11 @@
             ],
             "level": 1
           },
+          "pd": {
+            "name": "power",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 19,
           "cnAudioKey": "li4",
           "cnExAudioKey": "nan2",
@@ -4260,6 +4265,11 @@
             "gloss": "tongue"
           },
           "wk": null,
+          "pd": {
+            "name": "tongue",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 135,
           "cnAudioKey": "she2"
         },
