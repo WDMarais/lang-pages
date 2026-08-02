@@ -4888,6 +4888,21 @@
       "kind": "denotes"
     },
     {
+      "from": "g:左",
+      "to": "w:左右@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:右",
+      "to": "w:左右@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:左右@jp",
+      "to": "r:left-right",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

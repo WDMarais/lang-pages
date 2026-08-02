@@ -1115,6 +1115,21 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "左右",
+      "audience": "jp",
+      "parts": [
+        "左",
+        "右"
+      ],
+      "denotes": "left-right",
+      "reading": "さゆう",
+      "gloss": "left and right; both sides; (fig.) to control, sway",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }

@@ -7141,6 +7141,24 @@
       "id": "r:all-along",
       "kind": "referent",
       "label": "all along; consistently; always (up to now)"
+    },
+    {
+      "id": "w:左右@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "左右",
+      "reading": "さゆう",
+      "gloss": "left and right; both sides; (fig.) to control, sway",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:left-right",
+      "kind": "referent",
+      "label": "left and right; both sides; (fig.) to control, sway"
     }
   ]
 }
