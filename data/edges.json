@@ -4958,6 +4958,66 @@
       "kind": "denotes"
     },
     {
+      "from": "g:犬",
+      "to": "w:犬@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:犬@jp",
+      "to": "r:dog",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:六",
+      "to": "w:六日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:六日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:六日@jp",
+      "to": "r:6th",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:王",
+      "to": "w:王@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:王@jp",
+      "to": "r:king",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:出",
+      "to": "w:出る@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:出る@jp",
+      "to": "r:exit",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:出",
+      "to": "w:出口@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "w:出口@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:出口@jp",
+      "to": "r:way-out",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

@@ -7229,6 +7229,87 @@
       "id": "r:volcano",
       "kind": "referent",
       "label": "volcano (lit. fire-mountain)"
+    },
+    {
+      "id": "w:犬@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "犬",
+      "reading": "いぬ",
+      "gloss": "dog",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:六日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "六日",
+      "reading": "むいか",
+      "gloss": "the 6th (of the month); six days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:6th",
+      "kind": "referent",
+      "label": "the 6th (of the month); six days"
+    },
+    {
+      "id": "w:王@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "王",
+      "reading": "おう",
+      "gloss": "king",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:出る@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "出る",
+      "reading": "でる",
+      "gloss": "to exit; to go out; to leave",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:exit",
+      "kind": "referent",
+      "label": "to exit; to go out; to leave"
+    },
+    {
+      "id": "w:出口@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "出口",
+      "reading": "でぐち",
+      "gloss": "exit; way out",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:way-out",
+      "kind": "referent",
+      "label": "exit; way out"
     }
   ]
 }

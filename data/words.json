@@ -1201,6 +1201,79 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "surface": "犬",
+      "audience": "jp",
+      "parts": [
+        "犬"
+      ],
+      "denotes": "dog",
+      "reading": "いぬ",
+      "gloss": "dog",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "六日",
+      "audience": "jp",
+      "parts": [
+        "六",
+        "日"
+      ],
+      "denotes": "6th",
+      "reading": "むいか",
+      "gloss": "the 6th (of the month); six days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "王",
+      "audience": "jp",
+      "parts": [
+        "王"
+      ],
+      "denotes": "king",
+      "reading": "おう",
+      "gloss": "king",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "出る",
+      "audience": "jp",
+      "parts": [
+        "出"
+      ],
+      "denotes": "exit",
+      "reading": "でる",
+      "gloss": "to exit; to go out; to leave",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "出口",
+      "audience": "jp",
+      "parts": [
+        "出",
+        "口"
+      ],
+      "denotes": "way-out",
+      "reading": "でぐち",
+      "gloss": "exit; way out",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }
