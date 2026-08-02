@@ -1817,7 +1817,8 @@
             "appearsIn": { "char": "物", "reading": "ブツ", "gloss": "thing" }
           },
           "wk": { "name": "Cow", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Cow", "readings": ["ギュウ"], "on": true, "kun": ["うし"], "level": 2 }
+          "kanji": { "name": "Cow", "readings": ["ギュウ"], "on": true, "kun": ["うし"], "level": 2 },
+          "pd": { "name": "cow", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "由",
@@ -1921,6 +1922,24 @@
           },
           "wk": null,
           "pdc": { "name": "look", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "神",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "shen2",
+          "jpAudioKey": "kami",
+          "cn": {
+            "name": "神", "reading": "shén", "gloss": "god; spirit; deity",
+            "extra": "礻(示) + 申 · 神仙、精神、神话"
+          },
+          "jp": {
+            "name": "神", "reading": "かみ", "gloss": "god; deity",
+            "extra": "漢字「神」(かみ · シン · ジン) · 神様(かみさま)、精神(せいしん)"
+          },
+          "wk": null,
+          "pdc": { "name": "god", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "立",
@@ -2071,6 +2090,25 @@
           "wk": null,
           "pd": { "name": "cart", "level": 1, "kind": "meaning" },
           "pdc": { "name": "cart", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "魚",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yu2",
+          "jpAudioKey": "sakana",
+          "cn": {
+            "name": "魚", "reading": "yú", "gloss": "fish",
+            "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼 · 简: 鱼"
+          },
+          "jp": {
+            "name": "魚", "reading": "さかな", "gloss": "fish",
+            "extra": "漢字「魚」(さかな · うお · ギョ)"
+          },
+          "wk": null,
+          "pd": { "name": "fish", "level": 2, "kind": "meaning" },
+          "pdc": { "name": "fish", "kind": "meaning", "level": 2 }
         }
       ]
     }

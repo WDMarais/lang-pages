@@ -21,5 +21,14 @@
       "gloss": "clan"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "clan",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

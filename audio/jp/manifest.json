@@ -215,6 +215,10 @@
     "text": "カイ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kami.mp3": {
+    "text": "かみ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kan.mp3": {
     "text": "カン",
     "voice": "ja-JP-NanamiNeural"
@@ -409,6 +413,10 @@
   },
   "sai.mp3": {
     "text": "サイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sakana.mp3": {
+    "text": "さかな",
     "voice": "ja-JP-NanamiNeural"
   },
   "saki.mp3": {

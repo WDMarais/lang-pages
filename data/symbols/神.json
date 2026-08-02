@@ -1,0 +1,33 @@
+{
+  "glyph": "神",
+  "cp": "U+795E",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "神",
+      "reading": "shén",
+      "gloss": "god; spirit; deity",
+      "extra": "礻(示) + 申 · 神仙、精神、神话"
+    },
+    "jp": {
+      "name": "神",
+      "reading": "かみ",
+      "gloss": "god; deity",
+      "extra": "漢字「神」(かみ · シン · ジン) · 神様(かみさま)、精神(せいしん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "god",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

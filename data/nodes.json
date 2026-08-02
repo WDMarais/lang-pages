@@ -3615,6 +3615,24 @@
       "label": "altar"
     },
     {
+      "id": "g:神",
+      "kind": "glyph",
+      "glyph": "神",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "shen2",
+      "jpAudioKey": "kami"
+    },
+    {
+      "id": "r:god",
+      "kind": "referent",
+      "label": "god; spirit; deity"
+    },
+    {
       "id": "g:禸",
       "kind": "glyph",
       "glyph": "禸",
@@ -5050,7 +5068,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "yu2"
+      "cnAudioKey": "yu2",
+      "jpAudioKey": "sakana"
     },
     {
       "id": "r:fish",
@@ -5744,6 +5763,20 @@
       "id": "g:卄",
       "kind": "glyph",
       "glyph": "卄",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:礻",
+      "kind": "glyph",
+      "glyph": "礻",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:申",
+      "kind": "glyph",
+      "glyph": "申",
       "tier": null,
       "frontier": true
     },
@@ -7449,6 +7482,25 @@
       "id": "r:human-body",
       "kind": "referent",
       "label": "human body"
+    },
+    {
+      "id": "w:三十@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "三十",
+      "reading": "sānshí",
+      "gloss": "thirty; 30",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:thirty",
+      "kind": "referent",
+      "label": "thirty; 30"
     }
   ]
 }

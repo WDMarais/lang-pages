@@ -1270,6 +1270,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:神",
+      "to": "r:god",
+      "kind": "denotes"
+    },
+    {
       "from": "g:禸",
       "to": "r:track",
       "kind": "denotes"
@@ -3210,6 +3215,16 @@
     {
       "from": "g:小",
       "to": "g:示",
+      "kind": "composes"
+    },
+    {
+      "from": "g:礻",
+      "to": "g:神",
+      "kind": "composes"
+    },
+    {
+      "from": "g:申",
+      "to": "g:神",
       "kind": "composes"
     },
     {
@@ -5270,6 +5285,21 @@
     {
       "from": "w:人体@cn",
       "to": "r:human-body",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:三",
+      "to": "w:三十@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:三十@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:三十@cn",
+      "to": "r:thirty",
       "kind": "denotes"
     },
     {

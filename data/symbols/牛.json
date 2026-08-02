@@ -53,6 +53,14 @@
         "うし"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "cow",
+      "kind": "meaning",
+      "level": 2
     }
   ]
 }

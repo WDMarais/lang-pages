@@ -2841,6 +2841,11 @@
             "gloss": "clan"
           },
           "wk": null,
+          "pd": {
+            "name": "clan",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 83,
           "cnAudioKey": "shi4"
         },
@@ -3192,6 +3197,11 @@
               "うし"
             ],
             "level": 2
+          },
+          "pd": {
+            "name": "cow",
+            "level": 2,
+            "kind": "meaning"
           },
           "kx": 93,
           "cnAudioKey": "niu2",
@@ -5570,16 +5580,28 @@
             "name": "魚",
             "reading": "yú",
             "gloss": "fish",
-            "extra": "康熙部首 195"
+            "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼 · 简: 鱼"
           },
           "jp": {
             "name": "魚",
-            "reading": "",
-            "gloss": "fish"
+            "reading": "さかな",
+            "gloss": "fish",
+            "extra": "漢字「魚」(さかな · うお · ギョ)"
           },
           "wk": null,
+          "pd": {
+            "name": "fish",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "fish",
+            "kind": "meaning",
+            "level": 2
+          },
           "kx": 195,
           "cnAudioKey": "yu2",
+          "jpAudioKey": "sakana",
           "referents": [
             {
               "label": "fish",

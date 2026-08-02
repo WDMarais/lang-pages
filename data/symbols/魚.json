@@ -3,7 +3,6 @@
   "cp": "U+9B5A",
   "class": "char",
   "kangxi": 195,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,31 @@
       "name": "魚",
       "reading": "yú",
       "gloss": "fish",
-      "extra": "康熙部首 195"
+      "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼 · 简: 鱼"
     },
     "jp": {
       "name": "魚",
-      "reading": "",
-      "gloss": "fish"
+      "reading": "さかな",
+      "gloss": "fish",
+      "extra": "漢字「魚」(さかな · うお · ギョ)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "fish",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "fish",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }
