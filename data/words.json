@@ -1130,6 +1130,77 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "surface": "木",
+      "audience": "jp",
+      "parts": [
+        "木"
+      ],
+      "denotes": "tree",
+      "reading": "き",
+      "gloss": "tree",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "水",
+      "audience": "jp",
+      "parts": [
+        "水"
+      ],
+      "denotes": "water",
+      "reading": "みず",
+      "gloss": "water",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "白",
+      "audience": "jp",
+      "parts": [
+        "白"
+      ],
+      "denotes": "white",
+      "reading": "しろ",
+      "gloss": "white",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "火",
+      "audience": "jp",
+      "parts": [
+        "火"
+      ],
+      "denotes": "fire",
+      "reading": "ひ",
+      "gloss": "fire",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "火山",
+      "audience": "jp",
+      "parts": [
+        "火",
+        "山"
+      ],
+      "denotes": "volcano",
+      "reading": "かざん",
+      "gloss": "volcano (lit. fire-mountain)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }

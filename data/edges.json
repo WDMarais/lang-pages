@@ -4903,6 +4903,61 @@
       "kind": "denotes"
     },
     {
+      "from": "g:木",
+      "to": "w:木@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:木@jp",
+      "to": "r:tree",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:水",
+      "to": "w:水@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:水@jp",
+      "to": "r:water",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:白",
+      "to": "w:白@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:白@jp",
+      "to": "r:white",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:火",
+      "to": "w:火@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:火@jp",
+      "to": "r:fire",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:火",
+      "to": "w:火山@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:山",
+      "to": "w:火山@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:火山@jp",
+      "to": "r:volcano",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

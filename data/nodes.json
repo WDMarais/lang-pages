@@ -7159,6 +7159,76 @@
       "id": "r:left-right",
       "kind": "referent",
       "label": "left and right; both sides; (fig.) to control, sway"
+    },
+    {
+      "id": "w:木@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "木",
+      "reading": "き",
+      "gloss": "tree",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:水@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "水",
+      "reading": "みず",
+      "gloss": "water",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:白@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "白",
+      "reading": "しろ",
+      "gloss": "white",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:火@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "火",
+      "reading": "ひ",
+      "gloss": "fire",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:火山@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "火山",
+      "reading": "かざん",
+      "gloss": "volcano (lit. fire-mountain)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:volcano",
+      "kind": "referent",
+      "label": "volcano (lit. fire-mountain)"
     }
   ]
 }
