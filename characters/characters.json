@@ -730,6 +730,7 @@
           "hw": true,
           "cnAudioKey": "yuan2",
           "jpAudioKey": "en",
+          "script": {"role": "shinjitai", "traditional": [{"glyph": "圓"}]},
           "cn": {
             "name": "円", "reading": "yuán", "gloss": "circle; yen",
             "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
@@ -1163,9 +1164,10 @@
           "hw": true,
           "cnAudioKey": "ye4",
           "jpAudioKey": "waza",
+          "script": {"traditional": [{"glyph": "業"}]},
           "cn": {
             "name": "业", "reading": "yè", "gloss": "industry; occupation; karma",
-            "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業"
+            "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」"
           },
           "jp": {
             "name": "業", "reading": "わざ", "gloss": "deed; work; karma",
@@ -1181,9 +1183,10 @@
           "hw": true,
           "cnAudioKey": "yu3",
           "jpAudioKey": "ataeru",
+          "script": {"traditional": [{"glyph": "與"}]},
           "cn": {
             "name": "与", "reading": "yǔ", "gloss": "and; with; to give",
-            "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 繁: 與"
+            "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」"
           },
           "jp": {
             "name": "与", "reading": "あたえる", "gloss": "to give; grant",
@@ -1284,9 +1287,10 @@
           "hw": true,
           "cnAudioKey": "wan4",
           "jpAudioKey": "man",
+          "script": {"traditional": [{"glyph": "萬"}]},
           "cn": {
             "name": "万", "reading": "wàn", "gloss": "ten thousand",
-            "extra": "数字「万」· 万一、几万 · 繁: 萬"
+            "extra": "数字「万」· 万一、几万"
           },
           "jp": {
             "name": "万", "reading": "マン", "gloss": "ten thousand",
@@ -1302,9 +1306,10 @@
           "hw": true,
           "cnAudioKey": "ge4",
           "jpAudioKey": "ko",
+          "script": {"traditional": [{"glyph": "個"}, {"glyph": "箇", "when": "classifier; literary"}]},
           "cn": {
             "name": "个", "reading": "gè", "gloss": "(generic measure word); individual",
-            "extra": "最常用量词（一个人 one person）· 这个、几个、个人 · 繁: 個/箇"
+            "extra": "最常用量词（一个人 one person）· 这个、几个、个人"
           },
           "jp": {
             "name": "個", "reading": "コ", "gloss": "individual; counter for objects",
@@ -1320,9 +1325,10 @@
           "cnAudioKey": "yi4",
           "cnExAudioKey": "yi4",
           "jpAudioKey": "gi",
+          "script": {"traditional": [{"glyph": "義"}]},
           "cn": {
             "name": "义", "reading": "yì", "gloss": "meaning; righteousness; justice",
-            "extra": "从丶从乂 · 意义、正义、义务、主义 · 繁: 義",
+            "extra": "从丶从乂 · 意义、正义、义务、主义",
             "appearsIn": { "char": "议", "reading": "yì", "gloss": "discuss; comment" }
           },
           "jp": {
@@ -1381,9 +1387,10 @@
           "cnAudioKey": "yu2",
           "cnExAudioKey": "yu2",
           "jpAudioKey": "u",
+          "script": {"traditional": [{"glyph": "於"}]},
           "cn": {
             "name": "于", "reading": "yú", "gloss": "in; at; to; from (preposition)",
-            "extra": "介词 · 在于、对于、关于、由于 · 繁体作「於」",
+            "extra": "介词 · 在于、对于、关于、由于",
             "appearsIn": { "char": "盂", "reading": "yú", "gloss": "basin; bowl" }
           },
           "jp": {
@@ -1417,9 +1424,10 @@
           "hw": true,
           "cnAudioKey": "cong2",
           "jpAudioKey": "juu",
+          "script": {"traditional": [{"glyph": "從"}]},
           "cn": {
             "name": "从", "reading": "cóng", "gloss": "from; since; to follow",
-            "extra": "人 + 人（一人随一人）· 从来、从此、自从、从不 · 繁: 從"
+            "extra": "人 + 人（一人随一人）· 从来、从此、自从、从不"
           },
           "jp": {
             "name": "従", "reading": "ジュウ", "gloss": "obey; follow; subordinate",
@@ -1470,9 +1478,10 @@
           "hw": true,
           "cnAudioKey": "ti3",
           "jpAudioKey": "karada",
+          "script": {"traditional": [{"glyph": "體"}]},
           "cn": {
             "name": "体", "reading": "tǐ", "gloss": "body; form; style",
-            "extra": "亻 + 本 · 身体、体育、体重 · 繁: 體"
+            "extra": "亻 + 本 · 身体、体育、体重"
           },
           "jp": {
             "name": "体", "reading": "からだ", "gloss": "body",
@@ -1563,9 +1572,10 @@
           "hw": true,
           "cnAudioKey": "ke3",
           "jpAudioKey": "ka",
+          "script": {"traditional": "same"},
           "cn": {
             "name": "可", "reading": "kě", "gloss": "can; may; -able; but",
-            "extra": "可以、可能、可是、认可、可不 · 也读 kè（可汗 Khan）· 繁体同"
+            "extra": "可以、可能、可是、认可、可不 · 也读 kè（可汗 Khan）"
           },
           "jp": {
             "name": "可", "reading": "カ", "gloss": "possible; acceptable; can",
@@ -1580,9 +1590,10 @@
           "hw": true,
           "cnAudioKey": "hou4",
           "jpAudioKey": "go",
+          "script": {"traditional": [{"glyph": "後", "when": "after; behind; time & position"}, {"glyph": "后", "when": "empress; queen (unchanged)"}]},
           "cn": {
             "name": "后", "reading": "hòu", "gloss": "behind; after; back; (also) queen",
-            "extra": "方位/时间词 · 以后、之后、后来、后面 · 繁: 後（“时间/方位”义）；“皇后、王后”义本作「后」不变"
+            "extra": "方位/时间词 · 以后、之后、后来、后面"
           },
           "jp": {
             "name": "後", "reading": "ゴ", "gloss": "behind; after; back",
@@ -1668,9 +1679,10 @@
           "hw": true,
           "cnAudioKey": "ru2",
           "jpAudioKey": "jo",
+          "script": {"traditional": "same"},
           "cn": {
             "name": "如", "reading": "rú", "gloss": "as; like; as if; such as; if",
-            "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as · 繁体同"
+            "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as"
           },
           "jp": {
             "name": "如", "reading": "ジョ", "gloss": "like; as if",

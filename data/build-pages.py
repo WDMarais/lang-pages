@@ -92,6 +92,8 @@ def emit_card(c):
     for k in ("cnAudioKey", "cnExAudioKey", "jpAudioKey", "jpExAudioKey"):  # present only for readings with a sound key
         if k in c:
             L.append(f'          {s(k)}: {s(c[k])},')
+    if "script" in c:  # simplified↔traditional block (docs/traditional-script.md), compact
+        L.append(f'          {s("script")}: {json.dumps(c["script"], ensure_ascii=False)},')
     L.append(f'          "cn": {lang_block(c["cn"])},')
     L.append(f'          "jp": {lang_block(c["jp"])},')
     # program tiers — order + per-tier field lists come from the PROGRAM_TIERS

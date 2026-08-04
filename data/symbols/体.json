@@ -15,7 +15,7 @@
       "name": "体",
       "reading": "tǐ",
       "gloss": "body; form; style",
-      "extra": "亻 + 本 · 身体、体育、体重 · 繁: 體"
+      "extra": "亻 + 本 · 身体、体育、体重"
     },
     "jp": {
       "name": "体",
@@ -23,6 +23,13 @@
       "gloss": "body",
       "extra": "漢字「体」(からだ · タイ・テイ) · 体、身体(しんたい) · 旧字: 體"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "體"
+      }
+    ]
   },
   "programs": [
     {

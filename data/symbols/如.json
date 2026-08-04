@@ -15,7 +15,7 @@
       "name": "如",
       "reading": "rú",
       "gloss": "as; like; as if; such as; if",
-      "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as · 繁体同"
+      "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as"
     },
     "jp": {
       "name": "如",
@@ -23,6 +23,9 @@
       "gloss": "like; as if",
       "extra": "漢字「如」(ジョ・ニョ · ごと-し) · 如実(にょじつ)、欠如(けつじょ)"
     }
+  },
+  "script": {
+    "traditional": "same"
   },
   "programs": []
 }

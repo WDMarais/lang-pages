@@ -69,6 +69,29 @@ def check_reading_view(rep, where, view):
                     rep.err(where, f"appearsIn.{k} missing or empty")
 
 
+def check_script(rep, where, script):
+    """Validate a `script` block's shape (docs/traditional-script.md). `traditional`
+    is either "same" (verified no divergence) or a non-empty list of {glyph, when?}
+    entries; `role` if present tags a non-simplified primary axis (円)."""
+    if not isinstance(script, dict):
+        rep.err(where, "script must be an object")
+        return
+    role = script.get("role")
+    if role is not None and role not in ("simplified", "shinjitai"):
+        rep.err(where, f"script.role {role!r} not in ('simplified', 'shinjitai')")
+    trad = script.get("traditional")
+    if trad == "same":
+        return
+    if not isinstance(trad, list) or not trad:
+        rep.err(where, 'script.traditional must be "same" or a non-empty list of entries')
+        return
+    for e in trad:
+        if not isinstance(e, dict) or not _str(e.get("glyph")) or len(e["glyph"]) != 1:
+            rep.err(where, "script.traditional entry needs a single-char 'glyph'")
+        elif "when" in e and not _str(e["when"]):
+            rep.err(where, "script.traditional 'when' must be a non-empty string")
+
+
 def check_symbol(rep, g, s):
     where = f"symbols/{g}.json"
 
@@ -129,6 +152,12 @@ def check_symbol(rep, g, s):
     if variants is not None and (not isinstance(variants, list)
                                  or not all(_str(v) for v in variants)):
         rep.err(where, "variants must be a list of non-empty glyph strings")
+
+    # simplified↔traditional block (docs/traditional-script.md). Shape is validated
+    # WHEN PRESENT; there is deliberately no repo-wide "unclassified" gate yet, so a
+    # symbol without `script` is silent (backfill is incremental).
+    if s.get("script") is not None:
+        check_script(rep, where, s["script"])
 
     # audio: a reading the phonetics normaliser cannot key gets no voice clip.
     cn = (readings or {}).get("cn") or {}

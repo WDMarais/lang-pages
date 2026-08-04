@@ -11,7 +11,7 @@
       "name": "于",
       "reading": "yú",
       "gloss": "in; at; to; from (preposition)",
-      "extra": "介词 · 在于、对于、关于、由于 · 繁体作「於」",
+      "extra": "介词 · 在于、对于、关于、由于",
       "appearsIn": {
         "char": "盂",
         "reading": "yú",
@@ -24,6 +24,13 @@
       "gloss": "at; in; on",
       "extra": "漢字「於」(ウ · お-いて) · 中文簡体多作「于」"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "於"
+      }
+    ]
   },
   "programs": []
 }

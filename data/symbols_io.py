@@ -114,6 +114,10 @@ def to_card(sym):
         "cn": sym["readings"]["cn"],
         "jp": sym["readings"]["jp"],
     }
+    # script correspondence (simplified↔traditional); orthographic, not a tier —
+    # see docs/traditional-script.md. Passed through so both projections carry it.
+    if "script" in sym:
+        card["script"] = sym["script"]
     for t in PROGRAM_TIERS:
         p = prog.get((t["source"], t["role"]))
         if p:

@@ -148,6 +148,8 @@ def build():
                 # node only. Same definition build-pages uses, so they can't drift.
                 **card_audio_keys(c["cn"], c["jp"]),
             }
+            if "script" in c:                 # simplified↔traditional (round-tripped)
+                nodes[f"g:{g}"]["script"] = c["script"]
             bindings.append(make_binding(g, "cn", c["cn"], c))
             bindings.append(make_binding(g, "jp", c["jp"], c))
 
@@ -375,6 +377,8 @@ def project_cards(source, nodes, bindings):
             "cn": view(cn),
             "jp": view(jp),
         }
+        if "script" in n:                     # inverse of to_card's passthrough
+            card["script"] = n["script"]
         # recover the flat card tiers from each binding's `program` (inverse of the
         # bind_programs projection above) — one registry, both directions.
         card.update(unbind_programs(cn.get("program"), "cn"))

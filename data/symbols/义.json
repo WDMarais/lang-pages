@@ -11,7 +11,7 @@
       "name": "义",
       "reading": "yì",
       "gloss": "meaning; righteousness; justice",
-      "extra": "从丶从乂 · 意义、正义、义务、主义 · 繁: 義",
+      "extra": "从丶从乂 · 意义、正义、义务、主义",
       "appearsIn": {
         "char": "议",
         "reading": "yì",
@@ -24,6 +24,13 @@
       "gloss": "righteousness; justice; meaning",
       "extra": "漢字「義」(ギ) · 正義(せいぎ)、意義(いぎ) · 簡体作「义」"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "義"
+      }
+    ]
   },
   "programs": [
     {

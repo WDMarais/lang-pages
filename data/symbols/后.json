@@ -11,7 +11,7 @@
       "name": "后",
       "reading": "hòu",
       "gloss": "behind; after; back; (also) queen",
-      "extra": "方位/时间词 · 以后、之后、后来、后面 · 繁: 後（“时间/方位”义）；“皇后、王后”义本作「后」不变"
+      "extra": "方位/时间词 · 以后、之后、后来、后面"
     },
     "jp": {
       "name": "後",
@@ -19,6 +19,18 @@
       "gloss": "behind; after; back",
       "extra": "漢字「後」(ゴ・コウ · のち・うし-ろ・あと) · 午後(ごご)、後ろ · 中文簡体作「后」· 別字「后」(コウ = きさき, queen)"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "後",
+        "when": "after; behind; time & position"
+      },
+      {
+        "glyph": "后",
+        "when": "empress; queen (unchanged)"
+      }
+    ]
   },
   "programs": []
 }

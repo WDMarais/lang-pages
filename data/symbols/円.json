@@ -20,6 +20,14 @@
       "extra": "漢字「円」(エン · まる) · 旧字体「圓」· 百円"
     }
   },
+  "script": {
+    "role": "shinjitai",
+    "traditional": [
+      {
+        "glyph": "圓"
+      }
+    ]
+  },
   "programs": [
     {
       "source": "wanikani",

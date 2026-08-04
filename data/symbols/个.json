@@ -11,7 +11,7 @@
       "name": "个",
       "reading": "gè",
       "gloss": "(generic measure word); individual",
-      "extra": "最常用量词（一个人 one person）· 这个、几个、个人 · 繁: 個/箇"
+      "extra": "最常用量词（一个人 one person）· 这个、几个、个人"
     },
     "jp": {
       "name": "個",
@@ -19,6 +19,17 @@
       "gloss": "individual; counter for objects",
       "extra": "漢字「個」(コ) · 一個(いっこ)、個人(こじん) · 中文簡体作「个」"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "個"
+      },
+      {
+        "glyph": "箇",
+        "when": "classifier; literary"
+      }
+    ]
   },
   "programs": []
 }

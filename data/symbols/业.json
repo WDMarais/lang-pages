@@ -11,7 +11,7 @@
       "name": "业",
       "reading": "yè",
       "gloss": "industry; occupation; karma",
-      "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」· 繁: 業"
+      "extra": "职业、工业、毕业 · 潘达尼斯记作「绽放 bloom」"
     },
     "jp": {
       "name": "業",
@@ -19,6 +19,13 @@
       "gloss": "deed; work; karma",
       "extra": "漢字「業」(わざ · ギョウ · ゴウ) · 簡体作「业」"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "業"
+      }
+    ]
   },
   "programs": [
     {

@@ -11,7 +11,7 @@
       "name": "万",
       "reading": "wàn",
       "gloss": "ten thousand",
-      "extra": "数字「万」· 万一、几万 · 繁: 萬"
+      "extra": "数字「万」· 万一、几万"
     },
     "jp": {
       "name": "万",
@@ -19,6 +19,13 @@
       "gloss": "ten thousand",
       "extra": "漢字「万」(マン · バン) · 一万、万年筆 · 旧字: 萬"
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "萬"
+      }
+    ]
   },
   "programs": [
     {

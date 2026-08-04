@@ -911,7 +911,15 @@
         "image": ""
       },
       "cnAudioKey": "yuan2",
-      "jpAudioKey": "en"
+      "jpAudioKey": "en",
+      "script": {
+        "role": "shinjitai",
+        "traditional": [
+          {
+            "glyph": "圓"
+          }
+        ]
+      }
     },
     {
       "id": "r:circle",
@@ -1231,7 +1239,14 @@
       },
       "cnAudioKey": "er2",
       "cnExAudioKey": "yuan2",
-      "jpExAudioKey": "gen"
+      "jpExAudioKey": "gen",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "兒"
+          }
+        ]
+      }
     },
     {
       "id": "r:legs",
@@ -1480,7 +1495,14 @@
         "image": ""
       },
       "cnAudioKey": "ye4",
-      "jpAudioKey": "waza"
+      "jpAudioKey": "waza",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "業"
+          }
+        ]
+      }
     },
     {
       "id": "r:industry",
@@ -1498,7 +1520,14 @@
         "image": ""
       },
       "cnAudioKey": "yu3",
-      "jpAudioKey": "ataeru"
+      "jpAudioKey": "ataeru",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "與"
+          }
+        ]
+      }
     },
     {
       "id": "r:and",
@@ -1766,7 +1795,14 @@
         "image": ""
       },
       "cnAudioKey": "wan4",
-      "jpAudioKey": "man"
+      "jpAudioKey": "man",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "萬"
+          }
+        ]
+      }
     },
     {
       "id": "r:ten-thousand",
@@ -1784,7 +1820,18 @@
         "image": ""
       },
       "cnAudioKey": "ge4",
-      "jpAudioKey": "ko"
+      "jpAudioKey": "ko",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "個"
+          },
+          {
+            "glyph": "箇",
+            "when": "classifier; literary"
+          }
+        ]
+      }
     },
     {
       "id": "r:",
@@ -1803,7 +1850,14 @@
       },
       "cnAudioKey": "yi4",
       "cnExAudioKey": "yi4",
-      "jpAudioKey": "gi"
+      "jpAudioKey": "gi",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "義"
+          }
+        ]
+      }
     },
     {
       "id": "r:meaning",
@@ -1884,7 +1938,14 @@
       },
       "cnAudioKey": "yu2",
       "cnExAudioKey": "yu2",
-      "jpAudioKey": "u"
+      "jpAudioKey": "u",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "於"
+          }
+        ]
+      }
     },
     {
       "id": "r:in",
@@ -1927,7 +1988,14 @@
         "image": ""
       },
       "cnAudioKey": "cong2",
-      "jpAudioKey": "juu"
+      "jpAudioKey": "juu",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "從"
+          }
+        ]
+      }
     },
     {
       "id": "r:from",
@@ -1981,7 +2049,14 @@
         "image": ""
       },
       "cnAudioKey": "ti3",
-      "jpAudioKey": "karada"
+      "jpAudioKey": "karada",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "體"
+          }
+        ]
+      }
     },
     {
       "id": "r:body",
@@ -2260,7 +2335,10 @@
         "image": ""
       },
       "cnAudioKey": "ke3",
-      "jpAudioKey": "ka"
+      "jpAudioKey": "ka",
+      "script": {
+        "traditional": "same"
+      }
     },
     {
       "id": "r:can",
@@ -2278,7 +2356,19 @@
         "image": ""
       },
       "cnAudioKey": "hou4",
-      "jpAudioKey": "go"
+      "jpAudioKey": "go",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "後",
+            "when": "after; behind; time & position"
+          },
+          {
+            "glyph": "后",
+            "when": "empress; queen (unchanged)"
+          }
+        ]
+      }
     },
     {
       "id": "r:behind",
@@ -2435,7 +2525,10 @@
         "image": ""
       },
       "cnAudioKey": "ru2",
-      "jpAudioKey": "jo"
+      "jpAudioKey": "jo",
+      "script": {
+        "traditional": "same"
+      }
     },
     {
       "id": "r:as",

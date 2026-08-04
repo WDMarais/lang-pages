@@ -12,7 +12,7 @@
       "name": "儿",
       "reading": "ér",
       "gloss": "legs (walking-person radical)",
-      "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光 · 繁: 兒",
+      "extra": "康熙部首 10「儿」·「人」的下部变形 · 见于 元 兄 光",
       "appearsIn": {
         "char": "元",
         "reading": "yuán",
@@ -30,6 +30,13 @@
         "gloss": "origin"
       }
     }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "兒"
+      }
+    ]
   },
   "programs": [
     {
