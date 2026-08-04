@@ -7501,6 +7501,58 @@
       "id": "r:thirty",
       "kind": "referent",
       "label": "thirty; 30"
+    },
+    {
+      "id": "w:右@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "右",
+      "reading": "みぎ",
+      "gloss": "right; right-hand side; right direction",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:左@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "左",
+      "reading": "ひだり",
+      "gloss": "left; left-hand side; left direction",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:四@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "四",
+      "reading": "よん",
+      "gloss": "four",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "w:目@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "目",
+      "reading": "め",
+      "gloss": "eye",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }

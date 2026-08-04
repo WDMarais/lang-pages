@@ -1322,6 +1322,62 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "右",
+      "audience": "jp",
+      "parts": [
+        "右"
+      ],
+      "denotes": "right",
+      "reading": "みぎ",
+      "gloss": "right; right-hand side; right direction",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "左",
+      "audience": "jp",
+      "parts": [
+        "左"
+      ],
+      "denotes": "left",
+      "reading": "ひだり",
+      "gloss": "left; left-hand side; left direction",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "四",
+      "audience": "jp",
+      "parts": [
+        "四"
+      ],
+      "denotes": "four",
+      "reading": "よん",
+      "gloss": "four",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "目",
+      "audience": "jp",
+      "parts": [
+        "目"
+      ],
+      "denotes": "eye",
+      "reading": "め",
+      "gloss": "eye",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }
