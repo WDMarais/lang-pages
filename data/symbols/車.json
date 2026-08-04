@@ -12,7 +12,7 @@
       "name": "車",
       "reading": "chē",
       "gloss": "cart; vehicle",
-      "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车 · 简: 车"
+      "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车"
     },
     "jp": {
       "name": "車",
@@ -25,6 +25,14 @@
         "gloss": "army"
       }
     }
+  },
+  "script": {
+    "keyed": "traditional",
+    "simplified": [
+      {
+        "glyph": "车"
+      }
+    ]
   },
   "programs": [
     {

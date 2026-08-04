@@ -1870,7 +1870,7 @@
         "yuán"
       ],
       "gloss": "circle; yen",
-      "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
+      "extra": "日本新字体 · 「円」在中文罕用"
     },
     {
       "id": "b:円@jp",
@@ -3771,7 +3771,7 @@
         "yì"
       ],
       "gloss": "hundred million",
-      "extra": "亻 + 意 · 数字「億」· 简: 亿"
+      "extra": "亻 + 意 · 数字「億」"
     },
     {
       "id": "b:億@jp",
@@ -7104,7 +7104,7 @@
         "chē"
       ],
       "gloss": "cart; vehicle",
-      "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车 · 简: 车",
+      "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车",
       "program": {
         "source": "pandanese",
         "name": "cart",
@@ -7842,7 +7842,7 @@
         "yú"
       ],
       "gloss": "fish",
-      "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼 · 简: 鱼",
+      "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼",
       "program": {
         "source": "pandanese",
         "name": "fish",

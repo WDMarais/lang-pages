@@ -11,7 +11,7 @@
       "name": "円",
       "reading": "yuán",
       "gloss": "circle; yen",
-      "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
+      "extra": "日本新字体 · 「円」在中文罕用"
     },
     "jp": {
       "name": "円",
@@ -21,7 +21,12 @@
     }
   },
   "script": {
-    "role": "shinjitai",
+    "keyed": "shinjitai",
+    "simplified": [
+      {
+        "glyph": "圆"
+      }
+    ],
     "traditional": [
       {
         "glyph": "圓"

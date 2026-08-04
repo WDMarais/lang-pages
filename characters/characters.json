@@ -730,10 +730,10 @@
           "hw": true,
           "cnAudioKey": "yuan2",
           "jpAudioKey": "en",
-          "script": {"role": "shinjitai", "traditional": [{"glyph": "圓"}]},
+          "script": {"keyed": "shinjitai", "simplified": [{"glyph": "圆"}], "traditional": [{"glyph": "圓"}]},
           "cn": {
             "name": "円", "reading": "yuán", "gloss": "circle; yen",
-            "extra": "日本新字体 · 中文作「圆」(繁: 圓) · 「円」在中文罕用"
+            "extra": "日本新字体 · 「円」在中文罕用"
           },
           "jp": {
             "name": "円", "reading": "エン", "gloss": "yen; circle",
@@ -1533,9 +1533,10 @@
           "hw": true,
           "cnAudioKey": "yi4",
           "jpAudioKey": "oku",
+          "script": {"keyed": "traditional", "simplified": [{"glyph": "亿"}]},
           "cn": {
             "name": "億", "reading": "yì", "gloss": "hundred million",
-            "extra": "亻 + 意 · 数字「億」· 简: 亿"
+            "extra": "亻 + 意 · 数字「億」"
           },
           "jp": {
             "name": "億", "reading": "オク", "gloss": "hundred million",
@@ -1572,7 +1573,7 @@
           "hw": true,
           "cnAudioKey": "ke3",
           "jpAudioKey": "ka",
-          "script": {"traditional": "same"},
+          "script": {"same": true},
           "cn": {
             "name": "可", "reading": "kě", "gloss": "can; may; -able; but",
             "extra": "可以、可能、可是、认可、可不 · 也读 kè（可汗 Khan）"
@@ -1679,7 +1680,7 @@
           "hw": true,
           "cnAudioKey": "ru2",
           "jpAudioKey": "jo",
-          "script": {"traditional": "same"},
+          "script": {"same": true},
           "cn": {
             "name": "如", "reading": "rú", "gloss": "as; like; as if; such as; if",
             "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as"
@@ -2175,9 +2176,10 @@
           "cnAudioKey": "che1",
           "jpAudioKey": "kuruma",
           "jpExAudioKey": "gun",
+          "script": {"keyed": "traditional", "simplified": [{"glyph": "车"}]},
           "cn": {
             "name": "車", "reading": "chē", "gloss": "cart; vehicle",
-            "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车 · 简: 车"
+            "extra": "康熙部首 159 · 象形（车）· 车、汽车、火车"
           },
           "jp": {
             "name": "車", "reading": "くるま", "gloss": "car; vehicle",
@@ -2195,9 +2197,10 @@
           "hw": true,
           "cnAudioKey": "yu2",
           "jpAudioKey": "sakana",
+          "script": {"keyed": "traditional", "simplified": [{"glyph": "鱼"}]},
           "cn": {
             "name": "魚", "reading": "yú", "gloss": "fish",
-            "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼 · 简: 鱼"
+            "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼"
           },
           "jp": {
             "name": "魚", "reading": "さかな", "gloss": "fish",

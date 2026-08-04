@@ -139,13 +139,14 @@
   border-radius: 5px; padding: 0 0.32rem; line-height: 1.4;
 }
 
-/* ── 繁 chip: traditional Han form(s) of a simplified glyph ── */
+/* ── script chip: the Han form(s) the card glyph is NOT (简/繁) ── */
 .sc-trad {
   position: absolute; top: 4px; right: 4px; z-index: 1;
-  display: inline-flex; align-items: center; gap: 0.22rem;
+  display: inline-flex; align-items: center; gap: 0.3rem;
   background: var(--cream); border: 1px solid var(--border);
   border-radius: 5px; padding: 0 0.32rem; line-height: 1.5;
 }
+.sc-trad-seg { display: inline-flex; align-items: center; gap: 0.22rem; }
 .sc-trad-lbl { font-size: 0.56rem; font-weight: 700; letter-spacing: 0.08em; color: var(--muted); }
 .sc-trad-g {
   font-size: 0.86rem; font-weight: 600; color: var(--navy);

@@ -69,27 +69,45 @@ def check_reading_view(rep, where, view):
                     rep.err(where, f"appearsIn.{k} missing or empty")
 
 
+def _check_script_form(rep, where, key, form):
+    """A `simplified`/`traditional` slot: a non-empty list of {glyph, when?}."""
+    if not isinstance(form, list) or not form:
+        rep.err(where, f"script.{key} must be a non-empty list of entries")
+        return
+    for e in form:
+        if not isinstance(e, dict) or not _str(e.get("glyph")) or len(e["glyph"]) != 1:
+            rep.err(where, f"script.{key} entry needs a single-char 'glyph'")
+        elif "when" in e and not _str(e["when"]):
+            rep.err(where, f"script.{key} 'when' must be a non-empty string")
+
+
 def check_script(rep, where, script):
-    """Validate a `script` block's shape (docs/traditional-script.md). `traditional`
-    is either "same" (verified no divergence) or a non-empty list of {glyph, when?}
-    entries; `role` if present tags a non-simplified primary axis (円)."""
+    """Validate a symmetric `script` block (docs/traditional-script.md). `keyed`
+    names the axis the card `glyph` sits on (simplified|traditional|shinjitai,
+    default simplified); the *other* Han form(s) are named under `simplified` /
+    `traditional`, or `same: true` declares the two Han forms coincide."""
     if not isinstance(script, dict):
         rep.err(where, "script must be an object")
         return
-    role = script.get("role")
-    if role is not None and role not in ("simplified", "shinjitai"):
-        rep.err(where, f"script.role {role!r} not in ('simplified', 'shinjitai')")
-    trad = script.get("traditional")
-    if trad == "same":
-        return
-    if not isinstance(trad, list) or not trad:
-        rep.err(where, 'script.traditional must be "same" or a non-empty list of entries')
-        return
-    for e in trad:
-        if not isinstance(e, dict) or not _str(e.get("glyph")) or len(e["glyph"]) != 1:
-            rep.err(where, "script.traditional entry needs a single-char 'glyph'")
-        elif "when" in e and not _str(e["when"]):
-            rep.err(where, "script.traditional 'when' must be a non-empty string")
+    keyed = script.get("keyed", "simplified")
+    if keyed not in ("simplified", "traditional", "shinjitai"):
+        rep.err(where, f"script.keyed {keyed!r} not in ('simplified', 'traditional', 'shinjitai')")
+    same = script.get("same")
+    if same is not None and same is not True:
+        rep.err(where, "script.same must be true when present")
+    # the keyed Han axis IS the glyph — don't restate it as a named slot
+    if keyed in ("simplified", "traditional") and keyed in script:
+        rep.err(where, f"script.{keyed} restates the keyed glyph — omit it")
+    named = [k for k in ("simplified", "traditional") if k in script]
+    if same:
+        if named:
+            rep.err(where, "script.same is exclusive with a named simplified/traditional form")
+        if keyed == "shinjitai":
+            rep.err(where, "script.same needs a Han-keyed glyph, not shinjitai")
+    elif not named:
+        rep.err(where, "script needs `same: true` or a named simplified/traditional form")
+    for k in named:
+        _check_script_form(rep, where, k, script[k])
 
 
 def check_symbol(rep, g, s):

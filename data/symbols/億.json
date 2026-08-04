@@ -15,7 +15,7 @@
       "name": "億",
       "reading": "yì",
       "gloss": "hundred million",
-      "extra": "亻 + 意 · 数字「億」· 简: 亿"
+      "extra": "亻 + 意 · 数字「億」"
     },
     "jp": {
       "name": "億",
@@ -23,6 +23,14 @@
       "gloss": "hundred million",
       "extra": "漢字「億」(オク) · 一億、億万長者"
     }
+  },
+  "script": {
+    "keyed": "traditional",
+    "simplified": [
+      {
+        "glyph": "亿"
+      }
+    ]
   },
   "programs": []
 }

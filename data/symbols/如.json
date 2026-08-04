@@ -25,7 +25,7 @@
     }
   },
   "script": {
-    "traditional": "same"
+    "same": true
   },
   "programs": []
 }

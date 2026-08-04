@@ -1,93 +1,122 @@
-# The `script.traditional` field
+# The `script` block (simplified ↔ traditional)
 
-How the simplified↔traditional (繁體) correspondence is structured on a symbol.
+How a symbol records the simplified/traditional (繁體) Han correspondence.
 Companion to [authoring.md](authoring.md) (the symbol-file schema) — this doc
-specifies one field it adds. Supersedes the interim "note `繁: X` inline in
-`cn.extra`" convention (see memory *cn-traditional-handling*).
+specifies one block it adds. Supersedes the interim "note `繁: X` / `简: X`
+inline in `cn.extra`" convention (see memory *cn-traditional-handling*).
 
 ## Decision
 
-- **A field, not an edge.** Traditional forms are *orthographic alternates of the
-  same teaching unit*, not independently-taught characters — so they live as an
-  attribute on the simplified symbol, minting no graph nodes/edges. (Contrast
+- **A field, not an edge.** Simplified and traditional forms are *orthographic
+  alternates of one teaching unit*, not independently-taught characters — so they
+  live as an attribute on the symbol, minting no graph nodes/edges. (Contrast
   `association` confusable/cognate, where both glyphs are real things you learn
-  separately → edges. A specific traditional form can be *promoted* to a real node
-  later if it ever needs teaching in its own right.)
-- **One axis: the orthodox Han form.** We already store the other two axes —
-  `glyph` = simplified CN, `readings.jp.name` = JP shinjitai (従, 個, 業…). The only
-  missing axis is the traditional/orthodox Han form, and Han-traditional stands in
-  for JP-kyujitai too (體=體, 從=從, 萬=萬 — they diverge on the *simplified* side,
-  not the old side). So one new field completes the picture; no `jp.name` migration.
+  separately → edges. A specific form can be *promoted* to a real node later if it
+  ever needs teaching in its own right.)
+- **Symmetric — neither script is implicitly "the main one."** The card `glyph`
+  is the node's single identity (one face on the card), but it may sit on *either*
+  Han axis: most CN symbols key on the simplified form (可, 从), while Kangxi-radical
+  and JP-authored nodes key on the traditional form (車, 魚, 億). The `script` block
+  names the axis the glyph occupies (`keyed`) and records the *other* Han form(s)
+  under its own slot (`simplified` / `traditional`). Both slots are first-class; the
+  keyed one is simply omitted because the `glyph` already is it.
+- **The JP shinjitai axis is already stored** as `readings.jp.name` (従, 個, 業…),
+  so the block only ever carries Han forms. The one exception is a glyph *keyed on*
+  the shinjitai (円) — see below.
 
 ## Schema
 
-`script.traditional` — sibling of `readings`/`programs`/`composes` on the symbol.
-Its value is one of:
-
-| value | meaning | example |
-|---|---|---|
-| list of entries | the traditional form(s) | see below |
-| `"same"` | **verified** no divergence (繁体同) | 可, 如 |
-| *absent* | **not yet classified** — `check-source` warns (CN char only) | — |
-
-`"same"` vs absent is the point: it separates *checked, identical* from *unknown*,
-so the gate can flag the real backlog instead of silently passing everything.
-
-An **entry** is `{ "glyph": "體", "when"?: "<sense>" }`:
-- `glyph` (req) — a single traditional CJK character.
-- `when` (opt) — the sense under which this form applies; **required when >1 entry**
-  disambiguates by meaning (the merge cases), omitted for a plain 1:1.
+`script` — sibling of `readings`/`programs`/`composes` on the symbol:
 
 ```jsonc
-// 体 — 1:1
-"script": { "traditional": [ { "glyph": "體" } ] }
+script: {
+  keyed?: "simplified" | "traditional" | "shinjitai",  // axis the card `glyph` occupies; default "simplified"
+  same?: true,                                          // the two Han forms coincide (verified) — axis-neutral
+  simplified?: [ { glyph, when? } ],                    // named iff it is NOT the keyed glyph
+  traditional?: [ { glyph, when? } ],                   // named iff it is NOT the keyed glyph
+}
+```
 
-// 个 — one simplified glyph, several traditional forms
-"script": { "traditional": [ { "glyph": "個" },
-                             { "glyph": "箇", "when": "classifier; literary" } ] }
+| field | meaning |
+|---|---|
+| `keyed` | which axis the `glyph` sits on. Default `"simplified"`. Set `"traditional"` for trad-keyed nodes (Kangxi radicals, JP-authored 億), `"shinjitai"` for the 円 case. |
+| `same: true` | verified no-divergence (繁简同形). Mutually exclusive with naming a Han slot; only valid on a Han-keyed glyph. Distinct from an **absent** `script`, which means *unclassified*. |
+| `simplified` / `traditional` | the Han form(s) on that axis. **Omit the slot matching `keyed`** — the `glyph` already is that form; restating it is an error. |
 
-// 后 — sense-conditioned merge: 後 only for the "after" sense; queen-sense 后 is unchanged
+A **form entry** is `{ "glyph": "體", "when"?: "<sense>" }`:
+- `glyph` (req) — a single traditional/simplified CJK character.
+- `when` (opt) — the sense under which this form applies; used when a slot lists
+  several forms that split by meaning (merge cases). A plain 1:1 omits it, and the
+  *default* form in a multi-entry list may omit it while the special-case carries one.
+
+The absent/`same`/named distinction is the point: it separates *unknown* from
+*checked-identical* from *checked-divergent*, so the gate can flag the real backlog
+instead of silently passing everything.
+
+## Examples
+
+```jsonc
+// 可, 如 — simplified-keyed, verified identical
+"script": { "same": true }
+
+// 从 — simplified-keyed, traditional differs (1:1)
+"script": { "traditional": [ { "glyph": "從" } ] }
+
+// 后 — simplified-keyed; sense-conditioned merge. 後 for "after"; queen-sense 后 unchanged
 "script": { "traditional": [ { "glyph": "後", "when": "after; behind; time & position" },
                              { "glyph": "后", "when": "empress; queen (unchanged)" } ] }
 
-// 可 / 如 — verified identical
-"script": { "traditional": "same" }
+// 个 — simplified-keyed, one glyph → several traditional forms (個 default, 箇 literary)
+"script": { "traditional": [ { "glyph": "個" },
+                             { "glyph": "箇", "when": "classifier; literary" } ] }
+
+// 車, 魚, 億 — TRADITIONAL-keyed (glyph IS the trad form); simplified named
+"script": { "keyed": "traditional", "simplified": [ { "glyph": "车" } ] }
+
+// 円 — shinjitai-keyed (glyph is neither Han form); both Han axes named
+"script": { "keyed": "shinjitai",
+            "simplified":  [ { "glyph": "圆" } ],
+            "traditional": [ { "glyph": "圓" } ] }
 ```
 
-A `when`-entry whose `glyph` equals the simplified glyph itself (后→后) means *that
-sense did not change* — the honest way to say "partial merge".
+### The inversion, resolved
 
-## The one edge case: 円 (JP-primary glyph)
-
-円 inverts the axes — the file is the JP **shinjitai**, its orthodox form is 圓, and
-Chinese uses a *different* simplification 圆. The minimal model marks this with
-`script.role: "shinjitai"` (default, unstated, is `"simplified"`) and records
-`traditional: [ { "glyph": "圓" } ]`; the "中文作 圆" cross-note stays in prose,
-since 円 is off the CN teaching axis (罕用) and not worth a fourth structured slot.
-This is the sole glyph the traditional-Han-only scope doesn't fully structure —
-accepted, documented, revisitable if more JP-primary glyphs arrive.
+Earlier, trad-keyed nodes (車/魚/億, keyed on the traditional glyph because that's
+the Kangxi radical or the form a decomposition needs) recorded their simplified form
+as inline `简: X` prose — a separate, asymmetric mechanism from the `繁: X` prose the
+field replaced. The symmetric block folds both directions into one structure: a
+simplified-keyed glyph names `traditional`, a traditional-keyed glyph names
+`simplified`, and the render labels each with 简/繁 accordingly. There is no longer a
+"primary" script baked into the schema — only which axis this particular `glyph`
+happens to sit on.
 
 ## Projection & tooling
 
-- **`to_card`** (`symbols_io.py`) passes `traditional` through onto the card, the
-  same way `readings` flow — so both build-pages (render) and build-graph (node +
-  round-trip) see it and round-trip stays ✓.
-- **Card render** (`cards3.*`): a 繁 chip beside the glyph showing the traditional
-  form(s); the `when` qualifier as a caption/tooltip on multi-entry cards; `"same"`
-  renders as a subtle 繁=简 marker (or nothing). Replaces the buried `繁: X` prose.
-- **`check-source` gate**: a CN `char`-class symbol with a `cn` reading and no
-  `script.traditional` (neither list nor `"same"`) → warning `traditional not
-  classified`. Validates entry shape (single CJK `glyph`; `when` present when
-  multiple entries diverge by sense). Same machinery that gates readings/audio keys.
+- **`to_card`** (`symbols_io.py`) passes the whole `script` block through onto the
+  card verbatim — so both build-pages (render) and build-graph (node + round-trip)
+  see it and round-trip stays ✓. The projection is schema-agnostic; only the two
+  ends below encode the shape.
+- **Card render** (`cards3.*`): a corner chip beside the glyph. For each named Han
+  slot it emits a labelled segment (`简`/`繁`) with the form(s); a `when` qualifier
+  becomes a hover tooltip; `same: true` renders a faint `繁=简`; an absent block
+  renders nothing. A shinjitai-keyed glyph shows both segments (円 → `简 圆  繁 圓`).
+- **`check-source` gate** (`check_script`): validates `keyed` ∈ the three axes; that
+  the keyed Han slot is **not** restated; that `same` is exclusive with a named form
+  and Han-keyed; that each named slot is a non-empty list of single-char `glyph`
+  entries with non-empty `when` when present. The **repo-wide "unclassified" warning
+  stays OFF** for now — backfill is incremental (classify known glyphs, gate quiet),
+  same play as the frontier word-part warnings.
 
 ## Backfill
 
-Ship the mechanism plus the ~13 glyphs already carrying inline `繁` prose, stripping
-the now-redundant `繁: X` fragment from `cn.extra` as each is structured:
+Shipped: the mechanism plus every glyph that carried inline `繁: X` or `简: X` prose,
+stripping the now-redundant fragment from `cn.extra`:
 
-万→萬 · 与→與 · 业→業 · 个→個/箇 · 义→義 · 于→於 · 从→從 · 体→體 · 儿→兒 ·
-后→後(+后 queen) · 円→圓(role: shinjitai) · 可→same · 如→same
+- **simplified-keyed:** 万→萬 · 与→與 · 业→業 · 个→個/箇 · 义→義 · 于→於 · 从→從 ·
+  体→體 · 儿→兒 · 后→後(+后 queen) · 可→same · 如→same
+- **traditional-keyed** (inversion): 車→车 · 魚→鱼 · 億→亿
+- **shinjitai-keyed:** 円 → simplified 圆 + traditional 圓
 
-The gate then surfaces every *remaining* unclassified CN char as a warning, so the
-rest is incremental and tracked rather than silent — same play as the frontier
-word-part warnings.
+Remaining trad-keyed Kangxi radicals (貝→贝, 見→见, 門→门) take a
+`{ "keyed": "traditional", "simplified": [ { "glyph": "…" } ] }` block as they gain
+PD bindings — no more inline `简:` prose.

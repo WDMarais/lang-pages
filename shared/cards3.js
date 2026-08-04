@@ -238,21 +238,28 @@ function renderStub(c) {
     </div>`;
 }
 
-// 繁 chip: the traditional Han form(s) of a simplified glyph (docs/traditional-
-// script.md). "same" → a faint 繁=简 affirming verified no-divergence (distinct
-// from an unclassified glyph, which shows nothing); a list → the trad glyph(s),
-// each carrying its sense (个→個/箇, 后→後/后) as a hover title.
-function tradChip(s) {
+// script chip: names the Han form(s) the card glyph is NOT (docs/traditional-
+// script.md). `keyed` says which axis the glyph sits on; we surface the other
+// side(s), each labelled 简 or 繁 with its sense (个→個/箇, 后→後/后) on hover.
+// same → a faint 繁=简 affirming verified no-divergence (distinct from an
+// unclassified glyph, which shows nothing). shinjitai-keyed (円) names both.
+const SCRIPT_SLOTS = [['simplified', '简'], ['traditional', '繁']];
+function scriptChip(s) {
   if (!s) { return ''; }
-  const t = s.traditional;
-  if (t === 'same') {
-    return html`<span class="sc-trad sc-trad-same" title="繁体同 · simplified = traditional">繁=简</span>`;
+  if (s.same) {
+    return html`<span class="sc-trad sc-trad-same" title="繁简同形 · simplified = traditional">繁=简</span>`;
   }
-  if (!Array.isArray(t) || !t.length) { return ''; }
-  const forms = t.map(e => e.when
-    ? html`<span class="sc-trad-g" title="${e.when}">${e.glyph}</span>`
-    : html`<span class="sc-trad-g">${e.glyph}</span>`);
-  return html`<span class="sc-trad"><span class="sc-trad-lbl">繁</span>${forms}</span>`;
+  const segs = [];
+  for (const [key, lbl] of SCRIPT_SLOTS) {
+    const form = s[key];
+    if (!Array.isArray(form) || !form.length) { continue; }
+    const forms = form.map(e => e.when
+      ? html`<span class="sc-trad-g" title="${e.when}">${e.glyph}</span>`
+      : html`<span class="sc-trad-g">${e.glyph}</span>`);
+    segs.push(html`<span class="sc-trad-seg"><span class="sc-trad-lbl">${lbl}</span>${forms}</span>`);
+  }
+  if (!segs.length) { return ''; }
+  return html`<span class="sc-trad">${segs}</span>`;
 }
 
 function renderCard(c) {
@@ -267,7 +274,7 @@ function renderCard(c) {
         ${kx}
         ${diagram(c)}
         ${tag}
-        ${tradChip(c.script)}
+        ${scriptChip(c.script)}
         ${img}
       </div>
       <div class="sc-views">

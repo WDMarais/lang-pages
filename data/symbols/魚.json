@@ -12,7 +12,7 @@
       "name": "魚",
       "reading": "yú",
       "gloss": "fish",
-      "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼 · 简: 鱼"
+      "extra": "康熙部首 195 · 象形（鱼） · 鱼、金鱼、钓鱼"
     },
     "jp": {
       "name": "魚",
@@ -20,6 +20,14 @@
       "gloss": "fish",
       "extra": "漢字「魚」(さかな · うお · ギョ)"
     }
+  },
+  "script": {
+    "keyed": "traditional",
+    "simplified": [
+      {
+        "glyph": "鱼"
+      }
+    ]
   },
   "programs": [
     {
