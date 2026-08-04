@@ -238,6 +238,23 @@ function renderStub(c) {
     </div>`;
 }
 
+// 繁 chip: the traditional Han form(s) of a simplified glyph (docs/traditional-
+// script.md). "same" → a faint 繁=简 affirming verified no-divergence (distinct
+// from an unclassified glyph, which shows nothing); a list → the trad glyph(s),
+// each carrying its sense (个→個/箇, 后→後/后) as a hover title.
+function tradChip(s) {
+  if (!s) { return ''; }
+  const t = s.traditional;
+  if (t === 'same') {
+    return html`<span class="sc-trad sc-trad-same" title="繁体同 · simplified = traditional">繁=简</span>`;
+  }
+  if (!Array.isArray(t) || !t.length) { return ''; }
+  const forms = t.map(e => e.when
+    ? html`<span class="sc-trad-g" title="${e.when}">${e.glyph}</span>`
+    : html`<span class="sc-trad-g">${e.glyph}</span>`);
+  return html`<span class="sc-trad"><span class="sc-trad-lbl">繁</span>${forms}</span>`;
+}
+
 function renderCard(c) {
   if (c.stub) { return renderStub(c); }
   const img = c.image ? html`<img class="sc-img" src="${c.image}" alt="">` : '';
@@ -250,6 +267,7 @@ function renderCard(c) {
         ${kx}
         ${diagram(c)}
         ${tag}
+        ${tradChip(c.script)}
         ${img}
       </div>
       <div class="sc-views">

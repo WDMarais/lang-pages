@@ -139,6 +139,21 @@
   border-radius: 5px; padding: 0 0.32rem; line-height: 1.4;
 }
 
+/* ── 繁 chip: traditional Han form(s) of a simplified glyph ── */
+.sc-trad {
+  position: absolute; top: 4px; right: 4px; z-index: 1;
+  display: inline-flex; align-items: center; gap: 0.22rem;
+  background: var(--cream); border: 1px solid var(--border);
+  border-radius: 5px; padding: 0 0.32rem; line-height: 1.5;
+}
+.sc-trad-lbl { font-size: 0.56rem; font-weight: 700; letter-spacing: 0.08em; color: var(--muted); }
+.sc-trad-g {
+  font-size: 0.86rem; font-weight: 600; color: var(--navy);
+  font-family: var(--serif, Georgia, "Songti SC", serif);
+}
+.sc-trad-g[title] { cursor: help; border-bottom: 1px dotted var(--border); }
+.sc-trad-same { color: var(--muted); font-size: 0.56rem; font-weight: 700; letter-spacing: 0.04em; opacity: 0.65; }
+
 /* ── Kangxi stub tile — a radical not yet built into a full card ── */
 .scard-stub {
   position: relative; display: inline-flex; flex-direction: column;
