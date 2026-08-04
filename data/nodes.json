@@ -1774,6 +1774,24 @@
       "label": "ten thousand"
     },
     {
+      "id": "g:个",
+      "kind": "glyph",
+      "glyph": "个",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ge4",
+      "jpAudioKey": "ko"
+    },
+    {
+      "id": "r:",
+      "kind": "referent",
+      "label": "(generic measure word); individual"
+    },
+    {
       "id": "g:义",
       "kind": "glyph",
       "glyph": "义",
@@ -1897,6 +1915,24 @@
       "id": "r:what",
       "kind": "referent",
       "label": "what (in 什么)"
+    },
+    {
+      "id": "g:从",
+      "kind": "glyph",
+      "glyph": "从",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "cong2",
+      "jpAudioKey": "juu"
+    },
+    {
+      "id": "r:from",
+      "kind": "referent",
+      "label": "from; since; to follow"
     },
     {
       "id": "g:他",
@@ -2214,6 +2250,42 @@
       "label": "again"
     },
     {
+      "id": "g:可",
+      "kind": "glyph",
+      "glyph": "可",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ke3",
+      "jpAudioKey": "ka"
+    },
+    {
+      "id": "r:can",
+      "kind": "referent",
+      "label": "can; may; -able; but"
+    },
+    {
+      "id": "g:后",
+      "kind": "glyph",
+      "glyph": "后",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "hou4",
+      "jpAudioKey": "go"
+    },
+    {
+      "id": "r:behind",
+      "kind": "referent",
+      "label": "behind; after; back; (also) queen"
+    },
+    {
       "id": "g:囗",
       "kind": "glyph",
       "glyph": "囗",
@@ -2351,6 +2423,24 @@
       "id": "r:she",
       "kind": "referent",
       "label": "she; her"
+    },
+    {
+      "id": "g:如",
+      "kind": "glyph",
+      "glyph": "如",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ru2",
+      "jpAudioKey": "jo"
+    },
+    {
+      "id": "r:as",
+      "kind": "referent",
+      "label": "as; like; as if; such as; if"
     },
     {
       "id": "g:寸",
@@ -3358,11 +3448,6 @@
       "cnExAudioKey": "you2",
       "jpAudioKey": "yuu",
       "jpExAudioKey": "yu"
-    },
-    {
-      "id": "r:from",
-      "kind": "referent",
-      "label": "from; by; cause; reason"
     },
     {
       "id": "g:油",
@@ -5970,13 +6055,6 @@
       "frontier": true
     },
     {
-      "id": "g:从",
-      "kind": "glyph",
-      "glyph": "从",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:亼",
       "kind": "glyph",
       "glyph": "亼",
@@ -6462,13 +6540,6 @@
       }
     },
     {
-      "id": "g:后",
-      "kind": "glyph",
-      "glyph": "后",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "r:after",
       "kind": "referent",
       "label": "after; afterwards; later"
@@ -6519,13 +6590,6 @@
         "kind": "vocab",
         "level": 1
       }
-    },
-    {
-      "id": "g:可",
-      "kind": "glyph",
-      "glyph": "可",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "r:can-may",
@@ -6701,13 +6765,6 @@
       }
     },
     {
-      "id": "g:个",
-      "kind": "glyph",
-      "glyph": "个",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "r:individual",
       "kind": "referent",
       "label": "individual; personal; (of) oneself"
@@ -6725,13 +6782,6 @@
         "kind": "vocab",
         "level": 1
       }
-    },
-    {
-      "id": "g:如",
-      "kind": "glyph",
-      "glyph": "如",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "r:inferior-to",

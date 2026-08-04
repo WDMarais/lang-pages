@@ -1,0 +1,24 @@
+{
+  "glyph": "个",
+  "cp": "U+4E2A",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "个",
+      "reading": "gè",
+      "gloss": "(generic measure word); individual",
+      "extra": "最常用量词（一个人 one person）· 这个、几个、个人 · 繁: 個/箇"
+    },
+    "jp": {
+      "name": "個",
+      "reading": "コ",
+      "gloss": "individual; counter for objects",
+      "extra": "漢字「個」(コ) · 一個(いっこ)、個人(こじん) · 中文簡体作「个」"
+    }
+  },
+  "programs": []
+}

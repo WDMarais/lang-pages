@@ -203,6 +203,10 @@
     "text": "ジ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "jo.mp3": {
+    "text": "ジョ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "juu.mp3": {
     "text": "ジュウ",
     "voice": "ja-JP-NanamiNeural"

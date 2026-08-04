@@ -1,0 +1,28 @@
+{
+  "glyph": "从",
+  "cp": "U+4ECE",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "人",
+    "人"
+  ],
+  "readings": {
+    "cn": {
+      "name": "从",
+      "reading": "cóng",
+      "gloss": "from; since; to follow",
+      "extra": "人 + 人（一人随一人）· 从来、从此、自从、从不 · 繁: 從"
+    },
+    "jp": {
+      "name": "従",
+      "reading": "ジュウ",
+      "gloss": "obey; follow; subordinate",
+      "extra": "漢字「従」(ジュウ・ショウ · したが-う) · 従う、服従(ふくじゅう) · 中文簡体作「从」"
+    }
+  },
+  "programs": []
+}

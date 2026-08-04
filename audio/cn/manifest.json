@@ -111,6 +111,10 @@
     "text": "辵",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cong2.mp3": {
+    "text": "从",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cun4.mp3": {
     "text": "寸",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -227,6 +231,10 @@
     "text": "革",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ge4.mp3": {
+    "text": "个",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "gen4.mp3": {
     "text": "艮",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -293,6 +301,10 @@
   },
   "hengzhegou.mp3": {
     "text": "横折钩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hou4.mp3": {
+    "text": "后",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "hu1.mp3": {
@@ -373,6 +385,10 @@
   },
   "kan4.mp3": {
     "text": "看",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ke3.mp3": {
+    "text": "可",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ke4.mp3": {
@@ -605,6 +621,10 @@
   },
   "rou4.mp3": {
     "text": "肉",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ru2.mp3": {
+    "text": "如",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ru4.mp3": {

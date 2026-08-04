@@ -683,6 +683,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:个",
+      "to": "r:",
+      "kind": "denotes"
+    },
+    {
       "from": "g:义",
       "to": "r:meaning",
       "kind": "denotes"
@@ -731,6 +736,11 @@
     {
       "from": "g:什",
       "to": "r:what",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:从",
+      "to": "r:from",
       "kind": "denotes"
     },
     {
@@ -829,6 +839,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:可",
+      "to": "r:can",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:后",
+      "to": "r:behind",
+      "kind": "denotes"
+    },
+    {
       "from": "g:囗",
       "to": "r:enclosure",
       "kind": "denotes"
@@ -866,6 +886,11 @@
     {
       "from": "g:她",
       "to": "r:she",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:如",
+      "to": "r:as",
       "kind": "denotes"
     },
     {
@@ -1990,6 +2015,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:人",
+      "to": "g:个",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:个",
+      "kind": "composes"
+    },
+    {
       "from": "g:口",
       "to": "g:中",
       "kind": "composes"
@@ -2082,6 +2117,11 @@
     {
       "from": "g:十",
       "to": "g:什",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "g:从",
       "kind": "composes"
     },
     {
@@ -2361,6 +2401,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:丁",
+      "to": "g:可",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:可",
+      "kind": "composes"
+    },
+    {
       "from": "g:口",
       "to": "g:台",
       "kind": "composes"
@@ -2393,6 +2443,11 @@
     {
       "from": "g:夕",
       "to": "g:名",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:后",
       "kind": "composes"
     },
     {
@@ -2515,6 +2570,16 @@
       "to": "g:好",
       "kind": "composes",
       "role": "semantic"
+    },
+    {
+      "from": "g:女",
+      "to": "g:如",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:如",
+      "kind": "composes"
     },
     {
       "from": "g:了",

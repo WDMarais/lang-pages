@@ -1,0 +1,28 @@
+{
+  "glyph": "如",
+  "cp": "U+5982",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "女",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "如",
+      "reading": "rú",
+      "gloss": "as; like; as if; such as; if",
+      "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as · 繁体同"
+    },
+    "jp": {
+      "name": "如",
+      "reading": "ジョ",
+      "gloss": "like; as if",
+      "extra": "漢字「如」(ジョ・ニョ · ごと-し) · 如実(にょじつ)、欠如(けつじょ)"
+    }
+  },
+  "programs": []
+}

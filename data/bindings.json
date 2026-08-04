@@ -3384,6 +3384,28 @@
       }
     },
     {
+      "id": "b:个@cn",
+      "glyph_id": "g:个",
+      "lang": "cn",
+      "name": "个",
+      "readings": [
+        "gè"
+      ],
+      "gloss": "(generic measure word); individual",
+      "extra": "最常用量词（一个人 one person）· 这个、几个、个人 · 繁: 個/箇"
+    },
+    {
+      "id": "b:个@jp",
+      "glyph_id": "g:个",
+      "lang": "jp",
+      "name": "個",
+      "readings": [
+        "コ"
+      ],
+      "gloss": "individual; counter for objects",
+      "extra": "漢字「個」(コ) · 一個(いっこ)、個人(こじん) · 中文簡体作「个」"
+    },
+    {
       "id": "b:义@cn",
       "glyph_id": "g:义",
       "lang": "cn",
@@ -3567,6 +3589,28 @@
       ],
       "gloss": "assorted; miscellany",
       "extra": "漢字「什」(ジュウ・シュウ) · 什器(じゅうき) = household goods（日本語では「何」の意味では使わない）"
+    },
+    {
+      "id": "b:从@cn",
+      "glyph_id": "g:从",
+      "lang": "cn",
+      "name": "从",
+      "readings": [
+        "cóng"
+      ],
+      "gloss": "from; since; to follow",
+      "extra": "人 + 人（一人随一人）· 从来、从此、自从、从不 · 繁: 從"
+    },
+    {
+      "id": "b:从@jp",
+      "glyph_id": "g:从",
+      "lang": "jp",
+      "name": "従",
+      "readings": [
+        "ジュウ"
+      ],
+      "gloss": "obey; follow; subordinate",
+      "extra": "漢字「従」(ジュウ・ショウ · したが-う) · 従う、服従(ふくじゅう) · 中文簡体作「从」"
     },
     {
       "id": "b:他@cn",
@@ -4007,6 +4051,50 @@
       "extra": ""
     },
     {
+      "id": "b:可@cn",
+      "glyph_id": "g:可",
+      "lang": "cn",
+      "name": "可",
+      "readings": [
+        "kě"
+      ],
+      "gloss": "can; may; -able; but",
+      "extra": "可以、可能、可是、认可、可不 · 也读 kè（可汗 Khan）· 繁体同"
+    },
+    {
+      "id": "b:可@jp",
+      "glyph_id": "g:可",
+      "lang": "jp",
+      "name": "可",
+      "readings": [
+        "カ"
+      ],
+      "gloss": "possible; acceptable; can",
+      "extra": "漢字「可」(カ) · 可能(かのう)、許可(きょか)、可決(かけつ)"
+    },
+    {
+      "id": "b:后@cn",
+      "glyph_id": "g:后",
+      "lang": "cn",
+      "name": "后",
+      "readings": [
+        "hòu"
+      ],
+      "gloss": "behind; after; back; (also) queen",
+      "extra": "方位/时间词 · 以后、之后、后来、后面 · 繁: 後（“时间/方位”义）；“皇后、王后”义本作「后」不变"
+    },
+    {
+      "id": "b:后@jp",
+      "glyph_id": "g:后",
+      "lang": "jp",
+      "name": "後",
+      "readings": [
+        "ゴ"
+      ],
+      "gloss": "behind; after; back",
+      "extra": "漢字「後」(ゴ・コウ · のち・うし-ろ・あと) · 午後(ごご)、後ろ · 中文簡体作「后」· 別字「后」(コウ = きさき, queen)"
+    },
+    {
       "id": "b:囗@cn",
       "glyph_id": "g:囗",
       "lang": "cn",
@@ -4203,6 +4291,28 @@
       "readings": [],
       "gloss": "she (modern Chinese; not a Japanese kanji)",
       "extra": "日本語では用いない（中国語の新造字）"
+    },
+    {
+      "id": "b:如@cn",
+      "glyph_id": "g:如",
+      "lang": "cn",
+      "name": "如",
+      "readings": [
+        "rú"
+      ],
+      "gloss": "as; like; as if; such as; if",
+      "extra": "女 + 口 · 如果、比如、如何、例如 · 不如 = not as good as · 繁体同"
+    },
+    {
+      "id": "b:如@jp",
+      "glyph_id": "g:如",
+      "lang": "jp",
+      "name": "如",
+      "readings": [
+        "ジョ"
+      ],
+      "gloss": "like; as if",
+      "extra": "漢字「如」(ジョ・ニョ · ごと-し) · 如実(にょじつ)、欠如(けつじょ)"
     },
     {
       "id": "b:寸@cn",
