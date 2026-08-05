@@ -531,6 +531,10 @@
     "text": "とも",
     "voice": "ja-JP-NanamiNeural"
   },
+  "tori.mp3": {
+    "text": "とり",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "tou.mp3": {
     "text": "トウ",
     "voice": "ja-JP-NanamiNeural"

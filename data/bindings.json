@@ -3481,7 +3481,13 @@
         "yǐ"
       ],
       "gloss": "second",
-      "extra": "康熙部首 5"
+      "extra": "康熙部首 5",
+      "program": {
+        "source": "pandanese",
+        "name": "second",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:乙@jp",
@@ -4265,7 +4271,13 @@
         "zhǐ"
       ],
       "gloss": "go",
-      "extra": "康熙部首 34"
+      "extra": "康熙部首 34",
+      "program": {
+        "source": "pandanese",
+        "name": "go",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:夂@jp",
@@ -7445,6 +7457,32 @@
       "extra": ""
     },
     {
+      "id": "b:阝@cn",
+      "glyph_id": "g:阝",
+      "lang": "cn",
+      "name": "阝",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "city; town (radical)",
+      "extra": "「邑」的偏旁（在右）· 城邑、都邑 · 那、都、邦；左作「阜」（阳、队、防）",
+      "program": {
+        "source": "pandanese",
+        "name": "city",
+        "level": 2,
+        "kind": "meaning"
+      }
+    },
+    {
+      "id": "b:阝@jp",
+      "glyph_id": "g:阝",
+      "lang": "jp",
+      "name": "阝",
+      "readings": [],
+      "gloss": "city; town (radical)",
+      "extra": "部首「邑」の変形（右）· 左は「阜」(こざとへん)"
+    },
+    {
       "id": "b:隶@cn",
       "glyph_id": "g:隶",
       "lang": "cn",
@@ -7966,16 +8004,24 @@
         "niǎo"
       ],
       "gloss": "bird",
-      "extra": "康熙部首 196"
+      "extra": "康熙部首 196 · 象形（鸟）· 鸟、小鸟、鸟类",
+      "program": {
+        "source": "pandanese",
+        "name": "bird",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:鳥@jp",
       "glyph_id": "g:鳥",
       "lang": "jp",
       "name": "鳥",
-      "readings": [],
+      "readings": [
+        "とり"
+      ],
       "gloss": "bird",
-      "extra": ""
+      "extra": "漢字「鳥」(とり · チョウ) · 鳥(とり)、小鳥(ことり)"
     },
     {
       "id": "b:鹵@cn",

@@ -1,0 +1,34 @@
+{
+  "glyph": "阝",
+  "cp": "U+961D",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "阝",
+      "reading": "yì",
+      "gloss": "city; town (radical)",
+      "extra": "「邑」的偏旁（在右）· 城邑、都邑 · 那、都、邦；左作「阜」（阳、队、防）"
+    },
+    "jp": {
+      "name": "阝",
+      "reading": "",
+      "gloss": "city; town (radical)",
+      "extra": "部首「邑」の変形（右）· 左は「阜」(こざとへん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "city",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

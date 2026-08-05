@@ -8,18 +8,36 @@
     "hw": true,
     "image": ""
   },
+  "script": {
+    "keyed": "traditional",
+    "simplified": [
+      {
+        "glyph": "鸟"
+      }
+    ]
+  },
   "readings": {
     "cn": {
       "name": "鳥",
       "reading": "niǎo",
       "gloss": "bird",
-      "extra": "康熙部首 196"
+      "extra": "康熙部首 196 · 象形（鸟）· 鸟、小鸟、鸟类"
     },
     "jp": {
       "name": "鳥",
-      "reading": "",
-      "gloss": "bird"
+      "reading": "とり",
+      "gloss": "bird",
+      "extra": "漢字「鳥」(とり · チョウ) · 鳥(とり)、小鳥(ことり)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "bird",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

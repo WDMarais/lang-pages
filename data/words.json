@@ -1657,6 +1657,22 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "合作",
+      "audience": "cn",
+      "parts": [
+        "合",
+        "作"
+      ],
+      "denotes": "cooperation",
+      "reading": "hézuò",
+      "gloss": "to cooperate; cooperation; collaboration",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

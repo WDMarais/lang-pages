@@ -4891,6 +4891,18 @@
       "label": "mound"
     },
     {
+      "id": "g:阝",
+      "kind": "glyph",
+      "glyph": "阝",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yi4"
+    },
+    {
       "id": "g:隶",
       "kind": "glyph",
       "glyph": "隶",
@@ -5329,7 +5341,16 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "niao3"
+      "cnAudioKey": "niao3",
+      "jpAudioKey": "tori",
+      "script": {
+        "keyed": "traditional",
+        "simplified": [
+          {
+            "glyph": "鸟"
+          }
+        ]
+      }
     },
     {
       "id": "r:bird",
@@ -6104,13 +6125,6 @@
       "id": "g:犭",
       "kind": "glyph",
       "glyph": "犭",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:阝",
-      "kind": "glyph",
-      "glyph": "阝",
       "tier": null,
       "frontier": true
     },
@@ -8078,6 +8092,25 @@
       "id": "r:due-to",
       "kind": "referent",
       "label": "due to; owing to; because of"
+    },
+    {
+      "id": "w:合作@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "合作",
+      "reading": "hézuò",
+      "gloss": "to cooperate; cooperation; collaboration",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:cooperation",
+      "kind": "referent",
+      "label": "to cooperate; cooperation; collaboration"
     }
   ]
 }

@@ -1635,6 +1635,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:阝",
+      "to": "r:city",
+      "kind": "denotes"
+    },
+    {
       "from": "g:隶",
       "to": "r:slave",
       "kind": "denotes"
@@ -3828,6 +3833,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:丨",
+      "to": "g:阝",
+      "kind": "composes"
+    },
+    {
       "from": "g:彐",
       "to": "g:隶",
       "kind": "composes"
@@ -5655,6 +5665,21 @@
     {
       "from": "w:由于@cn",
       "to": "r:due-to",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:合",
+      "to": "w:合作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:合作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:合作@cn",
+      "to": "r:cooperation",
       "kind": "denotes"
     },
     {
