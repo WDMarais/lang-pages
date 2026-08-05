@@ -39,6 +39,14 @@
       "name": "Flag",
       "kind": "mnemonic",
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "corpse",
+      "kind": "meaning",
+      "level": 2
     }
   ]
 }

@@ -402,6 +402,12 @@
         "glyph": "少",
         "reading": "shǎo",
         "gloss": "few; little"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "small",
+        "level": 2,
+        "kind": "meaning"
       }
     },
     {
@@ -2591,6 +2597,12 @@
         "glyph": "屋",
         "reading": "wū",
         "gloss": "house; room"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "corpse",
+        "level": 2,
+        "kind": "meaning"
       }
     },
     {
@@ -4675,7 +4687,13 @@
         "chì"
       ],
       "gloss": "step",
-      "extra": "康熙部首 60"
+      "extra": "康熙部首 60",
+      "program": {
+        "source": "pandanese",
+        "name": "step",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:彳@jp",
@@ -5302,7 +5320,13 @@
         "máo"
       ],
       "gloss": "fur",
-      "extra": "康熙部首 82"
+      "extra": "康熙部首 82",
+      "program": {
+        "source": "pandanese",
+        "name": "fur",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:毛@jp",
@@ -7251,6 +7275,34 @@
       "readings": [],
       "gloss": "city",
       "extra": ""
+    },
+    {
+      "id": "b:那@cn",
+      "glyph_id": "g:那",
+      "lang": "cn",
+      "name": "那",
+      "readings": [
+        "nà"
+      ],
+      "gloss": "that; those",
+      "extra": "指示代词 · 与「这」相对 · 那个、那里、那么",
+      "program": {
+        "source": "pandanese",
+        "name": "what",
+        "level": 2,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:那@jp",
+      "glyph_id": "g:那",
+      "lang": "jp",
+      "name": "那",
+      "readings": [
+        "ナ"
+      ],
+      "gloss": "that; which",
+      "extra": "音「ナ」· 刹那(せつな)、旦那(だんな)"
     },
     {
       "id": "b:酉@cn",

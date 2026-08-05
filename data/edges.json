@@ -1595,6 +1595,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:那",
+      "to": "r:that",
+      "kind": "denotes"
+    },
+    {
       "from": "g:酉",
       "to": "r:wine",
       "kind": "denotes"
@@ -3755,6 +3760,11 @@
     {
       "from": "g:巴",
       "to": "g:邑",
+      "kind": "composes"
+    },
+    {
+      "from": "g:阝",
+      "to": "g:那",
       "kind": "composes"
     },
     {

@@ -172,7 +172,8 @@
             "appearsIn": { "char": "少", "reading": "ショウ", "gloss": "few" }
           },
           "wk": { "name": "Small", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Small", "readings": ["ショウ"], "on": true, "kun": ["ちい"], "level": 2 }
+          "kanji": { "name": "Small", "readings": ["ショウ"], "on": true, "kun": ["ちい"], "level": 2 },
+          "pd": { "name": "small", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "人",
@@ -2223,6 +2224,24 @@
           "wk": null,
           "pd": { "name": "cart", "level": 1, "kind": "meaning" },
           "pdc": { "name": "cart", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "那",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "na4",
+          "jpAudioKey": "na",
+          "cn": {
+            "name": "那", "reading": "nà", "gloss": "that; those",
+            "extra": "指示代词 · 与「这」相对 · 那个、那里、那么"
+          },
+          "jp": {
+            "name": "那", "reading": "ナ", "gloss": "that; which",
+            "extra": "音「ナ」· 刹那(せつな)、旦那(だんな)"
+          },
+          "wk": null,
+          "pd": { "name": "what", "level": 2, "kind": "mnemonic" }
         },
         {
           "glyph": "魚",

@@ -1,0 +1,33 @@
+{
+  "glyph": "那",
+  "cp": "U+90A3",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "那",
+      "reading": "nà",
+      "gloss": "that; those",
+      "extra": "指示代词 · 与「这」相对 · 那个、那里、那么"
+    },
+    "jp": {
+      "name": "那",
+      "reading": "ナ",
+      "gloss": "that; which",
+      "extra": "音「ナ」· 刹那(せつな)、旦那(だんな)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "what",
+      "kind": "mnemonic",
+      "level": 2
+    }
+  ]
+}

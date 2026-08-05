@@ -1593,6 +1593,11 @@
             ],
             "level": 2
           },
+          "pd": {
+            "name": "small",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 42,
           "cnAudioKey": "xiao3",
           "cnExAudioKey": "shao3",
@@ -1650,6 +1655,11 @@
             "name": "Flag",
             "level": 2,
             "kind": "mnemonic"
+          },
+          "pd": {
+            "name": "corpse",
+            "level": 2,
+            "kind": "meaning"
           },
           "kx": 44,
           "cnAudioKey": "shi1",
@@ -2132,6 +2142,11 @@
             "gloss": "step"
           },
           "wk": null,
+          "pd": {
+            "name": "step",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 60,
           "cnAudioKey": "chi4"
         }
@@ -2828,6 +2843,11 @@
             "gloss": "fur"
           },
           "wk": null,
+          "pd": {
+            "name": "fur",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 82,
           "cnAudioKey": "mao2"
         },

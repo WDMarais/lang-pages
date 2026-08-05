@@ -21,5 +21,14 @@
       "gloss": "fur"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "fur",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

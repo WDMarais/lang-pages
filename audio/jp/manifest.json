@@ -343,6 +343,10 @@
     "text": "むく",
     "voice": "ja-JP-NanamiNeural"
   },
+  "na.mp3": {
+    "text": "ナ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "naka.mp3": {
     "text": "なか",
     "voice": "ja-JP-NanamiNeural"

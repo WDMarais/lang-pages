@@ -21,5 +21,14 @@
       "gloss": "step"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "step",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

@@ -4754,6 +4754,24 @@
       "label": "city"
     },
     {
+      "id": "g:那",
+      "kind": "glyph",
+      "glyph": "那",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "na4",
+      "jpAudioKey": "na"
+    },
+    {
+      "id": "r:that",
+      "kind": "referent",
+      "label": "that; those"
+    },
+    {
       "id": "g:酉",
       "kind": "glyph",
       "glyph": "酉",
@@ -6086,6 +6104,13 @@
       "id": "g:犭",
       "kind": "glyph",
       "glyph": "犭",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:阝",
+      "kind": "glyph",
+      "glyph": "阝",
       "tier": null,
       "frontier": true
     },
