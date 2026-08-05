@@ -678,6 +678,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:々",
+      "to": "r:iteration-mark",
+      "kind": "denotes"
+    },
+    {
       "from": "g:万",
       "to": "r:ten-thousand",
       "kind": "denotes"

@@ -3351,6 +3351,26 @@
       }
     },
     {
+      "id": "b:々@cn",
+      "glyph_id": "g:々",
+      "lang": "cn",
+      "name": "々",
+      "readings": [],
+      "gloss": "iteration mark",
+      "extra": "叠字符号 · 重复前一个字（现代简体罕用；日文常用）"
+    },
+    {
+      "id": "b:々@jp",
+      "glyph_id": "g:々",
+      "lang": "jp",
+      "name": "々",
+      "readings": [
+        "ノマ"
+      ],
+      "gloss": "iteration mark",
+      "extra": "踊り字・同の字点 · 前の漢字を繰り返す（人々・時々・日々）· 俗称「ノマ」(ノ+マ の形に由来) · 語中では繰り返す字の読みを借りる"
+    },
+    {
       "id": "b:万@cn",
       "glyph_id": "g:万",
       "lang": "cn",

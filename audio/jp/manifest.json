@@ -371,6 +371,10 @@
     "text": "にし",
     "voice": "ja-JP-NanamiNeural"
   },
+  "noma.mp3": {
+    "text": "ノマ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "nushi.mp3": {
     "text": "ぬし",
     "voice": "ja-JP-NanamiNeural"

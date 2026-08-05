@@ -1790,6 +1790,23 @@
       "frontier": true
     },
     {
+      "id": "g:々",
+      "kind": "glyph",
+      "glyph": "々",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      },
+      "jpAudioKey": "noma"
+    },
+    {
+      "id": "r:iteration-mark",
+      "kind": "referent",
+      "label": "iteration mark"
+    },
+    {
       "id": "g:万",
       "kind": "glyph",
       "glyph": "万",

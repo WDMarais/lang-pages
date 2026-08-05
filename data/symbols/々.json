@@ -1,0 +1,24 @@
+{
+  "glyph": "々",
+  "cp": "U+3005",
+  "class": "char",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "々",
+      "reading": "",
+      "gloss": "iteration mark",
+      "extra": "叠字符号 · 重复前一个字（现代简体罕用；日文常用）"
+    },
+    "jp": {
+      "name": "々",
+      "reading": "ノマ",
+      "gloss": "iteration mark",
+      "extra": "踊り字・同の字点 · 前の漢字を繰り返す（人々・時々・日々）· 俗称「ノマ」(ノ+マ の形に由来) · 語中では繰り返す字の読みを借りる"
+    }
+  },
+  "programs": []
+}
