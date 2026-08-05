@@ -3,7 +3,6 @@
   "cp": "U+7389",
   "class": "char",
   "kangxi": 96,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,37 @@
       "name": "玉",
       "reading": "yù",
       "gloss": "jade",
-      "extra": "康熙部首 96"
+      "extra": "康熙部首 96 · 玉、玉石、宝玉"
     },
     "jp": {
       "name": "玉",
-      "reading": "",
-      "gloss": "jade"
+      "reading": "ギョク",
+      "gloss": "jade; ball",
+      "extra": "漢字「玉」(ギョク · たま) · 玉(たま)、玉ねぎ、水玉"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Ball",
+      "kind": "meaning",
+      "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Ball",
+      "readings": [
+        "ギョク"
+      ],
+      "on": true,
+      "kun": [
+        "たま"
+      ],
+      "level": 2
+    }
+  ]
 }

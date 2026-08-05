@@ -95,6 +95,10 @@
     "text": "グン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "gyoku.mp3": {
+    "text": "ギョク",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hachi.mp3": {
     "text": "ハチ",
     "voice": "ja-JP-NanamiNeural"

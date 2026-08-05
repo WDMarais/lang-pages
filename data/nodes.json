@@ -3453,7 +3453,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "yu4"
+      "cnAudioKey": "yu4",
+      "jpAudioKey": "gyoku"
     },
     {
       "id": "r:jade",
@@ -7784,6 +7785,77 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "id": "w:玉@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "玉",
+      "reading": "たま",
+      "gloss": "ball; jewel",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:玉ねぎ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "玉ねぎ",
+      "reading": "たまねぎ",
+      "gloss": "onion",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:onion",
+      "kind": "referent",
+      "label": "onion"
+    },
+    {
+      "id": "w:王子@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "王子",
+      "reading": "おうじ",
+      "gloss": "prince",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:prince",
+      "kind": "referent",
+      "label": "prince"
+    },
+    {
+      "id": "w:子犬@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "子犬",
+      "reading": "こいぬ",
+      "gloss": "puppy",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:puppy",
+      "kind": "referent",
+      "label": "puppy"
     }
   ]
 }

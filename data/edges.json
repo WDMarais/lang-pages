@@ -5453,6 +5453,56 @@
       "kind": "denotes"
     },
     {
+      "from": "g:玉",
+      "to": "w:玉@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:玉@jp",
+      "to": "r:jade",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:玉",
+      "to": "w:玉ねぎ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:玉ねぎ@jp",
+      "to": "r:onion",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:王",
+      "to": "w:王子@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:王子@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:王子@jp",
+      "to": "r:prince",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:子犬@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:犬",
+      "to": "w:子犬@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:子犬@jp",
+      "to": "r:puppy",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

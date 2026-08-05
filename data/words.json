@@ -1442,6 +1442,68 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "玉",
+      "audience": "jp",
+      "parts": [
+        "玉"
+      ],
+      "denotes": "jade",
+      "reading": "たま",
+      "gloss": "ball; jewel",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "玉ねぎ",
+      "audience": "jp",
+      "parts": [
+        "玉"
+      ],
+      "denotes": "onion",
+      "reading": "たまねぎ",
+      "gloss": "onion",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "王子",
+      "audience": "jp",
+      "parts": [
+        "王",
+        "子"
+      ],
+      "denotes": "prince",
+      "reading": "おうじ",
+      "gloss": "prince",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "子犬",
+      "audience": "jp",
+      "parts": [
+        "子",
+        "犬"
+      ],
+      "denotes": "puppy",
+      "reading": "こいぬ",
+      "gloss": "puppy",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

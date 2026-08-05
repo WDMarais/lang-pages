@@ -3300,16 +3300,33 @@
             "name": "玉",
             "reading": "yù",
             "gloss": "jade",
-            "extra": "康熙部首 96"
+            "extra": "康熙部首 96 · 玉、玉石、宝玉"
           },
           "jp": {
             "name": "玉",
-            "reading": "",
-            "gloss": "jade"
+            "reading": "ギョク",
+            "gloss": "jade; ball",
+            "extra": "漢字「玉」(ギョク · たま) · 玉(たま)、玉ねぎ、水玉"
           },
-          "wk": null,
+          "wk": {
+            "name": "Ball",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Ball",
+            "readings": [
+              "ギョク"
+            ],
+            "on": true,
+            "kun": [
+              "たま"
+            ],
+            "level": 2
+          },
           "kx": 96,
-          "cnAudioKey": "yu4"
+          "cnAudioKey": "yu4",
+          "jpAudioKey": "gyoku"
         },
         {
           "glyph": "瓜",
