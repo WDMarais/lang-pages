@@ -7963,6 +7963,96 @@
       "id": "r:9th",
       "kind": "referent",
       "label": "the 9th (of the month); nine days"
+    },
+    {
+      "id": "w:天使@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "天使",
+      "reading": "tiānshǐ",
+      "gloss": "angel",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:angel",
+      "kind": "referent",
+      "label": "angel"
+    },
+    {
+      "id": "w:犬@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "犬",
+      "reading": "quǎn",
+      "gloss": "dog (literary/formal); canine",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:看看@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "看看",
+      "reading": "kànkan",
+      "gloss": "to take a look; to have a (quick) look",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:take-a-look",
+      "kind": "referent",
+      "label": "to take a look; to have a (quick) look"
+    },
+    {
+      "id": "w:十分@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "十分",
+      "reading": "shífēn",
+      "gloss": "very; fully; completely (lit. ten parts)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:very",
+      "kind": "referent",
+      "label": "very; fully; completely (lit. ten parts)"
+    },
+    {
+      "id": "w:由于@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "由于",
+      "reading": "yóuyú",
+      "gloss": "due to; owing to; because of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:due-to",
+      "kind": "referent",
+      "label": "due to; owing to; because of"
     }
   ]
 }

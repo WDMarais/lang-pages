@@ -1579,6 +1579,84 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "surface": "天使",
+      "audience": "cn",
+      "parts": [
+        "天",
+        "使"
+      ],
+      "denotes": "angel",
+      "reading": "tiānshǐ",
+      "gloss": "angel",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "犬",
+      "audience": "cn",
+      "parts": [
+        "犬"
+      ],
+      "denotes": "dog",
+      "reading": "quǎn",
+      "gloss": "dog (literary/formal); canine",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "看看",
+      "audience": "cn",
+      "parts": [
+        "看"
+      ],
+      "denotes": "take-a-look",
+      "reading": "kànkan",
+      "gloss": "to take a look; to have a (quick) look",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "十分",
+      "audience": "cn",
+      "parts": [
+        "十",
+        "分"
+      ],
+      "denotes": "very",
+      "reading": "shífēn",
+      "gloss": "very; fully; completely (lit. ten parts)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "由于",
+      "audience": "cn",
+      "parts": [
+        "由",
+        "于"
+      ],
+      "denotes": "due-to",
+      "reading": "yóuyú",
+      "gloss": "due to; owing to; because of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

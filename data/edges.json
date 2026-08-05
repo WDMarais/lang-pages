@@ -5583,6 +5583,71 @@
       "kind": "denotes"
     },
     {
+      "from": "g:天",
+      "to": "w:天使@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:使",
+      "to": "w:天使@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:天使@cn",
+      "to": "r:angel",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:犬",
+      "to": "w:犬@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:犬@cn",
+      "to": "r:dog",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:看",
+      "to": "w:看看@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:看看@cn",
+      "to": "r:take-a-look",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十分@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:分",
+      "to": "w:十分@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十分@cn",
+      "to": "r:very",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:由",
+      "to": "w:由于@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:于",
+      "to": "w:由于@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:由于@cn",
+      "to": "r:due-to",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
