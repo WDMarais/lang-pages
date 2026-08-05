@@ -5408,6 +5408,51 @@
       "kind": "denotes"
     },
     {
+      "from": "g:日",
+      "to": "w:日本@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:本",
+      "to": "w:日本@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:日本@jp",
+      "to": "r:japan",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:正しい@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:正しい@jp",
+      "to": "r:correct",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:正す@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:正す@jp",
+      "to": "r:correct",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:立",
+      "to": "w:立つ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:立つ@jp",
+      "to": "r:stand",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

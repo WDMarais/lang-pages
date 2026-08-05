@@ -7725,6 +7725,65 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "id": "w:日本@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "日本",
+      "reading": "にほん",
+      "gloss": "Japan",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:正しい@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "正しい",
+      "reading": "ただしい",
+      "gloss": "correct; right",
+      "okurigana": "しい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "w:正す@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "正す",
+      "reading": "ただす",
+      "gloss": "to correct; to fix",
+      "okurigana": "す",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "w:立つ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "立つ",
+      "reading": "たつ",
+      "gloss": "to stand",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

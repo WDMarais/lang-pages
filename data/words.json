@@ -1378,6 +1378,70 @@
         "source": "wanikani",
         "kind": "vocab"
       }
+    },
+    {
+      "surface": "日本",
+      "audience": "jp",
+      "parts": [
+        "日",
+        "本"
+      ],
+      "denotes": "japan",
+      "reading": "にほん",
+      "gloss": "Japan",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "正しい",
+      "audience": "jp",
+      "parts": [
+        "正"
+      ],
+      "denotes": "correct",
+      "reading": "ただしい",
+      "gloss": "correct; right",
+      "okurigana": "しい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "正す",
+      "audience": "jp",
+      "parts": [
+        "正"
+      ],
+      "denotes": "correct",
+      "reading": "ただす",
+      "gloss": "to correct; to fix",
+      "okurigana": "す",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "立つ",
+      "audience": "jp",
+      "parts": [
+        "立"
+      ],
+      "denotes": "stand",
+      "reading": "たつ",
+      "gloss": "to stand",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
