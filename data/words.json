@@ -1504,6 +1504,81 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "一日",
+      "audience": "jp",
+      "parts": [
+        "一",
+        "日"
+      ],
+      "denotes": "1st",
+      "reading": "ついたち",
+      "gloss": "the 1st (of the month)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "二日",
+      "audience": "jp",
+      "parts": [
+        "二",
+        "日"
+      ],
+      "denotes": "2nd",
+      "reading": "ふつか",
+      "gloss": "the 2nd (of the month); two days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "三日",
+      "audience": "jp",
+      "parts": [
+        "三",
+        "日"
+      ],
+      "denotes": "3rd",
+      "reading": "みっか",
+      "gloss": "the 3rd (of the month); three days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "七日",
+      "audience": "jp",
+      "parts": [
+        "七",
+        "日"
+      ],
+      "denotes": "7th",
+      "reading": "なのか",
+      "gloss": "the 7th (of the month); seven days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "九日",
+      "audience": "jp",
+      "parts": [
+        "九",
+        "日"
+      ],
+      "denotes": "9th",
+      "reading": "ここのか",
+      "gloss": "the 9th (of the month); nine days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
     }
   ]
 }

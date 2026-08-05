@@ -5508,6 +5508,81 @@
       "kind": "denotes"
     },
     {
+      "from": "g:一",
+      "to": "w:一日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:一日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一日@jp",
+      "to": "r:1st",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:二日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:二日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:二日@jp",
+      "to": "r:2nd",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:三",
+      "to": "w:三日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:三日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:三日@jp",
+      "to": "r:3rd",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:七",
+      "to": "w:七日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:七日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:七日@jp",
+      "to": "r:7th",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:九",
+      "to": "w:九日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:九日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:九日@jp",
+      "to": "r:9th",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

@@ -7873,6 +7873,96 @@
       "id": "r:puppy",
       "kind": "referent",
       "label": "puppy"
+    },
+    {
+      "id": "w:一日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一日",
+      "reading": "ついたち",
+      "gloss": "the 1st (of the month)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:1st",
+      "kind": "referent",
+      "label": "the 1st (of the month)"
+    },
+    {
+      "id": "w:二日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "二日",
+      "reading": "ふつか",
+      "gloss": "the 2nd (of the month); two days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:2nd",
+      "kind": "referent",
+      "label": "the 2nd (of the month); two days"
+    },
+    {
+      "id": "w:三日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "三日",
+      "reading": "みっか",
+      "gloss": "the 3rd (of the month); three days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:3rd",
+      "kind": "referent",
+      "label": "the 3rd (of the month); three days"
+    },
+    {
+      "id": "w:七日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "七日",
+      "reading": "なのか",
+      "gloss": "the 7th (of the month); seven days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:7th",
+      "kind": "referent",
+      "label": "the 7th (of the month); seven days"
+    },
+    {
+      "id": "w:九日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "九日",
+      "reading": "ここのか",
+      "gloss": "the 9th (of the month); nine days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:9th",
+      "kind": "referent",
+      "label": "the 9th (of the month); nine days"
     }
   ]
 }
