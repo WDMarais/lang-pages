@@ -13,13 +13,31 @@
       "name": "貝",
       "reading": "bèi",
       "gloss": "shell",
-      "extra": "康熙部首 154"
+      "extra": "康熙部首 154 · 象形（贝）· 贝壳、宝贝、财货"
     },
     "jp": {
       "name": "貝",
-      "reading": "",
-      "gloss": "shell"
+      "reading": "かい",
+      "gloss": "shell",
+      "extra": "漢字「貝」(かい) · 貝(かい)、貝殻(かいがら)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "shell",
+      "kind": "meaning",
+      "level": 2
+    }
+  ],
+  "script": {
+    "keyed": "traditional",
+    "simplified": [
+      {
+        "glyph": "贝"
+      }
+    ]
+  }
 }

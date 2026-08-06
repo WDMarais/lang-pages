@@ -5833,6 +5833,51 @@
       "kind": "denotes"
     },
     {
+      "from": "g:后",
+      "to": "w:后果@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:果",
+      "to": "w:后果@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:后果@cn",
+      "to": "r:consequence",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:工",
+      "to": "w:工作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:工作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:工作@cn",
+      "to": "r:job",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:工",
+      "to": "w:工人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:工人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:工人@cn",
+      "to": "r:worker",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

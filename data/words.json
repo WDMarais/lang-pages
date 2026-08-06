@@ -1818,6 +1818,54 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "后果",
+      "audience": "cn",
+      "parts": [
+        "后",
+        "果"
+      ],
+      "denotes": "consequence",
+      "reading": "hòuguǒ",
+      "gloss": "consequence; aftermath; result",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "工作",
+      "audience": "cn",
+      "parts": [
+        "工",
+        "作"
+      ],
+      "denotes": "job",
+      "reading": "gōngzuò",
+      "gloss": "work; job; to work",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "工人",
+      "audience": "cn",
+      "parts": [
+        "工",
+        "人"
+      ],
+      "denotes": "worker",
+      "reading": "gōngrén",
+      "gloss": "worker; laborer",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

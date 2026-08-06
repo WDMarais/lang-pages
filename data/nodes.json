@@ -4604,7 +4604,16 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "bei4"
+      "cnAudioKey": "bei4",
+      "jpAudioKey": "kai",
+      "script": {
+        "keyed": "traditional",
+        "simplified": [
+          {
+            "glyph": "贝"
+          }
+        ]
+      }
     },
     {
       "id": "r:shell",
@@ -8303,6 +8312,63 @@
       "id": "r:others",
       "kind": "referent",
       "label": "others; other people; another person"
+    },
+    {
+      "id": "w:后果@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "后果",
+      "reading": "hòuguǒ",
+      "gloss": "consequence; aftermath; result",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:consequence",
+      "kind": "referent",
+      "label": "consequence; aftermath; result"
+    },
+    {
+      "id": "w:工作@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "工作",
+      "reading": "gōngzuò",
+      "gloss": "work; job; to work",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:job",
+      "kind": "referent",
+      "label": "work; job; to work"
+    },
+    {
+      "id": "w:工人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "工人",
+      "reading": "gōngrén",
+      "gloss": "worker; laborer",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:worker",
+      "kind": "referent",
+      "label": "worker; laborer"
     }
   ]
 }

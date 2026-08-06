@@ -21,5 +21,14 @@
       "gloss": "gold"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "gold",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

@@ -4756,16 +4756,31 @@
             "name": "貝",
             "reading": "bèi",
             "gloss": "shell",
-            "extra": "康熙部首 154"
+            "extra": "康熙部首 154 · 象形（贝）· 贝壳、宝贝、财货"
           },
           "jp": {
             "name": "貝",
-            "reading": "",
-            "gloss": "shell"
+            "reading": "かい",
+            "gloss": "shell",
+            "extra": "漢字「貝」(かい) · 貝(かい)、貝殻(かいがら)"
+          },
+          "script": {
+            "keyed": "traditional",
+            "simplified": [
+              {
+                "glyph": "贝"
+              }
+            ]
           },
           "wk": null,
+          "pd": {
+            "name": "shell",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 154,
-          "cnAudioKey": "bei4"
+          "cnAudioKey": "bei4",
+          "jpAudioKey": "kai"
         },
         {
           "glyph": "赤",
@@ -5080,6 +5095,11 @@
             "gloss": "gold"
           },
           "wk": null,
+          "pd": {
+            "name": "gold",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 167,
           "cnAudioKey": "jin1"
         },

@@ -7128,16 +7128,24 @@
         "bèi"
       ],
       "gloss": "shell",
-      "extra": "康熙部首 154"
+      "extra": "康熙部首 154 · 象形（贝）· 贝壳、宝贝、财货",
+      "program": {
+        "source": "pandanese",
+        "name": "shell",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:貝@jp",
       "glyph_id": "g:貝",
       "lang": "jp",
       "name": "貝",
-      "readings": [],
+      "readings": [
+        "かい"
+      ],
       "gloss": "shell",
-      "extra": ""
+      "extra": "漢字「貝」(かい) · 貝(かい)、貝殻(かいがら)"
     },
     {
       "id": "b:赤@cn",
@@ -7457,7 +7465,13 @@
         "jīn"
       ],
       "gloss": "gold",
-      "extra": "康熙部首 167"
+      "extra": "康熙部首 167",
+      "program": {
+        "source": "pandanese",
+        "name": "gold",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:金@jp",
