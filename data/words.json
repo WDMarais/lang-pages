@@ -1770,6 +1770,54 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "分手",
+      "audience": "cn",
+      "parts": [
+        "分",
+        "手"
+      ],
+      "denotes": "break-up",
+      "reading": "fēnshǒu",
+      "gloss": "to break up; to part; to say goodbye",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "十二",
+      "audience": "cn",
+      "parts": [
+        "十",
+        "二"
+      ],
+      "denotes": "twelve",
+      "reading": "shí'èr",
+      "gloss": "twelve; 12",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "他人",
+      "audience": "cn",
+      "parts": [
+        "他",
+        "人"
+      ],
+      "denotes": "others",
+      "reading": "tārén",
+      "gloss": "others; other people; another person",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

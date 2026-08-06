@@ -54,6 +54,14 @@
         "とめる"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "stop",
+      "kind": "meaning",
+      "level": 2
     }
   ]
 }

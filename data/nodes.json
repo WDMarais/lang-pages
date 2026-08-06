@@ -1779,6 +1779,22 @@
       "label": "two dots (radical)"
     },
     {
+      "id": "g:⺈",
+      "kind": "glyph",
+      "glyph": "⺈",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:knife-top",
+      "kind": "referent",
+      "label": "knife-top (radical)"
+    },
+    {
       "id": "g:⻂",
       "kind": "glyph",
       "glyph": "⻂",
@@ -5994,13 +6010,6 @@
       "frontier": true
     },
     {
-      "id": "g:⺈",
-      "kind": "glyph",
-      "glyph": "⺈",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:乇",
       "kind": "glyph",
       "glyph": "乇",
@@ -8237,6 +8246,63 @@
       "id": "r:at-worst",
       "kind": "referent",
       "label": "at worst; a big deal (usu. negated: 没什么大不了)"
+    },
+    {
+      "id": "w:分手@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "分手",
+      "reading": "fēnshǒu",
+      "gloss": "to break up; to part; to say goodbye",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:break-up",
+      "kind": "referent",
+      "label": "to break up; to part; to say goodbye"
+    },
+    {
+      "id": "w:十二@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "十二",
+      "reading": "shí'èr",
+      "gloss": "twelve; 12",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:twelve",
+      "kind": "referent",
+      "label": "twelve; 12"
+    },
+    {
+      "id": "w:他人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "他人",
+      "reading": "tārén",
+      "gloss": "others; other people; another person",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:others",
+      "kind": "referent",
+      "label": "others; other people; another person"
     }
   ]
 }

@@ -2750,6 +2750,11 @@
             ],
             "level": 2
           },
+          "pd": {
+            "name": "stop",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 77,
           "cnAudioKey": "zhi3",
           "cnExAudioKey": "zheng4",
@@ -6466,6 +6471,30 @@
           "wk": null,
           "pd": {
             "name": "snow",
+            "level": 2,
+            "kind": "mnemonic"
+          }
+        },
+        {
+          "glyph": "⺈",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "⺈",
+            "reading": "",
+            "gloss": "knife-top (radical)",
+            "extra": "「刀」的变形（在上）· 争、色、免、负 · 熊猫（Pandanese）作「magnet」记忆符"
+          },
+          "jp": {
+            "name": "⺈",
+            "reading": "",
+            "gloss": "knife-top (radical)",
+            "extra": "「刀」の変形（上）· Unicode「CJK RADICAL KNIFE ONE」"
+          },
+          "wk": null,
+          "pd": {
+            "name": "magnet",
             "level": 2,
             "kind": "mnemonic"
           }

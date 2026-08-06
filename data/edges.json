@@ -673,6 +673,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:⺈",
+      "to": "r:knife-top",
+      "kind": "denotes"
+    },
+    {
       "from": "g:⻂",
       "to": "r:clothing",
       "kind": "denotes"
@@ -5780,6 +5785,51 @@
     {
       "from": "w:大不了@cn",
       "to": "r:at-worst",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:分",
+      "to": "w:分手@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:分手@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:分手@cn",
+      "to": "r:break-up",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十二@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:十二@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十二@cn",
+      "to": "r:twelve",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:他",
+      "to": "w:他人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:他人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:他人@cn",
+      "to": "r:others",
       "kind": "denotes"
     },
     {

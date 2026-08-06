@@ -1403,6 +1403,12 @@
         "glyph": "正",
         "reading": "zhèng",
         "gloss": "upright; correct"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "stop",
+        "level": 2,
+        "kind": "meaning"
       }
     },
     {
@@ -3347,6 +3353,30 @@
       "readings": [],
       "gloss": "two dots (radical)",
       "extra": "二つの点 · Unicode「CJK RADICAL REPEAT」"
+    },
+    {
+      "id": "b:⺈@cn",
+      "glyph_id": "g:⺈",
+      "lang": "cn",
+      "name": "⺈",
+      "readings": [],
+      "gloss": "knife-top (radical)",
+      "extra": "「刀」的变形（在上）· 争、色、免、负 · 熊猫（Pandanese）作「magnet」记忆符",
+      "program": {
+        "source": "pandanese",
+        "name": "magnet",
+        "level": 2,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:⺈@jp",
+      "glyph_id": "g:⺈",
+      "lang": "jp",
+      "name": "⺈",
+      "readings": [],
+      "gloss": "knife-top (radical)",
+      "extra": "「刀」の変形（上）· Unicode「CJK RADICAL KNIFE ONE」"
     },
     {
       "id": "b:⻂@cn",

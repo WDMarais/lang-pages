@@ -531,7 +531,8 @@
             "appearsIn": { "char": "正", "reading": "セイ", "gloss": "correct; justice" }
           },
           "wk": { "name": "Stop", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Stop", "readings": ["シ"], "on": true, "kun": ["とまる", "とめる"], "level": 2 }
+          "kanji": { "name": "Stop", "readings": ["シ"], "on": true, "kun": ["とまる", "とめる"], "level": 2 },
+          "pd": { "name": "stop", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "木",
