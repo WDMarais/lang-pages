@@ -2327,6 +2327,11 @@
             "gloss": "tap"
           },
           "wk": null,
+          "pd": {
+            "name": "knock",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 66,
           "cnAudioKey": "pu1"
         },

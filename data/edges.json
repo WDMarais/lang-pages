@@ -1290,6 +1290,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:真",
+      "to": "r:true",
+      "kind": "denotes"
+    },
+    {
       "from": "g:矛",
       "to": "r:spear",
       "kind": "denotes"
@@ -2853,7 +2858,7 @@
       "kind": "composes"
     },
     {
-      "from": "g:攵",
+      "from": "g:攴",
       "to": "g:政",
       "kind": "composes"
     },
@@ -3280,6 +3285,16 @@
     {
       "from": "g:目",
       "to": "g:看",
+      "kind": "composes"
+    },
+    {
+      "from": "g:直",
+      "to": "g:真",
+      "kind": "composes"
+    },
+    {
+      "from": "g:几",
+      "to": "g:真",
       "kind": "composes"
     },
     {
@@ -5915,6 +5930,51 @@
     {
       "from": "w:作者@cn",
       "to": "r:author",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:有",
+      "to": "w:有人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:有人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:有人@cn",
+      "to": "r:someone",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:水",
+      "to": "w:水果@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:果",
+      "to": "w:水果@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:水果@cn",
+      "to": "r:fruit",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:作业@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:业",
+      "to": "w:作业@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:作业@cn",
+      "to": "r:homework",
       "kind": "denotes"
     },
     {

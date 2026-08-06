@@ -1897,6 +1897,54 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "有人",
+      "audience": "cn",
+      "parts": [
+        "有",
+        "人"
+      ],
+      "denotes": "someone",
+      "reading": "yǒurén",
+      "gloss": "someone; some people; there is someone",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "水果",
+      "audience": "cn",
+      "parts": [
+        "水",
+        "果"
+      ],
+      "denotes": "fruit",
+      "reading": "shuǐguǒ",
+      "gloss": "fruit",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "作业",
+      "audience": "cn",
+      "parts": [
+        "作",
+        "业"
+      ],
+      "denotes": "homework",
+      "reading": "zuòyè",
+      "gloss": "homework; assignment; task",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

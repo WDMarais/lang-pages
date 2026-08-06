@@ -2968,7 +2968,10 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "pu1"
+      "cnAudioKey": "pu1",
+      "variants": [
+        "攵"
+      ]
     },
     {
       "id": "r:tap",
@@ -3786,6 +3789,24 @@
       "id": "r:look",
       "kind": "referent",
       "label": "to look; to watch; to read"
+    },
+    {
+      "id": "g:真",
+      "kind": "glyph",
+      "glyph": "真",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhen1",
+      "jpAudioKey": "ma"
+    },
+    {
+      "id": "r:true",
+      "kind": "referent",
+      "label": "true; real; genuine"
     },
     {
       "id": "g:矛",
@@ -6039,13 +6060,6 @@
       "frontier": true
     },
     {
-      "id": "g:攵",
-      "kind": "glyph",
-      "glyph": "攵",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:乇",
       "kind": "glyph",
       "glyph": "乇",
@@ -6091,6 +6105,13 @@
       "id": "g:卄",
       "kind": "glyph",
       "glyph": "卄",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:直",
+      "kind": "glyph",
+      "glyph": "直",
       "tier": null,
       "frontier": true
     },
@@ -8434,6 +8455,58 @@
       "id": "r:author",
       "kind": "referent",
       "label": "author; writer"
+    },
+    {
+      "id": "w:有人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "有人",
+      "reading": "yǒurén",
+      "gloss": "someone; some people; there is someone",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:someone",
+      "kind": "referent",
+      "label": "someone; some people; there is someone"
+    },
+    {
+      "id": "w:水果@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "水果",
+      "reading": "shuǐguǒ",
+      "gloss": "fruit",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:作业@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "作业",
+      "reading": "zuòyè",
+      "gloss": "homework; assignment; task",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:homework",
+      "kind": "referent",
+      "label": "homework; assignment; task"
     }
   ]
 }

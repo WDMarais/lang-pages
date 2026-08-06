@@ -4871,7 +4871,13 @@
         "pū"
       ],
       "gloss": "tap",
-      "extra": "康熙部首 66"
+      "extra": "康熙部首 66",
+      "program": {
+        "source": "pandanese",
+        "name": "knock",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:攴@jp",
@@ -6067,6 +6073,36 @@
       ],
       "gloss": "to watch; to look after",
       "extra": "漢字「看」(カン) · 看護(かんご)、看板(かんばん)"
+    },
+    {
+      "id": "b:真@cn",
+      "glyph_id": "g:真",
+      "lang": "cn",
+      "name": "真",
+      "readings": [
+        "zhēn"
+      ],
+      "gloss": "true; real; genuine",
+      "extra": "真的、真正、认真、天真",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "true",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:真@jp",
+      "glyph_id": "g:真",
+      "lang": "jp",
+      "name": "真",
+      "readings": [
+        "ま"
+      ],
+      "gloss": "true; real",
+      "extra": "漢字「真」(ま · シン) · 真実(しんじつ)、真面目(まじめ)"
     },
     {
       "id": "b:矛@cn",

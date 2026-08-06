@@ -291,6 +291,10 @@
     "text": "キュウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ma.mp3": {
+    "text": "ま",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "man.mp3": {
     "text": "マン",
     "voice": "ja-JP-NanamiNeural"
