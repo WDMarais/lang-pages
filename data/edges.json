@@ -668,6 +668,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:⺀",
+      "to": "r:two-dots",
+      "kind": "denotes"
+    },
+    {
       "from": "g:⻂",
       "to": "r:clothing",
       "kind": "denotes"
@@ -3353,7 +3358,7 @@
       "kind": "composes"
     },
     {
-      "from": "g:⺮",
+      "from": "g:竹",
       "to": "g:答",
       "kind": "composes"
     },
@@ -5680,6 +5685,101 @@
     {
       "from": "w:合作@cn",
       "to": "r:cooperation",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:如",
+      "to": "w:如果@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:果",
+      "to": "w:如果@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:如果@cn",
+      "to": "r:if",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大使@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:使",
+      "to": "w:大使@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大使@cn",
+      "to": "r:ambassador",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:明",
+      "to": "w:不明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不明@cn",
+      "to": "r:unclear",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:二十@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:二十@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:二十@cn",
+      "to": "r:twenty",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:明",
+      "to": "w:明天@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:天",
+      "to": "w:明天@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:明天@cn",
+      "to": "r:tomorrow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大不了@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:大不了@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:了",
+      "to": "w:大不了@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大不了@cn",
+      "to": "r:at-worst",
       "kind": "denotes"
     },
     {

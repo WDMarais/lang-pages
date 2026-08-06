@@ -21,5 +21,14 @@
       "gloss": "rice"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "rice",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

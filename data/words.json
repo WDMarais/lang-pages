@@ -1673,6 +1673,103 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "如果",
+      "audience": "cn",
+      "parts": [
+        "如",
+        "果"
+      ],
+      "denotes": "if",
+      "reading": "rúguǒ",
+      "gloss": "if; in case; in the event that",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "大使",
+      "audience": "cn",
+      "parts": [
+        "大",
+        "使"
+      ],
+      "denotes": "ambassador",
+      "reading": "dàshǐ",
+      "gloss": "ambassador",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "不明",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "明"
+      ],
+      "denotes": "unclear",
+      "reading": "bùmíng",
+      "gloss": "unclear; unknown; not understand",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "二十",
+      "audience": "cn",
+      "parts": [
+        "二",
+        "十"
+      ],
+      "denotes": "twenty",
+      "reading": "èrshí",
+      "gloss": "twenty; 20",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "明天",
+      "audience": "cn",
+      "parts": [
+        "明",
+        "天"
+      ],
+      "denotes": "tomorrow",
+      "reading": "míngtiān",
+      "gloss": "tomorrow",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "大不了",
+      "audience": "cn",
+      "parts": [
+        "大",
+        "不",
+        "了"
+      ],
+      "denotes": "at-worst",
+      "reading": "dàbùliǎo",
+      "gloss": "at worst; a big deal (usu. negated: 没什么大不了)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

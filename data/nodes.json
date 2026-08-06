@@ -1763,6 +1763,22 @@
       "frontier": true
     },
     {
+      "id": "g:⺀",
+      "kind": "glyph",
+      "glyph": "⺀",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:two-dots",
+      "kind": "referent",
+      "label": "two dots (radical)"
+    },
+    {
       "id": "g:⻂",
       "kind": "glyph",
       "glyph": "⻂",
@@ -3922,7 +3938,10 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "zhu2"
+      "cnAudioKey": "zhu2",
+      "variants": [
+        "⺮"
+      ]
     },
     {
       "id": "r:bamboo",
@@ -6045,13 +6064,6 @@
       "frontier": true
     },
     {
-      "id": "g:⺮",
-      "kind": "glyph",
-      "glyph": "⺮",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:习",
       "kind": "glyph",
       "glyph": "习",
@@ -8111,6 +8123,120 @@
       "id": "r:cooperation",
       "kind": "referent",
       "label": "to cooperate; cooperation; collaboration"
+    },
+    {
+      "id": "w:如果@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "如果",
+      "reading": "rúguǒ",
+      "gloss": "if; in case; in the event that",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:if",
+      "kind": "referent",
+      "label": "if; in case; in the event that"
+    },
+    {
+      "id": "w:大使@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "大使",
+      "reading": "dàshǐ",
+      "gloss": "ambassador",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:ambassador",
+      "kind": "referent",
+      "label": "ambassador"
+    },
+    {
+      "id": "w:不明@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不明",
+      "reading": "bùmíng",
+      "gloss": "unclear; unknown; not understand",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:unclear",
+      "kind": "referent",
+      "label": "unclear; unknown; not understand"
+    },
+    {
+      "id": "w:二十@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "二十",
+      "reading": "èrshí",
+      "gloss": "twenty; 20",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:twenty",
+      "kind": "referent",
+      "label": "twenty; 20"
+    },
+    {
+      "id": "w:明天@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "明天",
+      "reading": "míngtiān",
+      "gloss": "tomorrow",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:tomorrow",
+      "kind": "referent",
+      "label": "tomorrow"
+    },
+    {
+      "id": "w:大不了@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "大不了",
+      "reading": "dàbùliǎo",
+      "gloss": "at worst; a big deal (usu. negated: 没什么大不了)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:at-worst",
+      "kind": "referent",
+      "label": "at worst; a big deal (usu. negated: 没什么大不了)"
     }
   ]
 }

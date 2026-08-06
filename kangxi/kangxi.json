@@ -3951,6 +3951,11 @@
             "gloss": "bamboo"
           },
           "wk": null,
+          "pd": {
+            "name": "bamboo",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 118,
           "cnAudioKey": "zhu2"
         },
@@ -3971,6 +3976,11 @@
             "gloss": "rice"
           },
           "wk": null,
+          "pd": {
+            "name": "rice",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 119,
           "cnAudioKey": "mi3"
         },
@@ -4053,6 +4063,11 @@
             "gloss": "sheep"
           },
           "wk": null,
+          "pd": {
+            "name": "sheep",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 123,
           "cnAudioKey": "yang2"
         },
@@ -6427,6 +6442,30 @@
           },
           "wk": {
             "name": "Leaf",
+            "level": 2,
+            "kind": "mnemonic"
+          }
+        },
+        {
+          "glyph": "⺀",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "⺀",
+            "reading": "",
+            "gloss": "two dots (radical)",
+            "extra": "两点 · Unicode「CJK RADICAL REPEAT」· 熊猫（Pandanese）作「snow」记忆符"
+          },
+          "jp": {
+            "name": "⺀",
+            "reading": "",
+            "gloss": "two dots (radical)",
+            "extra": "二つの点 · Unicode「CJK RADICAL REPEAT」"
+          },
+          "wk": null,
+          "pd": {
+            "name": "snow",
             "level": 2,
             "kind": "mnemonic"
           }

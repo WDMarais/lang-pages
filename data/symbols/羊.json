@@ -21,5 +21,14 @@
       "gloss": "sheep"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "sheep",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

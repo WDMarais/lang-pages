@@ -1,0 +1,34 @@
+{
+  "glyph": "⺀",
+  "cp": "U+2E80",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "⺀",
+      "reading": "",
+      "gloss": "two dots (radical)",
+      "extra": "两点 · Unicode「CJK RADICAL REPEAT」· 熊猫（Pandanese）作「snow」记忆符"
+    },
+    "jp": {
+      "name": "⺀",
+      "reading": "",
+      "gloss": "two dots (radical)",
+      "extra": "二つの点 · Unicode「CJK RADICAL REPEAT」"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "snow",
+      "kind": "mnemonic",
+      "level": 2
+    }
+  ]
+}

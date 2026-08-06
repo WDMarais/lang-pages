@@ -3325,6 +3325,30 @@
       }
     },
     {
+      "id": "b:⺀@cn",
+      "glyph_id": "g:⺀",
+      "lang": "cn",
+      "name": "⺀",
+      "readings": [],
+      "gloss": "two dots (radical)",
+      "extra": "两点 · Unicode「CJK RADICAL REPEAT」· 熊猫（Pandanese）作「snow」记忆符",
+      "program": {
+        "source": "pandanese",
+        "name": "snow",
+        "level": 2,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:⺀@jp",
+      "glyph_id": "g:⺀",
+      "lang": "jp",
+      "name": "⺀",
+      "readings": [],
+      "gloss": "two dots (radical)",
+      "extra": "二つの点 · Unicode「CJK RADICAL REPEAT」"
+    },
+    {
       "id": "b:⻂@cn",
       "glyph_id": "g:⻂",
       "lang": "cn",
@@ -6230,7 +6254,13 @@
         "zhú"
       ],
       "gloss": "bamboo",
-      "extra": "康熙部首 118"
+      "extra": "康熙部首 118",
+      "program": {
+        "source": "pandanese",
+        "name": "bamboo",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:竹@jp",
@@ -6250,7 +6280,13 @@
         "mǐ"
       ],
       "gloss": "rice",
-      "extra": "康熙部首 119"
+      "extra": "康熙部首 119",
+      "program": {
+        "source": "pandanese",
+        "name": "rice",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:米@jp",
@@ -6310,7 +6346,13 @@
         "yáng"
       ],
       "gloss": "sheep",
-      "extra": "康熙部首 123"
+      "extra": "康熙部首 123",
+      "program": {
+        "source": "pandanese",
+        "name": "sheep",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:羊@jp",
