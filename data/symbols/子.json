@@ -54,6 +54,14 @@
         "こ"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "child",
+      "kind": "meaning",
+      "level": 2
     }
   ]
 }

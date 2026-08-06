@@ -21,5 +21,14 @@
       "gloss": "divination"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "totem",
+      "kind": "mnemonic",
+      "level": 2
+    }
+  ]
 }

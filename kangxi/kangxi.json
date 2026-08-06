@@ -989,6 +989,11 @@
             "gloss": "divination"
           },
           "wk": null,
+          "pd": {
+            "name": "totem",
+            "level": 2,
+            "kind": "mnemonic"
+          },
           "kx": 25,
           "cnAudioKey": "bu3"
         },
@@ -1495,6 +1500,11 @@
               "こ"
             ],
             "level": 2
+          },
+          "pd": {
+            "name": "child",
+            "level": 2,
+            "kind": "meaning"
           },
           "kx": 39,
           "cnAudioKey": "zi3",
@@ -4592,16 +4602,31 @@
             "name": "見",
             "reading": "jiàn",
             "gloss": "see",
-            "extra": "康熙部首 147"
+            "extra": "康熙部首 147 · 会意（目+儿）· 见、看见、见面"
           },
           "jp": {
             "name": "見",
-            "reading": "",
-            "gloss": "see"
+            "reading": "みる",
+            "gloss": "see",
+            "extra": "漢字「見」(み-る · ケン) · 見る(みる)、意見(いけん)"
+          },
+          "script": {
+            "keyed": "traditional",
+            "simplified": [
+              {
+                "glyph": "见"
+              }
+            ]
           },
           "wk": null,
+          "pd": {
+            "name": "see",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 147,
-          "cnAudioKey": "jian4"
+          "cnAudioKey": "jian4",
+          "jpAudioKey": "miru"
         },
         {
           "glyph": "角",

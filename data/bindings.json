@@ -804,6 +804,12 @@
         "glyph": "字",
         "reading": "zì",
         "gloss": "character; word"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "child",
+        "level": 2,
+        "kind": "meaning"
       }
     },
     {
@@ -4071,7 +4077,13 @@
         "bǔ"
       ],
       "gloss": "divination",
-      "extra": "康熙部首 25"
+      "extra": "康熙部首 25",
+      "program": {
+        "source": "pandanese",
+        "name": "totem",
+        "level": 2,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:卜@jp",
@@ -6434,6 +6446,28 @@
       "extra": ""
     },
     {
+      "id": "b:者@cn",
+      "glyph_id": "g:者",
+      "lang": "cn",
+      "name": "者",
+      "readings": [
+        "zhě"
+      ],
+      "gloss": "-er; one who; person",
+      "extra": "代词/后缀 · 作者、读者、记者、或者"
+    },
+    {
+      "id": "b:者@jp",
+      "glyph_id": "g:者",
+      "lang": "jp",
+      "name": "者",
+      "readings": [
+        "もの"
+      ],
+      "gloss": "person; one who",
+      "extra": "漢字「者」(もの · シャ) · 作者(さくしゃ)、若者(わかもの)"
+    },
+    {
       "id": "b:而@cn",
       "glyph_id": "g:而",
       "lang": "cn",
@@ -6965,16 +6999,24 @@
         "jiàn"
       ],
       "gloss": "see",
-      "extra": "康熙部首 147"
+      "extra": "康熙部首 147 · 会意（目+儿）· 见、看见、见面",
+      "program": {
+        "source": "pandanese",
+        "name": "see",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:見@jp",
       "glyph_id": "g:見",
       "lang": "jp",
       "name": "見",
-      "readings": [],
+      "readings": [
+        "みる"
+      ],
       "gloss": "see",
-      "extra": ""
+      "extra": "漢字「見」(み-る · ケン) · 見る(みる)、意見(いけん)"
     },
     {
       "id": "b:角@cn",

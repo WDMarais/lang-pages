@@ -4067,6 +4067,24 @@
       "label": "old"
     },
     {
+      "id": "g:者",
+      "kind": "glyph",
+      "glyph": "者",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhe3",
+      "jpAudioKey": "mono"
+    },
+    {
+      "id": "r:er",
+      "kind": "referent",
+      "label": "-er; one who; person"
+    },
+    {
       "id": "g:而",
       "kind": "glyph",
       "glyph": "而",
@@ -4475,7 +4493,16 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "jian4"
+      "cnAudioKey": "jian4",
+      "jpAudioKey": "miru",
+      "script": {
+        "keyed": "traditional",
+        "simplified": [
+          {
+            "glyph": "见"
+          }
+        ]
+      }
     },
     {
       "id": "r:see",
@@ -8369,6 +8396,44 @@
       "id": "r:worker",
       "kind": "referent",
       "label": "worker; laborer"
+    },
+    {
+      "id": "w:明明@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "明明",
+      "reading": "míngmíng",
+      "gloss": "clearly; obviously; plainly (contradicting expectation)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:clearly",
+      "kind": "referent",
+      "label": "clearly; obviously; plainly (contradicting expectation)"
+    },
+    {
+      "id": "w:作者@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "作者",
+      "reading": "zuòzhě",
+      "gloss": "author; writer",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:author",
+      "kind": "referent",
+      "label": "author; writer"
     }
   ]
 }

@@ -310,7 +310,8 @@
             "appearsIn": { "char": "字", "reading": "ジ", "gloss": "character" }
           },
           "wk": { "name": "Child", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Child", "readings": ["シ", "ス"], "on": true, "kun": ["こ"], "level": 2 }
+          "kanji": { "name": "Child", "readings": ["シ", "ス"], "on": true, "kun": ["こ"], "level": 2 },
+          "pd": { "name": "child", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "七",
@@ -2096,6 +2097,23 @@
           },
           "wk": { "name": "Stand", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Stand", "readings": ["リツ"], "on": true, "kun": ["たつ"], "level": 3 }
+        },
+        {
+          "glyph": "者",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "zhe3",
+          "jpAudioKey": "mono",
+          "cn": {
+            "name": "者", "reading": "zhě", "gloss": "-er; one who; person",
+            "extra": "代词/后缀 · 作者、读者、记者、或者"
+          },
+          "jp": {
+            "name": "者", "reading": "もの", "gloss": "person; one who",
+            "extra": "漢字「者」(もの · シャ) · 作者(さくしゃ)、若者(わかもの)"
+          },
+          "wk": null
         },
         {
           "glyph": "耳",

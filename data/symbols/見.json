@@ -13,13 +13,31 @@
       "name": "見",
       "reading": "jiàn",
       "gloss": "see",
-      "extra": "康熙部首 147"
+      "extra": "康熙部首 147 · 会意（目+儿）· 见、看见、见面"
     },
     "jp": {
       "name": "見",
-      "reading": "",
-      "gloss": "see"
+      "reading": "みる",
+      "gloss": "see",
+      "extra": "漢字「見」(み-る · ケン) · 見る(みる)、意見(いけん)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "see",
+      "kind": "meaning",
+      "level": 2
+    }
+  ],
+  "script": {
+    "keyed": "traditional",
+    "simplified": [
+      {
+        "glyph": "见"
+      }
+    ]
+  }
 }

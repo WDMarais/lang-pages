@@ -1375,6 +1375,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:者",
+      "to": "r:er",
+      "kind": "denotes"
+    },
+    {
       "from": "g:而",
       "to": "r:and",
       "kind": "denotes"
@@ -3435,6 +3440,16 @@
     {
       "from": "g:匕",
       "to": "g:老",
+      "kind": "composes"
+    },
+    {
+      "from": "g:耂",
+      "to": "g:者",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "g:者",
       "kind": "composes"
     },
     {
@@ -5875,6 +5890,31 @@
     {
       "from": "w:工人@cn",
       "to": "r:worker",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:明",
+      "to": "w:明明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:明明@cn",
+      "to": "r:clearly",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:作者@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:者",
+      "to": "w:作者@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:作者@cn",
+      "to": "r:author",
       "kind": "denotes"
     },
     {

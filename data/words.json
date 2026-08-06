@@ -1866,6 +1866,37 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "明明",
+      "audience": "cn",
+      "parts": [
+        "明"
+      ],
+      "denotes": "clearly",
+      "reading": "míngmíng",
+      "gloss": "clearly; obviously; plainly (contradicting expectation)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "作者",
+      "audience": "cn",
+      "parts": [
+        "作",
+        "者"
+      ],
+      "denotes": "author",
+      "reading": "zuòzhě",
+      "gloss": "author; writer",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

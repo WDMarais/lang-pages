@@ -327,12 +327,20 @@
     "text": "みみ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "miru.mp3": {
+    "text": "みる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "mittsu.mp3": {
     "text": "みっつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "mizu.mp3": {
     "text": "みず",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mono.mp3": {
+    "text": "もの",
     "voice": "ja-JP-NanamiNeural"
   },
   "motte.mp3": {
