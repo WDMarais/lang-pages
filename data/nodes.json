@@ -8507,6 +8507,99 @@
       "id": "r:homework",
       "kind": "referent",
       "label": "homework; assignment; task"
+    },
+    {
+      "id": "w:八日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "八日",
+      "reading": "ようか",
+      "gloss": "the 8th (of the month); eight days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:8th",
+      "kind": "referent",
+      "label": "the 8th (of the month); eight days"
+    },
+    {
+      "id": "w:十日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十日",
+      "reading": "とおか",
+      "gloss": "the 10th (of the month); ten days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "id": "r:10th",
+      "kind": "referent",
+      "label": "the 10th (of the month); ten days"
+    },
+    {
+      "id": "w:水中@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "水中",
+      "reading": "すいちゅう",
+      "gloss": "in the water; underwater; submerged",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:underwater",
+      "kind": "referent",
+      "label": "in the water; underwater; submerged"
+    },
+    {
+      "id": "w:入力@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "入力",
+      "reading": "にゅうりょく",
+      "gloss": "input; entering (data)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:input",
+      "kind": "referent",
+      "label": "input; entering (data)"
+    },
+    {
+      "id": "w:王女@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "王女",
+      "reading": "おうじょ",
+      "gloss": "princess (king's daughter)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:princess",
+      "kind": "referent",
+      "label": "princess (king's daughter)"
     }
   ]
 }

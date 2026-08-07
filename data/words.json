@@ -1945,6 +1945,84 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "八日",
+      "audience": "jp",
+      "parts": [
+        "八",
+        "日"
+      ],
+      "denotes": "8th",
+      "reading": "ようか",
+      "gloss": "the 8th (of the month); eight days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "十日",
+      "audience": "jp",
+      "parts": [
+        "十",
+        "日"
+      ],
+      "denotes": "10th",
+      "reading": "とおか",
+      "gloss": "the 10th (of the month); ten days",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab"
+      }
+    },
+    {
+      "surface": "水中",
+      "audience": "jp",
+      "parts": [
+        "水",
+        "中"
+      ],
+      "denotes": "underwater",
+      "reading": "すいちゅう",
+      "gloss": "in the water; underwater; submerged",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "入力",
+      "audience": "jp",
+      "parts": [
+        "入",
+        "力"
+      ],
+      "denotes": "input",
+      "reading": "にゅうりょく",
+      "gloss": "input; entering (data)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "王女",
+      "audience": "jp",
+      "parts": [
+        "王",
+        "女"
+      ],
+      "denotes": "princess",
+      "reading": "おうじょ",
+      "gloss": "princess (king's daughter)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

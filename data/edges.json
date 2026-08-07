@@ -5978,6 +5978,81 @@
       "kind": "denotes"
     },
     {
+      "from": "g:八",
+      "to": "w:八日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:八日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:八日@jp",
+      "to": "r:8th",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:十日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十日@jp",
+      "to": "r:10th",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:水",
+      "to": "w:水中@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:水中@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:水中@jp",
+      "to": "r:underwater",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:入",
+      "to": "w:入力@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "w:入力@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:入力@jp",
+      "to": "r:input",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:王",
+      "to": "w:王女@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:女",
+      "to": "w:王女@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:王女@jp",
+      "to": "r:princess",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
