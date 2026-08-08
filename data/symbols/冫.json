@@ -29,6 +29,14 @@
       "name": "ice",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Ice",
+      "kind": "meaning",
+      "level": 3
     }
   ]
 }

@@ -2023,6 +2023,53 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "中々",
+      "audience": "jp",
+      "parts": [
+        "中",
+        "々"
+      ],
+      "denotes": "considerably",
+      "reading": "なかなか",
+      "gloss": "very; considerably; quite; (with neg.) by no means",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "田んぼ",
+      "audience": "jp",
+      "parts": [
+        "田"
+      ],
+      "denotes": "field",
+      "reading": "たんぼ",
+      "okurigana": "んぼ",
+      "gloss": "rice paddy; rice field",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "万",
+      "audience": "jp",
+      "parts": [
+        "万"
+      ],
+      "denotes": "ten-thousand",
+      "reading": "まん",
+      "gloss": "ten thousand",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

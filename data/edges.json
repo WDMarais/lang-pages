@@ -6053,6 +6053,41 @@
       "kind": "denotes"
     },
     {
+      "from": "g:中",
+      "to": "w:中々@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:々",
+      "to": "w:中々@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:中々@jp",
+      "to": "r:considerably",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:田",
+      "to": "w:田んぼ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:田んぼ@jp",
+      "to": "r:field",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:万",
+      "to": "w:万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:万@jp",
+      "to": "r:ten-thousand",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

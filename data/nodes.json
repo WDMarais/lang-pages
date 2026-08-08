@@ -8600,6 +8600,54 @@
       "id": "r:princess",
       "kind": "referent",
       "label": "princess (king's daughter)"
+    },
+    {
+      "id": "w:中々@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "中々",
+      "reading": "なかなか",
+      "gloss": "very; considerably; quite; (with neg.) by no means",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:considerably",
+      "kind": "referent",
+      "label": "very; considerably; quite; (with neg.) by no means"
+    },
+    {
+      "id": "w:田んぼ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "田んぼ",
+      "reading": "たんぼ",
+      "gloss": "rice paddy; rice field",
+      "okurigana": "んぼ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "w:万@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "万",
+      "reading": "まん",
+      "gloss": "ten thousand",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

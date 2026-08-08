@@ -654,7 +654,11 @@
             "reading": "",
             "gloss": "ice"
           },
-          "wk": null,
+          "wk": {
+            "name": "Ice",
+            "level": 3,
+            "kind": "meaning"
+          },
           "pd": {
             "name": "ice",
             "level": 1,

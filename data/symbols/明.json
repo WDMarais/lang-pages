@@ -32,6 +32,28 @@
       "name": "bright",
       "kind": "meaning",
       "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Bright",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Bright",
+      "readings": [
+        "メイ"
+      ],
+      "on": true,
+      "kun": [
+        "あか"
+      ],
+      "level": 3
     }
   ]
 }

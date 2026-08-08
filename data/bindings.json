@@ -3926,7 +3926,13 @@
       "name": "冫",
       "readings": [],
       "gloss": "ice",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Ice",
+        "level": 3,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:几@cn",
@@ -5036,7 +5042,24 @@
         "あかるい"
       ],
       "gloss": "bright",
-      "extra": "漢字「明」(あか-るい · メイ・ミョウ) · 明るい、明日(あした)、説明(せつめい)"
+      "extra": "漢字「明」(あか-るい · メイ・ミョウ) · 明るい、明日(あした)、説明(せつめい)",
+      "program": {
+        "source": "wanikani",
+        "name": "Bright",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Bright",
+          "readings": [
+            "メイ"
+          ],
+          "on": true,
+          "kun": [
+            "あか"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:曰@cn",
