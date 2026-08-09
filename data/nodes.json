@@ -2478,6 +2478,31 @@
       "label": "behind; after; back; (also) queen"
     },
     {
+      "id": "g:员",
+      "kind": "glyph",
+      "glyph": "员",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yuan2",
+      "jpAudioKey": "in",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "員"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:member",
+      "kind": "referent",
+      "label": "member; personnel"
+    },
+    {
       "id": "g:囗",
       "kind": "glyph",
       "glyph": "囗",
@@ -2679,6 +2704,31 @@
       "id": "r:as",
       "kind": "referent",
       "label": "as; like; as if; such as; if"
+    },
+    {
+      "id": "g:实",
+      "kind": "glyph",
+      "glyph": "实",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "shi2",
+      "jpAudioKey": "mi",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "實"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:real",
+      "kind": "referent",
+      "label": "real; solid; true"
     },
     {
       "id": "g:寸",
@@ -4684,8 +4734,19 @@
       "id": "g:解",
       "kind": "glyph",
       "glyph": "解",
-      "tier": null,
-      "frontier": true
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "jie3",
+      "jpAudioKey": "toku"
+    },
+    {
+      "id": "r:untie",
+      "kind": "referent",
+      "label": "to untie; to separate; to solve"
     },
     {
       "id": "g:言",
@@ -6172,6 +6233,20 @@
       "id": "g:衤",
       "kind": "glyph",
       "glyph": "衤",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:贝",
+      "kind": "glyph",
+      "glyph": "贝",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:头",
+      "kind": "glyph",
+      "glyph": "头",
       "tier": null,
       "frontier": true
     },
@@ -8816,6 +8891,25 @@
       "id": "r:eyeball",
       "kind": "referent",
       "label": "eyeball"
+    },
+    {
+      "id": "w:本地@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "本地",
+      "reading": "běndì",
+      "gloss": "local; of this locality",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:local",
+      "kind": "referent",
+      "label": "local; of this locality"
     }
   ]
 }

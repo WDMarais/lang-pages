@@ -879,6 +879,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:员",
+      "to": "r:member",
+      "kind": "denotes"
+    },
+    {
       "from": "g:囗",
       "to": "r:enclosure",
       "kind": "denotes"
@@ -931,6 +936,11 @@
     {
       "from": "g:如",
       "to": "r:as",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:实",
+      "to": "r:real",
       "kind": "denotes"
     },
     {
@@ -1563,6 +1573,11 @@
       "from": "g:角",
       "to": "g:解",
       "kind": "composes"
+    },
+    {
+      "from": "g:解",
+      "to": "r:untie",
+      "kind": "denotes"
     },
     {
       "from": "g:言",
@@ -2561,6 +2576,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:口",
+      "to": "g:员",
+      "kind": "composes"
+    },
+    {
+      "from": "g:贝",
+      "to": "g:员",
+      "kind": "composes"
+    },
+    {
       "from": "g:冂",
       "to": "g:囗",
       "kind": "composes"
@@ -2719,6 +2744,16 @@
     {
       "from": "g:冖",
       "to": "g:宀",
+      "kind": "composes"
+    },
+    {
+      "from": "g:宀",
+      "to": "g:实",
+      "kind": "composes"
+    },
+    {
+      "from": "g:头",
+      "to": "g:实",
       "kind": "composes"
     },
     {
@@ -6215,6 +6250,21 @@
     {
       "from": "w:目玉@jp",
       "to": "r:eyeball",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:本",
+      "to": "w:本地@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:地",
+      "to": "w:本地@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:本地@cn",
+      "to": "r:local",
       "kind": "denotes"
     },
     {

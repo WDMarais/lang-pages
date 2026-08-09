@@ -1,0 +1,40 @@
+{
+  "glyph": "员",
+  "cp": "U+5458",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "员",
+      "reading": "yuán",
+      "gloss": "member; personnel",
+      "extra": "口 + 贝 · 员工、成员、人员、店员 · 繁体作員"
+    },
+    "jp": {
+      "name": "員",
+      "reading": "イン",
+      "gloss": "member; employee",
+      "extra": "漢字「員」(イン) · 会員(かいいん)、社員(しゃいん)、店員(てんいん)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "員"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "employee",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

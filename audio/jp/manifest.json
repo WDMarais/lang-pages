@@ -187,6 +187,10 @@
     "text": "いま",
     "voice": "ja-JP-NanamiNeural"
   },
+  "in.mp3": {
+    "text": "イン",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ina.mp3": {
     "text": "いな",
     "voice": "ja-JP-NanamiNeural"
@@ -549,6 +553,10 @@
   },
   "ten.mp3": {
     "text": "テン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "toku.mp3": {
+    "text": "とく",
     "voice": "ja-JP-NanamiNeural"
   },
   "tomo.mp3": {

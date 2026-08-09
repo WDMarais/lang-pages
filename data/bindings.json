@@ -4318,6 +4318,36 @@
       "extra": "漢字「後」(ゴ・コウ · のち・うし-ろ・あと) · 午後(ごご)、後ろ · 中文簡体作「后」· 別字「后」(コウ = きさき, queen)"
     },
     {
+      "id": "b:员@cn",
+      "glyph_id": "g:员",
+      "lang": "cn",
+      "name": "员",
+      "readings": [
+        "yuán"
+      ],
+      "gloss": "member; personnel",
+      "extra": "口 + 贝 · 员工、成员、人员、店员 · 繁体作員",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "employee",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:员@jp",
+      "glyph_id": "g:员",
+      "lang": "jp",
+      "name": "員",
+      "readings": [
+        "イン"
+      ],
+      "gloss": "member; employee",
+      "extra": "漢字「員」(イン) · 会員(かいいん)、社員(しゃいん)、店員(てんいん)"
+    },
+    {
       "id": "b:囗@cn",
       "glyph_id": "g:囗",
       "lang": "cn",
@@ -4608,6 +4638,36 @@
       ],
       "gloss": "like; as if",
       "extra": "漢字「如」(ジョ・ニョ · ごと-し) · 如実(にょじつ)、欠如(けつじょ)"
+    },
+    {
+      "id": "b:实@cn",
+      "glyph_id": "g:实",
+      "lang": "cn",
+      "name": "实",
+      "readings": [
+        "shí"
+      ],
+      "gloss": "real; solid; true",
+      "extra": "宀 + 头 · 实在、实际、老实、果实 · 繁体作實",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "real",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:实@jp",
+      "glyph_id": "g:实",
+      "lang": "jp",
+      "name": "実",
+      "readings": [
+        "み"
+      ],
+      "gloss": "fruit; reality; truth",
+      "extra": "漢字「実」(み · みの-る · ジツ) · 実る、事実(じじつ)、果実(かじつ) · 中文簡体作「实」"
     },
     {
       "id": "b:寸@cn",
@@ -7401,6 +7461,36 @@
         "reading": "カイ",
         "gloss": "untie; solve"
       }
+    },
+    {
+      "id": "b:解@cn",
+      "glyph_id": "g:解",
+      "lang": "cn",
+      "name": "解",
+      "readings": [
+        "jiě"
+      ],
+      "gloss": "to untie; to separate; to solve",
+      "extra": "角 + 刀 + 牛（以刀解牛角）· 解开、解决、理解、解释 · 会意",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "to separate",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:解@jp",
+      "glyph_id": "g:解",
+      "lang": "jp",
+      "name": "解",
+      "readings": [
+        "とく"
+      ],
+      "gloss": "unravel; solve; explain",
+      "extra": "漢字「解」(と-く · カイ・ゲ) · 解く、解決(かいけつ)、理解(りかい)"
     },
     {
       "id": "b:言@cn",

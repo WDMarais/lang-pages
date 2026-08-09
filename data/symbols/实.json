@@ -1,0 +1,40 @@
+{
+  "glyph": "实",
+  "cp": "U+5B9E",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "实",
+      "reading": "shí",
+      "gloss": "real; solid; true",
+      "extra": "宀 + 头 · 实在、实际、老实、果实 · 繁体作實"
+    },
+    "jp": {
+      "name": "実",
+      "reading": "み",
+      "gloss": "fruit; reality; truth",
+      "extra": "漢字「実」(み · みの-る · ジツ) · 実る、事実(じじつ)、果実(かじつ) · 中文簡体作「实」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "實"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "real",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}
