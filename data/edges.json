@@ -944,6 +944,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:好",
+      "to": "r:good",
+      "kind": "denotes"
+    },
+    {
       "from": "g:如",
       "to": "r:as",
       "kind": "denotes"
@@ -1355,6 +1360,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:着",
+      "to": "r:wear",
+      "kind": "denotes"
+    },
+    {
       "from": "g:矛",
       "to": "r:spear",
       "kind": "denotes"
@@ -1687,6 +1697,11 @@
     {
       "from": "g:那",
       "to": "r:that",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:都",
+      "to": "r:all",
       "kind": "denotes"
     },
     {
@@ -3468,6 +3483,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:羊",
+      "to": "g:着",
+      "kind": "composes"
+    },
+    {
+      "from": "g:目",
+      "to": "g:着",
+      "kind": "composes"
+    },
+    {
       "from": "g:丿",
       "to": "g:矢",
       "kind": "composes"
@@ -3990,6 +4015,16 @@
     {
       "from": "g:阝",
       "to": "g:那",
+      "kind": "composes"
+    },
+    {
+      "from": "g:者",
+      "to": "g:都",
+      "kind": "composes"
+    },
+    {
+      "from": "g:阝",
+      "to": "g:都",
       "kind": "composes"
     },
     {

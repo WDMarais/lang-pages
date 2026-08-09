@@ -275,6 +275,10 @@
     "text": "こぶし",
     "voice": "ja-JP-NanamiNeural"
   },
+  "konomu.mp3": {
+    "text": "このむ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "koori.mp3": {
     "text": "こおり",
     "voice": "ja-JP-NanamiNeural"
@@ -353,6 +357,10 @@
   },
   "mittsu.mp3": {
     "text": "みっつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "miyako.mp3": {
+    "text": "みやこ",
     "voice": "ja-JP-NanamiNeural"
   },
   "mizu.mp3": {

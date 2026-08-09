@@ -4686,6 +4686,36 @@
       "extra": "日本語では用いない（中国語の新造字）"
     },
     {
+      "id": "b:好@cn",
+      "glyph_id": "g:好",
+      "lang": "cn",
+      "name": "好",
+      "readings": [
+        "hǎo"
+      ],
+      "gloss": "good; well",
+      "extra": "女 + 子 · 你好、好人、好的 · 又音 hào（爱好、好奇）· 会意",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "good",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:好@jp",
+      "glyph_id": "g:好",
+      "lang": "jp",
+      "name": "好",
+      "readings": [
+        "このむ"
+      ],
+      "gloss": "like; favorable",
+      "extra": "漢字「好」(この-む · す-く · コウ) · 好む、好き、好意(こうい)"
+    },
+    {
       "id": "b:如@cn",
       "glyph_id": "g:如",
       "lang": "cn",
@@ -6538,6 +6568,36 @@
       "extra": "漢字「真」(ま · シン) · 真実(しんじつ)、真面目(まじめ)"
     },
     {
+      "id": "b:着@cn",
+      "glyph_id": "g:着",
+      "lang": "cn",
+      "name": "着",
+      "readings": [
+        "zhuó"
+      ],
+      "gloss": "to wear; to apply; to touch",
+      "extra": "着装、穿着、着重 · 又音 zhe（走着、看着）· zháo（着火、睡着）· zhāo（高着）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "to wear",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:着@jp",
+      "glyph_id": "g:着",
+      "lang": "jp",
+      "name": "着",
+      "readings": [
+        "きる"
+      ],
+      "gloss": "wear; arrive",
+      "extra": "漢字「着」(き-る · チャク・ジャク) · 着る、到着(とうちゃく)、着席(ちゃくせき)"
+    },
+    {
       "id": "b:矛@cn",
       "glyph_id": "g:矛",
       "lang": "cn",
@@ -7966,6 +8026,36 @@
       ],
       "gloss": "that; which",
       "extra": "音「ナ」· 刹那(せつな)、旦那(だんな)"
+    },
+    {
+      "id": "b:都@cn",
+      "glyph_id": "g:都",
+      "lang": "cn",
+      "name": "都",
+      "readings": [
+        "dōu"
+      ],
+      "gloss": "all; both",
+      "extra": "者 + 阝（邑）· 都是、都有、大都 · 又音 dū（首都、都市）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "all",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:都@jp",
+      "glyph_id": "g:都",
+      "lang": "jp",
+      "name": "都",
+      "readings": [
+        "みやこ"
+      ],
+      "gloss": "capital; metropolis",
+      "extra": "漢字「都」(みやこ · ト・ツ) · 都市(とし)、東京都、首都(しゅと)"
     },
     {
       "id": "b:酉@cn",

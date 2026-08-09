@@ -1,0 +1,33 @@
+{
+  "glyph": "着",
+  "cp": "U+7740",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "着",
+      "reading": "zhuó",
+      "gloss": "to wear; to apply; to touch",
+      "extra": "着装、穿着、着重 · 又音 zhe（走着、看着）· zháo（着火、睡着）· zhāo（高着）"
+    },
+    "jp": {
+      "name": "着",
+      "reading": "きる",
+      "gloss": "wear; arrive",
+      "extra": "漢字「着」(き-る · チャク・ジャク) · 着る、到着(とうちゃく)、着席(ちゃくせき)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "to wear",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

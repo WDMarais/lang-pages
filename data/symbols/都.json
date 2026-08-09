@@ -1,0 +1,33 @@
+{
+  "glyph": "都",
+  "cp": "U+90FD",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "都",
+      "reading": "dōu",
+      "gloss": "all; both",
+      "extra": "者 + 阝（邑）· 都是、都有、大都 · 又音 dū（首都、都市）"
+    },
+    "jp": {
+      "name": "都",
+      "reading": "みやこ",
+      "gloss": "capital; metropolis",
+      "extra": "漢字「都」(みやこ · ト・ツ) · 都市(とし)、東京都、首都(しゅと)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "all",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

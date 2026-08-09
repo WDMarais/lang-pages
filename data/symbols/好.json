@@ -1,0 +1,33 @@
+{
+  "glyph": "好",
+  "cp": "U+597D",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "好",
+      "reading": "hǎo",
+      "gloss": "good; well",
+      "extra": "女 + 子 · 你好、好人、好的 · 又音 hào（爱好、好奇）· 会意"
+    },
+    "jp": {
+      "name": "好",
+      "reading": "このむ",
+      "gloss": "like; favorable",
+      "extra": "漢字「好」(この-む · す-く · コウ) · 好む、好き、好意(こうい)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "good",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

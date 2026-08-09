@@ -1844,6 +1844,24 @@
           "pdc": { "name": "she", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "好",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "hao3",
+          "jpAudioKey": "konomu",
+          "cn": {
+            "name": "好", "reading": "hǎo", "gloss": "good; well",
+            "extra": "女 + 子 · 你好、好人、好的 · 又音 hào（爱好、好奇）· 会意"
+          },
+          "jp": {
+            "name": "好", "reading": "このむ", "gloss": "like; favorable",
+            "extra": "漢字「好」(この-む · す-く · コウ) · 好む、好き、好意(こうい)"
+          },
+          "wk": null,
+          "pdc": { "name": "good", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "如",
           "tag": "char",
           "image": "",
@@ -2285,6 +2303,24 @@
           "pdc": { "name": "true", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "着",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "zhuo2",
+          "jpAudioKey": "kiru",
+          "cn": {
+            "name": "着", "reading": "zhuó", "gloss": "to wear; to apply; to touch",
+            "extra": "着装、穿着、着重 · 又音 zhe（走着、看着）· zháo（着火、睡着）· zhāo（高着）"
+          },
+          "jp": {
+            "name": "着", "reading": "きる", "gloss": "wear; arrive",
+            "extra": "漢字「着」(き-る · チャク・ジャク) · 着る、到着(とうちゃく)、着席(ちゃくせき)"
+          },
+          "wk": null,
+          "pdc": { "name": "to wear", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "神",
           "tag": "char",
           "image": "",
@@ -2523,6 +2559,24 @@
           },
           "wk": null,
           "pd": { "name": "how", "level": 2, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "都",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "dou1",
+          "jpAudioKey": "miyako",
+          "cn": {
+            "name": "都", "reading": "dōu", "gloss": "all; both",
+            "extra": "者 + 阝（邑）· 都是、都有、大都 · 又音 dū（首都、都市）"
+          },
+          "jp": {
+            "name": "都", "reading": "みやこ", "gloss": "capital; metropolis",
+            "extra": "漢字「都」(みやこ · ト・ツ) · 都市(とし)、東京都、首都(しゅと)"
+          },
+          "wk": null,
+          "pdc": { "name": "all", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "魚",

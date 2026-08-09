@@ -163,6 +163,10 @@
     "text": "鼎",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "dou1.mp3": {
+    "text": "都",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "dou3.mp3": {
     "text": "斗",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1049,6 +1053,10 @@
   },
   "zhui1.mp3": {
     "text": "隹",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhuo2.mp3": {
+    "text": "着",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zi3.mp3": {

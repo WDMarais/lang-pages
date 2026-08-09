@@ -355,13 +355,6 @@
       "label": "woman"
     },
     {
-      "id": "g:好",
-      "kind": "glyph",
-      "glyph": "好",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:子",
       "kind": "glyph",
       "glyph": "子",
@@ -2735,6 +2728,24 @@
       "label": "she; her"
     },
     {
+      "id": "g:好",
+      "kind": "glyph",
+      "glyph": "好",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "hao3",
+      "jpAudioKey": "konomu"
+    },
+    {
+      "id": "r:good",
+      "kind": "referent",
+      "label": "good; well"
+    },
+    {
       "id": "g:如",
       "kind": "glyph",
       "glyph": "如",
@@ -4041,6 +4052,24 @@
       "label": "true; real; genuine"
     },
     {
+      "id": "g:着",
+      "kind": "glyph",
+      "glyph": "着",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhuo2",
+      "jpAudioKey": "kiru"
+    },
+    {
+      "id": "r:wear",
+      "kind": "referent",
+      "label": "to wear; to apply; to touch"
+    },
+    {
       "id": "g:矛",
       "kind": "glyph",
       "glyph": "矛",
@@ -5123,6 +5152,24 @@
       "id": "r:that",
       "kind": "referent",
       "label": "that; those"
+    },
+    {
+      "id": "g:都",
+      "kind": "glyph",
+      "glyph": "都",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "dou1",
+      "jpAudioKey": "miyako"
+    },
+    {
+      "id": "r:all",
+      "kind": "referent",
+      "label": "all; both"
     },
     {
       "id": "g:酉",
