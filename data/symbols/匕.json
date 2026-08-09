@@ -21,5 +21,14 @@
       "gloss": "spoon"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "spoon",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
 }

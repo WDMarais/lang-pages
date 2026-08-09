@@ -899,6 +899,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:太",
+      "to": "r:too",
+      "kind": "denotes"
+    },
+    {
       "from": "g:她",
       "to": "r:she",
       "kind": "denotes"
@@ -2588,6 +2593,16 @@
     {
       "from": "g:一",
       "to": "g:天",
+      "kind": "composes"
+    },
+    {
+      "from": "g:大",
+      "to": "g:太",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:太",
       "kind": "composes"
     },
     {

@@ -876,6 +876,11 @@
             "gloss": "spoon"
           },
           "wk": null,
+          "pd": {
+            "name": "spoon",
+            "level": 2,
+            "kind": "meaning"
+          },
           "kx": 21,
           "cnAudioKey": "bi3"
         },
@@ -3646,6 +3651,16 @@
               "しろ"
             ],
             "level": 3
+          },
+          "pd": {
+            "name": "white",
+            "level": 2,
+            "kind": "meaning"
+          },
+          "pdc": {
+            "name": "white",
+            "kind": "meaning",
+            "level": 2
           },
           "kx": 106,
           "cnAudioKey": "bai2",

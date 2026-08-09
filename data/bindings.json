@@ -2299,7 +2299,18 @@
         "bái"
       ],
       "gloss": "white",
-      "extra": "撇 + 日 · 象形「白」· 康熙部首 106"
+      "extra": "撇 + 日 · 象形「白」· 康熙部首 106",
+      "program": {
+        "source": "pandanese",
+        "name": "white",
+        "level": 2,
+        "kind": "meaning",
+        "character": {
+          "name": "white",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
     },
     {
       "id": "b:白@jp",
@@ -4023,7 +4034,13 @@
         "bǐ"
       ],
       "gloss": "spoon",
-      "extra": "康熙部首 21"
+      "extra": "康熙部首 21",
+      "program": {
+        "source": "pandanese",
+        "name": "spoon",
+        "level": 2,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:匕@jp",
@@ -4379,6 +4396,36 @@
       "readings": [],
       "gloss": "go slowly",
       "extra": ""
+    },
+    {
+      "id": "b:太@cn",
+      "glyph_id": "g:太",
+      "lang": "cn",
+      "name": "太",
+      "readings": [
+        "tài"
+      ],
+      "gloss": "too; very; excessively",
+      "extra": "大 + 丶（点）· 太阳、太太、太子 · 指事（大而有加）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "fat",
+          "kind": "mnemonic",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:太@jp",
+      "glyph_id": "g:太",
+      "lang": "jp",
+      "name": "太",
+      "readings": [
+        "ふとい"
+      ],
+      "gloss": "thick; plump",
+      "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)"
     },
     {
       "id": "b:她@cn",

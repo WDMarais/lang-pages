@@ -2560,6 +2560,24 @@
       "label": "go slowly"
     },
     {
+      "id": "g:太",
+      "kind": "glyph",
+      "glyph": "太",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "tai4",
+      "jpAudioKey": "futoi"
+    },
+    {
+      "id": "r:too",
+      "kind": "referent",
+      "label": "too; very; excessively"
+    },
+    {
       "id": "g:她",
       "kind": "glyph",
       "glyph": "她",

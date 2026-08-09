@@ -79,6 +79,10 @@
     "text": "ふせる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "futoi.mp3": {
+    "text": "ふとい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "gen.mp3": {
     "text": "ゲン",
     "voice": "ja-JP-NanamiNeural"

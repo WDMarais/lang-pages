@@ -1,0 +1,33 @@
+{
+  "glyph": "太",
+  "cp": "U+592A",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "太",
+      "reading": "tài",
+      "gloss": "too; very; excessively",
+      "extra": "大 + 丶（点）· 太阳、太太、太子 · 指事（大而有加）"
+    },
+    "jp": {
+      "name": "太",
+      "reading": "ふとい",
+      "gloss": "thick; plump",
+      "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "fat",
+      "kind": "mnemonic",
+      "level": 2
+    }
+  ]
+}

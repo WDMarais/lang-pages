@@ -929,7 +929,9 @@
             "extra": "漢字「白」(しろ · ハク · ビャク)"
           },
           "wk": { "name": "White", "level": 3, "kind": "meaning" },
-          "kanji": { "name": "White", "readings": ["ハク", "ビャク"], "on": true, "kun": ["しろ"], "level": 3 }
+          "kanji": { "name": "White", "readings": ["ハク", "ビャク"], "on": true, "kun": ["しろ"], "level": 3 },
+          "pd": { "name": "white", "level": 2, "kind": "meaning" },
+          "pdc": { "name": "white", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "泉",
@@ -1674,6 +1676,24 @@
           },
           "wk": null,
           "pdc": { "name": "land", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "太",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "tai4",
+          "jpAudioKey": "futoi",
+          "cn": {
+            "name": "太", "reading": "tài", "gloss": "too; very; excessively",
+            "extra": "大 + 丶（点）· 太阳、太太、太子 · 指事（大而有加）"
+          },
+          "jp": {
+            "name": "太", "reading": "ふとい", "gloss": "thick; plump",
+            "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)"
+          },
+          "wk": null,
+          "pdc": { "name": "fat", "kind": "mnemonic", "level": 2 }
         },
         {
           "glyph": "她",
