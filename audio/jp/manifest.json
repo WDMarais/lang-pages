@@ -291,6 +291,10 @@
     "text": "くるま",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kuwaeru.mp3": {
+    "text": "くわえる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kyuu.mp3": {
     "text": "キュウ",
     "voice": "ja-JP-NanamiNeural"
@@ -605,6 +609,10 @@
   },
   "utsu.mp3": {
     "text": "うつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "utsukushii.mp3": {
+    "text": "うつくしい",
     "voice": "ja-JP-NanamiNeural"
   },
   "wakeru.mp3": {

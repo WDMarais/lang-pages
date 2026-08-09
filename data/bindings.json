@@ -3842,6 +3842,36 @@
       "extra": "漢字「作」(つく-る · サク・サ) · 作る、作品、作家"
     },
     {
+      "id": "b:你@cn",
+      "glyph_id": "g:你",
+      "lang": "cn",
+      "name": "你",
+      "readings": [
+        "nǐ"
+      ],
+      "gloss": "you",
+      "extra": "亻 + 尔 · 你好、你们 · 单人旁 · 第二人称",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "you",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:你@jp",
+      "glyph_id": "g:你",
+      "lang": "jp",
+      "name": "你",
+      "readings": [
+        "ジ"
+      ],
+      "gloss": "you (2nd person)",
+      "extra": "漢字「你」(ジ · なんじ) · 中国語の二人称「you」· 日本語では非常用漢字"
+    },
+    {
       "id": "b:使@cn",
       "glyph_id": "g:使",
       "lang": "cn",
@@ -4060,6 +4090,36 @@
           "level": 3
         }
       }
+    },
+    {
+      "id": "b:加@cn",
+      "glyph_id": "g:加",
+      "lang": "cn",
+      "name": "加",
+      "readings": [
+        "jiā"
+      ],
+      "gloss": "to add; plus",
+      "extra": "力 + 口 · 加法、加入、参加、加油 · 会意",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "add",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:加@jp",
+      "glyph_id": "g:加",
+      "lang": "jp",
+      "name": "加",
+      "readings": [
+        "くわえる"
+      ],
+      "gloss": "add",
+      "extra": "漢字「加」(くわ-える · カ) · 加える、追加(ついか)、加藤(かとう)"
     },
     {
       "id": "b:匕@cn",
@@ -4418,6 +4478,36 @@
         "level": 3,
         "kind": "mnemonic"
       }
+    },
+    {
+      "id": "b:处@cn",
+      "glyph_id": "g:处",
+      "lang": "cn",
+      "name": "处",
+      "readings": [
+        "chù"
+      ],
+      "gloss": "place; office; to handle",
+      "extra": "夂 + 卜 · 处所、到处、办事处、人事处 · 又音 chǔ（处理）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "bureau",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:处@jp",
+      "glyph_id": "g:处",
+      "lang": "jp",
+      "name": "処",
+      "readings": [
+        "ショ"
+      ],
+      "gloss": "dispose; deal with; place",
+      "extra": "漢字「処」(ショ) · 処理(しょり)、対処(たいしょ) · 中文簡体作「处」"
     },
     {
       "id": "b:夊@cn",
@@ -6625,6 +6715,36 @@
       "readings": [],
       "gloss": "sheep",
       "extra": ""
+    },
+    {
+      "id": "b:美@cn",
+      "glyph_id": "g:美",
+      "lang": "cn",
+      "name": "美",
+      "readings": [
+        "měi"
+      ],
+      "gloss": "beautiful; pretty",
+      "extra": "羊 + 大 · 美丽、美好、美国 · 会意",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "beautiful",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:美@jp",
+      "glyph_id": "g:美",
+      "lang": "jp",
+      "name": "美",
+      "readings": [
+        "うつくしい"
+      ],
+      "gloss": "beauty; beautiful",
+      "extra": "漢字「美」(うつく-しい · ビ・ミ) · 美しい、美人(びじん)、美術(びじゅつ)"
     },
     {
       "id": "b:羽@cn",

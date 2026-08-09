@@ -1,0 +1,33 @@
+{
+  "glyph": "美",
+  "cp": "U+7F8E",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "美",
+      "reading": "měi",
+      "gloss": "beautiful; pretty",
+      "extra": "羊 + 大 · 美丽、美好、美国 · 会意"
+    },
+    "jp": {
+      "name": "美",
+      "reading": "うつくしい",
+      "gloss": "beauty; beautiful",
+      "extra": "漢字「美」(うつく-しい · ビ・ミ) · 美しい、美人(びじん)、美術(びじゅつ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "beautiful",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

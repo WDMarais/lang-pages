@@ -1,0 +1,40 @@
+{
+  "glyph": "处",
+  "cp": "U+5904",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "处",
+      "reading": "chù",
+      "gloss": "place; office; to handle",
+      "extra": "夂 + 卜 · 处所、到处、办事处、人事处 · 又音 chǔ（处理）"
+    },
+    "jp": {
+      "name": "処",
+      "reading": "ショ",
+      "gloss": "dispose; deal with; place",
+      "extra": "漢字「処」(ショ) · 処理(しょり)、対処(たいしょ) · 中文簡体作「处」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "處"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "bureau",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

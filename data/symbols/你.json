@@ -1,0 +1,33 @@
+{
+  "glyph": "你",
+  "cp": "U+4F60",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "你",
+      "reading": "nǐ",
+      "gloss": "you",
+      "extra": "亻 + 尔 · 你好、你们 · 单人旁 · 第二人称"
+    },
+    "jp": {
+      "name": "你",
+      "reading": "ジ",
+      "gloss": "you (2nd person)",
+      "extra": "漢字「你」(ジ · なんじ) · 中国語の二人称「you」· 日本語では非常用漢字"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "you",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

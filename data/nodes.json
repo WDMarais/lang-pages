@@ -2122,6 +2122,24 @@
       "label": "to make; to do; to write (a work)"
     },
     {
+      "id": "g:你",
+      "kind": "glyph",
+      "glyph": "你",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ni3",
+      "jpAudioKey": "ji"
+    },
+    {
+      "id": "r:you",
+      "kind": "referent",
+      "label": "you"
+    },
+    {
       "id": "g:使",
       "kind": "glyph",
       "glyph": "使",
@@ -2277,6 +2295,24 @@
       "id": "r:cut",
       "kind": "referent",
       "label": "to cut; to slice"
+    },
+    {
+      "id": "g:加",
+      "kind": "glyph",
+      "glyph": "加",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "jia1",
+      "jpAudioKey": "kuwaeru"
+    },
+    {
+      "id": "r:add",
+      "kind": "referent",
+      "label": "to add; plus"
     },
     {
       "id": "g:匕",
@@ -2545,6 +2581,31 @@
       "id": "r:go",
       "kind": "referent",
       "label": "go"
+    },
+    {
+      "id": "g:处",
+      "kind": "glyph",
+      "glyph": "处",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "chu4",
+      "jpAudioKey": "sho",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "處"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:place",
+      "kind": "referent",
+      "label": "place; office; to handle"
     },
     {
       "id": "g:夊",
@@ -4103,6 +4164,24 @@
       "id": "r:sheep",
       "kind": "referent",
       "label": "sheep"
+    },
+    {
+      "id": "g:美",
+      "kind": "glyph",
+      "glyph": "美",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "mei3",
+      "jpAudioKey": "utsukushii"
+    },
+    {
+      "id": "r:beautiful",
+      "kind": "referent",
+      "label": "beautiful; pretty"
     },
     {
       "id": "g:羽",
@@ -6058,6 +6137,13 @@
       "id": "g:乍",
       "kind": "glyph",
       "glyph": "乍",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:尔",
+      "kind": "glyph",
+      "glyph": "尔",
       "tier": null,
       "frontier": true
     },

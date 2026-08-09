@@ -99,6 +99,10 @@
     "text": "出",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "chu4.mp3": {
+    "text": "处",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "chuan1.mp3": {
     "text": "川",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -340,7 +344,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "jia1.mp3": {
-    "text": "家",
+    "text": "加",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "jian4.mp3": {
@@ -467,6 +471,10 @@
     "text": "毛",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "mei3.mp3": {
+    "text": "美",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "men2.mp3": {
     "text": "門",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -517,6 +525,10 @@
   },
   "nei4.mp3": {
     "text": "内",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ni3.mp3": {
+    "text": "你",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "niao3.mp3": {

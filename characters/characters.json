@@ -1530,6 +1530,24 @@
           "pdc": { "name": "make", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "你",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ni3",
+          "jpAudioKey": "ji",
+          "cn": {
+            "name": "你", "reading": "nǐ", "gloss": "you",
+            "extra": "亻 + 尔 · 你好、你们 · 单人旁 · 第二人称"
+          },
+          "jp": {
+            "name": "你", "reading": "ジ", "gloss": "you (2nd person)",
+            "extra": "漢字「你」(ジ · なんじ) · 中国語の二人称「you」· 日本語では非常用漢字"
+          },
+          "wk": null,
+          "pdc": { "name": "you", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "使",
           "tag": "char",
           "image": "",
@@ -1604,6 +1622,24 @@
           },
           "wk": null,
           "kanji": { "name": "Cut", "readings": ["セツ"], "on": true, "kun": ["き"], "level": 3 }
+        },
+        {
+          "glyph": "加",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "jia1",
+          "jpAudioKey": "kuwaeru",
+          "cn": {
+            "name": "加", "reading": "jiā", "gloss": "to add; plus",
+            "extra": "力 + 口 · 加法、加入、参加、加油 · 会意"
+          },
+          "jp": {
+            "name": "加", "reading": "くわえる", "gloss": "add",
+            "extra": "漢字「加」(くわ-える · カ) · 加える、追加(ついか)、加藤(かとう)"
+          },
+          "wk": null,
+          "pdc": { "name": "add", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "可",
@@ -1694,6 +1730,25 @@
           },
           "wk": null,
           "pdc": { "name": "land", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "处",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "chu4",
+          "jpAudioKey": "sho",
+          "script": {"traditional": [{"glyph": "處"}]},
+          "cn": {
+            "name": "处", "reading": "chù", "gloss": "place; office; to handle",
+            "extra": "夂 + 卜 · 处所、到处、办事处、人事处 · 又音 chǔ（处理）"
+          },
+          "jp": {
+            "name": "処", "reading": "ショ", "gloss": "dispose; deal with; place",
+            "extra": "漢字「処」(ショ) · 処理(しょり)、対処(たいしょ) · 中文簡体作「处」"
+          },
+          "wk": null,
+          "pdc": { "name": "bureau", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "太",
@@ -2172,6 +2227,24 @@
           },
           "wk": { "name": "Stand", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Stand", "readings": ["リツ"], "on": true, "kun": ["たつ"], "level": 3 }
+        },
+        {
+          "glyph": "美",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "mei3",
+          "jpAudioKey": "utsukushii",
+          "cn": {
+            "name": "美", "reading": "měi", "gloss": "beautiful; pretty",
+            "extra": "羊 + 大 · 美丽、美好、美国 · 会意"
+          },
+          "jp": {
+            "name": "美", "reading": "うつくしい", "gloss": "beauty; beautiful",
+            "extra": "漢字「美」(うつく-しい · ビ・ミ) · 美しい、美人(びじん)、美術(びじゅつ)"
+          },
+          "wk": null,
+          "pdc": { "name": "beautiful", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "者",
