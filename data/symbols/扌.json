@@ -1,0 +1,34 @@
+{
+  "glyph": "扌",
+  "cp": "U+624C",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "扌",
+      "reading": "",
+      "gloss": "hand (left radical form)",
+      "extra": "「手」的偏旁（在左）· 打、持、指、找"
+    },
+    "jp": {
+      "name": "扌",
+      "reading": "",
+      "gloss": "hand (left radical form)",
+      "extra": "「手」の偏旁（てへん）· Unicode U+624C"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Fingers",
+      "kind": "mnemonic",
+      "level": 3
+    }
+  ]
+}

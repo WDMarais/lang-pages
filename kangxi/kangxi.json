@@ -2004,7 +2004,11 @@
             "reading": "",
             "gloss": "shelter"
           },
-          "wk": null,
+          "wk": {
+            "name": "Canopy",
+            "level": 3,
+            "kind": "mnemonic"
+          },
           "kx": 53,
           "cnAudioKey": "guang3"
         },
@@ -6613,6 +6617,29 @@
           "cnExAudioKey": "chu1",
           "jpAudioKey": "koromo",
           "jpExAudioKey": "sho"
+        },
+        {
+          "glyph": "扌",
+          "tag": "comp",
+          "image": "",
+          "hw": true,
+          "cn": {
+            "name": "扌",
+            "reading": "",
+            "gloss": "hand (left radical form)",
+            "extra": "「手」的偏旁（在左）· 打、持、指、找"
+          },
+          "jp": {
+            "name": "扌",
+            "reading": "",
+            "gloss": "hand (left radical form)",
+            "extra": "「手」の偏旁（てへん）· Unicode U+624C"
+          },
+          "wk": {
+            "name": "Fingers",
+            "level": 3,
+            "kind": "mnemonic"
+          }
         },
         {
           "glyph": "覀",

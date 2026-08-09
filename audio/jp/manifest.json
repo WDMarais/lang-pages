@@ -519,6 +519,10 @@
     "text": "すき",
     "voice": "ja-JP-NanamiNeural"
   },
+  "sukunai.mp3": {
+    "text": "すくない",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ta.mp3": {
     "text": "た",
     "voice": "ja-JP-NanamiNeural"

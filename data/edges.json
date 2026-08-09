@@ -924,6 +924,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:少",
+      "to": "r:few",
+      "kind": "denotes"
+    },
+    {
       "from": "g:尢",
       "to": "r:lame",
       "kind": "denotes"
@@ -1026,6 +1031,11 @@
     {
       "from": "g:戶",
       "to": "r:door",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:扌",
+      "to": "r:hand",
       "kind": "denotes"
     },
     {
@@ -2839,6 +2849,16 @@
     {
       "from": "g:尸",
       "to": "g:戶",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "g:扌",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亅",
+      "to": "g:扌",
       "kind": "composes"
     },
     {
@@ -6120,6 +6140,21 @@
     {
       "from": "w:白人@jp",
       "to": "r:white-person",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:目",
+      "to": "w:目玉@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:玉",
+      "to": "w:目玉@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:目玉@jp",
+      "to": "r:eyeball",
       "kind": "denotes"
     },
     {

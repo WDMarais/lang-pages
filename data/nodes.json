@@ -181,13 +181,6 @@
       "label": "small; little"
     },
     {
-      "id": "g:少",
-      "kind": "glyph",
-      "glyph": "少",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:人",
       "kind": "glyph",
       "glyph": "人",
@@ -2644,6 +2637,24 @@
       "label": "inch"
     },
     {
+      "id": "g:少",
+      "kind": "glyph",
+      "glyph": "少",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "shao3",
+      "jpAudioKey": "sukunai"
+    },
+    {
+      "id": "r:few",
+      "kind": "referent",
+      "label": "few; little"
+    },
+    {
       "id": "g:尢",
       "kind": "glyph",
       "glyph": "尢",
@@ -2969,6 +2980,17 @@
       "id": "r:door",
       "kind": "referent",
       "label": "door"
+    },
+    {
+      "id": "g:扌",
+      "kind": "glyph",
+      "glyph": "扌",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      }
     },
     {
       "id": "g:支",
@@ -6075,13 +6097,6 @@
       "frontier": true
     },
     {
-      "id": "g:扌",
-      "kind": "glyph",
-      "glyph": "扌",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:龹",
       "kind": "glyph",
       "glyph": "龹",
@@ -8696,6 +8711,25 @@
       "id": "r:white-person",
       "kind": "referent",
       "label": "white person; Caucasian"
+    },
+    {
+      "id": "w:目玉@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "目玉",
+      "reading": "めだま",
+      "gloss": "eyeball",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:eyeball",
+      "kind": "referent",
+      "label": "eyeball"
     }
   ]
 }

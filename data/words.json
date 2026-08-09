@@ -2086,6 +2086,22 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "目玉",
+      "audience": "jp",
+      "parts": [
+        "目",
+        "玉"
+      ],
+      "denotes": "eyeball",
+      "reading": "めだま",
+      "gloss": "eyeball",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

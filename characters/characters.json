@@ -1749,6 +1749,24 @@
           "wk": null
         },
         {
+          "glyph": "少",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "shao3",
+          "jpAudioKey": "sukunai",
+          "cn": {
+            "name": "少", "reading": "shǎo", "gloss": "few; little",
+            "extra": "小 + 丿 · 少数、多少、很少 · 会意"
+          },
+          "jp": {
+            "name": "少", "reading": "すくない", "gloss": "few",
+            "extra": "漢字「少」(すく-ない · すこ-し · ショウ) · 少ない、少し、少年(しょうねん)"
+          },
+          "wk": null,
+          "kanji": { "name": "Few", "readings": ["ショウ"], "on": true, "kun": ["すく", "すこ"], "level": 3 }
+        },
+        {
           "glyph": "己",
           "tag": "char",
           "image": "",
