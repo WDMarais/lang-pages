@@ -819,6 +819,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:切",
+      "to": "r:cut",
+      "kind": "denotes"
+    },
+    {
       "from": "g:匕",
       "to": "r:spoon",
       "kind": "denotes"
@@ -6100,6 +6105,21 @@
     {
       "from": "w:万@jp",
       "to": "r:ten-thousand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:白",
+      "to": "w:白人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:白人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:白人@jp",
+      "to": "r:white-person",
       "kind": "denotes"
     },
     {

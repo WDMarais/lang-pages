@@ -21,5 +21,14 @@
       "gloss": "dry"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Dry",
+      "kind": "meaning",
+      "level": 3
+    }
+  ]
 }

@@ -1588,6 +1588,24 @@
           "pdc": { "name": "divide", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "切",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "qie1",
+          "jpAudioKey": "kiru",
+          "cn": {
+            "name": "切", "reading": "qiē", "gloss": "to cut; to slice",
+            "extra": "七 + 刀 · 切菜、切开、一切(qiè)、亲切 · 形声"
+          },
+          "jp": {
+            "name": "切", "reading": "きる", "gloss": "to cut",
+            "extra": "漢字「切」(き-る · セツ・サイ) · 切る、大切(たいせつ)、切手(きって)"
+          },
+          "wk": null,
+          "kanji": { "name": "Cut", "readings": ["セツ"], "on": true, "kun": ["き"], "level": 3 }
+        },
+        {
           "glyph": "可",
           "tag": "char",
           "image": "",

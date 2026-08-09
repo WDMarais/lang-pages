@@ -29,6 +29,14 @@
       "name": "go",
       "kind": "meaning",
       "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Winter",
+      "kind": "mnemonic",
+      "level": 3
     }
   ]
 }

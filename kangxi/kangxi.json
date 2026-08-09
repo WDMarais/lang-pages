@@ -1276,7 +1276,11 @@
             "reading": "",
             "gloss": "go"
           },
-          "wk": null,
+          "wk": {
+            "name": "Winter",
+            "level": 3,
+            "kind": "mnemonic"
+          },
           "pd": {
             "name": "go",
             "level": 2,
@@ -1956,7 +1960,11 @@
             "reading": "",
             "gloss": "dry"
           },
-          "wk": null,
+          "wk": {
+            "name": "Dry",
+            "level": 3,
+            "kind": "meaning"
+          },
           "kx": 51,
           "cnAudioKey": "gan1"
         },

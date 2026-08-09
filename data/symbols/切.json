@@ -1,0 +1,39 @@
+{
+  "glyph": "切",
+  "cp": "U+5207",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "切",
+      "reading": "qiē",
+      "gloss": "to cut; to slice",
+      "extra": "七 + 刀 · 切菜、切开、一切(qiè)、亲切 · 形声"
+    },
+    "jp": {
+      "name": "切",
+      "reading": "きる",
+      "gloss": "to cut",
+      "extra": "漢字「切」(き-る · セツ・サイ) · 切る、大切(たいせつ)、切手(きって)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Cut",
+      "readings": [
+        "セツ"
+      ],
+      "on": true,
+      "kun": [
+        "き"
+      ],
+      "level": 3
+    }
+  ]
+}

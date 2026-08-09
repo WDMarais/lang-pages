@@ -2070,6 +2070,22 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "白人",
+      "audience": "jp",
+      "parts": [
+        "白",
+        "人"
+      ],
+      "denotes": "white-person",
+      "reading": "はくじん",
+      "gloss": "white person; Caucasian",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

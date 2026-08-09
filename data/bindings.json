@@ -4026,6 +4026,42 @@
       }
     },
     {
+      "id": "b:切@cn",
+      "glyph_id": "g:切",
+      "lang": "cn",
+      "name": "切",
+      "readings": [
+        "qiē"
+      ],
+      "gloss": "to cut; to slice",
+      "extra": "七 + 刀 · 切菜、切开、一切(qiè)、亲切 · 形声"
+    },
+    {
+      "id": "b:切@jp",
+      "glyph_id": "g:切",
+      "lang": "jp",
+      "name": "切",
+      "readings": [
+        "きる"
+      ],
+      "gloss": "to cut",
+      "extra": "漢字「切」(き-る · セツ・サイ) · 切る、大切(たいせつ)、切手(きって)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Cut",
+          "readings": [
+            "セツ"
+          ],
+          "on": true,
+          "kun": [
+            "き"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:匕@cn",
       "glyph_id": "g:匕",
       "lang": "cn",
@@ -4375,7 +4411,13 @@
       "name": "夂",
       "readings": [],
       "gloss": "go",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Winter",
+        "level": 3,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:夊@cn",
@@ -4661,7 +4703,13 @@
       "name": "干",
       "readings": [],
       "gloss": "dry",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Dry",
+        "level": 3,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:幺@cn",

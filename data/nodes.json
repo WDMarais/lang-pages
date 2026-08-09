@@ -416,13 +416,6 @@
       "label": "seven"
     },
     {
-      "id": "g:切",
-      "kind": "glyph",
-      "glyph": "切",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:九",
       "kind": "glyph",
       "glyph": "九",
@@ -2273,6 +2266,24 @@
       "glyph": "粉",
       "tier": null,
       "frontier": true
+    },
+    {
+      "id": "g:切",
+      "kind": "glyph",
+      "glyph": "切",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "qie1",
+      "jpAudioKey": "kiru"
+    },
+    {
+      "id": "r:cut",
+      "kind": "referent",
+      "label": "to cut; to slice"
     },
     {
       "id": "g:匕",
@@ -8666,6 +8677,25 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "id": "w:白人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "白人",
+      "reading": "はくじん",
+      "gloss": "white person; Caucasian",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:white-person",
+      "kind": "referent",
+      "label": "white person; Caucasian"
     }
   ]
 }
