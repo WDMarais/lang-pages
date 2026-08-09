@@ -23,6 +23,10 @@
     "text": "あたえる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "atama.mp3": {
+    "text": "あたま",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "au.mp3": {
     "text": "あう",
     "voice": "ja-JP-NanamiNeural"
@@ -463,6 +467,10 @@
     "text": "さき",
     "voice": "ja-JP-NanamiNeural"
   },
+  "sama.mp3": {
+    "text": "さま",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "san.mp3": {
     "text": "サン",
     "voice": "ja-JP-NanamiNeural"
@@ -537,6 +545,10 @@
   },
   "tadashi.mp3": {
     "text": "ただし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tame.mp3": {
+    "text": "ため",
     "voice": "ja-JP-NanamiNeural"
   },
   "tatekaku.mp3": {

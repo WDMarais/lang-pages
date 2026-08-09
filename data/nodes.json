@@ -1879,6 +1879,31 @@
       "label": "(generic measure word); individual"
     },
     {
+      "id": "g:为",
+      "kind": "glyph",
+      "glyph": "为",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "wei2",
+      "jpAudioKey": "tame",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "為"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:do",
+      "kind": "referent",
+      "label": "to do; to act; to be"
+    },
+    {
       "id": "g:义",
       "kind": "glyph",
       "glyph": "义",
@@ -2668,6 +2693,31 @@
       "label": "too; very; excessively"
     },
     {
+      "id": "g:头",
+      "kind": "glyph",
+      "glyph": "头",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "tou2",
+      "jpAudioKey": "atama",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "頭"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:head",
+      "kind": "referent",
+      "label": "head"
+    },
+    {
       "id": "g:她",
       "kind": "glyph",
       "glyph": "她",
@@ -3322,6 +3372,31 @@
       "frontier": true
     },
     {
+      "id": "g:样",
+      "kind": "glyph",
+      "glyph": "样",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yang4",
+      "jpAudioKey": "sama",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "樣"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:appearance",
+      "kind": "referent",
+      "label": "appearance; kind; manner"
+    },
+    {
       "id": "g:欠",
       "kind": "glyph",
       "glyph": "欠",
@@ -3921,11 +3996,6 @@
       "cnExAudioKey": "xiang3",
       "jpAudioKey": "ai",
       "jpExAudioKey": "sou"
-    },
-    {
-      "id": "r:appearance",
-      "kind": "referent",
-      "label": "appearance; looks"
     },
     {
       "id": "g:想",
@@ -5368,11 +5438,6 @@
       "cnAudioKey": "ye4"
     },
     {
-      "id": "r:head",
-      "kind": "referent",
-      "label": "head; page"
-    },
-    {
       "id": "g:風",
       "kind": "glyph",
       "glyph": "風",
@@ -6240,13 +6305,6 @@
       "id": "g:贝",
       "kind": "glyph",
       "glyph": "贝",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:头",
-      "kind": "glyph",
-      "glyph": "头",
       "tier": null,
       "frontier": true
     },

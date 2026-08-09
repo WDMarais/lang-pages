@@ -1,0 +1,40 @@
+{
+  "glyph": "样",
+  "cp": "U+6837",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "样",
+      "reading": "yàng",
+      "gloss": "appearance; kind; manner",
+      "extra": "木 + 羊 · 样子、一样、这样、样品 · 繁体作樣"
+    },
+    "jp": {
+      "name": "様",
+      "reading": "さま",
+      "gloss": "appearance; manner; Mr./Ms.",
+      "extra": "漢字「様」(さま · ヨウ) · 様子(ようす)、模様(もよう)、皆様 · 中文簡体作「样」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "樣"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "way",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

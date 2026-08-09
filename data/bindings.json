@@ -2012,7 +2012,15 @@
         "xià"
       ],
       "gloss": "below; down; under",
-      "extra": "指事字 · 基准线下方加标记 · 与「上」相对"
+      "extra": "指事字 · 基准线下方加标记 · 与「上」相对",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "under",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
     },
     {
       "id": "b:下@jp",
@@ -3509,6 +3517,36 @@
       "extra": "漢字「個」(コ) · 一個(いっこ)、個人(こじん) · 中文簡体作「个」"
     },
     {
+      "id": "b:为@cn",
+      "glyph_id": "g:为",
+      "lang": "cn",
+      "name": "为",
+      "readings": [
+        "wéi"
+      ],
+      "gloss": "to do; to act; to be",
+      "extra": "认为、以为、成为、作为 · 又音 wèi（为了、因为）· 繁体作為",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "to do",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:为@jp",
+      "glyph_id": "g:为",
+      "lang": "jp",
+      "name": "為",
+      "readings": [
+        "ため"
+      ],
+      "gloss": "do; for the sake of",
+      "extra": "漢字「為」(ため · イ) · 為す、行為(こうい)、為替(かわせ) · 中文簡体作「为」"
+    },
+    {
       "id": "b:义@cn",
       "glyph_id": "g:义",
       "lang": "cn",
@@ -4590,6 +4628,36 @@
       "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)"
     },
     {
+      "id": "b:头@cn",
+      "glyph_id": "g:头",
+      "lang": "cn",
+      "name": "头",
+      "readings": [
+        "tóu"
+      ],
+      "gloss": "head",
+      "extra": "头发、头脑、里头、木头 · 繁体作頭",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "head",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:头@jp",
+      "glyph_id": "g:头",
+      "lang": "jp",
+      "name": "頭",
+      "readings": [
+        "あたま"
+      ],
+      "gloss": "head",
+      "extra": "漢字「頭」(あたま · かしら · トウ・ズ) · 頭痛(ずつう)、先頭(せんとう) · 中文簡体作「头」"
+    },
+    {
       "id": "b:她@cn",
       "glyph_id": "g:她",
       "lang": "cn",
@@ -5523,6 +5591,36 @@
         "reading": "カ",
         "gloss": "section; lesson"
       }
+    },
+    {
+      "id": "b:样@cn",
+      "glyph_id": "g:样",
+      "lang": "cn",
+      "name": "样",
+      "readings": [
+        "yàng"
+      ],
+      "gloss": "appearance; kind; manner",
+      "extra": "木 + 羊 · 样子、一样、这样、样品 · 繁体作樣",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "way",
+          "kind": "meaning",
+          "level": 2
+        }
+      }
+    },
+    {
+      "id": "b:样@jp",
+      "glyph_id": "g:样",
+      "lang": "jp",
+      "name": "様",
+      "readings": [
+        "さま"
+      ],
+      "gloss": "appearance; manner; Mr./Ms.",
+      "extra": "漢字「様」(さま · ヨウ) · 様子(ようす)、模様(もよう)、皆様 · 中文簡体作「样」"
     },
     {
       "id": "b:欠@cn",
@@ -7853,7 +7951,7 @@
       "extra": "指示代词 · 与「这」相对 · 那个、那里、那么",
       "program": {
         "source": "pandanese",
-        "name": "what",
+        "name": "how",
         "level": 2,
         "kind": "mnemonic"
       }

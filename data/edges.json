@@ -703,6 +703,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:为",
+      "to": "r:do",
+      "kind": "denotes"
+    },
+    {
       "from": "g:义",
       "to": "r:meaning",
       "kind": "denotes"
@@ -929,6 +934,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:头",
+      "to": "r:head",
+      "kind": "denotes"
+    },
+    {
       "from": "g:她",
       "to": "r:she",
       "kind": "denotes"
@@ -1133,6 +1143,11 @@
       "from": "g:果",
       "to": "g:課",
       "kind": "composes"
+    },
+    {
+      "from": "g:样",
+      "to": "r:appearance",
+      "kind": "denotes"
     },
     {
       "from": "g:欠",
@@ -2131,6 +2146,16 @@
     },
     {
       "from": "g:丶",
+      "to": "g:为",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "g:为",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
       "to": "g:主",
       "kind": "composes"
     },
@@ -2696,6 +2721,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:⺀",
+      "to": "g:头",
+      "kind": "composes"
+    },
+    {
+      "from": "g:大",
+      "to": "g:头",
+      "kind": "composes"
+    },
+    {
       "from": "g:女",
       "to": "g:她",
       "kind": "composes"
@@ -3100,6 +3135,16 @@
     {
       "from": "g:木",
       "to": "g:果",
+      "kind": "composes"
+    },
+    {
+      "from": "g:木",
+      "to": "g:样",
+      "kind": "composes"
+    },
+    {
+      "from": "g:羊",
+      "to": "g:样",
       "kind": "composes"
     },
     {

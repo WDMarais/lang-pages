@@ -801,7 +801,8 @@
             "extra": "漢字「下」(した · カ · ゲ)"
           },
           "wk": { "name": "Below", "level": 1, "kind": "meaning" },
-          "kanji": { "name": "Below", "readings": ["カ", "ゲ"], "on": true, "kun": ["した"], "level": 1 }
+          "kanji": { "name": "Below", "readings": ["カ", "ゲ"], "on": true, "kun": ["した"], "level": 1 },
+          "pdc": { "name": "under", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "水",
@@ -1339,6 +1340,25 @@
           "wk": null
         },
         {
+          "glyph": "为",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "wei2",
+          "jpAudioKey": "tame",
+          "script": {"traditional": [{"glyph": "為"}]},
+          "cn": {
+            "name": "为", "reading": "wéi", "gloss": "to do; to act; to be",
+            "extra": "认为、以为、成为、作为 · 又音 wèi（为了、因为）· 繁体作為"
+          },
+          "jp": {
+            "name": "為", "reading": "ため", "gloss": "do; for the sake of",
+            "extra": "漢字「為」(ため · イ) · 為す、行為(こうい)、為替(かわせ) · 中文簡体作「为」"
+          },
+          "wk": null,
+          "pdc": { "name": "to do", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "义",
           "tag": "char",
           "image": "",
@@ -1788,6 +1808,25 @@
           "pdc": { "name": "fat", "kind": "mnemonic", "level": 2 }
         },
         {
+          "glyph": "头",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "tou2",
+          "jpAudioKey": "atama",
+          "script": {"traditional": [{"glyph": "頭"}]},
+          "cn": {
+            "name": "头", "reading": "tóu", "gloss": "head",
+            "extra": "头发、头脑、里头、木头 · 繁体作頭"
+          },
+          "jp": {
+            "name": "頭", "reading": "あたま", "gloss": "head",
+            "extra": "漢字「頭」(あたま · かしら · トウ・ズ) · 頭痛(ずつう)、先頭(せんとう) · 中文簡体作「头」"
+          },
+          "wk": null,
+          "pdc": { "name": "head", "kind": "meaning", "level": 2 }
+        },
+        {
           "glyph": "她",
           "tag": "char",
           "image": "",
@@ -2018,6 +2057,25 @@
           },
           "wk": null,
           "pdc": { "name": "fruit", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "样",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yang4",
+          "jpAudioKey": "sama",
+          "script": {"traditional": [{"glyph": "樣"}]},
+          "cn": {
+            "name": "样", "reading": "yàng", "gloss": "appearance; kind; manner",
+            "extra": "木 + 羊 · 样子、一样、这样、样品 · 繁体作樣"
+          },
+          "jp": {
+            "name": "様", "reading": "さま", "gloss": "appearance; manner; Mr./Ms.",
+            "extra": "漢字「様」(さま · ヨウ) · 様子(ようす)、模様(もよう)、皆様 · 中文簡体作「样」"
+          },
+          "wk": null,
+          "pdc": { "name": "way", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "正",
@@ -2464,7 +2522,7 @@
             "extra": "音「ナ」· 刹那(せつな)、旦那(だんな)"
           },
           "wk": null,
-          "pd": { "name": "what", "level": 2, "kind": "mnemonic" }
+          "pd": { "name": "how", "level": 2, "kind": "mnemonic" }
         },
         {
           "glyph": "魚",

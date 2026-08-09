@@ -1,0 +1,40 @@
+{
+  "glyph": "头",
+  "cp": "U+5934",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "头",
+      "reading": "tóu",
+      "gloss": "head",
+      "extra": "头发、头脑、里头、木头 · 繁体作頭"
+    },
+    "jp": {
+      "name": "頭",
+      "reading": "あたま",
+      "gloss": "head",
+      "extra": "漢字「頭」(あたま · かしら · トウ・ズ) · 頭痛(ずつう)、先頭(せんとう) · 中文簡体作「头」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "頭"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "head",
+      "kind": "meaning",
+      "level": 2
+    }
+  ]
+}

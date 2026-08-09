@@ -764,7 +764,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tou2.mp3": {
-    "text": "亠",
+    "text": "头",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tu3.mp3": {
@@ -800,7 +800,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wei2.mp3": {
-    "text": "囗",
+    "text": "为",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wen2.mp3": {
@@ -909,6 +909,10 @@
   },
   "yang2.mp3": {
     "text": "羊",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yang4.mp3": {
+    "text": "样",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yao1.mp3": {
