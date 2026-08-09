@@ -698,6 +698,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:两",
+      "to": "r:two",
+      "kind": "denotes"
+    },
+    {
       "from": "g:个",
       "to": "r:",
       "kind": "denotes"
@@ -1760,6 +1765,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:零",
+      "to": "r:zero",
+      "kind": "denotes"
+    },
+    {
       "from": "g:青",
       "to": "r:blue-green",
       "kind": "denotes"
@@ -2132,6 +2142,21 @@
     {
       "from": "g:一",
       "to": "g:业",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:两",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:两",
+      "kind": "composes"
+    },
+    {
+      "from": "g:从",
+      "to": "g:两",
       "kind": "composes"
     },
     {
@@ -4110,6 +4135,16 @@
     {
       "from": "g:帀",
       "to": "g:雨",
+      "kind": "composes"
+    },
+    {
+      "from": "g:雨",
+      "to": "g:零",
+      "kind": "composes"
+    },
+    {
+      "from": "g:令",
+      "to": "g:零",
       "kind": "composes"
     },
     {

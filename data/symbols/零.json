@@ -1,0 +1,24 @@
+{
+  "glyph": "零",
+  "cp": "U+96F6",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "零",
+      "reading": "líng",
+      "gloss": "zero; fraction; remnant",
+      "extra": "雨 + 令 · 零、一百零五、零下、零钱 · 内部空位补「零」"
+    },
+    "jp": {
+      "name": "零",
+      "reading": "れい",
+      "gloss": "zero",
+      "extra": "漢字「零」(レイ · ゼロ) · 零度(れいど)、零点(れいてん)"
+    }
+  },
+  "programs": []
+}

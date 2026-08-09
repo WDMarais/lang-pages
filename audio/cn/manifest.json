@@ -423,12 +423,20 @@
     "text": "力",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "liang3.mp3": {
+    "text": "两",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "liao3.mp3": {
     "text": "了",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "lin2.mp3": {
     "text": "林",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ling2.mp3": {
+    "text": "零",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "liu4.mp3": {

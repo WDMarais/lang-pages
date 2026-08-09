@@ -455,6 +455,10 @@
     "text": "おうせつこう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "rei.mp3": {
+    "text": "れい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "roku.mp3": {
     "text": "ロク",
     "voice": "ja-JP-NanamiNeural"

@@ -1322,6 +1322,24 @@
           "kanji": { "name": "Ten Thousand", "readings": ["マン"], "on": true, "level": 3 }
         },
         {
+          "glyph": "两",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "liang3",
+          "jpAudioKey": "ryou",
+          "script": {"traditional": [{"glyph": "兩"}]},
+          "cn": {
+            "name": "两", "reading": "liǎng", "gloss": "two (of a pair); a couple; tael",
+            "extra": "两个、两百、斤两 · 量词前用「两」不用「二」· 繁体作兩"
+          },
+          "jp": {
+            "name": "両", "reading": "リョウ", "gloss": "both; two; (old coin)",
+            "extra": "漢字「両」(リョウ) · 両方(りょうほう)、両親(りょうしん)、車両 · 中文簡体作「两」"
+          },
+          "wk": null
+        },
+        {
           "glyph": "个",
           "tag": "char",
           "image": "",
@@ -2578,6 +2596,23 @@
           },
           "wk": null,
           "pdc": { "name": "all", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "零",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "ling2",
+          "jpAudioKey": "rei",
+          "cn": {
+            "name": "零", "reading": "líng", "gloss": "zero; fraction; remnant",
+            "extra": "雨 + 令 · 零、一百零五、零下、零钱 · 内部空位补「零」"
+          },
+          "jp": {
+            "name": "零", "reading": "れい", "gloss": "zero",
+            "extra": "漢字「零」(レイ · ゼロ) · 零度(れいど)、零点(れいてん)"
+          },
+          "wk": null
         },
         {
           "glyph": "魚",

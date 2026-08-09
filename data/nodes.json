@@ -1843,6 +1843,26 @@
       "label": "ten thousand"
     },
     {
+      "id": "g:两",
+      "kind": "glyph",
+      "glyph": "两",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "liang3",
+      "jpAudioKey": "ryou",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "兩"
+          }
+        ]
+      }
+    },
+    {
       "id": "g:个",
       "kind": "glyph",
       "glyph": "个",
@@ -5354,6 +5374,24 @@
       "label": "rain"
     },
     {
+      "id": "g:零",
+      "kind": "glyph",
+      "glyph": "零",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "ling2",
+      "jpAudioKey": "rei"
+    },
+    {
+      "id": "r:zero",
+      "kind": "referent",
+      "label": "zero; fraction; remnant"
+    },
+    {
       "id": "g:青",
       "kind": "glyph",
       "glyph": "青",
@@ -6534,6 +6572,13 @@
       "id": "g:帀",
       "kind": "glyph",
       "glyph": "帀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:令",
+      "kind": "glyph",
+      "glyph": "令",
       "tier": null,
       "frontier": true
     },

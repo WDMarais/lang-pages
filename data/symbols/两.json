@@ -1,0 +1,31 @@
+{
+  "glyph": "两",
+  "cp": "U+4E24",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "两",
+      "reading": "liǎng",
+      "gloss": "two (of a pair); a couple; tael",
+      "extra": "两个、两百、斤两 · 量词前用「两」不用「二」· 繁体作兩"
+    },
+    "jp": {
+      "name": "両",
+      "reading": "リョウ",
+      "gloss": "both; two; (old coin)",
+      "extra": "漢字「両」(リョウ) · 両方(りょうほう)、両親(りょうしん)、車両 · 中文簡体作「两」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "兩"
+      }
+    ]
+  },
+  "programs": []
+}
