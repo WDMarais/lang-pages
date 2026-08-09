@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>数字 · Numbers — the quantity behind the character</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="numerals.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">数 · Numbers</div>
+  <div class="cover-title">数字</div>
+  <div class="cover-py">shùzì</div>
+  <div class="cover-sub">The quantity behind the character</div>
+  <div class="cover-meta"><span class="en">Ten atoms + one rule generate the whole number line</span><span class="zh-alt">十个基本字 + 一条规则，生成整条数轴</span></div>
+</header>
+
+<!-- ── 1. counting 1-10 ─────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Counting one to ten</span><span class="zh-alt">数一到十</span></div>
+    <h2>一 到 十</h2>
+    <p class="lede">A number's referent <em>is</em> a quantity. Shown two ways — pips clustered in fives,
+      and the 正 tally, the East-Asian 5-stroke counting mark (each 正 = 5).</p>
+  </div>
+  <div class="grid-host"><div class="num-grid" id="units-grid"></div></div>
+</section>
+
+<!-- ── 2. powers / the myriad system ────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Powers of ten — the myriad system</span><span class="zh-alt">位 · 万进制</span></div>
+    <h2>位</h2>
+    <p class="lede">Place-values <b>十百千</b> cycle inside each block; blocks are named every <b>four</b>
+      digits — <b>万</b> (10⁴), <b>億</b> (10⁸) — not every three. So big numbers group as
+      <span class="mono">1,0000</span> and <span class="mono">1,0000,0000</span>, not 10,000 / 100,000,000.</p>
+  </div>
+  <div class="grid-host"><div class="pow-grid" id="powers-grid"></div></div>
+</section>
+
+<!-- ── 3. the builder — composition made tangible ───── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">How numbers combine</span><span class="zh-alt">组合</span></div>
+    <h2>组合规则</h2>
+    <p class="lede">Every number is a sum of <em>digit × place-value</em>, read high to low. Type one and
+      watch it decompose — the same generative rule that regenerates the entire number line from a
+      handful of atoms.</p>
+
+    <div class="builder">
+      <div class="build-input-row">
+        <input id="build-input" type="number" min="0" max="100000000" value="3847" inputmode="numeric">
+        <div class="presets">
+          <button class="preset" data-n="15">15</button>
+          <button class="preset" data-n="105">105</button>
+          <button class="preset" data-n="3847">3847</button>
+          <button class="preset" data-n="10008">10008</button>
+          <button class="preset" data-n="100000000">10⁸</button>
+        </div>
+      </div>
+      <div id="build-out"></div>
+    </div>
+
+    <table class="rules">
+      <thead><tr><th>band</th><th>rule</th><th class="en">what to watch</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">11–99</td><td><span class="mono">[T]十[U]</span> = T×10 + U</td>
+            <td>drop the leading 一 — <b>十一</b> not 一十一 <span class="en">(but 110 = 一百一十)</span></td></tr>
+        <tr><td class="mono">100–999</td><td><span class="mono">[H]百…</span></td>
+            <td>一百 keeps its 一; an internal skip inserts <b>零</b> — 105 = <b>一百零五</b></td></tr>
+        <tr><td class="mono">1000–9999</td><td><span class="mono">[Th]千…</span></td>
+            <td>1001 = <b>一千零一</b> — one 零 spans the gap</td></tr>
+        <tr><td class="mono">10⁴–10⁸</td><td>group by <b>万</b></td>
+            <td>10008 = <b>一万零八</b>; 10⁸ = <b>一億</b></td></tr>
+        <tr><td class="mono">“2”</td><td>二 vs <b>两</b></td>
+            <td>两 before 百/千/万 &amp; counters — <b>两百</b>, <b>两个</b> — but 二 in 二十 &amp; ordinals</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <a href="/">← 首页 <span class="en">home</span></a>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="numerals.js"></script>
+</body>
+</html>

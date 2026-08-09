@@ -1,0 +1,22 @@
+{
+  "_note": "Numeral view over existing glyphs — see memory numerals-page-design. `value` is the integer; jp readings are the COUNTING series (on'yomi 1-10), which differ from some glyphs' stored kun (三=みっつ, 七=なな). glyph / value / cn align with data/symbols/*. Zero (零/〇) and colloquial 两 are not yet symbols (deferred ingest). Consumed directly by /numerals/numerals.js — no build step.",
+  "units": [
+    {"glyph": "一", "value": 1,  "cn": "yī",  "jp": "いち",       "en": "one"},
+    {"glyph": "二", "value": 2,  "cn": "èr",  "jp": "に",         "en": "two"},
+    {"glyph": "三", "value": 3,  "cn": "sān", "jp": "さん",       "en": "three"},
+    {"glyph": "四", "value": 4,  "cn": "sì",  "jp": "し・よん",    "en": "four"},
+    {"glyph": "五", "value": 5,  "cn": "wǔ",  "jp": "ご",         "en": "five"},
+    {"glyph": "六", "value": 6,  "cn": "liù", "jp": "ろく",       "en": "six"},
+    {"glyph": "七", "value": 7,  "cn": "qī",  "jp": "しち・なな",  "en": "seven"},
+    {"glyph": "八", "value": 8,  "cn": "bā",  "jp": "はち",       "en": "eight"},
+    {"glyph": "九", "value": 9,  "cn": "jiǔ", "jp": "きゅう・く",  "en": "nine"},
+    {"glyph": "十", "value": 10, "cn": "shí", "jp": "じゅう",     "en": "ten"}
+  ],
+  "powers": [
+    {"glyph": "十", "value": 10,        "pow": 1, "cn": "shí",  "jp": "じゅう",  "en": "ten",             "compose": "—",     "grouped": "10"},
+    {"glyph": "百", "value": 100,       "pow": 2, "cn": "bǎi",  "jp": "ひゃく",  "en": "hundred",         "compose": "十 × 十", "grouped": "100"},
+    {"glyph": "千", "value": 1000,      "pow": 3, "cn": "qiān", "jp": "せん",    "en": "thousand",        "compose": "十 × 百", "grouped": "1000"},
+    {"glyph": "万", "value": 10000,     "pow": 4, "cn": "wàn",  "jp": "まん",    "en": "ten thousand",    "compose": "百 × 百", "grouped": "1,0000"},
+    {"glyph": "億", "value": 100000000, "pow": 8, "cn": "yì",   "jp": "おく",    "en": "hundred million", "compose": "万 × 万", "grouped": "1,0000,0000"}
+  ]
+}

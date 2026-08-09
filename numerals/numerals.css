@@ -1,0 +1,91 @@
+/* /numerals/ — units (dots + 正 tally), powers (myriad), builder. */
+
+.lede { max-width: 60ch; color: var(--muted); font-size: 1.02rem; line-height: 1.65; margin: .3rem 0 0; }
+.lede em { color: var(--ink); font-style: normal; font-weight: 600; }
+.mono { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+
+.grid-host { max-width: 1100px; margin: 1.4rem auto 0; padding: 0 1.25rem; }
+.num-grid  { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 1rem; }
+.pow-grid  { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1rem; }
+
+/* ── cards (shared shell) ── */
+.ncard, .pcard {
+  background: var(--white); border: 1px solid var(--border); border-radius: 14px;
+  padding: 1.1rem 1.1rem 1.25rem; box-shadow: 0 1px 2px rgba(0,0,0,.03);
+}
+.nc-top { display: flex; align-items: baseline; gap: .5rem; margin-bottom: .55rem; }
+.glyph  { font-family: "LXGW WenKai", serif; font-size: 2.9rem; line-height: 1; color: var(--ink); }
+.val    { margin-left: auto; color: var(--gold); font-weight: 600; font-variant-numeric: tabular-nums; }
+.val sup { font-size: .7em; }
+.reading { font-size: .9rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: .5rem; align-items: baseline; }
+.reading b { color: var(--ink); font-weight: 600; }
+.reading .jp { color: var(--navy); }
+.reading .en { color: var(--muted); }
+
+.ref-label { font-size: .68rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted);
+             opacity: .8; margin: .85rem 0 .35rem; }
+
+/* ── dots ── */
+.dots { display: flex; flex-wrap: wrap; gap: .5rem; }
+.dot-cluster { display: inline-grid; grid-template-columns: repeat(5, 10px); gap: 4px;
+               padding: 5px 7px; background: var(--cream); border-radius: 8px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--red); }
+
+/* ── 正 tally ── */
+.tally { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .5rem; min-height: 50px; }
+.tally svg.mark { width: 44px; height: 44px; display: block; }
+.tally svg.mark path.lit { fill: var(--ink); stroke: none; }
+.tally svg.mark.part path.lit { fill: var(--red); }
+.tally svg.mark path.gh { fill: var(--border); stroke: none; }
+
+/* ── powers ── */
+.pc-grouped { font-family: ui-monospace, Menlo, Consolas, monospace; font-variant-numeric: tabular-nums;
+              font-size: 1.15rem; color: var(--ink); margin: .7rem 0 .35rem; letter-spacing: .02em; }
+.pc-rule .pc-compose { font-family: "LXGW WenKai", serif; color: var(--navy); font-size: 1.05rem; }
+.pc-rule .pc-atom { font-size: .82rem; color: var(--muted); font-style: italic; }
+
+/* ── builder ── */
+.builder { max-width: 720px; margin: 1.5rem 0 1.2rem; }
+.build-input-row { display: flex; flex-wrap: wrap; gap: .7rem; align-items: center; }
+#build-input {
+  font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 1.3rem; font-variant-numeric: tabular-nums;
+  width: 11rem; padding: .55rem .75rem; border: 1px solid var(--border); border-radius: 10px;
+  background: var(--white); color: var(--ink);
+}
+#build-input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(180,150,60,.15); }
+.presets { display: flex; flex-wrap: wrap; gap: .4rem; }
+.preset {
+  font: inherit; font-size: .85rem; padding: .4rem .7rem; border: 1px solid var(--border);
+  border-radius: 999px; background: var(--cream); color: var(--ink); cursor: pointer;
+}
+.preset:hover { border-color: var(--gold); color: var(--navy); }
+
+#build-out { margin-top: 1.2rem; }
+.build-chars { font-family: "LXGW WenKai", serif; font-size: 2.6rem; line-height: 1.25; color: var(--ink);
+               letter-spacing: .04em; }
+.build-digits { font-family: ui-monospace, Menlo, Consolas, monospace; font-variant-numeric: tabular-nums;
+                color: var(--muted); margin: .15rem 0 1rem; }
+.build-tree { display: flex; flex-wrap: wrap; gap: .5rem; }
+.term { display: flex; flex-direction: column; align-items: center; gap: .2rem;
+        padding: .55rem .7rem; background: var(--cream); border: 1px solid var(--border); border-radius: 10px; }
+.term .t-glyph { font-family: "LXGW WenKai", serif; font-size: 1.7rem; color: var(--ink); }
+.term .t-pv { font-size: .68rem; letter-spacing: .04em; color: var(--muted); }
+.term.zero { background: transparent; border-style: dashed; }
+.term.zero .t-glyph { color: var(--muted); }
+.term.marker { background: var(--navy); border-color: var(--navy); }
+.term.marker .t-glyph, .term.marker .t-pv { color: var(--white); }
+.build-note { margin-top: .9rem; font-size: .9rem; color: var(--muted); }
+.build-note b { color: var(--red); font-family: "LXGW WenKai", serif; }
+.build-hint { color: var(--muted); font-style: italic; }
+
+/* ── rules table ── */
+.rules { width: 100%; border-collapse: collapse; margin-top: 1.5rem; font-size: .92rem; }
+.rules th, .rules td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.rules thead th { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.rules td b { color: var(--red); font-family: "LXGW WenKai", serif; font-weight: 600; }
+.rules td:first-child { color: var(--navy); white-space: nowrap; }
+
+/* ── footer ── */
+.site-foot { max-width: 860px; margin: 3rem auto; padding: 1.5rem 1.25rem 0; border-top: 1px solid var(--border); }
+.site-foot a { color: var(--muted); text-decoration: none; }
+.site-foot a:hover { color: var(--navy); }
