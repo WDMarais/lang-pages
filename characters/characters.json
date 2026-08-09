@@ -2115,7 +2115,8 @@
             "appearsIn": { "char": "政", "reading": "セイ", "gloss": "politics; government" }
           },
           "wk": null,
-          "kanji": { "name": "Correct", "readings": ["セイ"], "on": true, "level": 2 }
+          "kanji": { "name": "Correct", "readings": ["セイ"], "on": true, "level": 2 },
+          "pdc": { "name": "straight", "kind": "meaning", "level": 2 }
         },
         {
           "glyph": "母",

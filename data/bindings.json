@@ -5686,6 +5686,14 @@
         "glyph": "政",
         "reading": "zhèng",
         "gloss": "government; politics"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "straight",
+          "kind": "meaning",
+          "level": 2
+        }
       }
     },
     {

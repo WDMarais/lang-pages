@@ -45,6 +45,14 @@
       ],
       "on": true,
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "straight",
+      "kind": "meaning",
+      "level": 2
     }
   ]
 }
