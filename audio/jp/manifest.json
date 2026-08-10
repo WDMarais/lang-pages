@@ -259,6 +259,10 @@
     "text": "かわ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ke.mp3": {
+    "text": "け",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ki.mp3": {
     "text": "き",
     "voice": "ja-JP-NanamiNeural"
@@ -273,6 +277,10 @@
   },
   "kobushi.mp3": {
     "text": "こぶし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kokoro.mp3": {
+    "text": "こころ",
     "voice": "ja-JP-NanamiNeural"
   },
   "konomu.mp3": {
