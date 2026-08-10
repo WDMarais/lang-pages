@@ -1,0 +1,24 @@
+{
+  "name": "lang-pages-graph-api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GraphQL/Postgres projection over the lang-pages content graph. DB is a disposable build artifact; git-committed JSON is the source of truth.",
+  "scripts": {
+    "seed": "tsx src/seed.ts",
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.7.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/pg": "^8.11.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
