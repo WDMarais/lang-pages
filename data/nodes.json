@@ -1061,13 +1061,6 @@
       "label": "bow"
     },
     {
-      "id": "g:引",
-      "kind": "glyph",
-      "glyph": "引",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:糸",
       "kind": "glyph",
       "glyph": "糸",
@@ -3072,6 +3065,24 @@
       "label": "shoot"
     },
     {
+      "id": "g:引",
+      "kind": "glyph",
+      "glyph": "引",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "yin3",
+      "jpAudioKey": "hi"
+    },
+    {
+      "id": "r:pull",
+      "kind": "referent",
+      "label": "pull; draw; lead"
+    },
+    {
       "id": "g:彐",
       "kind": "glyph",
       "glyph": "彐",
@@ -3284,7 +3295,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "fang1"
+      "cnAudioKey": "fang1",
+      "jpAudioKey": "hou"
     },
     {
       "id": "r:square",
@@ -9113,6 +9125,44 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "id": "w:リンゴ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "リンゴ",
+      "reading": "リンゴ",
+      "gloss": "apple",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "r:apple",
+      "kind": "referent",
+      "label": "apple"
+    },
+    {
+      "id": "w:コーヒー@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "コーヒー",
+      "reading": "コーヒー",
+      "gloss": "coffee",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "r:coffee",
+      "kind": "referent",
+      "label": "coffee"
     }
   ]
 }

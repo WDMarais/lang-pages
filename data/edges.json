@@ -1049,6 +1049,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:引",
+      "to": "r:pull",
+      "kind": "denotes"
+    },
+    {
       "from": "g:彐",
       "to": "r:snout",
       "kind": "denotes"
@@ -6405,6 +6410,16 @@
     {
       "from": "w:する@jp",
       "to": "r:do",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:リンゴ@jp",
+      "to": "r:apple",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:コーヒー@jp",
+      "to": "r:coffee",
       "kind": "denotes"
     },
     {

@@ -1994,6 +1994,24 @@
           "wk": null
         },
         {
+          "glyph": "引",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yin3",
+          "jpAudioKey": "hi",
+          "cn": {
+            "name": "引", "reading": "yǐn", "gloss": "pull; draw; lead",
+            "extra": "弓 + 丨 · 会意（拉弓）· 引导、吸引、引用"
+          },
+          "jp": {
+            "name": "引", "reading": "ひ", "gloss": "pull; draw",
+            "extra": "漢字「引」(ひ・く · イン) · 引く、引力、字引"
+          },
+          "wk": null,
+          "kanji": { "name": "Pull", "readings": ["イン"], "on": true, "kun": ["ひ"], "level": 3 }
+        },
+        {
           "glyph": "文",
           "tag": "char",
           "image": "",

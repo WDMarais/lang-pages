@@ -17,9 +17,32 @@
     },
     "jp": {
       "name": "方",
-      "reading": "",
-      "gloss": "square"
+      "reading": "ホウ",
+      "gloss": "direction; way; person (polite)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Direction",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Direction",
+      "readings": [
+        "ホウ"
+      ],
+      "on": true,
+      "kun": [
+        "かた"
+      ],
+      "level": 3
+    }
+  ]
 }

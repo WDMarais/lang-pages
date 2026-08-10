@@ -2160,6 +2160,32 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "リンゴ",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "apple",
+      "reading": "リンゴ",
+      "gloss": "apple",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "コーヒー",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "coffee",
+      "reading": "コーヒー",
+      "gloss": "coffee",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

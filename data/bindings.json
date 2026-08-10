@@ -4331,7 +4331,13 @@
       "name": "又",
       "readings": [],
       "gloss": "again",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Stool",
+        "level": 3,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:可@cn",
@@ -5125,6 +5131,42 @@
       "extra": ""
     },
     {
+      "id": "b:引@cn",
+      "glyph_id": "g:引",
+      "lang": "cn",
+      "name": "引",
+      "readings": [
+        "yǐn"
+      ],
+      "gloss": "pull; draw; lead",
+      "extra": "弓 + 丨 · 会意（拉弓）· 引导、吸引、引用"
+    },
+    {
+      "id": "b:引@jp",
+      "glyph_id": "g:引",
+      "lang": "jp",
+      "name": "引",
+      "readings": [
+        "ひ"
+      ],
+      "gloss": "pull; draw",
+      "extra": "漢字「引」(ひ・く · イン) · 引く、引力、字引",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Pull",
+          "readings": [
+            "イン"
+          ],
+          "on": true,
+          "kun": [
+            "ひ"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:彐@cn",
       "glyph_id": "g:彐",
       "lang": "cn",
@@ -5441,9 +5483,28 @@
       "glyph_id": "g:方",
       "lang": "jp",
       "name": "方",
-      "readings": [],
-      "gloss": "square",
-      "extra": ""
+      "readings": [
+        "ホウ"
+      ],
+      "gloss": "direction; way; person (polite)",
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Direction",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Direction",
+          "readings": [
+            "ホウ"
+          ],
+          "on": true,
+          "kun": [
+            "かた"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:无@cn",

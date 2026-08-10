@@ -1100,7 +1100,11 @@
             "reading": "",
             "gloss": "again"
           },
-          "wk": null,
+          "wk": {
+            "name": "Stool",
+            "level": 3,
+            "kind": "mnemonic"
+          },
           "kx": 29,
           "cnAudioKey": "you4"
         }
@@ -2463,12 +2467,28 @@
           },
           "jp": {
             "name": "方",
-            "reading": "",
-            "gloss": "square"
+            "reading": "ホウ",
+            "gloss": "direction; way; person (polite)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Direction",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Direction",
+            "readings": [
+              "ホウ"
+            ],
+            "on": true,
+            "kun": [
+              "かた"
+            ],
+            "level": 3
+          },
           "kx": 70,
-          "cnAudioKey": "fang1"
+          "cnAudioKey": "fang1",
+          "jpAudioKey": "hou"
         },
         {
           "glyph": "无",
