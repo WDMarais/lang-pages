@@ -228,6 +228,35 @@ def check_words(rep, syms):
                 rep.warn(where, f"denotes {w['denotes']!r} != head {parts[0]} referent {want!r}")
 
 
+def check_grounding(syms):
+    """Referent sense-data coverage — the 'answer = sense-data, not a gloss' KPI.
+
+    NOT a gate: a low number is a worklist (image sourcing), never an error, so it
+    returns a stat rather than pushing 393 warnings. Counts the distinct referents
+    the graph will denote — one per glyph (its gloss, matching build-graph) plus each
+    word's `denotes` — and how many carry >=1 image in the curated data/referents.json
+    overlay. The pages render the grounded ones (the 所指 panel); this is the COMPLEMENT
+    — the aggregate and the gap the pages can't show you."""
+    universe = set()
+    for s in syms.values():
+        v = s["readings"]
+        r = referent_slug(v["cn"].get("gloss") or v["jp"].get("gloss", ""))
+        if r:
+            universe.add(r)
+    wpath = DATA / "words.json"
+    if wpath.exists():
+        for w in json.loads(wpath.read_text(encoding="utf-8")).get("words", []):
+            if _str(w.get("denotes")):
+                universe.add(w["denotes"])
+
+    refs = {}
+    rpath = DATA / "referents.json"
+    if rpath.exists():
+        refs = json.loads(rpath.read_text(encoding="utf-8"))
+    grounded = sum(1 for r in universe if refs.get(r, {}).get("images"))
+    return grounded, len(universe)
+
+
 def check_cross(rep, syms):
     """Invariants across the whole set, not any single file."""
     by_kangxi = {}
@@ -293,6 +322,11 @@ def main():
 
     n_sym, n_err, n_warn = len(syms), len(rep.errors), len(rep.warns)
     print(f"\nchecked {n_sym} symbols · {n_err} error(s) · {n_warn} warning(s)")
+
+    grounded, total = check_grounding(syms)
+    pct = 100 * grounded // (total or 1)
+    print(f"grounded referents: {grounded}/{total} ({pct}%) carry sense-data · "
+          f"{total - grounded} still prose-only")
     return 1 if rep.errors else 0
 
 
