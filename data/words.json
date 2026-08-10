@@ -2186,6 +2186,32 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "こんにちは",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "hello",
+      "reading": "こんにちは",
+      "gloss": "hello; good afternoon",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "いつ",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "when",
+      "reading": "いつ",
+      "gloss": "when",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

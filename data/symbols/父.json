@@ -33,6 +33,28 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Father",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Father",
+      "readings": [
+        "フ"
+      ],
+      "on": true,
+      "kun": [
+        "ちち"
+      ],
+      "level": 3
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

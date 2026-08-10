@@ -6423,6 +6423,16 @@
       "kind": "denotes"
     },
     {
+      "from": "w:こんにちは@jp",
+      "to": "r:hello",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:いつ@jp",
+      "to": "r:when",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

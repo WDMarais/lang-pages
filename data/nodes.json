@@ -3606,7 +3606,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "mao2"
+      "cnAudioKey": "mao2",
+      "jpAudioKey": "ke"
     },
     {
       "id": "r:fur",
@@ -9163,6 +9164,44 @@
       "id": "r:coffee",
       "kind": "referent",
       "label": "coffee"
+    },
+    {
+      "id": "w:こんにちは@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "こんにちは",
+      "reading": "こんにちは",
+      "gloss": "hello; good afternoon",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "r:hello",
+      "kind": "referent",
+      "label": "hello; good afternoon"
+    },
+    {
+      "id": "w:いつ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "いつ",
+      "reading": "いつ",
+      "gloss": "when",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "r:when",
+      "kind": "referent",
+      "label": "when"
     }
   ]
 }

@@ -17,11 +17,33 @@
     },
     "jp": {
       "name": "毛",
-      "reading": "",
-      "gloss": "fur"
+      "reading": "け",
+      "gloss": "hair; fur"
     }
   },
   "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Fur",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Fur",
+      "readings": [
+        "モウ"
+      ],
+      "on": true,
+      "kun": [
+        "け"
+      ],
+      "level": 3
+    },
     {
       "source": "pandanese",
       "lang": "cn",

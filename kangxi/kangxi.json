@@ -2930,17 +2930,33 @@
           },
           "jp": {
             "name": "毛",
-            "reading": "",
-            "gloss": "fur"
+            "reading": "け",
+            "gloss": "hair; fur"
           },
-          "wk": null,
+          "wk": {
+            "name": "Fur",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Fur",
+            "readings": [
+              "モウ"
+            ],
+            "on": true,
+            "kun": [
+              "け"
+            ],
+            "level": 3
+          },
           "pd": {
             "name": "fur",
             "level": 2,
             "kind": "meaning"
           },
           "kx": 82,
-          "cnAudioKey": "mao2"
+          "cnAudioKey": "mao2",
+          "jpAudioKey": "ke"
         },
         {
           "glyph": "氏",
@@ -3181,7 +3197,22 @@
               "gloss": "axe"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Father",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Father",
+            "readings": [
+              "フ"
+            ],
+            "on": true,
+            "kun": [
+              "ちち"
+            ],
+            "level": 3
+          },
           "pd": {
             "name": "father",
             "level": 1,
@@ -3314,7 +3345,7 @@
             "kun": [
               "うし"
             ],
-            "level": 2
+            "level": 3
           },
           "pd": {
             "name": "cow",

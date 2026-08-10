@@ -1138,7 +1138,8 @@
             "extra": "漢字「父」(ちち · フ)",
             "appearsIn": { "char": "斧", "reading": "おの", "gloss": "axe" }
           },
-          "wk": null,
+          "wk": { "name": "Father", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Father", "readings": ["フ"], "on": true, "kun": ["ちち"], "level": 3 },
           "pd": { "name": "father", "level": 1, "kind": "meaning" }
         },
         {
@@ -2197,7 +2198,7 @@
             "appearsIn": { "char": "物", "reading": "ブツ", "gloss": "thing" }
           },
           "wk": { "name": "Cow", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Cow", "readings": ["ギュウ"], "on": true, "kun": ["うし"], "level": 2 },
+          "kanji": { "name": "Cow", "readings": ["ギュウ"], "on": true, "kun": ["うし"], "level": 3 },
           "pd": { "name": "cow", "level": 2, "kind": "meaning" }
         },
         {

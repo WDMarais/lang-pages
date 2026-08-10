@@ -2851,6 +2851,23 @@
         "glyph": "斧",
         "reading": "おの",
         "gloss": "axe"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Father",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Father",
+          "readings": [
+            "フ"
+          ],
+          "on": true,
+          "kun": [
+            "ちち"
+          ],
+          "level": 3
+        }
       }
     },
     {
@@ -5996,9 +6013,28 @@
       "glyph_id": "g:毛",
       "lang": "jp",
       "name": "毛",
-      "readings": [],
-      "gloss": "fur",
-      "extra": ""
+      "readings": [
+        "け"
+      ],
+      "gloss": "hair; fur",
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Fur",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Fur",
+          "readings": [
+            "モウ"
+          ],
+          "on": true,
+          "kun": [
+            "け"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:氏@cn",
@@ -6197,7 +6233,7 @@
           "kun": [
             "うし"
           ],
-          "level": 2
+          "level": 3
         }
       }
     },
