@@ -2210,12 +2210,28 @@
           },
           "jp": {
             "name": "心",
-            "reading": "",
+            "reading": "こころ",
             "gloss": "heart"
           },
-          "wk": null,
+          "wk": {
+            "name": "Heart",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Heart",
+            "readings": [
+              "シン"
+            ],
+            "on": true,
+            "kun": [
+              "こころ"
+            ],
+            "level": 3
+          },
           "kx": 61,
-          "cnAudioKey": "xin1"
+          "cnAudioKey": "xin1",
+          "jpAudioKey": "kokoro"
         },
         {
           "glyph": "戈",
@@ -2853,7 +2869,11 @@
             "reading": "",
             "gloss": "do not"
           },
-          "wk": null,
+          "wk": {
+            "name": "Window",
+            "level": 3,
+            "kind": "mnemonic"
+          },
           "kx": 80,
           "cnAudioKey": "wu2"
         },

@@ -17,9 +17,32 @@
     },
     "jp": {
       "name": "心",
-      "reading": "",
+      "reading": "こころ",
       "gloss": "heart"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Heart",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Heart",
+      "readings": [
+        "シン"
+      ],
+      "on": true,
+      "kun": [
+        "こころ"
+      ],
+      "level": 3
+    }
+  ]
 }

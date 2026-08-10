@@ -5212,9 +5212,28 @@
       "glyph_id": "g:心",
       "lang": "jp",
       "name": "心",
-      "readings": [],
+      "readings": [
+        "こころ"
+      ],
       "gloss": "heart",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Heart",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Heart",
+          "readings": [
+            "シン"
+          ],
+          "on": true,
+          "kun": [
+            "こころ"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:戈@cn",
@@ -5803,7 +5822,13 @@
       "name": "毋",
       "readings": [],
       "gloss": "do not",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Window",
+        "level": 3,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:毌@cn",

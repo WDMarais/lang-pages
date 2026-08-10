@@ -2118,6 +2118,48 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "人々",
+      "audience": "jp",
+      "parts": [
+        "人",
+        "々"
+      ],
+      "denotes": "people",
+      "reading": "ひとびと",
+      "gloss": "people",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "これ",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "this",
+      "reading": "これ",
+      "gloss": "this",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "する",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "do",
+      "reading": "する",
+      "gloss": "to do",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

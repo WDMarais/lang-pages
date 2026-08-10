@@ -3132,7 +3132,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "xin1"
+      "cnAudioKey": "xin1",
+      "jpAudioKey": "kokoro"
     },
     {
       "id": "r:heart",
@@ -9060,6 +9061,58 @@
       "id": "r:local",
       "kind": "referent",
       "label": "local; of this locality"
+    },
+    {
+      "id": "w:人々@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "人々",
+      "reading": "ひとびと",
+      "gloss": "people",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:people",
+      "kind": "referent",
+      "label": "people"
+    },
+    {
+      "id": "w:これ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "これ",
+      "reading": "これ",
+      "gloss": "this",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "id": "r:this",
+      "kind": "referent",
+      "label": "this"
+    },
+    {
+      "id": "w:する@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "する",
+      "reading": "する",
+      "gloss": "to do",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

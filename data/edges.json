@@ -6383,6 +6383,31 @@
       "kind": "denotes"
     },
     {
+      "from": "g:人",
+      "to": "w:人々@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:々",
+      "to": "w:人々@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:人々@jp",
+      "to": "r:people",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:これ@jp",
+      "to": "r:this",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:する@jp",
+      "to": "r:do",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
