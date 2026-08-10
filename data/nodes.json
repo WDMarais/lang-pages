@@ -9202,6 +9202,44 @@
       "id": "r:when",
       "kind": "referent",
       "label": "when"
+    },
+    {
+      "id": "w:真相@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "真相",
+      "reading": "zhēnxiàng",
+      "gloss": "truth; the real facts; the actual situation",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:truth",
+      "kind": "referent",
+      "label": "truth; the real facts; the actual situation"
+    },
+    {
+      "id": "w:天真@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "天真",
+      "reading": "tiānzhēn",
+      "gloss": "naive; innocent; artless",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "id": "r:naive",
+      "kind": "referent",
+      "label": "naive; innocent; artless"
     }
   ]
 }

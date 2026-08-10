@@ -2212,6 +2212,38 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "真相",
+      "audience": "cn",
+      "parts": [
+        "真",
+        "相"
+      ],
+      "denotes": "truth",
+      "reading": "zhēnxiàng",
+      "gloss": "truth; the real facts; the actual situation",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
+    },
+    {
+      "surface": "天真",
+      "audience": "cn",
+      "parts": [
+        "天",
+        "真"
+      ],
+      "denotes": "naive",
+      "reading": "tiānzhēn",
+      "gloss": "naive; innocent; artless",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 2
+      }
     }
   ]
 }

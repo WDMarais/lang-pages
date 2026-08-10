@@ -6433,6 +6433,36 @@
       "kind": "denotes"
     },
     {
+      "from": "g:真",
+      "to": "w:真相@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:相",
+      "to": "w:真相@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:真相@cn",
+      "to": "r:truth",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:天",
+      "to": "w:天真@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:真",
+      "to": "w:天真@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:天真@cn",
+      "to": "r:naive",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
