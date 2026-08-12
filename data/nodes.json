@@ -6700,7 +6700,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "nanatsu"
     },
     {
       "id": "w:二つ@jp",
@@ -6715,7 +6716,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "futatsu"
     },
     {
       "id": "w:入る@jp",
@@ -6730,7 +6732,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "hairu"
     },
     {
       "id": "w:八つ@jp",
@@ -6745,7 +6748,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "yattsu"
     },
     {
       "id": "w:二人@jp",
@@ -6759,7 +6763,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "futari"
     },
     {
       "id": "r:two-people",
@@ -6779,7 +6784,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "hitotsu"
     },
     {
       "id": "w:一人@jp",
@@ -6793,7 +6799,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "hitori"
     },
     {
       "id": "r:one-person",
@@ -6813,7 +6820,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "mittsu"
     },
     {
       "id": "w:九つ@jp",
@@ -6828,7 +6836,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "kokonotsu"
     },
     {
       "id": "w:三人@jp",
@@ -6842,7 +6851,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "sannin"
     },
     {
       "id": "r:three-people",
@@ -6862,7 +6872,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "ageru"
     },
     {
       "id": "r:raise",
@@ -6882,7 +6893,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "sageru"
     },
     {
       "id": "r:lower",
@@ -6902,7 +6914,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "kudasai"
     },
     {
       "id": "r:please-give",
@@ -6921,7 +6934,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "iriguchi"
     },
     {
       "id": "r:entrance",
@@ -6941,7 +6955,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "ookii"
     },
     {
       "id": "w:大きさ@jp",
@@ -6956,7 +6971,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "ookisa"
     },
     {
       "id": "r:size",
@@ -6976,7 +6992,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "taishita"
     },
     {
       "id": "r:great",
@@ -6995,7 +7012,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "otona"
     },
     {
       "id": "r:adult",
@@ -7009,7 +7027,8 @@
       "audience": "jp",
       "glyph": "人口",
       "reading": "じんこう",
-      "gloss": "population"
+      "gloss": "population",
+      "jpAudioKey": "jinkou"
     },
     {
       "id": "r:population",
@@ -7028,7 +7047,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "jinkou"
     },
     {
       "id": "r:artificial",
@@ -7048,7 +7068,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "jpAudioKey": "chikaraippai"
     },
     {
       "id": "r:full-power",
@@ -7068,7 +7089,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "noboru"
     },
     {
       "id": "r:climb",
@@ -7087,7 +7109,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "ohayou"
     },
     {
       "id": "r:good-morning",
@@ -7106,7 +7129,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "hoteru"
     },
     {
       "id": "r:hotel",
@@ -7248,7 +7272,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "joshi"
     },
     {
       "id": "r:girl",
@@ -7306,7 +7331,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "yuube"
     },
     {
       "id": "w:本人@cn",
@@ -7335,7 +7361,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "chiisai"
     },
     {
       "id": "w:丸い@jp",
@@ -7350,7 +7377,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "marui"
     },
     {
       "id": "r:round",
@@ -7464,7 +7492,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "sai"
     },
     {
       "id": "r:years-old",
@@ -7484,7 +7513,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "itsutsu"
     },
     {
       "id": "w:五十@jp",
@@ -7498,7 +7528,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "gojuu"
     },
     {
       "id": "r:fifty",
@@ -7517,7 +7548,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "naka"
     },
     {
       "id": "w:六@jp",
@@ -7531,7 +7563,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "roku"
     },
     {
       "id": "w:六つ@jp",
@@ -7545,7 +7578,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "muttsu"
     },
     {
       "id": "w:十六@jp",
@@ -7558,7 +7592,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "juuroku"
     },
     {
       "id": "r:sixteen",
@@ -7576,7 +7611,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "en"
     },
     {
       "id": "r:yen",
@@ -7594,7 +7630,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "senen"
     },
     {
       "id": "r:thousand-yen",
@@ -7612,7 +7649,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "te"
     },
     {
       "id": "w:下手@jp",
@@ -7625,7 +7663,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "heta"
     },
     {
       "id": "r:unskillful",
@@ -7643,7 +7682,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "joou"
     },
     {
       "id": "r:queen",
@@ -7661,7 +7701,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "gogatsu"
     },
     {
       "id": "r:may",
@@ -7679,7 +7720,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "rokugatsu"
     },
     {
       "id": "r:june",
@@ -7697,7 +7739,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "ichigatsu"
     },
     {
       "id": "r:january",
@@ -7715,7 +7758,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "nigatsu"
     },
     {
       "id": "r:february",
@@ -7729,7 +7773,8 @@
       "audience": "jp",
       "glyph": "三月",
       "reading": "さんがつ",
-      "gloss": "March"
+      "gloss": "March",
+      "jpAudioKey": "sangatsu"
     },
     {
       "id": "r:march",
@@ -7747,7 +7792,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "shigatsu"
     },
     {
       "id": "r:april",
@@ -7761,7 +7807,8 @@
       "audience": "jp",
       "glyph": "七月",
       "reading": "しちがつ",
-      "gloss": "July"
+      "gloss": "July",
+      "jpAudioKey": "shichigatsu"
     },
     {
       "id": "r:july",
@@ -7775,7 +7822,8 @@
       "audience": "jp",
       "glyph": "八月",
       "reading": "はちがつ",
-      "gloss": "August"
+      "gloss": "August",
+      "jpAudioKey": "hachigatsu"
     },
     {
       "id": "r:august",
@@ -7789,7 +7837,8 @@
       "audience": "jp",
       "glyph": "九月",
       "reading": "くがつ",
-      "gloss": "September"
+      "gloss": "September",
+      "jpAudioKey": "kugatsu"
     },
     {
       "id": "r:september",
@@ -7807,7 +7856,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "juugatsu"
     },
     {
       "id": "r:october",
@@ -7821,7 +7871,8 @@
       "audience": "jp",
       "glyph": "十一月",
       "reading": "じゅういちがつ",
-      "gloss": "November"
+      "gloss": "November",
+      "jpAudioKey": "juuichigatsu"
     },
     {
       "id": "r:november",
@@ -7835,7 +7886,8 @@
       "audience": "jp",
       "glyph": "十二月",
       "reading": "じゅうにがつ",
-      "gloss": "December"
+      "gloss": "December",
+      "jpAudioKey": "juunigatsu"
     },
     {
       "id": "r:december",
@@ -7850,7 +7902,8 @@
       "glyph": "四つ",
       "reading": "よっつ",
       "gloss": "four things",
-      "okurigana": "つ"
+      "okurigana": "つ",
+      "jpAudioKey": "yottsu"
     },
     {
       "id": "w:天才@jp",
@@ -7863,7 +7916,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "tensai"
     },
     {
       "id": "r:genius",
@@ -7881,7 +7935,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "jouzu"
     },
     {
       "id": "r:skillful",
@@ -7899,7 +7954,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "onnanoko"
     },
     {
       "id": "w:五日@jp",
@@ -7912,7 +7968,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "itsuka"
     },
     {
       "id": "r:5th",
@@ -7963,7 +8020,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "sayuu"
     },
     {
       "id": "r:left-right",
@@ -7981,7 +8039,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "ki"
     },
     {
       "id": "w:水@jp",
@@ -7994,7 +8053,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "mizu"
     },
     {
       "id": "w:白@jp",
@@ -8007,7 +8067,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "shiro"
     },
     {
       "id": "w:火@jp",
@@ -8020,7 +8081,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "hi"
     },
     {
       "id": "w:火山@jp",
@@ -8033,7 +8095,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "kazan"
     },
     {
       "id": "r:volcano",
@@ -8051,7 +8114,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "inu"
     },
     {
       "id": "w:六日@jp",
@@ -8064,7 +8128,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "muika"
     },
     {
       "id": "r:6th",
@@ -8082,7 +8147,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "ou"
     },
     {
       "id": "w:出る@jp",
@@ -8096,7 +8162,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "deru"
     },
     {
       "id": "r:exit",
@@ -8114,7 +8181,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "deguchi"
     },
     {
       "id": "r:way-out",
@@ -8189,7 +8257,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "migi"
     },
     {
       "id": "w:左@jp",
@@ -8202,7 +8271,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "hidari"
     },
     {
       "id": "w:四@jp",
@@ -8215,7 +8285,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "yon"
     },
     {
       "id": "w:目@jp",
@@ -8228,7 +8299,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "me"
     },
     {
       "id": "w:日本@jp",
@@ -8242,7 +8314,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "nihon"
     },
     {
       "id": "w:正しい@jp",
@@ -8257,7 +8330,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "tadashii"
     },
     {
       "id": "w:正す@jp",
@@ -8272,7 +8346,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "tadasu"
     },
     {
       "id": "w:立つ@jp",
@@ -8287,7 +8362,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "tatsu"
     },
     {
       "id": "w:玉@jp",
@@ -8301,7 +8377,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "tama"
     },
     {
       "id": "w:玉ねぎ@jp",
@@ -8315,7 +8392,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "tamanegi"
     },
     {
       "id": "r:onion",
@@ -8334,7 +8412,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "ouji"
     },
     {
       "id": "r:prince",
@@ -8353,7 +8432,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "koinu"
     },
     {
       "id": "r:puppy",
@@ -8371,7 +8451,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "tsuitachi"
     },
     {
       "id": "r:1st",
@@ -8389,7 +8470,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "futsuka"
     },
     {
       "id": "r:2nd",
@@ -8407,7 +8489,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "mikka"
     },
     {
       "id": "r:3rd",
@@ -8425,7 +8508,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "nanoka"
     },
     {
       "id": "r:7th",
@@ -8443,7 +8527,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "kokonoka"
     },
     {
       "id": "r:9th",
@@ -8888,7 +8973,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "youka"
     },
     {
       "id": "r:8th",
@@ -8906,7 +8992,8 @@
       "program": {
         "source": "wanikani",
         "kind": "vocab"
-      }
+      },
+      "jpAudioKey": "tooka"
     },
     {
       "id": "r:10th",
@@ -8925,7 +9012,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "suichuu"
     },
     {
       "id": "r:underwater",
@@ -8944,7 +9032,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "nyuuryoku"
     },
     {
       "id": "r:input",
@@ -8963,7 +9052,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "oujo"
     },
     {
       "id": "r:princess",
@@ -8982,7 +9072,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "nakanaka"
     },
     {
       "id": "r:considerably",
@@ -9002,7 +9093,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "tanbo"
     },
     {
       "id": "w:万@jp",
@@ -9016,7 +9108,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "man"
     },
     {
       "id": "w:白人@jp",
@@ -9030,7 +9123,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "hakujin"
     },
     {
       "id": "r:white-person",
@@ -9049,7 +9143,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "medama"
     },
     {
       "id": "r:eyeball",
@@ -9087,7 +9182,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "jpAudioKey": "hitobito"
     },
     {
       "id": "r:people",
@@ -9106,7 +9202,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "kore"
     },
     {
       "id": "r:this",
@@ -9125,7 +9222,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "suru"
     },
     {
       "id": "w:リンゴ@jp",
@@ -9139,7 +9237,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "ringo"
     },
     {
       "id": "r:apple",
@@ -9158,7 +9257,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "koohii"
     },
     {
       "id": "r:coffee",
@@ -9177,7 +9277,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "konnichiha"
     },
     {
       "id": "r:hello",
@@ -9196,7 +9297,8 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 3
-      }
+      },
+      "jpAudioKey": "itsu"
     },
     {
       "id": "r:when",

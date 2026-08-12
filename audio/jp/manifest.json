@@ -1,4 +1,8 @@
 {
+  "ageru.mp3": {
+    "text": "あげる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ai.mp3": {
     "text": "あい",
     "voice": "ja-JP-NanamiNeural"
@@ -55,6 +59,10 @@
     "text": "ちから",
     "voice": "ja-JP-NanamiNeural"
   },
+  "chikaraippai.mp3": {
+    "text": "ちからいっぱい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "chou.mp3": {
     "text": "チョウ",
     "voice": "ja-JP-NanamiNeural"
@@ -65,6 +73,14 @@
   },
   "dai.mp3": {
     "text": "ダイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "deguchi.mp3": {
+    "text": "でぐち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "deru.mp3": {
+    "text": "でる",
     "voice": "ja-JP-NanamiNeural"
   },
   "en.mp3": {
@@ -83,8 +99,20 @@
     "text": "ふせる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "futari.mp3": {
+    "text": "ふたり",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "futatsu.mp3": {
+    "text": "ふたつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "futoi.mp3": {
     "text": "ふとい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "futsuka.mp3": {
+    "text": "ふつか",
     "voice": "ja-JP-NanamiNeural"
   },
   "gen.mp3": {
@@ -99,6 +127,14 @@
     "text": "ご",
     "voice": "ja-JP-NanamiNeural"
   },
+  "gogatsu.mp3": {
+    "text": "ごがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gojuu.mp3": {
+    "text": "ごじゅう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "gun.mp3": {
     "text": "グン",
     "voice": "ja-JP-NanamiNeural"
@@ -111,12 +147,20 @@
     "text": "ハチ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hachigatsu.mp3": {
+    "text": "はちがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "haha.mp3": {
     "text": "はは",
     "voice": "ja-JP-NanamiNeural"
   },
   "hairu.mp3": {
     "text": "はいる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hakujin.mp3": {
+    "text": "はくじん",
     "voice": "ja-JP-NanamiNeural"
   },
   "hane.mp3": {
@@ -133,6 +177,10 @@
   },
   "hayashi.mp3": {
     "text": "はやし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "heta.mp3": {
+    "text": "へた",
     "voice": "ja-JP-NanamiNeural"
   },
   "hetsuten.mp3": {
@@ -159,6 +207,18 @@
     "text": "ひと",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hitobito.mp3": {
+    "text": "ひとびと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hitori.mp3": {
+    "text": "ひとり",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hitotsu.mp3": {
+    "text": "ひとつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hoka.mp3": {
     "text": "ほか",
     "voice": "ja-JP-NanamiNeural"
@@ -171,6 +231,10 @@
     "text": "ほのお",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hoteru.mp3": {
+    "text": "ホテル",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hou.mp3": {
     "text": "ホウ",
     "voice": "ja-JP-NanamiNeural"
@@ -181,6 +245,10 @@
   },
   "ichi.mp3": {
     "text": "いち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ichigatsu.mp3": {
+    "text": "いちがつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ie.mp3": {
@@ -203,8 +271,24 @@
     "text": "いぬ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "iriguchi.mp3": {
+    "text": "いりぐち",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ito.mp3": {
     "text": "いと",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "itsu.mp3": {
+    "text": "いつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "itsuka.mp3": {
+    "text": "いつか",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "itsutsu.mp3": {
+    "text": "いつつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "iwa.mp3": {
@@ -219,12 +303,44 @@
     "text": "ジ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "jinkou.mp3": {
+    "text": "じんこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "jo.mp3": {
     "text": "ジョ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "joou.mp3": {
+    "text": "じょおう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "joshi.mp3": {
+    "text": "じょし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jouzu.mp3": {
+    "text": "じょうず",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "juu.mp3": {
     "text": "ジュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juugatsu.mp3": {
+    "text": "じゅうがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juuichigatsu.mp3": {
+    "text": "じゅういちがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juunigatsu.mp3": {
+    "text": "じゅうにがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juuroku.mp3": {
+    "text": "じゅうろく",
     "voice": "ja-JP-NanamiNeural"
   },
   "ka.mp3": {
@@ -259,6 +375,10 @@
     "text": "かわ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kazan.mp3": {
+    "text": "かざん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ke.mp3": {
     "text": "け",
     "voice": "ja-JP-NanamiNeural"
@@ -279,12 +399,32 @@
     "text": "こぶし",
     "voice": "ja-JP-NanamiNeural"
   },
+  "koinu.mp3": {
+    "text": "こいぬ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kokonoka.mp3": {
+    "text": "ここのか",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kokonotsu.mp3": {
+    "text": "ここのつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kokoro.mp3": {
     "text": "こころ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "konnichiha.mp3": {
+    "text": "こんにちは",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "konomu.mp3": {
     "text": "このむ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "koohii.mp3": {
+    "text": "コーヒー",
     "voice": "ja-JP-NanamiNeural"
   },
   "koori.mp3": {
@@ -305,6 +445,14 @@
   },
   "kuchi.mp3": {
     "text": "くち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kudasai.mp3": {
+    "text": "ください",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kugatsu.mp3": {
+    "text": "くがつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "kuruma.mp3": {
@@ -331,12 +479,20 @@
     "text": "まる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "marui.mp3": {
+    "text": "まるい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "mawaru.mp3": {
     "text": "まわる",
     "voice": "ja-JP-NanamiNeural"
   },
   "me.mp3": {
     "text": "め",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "medama.mp3": {
+    "text": "めだま",
     "voice": "ja-JP-NanamiNeural"
   },
   "mei.mp3": {
@@ -353,6 +509,10 @@
   },
   "migibarai.mp3": {
     "text": "みぎばらい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mikka.mp3": {
+    "text": "みっか",
     "voice": "ja-JP-NanamiNeural"
   },
   "mimi.mp3": {
@@ -383,8 +543,16 @@
     "text": "もって",
     "voice": "ja-JP-NanamiNeural"
   },
+  "muika.mp3": {
+    "text": "むいか",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "muku.mp3": {
     "text": "むく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "muttsu.mp3": {
+    "text": "むっつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "na.mp3": {
@@ -395,6 +563,10 @@
     "text": "なか",
     "voice": "ja-JP-NanamiNeural"
   },
+  "nakanaka.mp3": {
+    "text": "なかなか",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "nana.mp3": {
     "text": "なな",
     "voice": "ja-JP-NanamiNeural"
@@ -403,8 +575,24 @@
     "text": "ななめこう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "nanatsu.mp3": {
+    "text": "ななつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nanoka.mp3": {
+    "text": "なのか",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ni.mp3": {
     "text": "ニ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nigatsu.mp3": {
+    "text": "にがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nihon.mp3": {
+    "text": "にほん",
     "voice": "ja-JP-NanamiNeural"
   },
   "niku.mp3": {
@@ -419,12 +607,24 @@
     "text": "にし",
     "voice": "ja-JP-NanamiNeural"
   },
+  "noboru.mp3": {
+    "text": "のぼる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "noma.mp3": {
     "text": "ノマ",
     "voice": "ja-JP-NanamiNeural"
   },
   "nushi.mp3": {
     "text": "ぬし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nyuuryoku.mp3": {
+    "text": "にゅうりょく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ohayou.mp3": {
+    "text": "おはよう",
     "voice": "ja-JP-NanamiNeural"
   },
   "oku.mp3": {
@@ -439,12 +639,24 @@
     "text": "おんな",
     "voice": "ja-JP-NanamiNeural"
   },
+  "onnanoko.mp3": {
+    "text": "おんなのこ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ono.mp3": {
     "text": "おの",
     "voice": "ja-JP-NanamiNeural"
   },
   "onore.mp3": {
     "text": "おのれ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ookii.mp3": {
+    "text": "おおきい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ookisa.mp3": {
+    "text": "おおきさ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ore.mp3": {
@@ -455,8 +667,20 @@
     "text": "おとこ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "otona.mp3": {
+    "text": "おとな",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ou.mp3": {
     "text": "オウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ouji.mp3": {
+    "text": "おうじ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "oujo.mp3": {
+    "text": "おうじょ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ousetsukou.mp3": {
@@ -467,12 +691,24 @@
     "text": "れい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ringo.mp3": {
+    "text": "リンゴ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "roku.mp3": {
     "text": "ロク",
     "voice": "ja-JP-NanamiNeural"
   },
+  "rokugatsu.mp3": {
+    "text": "ろくがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ryou.mp3": {
     "text": "リョウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sageru.mp3": {
+    "text": "さげる",
     "voice": "ja-JP-NanamiNeural"
   },
   "sai.mp3": {
@@ -495,6 +731,18 @@
     "text": "サン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "sangatsu.mp3": {
+    "text": "さんがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sannin.mp3": {
+    "text": "さんにん",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sayuu.mp3": {
+    "text": "さゆう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "sei.mp3": {
     "text": "セイ",
     "voice": "ja-JP-NanamiNeural"
@@ -503,8 +751,20 @@
     "text": "セン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "senen.mp3": {
+    "text": "せんえん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "shi.mp3": {
     "text": "シ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shichigatsu.mp3": {
+    "text": "しちがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shigatsu.mp3": {
+    "text": "しがつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "shiro.mp3": {
@@ -551,12 +811,20 @@
     "text": "すでに",
     "voice": "ja-JP-NanamiNeural"
   },
+  "suichuu.mp3": {
+    "text": "すいちゅう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "suki.mp3": {
     "text": "すき",
     "voice": "ja-JP-NanamiNeural"
   },
   "sukunai.mp3": {
     "text": "すくない",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "suru.mp3": {
+    "text": "する",
     "voice": "ja-JP-NanamiNeural"
   },
   "ta.mp3": {
@@ -567,8 +835,32 @@
     "text": "ただし",
     "voice": "ja-JP-NanamiNeural"
   },
+  "tadashii.mp3": {
+    "text": "ただしい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tadasu.mp3": {
+    "text": "ただす",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "taishita.mp3": {
+    "text": "たいした",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tama.mp3": {
+    "text": "たま",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tamanegi.mp3": {
+    "text": "たまねぎ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "tame.mp3": {
     "text": "ため",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tanbo.mp3": {
+    "text": "たんぼ",
     "voice": "ja-JP-NanamiNeural"
   },
   "tatekaku.mp3": {
@@ -587,12 +879,20 @@
     "text": "テン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "tensai.mp3": {
+    "text": "てんさい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "toku.mp3": {
     "text": "とく",
     "voice": "ja-JP-NanamiNeural"
   },
   "tomo.mp3": {
     "text": "とも",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tooka.mp3": {
+    "text": "とおか",
     "voice": "ja-JP-NanamiNeural"
   },
   "tori.mp3": {
@@ -605,6 +905,10 @@
   },
   "tsuchi.mp3": {
     "text": "つち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsuitachi.mp3": {
+    "text": "ついたち",
     "voice": "ja-JP-NanamiNeural"
   },
   "tsukau.mp3": {
@@ -683,8 +987,24 @@
     "text": "やす",
     "voice": "ja-JP-NanamiNeural"
   },
+  "yattsu.mp3": {
+    "text": "やっつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "yokokaku.mp3": {
     "text": "よこかく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yon.mp3": {
+    "text": "よん",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yottsu.mp3": {
+    "text": "よっつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "youka.mp3": {
+    "text": "ようか",
     "voice": "ja-JP-NanamiNeural"
   },
   "yu.mp3": {
@@ -697,6 +1017,10 @@
   },
   "yuu.mp3": {
     "text": "ゆう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yuube.mp3": {
+    "text": "ゆうべ",
     "voice": "ja-JP-NanamiNeural"
   },
   "zai.mp3": {

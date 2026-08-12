@@ -194,7 +194,9 @@ function hero(n, r, isWord, surface) {
           ? html`前沿<span class="en"> · frontier</span>`
           : html`在图<span class="en"> · in graph</span>`}</div>
         <div class="gl-tier en">${tier}</div>
-        ${reading ? html`<div class="gl-reading">${reading}</div>` : ''}
+        ${reading ? html`<div class="gl-reading">${reading}${isWord && n.jpAudioKey
+          ? html`<button class="vplay sc-play" style="margin-left:.5rem" data-src="/audio/jp/${n.jpAudioKey}.mp3" aria-label="play">▶</button>`
+          : ''}</div>` : ''}
         ${gloss ? html`<div class="gl-gloss en">${gloss}</div>` : ''}
         <div class="gl-id en">${r.id}</div>
       </div>
@@ -271,6 +273,7 @@ function assets(n, r, isWord) {
     rows.push(['jp audio', n.jpAudioKey ? `/audio/jp/${n.jpAudioKey}.mp3` : null]);
   } else {
     rows.push(['reading', n.reading || null]);
+    if (n.audience === 'jp') { rows.push(['jp audio', n.jpAudioKey ? `/audio/jp/${n.jpAudioKey}.mp3` : null]); }
   }
   return html`
     <div class="gl-assets">

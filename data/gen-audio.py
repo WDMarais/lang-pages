@@ -126,6 +126,12 @@ def jp_bank_jobs():
         for reading in (jp.get("reading"), (jp.get("appearsIn") or {}).get("reading")):
             if k := kana_key(reading):
                 text.setdefault(k, reading)
+    # JP words (これ・人々・リンゴ) are audience-tagged lexemes; their full kana reading
+    # is directly speakable, exactly like a glyph reading. setdefault so a reading a
+    # glyph already voiced (之→これ) is shared, not regenerated as a duplicate clip.
+    for w in read_json(DATA / "words.json").get("words", []):
+        if w.get("audience") == "jp" and (k := kana_key(w.get("reading"))):
+            text.setdefault(k, w["reading"])
     return [Job(JP_VOICE, t, AUDIO / "jp" / f"{k}.mp3") for k, t in sorted(text.items())]
 
 
