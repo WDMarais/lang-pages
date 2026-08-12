@@ -25,6 +25,8 @@ Drop and recreate the DB any time; `npm run seed` returns it to an identical sta
 {
   node(id: "g:一") { id kind glyph tier }
   nodes(kind: "glyph", first: 5) { id glyph tier }
+  # walk the compositional graph: 分 is built from 八 + 刀
+  compound: node(id: "g:分") { glyph components { glyph } }
 }
 ```
 

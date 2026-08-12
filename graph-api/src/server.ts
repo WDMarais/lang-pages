@@ -11,6 +11,10 @@ const typeDefs = /* GraphQL */ `
     glyph: String
     tier: String
     label: String
+    "Parts this node is built from (incoming composes edges)."
+    components: [Node!]!
+    "Wholes this node is a component of (outgoing composes edges)."
+    composedInto: [Node!]!
   }
 
   type Query {
@@ -32,6 +36,30 @@ const resolvers = {
             args.first,
           ])
         : await pool.query('select * from node order by id limit $1', [args.first])
+      return rows
+    },
+  },
+  // Relation resolvers walk composes edges. One query per field per node → this is
+  // the deliberate N+1 point that slice 3's per-request dataloader will collapse.
+  Node: {
+    components: async (parent: { id: string }) => {
+      const { rows } = await pool.query(
+        `select n.* from node n
+           join edge e on e.from_id = n.id
+          where e.to_id = $1 and e.kind = 'composes'
+          order by n.id`,
+        [parent.id],
+      )
+      return rows
+    },
+    composedInto: async (parent: { id: string }) => {
+      const { rows } = await pool.query(
+        `select n.* from node n
+           join edge e on e.to_id = n.id
+          where e.from_id = $1 and e.kind = 'composes'
+          order by n.id`,
+        [parent.id],
+      )
       return rows
     },
   },
