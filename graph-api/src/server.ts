@@ -15,6 +15,21 @@ const typeDefs = /* GraphQL */ `
     components: [Node!]!
     "Wholes this node is a component of (outgoing composes edges)."
     composedInto: [Node!]!
+    "Per-language overlays on this (neutral) node. Optionally filtered by lang."
+    bindings(lang: String): [Binding!]!
+  }
+
+  "A per-language overlay on a node: readings, gloss, and audio for one language."
+  type Binding {
+    id: ID!
+    lang: String!
+    name: String
+    readings: [String!]!
+    gloss: String
+    "Reading-audio key, migrated from the node across the neutral/overlay seam."
+    audioKey: String
+    "Example-word-audio key, migrated from the node across the same seam."
+    exAudioKey: String
   }
 
   type Query {
@@ -62,6 +77,25 @@ const resolvers = {
       )
       return rows
     },
+    // Per-language overlays. Same N+1 shape as the composes relations above —
+    // slice 3's dataloader will batch these by (glyph_id, lang) too.
+    bindings: async (parent: { id: string }, args: { lang?: string }) => {
+      const { rows } = args.lang
+        ? await pool.query(
+            'select * from binding where glyph_id = $1 and lang = $2 order by id',
+            [parent.id, args.lang],
+          )
+        : await pool.query('select * from binding where glyph_id = $1 order by lang, id', [
+            parent.id,
+          ])
+      return rows
+    },
+  },
+  // The DB stores the migrated audio in snake_case; the SDL exposes camelCase.
+  // (readings is jsonb → pg already hands it back as a JS array.)
+  Binding: {
+    audioKey: (b: { audio_key: string | null }) => b.audio_key,
+    exAudioKey: (b: { ex_audio_key: string | null }) => b.ex_audio_key,
   },
 }
 
