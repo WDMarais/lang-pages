@@ -39,7 +39,18 @@ Drop and recreate the DB any time; `npm run seed` returns it to an identical sta
 | `src/schema.sql` | relational DDL: the storage contract                    |
 | `src/seed.ts`    | ingest: apply DDL, read committed JSON, build the links |
 | `src/server.ts`  | GraphQL Yoga server; SDL is the client/server contract  |
-| `src/db.ts`      | pg pool (peer auth, no creds in code)                   |
+| `src/loaders.ts` | per-request DataLoaders that batch the relation queries |
+| `src/db.ts`      | pg pool + a `query()` choke point that counts round-trips |
+
+## Performance — the N+1 and its fix
+
+The relation fields (`components`, `composedInto`, `bindings`) naively fire one
+query per parent node: a request over N nodes costs 2N+1 round-trips. Per-request
+DataLoaders (`src/loaders.ts`) coalesce every `.load(id)` in a tick into a single
+`... = ANY($1)` batch, collapsing that to a constant 3.
+
+It's measurable, not asserted: set `GRAPH_API_PROBE=1` to log the DB-query count
+per operation. The query in *Try it* above over 20 glyphs drops from **41 → 3**.
 
 ## Config
 

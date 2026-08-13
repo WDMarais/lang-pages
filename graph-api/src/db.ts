@@ -16,3 +16,13 @@ export const pool = new Pool({
   host: required('PGHOST'),
   database: required('PGDATABASE'),
 })
+
+// Slice 3 probe: a single choke point for every DB round-trip the GraphQL layer
+// makes. Counting in one place (rather than scattering counters) lets a per-request
+// plugin measure the N+1 — and is the seam the DataLoader batching slots into.
+export const stats = { queries: 0 }
+
+export function query(text: string, params?: unknown[]) {
+  stats.queries++
+  return pool.query(text, params)
+}

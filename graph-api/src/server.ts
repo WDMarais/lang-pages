@@ -1,6 +1,9 @@
 import { createServer } from 'node:http'
 import { createYoga, createSchema } from 'graphql-yoga'
-import { pool } from './db'
+import { query, stats } from './db'
+import { makeLoaders, type Loaders } from './loaders'
+
+type Ctx = { loaders: Loaders }
 
 // Schema-first: the SDL is the contract between client and server, the same way
 // tests are the contract between spec and implementation.
@@ -41,54 +44,32 @@ const typeDefs = /* GraphQL */ `
 const resolvers = {
   Query: {
     node: async (_parent: unknown, args: { id: string }) => {
-      const { rows } = await pool.query('select * from node where id = $1', [args.id])
+      const { rows } = await query('select * from node where id = $1', [args.id])
       return rows[0] ?? null
     },
     nodes: async (_parent: unknown, args: { kind?: string; first: number }) => {
       const { rows } = args.kind
-        ? await pool.query('select * from node where kind = $1 order by id limit $2', [
+        ? await query('select * from node where kind = $1 order by id limit $2', [
             args.kind,
             args.first,
           ])
-        : await pool.query('select * from node order by id limit $1', [args.first])
+        : await query('select * from node order by id limit $1', [args.first])
       return rows
     },
   },
-  // Relation resolvers walk composes edges. One query per field per node → this is
-  // the deliberate N+1 point that slice 3's per-request dataloader will collapse.
+  // Relation resolvers go through per-request DataLoaders (see loaders.ts): every
+  // .load(id) in a tick coalesces into one batched query. This is the collapse of
+  // the N+1 the probe measured — 2N+1 queries become a constant 3.
   Node: {
-    components: async (parent: { id: string }) => {
-      const { rows } = await pool.query(
-        `select n.* from node n
-           join edge e on e.from_id = n.id
-          where e.to_id = $1 and e.kind = 'composes'
-          order by n.id`,
-        [parent.id],
-      )
-      return rows
-    },
-    composedInto: async (parent: { id: string }) => {
-      const { rows } = await pool.query(
-        `select n.* from node n
-           join edge e on e.to_id = n.id
-          where e.from_id = $1 and e.kind = 'composes'
-          order by n.id`,
-        [parent.id],
-      )
-      return rows
-    },
-    // Per-language overlays. Same N+1 shape as the composes relations above —
-    // slice 3's dataloader will batch these by (glyph_id, lang) too.
-    bindings: async (parent: { id: string }, args: { lang?: string }) => {
-      const { rows } = args.lang
-        ? await pool.query(
-            'select * from binding where glyph_id = $1 and lang = $2 order by id',
-            [parent.id, args.lang],
-          )
-        : await pool.query('select * from binding where glyph_id = $1 order by lang, id', [
-            parent.id,
-          ])
-      return rows
+    components: (parent: { id: string }, _args: unknown, ctx: Ctx) =>
+      ctx.loaders.components.load(parent.id),
+    composedInto: (parent: { id: string }, _args: unknown, ctx: Ctx) =>
+      ctx.loaders.composedInto.load(parent.id),
+    // The loader returns all langs for the glyph; apply the (lang:) filter in memory
+    // (≤2 rows) so the batch stays keyed on node id alone.
+    bindings: async (parent: { id: string }, args: { lang?: string }, ctx: Ctx) => {
+      const rows = await ctx.loaders.bindings.load(parent.id)
+      return args.lang ? rows.filter((r) => r.lang === args.lang) : rows
     },
   },
   // The DB stores the migrated audio in snake_case; the SDL exposes camelCase.
@@ -99,7 +80,26 @@ const resolvers = {
   },
 }
 
-const yoga = createYoga({ schema: createSchema({ typeDefs, resolvers }) })
+// Slice 3 probe: snapshot the global query counter around each GraphQL operation
+// and log the per-request delta, so the N+1 is measurable rather than asserted.
+// Opt-in via GRAPH_API_PROBE — left in as an observability hook, off by default.
+const queryCountProbe = {
+  onExecute() {
+    const before = stats.queries
+    return {
+      onExecuteDone() {
+        console.log(`[probe] ${stats.queries - before} DB queries this operation`)
+      },
+    }
+  },
+}
+
+const yoga = createYoga({
+  schema: createSchema({ typeDefs, resolvers }),
+  // Fresh loaders per request — batching + caching are request-scoped by design.
+  context: (): Ctx => ({ loaders: makeLoaders() }),
+  plugins: process.env.GRAPH_API_PROBE ? [queryCountProbe] : [],
+})
 
 createServer(yoga).listen(4000, () => {
   console.log('graph-api → http://localhost:4000/graphql')
