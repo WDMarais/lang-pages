@@ -2324,6 +2324,85 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "好看",
+      "audience": "cn",
+      "parts": [
+        "好",
+        "看"
+      ],
+      "denotes": "good-looking",
+      "reading": "hǎokàn",
+      "gloss": "good-looking; nice; pleasant to look at",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "一样",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "样"
+      ],
+      "denotes": "same",
+      "reading": "yīyàng",
+      "gloss": "same; alike; identical; just like",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "样子",
+      "audience": "cn",
+      "parts": [
+        "样",
+        "子"
+      ],
+      "denotes": "appearance",
+      "reading": "yàngzi",
+      "gloss": "appearance; look; manner; way",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "儿子",
+      "audience": "cn",
+      "parts": [
+        "儿",
+        "子"
+      ],
+      "denotes": "son",
+      "reading": "érzi",
+      "gloss": "son",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "好好",
+      "audience": "cn",
+      "parts": [
+        "好"
+      ],
+      "denotes": "properly",
+      "reading": "hǎohǎo",
+      "gloss": "properly; nicely; thoroughly; to one's heart's content",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

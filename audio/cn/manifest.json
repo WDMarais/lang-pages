@@ -235,6 +235,10 @@
     "text": "二十",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "erzi.mp3": {
+    "text": "儿子",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "fang1.mp3": {
     "text": "方",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -361,6 +365,14 @@
   },
   "hao3.mp3": {
     "text": "好",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "haohao.mp3": {
+    "text": "好好",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "haokan.mp3": {
+    "text": "好看",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "he2.mp3": {
@@ -1079,6 +1091,10 @@
     "text": "样",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "yangzi.mp3": {
+    "text": "样子",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "yao1.mp3": {
     "text": "幺",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1125,6 +1141,10 @@
   },
   "yixiang.mp3": {
     "text": "一向",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yiyang.mp3": {
+    "text": "一样",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yiyi.mp3": {

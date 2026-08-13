@@ -9483,6 +9483,101 @@
       "id": "r:molecule",
       "kind": "referent",
       "label": "molecule; (math) numerator"
+    },
+    {
+      "id": "w:好看@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "好看",
+      "reading": "hǎokàn",
+      "gloss": "good-looking; nice; pleasant to look at",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "haokan"
+    },
+    {
+      "id": "r:good-looking",
+      "kind": "referent",
+      "label": "good-looking; nice; pleasant to look at"
+    },
+    {
+      "id": "w:一样@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一样",
+      "reading": "yīyàng",
+      "gloss": "same; alike; identical; just like",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "yiyang"
+    },
+    {
+      "id": "r:same",
+      "kind": "referent",
+      "label": "same; alike; identical; just like"
+    },
+    {
+      "id": "w:样子@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "样子",
+      "reading": "yàngzi",
+      "gloss": "appearance; look; manner; way",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "yangzi"
+    },
+    {
+      "id": "w:儿子@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "儿子",
+      "reading": "érzi",
+      "gloss": "son",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "erzi"
+    },
+    {
+      "id": "r:son",
+      "kind": "referent",
+      "label": "son"
+    },
+    {
+      "id": "w:好好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "好好",
+      "reading": "hǎohǎo",
+      "gloss": "properly; nicely; thoroughly; to one's heart's content",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "haohao"
+    },
+    {
+      "id": "r:properly",
+      "kind": "referent",
+      "label": "properly; nicely; thoroughly; to one's heart's content"
     }
   ]
 }

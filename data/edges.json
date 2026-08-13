@@ -6538,6 +6538,76 @@
       "kind": "denotes"
     },
     {
+      "from": "g:好",
+      "to": "w:好看@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:看",
+      "to": "w:好看@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:好看@cn",
+      "to": "r:good-looking",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:样",
+      "to": "w:一样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一样@cn",
+      "to": "r:same",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:样",
+      "to": "w:样子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:样子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:样子@cn",
+      "to": "r:appearance",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:儿",
+      "to": "w:儿子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:儿子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:儿子@cn",
+      "to": "r:son",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:好好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:好好@cn",
+      "to": "r:properly",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
