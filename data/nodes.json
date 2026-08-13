@@ -7149,7 +7149,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "zhizhong"
     },
     {
       "id": "r:among",
@@ -7168,7 +7169,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "congbu"
     },
     {
       "id": "r:never",
@@ -7187,7 +7189,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "zhihou"
     },
     {
       "id": "r:after",
@@ -7206,7 +7209,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "daren"
     },
     {
       "id": "w:一一@cn",
@@ -7220,7 +7224,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "yiyi"
     },
     {
       "id": "r:one-by-one",
@@ -7239,7 +7244,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "keyi"
     },
     {
       "id": "r:can-may",
@@ -7258,7 +7264,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "yihou"
     },
     {
       "id": "w:女子@jp",
@@ -7292,7 +7299,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "riben"
     },
     {
       "id": "r:japan",
@@ -7311,7 +7319,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "zhiyi"
     },
     {
       "id": "r:one-of",
@@ -7346,7 +7355,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "benren"
     },
     {
       "id": "w:小さい@jp",
@@ -7397,7 +7407,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "kebu"
     },
     {
       "id": "r:whether-or-not",
@@ -7416,7 +7427,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "geren"
     },
     {
       "id": "r:individual",
@@ -7435,7 +7447,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "buru"
     },
     {
       "id": "r:inferior-to",
@@ -7454,7 +7467,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "renren"
     },
     {
       "id": "r:everyone",
@@ -7473,7 +7487,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 1
-      }
+      },
+      "cnAudioKey": "buke"
     },
     {
       "id": "r:cannot",
@@ -7988,7 +8003,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "huihe"
     },
     {
       "id": "w:一向@cn",
@@ -8002,7 +8018,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "yixiang"
     },
     {
       "id": "r:all-along",
@@ -8201,7 +8218,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "zaiyu"
     },
     {
       "id": "r:consist-in",
@@ -8220,7 +8238,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "renti"
     },
     {
       "id": "r:human-body",
@@ -8239,7 +8258,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "sanshi"
     },
     {
       "id": "r:thirty",
@@ -8547,7 +8567,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "tianshi"
     },
     {
       "id": "r:angel",
@@ -8566,7 +8587,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "quan3"
     },
     {
       "id": "w:看看@cn",
@@ -8580,7 +8602,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "kankan"
     },
     {
       "id": "r:take-a-look",
@@ -8599,7 +8622,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "shifen"
     },
     {
       "id": "r:very",
@@ -8618,7 +8642,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "youyu"
     },
     {
       "id": "r:due-to",
@@ -8637,7 +8662,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "hezuo"
     },
     {
       "id": "r:cooperation",
@@ -8656,7 +8682,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "ruguo"
     },
     {
       "id": "r:if",
@@ -8675,7 +8702,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "dashi"
     },
     {
       "id": "r:ambassador",
@@ -8694,7 +8722,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "buming"
     },
     {
       "id": "r:unclear",
@@ -8713,7 +8742,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "ershi"
     },
     {
       "id": "r:twenty",
@@ -8732,7 +8762,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "mingtian"
     },
     {
       "id": "r:tomorrow",
@@ -8751,7 +8782,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "dabuliao"
     },
     {
       "id": "r:at-worst",
@@ -8770,7 +8802,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "fenshou"
     },
     {
       "id": "r:break-up",
@@ -8789,7 +8822,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "shier"
     },
     {
       "id": "r:twelve",
@@ -8808,7 +8842,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "taren"
     },
     {
       "id": "r:others",
@@ -8827,7 +8862,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "houguo"
     },
     {
       "id": "r:consequence",
@@ -8846,7 +8882,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "gongzuo"
     },
     {
       "id": "r:job",
@@ -8865,7 +8902,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "gongren"
     },
     {
       "id": "r:worker",
@@ -8884,7 +8922,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "mingming"
     },
     {
       "id": "r:clearly",
@@ -8903,7 +8942,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "zuozhe"
     },
     {
       "id": "r:author",
@@ -8922,7 +8962,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "youren"
     },
     {
       "id": "r:someone",
@@ -8941,7 +8982,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "shuiguo"
     },
     {
       "id": "w:作业@cn",
@@ -8955,7 +8997,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "zuoye"
     },
     {
       "id": "r:homework",
@@ -9163,7 +9206,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "bendi"
     },
     {
       "id": "r:local",
@@ -9317,7 +9361,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "zhenxiang"
     },
     {
       "id": "r:truth",
@@ -9336,7 +9381,8 @@
         "source": "pandanese",
         "kind": "vocab",
         "level": 2
-      }
+      },
+      "cnAudioKey": "tianzhen"
     },
     {
       "id": "r:naive",

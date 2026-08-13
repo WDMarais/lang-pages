@@ -37,7 +37,7 @@ from collections import namedtuple
 
 from paths import ROOT, DATA, read_json, write_json
 from symbols_io import load_symbols
-from phonetics import bank as cn_bank, audio_key, multi_key, sentence_key
+from phonetics import bank as cn_bank, audio_key, multi_key, sentence_key, word_key
 from phonetics_jp import kana_key
 
 CN_VOICE = "zh-CN-XiaoxiaoNeural"
@@ -111,6 +111,13 @@ def cn_bank_jobs():
         r = cn.get("reading")
         if r and audio_key(r) is None and (k := multi_key(r)):
             text.setdefault(k, cn.get("name") or s["glyph"])
+    # CN words (真相・工作) are real hanzi — directly speakable, so the whole-word clip
+    # is voiced by the SURFACE, not a representative syllable. setdefault so a single-
+    # hanzi word (犬 → quan3) shares the glyph's syllable clip rather than re-cutting it;
+    # the JP analog lives in jp_bank_jobs. Mirrors phonetics-architecture's word-audio wire.
+    for w in read_json(DATA / "words.json").get("words", []):
+        if w.get("audience") == "cn" and (k := word_key(w["surface"], w.get("reading"))):
+            text.setdefault(k, w["surface"])
     return [Job(CN_VOICE, t, AUDIO / "cn" / f"{k}.mp3") for k, t in sorted(text.items())]
 
 

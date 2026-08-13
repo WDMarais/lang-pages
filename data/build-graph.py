@@ -18,7 +18,7 @@ import sys
 from itertools import combinations
 
 from paths import DATA, read_json, write_json
-from phonetics import sentence_key
+from phonetics import sentence_key, word_key
 from phonetics_jp import kana_key
 from symbols_io import (
     load_symbols,
@@ -217,11 +217,14 @@ def build():
                 node["okurigana"] = w["okurigana"]
             if w.get("program"):
                 node["program"] = w["program"]
-            # JP words carry their own audio key (romaji of the kana reading) so the
-            # dossier can play the shared /audio/jp/<key>.mp3 clip. CN words voice
-            # compositionally from their glyphs' syllable clips, not a whole-word one.
+            # A word carries its own audio key so the dossier can play the shared
+            # whole-word clip: JP romaji → /audio/jp/<key>.mp3, CN pinyin base →
+            # /audio/cn/<key>.mp3 (a single-hanzi CN word reuses its glyph's syllable
+            # clip). Both banks are projected from words.json in gen-audio.
             if w["audience"] == "jp" and (k := kana_key(w.get("reading"))):
                 node["jpAudioKey"] = k
+            elif w["audience"] == "cn" and (k := word_key(w["surface"], w.get("reading"))):
+                node["cnAudioKey"] = k
             nodes[wid] = node
             for part in w.get("parts", []):
                 psrc = canon(part)   # fold twin part onto its canonical

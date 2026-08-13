@@ -88,6 +88,28 @@ def cn_key(reading):
     return audio_key(reading) or multi_key(reading)
 
 
+def word_key(surface, reading):
+    """Bank key for a whole CN WORD clip → audio/cn/<key>.mp3, the CN analog of the
+    JP jpAudioKey (phonetics_jp.kana_key). Unlike a bare syllable, a word is real
+    hanzi (真相), directly speakable, so its clip is voiced by the SURFACE itself — no
+    representative hanzi needed.
+
+    A single-hanzi word is one syllable (犬 quǎn → 'quan3'): it reuses the syllable
+    bank clip the glyph already voices, so it routes through audio_key and shares it.
+    A compound (真相 zhēnxiàng → 'zhenxiang', 十二 shí'èr → 'shier') keys by the
+    reading's ASCII base — tones stripped, ü→v, apostrophes/separators dropped. That
+    matches the multi-syllable stroke-name convention already in /audio/cn/ (shùgōu →
+    'shugou'); it drops tone, so two compounds differing only in tone would collide —
+    none do today, and a whole-word clip voiced by its surface can't be mis-toned."""
+    if not reading:
+        return None
+    if len(surface) == 1:  # one hanzi = one syllable → share the glyph's bank clip
+        return audio_key(reading)
+    base, _ = strip_tone(reading)
+    base = "".join(c for c in base if c.isascii() and c.isalpha())
+    return base or None
+
+
 def sentence_key(lang, text):
     """Content-key for a whole SENTENCE clip → audio/sent/<lang>-<digest>.mp3.
 
