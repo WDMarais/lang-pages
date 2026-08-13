@@ -54,5 +54,14 @@ per operation. The query in *Try it* above over 20 glyphs drops from **41 → 3*
 
 ## Config
 
-Connection settings come from `.env` (see `.env.example`). The app fails fast if
-they are unset rather than guessing a default.
+Two settings, both standard libpq environment variables (see `.env.example`):
+`PGHOST` (the socket dir, selecting peer auth) and `PGDATABASE`. The app reads them
+via a `required()` helper that **fails fast** if either is unset — no guessed defaults.
+
+Because they're plain env vars, there are three equivalent ways to provide them:
+
+- **Clone-and-go** (default): `cp .env.example .env` in this folder. `dotenv` loads it.
+- **Export them** in your shell — they're libpq's own vars, so `psql` etc. honour them too.
+- **One central file** across checkouts: keep `~/.lang-pages/.env` and symlink this
+  folder's `.env` to it (`ln -sf ~/.lang-pages/.env .env`). Survives a re-clone / `git
+  clean`, since `.env` is gitignored. This is the local dev setup in use here.
