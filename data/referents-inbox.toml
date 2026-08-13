@@ -1,0 +1,19 @@
+# Referent image inbox — hand-found images go here, one [[image]] block each.
+#
+# Only for images you found by searching yourself (Openverse, Wikimedia, Flickr CC).
+# Images pulled by `fetch-referent.py` are recorded automatically — they don't need
+# a block here.
+#
+# Copy the block below, fill in the values (keep the quotes), delete this note's
+# leading "# " from a real entry. Then Wynand runs:
+#     python3 data/referents-from-toml.py
+# which folds these into referents.json exactly as typed (no changes made to your
+# credit / license / source text).
+
+# [[image]]
+# slug    = "tree"          # the meaning, lowercase, one word (fire, water, tree...)
+# label   = "tree"          # how it reads on the card (usually same as slug)
+# file    = "tree-03.jpg"   # the filename you saved into shared/referents/
+# credit  = "Jane Doe"      # author, exactly as the source page states
+# license = "CC BY-SA 4.0"  # must be PD / CC0 / CC BY / CC BY-SA — nothing else
+# source  = "https://commons.wikimedia.org/wiki/File:..."   # the file PAGE url
