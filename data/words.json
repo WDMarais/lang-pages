@@ -2244,6 +2244,86 @@
         "kind": "vocab",
         "level": 2
       }
+    },
+    {
+      "surface": "处在",
+      "audience": "cn",
+      "parts": [
+        "处",
+        "在"
+      ],
+      "denotes": "be-situated",
+      "reading": "chǔzài",
+      "gloss": "to be (situated) in; to be in a position/state of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "大小",
+      "audience": "cn",
+      "parts": [
+        "大",
+        "小"
+      ],
+      "denotes": "size",
+      "reading": "dàxiǎo",
+      "gloss": "size; dimensions; magnitude",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "那个",
+      "audience": "cn",
+      "parts": [
+        "那",
+        "个"
+      ],
+      "denotes": "that-one",
+      "reading": "nàge",
+      "gloss": "that one; that; (colloq.) um… (hesitation filler)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "小子",
+      "audience": "cn",
+      "parts": [
+        "小",
+        "子"
+      ],
+      "denotes": "kid",
+      "reading": "xiǎozi",
+      "gloss": "boy; kid; (derog.) brat; fellow",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "分子",
+      "audience": "cn",
+      "parts": [
+        "分",
+        "子"
+      ],
+      "denotes": "molecule",
+      "reading": "fēnzǐ",
+      "gloss": "molecule; (math) numerator",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

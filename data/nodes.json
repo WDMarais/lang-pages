@@ -9388,6 +9388,101 @@
       "id": "r:naive",
       "kind": "referent",
       "label": "naive; innocent; artless"
+    },
+    {
+      "id": "w:处在@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "处在",
+      "reading": "chǔzài",
+      "gloss": "to be (situated) in; to be in a position/state of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "chuzai"
+    },
+    {
+      "id": "r:be-situated",
+      "kind": "referent",
+      "label": "to be (situated) in; to be in a position/state of"
+    },
+    {
+      "id": "w:大小@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "大小",
+      "reading": "dàxiǎo",
+      "gloss": "size; dimensions; magnitude",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "daxiao"
+    },
+    {
+      "id": "w:那个@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "那个",
+      "reading": "nàge",
+      "gloss": "that one; that; (colloq.) um… (hesitation filler)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "nage"
+    },
+    {
+      "id": "r:that-one",
+      "kind": "referent",
+      "label": "that one; that; (colloq.) um… (hesitation filler)"
+    },
+    {
+      "id": "w:小子@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "小子",
+      "reading": "xiǎozi",
+      "gloss": "boy; kid; (derog.) brat; fellow",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "xiaozi"
+    },
+    {
+      "id": "r:kid",
+      "kind": "referent",
+      "label": "boy; kid; (derog.) brat; fellow"
+    },
+    {
+      "id": "w:分子@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "分子",
+      "reading": "fēnzǐ",
+      "gloss": "molecule; (math) numerator",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "fenzi"
+    },
+    {
+      "id": "r:molecule",
+      "kind": "referent",
+      "label": "molecule; (math) numerator"
     }
   ]
 }

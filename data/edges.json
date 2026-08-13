@@ -6463,6 +6463,81 @@
       "kind": "denotes"
     },
     {
+      "from": "g:处",
+      "to": "w:处在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:在",
+      "to": "w:处在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:处在@cn",
+      "to": "r:be-situated",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大小@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:小",
+      "to": "w:大小@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大小@cn",
+      "to": "r:size",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:那",
+      "to": "w:那个@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:个",
+      "to": "w:那个@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:那个@cn",
+      "to": "r:that-one",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:小",
+      "to": "w:小子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:小子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:小子@cn",
+      "to": "r:kid",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:分",
+      "to": "w:分子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:分子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:分子@cn",
+      "to": "r:molecule",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
