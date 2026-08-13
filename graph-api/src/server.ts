@@ -18,6 +18,10 @@ const typeDefs = /* GraphQL */ `
     components: [Node!]!
     "Wholes this node is a component of (outgoing composes edges)."
     composedInto: [Node!]!
+    "Referents this node denotes (outgoing denotes edges)."
+    denotes: [Node!]!
+    "Nodes that denote this one (incoming denotes edges) — the reverse-denotes lookup, meaningful on referent nodes."
+    denotedBy: [Node!]!
     "Per-language overlays on this (neutral) node. Optionally filtered by lang."
     bindings(lang: String): [Binding!]!
   }
@@ -38,6 +42,8 @@ const typeDefs = /* GraphQL */ `
   type Query {
     node(id: ID!): Node
     nodes(kind: String, first: Int = 20): [Node!]!
+    "Referent nodes whose label matches (case-insensitive substring). The rejoin-hunt entrypoint: find an existing referent to reuse before minting a new one."
+    referents(near: String, first: Int = 20): [Node!]!
   }
 `
 
@@ -56,6 +62,18 @@ const resolvers = {
         : await query('select * from node order by id limit $1', [args.first])
       return rows
     },
+    // Referent search over label. `near` is a case-insensitive substring (ILIKE);
+    // omitting it lists referents. The one place the DB does the matching so callers
+    // never hand-write the rejoin query.
+    referents: async (_parent: unknown, args: { near?: string; first: number }) => {
+      const { rows } = await query(
+        `select * from node
+          where kind = 'referent' and ($1::text is null or label ilike '%' || $1 || '%')
+          order by id limit $2`,
+        [args.near ?? null, args.first],
+      )
+      return rows
+    },
   },
   // Relation resolvers go through per-request DataLoaders (see loaders.ts): every
   // .load(id) in a tick coalesces into one batched query. This is the collapse of
@@ -65,6 +83,10 @@ const resolvers = {
       ctx.loaders.components.load(parent.id),
     composedInto: (parent: { id: string }, _args: unknown, ctx: Ctx) =>
       ctx.loaders.composedInto.load(parent.id),
+    denotes: (parent: { id: string }, _args: unknown, ctx: Ctx) =>
+      ctx.loaders.denotes.load(parent.id),
+    denotedBy: (parent: { id: string }, _args: unknown, ctx: Ctx) =>
+      ctx.loaders.denotedBy.load(parent.id),
     // The loader returns all langs for the glyph; apply the (lang:) filter in memory
     // (≤2 rows) so the batch stays keyed on node id alone.
     bindings: async (parent: { id: string }, args: { lang?: string }, ctx: Ctx) => {
