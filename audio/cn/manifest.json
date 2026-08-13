@@ -63,6 +63,10 @@
     "text": "不",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "buhao.mp3": {
+    "text": "不好",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "buke.mp3": {
     "text": "不可",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -423,6 +427,10 @@
     "text": "回合",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "huijian.mp3": {
+    "text": "回见",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "huo3.mp3": {
     "text": "火",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -591,6 +599,10 @@
     "text": "美",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "meihao.mp3": {
+    "text": "美好",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "men2.mp3": {
     "text": "門",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -757,6 +769,10 @@
   },
   "renti.mp3": {
     "text": "人体",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "renyuan.mp3": {
+    "text": "人员",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ri4.mp3": {
@@ -1229,6 +1245,10 @@
   },
   "zhenxiang.mp3": {
     "text": "真相",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhenzheng.mp3": {
+    "text": "真正",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhi1.mp3": {

@@ -6608,6 +6608,81 @@
       "kind": "denotes"
     },
     {
+      "from": "g:人",
+      "to": "w:人员@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:员",
+      "to": "w:人员@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:人员@cn",
+      "to": "r:member",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:不好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不好@cn",
+      "to": "r:not-good",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:回",
+      "to": "w:回见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:見",
+      "to": "w:回见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:回见@cn",
+      "to": "r:see-you-later",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:美",
+      "to": "w:美好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:美好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:美好@cn",
+      "to": "r:wonderful",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:真",
+      "to": "w:真正@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:真正@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:真正@cn",
+      "to": "r:true",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

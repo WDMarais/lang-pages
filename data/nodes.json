@@ -9578,6 +9578,96 @@
       "id": "r:properly",
       "kind": "referent",
       "label": "properly; nicely; thoroughly; to one's heart's content"
+    },
+    {
+      "id": "w:人员@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "人员",
+      "reading": "rényuán",
+      "gloss": "personnel; staff; (crew) members",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "renyuan"
+    },
+    {
+      "id": "w:不好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不好",
+      "reading": "bùhǎo",
+      "gloss": "not good; bad; not nice",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "buhao"
+    },
+    {
+      "id": "r:not-good",
+      "kind": "referent",
+      "label": "not good; bad; not nice"
+    },
+    {
+      "id": "w:回见@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "回见",
+      "reading": "huíjiàn",
+      "gloss": "see you later; bye (lit. return-see)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "huijian"
+    },
+    {
+      "id": "r:see-you-later",
+      "kind": "referent",
+      "label": "see you later; bye (lit. return-see)"
+    },
+    {
+      "id": "w:美好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "美好",
+      "reading": "měihǎo",
+      "gloss": "fine; wonderful; happy (of life, times)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "meihao"
+    },
+    {
+      "id": "r:wonderful",
+      "kind": "referent",
+      "label": "fine; wonderful; happy (of life, times)"
+    },
+    {
+      "id": "w:真正@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "真正",
+      "reading": "zhēnzhèng",
+      "gloss": "genuine; real; true",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "zhenzheng"
     }
   ]
 }

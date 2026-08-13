@@ -2403,6 +2403,86 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "人员",
+      "audience": "cn",
+      "parts": [
+        "人",
+        "员"
+      ],
+      "denotes": "member",
+      "reading": "rényuán",
+      "gloss": "personnel; staff; (crew) members",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "不好",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "好"
+      ],
+      "denotes": "not-good",
+      "reading": "bùhǎo",
+      "gloss": "not good; bad; not nice",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "回见",
+      "audience": "cn",
+      "parts": [
+        "回",
+        "見"
+      ],
+      "denotes": "see-you-later",
+      "reading": "huíjiàn",
+      "gloss": "see you later; bye (lit. return-see)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "美好",
+      "audience": "cn",
+      "parts": [
+        "美",
+        "好"
+      ],
+      "denotes": "wonderful",
+      "reading": "měihǎo",
+      "gloss": "fine; wonderful; happy (of life, times)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "真正",
+      "audience": "cn",
+      "parts": [
+        "真",
+        "正"
+      ],
+      "denotes": "true",
+      "reading": "zhēnzhèng",
+      "gloss": "genuine; real; true",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
