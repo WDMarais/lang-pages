@@ -6683,6 +6683,81 @@
       "kind": "denotes"
     },
     {
+      "from": "g:那",
+      "to": "w:那样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:样",
+      "to": "w:那样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:那样@cn",
+      "to": "r:like-that",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:正好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:正好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:正好@cn",
+      "to": "r:just-right",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:那",
+      "to": "w:那儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "w:那儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:那儿@cn",
+      "to": "r:there",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:员",
+      "to": "w:员工@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:工",
+      "to": "w:员工@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:员工@cn",
+      "to": "r:member",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:样",
+      "to": "w:样本@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:本",
+      "to": "w:样本@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:样本@cn",
+      "to": "r:sample",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

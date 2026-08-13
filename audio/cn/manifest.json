@@ -659,6 +659,14 @@
     "text": "男",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "nar.mp3": {
+    "text": "那儿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "nayang.mp3": {
+    "text": "那样",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ne4.mp3": {
     "text": "疒",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1107,6 +1115,10 @@
     "text": "样",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "yangben.mp3": {
+    "text": "样本",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "yangzi.mp3": {
     "text": "样子",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1207,6 +1219,10 @@
     "text": "元",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "yuangong.mp3": {
+    "text": "员工",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "yue1.mp3": {
     "text": "曰",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1241,6 +1257,10 @@
   },
   "zheng4.mp3": {
     "text": "政",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhenghao.mp3": {
+    "text": "正好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhenxiang.mp3": {

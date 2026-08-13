@@ -9668,6 +9668,101 @@
         "level": 3
       },
       "cnAudioKey": "zhenzheng"
+    },
+    {
+      "id": "w:那样@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "那样",
+      "reading": "nàyàng",
+      "gloss": "that kind; like that; that way; such",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "nayang"
+    },
+    {
+      "id": "r:like-that",
+      "kind": "referent",
+      "label": "that kind; like that; that way; such"
+    },
+    {
+      "id": "w:正好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "正好",
+      "reading": "zhènghǎo",
+      "gloss": "just right; exactly; as it happens",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "zhenghao"
+    },
+    {
+      "id": "r:just-right",
+      "kind": "referent",
+      "label": "just right; exactly; as it happens"
+    },
+    {
+      "id": "w:那儿@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "那儿",
+      "reading": "nàr",
+      "gloss": "there; that place",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "nar"
+    },
+    {
+      "id": "r:there",
+      "kind": "referent",
+      "label": "there; that place"
+    },
+    {
+      "id": "w:员工@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "员工",
+      "reading": "yuángōng",
+      "gloss": "staff; employee; personnel",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "yuangong"
+    },
+    {
+      "id": "w:样本@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "样本",
+      "reading": "yàngběn",
+      "gloss": "sample; specimen",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "yangben"
+    },
+    {
+      "id": "r:sample",
+      "kind": "referent",
+      "label": "sample; specimen"
     }
   ]
 }

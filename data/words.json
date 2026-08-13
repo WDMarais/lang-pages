@@ -2483,6 +2483,86 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "那样",
+      "audience": "cn",
+      "parts": [
+        "那",
+        "样"
+      ],
+      "denotes": "like-that",
+      "reading": "nàyàng",
+      "gloss": "that kind; like that; that way; such",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "正好",
+      "audience": "cn",
+      "parts": [
+        "正",
+        "好"
+      ],
+      "denotes": "just-right",
+      "reading": "zhènghǎo",
+      "gloss": "just right; exactly; as it happens",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "那儿",
+      "audience": "cn",
+      "parts": [
+        "那",
+        "儿"
+      ],
+      "denotes": "there",
+      "reading": "nàr",
+      "gloss": "there; that place",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "员工",
+      "audience": "cn",
+      "parts": [
+        "员",
+        "工"
+      ],
+      "denotes": "member",
+      "reading": "yuángōng",
+      "gloss": "staff; employee; personnel",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "样本",
+      "audience": "cn",
+      "parts": [
+        "样",
+        "本"
+      ],
+      "denotes": "sample",
+      "reading": "yàngběn",
+      "gloss": "sample; specimen",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
