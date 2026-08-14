@@ -11,6 +11,10 @@
     "text": "あかるい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "amerikajin.mp3": {
+    "text": "アメリカじん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "arau.mp3": {
     "text": "あらう",
     "voice": "ja-JP-NanamiNeural"
@@ -261,6 +265,10 @@
   },
   "ie.mp3": {
     "text": "いえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "igirisujin.mp3": {
+    "text": "イギリスじん",
     "voice": "ja-JP-NanamiNeural"
   },
   "ima.mp3": {
@@ -893,6 +901,10 @@
   },
   "tensai.mp3": {
     "text": "てんさい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "to.mp3": {
+    "text": "と",
     "voice": "ja-JP-NanamiNeural"
   },
   "toku.mp3": {

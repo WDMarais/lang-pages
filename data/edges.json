@@ -7018,6 +7018,26 @@
       "kind": "denotes"
     },
     {
+      "from": "g:人",
+      "to": "w:イギリス人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:イギリス人@jp",
+      "to": "r:british-person",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:アメリカ人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:アメリカ人@jp",
+      "to": "r:american-person",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

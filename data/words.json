@@ -2833,6 +2833,36 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "イギリス人",
+      "audience": "jp",
+      "parts": [
+        "人"
+      ],
+      "denotes": "british-person",
+      "reading": "イギリスじん",
+      "gloss": "British person; English person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "アメリカ人",
+      "audience": "jp",
+      "parts": [
+        "人"
+      ],
+      "denotes": "american-person",
+      "reading": "アメリカじん",
+      "gloss": "American person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

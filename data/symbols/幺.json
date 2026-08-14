@@ -21,5 +21,14 @@
       "gloss": "short thread"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Poop",
+      "kind": "mnemonic",
+      "level": 3
+    }
+  ]
 }

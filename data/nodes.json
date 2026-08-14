@@ -3218,12 +3218,21 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "hu4"
+      "cnAudioKey": "hu4",
+      "jpAudioKey": "to",
+      "script": {
+        "keyed": "traditional",
+        "simplified": [
+          {
+            "glyph": "户"
+          }
+        ]
+      }
     },
     {
       "id": "r:door",
       "kind": "referent",
-      "label": "door"
+      "label": "door; household"
     },
     {
       "id": "g:扌",
@@ -10116,6 +10125,46 @@
       "id": "r:sunrise",
       "kind": "referent",
       "label": "sunrise; daybreak"
+    },
+    {
+      "id": "w:イギリス人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "イギリス人",
+      "reading": "イギリスじん",
+      "gloss": "British person; English person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "igirisujin"
+    },
+    {
+      "id": "r:british-person",
+      "kind": "referent",
+      "label": "British person; English person"
+    },
+    {
+      "id": "w:アメリカ人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "アメリカ人",
+      "reading": "アメリカじん",
+      "gloss": "American person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "amerikajin"
+    },
+    {
+      "id": "r:american-person",
+      "kind": "referent",
+      "label": "American person"
     }
   ]
 }

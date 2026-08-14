@@ -2067,6 +2067,25 @@
           "kanji": { "name": "Pull", "readings": ["イン"], "on": true, "kun": ["ひ"], "level": 3 }
         },
         {
+          "glyph": "戶",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "hu4",
+          "jpAudioKey": "to",
+          "script": {"keyed": "traditional", "simplified": [{"glyph": "户"}]},
+          "cn": {
+            "name": "戶", "reading": "hù", "gloss": "door; household",
+            "extra": "康熙部首 63 · 门户、窗户、户口、户外"
+          },
+          "jp": {
+            "name": "戸", "reading": "と", "gloss": "door",
+            "extra": "漢字「戸」(と · コ) · 戸(と)、戸口(とぐち)、雨戸(あまど) · 新字体（旧字体 戶）"
+          },
+          "wk": { "name": "Door", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Door", "readings": ["コ"], "on": true, "kun": ["と"], "level": 3 }
+        },
+        {
           "glyph": "文",
           "tag": "char",
           "image": "",

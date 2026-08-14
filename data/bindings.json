@@ -5177,7 +5177,13 @@
       "name": "幺",
       "readings": [],
       "gloss": "short thread",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Poop",
+        "level": 3,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:广@cn",
@@ -5440,17 +5446,36 @@
       "readings": [
         "hù"
       ],
-      "gloss": "door",
-      "extra": "康熙部首 63"
+      "gloss": "door; household",
+      "extra": "康熙部首 63 · 门户、窗户、户口、户外"
     },
     {
       "id": "b:戶@jp",
       "glyph_id": "g:戶",
       "lang": "jp",
-      "name": "戶",
-      "readings": [],
+      "name": "戸",
+      "readings": [
+        "と"
+      ],
       "gloss": "door",
-      "extra": ""
+      "extra": "漢字「戸」(と · コ) · 戸(と)、戸口(とぐち)、雨戸(あまど) · 新字体（旧字体 戶）",
+      "program": {
+        "source": "wanikani",
+        "name": "Door",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Door",
+          "readings": [
+            "コ"
+          ],
+          "on": true,
+          "kun": [
+            "と"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:扌@cn",
