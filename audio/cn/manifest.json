@@ -379,6 +379,10 @@
     "text": "好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "haochu.mp3": {
+    "text": "好处",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "haohao.mp3": {
     "text": "好好",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -501,6 +505,10 @@
   },
   "kan4.mp3": {
     "text": "看",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "kanjian.mp3": {
+    "text": "看见",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "kankan.mp3": {
@@ -1229,6 +1237,10 @@
   },
   "youyu.mp3": {
     "text": "由于",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "youzhe.mp3": {
+    "text": "有着",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yu2.mp3": {

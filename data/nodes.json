@@ -9971,6 +9971,56 @@
         "level": 3
       },
       "cnAudioKey": "chuyu"
+    },
+    {
+      "id": "w:看见@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "看见",
+      "reading": "kànjiàn",
+      "gloss": "to see; to catch sight of; to perceive",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "kanjian"
+    },
+    {
+      "id": "w:好处@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "好处",
+      "reading": "hǎochu",
+      "gloss": "benefit; advantage; good point",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "haochu"
+    },
+    {
+      "id": "r:benefit",
+      "kind": "referent",
+      "label": "benefit; advantage; good point"
+    },
+    {
+      "id": "w:有着@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "有着",
+      "reading": "yǒuzhe",
+      "gloss": "to have; to possess (emphasizing an ongoing state)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "youzhe"
     }
   ]
 }

@@ -6918,6 +6918,51 @@
       "kind": "denotes"
     },
     {
+      "from": "g:看",
+      "to": "w:看见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:見",
+      "to": "w:看见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:看见@cn",
+      "to": "r:see",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:好处@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:处",
+      "to": "w:好处@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:好处@cn",
+      "to": "r:benefit",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:有",
+      "to": "w:有着@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:着",
+      "to": "w:有着@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:有着@cn",
+      "to": "r:have",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

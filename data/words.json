@@ -2723,6 +2723,54 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "看见",
+      "audience": "cn",
+      "parts": [
+        "看",
+        "見"
+      ],
+      "denotes": "see",
+      "reading": "kànjiàn",
+      "gloss": "to see; to catch sight of; to perceive",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "好处",
+      "audience": "cn",
+      "parts": [
+        "好",
+        "处"
+      ],
+      "denotes": "benefit",
+      "reading": "hǎochu",
+      "gloss": "benefit; advantage; good point",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "有着",
+      "audience": "cn",
+      "parts": [
+        "有",
+        "着"
+      ],
+      "denotes": "have",
+      "reading": "yǒuzhe",
+      "gloss": "to have; to possess (emphasizing an ongoing state)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
