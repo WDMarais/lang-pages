@@ -2643,6 +2643,86 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "小小",
+      "audience": "cn",
+      "parts": [
+        "小",
+        "小"
+      ],
+      "denotes": "tiny",
+      "reading": "xiǎoxiǎo",
+      "gloss": "tiny; very small; little",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "不见",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "見"
+      ],
+      "denotes": "disappear",
+      "reading": "bùjiàn",
+      "gloss": "to disappear; to vanish; to be missing (lit. not-see)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "日子",
+      "audience": "cn",
+      "parts": [
+        "日",
+        "子"
+      ],
+      "denotes": "days",
+      "reading": "rìzi",
+      "gloss": "day; date; (one's) days; livelihood",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "那天",
+      "audience": "cn",
+      "parts": [
+        "那",
+        "天"
+      ],
+      "denotes": "that-day",
+      "reading": "nàtiān",
+      "gloss": "that day",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "处于",
+      "audience": "cn",
+      "parts": [
+        "处",
+        "于"
+      ],
+      "denotes": "be-situated",
+      "reading": "chǔyú",
+      "gloss": "to be in (a state/condition); to be situated in",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

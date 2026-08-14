@@ -9876,6 +9876,101 @@
       "id": "r:justice",
       "kind": "referent",
       "label": "justice; righteousness"
+    },
+    {
+      "id": "w:小小@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "小小",
+      "reading": "xiǎoxiǎo",
+      "gloss": "tiny; very small; little",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "xiaoxiao"
+    },
+    {
+      "id": "r:tiny",
+      "kind": "referent",
+      "label": "tiny; very small; little"
+    },
+    {
+      "id": "w:不见@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不见",
+      "reading": "bùjiàn",
+      "gloss": "to disappear; to vanish; to be missing (lit. not-see)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "bujian"
+    },
+    {
+      "id": "r:disappear",
+      "kind": "referent",
+      "label": "to disappear; to vanish; to be missing (lit. not-see)"
+    },
+    {
+      "id": "w:日子@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "日子",
+      "reading": "rìzi",
+      "gloss": "day; date; (one's) days; livelihood",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "rizi"
+    },
+    {
+      "id": "r:days",
+      "kind": "referent",
+      "label": "day; date; (one's) days; livelihood"
+    },
+    {
+      "id": "w:那天@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "那天",
+      "reading": "nàtiān",
+      "gloss": "that day",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "natian"
+    },
+    {
+      "id": "r:that-day",
+      "kind": "referent",
+      "label": "that day"
+    },
+    {
+      "id": "w:处于@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "处于",
+      "reading": "chǔyú",
+      "gloss": "to be in (a state/condition); to be situated in",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "chuyu"
     }
   ]
 }

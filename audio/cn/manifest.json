@@ -67,6 +67,10 @@
     "text": "不好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "bujian.mp3": {
+    "text": "不见",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "buke.mp3": {
     "text": "不可",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -137,6 +141,10 @@
   },
   "chuo4.mp3": {
     "text": "辵",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chuyu.mp3": {
+    "text": "处于",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "chuzai.mp3": {
@@ -663,6 +671,10 @@
     "text": "那儿",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "natian.mp3": {
+    "text": "那天",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "nayang.mp3": {
     "text": "那样",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -793,6 +805,10 @@
   },
   "riben.mp3": {
     "text": "日本",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "rizi.mp3": {
+    "text": "日子",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "rou2.mp3": {
@@ -1069,6 +1085,10 @@
   },
   "xiao3.mp3": {
     "text": "小",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiaoxiao.mp3": {
+    "text": "小小",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xiaozi.mp3": {

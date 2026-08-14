@@ -6848,6 +6848,76 @@
       "kind": "denotes"
     },
     {
+      "from": "g:小",
+      "to": "w:小小@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:小小@cn",
+      "to": "r:tiny",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:見",
+      "to": "w:不见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不见@cn",
+      "to": "r:disappear",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:日子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:日子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:日子@cn",
+      "to": "r:days",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:那",
+      "to": "w:那天@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:天",
+      "to": "w:那天@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:那天@cn",
+      "to": "r:that-day",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:处",
+      "to": "w:处于@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:于",
+      "to": "w:处于@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:处于@cn",
+      "to": "r:be-situated",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
