@@ -33,6 +33,14 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Roof",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

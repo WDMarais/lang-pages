@@ -2771,6 +2771,22 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "山びこ",
+      "audience": "jp",
+      "parts": [
+        "山"
+      ],
+      "denotes": "echo",
+      "reading": "やまびこ",
+      "gloss": "echo (esp. in the mountains)",
+      "okurigana": "びこ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

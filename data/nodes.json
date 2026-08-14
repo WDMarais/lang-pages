@@ -442,13 +442,6 @@
       "label": "ten"
     },
     {
-      "id": "g:古",
-      "kind": "glyph",
-      "glyph": "古",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:千",
       "kind": "glyph",
       "glyph": "千",
@@ -530,13 +523,6 @@
       "id": "r:pie-heng-component",
       "kind": "referent",
       "label": "pie-heng component"
-    },
-    {
-      "id": "g:午",
-      "kind": "glyph",
-      "glyph": "午",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:ト",
@@ -2397,6 +2383,24 @@
       "label": "hiding enclosure"
     },
     {
+      "id": "g:午",
+      "kind": "glyph",
+      "glyph": "午",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "wu3",
+      "jpAudioKey": "go"
+    },
+    {
+      "id": "r:noon",
+      "kind": "referent",
+      "label": "noon; 7th earthly branch"
+    },
+    {
       "id": "g:卜",
       "kind": "glyph",
       "glyph": "卜",
@@ -2456,6 +2460,24 @@
       "id": "r:again",
       "kind": "referent",
       "label": "again"
+    },
+    {
+      "id": "g:古",
+      "kind": "glyph",
+      "glyph": "古",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "gu3",
+      "jpAudioKey": "furu"
+    },
+    {
+      "id": "r:ancient",
+      "kind": "referent",
+      "label": "ancient; old"
     },
     {
       "id": "g:只",
@@ -10021,6 +10043,27 @@
         "level": 3
       },
       "cnAudioKey": "youzhe"
+    },
+    {
+      "id": "w:山びこ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "山びこ",
+      "reading": "やまびこ",
+      "gloss": "echo (esp. in the mountains)",
+      "okurigana": "びこ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "yamabiko"
+    },
+    {
+      "id": "r:echo",
+      "kind": "referent",
+      "label": "echo (esp. in the mountains)"
     }
   ]
 }

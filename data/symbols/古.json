@@ -1,0 +1,51 @@
+{
+  "glyph": "古",
+  "cp": "U+53E4",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "十",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "古",
+      "reading": "gǔ",
+      "gloss": "ancient; old",
+      "extra": "十 + 口 · 古代、古老、考古"
+    },
+    "jp": {
+      "name": "古",
+      "reading": "ふる",
+      "gloss": "old",
+      "extra": "漢字「古」(ふる·い · コ) · 古い、中古、古典"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Old",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Old",
+      "readings": [
+        "コ"
+      ],
+      "on": true,
+      "kun": [
+        "ふる"
+      ],
+      "level": 3
+    }
+  ]
+}

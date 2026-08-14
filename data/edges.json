@@ -859,6 +859,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:午",
+      "to": "r:noon",
+      "kind": "denotes"
+    },
+    {
       "from": "g:卜",
       "to": "r:divination",
       "kind": "denotes"
@@ -876,6 +881,11 @@
     {
       "from": "g:又",
       "to": "r:again",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:古",
+      "to": "r:ancient",
       "kind": "denotes"
     },
     {
@@ -6960,6 +6970,16 @@
     {
       "from": "w:有着@cn",
       "to": "r:have",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:山",
+      "to": "w:山びこ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:山びこ@jp",
+      "to": "r:echo",
       "kind": "denotes"
     },
     {

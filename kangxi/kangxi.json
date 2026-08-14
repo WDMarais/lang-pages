@@ -1556,7 +1556,11 @@
               "gloss": "house"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Roof",
+            "level": 3,
+            "kind": "meaning"
+          },
           "pd": {
             "name": "roof",
             "level": 1,

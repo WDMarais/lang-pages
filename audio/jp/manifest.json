@@ -91,6 +91,10 @@
     "text": "フ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "furu.mp3": {
+    "text": "ふる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "furui.mp3": {
     "text": "ふるい",
     "voice": "ja-JP-NanamiNeural"
@@ -985,6 +989,10 @@
   },
   "yama.mp3": {
     "text": "やま",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yamabiko.mp3": {
+    "text": "やまびこ",
     "voice": "ja-JP-NanamiNeural"
   },
   "yasu.mp3": {

@@ -2904,6 +2904,12 @@
         "glyph": "家",
         "reading": "いえ",
         "gloss": "house"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Roof",
+        "level": 3,
+        "kind": "meaning"
       }
     },
     {
@@ -4265,6 +4271,39 @@
       "extra": ""
     },
     {
+      "id": "b:午@cn",
+      "glyph_id": "g:午",
+      "lang": "cn",
+      "name": "午",
+      "readings": [
+        "wǔ"
+      ],
+      "gloss": "noon; 7th earthly branch",
+      "extra": "干支「午」· 中午、上午、下午、正午"
+    },
+    {
+      "id": "b:午@jp",
+      "glyph_id": "g:午",
+      "lang": "jp",
+      "name": "午",
+      "readings": [
+        "ご"
+      ],
+      "gloss": "noon",
+      "extra": "漢字「午」(ゴ) · 午前、午後、正午",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Noon",
+          "readings": [
+            "ゴ"
+          ],
+          "on": true,
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:卜@cn",
       "glyph_id": "g:卜",
       "lang": "cn",
@@ -4354,6 +4393,45 @@
         "name": "Stool",
         "level": 3,
         "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:古@cn",
+      "glyph_id": "g:古",
+      "lang": "cn",
+      "name": "古",
+      "readings": [
+        "gǔ"
+      ],
+      "gloss": "ancient; old",
+      "extra": "十 + 口 · 古代、古老、考古"
+    },
+    {
+      "id": "b:古@jp",
+      "glyph_id": "g:古",
+      "lang": "jp",
+      "name": "古",
+      "readings": [
+        "ふる"
+      ],
+      "gloss": "old",
+      "extra": "漢字「古」(ふる·い · コ) · 古い、中古、古典",
+      "program": {
+        "source": "wanikani",
+        "name": "Old",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Old",
+          "readings": [
+            "コ"
+          ],
+          "on": true,
+          "kun": [
+            "ふる"
+          ],
+          "level": 3
+        }
       }
     },
     {

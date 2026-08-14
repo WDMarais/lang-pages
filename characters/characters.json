@@ -1681,6 +1681,42 @@
           "pdc": { "name": "add", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "午",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "wu3",
+          "jpAudioKey": "go",
+          "cn": {
+            "name": "午", "reading": "wǔ", "gloss": "noon; 7th earthly branch",
+            "extra": "干支「午」· 中午、上午、下午、正午"
+          },
+          "jp": {
+            "name": "午", "reading": "ご", "gloss": "noon",
+            "extra": "漢字「午」(ゴ) · 午前、午後、正午"
+          },
+          "wk": null,
+          "kanji": { "name": "Noon", "readings": ["ゴ"], "on": true, "level": 3 }
+        },
+        {
+          "glyph": "古",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "gu3",
+          "jpAudioKey": "furu",
+          "cn": {
+            "name": "古", "reading": "gǔ", "gloss": "ancient; old",
+            "extra": "十 + 口 · 古代、古老、考古"
+          },
+          "jp": {
+            "name": "古", "reading": "ふる", "gloss": "old",
+            "extra": "漢字「古」(ふる·い · コ) · 古い、中古、古典"
+          },
+          "wk": { "name": "Old", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Old", "readings": ["コ"], "on": true, "kun": ["ふる"], "level": 3 }
+        },
+        {
           "glyph": "只",
           "tag": "char",
           "image": "",
