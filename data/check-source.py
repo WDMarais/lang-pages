@@ -8,9 +8,13 @@ deploy check still passes). This asserts the invariants the build ASSUMES, so an
 authoring slip fails HERE with a clear locus instead of surfacing downstream as a
 puzzling frontier node or a missing referent.
 
-Structural only. It says nothing about whether generated files are current (that is
-re-running the build) or what the box serves (that is check-deploy) — see those for
-the other two seams in symbols -> build -> generated -> deployed.
+Structural only, with ONE deliberate exception: the decomposition.json side-input
+(`check_decomposition`). A stale decomposition silently under-integrates a symbol
+(只 landing with no 口/八) — precisely the "internally consistent but silently wrong"
+failure this gate exists to localize — so we assert it here even though it is nominally
+a freshness concern. Otherwise says nothing about whether generated files are current
+(that is re-running the build) or what the box serves (that is check-deploy) — see those
+for the other two seams in symbols -> build -> generated -> deployed.
 
   python3 data/check-source.py        ·  exit 0 clean · 1 hard error(s) · 2 load failure
 
@@ -295,6 +299,54 @@ def check_cross(rep, syms):
         rep.warn("_spine.json", f"{g} listed but has no symbol file")
 
 
+def _load_fetch_decomp():
+    """Import the hyphenated data/fetch-decomp.py as a module so we can reuse its
+    (pure) compute_decomp — the same code that WRITES decomposition.json, so the
+    freshness check can't drift from the generator."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("fetch_decomp", DATA / "fetch-decomp.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def check_decomposition(rep, syms):
+    """Under-integration gate: a symbol whose parts aren't in decomposition.json
+    lands in the graph as a glyph node with NO components (只 with no 口/八) — the
+    build stays green and the error only shows as a suspiciously bare dossier. The
+    decomposition is a deterministic function of the symbol set, so we regenerate it
+    (from the cached MMAH dict, offline) and diff against the committed file. A
+    mismatch means someone added/edited a symbol without re-running the decomposition
+    step — i.e. `python3 data/build.py` (or data/fetch-decomp.py) was skipped.
+
+    Needs the MMAH cache (data/.cache); on a fresh checkout with no cache we can't
+    regenerate offline, so we skip with a warning rather than block or hit the net."""
+    committed = {}
+    dpath = DATA / "decomposition.json"
+    if dpath.exists():
+        committed = json.loads(dpath.read_text(encoding="utf-8"))
+    try:
+        fd = _load_fetch_decomp()
+    except Exception as e:  # pragma: no cover — importability is not the gate
+        rep.warn("decomposition.json", f"freshness unchecked — could not load fetch-decomp ({e})")
+        return
+    if not fd.CACHE.exists():
+        rep.warn("decomposition.json", "freshness unchecked — MMAH cache absent "
+                 "(run data/fetch-decomp.py once to enable this check)")
+        return
+    fresh = fd.compute_decomp()
+    for g in sorted(set(fresh) | set(committed)):
+        if g not in committed:
+            rep.err("decomposition.json", f"{g} under-integrated: parts {fresh[g]} not in "
+                    f"decomposition.json — run `python3 data/build.py` (or data/fetch-decomp.py)")
+        elif g not in fresh:
+            rep.err("decomposition.json", f"{g}: stale entry {committed[g]} no longer derivable "
+                    f"from the symbol set — run `python3 data/build.py`")
+        elif committed[g] != fresh[g]:
+            rep.err("decomposition.json", f"{g}: decomposition {committed[g]} is stale "
+                    f"(source says {fresh[g]}) — run `python3 data/build.py`")
+
+
 def main():
     syms, bad = {}, []
     for f in sorted(SYM.glob("*.json")):
@@ -314,6 +366,7 @@ def main():
         check_symbol(rep, g, s)
     check_words(rep, syms)
     check_cross(rep, syms)
+    check_decomposition(rep, syms)
 
     for where, msg in rep.warns:
         print(f"⚠  {where}: {msg}")

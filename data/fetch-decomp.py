@@ -87,8 +87,11 @@ def needed_glyphs():
     return glyphs
 
 
-def main(argv):
-    refresh = "--refresh" in argv
+def compute_decomp(refresh=False):
+    """Build the decomposition map from the (cached) MMAH dictionary + the
+    STROKE_OVERRIDE floor, for the current symbol set. Pure — returns the dict,
+    writes nothing. check-source.py calls this to prove decomposition.json is
+    fresh (a symbol added without re-running this = an under-integrated glyph)."""
     want = needed_glyphs()
     decomp = {}
     for line in dictionary_lines(refresh):
@@ -105,9 +108,14 @@ def main(argv):
     for ch, comps in STROKE_OVERRIDE.items():
         if ch in want:
             decomp[ch] = comps
+    return decomp
+
+
+def main(argv):
+    decomp = compute_decomp(refresh="--refresh" in argv)
     DATA.mkdir(exist_ok=True)
     write_json(DATA / "decomposition.json", decomp)
-    print(f"decomposition for {len(decomp)}/{len(want)} glyphs")
+    print(f"decomposition for {len(decomp)}/{len(needed_glyphs())} glyphs")
     for k in list(decomp)[:10]:
         print(f"  {k} ← {' '.join(decomp[k])}")
 
