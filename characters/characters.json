@@ -1876,7 +1876,8 @@
             "name": "太", "reading": "ふとい", "gloss": "thick; plump",
             "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)"
           },
-          "wk": null,
+          "wk": { "name": "Fat", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Fat", "readings": ["タイ", "タ"], "on": true, "kun": ["ふと"], "level": 3 },
           "pdc": { "name": "fat", "kind": "mnemonic", "level": 2 }
         },
         {
@@ -2273,6 +2274,24 @@
           "kanji": { "name": "Ball", "readings": ["ギョク"], "on": true, "kun": ["たま"], "level": 2 }
         },
         {
+          "glyph": "用",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "yong4",
+          "jpAudioKey": "you",
+          "cn": {
+            "name": "用", "reading": "yòng", "gloss": "use",
+            "extra": "康熙部首 101 · 用途、作用、使用"
+          },
+          "jp": {
+            "name": "用", "reading": "よう", "gloss": "use",
+            "extra": "漢字「用」(もち·いる · ヨウ) · 用いる、用事(ようじ)、使用"
+          },
+          "wk": { "name": "Use", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Use", "readings": ["ヨウ"], "on": true, "kun": ["もち"], "level": 3 }
+        },
+        {
           "glyph": "由",
           "tag": "char",
           "image": "",
@@ -2410,6 +2429,24 @@
           },
           "wk": null,
           "pdc": { "name": "to wear", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "矢",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "shi3",
+          "jpAudioKey": "ya",
+          "cn": {
+            "name": "矢", "reading": "shǐ", "gloss": "arrow",
+            "extra": "康熙部首 111 · 弓矢、流矢、有的放矢"
+          },
+          "jp": {
+            "name": "矢", "reading": "や", "gloss": "arrow",
+            "extra": "漢字「矢」(や · シ) · 矢、弓矢(ゆみや)、矢印(やじるし)"
+          },
+          "wk": { "name": "Arrow", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Arrow", "readings": ["シ"], "on": true, "kun": ["や"], "level": 3 }
         },
         {
           "glyph": "神",

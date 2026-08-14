@@ -3913,7 +3913,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "yong4"
+      "cnAudioKey": "yong4",
+      "jpAudioKey": "you"
     },
     {
       "id": "g:由",
@@ -4170,7 +4171,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "shi3"
+      "cnAudioKey": "shi3",
+      "jpAudioKey": "ya"
     },
     {
       "id": "r:arrow",
@@ -10064,6 +10066,56 @@
       "id": "r:echo",
       "kind": "referent",
       "label": "echo (esp. in the mountains)"
+    },
+    {
+      "id": "w:用@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "用",
+      "reading": "よう",
+      "gloss": "use; task; business",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "you"
+    },
+    {
+      "id": "w:矢@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "矢",
+      "reading": "や",
+      "gloss": "arrow",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "ya"
+    },
+    {
+      "id": "w:日の出@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "日の出",
+      "reading": "ひので",
+      "gloss": "sunrise; daybreak",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "hinode"
+    },
+    {
+      "id": "r:sunrise",
+      "kind": "referent",
+      "label": "sunrise; daybreak"
     }
   ]
 }

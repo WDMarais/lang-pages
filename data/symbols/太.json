@@ -22,6 +22,29 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Fat",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Fat",
+      "readings": [
+        "タイ",
+        "タ"
+      ],
+      "on": true,
+      "kun": [
+        "ふと"
+      ],
+      "level": 3
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "character",

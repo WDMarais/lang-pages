@@ -6983,6 +6983,41 @@
       "kind": "denotes"
     },
     {
+      "from": "g:用",
+      "to": "w:用@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:用@jp",
+      "to": "r:use",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:矢",
+      "to": "w:矢@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:矢@jp",
+      "to": "r:arrow",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:日の出@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:出",
+      "to": "w:日の出@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:日の出@jp",
+      "to": "r:sunrise",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

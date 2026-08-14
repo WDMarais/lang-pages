@@ -207,6 +207,10 @@
     "text": "ひく",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hinode.mp3": {
+    "text": "ひので",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hito.mp3": {
     "text": "ひと",
     "voice": "ja-JP-NanamiNeural"
@@ -1013,6 +1017,10 @@
   },
   "yottsu.mp3": {
     "text": "よっつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "you.mp3": {
+    "text": "よう",
     "voice": "ja-JP-NanamiNeural"
   },
   "youka.mp3": {

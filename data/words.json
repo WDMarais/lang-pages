@@ -2787,6 +2787,52 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "用",
+      "audience": "jp",
+      "parts": [
+        "用"
+      ],
+      "denotes": "use",
+      "reading": "よう",
+      "gloss": "use; task; business",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "矢",
+      "audience": "jp",
+      "parts": [
+        "矢"
+      ],
+      "denotes": "arrow",
+      "reading": "や",
+      "gloss": "arrow",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "日の出",
+      "audience": "jp",
+      "parts": [
+        "日",
+        "出"
+      ],
+      "denotes": "sunrise",
+      "reading": "ひので",
+      "gloss": "sunrise; daybreak",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

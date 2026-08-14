@@ -3,7 +3,6 @@
   "cp": "U+7528",
   "class": "char",
   "kangxi": 101,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,37 @@
       "name": "用",
       "reading": "yòng",
       "gloss": "use",
-      "extra": "康熙部首 101"
+      "extra": "康熙部首 101 · 用途、作用、使用"
     },
     "jp": {
       "name": "用",
-      "reading": "",
-      "gloss": "use"
+      "reading": "よう",
+      "gloss": "use",
+      "extra": "漢字「用」(もち·いる · ヨウ) · 用いる、用事(ようじ)、使用"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Use",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Use",
+      "readings": [
+        "ヨウ"
+      ],
+      "on": true,
+      "kun": [
+        "もち"
+      ],
+      "level": 3
+    }
+  ]
 }

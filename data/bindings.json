@@ -4770,7 +4770,25 @@
         "ふとい"
       ],
       "gloss": "thick; plump",
-      "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)"
+      "extra": "漢字「太」(ふと-い · タイ・タ) · 太い、太陽(たいよう)、丸太(まるた)",
+      "program": {
+        "source": "wanikani",
+        "name": "Fat",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Fat",
+          "readings": [
+            "タイ",
+            "タ"
+          ],
+          "on": true,
+          "kun": [
+            "ふと"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:头@cn",
@@ -6485,16 +6503,35 @@
         "yòng"
       ],
       "gloss": "use",
-      "extra": "康熙部首 101"
+      "extra": "康熙部首 101 · 用途、作用、使用"
     },
     {
       "id": "b:用@jp",
       "glyph_id": "g:用",
       "lang": "jp",
       "name": "用",
-      "readings": [],
+      "readings": [
+        "よう"
+      ],
       "gloss": "use",
-      "extra": ""
+      "extra": "漢字「用」(もち·いる · ヨウ) · 用いる、用事(ようじ)、使用",
+      "program": {
+        "source": "wanikani",
+        "name": "Use",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Use",
+          "readings": [
+            "ヨウ"
+          ],
+          "on": true,
+          "kun": [
+            "もち"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:由@cn",
@@ -6878,16 +6915,35 @@
         "shǐ"
       ],
       "gloss": "arrow",
-      "extra": "康熙部首 111"
+      "extra": "康熙部首 111 · 弓矢、流矢、有的放矢"
     },
     {
       "id": "b:矢@jp",
       "glyph_id": "g:矢",
       "lang": "jp",
       "name": "矢",
-      "readings": [],
+      "readings": [
+        "や"
+      ],
       "gloss": "arrow",
-      "extra": ""
+      "extra": "漢字「矢」(や · シ) · 矢、弓矢(ゆみや)、矢印(やじるし)",
+      "program": {
+        "source": "wanikani",
+        "name": "Arrow",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Arrow",
+          "readings": [
+            "シ"
+          ],
+          "on": true,
+          "kun": [
+            "や"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:石@cn",

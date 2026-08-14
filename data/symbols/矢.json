@@ -3,7 +3,6 @@
   "cp": "U+77E2",
   "class": "char",
   "kangxi": 111,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -13,13 +12,37 @@
       "name": "矢",
       "reading": "shǐ",
       "gloss": "arrow",
-      "extra": "康熙部首 111"
+      "extra": "康熙部首 111 · 弓矢、流矢、有的放矢"
     },
     "jp": {
       "name": "矢",
-      "reading": "",
-      "gloss": "arrow"
+      "reading": "や",
+      "gloss": "arrow",
+      "extra": "漢字「矢」(や · シ) · 矢、弓矢(ゆみや)、矢印(やじるし)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Arrow",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Arrow",
+      "readings": [
+        "シ"
+      ],
+      "on": true,
+      "kun": [
+        "や"
+      ],
+      "level": 3
+    }
+  ]
 }

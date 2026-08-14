@@ -3563,16 +3563,33 @@
             "name": "用",
             "reading": "yòng",
             "gloss": "use",
-            "extra": "康熙部首 101"
+            "extra": "康熙部首 101 · 用途、作用、使用"
           },
           "jp": {
             "name": "用",
-            "reading": "",
-            "gloss": "use"
+            "reading": "よう",
+            "gloss": "use",
+            "extra": "漢字「用」(もち·いる · ヨウ) · 用いる、用事(ようじ)、使用"
           },
-          "wk": null,
+          "wk": {
+            "name": "Use",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Use",
+            "readings": [
+              "ヨウ"
+            ],
+            "on": true,
+            "kun": [
+              "もち"
+            ],
+            "level": 3
+          },
           "kx": 101,
-          "cnAudioKey": "yong4"
+          "cnAudioKey": "yong4",
+          "jpAudioKey": "you"
         },
         {
           "glyph": "田",
@@ -3882,16 +3899,33 @@
             "name": "矢",
             "reading": "shǐ",
             "gloss": "arrow",
-            "extra": "康熙部首 111"
+            "extra": "康熙部首 111 · 弓矢、流矢、有的放矢"
           },
           "jp": {
             "name": "矢",
-            "reading": "",
-            "gloss": "arrow"
+            "reading": "や",
+            "gloss": "arrow",
+            "extra": "漢字「矢」(や · シ) · 矢、弓矢(ゆみや)、矢印(やじるし)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Arrow",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Arrow",
+            "readings": [
+              "シ"
+            ],
+            "on": true,
+            "kun": [
+              "や"
+            ],
+            "level": 3
+          },
           "kx": 111,
-          "cnAudioKey": "shi3"
+          "cnAudioKey": "shi3",
+          "jpAudioKey": "ya"
         },
         {
           "glyph": "石",
