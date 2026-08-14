@@ -2563,6 +2563,86 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "你好",
+      "audience": "cn",
+      "parts": [
+        "你",
+        "好"
+      ],
+      "denotes": "hello",
+      "reading": "nǐhǎo",
+      "gloss": "hello; hi; how do you do",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "正在",
+      "audience": "cn",
+      "parts": [
+        "正",
+        "在"
+      ],
+      "denotes": "in-progress",
+      "reading": "zhèngzài",
+      "gloss": "in the process of; in the middle of; progressive-aspect marker (-ing)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "只好",
+      "audience": "cn",
+      "parts": [
+        "只",
+        "好"
+      ],
+      "denotes": "have-to",
+      "reading": "zhǐhǎo",
+      "gloss": "have to; be forced to; the only thing to do is",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "相处",
+      "audience": "cn",
+      "parts": [
+        "相",
+        "处"
+      ],
+      "denotes": "interact",
+      "reading": "xiāngchǔ",
+      "gloss": "to interact; to get along (with sb); to be together",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "正义",
+      "audience": "cn",
+      "parts": [
+        "正",
+        "义"
+      ],
+      "denotes": "justice",
+      "reading": "zhèngyì",
+      "gloss": "justice; righteousness",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

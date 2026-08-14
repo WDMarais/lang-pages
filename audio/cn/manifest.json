@@ -683,6 +683,10 @@
     "text": "鳥",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "nihao.mp3": {
+    "text": "你好",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "niu2.mp3": {
     "text": "牛",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1059,6 +1063,10 @@
     "text": "向",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "xiangchu.mp3": {
+    "text": "相处",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "xiao3.mp3": {
     "text": "小",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1263,6 +1271,14 @@
     "text": "正好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "zhengyi.mp3": {
+    "text": "正义",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhengzai.mp3": {
+    "text": "正在",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "zhenxiang.mp3": {
     "text": "真相",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1276,11 +1292,15 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhi3.mp3": {
-    "text": "止",
+    "text": "只",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhi4.mp3": {
     "text": "至",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhihao.mp3": {
+    "text": "只好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhihou.mp3": {

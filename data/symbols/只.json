@@ -1,0 +1,28 @@
+{
+  "glyph": "只",
+  "cp": "U+53EA",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "口",
+    "八"
+  ],
+  "readings": {
+    "cn": {
+      "name": "只",
+      "reading": "zhǐ",
+      "gloss": "only; just; merely",
+      "extra": "口 + 八 · 只有、只好、只是 · 又音 zhī（量词：一只猫）· 量词义繁体作「隻」"
+    },
+    "jp": {
+      "name": "只",
+      "reading": "ただ",
+      "gloss": "only; mere; free of charge",
+      "extra": "漢字「只」(ただ) · 只今(ただいま)、只者(ただもの)"
+    }
+  },
+  "programs": []
+}

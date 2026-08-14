@@ -2458,6 +2458,24 @@
       "label": "again"
     },
     {
+      "id": "g:只",
+      "kind": "glyph",
+      "glyph": "只",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhi3",
+      "jpAudioKey": "tada"
+    },
+    {
+      "id": "r:only",
+      "kind": "referent",
+      "label": "only; just; merely"
+    },
+    {
       "id": "g:可",
       "kind": "glyph",
       "glyph": "可",
@@ -9763,6 +9781,101 @@
       "id": "r:sample",
       "kind": "referent",
       "label": "sample; specimen"
+    },
+    {
+      "id": "w:你好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "你好",
+      "reading": "nǐhǎo",
+      "gloss": "hello; hi; how do you do",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "nihao"
+    },
+    {
+      "id": "w:正在@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "正在",
+      "reading": "zhèngzài",
+      "gloss": "in the process of; in the middle of; progressive-aspect marker (-ing)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "zhengzai"
+    },
+    {
+      "id": "r:in-progress",
+      "kind": "referent",
+      "label": "in the process of; in the middle of; progressive-aspect marker (-ing)"
+    },
+    {
+      "id": "w:只好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "只好",
+      "reading": "zhǐhǎo",
+      "gloss": "have to; be forced to; the only thing to do is",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "zhihao"
+    },
+    {
+      "id": "r:have-to",
+      "kind": "referent",
+      "label": "have to; be forced to; the only thing to do is"
+    },
+    {
+      "id": "w:相处@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "相处",
+      "reading": "xiāngchǔ",
+      "gloss": "to interact; to get along (with sb); to be together",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "xiangchu"
+    },
+    {
+      "id": "r:interact",
+      "kind": "referent",
+      "label": "to interact; to get along (with sb); to be together"
+    },
+    {
+      "id": "w:正义@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "正义",
+      "reading": "zhèngyì",
+      "gloss": "justice; righteousness",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "zhengyi"
+    },
+    {
+      "id": "r:justice",
+      "kind": "referent",
+      "label": "justice; righteousness"
     }
   ]
 }

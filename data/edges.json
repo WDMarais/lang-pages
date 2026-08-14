@@ -879,6 +879,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:只",
+      "to": "r:only",
+      "kind": "denotes"
+    },
+    {
       "from": "g:可",
       "to": "r:can",
       "kind": "denotes"
@@ -2578,6 +2583,16 @@
     {
       "from": "g:口",
       "to": "g:古",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:只",
+      "kind": "composes"
+    },
+    {
+      "from": "g:八",
+      "to": "g:只",
       "kind": "composes"
     },
     {
@@ -6755,6 +6770,81 @@
     {
       "from": "w:样本@cn",
       "to": "r:sample",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:你",
+      "to": "w:你好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:你好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:你好@cn",
+      "to": "r:hello",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:正在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:在",
+      "to": "w:正在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:正在@cn",
+      "to": "r:in-progress",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:只",
+      "to": "w:只好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:只好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:只好@cn",
+      "to": "r:have-to",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:相",
+      "to": "w:相处@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:处",
+      "to": "w:相处@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:相处@cn",
+      "to": "r:interact",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:正义@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:义",
+      "to": "w:正义@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:正义@cn",
+      "to": "r:justice",
       "kind": "denotes"
     },
     {

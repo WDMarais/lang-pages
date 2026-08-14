@@ -4357,6 +4357,28 @@
       }
     },
     {
+      "id": "b:只@cn",
+      "glyph_id": "g:只",
+      "lang": "cn",
+      "name": "只",
+      "readings": [
+        "zhǐ"
+      ],
+      "gloss": "only; just; merely",
+      "extra": "口 + 八 · 只有、只好、只是 · 又音 zhī（量词：一只猫）· 量词义繁体作「隻」"
+    },
+    {
+      "id": "b:只@jp",
+      "glyph_id": "g:只",
+      "lang": "jp",
+      "name": "只",
+      "readings": [
+        "ただ"
+      ],
+      "gloss": "only; mere; free of charge",
+      "extra": "漢字「只」(ただ) · 只今(ただいま)、只者(ただもの)"
+    },
+    {
       "id": "b:可@cn",
       "glyph_id": "g:可",
       "lang": "cn",
