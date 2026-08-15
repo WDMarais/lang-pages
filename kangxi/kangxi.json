@@ -1948,7 +1948,11 @@
             "reading": "",
             "gloss": "cloth"
           },
-          "wk": null,
+          "wk": {
+            "name": "Towel",
+            "level": 3,
+            "kind": "meaning"
+          },
           "kx": 50,
           "cnAudioKey": "jin1"
         },
@@ -3576,12 +3580,31 @@
           },
           "jp": {
             "name": "生",
-            "reading": "",
-            "gloss": "life"
+            "reading": "せい",
+            "gloss": "life",
+            "extra": "漢字「生」(い-きる · う-まれる · なま · セイ・ショウ) · 生活(せいかつ)、学生(がくせい)、生(なま)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Life",
+            "level": 3,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Life",
+            "readings": [
+              "セイ"
+            ],
+            "on": true,
+            "kun": [
+              "い",
+              "う",
+              "なま"
+            ],
+            "level": 3
+          },
           "kx": 100,
-          "cnAudioKey": "sheng1"
+          "cnAudioKey": "sheng1",
+          "jpAudioKey": "sei"
         },
         {
           "glyph": "用",

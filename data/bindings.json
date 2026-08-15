@@ -5131,7 +5131,13 @@
       "name": "巾",
       "readings": [],
       "gloss": "cloth",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Towel",
+        "level": 3,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:干@cn",
@@ -6515,9 +6521,30 @@
       "glyph_id": "g:生",
       "lang": "jp",
       "name": "生",
-      "readings": [],
+      "readings": [
+        "せい"
+      ],
       "gloss": "life",
-      "extra": ""
+      "extra": "漢字「生」(い-きる · う-まれる · なま · セイ・ショウ) · 生活(せいかつ)、学生(がくせい)、生(なま)",
+      "program": {
+        "source": "wanikani",
+        "name": "Life",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Life",
+          "readings": [
+            "セイ"
+          ],
+          "on": true,
+          "kun": [
+            "い",
+            "う",
+            "なま"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:用@cn",

@@ -3,7 +3,6 @@
   "cp": "U+751F",
   "class": "char",
   "kangxi": 100,
-  "form_only": true,
   "form": {
     "hw": true,
     "image": ""
@@ -17,9 +16,35 @@
     },
     "jp": {
       "name": "生",
-      "reading": "",
-      "gloss": "life"
+      "reading": "せい",
+      "gloss": "life",
+      "extra": "漢字「生」(い-きる · う-まれる · なま · セイ・ショウ) · 生活(せいかつ)、学生(がくせい)、生(なま)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Life",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Life",
+      "readings": [
+        "セイ"
+      ],
+      "on": true,
+      "kun": [
+        "い",
+        "う",
+        "なま"
+      ],
+      "level": 3
+    }
+  ]
 }

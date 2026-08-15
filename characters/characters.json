@@ -2067,6 +2067,23 @@
           "kanji": { "name": "Pull", "readings": ["イン"], "on": true, "kun": ["ひ"], "level": 3 }
         },
         {
+          "glyph": "心",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "xin1",
+          "jpAudioKey": "kokoro",
+          "cn": {
+            "name": "心", "reading": "xīn", "gloss": "heart",
+            "extra": "康熙部首 61"
+          },
+          "jp": {
+            "name": "心", "reading": "こころ", "gloss": "heart"
+          },
+          "wk": { "name": "Heart", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Heart", "readings": ["シン"], "on": true, "kun": ["こころ"], "level": 3 }
+        },
+        {
           "glyph": "戶",
           "tag": "char",
           "image": "",
@@ -2291,6 +2308,24 @@
           },
           "wk": { "name": "Ball", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Ball", "readings": ["ギョク"], "on": true, "kun": ["たま"], "level": 2 }
+        },
+        {
+          "glyph": "生",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "sheng1",
+          "jpAudioKey": "sei",
+          "cn": {
+            "name": "生", "reading": "shēng", "gloss": "life",
+            "extra": "康熙部首 100"
+          },
+          "jp": {
+            "name": "生", "reading": "せい", "gloss": "life",
+            "extra": "漢字「生」(い-きる · う-まれる · なま · セイ・ショウ) · 生活(せいかつ)、学生(がくせい)、生(なま)"
+          },
+          "wk": { "name": "Life", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Life", "readings": ["セイ"], "on": true, "kun": ["い", "う", "なま"], "level": 3 }
         },
         {
           "glyph": "用",

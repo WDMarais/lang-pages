@@ -39,6 +39,10 @@
     "text": "あう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "biidama.mp3": {
+    "text": "ビーだま",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "bun.mp3": {
     "text": "ブン",
     "voice": "ja-JP-NanamiNeural"
@@ -93,6 +97,10 @@
   },
   "fu.mp3": {
     "text": "フ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "furansujin.mp3": {
+    "text": "フランスじん",
     "voice": "ja-JP-NanamiNeural"
   },
   "furu.mp3": {

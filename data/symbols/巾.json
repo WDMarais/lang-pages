@@ -21,5 +21,14 @@
       "gloss": "cloth"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Towel",
+      "kind": "meaning",
+      "level": 3
+    }
+  ]
 }

@@ -3905,7 +3905,8 @@
         "hw": true,
         "image": ""
       },
-      "cnAudioKey": "sheng1"
+      "cnAudioKey": "sheng1",
+      "jpAudioKey": "sei"
     },
     {
       "id": "r:life",
@@ -10225,6 +10226,46 @@
       "id": "r:boss",
       "kind": "referent",
       "label": "boss; chief; leader"
+    },
+    {
+      "id": "w:フランス人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "フランス人",
+      "reading": "フランスじん",
+      "gloss": "French person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "furansujin"
+    },
+    {
+      "id": "r:french-person",
+      "kind": "referent",
+      "label": "French person"
+    },
+    {
+      "id": "w:ビー玉@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "ビー玉",
+      "reading": "ビーだま",
+      "gloss": "marble; glass marble (toy)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "biidama"
+    },
+    {
+      "id": "r:marble",
+      "kind": "referent",
+      "label": "marble; glass marble (toy)"
     }
   ]
 }

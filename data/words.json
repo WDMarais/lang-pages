@@ -2911,6 +2911,36 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "フランス人",
+      "audience": "jp",
+      "parts": [
+        "人"
+      ],
+      "denotes": "french-person",
+      "reading": "フランスじん",
+      "gloss": "French person",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "ビー玉",
+      "audience": "jp",
+      "parts": [
+        "玉"
+      ],
+      "denotes": "marble",
+      "reading": "ビーだま",
+      "gloss": "marble; glass marble (toy)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

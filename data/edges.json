@@ -7083,6 +7083,26 @@
       "kind": "denotes"
     },
     {
+      "from": "g:人",
+      "to": "w:フランス人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:フランス人@jp",
+      "to": "r:french-person",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:玉",
+      "to": "w:ビー玉@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:ビー玉@jp",
+      "to": "r:marble",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
