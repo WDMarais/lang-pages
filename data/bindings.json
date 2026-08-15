@@ -3783,6 +3783,45 @@
       "extra": "漢字「什」(ジュウ・シュウ) · 什器(じゅうき) = household goods（日本語では「何」の意味では使わない）"
     },
     {
+      "id": "b:今@cn",
+      "glyph_id": "g:今",
+      "lang": "cn",
+      "name": "今",
+      "readings": [
+        "jīn"
+      ],
+      "gloss": "now; today; present",
+      "extra": "今天、今年、今日、如今 · 人 + 下部（不成字）"
+    },
+    {
+      "id": "b:今@jp",
+      "glyph_id": "g:今",
+      "lang": "jp",
+      "name": "今",
+      "readings": [
+        "いま"
+      ],
+      "gloss": "now",
+      "extra": "漢字「今」(いま · コン・キン) · 今(いま)、今日(きょう)、今週(こんしゅう)",
+      "program": {
+        "source": "wanikani",
+        "name": "Now",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Now",
+          "readings": [
+            "コン"
+          ],
+          "on": true,
+          "kun": [
+            "いま"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:从@cn",
       "glyph_id": "g:从",
       "lang": "cn",

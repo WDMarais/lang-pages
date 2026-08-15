@@ -201,13 +201,6 @@
       "label": "person"
     },
     {
-      "id": "g:今",
-      "kind": "glyph",
-      "glyph": "今",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:亻",
       "kind": "glyph",
       "glyph": "亻",
@@ -2033,6 +2026,24 @@
       "id": "r:what",
       "kind": "referent",
       "label": "what (in 什么)"
+    },
+    {
+      "id": "g:今",
+      "kind": "glyph",
+      "glyph": "今",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "jin1",
+      "jpAudioKey": "ima"
+    },
+    {
+      "id": "r:now",
+      "kind": "referent",
+      "label": "now; today; present"
     },
     {
       "id": "g:从",
@@ -10266,6 +10277,41 @@
       "id": "r:marble",
       "kind": "referent",
       "label": "marble; glass marble (toy)"
+    },
+    {
+      "id": "w:一万@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一万",
+      "reading": "いちまん",
+      "gloss": "ten thousand; 10,000",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "ichiman"
+    },
+    {
+      "id": "w:二万@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "二万",
+      "reading": "にまん",
+      "gloss": "twenty thousand; 20,000",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "niman"
+    },
+    {
+      "id": "r:twenty-thousand",
+      "kind": "referent",
+      "label": "twenty thousand; 20,000"
     }
   ]
 }

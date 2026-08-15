@@ -47,6 +47,7 @@ STROKE_OVERRIDE = {
     "線": ["糸", "泉"],
     "丆": ["一", "丿"],  # WK "Leaf" — not in MMAH; 横 + 撇
     "合": ["人", "一", "口"],  # MMAH gives 亼 口; 亼 (人+一) not carded → its carded parts
+    "今": ["人", "丶", "乛"],  # MMAH gives ⿱人？; hat 人 + 点 丶 + 横折 乛 (the マ bottom)
     # The 𠂇-topped family: MMAH truncates the 𠂇 away and returns only the lower
     # part (as it does for 友, which keeps 𠂇 solely via that card's appearsIn).
     # Restoring it is what makes 左/右 a visible minimal pair — same hand, 工 vs 口.

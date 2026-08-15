@@ -271,6 +271,10 @@
     "text": "いちがつ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ichiman.mp3": {
+    "text": "いちまん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ie.mp3": {
     "text": "いえ",
     "voice": "ja-JP-NanamiNeural"
@@ -621,6 +625,10 @@
   },
   "niku.mp3": {
     "text": "ニク",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "niman.mp3": {
+    "text": "にまん",
     "voice": "ja-JP-NanamiNeural"
   },
   "niru.mp3": {

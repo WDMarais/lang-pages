@@ -1478,6 +1478,24 @@
           "pdc": { "name": "what", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "今",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "jin1",
+          "jpAudioKey": "ima",
+          "cn": {
+            "name": "今", "reading": "jīn", "gloss": "now; today; present",
+            "extra": "今天、今年、今日、如今 · 人 + 下部（不成字）"
+          },
+          "jp": {
+            "name": "今", "reading": "いま", "gloss": "now",
+            "extra": "漢字「今」(いま · コン・キン) · 今(いま)、今日(きょう)、今週(こんしゅう)"
+          },
+          "wk": { "name": "Now", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Now", "readings": ["コン"], "on": true, "kun": ["いま"], "level": 3 }
+        },
+        {
           "glyph": "从",
           "tag": "char",
           "image": "",
@@ -2119,6 +2137,23 @@
           },
           "wk": { "name": "Writing", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Writing", "readings": ["ブン", "モン"], "on": true, "kun": ["ふみ"], "level": 2 }
+        },
+        {
+          "glyph": "方",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "fang1",
+          "jpAudioKey": "hou",
+          "cn": {
+            "name": "方", "reading": "fāng", "gloss": "square",
+            "extra": "康熙部首 70"
+          },
+          "jp": {
+            "name": "方", "reading": "ホウ", "gloss": "direction; way; person (polite)"
+          },
+          "wk": { "name": "Direction", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Direction", "readings": ["ホウ"], "on": true, "kun": ["かた"], "level": 3 }
         },
         {
           "glyph": "明",

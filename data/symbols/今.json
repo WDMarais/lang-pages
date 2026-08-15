@@ -1,0 +1,52 @@
+{
+  "glyph": "今",
+  "cp": "U+4ECA",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "人",
+    "丶",
+    "乛"
+  ],
+  "readings": {
+    "cn": {
+      "name": "今",
+      "reading": "jīn",
+      "gloss": "now; today; present",
+      "extra": "今天、今年、今日、如今 · 人 + 下部（不成字）"
+    },
+    "jp": {
+      "name": "今",
+      "reading": "いま",
+      "gloss": "now",
+      "extra": "漢字「今」(いま · コン・キン) · 今(いま)、今日(きょう)、今週(こんしゅう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Now",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Now",
+      "readings": [
+        "コン"
+      ],
+      "on": true,
+      "kun": [
+        "いま"
+      ],
+      "level": 3
+    }
+  ]
+}

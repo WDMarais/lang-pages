@@ -764,6 +764,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:今",
+      "to": "r:now",
+      "kind": "denotes"
+    },
+    {
       "from": "g:从",
       "to": "r:from",
       "kind": "denotes"
@@ -2292,6 +2297,16 @@
     {
       "from": "g:十",
       "to": "g:什",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:今",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乛",
+      "to": "g:今",
       "kind": "composes"
     },
     {
@@ -7100,6 +7115,36 @@
     {
       "from": "w:ビー玉@jp",
       "to": "r:marble",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:万",
+      "to": "w:一万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一万@jp",
+      "to": "r:ten-thousand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:二万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:万",
+      "to": "w:二万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:二万@jp",
+      "to": "r:twenty-thousand",
       "kind": "denotes"
     },
     {
