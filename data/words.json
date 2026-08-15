@@ -2973,6 +2973,38 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "大切",
+      "audience": "jp",
+      "parts": [
+        "大",
+        "切"
+      ],
+      "denotes": "important",
+      "reading": "たいせつ",
+      "gloss": "important; precious; valuable",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "十万",
+      "audience": "jp",
+      "parts": [
+        "十",
+        "万"
+      ],
+      "denotes": "hundred-thousand",
+      "reading": "じゅうまん",
+      "gloss": "hundred thousand; 100,000",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

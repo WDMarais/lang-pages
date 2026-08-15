@@ -1,0 +1,33 @@
+{
+  "glyph": "𠆢",
+  "cp": "U+201A2",
+  "class": "comp",
+  "form": {
+    "hw": false,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "𠆢",
+      "reading": "",
+      "gloss": "hat-shape component (person-roof)",
+      "extra": "无独立字义 · 撇 + 捺 · 人 的上盖形 · 见于 今 会 合 令 食 · WK「Hat」形"
+    },
+    "jp": {
+      "name": "𠆢",
+      "reading": "",
+      "gloss": "\"hat\" shape component (person-roof)",
+      "extra": "撇 + 捺 · 人 のかぶせ形 · 今・会・合・令・食 の上部 · WK「Hat」· 独立字なし"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Hat",
+      "kind": "mnemonic",
+      "level": 3
+    }
+  ]
+}

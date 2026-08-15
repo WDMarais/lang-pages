@@ -363,6 +363,10 @@
     "text": "じゅういちがつ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "juuman.mp3": {
+    "text": "じゅうまん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "juunigatsu.mp3": {
     "text": "じゅうにがつ",
     "voice": "ja-JP-NanamiNeural"
@@ -877,6 +881,10 @@
   },
   "tadasu.mp3": {
     "text": "ただす",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "taisetsu.mp3": {
+    "text": "たいせつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "taishita.mp3": {

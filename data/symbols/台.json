@@ -1,0 +1,41 @@
+{
+  "glyph": "台",
+  "cp": "U+53F0",
+  "class": "char",
+  "form": {
+    "hw": true,
+    "image": ""
+  },
+  "composes": [
+    "厶",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "台",
+      "reading": "tái",
+      "gloss": "platform; stand; counter (for machines)",
+      "extra": "⿱厶口 · 舞台、台阶、一台机器 · 简体亦并 臺（平台）檯（桌）颱（台风）"
+    },
+    "jp": {
+      "name": "台",
+      "reading": "だい",
+      "gloss": "machine; stand; counter for machines/vehicles",
+      "extra": "漢字「台」(ダイ・タイ) · 一台(いちだい)、台所(だいどころ)、舞台(ぶたい)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Machine",
+      "readings": [
+        "ダイ",
+        "タイ"
+      ],
+      "on": true,
+      "level": 3
+    }
+  ]
+}

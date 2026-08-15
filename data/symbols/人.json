@@ -18,9 +18,9 @@
       "gloss": "person",
       "extra": "撇 + 捺 · 注意与「入」之别",
       "appearsIn": {
-        "char": "今",
-        "reading": "jīn",
-        "gloss": "now"
+        "char": "从",
+        "reading": "cóng",
+        "gloss": "from; to follow (two people)"
       }
     },
     "jp": {
@@ -29,9 +29,9 @@
       "gloss": "person",
       "extra": "「人」と「入」は紛らわしい",
       "appearsIn": {
-        "char": "今",
-        "reading": "いま",
-        "gloss": "now"
+        "char": "从",
+        "reading": "ジュウ",
+        "gloss": "obey; follow (two people)"
       }
     }
   },

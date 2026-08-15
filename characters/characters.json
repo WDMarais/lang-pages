@@ -181,18 +181,18 @@
           "image": "",
           "hw": true,
           "cnAudioKey": "ren2",
-          "cnExAudioKey": "jin1",
+          "cnExAudioKey": "cong2",
           "jpAudioKey": "hito",
-          "jpExAudioKey": "ima",
+          "jpExAudioKey": "juu",
           "cn": {
             "name": "人", "reading": "rén", "gloss": "person",
             "extra": "撇 + 捺 · 注意与「入」之别",
-            "appearsIn": { "char": "今", "reading": "jīn", "gloss": "now" }
+            "appearsIn": { "char": "从", "reading": "cóng", "gloss": "from; to follow (two people)" }
           },
           "jp": {
             "name": "人", "reading": "ひと", "gloss": "person",
             "extra": "「人」と「入」は紛らわしい",
-            "appearsIn": { "char": "今", "reading": "いま", "gloss": "now" }
+            "appearsIn": { "char": "从", "reading": "ジュウ", "gloss": "obey; follow (two people)" }
           },
           "wk": { "name": "Person", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Person", "readings": ["ニン", "ジン"], "on": true, "kun": ["ひと"], "level": 1 },
@@ -1770,6 +1770,24 @@
           "wk": null
         },
         {
+          "glyph": "台",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "tai2",
+          "jpAudioKey": "dai",
+          "cn": {
+            "name": "台", "reading": "tái", "gloss": "platform; stand; counter (for machines)",
+            "extra": "⿱厶口 · 舞台、台阶、一台机器 · 简体亦并 臺（平台）檯（桌）颱（台风）"
+          },
+          "jp": {
+            "name": "台", "reading": "だい", "gloss": "machine; stand; counter for machines/vehicles",
+            "extra": "漢字「台」(ダイ・タイ) · 一台(いちだい)、台所(だいどころ)、舞台(ぶたい)"
+          },
+          "wk": null,
+          "kanji": { "name": "Machine", "readings": ["ダイ", "タイ"], "on": true, "level": 3 }
+        },
+        {
           "glyph": "后",
           "tag": "char",
           "image": "",
@@ -2302,6 +2320,24 @@
           "wk": null,
           "pd": { "name": "mother", "level": 1, "kind": "meaning" },
           "pdc": { "name": "mother", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "毛",
+          "tag": "char",
+          "image": "",
+          "hw": true,
+          "cnAudioKey": "mao2",
+          "jpAudioKey": "ke",
+          "cn": {
+            "name": "毛", "reading": "máo", "gloss": "fur",
+            "extra": "康熙部首 82"
+          },
+          "jp": {
+            "name": "毛", "reading": "け", "gloss": "hair; fur"
+          },
+          "wk": { "name": "Fur", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Fur", "readings": ["モウ"], "on": true, "kun": ["け"], "level": 3 },
+          "pd": { "name": "fur", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "牛",

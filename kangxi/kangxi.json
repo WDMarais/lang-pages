@@ -376,9 +376,9 @@
             "gloss": "person",
             "extra": "撇 + 捺 · 注意与「入」之别",
             "appearsIn": {
-              "char": "今",
-              "reading": "jīn",
-              "gloss": "now"
+              "char": "从",
+              "reading": "cóng",
+              "gloss": "from; to follow (two people)"
             }
           },
           "jp": {
@@ -387,9 +387,9 @@
             "gloss": "person",
             "extra": "「人」と「入」は紛らわしい",
             "appearsIn": {
-              "char": "今",
-              "reading": "いま",
-              "gloss": "now"
+              "char": "从",
+              "reading": "ジュウ",
+              "gloss": "obey; follow (two people)"
             }
           },
           "wk": {
@@ -416,9 +416,9 @@
           },
           "kx": 9,
           "cnAudioKey": "ren2",
-          "cnExAudioKey": "jin1",
+          "cnExAudioKey": "cong2",
           "jpAudioKey": "hito",
-          "jpExAudioKey": "ima"
+          "jpExAudioKey": "juu"
         },
         {
           "glyph": "儿",
@@ -6857,6 +6857,29 @@
             "kind": "meaning"
           },
           "cnAudioKey": "yi4"
+        },
+        {
+          "glyph": "𠆢",
+          "tag": "comp",
+          "image": "",
+          "hw": false,
+          "cn": {
+            "name": "𠆢",
+            "reading": "",
+            "gloss": "hat-shape component (person-roof)",
+            "extra": "无独立字义 · 撇 + 捺 · 人 的上盖形 · 见于 今 会 合 令 食 · WK「Hat」形"
+          },
+          "jp": {
+            "name": "𠆢",
+            "reading": "",
+            "gloss": "\"hat\" shape component (person-roof)",
+            "extra": "撇 + 捺 · 人 のかぶせ形 · 今・会・合・令・食 の上部 · WK「Hat」· 独立字なし"
+          },
+          "wk": {
+            "name": "Hat",
+            "level": 3,
+            "kind": "mnemonic"
+          }
         }
       ]
     }

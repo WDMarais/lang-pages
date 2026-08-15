@@ -454,9 +454,9 @@
       "gloss": "person",
       "extra": "撇 + 捺 · 注意与「入」之别",
       "appearsIn": {
-        "glyph": "今",
-        "reading": "jīn",
-        "gloss": "now"
+        "glyph": "从",
+        "reading": "cóng",
+        "gloss": "from; to follow (two people)"
       },
       "program": {
         "source": "pandanese",
@@ -476,9 +476,9 @@
       "gloss": "person",
       "extra": "「人」と「入」は紛らわしい",
       "appearsIn": {
-        "glyph": "今",
-        "reading": "いま",
-        "gloss": "now"
+        "glyph": "从",
+        "reading": "ジュウ",
+        "gloss": "obey; follow (two people)"
       },
       "program": {
         "source": "wanikani",
@@ -4516,6 +4516,40 @@
       ],
       "gloss": "possible; acceptable; can",
       "extra": "漢字「可」(カ) · 可能(かのう)、許可(きょか)、可決(かけつ)"
+    },
+    {
+      "id": "b:台@cn",
+      "glyph_id": "g:台",
+      "lang": "cn",
+      "name": "台",
+      "readings": [
+        "tái"
+      ],
+      "gloss": "platform; stand; counter (for machines)",
+      "extra": "⿱厶口 · 舞台、台阶、一台机器 · 简体亦并 臺（平台）檯（桌）颱（台风）"
+    },
+    {
+      "id": "b:台@jp",
+      "glyph_id": "g:台",
+      "lang": "jp",
+      "name": "台",
+      "readings": [
+        "だい"
+      ],
+      "gloss": "machine; stand; counter for machines/vehicles",
+      "extra": "漢字「台」(ダイ・タイ) · 一台(いちだい)、台所(だいどころ)、舞台(ぶたい)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Machine",
+          "readings": [
+            "ダイ",
+            "タイ"
+          ],
+          "on": true,
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:后@cn",
@@ -9550,6 +9584,30 @@
       "readings": [],
       "gloss": "flute",
       "extra": ""
+    },
+    {
+      "id": "b:𠆢@cn",
+      "glyph_id": "g:𠆢",
+      "lang": "cn",
+      "name": "𠆢",
+      "readings": [],
+      "gloss": "hat-shape component (person-roof)",
+      "extra": "无独立字义 · 撇 + 捺 · 人 的上盖形 · 见于 今 会 合 令 食 · WK「Hat」形"
+    },
+    {
+      "id": "b:𠆢@jp",
+      "glyph_id": "g:𠆢",
+      "lang": "jp",
+      "name": "𠆢",
+      "readings": [],
+      "gloss": "\"hat\" shape component (person-roof)",
+      "extra": "撇 + 捺 · 人 のかぶせ形 · 今・会・合・令・食 の上部 · WK「Hat」· 独立字なし",
+      "program": {
+        "source": "wanikani",
+        "name": "Hat",
+        "level": 3,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:㇐@cn",

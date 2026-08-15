@@ -83,7 +83,7 @@
     },
     {
       "from": "g:人",
-      "to": "g:今",
+      "to": "g:从",
       "kind": "composes"
     },
     {
@@ -901,6 +901,11 @@
     {
       "from": "g:可",
       "to": "r:can",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:台",
+      "to": "r:platform",
       "kind": "denotes"
     },
     {
@@ -2000,6 +2005,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:𠆢",
+      "to": "r:hat-shape-component",
+      "kind": "denotes"
+    },
+    {
       "from": "g:㇐",
       "to": "r:horizontal-stroke",
       "kind": "denotes"
@@ -2300,6 +2310,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:𠆢",
+      "to": "g:今",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:今",
       "kind": "composes"
@@ -2307,11 +2322,6 @@
     {
       "from": "g:乛",
       "to": "g:今",
-      "kind": "composes"
-    },
-    {
-      "from": "g:人",
-      "to": "g:从",
       "kind": "composes"
     },
     {
@@ -2646,7 +2656,7 @@
       "kind": "composes"
     },
     {
-      "from": "g:人",
+      "from": "g:𠆢",
       "to": "g:合",
       "kind": "composes"
     },
@@ -4590,6 +4600,16 @@
     {
       "from": "g:丿",
       "to": "g:丆",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:𠆢",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:𠆢",
       "kind": "composes"
     },
     {
@@ -7145,6 +7165,36 @@
     {
       "from": "w:二万@jp",
       "to": "r:twenty-thousand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大切@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:切",
+      "to": "w:大切@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大切@jp",
+      "to": "r:important",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:万",
+      "to": "w:十万@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十万@jp",
+      "to": "r:hundred-thousand",
       "kind": "denotes"
     },
     {

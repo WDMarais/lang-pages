@@ -191,9 +191,9 @@
         "image": ""
       },
       "cnAudioKey": "ren2",
-      "cnExAudioKey": "jin1",
+      "cnExAudioKey": "cong2",
       "jpAudioKey": "hito",
-      "jpExAudioKey": "ima"
+      "jpExAudioKey": "juu"
     },
     {
       "id": "r:person",
@@ -1621,13 +1621,6 @@
       "label": "private"
     },
     {
-      "id": "g:台",
-      "kind": "glyph",
-      "glyph": "台",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:乚",
       "kind": "glyph",
       "glyph": "乚",
@@ -2528,6 +2521,24 @@
       "id": "r:can",
       "kind": "referent",
       "label": "can; may; -able; but"
+    },
+    {
+      "id": "g:台",
+      "kind": "glyph",
+      "glyph": "台",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "hw": true,
+        "image": ""
+      },
+      "cnAudioKey": "tai2",
+      "jpAudioKey": "dai"
+    },
+    {
+      "id": "r:platform",
+      "kind": "referent",
+      "label": "platform; stand; counter (for machines)"
     },
     {
       "id": "g:后",
@@ -6172,6 +6183,22 @@
       "id": "r:flute",
       "kind": "referent",
       "label": "flute"
+    },
+    {
+      "id": "g:𠆢",
+      "kind": "glyph",
+      "glyph": "𠆢",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "hw": false,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:hat-shape-component",
+      "kind": "referent",
+      "label": "hat-shape component (person-roof)"
     },
     {
       "id": "g:㇐",
@@ -10312,6 +10339,46 @@
       "id": "r:twenty-thousand",
       "kind": "referent",
       "label": "twenty thousand; 20,000"
+    },
+    {
+      "id": "w:大切@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "大切",
+      "reading": "たいせつ",
+      "gloss": "important; precious; valuable",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "taisetsu"
+    },
+    {
+      "id": "r:important",
+      "kind": "referent",
+      "label": "important; precious; valuable"
+    },
+    {
+      "id": "w:十万@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十万",
+      "reading": "じゅうまん",
+      "gloss": "hundred thousand; 100,000",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "juuman"
+    },
+    {
+      "id": "r:hundred-thousand",
+      "kind": "referent",
+      "label": "hundred thousand; 100,000"
     }
   ]
 }
