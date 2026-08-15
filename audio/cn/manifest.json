@@ -443,6 +443,10 @@
     "text": "回见",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "huitou.mp3": {
+    "text": "回头",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "huo3.mp3": {
     "text": "火",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -907,6 +911,10 @@
     "text": "手",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "shoutou.mp3": {
+    "text": "手头",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "shu1.mp3": {
     "text": "殳",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -989,6 +997,10 @@
   },
   "tou2.mp3": {
     "text": "头",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tour.mp3": {
+    "text": "头儿",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tu3.mp3": {

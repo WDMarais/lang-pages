@@ -7038,6 +7038,51 @@
       "kind": "denotes"
     },
     {
+      "from": "g:回",
+      "to": "w:回头@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:头",
+      "to": "w:回头@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:回头@cn",
+      "to": "r:turn-back",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:手头@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:头",
+      "to": "w:手头@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:手头@cn",
+      "to": "r:on-hand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:头",
+      "to": "w:头儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "w:头儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:头儿@cn",
+      "to": "r:boss",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

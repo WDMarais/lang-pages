@@ -10165,6 +10165,66 @@
       "id": "r:american-person",
       "kind": "referent",
       "label": "American person"
+    },
+    {
+      "id": "w:回头@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "回头",
+      "reading": "huítóu",
+      "gloss": "turn one's head; turn round; later on",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "huitou"
+    },
+    {
+      "id": "r:turn-back",
+      "kind": "referent",
+      "label": "turn one's head; turn round; later on"
+    },
+    {
+      "id": "w:手头@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "手头",
+      "reading": "shǒutóu",
+      "gloss": "on hand; at hand; one's financial situation",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "shoutou"
+    },
+    {
+      "id": "r:on-hand",
+      "kind": "referent",
+      "label": "on hand; at hand; one's financial situation"
+    },
+    {
+      "id": "w:头儿@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "头儿",
+      "reading": "tóur",
+      "gloss": "boss; chief; leader",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      },
+      "cnAudioKey": "tour"
+    },
+    {
+      "id": "r:boss",
+      "kind": "referent",
+      "label": "boss; chief; leader"
     }
   ]
 }

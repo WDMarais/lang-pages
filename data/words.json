@@ -2863,6 +2863,54 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "回头",
+      "audience": "cn",
+      "parts": [
+        "回",
+        "头"
+      ],
+      "denotes": "turn-back",
+      "reading": "huítóu",
+      "gloss": "turn one's head; turn round; later on",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "手头",
+      "audience": "cn",
+      "parts": [
+        "手",
+        "头"
+      ],
+      "denotes": "on-hand",
+      "reading": "shǒutóu",
+      "gloss": "on hand; at hand; one's financial situation",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "头儿",
+      "audience": "cn",
+      "parts": [
+        "头",
+        "儿"
+      ],
+      "denotes": "boss",
+      "reading": "tóur",
+      "gloss": "boss; chief; leader",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
