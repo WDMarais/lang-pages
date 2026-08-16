@@ -10404,6 +10404,26 @@
       "id": "r:hundred-thousand",
       "kind": "referent",
       "label": "hundred thousand; 100,000"
+    },
+    {
+      "id": "w:地下@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "地下",
+      "reading": "dìxià",
+      "gloss": "underground; below ground",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "dixia"
+    },
+    {
+      "id": "r:underground",
+      "kind": "referent",
+      "label": "underground; below ground"
     }
   ]
 }

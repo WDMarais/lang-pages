@@ -4054,7 +4054,13 @@
         "mì"
       ],
       "gloss": "cover",
-      "extra": "康熙部首 14"
+      "extra": "康熙部首 14",
+      "program": {
+        "source": "pandanese",
+        "name": "cover",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:冖@jp",
@@ -6873,7 +6879,13 @@
         "mǐn"
       ],
       "gloss": "dish",
-      "extra": "康熙部首 108"
+      "extra": "康熙部首 108",
+      "program": {
+        "source": "pandanese",
+        "name": "dish",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:皿@jp",
@@ -7896,7 +7908,13 @@
         "chóng"
       ],
       "gloss": "insect",
-      "extra": "康熙部首 142"
+      "extra": "康熙部首 142",
+      "program": {
+        "source": "pandanese",
+        "name": "insect",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:虫@jp",
@@ -8369,7 +8387,13 @@
         "shēn"
       ],
       "gloss": "body",
-      "extra": "康熙部首 158"
+      "extra": "康熙部首 158",
+      "program": {
+        "source": "pandanese",
+        "name": "body",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:身@jp",

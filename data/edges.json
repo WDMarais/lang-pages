@@ -7218,6 +7218,21 @@
       "kind": "denotes"
     },
     {
+      "from": "g:地",
+      "to": "w:地下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:地下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:地下@cn",
+      "to": "r:underground",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

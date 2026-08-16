@@ -21,5 +21,14 @@
       "gloss": "dish"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "dish",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

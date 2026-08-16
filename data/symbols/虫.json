@@ -21,5 +21,14 @@
       "gloss": "insect"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "insect",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

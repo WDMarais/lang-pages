@@ -3005,6 +3005,22 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "地下",
+      "audience": "cn",
+      "parts": [
+        "地",
+        "下"
+      ],
+      "denotes": "underground",
+      "reading": "dìxià",
+      "gloss": "underground; below ground",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }
