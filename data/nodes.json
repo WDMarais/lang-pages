@@ -6191,7 +6191,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       }
     },
