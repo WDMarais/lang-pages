@@ -1,0 +1,23 @@
+{
+  "glyph": "因",
+  "cp": "U+56E0",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "因",
+      "reading": "yīn",
+      "gloss": "cause; reason",
+      "extra": "囗 + 大 · 原因、因为、因此 · 表 缘由"
+    },
+    "jp": {
+      "name": "因",
+      "reading": "",
+      "gloss": "cause; factor"
+    }
+  },
+  "programs": []
+}

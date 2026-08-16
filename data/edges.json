@@ -934,6 +934,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:因",
+      "to": "r:cause",
+      "kind": "denotes"
+    },
+    {
       "from": "g:在",
       "to": "r:exist",
       "kind": "denotes"
@@ -2763,6 +2768,16 @@
     {
       "from": "g:口",
       "to": "g:回",
+      "kind": "composes"
+    },
+    {
+      "from": "g:囗",
+      "to": "g:因",
+      "kind": "composes"
+    },
+    {
+      "from": "g:大",
+      "to": "g:因",
       "kind": "composes"
     },
     {
@@ -7285,6 +7300,51 @@
     {
       "from": "w:之下@cn",
       "to": "r:beneath",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:因",
+      "to": "w:因为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:因为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:因为@cn",
+      "to": "r:because",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:下手@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:下手@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:下手@cn",
+      "to": "r:make-a-move",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:了",
+      "to": "w:了解@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:解",
+      "to": "w:了解@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:了解@cn",
+      "to": "r:understand",
       "kind": "denotes"
     },
     {

@@ -4696,6 +4696,26 @@
       "extra": "漢字「回」(まわ-る · カイ・エ) · 回る、一回、今回"
     },
     {
+      "id": "b:因@cn",
+      "glyph_id": "g:因",
+      "lang": "cn",
+      "name": "因",
+      "readings": [
+        "yīn"
+      ],
+      "gloss": "cause; reason",
+      "extra": "囗 + 大 · 原因、因为、因此 · 表 缘由"
+    },
+    {
+      "id": "b:因@jp",
+      "glyph_id": "g:因",
+      "lang": "jp",
+      "name": "因",
+      "readings": [],
+      "gloss": "cause; factor",
+      "extra": ""
+    },
+    {
       "id": "b:在@cn",
       "glyph_id": "g:在",
       "lang": "cn",
@@ -7175,7 +7195,13 @@
         "shí"
       ],
       "gloss": "stone",
-      "extra": "康熙部首 112"
+      "extra": "康熙部首 112",
+      "program": {
+        "source": "pandanese",
+        "name": "stone",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:石@jp",
@@ -7878,7 +7904,13 @@
         "sè"
       ],
       "gloss": "color",
-      "extra": "康熙部首 139"
+      "extra": "康熙部首 139",
+      "program": {
+        "source": "pandanese",
+        "name": "color",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:色@jp",

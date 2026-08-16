@@ -4031,6 +4031,11 @@
             "gloss": "stone"
           },
           "wk": null,
+          "pd": {
+            "name": "stone",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 112,
           "cnAudioKey": "shi2"
         },
@@ -4686,6 +4691,11 @@
             "gloss": "color"
           },
           "wk": null,
+          "pd": {
+            "name": "color",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 139,
           "cnAudioKey": "se4"
         },

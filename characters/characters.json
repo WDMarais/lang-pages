@@ -1844,6 +1844,21 @@
           "pdc": { "name": "return", "kind": "meaning", "level": 1 }
         },
         {
+          "glyph": "因",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "yin1",
+          "cn": {
+            "name": "因", "reading": "yīn", "gloss": "cause; reason",
+            "extra": "囗 + 大 · 原因、因为、因此 · 表 缘由"
+          },
+          "jp": {
+            "name": "因", "reading": "", "gloss": "cause; factor"
+          },
+          "wk": null
+        },
+        {
           "glyph": "在",
           "tag": "char",
           "image": "",

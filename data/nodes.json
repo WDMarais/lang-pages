@@ -2647,6 +2647,23 @@
       "label": "to return; time(s)"
     },
     {
+      "id": "g:因",
+      "kind": "glyph",
+      "glyph": "因",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "yin1"
+    },
+    {
+      "id": "r:cause",
+      "kind": "referent",
+      "label": "cause; reason"
+    },
+    {
       "id": "g:在",
       "kind": "glyph",
       "glyph": "在",
@@ -10509,6 +10526,66 @@
       "id": "r:beneath",
       "kind": "referent",
       "label": "under; beneath; below"
+    },
+    {
+      "id": "w:因为@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "因为",
+      "reading": "yīnwèi",
+      "gloss": "because; because of; for the reason that",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "yinwei"
+    },
+    {
+      "id": "r:because",
+      "kind": "referent",
+      "label": "because; because of; for the reason that"
+    },
+    {
+      "id": "w:下手@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "下手",
+      "reading": "xiàshǒu",
+      "gloss": "to start; to put one's hand to; to make a move",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "xiashou"
+    },
+    {
+      "id": "r:make-a-move",
+      "kind": "referent",
+      "label": "to start; to put one's hand to; to make a move"
+    },
+    {
+      "id": "w:了解@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "了解",
+      "reading": "liǎojiě",
+      "gloss": "to understand; to know; to find out",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "liaojie"
+    },
+    {
+      "id": "r:understand",
+      "kind": "referent",
+      "label": "to understand; to know; to find out"
     }
   ]
 }

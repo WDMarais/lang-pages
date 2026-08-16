@@ -21,5 +21,14 @@
       "gloss": "stone"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "stone",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

@@ -567,6 +567,10 @@
     "text": "了",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "liaojie.mp3": {
+    "text": "了解",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "lin2.mp3": {
     "text": "林",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1119,6 +1123,10 @@
     "text": "小子",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "xiashou.mp3": {
+    "text": "下手",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "xiegou.mp3": {
     "text": "斜钩",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1212,11 +1220,15 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yin1.mp3": {
-    "text": "音",
+    "text": "因",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yin3.mp3": {
     "text": "引",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yinwei.mp3": {
+    "text": "因为",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yiwei.mp3": {

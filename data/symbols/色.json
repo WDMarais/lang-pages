@@ -21,5 +21,14 @@
       "gloss": "color"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "color",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

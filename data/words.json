@@ -3069,6 +3069,54 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "因为",
+      "audience": "cn",
+      "parts": [
+        "因",
+        "为"
+      ],
+      "denotes": "because",
+      "reading": "yīnwèi",
+      "gloss": "because; because of; for the reason that",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "下手",
+      "audience": "cn",
+      "parts": [
+        "下",
+        "手"
+      ],
+      "denotes": "make-a-move",
+      "reading": "xiàshǒu",
+      "gloss": "to start; to put one's hand to; to make a move",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "了解",
+      "audience": "cn",
+      "parts": [
+        "了",
+        "解"
+      ],
+      "denotes": "understand",
+      "reading": "liǎojiě",
+      "gloss": "to understand; to know; to find out",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }
