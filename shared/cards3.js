@@ -3,7 +3,7 @@
 // Wanikani (JP-side) right, with 中文 · 日本語 centered for direct comparison.
 // A page supplies its data file via <div id="cards" data-src="...json">.
 // JSON shape: { groups: [ { title?, sub?, cards: [...] } ] }
-// A card animates its stroke order via HanziWriter when it sets `hw: true`;
+// A card animates its stroke order via HanziWriter when it sets `animated: true`;
 // otherwise the diagram is just the crisp Kai glyph — for deferred / un-tuned cards.
 
 // Page-level layout mode, set from <div id="cards" data-layout="…">. Default ''
@@ -29,7 +29,7 @@ function jpSrc(c, ex) {
 function diagram(c) {
   // Character cards opt into data-driven stroke-order animation (HanziWriter);
   // init happens after innerHTML in initHanzi(). Un-tuned cards degrade to the glyph.
-  if (c.hw) { return html`<div class="sc-hw" data-char="${c.glyph}"></div>`; }
+  if (c.animated) { return html`<div class="sc-hw" data-char="${c.glyph}"></div>`; }
   return html`
         <svg class="sc-hero" viewBox="0 0 100 100" aria-hidden="true">
           <text class="sc-gtext" x="50" y="50">${c.glyph}</text>
@@ -394,7 +394,7 @@ function hzCreate(el, char, sz, opts) {
   });
 }
 
-// Data-driven stroke-order animation for character cards (`hw: true`).
+// Data-driven stroke-order animation for character cards (`animated: true`).
 // Self-hosted: lib in shared/vendor, per-char data in shared/hanzi-data (APL).
 // Module pages live one level deep, so ../shared/ resolves for all of them.
 function initHanzi() {

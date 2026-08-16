@@ -3,7 +3,7 @@
   "cp": "U+4E38",
   "class": "char",
   "form": {
-    "hw": true,
+    "animated": true,
     "image": ""
   },
   "composes": [

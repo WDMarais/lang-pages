@@ -41,7 +41,7 @@ The data-layer graph is three generated files (from `data/symbols/*.json` via
 The data layer already splits a glyph into a **language-neutral core** and a
 **per-language interface**, and the consumer (card) projection keeps the same seam:
 
-- **core** (a `node`) — the shared facts: `glyph`, `tier`, `hw`/`image`/`kx`, and the
+- **core** (a `node`) — the shared facts: `glyph`, `tier`, `animated`/`image`/`kx`, and the
   `referent`s it denotes (the *meaning*, language-neutral).
 - **interface** (a `binding`, one per `cn`/`jp`) — that language's rendering: `name`,
   `reading`, `gloss`, `extra`, program annotations, vocabulary, audio keys (content-keyed

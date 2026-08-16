@@ -129,12 +129,14 @@ def check_symbol(rep, g, s):
     if not isinstance(form, dict):
         rep.err(where, "form missing or not an object")
     else:
-        if not isinstance(form.get("hw"), bool):
-            rep.err(where, "form.hw must be a bool")
-        elif form["hw"] and not (ROOT / "shared" / "hanzi-data" / f"{g}.json").exists():
-            # hw promises a local stroke-data file — cards3/cardsJP fetch it to animate
-            # the tile, so hw=True with no file is a 404 (a silent, blank animation).
-            rep.err(where, "form.hw is true but shared/hanzi-data/<glyph>.json is missing")
+        if not isinstance(form.get("animated"), bool):
+            rep.err(where, "form.animated must be a bool")
+        elif form["animated"] and not (ROOT / "shared" / "hanzi-data" / f"{g}.json").exists():
+            # animated promises a local stroke-data file — cards3/cardsJP fetch it to
+            # animate the tile, so animated=True with no file is a 404 (a silent,
+            # blank animation). The file may be native (fetch.py <glyph>) or lifted
+            # from a parent (fetch.py --lift) — either way it must exist here.
+            rep.err(where, "form.animated is true but shared/hanzi-data/<glyph>.json is missing")
         if not isinstance(form.get("image"), str):
             rep.err(where, "form.image must be a string")
 

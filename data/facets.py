@@ -10,7 +10,7 @@ A facet exists exactly where a groundable answer exists — so `skill` is derive
 from the *presence of grounding data*, not from tier (tier is only a display hint):
 
     recognize  <= node has a renderable form            (glyph present)
-    produce    <= node has stroke-order data            (media.hw)
+    produce    <= node has stroke-order data            (media.animated)
     read       <= a binding@ctx (or word node) has readings
     mean       <= a binding@ctx (or word node) has a gloss
                   ...sense-grounded iff a denotes->referent carries real media
@@ -60,7 +60,7 @@ def project(nodes, bindings, edges, referents):
         nid, is_word = n["id"], n.get("kind") == "word"
         if n.get("glyph"):
             facets.append((nid, "recognize", "-"))
-        if n.get("media", {}).get("hw"):
+        if n.get("media", {}).get("animated"):
             facets.append((nid, "produce", "-"))
 
         # read / mean live per language context: on the node itself for words

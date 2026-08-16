@@ -48,7 +48,7 @@ the projection.
 | `cp` | ✓ | codepoint, `"U+5927"` |
 | `class` | ✓ | `stroke` \| `comp` \| `char` — drives page membership |
 | `kangxi` | – | Kangxi radical number (present → shows on `/kangxi/`) |
-| `form` | ✓ | `{ "hw": bool, "image": str }` — `hw` = has HanziWriter stroke data |
+| `form` | ✓ | `{ "animated": bool, "image": str }` — `animated` = has stroke-order animation (a `shared/hanzi-data/<glyph>.json`, native *or* lifted) |
 | `composes` | – | authored structural note. ⟨verify-on-ingest⟩ **not** the edge source — `composes` edges come from `decomposition.json`; this field is sparse (many cards omit it). Flagged as debt below. |
 | `readings` | ✓ | `{ cn: {...}, jp: {...} }`, each `{ name, reading, gloss, extra?, appearsIn? }` |
 | `readings.*.appearsIn` | – | `{ char, reading, gloss }` — the "example" link; becomes a reverse `composes` edge |
@@ -107,13 +107,13 @@ Then, per routed item:
 
 1. **Write the symbol files.** One `data/symbols/<glyph>.json` per glyph (schema
    above). Add each new glyph to `data/symbols/_spine.json` in editorial position.
-   - **Stroke data for `hw:true` glyphs.** The animation loads
+   - **Stroke data for `animated:true` glyphs.** The animation loads
      `shared/hanzi-data/<glyph>.json`; if it isn't already committed, fetch it:
      `python3 shared/hanzi-data/fetch.py <glyph>`. For a component NOT in the base
      dataset (丆, katakana-shaped parts), *lift* its strokes out of a character that
      contains it — and that source char is usually also its `appearsIn`, so one
      char gives you both: `python3 shared/hanzi-data/fetch.py --lift 午:0,1 --as 𠂉`.
-     A component with no available source stays `hw:false` (a valid stub) until a
+     A component with no available source stays `animated:false` (a valid stub) until a
      char using it is carded.
 
 2. **Curate side-inputs as needed:**
@@ -226,7 +226,7 @@ Surfaced while tracing; not yet fixed. Ranked roughly by bite:
 5. **`composes` field on symbols is vestigial** — sparsely authored and not the edge
    source. Either make it authoritative (feed the graph) or drop it.
 6. **~~Card scaffolder~~ — DONE.** `python3 data/scaffold.py <glyph>… [--fetch]`
-   writes a stub with `cp`, `kangxi` #, `class` and `form.hw` derived (and `--fetch`
+   writes a stub with `cp`, `kangxi` #, `class` and `form.animated` derived (and `--fetch`
    pulls HanziWriter data), leaving a literal `TODO` on every judgment field —
    readings, glosses, program `kind`. It deliberately does **not** guess content: a
    stub that invents a reading is worse than no stub. Run it, fill the TODOs, then

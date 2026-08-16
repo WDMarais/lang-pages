@@ -110,7 +110,7 @@ def to_card(sym):
         "glyph": sym["glyph"],
         "tag": sym["class"],
         "image": sym["form"]["image"],
-        "hw": sym["form"]["hw"],
+        "animated": sym["form"]["animated"],
         "cn": sym["readings"]["cn"],
         "jp": sym["readings"]["jp"],
     }

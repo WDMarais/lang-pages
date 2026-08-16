@@ -4,7 +4,7 @@
   "class": "comp",
   "kangxi": 8,
   "form": {
-    "hw": true,
+    "animated": true,
     "image": ""
   },
   "composes": [

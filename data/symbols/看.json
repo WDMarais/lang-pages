@@ -3,7 +3,7 @@
   "cp": "U+770B",
   "class": "char",
   "form": {
-    "hw": true,
+    "animated": true,
     "image": ""
   },
   "composes": [

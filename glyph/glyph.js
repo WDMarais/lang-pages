@@ -180,7 +180,7 @@ function hero(n, r, isWord, surface) {
   const f = isWord ? null : gdFacts(G, surface);
   const reading = isWord ? (n.reading || '') : [f.py, f.kana].filter(Boolean).join(' · ');
   const gloss = isWord ? (n.gloss || '') : f.gloss;
-  const hw = !isWord && n.media && n.media.hw;
+  const animated = !isWord && n.media && n.media.animated;
   const tier = isWord ? 'word · 词' : (n.frontier ? 'frontier · 前沿' : `${n.tier} · ${({ stroke: '笔画', component: '部件', char: '字' })[n.tier] || ''}`);
   // a word plays its whole-word clip from its own bank: JP romaji or CN pinyin base
   const wordSrc = !isWord ? null
@@ -190,7 +190,7 @@ function hero(n, r, isWord, surface) {
   return html`
     <div class="gl-hero">
       <div class="gl-hero-art">
-        ${hw ? html`<div class="gl-hw sc-hw" data-char="${surface}"></div>`
+        ${animated ? html`<div class="gl-hw sc-hw" data-char="${surface}"></div>`
              : html`<div class="gl-hero-glyph${[...surface].length > 1 ? ' multi' : ''}">${surface}</div>`}
       </div>
       <div class="gl-hero-facts">
@@ -271,7 +271,7 @@ function relRow(zh, en, glyphs, emptyNote) {
 function assets(n, r, isWord) {
   const rows = [];
   if (!isWord) {
-    rows.push(['stroke data', n.media && n.media.hw ? 'hanzi-writer' : null]);
+    rows.push(['stroke data', n.media && n.media.animated ? 'hanzi-writer' : null]);
     rows.push(['image', n.media && n.media.image ? n.media.image : null]);
     rows.push(['cn audio', n.cnAudioKey ? `/audio/cn/${n.cnAudioKey}.mp3` : null]);
     rows.push(['jp audio', n.jpAudioKey ? `/audio/jp/${n.jpAudioKey}.mp3` : null]);

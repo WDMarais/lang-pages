@@ -86,7 +86,7 @@ projection keeps the same seam.
 ```
 core = {                     // language-neutral — the general contract
   glyph, tag,                // identity ('char' | 'comp' | 'stroke')
-  hw, image?, kx?,           // media + Kangxi №
+  animated, image?, kx?,     // media + Kangxi №
   referents?[],              // meaning (language-neutral): label + images
 }
 binding[lang] = {            // ONE per language — the interface OVER the core

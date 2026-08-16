@@ -52,7 +52,7 @@ function renderCoverage() {
     const jp = CON.bindings.find(b => b.id === `b:${n.glyph}@jp`);
     return jp && jp.program && jp.program.kanji;
   }).length;
-  const withHw = P.real.filter(n => n.media && n.media.hw).length;
+  const withHw = P.real.filter(n => n.media && n.media.animated).length;
 
   const tiles = [
     { label: 'glyphs', n: P.real.length,

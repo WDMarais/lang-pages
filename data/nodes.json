@@ -7,7 +7,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi1",
@@ -27,7 +27,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ba1",
@@ -47,7 +47,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "er4",
@@ -74,7 +74,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "san1",
@@ -92,7 +92,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "si4",
@@ -110,7 +110,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tou2",
@@ -129,7 +129,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "da4",
@@ -149,7 +149,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tian1",
@@ -167,7 +167,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xiao3",
@@ -187,7 +187,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ren2",
@@ -207,7 +207,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       },
       "cnExAudioKey": "xiu1",
@@ -227,7 +227,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ru4",
@@ -254,7 +254,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "li4",
@@ -281,7 +281,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bao1",
@@ -307,7 +307,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "kou3",
@@ -334,7 +334,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "nv3",
@@ -354,7 +354,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zi3",
@@ -381,7 +381,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qi1",
@@ -401,7 +401,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jiu3",
@@ -421,7 +421,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi2",
@@ -441,7 +441,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qian1",
@@ -461,7 +461,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wu3",
@@ -488,7 +488,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "liu4",
@@ -506,7 +506,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "wu3",
@@ -524,7 +524,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bu3",
@@ -550,7 +550,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi4",
@@ -569,7 +569,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chuan1",
@@ -596,7 +596,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gong1",
@@ -623,7 +623,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shan1",
@@ -650,7 +650,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi3",
@@ -670,7 +670,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mu4",
@@ -697,7 +697,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ri4",
@@ -717,7 +717,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tian2",
@@ -737,7 +737,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhong1",
@@ -764,7 +764,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chu1",
@@ -782,7 +782,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "you4",
@@ -800,7 +800,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zuo3",
@@ -818,7 +818,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wang2",
@@ -845,7 +845,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ben3",
@@ -865,7 +865,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yuan2",
@@ -896,7 +896,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xi1",
@@ -916,7 +916,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shang4",
@@ -934,7 +934,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xia4",
@@ -952,7 +952,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shui3",
@@ -986,7 +986,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tu3",
@@ -1006,7 +1006,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dao1",
@@ -1026,7 +1026,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gong1",
@@ -1046,7 +1046,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mi4",
@@ -1064,7 +1064,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bai2",
@@ -1082,7 +1082,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "quan2",
@@ -1100,7 +1100,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xian4",
@@ -1118,7 +1118,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "huo3",
@@ -1145,7 +1145,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "quan3",
@@ -1172,7 +1172,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xiang4",
@@ -1190,7 +1190,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "er2",
@@ -1216,7 +1216,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "han4",
@@ -1242,7 +1242,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi1",
@@ -1268,7 +1268,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xian1",
@@ -1295,7 +1295,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi3",
@@ -1322,7 +1322,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi1",
@@ -1340,7 +1340,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "he2",
@@ -1367,7 +1367,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fu4",
@@ -1394,7 +1394,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mian2",
@@ -1420,7 +1420,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bu4",
@@ -1447,7 +1447,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ye4",
@@ -1472,7 +1472,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu3",
@@ -1497,7 +1497,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shou3",
@@ -1524,7 +1524,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wan2",
@@ -1542,7 +1542,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ding1",
@@ -1569,7 +1569,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "you3",
@@ -1594,7 +1594,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       },
       "cnExAudioKey": "you3",
@@ -1609,7 +1609,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "tai2",
@@ -1627,7 +1627,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       },
       "cnExAudioKey": "ye3"
@@ -1644,7 +1644,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       }
     },
@@ -1660,7 +1660,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "cai2",
@@ -1687,7 +1687,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jiong1",
@@ -1713,7 +1713,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       }
     },
@@ -1729,7 +1729,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       }
     },
@@ -1745,7 +1745,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       },
       "cnAudioKey": "yi1",
@@ -1772,7 +1772,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       },
       "jpAudioKey": "noma"
@@ -1789,7 +1789,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wan4",
@@ -1814,7 +1814,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "liang3",
@@ -1834,7 +1834,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ge4",
@@ -1863,7 +1863,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wei2",
@@ -1888,7 +1888,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi4",
@@ -1921,7 +1921,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi3"
@@ -1938,7 +1938,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ye3",
@@ -1958,7 +1958,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "liao3",
@@ -1976,7 +1976,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu2",
@@ -2009,7 +2009,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shen2",
@@ -2027,7 +2027,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jin1",
@@ -2045,7 +2045,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "cong2",
@@ -2070,7 +2070,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ta1",
@@ -2088,7 +2088,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dan4",
@@ -2106,7 +2106,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ti3",
@@ -2131,7 +2131,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zuo4",
@@ -2149,7 +2149,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ni3",
@@ -2167,7 +2167,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi3",
@@ -2185,7 +2185,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi4",
@@ -2211,7 +2211,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mi4"
@@ -2228,7 +2228,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bing1"
@@ -2245,7 +2245,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ji1"
@@ -2262,7 +2262,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "kan3"
@@ -2279,7 +2279,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fen1",
@@ -2306,7 +2306,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qie1",
@@ -2324,7 +2324,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jia1",
@@ -2342,7 +2342,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bi3"
@@ -2359,7 +2359,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fang1"
@@ -2376,7 +2376,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xi4"
@@ -2393,7 +2393,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wu3",
@@ -2411,7 +2411,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bu3"
@@ -2423,7 +2423,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jie2"
@@ -2440,7 +2440,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "si1",
@@ -2455,7 +2455,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "you4"
@@ -2472,7 +2472,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gu3",
@@ -2490,7 +2490,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi3",
@@ -2508,7 +2508,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ke3",
@@ -2529,7 +2529,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tai2",
@@ -2547,7 +2547,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hou4",
@@ -2577,7 +2577,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yuan2",
@@ -2602,7 +2602,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wei2"
@@ -2619,7 +2619,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hui2",
@@ -2637,7 +2637,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zai4",
@@ -2655,7 +2655,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "di4",
@@ -2673,7 +2673,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi4"
@@ -2690,7 +2690,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi3"
@@ -2707,7 +2707,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chu4",
@@ -2732,7 +2732,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "sui1"
@@ -2749,7 +2749,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tai4",
@@ -2767,7 +2767,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "tou2",
@@ -2792,7 +2792,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ta1"
@@ -2809,7 +2809,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hao3",
@@ -2827,7 +2827,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ru2",
@@ -2848,7 +2848,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi2",
@@ -2873,7 +2873,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "cun4"
@@ -2890,7 +2890,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shao3",
@@ -2908,7 +2908,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wang1"
@@ -2925,7 +2925,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "che4"
@@ -2942,7 +2942,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ji3",
@@ -2976,7 +2976,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi3",
@@ -2994,7 +2994,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "si4",
@@ -3014,7 +3014,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jin1"
@@ -3031,7 +3031,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gan1"
@@ -3048,7 +3048,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yao1"
@@ -3065,7 +3065,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "guang3"
@@ -3082,7 +3082,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yin3"
@@ -3099,7 +3099,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gong3"
@@ -3116,7 +3116,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi4"
@@ -3133,7 +3133,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yin3",
@@ -3151,7 +3151,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ji4"
@@ -3168,7 +3168,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shan1"
@@ -3185,7 +3185,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chi4"
@@ -3202,7 +3202,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xin1",
@@ -3220,7 +3220,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ge1"
@@ -3237,7 +3237,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hu4",
@@ -3263,7 +3263,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       }
     },
@@ -3274,7 +3274,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi1"
@@ -3291,7 +3291,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "pu1",
@@ -3311,7 +3311,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wen2",
@@ -3329,7 +3329,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dou3"
@@ -3346,7 +3346,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jin1"
@@ -3363,7 +3363,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fang1",
@@ -3381,7 +3381,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wu2"
@@ -3393,7 +3393,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ming2",
@@ -3411,7 +3411,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yue1"
@@ -3428,7 +3428,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yue4",
@@ -3448,7 +3448,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "you3",
@@ -3466,7 +3466,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "guo3",
@@ -3493,7 +3493,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yang4",
@@ -3518,7 +3518,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qian4"
@@ -3535,7 +3535,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zheng4",
@@ -3562,7 +3562,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dai3"
@@ -3579,7 +3579,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shu1"
@@ -3596,7 +3596,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wu2"
@@ -3613,7 +3613,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "guan4"
@@ -3630,7 +3630,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mu3",
@@ -3657,7 +3657,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bi3"
@@ -3674,7 +3674,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mao2",
@@ -3692,7 +3692,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi4"
@@ -3709,7 +3709,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qi4"
@@ -3726,7 +3726,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhao3"
@@ -3743,7 +3743,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yao2"
@@ -3760,7 +3760,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qiang2"
@@ -3777,7 +3777,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "pian4"
@@ -3794,7 +3794,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ya2"
@@ -3811,7 +3811,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "niu2",
@@ -3838,7 +3838,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xuan2"
@@ -3855,7 +3855,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu4",
@@ -3873,7 +3873,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gua1"
@@ -3890,7 +3890,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wa3"
@@ -3907,7 +3907,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gan1"
@@ -3924,7 +3924,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "sheng1",
@@ -3942,7 +3942,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yong4",
@@ -3955,7 +3955,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "you2",
@@ -3977,7 +3977,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "pi3"
@@ -3994,7 +3994,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ne4"
@@ -4011,7 +4011,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bo1"
@@ -4028,7 +4028,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bai3",
@@ -4055,7 +4055,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "pi2"
@@ -4072,7 +4072,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "min3"
@@ -4089,7 +4089,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mu4",
@@ -4107,7 +4107,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xiang4",
@@ -4129,7 +4129,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "kan4",
@@ -4147,7 +4147,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhen1",
@@ -4165,7 +4165,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhuo2",
@@ -4183,7 +4183,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mao2"
@@ -4200,7 +4200,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi3",
@@ -4218,7 +4218,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi2"
@@ -4235,7 +4235,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi4"
@@ -4252,7 +4252,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shen2",
@@ -4270,7 +4270,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "rou2"
@@ -4287,7 +4287,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "he2"
@@ -4304,7 +4304,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xue2"
@@ -4321,7 +4321,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "li4",
@@ -4341,7 +4341,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhu2",
@@ -4361,7 +4361,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mi3"
@@ -4378,7 +4378,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fou3"
@@ -4395,7 +4395,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wang3"
@@ -4412,7 +4412,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yang2"
@@ -4429,7 +4429,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mei3",
@@ -4447,7 +4447,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu3"
@@ -4464,7 +4464,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "lao3"
@@ -4481,7 +4481,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhe3",
@@ -4499,7 +4499,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "er2"
@@ -4511,7 +4511,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "lei3"
@@ -4528,7 +4528,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "er3",
@@ -4555,7 +4555,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu4"
@@ -4572,7 +4572,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "rou4",
@@ -4590,7 +4590,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chen2"
@@ -4607,7 +4607,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zi4"
@@ -4624,7 +4624,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi4"
@@ -4641,7 +4641,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jiu4"
@@ -4658,7 +4658,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "she2"
@@ -4675,7 +4675,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chuan3"
@@ -4692,7 +4692,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhou1"
@@ -4709,7 +4709,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gen4"
@@ -4726,7 +4726,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "se4"
@@ -4743,7 +4743,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "cao3"
@@ -4760,7 +4760,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hu1"
@@ -4777,7 +4777,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chong2"
@@ -4794,7 +4794,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xue4"
@@ -4811,7 +4811,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xing2"
@@ -4828,7 +4828,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi1"
@@ -4845,7 +4845,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ya4",
@@ -4860,7 +4860,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xi1",
@@ -4878,7 +4878,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       },
       "cnExAudioKey": "yao4",
@@ -4898,7 +4898,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jian4",
@@ -4924,7 +4924,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jiao3",
@@ -4944,7 +4944,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jie3",
@@ -4962,7 +4962,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yan2"
@@ -4979,7 +4979,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gu3"
@@ -4996,7 +4996,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dou4"
@@ -5013,7 +5013,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi3"
@@ -5030,7 +5030,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi4"
@@ -5047,7 +5047,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bei4",
@@ -5073,7 +5073,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chi4"
@@ -5090,7 +5090,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zou3"
@@ -5107,7 +5107,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zu2",
@@ -5141,7 +5141,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shen1"
@@ -5153,7 +5153,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "che1",
@@ -5187,7 +5187,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xin1"
@@ -5204,7 +5204,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chen2"
@@ -5221,7 +5221,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chuo4"
@@ -5233,7 +5233,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi4"
@@ -5250,7 +5250,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "na4",
@@ -5268,7 +5268,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dou1",
@@ -5286,7 +5286,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "you3"
@@ -5303,7 +5303,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bian4"
@@ -5320,7 +5320,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "li3"
@@ -5337,7 +5337,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jin1"
@@ -5354,7 +5354,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chang2"
@@ -5371,7 +5371,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "men2"
@@ -5388,7 +5388,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fu4"
@@ -5405,7 +5405,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi4"
@@ -5417,7 +5417,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "li4"
@@ -5434,7 +5434,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhui1"
@@ -5451,7 +5451,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu3"
@@ -5468,7 +5468,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ling2",
@@ -5486,7 +5486,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qing1"
@@ -5503,7 +5503,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fei1"
@@ -5520,7 +5520,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mian4"
@@ -5537,7 +5537,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ge2"
@@ -5554,7 +5554,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "wei2"
@@ -5571,7 +5571,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "jiu3"
@@ -5588,7 +5588,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yin1"
@@ -5605,7 +5605,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ye4"
@@ -5617,7 +5617,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "feng1"
@@ -5634,7 +5634,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "fei1"
@@ -5651,7 +5651,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shi2"
@@ -5668,7 +5668,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shou3"
@@ -5680,7 +5680,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xiang1"
@@ -5697,7 +5697,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ma3"
@@ -5714,7 +5714,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gu3"
@@ -5731,7 +5731,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gao1"
@@ -5748,7 +5748,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "biao1"
@@ -5765,7 +5765,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dou4"
@@ -5782,7 +5782,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chang4"
@@ -5799,7 +5799,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "li4"
@@ -5816,7 +5816,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gui3"
@@ -5833,7 +5833,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yu2",
@@ -5859,7 +5859,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "niao3",
@@ -5885,7 +5885,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "lu3"
@@ -5902,7 +5902,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "lu4"
@@ -5919,7 +5919,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "mai4"
@@ -5936,7 +5936,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ma2"
@@ -5953,7 +5953,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "huang2"
@@ -5970,7 +5970,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shu3"
@@ -5987,7 +5987,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hei1"
@@ -6004,7 +6004,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhi3"
@@ -6021,7 +6021,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "min3"
@@ -6038,7 +6038,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ding3"
@@ -6055,7 +6055,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gu3"
@@ -6072,7 +6072,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shu3"
@@ -6089,7 +6089,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "bi2"
@@ -6106,7 +6106,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "qi2"
@@ -6123,7 +6123,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "chi3"
@@ -6140,7 +6140,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "long2"
@@ -6157,7 +6157,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "gui1"
@@ -6174,7 +6174,7 @@
       "tier": "char",
       "source": "radicals",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yue4"
@@ -6191,7 +6191,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "hw": false,
+        "animated": false,
         "image": ""
       }
     },
@@ -6207,7 +6207,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "heng2",
@@ -6227,7 +6227,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shu4",
@@ -6247,7 +6247,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "pie3",
@@ -6267,7 +6267,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "na4",
@@ -6287,7 +6287,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "dian3",
@@ -6307,7 +6307,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "ti2",
@@ -6327,7 +6327,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "zhe2",
@@ -6347,7 +6347,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "shugou",
@@ -6367,7 +6367,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "hengzhegou",
@@ -6387,7 +6387,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "piedian",
@@ -6407,7 +6407,7 @@
       "tier": "stroke",
       "source": "strokes",
       "media": {
-        "hw": true,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "xiegou",

@@ -87,7 +87,7 @@ def lang_block(v):
 
 def emit_card(c):
     L = ["        {"]
-    for k in ("glyph", "tag", "image", "hw"):
+    for k in ("glyph", "tag", "image", "animated"):
         L.append(f'          {s(k)}: {s(c[k])},')
     for k in ("cnAudioKey", "cnExAudioKey", "jpAudioKey", "jpExAudioKey"):  # present only for readings with a sound key
         if k in c:

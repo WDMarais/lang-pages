@@ -3,7 +3,7 @@
   "cp": "U+30E1",
   "class": "comp",
   "form": {
-    "hw": true,
+    "animated": true,
     "image": ""
   },
   "composes": [

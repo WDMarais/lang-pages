@@ -78,7 +78,7 @@ are facets. Keeping them apart is what stops the schema exploding.
   "kind": "glyph",
   "glyph": "木",
   "tier": "char",                 // stroke | component | char | word
-  "media": { "hw": true, "image": "" },
+  "media": { "animated": true, "image": "" },
   "tags": ["nature", "kangxi:75"]
 }
 ```
@@ -173,8 +173,8 @@ srs-tool's type-based slots (see Projection).
 
 ```jsonc
 // nodes
-{ "id":"g:木","kind":"glyph","glyph":"木","tier":"char","media":{"hw":true} }
-{ "id":"g:林","kind":"glyph","glyph":"林","tier":"char","media":{"hw":true} }
+{ "id":"g:木","kind":"glyph","glyph":"木","tier":"char","media":{"animated":true} }
+{ "id":"g:林","kind":"glyph","glyph":"林","tier":"char","media":{"animated":true} }
 { "id":"g:一","kind":"glyph","glyph":"一","tier":"stroke" }
 { "id":"g:丨","kind":"glyph","glyph":"丨","tier":"stroke" }
 { "id":"g:丿","kind":"glyph","glyph":"丿","tier":"stroke" }

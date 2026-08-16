@@ -101,7 +101,7 @@ function jpFocusCard(state, id) {
   return html`
     <article class="jp-focus-card">
       <div class="jp-focus-top">
-        <div class="jp-focus-glyph">${diagram({ hw: n.media && n.media.hw, glyph: n.glyph })}</div>
+        <div class="jp-focus-glyph">${diagram({ animated: n.media && n.media.animated, glyph: n.glyph })}</div>
         <div class="jp-focus-head">
           <div class="jp-readings">
             ${jpReadingRow('on', '音', on)}
@@ -153,7 +153,7 @@ function jpMount(state) {
     state.rail.querySelectorAll('.jp-rail-item').forEach(b =>
       b.classList.toggle('sel', b.dataset.id === id));
     const n = state.byId[id];
-    if (n.media && n.media.hw) { jpFocusHanzi(state, n.glyph); }
+    if (n.media && n.media.animated) { jpFocusHanzi(state, n.glyph); }
   };
   state.rail.addEventListener('click', e => {
     const btn = e.target.closest('.jp-rail-item');

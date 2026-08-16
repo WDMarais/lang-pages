@@ -49,8 +49,8 @@ def has_strokes(glyph):
 def fetch_strokes(glyph):
     """Best-effort pull of HanziWriter data. A component absent from the dataset
     (a katakana-shaped part) will fail here — that is expected, and the caller
-    falls back to hw:false, which is a valid stub until someone lifts the strokes
-    out of a character that contains it (see fetch.py --lift)."""
+    falls back to animated:false, which is a valid stub until someone lifts the
+    strokes out of a character that contains it (see fetch.py --lift)."""
     r = subprocess.run([sys.executable, str(HANZI / "fetch.py"), glyph],
                        capture_output=True, text=True)
     return r.returncode == 0 and has_strokes(glyph)
@@ -73,7 +73,7 @@ def scaffold(glyph, fetch=False):
         # either way (口 is a char, 亠 is a comp) — hence the review line.
         "class": "char",
         **({"kangxi": kangxi} if kangxi else {}),
-        "form": {"hw": has_strokes(glyph), "image": ""},
+        "form": {"animated": has_strokes(glyph), "image": ""},
         "readings": {"cn": reading_stub(glyph), "jp": reading_stub(glyph)},
         "programs": [],
     }
@@ -98,7 +98,7 @@ def main(argv):
         bits = [f"cp {sym['cp']}"]
         if sym.get("kangxi"):
             bits.append(f"kangxi {sym['kangxi']}")
-        bits.append("hw " + ("✓" if sym["form"]["hw"] else "✗ (fetch or --lift)"))
+        bits.append("animated " + ("✓" if sym["form"]["animated"] else "✗ (fetch or --lift)"))
         if parts:
             bits.append("parts " + " ".join(parts))
         print(f"wrote {g}  ({' · '.join(bits)})")

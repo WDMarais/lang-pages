@@ -92,7 +92,7 @@ function cardFromNode(G, node) {
   const cn = G.bindById[`b:${node.glyph}@cn`], jp = G.bindById[`b:${node.glyph}@jp`];
   return {
     glyph: node.glyph, tag: TAGMAP[node.tier],
-    image: node.media.image, hw: node.media.hw,
+    image: node.media.image, animated: node.media.animated,
     // content-keyed bank keys stamped on the node by build-graph (cnSrc/jpSrc)
     cnAudioKey: node.cnAudioKey, cnExAudioKey: node.cnExAudioKey,
     jpAudioKey: node.jpAudioKey, jpExAudioKey: node.jpExAudioKey,

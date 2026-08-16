@@ -4,7 +4,7 @@
   "class": "char",
   "kangxi": 37,
   "form": {
-    "hw": true,
+    "animated": true,
     "image": ""
   },
   "composes": [

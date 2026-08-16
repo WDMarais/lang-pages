@@ -32,8 +32,8 @@ function cfMember(G, id, focusId) {
   }
 
   // stroke-animated when the glyph has hanzi-data; otherwise the crisp glyph itself.
-  const hw = isGlyph && node && node.media && node.media.hw;
-  const art = hw
+  const animated = isGlyph && node && node.media && node.media.animated;
+  const art = animated
     ? html`<div class="cf-hw sc-hw" data-char="${surface}"></div>`
     : html`<div class="cf-plain">${surface}</div>`;
 

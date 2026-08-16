@@ -3,7 +3,7 @@
   "cp": "U+53F3",
   "class": "char",
   "form": {
-    "hw": true,
+    "animated": true,
     "image": ""
   },
   "composes": [

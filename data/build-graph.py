@@ -143,7 +143,7 @@ def build():
             nodes[f"g:{g}"] = {
                 "id": f"g:{g}", "kind": "glyph", "glyph": g,
                 "tier": TIER[c["tag"]], "source": src,
-                "media": {"hw": c.get("hw", False), "image": c.get("image", "")},
+                "media": {"animated": c.get("animated", False), "image": c.get("image", "")},
                 # content-keyed bank keys for the graph detail panel (renderCard →
                 # cnSrc/jpSrc). NOT part of the round-tripped card — stamped on the
                 # node only. Same definition build-pages uses, so they can't drift.
@@ -382,7 +382,7 @@ def project_cards(source, nodes, bindings):
         cn, jp = bb[f"b:{g}@cn"], bb[f"b:{g}@jp"]
         card = {
             "glyph": g, "tag": TAG[n["tier"]],
-            "image": n["media"]["image"], "hw": n["media"]["hw"],
+            "image": n["media"]["image"], "animated": n["media"]["animated"],
             "cn": view(cn),
             "jp": view(jp),
         }
