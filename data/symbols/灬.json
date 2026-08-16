@@ -1,0 +1,33 @@
+{
+  "glyph": "灬",
+  "cp": "U+706C",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "灬",
+      "reading": "",
+      "gloss": "fire radical (bottom form of 火)",
+      "extra": "火 的底形·四点底 · 见于 点 热 然 照 煮 · Pandanese「kindling」"
+    },
+    "jp": {
+      "name": "灬",
+      "reading": "",
+      "gloss": "fire radical (bottom form of 火)",
+      "extra": "れっか · 火 の底形 · 点・熱・然・照 の下"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "kindling",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
+}

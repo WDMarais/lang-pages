@@ -29,6 +29,14 @@
       "name": "Stool",
       "kind": "mnemonic",
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "again",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

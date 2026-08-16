@@ -1,0 +1,33 @@
+{
+  "glyph": "刂",
+  "cp": "U+5202",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "刂",
+      "reading": "",
+      "gloss": "knife radical (side form of 刀)",
+      "extra": "刀 的偏旁·立刀旁 · 见于 到 利 别 刻 前 · Pandanese「razor」"
+    },
+    "jp": {
+      "name": "刂",
+      "reading": "",
+      "gloss": "knife radical (side form of 刀)",
+      "extra": "りっとう · 刀 の偏旁形 · 到・利・別・前 の右"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "razor",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
+}

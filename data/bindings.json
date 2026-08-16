@@ -4138,6 +4138,30 @@
       "extra": ""
     },
     {
+      "id": "b:刂@cn",
+      "glyph_id": "g:刂",
+      "lang": "cn",
+      "name": "刂",
+      "readings": [],
+      "gloss": "knife radical (side form of 刀)",
+      "extra": "刀 的偏旁·立刀旁 · 见于 到 利 别 刻 前 · Pandanese「razor」",
+      "program": {
+        "source": "pandanese",
+        "name": "razor",
+        "level": 4,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:刂@jp",
+      "glyph_id": "g:刂",
+      "lang": "jp",
+      "name": "刂",
+      "readings": [],
+      "gloss": "knife radical (side form of 刀)",
+      "extra": "りっとう · 刀 の偏旁形 · 到・利・別・前 の右"
+    },
+    {
       "id": "b:分@cn",
       "glyph_id": "g:分",
       "lang": "cn",
@@ -4417,7 +4441,13 @@
         "yòu"
       ],
       "gloss": "again",
-      "extra": "康熙部首 29"
+      "extra": "康熙部首 29",
+      "program": {
+        "source": "pandanese",
+        "name": "again",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:又@jp",
@@ -6305,6 +6335,30 @@
       "extra": ""
     },
     {
+      "id": "b:灬@cn",
+      "glyph_id": "g:灬",
+      "lang": "cn",
+      "name": "灬",
+      "readings": [],
+      "gloss": "fire radical (bottom form of 火)",
+      "extra": "火 的底形·四点底 · 见于 点 热 然 照 煮 · Pandanese「kindling」",
+      "program": {
+        "source": "pandanese",
+        "name": "kindling",
+        "level": 4,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:灬@jp",
+      "glyph_id": "g:灬",
+      "lang": "jp",
+      "name": "灬",
+      "readings": [],
+      "gloss": "fire radical (bottom form of 火)",
+      "extra": "れっか · 火 の底形 · 点・熱・然・照 の下"
+    },
+    {
       "id": "b:爪@cn",
       "glyph_id": "g:爪",
       "lang": "cn",
@@ -7551,7 +7605,13 @@
         "yù"
       ],
       "gloss": "brush",
-      "extra": "康熙部首 129"
+      "extra": "康熙部首 129",
+      "program": {
+        "source": "pandanese",
+        "name": "brush",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:聿@jp",
@@ -7624,7 +7684,13 @@
         "zì"
       ],
       "gloss": "self",
-      "extra": "康熙部首 132"
+      "extra": "康熙部首 132",
+      "program": {
+        "source": "pandanese",
+        "name": "self",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:自@jp",

@@ -829,6 +829,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:刂",
+      "to": "r:knife-radical",
+      "kind": "denotes"
+    },
+    {
       "from": "g:分",
       "to": "r:divide",
       "kind": "denotes"
@@ -1252,6 +1257,11 @@
     {
       "from": "g:气",
       "to": "r:steam",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:灬",
+      "to": "r:fire-radical",
       "kind": "denotes"
     },
     {
@@ -2492,6 +2502,16 @@
     {
       "from": "g:丿",
       "to": "g:刀",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:刂",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亅",
+      "to": "g:刂",
       "kind": "composes"
     },
     {

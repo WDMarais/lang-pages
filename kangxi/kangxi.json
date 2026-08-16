@@ -1105,6 +1105,11 @@
             "level": 3,
             "kind": "mnemonic"
           },
+          "pd": {
+            "name": "again",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 29,
           "cnAudioKey": "you4"
         }
@@ -4424,6 +4429,11 @@
             "gloss": "brush"
           },
           "wk": null,
+          "pd": {
+            "name": "brush",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 129,
           "cnAudioKey": "yu4"
         },
@@ -4496,6 +4506,11 @@
             "gloss": "self"
           },
           "wk": null,
+          "pd": {
+            "name": "self",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 132,
           "cnAudioKey": "zi4"
         },
@@ -6780,6 +6795,30 @@
           "jpExAudioKey": "sho"
         },
         {
+          "glyph": "刂",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "刂",
+            "reading": "",
+            "gloss": "knife radical (side form of 刀)",
+            "extra": "刀 的偏旁·立刀旁 · 见于 到 利 别 刻 前 · Pandanese「razor」"
+          },
+          "jp": {
+            "name": "刂",
+            "reading": "",
+            "gloss": "knife radical (side form of 刀)",
+            "extra": "りっとう · 刀 の偏旁形 · 到・利・別・前 の右"
+          },
+          "wk": null,
+          "pd": {
+            "name": "razor",
+            "level": 4,
+            "kind": "mnemonic"
+          }
+        },
+        {
           "glyph": "扌",
           "tag": "comp",
           "image": "",
@@ -6799,6 +6838,30 @@
           "wk": {
             "name": "Fingers",
             "level": 3,
+            "kind": "mnemonic"
+          }
+        },
+        {
+          "glyph": "灬",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "灬",
+            "reading": "",
+            "gloss": "fire radical (bottom form of 火)",
+            "extra": "火 的底形·四点底 · 见于 点 热 然 照 煮 · Pandanese「kindling」"
+          },
+          "jp": {
+            "name": "灬",
+            "reading": "",
+            "gloss": "fire radical (bottom form of 火)",
+            "extra": "れっか · 火 の底形 · 点・熱・然・照 の下"
+          },
+          "wk": null,
+          "pd": {
+            "name": "kindling",
+            "level": 4,
             "kind": "mnemonic"
           }
         },

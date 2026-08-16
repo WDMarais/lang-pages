@@ -2273,6 +2273,22 @@
       "label": "open box"
     },
     {
+      "id": "g:刂",
+      "kind": "glyph",
+      "glyph": "刂",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:knife-radical",
+      "kind": "referent",
+      "label": "knife radical (side form of 刀)"
+    },
+    {
       "id": "g:分",
       "kind": "glyph",
       "glyph": "分",
@@ -3718,6 +3734,22 @@
       "id": "r:steam",
       "kind": "referent",
       "label": "steam"
+    },
+    {
+      "id": "g:灬",
+      "kind": "glyph",
+      "glyph": "灬",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:fire-radical",
+      "kind": "referent",
+      "label": "fire radical (bottom form of 火)"
     },
     {
       "id": "g:爪",
@@ -6711,13 +6743,6 @@
       "id": "g:良",
       "kind": "glyph",
       "glyph": "良",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:灬",
-      "kind": "glyph",
-      "glyph": "灬",
       "tier": null,
       "frontier": true
     },

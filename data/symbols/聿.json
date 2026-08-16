@@ -21,5 +21,14 @@
       "gloss": "brush"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "brush",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }
