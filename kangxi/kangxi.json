@@ -6906,6 +6906,30 @@
           }
         },
         {
+          "glyph": "艹",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "艹",
+            "reading": "",
+            "gloss": "grass/plant radical (草字头)",
+            "extra": "艸(康熙 140)的头形·草字头 · 见于 花 草 茶 药 菜 · Pandanese「flower」"
+          },
+          "jp": {
+            "name": "艹",
+            "reading": "",
+            "gloss": "grass/plant radical",
+            "extra": "くさかんむり · 艸(140)の冠形 · 花・草・茶・薬 の上"
+          },
+          "wk": null,
+          "pd": {
+            "name": "flower",
+            "level": 4,
+            "kind": "mnemonic"
+          }
+        },
+        {
           "glyph": "覀",
           "tag": "comp",
           "image": "",
@@ -6935,6 +6959,30 @@
           "wk": null,
           "cnExAudioKey": "yao4",
           "jpExAudioKey": "kaname"
+        },
+        {
+          "glyph": "讠",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "讠",
+            "reading": "",
+            "gloss": "speech radical (言字旁)",
+            "extra": "訁/言(康熙 149)的简体旁·言字旁 · 见于 说 话 语 请 谢 · Pandanese「speech」"
+          },
+          "jp": {
+            "name": "讠",
+            "reading": "",
+            "gloss": "speech radical (simplified 言)",
+            "extra": "言(149)の簡体旁·ごんべん相当 · 中文简体 说・话・语 の左（日本語は 言/訁）"
+          },
+          "wk": null,
+          "pd": {
+            "name": "speech",
+            "level": 4,
+            "kind": "meaning"
+          }
         },
         {
           "glyph": "阝",

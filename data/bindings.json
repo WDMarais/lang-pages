@@ -3310,6 +3310,12 @@
         "glyph": "材",
         "reading": "cái",
         "gloss": "material; timber"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "talent",
+        "level": 4,
+        "kind": "meaning"
       }
     },
     {
@@ -7904,6 +7910,30 @@
       "extra": ""
     },
     {
+      "id": "b:艹@cn",
+      "glyph_id": "g:艹",
+      "lang": "cn",
+      "name": "艹",
+      "readings": [],
+      "gloss": "grass/plant radical (草字头)",
+      "extra": "艸(康熙 140)的头形·草字头 · 见于 花 草 茶 药 菜 · Pandanese「flower」",
+      "program": {
+        "source": "pandanese",
+        "name": "flower",
+        "level": 4,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:艹@jp",
+      "glyph_id": "g:艹",
+      "lang": "jp",
+      "name": "艹",
+      "readings": [],
+      "gloss": "grass/plant radical",
+      "extra": "くさかんむり · 艸(140)の冠形 · 花・草・茶・薬 の上"
+    },
+    {
       "id": "b:虍@cn",
       "glyph_id": "g:虍",
       "lang": "cn",
@@ -8210,6 +8240,30 @@
       "readings": [],
       "gloss": "speech",
       "extra": ""
+    },
+    {
+      "id": "b:讠@cn",
+      "glyph_id": "g:讠",
+      "lang": "cn",
+      "name": "讠",
+      "readings": [],
+      "gloss": "speech radical (言字旁)",
+      "extra": "訁/言(康熙 149)的简体旁·言字旁 · 见于 说 话 语 请 谢 · Pandanese「speech」",
+      "program": {
+        "source": "pandanese",
+        "name": "speech",
+        "level": 4,
+        "kind": "meaning"
+      }
+    },
+    {
+      "id": "b:讠@jp",
+      "glyph_id": "g:讠",
+      "lang": "jp",
+      "name": "讠",
+      "readings": [],
+      "gloss": "speech radical (simplified 言)",
+      "extra": "言(149)の簡体旁·ごんべん相当 · 中文简体 说・话・语 の左（日本語は 言/訁）"
     },
     {
       "id": "b:谷@cn",

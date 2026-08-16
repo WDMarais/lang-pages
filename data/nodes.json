@@ -4786,6 +4786,22 @@
       "label": "grass"
     },
     {
+      "id": "g:艹",
+      "kind": "glyph",
+      "glyph": "艹",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:grass-plant-radical",
+      "kind": "referent",
+      "label": "grass/plant radical (草字头)"
+    },
+    {
       "id": "g:虍",
       "kind": "glyph",
       "glyph": "虍",
@@ -5003,6 +5019,22 @@
       "id": "r:speech",
       "kind": "referent",
       "label": "speech"
+    },
+    {
+      "id": "g:讠",
+      "kind": "glyph",
+      "glyph": "讠",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:speech-radical",
+      "kind": "referent",
+      "label": "speech radical (言字旁)"
     },
     {
       "id": "g:谷",
@@ -6666,13 +6698,6 @@
       "id": "g:兀",
       "kind": "glyph",
       "glyph": "兀",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:讠",
-      "kind": "glyph",
-      "glyph": "讠",
       "tier": null,
       "frontier": true
     },
@@ -10444,6 +10469,46 @@
       "id": "r:briefly",
       "kind": "referent",
       "label": "(for) a short while; briefly; a bit"
+    },
+    {
+      "id": "w:以为@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "以为",
+      "reading": "yǐwéi",
+      "gloss": "to think; to assume (often mistakenly); to suppose",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "yiwei"
+    },
+    {
+      "id": "r:assume",
+      "kind": "referent",
+      "label": "to think; to assume (often mistakenly); to suppose"
+    },
+    {
+      "id": "w:之下@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "之下",
+      "reading": "zhīxià",
+      "gloss": "under; beneath; below",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "zhixia"
+    },
+    {
+      "id": "r:beneath",
+      "kind": "referent",
+      "label": "under; beneath; below"
     }
   ]
 }

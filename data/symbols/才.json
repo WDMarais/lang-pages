@@ -49,6 +49,14 @@
       ],
       "on": true,
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "talent",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

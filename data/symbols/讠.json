@@ -1,0 +1,33 @@
+{
+  "glyph": "讠",
+  "cp": "U+8BA0",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "讠",
+      "reading": "",
+      "gloss": "speech radical (言字旁)",
+      "extra": "訁/言(康熙 149)的简体旁·言字旁 · 见于 说 话 语 请 谢 · Pandanese「speech」"
+    },
+    "jp": {
+      "name": "讠",
+      "reading": "",
+      "gloss": "speech radical (simplified 言)",
+      "extra": "言(149)の簡体旁·ごんべん相当 · 中文简体 说・话・语 の左（日本語は 言/訁）"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "speech",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

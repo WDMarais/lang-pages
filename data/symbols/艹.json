@@ -1,0 +1,33 @@
+{
+  "glyph": "艹",
+  "cp": "U+8279",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "艹",
+      "reading": "",
+      "gloss": "grass/plant radical (草字头)",
+      "extra": "艸(康熙 140)的头形·草字头 · 见于 花 草 茶 药 菜 · Pandanese「flower」"
+    },
+    "jp": {
+      "name": "艹",
+      "reading": "",
+      "gloss": "grass/plant radical",
+      "extra": "くさかんむり · 艸(140)の冠形 · 花・草・茶・薬 の上"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "flower",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
+}

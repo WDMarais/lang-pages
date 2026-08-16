@@ -3037,6 +3037,38 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "以为",
+      "audience": "cn",
+      "parts": [
+        "以",
+        "为"
+      ],
+      "denotes": "assume",
+      "reading": "yǐwéi",
+      "gloss": "to think; to assume (often mistakenly); to suppose",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "之下",
+      "audience": "cn",
+      "parts": [
+        "之",
+        "下"
+      ],
+      "denotes": "beneath",
+      "reading": "zhīxià",
+      "gloss": "under; beneath; below",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

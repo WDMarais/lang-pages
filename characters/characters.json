@@ -1285,7 +1285,8 @@
             "appearsIn": { "char": "材", "reading": "ザイ", "gloss": "material" }
           },
           "wk": { "name": "Talent", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 2 }
+          "kanji": { "name": "Talent", "readings": ["サイ"], "on": true, "level": 2 },
+          "pd": { "name": "talent", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "々",

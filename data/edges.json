@@ -1585,6 +1585,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:艹",
+      "to": "r:grass-plant-radical",
+      "kind": "denotes"
+    },
+    {
       "from": "g:虍",
       "to": "r:tiger",
       "kind": "denotes"
@@ -1652,6 +1657,11 @@
     {
       "from": "g:言",
       "to": "r:speech",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:讠",
+      "to": "r:speech-radical",
       "kind": "denotes"
     },
     {
@@ -7245,6 +7255,36 @@
     {
       "from": "w:一下@cn",
       "to": "r:briefly",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:以",
+      "to": "w:以为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:以为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:以为@cn",
+      "to": "r:assume",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:之",
+      "to": "w:之下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:之下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:之下@cn",
+      "to": "r:beneath",
       "kind": "denotes"
     },
     {

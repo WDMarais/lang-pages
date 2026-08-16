@@ -1219,6 +1219,10 @@
     "text": "引",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "yiwei.mp3": {
+    "text": "以为",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "yixia.mp3": {
     "text": "一下",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1357,6 +1361,10 @@
   },
   "zhihou.mp3": {
     "text": "之后",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhixia.mp3": {
+    "text": "之下",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhiyi.mp3": {
