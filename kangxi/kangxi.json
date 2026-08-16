@@ -1987,6 +1987,11 @@
             "level": 3,
             "kind": "meaning"
           },
+          "pd": {
+            "name": "dry",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 51,
           "cnAudioKey": "gan1"
         },
@@ -2255,6 +2260,11 @@
             ],
             "level": 3
           },
+          "pd": {
+            "name": "heart",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 61,
           "cnAudioKey": "xin1",
           "jpAudioKey": "kokoro"
@@ -2456,6 +2466,11 @@
               "ふみ"
             ],
             "level": 2
+          },
+          "pd": {
+            "name": "script",
+            "level": 4,
+            "kind": "meaning"
           },
           "kx": 67,
           "cnAudioKey": "wen2",
@@ -2897,6 +2912,11 @@
             "gloss": "death"
           },
           "wk": null,
+          "pd": {
+            "name": "death",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 78,
           "cnAudioKey": "dai3"
         },

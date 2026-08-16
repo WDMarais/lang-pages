@@ -42,6 +42,14 @@
         "こころ"
       ],
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "heart",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

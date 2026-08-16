@@ -5257,7 +5257,13 @@
         "gān"
       ],
       "gloss": "dry",
-      "extra": "康熙部首 51"
+      "extra": "康熙部首 51",
+      "program": {
+        "source": "pandanese",
+        "name": "dry",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:干@jp",
@@ -5503,7 +5509,13 @@
         "xīn"
       ],
       "gloss": "heart",
-      "extra": "康熙部首 61"
+      "extra": "康熙部首 61",
+      "program": {
+        "source": "pandanese",
+        "name": "heart",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:心@jp",
@@ -5671,7 +5683,13 @@
         "wén"
       ],
       "gloss": "writing; script; language",
-      "extra": "康熙部首 67 · 象形（交错的花纹）· 文字、文化、语文"
+      "extra": "康熙部首 67 · 象形（交错的花纹）· 文字、文化、语文",
+      "program": {
+        "source": "pandanese",
+        "name": "script",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:文@jp",
@@ -6109,7 +6127,13 @@
         "dǎi"
       ],
       "gloss": "death",
-      "extra": "康熙部首 78"
+      "extra": "康熙部首 78",
+      "program": {
+        "source": "pandanese",
+        "name": "death",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:歹@jp",

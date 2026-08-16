@@ -29,6 +29,14 @@
       "name": "Dry",
       "kind": "meaning",
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "dry",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

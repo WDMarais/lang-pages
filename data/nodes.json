@@ -10424,6 +10424,26 @@
       "id": "r:underground",
       "kind": "referent",
       "label": "underground; below ground"
+    },
+    {
+      "id": "w:一下@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一下",
+      "reading": "yīxià",
+      "gloss": "(for) a short while; briefly; a bit",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "yixia"
+    },
+    {
+      "id": "r:briefly",
+      "kind": "referent",
+      "label": "(for) a short while; briefly; a bit"
     }
   ]
 }

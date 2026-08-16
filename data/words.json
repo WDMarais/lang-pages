@@ -3021,6 +3021,22 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "一下",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "下"
+      ],
+      "denotes": "briefly",
+      "reading": "yīxià",
+      "gloss": "(for) a short while; briefly; a bit",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

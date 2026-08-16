@@ -7233,6 +7233,21 @@
       "kind": "denotes"
     },
     {
+      "from": "g:一",
+      "to": "w:一下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:一下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一下@cn",
+      "to": "r:briefly",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

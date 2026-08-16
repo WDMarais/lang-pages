@@ -2117,7 +2117,8 @@
             "name": "心", "reading": "こころ", "gloss": "heart"
           },
           "wk": { "name": "Heart", "level": 3, "kind": "meaning" },
-          "kanji": { "name": "Heart", "readings": ["シン"], "on": true, "kun": ["こころ"], "level": 3 }
+          "kanji": { "name": "Heart", "readings": ["シン"], "on": true, "kun": ["こころ"], "level": 3 },
+          "pd": { "name": "heart", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "戶",
@@ -2154,7 +2155,8 @@
             "extra": "漢字「文」(ブン・モン · ふみ) · 文章、作文、注文"
           },
           "wk": { "name": "Writing", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Writing", "readings": ["ブン", "モン"], "on": true, "kun": ["ふみ"], "level": 2 }
+          "kanji": { "name": "Writing", "readings": ["ブン", "モン"], "on": true, "kun": ["ふみ"], "level": 2 },
+          "pd": { "name": "script", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "方",

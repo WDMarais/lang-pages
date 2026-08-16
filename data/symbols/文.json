@@ -44,6 +44,14 @@
         "ふみ"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "script",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }
