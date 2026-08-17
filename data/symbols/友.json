@@ -1,0 +1,43 @@
+{
+  "glyph": "友",
+  "cp": "U+53CB",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "𠂇",
+    "又"
+  ],
+  "readings": {
+    "cn": {
+      "name": "友",
+      "reading": "yǒu",
+      "gloss": "friend",
+      "extra": "𠂇 + 又 · 朋友、友谊、友好 · 会意（两只手相助）"
+    },
+    "jp": {
+      "name": "友",
+      "reading": "ゆう",
+      "gloss": "friend",
+      "extra": "漢字「友」(とも · ユウ) · 友人(ゆうじん)、友達(ともだち) · まず音読み「ユウ」で導入"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Friend",
+      "readings": [
+        "ユウ"
+      ],
+      "on": true,
+      "kun": [
+        "とも"
+      ],
+      "level": 3
+    }
+  ]
+}

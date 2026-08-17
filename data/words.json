@@ -3117,6 +3117,22 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "切る",
+      "audience": "jp",
+      "parts": [
+        "切"
+      ],
+      "denotes": "cut",
+      "reading": "きる",
+      "gloss": "to cut",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

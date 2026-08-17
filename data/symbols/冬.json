@@ -1,0 +1,43 @@
+{
+  "glyph": "冬",
+  "cp": "U+51AC",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "夂",
+    "冫"
+  ],
+  "readings": {
+    "cn": {
+      "name": "冬",
+      "reading": "dōng",
+      "gloss": "winter",
+      "extra": "夂 + 冫 · 冬天、冬季、冬眠 · 下部「冫」为冰"
+    },
+    "jp": {
+      "name": "冬",
+      "reading": "ふゆ",
+      "gloss": "winter",
+      "extra": "漢字「冬」(ふゆ · トウ) · 冬(ふゆ)、冬眠(とうみん) · 下は「冫」(こおり)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Winter",
+      "readings": [
+        "トウ"
+      ],
+      "on": true,
+      "kun": [
+        "ふゆ"
+      ],
+      "level": 3
+    }
+  ]
+}

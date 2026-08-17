@@ -36,6 +36,22 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Part",
+      "readings": [
+        "ブン",
+        "フン",
+        "ブ"
+      ],
+      "on": true,
+      "kun": [
+        "わ"
+      ],
+      "level": 3
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "character",

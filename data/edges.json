@@ -678,6 +678,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:⺌",
+      "to": "r:small-top-variant-component",
+      "kind": "denotes"
+    },
+    {
       "from": "g:⻂",
       "to": "r:clothing",
       "kind": "denotes"
@@ -819,6 +824,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:冬",
+      "to": "r:winter",
+      "kind": "denotes"
+    },
+    {
       "from": "g:几",
       "to": "r:table",
       "kind": "denotes"
@@ -891,6 +901,11 @@
     {
       "from": "g:又",
       "to": "r:again",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:友",
+      "to": "r:friend",
       "kind": "denotes"
     },
     {
@@ -2487,6 +2502,16 @@
     {
       "from": "g:丶",
       "to": "g:冫",
+      "kind": "composes"
+    },
+    {
+      "from": "g:夂",
+      "to": "g:冬",
+      "kind": "composes"
+    },
+    {
+      "from": "g:⺀",
+      "to": "g:冬",
       "kind": "composes"
     },
     {
@@ -7345,6 +7370,16 @@
     {
       "from": "w:了解@cn",
       "to": "r:understand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:切",
+      "to": "w:切る@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:切る@jp",
+      "to": "r:cut",
       "kind": "denotes"
     },
     {

@@ -3433,6 +3433,30 @@
       "extra": "「刀」の変形（上）· Unicode「CJK RADICAL KNIFE ONE」"
     },
     {
+      "id": "b:⺌@cn",
+      "glyph_id": "g:⺌",
+      "lang": "cn",
+      "name": "⺌",
+      "readings": [],
+      "gloss": "\"small\" top-variant component",
+      "extra": "无独立字义 · 竖 + 撇点 · 小/尚 的上部变形 · 见于 尚 常 当 堂 · WK「Triceratops」形"
+    },
+    {
+      "id": "b:⺌@jp",
+      "glyph_id": "g:⺌",
+      "lang": "jp",
+      "name": "⺌",
+      "readings": [],
+      "gloss": "\"small\" top-variant component",
+      "extra": "独立字なし · 小 の上部変形 · 尚・常・当・堂 の上部 · WK「Triceratops」形",
+      "program": {
+        "source": "wanikani",
+        "name": "Triceratops",
+        "level": 3,
+        "kind": "mnemonic"
+      }
+    },
+    {
       "id": "b:⻂@cn",
       "glyph_id": "g:⻂",
       "lang": "cn",
@@ -4110,6 +4134,42 @@
       }
     },
     {
+      "id": "b:冬@cn",
+      "glyph_id": "g:冬",
+      "lang": "cn",
+      "name": "冬",
+      "readings": [
+        "dōng"
+      ],
+      "gloss": "winter",
+      "extra": "夂 + 冫 · 冬天、冬季、冬眠 · 下部「冫」为冰"
+    },
+    {
+      "id": "b:冬@jp",
+      "glyph_id": "g:冬",
+      "lang": "jp",
+      "name": "冬",
+      "readings": [
+        "ふゆ"
+      ],
+      "gloss": "winter",
+      "extra": "漢字「冬」(ふゆ · トウ) · 冬(ふゆ)、冬眠(とうみん) · 下は「冫」(こおり)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Winter",
+          "readings": [
+            "トウ"
+          ],
+          "on": true,
+          "kun": [
+            "ふゆ"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:几@cn",
       "glyph_id": "g:几",
       "lang": "cn",
@@ -4211,6 +4271,22 @@
         "glyph": "粉",
         "reading": "コ",
         "gloss": "powder; flour"
+      },
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Part",
+          "readings": [
+            "ブン",
+            "フン",
+            "ブ"
+          ],
+          "on": true,
+          "kun": [
+            "わ"
+          ],
+          "level": 3
+        }
       }
     },
     {
@@ -4474,6 +4550,42 @@
         "name": "Stool",
         "level": 3,
         "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:友@cn",
+      "glyph_id": "g:友",
+      "lang": "cn",
+      "name": "友",
+      "readings": [
+        "yǒu"
+      ],
+      "gloss": "friend",
+      "extra": "𠂇 + 又 · 朋友、友谊、友好 · 会意（两只手相助）"
+    },
+    {
+      "id": "b:友@jp",
+      "glyph_id": "g:友",
+      "lang": "jp",
+      "name": "友",
+      "readings": [
+        "ゆう"
+      ],
+      "gloss": "friend",
+      "extra": "漢字「友」(とも · ユウ) · 友人(ゆうじん)、友達(ともだち) · まず音読み「ユウ」で導入",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Friend",
+          "readings": [
+            "ユウ"
+          ],
+          "on": true,
+          "kun": [
+            "とも"
+          ],
+          "level": 3
+        }
       }
     },
     {

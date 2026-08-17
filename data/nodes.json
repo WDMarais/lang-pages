@@ -1581,13 +1581,6 @@
       "label": "left-hand component (ナ-shape)"
     },
     {
-      "id": "g:友",
-      "kind": "glyph",
-      "glyph": "友",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:𠂇",
       "kind": "glyph",
       "glyph": "𠂇",
@@ -1737,6 +1730,22 @@
       "id": "r:knife-top",
       "kind": "referent",
       "label": "knife-top (radical)"
+    },
+    {
+      "id": "g:⺌",
+      "kind": "glyph",
+      "glyph": "⺌",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:small-top-variant-component",
+      "kind": "referent",
+      "label": "\"small\" top-variant component"
     },
     {
       "id": "g:⻂",
@@ -2239,6 +2248,24 @@
       "label": "ice"
     },
     {
+      "id": "g:冬",
+      "kind": "glyph",
+      "glyph": "冬",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "dong1",
+      "jpAudioKey": "fuyu"
+    },
+    {
+      "id": "r:winter",
+      "kind": "referent",
+      "label": "winter"
+    },
+    {
       "id": "g:几",
       "kind": "glyph",
       "glyph": "几",
@@ -2480,6 +2507,24 @@
       "id": "r:again",
       "kind": "referent",
       "label": "again"
+    },
+    {
+      "id": "g:友",
+      "kind": "glyph",
+      "glyph": "友",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "you3",
+      "jpAudioKey": "yuu"
+    },
+    {
+      "id": "r:friend",
+      "kind": "referent",
+      "label": "friend"
     },
     {
       "id": "g:古",
@@ -10586,6 +10631,22 @@
       "id": "r:understand",
       "kind": "referent",
       "label": "to understand; to know; to find out"
+    },
+    {
+      "id": "w:切る@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "切る",
+      "reading": "きる",
+      "gloss": "to cut",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "kiru"
     }
   ]
 }

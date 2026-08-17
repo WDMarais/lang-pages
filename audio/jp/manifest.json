@@ -131,6 +131,10 @@
     "text": "ふつか",
     "voice": "ja-JP-NanamiNeural"
   },
+  "fuyu.mp3": {
+    "text": "ふゆ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "gen.mp3": {
     "text": "ゲン",
     "voice": "ja-JP-NanamiNeural"

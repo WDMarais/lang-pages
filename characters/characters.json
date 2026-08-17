@@ -1642,6 +1642,24 @@
           "wk": null
         },
         {
+          "glyph": "冬",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "dong1",
+          "jpAudioKey": "fuyu",
+          "cn": {
+            "name": "冬", "reading": "dōng", "gloss": "winter",
+            "extra": "夂 + 冫 · 冬天、冬季、冬眠 · 下部「冫」为冰"
+          },
+          "jp": {
+            "name": "冬", "reading": "ふゆ", "gloss": "winter",
+            "extra": "漢字「冬」(ふゆ · トウ) · 冬(ふゆ)、冬眠(とうみん) · 下は「冫」(こおり)"
+          },
+          "wk": null,
+          "kanji": { "name": "Winter", "readings": ["トウ"], "on": true, "kun": ["ふゆ"], "level": 3 }
+        },
+        {
           "glyph": "分",
           "tag": "char",
           "image": "",
@@ -1661,6 +1679,7 @@
             "appearsIn": { "char": "粉", "reading": "コ", "gloss": "powder; flour" }
           },
           "wk": null,
+          "kanji": { "name": "Part", "readings": ["ブン", "フン", "ブ"], "on": true, "kun": ["わ"], "level": 3 },
           "pdc": { "name": "divide", "kind": "meaning", "level": 2 }
         },
         {
@@ -1716,6 +1735,24 @@
           },
           "wk": null,
           "kanji": { "name": "Noon", "readings": ["ゴ"], "on": true, "level": 3 }
+        },
+        {
+          "glyph": "友",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "you3",
+          "jpAudioKey": "yuu",
+          "cn": {
+            "name": "友", "reading": "yǒu", "gloss": "friend",
+            "extra": "𠂇 + 又 · 朋友、友谊、友好 · 会意（两只手相助）"
+          },
+          "jp": {
+            "name": "友", "reading": "ゆう", "gloss": "friend",
+            "extra": "漢字「友」(とも · ユウ) · 友人(ゆうじん)、友達(ともだち) · まず音読み「ユウ」で導入"
+          },
+          "wk": null,
+          "kanji": { "name": "Friend", "readings": ["ユウ"], "on": true, "kun": ["とも"], "level": 3 }
         },
         {
           "glyph": "古",

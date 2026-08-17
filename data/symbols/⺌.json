@@ -1,0 +1,33 @@
+{
+  "glyph": "⺌",
+  "cp": "U+2E8C",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "⺌",
+      "reading": "",
+      "gloss": "\"small\" top-variant component",
+      "extra": "无独立字义 · 竖 + 撇点 · 小/尚 的上部变形 · 见于 尚 常 当 堂 · WK「Triceratops」形"
+    },
+    "jp": {
+      "name": "⺌",
+      "reading": "",
+      "gloss": "\"small\" top-variant component",
+      "extra": "独立字なし · 小 の上部変形 · 尚・常・当・堂 の上部 · WK「Triceratops」形"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Triceratops",
+      "kind": "mnemonic",
+      "level": 3
+    }
+  ]
+}
