@@ -537,13 +537,6 @@
       "label": "divination (卜)"
     },
     {
-      "id": "g:外",
-      "kind": "glyph",
-      "glyph": "外",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:メ",
       "kind": "glyph",
       "glyph": "メ",
@@ -2821,6 +2814,24 @@
       "label": "go slowly"
     },
     {
+      "id": "g:外",
+      "kind": "glyph",
+      "glyph": "外",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "wai4",
+      "jpAudioKey": "soto"
+    },
+    {
+      "id": "r:outside",
+      "kind": "referent",
+      "label": "outside; outer"
+    },
+    {
       "id": "g:太",
       "kind": "glyph",
       "glyph": "太",
@@ -4340,7 +4351,8 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "shi2"
+      "cnAudioKey": "shi2",
+      "jpAudioKey": "ishi"
     },
     {
       "id": "r:stone",
@@ -10672,6 +10684,22 @@
         "level": 3
       },
       "jpAudioKey": "kiru"
+    },
+    {
+      "id": "w:引く@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "引く",
+      "reading": "ひく",
+      "gloss": "to pull",
+      "okurigana": "く",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "hiku"
     }
   ]
 }

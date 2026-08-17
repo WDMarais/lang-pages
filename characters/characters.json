@@ -1951,6 +1951,24 @@
           "pdc": { "name": "bureau", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "外",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "wai4",
+          "jpAudioKey": "soto",
+          "cn": {
+            "name": "外", "reading": "wài", "gloss": "outside; outer",
+            "extra": "夕 + 卜 · 外面、外国、以外、外边"
+          },
+          "jp": {
+            "name": "外", "reading": "そと", "gloss": "outside",
+            "extra": "漢字「外」(そと・ほか · ガイ・ゲ) · 外(そと)、外国(がいこく)、以外(いがい)"
+          },
+          "wk": null,
+          "kanji": { "name": "Outside", "readings": ["ガイ"], "on": true, "kun": ["そと"], "level": 3 }
+        },
+        {
           "glyph": "太",
           "tag": "char",
           "image": "",
@@ -2645,6 +2663,24 @@
           },
           "wk": { "name": "Arrow", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Arrow", "readings": ["シ"], "on": true, "kun": ["や"], "level": 3 }
+        },
+        {
+          "glyph": "石",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shi2",
+          "jpAudioKey": "ishi",
+          "cn": {
+            "name": "石", "reading": "shí", "gloss": "stone",
+            "extra": "康熙部首 112 · 厂 + 口 · 石头、岩石、宝石"
+          },
+          "jp": {
+            "name": "石", "reading": "いし", "gloss": "stone",
+            "extra": "漢字「石」(いし · セキ・コク・シャク) · 石(いし)、宝石(ほうせき)"
+          },
+          "wk": { "name": "Stone", "level": 3, "kind": "meaning" },
+          "pd": { "name": "stone", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "神",

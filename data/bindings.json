@@ -4990,6 +4990,42 @@
       "extra": ""
     },
     {
+      "id": "b:外@cn",
+      "glyph_id": "g:外",
+      "lang": "cn",
+      "name": "外",
+      "readings": [
+        "wài"
+      ],
+      "gloss": "outside; outer",
+      "extra": "夕 + 卜 · 外面、外国、以外、外边"
+    },
+    {
+      "id": "b:外@jp",
+      "glyph_id": "g:外",
+      "lang": "jp",
+      "name": "外",
+      "readings": [
+        "そと"
+      ],
+      "gloss": "outside",
+      "extra": "漢字「外」(そと・ほか · ガイ・ゲ) · 外(そと)、外国(がいこく)、以外(いがい)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Outside",
+          "readings": [
+            "ガイ"
+          ],
+          "on": true,
+          "kun": [
+            "そと"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:太@cn",
       "glyph_id": "g:太",
       "lang": "cn",
@@ -7329,7 +7365,7 @@
         "shí"
       ],
       "gloss": "stone",
-      "extra": "康熙部首 112",
+      "extra": "康熙部首 112 · 厂 + 口 · 石头、岩石、宝石",
       "program": {
         "source": "pandanese",
         "name": "stone",
@@ -7342,9 +7378,17 @@
       "glyph_id": "g:石",
       "lang": "jp",
       "name": "石",
-      "readings": [],
+      "readings": [
+        "いし"
+      ],
       "gloss": "stone",
-      "extra": ""
+      "extra": "漢字「石」(いし · セキ・コク・シャク) · 石(いし)、宝石(ほうせき)",
+      "program": {
+        "source": "wanikani",
+        "name": "Stone",
+        "level": 3,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:示@cn",

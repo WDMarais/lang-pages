@@ -984,6 +984,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:外",
+      "to": "r:outside",
+      "kind": "denotes"
+    },
+    {
       "from": "g:太",
       "to": "r:too",
       "kind": "denotes"
@@ -7395,6 +7400,16 @@
     {
       "from": "w:切る@jp",
       "to": "r:cut",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:引",
+      "to": "w:引く@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:引く@jp",
+      "to": "r:pull",
       "kind": "denotes"
     },
     {

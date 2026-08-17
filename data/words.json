@@ -3133,6 +3133,22 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "引く",
+      "audience": "jp",
+      "parts": [
+        "引"
+      ],
+      "denotes": "pull",
+      "reading": "ひく",
+      "gloss": "to pull",
+      "okurigana": "く",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
