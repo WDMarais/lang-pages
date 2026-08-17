@@ -3240,6 +3240,31 @@
       "label": "snout"
     },
     {
+      "id": "g:当",
+      "kind": "glyph",
+      "glyph": "当",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "dang1",
+      "jpAudioKey": "ataru",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "當"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:serve-as",
+      "kind": "referent",
+      "label": "to serve as; ought; to be (at)"
+    },
+    {
       "id": "g:彡",
       "kind": "glyph",
       "glyph": "彡",

@@ -35,6 +35,10 @@
     "text": "あたま",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ataru.mp3": {
+    "text": "あたる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "au.mp3": {
     "text": "あう",
     "voice": "ja-JP-NanamiNeural"

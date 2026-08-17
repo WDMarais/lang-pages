@@ -2156,6 +2156,24 @@
           "kanji": { "name": "Pull", "readings": ["イン"], "on": true, "kun": ["ひ"], "level": 3 }
         },
         {
+          "glyph": "当",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "dang1",
+          "jpAudioKey": "ataru",
+          "script": {"traditional": [{"glyph": "當"}]},
+          "cn": {
+            "name": "当", "reading": "dāng", "gloss": "to serve as; ought; to be (at)",
+            "extra": "⺌ + 彐 · 当然、应当、当时 · 又读 dàng（恰当、当作、上当）"
+          },
+          "jp": {
+            "name": "当", "reading": "あたる", "gloss": "to hit; to be apt",
+            "extra": "漢字「当」(あ-たる · トウ) · 当たる、本当(ほんとう)、当日(とうじつ) · 旧字「當」"
+          },
+          "wk": null
+        },
+        {
           "glyph": "心",
           "tag": "char",
           "image": "",

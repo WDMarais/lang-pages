@@ -1109,6 +1109,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:当",
+      "to": "r:serve-as",
+      "kind": "denotes"
+    },
+    {
       "from": "g:彡",
       "to": "r:bristle",
       "kind": "denotes"
@@ -3099,6 +3104,16 @@
     {
       "from": "g:二",
       "to": "g:彐",
+      "kind": "composes"
+    },
+    {
+      "from": "g:⺌",
+      "to": "g:当",
+      "kind": "composes"
+    },
+    {
+      "from": "g:彐",
+      "to": "g:当",
       "kind": "composes"
     },
     {
