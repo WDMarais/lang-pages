@@ -114,7 +114,43 @@ You're picking the image a learner will glance at to grasp the meaning. Aim for:
   identifiable private individuals as the subject.
 - **Decent quality** — in focus, not tiny, not heavily compressed.
 
-1 excellent image beats 2 mediocre ones. Only add a 2nd if it genuinely helps.
+1 excellent image beats 2 mediocre ones. Only add a 2nd if it genuinely helps —
+**except for broad meanings** (next section), where a small varied set is the point.
+
+---
+
+## Broad meanings vs specific meanings
+
+A few referents are **broad** — an umbrella that many different things fit under.
+`person` covers men, women, children and the elderly; `animal` covers dogs, birds,
+fish; `tree` (trees-in-general) covers oak, pine, palm. Most referents are **specific**
+— `woman`, `puppy`, `oak` — one particular kind.
+
+These two want *opposite* sourcing. **When a referent is broad, its line in the task
+list will say so (e.g. "broad — variety").** If it isn't marked, treat it as specific.
+
+**Broad meaning → show the variety, not one example.**
+- Pick images that read as the *general idea*: a mixed group, a crowd, or a clear
+  range — for `person`, a handful of different people (mixed ages and sexes), not one
+  portrait.
+- This is the one case where **3–5 images that differ from each other** is better than
+  one. Make them genuinely varied; five near-identical shots don't help.
+- **Avoid a single image that reads as a narrower meaning.** A lone woman photo under
+  `person` looks like `woman`, not `person` — and we teach `woman` separately, so it
+  sends the wrong signal. If you only have one slot, choose the most general-looking
+  image (a mixed group beats any single individual).
+
+**Specific meaning → one clear, typical, central example.**
+- `woman` = plainly an **adult woman** — not a girl (that's `child`), not one that reads
+  mainly as elderly (that's `old`). `puppy` = obviously a *young* dog.
+- Skip edge cases and unusual examples. Pick the one a stranger would name instantly.
+- It's completely fine if your specific image also happens to fit a broader meaning — a
+  photo of a woman is of course also a person. You don't need to avoid that; just make
+  sure it's a *clear* woman.
+
+Why it matters: a learner has to tell these meanings apart. A broad meaning shown as one
+narrow example, or a specific meaning shown with an off-centre example, quietly teaches
+the wrong word.
 
 ---
 
@@ -126,6 +162,9 @@ You're picking the image a learner will glance at to grasp the meaning. Aim for:
   (all six lines filled).
 - Every license is one of PD / CC0 / CC BY / CC BY-SA.
 - The image clearly and unambiguously depicts the meaning.
+- **Broad meaning** (marked in the list): a *varied set* showing the general idea, no
+  single image that reads as a narrower meaning. **Specific meaning:** one clear,
+  central, typical example.
 
 **Don't:** invent or guess a credit; use a non-free image "just this once"; add text
 overlays or edit images; paraphrase a license string.
