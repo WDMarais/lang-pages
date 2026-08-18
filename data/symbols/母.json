@@ -32,6 +32,20 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Mother",
+      "readings": [
+        "ボ"
+      ],
+      "on": true,
+      "kun": [
+        "はは"
+      ],
+      "level": 3
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

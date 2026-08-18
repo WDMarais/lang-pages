@@ -3149,6 +3149,54 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "〜人",
+      "audience": "jp",
+      "parts": [
+        "人"
+      ],
+      "denotes": "person-counter",
+      "reading": "にん",
+      "gloss": "counter for people (e.g. 三人 «three people»); also nationality suffix «-jin», e.g. アメリカ人",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "女の人",
+      "audience": "jp",
+      "parts": [
+        "女",
+        "人"
+      ],
+      "denotes": "woman",
+      "reading": "おんなのひと",
+      "gloss": "woman; adult female",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "大人しい",
+      "audience": "jp",
+      "parts": [
+        "大",
+        "人"
+      ],
+      "denotes": "docile",
+      "reading": "おとなしい",
+      "gloss": "quiet; docile; gentle; well-behaved",
+      "okurigana": "しい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

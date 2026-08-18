@@ -231,6 +231,10 @@
     "text": "ひので",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hiroi.mp3": {
+    "text": "ひろい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hito.mp3": {
     "text": "ひと",
     "voice": "ja-JP-NanamiNeural"
@@ -433,6 +437,10 @@
   },
   "kiru.mp3": {
     "text": "きる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kita.mp3": {
+    "text": "きた",
     "voice": "ja-JP-NanamiNeural"
   },
   "ko.mp3": {
@@ -647,6 +655,10 @@
     "text": "にまん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "nin.mp3": {
+    "text": "にん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "niru.mp3": {
     "text": "にる",
     "voice": "ja-JP-NanamiNeural"
@@ -687,6 +699,10 @@
     "text": "おんな",
     "voice": "ja-JP-NanamiNeural"
   },
+  "onnanohito.mp3": {
+    "text": "おんなのひと",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "onnanoko.mp3": {
     "text": "おんなのこ",
     "voice": "ja-JP-NanamiNeural"
@@ -717,6 +733,10 @@
   },
   "otona.mp3": {
     "text": "おとな",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "otonashii.mp3": {
+    "text": "おとなしい",
     "voice": "ja-JP-NanamiNeural"
   },
   "ou.mp3": {

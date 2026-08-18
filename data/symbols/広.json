@@ -1,0 +1,56 @@
+{
+  "glyph": "広",
+  "cp": "U+5E83",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "广",
+    "厶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "広",
+      "reading": "guǎng",
+      "gloss": "wide; broad",
+      "extra": "日本新字体 · 简体作「广」、繁体作「廣」·「広」在中文罕用"
+    },
+    "jp": {
+      "name": "広",
+      "reading": "ひろい",
+      "gloss": "wide; spacious",
+      "extra": "漢字「広」(ひろ-い · コウ) · 広い、広場(ひろば)、広告(こうこく) · 旧字「廣」"
+    }
+  },
+  "script": {
+    "keyed": "shinjitai",
+    "simplified": [
+      {
+        "glyph": "广"
+      }
+    ],
+    "traditional": [
+      {
+        "glyph": "廣"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Wide",
+      "readings": [
+        "コウ"
+      ],
+      "on": true,
+      "kun": [
+        "ひろ"
+      ],
+      "level": 3
+    }
+  ]
+}

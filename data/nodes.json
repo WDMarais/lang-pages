@@ -2389,6 +2389,24 @@
       "label": "spoon"
     },
     {
+      "id": "g:北",
+      "kind": "glyph",
+      "glyph": "北",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "bei3",
+      "jpAudioKey": "kita"
+    },
+    {
+      "id": "r:north",
+      "kind": "referent",
+      "label": "north"
+    },
+    {
       "id": "g:匚",
       "kind": "glyph",
       "glyph": "匚",
@@ -3163,6 +3181,37 @@
       "id": "r:shelter",
       "kind": "referent",
       "label": "shelter"
+    },
+    {
+      "id": "g:広",
+      "kind": "glyph",
+      "glyph": "広",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "guang3",
+      "jpAudioKey": "hiroi",
+      "script": {
+        "keyed": "shinjitai",
+        "simplified": [
+          {
+            "glyph": "广"
+          }
+        ],
+        "traditional": [
+          {
+            "glyph": "廣"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:wide",
+      "kind": "referent",
+      "label": "wide; broad"
     },
     {
       "id": "g:廴",
@@ -10700,6 +10749,62 @@
         "level": 3
       },
       "jpAudioKey": "hiku"
+    },
+    {
+      "id": "w:〜人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "〜人",
+      "reading": "にん",
+      "gloss": "counter for people (e.g. 三人 «three people»); also nationality suffix «-jin», e.g. アメリカ人",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "nin"
+    },
+    {
+      "id": "r:person-counter",
+      "kind": "referent",
+      "label": "counter for people (e.g. 三人 «three people»); also nationality suffix «-jin», e.g. アメリカ人"
+    },
+    {
+      "id": "w:女の人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "女の人",
+      "reading": "おんなのひと",
+      "gloss": "woman; adult female",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "onnanohito"
+    },
+    {
+      "id": "w:大人しい@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "大人しい",
+      "reading": "おとなしい",
+      "gloss": "quiet; docile; gentle; well-behaved",
+      "okurigana": "しい",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "otonashii"
+    },
+    {
+      "id": "r:docile",
+      "kind": "referent",
+      "label": "quiet; docile; gentle; well-behaved"
     }
   ]
 }

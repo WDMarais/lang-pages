@@ -4382,6 +4382,45 @@
       "extra": ""
     },
     {
+      "id": "b:北@cn",
+      "glyph_id": "g:北",
+      "lang": "cn",
+      "name": "北",
+      "readings": [
+        "běi"
+      ],
+      "gloss": "north",
+      "extra": "两人相背之形（「背」之初文）· 北方、北京、东北"
+    },
+    {
+      "id": "b:北@jp",
+      "glyph_id": "g:北",
+      "lang": "jp",
+      "name": "北",
+      "readings": [
+        "きた"
+      ],
+      "gloss": "north",
+      "extra": "漢字「北」(きた · ホク) · 北(きた)、東北(とうほく)、北海道(ほっかいどう)",
+      "program": {
+        "source": "wanikani",
+        "name": "North",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "North",
+          "readings": [
+            "ホク"
+          ],
+          "on": true,
+          "kun": [
+            "きた"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:匚@cn",
       "glyph_id": "g:匚",
       "lang": "cn",
@@ -5507,6 +5546,42 @@
       }
     },
     {
+      "id": "b:広@cn",
+      "glyph_id": "g:広",
+      "lang": "cn",
+      "name": "広",
+      "readings": [
+        "guǎng"
+      ],
+      "gloss": "wide; broad",
+      "extra": "日本新字体 · 简体作「广」、繁体作「廣」·「広」在中文罕用"
+    },
+    {
+      "id": "b:広@jp",
+      "glyph_id": "g:広",
+      "lang": "jp",
+      "name": "広",
+      "readings": [
+        "ひろい"
+      ],
+      "gloss": "wide; spacious",
+      "extra": "漢字「広」(ひろ-い · コウ) · 広い、広場(ひろば)、広告(こうこく) · 旧字「廣」",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Wide",
+          "readings": [
+            "コウ"
+          ],
+          "on": true,
+          "kun": [
+            "ひろ"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:廴@cn",
       "glyph_id": "g:廴",
       "lang": "cn",
@@ -6447,6 +6522,20 @@
         "glyph": "海",
         "reading": "うみ",
         "gloss": "sea"
+      },
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Mother",
+          "readings": [
+            "ボ"
+          ],
+          "on": true,
+          "kun": [
+            "はは"
+          ],
+          "level": 3
+        }
       }
     },
     {

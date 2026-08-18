@@ -869,6 +869,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:北",
+      "to": "r:north",
+      "kind": "denotes"
+    },
+    {
       "from": "g:匚",
       "to": "r:box",
       "kind": "denotes"
@@ -1086,6 +1091,11 @@
     {
       "from": "g:广",
       "to": "r:shelter",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:広",
+      "to": "r:wide",
       "kind": "denotes"
     },
     {
@@ -2613,6 +2623,11 @@
     {
       "from": "g:丿",
       "to": "g:匕",
+      "kind": "composes"
+    },
+    {
+      "from": "g:匕",
+      "to": "g:北",
       "kind": "composes"
     },
     {
@@ -4700,6 +4715,16 @@
     {
       "from": "g:㇏",
       "to": "g:𠆢",
+      "kind": "composes"
+    },
+    {
+      "from": "g:广",
+      "to": "g:広",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:広",
       "kind": "composes"
     },
     {
@@ -7410,6 +7435,46 @@
     {
       "from": "w:引く@jp",
       "to": "r:pull",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:〜人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:〜人@jp",
+      "to": "r:person-counter",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:女",
+      "to": "w:女の人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:女の人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:女の人@jp",
+      "to": "r:woman",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大人しい@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:大人しい@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大人しい@jp",
+      "to": "r:docile",
       "kind": "denotes"
     },
     {
