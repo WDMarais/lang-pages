@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丷",
+    "木"
+  ],
   "readings": {
     "cn": {
       "name": "米",

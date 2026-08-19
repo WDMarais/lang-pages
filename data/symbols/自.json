@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "目"
+  ],
   "readings": {
     "cn": {
       "name": "自",

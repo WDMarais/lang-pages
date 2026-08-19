@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "一",
+    "夕"
+  ],
   "readings": {
     "cn": {
       "name": "歹",

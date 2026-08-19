@@ -6,6 +6,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "𠆢",
+    "一",
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "合",

@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "业"
+  ],
   "readings": {
     "cn": {
       "name": "黹",

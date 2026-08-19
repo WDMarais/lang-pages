@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "米"
+  ],
   "readings": {
     "cn": {
       "name": "釆",

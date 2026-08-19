@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "立",
+    "十"
+  ],
   "readings": {
     "cn": {
       "name": "辛",

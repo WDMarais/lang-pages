@@ -31,7 +31,6 @@ the projection.
    data/referents.json          (referent → images)              ─▶ consumed by build-pages
 
  fetched (do NOT hand-edit):
-   data/decomposition.json      ◀─ fetch-decomp.py   (Make-Me-a-Hanzi IDS + stroke overrides)
    shared/referents/*           ◀─ fetch-referent.py (Wikimedia Commons)
    audio/{cn,jp,kana}/*.mp3     ◀─ gen-audio.py       (edge-tts; content-keyed banks)
 ```
@@ -49,7 +48,7 @@ the projection.
 | `class` | ✓ | `stroke` \| `comp` \| `char` — drives page membership |
 | `kangxi` | – | Kangxi radical number (present → shows on `/kangxi/`) |
 | `form` | ✓ | `{ "animated": bool, "image": str }` — `animated` = has stroke-order animation (a `shared/hanzi-data/<glyph>.json`, native *or* lifted) |
-| `composes` | – | authored structural note. ⟨verify-on-ingest⟩ **not** the edge source — `composes` edges come from `decomposition.json`; this field is sparse (many cards omit it). Flagged as debt below. |
+| `composes` | – | the glyph's parts — **the source of truth** for `composes` edges, read straight by `build-graph.py` (合 ← 𠆢 一 口). A part with no symbol becomes a frontier node. Omit for atomic glyphs. `python3 data/fetch-decomp.py <glyph>` suggests parts from MMAH to seed it. |
 | `readings` | ✓ | `{ cn: {...}, jp: {...} }`, each `{ name, reading, gloss, extra?, appearsIn? }` |
 | `readings.*.appearsIn` | – | `{ char, reading, gloss }` — the "example" link; becomes a reverse `composes` edge |
 | `programs` | – | list of course tiers; see below |
@@ -101,7 +100,7 @@ So the real first move is **route + resolve**, before any file is written:
   course lookup (WK `level`) rather than fabricate it — the registry skips an absent
   `level` cleanly, so an under-filled program is honest, not broken.
 - **Derive** the mechanical fields the prompt omits — `cp`, `kangxi` number,
-  decomposition. (A scaffolder should do this — see Known debt.)
+  `composes` (`python3 data/fetch-decomp.py <glyph>` suggests parts from MMAH).
 
 Then, per routed item:
 
@@ -122,12 +121,12 @@ Then, per routed item:
      (keyed `char → comp → role`; incremental — untyped is fine)
    - new Kangxi radicals must exist in `data/kangxi.json`'s 214 spine (usually already there)
 
-3. **Fetch structural decomposition** → `python3 data/fetch-decomp.py`
-   Writes `data/decomposition.json` (immediate components per glyph), reading the
-   glyph set straight from `load_symbols()`. Hand-fix the stroke-floor cases — parts
-   MMAH truncates to `？` (八 ← 丿 ㇏) or glyphs not in the dataset at all (丆 ← 一 丿)
-   — in the script's `STROKE_OVERRIDE` map, not in the JSON. A carded glyph MMAH
-   *does* know decomposes automatically (止 ← 上 丨).
+3. **Author `composes`** (in the symbol file, step 1). This IS the edge source —
+   list the glyph's immediate parts. `python3 data/fetch-decomp.py <glyph>` prints
+   MMAH's suggestion to seed it; the authored value is authoritative and overrides
+   MMAH's floor cases — parts it truncates to `？` (八 ← 丿 ㇏), glyphs not in the
+   dataset (丆 ← 一 丿, JP shinjitai 広 ← 广 厶), or a pedagogically better split
+   (合 ← 𠆢 一 口 vs MMAH's 亼 口). A part with no symbol becomes a frontier node.
 
 4. **Fetch referent images** (optional, multipass) →
    `python3 data/fetch-referent.py <slug> "<query>" -n N`
@@ -159,11 +158,11 @@ Then, per routed item:
    (generated files are committed so deploy is build-free).
 
 **Ordering (resolved by an ingest run).** Every step is strictly downstream of the
-symbols — `fetch-decomp` reads `load_symbols()` directly, not the page files
-build-pages writes — so the order is linear with no back-edge:
-symbols → decomp → graph → pages → audio. Each step is idempotent (deterministic
-output over the same inputs), so a **partial batch plus a re-run is safe**: prefer
-shipping 70% now and taking another pass over blocking on 100%.
+symbols — `build-graph` reads `load_symbols()` directly (parts included, via each
+symbol's `composes`), not the page files build-pages writes — so the order is linear
+with no back-edge: symbols → graph → pages → audio. Each step is idempotent
+(deterministic output over the same inputs), so a **partial batch plus a re-run is
+safe**: prefer shipping 70% now and taking another pass over blocking on 100%.
 
 ---
 
@@ -179,18 +178,20 @@ These are the self-checks that make a batch safe to trust:
   on `composition-roles.json` entries that hit no real edge (typo catch).
 - **`PROGRAM_TIERS`** (`symbols_io.py`) — one registry drives card-flatten,
   graph-nest, and page-emit for every course tier.
-- **`STROKE_OVERRIDE`** (`fetch-decomp.py`) — hand-authored decompositions for the
-  sub-radical strokes MMAH can't see (八 ← 丿 ㇏).
+- **`fetch-decomp.py`** — MMAH decomposition *suggester* (authoring aid, not a build
+  step): prints parts to seed a new glyph's `composes`. The authored `composes` is the
+  source of truth, so it overrides MMAH's stroke-floor blind spots (八 ← 丿 ㇏).
 
 ---
 
 ## Rules of thumb
 
 - **Never hand-edit a generated file**: `data/{nodes,bindings,edges}.json`,
-  `strokes/strokes.json`, `characters/characters.json`, `kangxi/kangxi.json`,
-  `data/decomposition.json`. Edit a symbol or a curated side-input and re-run.
-- **Functional roles** go in `composition-roles.json` (curated), **structural parts**
-  come from `decomposition.json` (fetched) — separate concerns, separate files.
+  `strokes/strokes.json`, `characters/characters.json`, `kangxi/kangxi.json`.
+  Edit a symbol or a curated side-input and re-run.
+- **Functional roles** go in `composition-roles.json` (curated, WHAT each part does);
+  **structural parts** are the symbol's authored `composes` (WHICH parts) — separate
+  concerns, separate places, overlaid onto the same edges by `build-graph`.
 - **Page membership is a rule, not a stored field** — see the `on_*` predicates in
   `symbols_io.py`. A glyph can project onto multiple pages (大 is both a character and
   a Kangxi radical).

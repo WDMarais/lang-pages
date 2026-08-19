@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "八",
+    "乂"
+  ],
   "readings": {
     "cn": {
       "name": "父",

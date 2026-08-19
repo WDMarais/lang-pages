@@ -156,9 +156,9 @@ srs-tool's type-based slots (see Projection).
     typed. Per-EDGE, not per-node (丁 is phonetic in 打 but can be semantic elsewhere).
     Lets the SRS scheduler propagate credit by channel; `form` transfers nothing.
     Source of truth is the hand-curated `data/composition-roles.json` overlay
-    (kept separate from the fetched `decomposition.json` so `--refresh` can't clobber
-    it); `build-graph.py` joins it on and validates the vocabulary + that each entry
-    hits a real edge.
+    (WHAT each part does — kept separate from the symbol's `composes`, WHICH parts);
+    `build-graph.py` joins it onto the composition edges and validates the vocabulary
+    + that each entry hits a real edge.
 - **`variant-of`** — links divergent forms of the same character.
 - **`denotes`** — glyph/word → referent. For now the referent is just `{ "id":"r:tree",
   "label":"tree" }`, a plain handle, and the `/glyph/` 所指 row renders that label as a

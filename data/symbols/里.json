@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "田",
+    "土"
+  ],
   "readings": {
     "cn": {
       "name": "里",

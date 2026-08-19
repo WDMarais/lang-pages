@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "龶",
+    "月"
+  ],
   "readings": {
     "cn": {
       "name": "青",

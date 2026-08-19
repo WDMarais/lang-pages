@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "灬"
+  ],
   "readings": {
     "cn": {
       "name": "黑",

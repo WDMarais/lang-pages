@@ -6,6 +6,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "一",
+    "冂",
+    "从"
+  ],
   "readings": {
     "cn": {
       "name": "两",

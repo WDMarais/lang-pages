@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "八",
+    "人",
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "谷",

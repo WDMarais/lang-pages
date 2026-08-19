@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "力",
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "加",

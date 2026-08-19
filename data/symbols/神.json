@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "礻",
+    "申"
+  ],
   "readings": {
     "cn": {
       "name": "神",

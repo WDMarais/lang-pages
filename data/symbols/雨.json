@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "帀"
+  ],
   "readings": {
     "cn": {
       "name": "雨",

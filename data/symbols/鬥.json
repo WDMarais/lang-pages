@@ -8,6 +8,12 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丨",
+    "亅",
+    "王",
+    "王"
+  ],
   "readings": {
     "cn": {
       "name": "鬥",

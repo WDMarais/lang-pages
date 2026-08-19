@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "乚",
+    "丿"
+  ],
   "readings": {
     "cn": {
       "name": "匕",

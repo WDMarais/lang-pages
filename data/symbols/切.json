@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "七",
+    "刀"
+  ],
   "readings": {
     "cn": {
       "name": "切",

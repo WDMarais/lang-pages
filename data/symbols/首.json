@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丷",
+    "自"
+  ],
   "readings": {
     "cn": {
       "name": "首",

@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "囗",
+    "儿"
+  ],
   "readings": {
     "cn": {
       "name": "四",

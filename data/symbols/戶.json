@@ -7,6 +7,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "尸"
+  ],
   "script": {
     "keyed": "traditional",
     "simplified": [

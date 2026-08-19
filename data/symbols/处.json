@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "夂",
+    "卜"
+  ],
   "readings": {
     "cn": {
       "name": "处",

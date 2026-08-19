@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "廿"
+  ],
   "readings": {
     "cn": {
       "name": "革",

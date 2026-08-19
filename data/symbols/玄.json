@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "亠",
+    "幺"
+  ],
   "readings": {
     "cn": {
       "name": "玄",

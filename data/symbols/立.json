@@ -7,6 +7,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "亠",
+    "丷",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "立",

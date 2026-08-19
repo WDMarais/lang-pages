@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丰",
+    "八"
+  ],
   "readings": {
     "cn": {
       "name": "耒",

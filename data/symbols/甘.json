@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "卄",
+    "二"
+  ],
   "readings": {
     "cn": {
       "name": "甘",

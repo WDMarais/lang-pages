@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "囗"
+  ],
   "readings": {
     "cn": {
       "name": "鹵",

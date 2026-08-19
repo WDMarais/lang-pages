@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "土",
+    "儿"
+  ],
   "readings": {
     "cn": {
       "name": "先",

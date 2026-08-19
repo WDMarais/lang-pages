@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "几",
+    "虫"
+  ],
   "readings": {
     "cn": {
       "name": "風",

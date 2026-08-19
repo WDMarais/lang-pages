@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "口",
+    "丨"
+  ],
   "readings": {
     "cn": {
       "name": "中",

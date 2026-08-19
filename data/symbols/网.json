@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "冂",
+    "乂",
+    "乂"
+  ],
   "readings": {
     "cn": {
       "name": "网",

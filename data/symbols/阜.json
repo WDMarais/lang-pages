@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "㠯",
+    "十"
+  ],
   "readings": {
     "cn": {
       "name": "阜",

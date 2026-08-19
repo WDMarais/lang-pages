@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "貝"
+  ],
   "readings": {
     "cn": {
       "name": "頁",

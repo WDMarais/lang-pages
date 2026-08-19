@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丁",
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "可",

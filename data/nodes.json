@@ -6640,9 +6640,23 @@
       "frontier": true
     },
     {
+      "id": "g:丄",
+      "kind": "glyph",
+      "glyph": "丄",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:⺊",
       "kind": "glyph",
       "glyph": "⺊",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丷",
+      "kind": "glyph",
+      "glyph": "丷",
       "tier": null,
       "frontier": true
     },
@@ -6689,37 +6703,9 @@
       "frontier": true
     },
     {
-      "id": "g:丄",
-      "kind": "glyph",
-      "glyph": "丄",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:衤",
-      "kind": "glyph",
-      "glyph": "衤",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:贝",
       "kind": "glyph",
       "glyph": "贝",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:佰",
-      "kind": "glyph",
-      "glyph": "佰",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:龹",
-      "kind": "glyph",
-      "glyph": "龹",
       "tier": null,
       "frontier": true
     },
@@ -6731,37 +6717,9 @@
       "frontier": true
     },
     {
-      "id": "g:氵",
-      "kind": "glyph",
-      "glyph": "氵",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:每",
-      "kind": "glyph",
-      "glyph": "每",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:丷",
-      "kind": "glyph",
-      "glyph": "丷",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:丩",
       "kind": "glyph",
       "glyph": "丩",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:勿",
-      "kind": "glyph",
-      "glyph": "勿",
       "tier": null,
       "frontier": true
     },
@@ -6846,6 +6804,13 @@
       "id": "g:兀",
       "kind": "glyph",
       "glyph": "兀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:勿",
+      "kind": "glyph",
+      "glyph": "勿",
       "tier": null,
       "frontier": true
     },

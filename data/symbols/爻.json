@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "乂",
+    "乂"
+  ],
   "readings": {
     "cn": {
       "name": "爻",

@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "冂",
+    "二"
+  ],
   "readings": {
     "cn": {
       "name": "月",

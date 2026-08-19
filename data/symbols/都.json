@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "者",
+    "阝"
+  ],
   "readings": {
     "cn": {
       "name": "都",

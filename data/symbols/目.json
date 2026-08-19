@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "口",
+    "二"
+  ],
   "readings": {
     "cn": {
       "name": "目",

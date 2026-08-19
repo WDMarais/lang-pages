@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "宀",
+    "八"
+  ],
   "readings": {
     "cn": {
       "name": "穴",

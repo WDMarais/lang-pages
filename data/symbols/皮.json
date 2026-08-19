@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "攴"
+  ],
   "readings": {
     "cn": {
       "name": "皮",

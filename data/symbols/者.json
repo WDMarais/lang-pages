@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "耂",
+    "日"
+  ],
   "readings": {
     "cn": {
       "name": "者",

@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "飞",
+    "飞"
+  ],
   "readings": {
     "cn": {
       "name": "飛",

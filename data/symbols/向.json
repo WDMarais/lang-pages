@@ -6,6 +6,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "向",

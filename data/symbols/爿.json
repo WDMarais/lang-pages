@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丩",
+    "厂"
+  ],
   "readings": {
     "cn": {
       "name": "爿",

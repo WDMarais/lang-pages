@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "广",
+    "林"
+  ],
   "readings": {
     "cn": {
       "name": "麻",

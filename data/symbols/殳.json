@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "几",
+    "又"
+  ],
   "readings": {
     "cn": {
       "name": "殳",

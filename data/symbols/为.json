@@ -6,6 +6,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丶",
+    "力",
+    "丶"
+  ],
   "readings": {
     "cn": {
       "name": "为",

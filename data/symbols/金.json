@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "人",
+    "王",
+    "丷"
+  ],
   "readings": {
     "cn": {
       "name": "金",

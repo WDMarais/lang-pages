@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "雨",
+    "令"
+  ],
   "readings": {
     "cn": {
       "name": "零",

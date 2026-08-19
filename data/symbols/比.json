@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "匕",
+    "匕"
+  ],
   "readings": {
     "cn": {
       "name": "比",

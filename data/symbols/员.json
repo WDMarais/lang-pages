@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "口",
+    "贝"
+  ],
   "readings": {
     "cn": {
       "name": "员",

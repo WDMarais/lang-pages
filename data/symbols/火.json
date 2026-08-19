@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丷",
+    "人"
+  ],
   "readings": {
     "cn": {
       "name": "火",

@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "目",
+    "儿"
+  ],
   "readings": {
     "cn": {
       "name": "見",

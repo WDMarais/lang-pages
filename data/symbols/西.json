@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "兀",
+    "囗"
+  ],
   "readings": {
     "cn": {
       "name": "西",

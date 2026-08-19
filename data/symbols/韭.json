@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "非",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "韭",

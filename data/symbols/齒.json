@@ -8,6 +8,13 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "止",
+    "凵",
+    "从",
+    "一",
+    "从"
+  ],
   "readings": {
     "cn": {
       "name": "齒",

@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "土",
+    "止"
+  ],
   "readings": {
     "cn": {
       "name": "走",

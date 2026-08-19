@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "立",
+    "月"
+  ],
   "readings": {
     "cn": {
       "name": "龍",

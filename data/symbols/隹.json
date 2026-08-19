@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "亻"
+  ],
   "readings": {
     "cn": {
       "name": "隹",

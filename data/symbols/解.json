@@ -6,6 +6,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "角",
+    "刀",
+    "牛"
+  ],
   "readings": {
     "cn": {
       "name": "解",

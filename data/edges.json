@@ -2180,8 +2180,118 @@
       "kind": "composes"
     },
     {
+      "from": "g:丿",
+      "to": "g:八",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
-      "to": "g:丁",
+      "to": "g:二",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "g:三",
+      "kind": "composes"
+    },
+    {
+      "from": "g:囗",
+      "to": "g:四",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "g:四",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:亠",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:亠",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:大",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "g:大",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:天",
+      "kind": "composes"
+    },
+    {
+      "from": "g:八",
+      "to": "g:小",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:人",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:入",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:入",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:力",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:勹",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇆",
+      "to": "g:勹",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:口",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:口",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:女",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:女",
+      "kind": "composes"
+    },
+    {
+      "from": "g:了",
+      "to": "g:子",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:子",
       "kind": "composes"
     },
     {
@@ -2195,13 +2305,218 @@
       "kind": "composes"
     },
     {
+      "from": "g:丿",
+      "to": "g:九",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乙",
+      "to": "g:九",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
-      "to": "g:万",
+      "to": "g:十",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:千",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "g:千",
       "kind": "composes"
     },
     {
       "from": "g:二",
-      "to": "g:三",
+      "to": "g:五",
+      "kind": "composes"
+    },
+    {
+      "from": "g:八",
+      "to": "g:六",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:𠂉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:𠂉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:ト",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:ト",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:メ",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:メ",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:川",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:川",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:工",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丄",
+      "to": "g:工",
+      "kind": "composes"
+    },
+    {
+      "from": "g:凵",
+      "to": "g:山",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:山",
+      "kind": "composes"
+    },
+    {
+      "from": "g:上",
+      "to": "g:止",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:止",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "g:木",
+      "kind": "composes"
+    },
+    {
+      "from": "g:八",
+      "to": "g:木",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:日",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:日",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:田",
+      "kind": "composes"
+    },
+    {
+      "from": "g:土",
+      "to": "g:田",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:中",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:中",
+      "kind": "composes"
+    },
+    {
+      "from": "g:屮",
+      "to": "g:出",
+      "kind": "composes"
+    },
+    {
+      "from": "g:凵",
+      "to": "g:出",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂇",
+      "to": "g:右",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:右",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂇",
+      "to": "g:左",
+      "kind": "composes"
+    },
+    {
+      "from": "g:工",
+      "to": "g:左",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:王",
+      "kind": "composes"
+    },
+    {
+      "from": "g:土",
+      "to": "g:王",
+      "kind": "composes"
+    },
+    {
+      "from": "g:木",
+      "to": "g:本",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:本",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:円",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丄",
+      "to": "g:円",
+      "kind": "composes"
+    },
+    {
+      "from": "g:勹",
+      "to": "g:夕",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:夕",
       "kind": "composes"
     },
     {
@@ -2225,8 +2540,163 @@
       "kind": "composes"
     },
     {
+      "from": "g:亅",
+      "to": "g:水",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "g:土",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:土",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:刀",
+      "kind": "composes"
+    },
+    {
+      "from": "g:幺",
+      "to": "g:糸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:小",
+      "to": "g:糸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:白",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "g:白",
+      "kind": "composes"
+    },
+    {
+      "from": "g:白",
+      "to": "g:泉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:水",
+      "to": "g:泉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:糸",
+      "to": "g:線",
+      "kind": "composes"
+    },
+    {
+      "from": "g:泉",
+      "to": "g:線",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丷",
+      "to": "g:火",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "g:火",
+      "kind": "composes"
+    },
+    {
+      "from": "g:大",
+      "to": "g:犬",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:向",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:儿",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乚",
+      "to": "g:儿",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:尸",
+      "kind": "composes"
+    },
+    {
+      "from": "g:土",
+      "to": "g:先",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "g:先",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "g:以",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:之",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠆢",
+      "to": "g:合",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:合",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:合",
+      "kind": "composes"
+    },
+    {
+      "from": "g:八",
+      "to": "g:父",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乂",
+      "to": "g:父",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:宀",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冖",
+      "to": "g:宀",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
       "to": "g:不",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:业",
       "kind": "composes"
     },
     {
@@ -2235,8 +2705,38 @@
       "kind": "composes"
     },
     {
+      "from": "g:丶",
+      "to": "g:丸",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
-      "to": "g:业",
+      "to": "g:丁",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:丆",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丿",
+      "to": "g:丆",
+      "kind": "composes"
+    },
+    {
+      "from": "g:扌",
+      "to": "g:才",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:冂",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:万",
       "kind": "composes"
     },
     {
@@ -2265,21 +2765,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:口",
-      "to": "g:中",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丨",
-      "to": "g:中",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丶",
-      "to": "g:丸",
-      "kind": "composes"
-    },
-    {
       "from": "g:丶",
       "to": "g:为",
       "kind": "composes"
@@ -2287,11 +2772,6 @@
     {
       "from": "g:力",
       "to": "g:为",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丶",
-      "to": "g:主",
       "kind": "composes"
     },
     {
@@ -2305,21 +2785,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:丶",
-      "to": "g:之",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:九",
-      "kind": "composes"
-    },
-    {
-      "from": "g:乙",
-      "to": "g:九",
-      "kind": "composes"
-    },
-    {
       "from": "g:乛",
       "to": "g:了",
       "kind": "composes"
@@ -2330,11 +2795,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:一",
-      "to": "g:二",
-      "kind": "composes"
-    },
-    {
       "from": "g:二",
       "to": "g:于",
       "kind": "composes"
@@ -2342,21 +2802,6 @@
     {
       "from": "g:亅",
       "to": "g:于",
-      "kind": "composes"
-    },
-    {
-      "from": "g:二",
-      "to": "g:五",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丶",
-      "to": "g:亠",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:亠",
       "kind": "composes"
     },
     {
@@ -2387,26 +2832,6 @@
     {
       "from": "g:亻",
       "to": "g:他",
-      "kind": "composes"
-    },
-    {
-      "from": "g:人",
-      "to": "g:以",
-      "kind": "composes"
-    },
-    {
-      "from": "g:亻",
-      "to": "g:伏",
-      "kind": "composes"
-    },
-    {
-      "from": "g:木",
-      "to": "g:休",
-      "kind": "composes"
-    },
-    {
-      "from": "g:亻",
-      "to": "g:似",
       "kind": "composes"
     },
     {
@@ -2456,67 +2881,12 @@
     },
     {
       "from": "g:亻",
-      "to": "g:促",
-      "kind": "composes"
-    },
-    {
-      "from": "g:亻",
       "to": "g:億",
       "kind": "composes"
     },
     {
       "from": "g:意",
       "to": "g:億",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:儿",
-      "kind": "composes"
-    },
-    {
-      "from": "g:乚",
-      "to": "g:儿",
-      "kind": "composes"
-    },
-    {
-      "from": "g:土",
-      "to": "g:先",
-      "kind": "composes"
-    },
-    {
-      "from": "g:儿",
-      "to": "g:先",
-      "kind": "composes"
-    },
-    {
-      "from": "g:玉",
-      "to": "g:全",
-      "kind": "composes"
-    },
-    {
-      "from": "g:八",
-      "to": "g:六",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丨",
-      "to": "g:冂",
-      "kind": "composes"
-    },
-    {
-      "from": "g:人",
-      "to": "g:内",
-      "kind": "composes"
-    },
-    {
-      "from": "g:冂",
-      "to": "g:円",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丄",
-      "to": "g:円",
       "kind": "composes"
     },
     {
@@ -2530,13 +2900,8 @@
       "kind": "composes"
     },
     {
-      "from": "g:⺀",
-      "to": "g:冬",
-      "kind": "composes"
-    },
-    {
       "from": "g:冫",
-      "to": "g:冰",
+      "to": "g:冬",
       "kind": "composes"
     },
     {
@@ -2547,21 +2912,6 @@
     {
       "from": "g:乙",
       "to": "g:几",
-      "kind": "composes"
-    },
-    {
-      "from": "g:屮",
-      "to": "g:出",
-      "kind": "composes"
-    },
-    {
-      "from": "g:凵",
-      "to": "g:出",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:刀",
       "kind": "composes"
     },
     {
@@ -2581,21 +2931,6 @@
       "role": "semantic"
     },
     {
-      "from": "g:衤",
-      "to": "g:初",
-      "kind": "composes"
-    },
-    {
-      "from": "g:刀",
-      "to": "g:初",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:力",
-      "kind": "composes"
-    },
-    {
       "from": "g:力",
       "to": "g:加",
       "kind": "composes"
@@ -2603,16 +2938,6 @@
     {
       "from": "g:口",
       "to": "g:加",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:勹",
-      "kind": "composes"
-    },
-    {
-      "from": "g:㇆",
-      "to": "g:勹",
       "kind": "composes"
     },
     {
@@ -2633,21 +2958,6 @@
     {
       "from": "g:一",
       "to": "g:匚",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:十",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:千",
-      "kind": "composes"
-    },
-    {
-      "from": "g:十",
-      "to": "g:千",
       "kind": "composes"
     },
     {
@@ -2676,28 +2986,8 @@
       "kind": "composes"
     },
     {
-      "from": "g:泉",
-      "to": "g:原",
-      "kind": "composes"
-    },
-    {
       "from": "g:又",
       "to": "g:友",
-      "kind": "composes"
-    },
-    {
-      "from": "g:又",
-      "to": "g:取",
-      "kind": "composes"
-    },
-    {
-      "from": "g:冂",
-      "to": "g:口",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:口",
       "kind": "composes"
     },
     {
@@ -2731,53 +3021,8 @@
       "kind": "composes"
     },
     {
-      "from": "g:𠂇",
-      "to": "g:右",
-      "kind": "composes"
-    },
-    {
-      "from": "g:口",
-      "to": "g:右",
-      "kind": "composes"
-    },
-    {
-      "from": "g:𠆢",
-      "to": "g:合",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:合",
-      "kind": "composes"
-    },
-    {
-      "from": "g:口",
-      "to": "g:合",
-      "kind": "composes"
-    },
-    {
-      "from": "g:夕",
-      "to": "g:名",
-      "kind": "composes"
-    },
-    {
       "from": "g:口",
       "to": "g:后",
-      "kind": "composes"
-    },
-    {
-      "from": "g:口",
-      "to": "g:向",
-      "kind": "composes"
-    },
-    {
-      "from": "g:口",
-      "to": "g:否",
-      "kind": "composes"
-    },
-    {
-      "from": "g:口",
-      "to": "g:吾",
       "kind": "composes"
     },
     {
@@ -2802,16 +3047,6 @@
     },
     {
       "from": "g:囗",
-      "to": "g:四",
-      "kind": "composes"
-    },
-    {
-      "from": "g:儿",
-      "to": "g:四",
-      "kind": "composes"
-    },
-    {
-      "from": "g:囗",
       "to": "g:回",
       "kind": "composes"
     },
@@ -2828,16 +3063,6 @@
     {
       "from": "g:大",
       "to": "g:因",
-      "kind": "composes"
-    },
-    {
-      "from": "g:十",
-      "to": "g:土",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:土",
       "kind": "composes"
     },
     {
@@ -2871,33 +3096,8 @@
       "kind": "composes"
     },
     {
-      "from": "g:勹",
-      "to": "g:夕",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丶",
-      "to": "g:夕",
-      "kind": "composes"
-    },
-    {
       "from": "g:卜",
       "to": "g:外",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:大",
-      "kind": "composes"
-    },
-    {
-      "from": "g:人",
-      "to": "g:大",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:天",
       "kind": "composes"
     },
     {
@@ -2947,31 +3147,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:了",
-      "to": "g:子",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:子",
-      "kind": "composes"
-    },
-    {
-      "from": "g:宀",
-      "to": "g:字",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丶",
-      "to": "g:宀",
-      "kind": "composes"
-    },
-    {
-      "from": "g:冖",
-      "to": "g:宀",
-      "kind": "composes"
-    },
-    {
       "from": "g:宀",
       "to": "g:实",
       "kind": "composes"
@@ -2979,26 +3154,6 @@
     {
       "from": "g:头",
       "to": "g:实",
-      "kind": "composes"
-    },
-    {
-      "from": "g:豕",
-      "to": "g:家",
-      "kind": "composes"
-    },
-    {
-      "from": "g:宀",
-      "to": "g:宿",
-      "kind": "composes"
-    },
-    {
-      "from": "g:佰",
-      "to": "g:宿",
-      "kind": "composes"
-    },
-    {
-      "from": "g:八",
-      "to": "g:小",
       "kind": "composes"
     },
     {
@@ -3012,16 +3167,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:丿",
-      "to": "g:尸",
-      "kind": "composes"
-    },
-    {
-      "from": "g:至",
-      "to": "g:屋",
-      "kind": "composes"
-    },
-    {
       "from": "g:凵",
       "to": "g:屮",
       "kind": "composes"
@@ -3029,51 +3174,6 @@
     {
       "from": "g:丨",
       "to": "g:屮",
-      "kind": "composes"
-    },
-    {
-      "from": "g:凵",
-      "to": "g:山",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丨",
-      "to": "g:山",
-      "kind": "composes"
-    },
-    {
-      "from": "g:石",
-      "to": "g:岩",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:川",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丨",
-      "to": "g:川",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:工",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丄",
-      "to": "g:工",
-      "kind": "composes"
-    },
-    {
-      "from": "g:𠂇",
-      "to": "g:左",
-      "kind": "composes"
-    },
-    {
-      "from": "g:工",
-      "to": "g:左",
       "kind": "composes"
     },
     {
@@ -3117,6 +3217,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:广",
+      "to": "g:広",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:広",
+      "kind": "composes"
+    },
+    {
       "from": "g:丨",
       "to": "g:引",
       "kind": "composes"
@@ -3147,26 +3257,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:心",
-      "to": "g:忠",
-      "kind": "composes"
-    },
-    {
-      "from": "g:心",
-      "to": "g:想",
-      "kind": "composes"
-    },
-    {
-      "from": "g:扌",
-      "to": "g:我",
-      "kind": "composes"
-    },
-    {
-      "from": "g:戈",
-      "to": "g:我",
-      "kind": "composes"
-    },
-    {
       "from": "g:尸",
       "to": "g:戶",
       "kind": "composes"
@@ -3179,22 +3269,6 @@
     {
       "from": "g:亅",
       "to": "g:扌",
-      "kind": "composes"
-    },
-    {
-      "from": "g:扌",
-      "to": "g:才",
-      "kind": "composes"
-    },
-    {
-      "from": "g:扌",
-      "to": "g:打",
-      "kind": "composes",
-      "role": "semantic"
-    },
-    {
-      "from": "g:龹",
-      "to": "g:拳",
       "kind": "composes"
     },
     {
@@ -3215,11 +3289,6 @@
     {
       "from": "g:又",
       "to": "g:攴",
-      "kind": "composes"
-    },
-    {
-      "from": "g:攴",
-      "to": "g:政",
       "kind": "composes"
     },
     {
@@ -3248,11 +3317,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:斤",
-      "to": "g:斧",
-      "kind": "composes"
-    },
-    {
       "from": "g:亠",
       "to": "g:方",
       "kind": "composes"
@@ -3265,16 +3329,6 @@
     {
       "from": "g:尢",
       "to": "g:无",
-      "kind": "composes"
-    },
-    {
-      "from": "g:口",
-      "to": "g:日",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:日",
       "kind": "composes"
     },
     {
@@ -3298,33 +3352,13 @@
       "kind": "composes"
     },
     {
-      "from": "g:月",
+      "from": "g:𠂇",
       "to": "g:有",
       "kind": "composes"
     },
     {
-      "from": "g:十",
-      "to": "g:木",
-      "kind": "composes"
-    },
-    {
-      "from": "g:八",
-      "to": "g:木",
-      "kind": "composes"
-    },
-    {
-      "from": "g:木",
-      "to": "g:本",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:本",
-      "kind": "composes"
-    },
-    {
-      "from": "g:木",
-      "to": "g:材",
+      "from": "g:月",
+      "to": "g:有",
       "kind": "composes"
     },
     {
@@ -3355,16 +3389,6 @@
     {
       "from": "g:人",
       "to": "g:欠",
-      "kind": "composes"
-    },
-    {
-      "from": "g:上",
-      "to": "g:止",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丨",
-      "to": "g:止",
       "kind": "composes"
     },
     {
@@ -3418,68 +3442,8 @@
       "kind": "composes"
     },
     {
-      "from": "g:亅",
-      "to": "g:水",
-      "kind": "composes"
-    },
-    {
-      "from": "g:氵",
-      "to": "g:江",
-      "kind": "composes"
-    },
-    {
-      "from": "g:氵",
-      "to": "g:油",
-      "kind": "composes"
-    },
-    {
-      "from": "g:白",
-      "to": "g:泉",
-      "kind": "composes"
-    },
-    {
-      "from": "g:水",
-      "to": "g:泉",
-      "kind": "composes"
-    },
-    {
-      "from": "g:氵",
-      "to": "g:洗",
-      "kind": "composes"
-    },
-    {
-      "from": "g:氵",
-      "to": "g:海",
-      "kind": "composes"
-    },
-    {
-      "from": "g:每",
-      "to": "g:海",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丷",
-      "to": "g:火",
-      "kind": "composes"
-    },
-    {
-      "from": "g:人",
-      "to": "g:火",
-      "kind": "composes"
-    },
-    {
       "from": "g:丨",
       "to": "g:爪",
-      "kind": "composes"
-    },
-    {
-      "from": "g:八",
-      "to": "g:父",
-      "kind": "composes"
-    },
-    {
-      "from": "g:乂",
-      "to": "g:父",
       "kind": "composes"
     },
     {
@@ -3495,16 +3459,6 @@
     {
       "from": "g:厂",
       "to": "g:爿",
-      "kind": "composes"
-    },
-    {
-      "from": "g:勿",
-      "to": "g:物",
-      "kind": "composes"
-    },
-    {
-      "from": "g:大",
-      "to": "g:犬",
       "kind": "composes"
     },
     {
@@ -3525,16 +3479,6 @@
     {
       "from": "g:丶",
       "to": "g:玉",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:王",
-      "kind": "composes"
-    },
-    {
-      "from": "g:土",
-      "to": "g:王",
       "kind": "composes"
     },
     {
@@ -3568,16 +3512,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:冂",
-      "to": "g:田",
-      "kind": "composes"
-    },
-    {
-      "from": "g:土",
-      "to": "g:田",
-      "kind": "composes"
-    },
-    {
       "from": "g:田",
       "to": "g:由",
       "kind": "composes"
@@ -3590,16 +3524,6 @@
     {
       "from": "g:冫",
       "to": "g:疒",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:白",
-      "kind": "composes"
-    },
-    {
-      "from": "g:日",
-      "to": "g:白",
       "kind": "composes"
     },
     {
@@ -3620,11 +3544,6 @@
     {
       "from": "g:一",
       "to": "g:皿",
-      "kind": "composes"
-    },
-    {
-      "from": "g:皿",
-      "to": "g:盂",
       "kind": "composes"
     },
     {
@@ -3763,11 +3682,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:竹",
-      "to": "g:答",
-      "kind": "composes"
-    },
-    {
       "from": "g:丷",
       "to": "g:米",
       "kind": "composes"
@@ -3775,31 +3689,6 @@
     {
       "from": "g:木",
       "to": "g:米",
-      "kind": "composes"
-    },
-    {
-      "from": "g:米",
-      "to": "g:粉",
-      "kind": "composes"
-    },
-    {
-      "from": "g:幺",
-      "to": "g:糸",
-      "kind": "composes"
-    },
-    {
-      "from": "g:小",
-      "to": "g:糸",
-      "kind": "composes"
-    },
-    {
-      "from": "g:糸",
-      "to": "g:線",
-      "kind": "composes"
-    },
-    {
-      "from": "g:泉",
-      "to": "g:線",
       "kind": "composes"
     },
     {
@@ -3988,11 +3877,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:女",
-      "to": "g:要",
-      "kind": "composes"
-    },
-    {
       "from": "g:目",
       "to": "g:見",
       "kind": "composes"
@@ -4035,21 +3919,6 @@
     {
       "from": "g:口",
       "to": "g:言",
-      "kind": "composes"
-    },
-    {
-      "from": "g:言",
-      "to": "g:記",
-      "kind": "composes"
-    },
-    {
-      "from": "g:言",
-      "to": "g:課",
-      "kind": "composes"
-    },
-    {
-      "from": "g:讠",
-      "to": "g:议",
       "kind": "composes"
     },
     {
@@ -4133,28 +4002,13 @@
       "kind": "composes"
     },
     {
-      "from": "g:走",
-      "to": "g:起",
-      "kind": "composes"
-    },
-    {
       "from": "g:口",
       "to": "g:足",
       "kind": "composes"
     },
     {
-      "from": "g:包",
-      "to": "g:跑",
-      "kind": "composes"
-    },
-    {
       "from": "g:日",
       "to": "g:車",
-      "kind": "composes"
-    },
-    {
-      "from": "g:冖",
-      "to": "g:軍",
       "kind": "composes"
     },
     {
@@ -4649,82 +4503,12 @@
     },
     {
       "from": "g:丿",
-      "to": "g:八",
-      "kind": "composes"
-    },
-    {
-      "from": "g:㇏",
-      "to": "g:人",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:入",
-      "kind": "composes"
-    },
-    {
-      "from": "g:㇏",
-      "to": "g:入",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:𠂉",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:𠂉",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:女",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:女",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丨",
-      "to": "g:ト",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丶",
-      "to": "g:ト",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:丆",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
-      "to": "g:丆",
-      "kind": "composes"
-    },
-    {
-      "from": "g:丿",
       "to": "g:𠆢",
       "kind": "composes"
     },
     {
       "from": "g:㇏",
       "to": "g:𠆢",
-      "kind": "composes"
-    },
-    {
-      "from": "g:广",
-      "to": "g:広",
-      "kind": "composes"
-    },
-    {
-      "from": "g:厶",
-      "to": "g:広",
       "kind": "composes"
     },
     {

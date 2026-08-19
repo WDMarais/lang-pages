@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "一",
+    "十"
+  ],
   "readings": {
     "cn": {
       "name": "干",

@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "羊",
+    "大"
+  ],
   "readings": {
     "cn": {
       "name": "美",

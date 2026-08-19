@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "木",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "本",

@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "中"
+  ],
   "readings": {
     "cn": {
       "name": "虫",

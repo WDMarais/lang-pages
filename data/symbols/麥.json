@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "來",
+    "夂"
+  ],
   "readings": {
     "cn": {
       "name": "麥",

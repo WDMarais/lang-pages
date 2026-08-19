@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "亠",
+    "二",
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "言",

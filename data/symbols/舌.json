@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "千",
+    "口"
+  ],
   "readings": {
     "cn": {
       "name": "舌",

@@ -2,7 +2,7 @@
 """Build the data-layer content graph from the symbol source of truth.
 
 Ingests `data/symbols/*.json` (via symbols_io.load_symbols) plus the curated
-side-inputs (decomposition.json, composition-roles.json, words.json) and emits
+side-inputs (composition-roles.json, words.json) and emits
 the canonical graph:
     data/nodes.json      glyph nodes + referent stubs + frontier stubs
     data/bindings.json   one CN + one JP binding per glyph (WK metadata → JP binding)
@@ -48,7 +48,8 @@ ASSOCIATION_TYPES = {
 
 def load_roles():
     """Hand-curated functional role overlay (char → comp → role). Separate from
-    the fetched decomposition.json so `fetch-decomp --refresh` never clobbers it."""
+    the `composes` structure (WHICH parts) — this is the WHAT-each-part-does layer,
+    overlaid onto the composition edges by role_of()."""
     p = DATA / "composition-roles.json"
     if not p.exists():
         return {}
@@ -177,23 +178,20 @@ def build():
                         "id": f"g:{tgt}", "kind": "glyph", "glyph": tgt,
                         "tier": None, "frontier": True})
 
-    # structural decomposition edges (component → char) from Make-Me-a-Hanzi IDS.
-    # These are the real 'parts' the cards lack (男 ← 田 力, 七 ← 一 乚).
-    decomp_path = DATA / "decomposition.json"
-    if decomp_path.exists():
-        decomp = read_json(decomp_path)
-        for char, comps in decomp.items():
-            if f"g:{char}" not in nodes:
-                continue  # only decompose glyphs already in the graph
-            for comp in comps:
-                csrc = canon(comp)   # fold twin part onto its canonical (覀 → 西)
-                if (csrc, char) not in seen_edge:
-                    seen_edge.add((csrc, char))
-                    edges.append(cedge(f"g:{csrc}", f"g:{char}", role_of(char, csrc)))
-                if csrc not in real:
-                    nodes.setdefault(f"g:{csrc}", {
-                        "id": f"g:{csrc}", "kind": "glyph", "glyph": csrc,
-                        "tier": None, "frontier": True})
+    # structural composition edges (component → char) from each symbol's authored
+    # `composes` — the glyph-level source of truth (男 ← 田 力, 合 ← 𠆢 一 口). A part
+    # with no symbol of its own becomes a frontier node. (MMAH is now only an
+    # authoring aid for filling `composes`; see data/fetch-decomp.py.)
+    for char, sym in symbols.items():
+        for comp in sym.get("composes") or []:
+            csrc = canon(comp)   # fold twin part onto its canonical (覀 → 西)
+            if (csrc, char) not in seen_edge:
+                seen_edge.add((csrc, char))
+                edges.append(cedge(f"g:{csrc}", f"g:{char}", role_of(char, csrc)))
+            if csrc not in real:
+                nodes.setdefault(f"g:{csrc}", {
+                    "id": f"g:{csrc}", "kind": "glyph", "glyph": csrc,
+                    "tier": None, "frontier": True})
 
     # ── word tier: concrete lexemes instantiating the concept spine ─────────────
     # Words are a SEPARATE graph from the character/concept layer: a word both

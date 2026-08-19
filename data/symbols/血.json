@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "皿"
+  ],
   "readings": {
     "cn": {
       "name": "血",

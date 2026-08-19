@@ -8,6 +8,12 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "一",
+    "口",
+    "丷",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "豆",

@@ -7,6 +7,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "⺈",
+    "田",
+    "灬"
+  ],
   "readings": {
     "cn": {
       "name": "魚",

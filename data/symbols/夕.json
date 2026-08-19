@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "勹",
+    "丶"
+  ],
   "readings": {
     "cn": {
       "name": "夕",

@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "自",
+    "畀"
+  ],
   "readings": {
     "cn": {
       "name": "鼻",

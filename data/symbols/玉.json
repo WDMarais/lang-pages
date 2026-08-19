@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "王",
+    "丶"
+  ],
   "readings": {
     "cn": {
       "name": "玉",

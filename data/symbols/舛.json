@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "夕"
+  ],
   "readings": {
     "cn": {
       "name": "舛",

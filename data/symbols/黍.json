@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "禾",
+    "人",
+    "氺"
+  ],
   "readings": {
     "cn": {
       "name": "黍",

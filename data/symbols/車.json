@@ -7,6 +7,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "日"
+  ],
   "readings": {
     "cn": {
       "name": "車",

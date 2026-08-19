@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "厂",
+    "下"
+  ],
   "readings": {
     "cn": {
       "name": "斤",

@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "女",
+    "子"
+  ],
   "readings": {
     "cn": {
       "name": "好",

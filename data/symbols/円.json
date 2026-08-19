@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "冂",
+    "丄"
+  ],
   "readings": {
     "cn": {
       "name": "円",

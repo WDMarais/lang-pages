@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "禾",
+    "日"
+  ],
   "readings": {
     "cn": {
       "name": "香",

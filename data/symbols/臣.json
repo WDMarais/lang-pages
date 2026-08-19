@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "匚",
+    "丨",
+    "丨"
+  ],
   "readings": {
     "cn": {
       "name": "臣",

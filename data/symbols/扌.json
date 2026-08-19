@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "二",
+    "亅"
+  ],
   "readings": {
     "cn": {
       "name": "扌",

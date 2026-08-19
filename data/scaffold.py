@@ -16,6 +16,7 @@ invents a reading is worse than no stub.
 Nothing downstream is run. After editing the TODOs, take the normal path:
 fetch-decomp → build-graph → build-pages → gen-audio (docs/authoring.md).
 """
+import json
 import subprocess
 import sys
 
@@ -35,11 +36,17 @@ def kangxi_number(glyph):
 
 
 def decomposition(glyph):
-    """MMAH's immediate components, if fetch-decomp has already seen this glyph.
-    A hint only — decomposition.json (not the symbol's `composes`) is what feeds
-    the graph, and it is regenerated from the symbol set after this runs."""
-    path = DATA / "decomposition.json"
-    return read_json(path).get(glyph, []) if path.exists() else []
+    """MMAH's suggested immediate components — a HINT to seed the symbol's
+    `composes` field, which (authored) is the source of truth build-graph reads.
+    Shells out to the fetch-decomp aid; [] if MMAH can't decompose the glyph."""
+    r = subprocess.run([sys.executable, str(DATA / "fetch-decomp.py"), glyph],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        return []
+    try:
+        return json.loads(r.stdout).get(glyph, [])
+    except (ValueError, json.JSONDecodeError):
+        return []
 
 
 def has_strokes(glyph):

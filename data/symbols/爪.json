@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丨"
+  ],
   "readings": {
     "cn": {
       "name": "爪",

@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "土",
+    "火"
+  ],
   "readings": {
     "cn": {
       "name": "赤",

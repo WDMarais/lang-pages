@@ -7,6 +7,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "⺈",
+    "用"
+  ],
   "readings": {
     "cn": {
       "name": "角",

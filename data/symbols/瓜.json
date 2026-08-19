@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "厶"
+  ],
   "readings": {
     "cn": {
       "name": "瓜",

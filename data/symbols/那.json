@@ -6,6 +6,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "阝"
+  ],
   "readings": {
     "cn": {
       "name": "那",

@@ -7,6 +7,9 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "亠"
+  ],
   "readings": {
     "cn": {
       "name": "方",

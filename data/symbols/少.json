@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "小",
+    "丿"
+  ],
   "readings": {
     "cn": {
       "name": "少",

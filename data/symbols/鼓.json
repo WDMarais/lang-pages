@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "壴",
+    "支"
+  ],
   "readings": {
     "cn": {
       "name": "鼓",

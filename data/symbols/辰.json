@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "厂",
+    "二"
+  ],
   "readings": {
     "cn": {
       "name": "辰",

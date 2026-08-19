@@ -6,6 +6,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "木",
+    "羊"
+  ],
   "readings": {
     "cn": {
       "name": "样",

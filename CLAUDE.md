@@ -7,23 +7,27 @@ is the short list of things that are easy to get wrong.
 ## Source of truth & the build
 
 - **Authored source:** `data/symbols/<glyph>.json` (one per glyph) and `data/words.json`
-  (words). *Everything else is GENERATED* — `data/{nodes,edges,bindings,decomposition}.json`,
+  (words). *Everything else is GENERATED* — `data/{nodes,edges,bindings}.json`,
   the `characters/` `kangxi/` `strokes/` card decks, and the `audio/` banks.
+- **A glyph's parts are its authored `composes` field** — the glyph-level source of
+  truth, read straight from the symbol by `build-graph.py`. There is no separate
+  decomposition step (and no `decomposition.json`). MMAH is only an *authoring aid*:
+  `python3 data/fetch-decomp.py <glyph>` suggests parts to paste into `composes`;
+  the human value is authoritative and refines it (合 ← 𠆢 一 口, 広 ← 广 厶).
 - **After ANY edit under `data/symbols/` or to `data/words.json`, run
-  `python3 data/build.py`** (decomposition → graph → pages → audio → check-source).
-  `--no-audio` skips edge-tts; `--refresh` re-pulls the MMAH dictionary.
-- **Do not hand-run a single build step.** `build-graph.py` alone silently
-  *under-integrates* a newly-added glyph: a glyph's parts come from `decomposition.json`,
-  which only the decomposition step (`fetch-decomp.py`) refreshes. `data/build.py` runs
-  the steps in the right order so this can't happen.
+  `python3 data/build.py`** (graph → pages → audio → check-source).
+  `--no-audio` skips edge-tts.
 - **The gate is `data/check-source.py`** (build.py runs it last). It must report
-  `0 error(s)` before you commit — it catches under-integrated symbols, dangling parts,
-  and authoring slips that the round-trip proof would otherwise pass straight through.
+  `0 error(s)` before you commit — it validates `composes` (single glyphs, no
+  self-loop), dangling parts, and authoring slips that the round-trip proof would
+  otherwise pass straight through.
 
 ## Adding a frontier glyph vs. a word
 
-- **New glyph:** write `data/symbols/<glyph>.json`, then `python3 shared/hanzi-data/fetch.py <glyph>`
-  for `hw:true` stroke data, then `python3 data/build.py`.
+- **New glyph:** write `data/symbols/<glyph>.json` (fill `composes` — `python3 data/fetch-decomp.py <glyph>`
+  suggests parts), then `python3 shared/hanzi-data/fetch.py <glyph>` for `animated:true`
+  stroke data (or `shared/hanzi-data/assemble.py` to lift + place parts for glyphs the
+  CDN lacks, e.g. JP shinjitai), then `python3 data/build.py`.
 - **Word reusing existing glyphs:** append to `data/words.json`, then `python3 data/build.py`.
   Before minting a `denotes` referent, hunt for an existing one to rejoin (see graph-api below).
 

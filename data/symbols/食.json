@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "人",
+    "良"
+  ],
   "readings": {
     "cn": {
       "name": "食",
