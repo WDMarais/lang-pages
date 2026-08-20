@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lang-pages · symbol authoring</title>
+<style>
+  :root {
+    --bg: #14161a; --panel: #1c1f26; --panel2: #232732; --ink: #e6e8ec;
+    --muted: #9aa1ad; --line: #2c313c; --accent: #7cc4ff; --accent2: #b58cff;
+    --ok: #55c98a; --warn: #e6b34d; --err: #ff6b6b; --field: #10131a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--bg); color: var(--ink); font: 14px/1.5 system-ui, sans-serif;
+    display: grid; grid-template-columns: 1fr 460px; height: 100vh; overflow: hidden;
+  }
+  h1 { font-size: 15px; margin: 0; font-weight: 600; letter-spacing: .01em; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em;
+       color: var(--muted); margin: 1.4rem 0 .5rem; font-weight: 600; }
+  .col { overflow-y: auto; padding: 1.1rem 1.3rem 4rem; }
+  .col.form { border-right: 1px solid var(--line); }
+  .col.out { background: var(--panel); }
+  header { display: flex; align-items: baseline; gap: .8rem; margin-bottom: .3rem; }
+  header .sub { color: var(--muted); font-size: 12px; }
+
+  label { display: block; margin: .55rem 0 .15rem; color: var(--muted); font-size: 12px; }
+  label .req { color: var(--accent2); }
+  input[type=text], input[type=number], textarea, select {
+    width: 100%; background: var(--field); color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: .42rem .55rem; font: inherit; font-family: inherit;
+  }
+  textarea { resize: vertical; min-height: 2.2rem; }
+  input.glyph { font-size: 20px; text-align: center; width: 4rem; padding: .2rem; }
+  .row { display: flex; gap: .6rem; align-items: flex-end; }
+  .row > div { flex: 1; }
+  .grow0 { flex: 0 0 auto !important; }
+  .inline { display: flex; align-items: center; gap: .4rem; }
+  .inline input[type=checkbox] { width: auto; }
+  .card { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px;
+          padding: .7rem .8rem; margin: .5rem 0; }
+  .card .card-head { display: flex; justify-content: space-between; align-items: center; }
+  fieldset { border: 1px solid var(--line); border-radius: 8px; padding: .3rem .8rem .8rem; margin: .5rem 0; }
+  legend { color: var(--muted); font-size: 12px; padding: 0 .4rem; }
+  .btn { background: var(--panel2); color: var(--ink); border: 1px solid var(--line);
+         border-radius: 6px; padding: .32rem .7rem; cursor: pointer; font: inherit; }
+  .btn:hover { border-color: var(--accent); }
+  .btn.sm { padding: .16rem .5rem; font-size: 12px; }
+  .btn.primary { background: var(--accent); color: #08121c; border-color: var(--accent); font-weight: 600; }
+  .btn.ghost { background: transparent; }
+  .btn.danger:hover { border-color: var(--err); color: var(--err); }
+  .cp { font-family: ui-monospace, monospace; color: var(--muted); font-size: 12px; }
+  .hint { color: var(--muted); font-size: 11.5px; margin: .2rem 0 0; }
+
+  /* output column */
+  .status { border-radius: 8px; padding: .6rem .8rem; margin-bottom: .8rem; font-weight: 600; }
+  .status.ok { background: rgba(85,201,138,.12); color: var(--ok); border: 1px solid rgba(85,201,138,.4); }
+  .status.err { background: rgba(255,107,107,.1); color: var(--err); border: 1px solid rgba(255,107,107,.4); }
+  ul.msgs { list-style: none; padding: 0; margin: 0 0 1rem; font-size: 12.5px; }
+  ul.msgs li { padding: .28rem .5rem; border-radius: 5px; margin-bottom: .25rem; display: flex; gap: .5rem; }
+  ul.msgs li.err { background: rgba(255,107,107,.09); color: #ffb0b0; }
+  ul.msgs li.warn { background: rgba(230,179,77,.09); color: #f0cf8c; }
+  ul.msgs li .tag { flex: 0 0 auto; font-weight: 700; }
+  pre.json { background: var(--field); border: 1px solid var(--line); border-radius: 8px;
+             padding: .8rem; margin: 0; white-space: pre; overflow-x: auto; font-family: ui-monospace, monospace;
+             font-size: 12.5px; line-height: 1.45; color: #cdd6e4; }
+  .exportbar { display: flex; gap: .5rem; margin: .7rem 0; position: sticky; top: 0; }
+  .filename { font-family: ui-monospace, monospace; color: var(--accent); }
+  details.imp { margin-top: 1rem; }
+  details.imp summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="col form">
+  <header>
+    <h1>符号编辑器 · symbol authoring</h1>
+    <span class="sub">export-only · nothing leaves this page but JSON you copy</span>
+  </header>
+  <p class="hint">Fill a single glyph. The panel on the right mirrors the repo's
+    <code>check-source</code> gate live — green means it will pass. Export the JSON and email it;
+    stroke data &amp; audio are added on the maintainer's machine.</p>
+
+  <div class="row">
+    <div class="grow0">
+      <label>glyph <span class="req">*</span></label>
+      <input class="glyph" id="glyph" maxlength="2" autocomplete="off">
+    </div>
+    <div class="grow0">
+      <label>codepoint</label>
+      <div class="cp" id="cp" style="padding-top:.6rem">—</div>
+    </div>
+    <div>
+      <label>class <span class="req">*</span></label>
+      <select id="class">
+        <option value="char">char — a standalone character (lands on /characters/)</option>
+        <option value="comp">comp — a building-block component/radical</option>
+        <option value="stroke">stroke — a basic stroke primitive</option>
+      </select>
+    </div>
+    <div class="grow0">
+      <label>kangxi №</label>
+      <input type="number" id="kangxi" min="1" max="214" style="width:5rem" placeholder="—">
+    </div>
+  </div>
+
+  <fieldset>
+    <legend>form</legend>
+    <div class="inline"><input type="checkbox" id="animated"><label style="margin:0">animated (has stroke-order data)</label></div>
+    <p class="hint" id="animatedHint"></p>
+    <label>image (referent image path, usually blank)</label>
+    <input type="text" id="image" placeholder="">
+  </fieldset>
+
+  <h2>composes — immediate parts</h2>
+  <p class="hint">Single glyphs, in writing order. The glyph-level source of truth for
+    composition edges. Leave empty for an atomic shape.</p>
+  <div id="composes"></div>
+  <button class="btn sm" onclick="addCompose()">+ part</button>
+
+  <h2>readings</h2>
+  <div id="readingCN" class="card"></div>
+  <div id="readingJP" class="card"></div>
+
+  <h2>programs — tier membership</h2>
+  <p class="hint">Only the four known tiers are accepted (WaniKani / Pandanese × radical / character-kanji).</p>
+  <div id="programs"></div>
+  <button class="btn sm" onclick="addProgram()">+ program tier</button>
+
+  <details class="imp">
+    <summary>▸ advanced: variants · script (简/繁/新字体)</summary>
+    <h2>variants — folded twin shapes</h2>
+    <p class="hint">Same-shape, same-referent twins that fold onto this glyph (e.g. ナ→𠂇).</p>
+    <div id="variants"></div>
+    <button class="btn sm" onclick="addVariant()">+ variant</button>
+
+    <fieldset style="margin-top:1rem">
+      <legend>script — cross-form (only when the glyph differs across 简/繁/新字体)</legend>
+      <div class="inline"><input type="checkbox" id="scriptOn"><label style="margin:0">this glyph has a distinct 简/繁/新字体 form</label></div>
+      <div id="scriptBody" style="display:none">
+        <label>keyed — which axis THIS glyph sits on</label>
+        <select id="scriptKeyed">
+          <option value="simplified">simplified (glyph is the 简 form)</option>
+          <option value="traditional">traditional (glyph is the 繁 form)</option>
+          <option value="shinjitai">shinjitai (glyph is the 日本新字体 form)</option>
+        </select>
+        <div class="inline" style="margin-top:.5rem"><input type="checkbox" id="scriptSame"><label style="margin:0">same — the two Han forms coincide (no separate simp/trad)</label></div>
+        <div id="scriptForms">
+          <label>simplified form(s) — glyph[,when]</label>
+          <div id="scriptSimp"></div><button class="btn sm" onclick="addScriptForm('simplified')">+ 简</button>
+          <label style="margin-top:.6rem">traditional form(s) — glyph[,when]</label>
+          <div id="scriptTrad"></div><button class="btn sm" onclick="addScriptForm('traditional')">+ 繁</button>
+        </div>
+      </div>
+    </fieldset>
+  </details>
+
+  <details class="imp">
+    <summary>▸ load an existing / in-progress JSON to keep editing</summary>
+    <textarea id="importBox" placeholder="paste a symbol JSON blob here" style="min-height:6rem;margin-top:.4rem"></textarea>
+    <button class="btn sm" onclick="importJSON()">load into form</button>
+    <span id="importMsg" class="hint"></span>
+  </details>
+</div>
+
+<div class="col out">
+  <div class="status" id="status">—</div>
+  <ul class="msgs" id="msgs"></ul>
+  <label style="margin-top:.2rem">your contributor handle <span class="hint">— stamped as <code>_contributor</code> for attribution; the maintainer strips it at ingest</span></label>
+  <input type="text" id="contributor" placeholder="e.g. alice" autocomplete="off">
+  <div class="exportbar">
+    <button class="btn primary" id="copyBtn" onclick="copyJSON()">copy JSON</button>
+    <button class="btn" id="dlBtn" onclick="downloadJSON()">download <span class="filename" id="fname">glyph.json</span></button>
+  </div>
+  <pre class="json" id="json">{}</pre>
+</div>
+
+<script>
+// ---- known program tiers (mirrors data/symbols_io.py PROGRAM_TIERS) ----
+const TIERS = [
+  {source:'wanikani',  role:'radical',   lang:'jp', label:'WaniKani · radical (JP)'},
+  {source:'wanikani',  role:'kanji',     lang:'jp', label:'WaniKani · kanji (JP)'},
+  {source:'pandanese', role:'radical',   lang:'cn', label:'Pandanese · radical (CN)'},
+  {source:'pandanese', role:'character', lang:'cn', label:'Pandanese · character (CN)'},
+];
+const CLASSES = ['char','comp','stroke'];
+const KINDS = ['meaning','mnemonic'];
+const glyphLen = s => [...(s||'')].length;         // codepoint-aware (handles 𠆢 surrogate pairs)
+const isStr = v => typeof v === 'string' && v.trim() !== '';
+
+// ---- dynamic-row helpers ----
+function chip(container, html) {
+  const d = document.createElement('div'); d.className='card'; d.innerHTML = html;
+  container.appendChild(d); return d;
+}
+function addCompose(val='') {
+  const d = chip($('composes'),
+    `<div class="row"><div><input type="text" class="cx" placeholder="part glyph" value="${esc(val)}"></div>
+     <button class="btn sm danger grow0" onclick="this.closest('.card').remove();render()">✕</button></div>`);
+  wire(d); }
+function addVariant(val='') {
+  const d = chip($('variants'),
+    `<div class="row"><div><input type="text" class="vx" placeholder="variant glyph" value="${esc(val)}"></div>
+     <button class="btn sm danger grow0" onclick="this.closest('.card').remove();render()">✕</button></div>`);
+  wire(d); }
+function addScriptForm(which, glyph='', when='') {
+  const host = which==='simplified' ? $('scriptSimp') : $('scriptTrad');
+  const d = chip(host,
+    `<div class="row"><div class="grow0"><input type="text" class="sf-g" style="width:4rem" value="${esc(glyph)}" placeholder="字"></div>
+     <div><input type="text" class="sf-w" value="${esc(when)}" placeholder="when (optional context)"></div>
+     <button class="btn sm danger grow0" onclick="this.closest('.card').remove();render()">✕</button></div>`);
+  d.dataset.which = which; wire(d); }
+
+function addProgram(p={}) {
+  const opts = TIERS.map((t,i)=>`<option value="${i}">${t.label}</option>`).join('');
+  const d = chip($('programs'), `
+    <div class="card-head"><select class="pg-tier">${opts}</select>
+      <button class="btn sm danger" onclick="this.closest('.card').remove();render()">✕ remove</button></div>
+    <div class="pg-fields"></div>`);
+  const sel = d.querySelector('.pg-tier');
+  if (p.source) { const idx = TIERS.findIndex(t=>t.source===p.source&&t.role===p.role); if(idx>=0) sel.value=idx; }
+  sel.onchange = () => { renderProgFields(d, {}); render(); };
+  renderProgFields(d, p); wire(d);
+}
+function renderProgFields(card, p) {
+  const t = TIERS[+card.querySelector('.pg-tier').value];
+  const f = card.querySelector('.pg-fields');
+  let html = `
+    <label>name <span class="req">*</span> <span class="hint">(the program's label for this glyph)</span></label>
+    <input type="text" class="pg-name" value="${esc(p.name||'')}">
+    <div class="row"><div class="grow0"><label>level</label><input type="number" class="pg-level" style="width:5rem" value="${p.level??''}"></div>
+    <div><label>kind (meaning vs mnemonic)</label><select class="pg-kind">
+      <option value="">— none —</option>${KINDS.map(k=>`<option value="${k}" ${p.kind===k?'selected':''}>${k}</option>`).join('')}
+    </select></div></div>`;
+  if (t.role==='kanji') html += `
+    <div class="row"><div><label>on-readings (comma-sep → readings[])</label><input type="text" class="pg-on" value="${esc((p.readings||[]).join(', '))}"></div>
+    <div class="grow0 inline" style="padding-bottom:.5rem"><input type="checkbox" class="pg-onflag" ${p.on?'checked':''}><label style="margin:0">on:true</label></div></div>
+    <label>kun-readings (comma-sep → kun[])</label><input type="text" class="pg-kun" value="${esc((p.kun||[]).join(', '))}">`;
+  if (t.role==='radical') html += `
+    <label>icon (referent icon name, optional)</label><input type="text" class="pg-icon" value="${esc(p.icon||'')}">`;
+  f.innerHTML = html; wire(card);
+}
+
+function readingCard(host, lang, v={}) {
+  host.innerHTML = `
+    <div class="card-head"><strong>${lang.toUpperCase()}</strong>
+      <span class="hint">${lang==='cn'?'Mandarin':'Japanese'}</span></div>
+    <label>name <span class="req">*</span></label><input type="text" class="rd-name" value="${esc(v.name||'')}">
+    <div class="row"><div><label>reading (phonetic — optional)</label><input type="text" class="rd-reading" value="${esc(v.reading||'')}" placeholder="${lang==='cn'?'hǎo':'このむ'}"></div>
+    <div><label>gloss <span class="req">*</span></label><input type="text" class="rd-gloss" value="${esc(v.gloss||'')}"></div></div>
+    <label>extra (notes, etymology, alt readings)</label><textarea class="rd-extra">${esc(v.extra||'')}</textarea>
+    <details><summary class="hint" style="cursor:pointer">▸ appearsIn (a part-glyph's example char)</summary>
+      <div class="row"><div class="grow0"><label>char</label><input type="text" class="ai-char" style="width:4rem" value="${esc(v.appearsIn?.char||'')}"></div>
+      <div><label>reading</label><input type="text" class="ai-reading" value="${esc(v.appearsIn?.reading||'')}"></div>
+      <div><label>gloss</label><input type="text" class="ai-gloss" value="${esc(v.appearsIn?.gloss||'')}"></div></div>
+    </details>`;
+  host.dataset.lang = lang; wire(host);
+}
+
+// ---- collect form → symbol object (canonical key order) ----
+function collect() {
+  const glyph = $('glyph').value.trim();
+  const o = {};
+  const handle = $('contributor').value.trim();
+  if (handle) o._contributor = handle;   // provenance; maintainer strips at ingest, not a schema field
+  o.glyph = glyph;
+  o.cp = glyph ? cpOf(glyph) : '';
+  o.class = $('class').value;
+  const kx = $('kangxi').value.trim();
+  if (kx !== '') o.kangxi = parseInt(kx,10);
+  o.form = { animated: $('animated').checked, image: $('image').value };
+  const comps = [...document.querySelectorAll('#composes .cx')].map(i=>i.value.trim()).filter(Boolean);
+  if (comps.length) o.composes = comps;
+  o.readings = { cn: readingOf($('readingCN')), jp: readingOf($('readingJP')) };
+  const sc = collectScript(); if (sc) o.script = sc;
+  o.programs = [...document.querySelectorAll('#programs .card')].map(progOf);
+  const vars = [...document.querySelectorAll('#variants .vx')].map(i=>i.value.trim()).filter(Boolean);
+  if (vars.length) o.variants = vars;
+  return o;
+}
+function readingOf(host) {
+  const q = s => host.querySelector(s);
+  const r = { name: q('.rd-name').value.trim() };
+  if (isStr(q('.rd-reading').value)) r.reading = q('.rd-reading').value.trim();
+  r.gloss = q('.rd-gloss').value.trim();
+  if (isStr(q('.rd-extra').value)) r.extra = q('.rd-extra').value.trim();
+  const ai = { char:q('.ai-char').value.trim(), reading:q('.ai-reading').value.trim(), gloss:q('.ai-gloss').value.trim() };
+  if (ai.char || ai.reading || ai.gloss) r.appearsIn = ai;
+  return r;
+}
+function progOf(card) {
+  const t = TIERS[+card.querySelector('.pg-tier').value];
+  const q = s => card.querySelector(s);
+  const p = { source:t.source, lang:t.lang, role:t.role, name:q('.pg-name').value.trim() };
+  if (t.role==='kanji') {
+    const on = q('.pg-on').value.split(',').map(s=>s.trim()).filter(Boolean);
+    if (on.length) p.readings = on;
+    if (q('.pg-onflag').checked) p.on = true;
+    const kun = q('.pg-kun').value.split(',').map(s=>s.trim()).filter(Boolean);
+    if (kun.length) p.kun = kun;
+  }
+  if (t.role==='radical' && isStr(q('.pg-icon')?.value)) p.icon = q('.pg-icon').value.trim();
+  if (isStr(q('.pg-kind').value)) p.kind = q('.pg-kind').value;
+  const lv = q('.pg-level').value.trim(); if (lv!=='') p.level = parseInt(lv,10);
+  return p;
+}
+function collectScript() {
+  if (!$('scriptOn').checked) return null;
+  const s = { keyed: $('scriptKeyed').value };
+  if ($('scriptSame').checked) { s.same = true; return s; }
+  for (const which of ['simplified','traditional']) {
+    const host = which==='simplified' ? $('scriptSimp') : $('scriptTrad');
+    const forms = [...host.querySelectorAll('.card')].map(c=>{
+      const g = c.querySelector('.sf-g').value.trim(), w = c.querySelector('.sf-w').value.trim();
+      const e = { glyph:g }; if (w) e.when = w; return e;
+    });
+    if (forms.length) s[which] = forms;
+  }
+  return s;
+}
+function cpOf(g){ return 'U+' + [...g][0].codePointAt(0).toString(16).toUpperCase().padStart(4,'0'); }
+
+// ---- validation: faithful port of check-source.check_symbol ----
+function validate(s) {
+  const E=[], W=[]; const err=m=>E.push(m), warn=m=>W.push(m);
+  if (glyphLen(s.glyph)!==1) err('glyph must be exactly one character');
+  if (!CLASSES.includes(s.class)) err(`class ${JSON.stringify(s.class)} not in char/comp/stroke`);
+  if (typeof s.form?.animated !== 'boolean') err('form.animated must be a bool');
+  else if (s.form.animated) warn('animated:true — a stroke-data file must exist on the maintainer machine (fetch.py / assemble.py); can\'t be verified here');
+  if (typeof s.form?.image !== 'string') err('form.image must be a string');
+  for (const lang of ['cn','jp']) {
+    const v = s.readings?.[lang]; if (!v){ err(`readings.${lang} missing`); continue; }
+    if (!isStr(v.name)) err(`readings.${lang}.name missing or empty`);
+    if (!isStr(v.gloss)) err(`readings.${lang}.gloss missing or empty`);
+    if (v.appearsIn) for (const k of ['char','reading','gloss'])
+      if (!isStr(v.appearsIn[k])) err(`readings.${lang}.appearsIn.${k} missing or empty`);
+  }
+  if (!Array.isArray(s.programs)) err('programs missing or not a list');
+  else s.programs.forEach((p,i)=>{
+    const t = TIERS.find(t=>t.source===p.source&&t.role===p.role);
+    if (!t) { err(`program[${i}] (${p.source},${p.role}) not a known tier`); return; }
+    if (!isStr(p.name)) err(`program[${i}] has no name`);
+    if (p.lang !== t.lang) err(`program[${i}] lang ${JSON.stringify(p.lang)} != tier lang ${JSON.stringify(t.lang)}`);
+    if (p.kind!==undefined && !KINDS.includes(p.kind)) err(`program[${i}] kind ${JSON.stringify(p.kind)} not meaning/mnemonic`);
+  });
+  if (s.kangxi!==undefined && !(Number.isInteger(s.kangxi) && s.kangxi>=1 && s.kangxi<=214))
+    err(`kangxi ${JSON.stringify(s.kangxi)} not an int in 1..214`);
+  if (s.variants!==undefined && (!Array.isArray(s.variants) || !s.variants.every(isStr)))
+    err('variants must be a list of non-empty glyph strings');
+  if (s.composes!==undefined) {
+    if (!Array.isArray(s.composes) || !s.composes.every(c=>isStr(c)&&glyphLen(c)===1))
+      err('composes must be a list of single-glyph strings');
+    else if (s.composes.includes(s.glyph)) err('composes lists the glyph itself (a self-loop)');
+  }
+  if (s.script) validateScript(s.script, err);
+  return {E,W};
+}
+function validateScript(sc, err) {
+  const keyed = sc.keyed ?? 'simplified';
+  if (!['simplified','traditional','shinjitai'].includes(keyed)) err(`script.keyed ${JSON.stringify(keyed)} invalid`);
+  if (sc.same!==undefined && sc.same!==true) err('script.same must be true when present');
+  if (['simplified','traditional'].includes(keyed) && sc[keyed]!==undefined) err(`script.${keyed} restates the keyed glyph — omit it`);
+  const named = ['simplified','traditional'].filter(k=>k in sc);
+  if (sc.same) {
+    if (named.length) err('script.same is exclusive with a named simplified/traditional form');
+    if (keyed==='shinjitai') err('script.same needs a Han-keyed glyph, not shinjitai');
+  } else if (!named.length) err('script needs same:true or a named simplified/traditional form');
+  for (const k of named) {
+    const form = sc[k];
+    if (!Array.isArray(form) || !form.length) { err(`script.${k} must be a non-empty list`); continue; }
+    for (const e of form) {
+      if (!e || !isStr(e.glyph) || glyphLen(e.glyph)!==1) err(`script.${k} entry needs a single-char 'glyph'`);
+      else if ('when' in e && !isStr(e.when)) err(`script.${k} 'when' must be a non-empty string`);
+    }
+  }
+}
+
+// ---- render loop ----
+let LAST = {};
+function render() {
+  const s = collect(); LAST = s;
+  $('cp').textContent = glyphLen(s.glyph)===1 ? s.cp : '—';
+  $('fname').textContent = (glyphLen(s.glyph)===1 ? s.glyph : 'glyph') + '.json';
+  $('animatedHint').textContent = $('animated').checked
+    ? 'note the maintainer must supply shared/hanzi-data/'+(s.glyph||'<glyph>')+'.json (fetch.py or assemble.py)'
+    : 'leave off until stroke data exists; a blank tile otherwise';
+  $('scriptBody').style.display = $('scriptOn').checked ? 'block' : 'none';
+  $('scriptForms').style.display = $('scriptSame').checked ? 'none' : 'block';
+  $('json').textContent = JSON.stringify(s, null, 2);
+  const {E,W} = validate(s);
+  const st = $('status');
+  if (E.length) { st.className='status err'; st.textContent = `✗ ${E.length} error(s) — will NOT pass the gate`; }
+  else { st.className='status ok'; st.textContent = `✓ passes check-source (${W.length} warning(s))`; }
+  $('msgs').innerHTML = [
+    ...E.map(m=>`<li class="err"><span class="tag">ERR</span><span>${esc(m)}</span></li>`),
+    ...W.map(m=>`<li class="warn"><span class="tag">warn</span><span>${esc(m)}</span></li>`),
+  ].join('');
+  $('copyBtn').disabled = E.length>0;
+}
+
+// ---- export ----
+async function copyJSON() {
+  try { await navigator.clipboard.writeText(JSON.stringify(LAST,null,2)+'\n');
+    flash($('copyBtn'),'copied ✓'); } catch(e){ alert('clipboard blocked — select the JSON manually'); }
+}
+function downloadJSON() {
+  const name = (glyphLen(LAST.glyph)===1?LAST.glyph:'symbol')+'.json';
+  const blob = new Blob([JSON.stringify(LAST,null,2)+'\n'], {type:'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+}
+function flash(btn,txt){ const o=btn.textContent; btn.textContent=txt; setTimeout(()=>btn.textContent=o,1200); }
+
+// ---- import an existing blob back into the form ----
+function importJSON() {
+  let s; try { s = JSON.parse($('importBox').value); } catch(e){ $('importMsg').textContent='✗ not valid JSON'; return; }
+  loadInto(s); $('importMsg').textContent='✓ loaded'; render();
+}
+function loadInto(s) {
+  if (s._contributor) $('contributor').value = s._contributor;
+  $('glyph').value = s.glyph||''; $('class').value = s.class||'char';
+  $('kangxi').value = s.kangxi??''; $('animated').checked = !!s.form?.animated; $('image').value = s.form?.image||'';
+  $('composes').innerHTML=''; (s.composes||[]).forEach(addCompose);
+  readingCard($('readingCN'),'cn',s.readings?.cn||{}); readingCard($('readingJP'),'jp',s.readings?.jp||{});
+  $('programs').innerHTML=''; (s.programs||[]).forEach(addProgram);
+  $('variants').innerHTML=''; (s.variants||[]).forEach(addVariant);
+  $('scriptOn').checked = !!s.script;
+  if (s.script) {
+    $('scriptKeyed').value = s.script.keyed||'simplified'; $('scriptSame').checked = !!s.script.same;
+    $('scriptSimp').innerHTML=''; $('scriptTrad').innerHTML='';
+    (s.script.simplified||[]).forEach(e=>addScriptForm('simplified',e.glyph,e.when||''));
+    (s.script.traditional||[]).forEach(e=>addScriptForm('traditional',e.glyph,e.when||''));
+  }
+}
+
+// ---- glue ----
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function wire(root){ (root||document).querySelectorAll('input,select,textarea').forEach(el=>{
+  if (!el._wired){ el._wired=true; el.addEventListener('input',render); el.addEventListener('change',render); }
+}); }
+
+// init — the handle is a per-contributor constant across many glyphs, so persist it
+// locally (client-only, no secret) rather than retyping it each export.
+readingCard($('readingCN'),'cn'); readingCard($('readingJP'),'jp');
+$('contributor').value = localStorage.getItem('lp_contributor') || '';
+$('contributor').addEventListener('input', () => localStorage.setItem('lp_contributor', $('contributor').value.trim()));
+wire(document);
+$('scriptOn').addEventListener('change',render); $('scriptSame').addEventListener('change',render);
+render();
+</script>
+</body>
+</html>

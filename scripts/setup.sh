@@ -16,7 +16,8 @@ EMAIL="marais.wynand@gmail.com"
 
 echo "==> packages"
 sudo apt-get update -qq
-sudo apt-get install -y nginx certbot python3-certbot-nginx git
+# apache2-utils supplies `htpasswd` for the /author/ Basic-Auth credential file.
+sudo apt-get install -y nginx certbot python3-certbot-nginx git apache2-utils
 
 echo "==> repo"
 if [[ ! -d "$REPO_DIR/.git" ]]; then
@@ -38,3 +39,4 @@ sudo systemctl reload nginx
 echo ""
 echo "done -- https://$DOMAIN/ should be live"
 echo "deploy future updates: git pull --ff-only && bash scripts/apply-repo.sh"
+echo "author-tool logins (one per contributor): sudo bash scripts/setup-author-auth.sh <name>"

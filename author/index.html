@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lang-pages · imagery linker</title>
+<style>
+  :root {
+    --bg:#14161a; --panel:#1c1f26; --panel2:#232732; --ink:#e6e8ec; --muted:#9aa1ad;
+    --line:#2c313c; --accent:#7cc4ff; --accent2:#b58cff; --ok:#55c98a; --warn:#e6b34d;
+    --err:#ff6b6b; --field:#10131a;
+  }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; }
+  body { background:var(--bg); color:var(--ink); font:14px/1.5 system-ui,sans-serif;
+         display:grid; grid-template-columns:1fr 460px; height:100vh; overflow:hidden; }
+  h1 { font-size:15px; margin:0; font-weight:600; }
+  h2 { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+       margin:1.3rem 0 .5rem; font-weight:600; }
+  .col { overflow-y:auto; padding:1.1rem 1.3rem 4rem; }
+  .col.form { border-right:1px solid var(--line); }
+  .col.out { background:var(--panel); }
+  header { display:flex; align-items:baseline; gap:.8rem; margin-bottom:.3rem; }
+  header .sub { color:var(--muted); font-size:12px; }
+  label { display:block; margin:.5rem 0 .15rem; color:var(--muted); font-size:12px; }
+  label .req { color:var(--accent2); }
+  input,select,textarea { width:100%; background:var(--field); color:var(--ink);
+    border:1px solid var(--line); border-radius:6px; padding:.42rem .55rem; font:inherit; }
+  textarea { resize:vertical; min-height:2.2rem; }
+  .row { display:flex; gap:.6rem; align-items:flex-end; }
+  .row > div { flex:1; }
+  .grow0 { flex:0 0 auto !important; }
+  .card { background:var(--panel2); border:1px solid var(--line); border-radius:8px;
+    padding:.7rem .8rem; margin:.6rem 0; }
+  .card.bad { border-color:rgba(255,107,107,.5); }
+  .card-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:.3rem; }
+  .card-head .n { font-weight:600; color:var(--accent); }
+  .btn { background:var(--panel2); color:var(--ink); border:1px solid var(--line);
+    border-radius:6px; padding:.32rem .7rem; cursor:pointer; font:inherit; }
+  .btn:hover { border-color:var(--accent); }
+  .btn.sm { padding:.16rem .5rem; font-size:12px; }
+  .btn.primary { background:var(--accent); color:#08121c; border-color:var(--accent); font-weight:600; }
+  .btn.primary:disabled { opacity:.45; cursor:not-allowed; }
+  .btn.danger:hover { border-color:var(--err); color:var(--err); }
+  .hint { color:var(--muted); font-size:11.5px; margin:.2rem 0 0; }
+  .filename { font-family:ui-monospace,monospace; color:var(--accent); }
+  .status { border-radius:8px; padding:.6rem .8rem; margin-bottom:.8rem; font-weight:600; }
+  .status.ok { background:rgba(85,201,138,.12); color:var(--ok); border:1px solid rgba(85,201,138,.4); }
+  .status.err { background:rgba(255,107,107,.1); color:var(--err); border:1px solid rgba(255,107,107,.4); }
+  ul.msgs { list-style:none; padding:0; margin:0 0 1rem; font-size:12.5px; }
+  ul.msgs li { padding:.28rem .5rem; border-radius:5px; margin-bottom:.25rem; display:flex; gap:.5rem; }
+  ul.msgs li.err { background:rgba(255,107,107,.09); color:#ffb0b0; }
+  ul.msgs li.warn { background:rgba(230,179,77,.09); color:#f0cf8c; }
+  ul.msgs li .tag { flex:0 0 auto; font-weight:700; }
+  pre.json { background:var(--field); border:1px solid var(--line); border-radius:8px;
+    padding:.8rem; margin:0; white-space:pre; overflow-x:auto; font-family:ui-monospace,monospace;
+    font-size:12.5px; line-height:1.45; color:#cdd6e4; }
+  .exportbar { display:flex; gap:.5rem; margin:.7rem 0; }
+  .lic-badge { font-size:11px; color:var(--muted); font-family:ui-monospace,monospace; }
+</style>
+</head>
+<body>
+
+<div class="col form">
+  <header>
+    <h1>图像挂接 · imagery linker</h1>
+    <span class="sub">export-only · one card = one images[] entry · <a href="symbol.html">symbol editor →</a></span>
+  </header>
+  <p class="hint">Link licensed images to a radical/referent. Each card becomes one entry in that
+    referent's <code>images[]</code> list (the <code>kangxi_radical_imagery</code> schema). The maintainer
+    downloads the file, drops it in, and merges the JSON. Attribution licenses <b>require</b> credit + source —
+    the gate on the right enforces it.</p>
+
+  <h2>referent</h2>
+  <div class="row">
+    <div class="grow0">
+      <label>slug <span class="req">*</span></label>
+      <input id="slug" list="known" style="width:11rem" placeholder="mountain" autocomplete="off">
+      <datalist id="known"></datalist>
+    </div>
+    <div>
+      <label>label <span class="req">*</span> <span class="hint">(display name; usually = slug)</span></label>
+      <input id="label" placeholder="mountain" autocomplete="off">
+    </div>
+  </div>
+  <p class="hint" id="existingNote"></p>
+
+  <h2>images</h2>
+  <div id="images"></div>
+  <button class="btn sm" onclick="addImage()">+ image</button>
+</div>
+
+<div class="col out">
+  <div class="status" id="status">—</div>
+  <ul class="msgs" id="msgs"></ul>
+  <label style="margin-top:.2rem">your contributor handle <span class="hint">— stamped as <code>_contributor</code>; maintainer strips it at merge</span></label>
+  <input id="contributor" placeholder="e.g. alice" autocomplete="off">
+  <div class="exportbar">
+    <button class="btn primary" id="copyBtn" onclick="copyJSON()">copy JSON</button>
+    <button class="btn" onclick="downloadJSON()">download <span class="filename" id="fname">referent.json</span></button>
+  </div>
+  <pre class="json" id="json">{}</pre>
+</div>
+
+<script>
+// license → canonical URL + whether it legally requires attribution (credit + source)
+const LICENSES = [
+  {label:'CC0',            url:'https://creativecommons.org/publicdomain/zero/1.0/', attr:false},
+  {label:'Public Domain',  url:'https://en.wikipedia.org/wiki/Public_domain',        attr:false},
+  {label:'CC BY 2.0',      url:'https://creativecommons.org/licenses/by/2.0/',       attr:true},
+  {label:'CC BY 3.0',      url:'https://creativecommons.org/licenses/by/3.0/',       attr:true},
+  {label:'CC BY 4.0',      url:'https://creativecommons.org/licenses/by/4.0/',       attr:true},
+  {label:'CC BY-SA 2.0',   url:'https://creativecommons.org/licenses/by-sa/2.0/',    attr:true},
+  {label:'CC BY-SA 2.5',   url:'https://creativecommons.org/licenses/by-sa/2.5/',    attr:true},
+  {label:'CC BY-SA 3.0',   url:'https://creativecommons.org/licenses/by-sa/3.0/',    attr:true},
+  {label:'CC BY-SA 4.0',   url:'https://creativecommons.org/licenses/by-sa/4.0/',    attr:true},
+  {label:'(other — enter URL)', url:'', attr:true},
+];
+const licOf = name => LICENSES.find(l => l.label === name);
+const isStr = v => typeof v === 'string' && v.trim() !== '';
+const today = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+// auto-suggest the stored filename: <slug>-NN.<ext>, ext sniffed from the source URL
+function suggestFile(idx) {
+  const slug = $('slug').value.trim() || 'img';
+  const cards = [...document.querySelectorAll('#images .card')];
+  const src = cards[idx]?.querySelector('.im-source')?.value || '';
+  const m = src.match(/\.(jpe?g|png|gif|webp|svg)(?:$|[?#])/i);
+  const ext = m ? m[1].toLowerCase().replace('jpeg','jpg') : 'jpg';
+  return `${slug}-${String(idx+1).padStart(2,'0')}.${ext}`;
+}
+
+function addImage(v={}) {
+  const opts = LICENSES.map(l=>`<option ${v.license===l.label?'selected':''}>${l.label}</option>`).join('');
+  const d = document.createElement('div'); d.className='card';
+  d.innerHTML = `
+    <div class="card-head"><span class="n">image</span>
+      <button class="btn sm danger" onclick="this.closest('.card').remove();renumber();render()">✕ remove</button></div>
+    <label>source URL <span class="req">*</span> <span class="hint">(the file/asset page, e.g. Wikimedia Commons)</span></label>
+    <input class="im-source" value="${esc(v.source||'')}" placeholder="https://commons.wikimedia.org/wiki/File:...">
+    <label>title <span class="hint">(the work's title / short description)</span></label>
+    <input class="im-title" value="${esc(v.title||'')}">
+    <div class="row">
+      <div><label>credit <span class="req">*</span> <span class="hint">(author / uploader)</span></label>
+        <input class="im-credit" value="${esc(v.credit||'')}"></div>
+      <div><label>license <span class="req">*</span></label>
+        <select class="im-license"><option value="">— pick —</option>${opts}</select></div>
+    </div>
+    <label>license URL <span class="lic-badge im-licbadge"></span></label>
+    <input class="im-licurl" value="${esc(v.license_url||'')}" placeholder="auto-filled from the license">
+    <div class="row">
+      <div class="grow0"><label>file <span class="hint">(stored name — auto)</span></label>
+        <input class="im-file" style="width:11rem" value="${esc(v.file||'')}"></div>
+      <div class="grow0"><label>retrieved</label><input class="im-retrieved" style="width:8rem" value="${esc(v.retrieved||today())}"></div>
+      <div><label>modified <span class="hint">(source's last-mod, optional)</span></label>
+        <input class="im-modified" value="${esc(v.modified||'')}"></div>
+    </div>
+    <label>notes <span class="hint">(what the image shows — helps the referent match)</span></label>
+    <textarea class="im-notes">${esc(v.notes||'')}</textarea>`;
+  $('images').appendChild(d);
+  const sel = d.querySelector('.im-license');
+  sel.addEventListener('change', () => {
+    const l = licOf(sel.value);
+    if (l && l.url) d.querySelector('.im-licurl').value = l.url;   // auto-fill; "(other)" leaves it manual
+    render();
+  });
+  wire(d); renumber(); render();
+}
+
+// keep the auto filenames in step with slug + ordering (only overwrite ones the
+// contributor hasn't hand-edited into something bespoke)
+function renumber() {
+  [...document.querySelectorAll('#images .card')].forEach((c,i)=>{
+    c.querySelector('.n').textContent = `image ${i+1}`;
+    const f = c.querySelector('.im-file');
+    if (!f.value.trim() || f.dataset.auto === f.value) { f.value = suggestFile(i); f.dataset.auto = f.value; }
+    const l = licOf(c.querySelector('.im-license').value);
+    c.querySelector('.im-licbadge').textContent = l ? (l.attr ? '· attribution required' : '· no attribution needed') : '';
+  });
+}
+
+function imageOf(card) {
+  const q = s => card.querySelector(s).value.trim();
+  // mirror mountain.json key order exactly; keep empty strings so merges are uniform
+  return { file:q('.im-file'), title:q('.im-title'), credit:q('.im-credit'),
+           license:q('.im-license'), license_url:q('.im-licurl'), source:q('.im-source'),
+           retrieved:q('.im-retrieved'), modified:q('.im-modified'), notes:q('.im-notes') };
+}
+
+function collect() {
+  const slug = $('slug').value.trim();
+  const images = [...document.querySelectorAll('#images .card')].map(imageOf);
+  const body = {}; // { [slug]: {label, images} }
+  const o = {};
+  const handle = $('contributor').value.trim();
+  if (handle) o._contributor = handle;
+  o[slug || '<slug>'] = { label: $('label').value.trim(), images };
+  return { slug, o };
+}
+
+function validate(slug, ref, images) {
+  const E=[], W=[]; const bad=new Set();
+  if (!isStr(slug)) E.push('referent slug is required');
+  else if (!/^[a-z0-9][a-z0-9_-]*$/.test(slug)) W.push(`slug ${JSON.stringify(slug)} isn't a clean lowercase kebab/underscore slug`);
+  if (!isStr(ref.label)) E.push('referent label is required');
+  if (!images.length) W.push('no images yet — add at least one');
+  images.forEach((im,i)=>{
+    const l = licOf(im.license); let cardBad=false;
+    if (!isStr(im.license)) { E.push(`image ${i+1}: license is required`); cardBad=true; }
+    if (!isStr(im.file)) { E.push(`image ${i+1}: file name is required`); cardBad=true; }
+    if (l && l.attr) {  // attribution licenses legally need credit + source + a license URL
+      if (!isStr(im.credit)) { E.push(`image ${i+1}: ${im.license} requires a credit`); cardBad=true; }
+      if (!isStr(im.source)) { E.push(`image ${i+1}: ${im.license} requires a source URL`); cardBad=true; }
+      if (!isStr(im.license_url)) { E.push(`image ${i+1}: ${im.license} needs a license URL`); cardBad=true; }
+    }
+    if (isStr(im.source) && !/^https?:\/\//i.test(im.source)) W.push(`image ${i+1}: source doesn't look like a URL`);
+    if (!isStr(im.title)) W.push(`image ${i+1}: no title (recommended)`);
+    if (cardBad) bad.add(i);
+  });
+  return { E, W, bad };
+}
+
+let LAST = {};
+function render() {
+  const { slug, o } = collect(); LAST = o;
+  const ref = o[slug || '<slug>'];
+  $('fname').textContent = (slug || 'referent') + '.json';
+  $('json').textContent = JSON.stringify(o, null, 2);
+  const { E, W, bad } = validate(slug, ref, ref.images);
+  [...document.querySelectorAll('#images .card')].forEach((c,i)=>c.classList.toggle('bad', bad.has(i)));
+  const st = $('status');
+  if (E.length) { st.className='status err'; st.textContent = `✗ ${E.length} error(s) — attribution/license incomplete`; }
+  else { st.className='status ok'; st.textContent = `✓ license metadata complete (${W.length} note(s))`; }
+  $('msgs').innerHTML = [
+    ...E.map(m=>`<li class="err"><span class="tag">ERR</span><span>${esc(m)}</span></li>`),
+    ...W.map(m=>`<li class="warn"><span class="tag">note</span><span>${esc(m)}</span></li>`),
+  ].join('');
+  $('copyBtn').disabled = E.length>0;
+}
+
+async function copyJSON() {
+  try { await navigator.clipboard.writeText(JSON.stringify(LAST,null,2)+'\n');
+    const b=$('copyBtn'); b.textContent='copied ✓'; setTimeout(()=>b.textContent='copy JSON',1200); }
+  catch(e){ alert('clipboard blocked — select the JSON manually'); }
+}
+function downloadJSON() {
+  const name = ($('slug').value.trim()||'referent')+'.json';
+  const blob = new Blob([JSON.stringify(LAST,null,2)+'\n'], {type:'application/json'});
+  const a = document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name;
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+function wire(root){ (root||document).querySelectorAll('input,select,textarea').forEach(el=>{
+  if (!el._wired){ el._wired=true; el.addEventListener('input',render); el.addEventListener('change',render); }
+}); }
+
+// slug edits should re-flow the auto filenames
+$('slug').addEventListener('input', () => { renumber(); });
+
+// convenience: offer the referents already in the repo as slug suggestions
+const KNOWN = ["fire","tree","water","mountain","sun","moon","eye","field","grain","fish","bird","horse"];
+$('known').innerHTML = KNOWN.map(k=>`<option value="${k}">`).join('');
+$('slug').addEventListener('change', () => {
+  if (!$('label').value.trim() && $('slug').value.trim()) $('label').value = $('slug').value.trim();
+  $('existingNote').textContent = KNOWN.includes($('slug').value.trim())
+    ? 'this referent already exists in referents.json — your images ADD to it (maintainer merges the list)' : '';
+  render();
+});
+
+// init
+$('contributor').value = localStorage.getItem('lp_contributor') || '';
+$('contributor').addEventListener('input', () => localStorage.setItem('lp_contributor', $('contributor').value.trim()));
+wire(document);
+addImage();
+render();
+</script>
+</body>
+</html>
