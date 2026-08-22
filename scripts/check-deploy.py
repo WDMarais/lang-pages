@@ -28,7 +28,8 @@ file — the actual cost of a 1000-file check against a small instance.
   HOST=localhost:8765 python3 scripts/check-deploy.py    # point at the dev server
 
 Env: HOST (default cn.wdmarais.dev), REF (default origin/main), JOBS (default 24).
-Exit: 0 all match · 1 drift found · 2 no tracked file matched the patterns.
+Exit: 0 all match (or only auth-gated paths, reported but unverifiable) · 1 drift
+found · 2 no tracked file matched the patterns.
 
 Ported from the original bash version, whose two bugs were both shell footguns:
 ls-tree does not accept glob pathspecs (so patterns are matched in-process), and
@@ -136,6 +137,11 @@ def probe(scheme, host, ref, item):
                 time.sleep(0.25)
                 continue
             return [f"MISSING    {path}  (HTTP 000)"]
+    # Auth-gated paths (the /author/ tool) challenge before nginx serves the file,
+    # so an unauthenticated fetch gets 401/403 whether the file is present or not.
+    # That is not drift: report it, but don't verify content and don't fail on it.
+    if code in (401, 403):
+        return [f"PROTECTED  {path}  (HTTP {code}, auth-gated -- content not verified)"]
     if code != 200:
         return [f"MISSING    {path}  (HTTP {code})"]
     problems = []
@@ -171,17 +177,21 @@ def main(argv):
     for line in sorted(problems):
         print(line)
     print()
-    # Two distinct fault classes, two distinct fixes: stale/missing bytes want a pull;
-    # an immutable mutable-asset wants the nginx config re-applied.
-    drift = [p for p in problems if not p.startswith("IMMUTABLE")]
+    # Three classes, three treatments: stale/missing bytes want a pull; an immutable
+    # mutable-asset wants the nginx config re-applied; PROTECTED is informational only
+    # (auth-gated, content unverifiable) and never a failure on its own.
+    protected = [p for p in problems if p.startswith("PROTECTED")]
+    drift = [p for p in problems if p.startswith("MISSING") or p.startswith("STALE")]
     cache = [p for p in problems if p.startswith("IMMUTABLE")]
+    if protected:
+        print(f"==> {len(protected)} file(s) auth-gated -- content not verified (not drift)")
     if drift:
         print(f"==> {len(drift)} file(s) drifted -- the box needs:")
         print("    cd /var/www/lang-pages && git pull --ff-only")
     if cache:
         print(f"==> {len(cache)} mutable asset(s) served `immutable` -- the box needs:")
         print("    cd /var/www/lang-pages && git pull --ff-only && bash scripts/apply-repo.sh")
-    return 1
+    return 1 if (drift or cache) else 0
 
 
 if __name__ == "__main__":
