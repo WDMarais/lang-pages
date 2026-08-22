@@ -61,7 +61,9 @@
   .legend { display:flex; flex-wrap:wrap; gap:.4rem .9rem; font-size:11.5px; color:var(--muted); margin:.1rem 0 .5rem; }
   .legend b { color:var(--ink); font-weight:600; }
   .swatch { display:inline-block; width:.7rem; height:.7rem; border-radius:3px; vertical-align:-1px; margin-right:.25rem; border:1px solid var(--line); }
-  .sw-has { background:rgba(85,201,138,.85); } .sw-need { background:rgba(230,179,77,.85); } .sw-noimg { background:var(--panel2); }
+  .sw-has { background:rgba(85,201,138,.85); }
+  .sw-need { background:var(--panel2); }
+  .sw-noimg { background:transparent; border-style:dashed; opacity:.6; }
   #filter { margin-bottom:.5rem; }
   .grid { display:flex; flex-wrap:wrap; gap:.3rem; max-height:44vh; overflow-y:auto; padding:.35rem;
     border:1px solid var(--line); border-radius:8px; background:var(--field); }
@@ -70,15 +72,19 @@
   .chip:hover { border-color:var(--accent); }
   .chip .g { font-size:19px; line-height:1.15; }
   .chip .m { font-size:10px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .chip .rep { font-size:8.5px; font-style:italic; color:var(--muted); line-height:1.1;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .chip .num { position:absolute; top:1px; left:3px; font-size:8px; color:var(--muted); }
   .chip .cnt { position:absolute; top:1px; right:2px; font-size:8px; font-weight:700; color:#08121c;
     background:var(--ok); border-radius:6px; padding:0 3px; }
-  .chip.has { border-color:rgba(85,201,138,.55); background:rgba(85,201,138,.12); }
+  /* Informational, not instructional. green = HAS imagery (a fact: present, with a
+     count). A plain chip = an image referent with none yet — the neutral baseline,
+     deliberately unstyled so it reads as "nothing here" not "warning, act on this".
+     A dim dashed chip = NOT an image referent; its real modality is printed on it. */
+  .chip.has { border-color:rgba(85,201,138,.5); background:rgba(85,201,138,.10); }
   .chip.has .g { color:var(--ok); }
-  .chip.need { border-color:rgba(230,179,77,.5); background:rgba(230,179,77,.1); }
-  .chip.need .g { color:var(--warn); }
-  .chip.noimg { opacity:.5; }
-  .chip.sel { outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); }
+  .chip.noimg { opacity:.45; border-style:dashed; }
+  .chip.sel { outline:2px solid var(--accent); outline-offset:1px; border-color:var(--accent); opacity:1; }
 </style>
 </head>
 <body>
@@ -94,10 +100,10 @@
     the gate on the right enforces it.</p>
 
   <h2>worklist · pick a radical</h2>
-  <p class="hint">The canonical 214 Kangxi radicals, shaded by coverage. Pick one to attach imagery to it —
-    <span style="color:var(--ok)">green</span> already has images, <span style="color:var(--warn)">amber</span>
-    still needs them, and dim ones aren't anchored by an image at all (they get sound / sentence / diagram later,
-    not a photo).</p>
+  <p class="hint">The canonical 214 Kangxi radicals. The shading states a fact, not a to-do:
+    <span style="color:var(--ok)">green</span> = already has imagery (with a count); a plain chip = an image
+    referent with none yet; a dim dashed chip = not an image referent at all — it's anchored by
+    diagram / sound / sentence instead (printed on the chip). Pick any to attach imagery.</p>
   <div class="legend" id="legend"></div>
   <input id="filter" placeholder="filter by meaning / glyph / №" autocomplete="off">
   <div class="grid" id="grid"><p class="hint" style="padding:.4rem 0">loading worklist…</p></div>
@@ -309,18 +315,22 @@ function buildGrid(q='') {
       r.meaning.toLowerCase().includes(q) || r.glyph === q || String(r.num) === q)
     .map(r => {
       const st = repState(r);
+      const reps = r.representations || [];
       const cnt = st==='has' && IMG_COUNT[r.meaning] ? `<span class="cnt">${IMG_COUNT[r.meaning]}</span>` : '';
+      // on a non-image referent, print its actual modality so the dim chip is
+      // informative ("this is a diagram/sound referent") rather than just "excluded"
+      const rep = st==='noimg' ? `<div class="rep">${esc(reps.join('/'))}</div>` : '';
       return `<div class="chip ${st}${r.meaning===sel?' sel':''}" data-meaning="${esc(r.meaning)}"
-        title="№${r.num} ${esc(r.meaning)} · ${esc((r.representations||[]).join(', '))}">
+        title="№${r.num} ${esc(r.meaning)} · ${esc(reps.join(', '))}">
         <span class="num">${r.num}</span>${cnt}
-        <div class="g">${esc(r.glyph)}</div><div class="m">${esc(r.meaning)}</div></div>`;
+        <div class="g">${esc(r.glyph)}</div><div class="m">${esc(r.meaning)}</div>${rep}</div>`;
     }).join('');
   $('grid').innerHTML = chips || '<p class="hint" style="padding:.4rem 0">no radical matches that filter.</p>';
   const all = RADICALS.reduce((a,r)=>{ a[repState(r)]++; return a; }, {has:0,need:0,noimg:0});
   $('legend').innerHTML =
     `<span><span class="swatch sw-has"></span>has imagery <b>${all.has}</b></span>`+
-    `<span><span class="swatch sw-need"></span>needs imagery <b>${all.need}</b></span>`+
-    `<span><span class="swatch sw-noimg"></span>not an image job <b>${all.noimg}</b></span>`;
+    `<span><span class="swatch sw-need"></span>image referent, none yet <b>${all.need}</b></span>`+
+    `<span><span class="swatch sw-noimg"></span>not an image referent <b>${all.noimg}</b></span>`;
 }
 
 function updateNotes(meaning) {
