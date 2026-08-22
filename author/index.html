@@ -57,6 +57,12 @@
     font-size:12.5px; line-height:1.45; color:#cdd6e4; }
   .exportbar { display:flex; gap:.5rem; margin:.7rem 0; }
   .lic-badge { font-size:11px; color:var(--muted); font-family:ui-monospace,monospace; }
+  /* preview-only image (never exported): checkerboard ground reveals transparency */
+  .im-prevwrap { margin:.4rem 0 .1rem; min-height:0; }
+  .im-previmg { max-width:100%; max-height:180px; border:1px solid var(--line); border-radius:6px;
+    background:repeating-conic-gradient(#2a2f3a 0% 25%, #222630 0% 50%) 50% / 16px 16px; display:block; }
+  .prev-msg { display:inline-block; margin-top:.15rem; }
+  .prev-err { color:var(--warn); }
   /* worklist grid — the 214 radicals, shaded by imagery coverage */
   .legend { display:flex; flex-wrap:wrap; gap:.4rem .9rem; font-size:11.5px; color:var(--muted); margin:.1rem 0 .5rem; }
   .legend b { color:var(--ink); font-weight:600; }
@@ -178,6 +184,9 @@ function addImage(v={}) {
       <button class="btn sm danger" onclick="this.closest('.card').remove();renumber();render()">✕ remove</button></div>
     <label>source URL <span class="req">*</span> <span class="hint">(the file/asset page, e.g. Wikimedia Commons)</span></label>
     <input class="im-source" value="${esc(v.source||'')}" placeholder="https://commons.wikimedia.org/wiki/File:...">
+    <label>preview <span class="hint">(direct image URL — shown here only, never saved; a direct <code>source</code> auto-fills it)</span></label>
+    <input class="im-preview" value="${esc(v._preview||'')}" placeholder="https://upload.wikimedia.org/.../File.jpg">
+    <div class="im-prevwrap"></div>
     <label>title <span class="hint">(the work's title / short description)</span></label>
     <input class="im-title" value="${esc(v.title||'')}">
     <div class="row">
@@ -203,6 +212,23 @@ function addImage(v={}) {
     const l = licOf(sel.value);
     if (l && l.url) d.querySelector('.im-licurl').value = l.url;   // auto-fill; "(other)" leaves it manual
     render();
+  });
+  // preview-only image: renders whatever direct URL is in .im-preview; never collected into the JSON
+  const prev = d.querySelector('.im-preview'), wrap = d.querySelector('.im-prevwrap'), srcIn = d.querySelector('.im-source');
+  const looksImage = u => /\.(jpe?g|png|gif|webp|svg)(?:$|[?#])/i.test(u);
+  function showPreview() {
+    const url = prev.value.trim();
+    if (!url) { wrap.innerHTML = ''; return; }
+    wrap.innerHTML = `<img class="im-previmg" alt="preview"><span class="hint prev-msg">loading…</span>`;
+    const img = wrap.querySelector('img'), msg = wrap.querySelector('.prev-msg');
+    img.onload = () => msg.remove();
+    img.onerror = () => { wrap.innerHTML = '<span class="hint prev-err prev-msg">couldn’t load — is it a direct image link (ends in .jpg/.png/…), not an asset page?</span>'; };
+    img.src = url;   // set last, after handlers, so a cached hit still fires onload
+  }
+  prev.addEventListener('input', showPreview);
+  srcIn.addEventListener('input', () => {   // convenience: a direct-image source mirrors into an empty preview
+    const s = srcIn.value.trim();
+    if (!prev.value.trim() && looksImage(s)) { prev.value = s; showPreview(); }
   });
   wire(d); renumber(); render();
 }
