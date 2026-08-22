@@ -35,6 +35,7 @@ CLASSES = {"char", "comp", "stroke"}
 AUDIENCES = {"cn", "jp"}
 KINDS = {"meaning", "mnemonic"}
 KANGXI_MAX = 214
+REPRESENTATIONS = {"image", "sound", "motion", "scene", "sentence", "diagram"}
 
 
 class Report:
@@ -275,6 +276,30 @@ def check_grounding(syms):
     return grounded, len(universe)
 
 
+def check_kangxi(rep):
+    """The 214-radical spine (data/kangxi.json). build-pages projects it into the
+    /kangxi/ deck; the /author/ imagery worklist reads it live to shade coverage.
+    Validate the authored `representations` set — a typed modality declaration
+    (image·sound·motion·scene·sentence·diagram) the tool trusts to route non-image
+    referents away from the photo form. A missing, empty, or off-vocab list would
+    mis-shade the worklist (a radical silently un-clickable, or a photo solicited for
+    something that can't have one), so it fails HERE rather than at the tool."""
+    path = DATA / "kangxi.json"
+    if not path.exists():
+        return
+    for r in json.loads(path.read_text(encoding="utf-8")).get("radicals", []):
+        where = f"kangxi.json #{r.get('num')} {r.get('glyph', '?')}"
+        reps = r.get("representations")
+        if not isinstance(reps, list) or not reps:
+            rep.err(where, "representations must be a non-empty list")
+            continue
+        bad = [t for t in reps if t not in REPRESENTATIONS]
+        if bad:
+            rep.err(where, f"representations {bad} not in {sorted(REPRESENTATIONS)}")
+        if len(set(reps)) != len(reps):
+            rep.err(where, f"representations has duplicate tags: {reps}")
+
+
 def check_cross(rep, syms):
     """Invariants across the whole set, not any single file."""
     by_kangxi = {}
@@ -332,6 +357,7 @@ def main():
         check_symbol(rep, g, s)
     check_words(rep, syms)
     check_cross(rep, syms)
+    check_kangxi(rep)
 
     for where, msg in rep.warns:
         print(f"⚠  {where}: {msg}")
