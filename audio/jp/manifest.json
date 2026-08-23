@@ -83,6 +83,10 @@
     "text": "チュウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "chuushi.mp3": {
+    "text": "ちゅうし",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "dai.mp3": {
     "text": "ダイ",
     "voice": "ja-JP-NanamiNeural"
@@ -851,6 +855,10 @@
     "text": "ショウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "shoujo.mp3": {
+    "text": "しょうじょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "shu.mp3": {
     "text": "シュ",
     "voice": "ja-JP-NanamiNeural"
@@ -885,6 +893,10 @@
   },
   "suki.mp3": {
     "text": "すき",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sukoshi.mp3": {
+    "text": "すこし",
     "voice": "ja-JP-NanamiNeural"
   },
   "sukunai.mp3": {
@@ -965,6 +977,10 @@
   },
   "toku.mp3": {
     "text": "とく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tomeru.mp3": {
+    "text": "とめる",
     "voice": "ja-JP-NanamiNeural"
   },
   "tomo.mp3": {

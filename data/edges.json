@@ -158,6 +158,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:字",
+      "to": "r:character",
+      "kind": "denotes"
+    },
+    {
       "from": "g:七",
       "to": "r:seven",
       "kind": "denotes"
@@ -2292,6 +2297,11 @@
     {
       "from": "g:一",
       "to": "g:子",
+      "kind": "composes"
+    },
+    {
+      "from": "g:宀",
+      "to": "g:字",
       "kind": "composes"
     },
     {
@@ -7259,6 +7269,76 @@
     {
       "from": "w:大人しい@jp",
       "to": "r:docile",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:太",
+      "to": "w:太い@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:太い@jp",
+      "to": "r:thick",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:少",
+      "to": "w:少し@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:少し@jp",
+      "to": "r:a-little",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:少",
+      "to": "w:少ない@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:少ない@jp",
+      "to": "r:few",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:止",
+      "to": "w:止める@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:止める@jp",
+      "to": "r:stop",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:中止@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:止",
+      "to": "w:中止@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:中止@jp",
+      "to": "r:cancellation",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:少",
+      "to": "w:少女@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:女",
+      "to": "w:少女@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:少女@jp",
+      "to": "r:girl",
       "kind": "denotes"
     },
     {

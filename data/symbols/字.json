@@ -1,0 +1,51 @@
+{
+  "glyph": "字",
+  "cp": "U+5B57",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "宀",
+    "子"
+  ],
+  "readings": {
+    "cn": {
+      "name": "字",
+      "reading": "zì",
+      "gloss": "character; written word",
+      "extra": "宀 + 子 · 汉字、名字、写字、字典"
+    },
+    "jp": {
+      "name": "字",
+      "reading": "じ",
+      "gloss": "letter; character",
+      "extra": "漢字「字」(ジ · あざ) · 漢字(かんじ)、文字(もじ)、数字(すうじ)、名字(みょうじ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Letter",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Letter",
+      "readings": [
+        "ジ"
+      ],
+      "on": true,
+      "kun": [
+        "あざ"
+      ],
+      "level": 3
+    }
+  ]
+}

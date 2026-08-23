@@ -371,8 +371,19 @@
       "id": "g:字",
       "kind": "glyph",
       "glyph": "字",
-      "tier": null,
-      "frontier": true
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zi4",
+      "jpAudioKey": "ji"
+    },
+    {
+      "id": "r:character",
+      "kind": "referent",
+      "label": "character; written word"
     },
     {
       "id": "g:七",
@@ -10770,6 +10781,115 @@
       "id": "r:docile",
       "kind": "referent",
       "label": "quiet; docile; gentle; well-behaved"
+    },
+    {
+      "id": "w:太い@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "太い",
+      "reading": "ふとい",
+      "gloss": "thick; fat; plump",
+      "okurigana": "い",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "futoi"
+    },
+    {
+      "id": "r:thick",
+      "kind": "referent",
+      "label": "thick; fat; plump"
+    },
+    {
+      "id": "w:少し@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "少し",
+      "reading": "すこし",
+      "gloss": "a little; slightly; a few",
+      "okurigana": "し",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "sukoshi"
+    },
+    {
+      "id": "r:a-little",
+      "kind": "referent",
+      "label": "a little; slightly; a few"
+    },
+    {
+      "id": "w:少ない@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "少ない",
+      "reading": "すくない",
+      "gloss": "few; scarce; little (in number)",
+      "okurigana": "ない",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "sukunai"
+    },
+    {
+      "id": "w:止める@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "止める",
+      "reading": "とめる",
+      "gloss": "to stop; halt; turn off (transitive)",
+      "okurigana": "める",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "tomeru"
+    },
+    {
+      "id": "w:中止@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "中止",
+      "reading": "ちゅうし",
+      "gloss": "cancellation; suspension; calling off",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "chuushi"
+    },
+    {
+      "id": "r:cancellation",
+      "kind": "referent",
+      "label": "cancellation; suspension; calling off"
+    },
+    {
+      "id": "w:少女@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "少女",
+      "reading": "しょうじょ",
+      "gloss": "girl; young lady",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "shoujo"
     }
   ]
 }
