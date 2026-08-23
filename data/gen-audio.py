@@ -15,8 +15,8 @@ reading is voiced once and every glyph that uses it shares the clip:
     ground a confusable cluster. A sentence has no short canonical spelling, so it is
     keyed by a digest of its text (phonetics.sentence_key); same content-keyed rule.
   - kana:    /audio/kana/<romaji>.mp3, the fixed mora board (/kana/).
-  - xi-zhuang: cards.json lists each clip per voice; we synthesize the four synthetic
-    voices and leave the 录音 human recording alone.
+  - xi-zhuang / cha-cai: bespoke lessons whose cards.json lists each clip per voice; we
+    synthesize the four synthetic voices and leave any 录音 human recording alone.
 cards3.js resolves each card to these banks by the keys build-pages stamps (cnSrc/
 jpSrc), so there are no per-page, slug-keyed audio buckets to 404 or orphan.
 
@@ -27,8 +27,8 @@ not skipped. Clips predating the manifest are adopted.
 
 Run:  python3 data/gen-audio.py [cn-bank|jp-bank|sent-bank|kana|xi-zhuang|all] [--dry-run] [--prune]
       --prune deletes clips in a bank that no card references, keeping the committed
-      bank in sync with the projected set. xi-zhuang is never pruned — its dir holds
-      the human 录音 recording.
+      bank in sync with the projected set. Bespoke lessons (xi-zhuang, cha-cai) are
+      never pruned — their dirs may hold a human 录音 recording that is not a job.
 Requires: uv tool install edge-tts
 """
 import subprocess
@@ -60,8 +60,9 @@ XZ_VOICES = {
 Job = namedtuple("Job", "voice text outfile")
 
 
-def xizhuang_jobs(path):
-    """xi-zhuang: one clip per (example sentence × synthetic voice), from the manifest."""
+def lesson_jobs(path):
+    """Bespoke lesson (xi-zhuang, cha-cai): one clip per (example sentence × synthetic
+    voice), read from the lesson's cards.json. 录音, if present, is human — never a job."""
     base = path.parent
     d = read_json(path)
     jobs = []
@@ -191,7 +192,8 @@ MODULES = {
     "jp-bank": jp_bank_jobs,
     "sent-bank": sent_bank_jobs,
     "kana": kana_jobs,
-    "xi-zhuang": lambda: xizhuang_jobs(ROOT / "xi-zhuang/cards.json"),
+    "xi-zhuang": lambda: lesson_jobs(ROOT / "xi-zhuang/cards.json"),
+    "cha-cai": lambda: lesson_jobs(ROOT / "cha-cai/cards.json"),
 }
 
 
@@ -265,8 +267,9 @@ def run(jobs, dry_run):
 
 
 # Buckets gen-audio fully owns, so an unreferenced file there is safe to delete.
-# xi-zhuang is excluded: its audio dir also holds the human 录音 recording, which
-# is never a synthesized job and must never be pruned.
+# Bespoke lessons (xi-zhuang, cha-cai) are excluded as a class: lesson_jobs skips 录音,
+# so a human recording in the dir is never a referenced job — a prune would delete it.
+# A lesson may hold (or later gain) such a recording, so its dir is never fully owned.
 PRUNABLE = {"cn-bank", "jp-bank", "sent-bank", "kana"}
 
 

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>炒菜 · 宫保鸡丁</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="cha-cai.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">下厨房 · 自学指南</div>
+  <svg class="cover-suit" viewBox="0 0 120 96" xmlns="http://www.w3.org/2000/svg">
+    <!-- steam -->
+    <path d="M50,20 q-5,-8 0,-15" fill="none" stroke="#B8963E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <path d="M62,18 q-5,-9 0,-16" fill="none" stroke="#B8963E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <path d="M74,20 q-5,-8 0,-15" fill="none" stroke="#B8963E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <!-- wok body -->
+    <path d="M20,40 Q60,96 100,40 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="1.5"/>
+    <ellipse cx="60" cy="40" rx="40" ry="9" fill="#364E80" stroke="#B8963E" stroke-width="1"/>
+    <!-- handle -->
+    <rect x="98" y="37" width="20" height="5" rx="2.5" fill="#1A2235"/>
+    <!-- diced chicken + peanuts + chili in the wok -->
+    <rect x="46" y="38" width="8" height="8" rx="1.5" fill="#E8D9B0" transform="rotate(12 50 42)"/>
+    <rect x="60" y="40" width="8" height="8" rx="1.5" fill="#E8D9B0" transform="rotate(-8 64 44)"/>
+    <rect x="70" y="37" width="7" height="7" rx="1.5" fill="#D9C79A" transform="rotate(20 73 40)"/>
+    <path d="M40,44 q6,4 12,0" fill="none" stroke="#C41E3A" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="56" cy="47" r="2.2" fill="#B8963E"/>
+    <circle cx="72" cy="46" r="2.2" fill="#B8963E"/>
+  </svg>
+  <div class="cover-title">宫保鸡丁</div>
+  <div class="cover-py">gōng bǎo jī dīng</div>
+  <div class="cover-sub">照着菜谱，热锅倒油，一边炒一边尝</div>
+  <div class="cover-meta"><span class="en">Cooking a Dish · Study Companion · 2026</span><span class="zh-alt">下厨房 · 学习指南 · 2026</span></div>
+</header>
+
+
+<!-- ── 1. The process ───────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Method</span><span class="zh-alt">做法流程</span></div>
+    <h2>从备料到出锅</h2>
+    <div class="sec-rule"></div>
+
+    <div class="flow">
+      <div class="flow-row">
+        <div class="flow-step accent">
+          <div class="fh">备料</div>
+          <div class="fpy">bèi liào</div>
+          <div class="fe"><span class="en">prep ingredients</span><span class="zh-alt">准备材料</span></div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="fh">热锅</div>
+          <div class="fpy">rè guō</div>
+          <div class="fe"><span class="en">heat the wok</span><span class="zh-alt">把锅烧热</span></div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step accent">
+          <div class="fh">爆香</div>
+          <div class="fpy">bào xiāng</div>
+          <div class="fe"><span class="en">fry aromatics</span><span class="zh-alt">葱姜蒜下锅</span></div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="fh">下鸡丁</div>
+          <div class="fpy">xià jī dīng</div>
+          <div class="fe"><span class="en">add the chicken</span><span class="zh-alt">放入鸡丁</span></div>
+        </div>
+      </div>
+      <div class="flow-turn">↓</div>
+      <div class="flow-row flow-row-rtl">
+        <div class="flow-step done">
+          <div class="fh">出锅</div>
+          <div class="fpy">chū guō</div>
+          <div class="fe"><span class="en">plate it ✓</span><span class="zh-alt">装盘 ✓</span></div>
+        </div>
+        <div class="flow-arrow">←</div>
+        <div class="flow-step accent">
+          <div class="fh">尝味</div>
+          <div class="fpy">cháng wèi</div>
+          <div class="fe"><span class="en">taste &amp; adjust</span><span class="zh-alt">尝咸淡</span></div>
+        </div>
+        <div class="flow-arrow">←</div>
+        <div class="flow-step">
+          <div class="fh">放调料</div>
+          <div class="fpy">fàng tiáoliào</div>
+          <div class="fe"><span class="en">add seasoning</span><span class="zh-alt">盐糖酱油醋</span></div>
+        </div>
+        <div class="flow-arrow">←</div>
+        <div class="flow-step">
+          <div class="fh">大火炒</div>
+          <div class="fpy">dà huǒ chǎo</div>
+          <div class="fe"><span class="en">stir-fry hot</span><span class="zh-alt">大火快炒</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 2. The recipe frame ──────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Dish</span><span class="zh-alt">这道菜</span></div>
+    <h2>菜谱与主料</h2>
+    <div class="sec-rule"></div>
+
+    <div class="grid grid-2" id="cards-recipe"></div>
+  </div>
+</section>
+
+
+<!-- ── 3. Aromatics ─────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Aromatics — 葱 · 姜 · 蒜 · 辣椒</span><span class="zh-alt">香料——葱姜蒜与辣椒</span></div>
+    <h2>爆香的四样</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">Fried in hot oil first to release their fragrance — the base of the dish.</span><span class="zh-alt">先在热油里爆香，是这道菜的底味。</span></p>
+
+    <div class="grid" id="cards-aromatics"></div>
+  </div>
+</section>
+
+
+<!-- ── 4. Seasoning shelf ───────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Seasoning Shelf — 调料</span><span class="zh-alt">调料台</span></div>
+    <h2>调味的七样</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">调料 is the category word; salt→咸, sugar→甜, vinegar→酸 give the taste axes.</span><span class="zh-alt">「调料」是统称；盐给咸、糖给甜、醋给酸。</span></p>
+
+    <div class="grid" id="cards-seasoning"></div>
+  </div>
+</section>
+
+
+<!-- ── 5. The wok work ──────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Verbs — at the wok</span><span class="zh-alt">做法动词</span></div>
+    <h2>锅 · 炒 · 放 · 等 · 尝</h2>
+    <div class="sec-rule"></div>
+
+    <div class="grid" id="cards-actions"></div>
+  </div>
+</section>
+
+
+<!-- ── 6. Passage ───────────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Put it together</span><span class="zh-alt">连起来读</span></div>
+    <h2>照着菜谱做一遍</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.82rem;margin-bottom:1.25rem"><span class="en">Every new word chained into one recipe — hover an underlined word for its gloss.</span><span class="zh-alt">生词串成一份菜谱——悬停下划线的词看注释。</span></p>
+
+    <div class="passage" style="max-width:700px">
+      <p>
+        今天我照着<span class="hl" data-t="recipe">菜谱</span>做<span class="hl" data-t="Kung Pao chicken">宫保鸡丁</span>。先把鸡肉切成<span class="hl" data-t="diced chicken">鸡丁</span>，用<span class="hl" data-t="yellow rice wine">黄酒</span>和<span class="hl" data-t="ginger">姜</span>腌一下去腥；再把<span class="hl" data-t="scallion">葱</span>、姜、<span class="hl" data-t="garlic">蒜</span>切好，干<span class="hl" data-t="chili pepper">辣椒</span>剪成小段。
+      </p>
+      <p>
+        <span class="hl" data-t="wok">锅</span>烧热倒油，先下葱姜蒜和辣椒<span class="hl" data-t="fry until fragrant">爆香</span>，然后<span class="hl" data-t="put in / add">放</span>鸡丁，大火快<span class="hl" data-t="stir-fry">炒</span>。我<span class="hl" data-t="A while B (一边…一边…)">一边</span>炒一边<span class="hl" data-t="taste-check">尝</span>，觉得味道还不够，就加<span class="hl" data-t="seasonings">调料</span>：一点<span class="hl" data-t="salt">盐</span>、一点<span class="hl" data-t="sugar">糖</span>、一勺<span class="hl" data-t="soy sauce">酱油</span>、几滴<span class="hl" data-t="vinegar">醋</span>。
+      </p>
+      <p>
+        <span class="hl" data-t="wait">等</span>汤汁收得差不多，最后放炸好的<span class="hl" data-t="shelled peanuts">花生米</span>，翻两下就可以出锅了。尝一口，又辣又香，和菜谱上说的一样。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 7. Comprehension questions ───────────────── -->
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Reflect</span><span class="zh-alt">复习</span></div>
+    <h2>阅读理解</h2>
+    <div class="sec-rule"></div>
+
+    <div class="pullquote">
+      <span class="en">Having cooked the dish once on paper, these should come without looking anything up.</span><span class="zh-alt">纸上做过一遍以后，这些问题应能自然作答，无需查阅。</span>
+    </div>
+
+    <ol class="qlist">
+      <li class="qitem">
+        <div class="qzh">做鸡丁以前，为什么要用黄酒和姜腌一下？</div>
+        <div class="qpy">Zuò jīdīng yǐqián, wèishénme yào yòng huángjiǔ hé jiāng yān yíxià?</div>
+        <div class="qhint">想想「去腥」——黄酒和姜有什么共同作用？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">葱、姜、蒜和辣椒是什么时候下锅的？这一步叫什么？</div>
+        <div class="qpy">Cōng, jiāng, suàn hé làjiāo shì shénme shíhou xià guō de?</div>
+        <div class="qhint">在放鸡丁之前还是之后？原文用了哪个两字词（bào…）？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">这道菜一共放了哪几种调料？各是什么味道？</div>
+        <div class="qpy">Zhè dào cài yígòng fàng le nǎ jǐ zhǒng tiáoliào?</div>
+        <div class="qhint">数一数：盐、糖、酱油、醋——咸、甜、酸各由谁给出？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">「一边炒一边尝」是什么意思？炒菜的时候为什么要这样做？</div>
+        <div class="qpy">"Yìbiān chǎo yìbiān cháng" shì shénme yìsi?</div>
+        <div class="qhint">两个动作同时进行——为什么要随时尝味道？（味道能调整）</div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+
+<footer>
+  <div>炒菜 · 宫保鸡丁</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="cha-cai.js"></script>
+</body>
+</html>

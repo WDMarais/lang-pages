@@ -1,0 +1,409 @@
+{
+  "recipe": [
+    {
+      "slug": "caipu",
+      "hanzi": "菜谱",
+      "pinyin": "càipǔ",
+      "meaning": "recipe / cookbook",
+      "meaning_zh": "写着菜的做法和用料的说明",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "我照着菜谱学做宫保鸡丁，第一步先把材料准备好。",
+          "en": "Following the recipe, I'm learning to make Kung Pao chicken — step one is to prep all the ingredients.",
+          "audio": {
+            "晓晓": "audio/caipu-xiaoxiao.mp3",
+            "晓伊": "audio/caipu-xiaoyi.mp3",
+            "云扬": "audio/caipu-yunyang.mp3",
+            "云希": "audio/caipu-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「谱」本义是按类别编排的表册（乐谱、家谱、棋谱），菜谱即「做菜的谱」，口语也说「食谱」。动词搭配：照着菜谱做／看菜谱。别跟「菜单」(càidān, 点菜用的 menu) 混——菜谱教你做，菜单给你点。"
+    },
+    {
+      "slug": "jiding",
+      "hanzi": "鸡丁",
+      "pinyin": "jīdīng",
+      "meaning": "diced chicken (small cubes)",
+      "meaning_zh": "切成小方块的鸡肉",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "先把鸡肉切成小块，这样的小方块就叫鸡丁。",
+          "en": "First cut the chicken into small pieces — these little cubes are called jīdīng.",
+          "audio": {
+            "晓晓": "audio/jiding-xiaoxiao.mp3",
+            "晓伊": "audio/jiding-xiaoyi.mp3",
+            "云扬": "audio/jiding-yunyang.mp3",
+            "云希": "audio/jiding-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「丁」指切成的小立方块，是形状词：鸡丁、肉丁、黄瓜丁。比「块」(kuài, 更大、不规则) 小而方正。「宫保鸡丁」的主料正是这种鸡丁。"
+    }
+  ],
+  "aromatics": [
+    {
+      "slug": "lajiao",
+      "hanzi": "辣椒",
+      "pinyin": "làjiāo",
+      "meaning": "chili pepper",
+      "meaning_zh": "又红又辣的调味果实",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "宫保鸡丁要放干辣椒，吃起来又辣又香。",
+          "en": "Kung Pao chicken calls for dried chili — spicy and fragrant.",
+          "audio": {
+            "晓晓": "audio/lajiao-xiaoxiao.mp3",
+            "晓伊": "audio/lajiao-xiaoyi.mp3",
+            "云扬": "audio/lajiao-yunyang.mp3",
+            "云希": "audio/lajiao-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「椒」是形声字，泛指辛辣的果实：辣椒、花椒(huājiāo, 麻的那种)、胡椒(hújiāo, black pepper)。干辣椒(辣) vs 青椒(qīngjiāo, 当菜吃、不辣)。宫保鸡丁常用干辣椒段加花椒。"
+    },
+    {
+      "slug": "cong",
+      "hanzi": "葱",
+      "pinyin": "cōng",
+      "meaning": "scallion / green onion",
+      "meaning_zh": "长条、绿色、味冲的香料菜",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "把葱切成小段，和姜、蒜一起下锅爆香。",
+          "en": "Cut the scallion into short segments and fry it with ginger and garlic to release the aroma.",
+          "audio": {
+            "晓晓": "audio/cong-xiaoxiao.mp3",
+            "晓伊": "audio/cong-xiaoyi.mp3",
+            "云扬": "audio/cong-yunyang.mp3",
+            "云希": "audio/cong-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "家常「三大香料」之首：葱、姜、蒜(cōng jiāng suàn)常连用。大葱(北方、粗) vs 小葱／香葱(细)。葱花＝切碎的葱。爆香(bàoxiāng)＝热油里快炒出香味。"
+    },
+    {
+      "slug": "jiang",
+      "hanzi": "姜",
+      "pinyin": "jiāng",
+      "meaning": "ginger",
+      "meaning_zh": "黄褐色、味辛的根状香料",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "姜要去皮切片，去腥提味。",
+          "en": "The ginger should be peeled and sliced — it removes the gamey smell and lifts the flavor.",
+          "audio": {
+            "晓晓": "audio/jiang-xiaoxiao.mp3",
+            "晓伊": "audio/jiang-xiaoyi.mp3",
+            "云扬": "audio/jiang-yunyang.mp3",
+            "云希": "audio/jiang-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "生姜(shēngjiāng)。切片／切丝／切末。去腥(qùxīng)＝去掉肉腥味，姜和黄酒都有这个作用。俗语「姜还是老的辣」＝越有经验越厉害。"
+    },
+    {
+      "slug": "suan",
+      "hanzi": "蒜",
+      "pinyin": "suàn",
+      "meaning": "garlic",
+      "meaning_zh": "一瓣一瓣、味冲的白色香料",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "蒜拍碎以后，味道更容易出来。",
+          "en": "Garlic releases its flavor more easily once it's crushed.",
+          "audio": {
+            "晓晓": "audio/suan-xiaoxiao.mp3",
+            "晓伊": "audio/suan-xiaoyi.mp3",
+            "云扬": "audio/suan-yunyang.mp3",
+            "云希": "audio/suan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "大蒜(dàsuàn)整头，一瓣叫蒜瓣(suànbàn)。拍蒜(pāi)＝用刀面压碎；蒜末／蒜泥。同音字：别跟「算」(suàn, to calculate) 混。"
+    }
+  ],
+  "seasoning": [
+    {
+      "slug": "tiaoliao",
+      "hanzi": "调料",
+      "pinyin": "tiáoliào",
+      "meaning": "seasoning / condiment",
+      "meaning_zh": "用来调味的各种作料",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "盐、糖、酱油、醋都是常用的调料。",
+          "en": "Salt, sugar, soy sauce, and vinegar are all common seasonings.",
+          "audio": {
+            "晓晓": "audio/tiaoliao-xiaoxiao.mp3",
+            "晓伊": "audio/tiaoliao-xiaoyi.mp3",
+            "云扬": "audio/tiaoliao-yunyang.mp3",
+            "云希": "audio/tiaoliao-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「调」在这里读 tiáo(调味、调和)，不读 diào(调查、声调)——多音字。近义「作料」(zuóliao, 更口语)。调料是统称，下面的盐、糖、醋等是具体的。"
+    },
+    {
+      "slug": "yan",
+      "hanzi": "盐",
+      "pinyin": "yán",
+      "meaning": "salt",
+      "meaning_zh": "咸味的白色调料",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "快好的时候放一点盐，别放太多。",
+          "en": "Add a little salt near the end — not too much.",
+          "audio": {
+            "晓晓": "audio/yan-xiaoxiao.mp3",
+            "晓伊": "audio/yan-xiaoyi.mp3",
+            "云扬": "audio/yan-yunyang.mp3",
+            "云希": "audio/yan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "食盐(shíyán)。基本味「咸」(xián) 由盐给出。动词搭配「放盐／加盐」。菜谱里常见「盐少许」(yán shǎoxǔ, a pinch)。"
+    },
+    {
+      "slug": "tang",
+      "hanzi": "糖",
+      "pinyin": "táng",
+      "meaning": "sugar",
+      "meaning_zh": "甜味的调料",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "宫保鸡丁要一点糖，让味道甜一点。",
+          "en": "Kung Pao chicken needs a bit of sugar to make it slightly sweet.",
+          "audio": {
+            "晓晓": "audio/tang-xiaoxiao.mp3",
+            "晓伊": "audio/tang-xiaoyi.mp3",
+            "云扬": "audio/tang-yunyang.mp3",
+            "云希": "audio/tang-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "白糖／红糖／冰糖。味道叫「甜」(tián)。糖和醋一起给出「酸甜」味。也指糖果(candy)：吃糖、一块糖。"
+    },
+    {
+      "slug": "jiangyou",
+      "hanzi": "酱油",
+      "pinyin": "jiàngyóu",
+      "meaning": "soy sauce",
+      "meaning_zh": "咸味、深色的黄豆调味汁",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "放一勺酱油，鸡丁的颜色就变得又红又亮。",
+          "en": "Add a spoon of soy sauce and the chicken turns a glossy red.",
+          "audio": {
+            "晓晓": "audio/jiangyou-xiaoxiao.mp3",
+            "晓伊": "audio/jiangyou-xiaoyi.mp3",
+            "云扬": "audio/jiangyou-yunyang.mp3",
+            "云希": "audio/jiangyou-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「酱」＝发酵的浓调味品(黄豆酱、辣椒酱)，酱油即黄豆发酵的咸味液体。生抽(shēngchōu, 提味) vs 老抽(lǎochōu, 上色)。上色(shàngsè)＝让菜有好看的深红色。"
+    },
+    {
+      "slug": "cu",
+      "hanzi": "醋",
+      "pinyin": "cù",
+      "meaning": "vinegar",
+      "meaning_zh": "酸味的调味液",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "最后加点醋，酸味能把香味带出来。",
+          "en": "Add a splash of vinegar at the end — the sourness brings out the aroma.",
+          "audio": {
+            "晓晓": "audio/cu-xiaoxiao.mp3",
+            "晓伊": "audio/cu-xiaoyi.mp3",
+            "云扬": "audio/cu-yunyang.mp3",
+            "云希": "audio/cu-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "味道叫「酸」(suān)。陈醋(chéncù, 深、浓) ／香醋／白醋。俗语「吃醋」(chīcù)＝(恋爱中)嫉妒——固定引申义，和字面无关。"
+    },
+    {
+      "slug": "huangjiu",
+      "hanzi": "黄酒",
+      "pinyin": "huángjiǔ",
+      "meaning": "yellow rice wine (Shaoxing)",
+      "meaning_zh": "米做的黄色料酒",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "炒鸡丁以前，用黄酒腌一下可以去腥。",
+          "en": "Before frying, marinate the chicken in yellow wine to remove the gamey smell.",
+          "audio": {
+            "晓晓": "audio/huangjiu-xiaoxiao.mp3",
+            "晓伊": "audio/huangjiu-xiaoyi.mp3",
+            "云扬": "audio/huangjiu-yunyang.mp3",
+            "云希": "audio/huangjiu-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「黄酒」是米发酵的传统酒，做菜用时也叫「料酒」(liàojiǔ, cooking wine)，和姜一样去腥。别跟「白酒」(báijiǔ, 蒸馏烈酒)、「啤酒」(píjiǔ, beer) 混。"
+    },
+    {
+      "slug": "huashengmi",
+      "hanzi": "花生米",
+      "pinyin": "huāshēngmǐ",
+      "meaning": "shelled peanuts",
+      "meaning_zh": "去壳的花生仁",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "宫保鸡丁最后放炸好的花生米，吃起来香脆。",
+          "en": "Finish Kung Pao chicken with fried peanuts — fragrant and crunchy.",
+          "audio": {
+            "晓晓": "audio/huashengmi-xiaoxiao.mp3",
+            "晓伊": "audio/huashengmi-xiaoyi.mp3",
+            "云扬": "audio/huashengmi-yunyang.mp3",
+            "云希": "audio/huashengmi-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "这里的「米」不是 rice，而是引申义「去壳的小颗粒仁」：花生米＝花生仁。花生(huāshēng)带壳，花生米是里面的仁。宫保鸡丁的标志配料，要炸／炒到脆。"
+    }
+  ],
+  "actions": [
+    {
+      "slug": "guo",
+      "hanzi": "锅",
+      "pinyin": "guō",
+      "meaning": "wok / pot",
+      "meaning_zh": "做饭炒菜用的圆底容器",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "先把锅烧热，再倒油。",
+          "en": "Heat the wok first, then pour in the oil.",
+          "audio": {
+            "晓晓": "audio/guo-xiaoxiao.mp3",
+            "晓伊": "audio/guo-xiaoyi.mp3",
+            "云扬": "audio/guo-yunyang.mp3",
+            "云希": "audio/guo-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "炒菜的圆底锅叫「炒锅」，也泛指各种锅：高压锅、火锅(huǒguō, hotpot)、砂锅。「热锅凉油」＝先热锅再下凉油、防粘。量词「口」：一口锅。"
+    },
+    {
+      "slug": "chao",
+      "hanzi": "炒",
+      "pinyin": "chǎo",
+      "meaning": "stir-fry",
+      "meaning_zh": "用少量油在锅里快速翻动加热",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "油热了就把鸡丁下锅，大火快炒。",
+          "en": "Once the oil is hot, add the chicken and stir-fry quickly over high heat.",
+          "audio": {
+            "晓晓": "audio/chao-xiaoxiao.mp3",
+            "晓伊": "audio/chao-xiaoyi.mp3",
+            "云扬": "audio/chao-yunyang.mp3",
+            "云希": "audio/chao-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「炒」＝油少、火大、不停翻动(vs 煮 zhǔ 水煮、蒸 zhēng、炸 zhá 油多)。引申义：炒股(gǔ, 投机)、炒鱿鱼(chǎo yóuyú)＝解雇。宫保鸡丁是一道「炒菜」。"
+    },
+    {
+      "slug": "fang",
+      "hanzi": "放",
+      "pinyin": "fàng",
+      "meaning": "put in / add",
+      "meaning_zh": "把东西加进去；搁置",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "炒到快熟的时候，放调料和花生米。",
+          "en": "When it's nearly done, add the seasonings and the peanuts.",
+          "audio": {
+            "晓晓": "audio/fang-xiaoxiao.mp3",
+            "晓伊": "audio/fang-xiaoyi.mp3",
+            "云扬": "audio/fang-yunyang.mp3",
+            "云希": "audio/fang-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "做菜里「放」＝加入：放盐、放油、放辣椒，是最高频的动词。本义「释放／搁」很广：放假(holiday)、放心(relax)、放下(put down)。"
+    },
+    {
+      "slug": "deng",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "meaning": "wait",
+      "meaning_zh": "停下来让时间过去；等待",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "盖上锅盖，等两分钟就可以了。",
+          "en": "Cover the lid and wait two minutes — that's it.",
+          "audio": {
+            "晓晓": "audio/deng-xiaoxiao.mp3",
+            "晓伊": "audio/deng-xiaoyi.mp3",
+            "云扬": "audio/deng-yunyang.mp3",
+            "云希": "audio/deng-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「等」是多义词：这里是「等待」；也作「等等」(děngděng, etc.)、「等级」(děngjí, rank)。搭配：等一下、等着。菜谱里常说「等…分钟」。"
+    },
+    {
+      "slug": "chang",
+      "hanzi": "尝",
+      "pinyin": "cháng",
+      "meaning": "taste (to check)",
+      "meaning_zh": "吃一点点试试味道",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "出锅以前先尝一口，看看咸淡合不合适。",
+          "en": "Before plating, taste a bit to check whether the seasoning is right.",
+          "audio": {
+            "晓晓": "audio/chang-xiaoxiao.mp3",
+            "晓伊": "audio/chang-xiaoyi.mp3",
+            "云扬": "audio/chang-yunyang.mp3",
+            "云希": "audio/chang-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「尝」＝为了试味道而吃一点(taste-test)，不是吃饱。近义「尝尝／尝一口」。引申「尝试」(chángshì, to attempt)。繁体作「嘗」。咸淡(xiándàn)＝咸与不咸的程度。"
+    },
+    {
+      "slug": "yibian",
+      "hanzi": "一边…一边…",
+      "pinyin": "yìbiān…yìbiān…",
+      "meaning": "(do A) while (doing B)",
+      "meaning_zh": "表示两个动作同时进行",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "你要一边炒一边尝，随时调整味道。",
+          "en": "You stir-fry and taste at the same time, adjusting the flavor as you go.",
+          "audio": {
+            "晓晓": "audio/yibian-xiaoxiao.mp3",
+            "晓伊": "audio/yibian-xiaoyi.mp3",
+            "云扬": "audio/yibian-yunyang.mp3",
+            "云希": "audio/yibian-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「一边 A 一边 B」＝两个动作同时进行(A、B 都是动词)：一边看菜谱一边做、一边听音乐一边炒菜。口语常带儿化「一边儿」，也可省成「边炒边尝」。较书面的近义结构是「一面…一面…」。"
+    }
+  ]
+}

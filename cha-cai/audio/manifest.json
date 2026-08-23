@@ -1,0 +1,306 @@
+{
+  "caipu-xiaoxiao.mp3": {
+    "text": "我照着菜谱学做宫保鸡丁，第一步先把材料准备好。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "caipu-xiaoyi.mp3": {
+    "text": "我照着菜谱学做宫保鸡丁，第一步先把材料准备好。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "caipu-yunxi.mp3": {
+    "text": "我照着菜谱学做宫保鸡丁，第一步先把材料准备好。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "caipu-yunyang.mp3": {
+    "text": "我照着菜谱学做宫保鸡丁，第一步先把材料准备好。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "chang-xiaoxiao.mp3": {
+    "text": "出锅以前先尝一口，看看咸淡合不合适。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chang-xiaoyi.mp3": {
+    "text": "出锅以前先尝一口，看看咸淡合不合适。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "chang-yunxi.mp3": {
+    "text": "出锅以前先尝一口，看看咸淡合不合适。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "chang-yunyang.mp3": {
+    "text": "出锅以前先尝一口，看看咸淡合不合适。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "chao-xiaoxiao.mp3": {
+    "text": "油热了就把鸡丁下锅，大火快炒。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chao-xiaoyi.mp3": {
+    "text": "油热了就把鸡丁下锅，大火快炒。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "chao-yunxi.mp3": {
+    "text": "油热了就把鸡丁下锅，大火快炒。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "chao-yunyang.mp3": {
+    "text": "油热了就把鸡丁下锅，大火快炒。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "cong-xiaoxiao.mp3": {
+    "text": "把葱切成小段，和姜、蒜一起下锅爆香。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cong-xiaoyi.mp3": {
+    "text": "把葱切成小段，和姜、蒜一起下锅爆香。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "cong-yunxi.mp3": {
+    "text": "把葱切成小段，和姜、蒜一起下锅爆香。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "cong-yunyang.mp3": {
+    "text": "把葱切成小段，和姜、蒜一起下锅爆香。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "cu-xiaoxiao.mp3": {
+    "text": "最后加点醋，酸味能把香味带出来。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cu-xiaoyi.mp3": {
+    "text": "最后加点醋，酸味能把香味带出来。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "cu-yunxi.mp3": {
+    "text": "最后加点醋，酸味能把香味带出来。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "cu-yunyang.mp3": {
+    "text": "最后加点醋，酸味能把香味带出来。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "deng-xiaoxiao.mp3": {
+    "text": "盖上锅盖，等两分钟就可以了。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "deng-xiaoyi.mp3": {
+    "text": "盖上锅盖，等两分钟就可以了。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "deng-yunxi.mp3": {
+    "text": "盖上锅盖，等两分钟就可以了。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "deng-yunyang.mp3": {
+    "text": "盖上锅盖，等两分钟就可以了。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "fang-xiaoxiao.mp3": {
+    "text": "炒到快熟的时候，放调料和花生米。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fang-xiaoyi.mp3": {
+    "text": "炒到快熟的时候，放调料和花生米。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "fang-yunxi.mp3": {
+    "text": "炒到快熟的时候，放调料和花生米。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "fang-yunyang.mp3": {
+    "text": "炒到快熟的时候，放调料和花生米。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "guo-xiaoxiao.mp3": {
+    "text": "先把锅烧热，再倒油。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "guo-xiaoyi.mp3": {
+    "text": "先把锅烧热，再倒油。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "guo-yunxi.mp3": {
+    "text": "先把锅烧热，再倒油。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "guo-yunyang.mp3": {
+    "text": "先把锅烧热，再倒油。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "huangjiu-xiaoxiao.mp3": {
+    "text": "炒鸡丁以前，用黄酒腌一下可以去腥。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "huangjiu-xiaoyi.mp3": {
+    "text": "炒鸡丁以前，用黄酒腌一下可以去腥。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "huangjiu-yunxi.mp3": {
+    "text": "炒鸡丁以前，用黄酒腌一下可以去腥。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "huangjiu-yunyang.mp3": {
+    "text": "炒鸡丁以前，用黄酒腌一下可以去腥。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "huashengmi-xiaoxiao.mp3": {
+    "text": "宫保鸡丁最后放炸好的花生米，吃起来香脆。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "huashengmi-xiaoyi.mp3": {
+    "text": "宫保鸡丁最后放炸好的花生米，吃起来香脆。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "huashengmi-yunxi.mp3": {
+    "text": "宫保鸡丁最后放炸好的花生米，吃起来香脆。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "huashengmi-yunyang.mp3": {
+    "text": "宫保鸡丁最后放炸好的花生米，吃起来香脆。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jiang-xiaoxiao.mp3": {
+    "text": "姜要去皮切片，去腥提味。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiang-xiaoyi.mp3": {
+    "text": "姜要去皮切片，去腥提味。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jiang-yunxi.mp3": {
+    "text": "姜要去皮切片，去腥提味。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jiang-yunyang.mp3": {
+    "text": "姜要去皮切片，去腥提味。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jiangyou-xiaoxiao.mp3": {
+    "text": "放一勺酱油，鸡丁的颜色就变得又红又亮。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiangyou-xiaoyi.mp3": {
+    "text": "放一勺酱油，鸡丁的颜色就变得又红又亮。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jiangyou-yunxi.mp3": {
+    "text": "放一勺酱油，鸡丁的颜色就变得又红又亮。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jiangyou-yunyang.mp3": {
+    "text": "放一勺酱油，鸡丁的颜色就变得又红又亮。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jiding-xiaoxiao.mp3": {
+    "text": "先把鸡肉切成小块，这样的小方块就叫鸡丁。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiding-xiaoyi.mp3": {
+    "text": "先把鸡肉切成小块，这样的小方块就叫鸡丁。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jiding-yunxi.mp3": {
+    "text": "先把鸡肉切成小块，这样的小方块就叫鸡丁。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jiding-yunyang.mp3": {
+    "text": "先把鸡肉切成小块，这样的小方块就叫鸡丁。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "lajiao-xiaoxiao.mp3": {
+    "text": "宫保鸡丁要放干辣椒，吃起来又辣又香。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lajiao-xiaoyi.mp3": {
+    "text": "宫保鸡丁要放干辣椒，吃起来又辣又香。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "lajiao-yunxi.mp3": {
+    "text": "宫保鸡丁要放干辣椒，吃起来又辣又香。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "lajiao-yunyang.mp3": {
+    "text": "宫保鸡丁要放干辣椒，吃起来又辣又香。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "suan-xiaoxiao.mp3": {
+    "text": "蒜拍碎以后，味道更容易出来。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "suan-xiaoyi.mp3": {
+    "text": "蒜拍碎以后，味道更容易出来。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "suan-yunxi.mp3": {
+    "text": "蒜拍碎以后，味道更容易出来。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "suan-yunyang.mp3": {
+    "text": "蒜拍碎以后，味道更容易出来。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "tang-xiaoxiao.mp3": {
+    "text": "宫保鸡丁要一点糖，让味道甜一点。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tang-xiaoyi.mp3": {
+    "text": "宫保鸡丁要一点糖，让味道甜一点。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "tang-yunxi.mp3": {
+    "text": "宫保鸡丁要一点糖，让味道甜一点。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "tang-yunyang.mp3": {
+    "text": "宫保鸡丁要一点糖，让味道甜一点。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "tiaoliao-xiaoxiao.mp3": {
+    "text": "盐、糖、酱油、醋都是常用的调料。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tiaoliao-xiaoyi.mp3": {
+    "text": "盐、糖、酱油、醋都是常用的调料。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "tiaoliao-yunxi.mp3": {
+    "text": "盐、糖、酱油、醋都是常用的调料。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "tiaoliao-yunyang.mp3": {
+    "text": "盐、糖、酱油、醋都是常用的调料。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "yan-xiaoxiao.mp3": {
+    "text": "快好的时候放一点盐，别放太多。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yan-xiaoyi.mp3": {
+    "text": "快好的时候放一点盐，别放太多。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "yan-yunxi.mp3": {
+    "text": "快好的时候放一点盐，别放太多。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "yan-yunyang.mp3": {
+    "text": "快好的时候放一点盐，别放太多。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "yibian-xiaoxiao.mp3": {
+    "text": "你要一边炒一边尝，随时调整味道。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yibian-xiaoyi.mp3": {
+    "text": "你要一边炒一边尝，随时调整味道。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "yibian-yunxi.mp3": {
+    "text": "你要一边炒一边尝，随时调整味道。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "yibian-yunyang.mp3": {
+    "text": "你要一边炒一边尝，随时调整味道。",
+    "voice": "zh-CN-YunyangNeural"
+  }
+}
