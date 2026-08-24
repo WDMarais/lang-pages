@@ -7342,6 +7342,86 @@
       "kind": "denotes"
     },
     {
+      "from": "g:以",
+      "to": "w:以下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:以下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:以下@cn",
+      "to": "r:at-or-below",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:作为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:作为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:作为@cn",
+      "to": "r:in-the-capacity-of",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一下子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:一下子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:一下子@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一下子@cn",
+      "to": "r:all-at-once",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:为了@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:了",
+      "to": "w:为了@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:为了@cn",
+      "to": "r:in-order-to",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:手下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:下",
+      "to": "w:手下@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:手下@cn",
+      "to": "r:subordinate",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

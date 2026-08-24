@@ -25,5 +25,14 @@
       "gloss": "eat"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "eat",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

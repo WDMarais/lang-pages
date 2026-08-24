@@ -33,6 +33,14 @@
       "name": "Fingers",
       "kind": "mnemonic",
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "umbrella",
+      "kind": "mnemonic",
+      "level": 4
     }
   ]
 }

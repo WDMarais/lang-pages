@@ -26,5 +26,14 @@
       "gloss": "mound"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "mound",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

@@ -613,6 +613,11 @@
             "level": 2,
             "kind": "mnemonic"
           },
+          "pd": {
+            "name": "down box",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 13,
           "cnAudioKey": "jiong1",
           "cnExAudioKey": "nei4",
@@ -886,6 +891,11 @@
             "level": 2,
             "kind": "meaning"
           },
+          "pdc": {
+            "name": "spoon",
+            "kind": "meaning",
+            "level": 4
+          },
           "kx": 21,
           "cnAudioKey": "bi3"
         },
@@ -1086,6 +1096,11 @@
             "gloss": "private"
           },
           "wk": null,
+          "pd": {
+            "name": "private",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 28,
           "cnAudioKey": "si1"
         },
@@ -2016,6 +2031,11 @@
             "level": 3,
             "kind": "mnemonic"
           },
+          "pd": {
+            "name": "short thread",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 52,
           "cnAudioKey": "yao1"
         },
@@ -2192,6 +2212,11 @@
           "wk": {
             "name": "Hair",
             "level": 2,
+            "kind": "meaning"
+          },
+          "pd": {
+            "name": "bristle",
+            "level": 4,
             "kind": "meaning"
           },
           "kx": 59,
@@ -2837,6 +2862,11 @@
             "gloss": "yawn"
           },
           "wk": null,
+          "pd": {
+            "name": "lack",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 76,
           "cnAudioKey": "qian4"
         },
@@ -4134,6 +4164,11 @@
             "gloss": "cave"
           },
           "wk": null,
+          "pd": {
+            "name": "cave",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 116,
           "cnAudioKey": "xue2"
         },
@@ -4213,6 +4248,11 @@
             "name": "bamboo",
             "level": 2,
             "kind": "meaning"
+          },
+          "pdc": {
+            "name": "chopsticks",
+            "kind": "mnemonic",
+            "level": 4
           },
           "kx": 118,
           "cnAudioKey": "zhu2"
@@ -5453,6 +5493,11 @@
             "gloss": "mound"
           },
           "wk": null,
+          "pd": {
+            "name": "mound",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 170,
           "cnAudioKey": "fu4"
         },
@@ -5599,6 +5644,11 @@
             "gloss": "leather"
           },
           "wk": null,
+          "pd": {
+            "name": "leather",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 177,
           "cnAudioKey": "ge2"
         },
@@ -5679,6 +5729,11 @@
             "gloss": "head; page"
           },
           "wk": null,
+          "pd": {
+            "name": "leaf",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "kx": 181,
           "cnAudioKey": "ye4"
         },
@@ -5739,6 +5794,11 @@
             "gloss": "eat"
           },
           "wk": null,
+          "pd": {
+            "name": "eat",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 184,
           "cnAudioKey": "shi2"
         },
@@ -6917,6 +6977,11 @@
           "wk": {
             "name": "Fingers",
             "level": 3,
+            "kind": "mnemonic"
+          },
+          "pd": {
+            "name": "umbrella",
+            "level": 4,
             "kind": "mnemonic"
           }
         },

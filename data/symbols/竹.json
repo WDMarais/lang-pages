@@ -29,6 +29,14 @@
       "name": "bamboo",
       "kind": "meaning",
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "chopsticks",
+      "kind": "mnemonic",
+      "level": 4
     }
   ],
   "variants": [

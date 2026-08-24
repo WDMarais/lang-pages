@@ -7414,7 +7414,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "zhizhong"
+      "cnAudioKey": "zhi1zhong1"
     },
     {
       "id": "r:among",
@@ -7434,7 +7434,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "congbu"
+      "cnAudioKey": "cong2bu4"
     },
     {
       "id": "r:never",
@@ -7454,7 +7454,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "zhihou"
+      "cnAudioKey": "zhi1hou4"
     },
     {
       "id": "r:after",
@@ -7474,7 +7474,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "daren"
+      "cnAudioKey": "da4ren2"
     },
     {
       "id": "w:一一@cn",
@@ -7489,7 +7489,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "yiyi"
+      "cnAudioKey": "yi1yi1"
     },
     {
       "id": "r:one-by-one",
@@ -7509,7 +7509,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "keyi"
+      "cnAudioKey": "ke3yi3"
     },
     {
       "id": "r:can-may",
@@ -7529,7 +7529,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "yihou"
+      "cnAudioKey": "yi3hou4"
     },
     {
       "id": "w:女子@jp",
@@ -7564,7 +7564,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "riben"
+      "cnAudioKey": "ri4ben3"
     },
     {
       "id": "r:japan",
@@ -7584,7 +7584,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "zhiyi"
+      "cnAudioKey": "zhi1yi1"
     },
     {
       "id": "r:one-of",
@@ -7620,7 +7620,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "benren"
+      "cnAudioKey": "ben3ren2"
     },
     {
       "id": "w:小さい@jp",
@@ -7672,7 +7672,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "kebu"
+      "cnAudioKey": "ke3bu4"
     },
     {
       "id": "r:whether-or-not",
@@ -7692,7 +7692,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "geren"
+      "cnAudioKey": "ge4ren2"
     },
     {
       "id": "r:individual",
@@ -7712,7 +7712,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "buru"
+      "cnAudioKey": "bu4ru2"
     },
     {
       "id": "r:inferior-to",
@@ -7732,7 +7732,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "renren"
+      "cnAudioKey": "ren2ren2"
     },
     {
       "id": "r:everyone",
@@ -7752,7 +7752,7 @@
         "kind": "vocab",
         "level": 1
       },
-      "cnAudioKey": "buke"
+      "cnAudioKey": "bu4ke3"
     },
     {
       "id": "r:cannot",
@@ -8268,7 +8268,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "huihe"
+      "cnAudioKey": "hui2he2"
     },
     {
       "id": "w:一向@cn",
@@ -8283,7 +8283,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "yixiang"
+      "cnAudioKey": "yi1xiang4"
     },
     {
       "id": "r:all-along",
@@ -8483,7 +8483,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "zaiyu"
+      "cnAudioKey": "zai4yu2"
     },
     {
       "id": "r:consist-in",
@@ -8503,7 +8503,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "renti"
+      "cnAudioKey": "ren2ti3"
     },
     {
       "id": "r:human-body",
@@ -8523,7 +8523,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "sanshi"
+      "cnAudioKey": "san1shi2"
     },
     {
       "id": "r:thirty",
@@ -8832,7 +8832,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "tianshi"
+      "cnAudioKey": "tian1shi3"
     },
     {
       "id": "r:angel",
@@ -8867,7 +8867,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "kankan"
+      "cnAudioKey": "kan4kan5"
     },
     {
       "id": "r:take-a-look",
@@ -8887,7 +8887,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "shifen"
+      "cnAudioKey": "shi2fen1"
     },
     {
       "id": "r:very",
@@ -8907,7 +8907,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "youyu"
+      "cnAudioKey": "you2yu2"
     },
     {
       "id": "r:due-to",
@@ -8927,7 +8927,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "hezuo"
+      "cnAudioKey": "he2zuo4"
     },
     {
       "id": "r:cooperation",
@@ -8947,7 +8947,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "ruguo"
+      "cnAudioKey": "ru2guo3"
     },
     {
       "id": "r:if",
@@ -8967,7 +8967,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "dashi"
+      "cnAudioKey": "da4shi3"
     },
     {
       "id": "r:ambassador",
@@ -8987,7 +8987,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "buming"
+      "cnAudioKey": "bu4ming2"
     },
     {
       "id": "r:unclear",
@@ -9007,7 +9007,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "ershi"
+      "cnAudioKey": "er4shi2"
     },
     {
       "id": "r:twenty",
@@ -9027,7 +9027,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "mingtian"
+      "cnAudioKey": "ming2tian1"
     },
     {
       "id": "r:tomorrow",
@@ -9047,7 +9047,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "dabuliao"
+      "cnAudioKey": "da4bu4liao3"
     },
     {
       "id": "r:at-worst",
@@ -9067,7 +9067,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "fenshou"
+      "cnAudioKey": "fen1shou3"
     },
     {
       "id": "r:break-up",
@@ -9087,7 +9087,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "shier"
+      "cnAudioKey": "shi2er4"
     },
     {
       "id": "r:twelve",
@@ -9107,7 +9107,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "taren"
+      "cnAudioKey": "ta1ren2"
     },
     {
       "id": "r:others",
@@ -9127,7 +9127,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "houguo"
+      "cnAudioKey": "hou4guo3"
     },
     {
       "id": "r:consequence",
@@ -9147,7 +9147,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "gongzuo"
+      "cnAudioKey": "gong1zuo4"
     },
     {
       "id": "r:job",
@@ -9167,7 +9167,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "gongren"
+      "cnAudioKey": "gong1ren2"
     },
     {
       "id": "r:worker",
@@ -9187,7 +9187,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "mingming"
+      "cnAudioKey": "ming2ming2"
     },
     {
       "id": "r:clearly",
@@ -9207,7 +9207,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "zuozhe"
+      "cnAudioKey": "zuo4zhe3"
     },
     {
       "id": "r:author",
@@ -9227,7 +9227,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "youren"
+      "cnAudioKey": "you3ren2"
     },
     {
       "id": "r:someone",
@@ -9247,7 +9247,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "shuiguo"
+      "cnAudioKey": "shui3guo3"
     },
     {
       "id": "w:作业@cn",
@@ -9262,7 +9262,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "zuoye"
+      "cnAudioKey": "zuo4ye4"
     },
     {
       "id": "r:homework",
@@ -9471,7 +9471,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "bendi"
+      "cnAudioKey": "ben3di4"
     },
     {
       "id": "r:local",
@@ -9626,7 +9626,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "zhenxiang"
+      "cnAudioKey": "zhen1xiang4"
     },
     {
       "id": "r:truth",
@@ -9646,7 +9646,7 @@
         "kind": "vocab",
         "level": 2
       },
-      "cnAudioKey": "tianzhen"
+      "cnAudioKey": "tian1zhen1"
     },
     {
       "id": "r:naive",
@@ -9666,7 +9666,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "chuzai"
+      "cnAudioKey": "chu3zai4"
     },
     {
       "id": "r:be-situated",
@@ -9686,7 +9686,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "daxiao"
+      "cnAudioKey": "da4xiao3"
     },
     {
       "id": "w:那个@cn",
@@ -9701,7 +9701,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "nage"
+      "cnAudioKey": "na4ge5"
     },
     {
       "id": "r:that-one",
@@ -9721,7 +9721,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "xiaozi"
+      "cnAudioKey": "xiao3zi5"
     },
     {
       "id": "r:kid",
@@ -9741,7 +9741,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "fenzi"
+      "cnAudioKey": "fen1zi3"
     },
     {
       "id": "r:molecule",
@@ -9761,7 +9761,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "haokan"
+      "cnAudioKey": "hao3kan4"
     },
     {
       "id": "r:good-looking",
@@ -9781,7 +9781,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "yiyang"
+      "cnAudioKey": "yi1yang4"
     },
     {
       "id": "r:same",
@@ -9801,7 +9801,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "yangzi"
+      "cnAudioKey": "yang4zi5"
     },
     {
       "id": "w:儿子@cn",
@@ -9816,7 +9816,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "erzi"
+      "cnAudioKey": "er2zi5"
     },
     {
       "id": "r:son",
@@ -9836,7 +9836,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "haohao"
+      "cnAudioKey": "hao3hao3"
     },
     {
       "id": "r:properly",
@@ -9856,7 +9856,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "renyuan"
+      "cnAudioKey": "ren2yuan2"
     },
     {
       "id": "w:不好@cn",
@@ -9871,7 +9871,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "buhao"
+      "cnAudioKey": "bu4hao3"
     },
     {
       "id": "r:not-good",
@@ -9891,7 +9891,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "huijian"
+      "cnAudioKey": "hui2jian4"
     },
     {
       "id": "r:see-you-later",
@@ -9911,7 +9911,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "meihao"
+      "cnAudioKey": "mei3hao3"
     },
     {
       "id": "r:wonderful",
@@ -9931,7 +9931,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "zhenzheng"
+      "cnAudioKey": "zhen1zheng4"
     },
     {
       "id": "w:那样@cn",
@@ -9946,7 +9946,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "nayang"
+      "cnAudioKey": "na4yang4"
     },
     {
       "id": "r:like-that",
@@ -9966,7 +9966,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "zhenghao"
+      "cnAudioKey": "zheng4hao3"
     },
     {
       "id": "r:just-right",
@@ -9986,7 +9986,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "nar"
+      "cnAudioKey": "nar4"
     },
     {
       "id": "r:there",
@@ -10006,7 +10006,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "yuangong"
+      "cnAudioKey": "yuan2gong1"
     },
     {
       "id": "w:样本@cn",
@@ -10021,7 +10021,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "yangben"
+      "cnAudioKey": "yang4ben3"
     },
     {
       "id": "r:sample",
@@ -10041,7 +10041,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "nihao"
+      "cnAudioKey": "ni3hao3"
     },
     {
       "id": "w:正在@cn",
@@ -10056,7 +10056,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "zhengzai"
+      "cnAudioKey": "zheng4zai4"
     },
     {
       "id": "r:in-progress",
@@ -10076,7 +10076,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "zhihao"
+      "cnAudioKey": "zhi3hao3"
     },
     {
       "id": "r:have-to",
@@ -10096,7 +10096,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "xiangchu"
+      "cnAudioKey": "xiang1chu3"
     },
     {
       "id": "r:interact",
@@ -10116,7 +10116,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "zhengyi"
+      "cnAudioKey": "zheng4yi4"
     },
     {
       "id": "r:justice",
@@ -10136,7 +10136,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "xiaoxiao"
+      "cnAudioKey": "xiao3xiao3"
     },
     {
       "id": "r:tiny",
@@ -10156,7 +10156,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "bujian"
+      "cnAudioKey": "bu4jian4"
     },
     {
       "id": "r:disappear",
@@ -10176,7 +10176,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "rizi"
+      "cnAudioKey": "ri4zi5"
     },
     {
       "id": "r:days",
@@ -10196,7 +10196,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "natian"
+      "cnAudioKey": "na4tian1"
     },
     {
       "id": "r:that-day",
@@ -10216,7 +10216,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "chuyu"
+      "cnAudioKey": "chu3yu2"
     },
     {
       "id": "w:看见@cn",
@@ -10231,7 +10231,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "kanjian"
+      "cnAudioKey": "kan4jian4"
     },
     {
       "id": "w:好处@cn",
@@ -10246,7 +10246,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "haochu"
+      "cnAudioKey": "hao3chu5"
     },
     {
       "id": "r:benefit",
@@ -10266,7 +10266,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "youzhe"
+      "cnAudioKey": "you3zhe5"
     },
     {
       "id": "w:山びこ@jp",
@@ -10392,7 +10392,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "huitou"
+      "cnAudioKey": "hui2tou2"
     },
     {
       "id": "r:turn-back",
@@ -10412,7 +10412,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "shoutou"
+      "cnAudioKey": "shou3tou2"
     },
     {
       "id": "r:on-hand",
@@ -10432,7 +10432,7 @@
         "kind": "vocab",
         "level": 3
       },
-      "cnAudioKey": "tour"
+      "cnAudioKey": "tour2"
     },
     {
       "id": "r:boss",
@@ -10567,7 +10567,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "dixia"
+      "cnAudioKey": "di4xia4"
     },
     {
       "id": "r:underground",
@@ -10587,7 +10587,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "yixia"
+      "cnAudioKey": "yi1xia4"
     },
     {
       "id": "r:briefly",
@@ -10607,7 +10607,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "yiwei"
+      "cnAudioKey": "yi3wei2"
     },
     {
       "id": "r:assume",
@@ -10627,7 +10627,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "zhixia"
+      "cnAudioKey": "zhi1xia4"
     },
     {
       "id": "r:beneath",
@@ -10647,7 +10647,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "yinwei"
+      "cnAudioKey": "yin1wei4"
     },
     {
       "id": "r:because",
@@ -10667,7 +10667,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "xiashou"
+      "cnAudioKey": "xia4shou3"
     },
     {
       "id": "r:make-a-move",
@@ -10687,7 +10687,7 @@
         "kind": "vocab",
         "level": 4
       },
-      "cnAudioKey": "liaojie"
+      "cnAudioKey": "liao3jie3"
     },
     {
       "id": "r:understand",
@@ -10890,6 +10890,106 @@
         "level": 3
       },
       "jpAudioKey": "shoujo"
+    },
+    {
+      "id": "w:以下@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "以下",
+      "reading": "yǐxià",
+      "gloss": "the following; below; at or below (a stated amount); hereinafter",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "yi3xia4"
+    },
+    {
+      "id": "r:at-or-below",
+      "kind": "referent",
+      "label": "the following; below; at or below (a stated amount); hereinafter"
+    },
+    {
+      "id": "w:作为@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "作为",
+      "reading": "zuòwéi",
+      "gloss": "as; in the capacity of; being (sth) (e.g. 作为员工之一 as one of the employees)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "zuo4wei2"
+    },
+    {
+      "id": "r:in-the-capacity-of",
+      "kind": "referent",
+      "label": "as; in the capacity of; being (sth) (e.g. 作为员工之一 as one of the employees)"
+    },
+    {
+      "id": "w:一下子@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一下子",
+      "reading": "yīxiàzi",
+      "gloss": "all at once; all of a sudden; in one go; in a short while",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "yi1xia4zi5"
+    },
+    {
+      "id": "r:all-at-once",
+      "kind": "referent",
+      "label": "all at once; all of a sudden; in one go; in a short while"
+    },
+    {
+      "id": "w:为了@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "为了",
+      "reading": "wèile",
+      "gloss": "in order to; for the sake of; for the purpose of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "wei4le5"
+    },
+    {
+      "id": "r:in-order-to",
+      "kind": "referent",
+      "label": "in order to; for the sake of; for the purpose of"
+    },
+    {
+      "id": "w:手下@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "手下",
+      "reading": "shǒuxià",
+      "gloss": "subordinate; underling; the people under one's command",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "shou3xia4"
+    },
+    {
+      "id": "r:subordinate",
+      "kind": "referent",
+      "label": "subordinate; underling; the people under one's command"
     }
   ]
 }

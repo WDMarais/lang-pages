@@ -24,5 +24,14 @@
       "gloss": "leather"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "leather",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

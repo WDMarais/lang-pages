@@ -3293,6 +3293,87 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "以下",
+      "audience": "cn",
+      "parts": [
+        "以",
+        "下"
+      ],
+      "denotes": "at-or-below",
+      "reading": "yǐxià",
+      "gloss": "the following; below; at or below (a stated amount); hereinafter",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "作为",
+      "audience": "cn",
+      "parts": [
+        "作",
+        "为"
+      ],
+      "denotes": "in-the-capacity-of",
+      "reading": "zuòwéi",
+      "gloss": "as; in the capacity of; being (sth) (e.g. 作为员工之一 as one of the employees)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "一下子",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "下",
+        "子"
+      ],
+      "denotes": "all-at-once",
+      "reading": "yīxiàzi",
+      "gloss": "all at once; all of a sudden; in one go; in a short while",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "为了",
+      "audience": "cn",
+      "parts": [
+        "为",
+        "了"
+      ],
+      "denotes": "in-order-to",
+      "reading": "wèile",
+      "gloss": "in order to; for the sake of; for the purpose of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "手下",
+      "audience": "cn",
+      "parts": [
+        "手",
+        "下"
+      ],
+      "denotes": "subordinate",
+      "reading": "shǒuxià",
+      "gloss": "subordinate; underling; the people under one's command",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

@@ -88,6 +88,58 @@ def cn_key(reading):
     return audio_key(reading) or multi_key(reading)
 
 
+# Pinyin syllable inventory, generated from initials × finals plus the zero-initial
+# (y-/w-/yu-) spellings. Used only to segment a compound reading so each syllable's
+# tone digit lands at the syllable's END (真相 → zhen1xiang4, not zhen1xia4ng). It may
+# slightly over-generate (a few impossible initial+final pairs); greedy longest-match
+# over real, well-formed readings is unaffected, and _segment() is proven against the
+# whole CN word list by the phonetics self-test.
+def _build_syllables():
+    initials = ["b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h",
+                "j", "q", "x", "zh", "ch", "sh", "r", "z", "c", "s"]
+    # NB: 'er' is intentionally NOT here — it only ever stands alone (a zero-initial
+    # syllable, listed below). Allowing initial+'er' would fabricate bogus syllables
+    # like 'ger', so 个人 gèrén greedily mis-splits to ger+en instead of ge+ren.
+    finals = ["a", "o", "e", "ai", "ei", "ao", "ou", "an", "en", "ang", "eng",
+              "ong", "i", "ia", "ie", "iao", "iu", "ian", "in", "iang",
+              "ing", "iong", "u", "ua", "uo", "uai", "ui", "uan", "un", "uang",
+              "ueng", "v", "ve", "van", "vn"]
+    zero = ["yi", "ya", "ye", "yao", "you", "yan", "yin", "yang", "ying", "yong",
+            "wu", "wa", "wo", "wai", "wei", "wan", "wen", "wang", "weng",
+            "yu", "yue", "yuan", "yun", "a", "o", "e", "ai", "ei", "ao", "ou",
+            "an", "en", "ang", "eng", "er"]
+    syl = set(zero)
+    for i in initials:
+        for f in finals:
+            syl.add(i + f)
+    return frozenset(syl)
+
+
+_SYLLABLES = _build_syllables()
+_MAX_SYL = 6  # zhuang / chuang / shuang
+
+
+def _segment(base):
+    """Greedy longest-match split of an ASCII pinyin base (one apostrophe-free chunk)
+    into syllable spans. Returns a list of (start, end) or None if it doesn't parse.
+    Trailing erhua 'r' (nar, tour) attaches to the preceding syllable."""
+    spans = []
+    i, n = 0, len(base)
+    while i < n:
+        for j in range(min(n, i + _MAX_SYL), i, -1):
+            if base[i:j] in _SYLLABLES:
+                spans.append([i, j])
+                i = j
+                break
+        else:
+            if base[i] == "r" and spans:  # erhua coda on the previous syllable
+                spans[-1][1] = i + 1
+                i += 1
+                continue
+            return None
+    return spans
+
+
 def word_key(surface, reading):
     """Bank key for a whole CN WORD clip → audio/cn/<key>.mp3, the CN analog of the
     JP jpAudioKey (phonetics_jp.kana_key). Unlike a bare syllable, a word is real
@@ -96,18 +148,38 @@ def word_key(surface, reading):
 
     A single-hanzi word is one syllable (犬 quǎn → 'quan3'): it reuses the syllable
     bank clip the glyph already voices, so it routes through audio_key and shares it.
-    A compound (真相 zhēnxiàng → 'zhenxiang', 十二 shí'èr → 'shier') keys by the
-    reading's ASCII base — tones stripped, ü→v, apostrophes/separators dropped. That
-    matches the multi-syllable stroke-name convention already in /audio/cn/ (shùgōu →
-    'shugou'); it drops tone, so two compounds differing only in tone would collide —
-    none do today, and a whole-word clip voiced by its surface can't be mis-toned."""
+    A compound is keyed by its reading segmented into per-syllable tone keys, each in
+    the same ü→v, trailing-tone-digit form the syllable bank uses (真相 zhēnxiàng →
+    'zhen1xiang4', 十二 shí'èr → 'shi2er4', 一下 yīxià → 'yi1xia4', 以下 yǐxià →
+    'yi3xia4'). Tone lives in the key, so two compounds differing only in tone no
+    longer collide. If a reading fails to segment (unexpected spelling), fall back to
+    the tone-stripped ASCII base so a clip is still produced."""
     if not reading:
         return None
     if len(surface) == 1:  # one hanzi = one syllable → share the glyph's bank clip
         return audio_key(reading)
-    base, _ = strip_tone(reading)
-    base = "".join(c for c in base if c.isascii() and c.isalpha())
-    return base or None
+    parts = []
+    for chunk in reading.replace("’", "'").split("'"):
+        chars, tones = [], []
+        for ch in chunk:
+            if ch in _TONE_VOWELS:
+                plain, t = _TONE_VOWELS[ch]
+                chars.append(plain)
+                tones.append(t or None)
+            elif ch.isascii() and ch.isalpha():
+                chars.append(ch.lower())
+                tones.append(None)
+            # any other char (spaces, digits, stray marks) is dropped
+        base = "".join(chars)
+        spans = _segment(base)
+        if spans is None:
+            parts.append(base)  # fallback: tone-stripped, still filename-safe
+            continue
+        for s, e in spans:
+            tone = next((t for t in tones[s:e] if t), 5)
+            parts.append(f"{base[s:e]}{tone}")
+    key = "".join(parts)
+    return key or None
 
 
 def sentence_key(lang, text):

@@ -24,5 +24,14 @@
       "gloss": "head; page"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "leaf",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
 }

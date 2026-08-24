@@ -25,5 +25,14 @@
       "gloss": "yawn"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "lack",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

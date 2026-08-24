@@ -22,5 +22,14 @@
       "gloss": "private"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "private",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

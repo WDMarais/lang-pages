@@ -25,5 +25,14 @@
       "gloss": "cave"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "cave",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

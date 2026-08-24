@@ -35,6 +35,14 @@
       "name": "Hair",
       "kind": "meaning",
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "bristle",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

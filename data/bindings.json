@@ -3401,6 +3401,12 @@
         "glyph": "内",
         "reading": "nèi",
         "gloss": "inside"
+      },
+      "program": {
+        "source": "pandanese",
+        "name": "down box",
+        "level": 4,
+        "kind": "meaning"
       }
     },
     {
@@ -4408,7 +4414,12 @@
         "source": "pandanese",
         "name": "spoon",
         "level": 2,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "spoon",
+          "kind": "meaning",
+          "level": 4
+        }
       }
     },
     {
@@ -4587,7 +4598,13 @@
         "sī"
       ],
       "gloss": "private",
-      "extra": "康熙部首 28"
+      "extra": "康熙部首 28",
+      "program": {
+        "source": "pandanese",
+        "name": "private",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:厶@jp",
@@ -5541,7 +5558,13 @@
         "yāo"
       ],
       "gloss": "short thread",
-      "extra": "康熙部首 52"
+      "extra": "康熙部首 52",
+      "program": {
+        "source": "pandanese",
+        "name": "short thread",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:幺@jp",
@@ -5767,7 +5790,13 @@
         "shān"
       ],
       "gloss": "bristle",
-      "extra": "康熙部首 59"
+      "extra": "康熙部首 59",
+      "program": {
+        "source": "pandanese",
+        "name": "bristle",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:彡@jp",
@@ -5921,7 +5950,13 @@
       "name": "扌",
       "readings": [],
       "gloss": "hand (left radical form)",
-      "extra": "「手」的偏旁（在左）· 打、持、指、找"
+      "extra": "「手」的偏旁（在左）· 打、持、指、找",
+      "program": {
+        "source": "pandanese",
+        "name": "umbrella",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:扌@jp",
@@ -6366,7 +6401,13 @@
         "qiàn"
       ],
       "gloss": "yawn",
-      "extra": "康熙部首 76"
+      "extra": "康熙部首 76",
+      "program": {
+        "source": "pandanese",
+        "name": "lack",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:欠@jp",
@@ -7617,7 +7658,13 @@
         "xué"
       ],
       "gloss": "cave",
-      "extra": "康熙部首 116"
+      "extra": "康熙部首 116",
+      "program": {
+        "source": "pandanese",
+        "name": "cave",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:穴@jp",
@@ -7691,7 +7738,12 @@
         "source": "pandanese",
         "name": "bamboo",
         "level": 2,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "chopsticks",
+          "kind": "mnemonic",
+          "level": 4
+        }
       }
     },
     {
@@ -9131,7 +9183,13 @@
         "fù"
       ],
       "gloss": "mound",
-      "extra": "康熙部首 170"
+      "extra": "康熙部首 170",
+      "program": {
+        "source": "pandanese",
+        "name": "mound",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:阜@jp",
@@ -9319,7 +9377,13 @@
         "gé"
       ],
       "gloss": "leather",
-      "extra": "康熙部首 177"
+      "extra": "康熙部首 177",
+      "program": {
+        "source": "pandanese",
+        "name": "leather",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:革@jp",
@@ -9399,7 +9463,13 @@
         "yè"
       ],
       "gloss": "head; page",
-      "extra": "康熙部首 181"
+      "extra": "康熙部首 181",
+      "program": {
+        "source": "pandanese",
+        "name": "leaf",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:頁@jp",
@@ -9459,7 +9529,13 @@
         "shí"
       ],
       "gloss": "eat",
-      "extra": "康熙部首 184"
+      "extra": "康熙部首 184",
+      "program": {
+        "source": "pandanese",
+        "name": "eat",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:食@jp",

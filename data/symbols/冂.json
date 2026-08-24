@@ -42,6 +42,14 @@
       "name": "Head",
       "kind": "mnemonic",
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "down box",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

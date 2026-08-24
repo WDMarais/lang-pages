@@ -29,6 +29,14 @@
       "name": "Poop",
       "kind": "mnemonic",
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "short thread",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }
