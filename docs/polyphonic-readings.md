@@ -1,5 +1,11 @@
 # Polyphonic readings (多音字) — design memo
 
+> **Superseded by [`sense-model.md`](sense-model.md).** The reading→list idea here is a
+> special case of the sense model (a sense owns a reading-list); polyphony and polysemy
+> are unified there. The still-live details — the representative-voicing bug and
+> per-reading audio derivation — are carried into that spec. Kept for the 只 worked
+> example and rationale.
+
 **Status: design only, not implemented.** Captures the intended model so the next
 person (or the next glyph) doesn't re-derive it. Motivated by 只 (see below).
 
