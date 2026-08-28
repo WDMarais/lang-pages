@@ -1,0 +1,37 @@
+{
+  "glyph": "教",
+  "cp": "U+6559",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "孝",
+    "攴"
+  ],
+  "readings": {
+    "cn": {
+      "name": "教",
+      "reading": "jiào",
+      "gloss": "teach; teaching; religion",
+      "extra": "教育、教师、教学、宗教 · 孝 + 攴（攵）"
+    },
+    "jp": {
+      "name": "教",
+      "reading": "キョウ",
+      "gloss": "teach; religion",
+      "extra": "漢字「教」(キョウ · おし-える) · 教える(おしえる)、教室(きょうしつ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "teach",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

@@ -1099,6 +1099,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:年",
+      "to": "r:year",
+      "kind": "denotes"
+    },
+    {
       "from": "g:幺",
       "to": "r:short-thread",
       "kind": "denotes"
@@ -1181,6 +1186,16 @@
     {
       "from": "g:攴",
       "to": "r:tap",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:政",
+      "to": "r:government",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:教",
+      "to": "r:teach",
       "kind": "denotes"
     },
     {
@@ -3247,6 +3262,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:禾",
+      "to": "g:年",
+      "kind": "composes"
+    },
+    {
+      "from": "g:千",
+      "to": "g:年",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:广",
       "kind": "composes"
@@ -3329,6 +3354,21 @@
     {
       "from": "g:又",
       "to": "g:攴",
+      "kind": "composes"
+    },
+    {
+      "from": "g:攴",
+      "to": "g:政",
+      "kind": "composes"
+    },
+    {
+      "from": "g:孝",
+      "to": "g:教",
+      "kind": "composes"
+    },
+    {
+      "from": "g:攴",
+      "to": "g:教",
       "kind": "composes"
     },
     {
@@ -7609,6 +7649,51 @@
     {
       "from": "w:外人@jp",
       "to": "r:foreigner",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:真",
+      "to": "w:真实@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:实",
+      "to": "w:真实@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:真实@cn",
+      "to": "r:authentic",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:实",
+      "to": "w:实力@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "w:实力@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:实力@cn",
+      "to": "r:actual-strength",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:实",
+      "to": "w:实在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:在",
+      "to": "w:实在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:实在@cn",
+      "to": "r:solid-honest",
       "kind": "denotes"
     },
     {

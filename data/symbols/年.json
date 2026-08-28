@@ -1,0 +1,37 @@
+{
+  "glyph": "年",
+  "cp": "U+5E74",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "禾",
+    "千"
+  ],
+  "readings": {
+    "cn": {
+      "name": "年",
+      "reading": "nián",
+      "gloss": "year",
+      "extra": "今年、去年、年纪、一年 · 禾 + 千（本作「秊」）· 谷熟为年"
+    },
+    "jp": {
+      "name": "年",
+      "reading": "とし",
+      "gloss": "year",
+      "extra": "漢字「年」(とし · ネン) · 今年(ことし)、一年(いちねん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "year",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

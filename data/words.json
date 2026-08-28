@@ -3577,6 +3577,54 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "真实",
+      "audience": "cn",
+      "parts": [
+        "真",
+        "实"
+      ],
+      "denotes": "authentic",
+      "reading": "zhēnshí",
+      "gloss": "true; real; authentic; genuine; not fake",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "实力",
+      "audience": "cn",
+      "parts": [
+        "实",
+        "力"
+      ],
+      "denotes": "actual-strength",
+      "reading": "shílì",
+      "gloss": "actual strength; real ability; (real) power; clout",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "实在",
+      "audience": "cn",
+      "parts": [
+        "实",
+        "在"
+      ],
+      "denotes": "solid-honest",
+      "reading": "shízài",
+      "gloss": "real; solid; honest; down-to-earth; indeed",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

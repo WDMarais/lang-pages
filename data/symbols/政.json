@@ -1,0 +1,37 @@
+{
+  "glyph": "政",
+  "cp": "U+653F",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "正",
+    "攴"
+  ],
+  "readings": {
+    "cn": {
+      "name": "政",
+      "reading": "zhèng",
+      "gloss": "government; politics",
+      "extra": "政府、政治、政策 · 正 + 攴（攵）· 以正道治理"
+    },
+    "jp": {
+      "name": "政",
+      "reading": "セイ",
+      "gloss": "government; politics",
+      "extra": "漢字「政」(セイ・ショウ · まつりごと) · 政治(せいじ)、政府(せいふ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "government",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

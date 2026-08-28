@@ -499,6 +499,10 @@
     "text": "角",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "jiao4.mp3": {
+    "text": "教",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "jie2.mp3": {
     "text": "卩",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -731,6 +735,10 @@
     "text": "你好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "nian2.mp3": {
+    "text": "年",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "niao3.mp3": {
     "text": "鳥",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -921,6 +929,14 @@
   },
   "shi2fen1.mp3": {
     "text": "十分",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shi2li4.mp3": {
+    "text": "实力",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shi2zai4.mp3": {
+    "text": "实在",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shi3.mp3": {
@@ -1361,6 +1377,10 @@
   },
   "zhen1.mp3": {
     "text": "真",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhen1shi2.mp3": {
+    "text": "真实",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhen1xiang4.mp3": {

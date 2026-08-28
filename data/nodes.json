@@ -3196,6 +3196,24 @@
       "label": "dry"
     },
     {
+      "id": "g:年",
+      "kind": "glyph",
+      "glyph": "年",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "nian2",
+      "jpAudioKey": "toshi"
+    },
+    {
+      "id": "r:year",
+      "kind": "referent",
+      "label": "year"
+    },
+    {
       "id": "g:幺",
       "kind": "glyph",
       "glyph": "幺",
@@ -3515,6 +3533,42 @@
       "label": "tap"
     },
     {
+      "id": "g:政",
+      "kind": "glyph",
+      "glyph": "政",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zheng4",
+      "jpAudioKey": "sei"
+    },
+    {
+      "id": "r:government",
+      "kind": "referent",
+      "label": "government; politics"
+    },
+    {
+      "id": "g:教",
+      "kind": "glyph",
+      "glyph": "教",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "jiao4",
+      "jpAudioKey": "kyou"
+    },
+    {
+      "id": "r:teach",
+      "kind": "referent",
+      "label": "teach; teaching; religion"
+    },
+    {
       "id": "g:文",
       "kind": "glyph",
       "glyph": "文",
@@ -3757,13 +3811,6 @@
       "id": "r:correct",
       "kind": "referent",
       "label": "correct; upright"
-    },
-    {
-      "id": "g:政",
-      "kind": "glyph",
-      "glyph": "政",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:歹",
@@ -6748,6 +6795,13 @@
       "id": "g:贝",
       "kind": "glyph",
       "glyph": "贝",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:孝",
+      "kind": "glyph",
+      "glyph": "孝",
       "tier": null,
       "frontier": true
     },
@@ -11233,6 +11287,66 @@
       "id": "r:foreigner",
       "kind": "referent",
       "label": "foreigner; outsider"
+    },
+    {
+      "id": "w:真实@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "真实",
+      "reading": "zhēnshí",
+      "gloss": "true; real; authentic; genuine; not fake",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "zhen1shi2"
+    },
+    {
+      "id": "r:authentic",
+      "kind": "referent",
+      "label": "true; real; authentic; genuine; not fake"
+    },
+    {
+      "id": "w:实力@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "实力",
+      "reading": "shílì",
+      "gloss": "actual strength; real ability; (real) power; clout",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "shi2li4"
+    },
+    {
+      "id": "r:actual-strength",
+      "kind": "referent",
+      "label": "actual strength; real ability; (real) power; clout"
+    },
+    {
+      "id": "w:实在@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "实在",
+      "reading": "shízài",
+      "gloss": "real; solid; honest; down-to-earth; indeed",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "shi2zai4"
+    },
+    {
+      "id": "r:solid-honest",
+      "kind": "referent",
+      "label": "real; solid; honest; down-to-earth; indeed"
     }
   ]
 }

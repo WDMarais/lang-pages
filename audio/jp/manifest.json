@@ -547,6 +547,10 @@
     "text": "くわえる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kyou.mp3": {
+    "text": "キョウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kyuu.mp3": {
     "text": "キュウ",
     "voice": "ja-JP-NanamiNeural"
@@ -1029,6 +1033,10 @@
   },
   "tori.mp3": {
     "text": "とり",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "toshi.mp3": {
+    "text": "とし",
     "voice": "ja-JP-NanamiNeural"
   },
   "tou.mp3": {
