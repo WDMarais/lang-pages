@@ -1,0 +1,51 @@
+{
+  "glyph": "半",
+  "cp": "U+534A",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "丷",
+    "牛"
+  ],
+  "readings": {
+    "cn": {
+      "name": "半",
+      "reading": "bàn",
+      "gloss": "half",
+      "extra": "一半、半天、半夜、半个 · 从八从牛，分牛为二为「半」"
+    },
+    "jp": {
+      "name": "半",
+      "reading": "ハン",
+      "gloss": "half",
+      "extra": "漢字「半」(ハン · なか-ば) · 半分(はんぶん)、半日(はんにち)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Half",
+      "kind": "meaning",
+      "level": 3
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Half",
+      "readings": [
+        "ハン"
+      ],
+      "on": true,
+      "kun": [
+        "なかば"
+      ],
+      "level": 3
+    }
+  ]
+}

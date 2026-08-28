@@ -3374,6 +3374,146 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "広げる",
+      "audience": "jp",
+      "parts": [
+        "広"
+      ],
+      "denotes": "spread-out",
+      "reading": "ひろげる",
+      "gloss": "to spread out; extend; widen; unfold",
+      "okurigana": "げる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "北",
+      "audience": "jp",
+      "parts": [
+        "北"
+      ],
+      "denotes": "north",
+      "reading": "きた",
+      "gloss": "north",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "明かり",
+      "audience": "jp",
+      "parts": [
+        "明"
+      ],
+      "denotes": "lamplight",
+      "reading": "あかり",
+      "gloss": "light; a lamp; illumination",
+      "okurigana": "かり",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "友人",
+      "audience": "jp",
+      "parts": [
+        "友",
+        "人"
+      ],
+      "denotes": "friend",
+      "reading": "ゆうじん",
+      "gloss": "friend",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "今",
+      "audience": "jp",
+      "parts": [
+        "今"
+      ],
+      "denotes": "now",
+      "reading": "いま",
+      "gloss": "now",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "お父さん",
+      "audience": "jp",
+      "parts": [
+        "父"
+      ],
+      "denotes": "father",
+      "reading": "おとうさん",
+      "gloss": "father (honorific); dad; your/his father",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "冬",
+      "audience": "jp",
+      "parts": [
+        "冬"
+      ],
+      "denotes": "winter",
+      "reading": "ふゆ",
+      "gloss": "winter",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "一台",
+      "audience": "jp",
+      "parts": [
+        "一",
+        "台"
+      ],
+      "denotes": "one",
+      "reading": "いちだい",
+      "gloss": "one machine; one (vehicle or machine)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "二台",
+      "audience": "jp",
+      "parts": [
+        "二",
+        "台"
+      ],
+      "denotes": "two",
+      "reading": "にだい",
+      "gloss": "two machines; two (vehicles or machines)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

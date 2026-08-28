@@ -2470,6 +2470,24 @@
       "label": "noon; 7th earthly branch"
     },
     {
+      "id": "g:半",
+      "kind": "glyph",
+      "glyph": "半",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ban4",
+      "jpAudioKey": "han"
+    },
+    {
+      "id": "r:half",
+      "kind": "referent",
+      "label": "half"
+    },
+    {
       "id": "g:卜",
       "kind": "glyph",
       "glyph": "卜",
@@ -3141,6 +3159,24 @@
       "id": "r:cloth",
       "kind": "referent",
       "label": "cloth"
+    },
+    {
+      "id": "g:市",
+      "kind": "glyph",
+      "glyph": "市",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "shi4",
+      "jpAudioKey": "shi"
+    },
+    {
+      "id": "r:city",
+      "kind": "referent",
+      "label": "city"
     },
     {
       "id": "g:干",
@@ -5460,11 +5496,6 @@
         "image": ""
       },
       "cnAudioKey": "yi4"
-    },
-    {
-      "id": "r:city",
-      "kind": "referent",
-      "label": "city"
     },
     {
       "id": "g:那",
@@ -10990,6 +11021,153 @@
       "id": "r:subordinate",
       "kind": "referent",
       "label": "subordinate; underling; the people under one's command"
+    },
+    {
+      "id": "w:広げる@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "広げる",
+      "reading": "ひろげる",
+      "gloss": "to spread out; extend; widen; unfold",
+      "okurigana": "げる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "hirogeru"
+    },
+    {
+      "id": "r:spread-out",
+      "kind": "referent",
+      "label": "to spread out; extend; widen; unfold"
+    },
+    {
+      "id": "w:北@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "北",
+      "reading": "きた",
+      "gloss": "north",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "kita"
+    },
+    {
+      "id": "w:明かり@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "明かり",
+      "reading": "あかり",
+      "gloss": "light; a lamp; illumination",
+      "okurigana": "かり",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "akari"
+    },
+    {
+      "id": "r:lamplight",
+      "kind": "referent",
+      "label": "light; a lamp; illumination"
+    },
+    {
+      "id": "w:友人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "友人",
+      "reading": "ゆうじん",
+      "gloss": "friend",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "yuujin"
+    },
+    {
+      "id": "w:今@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "今",
+      "reading": "いま",
+      "gloss": "now",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "ima"
+    },
+    {
+      "id": "w:お父さん@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "お父さん",
+      "reading": "おとうさん",
+      "gloss": "father (honorific); dad; your/his father",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "otousan"
+    },
+    {
+      "id": "w:冬@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "冬",
+      "reading": "ふゆ",
+      "gloss": "winter",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "fuyu"
+    },
+    {
+      "id": "w:一台@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一台",
+      "reading": "いちだい",
+      "gloss": "one machine; one (vehicle or machine)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "ichidai"
+    },
+    {
+      "id": "w:二台@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "二台",
+      "reading": "にだい",
+      "gloss": "two machines; two (vehicles or machines)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "nidai"
     }
   ]
 }

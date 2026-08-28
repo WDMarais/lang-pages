@@ -7,6 +7,10 @@
     "text": "あい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "akari.mp3": {
+    "text": "あかり",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "akarui.mp3": {
     "text": "あかるい",
     "voice": "ja-JP-NanamiNeural"
@@ -191,6 +195,10 @@
     "text": "はくじん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "han.mp3": {
+    "text": "ハン",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hane.mp3": {
     "text": "はね",
     "voice": "ja-JP-NanamiNeural"
@@ -233,6 +241,10 @@
   },
   "hinode.mp3": {
     "text": "ひので",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hirogeru.mp3": {
+    "text": "ひろげる",
     "voice": "ja-JP-NanamiNeural"
   },
   "hiroi.mp3": {
@@ -281,6 +293,10 @@
   },
   "ichi.mp3": {
     "text": "いち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ichidai.mp3": {
+    "text": "いちだい",
     "voice": "ja-JP-NanamiNeural"
   },
   "ichigatsu.mp3": {
@@ -643,6 +659,10 @@
     "text": "ニ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "nidai.mp3": {
+    "text": "にだい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "nigatsu.mp3": {
     "text": "にがつ",
     "voice": "ja-JP-NanamiNeural"
@@ -741,6 +761,10 @@
   },
   "otonashii.mp3": {
     "text": "おとなしい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "otousan.mp3": {
+    "text": "おとうさん",
     "voice": "ja-JP-NanamiNeural"
   },
   "ou.mp3": {
@@ -1125,6 +1149,10 @@
   },
   "yuube.mp3": {
     "text": "ゆうべ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yuujin.mp3": {
+    "text": "ゆうじん",
     "voice": "ja-JP-NanamiNeural"
   },
   "zai.mp3": {

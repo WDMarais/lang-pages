@@ -894,6 +894,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:半",
+      "to": "r:half",
+      "kind": "denotes"
+    },
+    {
       "from": "g:卜",
       "to": "r:divination",
       "kind": "denotes"
@@ -1081,6 +1086,11 @@
     {
       "from": "g:巾",
       "to": "r:cloth",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:市",
+      "to": "r:city",
       "kind": "denotes"
     },
     {
@@ -2981,6 +2991,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:丷",
+      "to": "g:半",
+      "kind": "composes"
+    },
+    {
+      "from": "g:牛",
+      "to": "g:半",
+      "kind": "composes"
+    },
+    {
       "from": "g:丨",
       "to": "g:卜",
       "kind": "composes"
@@ -3204,6 +3224,16 @@
     {
       "from": "g:丨",
       "to": "g:巾",
+      "kind": "composes"
+    },
+    {
+      "from": "g:亠",
+      "to": "g:市",
+      "kind": "composes"
+    },
+    {
+      "from": "g:巾",
+      "to": "g:市",
       "kind": "composes"
     },
     {
@@ -7419,6 +7449,111 @@
     {
       "from": "w:手下@cn",
       "to": "r:subordinate",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:広",
+      "to": "w:広げる@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:広げる@jp",
+      "to": "r:spread-out",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:北",
+      "to": "w:北@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:北@jp",
+      "to": "r:north",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:明",
+      "to": "w:明かり@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:明かり@jp",
+      "to": "r:lamplight",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:友",
+      "to": "w:友人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:友人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:友人@jp",
+      "to": "r:friend",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:今",
+      "to": "w:今@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:今@jp",
+      "to": "r:now",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:父",
+      "to": "w:お父さん@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:お父さん@jp",
+      "to": "r:father",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:冬",
+      "to": "w:冬@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:冬@jp",
+      "to": "r:winter",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:台",
+      "to": "w:一台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一台@jp",
+      "to": "r:one",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:二",
+      "to": "w:二台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:台",
+      "to": "w:二台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:二台@jp",
+      "to": "r:two",
       "kind": "denotes"
     },
     {

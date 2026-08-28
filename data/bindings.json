@@ -4544,6 +4544,45 @@
       }
     },
     {
+      "id": "b:半@cn",
+      "glyph_id": "g:半",
+      "lang": "cn",
+      "name": "半",
+      "readings": [
+        "bàn"
+      ],
+      "gloss": "half",
+      "extra": "一半、半天、半夜、半个 · 从八从牛，分牛为二为「半」"
+    },
+    {
+      "id": "b:半@jp",
+      "glyph_id": "g:半",
+      "lang": "jp",
+      "name": "半",
+      "readings": [
+        "ハン"
+      ],
+      "gloss": "half",
+      "extra": "漢字「半」(ハン · なか-ば) · 半分(はんぶん)、半日(はんにち)",
+      "program": {
+        "source": "wanikani",
+        "name": "Half",
+        "level": 3,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Half",
+          "readings": [
+            "ハン"
+          ],
+          "on": true,
+          "kun": [
+            "なかば"
+          ],
+          "level": 3
+        }
+      }
+    },
+    {
       "id": "b:卜@cn",
       "glyph_id": "g:卜",
       "lang": "cn",
@@ -5515,6 +5554,42 @@
         "name": "Towel",
         "level": 3,
         "kind": "meaning"
+      }
+    },
+    {
+      "id": "b:市@cn",
+      "glyph_id": "g:市",
+      "lang": "cn",
+      "name": "市",
+      "readings": [
+        "shì"
+      ],
+      "gloss": "city",
+      "extra": "城市、市场、市长 · 亠 + 巾 · 本义「市集」引申为城市"
+    },
+    {
+      "id": "b:市@jp",
+      "glyph_id": "g:市",
+      "lang": "jp",
+      "name": "市",
+      "readings": [
+        "シ"
+      ],
+      "gloss": "city",
+      "extra": "漢字「市」(シ · いち) · 都市(とし)、市場(いちば)、市長(しちょう)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "City",
+          "readings": [
+            "シ"
+          ],
+          "on": true,
+          "kun": [
+            "いち"
+          ],
+          "level": 3
+        }
       }
     },
     {

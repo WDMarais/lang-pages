@@ -1773,6 +1773,24 @@
           "kanji": { "name": "Noon", "readings": ["ゴ"], "on": true, "level": 3 }
         },
         {
+          "glyph": "半",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ban4",
+          "jpAudioKey": "han",
+          "cn": {
+            "name": "半", "reading": "bàn", "gloss": "half",
+            "extra": "一半、半天、半夜、半个 · 从八从牛，分牛为二为「半」"
+          },
+          "jp": {
+            "name": "半", "reading": "ハン", "gloss": "half",
+            "extra": "漢字「半」(ハン · なか-ば) · 半分(はんぶん)、半日(はんにち)"
+          },
+          "wk": { "name": "Half", "level": 3, "kind": "meaning" },
+          "kanji": { "name": "Half", "readings": ["ハン"], "on": true, "kun": ["なかば"], "level": 3 }
+        },
+        {
           "glyph": "友",
           "tag": "char",
           "image": "",
@@ -2190,6 +2208,24 @@
             "appearsIn": { "char": "包", "reading": "ホウ", "gloss": "to wrap" }
           },
           "wk": null
+        },
+        {
+          "glyph": "市",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shi4",
+          "jpAudioKey": "shi",
+          "cn": {
+            "name": "市", "reading": "shì", "gloss": "city",
+            "extra": "城市、市场、市长 · 亠 + 巾 · 本义「市集」引申为城市"
+          },
+          "jp": {
+            "name": "市", "reading": "シ", "gloss": "city",
+            "extra": "漢字「市」(シ · いち) · 都市(とし)、市場(いちば)、市長(しちょう)"
+          },
+          "wk": null,
+          "kanji": { "name": "City", "readings": ["シ"], "on": true, "kun": ["いち"], "level": 3 }
         },
         {
           "glyph": "広",
