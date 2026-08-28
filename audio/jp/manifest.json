@@ -147,6 +147,10 @@
     "text": "ふゆ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "gaijin.mp3": {
+    "text": "がいじん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "gen.mp3": {
     "text": "ゲン",
     "voice": "ja-JP-NanamiNeural"
@@ -157,6 +161,10 @@
   },
   "go.mp3": {
     "text": "ご",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "godai.mp3": {
+    "text": "ごだい",
     "voice": "ja-JP-NanamiNeural"
   },
   "gogatsu.mp3": {
@@ -389,6 +397,10 @@
   },
   "juu.mp3": {
     "text": "ジュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juudai.mp3": {
+    "text": "じゅうだい",
     "voice": "ja-JP-NanamiNeural"
   },
   "juugatsu.mp3": {

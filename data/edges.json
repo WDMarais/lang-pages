@@ -7557,6 +7557,61 @@
       "kind": "denotes"
     },
     {
+      "from": "g:五",
+      "to": "w:五台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:台",
+      "to": "w:五台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:五台@jp",
+      "to": "r:five",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:十",
+      "to": "w:十台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:台",
+      "to": "w:十台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:十台@jp",
+      "to": "r:ten",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:外",
+      "to": "w:外@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:外@jp",
+      "to": "r:outside",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:外",
+      "to": "w:外人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:外人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:外人@jp",
+      "to": "r:foreigner",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"

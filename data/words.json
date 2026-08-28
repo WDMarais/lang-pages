@@ -3514,6 +3514,69 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "五台",
+      "audience": "jp",
+      "parts": [
+        "五",
+        "台"
+      ],
+      "denotes": "five",
+      "reading": "ごだい",
+      "gloss": "five machines; five (vehicles or machines)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "十台",
+      "audience": "jp",
+      "parts": [
+        "十",
+        "台"
+      ],
+      "denotes": "ten",
+      "reading": "じゅうだい",
+      "gloss": "ten machines; ten (vehicles or machines)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "外",
+      "audience": "jp",
+      "parts": [
+        "外"
+      ],
+      "denotes": "outside",
+      "reading": "そと",
+      "gloss": "outside",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "外人",
+      "audience": "jp",
+      "parts": [
+        "外",
+        "人"
+      ],
+      "denotes": "foreigner",
+      "reading": "がいじん",
+      "gloss": "foreigner; outsider",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

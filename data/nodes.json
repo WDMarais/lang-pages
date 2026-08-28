@@ -11168,6 +11168,71 @@
         "level": 3
       },
       "jpAudioKey": "nidai"
+    },
+    {
+      "id": "w:五台@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "五台",
+      "reading": "ごだい",
+      "gloss": "five machines; five (vehicles or machines)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "godai"
+    },
+    {
+      "id": "w:十台@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "十台",
+      "reading": "じゅうだい",
+      "gloss": "ten machines; ten (vehicles or machines)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "juudai"
+    },
+    {
+      "id": "w:外@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "外",
+      "reading": "そと",
+      "gloss": "outside",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "soto"
+    },
+    {
+      "id": "w:外人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "外人",
+      "reading": "がいじん",
+      "gloss": "foreigner; outsider",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "gaijin"
+    },
+    {
+      "id": "r:foreigner",
+      "kind": "referent",
+      "label": "foreigner; outsider"
     }
   ]
 }
