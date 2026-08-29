@@ -6966,13 +6966,23 @@
             "name": "扌",
             "reading": "",
             "gloss": "hand (left radical form)",
-            "extra": "「手」的偏旁（在左）· 打、持、指、找"
+            "extra": "「手」的偏旁（在左）· 打、持、指、找",
+            "appearsIn": {
+              "char": "打",
+              "reading": "dǎ",
+              "gloss": "to hit"
+            }
           },
           "jp": {
             "name": "扌",
             "reading": "",
             "gloss": "hand (left radical form)",
-            "extra": "「手」の偏旁（てへん）· Unicode U+624C"
+            "extra": "「手」の偏旁（てへん）· Unicode U+624C",
+            "appearsIn": {
+              "char": "打",
+              "reading": "うつ",
+              "gloss": "to hit"
+            }
           },
           "wk": {
             "name": "Fingers",
@@ -6983,7 +6993,9 @@
             "name": "umbrella",
             "level": 4,
             "kind": "mnemonic"
-          }
+          },
+          "cnExAudioKey": "da3",
+          "jpExAudioKey": "utsu"
         },
         {
           "glyph": "灬",

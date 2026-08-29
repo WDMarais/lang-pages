@@ -6056,6 +6056,11 @@
       "readings": [],
       "gloss": "hand (left radical form)",
       "extra": "「手」的偏旁（在左）· 打、持、指、找",
+      "appearsIn": {
+        "glyph": "打",
+        "reading": "dǎ",
+        "gloss": "to hit"
+      },
       "program": {
         "source": "pandanese",
         "name": "umbrella",
@@ -6071,6 +6076,11 @@
       "readings": [],
       "gloss": "hand (left radical form)",
       "extra": "「手」の偏旁（てへん）· Unicode U+624C",
+      "appearsIn": {
+        "glyph": "打",
+        "reading": "うつ",
+        "gloss": "to hit"
+      },
       "program": {
         "source": "wanikani",
         "name": "Fingers",
