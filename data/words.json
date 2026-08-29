@@ -3579,6 +3579,21 @@
       }
     },
     {
+      "surface": "生",
+      "audience": "jp",
+      "parts": [
+        "生"
+      ],
+      "denotes": "raw",
+      "reading": "なま",
+      "gloss": "raw; uncooked; fresh",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
       "surface": "真实",
       "audience": "cn",
       "parts": [

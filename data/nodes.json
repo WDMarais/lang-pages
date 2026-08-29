@@ -4201,12 +4201,39 @@
         "image": ""
       },
       "cnAudioKey": "sheng1",
-      "jpAudioKey": "sei"
+      "jpAudioKey": "sei",
+      "senses": [
+        {
+          "gloss": "raw; fresh; uncooked",
+          "denotes": "raw",
+          "cn": {
+            "readings": [
+              "shēng"
+            ],
+            "audioKeys": [
+              "sheng1"
+            ]
+          },
+          "jp": {
+            "readings": [
+              "なま"
+            ],
+            "audioKeys": [
+              "nama"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "r:life",
       "kind": "referent",
       "label": "life"
+    },
+    {
+      "id": "r:raw",
+      "kind": "referent",
+      "label": "raw; fresh; uncooked"
     },
     {
       "id": "g:用",
@@ -11287,6 +11314,21 @@
       "id": "r:foreigner",
       "kind": "referent",
       "label": "foreigner; outsider"
+    },
+    {
+      "id": "w:生@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "生",
+      "reading": "なま",
+      "gloss": "raw; uncooked; fresh",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "nama"
     },
     {
       "id": "w:真实@cn",

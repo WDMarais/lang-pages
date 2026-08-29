@@ -25,6 +25,15 @@
       "extra": "漢字「生」(い-きる · う-まれる · なま · セイ・ショウ) · 生活(せいかつ)、学生(がくせい)、生(なま)"
     }
   },
+  "senses": [
+    {
+      "gloss": "raw; fresh; uncooked",
+      "denotes": "raw",
+      "jp": {
+        "reading": "なま"
+      }
+    }
+  ],
   "programs": [
     {
       "source": "wanikani",

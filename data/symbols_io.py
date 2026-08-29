@@ -23,6 +23,36 @@ def referent_slug(gloss):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+def _as_list(reading):
+    """A sense/reading value is a string OR a list (polyphony within one sense);
+    normalise to a list. None/absent → empty list."""
+    if reading is None:
+        return []
+    return list(reading) if isinstance(reading, list) else [reading]
+
+
+def resolve_senses(sym):
+    """The glyph's NON-PRIMARY senses (`sym['senses']`) with per-language readings
+    resolved by the coupling rule: a sense that omits language L inherits sense 0's
+    (the `readings.{cn,jp}` block) L reading — see docs/sense-model.md. Sense 0 itself
+    is excluded (it *is* that block). Returns a list of
+        {gloss, denotes, cn: [reading...], jp: [reading...]}
+    with readings always a list (possibly empty when L has no primary to inherit).
+    Purely projective — the gate validates the raw shape; build/audio consume this."""
+    base = sym.get("readings") or {}
+    out = []
+    for sense in sym.get("senses") or []:
+        entry = {"gloss": sense.get("gloss", ""), "denotes": sense.get("denotes", "")}
+        for lang in ("cn", "jp"):
+            block = sense.get(lang) or {}
+            if block.get("reading") is not None:
+                entry[lang] = _as_list(block["reading"])          # own reading (override)
+            else:
+                entry[lang] = _as_list((base.get(lang) or {}).get("reading"))  # inherit sense 0
+        out.append(entry)
+    return out
+
+
 def load_symbols():
     """Ordered {glyph: symbol} following data/symbols/_spine.json (the editorial
     order); any file missing from the spine is appended sorted, so nothing is

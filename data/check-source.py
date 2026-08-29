@@ -28,7 +28,7 @@ import sys
 from paths import DATA, ROOT, SYM
 from phonetics import cn_key
 from phonetics_jp import kana_key
-from symbols_io import PROGRAM_TIERS, referent_slug
+from symbols_io import PROGRAM_TIERS, referent_slug, _as_list
 
 TIER_BY_KEY = {(t["source"], t["role"]): t for t in PROGRAM_TIERS}
 CLASSES = {"char", "comp", "stroke"}
@@ -115,6 +115,66 @@ def check_script(rep, where, script):
         _check_script_form(rep, where, k, script[k])
 
 
+def check_senses(rep, where, s):
+    """Validate the optional `senses[]` (docs/sense-model.md): the glyph's NON-PRIMARY
+    senses, each a bundle of (gloss, denotes, per-language reading). Sense 0 IS the
+    `readings.{cn,jp}` block and is not repeated here — so `senses[]` starts at sense 1.
+
+    Two invariants:
+      · SHAPE — each sense carries a non-empty gloss + denotes; a declared cn/jp block
+        is an object whose `reading` is a non-empty string or a non-empty list of
+        non-empty strings (a list = polyphony within the one sense).
+      · COUPLING (gated inheritance) — a sense may OMIT language L only when the glyph
+        is monophonic in L. If L carries >1 distinct reading across sense 0 + the
+        explicit sense readings, every non-primary sense MUST declare its own L reading:
+        omitting it would silently inherit sense 0's sound onto a sense that sounds
+        different — the exact 多音字 slip the sense model exists to catch."""
+    senses = s.get("senses")
+    if senses is None:
+        return
+    if not isinstance(senses, list) or not senses:
+        rep.err(where, "senses must be a non-empty list when present")
+        return
+
+    base = s.get("readings") or {}
+    distinct = {"cn": set(), "jp": set()}   # every reading seen for L, sense 0 + explicit
+    omitted = {"cn": False, "jp": False}    # did SOME sense inherit L (omit it)?
+    for lang in ("cn", "jp"):
+        for x in _as_list((base.get(lang) or {}).get("reading")):
+            if _str(x):
+                distinct[lang].add(x)
+
+    for j, sense in enumerate(senses):
+        sw = f"{where} sense[{j + 1}]"
+        if not isinstance(sense, dict):
+            rep.err(sw, "sense must be an object")
+            continue
+        if not _str(sense.get("gloss")):
+            rep.err(sw, "gloss missing or empty")
+        if not _str(sense.get("denotes")):
+            rep.err(sw, "denotes missing or empty")
+        for lang in ("cn", "jp"):
+            block = sense.get(lang)
+            if block is None:
+                omitted[lang] = True
+                continue
+            if not isinstance(block, dict):
+                rep.err(sw, f"{lang} must be an object")
+                continue
+            vals = _as_list(block.get("reading"))
+            if not vals or not all(_str(x) for x in vals):
+                rep.err(sw, f"{lang}.reading must be a non-empty string or list of strings")
+                continue
+            distinct[lang].update(vals)
+
+    for lang in ("cn", "jp"):
+        if omitted[lang] and len(distinct[lang]) > 1:
+            rep.err(where, f"a sense omits {lang} but the glyph is polyphonic in {lang} "
+                           f"({len(distinct[lang])} readings: "
+                           f"{' '.join(sorted(distinct[lang]))}) — every non-primary "
+                           f"sense must declare its own {lang} reading")
+
+
 def check_symbol(rep, g, s):
     where = f"symbols/{g}.json"
 
@@ -196,6 +256,9 @@ def check_symbol(rep, g, s):
     if s.get("script") is not None:
         check_script(rep, where, s["script"])
 
+    # non-primary senses (docs/sense-model.md) — shape + the polyphony coupling rule
+    check_senses(rep, where, s)
+
     # audio: a reading the phonetics normaliser cannot key gets no voice clip.
     cn = (readings or {}).get("cn") or {}
     jp = (readings or {}).get("jp") or {}
@@ -242,9 +305,15 @@ def check_words(rep, syms):
             head = syms[parts[0]]
             gloss = (head["readings"]["cn"].get("gloss")
                      or head["readings"]["jp"].get("gloss", ""))
-            want = referent_slug(gloss)
-            if _str(w.get("denotes")) and w["denotes"] != want:
-                rep.warn(where, f"denotes {w['denotes']!r} != head {parts[0]} referent {want!r}")
+            # A polysemous head denotes ANY of its senses (docs/sense-model.md): the
+            # bare-glyph word may rejoin the primary gloss OR a non-primary sense's
+            # referent (生 → r:life or r:raw), so hold it to the union, not just sense 0.
+            want = {referent_slug(gloss)}
+            want |= {sense["denotes"] for sense in head.get("senses") or []
+                     if _str(sense.get("denotes"))}
+            if _str(w.get("denotes")) and w["denotes"] not in want:
+                rep.warn(where, f"denotes {w['denotes']!r} != head {parts[0]} "
+                                f"referent(s) {' '.join(sorted(want))}")
 
 
 def check_grounding(syms):

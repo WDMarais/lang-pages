@@ -1400,6 +1400,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:生",
+      "to": "r:raw",
+      "kind": "denotes"
+    },
+    {
       "from": "g:用",
       "to": "r:use",
       "kind": "denotes"
@@ -7649,6 +7654,16 @@
     {
       "from": "w:外人@jp",
       "to": "r:foreigner",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:生",
+      "to": "w:生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:生@jp",
+      "to": "r:raw",
       "kind": "denotes"
     },
     {

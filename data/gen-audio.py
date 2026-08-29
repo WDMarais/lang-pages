@@ -36,7 +36,7 @@ import sys
 from collections import namedtuple
 
 from paths import ROOT, DATA, read_json, write_json
-from symbols_io import load_symbols
+from symbols_io import load_symbols, resolve_senses
 from phonetics import bank as cn_bank, audio_key, multi_key, sentence_key, word_key
 from phonetics_jp import kana_key
 
@@ -112,6 +112,14 @@ def cn_bank_jobs():
         r = cn.get("reading")
         if r and audio_key(r) is None and (k := multi_key(r)):
             text.setdefault(k, cn.get("name") or s["glyph"])
+        # a non-primary sense with its OWN cn reading (only ever a distinct sound —
+        # inherited readings resolve to the primary, already keyed) is a real clip,
+        # voiced by the glyph surface (docs/sense-model.md). setdefault keeps a shared
+        # syllable clip voiced by its existing representative.
+        for sense in resolve_senses(s):
+            for reading in sense["cn"]:
+                if k := audio_key(reading):
+                    text.setdefault(k, s["glyph"])
     # CN words (真相・工作) are real hanzi — directly speakable, so the whole-word clip
     # is voiced by the SURFACE, not a representative syllable. setdefault so a single-
     # hanzi word (犬 → quan3) shares the glyph's syllable clip rather than re-cutting it;
@@ -134,6 +142,13 @@ def jp_bank_jobs():
         for reading in (jp.get("reading"), (jp.get("appearsIn") or {}).get("reading")):
             if k := kana_key(reading):
                 text.setdefault(k, reading)
+        # a non-primary sense's JP reading is its own voice clip (生 なま → nama.mp3);
+        # kana is directly speakable, so no representative glyph (docs/sense-model.md).
+        # setdefault dedups an inherited reading already voiced by sense 0.
+        for sense in resolve_senses(s):
+            for reading in sense["jp"]:
+                if k := kana_key(reading):
+                    text.setdefault(k, reading)
     # JP words (これ・人々・リンゴ) are audience-tagged lexemes; their full kana reading
     # is directly speakable, exactly like a glyph reading. setdefault so a reading a
     # glyph already voiced (之→これ) is shared, not regenerated as a duplicate clip.

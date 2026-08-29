@@ -18,13 +18,14 @@ import sys
 from itertools import combinations
 
 from paths import DATA, read_json, write_json
-from phonetics import sentence_key, word_key
+from phonetics import cn_key, sentence_key, word_key
 from phonetics_jp import kana_key
 from symbols_io import (
     load_symbols,
     to_card,
     card_audio_keys,
     referent_slug,
+    resolve_senses,
     bind_programs,
     unbind_programs,
 )
@@ -161,6 +162,31 @@ def build():
             rid = f"r:{referent_slug(gloss)}"
             nodes.setdefault(rid, {"id": rid, "kind": "referent", "label": gloss})
             edges.append({"from": f"g:{g}", "to": rid, "kind": "denotes"})
+
+            # A polysemous glyph denotes MORE than its primary gloss: each non-primary
+            # sense (docs/sense-model.md) mints/rejoins its own referent + `denotes`
+            # edge, and rides onto the node as a resolved `senses` list (readings per
+            # language → content-keyed audio) for the dossier. sense 0 is the block
+            # above; `senses[]` are the rest. Mono-sense glyphs (the vast majority) add
+            # nothing here. Not in `to_card`, so the round-trip proof is untouched.
+            senses = []
+            for sense in resolve_senses(symbols[g]):
+                if not sense["denotes"]:
+                    continue
+                srid = f"r:{sense['denotes']}"
+                nodes.setdefault(srid, {"id": srid, "kind": "referent",
+                                        "label": sense["gloss"]})
+                edges.append({"from": f"g:{g}", "to": srid, "kind": "denotes"})
+                view = {"gloss": sense["gloss"], "denotes": sense["denotes"]}
+                for lang, keyf in (("cn", cn_key), ("jp", kana_key)):
+                    if sense[lang]:
+                        view[lang] = {
+                            "readings": sense[lang],
+                            "audioKeys": [k for r in sense[lang] if (k := keyf(r))],
+                        }
+                senses.append(view)
+            if senses:
+                nodes[f"g:{g}"]["senses"] = senses
 
             # composes ← example chars (union CN+JP, dedup); seed frontier stubs.
             # The part (this glyph) folds onto its canonical twin, if any.
