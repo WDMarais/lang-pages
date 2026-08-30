@@ -1,0 +1,306 @@
+{
+  "ban-xiaoxiao.mp3": {
+    "text": "蛋一凝住，就把它和饭拌匀。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ban-xiaoyi.mp3": {
+    "text": "蛋一凝住，就把它和饭拌匀。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "ban-yunxi.mp3": {
+    "text": "蛋一凝住，就把它和饭拌匀。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "ban-yunyang.mp3": {
+    "text": "蛋一凝住，就把它和饭拌匀。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "bo-xiaoxiao.mp3": {
+    "text": "把饭拨到一边，空出的地方倒蛋液。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bo-xiaoyi.mp3": {
+    "text": "把饭拨到一边，空出的地方倒蛋液。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "bo-yunxi.mp3": {
+    "text": "把饭拨到一边，空出的地方倒蛋液。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "bo-yunyang.mp3": {
+    "text": "把饭拨到一边，空出的地方倒蛋液。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "chang-xiaoxiao.mp3": {
+    "text": "出锅前尝一口，淡了就再加点盐。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chang-xiaoyi.mp3": {
+    "text": "出锅前尝一口，淡了就再加点盐。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "chang-yunxi.mp3": {
+    "text": "出锅前尝一口，淡了就再加点盐。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "chang-yunyang.mp3": {
+    "text": "出锅前尝一口，淡了就再加点盐。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "chao-xiaoxiao.mp3": {
+    "text": "中火把米饭和豌豆炒散，让每粒饭都裹上油。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chao-xiaoyi.mp3": {
+    "text": "中火把米饭和豌豆炒散，让每粒饭都裹上油。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "chao-yunxi.mp3": {
+    "text": "中火把米饭和豌豆炒散，让每粒饭都裹上油。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "chao-yunyang.mp3": {
+    "text": "中火把米饭和豌豆炒散，让每粒饭都裹上油。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "chaofan-xiaoxiao.mp3": {
+    "text": "这道麻油蛋炒饭用隔夜饭来炒，粒粒分明。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chaofan-xiaoyi.mp3": {
+    "text": "这道麻油蛋炒饭用隔夜饭来炒，粒粒分明。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "chaofan-yunxi.mp3": {
+    "text": "这道麻油蛋炒饭用隔夜饭来炒，粒粒分明。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "chaofan-yunyang.mp3": {
+    "text": "这道麻油蛋炒饭用隔夜饭来炒，粒粒分明。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "chuguo-xiaoxiao.mp3": {
+    "text": "趁热出锅，盛到碗里就可以吃了。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "chuguo-xiaoyi.mp3": {
+    "text": "趁热出锅，盛到碗里就可以吃了。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "chuguo-yunxi.mp3": {
+    "text": "趁热出锅，盛到碗里就可以吃了。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "chuguo-yunyang.mp3": {
+    "text": "趁热出锅，盛到碗里就可以吃了。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "cong-xiaoxiao.mp3": {
+    "text": "葱切成葱花，和姜一起爆香。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cong-xiaoyi.mp3": {
+    "text": "葱切成葱花，和姜一起爆香。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "cong-yunxi.mp3": {
+    "text": "葱切成葱花，和姜一起爆香。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "cong-yunyang.mp3": {
+    "text": "葱切成葱花，和姜一起爆香。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "dao-xiaoxiao.mp3": {
+    "text": "锅热了就倒油，油热了再倒蛋液。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dao-xiaoyi.mp3": {
+    "text": "锅热了就倒油，油热了再倒蛋液。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "dao-yunxi.mp3": {
+    "text": "锅热了就倒油，油热了再倒蛋液。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "dao-yunyang.mp3": {
+    "text": "锅热了就倒油，油热了再倒蛋液。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "dasan-xiaoxiao.mp3": {
+    "text": "鸡蛋要先打散，下锅才能快速凝成小块。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dasan-xiaoyi.mp3": {
+    "text": "鸡蛋要先打散，下锅才能快速凝成小块。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "dasan-yunxi.mp3": {
+    "text": "鸡蛋要先打散，下锅才能快速凝成小块。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "dasan-yunyang.mp3": {
+    "text": "鸡蛋要先打散，下锅才能快速凝成小块。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "geyefan-xiaoxiao.mp3": {
+    "text": "隔夜饭比新煮的饭干，炒起来不容易结成团。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "geyefan-xiaoyi.mp3": {
+    "text": "隔夜饭比新煮的饭干，炒起来不容易结成团。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "geyefan-yunxi.mp3": {
+    "text": "隔夜饭比新煮的饭干，炒起来不容易结成团。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "geyefan-yunyang.mp3": {
+    "text": "隔夜饭比新煮的饭干，炒起来不容易结成团。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jiang-xiaoxiao.mp3": {
+    "text": "姜切成大片，热油里先煸出香味。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiang-xiaoyi.mp3": {
+    "text": "姜切成大片，热油里先煸出香味。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jiang-yunxi.mp3": {
+    "text": "姜切成大片，热油里先煸出香味。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jiang-yunyang.mp3": {
+    "text": "姜切成大片，热油里先煸出香味。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jidan-xiaoxiao.mp3": {
+    "text": "把两三个鸡蛋打散，倒进锅里空出来的一边。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jidan-xiaoyi.mp3": {
+    "text": "把两三个鸡蛋打散，倒进锅里空出来的一边。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jidan-yunxi.mp3": {
+    "text": "把两三个鸡蛋打散，倒进锅里空出来的一边。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jidan-yunyang.mp3": {
+    "text": "把两三个鸡蛋打散，倒进锅里空出来的一边。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jirou-xiaoxiao.mp3": {
+    "text": "月初有鸡肉，就把鸡肉切成条，一起炒进去。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jirou-xiaoyi.mp3": {
+    "text": "月初有鸡肉，就把鸡肉切成条，一起炒进去。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jirou-yunxi.mp3": {
+    "text": "月初有鸡肉，就把鸡肉切成条，一起炒进去。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jirou-yunyang.mp3": {
+    "text": "月初有鸡肉，就把鸡肉切成条，一起炒进去。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "mayou-xiaoxiao.mp3": {
+    "text": "起锅前淋一点麻油，整锅饭都香了。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mayou-xiaoyi.mp3": {
+    "text": "起锅前淋一点麻油，整锅饭都香了。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "mayou-yunxi.mp3": {
+    "text": "起锅前淋一点麻油，整锅饭都香了。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "mayou-yunyang.mp3": {
+    "text": "起锅前淋一点麻油，整锅饭都香了。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "mifan-xiaoxiao.mp3": {
+    "text": "先煮好米饭，放凉，最好用冰箱里的隔夜饭。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "mifan-xiaoyi.mp3": {
+    "text": "先煮好米饭，放凉，最好用冰箱里的隔夜饭。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "mifan-yunxi.mp3": {
+    "text": "先煮好米饭，放凉，最好用冰箱里的隔夜饭。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "mifan-yunyang.mp3": {
+    "text": "先煮好米饭，放凉，最好用冰箱里的隔夜饭。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "qie-xiaoxiao.mp3": {
+    "text": "姜切片，葱切段，鸡肉切条，备好再开火。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qie-xiaoyi.mp3": {
+    "text": "姜切片，葱切段，鸡肉切条，备好再开火。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "qie-yunxi.mp3": {
+    "text": "姜切片，葱切段，鸡肉切条，备好再开火。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "qie-yunyang.mp3": {
+    "text": "姜切片，葱切段，鸡肉切条，备好再开火。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "wandou-xiaoxiao.mp3": {
+    "text": "从冰箱拿一把冷冻豌豆，和米饭一起下锅。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wandou-xiaoyi.mp3": {
+    "text": "从冰箱拿一把冷冻豌豆，和米饭一起下锅。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "wandou-yunxi.mp3": {
+    "text": "从冰箱拿一把冷冻豌豆，和米饭一起下锅。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "wandou-yunyang.mp3": {
+    "text": "从冰箱拿一把冷冻豌豆，和米饭一起下锅。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "yan-xiaoxiao.mp3": {
+    "text": "这道炒饭只用麻油和盐调味，不放酱油。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yan-xiaoyi.mp3": {
+    "text": "这道炒饭只用麻油和盐调味，不放酱油。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "yan-yunxi.mp3": {
+    "text": "这道炒饭只用麻油和盐调味，不放酱油。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "yan-yunyang.mp3": {
+    "text": "这道炒饭只用麻油和盐调味，不放酱油。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "you-xiaoxiao.mp3": {
+    "text": "锅烧热先倒三勺油，再下姜葱。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "you-xiaoyi.mp3": {
+    "text": "锅烧热先倒三勺油，再下姜葱。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "you-yunxi.mp3": {
+    "text": "锅烧热先倒三勺油，再下姜葱。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "you-yunyang.mp3": {
+    "text": "锅烧热先倒三勺油，再下姜葱。",
+    "voice": "zh-CN-YunyangNeural"
+  }
+}

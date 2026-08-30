@@ -1,0 +1,426 @@
+{
+  "recipe": [
+    {
+      "slug": "chaofan",
+      "hanzi": "炒饭",
+      "pinyin": "chǎofàn",
+      "meaning": "fried rice",
+      "meaning_zh": "把米饭下锅炒成的一道饭",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "这道麻油蛋炒饭用隔夜饭来炒，粒粒分明。",
+          "en": "This sesame-oil egg fried rice is made with day-old rice, so the grains stay separate.",
+          "image": "img/plated-a.jpg",
+          "audio": {
+            "晓晓": "audio/chaofan-xiaoxiao.mp3",
+            "晓伊": "audio/chaofan-xiaoyi.mp3",
+            "云扬": "audio/chaofan-yunyang.mp3",
+            "云希": "audio/chaofan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「炒饭」＝把米饭下锅炒。经典有蛋炒饭、扬州炒饭。好吃的要点是「隔夜饭＋大火＋不停翻」，饭才粒粒分明、不黏成团。这道加了麻油和鸡肉，是家常版。"
+    },
+    {
+      "slug": "mifan",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "meaning": "cooked rice",
+      "meaning_zh": "煮熟的白饭",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "先煮好米饭，放凉，最好用冰箱里的隔夜饭。",
+          "en": "Cook the rice first and let it cool — day-old rice from the fridge is best.",
+          "image": "img/step-rice-peas.jpg",
+          "audio": {
+            "晓晓": "audio/mifan-xiaoxiao.mp3",
+            "晓伊": "audio/mifan-xiaoyi.mp3",
+            "云扬": "audio/mifan-yunyang.mp3",
+            "云希": "audio/mifan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「饭」既指米饭，也泛指一餐（吃饭）。生米叫「米」，煮熟才叫「饭」；煮饭用「煮」或「蒸」。炒饭要用凉饭，新饭太软、水多，一炒就成团。"
+    },
+    {
+      "slug": "jidan",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "meaning": "egg",
+      "meaning_zh": "鸡下的蛋",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "把两三个鸡蛋打散，倒进锅里空出来的一边。",
+          "en": "Beat two or three eggs and pour them into the cleared side of the pan.",
+          "image": "img/step-egg.jpg",
+          "audio": {
+            "晓晓": "audio/jidan-xiaoxiao.mp3",
+            "晓伊": "audio/jidan-xiaoyi.mp3",
+            "云扬": "audio/jidan-yunyang.mp3",
+            "云希": "audio/jidan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「蛋」是统称（鸡蛋、鸭蛋、皮蛋）；口语说「鸡蛋」。动词搭配：打蛋、煎蛋、炒蛋。「蛋炒饭」的「蛋」就是鸡蛋——这道菜的主角之一。"
+    },
+    {
+      "slug": "jirou",
+      "hanzi": "鸡肉",
+      "pinyin": "jīròu",
+      "meaning": "chicken (meat)",
+      "meaning_zh": "鸡身上的肉",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "月初有鸡肉，就把鸡肉切成条，一起炒进去。",
+          "en": "Early in the month there's chicken — slice it into strips and stir-fry it in.",
+          "image": "img/card-chicken.jpg",
+          "audio": {
+            "晓晓": "audio/jirou-xiaoxiao.mp3",
+            "晓伊": "audio/jirou-xiaoyi.mp3",
+            "云扬": "audio/jirou-yunyang.mp3",
+            "云希": "audio/jirou-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「肉」不加限定时多指猪肉，鸡的肉要说明「鸡肉」。切法：鸡丁（方块，见宫保鸡丁）、鸡条／鸡丝（条状）。菜谱原方月初加鸡肉增量，月末只剩鸡蛋——这次做的是月初版。"
+    },
+    {
+      "slug": "wandou",
+      "hanzi": "豌豆",
+      "pinyin": "wāndòu",
+      "meaning": "peas",
+      "meaning_zh": "圆圆的绿色小豆",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "从冰箱拿一把冷冻豌豆，和米饭一起下锅。",
+          "en": "Take a handful of frozen peas from the freezer and add them with the rice.",
+          "image": "img/step-rice-peas.jpg",
+          "audio": {
+            "晓晓": "audio/wandou-xiaoxiao.mp3",
+            "晓伊": "audio/wandou-xiaoyi.mp3",
+            "云扬": "audio/wandou-yunyang.mp3",
+            "云希": "audio/wandou-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「豆」是大类：豌豆(peas)、黄豆(soybean)、红豆(red bean)、蚕豆(broad bean)。冷冻豌豆(lěngdòng, frozen)方便，直接下锅即可。炒饭放豌豆图个颜色和清甜。"
+    },
+    {
+      "slug": "geyefan",
+      "hanzi": "隔夜饭",
+      "pinyin": "géyèfàn",
+      "meaning": "day-old rice",
+      "meaning_zh": "放了一夜的剩饭",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "隔夜饭比新煮的饭干，炒起来不容易结成团。",
+          "en": "Day-old rice is drier than freshly cooked rice, so it doesn't clump when fried.",
+          "image": "img/step-rice-peas.jpg",
+          "audio": {
+            "晓晓": "audio/geyefan-xiaoxiao.mp3",
+            "晓伊": "audio/geyefan-xiaoyi.mp3",
+            "云扬": "audio/geyefan-yunyang.mp3",
+            "云希": "audio/geyefan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「隔夜」＝过了一夜。隔夜饭水分少、更干爽，是炒饭好吃的关键（菜谱特别标注要用冰箱里的隔夜饭）。别跟「剩饭」(shèngfàn, 泛指吃剩的) 完全等同——隔夜饭常是特意留出来的。"
+    }
+  ],
+  "aromatics": [
+    {
+      "slug": "jiang",
+      "hanzi": "姜",
+      "pinyin": "jiāng",
+      "meaning": "ginger",
+      "meaning_zh": "黄褐色、味辛的根状香料",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "姜切成大片，热油里先煸出香味。",
+          "en": "Slice the ginger into big pieces and fry it in the hot oil first to bring out the aroma.",
+          "image": "img/step-aromatics.jpg",
+          "audio": {
+            "晓晓": "audio/jiang-xiaoxiao.mp3",
+            "晓伊": "audio/jiang-xiaoyi.mp3",
+            "云扬": "audio/jiang-yunyang.mp3",
+            "云希": "audio/jiang-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "生姜(shēngjiāng)。切片／切丝／切末。这道菜是「姜味」主打——姜和麻油都能去腥增暖，冬天尤其合适。俗语「姜还是老的辣」＝越有经验越厉害。"
+    },
+    {
+      "slug": "cong",
+      "hanzi": "葱",
+      "pinyin": "cōng",
+      "meaning": "scallion / spring onion",
+      "meaning_zh": "长条、绿色、味冲的香料菜",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "葱切成葱花，和姜一起爆香。",
+          "en": "Chop the spring onion into bits and fry it with the ginger until fragrant.",
+          "image": "img/step-aromatics.jpg",
+          "audio": {
+            "晓晓": "audio/cong-xiaoxiao.mp3",
+            "晓伊": "audio/cong-xiaoyi.mp3",
+            "云扬": "audio/cong-yunyang.mp3",
+            "云希": "audio/cong-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "大葱(北方、粗) vs 小葱／香葱(细)。切碎叫葱花(cōnghuā)。「爆香」(bàoxiāng)＝热油里快炒出香味，葱、姜是最常见的爆香料。"
+    }
+  ],
+  "seasoning": [
+    {
+      "slug": "mayou",
+      "hanzi": "麻油",
+      "pinyin": "máyóu",
+      "meaning": "(toasted) sesame oil",
+      "meaning_zh": "芝麻榨的、香味浓的深色油",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "起锅前淋一点麻油，整锅饭都香了。",
+          "en": "Add a drizzle of sesame oil just before serving — it perfumes the whole pan.",
+          "image": "img/step-sesame.jpg",
+          "audio": {
+            "晓晓": "audio/mayou-xiaoxiao.mp3",
+            "晓伊": "audio/mayou-xiaoyi.mp3",
+            "云扬": "audio/mayou-yunyang.mp3",
+            "云希": "audio/mayou-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "又叫「香油」「芝麻油」。「麻」指芝麻(sesame)。深色麻油香浓，一般最后淋上提香，不宜久炒——高温久了会失香。别跟花椒的「麻」(舌头发麻的那种) 混。这道菜的名字就点了它：麻油蛋炒饭。"
+    },
+    {
+      "slug": "you",
+      "hanzi": "油",
+      "pinyin": "yóu",
+      "meaning": "cooking oil",
+      "meaning_zh": "炒菜用的食用油",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "锅烧热先倒三勺油，再下姜葱。",
+          "en": "Heat the wok, pour in three spoons of oil, then add the ginger and scallion.",
+          "image": "img/step-aromatics.jpg",
+          "audio": {
+            "晓晓": "audio/you-xiaoxiao.mp3",
+            "晓伊": "audio/you-xiaoyi.mp3",
+            "云扬": "audio/you-yunyang.mp3",
+            "云希": "audio/you-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "炒菜的食用油（花生油、菜籽油等），和最后提香的「麻油」分工不同：油用来炒，麻油用来调香。「热锅凉油」＝先把锅烧热再下凉油，防粘。量词口语用「勺」。"
+    },
+    {
+      "slug": "yan",
+      "hanzi": "盐",
+      "pinyin": "yán",
+      "meaning": "salt",
+      "meaning_zh": "咸味的白色调料",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "这道炒饭只用麻油和盐调味，不放酱油。",
+          "en": "This fried rice is seasoned only with sesame oil and salt — no soy sauce.",
+          "audio": {
+            "晓晓": "audio/yan-xiaoxiao.mp3",
+            "晓伊": "audio/yan-xiaoyi.mp3",
+            "云扬": "audio/yan-yunyang.mp3",
+            "云希": "audio/yan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "食盐(shíyán)，基本味「咸」(xián) 由它给出。这道炒饭调味极简：只有盐和麻油，靠食材本味——和又咸又甜又辣的宫保鸡丁正相反。菜谱里常写「盐少许」(yán shǎoxǔ, a pinch)。"
+    }
+  ],
+  "actions": [
+    {
+      "slug": "qie",
+      "hanzi": "切",
+      "pinyin": "qiē",
+      "meaning": "cut / slice",
+      "meaning_zh": "用刀把食材分成小块",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "姜切片，葱切段，鸡肉切条，备好再开火。",
+          "en": "Slice the ginger, cut the scallion into segments, cut the chicken into strips — prep it all before turning on the heat.",
+          "image": "img/step-aromatics.jpg",
+          "audio": {
+            "晓晓": "audio/qie-xiaoxiao.mp3",
+            "晓伊": "audio/qie-xiaoyi.mp3",
+            "云扬": "audio/qie-yunyang.mp3",
+            "云希": "audio/qie-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "备料的基本动作。按形状分：切片(piàn)／切丝(sī)／切段(duàn)／切条(tiáo)／切丁(dīng)——形状不同，词也不同。「切」读 qiē(动词)；「一切」读 qiè。"
+    },
+    {
+      "slug": "dao",
+      "hanzi": "倒",
+      "pinyin": "dào",
+      "meaning": "pour in",
+      "meaning_zh": "把液体或颗粒从容器里泻出",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "锅热了就倒油，油热了再倒蛋液。",
+          "en": "Once the wok is hot, pour in the oil; once the oil is hot, pour in the beaten egg.",
+          "image": "img/step-egg.jpg",
+          "audio": {
+            "晓晓": "audio/dao-xiaoxiao.mp3",
+            "晓伊": "audio/dao-xiaoyi.mp3",
+            "云扬": "audio/dao-yunyang.mp3",
+            "云希": "audio/dao-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "多音字：倒(dào)＝倾泻，倒油、倒水、倒蛋液，这里读 dào；倒(dǎo)＝倒下、摔倒。「蛋液」(dànyè)＝打散后的生鸡蛋。"
+    },
+    {
+      "slug": "chao",
+      "hanzi": "炒",
+      "pinyin": "chǎo",
+      "meaning": "stir-fry",
+      "meaning_zh": "用少量油在锅里快速翻动加热",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "中火把米饭和豌豆炒散，让每粒饭都裹上油。",
+          "en": "Stir-fry the rice and peas over medium heat until loose, so every grain is coated in oil.",
+          "image": "img/step-sesame.jpg",
+          "audio": {
+            "晓晓": "audio/chao-xiaoxiao.mp3",
+            "晓伊": "audio/chao-xiaoyi.mp3",
+            "云扬": "audio/chao-yunyang.mp3",
+            "云希": "audio/chao-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「炒」＝油少、火（偏）大、不停翻动（vs 煮 zhǔ 水煮、蒸 zhēng、炸 zhá 油多）。炒饭讲究「锅气」(guōqì, wok hei)——够热够快才香。这道整菜名就用了它：蛋炒饭。"
+    },
+    {
+      "slug": "dasan",
+      "hanzi": "打散",
+      "pinyin": "dǎsàn",
+      "meaning": "beat (an egg)",
+      "meaning_zh": "把鸡蛋搅匀成蛋液",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "鸡蛋要先打散，下锅才能快速凝成小块。",
+          "en": "Beat the eggs first so they set into small pieces quickly in the pan.",
+          "image": "img/step-egg.jpg",
+          "audio": {
+            "晓晓": "audio/dasan-xiaoxiao.mp3",
+            "晓伊": "audio/dasan-xiaoyi.mp3",
+            "云扬": "audio/dasan-yunyang.mp3",
+            "云希": "audio/dasan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「打」蛋＝搅拌；「散」(sàn, 第四声)＝使分开、散开。打散后蛋黄蛋白混匀，下锅凝得快、颜色均匀。「散」是多音字：sàn(动词, 散开) vs sǎn(松散)。"
+    },
+    {
+      "slug": "bo",
+      "hanzi": "拨",
+      "pinyin": "bō",
+      "meaning": "push aside",
+      "meaning_zh": "用工具把东西推到一边",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "把饭拨到一边，空出的地方倒蛋液。",
+          "en": "Push the rice to one side and pour the egg into the cleared space.",
+          "image": "img/step-egg.jpg",
+          "audio": {
+            "晓晓": "audio/bo-xiaoxiao.mp3",
+            "晓伊": "audio/bo-xiaoyi.mp3",
+            "云扬": "audio/bo-yunyang.mp3",
+            "云希": "audio/bo-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「拨」(bō)＝用铲子、筷子等把东西推开、拨到一旁。菜谱原文「shimmy the mixture to one side」就是这个动作：腾出半边锅底来煎蛋，蛋凝住再和饭拌匀。"
+    },
+    {
+      "slug": "ban",
+      "hanzi": "拌",
+      "pinyin": "bàn",
+      "meaning": "mix / toss through",
+      "meaning_zh": "翻动使食材混合均匀",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "蛋一凝住，就把它和饭拌匀。",
+          "en": "As soon as the egg sets, mix it through the rice.",
+          "image": "img/step-sesame.jpg",
+          "audio": {
+            "晓晓": "audio/ban-xiaoxiao.mp3",
+            "晓伊": "audio/ban-xiaoyi.mp3",
+            "云扬": "audio/ban-yunyang.mp3",
+            "云希": "audio/ban-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「拌」＝翻动使混合：拌匀、凉拌(liángbàn, 凉菜做法)。和「炒」的区别：拌重在「混」，不一定加热；炒一定在锅里加热。拌匀＝拌到均匀。"
+    },
+    {
+      "slug": "chang",
+      "hanzi": "尝",
+      "pinyin": "cháng",
+      "meaning": "taste (to check)",
+      "meaning_zh": "吃一点点试试味道",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "出锅前尝一口，淡了就再加点盐。",
+          "en": "Taste a bite before serving; if it's bland, add a bit more salt.",
+          "audio": {
+            "晓晓": "audio/chang-xiaoxiao.mp3",
+            "晓伊": "audio/chang-xiaoyi.mp3",
+            "云扬": "audio/chang-yunyang.mp3",
+            "云希": "audio/chang-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「尝」＝为了试味道而吃一点(taste-test)，不是吃饱。近义「尝一口／尝尝」。引申「尝试」(chángshì, to attempt)。繁体作「嘗」。「淡」(dàn)＝味道不够咸。"
+    },
+    {
+      "slug": "chuguo",
+      "hanzi": "出锅",
+      "pinyin": "chūguō",
+      "meaning": "take out of the wok / plate up",
+      "meaning_zh": "菜做好从锅里盛出来",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "趁热出锅，盛到碗里就可以吃了。",
+          "en": "Plate it up while hot — scoop it into bowls and it's ready to eat.",
+          "image": "img/plated-b.jpg",
+          "audio": {
+            "晓晓": "audio/chuguo-xiaoxiao.mp3",
+            "晓伊": "audio/chuguo-xiaoyi.mp3",
+            "云扬": "audio/chuguo-yunyang.mp3",
+            "云希": "audio/chuguo-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「出锅」＝菜做好、从锅里盛出。相关：下锅(xiàguō, 放进去)、起锅(qǐguō, ≈出锅)。「趁热」(chènrè)＝在还热的时候，趁热吃最香。"
+    }
+  ]
+}

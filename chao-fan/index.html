@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>炒饭 · 麻油蛋炒饭</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="chao-fan.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">下厨房 · 自学指南</div>
+  <svg class="cover-suit" viewBox="0 0 120 96" xmlns="http://www.w3.org/2000/svg">
+    <!-- steam -->
+    <path d="M50,20 q-5,-8 0,-15" fill="none" stroke="#B8963E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <path d="M62,18 q-5,-9 0,-16" fill="none" stroke="#B8963E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <path d="M74,20 q-5,-8 0,-15" fill="none" stroke="#B8963E" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3,3"/>
+    <!-- wok body -->
+    <path d="M20,40 Q60,96 100,40 Z" fill="#2C3E6B" stroke="#1E2A4A" stroke-width="1.5"/>
+    <ellipse cx="60" cy="40" rx="40" ry="9" fill="#364E80" stroke="#B8963E" stroke-width="1"/>
+    <!-- handle -->
+    <rect x="98" y="37" width="20" height="5" rx="2.5" fill="#1A2235"/>
+    <!-- egg crescent on the right, rice + peas + ginger on the left -->
+    <path d="M62,35 Q86,37 92,45 Q78,60 62,53 Q58,44 62,35 Z" fill="#F2C94C"/>
+    <circle cx="40" cy="43" r="2.3" fill="#4C9A4C"/>
+    <circle cx="48" cy="48" r="2.3" fill="#4C9A4C"/>
+    <circle cx="43" cy="52" r="2.3" fill="#4C9A4C"/>
+    <circle cx="54" cy="44" r="2.3" fill="#4C9A4C"/>
+    <ellipse cx="52" cy="53" rx="4" ry="2.4" fill="#E8D9B0" transform="rotate(-18 52 53)"/>
+    <ellipse cx="38" cy="48" rx="3.6" ry="2.2" fill="#D9C79A" transform="rotate(12 38 48)"/>
+    <circle cx="34" cy="43" r="0.9" fill="#FFFFFF"/>
+    <circle cx="46" cy="41" r="0.9" fill="#FFFFFF"/>
+    <circle cx="57" cy="50" r="0.9" fill="#FFFFFF"/>
+  </svg>
+  <div class="cover-title">麻油蛋炒饭</div>
+  <div class="cover-py">máyóu dàn chǎofàn</div>
+  <div class="cover-sub">姜葱爆香，饭蛋同炒，起锅淋一勺麻油</div>
+  <div class="cover-meta"><span class="en">Ginger, Sesame &amp; Egg Fried Rice · Study Companion · 2026</span><span class="zh-alt">下厨房 · 学习指南 · 2026</span></div>
+</header>
+
+
+<!-- ── 1. The method ────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Method</span><span class="zh-alt">做法流程</span></div>
+    <h2>从备料到出锅</h2>
+    <div class="sec-rule"></div>
+
+    <div class="flow">
+      <div class="flow-row">
+        <div class="flow-step accent">
+          <div class="fh">备料</div>
+          <div class="fpy">bèi liào</div>
+          <div class="fe"><span class="en">prep &amp; slice</span><span class="zh-alt">切姜切葱</span></div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="fh">热锅倒油</div>
+          <div class="fpy">rè guō dào yóu</div>
+          <div class="fe"><span class="en">heat wok, add oil</span><span class="zh-alt">把锅烧热</span></div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step accent">
+          <div class="fh">爆香</div>
+          <div class="fpy">bào xiāng</div>
+          <div class="fe"><span class="en">fry ginger &amp; scallion</span><span class="zh-alt">姜葱下锅</span></div>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="fh">下鸡肉</div>
+          <div class="fpy">xià jīròu</div>
+          <div class="fe"><span class="en">add the chicken</span><span class="zh-alt">放入鸡肉</span></div>
+        </div>
+      </div>
+      <div class="flow-turn">↓</div>
+      <div class="flow-row flow-row-rtl">
+        <div class="flow-step done">
+          <div class="fh">尝味出锅</div>
+          <div class="fpy">cháng wèi chū guō</div>
+          <div class="fe"><span class="en">taste &amp; plate ✓</span><span class="zh-alt">尝咸淡 · 装碗 ✓</span></div>
+        </div>
+        <div class="flow-arrow">←</div>
+        <div class="flow-step accent">
+          <div class="fh">淋麻油放盐</div>
+          <div class="fpy">lín máyóu fàng yán</div>
+          <div class="fe"><span class="en">sesame oil &amp; salt</span><span class="zh-alt">只用麻油和盐</span></div>
+        </div>
+        <div class="flow-arrow">←</div>
+        <div class="flow-step">
+          <div class="fh">拨开·倒蛋</div>
+          <div class="fpy">bō kāi · dào dàn</div>
+          <div class="fe"><span class="en">shimmy aside, add egg</span><span class="zh-alt">腾出半边煎蛋</span></div>
+        </div>
+        <div class="flow-arrow">←</div>
+        <div class="flow-step">
+          <div class="fh">下饭下豆</div>
+          <div class="fpy">xià fàn xià dòu</div>
+          <div class="fe"><span class="en">add rice &amp; peas</span><span class="zh-alt">隔夜饭 · 豌豆</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 2. The cook, in real photos ──────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Cook — my own pan</span><span class="zh-alt">这一锅 · 实拍</span></div>
+    <h2>一步一步炒出来</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.5rem"><span class="en">The actual dish I made — the method above, in the pan. Each shot is one step of the flow.</span><span class="zh-alt">这就是我做的那一锅——上面的流程，落到锅里。每张对应一步。</span></p>
+
+    <div class="cook-strip">
+      <figure class="cook-fig">
+        <img src="img/step-aromatics.jpg" alt="ginger and scallion frying in oil">
+        <figcaption class="cook-cap">
+          <div class="cook-step"><span class="en">Step 1 · aromatics</span><span class="zh-alt">第一步 · 爆香</span></div>
+          <div class="cook-zh">姜片、葱花下热油</div>
+          <div class="cook-py">jiāng piàn, cōng huā xià rè yóu</div>
+          <div class="cook-en"><span class="en">Ginger coins and chopped scallion go into the hot oil first.</span><span class="zh-alt">姜和葱先下热油爆香。</span></div>
+        </figcaption>
+      </figure>
+      <figure class="cook-fig">
+        <img src="img/card-chicken.jpg" alt="chicken strips frying">
+        <figcaption class="cook-cap">
+          <div class="cook-step"><span class="en">Step 2 · chicken</span><span class="zh-alt">第二步 · 下鸡</span></div>
+          <div class="cook-zh">鸡肉切条，炒到变白</div>
+          <div class="cook-py">jīròu qiē tiáo, chǎo dào biàn bái</div>
+          <div class="cook-en"><span class="en">Chicken sliced into strips, stir-fried until it turns white.</span><span class="zh-alt">鸡肉切成条，炒到变白。</span></div>
+        </figcaption>
+      </figure>
+      <figure class="cook-fig">
+        <img src="img/step-rice-peas.jpg" alt="rice and peas added to the wok">
+        <figcaption class="cook-cap">
+          <div class="cook-step"><span class="en">Step 3 · rice &amp; peas</span><span class="zh-alt">第三步 · 下饭下豆</span></div>
+          <div class="cook-zh">隔夜饭和豌豆一起下锅</div>
+          <div class="cook-py">géyèfàn hé wāndòu yìqǐ xià guō</div>
+          <div class="cook-en"><span class="en">Day-old rice and peas go in together and are stirred loose.</span><span class="zh-alt">隔夜饭和豌豆一起下锅炒散。</span></div>
+        </figcaption>
+      </figure>
+      <figure class="cook-fig">
+        <img src="img/step-egg.jpg" alt="beaten egg poured into the cleared side of the wok">
+        <figcaption class="cook-cap">
+          <div class="cook-step"><span class="en">Step 4 · the egg</span><span class="zh-alt">第四步 · 倒蛋</span></div>
+          <div class="cook-zh">把饭拨到一边，倒入蛋液</div>
+          <div class="cook-py">bǎ fàn bō dào yìbiān, dào rù dànyè</div>
+          <div class="cook-en"><span class="en">Push the rice aside, pour the beaten egg into the cleared crescent.</span><span class="zh-alt">把饭拨到一边，蛋液倒进空出的半边。</span></div>
+        </figcaption>
+      </figure>
+      <figure class="cook-fig">
+        <img src="img/step-sesame.jpg" alt="sesame oil squeezed over the combined fried rice">
+        <figcaption class="cook-cap">
+          <div class="cook-step"><span class="en">Step 5 · sesame oil</span><span class="zh-alt">第五步 · 淋麻油</span></div>
+          <div class="cook-zh">拌匀，起锅前淋麻油</div>
+          <div class="cook-py">bàn yún, qǐ guō qián lín máyóu</div>
+          <div class="cook-en"><span class="en">Mix it all through, then drizzle sesame oil just before serving.</span><span class="zh-alt">全部拌匀，起锅前淋上麻油。</span></div>
+        </figcaption>
+      </figure>
+      <figure class="cook-fig">
+        <img src="img/plated-a.jpg" alt="four bowls of fried rice plated on the counter">
+        <figcaption class="cook-cap">
+          <div class="cook-step"><span class="en">Step 6 · plated</span><span class="zh-alt">第六步 · 出锅</span></div>
+          <div class="cook-zh">趁热出锅，盛成四碗</div>
+          <div class="cook-py">chèn rè chū guō, chéng chéng sì wǎn</div>
+          <div class="cook-en"><span class="en">Plated hot, straight from the wok — four bowls' worth.</span><span class="zh-alt">趁热出锅，盛了四碗。</span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 3. The dish & mains ──────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Dish &amp; Mains</span><span class="zh-alt">这道菜与主料</span></div>
+    <h2>饭 · 蛋 · 鸡 · 豆</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">One 饭 family (米饭 · 炒饭 · 隔夜饭), plus the things stirred through it.</span><span class="zh-alt">一个「饭」字家族（米饭・炒饭・隔夜饭），加上炒进去的料。</span></p>
+
+    <div class="grid" id="cards-recipe"></div>
+  </div>
+</section>
+
+
+<!-- ── 4. Aromatics ─────────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Aromatics — 姜 · 葱</span><span class="zh-alt">香料——姜与葱</span></div>
+    <h2>爆香的两样</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">Just two here — ginger and scallion — fried in hot oil to build the base. No garlic, no chili: this dish is about warmth, not heat.</span><span class="zh-alt">只有两样——姜和葱，热油爆香打底。不放蒜、不放辣椒：这道菜要的是暖香，不是辣。</span></p>
+
+    <div class="grid" id="cards-aromatics"></div>
+  </div>
+</section>
+
+
+<!-- ── 5. Seasoning ─────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Seasoning — 麻油 · 油 · 盐</span><span class="zh-alt">调料台</span></div>
+    <h2>调味的三样</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">A minimalist shelf: oil to fry, sesame oil to perfume, salt to season. That's it — no soy sauce, the opposite of Kung Pao chicken.</span><span class="zh-alt">极简调料台：油来炒、麻油来提香、盐来调味。就这些——不放酱油，和宫保鸡丁正相反。</span></p>
+
+    <div class="grid" id="cards-seasoning"></div>
+  </div>
+</section>
+
+
+<!-- ── 6. The verbs at the wok ──────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Verbs — at the wok</span><span class="zh-alt">做法动词</span></div>
+    <h2>切 · 倒 · 炒 · 打散 · 拨 · 拌 · 尝 · 出锅</h2>
+    <div class="sec-rule"></div>
+
+    <div class="grid" id="cards-actions"></div>
+  </div>
+</section>
+
+
+<!-- ── 7. Passage ───────────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Put it together</span><span class="zh-alt">连起来读</span></div>
+    <h2>照着菜谱做一遍</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.82rem;margin-bottom:1.25rem"><span class="en">Every new word chained into one telling of the cook — hover an underlined word for its gloss.</span><span class="zh-alt">生词串成一次做菜的叙述——悬停下划线的词看注释。</span></p>
+
+    <div class="passage" style="max-width:700px">
+      <p>
+        昨天煮饭多煮了一些，今天就用<span class="hl" data-t="day-old rice">隔夜饭</span>做<span class="hl" data-t="sesame-oil egg fried rice">麻油蛋炒饭</span>。先把<span class="hl" data-t="ginger">姜</span><span class="hl" data-t="cut / slice">切</span>成大片，<span class="hl" data-t="scallion">葱</span>切成葱花；月初还有<span class="hl" data-t="chicken">鸡肉</span>，也切成条。<span class="hl" data-t="egg">鸡蛋</span>先<span class="hl" data-t="beat the egg">打散</span>，冷冻<span class="hl" data-t="peas">豌豆</span>拿出来备好。
+      </p>
+      <p>
+        锅烧热，<span class="hl" data-t="pour in">倒</span>三勺<span class="hl" data-t="cooking oil">油</span>，先下姜葱爆香，再放鸡肉<span class="hl" data-t="stir-fry">炒</span>到变白。然后把<span class="hl" data-t="cooked rice">米饭</span>和豌豆下锅炒散，让每粒饭都裹上油。
+      </p>
+      <p>
+        把饭<span class="hl" data-t="push aside">拨</span>到一边，空出的地方倒蛋液；蛋一凝住，就和饭<span class="hl" data-t="mix through">拌</span>匀。起锅前淋一点<span class="hl" data-t="sesame oil">麻油</span>、放一点<span class="hl" data-t="salt">盐</span>，<span class="hl" data-t="taste-check">尝</span>一口，淡了再加。趁热<span class="hl" data-t="plate up">出锅</span>，盛成四碗——又香又暖，和菜谱上说的一样。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 8. Comprehension questions ───────────────── -->
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Reflect</span><span class="zh-alt">复习</span></div>
+    <h2>阅读理解</h2>
+    <div class="sec-rule"></div>
+
+    <div class="pullquote">
+      <span class="en">Having cooked the dish once on paper, these should come without looking anything up.</span><span class="zh-alt">纸上做过一遍以后，这些问题应能自然作答，无需查阅。</span>
+    </div>
+
+    <ol class="qlist">
+      <li class="qitem">
+        <div class="qzh">为什么炒饭要用隔夜饭，而不用刚煮好的新饭？</div>
+        <div class="qpy">Wèishénme chǎofàn yào yòng géyèfàn, ér bù yòng gāng zhǔ hǎo de xīn fàn?</div>
+        <div class="qhint">想想水分——哪种饭更干？干的饭炒起来会怎样？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">加鸡蛋的时候，为什么要先把饭「拨到一边」？</div>
+        <div class="qpy">Jiā jīdàn de shíhou, wèishénme yào xiān bǎ fàn "bō dào yìbiān"?</div>
+        <div class="qhint">蛋液需要什么才能凝成小块？锅底那半边是做什么用的？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">这道炒饭一共用了哪几种调料？和宫保鸡丁比，少了什么？</div>
+        <div class="qpy">Zhè dào chǎofàn yígòng yòng le nǎ jǐ zhǒng tiáoliào?</div>
+        <div class="qhint">数一数：油、麻油、盐——有没有酱油？味道是浓还是清淡？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">「油」和「麻油」在这道菜里的分工有什么不同？</div>
+        <div class="qpy">"Yóu" hé "máyóu" zài zhè dào cài lǐ de fēngōng yǒu shénme bùtóng?</div>
+        <div class="qhint">哪个从头用来炒？哪个最后才淋、图的是香味？为什么麻油不宜久炒？</div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+
+<!-- ── 9. The shortlist ─────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">The Shortlist</span><span class="zh-alt">备选</span></div>
+    <h2>考虑过的五道菜</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.5rem"><span class="en">Five dishes from the same cookbook were on the table. The fried rice won — everything was already in the kitchen.</span><span class="zh-alt">同一本菜谱里翻出的五道备选。最后选了炒饭——料家里都有。</span></p>
+
+    <div class="shortlist">
+      <figure class="dish chosen">
+        <span class="dish-badge"><span class="en">Made this</span><span class="zh-alt">做的是这道</span></span>
+        <img src="img/book-chosen.jpg" alt="ginger, sesame &amp; egg-fried rice recipe page">
+        <figcaption class="dish-cap">
+          <div class="dish-zh">麻油蛋炒饭</div>
+          <div class="dish-py">máyóu dàn chǎofàn</div>
+          <div class="dish-en"><span class="en">ginger, sesame &amp; egg-fried rice</span><span class="zh-alt">姜 · 麻油 · 蛋炒饭</span></div>
+        </figcaption>
+      </figure>
+      <figure class="dish">
+        <img src="img/book-springrolls.jpg" alt="fresh spring rolls recipe page">
+        <figcaption class="dish-cap">
+          <div class="dish-zh">润饼</div>
+          <div class="dish-py">rùn bǐng</div>
+          <div class="dish-en"><span class="en">fresh spring rolls</span><span class="zh-alt">软皮春卷</span></div>
+        </figcaption>
+      </figure>
+      <figure class="dish">
+        <img src="img/book-porkbelly.jpg" alt="pork belly steamed buns recipe page">
+        <figcaption class="dish-cap">
+          <div class="dish-zh">刈包</div>
+          <div class="dish-py">guà bāo</div>
+          <div class="dish-en"><span class="en">pork belly steamed buns</span><span class="zh-alt">五花肉夹馍</span></div>
+        </figcaption>
+      </figure>
+      <figure class="dish">
+        <img src="img/book-noodles.jpg" alt="longevity noodles recipe page">
+        <figcaption class="dish-cap">
+          <div class="dish-zh">长寿面</div>
+          <div class="dish-py">chángshòu miàn</div>
+          <div class="dish-en"><span class="en">longevity noodles</span><span class="zh-alt">炒面</span></div>
+        </figcaption>
+      </figure>
+      <figure class="dish">
+        <img src="img/book-matcha.jpg" alt="chewy matcha cookies recipe page">
+        <figcaption class="dish-cap">
+          <div class="dish-zh">抹茶饼干</div>
+          <div class="dish-py">mǒchá bǐnggān</div>
+          <div class="dish-en"><span class="en">chewy matcha cookies</span><span class="zh-alt">软心抹茶曲奇</span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div>炒饭 · 麻油蛋炒饭</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="chao-fan.js"></script>
+</body>
+</html>
