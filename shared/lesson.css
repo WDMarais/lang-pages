@@ -1,4 +1,11 @@
-/* cha-cai (宫保鸡丁) page-specific styles — shares the vcard system in base.css */
+/* Shared layout for the bespoke vocab lessons (cha-cai, chao-fan, xi-zhuang, …).
+   Load AFTER base.css and BEFORE any page-specific stylesheet:
+       base.css → lesson.css → <page>.css
+   The vcard system itself lives in base.css; this file adds the recurring
+   lesson furniture — voice-button groups, the step-flow diagram, comprehension
+   questions, pull quotes and the hover-gloss passage. `.hl` here intentionally
+   overrides base.css's red underline with gold, which relies on the load order
+   above. */
 :root { --scale: 1; }
 
 /* ── Per-card voice group ───────────────────────── */
@@ -11,7 +18,7 @@
   padding: 0.15rem 0.55rem;
 }
 
-/* ── Process flow (the recipe as steps) ────────────── */
+/* ── Process flow (the recipe/procedure as steps) ── */
 .flow { display: flex; flex-direction: column; gap: 0; }
 .flow-row { display: flex; align-items: stretch; }
 .flow-row-rtl { flex-direction: row-reverse; }
