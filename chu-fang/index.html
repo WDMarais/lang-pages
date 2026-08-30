@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>下厨房 · 自学做菜</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/landing.css">
+<style>
+  /* chu-fang — cooking-series landing. Reuses base.css + landing.css;
+     adds the contrast pair layout and the carry-over word chips. */
+
+  /* two dishes, framed as a contrast pair */
+  .pair {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2.5rem;
+  }
+  .dish-card {
+    background: var(--white); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden;
+    text-decoration: none; color: inherit; display: flex; flex-direction: column;
+    transition: box-shadow 0.18s, transform 0.18s;
+  }
+  .dish-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.09); transform: translateY(-2px); }
+  .dc-band { padding: 1.5rem 1.75rem 1.25rem; color: white; }
+  .dc-band-heat { background: linear-gradient(135deg, var(--red), #8E1428); }
+  .dc-band-warm { background: linear-gradient(135deg, var(--gold), #8C6E24); }
+  .dc-kicker { font-size: 0.6rem; letter-spacing: 0.32em; text-transform: uppercase; opacity: 0.85; font-weight: 700; }
+  .dc-hanzi { font-size: 2.1rem; font-weight: 300; line-height: 1.1; margin-top: 0.5rem; }
+  .dc-py { font-size: 0.8rem; opacity: 0.9; margin-top: 0.25rem; letter-spacing: 0.06em; }
+  .dc-en { font-size: 0.82rem; opacity: 0.8; margin-top: 0.1rem; }
+  .dc-body { padding: 1.25rem 1.75rem 1.5rem; }
+  .dc-axis { font-size: 0.86rem; color: var(--ink); line-height: 1.5; }
+  .dc-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
+  .dc-tag {
+    font-size: 0.72rem; background: var(--cream); border: 1px solid var(--border);
+    border-radius: 20px; padding: 0.2rem 0.7rem; color: var(--muted);
+  }
+  .dc-tag b { color: var(--navy); font-weight: 700; }
+  .dc-go { font-size: 0.78rem; color: var(--red); margin-top: 1.1rem; font-weight: 600; }
+
+  /* contrast table */
+  .contrast { width: 100%; border-collapse: collapse; margin-top: 2.5rem; font-size: 0.92rem; }
+  .contrast th, .contrast td { padding: 0.75rem 0.9rem; text-align: left; border-bottom: 1px solid var(--border); }
+  .contrast thead th { font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .contrast td:first-child { color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
+  .contrast .c-heat { color: var(--red); font-weight: 600; }
+  .contrast .c-warm { color: var(--gold); font-weight: 600; }
+  .contrast small { color: var(--muted); font-weight: 400; }
+
+  /* carry-over word chips (on navy) */
+  .carry { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2.25rem; }
+  .chip {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 10px; padding: 0.85rem 1.1rem; text-align: center; min-width: 84px;
+  }
+  .chip-h { font-size: 1.7rem; font-weight: 300; color: white; line-height: 1; }
+  .chip-p { font-size: 0.72rem; color: var(--gold); margin-top: 0.35rem; letter-spacing: 0.04em; }
+  .chip-e { font-size: 0.68rem; color: rgba(255,255,255,0.5); margin-top: 0.15rem; }
+  .lead { font-size: 1.02rem; line-height: 1.7; color: var(--ink); max-width: 60ch; }
+  .lead .zh-alt { color: var(--muted); }
+  .bg-navy .lead { color: rgba(255,255,255,0.82); }
+  .cover-wok { width: 84px; margin: 0 auto 1.25rem; display: block; }
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="cover-masthead">自学指南 · Self-Study</div>
+  <svg class="cover-wok" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M14 40 h92 a46 32 0 0 1 -92 0 Z" fill="#2C3E6B" stroke="#B8963E" stroke-width="2"/>
+    <path d="M106 42 h12" stroke="#B8963E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M32 30 q4 -14 10 -4 M52 27 q3 -12 9 -3 M72 30 q4 -13 10 -4"
+          stroke="rgba(255,255,255,0.5)" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="46" cy="47" r="3.2" fill="#C41E3A"/>
+    <circle cx="62" cy="52" r="3.2" fill="#2C6B3E"/>
+    <circle cx="76" cy="46" r="3.2" fill="#B8963E"/>
+    <circle cx="56" cy="44" r="2.2" fill="#F8F6F1"/>
+    <circle cx="70" cy="55" r="2.2" fill="#F8F6F1"/>
+  </svg>
+  <div class="cover-title">下厨房</div>
+  <div class="cover-py">xià chúfáng</div>
+  <div class="cover-sub">跟着做 — 两道菜，共享一套厨房词</div>
+  <div class="cover-meta">Cooking Series · 2 Dishes</div>
+</header>
+
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label">The Series</div>
+    <h2>同一个灶，两种火</h2>
+    <div class="sec-rule"></div>
+    <p class="lead">
+      每一课都从一道真的做过的菜学词 — 不是背单词表，是照着菜谱下厨房。
+      <span class="zh-alt">Each lesson teaches its vocabulary through a dish actually cooked, from a real recipe — not a word list.</span>
+    </p>
+    <p class="lead" style="margin-top:1.1rem">
+      两道一起学才有意思：它们坐在同一条轴的两端。宫保鸡丁是<b class="c-heat" style="color:var(--red)">辣、酱、繁</b>；
+      麻油蛋炒饭是<b class="c-warm" style="color:var(--gold)">温、盐、简</b>。做法的动词大多重合，
+      所以第二道菜，你已经会了一半。
+      <span class="zh-alt">Doing both is the point — they sit at opposite ends of one axis. Kung Pao is heat, sauce, complexity; the fried rice is warmth, salt, restraint. The wok verbs mostly overlap, so the second dish is already half-learned.</span>
+    </p>
+
+    <div class="pair">
+
+      <a class="dish-card" href="/cha-cai/">
+        <div class="dc-band dc-band-heat">
+          <div class="dc-kicker">Dish 01 · 辣</div>
+          <div class="dc-hanzi">宫保鸡丁</div>
+          <div class="dc-py">gōng bǎo jī dīng</div>
+          <div class="dc-en">Kung Pao Chicken</div>
+        </div>
+        <div class="dc-body">
+          <div class="dc-axis">照着菜谱炒一道川菜 — 辣椒、酱油、糖醋交织，七味调料的平衡。<br>
+            <span style="color:var(--muted)">A Sichuan classic from a recipe: chili, soy, sweet-and-sour — balancing seven seasonings.</span>
+          </div>
+          <div class="dc-tags">
+            <span class="dc-tag"><b>辣椒</b> chili</span>
+            <span class="dc-tag"><b>酱油</b> soy</span>
+            <span class="dc-tag"><b>糖·醋</b> sweet-sour</span>
+            <span class="dc-tag">19 words</span>
+          </div>
+          <div class="dc-go">开课 Open lesson →</div>
+        </div>
+      </a>
+
+      <a class="dish-card" href="/chao-fan/">
+        <div class="dc-band dc-band-warm">
+          <div class="dc-kicker">Dish 02 · 温</div>
+          <div class="dc-hanzi">麻油蛋炒饭</div>
+          <div class="dc-py">máyóu dàn chǎofàn</div>
+          <div class="dc-en">Sesame-Oil Egg Fried Rice</div>
+        </div>
+        <div class="dc-body">
+          <div class="dc-axis">用隔夜饭做的家常炒饭 — 只有盐和麻油，姜葱打底，鸡肉加量。真照片记录了整个过程。<br>
+            <span style="color:var(--muted)">Home-style fried rice from day-old rice — salt and sesame oil only, ginger-scallion base, chicken for volume. The real cook, in photos.</span>
+          </div>
+          <div class="dc-tags">
+            <span class="dc-tag"><b>麻油</b> sesame oil</span>
+            <span class="dc-tag"><b>盐</b> salt only</span>
+            <span class="dc-tag"><b>隔夜饭</b> day-old rice</span>
+            <span class="dc-tag">19 words · photos</span>
+          </div>
+          <div class="dc-go">开课 Open lesson →</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-white" style="border-top:1px solid var(--border)">
+  <div class="wrap">
+    <div class="sec-label">Side by Side</div>
+    <h2>两道菜，对照着看</h2>
+    <div class="sec-rule"></div>
+    <div style="overflow-x:auto">
+      <table class="contrast">
+        <thead>
+          <tr><th></th><th>宫保鸡丁 <small>Kung Pao</small></th><th>麻油蛋炒饭 <small>Fried Rice</small></th></tr>
+        </thead>
+        <tbody>
+          <tr><td>主味 · main note</td><td class="c-heat">辣 <small>chili heat</small></td><td class="c-warm">温 <small>mild, warm</small></td></tr>
+          <tr><td>咸味 · saltiness from</td><td class="c-heat">酱油 <small>soy sauce</small></td><td class="c-warm">盐 <small>plain salt</small></td></tr>
+          <tr><td>油 · the oil</td><td class="c-heat">菜油 <small>cooking oil</small></td><td class="c-warm">麻油 <small>sesame, to finish</small></td></tr>
+          <tr><td>调料数 · seasonings</td><td class="c-heat">7 <small>糖·醋·黄酒…</small></td><td class="c-warm">3 <small>油·麻油·盐</small></td></tr>
+          <tr><td>主料 · the base</td><td class="c-heat">鸡丁 <small>diced chicken</small></td><td class="c-warm">隔夜饭 <small>day-old rice</small></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label">Carry-Over</div>
+    <h2>重合的词</h2>
+    <div class="sec-rule"></div>
+    <p class="lead">
+      这五个词两道菜都用得上 — 学完第一道，它们在第二道里就是免费的。这就是把两道菜编成一个系列的意思。
+      <span class="zh-alt">These five words appear in both dishes — learn them once in the first lesson and they come free in the second. That is what makes the two a series rather than two separate decks.</span>
+    </p>
+    <div class="carry">
+      <div class="chip"><div class="chip-h">姜</div><div class="chip-p">jiāng</div><div class="chip-e">ginger</div></div>
+      <div class="chip"><div class="chip-h">葱</div><div class="chip-p">cōng</div><div class="chip-e">scallion</div></div>
+      <div class="chip"><div class="chip-h">盐</div><div class="chip-p">yán</div><div class="chip-e">salt</div></div>
+      <div class="chip"><div class="chip-h">炒</div><div class="chip-p">chǎo</div><div class="chip-e">stir-fry</div></div>
+      <div class="chip"><div class="chip-h">尝</div><div class="chip-p">cháng</div><div class="chip-e">taste</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>下厨房 · 中文学习 · 2026</div>
+</footer>
+
+</body>
+</html>
