@@ -1,3 +1,9 @@
+/* Shared vocab-lesson renderer for the bespoke lessons (cha-cai, chao-fan,
+   xi-zhuang, …). Each lesson supplies a cards.json whose top-level keys are
+   card groups; every group `k` is rendered into the element `#cards-<k>`.
+   renderSection no-ops on a missing container, so a page need only include
+   the sections it wants. */
+
 function renderCard(card) {
   const theme = card.theme ? ` ${card.theme}` : '';
 
@@ -48,8 +54,7 @@ function renderSection(containerId, cards) {
 fetch('cards.json')
   .then(r => r.json())
   .then(data => {
-    renderSection('cards-recipe', data.recipe);
-    renderSection('cards-aromatics', data.aromatics);
-    renderSection('cards-seasoning', data.seasoning);
-    renderSection('cards-actions', data.actions);
+    Object.entries(data).forEach(([group, cards]) => {
+      if (Array.isArray(cards)) { renderSection(`cards-${group}`, cards); }
+    });
   });
