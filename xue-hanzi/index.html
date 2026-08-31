@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学汉字 · 听懂与写字</title>
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="../shared/lesson.css">
+<link rel="stylesheet" href="xue-hanzi.css">
+</head>
+<body class="hide-en">
+
+<div id="controls">
+  <button class="btn-ctrl" id="pyBtn" onclick="togglePy()">显示拼音</button>
+  <button class="btn-ctrl" id="enBtn" onclick="toggleEn()">显示英文</button>
+</div>
+
+<header class="cover">
+  <div class="cover-masthead">学中文 · 自学指南</div>
+  <svg class="cover-suit" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- 米字格 practice grid -->
+    <rect x="6" y="6" width="88" height="88" rx="3" fill="none" stroke="#B8963E" stroke-width="2"/>
+    <line x1="50" y1="6" x2="50" y2="94" stroke="#B8963E" stroke-width="1" stroke-dasharray="4,4" opacity="0.65"/>
+    <line x1="6" y1="50" x2="94" y2="50" stroke="#B8963E" stroke-width="1" stroke-dasharray="4,4" opacity="0.65"/>
+    <line x1="6" y1="6" x2="94" y2="94" stroke="#B8963E" stroke-width="0.8" stroke-dasharray="4,4" opacity="0.35"/>
+    <line x1="94" y1="6" x2="6" y2="94" stroke="#B8963E" stroke-width="0.8" stroke-dasharray="4,4" opacity="0.35"/>
+    <text x="50" y="53" text-anchor="middle" dominant-baseline="central"
+          font-size="58" fill="#FFFFFF" font-family="'KaiTi','STKaiti','Songti SC',serif">字</text>
+  </svg>
+  <div class="cover-title">学汉字</div>
+  <div class="cover-py">xué hànzì</div>
+  <div class="cover-sub">听得懂课，写得好字</div>
+  <div class="cover-meta"><span class="en">Understanding the Lesson &amp; Learning the Characters · Study Companion · 2026</span><span class="zh-alt">复习词汇 · 自学指南 · 2026</span></div>
+</header>
+
+
+<!-- ── 1. Intro: the two halves ─────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">This Review</span><span class="zh-alt">本次复习</span></div>
+    <h2>两件事：听懂，和写字</h2>
+    <div class="sec-rule"></div>
+    <p style="font-size:1.02rem;line-height:1.75;color:var(--ink);max-width:60ch">
+      <span class="en">These thirteen words split into two halves of learning Chinese: understanding what you hear in class (听 · 懂 · 告诉), and mastering the characters by hand (汉字 · 书法 · 写 · 练). A handful of function words — 第, 哪里, 就是, 困难 — tie the sentences together.</span><span class="zh-alt">这十三个词分成学中文的两半：听懂课上的话（听 · 懂 · 告诉），和把字写好（汉字 · 书法 · 写 · 练）。再加几个功能词——第、哪里、就是、困难——把句子连起来。</span>
+    </p>
+    <p style="font-size:1.02rem;line-height:1.75;color:var(--ink);max-width:60ch;margin-top:1rem">
+      <span class="en">The one real grammar point hides in 听得懂 / 听不懂 — the potential complement, below.</span><span class="zh-alt">真正的语法点藏在「听得懂 / 听不懂」里——「可能补语」，见下。</span>
+    </p>
+  </div>
+</section>
+
+
+<!-- ── 2. Understanding & telling ───────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Hearing &amp; Understanding</span><span class="zh-alt">听懂</span></div>
+    <h2>听、懂、告诉</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">What happens in class: you listen, you understand (or not), you ask the teacher to tell you again.</span><span class="zh-alt">课上的事：你听，你懂（或不懂），你请老师再告诉你一遍。</span></p>
+    <div class="grid" id="cards-understand"></div>
+  </div>
+</section>
+
+
+<!-- ── 3. Grammar point: the potential complement ── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Grammar Point</span><span class="zh-alt">语法点</span></div>
+    <h2>听得懂 · 听不懂</h2>
+    <div class="sec-rule"></div>
+    <p style="font-size:0.98rem;line-height:1.7;color:var(--ink);max-width:60ch">
+      <span class="en">To say whether an action <i>can reach its result</i>, Chinese slips 得 (able) or 不 (unable) between the verb and the result: 听 + 得/不 + 懂.</span><span class="zh-alt">要说一个动作「能不能达到结果」，汉语在动词和结果之间插入「得」（能）或「不」（不能）：听 + 得/不 + 懂。</span>
+    </p>
+
+    <div class="pcomp">
+      <div class="pc-cell pos">
+        <div class="pc-tag"><span class="en">Able · affirmative</span><span class="zh-alt">肯定 · 能</span></div>
+        <div class="pc-form">听 <b class="pos">得</b> 懂</div>
+        <div class="pc-py">tīng <b>de</b> dǒng</div>
+        <div class="pc-gloss"><span class="en">"able to understand it by listening" — the ability is there.</span><span class="zh-alt">「听了能明白」——有这个能力。</span></div>
+      </div>
+      <div class="pc-cell neg">
+        <div class="pc-tag"><span class="en">Unable · negative</span><span class="zh-alt">否定 · 不能</span></div>
+        <div class="pc-form">听 <b class="neg">不</b> 懂</div>
+        <div class="pc-py">tīng <b>bu</b> dǒng</div>
+        <div class="pc-gloss"><span class="en">"unable to understand it by listening" — no matter how many times.</span><span class="zh-alt">「听了也不明白」——听几次都不行。</span></div>
+      </div>
+    </div>
+
+    <div class="pc-note">
+      <span class="en"><b>Don't confuse 听不懂 with 没听懂.</b> 听不懂 = <i>can't</i> understand (an ability you lack). 没听懂 = <i>didn't</i> understand <i>this time</i> (maybe you just weren't paying attention). Same for 看得懂 / 看不懂, 做得完 / 做不完.</span><span class="zh-alt"><b>别把「听不懂」和「没听懂」搞混。</b>听不懂＝没能力听明白；没听懂＝这一次没明白（也许只是没注意）。同理：看得懂 / 看不懂、做得完 / 做不完。</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 4. Characters & calligraphy ──────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Characters &amp; Calligraphy</span><span class="zh-alt">写字</span></div>
+    <h2>汉字、书法、写、练</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">The other half of the work is done by hand: the characters themselves, the art of writing them, and the daily practice that makes them stick.</span><span class="zh-alt">另一半的功夫在手上：汉字本身、写字的艺术，和让字「长在手里」的日日练习。</span></p>
+    <div class="grid" id="cards-writing"></div>
+  </div>
+</section>
+
+
+<!-- ── 5. Function words ────────────────────────── -->
+<section class="bg-white">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Function Words</span><span class="zh-alt">语法与功能词</span></div>
+    <h2>第、哪里、就是、困难</h2>
+    <div class="sec-rule"></div>
+    <p style="color:var(--muted);font-size:0.84rem;margin-bottom:1.25rem"><span class="en">Small words that carry a lot: ordering things (第), asking where (哪里), agreeing emphatically (就是), and naming a difficulty (困难).</span><span class="zh-alt">分量很重的小词：排次序（第）、问地点（哪里）、强调赞同（就是）、说出难处（困难）。</span></p>
+    <div class="grid" id="cards-grammar"></div>
+  </div>
+</section>
+
+
+<!-- ── 6. Practice passage ──────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Practice Passage</span><span class="zh-alt">练习短文</span></div>
+    <h2>把生词连成一段话</h2>
+    <div class="sec-rule"></div>
+    <div class="passage-note"><span class="en">A short practice text written from this week's words, to stand in until the real 课文 arrives next class. Hover an underlined word for its gloss.</span><span class="zh-alt">用本周生词写的练习短文，暂代下次课的真「课文」。悬停下划线的词看注释。</span></div>
+
+    <div class="passage" style="max-width:700px">
+      <p>
+        今天是我的<span class="hl" data-t="ordinal: -th">第</span>五节中文课。老师说话的时候，我很认真地<span class="hl" data-t="to listen">听</span>。她说得慢的时候，我<span class="hl" data-t="able to understand (listening)">听得懂</span>；说得快了，我就<span class="hl" data-t="unable to understand (listening)">听不懂</span>了。
+      </p>
+      <p>
+        有一个词我不<span class="hl" data-t="to understand">懂</span>，就举手请老师<span class="hl" data-t="to tell (sb)">告诉</span>我。「这个字在<span class="hl" data-t="where">哪里</span>能查到？」老师笑着说：「<span class="hl" data-t="exactly; that's it">就是</span>你手边那本书。」
+      </p>
+      <p>
+        下课以后，我留下来练<span class="hl" data-t="Chinese characters">汉字</span>。老师在学<span class="hl" data-t="calligraphy">书法</span>，用毛笔<span class="hl" data-t="to write">写</span>了一个「学」字给我看，真好看。写好汉字有一点<span class="hl" data-t="difficult / difficulty">困难</span>，可是只要天天<span class="hl" data-t="to practise">练</span>，就一定写得好。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ── 7. Comprehension ─────────────────────────── -->
+<section class="bg-navy">
+  <div class="wrap">
+    <div class="sec-label"><span class="en">Check Yourself</span><span class="zh-alt">自我检查</span></div>
+    <h2>想一想</h2>
+    <div class="sec-rule"></div>
+
+    <div class="pullquote">
+      <span class="en">If the words have sunk in, these should answer themselves — no dictionary needed.</span><span class="zh-alt">词若记牢，这些问题应能自然作答，无需查字典。</span>
+    </div>
+
+    <ol class="qlist">
+      <li class="qitem">
+        <div class="qzh">「听不懂」和「没听懂」有什么不一样？各举一个例子。</div>
+        <div class="qpy">"Tīng bu dǒng" hé "méi tīng dǒng" yǒu shénme bù yíyàng?</div>
+        <div class="qhint">一个说的是「能力」，一个说的是「这一次」。哪个是哪个？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">「告诉」后面为什么一定要有一个人？和「说」比一比。</div>
+        <div class="qpy">"Gàosu" hòumiàn wèishénme yídìng yào yǒu yí ge rén?</div>
+        <div class="qhint">「告诉我」——「我」是谁？「他在说话」有没有对象？</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">「第」是做什么用的？「三」和「第三」有什么不同？</div>
+        <div class="qpy">"Dì" shì zuò shénme yòng de? "Sān" hé "dì-sān" yǒu shénme bùtóng?</div>
+        <div class="qhint">一个是「多少」（数量），一个是「排第几」（次序）。</div>
+      </li>
+      <li class="qitem">
+        <div class="qzh">别人夸你「汉字写得真好」，用「哪里」可以怎么谦虚地回答？</div>
+        <div class="qpy">Biérén kuā nǐ, yòng "nǎlǐ" kěyǐ zěnme qiānxū de huídá?</div>
+        <div class="qhint">重复两遍那个词——意思是「过奖了」。</div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+
+<footer>
+  <div>学汉字 · 听懂与写字 · 2026</div>
+</footer>
+
+<script src="../shared/base.js"></script>
+<script src="../shared/lesson.js"></script>
+</body>
+</html>

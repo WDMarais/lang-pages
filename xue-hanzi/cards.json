@@ -1,0 +1,281 @@
+{
+  "understand": [
+    {
+      "slug": "ting",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "meaning": "to listen / to hear",
+      "meaning_zh": "用耳朵接收声音",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "老师说话的时候，我们要认真听。",
+          "en": "When the teacher is speaking, we should listen carefully.",
+          "audio": {
+            "晓晓": "audio/ting-xiaoxiao.mp3",
+            "晓伊": "audio/ting-xiaoyi.mp3",
+            "云扬": "audio/ting-yunyang.mp3",
+            "云希": "audio/ting-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「听」＝用耳朵接收。常见搭配：听音乐、听老师说、听广播。它也能当「结果补语」的动词头：听懂、听见、听清楚。"
+    },
+    {
+      "slug": "dong",
+      "hanzi": "懂",
+      "pinyin": "dǒng",
+      "meaning": "to understand",
+      "meaning_zh": "明白、理解某件事",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "这个语法我懂了，谢谢老师。",
+          "en": "I understand this grammar point now, thank you, teacher.",
+          "audio": {
+            "晓晓": "audio/dong-xiaoxiao.mp3",
+            "晓伊": "audio/dong-xiaoyi.mp3",
+            "云扬": "audio/dong-yunyang.mp3",
+            "云希": "audio/dong-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「懂」＝明白、理解。可以单用：「我懂了」「你懂吗？」。它最常做「结果补语」，放在动词后表示「弄明白了」：听懂、看懂、读懂。"
+    },
+    {
+      "slug": "gaosu",
+      "hanzi": "告诉",
+      "pinyin": "gàosu",
+      "meaning": "to tell (someone something)",
+      "meaning_zh": "把消息、意思说给别人知道",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "请你告诉我，这个汉字怎么写？",
+          "en": "Please tell me, how do you write this character?",
+          "audio": {
+            "晓晓": "audio/gaosu-xiaoxiao.mp3",
+            "晓伊": "audio/gaosu-xiaoyi.mp3",
+            "云扬": "audio/gaosu-yunyang.mp3",
+            "云希": "audio/gaosu-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「告诉」后面一定跟「对象」：告诉我、告诉你、告诉老师。跟「说」不同——「说」不一定有对象（他在说话）。句型：告诉＋某人＋某事。"
+    },
+    {
+      "slug": "tingdedong",
+      "hanzi": "听得懂",
+      "pinyin": "tīng de dǒng",
+      "meaning": "able to understand (by listening)",
+      "meaning_zh": "能听明白，有这个能力",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "老师说得慢一点，我就听得懂。",
+          "en": "If the teacher speaks a little more slowly, I can understand.",
+          "audio": {
+            "晓晓": "audio/tingdedong-xiaoxiao.mp3",
+            "晓伊": "audio/tingdedong-xiaoyi.mp3",
+            "云扬": "audio/tingdedong-yunyang.mp3",
+            "云希": "audio/tingdedong-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「可能补语」的肯定式：听＋得＋懂＝「有能力听明白」。同类：看得懂、买得到、做得完。注意「得」在这里读轻声 de。"
+    },
+    {
+      "slug": "tingbudong",
+      "hanzi": "听不懂",
+      "pinyin": "tīng bu dǒng",
+      "meaning": "unable to understand (by listening)",
+      "meaning_zh": "听了也不明白，没有这个能力",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "他说得太快，我听不懂。",
+          "en": "He speaks too fast, so I can't understand.",
+          "audio": {
+            "晓晓": "audio/tingbudong-xiaoxiao.mp3",
+            "晓伊": "audio/tingbudong-xiaoyi.mp3",
+            "云扬": "audio/tingbudong-yunyang.mp3",
+            "云希": "audio/tingbudong-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「可能补语」的否定式：听＋不＋懂。要跟「没听懂」分清楚——「听不懂」＝没能力（听多少次都不行）；「没听懂」＝这一次没明白（可能只是没注意）。"
+    }
+  ],
+  "writing": [
+    {
+      "slug": "hanzi",
+      "hanzi": "汉字",
+      "pinyin": "hànzì",
+      "meaning": "Chinese character(s)",
+      "meaning_zh": "记录汉语的文字",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "汉字很美，可是也很难写。",
+          "en": "Chinese characters are beautiful, but they are also hard to write.",
+          "audio": {
+            "晓晓": "audio/hanzi-xiaoxiao.mp3",
+            "晓伊": "audio/hanzi-xiaoyi.mp3",
+            "云扬": "audio/hanzi-yunyang.mp3",
+            "云希": "audio/hanzi-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「汉字」＝汉语的文字。一个汉字通常是一个音节、一个意思单位。由部首和部件搭成——这正是本站「部首」「单字」两课在做的事。"
+    },
+    {
+      "slug": "shufa",
+      "hanzi": "书法",
+      "pinyin": "shūfǎ",
+      "meaning": "calligraphy",
+      "meaning_zh": "写汉字的艺术",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "我在学中国书法，用毛笔写字。",
+          "en": "I'm learning Chinese calligraphy, writing characters with a brush.",
+          "audio": {
+            "晓晓": "audio/shufa-xiaoxiao.mp3",
+            "晓伊": "audio/shufa-xiaoyi.mp3",
+            "云扬": "audio/shufa-yunyang.mp3",
+            "云希": "audio/shufa-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「书法」＝写字的艺术，用毛笔和墨。常见字体：楷书（端正）、行书（流畅）、草书（奔放）。练书法既练手，也练心。"
+    },
+    {
+      "slug": "xie",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning": "to write",
+      "meaning_zh": "用笔把字记下来",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "老师让我们每天写十个汉字。",
+          "en": "The teacher has us write ten characters every day.",
+          "audio": {
+            "晓晓": "audio/xie-xiaoxiao.mp3",
+            "晓伊": "audio/xie-xiaoyi.mp3",
+            "云扬": "audio/xie-yunyang.mp3",
+            "云希": "audio/xie-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「写」＝用笔记下。搭配：写字、写信、写名字、写作业。写汉字讲「笔顺」——先横后竖、先撇后捺、从上到下。"
+    },
+    {
+      "slug": "lian",
+      "hanzi": "练",
+      "pinyin": "liàn",
+      "meaning": "to practise / to drill",
+      "meaning_zh": "反复地做，为了熟练",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "想把汉字写好，就要天天练。",
+          "en": "If you want to write characters well, you have to practise every day.",
+          "audio": {
+            "晓晓": "audio/lian-xiaoxiao.mp3",
+            "晓伊": "audio/lian-xiaoyi.mp3",
+            "云扬": "audio/lian-yunyang.mp3",
+            "云希": "audio/lian-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「练」＝反复地做以求熟练。搭配：练字、练习、练口语。老话说「熟能生巧」——练得多了，自然就巧了。"
+    }
+  ],
+  "grammar": [
+    {
+      "slug": "di",
+      "hanzi": "第",
+      "pinyin": "dì",
+      "meaning": "(ordinal prefix: -th)",
+      "meaning_zh": "放在数字前，表示次序",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "这是我学会的第一个汉字。",
+          "en": "This is the first character I learned to write.",
+          "audio": {
+            "晓晓": "audio/di-xiaoxiao.mp3",
+            "晓伊": "audio/di-xiaoyi.mp3",
+            "云扬": "audio/di-yunyang.mp3",
+            "云希": "audio/di-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「第」＋数字＝序数：第一、第二、第三。它把「基数」（一、二、三＝多少）变成「序数」（第几＝排第几）。跟本站「数字」课的量感对照着看。"
+    },
+    {
+      "slug": "nali",
+      "hanzi": "哪里",
+      "pinyin": "nǎlǐ",
+      "meaning": "where; (also a humble reply)",
+      "meaning_zh": "问地点的疑问词",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "请问，这个词的意思在哪里可以查到？",
+          "en": "Excuse me, where can I look up what this word means?",
+          "audio": {
+            "晓晓": "audio/nali-xiaoxiao.mp3",
+            "晓伊": "audio/nali-xiaoyi.mp3",
+            "云扬": "audio/nali-yunyang.mp3",
+            "云希": "audio/nali-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「哪里」＝问地点（＝哪儿）。还有一个谦辞用法：别人夸你「你的汉字写得真好」，你可以回「哪里哪里」，意思是「过奖了」。"
+    },
+    {
+      "slug": "jiushi",
+      "hanzi": "就是",
+      "pinyin": "jiùshì",
+      "meaning": "exactly; precisely; that's just it",
+      "meaning_zh": "强调「正是、没错」",
+      "theme": "t-red",
+      "examples": [
+        {
+          "zh": "对，就是这个意思，你懂了！",
+          "en": "Yes, that's exactly what it means — you've got it!",
+          "audio": {
+            "晓晓": "audio/jiushi-xiaoxiao.mp3",
+            "晓伊": "audio/jiushi-xiaoyi.mp3",
+            "云扬": "audio/jiushi-yunyang.mp3",
+            "云希": "audio/jiushi-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「就是」强调「正是、没错」。表示赞同时可单说「就是！」（＝我也这么觉得）。「就是说」＝换句话说，用来解释前面的话。"
+    },
+    {
+      "slug": "kunnan",
+      "hanzi": "困难",
+      "pinyin": "kùnnan",
+      "meaning": "difficulty (n.) / difficult (adj.)",
+      "meaning_zh": "不容易；遇到的麻烦",
+      "theme": "t-navy",
+      "examples": [
+        {
+          "zh": "学汉字有一点困难，但是很有意思。",
+          "en": "Learning characters is a little difficult, but it's very interesting.",
+          "audio": {
+            "晓晓": "audio/kunnan-xiaoxiao.mp3",
+            "晓伊": "audio/kunnan-xiaoyi.mp3",
+            "云扬": "audio/kunnan-yunyang.mp3",
+            "云希": "audio/kunnan-yunxi.mp3"
+          }
+        }
+      ],
+      "note": "「困难」既是形容词（这件事很困难）也是名词（遇到困难、克服困难）。比口语的「难」正式一点，常用于书面和郑重的场合。"
+    }
+  ]
+}

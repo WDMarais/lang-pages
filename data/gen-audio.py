@@ -210,6 +210,7 @@ MODULES = {
     "xi-zhuang": lambda: lesson_jobs(ROOT / "xi-zhuang/cards.json"),
     "cha-cai": lambda: lesson_jobs(ROOT / "cha-cai/cards.json"),
     "chao-fan": lambda: lesson_jobs(ROOT / "chao-fan/cards.json"),
+    "xue-hanzi": lambda: lesson_jobs(ROOT / "xue-hanzi/cards.json"),
 }
 
 

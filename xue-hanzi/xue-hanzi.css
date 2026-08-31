@@ -1,0 +1,43 @@
+/* xue-hanzi (学汉字) page-specific styles.
+   Shared lesson furniture (vplay-group, questions, passage) lives in
+   shared/lesson.css; this file only adds the potential-complement box —
+   the 听得懂 / 听不懂 grammar point — and the practice-passage label. */
+
+/* ── Potential-complement box (V 得/不 R) ─────────── */
+.pcomp {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 560px) { .pcomp { grid-template-columns: 1fr; } }
+.pc-cell {
+  background: white; border: 1px solid var(--border); border-radius: 10px;
+  padding: 1.25rem 1.4rem; border-top: 3px solid var(--muted);
+}
+.pc-cell.pos { border-top-color: var(--green); }
+.pc-cell.neg { border-top-color: var(--red); }
+.pc-tag {
+  font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.pc-cell.pos .pc-tag { color: var(--green); }
+.pc-cell.neg .pc-tag { color: var(--red); }
+.pc-form { font-size: 1.5rem; font-weight: 700; color: var(--navy); line-height: 1.3; }
+.pc-form b.pos { color: var(--green); }
+.pc-form b.neg { color: var(--red); }
+.pc-py { display: none; font-size: 0.78rem; color: var(--red); margin-top: 0.2rem; }
+body.show-py .pc-py { display: block; }
+.pc-gloss { font-size: 0.82rem; color: var(--muted); margin-top: 0.55rem; line-height: 1.5; }
+
+/* the contrast footnote: 听不懂 vs 没听懂 */
+.pc-note {
+  margin-top: 1.1rem; padding: 0.85rem 1.1rem;
+  background: var(--cream); border-left: 4px solid var(--gold); border-radius: 6px;
+  font-size: 0.86rem; color: var(--ink); line-height: 1.6;
+}
+.pc-note b { color: var(--navy); }
+
+/* ── Practice-passage label (real 课文 slots in later) ── */
+.passage-note {
+  font-size: 0.72rem; color: var(--muted); font-style: italic;
+  margin-bottom: 1rem; padding-bottom: 0.6rem; border-bottom: 1px dashed var(--border);
+}

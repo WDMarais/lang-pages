@@ -1,0 +1,210 @@
+{
+  "di-xiaoxiao.mp3": {
+    "text": "这是我学会的第一个汉字。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "di-xiaoyi.mp3": {
+    "text": "这是我学会的第一个汉字。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "di-yunxi.mp3": {
+    "text": "这是我学会的第一个汉字。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "di-yunyang.mp3": {
+    "text": "这是我学会的第一个汉字。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "dong-xiaoxiao.mp3": {
+    "text": "这个语法我懂了，谢谢老师。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dong-xiaoyi.mp3": {
+    "text": "这个语法我懂了，谢谢老师。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "dong-yunxi.mp3": {
+    "text": "这个语法我懂了，谢谢老师。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "dong-yunyang.mp3": {
+    "text": "这个语法我懂了，谢谢老师。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "gaosu-xiaoxiao.mp3": {
+    "text": "请你告诉我，这个汉字怎么写？",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "gaosu-xiaoyi.mp3": {
+    "text": "请你告诉我，这个汉字怎么写？",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "gaosu-yunxi.mp3": {
+    "text": "请你告诉我，这个汉字怎么写？",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "gaosu-yunyang.mp3": {
+    "text": "请你告诉我，这个汉字怎么写？",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "hanzi-xiaoxiao.mp3": {
+    "text": "汉字很美，可是也很难写。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hanzi-xiaoyi.mp3": {
+    "text": "汉字很美，可是也很难写。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "hanzi-yunxi.mp3": {
+    "text": "汉字很美，可是也很难写。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "hanzi-yunyang.mp3": {
+    "text": "汉字很美，可是也很难写。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "jiushi-xiaoxiao.mp3": {
+    "text": "对，就是这个意思，你懂了！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "jiushi-xiaoyi.mp3": {
+    "text": "对，就是这个意思，你懂了！",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "jiushi-yunxi.mp3": {
+    "text": "对，就是这个意思，你懂了！",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "jiushi-yunyang.mp3": {
+    "text": "对，就是这个意思，你懂了！",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "kunnan-xiaoxiao.mp3": {
+    "text": "学汉字有一点困难，但是很有意思。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "kunnan-xiaoyi.mp3": {
+    "text": "学汉字有一点困难，但是很有意思。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "kunnan-yunxi.mp3": {
+    "text": "学汉字有一点困难，但是很有意思。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "kunnan-yunyang.mp3": {
+    "text": "学汉字有一点困难，但是很有意思。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "lian-xiaoxiao.mp3": {
+    "text": "想把汉字写好，就要天天练。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lian-xiaoyi.mp3": {
+    "text": "想把汉字写好，就要天天练。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "lian-yunxi.mp3": {
+    "text": "想把汉字写好，就要天天练。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "lian-yunyang.mp3": {
+    "text": "想把汉字写好，就要天天练。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "nali-xiaoxiao.mp3": {
+    "text": "请问，这个词的意思在哪里可以查到？",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "nali-xiaoyi.mp3": {
+    "text": "请问，这个词的意思在哪里可以查到？",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "nali-yunxi.mp3": {
+    "text": "请问，这个词的意思在哪里可以查到？",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "nali-yunyang.mp3": {
+    "text": "请问，这个词的意思在哪里可以查到？",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "shufa-xiaoxiao.mp3": {
+    "text": "我在学中国书法，用毛笔写字。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shufa-xiaoyi.mp3": {
+    "text": "我在学中国书法，用毛笔写字。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "shufa-yunxi.mp3": {
+    "text": "我在学中国书法，用毛笔写字。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "shufa-yunyang.mp3": {
+    "text": "我在学中国书法，用毛笔写字。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "ting-xiaoxiao.mp3": {
+    "text": "老师说话的时候，我们要认真听。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ting-xiaoyi.mp3": {
+    "text": "老师说话的时候，我们要认真听。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "ting-yunxi.mp3": {
+    "text": "老师说话的时候，我们要认真听。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "ting-yunyang.mp3": {
+    "text": "老师说话的时候，我们要认真听。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "tingbudong-xiaoxiao.mp3": {
+    "text": "他说得太快，我听不懂。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tingbudong-xiaoyi.mp3": {
+    "text": "他说得太快，我听不懂。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "tingbudong-yunxi.mp3": {
+    "text": "他说得太快，我听不懂。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "tingbudong-yunyang.mp3": {
+    "text": "他说得太快，我听不懂。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "tingdedong-xiaoxiao.mp3": {
+    "text": "老师说得慢一点，我就听得懂。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tingdedong-xiaoyi.mp3": {
+    "text": "老师说得慢一点，我就听得懂。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "tingdedong-yunxi.mp3": {
+    "text": "老师说得慢一点，我就听得懂。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "tingdedong-yunyang.mp3": {
+    "text": "老师说得慢一点，我就听得懂。",
+    "voice": "zh-CN-YunyangNeural"
+  },
+  "xie-xiaoxiao.mp3": {
+    "text": "老师让我们每天写十个汉字。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xie-xiaoyi.mp3": {
+    "text": "老师让我们每天写十个汉字。",
+    "voice": "zh-CN-XiaoyiNeural"
+  },
+  "xie-yunxi.mp3": {
+    "text": "老师让我们每天写十个汉字。",
+    "voice": "zh-CN-YunxiNeural"
+  },
+  "xie-yunyang.mp3": {
+    "text": "老师让我们每天写十个汉字。",
+    "voice": "zh-CN-YunyangNeural"
+  }
+}
