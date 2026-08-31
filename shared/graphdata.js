@@ -50,7 +50,11 @@ function loadGraph() {
         (G.appears[f] = G.appears[f] || []).push(t);
         (G.parts[t] = G.parts[t] || []).push(f);
       } else if (e.kind === 'denotes' && e.from.startsWith('g:')) {
-        G.denotesOf[e.from.slice(2)] = e.to;
+        // keep the FIRST denotes edge — that is sense 0 (the readings-block referent).
+        // A polysemous glyph emits one edge per sense (生 → r:life, then r:raw); the 义
+        // bay resolves the extra senses by their own denotes slug, so this handle must
+        // stay pinned to sense 0 rather than being overwritten by the last sense.
+        if (!(e.from.slice(2) in G.denotesOf)) { G.denotesOf[e.from.slice(2)] = e.to; }
         const fromNode = G.byId[e.from];
         if (fromNode && fromNode.kind === 'glyph' && G.byId[e.to]) { G.refOf[e.from] = G.byId[e.to]; }
       }

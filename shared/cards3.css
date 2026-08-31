@@ -122,6 +122,38 @@
 /* compact play button */
 .sc-play { margin-top: 0; padding: 0.05rem 0.5rem; font-size: 0.7rem; }
 
+/* ── 义 bay: the concrete-referent anchor (shared by /graph/ and /glyph/) ──
+   One block per SENSE — referent image + label + the sound(s) that sense takes per
+   language (中文 red, 日本語 navy). Polysemy stacks the blocks (① life ② raw);
+   polyphony sits across a block's readings (せい vs なま). Image is the glyph's own
+   art for now (referent-media deferred), so polysemous senses share it. */
+.ref-bay {
+  border: 1.5px dashed var(--gold); border-radius: 12px; background: var(--cream);
+  padding: 0.9rem 1.1rem; display: flex; flex-direction: column; gap: 0.7rem;
+}
+.ref-head { display: flex; align-items: baseline; gap: 0.5rem; }
+.ref-mark { font-family: "LXGW WenKai", serif; font-size: 1.5rem; line-height: 1; color: var(--gold); }
+.ref-cap { font-size: 0.66rem; color: var(--muted); letter-spacing: 0.14em; text-transform: uppercase; }
+.ref-sense { display: flex; align-items: center; gap: 0.9rem; }
+.ref-poly .ref-sense + .ref-sense { border-top: 1px dashed var(--border); padding-top: 0.7rem; }
+.ref-num {
+  flex: 0 0 auto; width: 1.35rem; height: 1.35rem; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--paper, #fff); border: 1px solid var(--gold);
+  font-size: 0.72rem; font-weight: 700; color: var(--muted);
+}
+.ref-art { flex: 0 0 auto; }
+.ref-img { width: 3.2rem; height: 3.2rem; object-fit: cover; border-radius: 8px; display: block; }
+.ref-glyph { font-family: "LXGW WenKai", serif; font-size: 2.4rem; line-height: 1; color: var(--ink); }
+.ref-info { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.ref-label { font-size: 1.05rem; color: var(--ink); }
+.ref-rds { display: flex; gap: 0.9rem; flex-wrap: wrap; }
+.ref-lang { display: inline-flex; align-items: baseline; gap: 0.3rem; }
+.ref-tag { font-size: 0.62rem; letter-spacing: 0.08em; color: var(--muted); align-self: center; }
+.ref-rd { font-weight: 500; font-size: 0.92rem; }
+.ref-cn .ref-rd { color: var(--red); }
+.ref-jp .ref-rd { color: var(--navy2); }
+
 /* ── Responsive ────────────────────────────────── */
 @media (max-width: 760px) {
   .scard { grid-template-columns: 1fr; }

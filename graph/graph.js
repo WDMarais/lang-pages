@@ -71,14 +71,10 @@ function focus(glyph) {
 
 // referent (义) — the glyph's meaning, in its own bay beside the ego graph
 function renderReferent(glyph) {
-  const refId = denotesOf[glyph];
-  const label = refId && refLabel[refId];
-  document.getElementById('referent').innerHTML = html`
-    <div class="ref-mark">义</div>
-    <div class="ref-body">
-      ${label ? html`<div class="ref-label en">${label}</div>` : ''}
-      <div class="ref-cap en">meaning · 义</div>
-    </div>`;
+  // the 义 bay is the concrete-referent anchor (image + label + per-sense readings),
+  // shared with /glyph/ via renderRefBay so the two surfaces can't drift.
+  const node = G.byGlyph[glyph];
+  document.getElementById('referent').innerHTML = node ? renderRefBay(G, node) : '';
 }
 
 // ── ego stage: deterministic local-graph layout (no physics) ──

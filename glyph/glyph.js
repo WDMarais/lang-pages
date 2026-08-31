@@ -161,6 +161,7 @@ function render(r) {
 
   host.innerHTML = html`
     ${hero(n, r, isWord, surface)}
+    ${renderRefBay(G, n)}
     ${renderConfusable(G, r.id)}
     ${isWord ? wordBody(n) : glyphBody(n, surface)}
     ${assets(n, r, isWord)}`;
@@ -207,23 +208,10 @@ function hero(n, r, isWord, surface) {
     </div>`;
 }
 
-// 所指 / referent — the thing the glyph POINTS AT, not a definition of it. This is
-// the skeleton of the concrete-referent panel: the label handle here ("round") is a
-// placeholder for authored sense-data (image + sound + motion) — see the referents.json
-// overlay and concrete-referent-panel design note. Deliberately NOT labelled 义/"means":
-// a picture-and-sound of an elephant IS the referent; "a large grey animal" is a gloss.
-// Absent sense-data shows honestly in the assets grid (image: —), so this stays a plain
-// pointer for now rather than faking an empty media well.
-function referentRow(refId) {
-  const label = refId && G.refLabel[refId];
-  if (!label) { return ''; }
-  return html`
-    <div class="gl-rel">
-      <div class="gl-rel-label"><span>所指</span><span class="en">referent</span></div>
-      <div class="gl-rel-body"><span class="gl-ref en">${label}</span></div>
-    </div>`;
-}
-
+// The referent — the thing the glyph POINTS AT — is rendered above by the shared 义
+// bay (renderRefBay): image + label + per-sense readings, the concrete-referent anchor
+// ("a picture-and-sound of an elephant IS the referent", not a gloss). It used to live
+// here as a plain 所指 text row; it now shares one surface with /graph/'s #referent bay.
 function glyphBody(n, surface) {
   const P = G.parts[surface] || [];
   const A = G.appears[surface] || [];
@@ -234,13 +222,11 @@ function glyphBody(n, surface) {
       ${relRow('部件', 'built from', P, 'nothing decomposes it — it is a primitive here')}
       ${relRow('出现于', 'appears in', A, 'nothing in the graph is built from it yet')}
       ${vars.length ? relRow('异体', 'variant forms', vars, '') : ''}
-      ${referentRow(G.denotesOf[surface])}
     </div>`;
 }
 
 function wordBody(n) {
   const parts = [...(n.glyph || '')].filter(c => G.byGlyph[c]);
-  const refId = (G.byId[n.id] && G.denotesOf[n.id]) || null;
   return html`
     <div class="gl-rels">
       ${relRow('部件', 'written with', parts, '')}
@@ -249,7 +235,6 @@ function wordBody(n) {
           <div class="gl-rel-label"><span>送假名</span><span class="en">okurigana</span></div>
           <div class="gl-rel-body"><span class="gl-ref">${n.okurigana}</span></div>
         </div>` : ''}
-      ${referentRow(refId)}
     </div>`;
 }
 

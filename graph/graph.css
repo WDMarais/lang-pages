@@ -43,15 +43,10 @@
 /* ── ego stage: current-glyph-centred local graph ── */
 #ego { position: relative; height: 32rem; margin: 0; }
 
-/* referent (义) — the glyph's meaning, given its own bay (future: sense image) */
-#referent {
-  border: 1.5px dashed var(--gold); border-radius: 12px; background: var(--cream);
-  min-height: 7.5rem; padding: 1rem 1.3rem; display: flex; align-items: center; gap: 1.1rem;
-}
-.ref-mark { font-family: "LXGW WenKai", serif; font-size: 3rem; line-height: 1; color: var(--gold); }
-.ref-body { display: flex; flex-direction: column; gap: .3rem; }
-.ref-label { font-size: 1.1rem; color: var(--ink); }
-.ref-cap { font-size: .68rem; color: var(--muted); letter-spacing: .14em; text-transform: uppercase; }
+/* referent (义) — the concrete-referent anchor. The bay markup + styling is shared
+   with /glyph/ (renderRefBay in cards3.js / .ref-bay in cards3.css); this is just its
+   slot in the ego column, so no border/padding of its own — the .ref-bay carries them. */
+#referent:empty { display: none; }
 #egowires { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: visible; }
 .egonode { position: absolute; transform: translate(-50%, -50%); z-index: 1; }
 

@@ -262,6 +262,79 @@ function scriptChip(s) {
   return html`<span class="sc-trad">${segs}</span>`;
 }
 
+// ── senses dossier (polysemy / polyphony) ──
+// A glyph's EXTRA senses ride on the graph node as `senses` (build-graph stamps
+// them from the authored senses[] via the coupling rule; see docs/sense-model.md).
+// Sense 0 is the primary card above — so when the glyph carries more, this panel
+// ── 义 bay: the concrete-referent anchor, shared by /graph/ and /glyph/ ──────────
+// One block per SENSE — the referent the glyph POINTS AT (image + label), plus the
+// sound(s) that sense takes per language. This is the "a picture-and-sound of an
+// elephant IS the referent" panel, deliberately NOT a gloss restatement, and it is
+// the single home for the whole sense model: polysemy reads as ① life ② raw down
+// the blocks, polyphony as せい vs なま across a block's readings. Lives here (both
+// pages load cards3.js) so the graph #referent bay and the glyph dossier can't drift.
+// Image is the glyph's own art for now (referent-media is deferred), so polysemous
+// senses share it until a referent carries its own image.
+function refReadingChips(rows) {
+  const live = rows.filter(r => r.reading);
+  if (!live.length) { return ''; }
+  return html`<div class="ref-rds">${live.map(r => html`
+        <span class="ref-lang ${r.cls}"><span class="ref-tag">${r.tag}</span><span class="ref-rd">${r.reading}</span>${r.src ? play(r.src) : ''}</span>`)}</div>`;
+}
+// resolve every sense of a node into {label, readings[], img} anchor blocks.
+function refSenses(G, node) {
+  const img = (node.media && node.media.image) || '';
+  if (node.kind === 'word') {
+    const src = node.jpAudioKey ? `${JP_BANK}${node.jpAudioKey}.mp3`
+      : node.cnAudioKey ? `${CN_BANK}${node.cnAudioKey}.mp3` : '';
+    const tag = node.audience === 'cn' ? '中' : '日';
+    const cls = node.audience === 'cn' ? 'ref-cn' : 'ref-jp';
+    const label = (G.denotesOf[node.id] && G.refLabel[G.denotesOf[node.id]]) || node.gloss || '';
+    return label ? [{ label, img, readings: [{ cls, tag, reading: node.reading || '', src }] }] : [];
+  }
+  const cn = G.bindById[`b:${node.glyph}@cn`], jp = G.bindById[`b:${node.glyph}@jp`];
+  // sense 0 — the readings block; label handle is the referent, falling back to gloss.
+  const primary = {
+    label: (G.denotesOf[node.glyph] && G.refLabel[G.denotesOf[node.glyph]])
+      || (cn && cn.gloss) || (jp && jp.gloss) || '',
+    img,
+    readings: [
+      { cls: 'ref-cn', tag: '中', reading: (cn && cn.readings[0]) || '', src: node.cnAudioKey ? `${CN_BANK}${node.cnAudioKey}.mp3` : '' },
+      { cls: 'ref-jp', tag: '日', reading: (jp && jp.readings[0]) || '', src: node.jpAudioKey ? `${JP_BANK}${node.jpAudioKey}.mp3` : '' },
+    ],
+  };
+  const extras = (node.senses || []).map(s => ({
+    label: (s.denotes && G.refLabel[`r:${s.denotes}`]) || s.gloss || '',
+    img,
+    readings: [
+      { cls: 'ref-cn', tag: '中', reading: ((s.cn || {}).readings || [])[0] || '', src: ((s.cn || {}).audioKeys || [])[0] ? `${CN_BANK}${s.cn.audioKeys[0]}.mp3` : '' },
+      { cls: 'ref-jp', tag: '日', reading: ((s.jp || {}).readings || [])[0] || '', src: ((s.jp || {}).audioKeys || [])[0] ? `${JP_BANK}${s.jp.audioKeys[0]}.mp3` : '' },
+    ],
+  }));
+  return [primary, ...extras];
+}
+function renderRefBay(G, node) {
+  const senses = refSenses(G, node).filter(s => s.label);
+  if (!senses.length) { return ''; }
+  const many = senses.length > 1;
+  const blocks = senses.map((s, i) => html`
+        <div class="ref-sense">
+          ${many ? html`<span class="ref-num">${i + 1}</span>` : ''}
+          <div class="ref-art">${s.img
+            ? html`<img class="ref-img" src="${s.img}" alt="">`
+            : html`<div class="ref-glyph">${node.glyph || ''}</div>`}</div>
+          <div class="ref-info">
+            <div class="ref-label en">${s.label}</div>
+            ${refReadingChips(s.readings)}
+          </div>
+        </div>`);
+  return html`
+      <div class="ref-bay${many ? ' ref-poly' : ''}">
+        <div class="ref-head"><span class="ref-mark">义</span><span class="ref-cap en">${many ? `referent · ${senses.length} senses` : 'referent'}</span></div>
+        ${blocks}
+      </div>`;
+}
+
 function renderCard(c) {
   if (c.stub) { return renderStub(c); }
   const img = c.image ? html`<img class="sc-img" src="${c.image}" alt="">` : '';
