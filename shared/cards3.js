@@ -317,12 +317,12 @@ function renderRefBay(G, node) {
   const senses = refSenses(G, node).filter(s => s.label);
   if (!senses.length) { return ''; }
   const many = senses.length > 1;
+  // The referent leads each block — its label now, its image when one lands — so the
+  // eye catches the MEANING (life vs raw), not the glyph (already huge in the card).
   const blocks = senses.map((s, i) => html`
         <div class="ref-sense">
           ${many ? html`<span class="ref-num">${i + 1}</span>` : ''}
-          <div class="ref-art">${s.img
-            ? html`<img class="ref-img" src="${s.img}" alt="">`
-            : html`<div class="ref-glyph">${node.glyph || ''}</div>`}</div>
+          ${s.img ? html`<img class="ref-img" src="${s.img}" alt="">` : ''}
           <div class="ref-info">
             <div class="ref-label en">${s.label}</div>
             ${refReadingChips(s.readings)}

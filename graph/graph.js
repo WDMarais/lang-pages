@@ -29,8 +29,16 @@ loadGraph().then(g => {
   ({ byGlyph, parts, appears, refLabel, denotesOf } = g);
   renderIndex(g.nodes);
   window.addEventListener('resize', () => { if (selected) { drawEgoWires(); } });
-  focus('木');
+  // deep-link: /graph/#生 focuses that glyph on load; back/forward + hash edits re-focus.
+  window.addEventListener('hashchange', routeHash);
+  routeHash();
 });
+
+// focus the glyph named in the URL hash, falling back to a sensible default.
+function routeHash() {
+  const g = decodeURIComponent((location.hash || '').replace(/^#/, '')).trim();
+  focus(g && byGlyph[g] ? g : '木');
+}
 
 // ── compact tier index (pick a glyph; no wires here) ──
 function renderIndex(nodes) {
@@ -63,6 +71,9 @@ function renderIndex(nodes) {
 
 function focus(glyph) {
   selected = glyph;
+  // keep the URL linkable without spamming history on every click
+  const hash = `#${encodeURIComponent(glyph)}`;
+  if (location.hash !== hash) { history.replaceState(null, '', hash); }
   Object.values(chipEls).forEach(c => c.classList.toggle('sel', c.dataset.glyph === glyph));
   renderEgo(glyph);
   renderReferent(glyph);
