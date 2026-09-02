@@ -36,6 +36,15 @@ body.show-py .pc-py { display: block; }
 }
 .pc-note b { color: var(--navy); }
 
+/* ── Referent vignettes (cute picture-diagrams of the things) ── */
+.vignette { margin: 1.75rem auto 0.25rem; max-width: 320px; text-align: center; }
+.vignette.vignette-wide { max-width: 500px; }
+.vignette svg { width: 100%; height: auto; display: block; }
+.vignette figcaption {
+  margin-top: 0.55rem; font-size: 0.78rem; color: var(--muted); letter-spacing: 0.02em;
+}
+.vignette figcaption b { color: var(--navy); font-weight: 700; }
+
 /* ── Practice-passage label (real 课文 slots in later) ── */
 .passage-note {
   font-size: 0.72rem; color: var(--muted); font-style: italic;
