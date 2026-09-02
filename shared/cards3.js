@@ -273,8 +273,9 @@ function scriptChip(s) {
 // the single home for the whole sense model: polysemy reads as ① life ② raw down
 // the blocks, polyphony as せい vs なま across a block's readings. Lives here (both
 // pages load cards3.js) so the graph #referent bay and the glyph dossier can't drift.
-// Image is the glyph's own art for now (referent-media is deferred), so polysemous
-// senses share it until a referent carries its own image.
+// Image is the referent's OWN picture when one is curated (data/referents.json →
+// G.refImg, keyed by r:<slug>), falling back to the glyph's art otherwise — so each
+// sense can show its own referent (① life ② raw) rather than all sharing the glyph.
 function refReadingChips(rows) {
   const live = rows.filter(r => r.reading);
   if (!live.length) { return ''; }
@@ -283,21 +284,25 @@ function refReadingChips(rows) {
 }
 // resolve every sense of a node into {label, readings[], img} anchor blocks.
 function refSenses(G, node) {
-  const img = (node.media && node.media.image) || '';
+  const glyphImg = (node.media && node.media.image) || '';
+  const refImg = G.refImg || {};
+  // a sense's anchor image: its referent's own picture, else the glyph's art.
+  const senseImg = rid => (rid && refImg[rid]) || glyphImg;
   if (node.kind === 'word') {
     const src = node.jpAudioKey ? `${JP_BANK}${node.jpAudioKey}.mp3`
       : node.cnAudioKey ? `${CN_BANK}${node.cnAudioKey}.mp3` : '';
     const tag = node.audience === 'cn' ? '中' : '日';
     const cls = node.audience === 'cn' ? 'ref-cn' : 'ref-jp';
-    const label = (G.denotesOf[node.id] && G.refLabel[G.denotesOf[node.id]]) || node.gloss || '';
-    return label ? [{ label, img, readings: [{ cls, tag, reading: node.reading || '', src }] }] : [];
+    const rid = G.denotesOf[node.id];
+    const label = (rid && G.refLabel[rid]) || node.gloss || '';
+    return label ? [{ label, img: senseImg(rid), readings: [{ cls, tag, reading: node.reading || '', src }] }] : [];
   }
   const cn = G.bindById[`b:${node.glyph}@cn`], jp = G.bindById[`b:${node.glyph}@jp`];
   // sense 0 — the readings block; label handle is the referent, falling back to gloss.
+  const prid = G.denotesOf[node.glyph];
   const primary = {
-    label: (G.denotesOf[node.glyph] && G.refLabel[G.denotesOf[node.glyph]])
-      || (cn && cn.gloss) || (jp && jp.gloss) || '',
-    img,
+    label: (prid && G.refLabel[prid]) || (cn && cn.gloss) || (jp && jp.gloss) || '',
+    img: senseImg(prid),
     readings: [
       { cls: 'ref-cn', tag: '中', reading: (cn && cn.readings[0]) || '', src: node.cnAudioKey ? `${CN_BANK}${node.cnAudioKey}.mp3` : '' },
       { cls: 'ref-jp', tag: '日', reading: (jp && jp.readings[0]) || '', src: node.jpAudioKey ? `${JP_BANK}${node.jpAudioKey}.mp3` : '' },
@@ -305,7 +310,7 @@ function refSenses(G, node) {
   };
   const extras = (node.senses || []).map(s => ({
     label: (s.denotes && G.refLabel[`r:${s.denotes}`]) || s.gloss || '',
-    img,
+    img: senseImg(s.denotes ? `r:${s.denotes}` : ''),
     readings: [
       { cls: 'ref-cn', tag: '中', reading: ((s.cn || {}).readings || [])[0] || '', src: ((s.cn || {}).audioKeys || [])[0] ? `${CN_BANK}${s.cn.audioKeys[0]}.mp3` : '' },
       { cls: 'ref-jp', tag: '日', reading: ((s.jp || {}).readings || [])[0] || '', src: ((s.jp || {}).audioKeys || [])[0] ? `${JP_BANK}${s.jp.audioKeys[0]}.mp3` : '' },

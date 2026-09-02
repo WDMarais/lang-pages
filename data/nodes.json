@@ -638,7 +638,21 @@
     {
       "id": "r:mountain",
       "kind": "referent",
-      "label": "mountain"
+      "label": "mountain",
+      "images": [
+        {
+          "file": "mountain-clip.svg",
+          "credit": "lang-pages",
+          "license": "CC0",
+          "source": ""
+        },
+        {
+          "file": "mountain-01.jpg",
+          "credit": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Mountains_in_snow,_Mountain_lake,_Chola_Valley,_Nepal,_Himalayas.jpg"
+        }
+      ]
     },
     {
       "id": "g:岩",
@@ -685,7 +699,21 @@
     {
       "id": "r:tree",
       "kind": "referent",
-      "label": "tree; wood"
+      "label": "tree; wood",
+      "images": [
+        {
+          "file": "tree-01.jpg",
+          "credit": "John Palmer",
+          "license": "CC BY-SA 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Corfe_Mullen_Meadow_Nature_Reserve_-_geograph.org.uk_-_1230391.jpg"
+        },
+        {
+          "file": "tree-02.jpg",
+          "credit": "Sergey Pesterev",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Lonely_tree_at_Fairy_lake.jpg"
+        }
+      ]
     },
     {
       "id": "g:林",
@@ -712,7 +740,21 @@
     {
       "id": "r:sun",
       "kind": "referent",
-      "label": "sun; day"
+      "label": "sun; day",
+      "images": [
+        {
+          "file": "sun-clip.svg",
+          "credit": "lang-pages",
+          "license": "CC0",
+          "source": ""
+        },
+        {
+          "file": "sun-01.jpg",
+          "credit": "Khanahmedsam",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Bright_Shades_Of_Sky_Ans_Sparkling_Sun_,_Aligarh.jpg"
+        }
+      ]
     },
     {
       "id": "g:田",
@@ -732,7 +774,15 @@
     {
       "id": "r:field",
       "kind": "referent",
-      "label": "field"
+      "label": "field",
+      "images": [
+        {
+          "file": "field-01.jpg",
+          "credit": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Green_rice_sheaves_planted_in_a_paddy_field_with_long_shadows_at_golden_hour_in_Don_Det_Laos.jpg"
+        }
+      ]
     },
     {
       "id": "g:中",
@@ -967,7 +1017,21 @@
     {
       "id": "r:water",
       "kind": "referent",
-      "label": "water"
+      "label": "water",
+      "images": [
+        {
+          "file": "water-clip.svg",
+          "credit": "lang-pages",
+          "license": "CC0",
+          "source": ""
+        },
+        {
+          "file": "water-01.jpg",
+          "credit": "Radomianin",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Black_alder_twig_and_water_ripples_at_Wolfsberger_M%C3%BChle,_2019-06-29.jpg"
+        }
+      ]
     },
     {
       "id": "g:冰",
@@ -1133,7 +1197,21 @@
     {
       "id": "r:fire",
       "kind": "referent",
-      "label": "fire"
+      "label": "fire",
+      "images": [
+        {
+          "file": "fire-clip.svg",
+          "credit": "lang-pages",
+          "license": "CC0",
+          "source": ""
+        },
+        {
+          "file": "fire-01.jpg",
+          "credit": "Nenad Stojkovic",
+          "license": "CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Closeup_of_raging_flames_in_a_large_bonfire._-_Flickr_-_shixart1985.jpg"
+        }
+      ]
     },
     {
       "id": "g:炎",
@@ -3705,7 +3783,21 @@
     {
       "id": "r:moon",
       "kind": "referent",
-      "label": "moon; month"
+      "label": "moon; month",
+      "images": [
+        {
+          "file": "moon-clip.svg",
+          "credit": "lang-pages",
+          "license": "CC0",
+          "source": ""
+        },
+        {
+          "file": "moon-01.jpg",
+          "credit": "Megala Shankar",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Full_Moon_at_night_with_black_background.jpg"
+        }
+      ]
     },
     {
       "id": "g:有",
@@ -4400,7 +4492,15 @@
     {
       "id": "r:eye",
       "kind": "referent",
-      "label": "eye"
+      "label": "eye",
+      "images": [
+        {
+          "file": "eye-01.jpg",
+          "credit": "William Warby from London, England",
+          "license": "CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Eye_(11774111985).jpg"
+        }
+      ]
     },
     {
       "id": "g:相",
@@ -4598,7 +4698,15 @@
     {
       "id": "r:grain",
       "kind": "referent",
-      "label": "grain"
+      "label": "grain",
+      "images": [
+        {
+          "file": "grain-01.jpg",
+          "credit": "Bärbel Miemietz",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:2022-07-13_reifer_Weizen_03.jpg"
+        }
+      ]
     },
     {
       "id": "g:穴",
@@ -6035,7 +6143,15 @@
     {
       "id": "r:horse",
       "kind": "referent",
-      "label": "horse"
+      "label": "horse",
+      "images": [
+        {
+          "file": "horse-01.jpg",
+          "credit": "Halyna Feshchak",
+          "license": "CC0",
+          "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Brown_Horse_(198516275).jpeg"
+        }
+      ]
     },
     {
       "id": "g:骨",
@@ -6180,7 +6296,15 @@
     {
       "id": "r:fish",
       "kind": "referent",
-      "label": "fish"
+      "label": "fish",
+      "images": [
+        {
+          "file": "fish-01.jpg",
+          "credit": "Abogsr",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Grouper-be-steamedi-1-4-grouper-fish-isolated-white-background.jpg"
+        }
+      ]
     },
     {
       "id": "g:鳥",
@@ -6206,7 +6330,15 @@
     {
       "id": "r:bird",
       "kind": "referent",
-      "label": "bird"
+      "label": "bird",
+      "images": [
+        {
+          "file": "bird-01.jpg",
+          "credit": "Laitche",
+          "license": "CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Small_bird_perching_on_a_branch.jpg"
+        }
+      ]
     },
     {
       "id": "g:鹵",

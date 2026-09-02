@@ -27,13 +27,18 @@ function loadGraph() {
     const G = {
       nodes: nd.nodes, byGlyph: {}, byId: {}, bindById: {}, refLabel: {},
       denotesOf: {}, parts: {}, appears: {}, vocabOf: {}, refOf: {},
-      clusters: {}, confusOf: {}, cognateOf: {},
+      clusters: {}, confusOf: {}, cognateOf: {}, refImg: {},
     };
     bd.bindings.forEach(b => (G.bindById[b.id] = b));
     nd.nodes.forEach(n => {
       G.byId[n.id] = n;
       if (n.kind === 'glyph') { G.byGlyph[n.glyph] = n; }
-      else if (n.kind === 'referent') { G.refLabel[n.id] = n.label; }
+      else if (n.kind === 'referent') {
+        G.refLabel[n.id] = n.label;
+        // referent's own curated picture (data/referents.json → node.images), the
+        // 义 bay's concrete anchor. First entry wins; pages are one dir deep.
+        if (n.images && n.images.length) { G.refImg[n.id] = `../shared/referents/${n.images[0].file}`; }
+      }
     });
     ed.edges.forEach(e => {
       if (e.kind === 'composes') {

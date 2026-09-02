@@ -377,6 +377,20 @@ def build():
         print(f"⚠ composition-roles: {char}←{comp} matches no composes edge (typo?)",
               file=sys.stderr)
 
+    # Referent imagery: stamp the curated image list (data/referents.json — the human
+    # sourcing pipeline's output) onto each r:<slug> referent node, so the 义 bay can
+    # lead with the referent's OWN picture (a photo of fire IS the referent) instead of
+    # falling back to the glyph's own art. Slug-keyed, matching the denotes id r:<slug>.
+    refpath = DATA / "referents.json"
+    if refpath.exists():
+        for slug, entry in read_json(refpath).items():
+            node = nodes.get(f"r:{slug}")
+            imgs = entry.get("images", []) if isinstance(entry, dict) else []
+            if node and imgs:
+                node["images"] = [{"file": im["file"], "credit": im.get("credit", ""),
+                                   "license": im.get("license", ""), "source": im.get("source", "")}
+                                  for im in imgs if im.get("file")]
+
     return list(nodes.values()), bindings, edges, clusters
 
 
