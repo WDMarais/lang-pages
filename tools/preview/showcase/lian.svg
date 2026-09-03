@@ -1,0 +1,16 @@
+<svg viewBox="0 0 330 150" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Serif CJK SC','KaiTi',serif"><rect x="0" y="0" width="330" height="150" fill="#F8F6F1"/>
+        <!-- attempt 1: wobbly, faint -->
+        <text x="52" y="80" font-size="44" text-anchor="middle" fill="#8C857A" opacity="0.55"
+              transform="rotate(-8 52 66)">写</text>
+        <!-- attempt 2: steadier -->
+        <text x="122" y="80" font-size="44" text-anchor="middle" fill="#6B6B72" opacity="0.9"
+              transform="rotate(-3 122 66)">写</text>
+        <!-- ⋯ many more reps -->
+        <g fill="#8C857A"><circle cx="170" cy="70" r="2.6"/><circle cx="181" cy="70" r="2.6"/><circle cx="192" cy="70" r="2.6"/></g>
+        <!-- final: clean, confident, and it shines -->
+        <text x="252" y="82" font-size="50" text-anchor="middle" fill="#1A1A1E">写</text>
+        <path d="M286 40 l2.2 7.2 l7.2 2.2 l-7.2 2.2 l-2.2 7.2 l-2.2 -7.2 l-7.2 -2.2 l7.2 -2.2 Z" fill="#B8963E"/>
+        <!-- the arc of repetition -->
+        <path d="M42 112 H288" stroke="#B8963E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.75"/>
+        <path d="M282 106 l8 6 l-8 6" stroke="#B8963E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+        <text x="165" y="138" font-size="16" text-anchor="middle" font-weight="700" fill="#B8963E">练</text></svg>

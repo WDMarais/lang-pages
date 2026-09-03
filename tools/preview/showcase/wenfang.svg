@@ -1,0 +1,42 @@
+<svg viewBox="0 0 320 155" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Serif CJK SC','Songti SC',serif"><rect x="0" y="0" width="320" height="155" fill="#F8F6F1"/>
+  <!-- paper (纸) with faint 米字格 and a half-written stroke -->
+  <rect x="176" y="30" width="106" height="98" rx="5" fill="#FFFFFF" stroke="#E0DAD0" stroke-width="1.5"/>
+  <g stroke="#B8963E" stroke-dasharray="4 4" fill="none" opacity="0.5">
+    <line x1="229" y1="36" x2="229" y2="122"/>
+    <line x1="182" y1="79" x2="276" y2="79"/>
+    <line x1="182" y1="36" x2="276" y2="122" stroke-width="0.8" opacity="0.7"/>
+    <line x1="276" y1="36" x2="182" y2="122" stroke-width="0.8" opacity="0.7"/>
+  </g>
+  <!-- the stroke being written, right under the brush tip -->
+  <path d="M198 92 Q214 84 232 94" fill="none" stroke="#1A1A1E" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="223" cy="106" r="4" fill="#1A1A1E"/>
+
+  <!-- inkstone (砚) with ink pool -->
+  <ellipse cx="98" cy="137" rx="40" ry="12" fill="#2C3E6B"/>
+  <ellipse cx="98" cy="137" rx="40" ry="12" fill="none" stroke="#B8963E" stroke-width="1.4" opacity="0.6"/>
+  <ellipse cx="98" cy="134" rx="28" ry="7.5" fill="#1A1A1E"/>
+  <ellipse cx="92" cy="132" rx="8" ry="2.4" fill="#4A5578" opacity="0.7"/>
+  <!-- ink stick (墨) leaning against the stone -->
+  <g transform="rotate(-18 150 120)">
+    <rect x="145" y="102" width="9" height="32" rx="2" fill="#1A1A1E"/>
+    <rect x="145" y="102" width="9" height="7" rx="2" fill="#C41E3A"/>
+  </g>
+
+  <!-- ── the calligrapher, facing the paper ── -->
+  <!-- torso: shoulders rising to a neck right under the head -->
+  <path d="M14 128 C17 98 30 84 43 84 C56 84 69 98 72 128 Z" fill="#F8F6F1" stroke="#1E2A4A" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="43" cy="58" r="20" fill="#F8F6F1" stroke="#1E2A4A" stroke-width="3"/>
+  <circle cx="51" cy="54" r="2" fill="#1E2A4A"/>
+  <path d="M61 56 L67 60 L61 63" fill="none" stroke="#1E2A4A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 67 Q56 70 62 67" fill="none" stroke="#1E2A4A" stroke-width="2" stroke-linecap="round"/>
+  <!-- arm reaching to the brush -->
+  <path d="M62 100 Q104 84 138 70" fill="none" stroke="#1E2A4A" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- brush (笔), held mid-stroke -->
+  <line x1="120" y1="54" x2="174" y2="82" stroke="#2C3E6B" stroke-width="6" stroke-linecap="round"/>
+  <line x1="171" y1="80" x2="184" y2="87" stroke="#B8963E" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M182 85 L199 92 L187 98 Z" fill="#1A1A1E"/>
+  <!-- the gripping hand: cream mitt along the brush + thumb over it -->
+  <ellipse cx="139" cy="69" rx="8.5" ry="5.6" fill="#F8F6F1" stroke="#1E2A4A" stroke-width="2.4" transform="rotate(27 139 69)"/>
+  <path d="M133 64 Q140 60 146 65" fill="none" stroke="#1E2A4A" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

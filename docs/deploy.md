@@ -66,6 +66,19 @@ No Python build dependencies, no `edge-tts`, no Node. If you find yourself insta
 those on the box, something has gone wrong — the generated outputs are committed
 precisely so the server never runs the build.
 
+### The one dev page that ships (inert): `tools/preview/`
+
+`tools/preview/` is a **local authoring aid** — a hot-load gallery: drop an `.svg`/`.png`
+into `tools/preview/assets/` (gitignored) and it renders live, reloading on change, while
+you iterate on an illustration. It works by scraping the dev server's directory listing,
+which `python3 -m http.server` autoindexes.
+
+It is committed, so nginx does serve it — but **it's inert in production by construction**:
+nginx has no `autoindex`, so the live-discovery request 403s and the page falls back to the
+committed exhibit in `tools/preview/showcase/` (the lesson vignettes). So the prod URL is a
+small static gallery, runs nothing server-side, and exposes no data — an easter egg, not a
+tool. Nothing to exclude from deploy; nothing to lock down.
+
 ---
 
 ## 2. The authoring machine — the build toolchain

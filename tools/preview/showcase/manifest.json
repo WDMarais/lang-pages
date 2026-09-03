@@ -1,0 +1,10 @@
+{
+  "title": "lesson illustrations",
+  "note": "The referent vignettes drawn for 学汉字 — shown here as the exhibit when no scratch renders are loaded.",
+  "items": [
+    { "file": "tingdong.svg", "name": "听懂 · A pictures it, says it, the same picture forms in B's mind" },
+    { "file": "wenfang.svg",  "name": "文房四宝 · a calligrapher at the brush, mid-stroke" },
+    { "file": "lian.svg",     "name": "练 · write it again and again — wobbly, then it lands" },
+    { "file": "kunnan.svg",   "name": "困难 · the climb: steep now, but the top's in sight" }
+  ]
+}

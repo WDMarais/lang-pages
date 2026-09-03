@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>preview · hot-load</title>
+<!--
+  A local authoring aid, not part of the site. Two modes:
+    · LIVE      — drop .svg/.png into ./assets/ and they appear here, newest first,
+                  hot-reloading on change (dev server autoindex is scraped to discover them).
+    · SHOWCASE  — when ./assets/ is empty or unlistable (e.g. production, where nginx has
+                  no autoindex), it falls back to the committed exhibit in ./showcase/.
+  So in prod this URL is a small curated gallery of the lesson illustrations — an easter
+  egg — and never runs anything server-side. See docs/deploy.md.
+-->
+<style>
+  :root{--cream:#F8F6F1;--ink:#1A1A1E;--navy:#1E2A4A;--muted:#6B6B72;--border:#E0DAD0;--green:#2C6B3E;--gold:#B8963E;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--cream);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;}
+  .bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:.75rem;
+       padding:.7rem 1.25rem;background:rgba(248,246,241,.92);backdrop-filter:blur(6px);
+       border-bottom:1px solid var(--border);}
+  .bar h1{font-size:.95rem;font-weight:700;color:var(--navy);margin:0;letter-spacing:.01em;}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--muted);transition:background .2s;}
+  .dot.live{background:var(--green);}
+  .mode{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+        color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:.12rem .5rem;}
+  .mode.live{color:var(--green);border-color:var(--green);}
+  .mode.show{color:var(--gold);border-color:var(--gold);}
+  .bar .meta{margin-left:auto;font-size:.72rem;color:var(--muted);}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem;
+        padding:1.25rem;max-width:1100px;margin:0 auto;}
+  .card{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;
+        display:flex;flex-direction:column;}
+  .card .imgwrap{padding:1rem;display:flex;align-items:center;justify-content:center;min-height:120px;background:var(--cream);}
+  .card img{max-width:100%;height:auto;display:block;}
+  .card .foot{border-top:1px solid var(--border);padding:.5rem .8rem;display:flex;gap:.5rem;align-items:baseline;}
+  .card .name{font-size:.78rem;font-weight:700;color:var(--navy);}
+  .card .ts{margin-left:auto;font-size:.66rem;color:var(--muted);white-space:nowrap;}
+  .card.flash{animation:flash .6s ease;}
+  @keyframes flash{0%{box-shadow:0 0 0 0 rgba(44,107,62,.5);}100%{box-shadow:0 0 0 6px rgba(44,107,62,0);}}
+  .lead{padding:1.1rem 1.25rem 0;max-width:1100px;margin:0 auto;color:var(--muted);font-size:.8rem;line-height:1.5;}
+  .lead code{background:#fff;border:1px solid var(--border);border-radius:5px;padding:.1rem .35rem;font-size:.85em;}
+</style>
+</head>
+<body>
+<div class="bar">
+  <span class="dot" id="dot"></span>
+  <h1>preview</h1>
+  <span class="mode" id="mode">…</span>
+  <span class="meta" id="meta">starting…</span>
+</div>
+<div class="lead" id="lead" hidden></div>
+<div class="grid" id="grid"></div>
+
+<script>
+const ASSETS = 'assets/';
+const RX = /href="([^"?/][^"?]*\.(?:svg|png|jpe?g|gif|webp))"/gi;
+const grid  = document.getElementById('grid');
+const dot   = document.getElementById('dot');
+const meta  = document.getElementById('meta');
+const modeEl= document.getElementById('mode');
+const lead  = document.getElementById('lead');
+
+let mode = null;                 // 'live' | 'showcase'
+const cards = new Map();         // file -> {el, img, ts, lastmod}
+
+function now(){ return new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'}); }
+
+async function listFiles(){
+  try{
+    const r = await fetch(ASSETS + '?_=' + Date.now(), {cache:'no-store'});
+    if(!r.ok) return null;                       // prod: nginx 403/404 on a non-autoindexed dir
+    const html = await r.text();
+    const out = new Set(); let m;
+    while((m = RX.exec(html))) out.add(decodeURIComponent(m[1]));
+    return [...out];
+  }catch{ return null; }
+}
+async function lastMod(url){
+  try{ const r = await fetch(url + '?_=' + Date.now(), {method:'HEAD', cache:'no-store'});
+       return r.headers.get('Last-Modified') || String(Date.now()); }
+  catch{ return String(Date.now()); }
+}
+function makeCard(){
+  const el = document.createElement('div'); el.className='card';
+  const wrap = document.createElement('div'); wrap.className='imgwrap';
+  const img = document.createElement('img'); wrap.appendChild(img);
+  const foot = document.createElement('div'); foot.className='foot';
+  const name = document.createElement('span'); name.className='name';
+  const ts = document.createElement('span'); ts.className='ts';
+  foot.append(name, ts); el.append(wrap, foot);
+  return {el, img, name, ts};
+}
+function resetGrid(){ grid.replaceChildren(); cards.clear(); }
+
+// ── LIVE: hot-load scratch renders from ./assets/ ──
+async function renderLive(files){
+  if(mode !== 'live'){ resetGrid(); mode='live'; lead.hidden = true;
+                       modeEl.textContent='live'; modeEl.className='mode live'; }
+  for(const f of [...cards.keys()]) if(!files.includes(f)){ cards.get(f).el.remove(); cards.delete(f); }
+  const stamps = await Promise.all(files.map(async f => [f, await lastMod(ASSETS+f)]));
+  stamps.sort((a,b)=> new Date(b[1]) - new Date(a[1]));            // newest first
+  for(const [f, lm] of stamps){
+    let c = cards.get(f);
+    if(!c){ c = makeCard(); c.name.textContent = f; c.lastmod=null; cards.set(f, c); grid.appendChild(c.el); }
+    if(c.lastmod !== lm){
+      c.img.src = ASSETS + f + '?v=' + encodeURIComponent(lm);
+      c.img.alt = f;
+      c.ts.textContent = new Date(lm).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+      c.el.classList.remove('flash'); void c.el.offsetWidth; c.el.classList.add('flash');
+      c.lastmod = lm;
+    }
+  }
+  for(const [f] of stamps) grid.appendChild(cards.get(f).el);      // keep DOM order == sort
+  dot.classList.add('live');
+  meta.textContent = files.length + (files.length===1?' asset · ':' assets · ') + 'hot-loading · ' + now();
+}
+
+// ── SHOWCASE: the committed exhibit from ./showcase/ ──
+async function renderShowcase(){
+  if(mode === 'showcase') { meta.textContent = 'showcase · ' + now(); return; }
+  resetGrid(); mode='showcase'; dot.classList.remove('live');
+  modeEl.textContent='showcase'; modeEl.className='mode show';
+  let man;
+  try{ man = await (await fetch('showcase/manifest.json?_=' + Date.now(), {cache:'no-store'})).json(); }
+  catch{ meta.textContent='no showcase'; return; }
+  lead.hidden = false;
+  lead.innerHTML = (man.note || '') + ' &nbsp;Drop files into <code>tools/preview/assets/</code> to switch to live hot-load.';
+  for(const it of (man.items || [])){
+    const c = makeCard(); c.name.textContent = it.name || it.file;
+    c.img.src = 'showcase/' + it.file; c.img.alt = it.name || it.file;
+    c.ts.textContent = 'exhibit'; grid.appendChild(c.el);
+  }
+  meta.textContent = (man.items?.length || 0) + ' illustrations · ' + now();
+}
+
+async function tick(){
+  const files = await listFiles();
+  if(files && files.length > 0) await renderLive(files);
+  else await renderShowcase();
+}
+tick(); setInterval(tick, 1500);
+</script>
+</body>
+</html>

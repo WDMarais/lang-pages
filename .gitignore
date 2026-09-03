@@ -14,3 +14,8 @@ __pycache__/
 
 # npm (eslint dev toolchain)
 node_modules/
+
+# preview tool (tools/preview/): the page and its committed showcase/ ARE tracked;
+# local scratch renders dropped into assets/ are not.
+tools/preview/assets/*
+!tools/preview/assets/.gitkeep

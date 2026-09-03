@@ -1,0 +1,32 @@
+<svg viewBox="0 0 320 150" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Serif CJK SC','Songti SC',serif"><rect x="0" y="0" width="320" height="150" fill="#F8F6F1"/>
+  <!-- the hill: a steep slope rising to the right -->
+  <path d="M16 128 L300 44 L300 128 Z" fill="#EDE8DF"/>
+  <path d="M16 128 L300 44" fill="none" stroke="#1E2A4A" stroke-width="3" stroke-linecap="round"/>
+  <!-- the distance still to climb, dashed along the slope -->
+  <path d="M178 78 L286 46" fill="none" stroke="#B8963E" stroke-width="1.6" stroke-dasharray="4 5" opacity="0.7"/>
+  <!-- a rock in the path (the obstacle) -->
+  <path d="M214 66 q-8 -1 -9 5 q-1 5 5 6 q10 1 12 -3 q1 -5 -8 -8 Z" fill="#C9C2B6" stroke="#1E2A4A" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- the summit goal: a little flag -->
+  <line x1="289" y1="44" x2="289" y2="22" stroke="#1E2A4A" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M289 24 L303 29 L289 34 Z" fill="#C41E3A"/>
+  <!-- ── the climber: part-way up, leaning into it ── -->
+  <!-- trailing (downhill) leg -->
+  <path d="M156 84 L143 100" fill="none" stroke="#1E2A4A" stroke-width="6" stroke-linecap="round"/>
+  <!-- leading (uphill) leg, bent -->
+  <path d="M156 84 L165 88 L170 80" fill="none" stroke="#1E2A4A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- torso, leaning forward up the hill -->
+  <path d="M156 84 L169 64" fill="none" stroke="#1E2A4A" stroke-width="8" stroke-linecap="round"/>
+  <!-- back arm, swinging low -->
+  <path d="M166 68 L153 80" fill="none" stroke="#1E2A4A" stroke-width="5" stroke-linecap="round"/>
+  <!-- front arm, reaching up toward the top -->
+  <path d="M166 68 L185 60" fill="none" stroke="#1E2A4A" stroke-width="5" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="173" cy="53" r="10.5" fill="#F8F6F1" stroke="#1E2A4A" stroke-width="3"/>
+  <!-- strain: effort marks + a bead of sweat -->
+  <g stroke="#B8963E" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+    <path d="M188 40 l6 -4"/><path d="M190 48 l7 -1"/>
+  </g>
+  <path d="M160 44 q-3 4 0 6 q3 -2 0 -6 Z" fill="#2C3E6B" opacity="0.85"/>
+  <!-- label -->
+  <text x="150" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#B8963E">困难</text>
+</svg>
