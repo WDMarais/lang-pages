@@ -60,7 +60,10 @@ referents), open **export a selection**, hit *edited today* (or tick them by han
 export those. Each tile shows how many images the collection already holds, plus a
 **+N** for the ones you've saved; it turns **green** once you have 5 complete images on
 it. Switching browser or computer? Export, then **import a file** on the new one — it
-merges into whatever is saved there, skipping images you already have.
+merges into whatever is saved there, skipping images you already have. Import only
+*adds* images, though: a card you edit or delete on one computer stays as it was on the
+other. So if you work on more than one, **work on different referents on each** and send
+an export from each — overlap is harmless, the editor skips images it already has.
 
 ---
 
