@@ -1,7 +1,7 @@
 'use strict';
 // /numerals/ — the quantity behind the character.
-//   · units 1-10  : glyph + readings + N-dot SVG + 正 tally-mark
-//   · powers      : 十百千万億 with the 万-grouping (myriad) system
+//   · units 0-10  : glyph + readings + N-dot SVG + 正 tally-mark
+//   · powers      : 十百千万亿 with the 万-grouping (myriad) system
 //   · builder     : a number → its glyph decomposition (the GENERATIVE rule made
 //                   tangible — a small basis + one positional rule regenerates the
 //                   whole number line; the same function is the p-i-t generator).
@@ -9,14 +9,15 @@
 let DATA = null;   // data/numerals.json
 let ZHENG = null;  // 正 stroke paths (for the tally)
 
-// ── quantity referents (units 1-10) ─────────────────────────────────────────
+// ── quantity referents (units 0-10) ─────────────────────────────────────────
+// zero still draws one cluster, all empty: the referent of 零 is the empty tray.
 function dots(v) {
   let out = '';
-  for (let left = v; left > 0; ) {
-    const n = Math.min(5, left); left -= n;
+  for (let c = 0, clusters = Math.max(1, Math.ceil(v / 5)); c < clusters; c++) {
+    const n = Math.min(5, v - 5 * c);
     let cells = '';
     for (let i = 0; i < 5; i++) { cells += i < n ? '<span class="dot"></span>' : '<span></span>'; }
-    out += `<div class="dot-cluster">${cells}</div>`;
+    out += `<div class="dot-cluster${v === 0 ? ' empty' : ''}">${cells}</div>`;
   }
   return `<div class="dots">${out}</div>`;
 }
@@ -30,7 +31,7 @@ function tally(v) {
   const full = Math.floor(v / 5), rem = v % 5;
   let out = '';
   for (let i = 0; i < full; i++) { out += mark(5, 'full'); }
-  if (rem > 0) { out += mark(rem, 'part'); }
+  if (rem > 0 || v === 0) { out += mark(rem, 'part'); }   // zero = one 正, nothing inked
   return `<div class="tally">${out}</div>`;
 }
 function unitCard(n) {
@@ -43,11 +44,14 @@ function unitCard(n) {
 }
 
 // ── powers / the myriad system ──────────────────────────────────────────────
+// `simp` = the simplified-CN form when the substrate glyph is trad-keyed (億 → 亿): the
+// CN page leads with it and shows the glyph itself as the traditional / Japanese form.
 function powerCard(p) {
+  const alt = p.simp ? `<span class="alt-form" title="traditional / Japanese form">繁·日 ${p.glyph}</span>` : '';
   const compose = p.compose === '—' ? '<span class="pc-atom">atomic place</span>'
                                     : `<span class="pc-compose">${p.compose}</span>`;
   return `<div class="pcard">
-    <div class="nc-top"><span class="glyph">${p.glyph}</span><span class="val">10<sup>${p.pow}</sup></span></div>
+    <div class="nc-top"><span class="glyph">${p.simp || p.glyph}</span>${alt}<span class="val">10<sup>${p.pow}</sup></span></div>
     <div class="reading"><b>${p.cn}</b><span class="jp">${p.jp}</span><span class="en">${p.en}</span></div>
     <div class="pc-grouped">${p.grouped}</div>
     <div class="pc-rule">${compose}</div>
@@ -57,7 +61,7 @@ function powerCard(p) {
 // ── the builder: number → 汉字 (the positional rule) ─────────────────────────
 const DIGIT = ['〇', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
 const SMALL  = ['', '十', '百', '千'];   // 10^0 … 10^3 within a myriad group
-const BIG    = ['', '万', '億'];          // group 0,1,2 → 10^0, 10^4, 10^8
+const BIG    = ['', '万', '亿'];          // group 0,1,2 → 10^0, 10^4, 10^8
 
 // render one 0..9999 group → { chars, terms }. terms feed the visual tree.
 function groupChars(g) {
