@@ -19,3 +19,6 @@ node_modules/
 # local scratch renders dropped into assets/ are not.
 tools/preview/assets/*
 !tools/preview/assets/.gitkeep
+
+# Claude Code agent worktrees (local git worktrees, never content)
+.claude/worktrees/
