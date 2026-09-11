@@ -23,6 +23,9 @@
 .build-action.primary { background:var(--navy); color:#fff; border-color:var(--navy); }
 .build-feedback { min-height:1.3rem; margin-top:.65rem; font-size:.83rem; color:var(--muted); }
 .build-feedback.ok { color:var(--green); font-weight:700; }
+/* pattern headwords are whole frames (一边……一边……), not single words: a size down, and
+   keep-all so a narrow card wraps after an …… instead of mid-word */
+#cards-patterns .vh { font-size: calc(2.2rem * var(--scale)); word-break: keep-all; }
 .step-flow { display:flex; flex-wrap:wrap; gap:.6rem; align-items:stretch; margin:1.2rem 0; }
 .step { flex:1 1 130px; border:1px solid var(--border); border-radius:9px; padding:.8rem; background:var(--white); }
 .step-no { color:var(--gold); font-size:.65rem; letter-spacing:.16em; font-weight:700; }
