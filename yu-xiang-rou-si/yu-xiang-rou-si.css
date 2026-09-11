@@ -1,0 +1,34 @@
+/* 鱼香肉丝: sentence ordering is the active layer; lesson.css owns card and passage furniture. */
+.myth { max-width: 680px; border-left: 4px solid var(--red); padding: 1rem 1.25rem; background: #FFF8F7; color: var(--ink); line-height: 1.75; }
+.myth b { color: var(--red); }
+.targets { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:.9rem; margin-top:1.3rem; }
+.target { background:var(--white); border:1px solid var(--border); border-top:3px solid var(--gold); border-radius:10px; padding:1rem 1.1rem; }
+.target h3 { color:var(--navy); font-size:1.08rem; margin:0 0 .45rem; }
+.target p { margin:0; color:var(--muted); font-size:.84rem; line-height:1.6; }
+.target .model { color:var(--red); font-size:1rem; font-weight:700; margin:.55rem 0 .25rem; }
+.worksheet { max-width:760px; margin-top:1.25rem; border:1px solid var(--border); border-radius:10px; background:var(--white); }
+.worksheet > summary { cursor:pointer; padding:1rem 1.15rem; color:var(--navy); font-weight:700; }
+.worksheet > summary span { color:var(--muted); font-size:.8rem; font-weight:400; margin-left:.45rem; }
+.worksheet-body { padding:0 1.15rem 1.15rem; }
+.builder { max-width: 760px; background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; margin: 1rem 0 1.5rem; }
+.builder-top { display:flex; justify-content:space-between; gap:.75rem; align-items:baseline; color:var(--muted); font-size:.8rem; }
+.builder-num { color:var(--red); font-weight:700; }
+.build-answer { min-height:3.1rem; display:flex; flex-wrap:wrap; gap:.45rem; align-content:center; margin:1rem 0; padding:.65rem; border:1px dashed var(--gold); border-radius:8px; background:var(--cream); }
+.build-bank { display:flex; flex-wrap:wrap; gap:.5rem; }
+.word-chip, .build-action { border:1px solid var(--border); background:#fff; border-radius:7px; padding:.42rem .7rem; font:inherit; color:var(--navy); cursor:pointer; }
+.word-chip { font-size:1.08rem; }
+.word-chip:hover, .word-chip:focus { border-color:var(--red); color:var(--red); }
+.build-actions { display:flex; gap:.55rem; margin-top:.85rem; }
+.build-action { font-size:.76rem; color:var(--muted); }
+.build-action.primary { background:var(--navy); color:#fff; border-color:var(--navy); }
+.build-feedback { min-height:1.3rem; margin-top:.65rem; font-size:.83rem; color:var(--muted); }
+.build-feedback.ok { color:var(--green); font-weight:700; }
+.step-flow { display:flex; flex-wrap:wrap; gap:.6rem; align-items:stretch; margin:1.2rem 0; }
+.step { flex:1 1 130px; border:1px solid var(--border); border-radius:9px; padding:.8rem; background:var(--white); }
+.step-no { color:var(--gold); font-size:.65rem; letter-spacing:.16em; font-weight:700; }
+.step-zh { color:var(--navy); font-weight:700; font-size:1.02rem; margin-top:.3rem; }
+.step-py { display:none; color:var(--red); font-size:.75rem; margin-top:.18rem; }
+body.show-py .step-py { display:block; }
+.answer details { margin-top:.8rem; border:1px solid rgba(255,255,255,.18); border-radius:8px; padding:.7rem .9rem; }
+.answer summary { cursor:pointer; color:var(--gold); }
+.answer p { line-height:1.75; margin:.65rem 0 0; }
