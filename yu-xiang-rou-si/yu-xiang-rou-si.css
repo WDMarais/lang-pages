@@ -32,6 +32,25 @@
 .step-zh { color:var(--navy); font-weight:700; font-size:1.02rem; margin-top:.3rem; }
 .step-py { display:none; color:var(--red); font-size:.75rem; margin-top:.18rem; }
 body.show-py .step-py { display:block; }
+/* the plan: our own kitchen adaptation — swap/compare tables, quantity cards, order of work */
+.plan-lead { max-width:760px; color:var(--muted); line-height:1.7; margin:0 0 1.4rem; }
+.plan-lead a, .plan-note a { color:var(--navy); }
+.plan-h { color:var(--navy); font-size:1.1rem; margin:1.8rem 0 .2rem; }
+.plan-scroll { overflow-x:auto; margin:.8rem 0 1rem; }
+.plan-table { width:100%; min-width:520px; border-collapse:collapse; font-size:.88rem; background:var(--white); }
+.plan-table th, .plan-table td { text-align:left; padding:.55rem .7rem; border-bottom:1px solid var(--border); vertical-align:top; line-height:1.55; }
+.plan-table thead th { font-size:.72rem; letter-spacing:.06em; color:var(--muted); }
+.plan-table td:first-child { color:var(--navy); font-weight:700; white-space:nowrap; }
+.plan-compare { min-width:680px; }
+.plan-table .ours { background:var(--cream); color:var(--ink); }
+.plan-table thead .ours { color:var(--red); }
+.plan-table .ours small { color:var(--muted); font-size:.74rem; white-space:nowrap; }
+.target ul { margin:.35rem 0 0 1.1rem; color:var(--ink); font-size:.86rem; line-height:1.7; }
+.target ul + p { margin-top:.5rem; }
+.plan-phase { color:var(--gold); font-size:.68rem; letter-spacing:.14em; font-weight:700; text-transform:uppercase; margin:1.1rem 0 .3rem; }
+.plan-steps { max-width:760px; padding-left:1.6rem; line-height:1.75; font-size:.95rem; }
+.plan-note { max-width:760px; margin-top:1.3rem; color:var(--muted); font-size:.88rem; line-height:1.7; }
+.plan-note b { color:var(--red); }
 .answer details { margin-top:.8rem; border:1px solid rgba(255,255,255,.18); border-radius:8px; padding:.7rem .9rem; }
 .answer summary { cursor:pointer; color:var(--gold); }
 .answer p { line-height:1.75; margin:.65rem 0 0; }
