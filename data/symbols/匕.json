@@ -3,7 +3,6 @@
   "cp": "U+5315",
   "class": "char",
   "kangxi": 21,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -16,13 +15,14 @@
     "cn": {
       "name": "匕",
       "reading": "bǐ",
-      "gloss": "spoon",
-      "extra": "康熙部首 21"
+      "gloss": "spoon; dagger",
+      "extra": "匕首 · 康熙部首 21 · 比、北、能、它的部件"
     },
     "jp": {
       "name": "匕",
-      "reading": "",
-      "gloss": "spoon"
+      "reading": "ヒ",
+      "gloss": "spoon; dagger",
+      "extra": "漢字「匕」(ヒ · さじ) · 匕首(あいくち・ひしゅ) · 部首名「さじのひ」"
     }
   },
   "programs": [

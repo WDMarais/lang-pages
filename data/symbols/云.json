@@ -1,0 +1,40 @@
+{
+  "glyph": "云",
+  "cp": "U+4E91",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "二",
+    "厶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "云",
+      "reading": "yún",
+      "gloss": "cloud; say (literary)",
+      "extra": "白云、云彩、多云 · 二 + 厶（象云气回转之形）· 「说」义为本字；「云彩」繁体作雲"
+    },
+    "jp": {
+      "name": "雲",
+      "reading": "くも",
+      "gloss": "cloud",
+      "extra": "漢字「雲」(ウン · くも) · 雲(くも)、雨雲(あまぐも)、星雲(せいうん) · 「云」(ウン · い.う)は「言う」の古字 · 中文簡体作「云」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "雲",
+        "when": "cloud"
+      },
+      {
+        "glyph": "云",
+        "when": "say (literary; unchanged)"
+      }
+    ]
+  },
+  "programs": []
+}

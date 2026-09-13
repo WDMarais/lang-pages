@@ -877,13 +877,14 @@
           "cn": {
             "name": "匕",
             "reading": "bǐ",
-            "gloss": "spoon",
-            "extra": "康熙部首 21"
+            "gloss": "spoon; dagger",
+            "extra": "匕首 · 康熙部首 21 · 比、北、能、它的部件"
           },
           "jp": {
             "name": "匕",
-            "reading": "",
-            "gloss": "spoon"
+            "reading": "ヒ",
+            "gloss": "spoon; dagger",
+            "extra": "漢字「匕」(ヒ · さじ) · 匕首(あいくち・ひしゅ) · 部首名「さじのひ」"
           },
           "wk": null,
           "pd": {
@@ -897,7 +898,8 @@
             "level": 4
           },
           "kx": 21,
-          "cnAudioKey": "bi3"
+          "cnAudioKey": "bi3",
+          "jpAudioKey": "hi"
         },
         {
           "glyph": "匚",
@@ -1117,8 +1119,9 @@
           },
           "jp": {
             "name": "又",
-            "reading": "",
-            "gloss": "again"
+            "reading": "また",
+            "gloss": "again; also",
+            "extra": "漢字「又」(ユウ · また) · 又(また)、又は(または) · 現代では「また」と仮名書きが多い"
           },
           "wk": {
             "name": "Stool",
@@ -1136,7 +1139,8 @@
             "level": 4
           },
           "kx": 29,
-          "cnAudioKey": "you4"
+          "cnAudioKey": "you4",
+          "jpAudioKey": "mata"
         }
       ]
     },
@@ -4246,12 +4250,13 @@
             "name": "竹",
             "reading": "zhú",
             "gloss": "bamboo",
-            "extra": "康熙部首 118"
+            "extra": "竹子、竹林 · 康熙部首 118 · 作字头写作⺮"
           },
           "jp": {
             "name": "竹",
-            "reading": "",
-            "gloss": "bamboo"
+            "reading": "たけ",
+            "gloss": "bamboo",
+            "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
           },
           "wk": null,
           "pd": {
@@ -4265,7 +4270,8 @@
             "level": 4
           },
           "kx": 118,
-          "cnAudioKey": "zhu2"
+          "cnAudioKey": "zhu2",
+          "jpAudioKey": "take"
         },
         {
           "glyph": "米",

@@ -1499,6 +1499,24 @@
           "wk": null
         },
         {
+          "glyph": "云",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "yun2",
+          "jpAudioKey": "kumo",
+          "script": {"traditional": [{"glyph": "雲", "when": "cloud"}, {"glyph": "云", "when": "say (literary; unchanged)"}]},
+          "cn": {
+            "name": "云", "reading": "yún", "gloss": "cloud; say (literary)",
+            "extra": "白云、云彩、多云 · 二 + 厶（象云气回转之形）· 「说」义为本字；「云彩」繁体作雲"
+          },
+          "jp": {
+            "name": "雲", "reading": "くも", "gloss": "cloud",
+            "extra": "漢字「雲」(ウン · くも) · 雲(くも)、雨雲(あまぐも)、星雲(せいうん) · 「云」(ウン · い.う)は「言う」の古字 · 中文簡体作「云」"
+          },
+          "wk": null
+        },
+        {
           "glyph": "些",
           "tag": "char",
           "image": "",
@@ -1831,6 +1849,25 @@
           "pdc": { "name": "move", "kind": "meaning", "level": 4 }
         },
         {
+          "glyph": "匕",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "bi3",
+          "jpAudioKey": "hi",
+          "cn": {
+            "name": "匕", "reading": "bǐ", "gloss": "spoon; dagger",
+            "extra": "匕首 · 康熙部首 21 · 比、北、能、它的部件"
+          },
+          "jp": {
+            "name": "匕", "reading": "ヒ", "gloss": "spoon; dagger",
+            "extra": "漢字「匕」(ヒ · さじ) · 匕首(あいくち・ひしゅ) · 部首名「さじのひ」"
+          },
+          "wk": null,
+          "pd": { "name": "spoon", "level": 2, "kind": "meaning" },
+          "pdc": { "name": "spoon", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "北",
           "tag": "char",
           "image": "",
@@ -1901,6 +1938,25 @@
           },
           "wk": null,
           "pdc": { "name": "go", "kind": "meaning", "level": 4 }
+        },
+        {
+          "glyph": "又",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "you4",
+          "jpAudioKey": "mata",
+          "cn": {
+            "name": "又", "reading": "yòu", "gloss": "again; also; anyway",
+            "extra": "又来了、又大又好 · 康熙部首 29"
+          },
+          "jp": {
+            "name": "又", "reading": "また", "gloss": "again; also",
+            "extra": "漢字「又」(ユウ · また) · 又(また)、又は(または) · 現代では「また」と仮名書きが多い"
+          },
+          "wk": { "name": "Stool", "level": 3, "kind": "mnemonic" },
+          "pd": { "name": "again", "level": 4, "kind": "meaning" },
+          "pdc": { "name": "again", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "友",
@@ -3109,6 +3165,25 @@
           "kanji": { "name": "Stand", "readings": ["リツ"], "on": true, "kun": ["たつ"], "level": 3 }
         },
         {
+          "glyph": "竹",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zhu2",
+          "jpAudioKey": "take",
+          "cn": {
+            "name": "竹", "reading": "zhú", "gloss": "bamboo",
+            "extra": "竹子、竹林 · 康熙部首 118 · 作字头写作⺮"
+          },
+          "jp": {
+            "name": "竹", "reading": "たけ", "gloss": "bamboo",
+            "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
+          },
+          "wk": null,
+          "pd": { "name": "bamboo", "level": 2, "kind": "meaning" },
+          "pdc": { "name": "chopsticks", "kind": "mnemonic", "level": 4 }
+        },
+        {
           "glyph": "美",
           "tag": "char",
           "image": "",
@@ -3202,6 +3277,25 @@
           },
           "wk": null,
           "pdc": { "name": "skill", "kind": "meaning", "level": 4 }
+        },
+        {
+          "glyph": "自",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zi4",
+          "jpAudioKey": "ji",
+          "cn": {
+            "name": "自", "reading": "zì", "gloss": "self; oneself; from, since",
+            "extra": "自己、自然、自由、来自 · 康熙部首 132 · 本义是鼻（象形）"
+          },
+          "jp": {
+            "name": "自", "reading": "ジ", "gloss": "self; oneself",
+            "extra": "漢字「自」(ジ・シ · みずか.ら) · 自分(じぶん)、自然(しぜん)、自由(じゆう)"
+          },
+          "wk": null,
+          "pd": { "name": "self", "level": 4, "kind": "meaning" },
+          "pdc": { "name": "self", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "西",

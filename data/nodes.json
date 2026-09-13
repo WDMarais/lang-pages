@@ -2119,6 +2119,36 @@
       "frontier": true
     },
     {
+      "id": "g:云",
+      "kind": "glyph",
+      "glyph": "云",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "yun2",
+      "jpAudioKey": "kumo",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "雲",
+            "when": "cloud"
+          },
+          {
+            "glyph": "云",
+            "when": "say (literary; unchanged)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:cloud",
+      "kind": "referent",
+      "label": "cloud; say (literary)"
+    },
+    {
       "id": "g:些",
       "kind": "glyph",
       "glyph": "些",
@@ -2576,12 +2606,13 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "bi3"
+      "cnAudioKey": "bi3",
+      "jpAudioKey": "hi"
     },
     {
       "id": "r:spoon",
       "kind": "referent",
-      "label": "spoon"
+      "label": "spoon; dagger"
     },
     {
       "id": "g:北",
@@ -2743,7 +2774,8 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "you4"
+      "cnAudioKey": "you4",
+      "jpAudioKey": "mata"
     },
     {
       "id": "r:again",
@@ -5001,6 +5033,7 @@
         "image": ""
       },
       "cnAudioKey": "zhu2",
+      "jpAudioKey": "take",
       "variants": [
         "⺮"
       ]
@@ -7178,13 +7211,6 @@
       "id": "g:乂",
       "kind": "glyph",
       "glyph": "乂",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:云",
-      "kind": "glyph",
-      "glyph": "云",
       "tier": null,
       "frontier": true
     },

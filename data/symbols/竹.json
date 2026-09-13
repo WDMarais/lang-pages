@@ -3,7 +3,6 @@
   "cp": "U+7AF9",
   "class": "char",
   "kangxi": 118,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -13,12 +12,13 @@
       "name": "竹",
       "reading": "zhú",
       "gloss": "bamboo",
-      "extra": "康熙部首 118"
+      "extra": "竹子、竹林 · 康熙部首 118 · 作字头写作⺮"
     },
     "jp": {
       "name": "竹",
-      "reading": "",
-      "gloss": "bamboo"
+      "reading": "たけ",
+      "gloss": "bamboo",
+      "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
     }
   },
   "programs": [

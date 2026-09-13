@@ -3866,6 +3866,28 @@
       "extra": "漢字「於」(ウ · お-いて) · 中文簡体多作「于」"
     },
     {
+      "id": "b:云@cn",
+      "glyph_id": "g:云",
+      "lang": "cn",
+      "name": "云",
+      "readings": [
+        "yún"
+      ],
+      "gloss": "cloud; say (literary)",
+      "extra": "白云、云彩、多云 · 二 + 厶（象云气回转之形）· 「说」义为本字；「云彩」繁体作雲"
+    },
+    {
+      "id": "b:云@jp",
+      "glyph_id": "g:云",
+      "lang": "jp",
+      "name": "雲",
+      "readings": [
+        "くも"
+      ],
+      "gloss": "cloud",
+      "extra": "漢字「雲」(ウン · くも) · 雲(くも)、雨雲(あまぐも)、星雲(せいうん) · 「云」(ウン · い.う)は「言う」の古字 · 中文簡体作「云」"
+    },
+    {
       "id": "b:些@cn",
       "glyph_id": "g:些",
       "lang": "cn",
@@ -4566,8 +4588,8 @@
       "readings": [
         "bǐ"
       ],
-      "gloss": "spoon",
-      "extra": "康熙部首 21",
+      "gloss": "spoon; dagger",
+      "extra": "匕首 · 康熙部首 21 · 比、北、能、它的部件",
       "program": {
         "source": "pandanese",
         "name": "spoon",
@@ -4585,9 +4607,11 @@
       "glyph_id": "g:匕",
       "lang": "jp",
       "name": "匕",
-      "readings": [],
-      "gloss": "spoon",
-      "extra": ""
+      "readings": [
+        "ヒ"
+      ],
+      "gloss": "spoon; dagger",
+      "extra": "漢字「匕」(ヒ · さじ) · 匕首(あいくち・ひしゅ) · 部首名「さじのひ」"
     },
     {
       "id": "b:北@cn",
@@ -4869,9 +4893,11 @@
       "glyph_id": "g:又",
       "lang": "jp",
       "name": "又",
-      "readings": [],
-      "gloss": "again",
-      "extra": "",
+      "readings": [
+        "また"
+      ],
+      "gloss": "again; also",
+      "extra": "漢字「又」(ユウ · また) · 又(また)、又は(または) · 現代では「また」と仮名書きが多い",
       "program": {
         "source": "wanikani",
         "name": "Stool",
@@ -8316,7 +8342,7 @@
         "zhú"
       ],
       "gloss": "bamboo",
-      "extra": "康熙部首 118",
+      "extra": "竹子、竹林 · 康熙部首 118 · 作字头写作⺮",
       "program": {
         "source": "pandanese",
         "name": "bamboo",
@@ -8334,9 +8360,11 @@
       "glyph_id": "g:竹",
       "lang": "jp",
       "name": "竹",
-      "readings": [],
+      "readings": [
+        "たけ"
+      ],
       "gloss": "bamboo",
-      "extra": ""
+      "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
     },
     {
       "id": "b:米@cn",

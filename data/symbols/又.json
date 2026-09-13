@@ -3,7 +3,6 @@
   "cp": "U+53C8",
   "class": "char",
   "kangxi": 29,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -17,8 +16,9 @@
     },
     "jp": {
       "name": "又",
-      "reading": "",
-      "gloss": "again"
+      "reading": "また",
+      "gloss": "again; also",
+      "extra": "漢字「又」(ユウ · また) · 又(また)、又は(または) · 現代では「また」と仮名書きが多い"
     }
   },
   "programs": [

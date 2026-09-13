@@ -774,6 +774,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:云",
+      "to": "r:cloud",
+      "kind": "denotes"
+    },
+    {
       "from": "g:些",
       "to": "r:some",
       "kind": "denotes"
@@ -2928,6 +2933,16 @@
     {
       "from": "g:亅",
       "to": "g:于",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "g:云",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:云",
       "kind": "composes"
     },
     {

@@ -547,6 +547,10 @@
     "text": "くがつ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kumo.mp3": {
+    "text": "くも",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kuruma.mp3": {
     "text": "くるま",
     "voice": "ja-JP-NanamiNeural"
@@ -581,6 +585,10 @@
   },
   "marui.mp3": {
     "text": "まるい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "mata.mp3": {
+    "text": "また",
     "voice": "ja-JP-NanamiNeural"
   },
   "mawaru.mp3": {
@@ -997,6 +1005,10 @@
   },
   "taishita.mp3": {
     "text": "たいした",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "take.mp3": {
+    "text": "たけ",
     "voice": "ja-JP-NanamiNeural"
   },
   "tama.mp3": {
