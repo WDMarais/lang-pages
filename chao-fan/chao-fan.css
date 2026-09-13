@@ -1,31 +1,7 @@
 /* chao-fan (麻油蛋炒饭) page-specific styles.
-   Shared lesson furniture (vplay-group, flow, questions, passage) lives in
-   shared/lesson.css; this file only adds the two layouts unique to this page:
-   the real-photo cook strip and the candidate-shortlist gallery. */
-
-/* ── The cook, in real photos (step strip) ───────── */
-.cook-strip {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1rem;
-}
-.cook-fig {
-  background: white; border: 1px solid var(--border); border-radius: 10px;
-  overflow: hidden; display: flex; flex-direction: column;
-}
-.cook-fig img {
-  width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;
-  background: var(--navy);
-}
-.cook-cap { padding: 0.7rem 0.85rem 0.9rem; }
-.cook-step {
-  font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase;
-  color: var(--gold); font-weight: 700; margin-bottom: 0.25rem;
-}
-.cook-zh { font-size: 1.15rem; font-weight: 700; color: var(--navy); line-height: 1.2; }
-.cook-py { display: none; font-size: 0.72rem; color: var(--red); margin-top: 0.15rem; }
-body.show-py .cook-py { display: block; }
-.cook-en { font-size: 0.76rem; color: var(--muted); margin-top: 0.3rem; }
+   Shared lesson furniture (vplay-group, flow, questions, passage, the real-photo
+   cook strip) lives in shared/lesson.css; this file only adds the layout unique
+   to this page: the candidate-shortlist gallery. */
 
 /* ── The shortlist (dishes considered) ───────────── */
 .shortlist {

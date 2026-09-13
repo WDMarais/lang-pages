@@ -73,3 +73,27 @@ body.show-py .qpy { display: block; }
   transition: opacity 0.15s; z-index: 5;
 }
 .hl:hover::after { opacity: 1; }
+
+/* ── The cook, in real photos (step strip) ───────── */
+.cook-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+.cook-fig {
+  background: white; border: 1px solid var(--border); border-radius: 10px;
+  overflow: hidden; display: flex; flex-direction: column;
+}
+.cook-fig img {
+  width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;
+  background: var(--navy);
+}
+.cook-cap { padding: 0.7rem 0.85rem 0.9rem; }
+.cook-step {
+  font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--gold); font-weight: 700; margin-bottom: 0.25rem;
+}
+.cook-zh { font-size: 1.15rem; font-weight: 700; color: var(--navy); line-height: 1.2; }
+.cook-py { display: none; font-size: 0.72rem; color: var(--red); margin-top: 0.15rem; }
+body.show-py .cook-py { display: block; }
+.cook-en { font-size: 0.76rem; color: var(--muted); margin-top: 0.3rem; }
