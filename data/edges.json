@@ -723,6 +723,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:么",
+      "to": "r:what",
+      "kind": "denotes"
+    },
+    {
       "from": "g:义",
       "to": "r:meaning",
       "kind": "denotes"
@@ -816,6 +821,11 @@
     {
       "from": "g:億",
       "to": "r:hundred-million",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:公",
+      "to": "r:public",
       "kind": "denotes"
     },
     {
@@ -914,6 +924,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:去",
+      "to": "r:go",
+      "kind": "denotes"
+    },
+    {
       "from": "g:又",
       "to": "r:again",
       "kind": "denotes"
@@ -941,6 +956,11 @@
     {
       "from": "g:台",
       "to": "r:platform",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:同",
+      "to": "r:same",
       "kind": "denotes"
     },
     {
@@ -1240,6 +1260,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:最",
+      "to": "r:most",
+      "kind": "denotes"
+    },
+    {
       "from": "g:月",
       "to": "r:moon",
       "kind": "denotes"
@@ -1284,6 +1309,11 @@
       "from": "g:正",
       "to": "g:政",
       "kind": "composes"
+    },
+    {
+      "from": "g:此",
+      "to": "r:this",
+      "kind": "denotes"
     },
     {
       "from": "g:歹",
@@ -1613,6 +1643,11 @@
     {
       "from": "g:肉",
       "to": "r:meat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:能",
+      "to": "r:skill",
       "kind": "denotes"
     },
     {
@@ -2821,6 +2856,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:丿",
+      "to": "g:么",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:么",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:义",
       "kind": "composes"
@@ -2936,6 +2981,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:八",
+      "to": "g:公",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:公",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:冫",
       "kind": "composes"
@@ -3042,6 +3097,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:土",
+      "to": "g:去",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:去",
+      "kind": "composes"
+    },
+    {
       "from": "g:又",
       "to": "g:友",
       "kind": "composes"
@@ -3074,6 +3139,21 @@
     {
       "from": "g:口",
       "to": "g:台",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:同",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:同",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:同",
       "kind": "composes"
     },
     {
@@ -3433,6 +3513,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:曰",
+      "to": "g:最",
+      "kind": "composes"
+    },
+    {
+      "from": "g:取",
+      "to": "g:最",
+      "kind": "composes"
+    },
+    {
       "from": "g:冂",
       "to": "g:月",
       "kind": "composes"
@@ -3485,6 +3575,16 @@
     {
       "from": "g:一",
       "to": "g:正",
+      "kind": "composes"
+    },
+    {
+      "from": "g:止",
+      "to": "g:此",
+      "kind": "composes"
+    },
+    {
+      "from": "g:匕",
+      "to": "g:此",
       "kind": "composes"
     },
     {
@@ -3865,6 +3965,21 @@
     {
       "from": "g:仌",
       "to": "g:肉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:厶",
+      "to": "g:能",
+      "kind": "composes"
+    },
+    {
+      "from": "g:⺼",
+      "to": "g:能",
+      "kind": "composes"
+    },
+    {
+      "from": "g:匕",
+      "to": "g:能",
       "kind": "composes"
     },
     {

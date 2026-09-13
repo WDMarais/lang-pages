@@ -103,6 +103,10 @@
     "text": "でる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "dou.mp3": {
+    "text": "ドウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "en.mp3": {
     "text": "エン",
     "voice": "ja-JP-NanamiNeural"
@@ -547,6 +551,10 @@
     "text": "くわえる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kyo.mp3": {
+    "text": "キョ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kyou.mp3": {
     "text": "キョウ",
     "voice": "ja-JP-NanamiNeural"
@@ -556,7 +564,7 @@
     "voice": "ja-JP-NanamiNeural"
   },
   "ma.mp3": {
-    "text": "ま",
+    "text": "マ",
     "voice": "ja-JP-NanamiNeural"
   },
   "man.mp3": {
@@ -717,6 +725,10 @@
   },
   "noma.mp3": {
     "text": "ノマ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nou.mp3": {
+    "text": "ノウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "nushi.mp3": {

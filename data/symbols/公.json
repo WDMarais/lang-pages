@@ -1,0 +1,37 @@
+{
+  "glyph": "公",
+  "cp": "U+516C",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "八",
+    "厶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "公",
+      "reading": "gōng",
+      "gloss": "public; male (animal); impartial",
+      "extra": "公园、公司、公平 · 八 + 厶 · 背厶为公（与「私」相对）"
+    },
+    "jp": {
+      "name": "公",
+      "reading": "コウ",
+      "gloss": "public; official",
+      "extra": "漢字「公」(コウ · おおやけ) · 公園(こうえん)、公開(こうかい)、公平(こうへい)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "public",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

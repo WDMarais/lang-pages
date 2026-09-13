@@ -1,0 +1,37 @@
+{
+  "glyph": "去",
+  "cp": "U+53BB",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "土",
+    "厶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "去",
+      "reading": "qù",
+      "gloss": "go; leave; remove",
+      "extra": "去学校、去年、过去 · 土 + 厶"
+    },
+    "jp": {
+      "name": "去",
+      "reading": "キョ",
+      "gloss": "leave; past",
+      "extra": "漢字「去」(キョ・コ · さ.る) · 去年(きょねん)、過去(かこ)、去る(さる)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "go",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

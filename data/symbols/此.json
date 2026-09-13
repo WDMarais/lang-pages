@@ -1,0 +1,37 @@
+{
+  "glyph": "此",
+  "cp": "U+6B64",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "止",
+    "匕"
+  ],
+  "readings": {
+    "cn": {
+      "name": "此",
+      "reading": "cǐ",
+      "gloss": "this; here; these",
+      "extra": "因此、此外、从此 · 止 + 匕 · 书面语；口语多用「这」"
+    },
+    "jp": {
+      "name": "此",
+      "reading": "シ",
+      "gloss": "this; here",
+      "extra": "漢字「此」(シ · これ・この・ここ) · 此処(ここ)、彼此(ひし) · 常用外、ふつうは仮名書き"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "this",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

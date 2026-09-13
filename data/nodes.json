@@ -1973,6 +1973,31 @@
       "label": "to do; to act; to be"
     },
     {
+      "id": "g:么",
+      "kind": "glyph",
+      "glyph": "么",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "me",
+      "jpAudioKey": "ma",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "麼"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:what",
+      "kind": "referent",
+      "label": "what; thus; how; why"
+    },
+    {
       "id": "g:义",
       "kind": "glyph",
       "glyph": "义",
@@ -2105,11 +2130,6 @@
       },
       "cnAudioKey": "shen2",
       "jpAudioKey": "juu"
-    },
-    {
-      "id": "r:what",
-      "kind": "referent",
-      "label": "what (in 什么)"
     },
     {
       "id": "g:今",
@@ -2294,6 +2314,24 @@
       "id": "r:hundred-million",
       "kind": "referent",
       "label": "hundred million"
+    },
+    {
+      "id": "g:公",
+      "kind": "glyph",
+      "glyph": "公",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "gong1",
+      "jpAudioKey": "kou"
+    },
+    {
+      "id": "r:public",
+      "kind": "referent",
+      "label": "public; male (animal); impartial"
     },
     {
       "id": "g:冖",
@@ -2610,6 +2648,24 @@
       ]
     },
     {
+      "id": "g:去",
+      "kind": "glyph",
+      "glyph": "去",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "qu4",
+      "jpAudioKey": "kyo"
+    },
+    {
+      "id": "r:go",
+      "kind": "referent",
+      "label": "go; leave; remove"
+    },
+    {
       "id": "g:又",
       "kind": "glyph",
       "glyph": "又",
@@ -2624,7 +2680,7 @@
     {
       "id": "r:again",
       "kind": "referent",
-      "label": "again"
+      "label": "again; also; anyway"
     },
     {
       "id": "g:友",
@@ -2718,6 +2774,24 @@
       "id": "r:platform",
       "kind": "referent",
       "label": "platform; stand; counter (for machines)"
+    },
+    {
+      "id": "g:同",
+      "kind": "glyph",
+      "glyph": "同",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "tong2",
+      "jpAudioKey": "dou"
+    },
+    {
+      "id": "r:same",
+      "kind": "referent",
+      "label": "same; alike; together"
     },
     {
       "id": "g:后",
@@ -2890,11 +2964,6 @@
         "image": ""
       },
       "cnAudioKey": "zhi3"
-    },
-    {
-      "id": "r:go",
-      "kind": "referent",
-      "label": "go"
     },
     {
       "id": "g:处",
@@ -3517,7 +3586,7 @@
     {
       "id": "r:heart",
       "kind": "referent",
-      "label": "heart"
+      "label": "heart; centre; mind, intention"
     },
     {
       "id": "g:戈",
@@ -3766,6 +3835,24 @@
       "label": "say"
     },
     {
+      "id": "g:最",
+      "kind": "glyph",
+      "glyph": "最",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zui4",
+      "jpAudioKey": "sai"
+    },
+    {
+      "id": "r:most",
+      "kind": "referent",
+      "label": "most; -est; best"
+    },
+    {
       "id": "g:月",
       "kind": "glyph",
       "glyph": "月",
@@ -3905,6 +3992,24 @@
       "id": "r:correct",
       "kind": "referent",
       "label": "correct; upright"
+    },
+    {
+      "id": "g:此",
+      "kind": "glyph",
+      "glyph": "此",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ci3",
+      "jpAudioKey": "shi"
+    },
+    {
+      "id": "r:this",
+      "kind": "referent",
+      "label": "this; here; these"
     },
     {
       "id": "g:歹",
@@ -4993,6 +5098,24 @@
       "id": "r:meat",
       "kind": "referent",
       "label": "meat"
+    },
+    {
+      "id": "g:能",
+      "kind": "glyph",
+      "glyph": "能",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "neng2",
+      "jpAudioKey": "nou"
+    },
+    {
+      "id": "r:skill",
+      "kind": "referent",
+      "label": "skill; ability; can, be able to; capable"
     },
     {
       "id": "g:臣",
@@ -7044,6 +7167,13 @@
       "frontier": true
     },
     {
+      "id": "g:⺼",
+      "kind": "glyph",
+      "glyph": "⺼",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:巴",
       "kind": "glyph",
       "glyph": "巴",
@@ -7145,13 +7275,6 @@
       "id": "g:冎",
       "kind": "glyph",
       "glyph": "冎",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:⺼",
-      "kind": "glyph",
-      "glyph": "⺼",
       "tier": null,
       "frontier": true
     },
@@ -9760,11 +9883,6 @@
       "jpAudioKey": "kore"
     },
     {
-      "id": "r:this",
-      "kind": "referent",
-      "label": "this"
-    },
-    {
       "id": "w:する@jp",
       "kind": "word",
       "tier": "word",
@@ -10028,11 +10146,6 @@
         "level": 3
       },
       "cnAudioKey": "yi1yang4"
-    },
-    {
-      "id": "r:same",
-      "kind": "referent",
-      "label": "same; alike; identical; just like"
     },
     {
       "id": "w:样子@cn",

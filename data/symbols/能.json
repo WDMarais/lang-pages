@@ -1,0 +1,39 @@
+{
+  "glyph": "能",
+  "cp": "U+80FD",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "厶",
+    "⺼",
+    "匕",
+    "匕"
+  ],
+  "readings": {
+    "cn": {
+      "name": "能",
+      "reading": "néng",
+      "gloss": "skill; ability; can, be able to; capable",
+      "extra": "能力、可能、能够 · 厶 + ⺼ + 匕匕 · 本义是熊（后来加灬另造「熊」）"
+    },
+    "jp": {
+      "name": "能",
+      "reading": "ノウ",
+      "gloss": "ability; talent; Noh (theatre)",
+      "extra": "漢字「能」(ノウ) · 能力(のうりょく)、可能(かのう)、能(のう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "skill",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

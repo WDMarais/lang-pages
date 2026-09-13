@@ -1,0 +1,44 @@
+{
+  "glyph": "么",
+  "cp": "U+4E48",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "厶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "么",
+      "reading": "me",
+      "gloss": "what; thus; how; why",
+      "extra": "什么、怎么、这么、那么 · 词尾，读轻声 · 繁体作麼"
+    },
+    "jp": {
+      "name": "麼",
+      "reading": "マ",
+      "gloss": "(Chinese question suffix, as in 什麼)",
+      "extra": "漢字「麼」(マ・モ) · 中国語「什麼」の麼 · 日本語ではほぼ使わない · 中文簡体作「么」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "麼"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "what",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

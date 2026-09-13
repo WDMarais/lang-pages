@@ -1112,8 +1112,8 @@
           "cn": {
             "name": "又",
             "reading": "yòu",
-            "gloss": "again",
-            "extra": "康熙部首 29"
+            "gloss": "again; also; anyway",
+            "extra": "又来了、又大又好 · 康熙部首 29"
           },
           "jp": {
             "name": "又",
@@ -1129,6 +1129,11 @@
             "name": "again",
             "level": 4,
             "kind": "meaning"
+          },
+          "pdc": {
+            "name": "again",
+            "kind": "meaning",
+            "level": 4
           },
           "kx": 29,
           "cnAudioKey": "you4"
@@ -2261,8 +2266,8 @@
           "cn": {
             "name": "心",
             "reading": "xīn",
-            "gloss": "heart",
-            "extra": "康熙部首 61"
+            "gloss": "heart; centre; mind, intention",
+            "extra": "中心、小心、心意 · 康熙部首 61"
           },
           "jp": {
             "name": "心",
@@ -2289,6 +2294,11 @@
             "name": "heart",
             "level": 4,
             "kind": "meaning"
+          },
+          "pdc": {
+            "name": "heart",
+            "kind": "meaning",
+            "level": 4
           },
           "kx": 61,
           "cnAudioKey": "xin1",

@@ -159,6 +159,10 @@
     "text": "辵",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ci3.mp3": {
+    "text": "此",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cong2.mp3": {
     "text": "从",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -344,7 +348,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "gong1.mp3": {
-    "text": "工",
+    "text": "公",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "gong1ren2.mp3": {
@@ -643,6 +647,10 @@
     "text": "毛",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "me.mp3": {
+    "text": "么",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "mei3.mp3": {
     "text": "美",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -725,6 +733,10 @@
   },
   "nei4.mp3": {
     "text": "内",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "neng2.mp3": {
+    "text": "能",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ni3.mp3": {
@@ -817,6 +829,10 @@
   },
   "qu3.mp3": {
     "text": "取",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "qu4.mp3": {
+    "text": "去",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "quan2.mp3": {
@@ -1037,6 +1053,10 @@
   },
   "tian2.mp3": {
     "text": "田",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tong2.mp3": {
+    "text": "同",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tou2.mp3": {
@@ -1477,6 +1497,10 @@
   },
   "zu2.mp3": {
     "text": "足",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zui4.mp3": {
+    "text": "最",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zuo3.mp3": {

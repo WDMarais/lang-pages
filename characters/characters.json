@@ -1357,7 +1357,8 @@
             "name": "両", "reading": "リョウ", "gloss": "both; two; (old coin)",
             "extra": "漢字「両」(リョウ) · 両方(りょうほう)、両親(りょうしん)、車両 · 中文簡体作「两」"
           },
-          "wk": null
+          "wk": null,
+          "pdc": { "name": "two", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "个",
@@ -1395,6 +1396,25 @@
           },
           "wk": null,
           "pdc": { "name": "to do", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "么",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "me",
+          "jpAudioKey": "ma",
+          "script": {"traditional": [{"glyph": "麼"}]},
+          "cn": {
+            "name": "么", "reading": "me", "gloss": "what; thus; how; why",
+            "extra": "什么、怎么、这么、那么 · 词尾，读轻声 · 繁体作麼"
+          },
+          "jp": {
+            "name": "麼", "reading": "マ", "gloss": "(Chinese question suffix, as in 什麼)",
+            "extra": "漢字「麼」(マ・モ) · 中国語「什麼」の麼 · 日本語ではほぼ使わない · 中文簡体作「么」"
+          },
+          "wk": null,
+          "pdc": { "name": "what", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "义",
@@ -1660,6 +1680,24 @@
           "wk": null
         },
         {
+          "glyph": "公",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "gong1",
+          "jpAudioKey": "kou",
+          "cn": {
+            "name": "公", "reading": "gōng", "gloss": "public; male (animal); impartial",
+            "extra": "公园、公司、公平 · 八 + 厶 · 背厶为公（与「私」相对）"
+          },
+          "jp": {
+            "name": "公", "reading": "コウ", "gloss": "public; official",
+            "extra": "漢字「公」(コウ · おおやけ) · 公園(こうえん)、公開(こうかい)、公平(こうへい)"
+          },
+          "wk": null,
+          "pdc": { "name": "public", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "冬",
           "tag": "char",
           "image": "",
@@ -1791,6 +1829,24 @@
           "kanji": { "name": "Half", "readings": ["ハン"], "on": true, "kun": ["なかば"], "level": 3 }
         },
         {
+          "glyph": "去",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "qu4",
+          "jpAudioKey": "kyo",
+          "cn": {
+            "name": "去", "reading": "qù", "gloss": "go; leave; remove",
+            "extra": "去学校、去年、过去 · 土 + 厶"
+          },
+          "jp": {
+            "name": "去", "reading": "キョ", "gloss": "leave; past",
+            "extra": "漢字「去」(キョ・コ · さ.る) · 去年(きょねん)、過去(かこ)、去る(さる)"
+          },
+          "wk": null,
+          "pdc": { "name": "go", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "友",
           "tag": "char",
           "image": "",
@@ -1878,6 +1934,24 @@
           },
           "wk": null,
           "kanji": { "name": "Machine", "readings": ["ダイ", "タイ"], "on": true, "level": 3 }
+        },
+        {
+          "glyph": "同",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "tong2",
+          "jpAudioKey": "dou",
+          "cn": {
+            "name": "同", "reading": "tóng", "gloss": "same; alike; together",
+            "extra": "同学、相同、一同 · 冂 + 一 + 口"
+          },
+          "jp": {
+            "name": "同", "reading": "ドウ", "gloss": "same",
+            "extra": "漢字「同」(ドウ · おな.じ) · 同じ(おなじ)、同時(どうじ)、同意(どうい)"
+          },
+          "wk": null,
+          "pdc": { "name": "same", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "后",
@@ -2308,15 +2382,16 @@
           "cnAudioKey": "xin1",
           "jpAudioKey": "kokoro",
           "cn": {
-            "name": "心", "reading": "xīn", "gloss": "heart",
-            "extra": "康熙部首 61"
+            "name": "心", "reading": "xīn", "gloss": "heart; centre; mind, intention",
+            "extra": "中心、小心、心意 · 康熙部首 61"
           },
           "jp": {
             "name": "心", "reading": "こころ", "gloss": "heart"
           },
           "wk": { "name": "Heart", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Heart", "readings": ["シン"], "on": true, "kun": ["こころ"], "level": 3 },
-          "pd": { "name": "heart", "level": 4, "kind": "meaning" }
+          "pd": { "name": "heart", "level": 4, "kind": "meaning" },
+          "pdc": { "name": "heart", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "戶",
@@ -2429,6 +2504,24 @@
           "pdc": { "name": "bright", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "最",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zui4",
+          "jpAudioKey": "sai",
+          "cn": {
+            "name": "最", "reading": "zuì", "gloss": "most; -est; best",
+            "extra": "最好、最近、最后 · 曰 + 取 · 放在形容词前：最大、最好吃"
+          },
+          "jp": {
+            "name": "最", "reading": "サイ", "gloss": "most; utmost",
+            "extra": "漢字「最」(サイ · もっと.も) · 最高(さいこう)、最近(さいきん)、最初(さいしょ)"
+          },
+          "wk": null,
+          "pdc": { "name": "most", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "月",
           "tag": "char",
           "image": "",
@@ -2533,6 +2626,24 @@
           "wk": null,
           "kanji": { "name": "Correct", "readings": ["セイ"], "on": true, "level": 2 },
           "pdc": { "name": "straight", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "此",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ci3",
+          "jpAudioKey": "shi",
+          "cn": {
+            "name": "此", "reading": "cǐ", "gloss": "this; here; these",
+            "extra": "因此、此外、从此 · 止 + 匕 · 书面语；口语多用「这」"
+          },
+          "jp": {
+            "name": "此", "reading": "シ", "gloss": "this; here",
+            "extra": "漢字「此」(シ · これ・この・ここ) · 此処(ここ)、彼此(ひし) · 常用外、ふつうは仮名書き"
+          },
+          "wk": null,
+          "pdc": { "name": "this", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "母",
@@ -2944,6 +3055,24 @@
           "wk": null,
           "pd": { "name": "meat", "level": 1, "kind": "meaning" },
           "pdc": { "name": "meat", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "能",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "neng2",
+          "jpAudioKey": "nou",
+          "cn": {
+            "name": "能", "reading": "néng", "gloss": "skill; ability; can, be able to; capable",
+            "extra": "能力、可能、能够 · 厶 + ⺼ + 匕匕 · 本义是熊（后来加灬另造「熊」）"
+          },
+          "jp": {
+            "name": "能", "reading": "ノウ", "gloss": "ability; talent; Noh (theatre)",
+            "extra": "漢字「能」(ノウ) · 能力(のうりょく)、可能(かのう)、能(のう)"
+          },
+          "wk": null,
+          "pdc": { "name": "skill", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "西",

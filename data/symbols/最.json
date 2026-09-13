@@ -1,0 +1,37 @@
+{
+  "glyph": "最",
+  "cp": "U+6700",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "曰",
+    "取"
+  ],
+  "readings": {
+    "cn": {
+      "name": "最",
+      "reading": "zuì",
+      "gloss": "most; -est; best",
+      "extra": "最好、最近、最后 · 曰 + 取 · 放在形容词前：最大、最好吃"
+    },
+    "jp": {
+      "name": "最",
+      "reading": "サイ",
+      "gloss": "most; utmost",
+      "extra": "漢字「最」(サイ · もっと.も) · 最高(さいこう)、最近(さいきん)、最初(さいしょ)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "most",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

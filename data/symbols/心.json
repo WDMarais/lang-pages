@@ -11,8 +11,8 @@
     "cn": {
       "name": "心",
       "reading": "xīn",
-      "gloss": "heart",
-      "extra": "康熙部首 61"
+      "gloss": "heart; centre; mind, intention",
+      "extra": "中心、小心、心意 · 康熙部首 61"
     },
     "jp": {
       "name": "心",
@@ -47,6 +47,14 @@
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",
+      "name": "heart",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
       "name": "heart",
       "kind": "meaning",
       "level": 4

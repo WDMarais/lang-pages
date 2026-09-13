@@ -1,0 +1,38 @@
+{
+  "glyph": "同",
+  "cp": "U+540C",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "冂",
+    "一",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "同",
+      "reading": "tóng",
+      "gloss": "same; alike; together",
+      "extra": "同学、相同、一同 · 冂 + 一 + 口"
+    },
+    "jp": {
+      "name": "同",
+      "reading": "ドウ",
+      "gloss": "same",
+      "extra": "漢字「同」(ドウ · おな.じ) · 同じ(おなじ)、同時(どうじ)、同意(どうい)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "same",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

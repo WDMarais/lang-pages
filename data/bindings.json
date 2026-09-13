@@ -3601,7 +3601,15 @@
         "liǎng"
       ],
       "gloss": "two (of a pair); a couple; tael",
-      "extra": "两个、两百、斤两 · 量词前用「两」不用「二」· 繁体作兩"
+      "extra": "两个、两百、斤两 · 量词前用「两」不用「二」· 繁体作兩",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "two",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:两@jp",
@@ -3665,6 +3673,36 @@
       ],
       "gloss": "do; for the sake of",
       "extra": "漢字「為」(ため · イ) · 為す、行為(こうい)、為替(かわせ) · 中文簡体作「为」"
+    },
+    {
+      "id": "b:么@cn",
+      "glyph_id": "g:么",
+      "lang": "cn",
+      "name": "么",
+      "readings": [
+        "me"
+      ],
+      "gloss": "what; thus; how; why",
+      "extra": "什么、怎么、这么、那么 · 词尾，读轻声 · 繁体作麼",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "what",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:么@jp",
+      "glyph_id": "g:么",
+      "lang": "jp",
+      "name": "麼",
+      "readings": [
+        "マ"
+      ],
+      "gloss": "(Chinese question suffix, as in 什麼)",
+      "extra": "漢字「麼」(マ・モ) · 中国語「什麼」の麼 · 日本語ではほぼ使わない · 中文簡体作「么」"
     },
     {
       "id": "b:义@cn",
@@ -4119,6 +4157,36 @@
       ],
       "gloss": "hundred million",
       "extra": "漢字「億」(オク) · 一億、億万長者"
+    },
+    {
+      "id": "b:公@cn",
+      "glyph_id": "g:公",
+      "lang": "cn",
+      "name": "公",
+      "readings": [
+        "gōng"
+      ],
+      "gloss": "public; male (animal); impartial",
+      "extra": "公园、公司、公平 · 八 + 厶 · 背厶为公（与「私」相对）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "public",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:公@jp",
+      "glyph_id": "g:公",
+      "lang": "jp",
+      "name": "公",
+      "readings": [
+        "コウ"
+      ],
+      "gloss": "public; official",
+      "extra": "漢字「公」(コウ · おおやけ) · 公園(こうえん)、公開(こうかい)、公平(こうへい)"
     },
     {
       "id": "b:冖@cn",
@@ -4655,6 +4723,36 @@
       "extra": ""
     },
     {
+      "id": "b:去@cn",
+      "glyph_id": "g:去",
+      "lang": "cn",
+      "name": "去",
+      "readings": [
+        "qù"
+      ],
+      "gloss": "go; leave; remove",
+      "extra": "去学校、去年、过去 · 土 + 厶",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "go",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:去@jp",
+      "glyph_id": "g:去",
+      "lang": "jp",
+      "name": "去",
+      "readings": [
+        "キョ"
+      ],
+      "gloss": "leave; past",
+      "extra": "漢字「去」(キョ・コ · さ.る) · 去年(きょねん)、過去(かこ)、去る(さる)"
+    },
+    {
       "id": "b:又@cn",
       "glyph_id": "g:又",
       "lang": "cn",
@@ -4662,13 +4760,18 @@
       "readings": [
         "yòu"
       ],
-      "gloss": "again",
-      "extra": "康熙部首 29",
+      "gloss": "again; also; anyway",
+      "extra": "又来了、又大又好 · 康熙部首 29",
       "program": {
         "source": "pandanese",
         "name": "again",
         "level": 4,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "again",
+          "kind": "meaning",
+          "level": 4
+        }
       }
     },
     {
@@ -4838,6 +4941,36 @@
           "level": 3
         }
       }
+    },
+    {
+      "id": "b:同@cn",
+      "glyph_id": "g:同",
+      "lang": "cn",
+      "name": "同",
+      "readings": [
+        "tóng"
+      ],
+      "gloss": "same; alike; together",
+      "extra": "同学、相同、一同 · 冂 + 一 + 口",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "same",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:同@jp",
+      "glyph_id": "g:同",
+      "lang": "jp",
+      "name": "同",
+      "readings": [
+        "ドウ"
+      ],
+      "gloss": "same",
+      "extra": "漢字「同」(ドウ · おな.じ) · 同じ(おなじ)、同時(どうじ)、同意(どうい)"
     },
     {
       "id": "b:后@cn",
@@ -5952,13 +6085,18 @@
       "readings": [
         "xīn"
       ],
-      "gloss": "heart",
-      "extra": "康熙部首 61",
+      "gloss": "heart; centre; mind, intention",
+      "extra": "中心、小心、心意 · 康熙部首 61",
       "program": {
         "source": "pandanese",
         "name": "heart",
         "level": 4,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "heart",
+          "kind": "meaning",
+          "level": 4
+        }
       }
     },
     {
@@ -6407,6 +6545,36 @@
       "extra": ""
     },
     {
+      "id": "b:最@cn",
+      "glyph_id": "g:最",
+      "lang": "cn",
+      "name": "最",
+      "readings": [
+        "zuì"
+      ],
+      "gloss": "most; -est; best",
+      "extra": "最好、最近、最后 · 曰 + 取 · 放在形容词前：最大、最好吃",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "most",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:最@jp",
+      "glyph_id": "g:最",
+      "lang": "jp",
+      "name": "最",
+      "readings": [
+        "サイ"
+      ],
+      "gloss": "most; utmost",
+      "extra": "漢字「最」(サイ · もっと.も) · 最高(さいこう)、最近(さいきん)、最初(さいしょ)"
+    },
+    {
       "id": "b:月@cn",
       "glyph_id": "g:月",
       "lang": "cn",
@@ -6643,6 +6811,36 @@
           "level": 2
         }
       }
+    },
+    {
+      "id": "b:此@cn",
+      "glyph_id": "g:此",
+      "lang": "cn",
+      "name": "此",
+      "readings": [
+        "cǐ"
+      ],
+      "gloss": "this; here; these",
+      "extra": "因此、此外、从此 · 止 + 匕 · 书面语；口语多用「这」",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "this",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:此@jp",
+      "glyph_id": "g:此",
+      "lang": "jp",
+      "name": "此",
+      "readings": [
+        "シ"
+      ],
+      "gloss": "this; here",
+      "extra": "漢字「此」(シ · これ・この・ここ) · 此処(ここ)、彼此(ひし) · 常用外、ふつうは仮名書き"
     },
     {
       "id": "b:歹@cn",
@@ -8255,6 +8453,36 @@
       ],
       "gloss": "meat; flesh",
       "extra": "漢字「肉」(ニク) · 偏旁「にくづき 月」· 筋肉、肉屋"
+    },
+    {
+      "id": "b:能@cn",
+      "glyph_id": "g:能",
+      "lang": "cn",
+      "name": "能",
+      "readings": [
+        "néng"
+      ],
+      "gloss": "skill; ability; can, be able to; capable",
+      "extra": "能力、可能、能够 · 厶 + ⺼ + 匕匕 · 本义是熊（后来加灬另造「熊」）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "skill",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:能@jp",
+      "glyph_id": "g:能",
+      "lang": "jp",
+      "name": "能",
+      "readings": [
+        "ノウ"
+      ],
+      "gloss": "ability; talent; Noh (theatre)",
+      "extra": "漢字「能」(ノウ) · 能力(のうりょく)、可能(かのう)、能(のう)"
     },
     {
       "id": "b:臣@cn",

@@ -12,8 +12,8 @@
     "cn": {
       "name": "又",
       "reading": "yòu",
-      "gloss": "again",
-      "extra": "康熙部首 29"
+      "gloss": "again; also; anyway",
+      "extra": "又来了、又大又好 · 康熙部首 29"
     },
     "jp": {
       "name": "又",
@@ -34,6 +34,14 @@
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",
+      "name": "again",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
       "name": "again",
       "kind": "meaning",
       "level": 4
