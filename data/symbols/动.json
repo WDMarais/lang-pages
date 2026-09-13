@@ -1,0 +1,44 @@
+{
+  "glyph": "动",
+  "cp": "U+52A8",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "云",
+    "力"
+  ],
+  "readings": {
+    "cn": {
+      "name": "动",
+      "reading": "dòng",
+      "gloss": "move; motion, movement; act, take action; touch (emotionally)",
+      "extra": "运动、动物、感动、动手 · 云 + 力（力为形旁）· 繁体作動"
+    },
+    "jp": {
+      "name": "動",
+      "reading": "ドウ",
+      "gloss": "move; motion",
+      "extra": "漢字「動」(ドウ · うご.く) · 動く(うごく)、動物(どうぶつ)、運動(うんどう) · 中文簡体作「动」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "動"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "move",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

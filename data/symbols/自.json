@@ -15,13 +15,14 @@
     "cn": {
       "name": "自",
       "reading": "zì",
-      "gloss": "self",
-      "extra": "康熙部首 132"
+      "gloss": "self; oneself; from, since",
+      "extra": "自己、自然、自由、来自 · 康熙部首 132 · 本义是鼻（象形）"
     },
     "jp": {
       "name": "自",
-      "reading": "",
-      "gloss": "self"
+      "reading": "ジ",
+      "gloss": "self; oneself",
+      "extra": "漢字「自」(ジ・シ · みずか.ら) · 自分(じぶん)、自然(しぜん)、自由(じゆう)"
     }
   },
   "programs": [
@@ -29,6 +30,14 @@
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",
+      "name": "self",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
       "name": "self",
       "kind": "meaning",
       "level": 4

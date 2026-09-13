@@ -774,6 +774,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:些",
+      "to": "r:some",
+      "kind": "denotes"
+    },
+    {
       "from": "g:什",
       "to": "r:what",
       "kind": "denotes"
@@ -791,6 +796,11 @@
     {
       "from": "g:他",
       "to": "r:he",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:会",
+      "to": "r:can",
       "kind": "denotes"
     },
     {
@@ -879,6 +889,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:动",
+      "to": "r:move",
+      "kind": "denotes"
+    },
+    {
       "from": "g:匕",
       "to": "r:spoon",
       "kind": "denotes"
@@ -936,6 +951,11 @@
     {
       "from": "g:友",
       "to": "r:friend",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:发",
+      "to": "r:send",
       "kind": "denotes"
     },
     {
@@ -1046,6 +1066,11 @@
     {
       "from": "g:如",
       "to": "r:as",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:它",
+      "to": "r:it",
       "kind": "denotes"
     },
     {
@@ -1181,6 +1206,11 @@
     {
       "from": "g:心",
       "to": "r:heart",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:想",
+      "to": "r:think",
       "kind": "denotes"
     },
     {
@@ -1368,6 +1398,11 @@
     {
       "from": "g:灬",
       "to": "r:fire-radical",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:然",
+      "to": "r:thus",
       "kind": "denotes"
     },
     {
@@ -2896,6 +2931,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:此",
+      "to": "g:些",
+      "kind": "composes"
+    },
+    {
+      "from": "g:二",
+      "to": "g:些",
+      "kind": "composes"
+    },
+    {
       "from": "g:亻",
       "to": "g:什",
       "kind": "composes"
@@ -2923,6 +2968,16 @@
     {
       "from": "g:亻",
       "to": "g:他",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠆢",
+      "to": "g:会",
+      "kind": "composes"
+    },
+    {
+      "from": "g:云",
+      "to": "g:会",
       "kind": "composes"
     },
     {
@@ -3042,6 +3097,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:云",
+      "to": "g:动",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "g:动",
+      "kind": "composes"
+    },
+    {
       "from": "g:乚",
       "to": "g:匕",
       "kind": "composes"
@@ -3109,6 +3174,21 @@
     {
       "from": "g:又",
       "to": "g:友",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂇",
+      "to": "g:发",
+      "kind": "composes"
+    },
+    {
+      "from": "g:又",
+      "to": "g:发",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:发",
       "kind": "composes"
     },
     {
@@ -3284,6 +3364,16 @@
     },
     {
       "from": "g:宀",
+      "to": "g:它",
+      "kind": "composes"
+    },
+    {
+      "from": "g:匕",
+      "to": "g:它",
+      "kind": "composes"
+    },
+    {
+      "from": "g:宀",
       "to": "g:实",
       "kind": "composes"
     },
@@ -3410,6 +3500,11 @@
     {
       "from": "g:丨",
       "to": "g:彳",
+      "kind": "composes"
+    },
+    {
+      "from": "g:心",
+      "to": "g:想",
       "kind": "composes"
     },
     {
@@ -3630,6 +3725,21 @@
     {
       "from": "g:亻",
       "to": "g:气",
+      "kind": "composes"
+    },
+    {
+      "from": "g:⺼",
+      "to": "g:然",
+      "kind": "composes"
+    },
+    {
+      "from": "g:犬",
+      "to": "g:然",
+      "kind": "composes"
+    },
+    {
+      "from": "g:灬",
+      "to": "g:然",
       "kind": "composes"
     },
     {
@@ -7833,6 +7943,21 @@
       "kind": "denotes"
     },
     {
+      "from": "g:明",
+      "to": "w:明年@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:年",
+      "to": "w:明年@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:明年@cn",
+      "to": "r:next-year",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
@@ -7958,6 +8083,24 @@
     {
       "from": "g:他",
       "to": "g:她",
+      "kind": "association",
+      "type": "confusable",
+      "symmetric": true,
+      "cluster": "cf:9",
+      "source": "authored"
+    },
+    {
+      "from": "g:他",
+      "to": "g:它",
+      "kind": "association",
+      "type": "confusable",
+      "symmetric": true,
+      "cluster": "cf:9",
+      "source": "authored"
+    },
+    {
+      "from": "g:她",
+      "to": "g:它",
       "kind": "association",
       "type": "confusable",
       "symmetric": true,
@@ -8172,10 +8315,11 @@
       "type": "confusable",
       "members": [
         "g:他",
-        "g:她"
+        "g:她",
+        "g:它"
       ],
       "basis": "phonetic",
-      "note": "Homophones — both read tā, both built on the 也 phonetic. The radical carries the sense: 亻(person) → 他 'he', 女(woman) → 她 'she'. The set's third member 它 (roof 宀 → 'it', for things and animals) is the same tā again; pick the character by its referent, not by the sound.",
+      "note": "Homophones — all three read tā. 他 and 她 share the 也 phonetic and the radical carries the sense: 亻(person) → 他 'he', 女(woman) → 她 'she'. 它 (roof 宀 → 'it', for things and animals) is the same tā on a different frame; pick the character by its referent, not by the sound.",
       "examples": [
         {
           "for": "g:他",
@@ -8190,6 +8334,13 @@
           "gloss": "tāmen — they (all female; 她 = she, woman radical)",
           "lang": "cn",
           "audioKey": "cn-1599165246"
+        },
+        {
+          "for": "g:它",
+          "text": "它们",
+          "gloss": "tāmen — they (things / animals; 它 = it, roof radical)",
+          "lang": "cn",
+          "audioKey": "cn-ba1dbc4150"
         }
       ]
     }

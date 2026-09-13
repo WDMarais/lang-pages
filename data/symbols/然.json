@@ -1,0 +1,38 @@
+{
+  "glyph": "然",
+  "cp": "U+7136",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "⺼",
+    "犬",
+    "灬"
+  ],
+  "readings": {
+    "cn": {
+      "name": "然",
+      "reading": "rán",
+      "gloss": "thus; so, like this; right, correct; however (然而)",
+      "extra": "然后、虽然、当然、然而 · 肰(⺼ + 犬) + 灬 · 本义是燃（后来加火另造「燃」）"
+    },
+    "jp": {
+      "name": "然",
+      "reading": "ゼン",
+      "gloss": "so; like that; natural (in 自然)",
+      "extra": "漢字「然」(ゼン・ネン) · 自然(しぜん)、天然(てんねん)、全然(ぜんぜん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "however",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

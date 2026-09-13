@@ -840,6 +840,20 @@
         }
       ]
     },
+    "dong4": {
+      "key": "dong4",
+      "pinyin": "dòng",
+      "base": "dong",
+      "tone": 4,
+      "zhuyin": "ㄉㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "动",
+          "gloss": "move; motion, movement; act, take action; touch (emotionally)",
+          "rank": 0
+        }
+      ]
+    },
     "dou1": {
       "key": "dou1",
       "pinyin": "dōu",
@@ -930,6 +944,20 @@
         {
           "glyph": "二",
           "gloss": "two",
+          "rank": 0
+        }
+      ]
+    },
+    "fa1": {
+      "key": "fa1",
+      "pinyin": "fā",
+      "base": "fa",
+      "tone": 1,
+      "zhuyin": "ㄈㄚ",
+      "glyphs": [
+        {
+          "glyph": "发",
+          "gloss": "send; send out, emit, issue; develop; hair (fà)",
           "rank": 0
         }
       ]
@@ -1480,6 +1508,20 @@
         {
           "glyph": "回",
           "gloss": "to return; time(s)",
+          "rank": 0
+        }
+      ]
+    },
+    "hui4": {
+      "key": "hui4",
+      "pinyin": "huì",
+      "base": "hui",
+      "tone": 4,
+      "zhuyin": "ㄏㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "会",
+          "gloss": "can; know how to (a learned skill); meet; meeting, association; will, be likely to",
           "rank": 0
         }
       ]
@@ -2628,6 +2670,20 @@
         }
       ]
     },
+    "ran2": {
+      "key": "ran2",
+      "pinyin": "rán",
+      "base": "ran",
+      "tone": 2,
+      "zhuyin": "ㄖㄢ",
+      "glyphs": [
+        {
+          "glyph": "然",
+          "gloss": "thus; so, like this; right, correct; however (然而)",
+          "rank": 0
+        }
+      ]
+    },
     "ren2": {
       "key": "ren2",
       "pinyin": "rén",
@@ -3106,6 +3162,11 @@
           "glyph": "她",
           "gloss": "she; her",
           "rank": 0
+        },
+        {
+          "glyph": "它",
+          "gloss": "it (things, animals)",
+          "rank": 0
         }
       ]
     },
@@ -3573,7 +3634,7 @@
       "glyphs": [
         {
           "glyph": "想",
-          "gloss": "to think; to want",
+          "gloss": "think; want, would like to; suppose; miss (someone)",
           "rank": 0
         }
       ]
@@ -3607,6 +3668,20 @@
         {
           "glyph": "小",
           "gloss": "small; little",
+          "rank": 0
+        }
+      ]
+    },
+    "xie1": {
+      "key": "xie1",
+      "pinyin": "xiē",
+      "base": "xie",
+      "tone": 1,
+      "zhuyin": "ㄒㄧㄝ",
+      "glyphs": [
+        {
+          "glyph": "些",
+          "gloss": "some; a few, a little; (after an adjective) a bit more",
           "rank": 0
         }
       ]
@@ -4468,7 +4543,7 @@
         },
         {
           "glyph": "自",
-          "gloss": "self",
+          "gloss": "self; oneself; from, since",
           "rank": 0
         }
       ]

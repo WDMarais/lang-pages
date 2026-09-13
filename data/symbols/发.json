@@ -1,0 +1,50 @@
+{
+  "glyph": "发",
+  "cp": "U+53D1",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "𠂇",
+    "又",
+    "丶"
+  ],
+  "readings": {
+    "cn": {
+      "name": "发",
+      "reading": "fā",
+      "gloss": "send; send out, emit, issue; develop; hair (fà)",
+      "extra": "发送、出发、发现、头发(fà) · 形近「友」+ 丶（首笔为撇折）· 繁体作發（送出）/ 髮（头发）"
+    },
+    "jp": {
+      "name": "発",
+      "reading": "ハツ",
+      "gloss": "discharge; departure; emit",
+      "extra": "漢字「発」(ハツ・ホツ) · 出発(しゅっぱつ)、発見(はっけん)、発音(はつおん) · 中文簡体作「发」（「髪」も「发」）"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "發",
+        "when": "send; emit; develop"
+      },
+      {
+        "glyph": "髮",
+        "when": "hair (fà)"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "send",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

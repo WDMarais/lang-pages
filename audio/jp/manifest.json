@@ -223,6 +223,10 @@
     "text": "はたす",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hatsu.mp3": {
+    "text": "ハツ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hayashi.mp3": {
     "text": "はやし",
     "voice": "ja-JP-NanamiNeural"
@@ -833,6 +837,10 @@
   },
   "ryou.mp3": {
     "text": "リョウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sa.mp3": {
+    "text": "サ",
     "voice": "ja-JP-NanamiNeural"
   },
   "sageru.mp3": {

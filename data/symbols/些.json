@@ -1,0 +1,37 @@
+{
+  "glyph": "些",
+  "cp": "U+4E9B",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "此",
+    "二"
+  ],
+  "readings": {
+    "cn": {
+      "name": "些",
+      "reading": "xiē",
+      "gloss": "some; a few, a little; (after an adjective) a bit more",
+      "extra": "一些、这些、那些、好些 · 此 + 二（此为声旁）"
+    },
+    "jp": {
+      "name": "些",
+      "reading": "サ",
+      "gloss": "a little; trifling",
+      "extra": "漢字「些」(サ · いささ.か) · 些細(ささい)、些か(いささか)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "some",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

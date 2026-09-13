@@ -3640,6 +3640,22 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "明年",
+      "audience": "cn",
+      "parts": [
+        "明",
+        "年"
+      ],
+      "denotes": "next-year",
+      "reading": "míngnián",
+      "gloss": "next year",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

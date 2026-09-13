@@ -3866,6 +3866,36 @@
       "extra": "漢字「於」(ウ · お-いて) · 中文簡体多作「于」"
     },
     {
+      "id": "b:些@cn",
+      "glyph_id": "g:些",
+      "lang": "cn",
+      "name": "些",
+      "readings": [
+        "xiē"
+      ],
+      "gloss": "some; a few, a little; (after an adjective) a bit more",
+      "extra": "一些、这些、那些、好些 · 此 + 二（此为声旁）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "some",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:些@jp",
+      "glyph_id": "g:些",
+      "lang": "jp",
+      "name": "些",
+      "readings": [
+        "サ"
+      ],
+      "gloss": "a little; trifling",
+      "extra": "漢字「些」(サ · いささ.か) · 些細(ささい)、些か(いささか)"
+    },
+    {
       "id": "b:什@cn",
       "glyph_id": "g:什",
       "lang": "cn",
@@ -3985,6 +4015,36 @@
       ],
       "gloss": "other",
       "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
+    },
+    {
+      "id": "b:会@cn",
+      "glyph_id": "g:会",
+      "lang": "cn",
+      "name": "会",
+      "readings": [
+        "huì"
+      ],
+      "gloss": "can; know how to (a learned skill); meet; meeting, association; will, be likely to",
+      "extra": "会说、开会、会议、一会儿 · 𠆢 + 云 · 又读 kuài（会计）· 繁体作會",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "can",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:会@jp",
+      "glyph_id": "g:会",
+      "lang": "jp",
+      "name": "会",
+      "readings": [
+        "カイ"
+      ],
+      "gloss": "meet; meeting; association",
+      "extra": "漢字「会」(カイ・エ · あ.う) · 会う(あう)、会社(かいしゃ)、会議(かいぎ) · 旧字: 會"
     },
     {
       "id": "b:但@cn",
@@ -4469,6 +4529,36 @@
       "extra": "漢字「加」(くわ-える · カ) · 加える、追加(ついか)、加藤(かとう)"
     },
     {
+      "id": "b:动@cn",
+      "glyph_id": "g:动",
+      "lang": "cn",
+      "name": "动",
+      "readings": [
+        "dòng"
+      ],
+      "gloss": "move; motion, movement; act, take action; touch (emotionally)",
+      "extra": "运动、动物、感动、动手 · 云 + 力（力为形旁）· 繁体作動",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "move",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:动@jp",
+      "glyph_id": "g:动",
+      "lang": "jp",
+      "name": "動",
+      "readings": [
+        "ドウ"
+      ],
+      "gloss": "move; motion",
+      "extra": "漢字「動」(ドウ · うご.く) · 動く(うごく)、動物(どうぶつ)、運動(うんどう) · 中文簡体作「动」"
+    },
+    {
       "id": "b:匕@cn",
       "glyph_id": "g:匕",
       "lang": "cn",
@@ -4824,6 +4914,36 @@
           "level": 3
         }
       }
+    },
+    {
+      "id": "b:发@cn",
+      "glyph_id": "g:发",
+      "lang": "cn",
+      "name": "发",
+      "readings": [
+        "fā"
+      ],
+      "gloss": "send; send out, emit, issue; develop; hair (fà)",
+      "extra": "发送、出发、发现、头发(fà) · 形近「友」+ 丶（首笔为撇折）· 繁体作發（送出）/ 髮（头发）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "send",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:发@jp",
+      "glyph_id": "g:发",
+      "lang": "jp",
+      "name": "発",
+      "readings": [
+        "ハツ"
+      ],
+      "gloss": "discharge; departure; emit",
+      "extra": "漢字「発」(ハツ・ホツ) · 出発(しゅっぱつ)、発見(はっけん)、発音(はつおん) · 中文簡体作「发」（「髪」も「发」）"
     },
     {
       "id": "b:古@cn",
@@ -5449,6 +5569,36 @@
       ],
       "gloss": "like; as if",
       "extra": "漢字「如」(ジョ・ニョ · ごと-し) · 如実(にょじつ)、欠如(けつじょ)"
+    },
+    {
+      "id": "b:它@cn",
+      "glyph_id": "g:它",
+      "lang": "cn",
+      "name": "它",
+      "readings": [
+        "tā"
+      ],
+      "gloss": "it (things, animals)",
+      "extra": "它们、它的 · 宀 + 匕 · 与他、她同音",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "it",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:它@jp",
+      "glyph_id": "g:它",
+      "lang": "jp",
+      "name": "它",
+      "readings": [
+        "タ"
+      ],
+      "gloss": "other (rare; Chinese 'it')",
+      "extra": "漢字「它」(タ · ほか) · 日本語ではほぼ使わない · 中国語「它」= it"
     },
     {
       "id": "b:实@cn",
@@ -6126,6 +6276,36 @@
           "level": 3
         }
       }
+    },
+    {
+      "id": "b:想@cn",
+      "glyph_id": "g:想",
+      "lang": "cn",
+      "name": "想",
+      "readings": [
+        "xiǎng"
+      ],
+      "gloss": "think; want, would like to; suppose; miss (someone)",
+      "extra": "想要、想法、我想你、理想 · 相 + 心（相为声旁）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "think",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:想@jp",
+      "glyph_id": "g:想",
+      "lang": "jp",
+      "name": "想",
+      "readings": [
+        "ソウ"
+      ],
+      "gloss": "idea; thought; imagine",
+      "extra": "漢字「想」(ソウ・ソ) · 想像(そうぞう)、感想(かんそう)、予想(よそう)"
     },
     {
       "id": "b:戈@cn",
@@ -7125,6 +7305,36 @@
       "readings": [],
       "gloss": "fire radical (bottom form of 火)",
       "extra": "れっか · 火 の底形 · 点・熱・然・照 の下"
+    },
+    {
+      "id": "b:然@cn",
+      "glyph_id": "g:然",
+      "lang": "cn",
+      "name": "然",
+      "readings": [
+        "rán"
+      ],
+      "gloss": "thus; so, like this; right, correct; however (然而)",
+      "extra": "然后、虽然、当然、然而 · 肰(⺼ + 犬) + 灬 · 本义是燃（后来加火另造「燃」）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "however",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:然@jp",
+      "glyph_id": "g:然",
+      "lang": "jp",
+      "name": "然",
+      "readings": [
+        "ゼン"
+      ],
+      "gloss": "so; like that; natural (in 自然)",
+      "extra": "漢字「然」(ゼン・ネン) · 自然(しぜん)、天然(てんねん)、全然(ぜんぜん)"
     },
     {
       "id": "b:爪@cn",
@@ -8512,13 +8722,18 @@
       "readings": [
         "zì"
       ],
-      "gloss": "self",
-      "extra": "康熙部首 132",
+      "gloss": "self; oneself; from, since",
+      "extra": "自己、自然、自由、来自 · 康熙部首 132 · 本义是鼻（象形）",
       "program": {
         "source": "pandanese",
         "name": "self",
         "level": 4,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "self",
+          "kind": "meaning",
+          "level": 4
+        }
       }
     },
     {
@@ -8526,9 +8741,11 @@
       "glyph_id": "g:自",
       "lang": "jp",
       "name": "自",
-      "readings": [],
-      "gloss": "self",
-      "extra": ""
+      "readings": [
+        "ジ"
+      ],
+      "gloss": "self; oneself",
+      "extra": "漢字「自」(ジ・シ · みずか.ら) · 自分(じぶん)、自然(しぜん)、自由(じゆう)"
     },
     {
       "id": "b:至@cn",

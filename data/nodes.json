@@ -2119,6 +2119,24 @@
       "frontier": true
     },
     {
+      "id": "g:些",
+      "kind": "glyph",
+      "glyph": "些",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "xie1",
+      "jpAudioKey": "sa"
+    },
+    {
+      "id": "r:some",
+      "kind": "referent",
+      "label": "some; a few, a little; (after an adjective) a bit more"
+    },
+    {
       "id": "g:什",
       "kind": "glyph",
       "glyph": "什",
@@ -2191,6 +2209,31 @@
       "id": "r:he",
       "kind": "referent",
       "label": "he; him; other"
+    },
+    {
+      "id": "g:会",
+      "kind": "glyph",
+      "glyph": "会",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hui4",
+      "jpAudioKey": "kai",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "會"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:can",
+      "kind": "referent",
+      "label": "can; know how to (a learned skill); meet; meeting, association; will, be likely to"
     },
     {
       "id": "g:但",
@@ -2499,6 +2542,31 @@
       "label": "to add; plus"
     },
     {
+      "id": "g:动",
+      "kind": "glyph",
+      "glyph": "动",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "dong4",
+      "jpAudioKey": "dou",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:move",
+      "kind": "referent",
+      "label": "move; motion, movement; act, take action; touch (emotionally)"
+    },
+    {
       "id": "g:匕",
       "kind": "glyph",
       "glyph": "匕",
@@ -2701,6 +2769,36 @@
       "label": "friend"
     },
     {
+      "id": "g:发",
+      "kind": "glyph",
+      "glyph": "发",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "fa1",
+      "jpAudioKey": "hatsu",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "發",
+            "when": "send; emit; develop"
+          },
+          {
+            "glyph": "髮",
+            "when": "hair (fà)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:send",
+      "kind": "referent",
+      "label": "send; send out, emit, issue; develop; hair (fà)"
+    },
+    {
       "id": "g:古",
       "kind": "glyph",
       "glyph": "古",
@@ -2751,11 +2849,6 @@
       "script": {
         "same": true
       }
-    },
-    {
-      "id": "r:can",
-      "kind": "referent",
-      "label": "can; may; -able; but"
     },
     {
       "id": "g:台",
@@ -3123,6 +3216,24 @@
       "id": "r:as",
       "kind": "referent",
       "label": "as; like; as if; such as; if"
+    },
+    {
+      "id": "g:它",
+      "kind": "glyph",
+      "glyph": "它",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ta1",
+      "jpAudioKey": "ta"
+    },
+    {
+      "id": "r:it",
+      "kind": "referent",
+      "label": "it (things, animals)"
     },
     {
       "id": "g:实",
@@ -3587,6 +3698,24 @@
       "id": "r:heart",
       "kind": "referent",
       "label": "heart; centre; mind, intention"
+    },
+    {
+      "id": "g:想",
+      "kind": "glyph",
+      "glyph": "想",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "xiang3",
+      "jpAudioKey": "sou"
+    },
+    {
+      "id": "r:think",
+      "kind": "referent",
+      "label": "think; want, would like to; suppose; miss (someone)"
     },
     {
       "id": "g:戈",
@@ -4192,6 +4321,24 @@
       "label": "fire radical (bottom form of 火)"
     },
     {
+      "id": "g:然",
+      "kind": "glyph",
+      "glyph": "然",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ran2",
+      "jpAudioKey": "zen"
+    },
+    {
+      "id": "r:thus",
+      "kind": "referent",
+      "label": "thus; so, like this; right, correct; however (然而)"
+    },
+    {
       "id": "g:爪",
       "kind": "glyph",
       "glyph": "爪",
@@ -4621,13 +4768,6 @@
       "cnExAudioKey": "xiang3",
       "jpAudioKey": "ai",
       "jpExAudioKey": "sou"
-    },
-    {
-      "id": "g:想",
-      "kind": "glyph",
-      "glyph": "想",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:看",
@@ -5144,12 +5284,13 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "zi4"
+      "cnAudioKey": "zi4",
+      "jpAudioKey": "ji"
     },
     {
       "id": "r:self",
       "kind": "referent",
-      "label": "self"
+      "label": "self; oneself; from, since"
     },
     {
       "id": "g:至",
@@ -7041,6 +7182,13 @@
       "frontier": true
     },
     {
+      "id": "g:云",
+      "kind": "glyph",
+      "glyph": "云",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:旦",
       "kind": "glyph",
       "glyph": "旦",
@@ -7093,6 +7241,13 @@
       "id": "g:乇",
       "kind": "glyph",
       "glyph": "乇",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:⺼",
+      "kind": "glyph",
+      "glyph": "⺼",
       "tier": null,
       "frontier": true
     },
@@ -7163,13 +7318,6 @@
       "id": "g:仌",
       "kind": "glyph",
       "glyph": "仌",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:⺼",
-      "kind": "glyph",
-      "glyph": "⺼",
       "tier": null,
       "frontier": true
     },
@@ -11636,6 +11784,26 @@
       "id": "r:solid-honest",
       "kind": "referent",
       "label": "real; solid; honest; down-to-earth; indeed"
+    },
+    {
+      "id": "w:明年@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "明年",
+      "reading": "míngnián",
+      "gloss": "next year",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 4
+      },
+      "cnAudioKey": "ming2nian2"
+    },
+    {
+      "id": "r:next-year",
+      "kind": "referent",
+      "label": "next year"
     }
   ]
 }

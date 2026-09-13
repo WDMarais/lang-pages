@@ -171,10 +171,11 @@
       "type": "confusable",
       "between": [
         "他",
-        "她"
+        "她",
+        "它"
       ],
       "basis": "phonetic",
-      "note": "Homophones — both read tā, both built on the 也 phonetic. The radical carries the sense: 亻(person) → 他 'he', 女(woman) → 她 'she'. The set's third member 它 (roof 宀 → 'it', for things and animals) is the same tā again; pick the character by its referent, not by the sound.",
+      "note": "Homophones — all three read tā. 他 and 她 share the 也 phonetic and the radical carries the sense: 亻(person) → 他 'he', 女(woman) → 她 'she'. 它 (roof 宀 → 'it', for things and animals) is the same tā on a different frame; pick the character by its referent, not by the sound.",
       "examples": [
         {
           "for": "他",
@@ -185,6 +186,11 @@
           "for": "她",
           "text": "她们",
           "gloss": "tāmen — they (all female; 她 = she, woman radical)"
+        },
+        {
+          "for": "它",
+          "text": "它们",
+          "gloss": "tāmen — they (things / animals; 它 = it, roof radical)"
         }
       ],
       "lang": "cn"

@@ -1,0 +1,44 @@
+{
+  "glyph": "会",
+  "cp": "U+4F1A",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "𠆢",
+    "云"
+  ],
+  "readings": {
+    "cn": {
+      "name": "会",
+      "reading": "huì",
+      "gloss": "can; know how to (a learned skill); meet; meeting, association; will, be likely to",
+      "extra": "会说、开会、会议、一会儿 · 𠆢 + 云 · 又读 kuài（会计）· 繁体作會"
+    },
+    "jp": {
+      "name": "会",
+      "reading": "カイ",
+      "gloss": "meet; meeting; association",
+      "extra": "漢字「会」(カイ・エ · あ.う) · 会う(あう)、会社(かいしゃ)、会議(かいぎ) · 旧字: 會"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "會"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "can",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

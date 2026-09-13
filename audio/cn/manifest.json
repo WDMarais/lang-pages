@@ -243,6 +243,10 @@
     "text": "冬",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "dong4.mp3": {
+    "text": "动",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "dou1.mp3": {
     "text": "都",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -273,6 +277,10 @@
   },
   "er4shi2.mp3": {
     "text": "二十",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fa1.mp3": {
+    "text": "发",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "fang1.mp3": {
@@ -469,6 +477,10 @@
   },
   "hui2tou2.mp3": {
     "text": "回头",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hui4.mp3": {
+    "text": "会",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "huo3.mp3": {
@@ -691,6 +703,10 @@
     "text": "明明",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ming2nian2.mp3": {
+    "text": "明年",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ming2tian1.mp3": {
     "text": "明天",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -841,6 +857,10 @@
   },
   "quan3.mp3": {
     "text": "犬",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ran2.mp3": {
+    "text": "然",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ren2.mp3": {
@@ -1185,6 +1205,10 @@
   },
   "xiao3zi5.mp3": {
     "text": "小子",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xie1.mp3": {
+    "text": "些",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xiegou.mp3": {

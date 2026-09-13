@@ -1499,6 +1499,24 @@
           "wk": null
         },
         {
+          "glyph": "些",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "xie1",
+          "jpAudioKey": "sa",
+          "cn": {
+            "name": "些", "reading": "xiē", "gloss": "some; a few, a little; (after an adjective) a bit more",
+            "extra": "一些、这些、那些、好些 · 此 + 二（此为声旁）"
+          },
+          "jp": {
+            "name": "些", "reading": "サ", "gloss": "a little; trifling",
+            "extra": "漢字「些」(サ · いささ.か) · 些細(ささい)、些か(いささか)"
+          },
+          "wk": null,
+          "pdc": { "name": "some", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "什",
           "tag": "char",
           "image": "",
@@ -1569,6 +1587,25 @@
           },
           "wk": null,
           "pdc": { "name": "he", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "会",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hui4",
+          "jpAudioKey": "kai",
+          "script": {"traditional": [{"glyph": "會"}]},
+          "cn": {
+            "name": "会", "reading": "huì", "gloss": "can; know how to (a learned skill); meet; meeting, association; will, be likely to",
+            "extra": "会说、开会、会议、一会儿 · 𠆢 + 云 · 又读 kuài（会计）· 繁体作會"
+          },
+          "jp": {
+            "name": "会", "reading": "カイ", "gloss": "meet; meeting; association",
+            "extra": "漢字「会」(カイ・エ · あ.う) · 会う(あう)、会社(かいしゃ)、会議(かいぎ) · 旧字: 會"
+          },
+          "wk": null,
+          "pdc": { "name": "can", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "但",
@@ -1775,6 +1812,25 @@
           "pdc": { "name": "add", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "动",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "dong4",
+          "jpAudioKey": "dou",
+          "script": {"traditional": [{"glyph": "動"}]},
+          "cn": {
+            "name": "动", "reading": "dòng", "gloss": "move; motion, movement; act, take action; touch (emotionally)",
+            "extra": "运动、动物、感动、动手 · 云 + 力（力为形旁）· 繁体作動"
+          },
+          "jp": {
+            "name": "動", "reading": "ドウ", "gloss": "move; motion",
+            "extra": "漢字「動」(ドウ · うご.く) · 動く(うごく)、動物(どうぶつ)、運動(うんどう) · 中文簡体作「动」"
+          },
+          "wk": null,
+          "pdc": { "name": "move", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "北",
           "tag": "char",
           "image": "",
@@ -1863,6 +1919,25 @@
           },
           "wk": null,
           "kanji": { "name": "Friend", "readings": ["ユウ"], "on": true, "kun": ["とも"], "level": 3 }
+        },
+        {
+          "glyph": "发",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "fa1",
+          "jpAudioKey": "hatsu",
+          "script": {"traditional": [{"glyph": "發", "when": "send; emit; develop"}, {"glyph": "髮", "when": "hair (fà)"}]},
+          "cn": {
+            "name": "发", "reading": "fā", "gloss": "send; send out, emit, issue; develop; hair (fà)",
+            "extra": "发送、出发、发现、头发(fà) · 形近「友」+ 丶（首笔为撇折）· 繁体作發（送出）/ 髮（头发）"
+          },
+          "jp": {
+            "name": "発", "reading": "ハツ", "gloss": "discharge; departure; emit",
+            "extra": "漢字「発」(ハツ・ホツ) · 出発(しゅっぱつ)、発見(はっけん)、発音(はつおん) · 中文簡体作「发」（「髪」も「发」）"
+          },
+          "wk": null,
+          "pdc": { "name": "send", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "古",
@@ -2188,6 +2263,24 @@
           "wk": null
         },
         {
+          "glyph": "它",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ta1",
+          "jpAudioKey": "ta",
+          "cn": {
+            "name": "它", "reading": "tā", "gloss": "it (things, animals)",
+            "extra": "它们、它的 · 宀 + 匕 · 与他、她同音"
+          },
+          "jp": {
+            "name": "它", "reading": "タ", "gloss": "other (rare; Chinese 'it')",
+            "extra": "漢字「它」(タ · ほか) · 日本語ではほぼ使わない · 中国語「它」= it"
+          },
+          "wk": null,
+          "pdc": { "name": "it", "kind": "meaning", "level": 4 }
+        },
+        {
           "glyph": "实",
           "tag": "char",
           "image": "",
@@ -2392,6 +2485,24 @@
           "kanji": { "name": "Heart", "readings": ["シン"], "on": true, "kun": ["こころ"], "level": 3 },
           "pd": { "name": "heart", "level": 4, "kind": "meaning" },
           "pdc": { "name": "heart", "kind": "meaning", "level": 4 }
+        },
+        {
+          "glyph": "想",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "xiang3",
+          "jpAudioKey": "sou",
+          "cn": {
+            "name": "想", "reading": "xiǎng", "gloss": "think; want, would like to; suppose; miss (someone)",
+            "extra": "想要、想法、我想你、理想 · 相 + 心（相为声旁）"
+          },
+          "jp": {
+            "name": "想", "reading": "ソウ", "gloss": "idea; thought; imagine",
+            "extra": "漢字「想」(ソウ・ソ) · 想像(そうぞう)、感想(かんそう)、予想(よそう)"
+          },
+          "wk": null,
+          "pdc": { "name": "think", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "戶",
@@ -2686,6 +2797,24 @@
           "wk": { "name": "Fur", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Fur", "readings": ["モウ"], "on": true, "kun": ["け"], "level": 3 },
           "pd": { "name": "fur", "level": 2, "kind": "meaning" }
+        },
+        {
+          "glyph": "然",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ran2",
+          "jpAudioKey": "zen",
+          "cn": {
+            "name": "然", "reading": "rán", "gloss": "thus; so, like this; right, correct; however (然而)",
+            "extra": "然后、虽然、当然、然而 · 肰(⺼ + 犬) + 灬 · 本义是燃（后来加火另造「燃」）"
+          },
+          "jp": {
+            "name": "然", "reading": "ゼン", "gloss": "so; like that; natural (in 自然)",
+            "extra": "漢字「然」(ゼン・ネン) · 自然(しぜん)、天然(てんねん)、全然(ぜんぜん)"
+          },
+          "wk": null,
+          "pdc": { "name": "however", "kind": "meaning", "level": 4 }
         },
         {
           "glyph": "牛",

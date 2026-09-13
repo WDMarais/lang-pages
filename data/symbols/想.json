@@ -1,0 +1,37 @@
+{
+  "glyph": "想",
+  "cp": "U+60F3",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "相",
+    "心"
+  ],
+  "readings": {
+    "cn": {
+      "name": "想",
+      "reading": "xiǎng",
+      "gloss": "think; want, would like to; suppose; miss (someone)",
+      "extra": "想要、想法、我想你、理想 · 相 + 心（相为声旁）"
+    },
+    "jp": {
+      "name": "想",
+      "reading": "ソウ",
+      "gloss": "idea; thought; imagine",
+      "extra": "漢字「想」(ソウ・ソ) · 想像(そうぞう)、感想(かんそう)、予想(よそう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "think",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}
