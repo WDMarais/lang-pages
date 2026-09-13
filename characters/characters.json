@@ -1402,7 +1402,7 @@
           "tag": "char",
           "image": "",
           "animated": true,
-          "cnAudioKey": "me",
+          "cnAudioKey": "me5",
           "jpAudioKey": "ma",
           "script": {"traditional": [{"glyph": "麼"}]},
           "cn": {

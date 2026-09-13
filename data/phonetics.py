@@ -59,16 +59,19 @@ def _tone_mark_count(reading):
 def audio_key(reading):
     """Bank key for a CN reading, or None if it is not one bank-eligible syllable.
 
-    'qiān' → 'qian1', 'nǚ' → 'nv3', 'yī' → 'yi1'.
+    'qiān' → 'qian1', 'nǚ' → 'nv3', 'yī' → 'yi1', neutral 'me' → 'me5'.
     'héngzhégōu' → None (three tone marks → multi-syllable, stays per-item).
     """
     if not reading:
         return None
-    if _tone_mark_count(reading) != 1:
-        return None  # 0 = untoned/unknown, >1 = multi-syllable — neither is bank-eligible
+    marks = _tone_mark_count(reading)
+    if marks > 1:
+        return None  # multi-syllable (stroke names) — not bank-eligible
     base, tone = strip_tone(reading)
     if not base.isascii() or not base.isalpha():
         return None
+    if marks == 0 and base not in _SYLLABLES:
+        return None  # untoned but not one real syllable: unknown, not a neutral tone
     return f"{base}{tone}"
 
 
