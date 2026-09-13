@@ -142,7 +142,10 @@ Then, per routed item:
    Emit/parse assertions guard validity.
 
 7. **Generate audio** → `python3 data/gen-audio.py all` (or a specific module)
-   Needs `uv tool install edge-tts`. `--dry-run` to preview. Sourced from the symbol
+   Needs `uv tool install edge-tts`. `--dry-run` to preview. `data/build.py` runs it
+   with `--prune`, deleting bank clips no card references any more (lesson dirs are
+   never pruned). `build.py` also runs `build-phonetics.py` first, which regenerates
+   the /zhuyin/ syllable bank (`zhuyin/data.json`). Sourced from the symbol
    set (load_symbols → to_card), not page files. All glyph audio is **content-keyed by
    sound** in site-level banks — `/audio/cn/<pinyin+tone>.mp3` (+ multi-syllable stroke
    names like `shugou`) and `/audio/jp/<romaji>.mp3` — voiced once and shared by every
@@ -160,7 +163,7 @@ Then, per routed item:
 **Ordering (resolved by an ingest run).** Every step is strictly downstream of the
 symbols — `build-graph` reads `load_symbols()` directly (parts included, via each
 symbol's `composes`), not the page files build-pages writes — so the order is linear
-with no back-edge: symbols → graph → pages → audio. Each step is idempotent
+with no back-edge: symbols → graph → pages → phonetics → audio. Each step is idempotent
 (deterministic output over the same inputs), so a **partial batch plus a re-run is
 safe**: prefer shipping 70% now and taking another pass over blocking on 100%.
 

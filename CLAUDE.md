@@ -15,7 +15,7 @@ is the short list of things that are easy to get wrong.
   `python3 data/fetch-decomp.py <glyph>` suggests parts to paste into `composes`;
   the human value is authoritative and refines it (合 ← 𠆢 一 口, 広 ← 广 厶).
 - **After ANY edit under `data/symbols/` or to `data/words.json`, run
-  `python3 data/build.py`** (graph → pages → audio → check-source).
+  `python3 data/build.py`** (graph → pages → phonetics → audio (+prune) → check-source).
   `--no-audio` skips edge-tts.
 - **The gate is `data/check-source.py`** (build.py runs it last). It must report
   `0 error(s)` before you commit — it validates `composes` (single glyphs, no

@@ -184,6 +184,34 @@
         }
       ]
     },
+    "bai3": {
+      "key": "bai3",
+      "pinyin": "bǎi",
+      "base": "bai",
+      "tone": 3,
+      "zhuyin": "ㄅㄞ",
+      "glyphs": [
+        {
+          "glyph": "百",
+          "gloss": "hundred",
+          "rank": 0
+        }
+      ]
+    },
+    "ban4": {
+      "key": "ban4",
+      "pinyin": "bàn",
+      "base": "ban",
+      "tone": 4,
+      "zhuyin": "ㄅㄢ",
+      "glyphs": [
+        {
+          "glyph": "半",
+          "gloss": "half",
+          "rank": 0
+        }
+      ]
+    },
     "bao1": {
       "key": "bao1",
       "pinyin": "bāo",
@@ -200,6 +228,20 @@
           "glyph": "勹",
           "gloss": "wrap (enclosing component)",
           "rank": 1
+        }
+      ]
+    },
+    "bei3": {
+      "key": "bei3",
+      "pinyin": "běi",
+      "base": "bei",
+      "tone": 3,
+      "zhuyin": "ㄅㄟ",
+      "glyphs": [
+        {
+          "glyph": "北",
+          "gloss": "north",
+          "rank": 0
         }
       ]
     },
@@ -428,7 +470,7 @@
       "glyphs": [
         {
           "glyph": "車",
-          "gloss": "cart",
+          "gloss": "cart; vehicle",
           "rank": 0
         }
       ]
@@ -513,6 +555,39 @@
         }
       ]
     },
+    "chu1": {
+      "key": "chu1",
+      "pinyin": "chū",
+      "base": "chu",
+      "tone": 1,
+      "zhuyin": "ㄔㄨ",
+      "glyphs": [
+        {
+          "glyph": "出",
+          "gloss": "to go out; exit",
+          "rank": 0
+        },
+        {
+          "glyph": "初",
+          "gloss": "beginning; first",
+          "rank": 0
+        }
+      ]
+    },
+    "chu4": {
+      "key": "chu4",
+      "pinyin": "chù",
+      "base": "chu",
+      "tone": 4,
+      "zhuyin": "ㄔㄨ",
+      "glyphs": [
+        {
+          "glyph": "处",
+          "gloss": "place; office; to handle",
+          "rank": 0
+        }
+      ]
+    },
     "chuan1": {
       "key": "chuan1",
       "pinyin": "chuān",
@@ -555,6 +630,34 @@
         }
       ]
     },
+    "ci3": {
+      "key": "ci3",
+      "pinyin": "cǐ",
+      "base": "ci",
+      "tone": 3,
+      "zhuyin": "ㄘ",
+      "glyphs": [
+        {
+          "glyph": "此",
+          "gloss": "this; here; these",
+          "rank": 0
+        }
+      ]
+    },
+    "cong2": {
+      "key": "cong2",
+      "pinyin": "cóng",
+      "base": "cong",
+      "tone": 2,
+      "zhuyin": "ㄘㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "从",
+          "gloss": "from; since; to follow",
+          "rank": 0
+        }
+      ]
+    },
     "cun4": {
       "key": "cun4",
       "pinyin": "cùn",
@@ -565,6 +668,20 @@
         {
           "glyph": "寸",
           "gloss": "inch",
+          "rank": 0
+        }
+      ]
+    },
+    "da2": {
+      "key": "da2",
+      "pinyin": "dá",
+      "base": "da",
+      "tone": 2,
+      "zhuyin": "ㄉㄚ",
+      "glyphs": [
+        {
+          "glyph": "答",
+          "gloss": "to answer",
           "rank": 0
         }
       ]
@@ -611,6 +728,34 @@
         }
       ]
     },
+    "dan4": {
+      "key": "dan4",
+      "pinyin": "dàn",
+      "base": "dan",
+      "tone": 4,
+      "zhuyin": "ㄉㄢ",
+      "glyphs": [
+        {
+          "glyph": "但",
+          "gloss": "but; only; merely",
+          "rank": 0
+        }
+      ]
+    },
+    "dang1": {
+      "key": "dang1",
+      "pinyin": "dāng",
+      "base": "dang",
+      "tone": 1,
+      "zhuyin": "ㄉㄤ",
+      "glyphs": [
+        {
+          "glyph": "当",
+          "gloss": "to serve as; ought; to be (at)",
+          "rank": 0
+        }
+      ]
+    },
     "dao1": {
       "key": "dao1",
       "pinyin": "dāo",
@@ -634,7 +779,7 @@
       "glyphs": [
         {
           "glyph": "地",
-          "gloss": "ground; land",
+          "gloss": "land; earth; ground",
           "rank": 0
         }
       ]
@@ -677,6 +822,34 @@
         {
           "glyph": "鼎",
           "gloss": "tripod",
+          "rank": 0
+        }
+      ]
+    },
+    "dong1": {
+      "key": "dong1",
+      "pinyin": "dōng",
+      "base": "dong",
+      "tone": 1,
+      "zhuyin": "ㄉㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "冬",
+          "gloss": "winter",
+          "rank": 0
+        }
+      ]
+    },
+    "dou1": {
+      "key": "dou1",
+      "pinyin": "dōu",
+      "base": "dou",
+      "tone": 1,
+      "zhuyin": "ㄉㄡ",
+      "glyphs": [
+        {
+          "glyph": "都",
+          "gloss": "all; both",
           "rank": 0
         }
       ]
@@ -808,7 +981,21 @@
       "glyphs": [
         {
           "glyph": "分",
-          "gloss": "to divide",
+          "gloss": "to divide; minute; point",
+          "rank": 0
+        }
+      ]
+    },
+    "fen3": {
+      "key": "fen3",
+      "pinyin": "fěn",
+      "base": "fen",
+      "tone": 3,
+      "zhuyin": "ㄈㄣ",
+      "glyphs": [
+        {
+          "glyph": "粉",
+          "gloss": "powder; flour",
           "rank": 0
         }
       ]
@@ -954,6 +1141,20 @@
         }
       ]
     },
+    "ge4": {
+      "key": "ge4",
+      "pinyin": "gè",
+      "base": "ge",
+      "tone": 4,
+      "zhuyin": "ㄍㄜ",
+      "glyphs": [
+        {
+          "glyph": "个",
+          "gloss": "(generic measure word); individual",
+          "rank": 0
+        }
+      ]
+    },
     "gen4": {
       "key": "gen4",
       "pinyin": "gèn",
@@ -975,6 +1176,11 @@
       "tone": 1,
       "zhuyin": "ㄍㄨㄥ",
       "glyphs": [
+        {
+          "glyph": "公",
+          "gloss": "public; male (animal); impartial",
+          "rank": 0
+        },
         {
           "glyph": "工",
           "gloss": "work; labour",
@@ -1010,7 +1216,7 @@
       "glyphs": [
         {
           "glyph": "古",
-          "gloss": "ancient",
+          "gloss": "ancient; old",
           "rank": 0
         },
         {
@@ -1044,6 +1250,20 @@
         }
       ]
     },
+    "guan4": {
+      "key": "guan4",
+      "pinyin": "guàn",
+      "base": "guan",
+      "tone": 4,
+      "zhuyin": "ㄍㄨㄢ",
+      "glyphs": [
+        {
+          "glyph": "毌",
+          "gloss": "pass through; string together",
+          "rank": 0
+        }
+      ]
+    },
     "guang3": {
       "key": "guang3",
       "pinyin": "guǎng",
@@ -1054,6 +1274,11 @@
         {
           "glyph": "广",
           "gloss": "shelter",
+          "rank": 0
+        },
+        {
+          "glyph": "広",
+          "gloss": "wide; broad",
           "rank": 0
         }
       ]
@@ -1086,6 +1311,34 @@
         }
       ]
     },
+    "guo3": {
+      "key": "guo3",
+      "pinyin": "guǒ",
+      "base": "guo",
+      "tone": 3,
+      "zhuyin": "ㄍㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "果",
+          "gloss": "fruit; result; consequence",
+          "rank": 0
+        }
+      ]
+    },
+    "hai3": {
+      "key": "hai3",
+      "pinyin": "hǎi",
+      "base": "hai",
+      "tone": 3,
+      "zhuyin": "ㄏㄞ",
+      "glyphs": [
+        {
+          "glyph": "海",
+          "gloss": "sea",
+          "rank": 0
+        }
+      ]
+    },
     "han4": {
       "key": "han4",
       "pinyin": "hàn",
@@ -1109,7 +1362,7 @@
       "glyphs": [
         {
           "glyph": "好",
-          "gloss": "good",
+          "gloss": "good; well",
           "rank": 0
         }
       ]
@@ -1121,6 +1374,11 @@
       "tone": 2,
       "zhuyin": "ㄏㄜ",
       "glyphs": [
+        {
+          "glyph": "合",
+          "gloss": "to close; to combine; to fit",
+          "rank": 0
+        },
         {
           "glyph": "禾",
           "gloss": "grain",
@@ -1156,6 +1414,20 @@
         }
       ]
     },
+    "hou4": {
+      "key": "hou4",
+      "pinyin": "hòu",
+      "base": "hou",
+      "tone": 4,
+      "zhuyin": "ㄏㄡ",
+      "glyphs": [
+        {
+          "glyph": "后",
+          "gloss": "behind; after; back; (also) queen",
+          "rank": 0
+        }
+      ]
+    },
     "hu1": {
       "key": "hu1",
       "pinyin": "hū",
@@ -1179,7 +1451,7 @@
       "glyphs": [
         {
           "glyph": "戶",
-          "gloss": "door",
+          "gloss": "door; household",
           "rank": 0
         }
       ]
@@ -1194,6 +1466,20 @@
         {
           "glyph": "黃",
           "gloss": "yellow",
+          "rank": 0
+        }
+      ]
+    },
+    "hui2": {
+      "key": "hui2",
+      "pinyin": "huí",
+      "base": "hui",
+      "tone": 2,
+      "zhuyin": "ㄏㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "回",
+          "gloss": "to return; time(s)",
           "rank": 0
         }
       ]
@@ -1235,7 +1521,7 @@
       "glyphs": [
         {
           "glyph": "己",
-          "gloss": "oneself",
+          "gloss": "oneself; self",
           "rank": 0
         }
       ]
@@ -1261,6 +1547,11 @@
       "tone": 1,
       "zhuyin": "ㄐㄧㄚ",
       "glyphs": [
+        {
+          "glyph": "加",
+          "gloss": "to add; plus",
+          "rank": 0
+        },
         {
           "glyph": "家",
           "gloss": "home; family",
@@ -1305,7 +1596,21 @@
       "glyphs": [
         {
           "glyph": "角",
-          "gloss": "horn",
+          "gloss": "horn; angle",
+          "rank": 0
+        }
+      ]
+    },
+    "jiao4": {
+      "key": "jiao4",
+      "pinyin": "jiào",
+      "base": "jiao",
+      "tone": 4,
+      "zhuyin": "ㄐㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "教",
+          "gloss": "teach; teaching; religion",
           "rank": 0
         }
       ]
@@ -1324,6 +1629,20 @@
         }
       ]
     },
+    "jie3": {
+      "key": "jie3",
+      "pinyin": "jiě",
+      "base": "jie",
+      "tone": 3,
+      "zhuyin": "ㄐㄧㄝ",
+      "glyphs": [
+        {
+          "glyph": "解",
+          "gloss": "to untie; to separate; to solve",
+          "rank": 0
+        }
+      ]
+    },
     "jin1": {
       "key": "jin1",
       "pinyin": "jīn",
@@ -1333,7 +1652,7 @@
       "glyphs": [
         {
           "glyph": "今",
-          "gloss": "now",
+          "gloss": "now; today; present",
           "rank": 0
         },
         {
@@ -1411,6 +1730,48 @@
           "glyph": "凵",
           "gloss": "open box",
           "rank": 1
+        }
+      ]
+    },
+    "kan4": {
+      "key": "kan4",
+      "pinyin": "kàn",
+      "base": "kan",
+      "tone": 4,
+      "zhuyin": "ㄎㄢ",
+      "glyphs": [
+        {
+          "glyph": "看",
+          "gloss": "to look; to watch; to read",
+          "rank": 0
+        }
+      ]
+    },
+    "ke3": {
+      "key": "ke3",
+      "pinyin": "kě",
+      "base": "ke",
+      "tone": 3,
+      "zhuyin": "ㄎㄜ",
+      "glyphs": [
+        {
+          "glyph": "可",
+          "gloss": "can; may; -able; but",
+          "rank": 0
+        }
+      ]
+    },
+    "ke4": {
+      "key": "ke4",
+      "pinyin": "kè",
+      "base": "ke",
+      "tone": 4,
+      "zhuyin": "ㄎㄜ",
+      "glyphs": [
+        {
+          "glyph": "課",
+          "gloss": "lesson; class; subject",
+          "rank": 0
         }
       ]
     },
@@ -1499,6 +1860,34 @@
         }
       ]
     },
+    "liang3": {
+      "key": "liang3",
+      "pinyin": "liǎng",
+      "base": "liang",
+      "tone": 3,
+      "zhuyin": "ㄌㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "两",
+          "gloss": "two (of a pair); a couple; tael",
+          "rank": 0
+        }
+      ]
+    },
+    "liao3": {
+      "key": "liao3",
+      "pinyin": "liǎo",
+      "base": "liao",
+      "tone": 3,
+      "zhuyin": "ㄌㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "了",
+          "gloss": "to complete; to finish",
+          "rank": 0
+        }
+      ]
+    },
     "lin2": {
       "key": "lin2",
       "pinyin": "lín",
@@ -1509,6 +1898,20 @@
         {
           "glyph": "林",
           "gloss": "woods; forest",
+          "rank": 0
+        }
+      ]
+    },
+    "ling2": {
+      "key": "ling2",
+      "pinyin": "líng",
+      "base": "ling",
+      "tone": 2,
+      "zhuyin": "ㄌㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "零",
+          "gloss": "zero; fraction; remnant",
           "rank": 0
         }
       ]
@@ -1630,6 +2033,34 @@
         }
       ]
     },
+    "me5": {
+      "key": "me5",
+      "pinyin": "me",
+      "base": "me",
+      "tone": 5,
+      "zhuyin": "ㄇㄜ",
+      "glyphs": [
+        {
+          "glyph": "么",
+          "gloss": "what; thus; how; why",
+          "rank": 0
+        }
+      ]
+    },
+    "mei3": {
+      "key": "mei3",
+      "pinyin": "měi",
+      "base": "mei",
+      "tone": 3,
+      "zhuyin": "ㄇㄟ",
+      "glyphs": [
+        {
+          "glyph": "美",
+          "gloss": "beautiful; pretty",
+          "rank": 0
+        }
+      ]
+    },
     "men2": {
       "key": "men2",
       "pinyin": "mén",
@@ -1738,7 +2169,21 @@
         },
         {
           "glyph": "明",
-          "gloss": "bright",
+          "gloss": "bright; clear",
+          "rank": 0
+        }
+      ]
+    },
+    "mu3": {
+      "key": "mu3",
+      "pinyin": "mǔ",
+      "base": "mu",
+      "tone": 3,
+      "zhuyin": "ㄇㄨ",
+      "glyphs": [
+        {
+          "glyph": "母",
+          "gloss": "mother; female (animal)",
           "rank": 0
         }
       ]
@@ -1769,6 +2214,11 @@
       "tone": 4,
       "zhuyin": "ㄋㄚ",
       "glyphs": [
+        {
+          "glyph": "那",
+          "gloss": "that; those",
+          "rank": 0
+        },
         {
           "glyph": "㇏",
           "gloss": "right-falling stroke",
@@ -1818,6 +2268,48 @@
         }
       ]
     },
+    "neng2": {
+      "key": "neng2",
+      "pinyin": "néng",
+      "base": "neng",
+      "tone": 2,
+      "zhuyin": "ㄋㄥ",
+      "glyphs": [
+        {
+          "glyph": "能",
+          "gloss": "skill; ability; can, be able to; capable",
+          "rank": 0
+        }
+      ]
+    },
+    "ni3": {
+      "key": "ni3",
+      "pinyin": "nǐ",
+      "base": "ni",
+      "tone": 3,
+      "zhuyin": "ㄋㄧ",
+      "glyphs": [
+        {
+          "glyph": "你",
+          "gloss": "you",
+          "rank": 0
+        }
+      ]
+    },
+    "nian2": {
+      "key": "nian2",
+      "pinyin": "nián",
+      "base": "nian",
+      "tone": 2,
+      "zhuyin": "ㄋㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "年",
+          "gloss": "year",
+          "rank": 0
+        }
+      ]
+    },
     "niao3": {
       "key": "niao3",
       "pinyin": "niǎo",
@@ -1841,7 +2333,7 @@
       "glyphs": [
         {
           "glyph": "牛",
-          "gloss": "cow",
+          "gloss": "cow; ox",
           "rank": 0
         }
       ]
@@ -1856,6 +2348,20 @@
         {
           "glyph": "女",
           "gloss": "woman",
+          "rank": 0
+        }
+      ]
+    },
+    "pao3": {
+      "key": "pao3",
+      "pinyin": "pǎo",
+      "base": "pao",
+      "tone": 3,
+      "zhuyin": "ㄆㄠ",
+      "glyphs": [
+        {
+          "glyph": "跑",
+          "gloss": "to run",
           "rank": 0
         }
       ]
@@ -1958,6 +2464,20 @@
         }
       ]
     },
+    "qi3": {
+      "key": "qi3",
+      "pinyin": "qǐ",
+      "base": "qi",
+      "tone": 3,
+      "zhuyin": "ㄑㄧ",
+      "glyphs": [
+        {
+          "glyph": "起",
+          "gloss": "to rise; to get up",
+          "rank": 0
+        }
+      ]
+    },
     "qi4": {
       "key": "qi4",
       "pinyin": "qì",
@@ -2023,7 +2543,7 @@
       "glyphs": [
         {
           "glyph": "切",
-          "gloss": "to cut",
+          "gloss": "to cut; to slice",
           "rank": 0
         }
       ]
@@ -2038,6 +2558,34 @@
         {
           "glyph": "青",
           "gloss": "blue-green",
+          "rank": 0
+        }
+      ]
+    },
+    "qu3": {
+      "key": "qu3",
+      "pinyin": "qǔ",
+      "base": "qu",
+      "tone": 3,
+      "zhuyin": "ㄑㄩ",
+      "glyphs": [
+        {
+          "glyph": "取",
+          "gloss": "to take",
+          "rank": 0
+        }
+      ]
+    },
+    "qu4": {
+      "key": "qu4",
+      "pinyin": "qù",
+      "base": "qu",
+      "tone": 4,
+      "zhuyin": "ㄑㄩ",
+      "glyphs": [
+        {
+          "glyph": "去",
+          "gloss": "go; leave; remove",
           "rank": 0
         }
       ]
@@ -2132,6 +2680,20 @@
         {
           "glyph": "肉",
           "gloss": "meat",
+          "rank": 0
+        }
+      ]
+    },
+    "ru2": {
+      "key": "ru2",
+      "pinyin": "rú",
+      "base": "ru",
+      "tone": 2,
+      "zhuyin": "ㄖㄨ",
+      "glyphs": [
+        {
+          "glyph": "如",
+          "gloss": "as; like; as if; such as; if",
           "rank": 0
         }
       ]
@@ -2253,6 +2815,25 @@
         }
       ]
     },
+    "shen2": {
+      "key": "shen2",
+      "pinyin": "shén",
+      "base": "shen",
+      "tone": 2,
+      "zhuyin": "ㄕㄣ",
+      "glyphs": [
+        {
+          "glyph": "什",
+          "gloss": "what (in 什么)",
+          "rank": 0
+        },
+        {
+          "glyph": "神",
+          "gloss": "god; spirit; deity",
+          "rank": 0
+        }
+      ]
+    },
     "sheng1": {
       "key": "sheng1",
       "pinyin": "shēng",
@@ -2294,6 +2875,11 @@
           "rank": 0
         },
         {
+          "glyph": "实",
+          "gloss": "real; solid; true",
+          "rank": 0
+        },
+        {
           "glyph": "石",
           "gloss": "stone",
           "rank": 0
@@ -2312,6 +2898,11 @@
       "tone": 3,
       "zhuyin": "ㄕ",
       "glyphs": [
+        {
+          "glyph": "使",
+          "gloss": "to use; to make/cause; envoy",
+          "rank": 0
+        },
         {
           "glyph": "矢",
           "gloss": "arrow",
@@ -2334,6 +2925,11 @@
         {
           "glyph": "士",
           "gloss": "scholar",
+          "rank": 0
+        },
+        {
+          "glyph": "市",
+          "gloss": "city",
           "rank": 0
         },
         {
@@ -2453,6 +3049,30 @@
           "glyph": "似",
           "gloss": "similar; to resemble",
           "rank": 0
+        },
+        {
+          "glyph": "四",
+          "gloss": "four",
+          "rank": 0
+        },
+        {
+          "glyph": "巳",
+          "gloss": "the 6th earthly branch (snake)",
+          "rank": 0
+        }
+      ]
+    },
+    "su4": {
+      "key": "su4",
+      "pinyin": "sù",
+      "base": "su",
+      "tone": 4,
+      "zhuyin": "ㄙㄨ",
+      "glyphs": [
+        {
+          "glyph": "宿",
+          "gloss": "to stay overnight",
+          "rank": 0
         }
       ]
     },
@@ -2467,6 +3087,53 @@
           "glyph": "夊",
           "gloss": "go slowly",
           "rank": 1
+        }
+      ]
+    },
+    "ta1": {
+      "key": "ta1",
+      "pinyin": "tā",
+      "base": "ta",
+      "tone": 1,
+      "zhuyin": "ㄊㄚ",
+      "glyphs": [
+        {
+          "glyph": "他",
+          "gloss": "he; him; other",
+          "rank": 0
+        },
+        {
+          "glyph": "她",
+          "gloss": "she; her",
+          "rank": 0
+        }
+      ]
+    },
+    "tai2": {
+      "key": "tai2",
+      "pinyin": "tái",
+      "base": "tai",
+      "tone": 2,
+      "zhuyin": "ㄊㄞ",
+      "glyphs": [
+        {
+          "glyph": "台",
+          "gloss": "platform; stand; counter (for machines)",
+          "rank": 0
+        }
+      ]
+    },
+    "tai4": {
+      "key": "tai4",
+      "pinyin": "tài",
+      "base": "tai",
+      "tone": 4,
+      "zhuyin": "ㄊㄞ",
+      "glyphs": [
+        {
+          "glyph": "太",
+          "gloss": "too; very; excessively",
+          "rank": 0
         }
       ]
     },
@@ -2493,7 +3160,7 @@
       "glyphs": [
         {
           "glyph": "体",
-          "gloss": "body",
+          "gloss": "body; form; style",
           "rank": 0
         }
       ]
@@ -2526,6 +3193,20 @@
         }
       ]
     },
+    "tong2": {
+      "key": "tong2",
+      "pinyin": "tóng",
+      "base": "tong",
+      "tone": 2,
+      "zhuyin": "ㄊㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "同",
+          "gloss": "same; alike; together",
+          "rank": 0
+        }
+      ]
+    },
     "tou2": {
       "key": "tou2",
       "pinyin": "tóu",
@@ -2533,6 +3214,11 @@
       "tone": 2,
       "zhuyin": "ㄊㄡ",
       "glyphs": [
+        {
+          "glyph": "头",
+          "gloss": "head",
+          "rank": 0
+        },
         {
           "glyph": "亠",
           "gloss": "lid (top component)",
@@ -2577,7 +3263,7 @@
       "glyphs": [
         {
           "glyph": "外",
-          "gloss": "outside",
+          "gloss": "outside; outer",
           "rank": 0
         }
       ]
@@ -2592,6 +3278,20 @@
         {
           "glyph": "丸",
           "gloss": "ball; pellet; pill",
+          "rank": 0
+        }
+      ]
+    },
+    "wan4": {
+      "key": "wan4",
+      "pinyin": "wàn",
+      "base": "wan",
+      "tone": 4,
+      "zhuyin": "ㄨㄢ",
+      "glyphs": [
+        {
+          "glyph": "万",
+          "gloss": "ten thousand",
           "rank": 0
         }
       ]
@@ -2646,6 +3346,11 @@
       "zhuyin": "ㄨㄟ",
       "glyphs": [
         {
+          "glyph": "为",
+          "gloss": "to do; to act; to be",
+          "rank": 0
+        },
+        {
           "glyph": "囗",
           "gloss": "enclosure",
           "rank": 0
@@ -2666,7 +3371,21 @@
       "glyphs": [
         {
           "glyph": "文",
-          "gloss": "script",
+          "gloss": "writing; script; language",
+          "rank": 0
+        }
+      ]
+    },
+    "wo3": {
+      "key": "wo3",
+      "pinyin": "wǒ",
+      "base": "wo",
+      "tone": 3,
+      "zhuyin": "ㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "我",
+          "gloss": "I; me",
           "rank": 0
         }
       ]
@@ -2723,7 +3442,21 @@
         },
         {
           "glyph": "午",
-          "gloss": "noon",
+          "gloss": "noon; 7th earthly branch",
+          "rank": 0
+        }
+      ]
+    },
+    "wu4": {
+      "key": "wu4",
+      "pinyin": "wù",
+      "base": "wu",
+      "tone": 4,
+      "zhuyin": "ㄨ",
+      "glyphs": [
+        {
+          "glyph": "物",
+          "gloss": "thing; matter",
           "rank": 0
         }
       ]
@@ -2738,6 +3471,11 @@
         {
           "glyph": "夕",
           "gloss": "evening; dusk",
+          "rank": 0
+        },
+        {
+          "glyph": "西",
+          "gloss": "west",
           "rank": 0
         }
       ]
@@ -2826,6 +3564,20 @@
         }
       ]
     },
+    "xiang3": {
+      "key": "xiang3",
+      "pinyin": "xiǎng",
+      "base": "xiang",
+      "tone": 3,
+      "zhuyin": "ㄒㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "想",
+          "gloss": "to think; to want",
+          "rank": 0
+        }
+      ]
+    },
     "xiang4": {
       "key": "xiang4",
       "pinyin": "xiàng",
@@ -2836,6 +3588,11 @@
         {
           "glyph": "向",
           "gloss": "toward; facing; direction",
+          "rank": 0
+        },
+        {
+          "glyph": "相",
+          "gloss": "appearance; looks",
           "rank": 0
         }
       ]
@@ -2863,7 +3620,7 @@
       "glyphs": [
         {
           "glyph": "心",
-          "gloss": "heart",
+          "gloss": "heart; centre; mind, intention",
           "rank": 0
         },
         {
@@ -2883,6 +3640,20 @@
         {
           "glyph": "行",
           "gloss": "walk",
+          "rank": 0
+        }
+      ]
+    },
+    "xiu1": {
+      "key": "xiu1",
+      "pinyin": "xiū",
+      "base": "xiu",
+      "tone": 1,
+      "zhuyin": "ㄒㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "休",
+          "gloss": "to rest",
           "rank": 0
         }
       ]
@@ -2995,6 +3766,20 @@
         }
       ]
     },
+    "yang4": {
+      "key": "yang4",
+      "pinyin": "yàng",
+      "base": "yang",
+      "tone": 4,
+      "zhuyin": "ㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "样",
+          "gloss": "appearance; kind; manner",
+          "rank": 0
+        }
+      ]
+    },
     "yao1": {
       "key": "yao1",
       "pinyin": "yāo",
@@ -3019,6 +3804,34 @@
         {
           "glyph": "爻",
           "gloss": "trigram lines",
+          "rank": 0
+        }
+      ]
+    },
+    "yao4": {
+      "key": "yao4",
+      "pinyin": "yào",
+      "base": "yao",
+      "tone": 4,
+      "zhuyin": "ㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "要",
+          "gloss": "to want; important",
+          "rank": 0
+        }
+      ]
+    },
+    "ye3": {
+      "key": "ye3",
+      "pinyin": "yě",
+      "base": "ye",
+      "tone": 3,
+      "zhuyin": "ㄧㄝ",
+      "glyphs": [
+        {
+          "glyph": "也",
+          "gloss": "also; too",
           "rank": 0
         }
       ]
@@ -3058,6 +3871,11 @@
           "glyph": "衣",
           "gloss": "clothes",
           "rank": 0
+        },
+        {
+          "glyph": "⻂",
+          "gloss": "clothing",
+          "rank": 1
         }
       ]
     },
@@ -3077,6 +3895,11 @@
           "glyph": "以",
           "gloss": "by means of; with; according to; in order to; because of",
           "rank": 0
+        },
+        {
+          "glyph": "已",
+          "gloss": "already",
+          "rank": 0
         }
       ]
     },
@@ -3088,8 +3911,23 @@
       "zhuyin": "ㄧ",
       "glyphs": [
         {
+          "glyph": "义",
+          "gloss": "meaning; righteousness; justice",
+          "rank": 0
+        },
+        {
+          "glyph": "億",
+          "gloss": "hundred million",
+          "rank": 0
+        },
+        {
           "glyph": "弋",
           "gloss": "shoot",
+          "rank": 0
+        },
+        {
+          "glyph": "议",
+          "gloss": "discuss; comment",
           "rank": 0
         },
         {
@@ -3101,6 +3939,11 @@
           "glyph": "メ",
           "gloss": "to govern; regulate (乂)",
           "rank": 1
+        },
+        {
+          "glyph": "阝",
+          "gloss": "city; town (radical)",
+          "rank": 1
         }
       ]
     },
@@ -3111,6 +3954,11 @@
       "tone": 1,
       "zhuyin": "ㄧㄣ",
       "glyphs": [
+        {
+          "glyph": "因",
+          "gloss": "cause; reason",
+          "rank": 0
+        },
         {
           "glyph": "音",
           "gloss": "sound",
@@ -3127,7 +3975,7 @@
       "glyphs": [
         {
           "glyph": "引",
-          "gloss": "to pull; draw",
+          "gloss": "pull; draw; lead",
           "rank": 0
         },
         {
@@ -3151,6 +3999,25 @@
         }
       ]
     },
+    "you2": {
+      "key": "you2",
+      "pinyin": "yóu",
+      "base": "you",
+      "tone": 2,
+      "zhuyin": "ㄧㄡ",
+      "glyphs": [
+        {
+          "glyph": "油",
+          "gloss": "oil",
+          "rank": 0
+        },
+        {
+          "glyph": "由",
+          "gloss": "from; by; cause; reason",
+          "rank": 0
+        }
+      ]
+    },
     "you3": {
       "key": "you3",
       "pinyin": "yǒu",
@@ -3161,6 +4028,11 @@
         {
           "glyph": "友",
           "gloss": "friend",
+          "rank": 0
+        },
+        {
+          "glyph": "有",
+          "gloss": "to have; there is",
           "rank": 0
         },
         {
@@ -3179,7 +4051,12 @@
       "glyphs": [
         {
           "glyph": "又",
-          "gloss": "again",
+          "gloss": "again; also; anyway",
+          "rank": 0
+        },
+        {
+          "glyph": "右",
+          "gloss": "right (side)",
           "rank": 0
         }
       ]
@@ -3191,6 +4068,16 @@
       "tone": 2,
       "zhuyin": "ㄩ",
       "glyphs": [
+        {
+          "glyph": "于",
+          "gloss": "in; at; to; from (preposition)",
+          "rank": 0
+        },
+        {
+          "glyph": "盂",
+          "gloss": "basin; bowl",
+          "rank": 0
+        },
         {
           "glyph": "魚",
           "gloss": "fish",
@@ -3262,6 +4149,11 @@
           "glyph": "原",
           "gloss": "origin; plain",
           "rank": 0
+        },
+        {
+          "glyph": "员",
+          "gloss": "member; personnel",
+          "rank": 0
         }
       ]
     },
@@ -3288,12 +4180,26 @@
       "glyphs": [
         {
           "glyph": "月",
-          "gloss": "moon",
+          "gloss": "moon; month",
           "rank": 0
         },
         {
           "glyph": "龠",
           "gloss": "flute",
+          "rank": 0
+        }
+      ]
+    },
+    "zai4": {
+      "key": "zai4",
+      "pinyin": "zài",
+      "base": "zai",
+      "tone": 4,
+      "zhuyin": "ㄗㄞ",
+      "glyphs": [
+        {
+          "glyph": "在",
+          "gloss": "to exist; to be (located) at",
           "rank": 0
         }
       ]
@@ -3326,6 +4232,34 @@
         }
       ]
     },
+    "zhe3": {
+      "key": "zhe3",
+      "pinyin": "zhě",
+      "base": "zhe",
+      "tone": 3,
+      "zhuyin": "ㄓㄜ",
+      "glyphs": [
+        {
+          "glyph": "者",
+          "gloss": "-er; one who; person",
+          "rank": 0
+        }
+      ]
+    },
+    "zhen1": {
+      "key": "zhen1",
+      "pinyin": "zhēn",
+      "base": "zhen",
+      "tone": 1,
+      "zhuyin": "ㄓㄣ",
+      "glyphs": [
+        {
+          "glyph": "真",
+          "gloss": "true; real; genuine",
+          "rank": 0
+        }
+      ]
+    },
     "zheng4": {
       "key": "zheng4",
       "pinyin": "zhèng",
@@ -3334,8 +4268,13 @@
       "zhuyin": "ㄓㄥ",
       "glyphs": [
         {
+          "glyph": "政",
+          "gloss": "government; politics",
+          "rank": 0
+        },
+        {
           "glyph": "正",
-          "gloss": "upright; correct",
+          "gloss": "correct; upright",
           "rank": 0
         }
       ]
@@ -3366,6 +4305,11 @@
       "tone": 3,
       "zhuyin": "ㄓ",
       "glyphs": [
+        {
+          "glyph": "只",
+          "gloss": "only; just; merely",
+          "rank": 0
+        },
         {
           "glyph": "止",
           "gloss": "stop",
@@ -3482,6 +4426,20 @@
         }
       ]
     },
+    "zhuo2": {
+      "key": "zhuo2",
+      "pinyin": "zhuó",
+      "base": "zhuo",
+      "tone": 2,
+      "zhuyin": "ㄓㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "着",
+          "gloss": "to wear; to apply; to touch",
+          "rank": 0
+        }
+      ]
+    },
     "zi3": {
       "key": "zi3",
       "pinyin": "zǐ",
@@ -3505,7 +4463,7 @@
       "glyphs": [
         {
           "glyph": "字",
-          "gloss": "character; word",
+          "gloss": "character; written word",
           "rank": 0
         },
         {
@@ -3539,6 +4497,48 @@
         {
           "glyph": "足",
           "gloss": "foot",
+          "rank": 0
+        }
+      ]
+    },
+    "zui4": {
+      "key": "zui4",
+      "pinyin": "zuì",
+      "base": "zui",
+      "tone": 4,
+      "zhuyin": "ㄗㄨㄟ",
+      "glyphs": [
+        {
+          "glyph": "最",
+          "gloss": "most; -est; best",
+          "rank": 0
+        }
+      ]
+    },
+    "zuo3": {
+      "key": "zuo3",
+      "pinyin": "zuǒ",
+      "base": "zuo",
+      "tone": 3,
+      "zhuyin": "ㄗㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "左",
+          "gloss": "left (side)",
+          "rank": 0
+        }
+      ]
+    },
+    "zuo4": {
+      "key": "zuo4",
+      "pinyin": "zuò",
+      "base": "zuo",
+      "tone": 4,
+      "zhuyin": "ㄗㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "作",
+          "gloss": "to make; to do; to write (a work)",
           "rank": 0
         }
       ]

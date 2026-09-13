@@ -4,7 +4,7 @@
 
     python3 data/build.py [--no-audio] [--no-check]
 
-    symbols → graph → pages → audio → check-source
+    symbols → graph → pages → phonetics → audio (+prune) → check-source
 
 Run this after ANY edit under data/symbols/ or to data/words.json. The steps have a
 strict linear order with no back-edge (each reads the source of truth, not a peer's
@@ -26,12 +26,16 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 
-# (name, script) in dependency order. `audio` and `check` are individually skippable.
+# (name, script, args) in dependency order. `audio` and `check` are individually skippable.
+# `phonetics` projects the /zhuyin/ syllable bank from the same symbols build-pages reads.
+# `audio` runs with --prune so a clip whose key moved (么 me → me5) doesn't linger;
+# gen-audio prunes only the banks it fully owns, never a lesson dir that may hold a 录音.
 STEPS = [
-    ("graph", "build-graph.py"),
-    ("pages", "build-pages.py"),
-    ("audio", "gen-audio.py"),
-    ("check", "check-source.py"),
+    ("graph", "build-graph.py", []),
+    ("pages", "build-pages.py", []),
+    ("phonetics", "build-phonetics.py", []),
+    ("audio", "gen-audio.py", ["--prune"]),
+    ("check", "check-source.py", []),
 ]
 
 
@@ -42,12 +46,12 @@ def main(argv):
     if "--no-check" in argv:
         skip.add("check")
 
-    for name, script in STEPS:
+    for name, script, args in STEPS:
         if name in skip:
             print(f"\n── skip {name}")
             continue
-        print(f"\n═══ {name}  ({script})")
-        code = subprocess.run([sys.executable, str(HERE / script)]).returncode
+        print(f"\n═══ {name}  ({' '.join([script, *args])})")
+        code = subprocess.run([sys.executable, str(HERE / script), *args]).returncode
         if code != 0:
             print(f"\n✗ build halted at '{name}' (exit {code})")
             return code
