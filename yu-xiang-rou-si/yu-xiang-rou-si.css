@@ -51,6 +51,12 @@ body.show-py .step-py { display:block; }
 .plan-steps { max-width:760px; padding-left:1.6rem; line-height:1.75; font-size:.95rem; }
 .plan-note { max-width:760px; margin-top:1.3rem; color:var(--muted); font-size:.88rem; line-height:1.7; }
 .plan-note b { color:var(--red); }
+/* how it actually went: the verdict after the photo strip */
+.verdict { max-width:760px; margin-top:.8rem; padding:1rem 1.25rem; background:var(--cream); border-left:4px solid var(--gold); border-radius:0 10px 10px 0; }
+.verdict-zh { margin:0; color:var(--navy); font-size:1.2rem; font-weight:700; line-height:1.6; }
+.verdict-py { display:none; margin:.3rem 0 0; color:var(--red); font-size:.8rem; }
+body.show-py .verdict-py { display:block; }
+.verdict-en { margin:.4rem 0 0; color:var(--muted); font-size:.88rem; line-height:1.6; }
 .answer details { margin-top:.8rem; border:1px solid rgba(255,255,255,.18); border-radius:8px; padding:.7rem .9rem; }
 .answer summary { cursor:pointer; color:var(--gold); }
 .answer p { line-height:1.75; margin:.65rem 0 0; }
