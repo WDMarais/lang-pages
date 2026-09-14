@@ -1,0 +1,47 @@
+{
+  "glyph": "号",
+  "cp": "U+53F7",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "口",
+    "丂"
+  ],
+  "readings": {
+    "cn": {
+      "name": "号",
+      "reading": "hào",
+      "gloss": "number; date (of the month); size",
+      "extra": "号码、几号、大号 · 口 + 丂 · 繁体作號"
+    },
+    "jp": {
+      "name": "号",
+      "reading": "ゴウ",
+      "gloss": "number; issue; sign",
+      "extra": "漢字「号」(ゴウ) · 番号(ばんごう)、記号(きごう)、信号(しんごう) · 旧字: 號"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "號"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Number",
+      "readings": [
+        "ゴウ"
+      ],
+      "on": true,
+      "level": 4
+    }
+  ]
+}

@@ -1735,6 +1735,24 @@
           "wk": null
         },
         {
+          "glyph": "元",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "yuan2",
+          "jpAudioKey": "moto",
+          "cn": {
+            "name": "元", "reading": "yuán", "gloss": "origin; first; yuan (currency unit)",
+            "extra": "二 + 儿 · 元旦、元素、一百元"
+          },
+          "jp": {
+            "name": "元", "reading": "もと", "gloss": "origin; beginning; source",
+            "extra": "漢字「元」(もと · ゲン・ガン) · 元気(げんき)、元日(がんじつ)、地元(じもと)"
+          },
+          "wk": null,
+          "kanji": { "name": "Origin", "readings": ["ゲン", "ガン"], "on": true, "kun": ["もと"], "level": 4 }
+        },
+        {
           "glyph": "公",
           "tag": "char",
           "image": "",
@@ -1937,6 +1955,7 @@
             "extra": "漢字「去」(キョ・コ · さ.る) · 去年(きょねん)、過去(かこ)、去る(さる)"
           },
           "wk": null,
+          "kanji": { "name": "Past", "readings": ["キョ", "コ"], "on": true, "kun": ["さ"], "level": 4 },
           "pdc": { "name": "go", "kind": "meaning", "level": 4 }
         },
         {
@@ -2082,6 +2101,25 @@
           },
           "wk": null,
           "kanji": { "name": "Machine", "readings": ["ダイ", "タイ"], "on": true, "level": 3 }
+        },
+        {
+          "glyph": "号",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hao4",
+          "jpAudioKey": "gou",
+          "script": {"traditional": [{"glyph": "號"}]},
+          "cn": {
+            "name": "号", "reading": "hào", "gloss": "number; date (of the month); size",
+            "extra": "号码、几号、大号 · 口 + 丂 · 繁体作號"
+          },
+          "jp": {
+            "name": "号", "reading": "ゴウ", "gloss": "number; issue; sign",
+            "extra": "漢字「号」(ゴウ) · 番号(ばんごう)、記号(きごう)、信号(しんごう) · 旧字: 號"
+          },
+          "wk": null,
+          "kanji": { "name": "Number", "readings": ["ゴウ"], "on": true, "level": 4 }
         },
         {
           "glyph": "同",
@@ -2371,6 +2409,23 @@
           },
           "wk": null,
           "pdc": { "name": "real", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "寸",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "cun4",
+          "jpAudioKey": "sun",
+          "cn": {
+            "name": "寸", "reading": "cùn", "gloss": "inch",
+            "extra": "一寸、尺寸 · 康熙部首 41"
+          },
+          "jp": {
+            "name": "寸", "reading": "すん", "gloss": "inch; a little",
+            "extra": "漢字「寸」(スン) · 一寸(いっすん)、寸法(すんぽう) · 部首「寸」(すん)"
+          },
+          "wk": { "name": "Measurement", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "少",
@@ -2989,6 +3044,24 @@
           "pdc": { "name": "from", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "男",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "nan2",
+          "jpAudioKey": "otoko",
+          "cn": {
+            "name": "男", "reading": "nán", "gloss": "man; male",
+            "extra": "田 + 力 · 男人、男生、男孩子"
+          },
+          "jp": {
+            "name": "男", "reading": "おとこ", "gloss": "man; male",
+            "extra": "漢字「男」(おとこ · ダン・ナン) · 男(おとこ)、男の子(おとこのこ)、長男(ちょうなん)"
+          },
+          "wk": null,
+          "kanji": { "name": "Man", "readings": ["ダン", "ナン"], "on": true, "kun": ["おとこ"], "level": 4 }
+        },
+        {
           "glyph": "百",
           "tag": "char",
           "image": "",
@@ -3158,6 +3231,25 @@
           },
           "wk": null,
           "pdc": { "name": "god", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "穴",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "xue2",
+          "jpAudioKey": "ana",
+          "cn": {
+            "name": "穴", "reading": "xué", "gloss": "cave; hole; acupuncture point",
+            "extra": "洞穴、穴位 · 宀 + 八 · 康熙部首 116"
+          },
+          "jp": {
+            "name": "穴", "reading": "あな", "gloss": "hole; cave",
+            "extra": "漢字「穴」(あな · ケツ) · 穴(あな)、落とし穴(おとしあな) · 部首「あなかんむり」"
+          },
+          "wk": { "name": "Hole", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Hole", "readings": ["ケツ"], "on": true, "kun": ["あな"], "level": 4 },
+          "pd": { "name": "cave", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "立",

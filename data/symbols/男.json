@@ -1,0 +1,44 @@
+{
+  "glyph": "男",
+  "cp": "U+7537",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "田",
+    "力"
+  ],
+  "readings": {
+    "cn": {
+      "name": "男",
+      "reading": "nán",
+      "gloss": "man; male",
+      "extra": "田 + 力 · 男人、男生、男孩子"
+    },
+    "jp": {
+      "name": "男",
+      "reading": "おとこ",
+      "gloss": "man; male",
+      "extra": "漢字「男」(おとこ · ダン・ナン) · 男(おとこ)、男の子(おとこのこ)、長男(ちょうなん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Man",
+      "readings": [
+        "ダン",
+        "ナン"
+      ],
+      "on": true,
+      "kun": [
+        "おとこ"
+      ],
+      "level": 4
+    }
+  ]
+}

@@ -61,13 +61,6 @@
       "label": "two"
     },
     {
-      "id": "g:元",
-      "kind": "glyph",
-      "glyph": "元",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:三",
       "kind": "glyph",
       "glyph": "三",
@@ -266,13 +259,6 @@
       "id": "r:power",
       "kind": "referent",
       "label": "power; strength"
-    },
-    {
-      "id": "g:男",
-      "kind": "glyph",
-      "glyph": "男",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:勹",
@@ -2389,6 +2375,24 @@
       "label": "hundred million"
     },
     {
+      "id": "g:元",
+      "kind": "glyph",
+      "glyph": "元",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "yuan2",
+      "jpAudioKey": "moto"
+    },
+    {
+      "id": "r:origin",
+      "kind": "referent",
+      "label": "origin; first; yuan (currency unit)"
+    },
+    {
       "id": "g:公",
       "kind": "glyph",
       "glyph": "公",
@@ -2919,6 +2923,31 @@
       "label": "platform; stand; counter (for machines)"
     },
     {
+      "id": "g:号",
+      "kind": "glyph",
+      "glyph": "号",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hao4",
+      "jpAudioKey": "gou",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "號"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:number",
+      "kind": "referent",
+      "label": "number; date (of the month); size"
+    },
+    {
       "id": "g:同",
       "kind": "glyph",
       "glyph": "同",
@@ -3320,7 +3349,8 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "cun4"
+      "cnAudioKey": "cun4",
+      "jpAudioKey": "sun"
     },
     {
       "id": "r:inch",
@@ -4667,6 +4697,24 @@
       "frontier": true
     },
     {
+      "id": "g:男",
+      "kind": "glyph",
+      "glyph": "男",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "nan2",
+      "jpAudioKey": "otoko"
+    },
+    {
+      "id": "r:man",
+      "kind": "referent",
+      "label": "man; male"
+    },
+    {
       "id": "g:疋",
       "kind": "glyph",
       "glyph": "疋",
@@ -5013,12 +5061,13 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "xue2"
+      "cnAudioKey": "xue2",
+      "jpAudioKey": "ana"
     },
     {
       "id": "r:cave",
       "kind": "referent",
-      "label": "cave"
+      "label": "cave; hole; acupuncture point"
     },
     {
       "id": "g:立",
@@ -7257,6 +7306,13 @@
       "id": "g:意",
       "kind": "glyph",
       "glyph": "意",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:丂",
+      "kind": "glyph",
+      "glyph": "丂",
       "tier": null,
       "frontier": true
     },
@@ -11841,6 +11897,82 @@
       "id": "r:next-year",
       "kind": "referent",
       "label": "next year"
+    },
+    {
+      "id": "w:戸@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "戸",
+      "reading": "と",
+      "gloss": "door",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "to"
+    },
+    {
+      "id": "w:生まれる@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "生まれる",
+      "reading": "うまれる",
+      "gloss": "to be born",
+      "okurigana": "まれる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "umareru"
+    },
+    {
+      "id": "r:be-born",
+      "kind": "referent",
+      "label": "to be born"
+    },
+    {
+      "id": "w:今日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "今日",
+      "reading": "きょう",
+      "gloss": "today",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "kyou"
+    },
+    {
+      "id": "r:today",
+      "kind": "referent",
+      "label": "today"
+    },
+    {
+      "id": "w:今月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "今月",
+      "reading": "こんげつ",
+      "gloss": "this month",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "kongetsu"
+    },
+    {
+      "id": "r:this-month",
+      "kind": "referent",
+      "label": "this month"
     }
   ]
 }

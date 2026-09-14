@@ -1395,6 +1395,20 @@
         }
       ]
     },
+    "hao4": {
+      "key": "hao4",
+      "pinyin": "hào",
+      "base": "hao",
+      "tone": 4,
+      "zhuyin": "ㄏㄠ",
+      "glyphs": [
+        {
+          "glyph": "号",
+          "gloss": "number; date (of the month); size",
+          "rank": 0
+        }
+      ]
+    },
     "he2": {
       "key": "he2",
       "pinyin": "hé",
@@ -2277,7 +2291,7 @@
       "glyphs": [
         {
           "glyph": "男",
-          "gloss": "male",
+          "gloss": "man; male",
           "rank": 0
         }
       ]
@@ -3756,7 +3770,7 @@
       "glyphs": [
         {
           "glyph": "穴",
-          "gloss": "cave",
+          "gloss": "cave; hole; acupuncture point",
           "rank": 0
         }
       ]
@@ -4212,7 +4226,7 @@
       "glyphs": [
         {
           "glyph": "元",
-          "gloss": "first; origin",
+          "gloss": "origin; first; yuan (currency unit)",
           "rank": 0
         },
         {

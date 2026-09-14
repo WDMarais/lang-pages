@@ -16,12 +16,21 @@
       "extra": "康熙部首 14"
     },
     "jp": {
-      "name": "冖",
+      "name": "わかんむり",
       "reading": "",
-      "gloss": "cover"
+      "gloss": "cover",
+      "extra": "部首「わかんむり」· 写/軍 の上"
     }
   },
   "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Forehead",
+      "kind": "mnemonic",
+      "level": 4
+    },
     {
       "source": "pandanese",
       "lang": "cn",

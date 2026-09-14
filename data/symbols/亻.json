@@ -32,6 +32,14 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Leader",
+      "kind": "mnemonic",
+      "level": 4
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

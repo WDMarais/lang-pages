@@ -839,6 +839,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:元",
+      "to": "r:origin",
+      "kind": "denotes"
+    },
+    {
       "from": "g:公",
       "to": "r:public",
       "kind": "denotes"
@@ -986,6 +991,11 @@
     {
       "from": "g:台",
       "to": "r:platform",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:号",
+      "to": "r:number",
       "kind": "denotes"
     },
     {
@@ -1499,6 +1509,11 @@
       "from": "g:由",
       "to": "g:油",
       "kind": "composes"
+    },
+    {
+      "from": "g:男",
+      "to": "r:man",
+      "kind": "denotes"
     },
     {
       "from": "g:疋",
@@ -3244,6 +3259,16 @@
     {
       "from": "g:口",
       "to": "g:台",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:号",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丂",
+      "to": "g:号",
       "kind": "composes"
     },
     {
@@ -7980,6 +8005,56 @@
     {
       "from": "w:明年@cn",
       "to": "r:next-year",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:戶",
+      "to": "w:戸@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:戸@jp",
+      "to": "r:door",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:生",
+      "to": "w:生まれる@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:生まれる@jp",
+      "to": "r:be-born",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:今",
+      "to": "w:今日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:今日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:今日@jp",
+      "to": "r:today",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:今",
+      "to": "w:今月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:今月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:今月@jp",
+      "to": "r:this-month",
       "kind": "denotes"
     },
     {

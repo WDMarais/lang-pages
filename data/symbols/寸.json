@@ -3,7 +3,6 @@
   "cp": "U+5BF8",
   "class": "char",
   "kangxi": 41,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -13,13 +12,23 @@
       "name": "寸",
       "reading": "cùn",
       "gloss": "inch",
-      "extra": "康熙部首 41"
+      "extra": "一寸、尺寸 · 康熙部首 41"
     },
     "jp": {
       "name": "寸",
-      "reading": "",
-      "gloss": "inch"
+      "reading": "すん",
+      "gloss": "inch; a little",
+      "extra": "漢字「寸」(スン) · 一寸(いっすん)、寸法(すんぽう) · 部首「寸」(すん)"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Measurement",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

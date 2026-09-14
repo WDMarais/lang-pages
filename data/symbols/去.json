@@ -26,6 +26,21 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Past",
+      "readings": [
+        "キョ",
+        "コ"
+      ],
+      "on": true,
+      "kun": [
+        "さ"
+      ],
+      "level": 4
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "character",

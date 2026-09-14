@@ -531,6 +531,12 @@
         "glyph": "休",
         "reading": "やす",
         "gloss": "to rest"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Leader",
+        "level": 4,
+        "kind": "mnemonic"
       }
     },
     {
@@ -4241,6 +4247,43 @@
       "extra": "漢字「億」(オク) · 一億、億万長者"
     },
     {
+      "id": "b:元@cn",
+      "glyph_id": "g:元",
+      "lang": "cn",
+      "name": "元",
+      "readings": [
+        "yuán"
+      ],
+      "gloss": "origin; first; yuan (currency unit)",
+      "extra": "二 + 儿 · 元旦、元素、一百元"
+    },
+    {
+      "id": "b:元@jp",
+      "glyph_id": "g:元",
+      "lang": "jp",
+      "name": "元",
+      "readings": [
+        "もと"
+      ],
+      "gloss": "origin; beginning; source",
+      "extra": "漢字「元」(もと · ゲン・ガン) · 元気(げんき)、元日(がんじつ)、地元(じもと)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Origin",
+          "readings": [
+            "ゲン",
+            "ガン"
+          ],
+          "on": true,
+          "kun": [
+            "もと"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:公@cn",
       "glyph_id": "g:公",
       "lang": "cn",
@@ -4291,10 +4334,16 @@
       "id": "b:冖@jp",
       "glyph_id": "g:冖",
       "lang": "jp",
-      "name": "冖",
+      "name": "わかんむり",
       "readings": [],
       "gloss": "cover",
-      "extra": ""
+      "extra": "部首「わかんむり」· 写/軍 の上",
+      "program": {
+        "source": "wanikani",
+        "name": "Forehead",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:冫@cn",
@@ -4864,7 +4913,22 @@
         "キョ"
       ],
       "gloss": "leave; past",
-      "extra": "漢字「去」(キョ・コ · さ.る) · 去年(きょねん)、過去(かこ)、去る(さる)"
+      "extra": "漢字「去」(キョ・コ · さ.る) · 去年(きょねん)、過去(かこ)、去る(さる)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Past",
+          "readings": [
+            "キョ",
+            "コ"
+          ],
+          "on": true,
+          "kun": [
+            "さ"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:又@cn",
@@ -5107,6 +5171,39 @@
           ],
           "on": true,
           "level": 3
+        }
+      }
+    },
+    {
+      "id": "b:号@cn",
+      "glyph_id": "g:号",
+      "lang": "cn",
+      "name": "号",
+      "readings": [
+        "hào"
+      ],
+      "gloss": "number; date (of the month); size",
+      "extra": "号码、几号、大号 · 口 + 丂 · 繁体作號"
+    },
+    {
+      "id": "b:号@jp",
+      "glyph_id": "g:号",
+      "lang": "jp",
+      "name": "号",
+      "readings": [
+        "ゴウ"
+      ],
+      "gloss": "number; issue; sign",
+      "extra": "漢字「号」(ゴウ) · 番号(ばんごう)、記号(きごう)、信号(しんごう) · 旧字: 號",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Number",
+          "readings": [
+            "ゴウ"
+          ],
+          "on": true,
+          "level": 4
         }
       }
     },
@@ -5687,16 +5784,24 @@
         "cùn"
       ],
       "gloss": "inch",
-      "extra": "康熙部首 41"
+      "extra": "一寸、尺寸 · 康熙部首 41"
     },
     {
       "id": "b:寸@jp",
       "glyph_id": "g:寸",
       "lang": "jp",
       "name": "寸",
-      "readings": [],
-      "gloss": "inch",
-      "extra": ""
+      "readings": [
+        "すん"
+      ],
+      "gloss": "inch; a little",
+      "extra": "漢字「寸」(スン) · 一寸(いっすん)、寸法(すんぽう) · 部首「寸」(すん)",
+      "program": {
+        "source": "wanikani",
+        "name": "Measurement",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:少@cn",
@@ -7779,6 +7884,43 @@
       }
     },
     {
+      "id": "b:男@cn",
+      "glyph_id": "g:男",
+      "lang": "cn",
+      "name": "男",
+      "readings": [
+        "nán"
+      ],
+      "gloss": "man; male",
+      "extra": "田 + 力 · 男人、男生、男孩子"
+    },
+    {
+      "id": "b:男@jp",
+      "glyph_id": "g:男",
+      "lang": "jp",
+      "name": "男",
+      "readings": [
+        "おとこ"
+      ],
+      "gloss": "man; male",
+      "extra": "漢字「男」(おとこ · ダン・ナン) · 男(おとこ)、男の子(おとこのこ)、長男(ちょうなん)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Man",
+          "readings": [
+            "ダン",
+            "ナン"
+          ],
+          "on": true,
+          "kun": [
+            "おとこ"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:疋@cn",
       "glyph_id": "g:疋",
       "lang": "cn",
@@ -8288,8 +8430,8 @@
       "readings": [
         "xué"
       ],
-      "gloss": "cave",
-      "extra": "康熙部首 116",
+      "gloss": "cave; hole; acupuncture point",
+      "extra": "洞穴、穴位 · 宀 + 八 · 康熙部首 116",
       "program": {
         "source": "pandanese",
         "name": "cave",
@@ -8302,9 +8444,28 @@
       "glyph_id": "g:穴",
       "lang": "jp",
       "name": "穴",
-      "readings": [],
-      "gloss": "cave",
-      "extra": ""
+      "readings": [
+        "あな"
+      ],
+      "gloss": "hole; cave",
+      "extra": "漢字「穴」(あな · ケツ) · 穴(あな)、落とし穴(おとしあな) · 部首「あなかんむり」",
+      "program": {
+        "source": "wanikani",
+        "name": "Hole",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Hole",
+          "readings": [
+            "ケツ"
+          ],
+          "on": true,
+          "kun": [
+            "あな"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:立@cn",

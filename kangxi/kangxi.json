@@ -635,11 +635,16 @@
             "extra": "康熙部首 14"
           },
           "jp": {
-            "name": "冖",
+            "name": "わかんむり",
             "reading": "",
-            "gloss": "cover"
+            "gloss": "cover",
+            "extra": "部首「わかんむり」· 写/軍 の上"
           },
-          "wk": null,
+          "wk": {
+            "name": "Forehead",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "pd": {
             "name": "cover",
             "level": 4,
@@ -1614,16 +1619,22 @@
             "name": "寸",
             "reading": "cùn",
             "gloss": "inch",
-            "extra": "康熙部首 41"
+            "extra": "一寸、尺寸 · 康熙部首 41"
           },
           "jp": {
             "name": "寸",
-            "reading": "",
-            "gloss": "inch"
+            "reading": "すん",
+            "gloss": "inch; a little",
+            "extra": "漢字「寸」(スン) · 一寸(いっすん)、寸法(すんぽう) · 部首「寸」(すん)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Measurement",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 41,
-          "cnAudioKey": "cun4"
+          "cnAudioKey": "cun4",
+          "jpAudioKey": "sun"
         },
         {
           "glyph": "小",
@@ -4169,22 +4180,39 @@
           "cn": {
             "name": "穴",
             "reading": "xué",
-            "gloss": "cave",
-            "extra": "康熙部首 116"
+            "gloss": "cave; hole; acupuncture point",
+            "extra": "洞穴、穴位 · 宀 + 八 · 康熙部首 116"
           },
           "jp": {
             "name": "穴",
-            "reading": "",
-            "gloss": "cave"
+            "reading": "あな",
+            "gloss": "hole; cave",
+            "extra": "漢字「穴」(あな · ケツ) · 穴(あな)、落とし穴(おとしあな) · 部首「あなかんむり」"
           },
-          "wk": null,
+          "wk": {
+            "name": "Hole",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Hole",
+            "readings": [
+              "ケツ"
+            ],
+            "on": true,
+            "kun": [
+              "あな"
+            ],
+            "level": 4
+          },
           "pd": {
             "name": "cave",
             "level": 4,
             "kind": "meaning"
           },
           "kx": 116,
-          "cnAudioKey": "xue2"
+          "cnAudioKey": "xue2",
+          "jpAudioKey": "ana"
         },
         {
           "glyph": "立",
@@ -6577,7 +6605,11 @@
               "gloss": "to rest"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Leader",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "pd": {
             "name": "staff",
             "level": 1,

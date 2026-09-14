@@ -19,6 +19,10 @@
     "text": "アメリカじん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ana.mp3": {
+    "text": "あな",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "arau.mp3": {
     "text": "あらう",
     "voice": "ja-JP-NanamiNeural"
@@ -177,6 +181,10 @@
   },
   "gojuu.mp3": {
     "text": "ごじゅう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "gou.mp3": {
+    "text": "ゴウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "gun.mp3": {
@@ -507,6 +515,10 @@
     "text": "こころ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kongetsu.mp3": {
+    "text": "こんげつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "konnichiha.mp3": {
     "text": "こんにちは",
     "voice": "ja-JP-NanamiNeural"
@@ -645,6 +657,10 @@
   },
   "mono.mp3": {
     "text": "もの",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "moto.mp3": {
+    "text": "もと",
     "voice": "ja-JP-NanamiNeural"
   },
   "motte.mp3": {
@@ -975,6 +991,10 @@
     "text": "すくない",
     "voice": "ja-JP-NanamiNeural"
   },
+  "sun.mp3": {
+    "text": "すん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "suru.mp3": {
     "text": "する",
     "voice": "ja-JP-NanamiNeural"
@@ -1117,6 +1137,10 @@
   },
   "ue.mp3": {
     "text": "うえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "umareru.mp3": {
+    "text": "うまれる",
     "voice": "ja-JP-NanamiNeural"
   },
   "umi.mp3": {

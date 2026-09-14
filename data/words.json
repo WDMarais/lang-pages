@@ -3656,6 +3656,69 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "戸",
+      "audience": "jp",
+      "parts": [
+        "戶"
+      ],
+      "denotes": "door",
+      "reading": "と",
+      "gloss": "door",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "生まれる",
+      "audience": "jp",
+      "parts": [
+        "生"
+      ],
+      "denotes": "be-born",
+      "reading": "うまれる",
+      "gloss": "to be born",
+      "okurigana": "まれる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "今日",
+      "audience": "jp",
+      "parts": [
+        "今",
+        "日"
+      ],
+      "denotes": "today",
+      "reading": "きょう",
+      "gloss": "today",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "今月",
+      "audience": "jp",
+      "parts": [
+        "今",
+        "月"
+      ],
+      "denotes": "this-month",
+      "reading": "こんげつ",
+      "gloss": "this month",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

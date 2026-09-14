@@ -3,7 +3,6 @@
   "cp": "U+7A74",
   "class": "char",
   "kangxi": 116,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -16,16 +15,39 @@
     "cn": {
       "name": "穴",
       "reading": "xué",
-      "gloss": "cave",
-      "extra": "康熙部首 116"
+      "gloss": "cave; hole; acupuncture point",
+      "extra": "洞穴、穴位 · 宀 + 八 · 康熙部首 116"
     },
     "jp": {
       "name": "穴",
-      "reading": "",
-      "gloss": "cave"
+      "reading": "あな",
+      "gloss": "hole; cave",
+      "extra": "漢字「穴」(あな · ケツ) · 穴(あな)、落とし穴(おとしあな) · 部首「あなかんむり」"
     }
   },
   "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Hole",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Hole",
+      "readings": [
+        "ケツ"
+      ],
+      "on": true,
+      "kun": [
+        "あな"
+      ],
+      "level": 4
+    },
     {
       "source": "pandanese",
       "lang": "cn",
