@@ -1996,6 +1996,23 @@
           "pdc": { "name": "send", "kind": "meaning", "level": 4 }
         },
         {
+          "glyph": "取",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "qu3",
+          "jpAudioKey": "shu",
+          "cn": {
+            "name": "取", "reading": "qǔ", "gloss": "take; get, obtain; fetch; choose, select",
+            "extra": "取得、取消、听取、争取 · 耳 + 又（又为手：以手取耳，古代战后割耳计功）"
+          },
+          "jp": {
+            "name": "取", "reading": "シュ", "gloss": "take",
+            "extra": "漢字「取」(シュ · と.る) · 取る(とる)、取材(しゅざい)、受け取る(うけとる)"
+          },
+          "wk": null
+        },
+        {
           "glyph": "古",
           "tag": "char",
           "image": "",

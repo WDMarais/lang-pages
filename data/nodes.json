@@ -2831,6 +2831,24 @@
       "label": "send; send out, emit, issue; develop; hair (fà)"
     },
     {
+      "id": "g:取",
+      "kind": "glyph",
+      "glyph": "取",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "qu3",
+      "jpAudioKey": "shu"
+    },
+    {
+      "id": "r:take",
+      "kind": "referent",
+      "label": "take; get, obtain; fetch; choose, select"
+    },
+    {
       "id": "g:古",
       "kind": "glyph",
       "glyph": "古",
@@ -5229,13 +5247,6 @@
       "id": "r:ear",
       "kind": "referent",
       "label": "ear"
-    },
-    {
-      "id": "g:取",
-      "kind": "glyph",
-      "glyph": "取",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:聿",

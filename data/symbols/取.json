@@ -1,0 +1,28 @@
+{
+  "glyph": "取",
+  "cp": "U+53D6",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "耳",
+    "又"
+  ],
+  "readings": {
+    "cn": {
+      "name": "取",
+      "reading": "qǔ",
+      "gloss": "take; get, obtain; fetch; choose, select",
+      "extra": "取得、取消、听取、争取 · 耳 + 又（又为手：以手取耳，古代战后割耳计功）"
+    },
+    "jp": {
+      "name": "取",
+      "reading": "シュ",
+      "gloss": "take",
+      "extra": "漢字「取」(シュ · と.る) · 取る(とる)、取材(しゅざい)、受け取る(うけとる)"
+    }
+  },
+  "programs": []
+}

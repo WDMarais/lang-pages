@@ -964,6 +964,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:取",
+      "to": "r:take",
+      "kind": "denotes"
+    },
+    {
       "from": "g:古",
       "to": "r:ancient",
       "kind": "denotes"
@@ -3204,6 +3209,11 @@
     {
       "from": "g:丶",
       "to": "g:发",
+      "kind": "composes"
+    },
+    {
+      "from": "g:又",
+      "to": "g:取",
       "kind": "composes"
     },
     {
