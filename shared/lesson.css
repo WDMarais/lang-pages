@@ -79,6 +79,7 @@ body.show-py .qpy { display: block; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 1rem;
+  container-type: inline-size;   /* sequences span by the strip's own column count */
 }
 .cook-fig {
   background: white; border: 1px solid var(--border); border-radius: 10px;
@@ -88,6 +89,26 @@ body.show-py .qpy { display: block; }
   width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block;
   background: var(--navy);
 }
+/* A step told as a before→after sequence: one figure, 2–3 frames side by side.
+   Spans two strip columns once the strip has two (2 × 210px + 1rem gap = 436px);
+   a single column on phones. */
+.cook-seq-imgs {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+  gap: 2px; background: var(--border);
+}
+@container (min-width: 436px) { .cook-seq { grid-column: span 2; } }
+/* .cook-stack: the frames stacked in one column, two rows tall, for a pair that
+   would otherwise leave a hole (e.g. after two singles, before a wide sequence).
+   Only at three columns (662px); below that it falls back to side by side. */
+@container (min-width: 662px) {
+  .cook-seq.cook-stack { grid-column: auto; grid-row: span 2; }
+  .cook-stack .cook-seq-imgs { display: flex; flex-direction: column; flex: 1; }
+  .cook-stack .cook-seq-imgs img { flex: 1 1 0; min-height: 0; aspect-ratio: auto; }
+}
+/* Three frames across two columns: go slightly portrait so the row height
+   matches a single 4:3 frame beside it (3 × ⅔-width frames at 8:9 ≈ 4:3). */
+.cook-seq-imgs img:first-child:nth-last-child(3),
+.cook-seq-imgs img:first-child:nth-last-child(3) ~ img { aspect-ratio: 8 / 9; }
 .cook-cap { padding: 0.7rem 0.85rem 0.9rem; }
 .cook-step {
   font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase;
