@@ -12,11 +12,14 @@ then slide it into position. Tune s/tx/ty against a reference glyph; `--preview`
 writes an SVG you can open in a browser.
 
 Usage:
-    assemble.py <target> <part>@<s>,<tx>,<ty> [<part>@<s>,<tx>,<ty> ...]
+    assemble.py <target> <part>[:<i>,<j>…]@<s>,<tx>,<ty> [...]
     assemble.py 広 广@1,0,0 厶@0.68,250,32
+    assemble.py 氷 水:0@1,0,0 丶@0.55,-33,352 水:1,2,3@1,0,0
     assemble.py 広 ... --preview     # also write <target>.preview.svg, don't touch data
 
 Parts are concatenated in the order given — that IS the stroke (animation) order.
+An optional `:<i>,<j>…` selector takes only those strokes (0-based) of a part, so
+a stroke can be slotted between another part's strokes (氷: the dot is stroke 2).
 """
 import json
 import re
@@ -78,10 +81,14 @@ def load_part(glyph):
 
 def assemble(specs):
     strokes, medians = [], []
-    for glyph, s, tx, ty in specs:
+    for glyph, idx, s, tx, ty in specs:
         d = load_part(glyph)
-        strokes += [transform_path(p, s, tx, ty) for p in d["strokes"]]
-        medians += transform_medians(d["medians"], s, tx, ty)
+        keep = range(len(d["strokes"])) if idx is None else idx
+        for i in keep:
+            if not 0 <= i < len(d["strokes"]):
+                sys.exit(f"{glyph} has {len(d['strokes'])} stroke(s); no stroke {i}")
+        strokes += [transform_path(d["strokes"][i], s, tx, ty) for i in keep]
+        medians += transform_medians([d["medians"][i] for i in keep], s, tx, ty)
     return {"strokes": strokes, "medians": medians}
 
 
@@ -101,14 +108,22 @@ def preview_svg(data):
 
 
 def parse_spec(tok):
-    glyph, _, rest = tok.partition("@")
+    part, _, rest = tok.partition("@")
+    usage = f"bad spec {tok!r} — expected <part>[:<i>,<j>…]@<s>,<tx>,<ty>"
     if not rest:
-        sys.exit(f"bad spec {tok!r} — expected <part>@<s>,<tx>,<ty>")
+        sys.exit(usage)
+    glyph, _, sel = part.partition(":")
     try:
         s, tx, ty = (float(x) for x in rest.split(","))
+        idx = [int(i) for i in sel.split(",")] if sel else None
     except ValueError:
-        sys.exit(f"bad spec {tok!r} — expected <part>@<s>,<tx>,<ty>")
-    return (glyph, s, tx, ty)
+        sys.exit(usage)
+    return (glyph, idx, s, tx, ty)
+
+
+def _spec_str(glyph, idx, s, tx, ty):
+    sel = f":{','.join(map(str, idx))}" if idx is not None else ""
+    return f"{glyph}{sel}@{s},{tx},{ty}"
 
 
 def main(argv):
@@ -128,7 +143,7 @@ def main(argv):
 
     out = HERE / f"{target}.json"
     out.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
-    parts = " + ".join(f"{g}@{s},{tx},{ty}" for g, s, tx, ty in specs)
+    parts = " + ".join(_spec_str(*spec) for spec in specs)
     print(f"wrote {out.name}  ({len(data['strokes'])} stroke(s))  ← {parts}")
     return 0
 
