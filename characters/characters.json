@@ -634,7 +634,7 @@
           "jpAudioKey": "naka",
           "jpExAudioKey": "chuu",
           "cn": {
-            "name": "中", "reading": "zhōng", "gloss": "middle; centre",
+            "name": "中", "reading": "zhōng", "gloss": "middle; inside",
             "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
             "appearsIn": { "char": "忠", "reading": "zhōng", "gloss": "loyal" }
           },
@@ -1456,7 +1456,7 @@
             "extra": "漢字「也」(ヤ) · 古語・人名用",
             "appearsIn": { "char": "地", "reading": "チ", "gloss": "ground; earth" }
           },
-          "wk": null,
+          "wk": { "name": "Alligator", "level": 4, "kind": "mnemonic" },
           "pd": { "name": "also", "level": 1, "kind": "meaning" },
           "pdc": { "name": "also", "kind": "meaning", "level": 1 }
         },
@@ -1769,6 +1769,25 @@
           },
           "wk": null,
           "pdc": { "name": "public", "kind": "meaning", "level": 4 }
+        },
+        {
+          "glyph": "内",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "nei4",
+          "jpAudioKey": "uchi",
+          "script": {"traditional": [{"glyph": "內"}]},
+          "cn": {
+            "name": "内", "reading": "nèi", "gloss": "inside; inner; within",
+            "extra": "内容、内部、国内 · 冂 + 人 · 繁体作內"
+          },
+          "jp": {
+            "name": "内", "reading": "うち", "gloss": "inside; within",
+            "extra": "漢字「内」(うち · ナイ・ダイ) · 内(うち)、内側(うちがわ)、国内(こくない) · 旧字: 內"
+          },
+          "wk": null,
+          "kanji": { "name": "Inside", "readings": ["ナイ", "ダイ"], "on": true, "kun": ["うち"], "level": 3 }
         },
         {
           "glyph": "冬",
@@ -2302,6 +2321,24 @@
           "pdc": { "name": "fat", "kind": "mnemonic", "level": 2 }
         },
         {
+          "glyph": "央",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "yang1",
+          "jpAudioKey": "ou",
+          "cn": {
+            "name": "央", "reading": "yāng", "gloss": "centre; central",
+            "extra": "中央 · 冂 + 大"
+          },
+          "jp": {
+            "name": "央", "reading": "オウ", "gloss": "centre; central",
+            "extra": "漢字「央」(オウ) · 中央(ちゅうおう)"
+          },
+          "wk": null,
+          "kanji": { "name": "Center", "readings": ["オウ"], "on": true, "level": 4 }
+        },
+        {
           "glyph": "头",
           "tag": "char",
           "image": "",
@@ -2652,6 +2689,42 @@
           "kanji": { "name": "Door", "readings": ["コ"], "on": true, "kun": ["と"], "level": 3 }
         },
         {
+          "glyph": "打",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "da3",
+          "jpAudioKey": "utsu",
+          "cn": {
+            "name": "打", "reading": "dǎ", "gloss": "to hit; to strike; to play (a game)",
+            "extra": "扌 + 丁 · 打电话、打车、打球"
+          },
+          "jp": {
+            "name": "打", "reading": "うつ", "gloss": "to hit; to strike",
+            "extra": "漢字「打」(う-つ · ダ) · 打つ(うつ)、打者(だしゃ)、打楽器(だがっき)"
+          },
+          "wk": null,
+          "kanji": { "name": "Hit", "readings": ["ダ"], "on": true, "kun": ["う"], "level": 4 }
+        },
+        {
+          "glyph": "支",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zhi1",
+          "jpAudioKey": "shi",
+          "cn": {
+            "name": "支", "reading": "zhī", "gloss": "branch; to support; to pay out",
+            "extra": "支持、一支笔、支付 · 十 + 又 · 康熙部首 65"
+          },
+          "jp": {
+            "name": "支", "reading": "シ", "gloss": "branch; support",
+            "extra": "漢字「支」(シ · ささ-える) · 支える(ささえる)、支店(してん)、支度(したく) · 部首「しにょう」"
+          },
+          "wk": { "name": "Branch", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Branch", "readings": ["シ"], "on": true, "kun": ["ささ"], "level": 4 }
+        },
+        {
           "glyph": "政",
           "tag": "char",
           "image": "",
@@ -2925,6 +2998,25 @@
           "wk": { "name": "Fur", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Fur", "readings": ["モウ"], "on": true, "kun": ["け"], "level": 3 },
           "pd": { "name": "fur", "level": 2, "kind": "meaning" }
+        },
+        {
+          "glyph": "氷",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "bing1",
+          "jpAudioKey": "koori",
+          "script": {"keyed": "shinjitai", "simplified": [{"glyph": "冰"}], "traditional": [{"glyph": "冰"}]},
+          "cn": {
+            "name": "氷", "reading": "bīng", "gloss": "ice",
+            "extra": "日本新字体 · 中文作「冰」·「氷」在中文为异体、罕用"
+          },
+          "jp": {
+            "name": "氷", "reading": "こおり", "gloss": "ice",
+            "extra": "漢字「氷」(こおり · ひ · ヒョウ) · 氷(こおり)、氷山(ひょうざん)、かき氷(かきごおり)"
+          },
+          "wk": null,
+          "kanji": { "name": "Ice", "readings": ["ヒョウ"], "on": true, "kun": ["こおり", "ひ"], "level": 4 }
         },
         {
           "glyph": "然",

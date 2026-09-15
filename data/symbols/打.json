@@ -1,0 +1,43 @@
+{
+  "glyph": "打",
+  "cp": "U+6253",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "扌",
+    "丁"
+  ],
+  "readings": {
+    "cn": {
+      "name": "打",
+      "reading": "dǎ",
+      "gloss": "to hit; to strike; to play (a game)",
+      "extra": "扌 + 丁 · 打电话、打车、打球"
+    },
+    "jp": {
+      "name": "打",
+      "reading": "うつ",
+      "gloss": "to hit; to strike",
+      "extra": "漢字「打」(う-つ · ダ) · 打つ(うつ)、打者(だしゃ)、打楽器(だがっき)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Hit",
+      "readings": [
+        "ダ"
+      ],
+      "on": true,
+      "kun": [
+        "う"
+      ],
+      "level": 4
+    }
+  ]
+}

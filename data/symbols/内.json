@@ -1,0 +1,51 @@
+{
+  "glyph": "内",
+  "cp": "U+5185",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "冂",
+    "人"
+  ],
+  "readings": {
+    "cn": {
+      "name": "内",
+      "reading": "nèi",
+      "gloss": "inside; inner; within",
+      "extra": "内容、内部、国内 · 冂 + 人 · 繁体作內"
+    },
+    "jp": {
+      "name": "内",
+      "reading": "うち",
+      "gloss": "inside; within",
+      "extra": "漢字「内」(うち · ナイ・ダイ) · 内(うち)、内側(うちがわ)、国内(こくない) · 旧字: 內"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "內"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Inside",
+      "readings": [
+        "ナイ",
+        "ダイ"
+      ],
+      "on": true,
+      "kun": [
+        "うち"
+      ],
+      "level": 3
+    }
+  ]
+}

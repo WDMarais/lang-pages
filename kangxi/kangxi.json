@@ -2135,11 +2135,16 @@
             "extra": "康熙部首 56"
           },
           "jp": {
-            "name": "弋",
+            "name": "しきがまえ",
             "reading": "",
-            "gloss": "shoot"
+            "gloss": "shoot",
+            "extra": "部首「しきがまえ」· 式/代 に見える"
           },
-          "wk": null,
+          "wk": {
+            "name": "Ceremony",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "kx": 56,
           "cnAudioKey": "yi4"
         },
@@ -2446,17 +2451,34 @@
           "cn": {
             "name": "支",
             "reading": "zhī",
-            "gloss": "branch",
-            "extra": "康熙部首 65"
+            "gloss": "branch; to support; to pay out",
+            "extra": "支持、一支笔、支付 · 十 + 又 · 康熙部首 65"
           },
           "jp": {
             "name": "支",
-            "reading": "",
-            "gloss": "branch"
+            "reading": "シ",
+            "gloss": "branch; support",
+            "extra": "漢字「支」(シ · ささ-える) · 支える(ささえる)、支店(してん)、支度(したく) · 部首「しにょう」"
           },
-          "wk": null,
+          "wk": {
+            "name": "Branch",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Branch",
+            "readings": [
+              "シ"
+            ],
+            "on": true,
+            "kun": [
+              "ささ"
+            ],
+            "level": 4
+          },
           "kx": 65,
-          "cnAudioKey": "zhi1"
+          "cnAudioKey": "zhi1",
+          "jpAudioKey": "shi"
         },
         {
           "glyph": "攴",
@@ -7075,6 +7097,41 @@
             "level": 4,
             "kind": "mnemonic"
           }
+        },
+        {
+          "glyph": "礻",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "礻",
+            "reading": "",
+            "gloss": "altar (left radical form)",
+            "extra": "「示」的偏旁（在左）· 示字旁 · 神、礼、社、视",
+            "appearsIn": {
+              "char": "神",
+              "reading": "shén",
+              "gloss": "god"
+            }
+          },
+          "jp": {
+            "name": "礻",
+            "reading": "",
+            "gloss": "altar (left radical form)",
+            "extra": "「示」の偏旁「しめすへん」· 神/社/礼 の左",
+            "appearsIn": {
+              "char": "神",
+              "reading": "かみ",
+              "gloss": "god"
+            }
+          },
+          "wk": {
+            "name": "Spirit",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "cnExAudioKey": "shen2",
+          "jpExAudioKey": "kami"
         },
         {
           "glyph": "艹",

@@ -3719,6 +3719,130 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "半分",
+      "audience": "jp",
+      "parts": [
+        "半",
+        "分"
+      ],
+      "denotes": "half",
+      "reading": "はんぶん",
+      "gloss": "half",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "内",
+      "audience": "jp",
+      "parts": [
+        "内"
+      ],
+      "denotes": "inside",
+      "reading": "うち",
+      "gloss": "inside; within",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "生ビール",
+      "audience": "jp",
+      "parts": [
+        "生"
+      ],
+      "denotes": "draft-beer",
+      "reading": "なまビール",
+      "gloss": "draft beer",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "字",
+      "audience": "jp",
+      "parts": [
+        "字"
+      ],
+      "denotes": "character",
+      "reading": "じ",
+      "gloss": "character; letter; handwriting",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "北口",
+      "audience": "jp",
+      "parts": [
+        "北",
+        "口"
+      ],
+      "denotes": "north-exit",
+      "reading": "きたぐち",
+      "gloss": "north exit; north entrance",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "半",
+      "audience": "jp",
+      "parts": [
+        "半"
+      ],
+      "denotes": "half",
+      "reading": "はん",
+      "gloss": "half; half past (the hour)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "古い",
+      "audience": "jp",
+      "parts": [
+        "古"
+      ],
+      "denotes": "old",
+      "reading": "ふるい",
+      "gloss": "old (of things)",
+      "okurigana": "い",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "中古",
+      "audience": "jp",
+      "parts": [
+        "中",
+        "古"
+      ],
+      "denotes": "second-hand",
+      "reading": "ちゅうこ",
+      "gloss": "second-hand; used",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

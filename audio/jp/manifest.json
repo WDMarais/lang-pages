@@ -91,6 +91,10 @@
     "text": "チュウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "chuuko.mp3": {
+    "text": "ちゅうこ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "chuushi.mp3": {
     "text": "ちゅうし",
     "voice": "ja-JP-NanamiNeural"
@@ -217,6 +221,10 @@
   },
   "han.mp3": {
     "text": "ハン",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "hanbun.mp3": {
+    "text": "はんぶん",
     "voice": "ja-JP-NanamiNeural"
   },
   "hane.mp3": {
@@ -491,6 +499,10 @@
     "text": "きた",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kitaguchi.mp3": {
+    "text": "きたぐち",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ko.mp3": {
     "text": "こ",
     "voice": "ja-JP-NanamiNeural"
@@ -693,6 +705,10 @@
   },
   "nama.mp3": {
     "text": "なま",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "namabiiru.mp3": {
+    "text": "なまビール",
     "voice": "ja-JP-NanamiNeural"
   },
   "nana.mp3": {

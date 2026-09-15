@@ -16,10 +16,20 @@
       "extra": "康熙部首 56"
     },
     "jp": {
-      "name": "弋",
+      "name": "しきがまえ",
       "reading": "",
-      "gloss": "shoot"
+      "gloss": "shoot",
+      "extra": "部首「しきがまえ」· 式/代 に見える"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Ceremony",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
 }

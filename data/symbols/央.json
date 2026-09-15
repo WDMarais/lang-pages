@@ -1,0 +1,40 @@
+{
+  "glyph": "央",
+  "cp": "U+592E",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "冂",
+    "大"
+  ],
+  "readings": {
+    "cn": {
+      "name": "央",
+      "reading": "yāng",
+      "gloss": "centre; central",
+      "extra": "中央 · 冂 + 大"
+    },
+    "jp": {
+      "name": "央",
+      "reading": "オウ",
+      "gloss": "centre; central",
+      "extra": "漢字「央」(オウ) · 中央(ちゅうおう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Center",
+      "readings": [
+        "オウ"
+      ],
+      "on": true,
+      "level": 4
+    }
+  ]
+}

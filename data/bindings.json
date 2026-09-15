@@ -1683,7 +1683,7 @@
       "readings": [
         "zhōng"
       ],
-      "gloss": "middle; centre",
+      "gloss": "middle; inside",
       "extra": "口 + 丨 · 指事「贯穿其中」· 中国、中间",
       "appearsIn": {
         "glyph": "忠",
@@ -3812,6 +3812,12 @@
         "glyph": "地",
         "reading": "チ",
         "gloss": "ground; earth"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Alligator",
+        "level": 4,
+        "kind": "mnemonic"
       }
     },
     {
@@ -4312,6 +4318,43 @@
       ],
       "gloss": "public; official",
       "extra": "漢字「公」(コウ · おおやけ) · 公園(こうえん)、公開(こうかい)、公平(こうへい)"
+    },
+    {
+      "id": "b:内@cn",
+      "glyph_id": "g:内",
+      "lang": "cn",
+      "name": "内",
+      "readings": [
+        "nèi"
+      ],
+      "gloss": "inside; inner; within",
+      "extra": "内容、内部、国内 · 冂 + 人 · 繁体作內"
+    },
+    {
+      "id": "b:内@jp",
+      "glyph_id": "g:内",
+      "lang": "jp",
+      "name": "内",
+      "readings": [
+        "うち"
+      ],
+      "gloss": "inside; within",
+      "extra": "漢字「内」(うち · ナイ・ダイ) · 内(うち)、内側(うちがわ)、国内(こくない) · 旧字: 內",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Inside",
+          "readings": [
+            "ナイ",
+            "ダイ"
+          ],
+          "on": true,
+          "kun": [
+            "うち"
+          ],
+          "level": 3
+        }
+      }
     },
     {
       "id": "b:冖@cn",
@@ -5606,6 +5649,39 @@
       }
     },
     {
+      "id": "b:央@cn",
+      "glyph_id": "g:央",
+      "lang": "cn",
+      "name": "央",
+      "readings": [
+        "yāng"
+      ],
+      "gloss": "centre; central",
+      "extra": "中央 · 冂 + 大"
+    },
+    {
+      "id": "b:央@jp",
+      "glyph_id": "g:央",
+      "lang": "jp",
+      "name": "央",
+      "readings": [
+        "オウ"
+      ],
+      "gloss": "centre; central",
+      "extra": "漢字「央」(オウ) · 中央(ちゅうおう)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Center",
+          "readings": [
+            "オウ"
+          ],
+          "on": true,
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:头@cn",
       "glyph_id": "g:头",
       "lang": "cn",
@@ -6239,10 +6315,16 @@
       "id": "b:弋@jp",
       "glyph_id": "g:弋",
       "lang": "jp",
-      "name": "弋",
+      "name": "しきがまえ",
       "readings": [],
       "gloss": "shoot",
-      "extra": ""
+      "extra": "部首「しきがまえ」· 式/代 に見える",
+      "program": {
+        "source": "wanikani",
+        "name": "Ceremony",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:引@cn",
@@ -6560,6 +6642,42 @@
       }
     },
     {
+      "id": "b:打@cn",
+      "glyph_id": "g:打",
+      "lang": "cn",
+      "name": "打",
+      "readings": [
+        "dǎ"
+      ],
+      "gloss": "to hit; to strike; to play (a game)",
+      "extra": "扌 + 丁 · 打电话、打车、打球"
+    },
+    {
+      "id": "b:打@jp",
+      "glyph_id": "g:打",
+      "lang": "jp",
+      "name": "打",
+      "readings": [
+        "うつ"
+      ],
+      "gloss": "to hit; to strike",
+      "extra": "漢字「打」(う-つ · ダ) · 打つ(うつ)、打者(だしゃ)、打楽器(だがっき)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Hit",
+          "readings": [
+            "ダ"
+          ],
+          "on": true,
+          "kun": [
+            "う"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:支@cn",
       "glyph_id": "g:支",
       "lang": "cn",
@@ -6567,17 +6685,36 @@
       "readings": [
         "zhī"
       ],
-      "gloss": "branch",
-      "extra": "康熙部首 65"
+      "gloss": "branch; to support; to pay out",
+      "extra": "支持、一支笔、支付 · 十 + 又 · 康熙部首 65"
     },
     {
       "id": "b:支@jp",
       "glyph_id": "g:支",
       "lang": "jp",
       "name": "支",
-      "readings": [],
-      "gloss": "branch",
-      "extra": ""
+      "readings": [
+        "シ"
+      ],
+      "gloss": "branch; support",
+      "extra": "漢字「支」(シ · ささ-える) · 支える(ささえる)、支店(してん)、支度(したく) · 部首「しにょう」",
+      "program": {
+        "source": "wanikani",
+        "name": "Branch",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Branch",
+          "readings": [
+            "シ"
+          ],
+          "on": true,
+          "kun": [
+            "ささ"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:攴@cn",
@@ -7434,6 +7571,43 @@
       "readings": [],
       "gloss": "steam",
       "extra": ""
+    },
+    {
+      "id": "b:氷@cn",
+      "glyph_id": "g:氷",
+      "lang": "cn",
+      "name": "氷",
+      "readings": [
+        "bīng"
+      ],
+      "gloss": "ice",
+      "extra": "日本新字体 · 中文作「冰」·「氷」在中文为异体、罕用"
+    },
+    {
+      "id": "b:氷@jp",
+      "glyph_id": "g:氷",
+      "lang": "jp",
+      "name": "氷",
+      "readings": [
+        "こおり"
+      ],
+      "gloss": "ice",
+      "extra": "漢字「氷」(こおり · ひ · ヒョウ) · 氷(こおり)、氷山(ひょうざん)、かき氷(かきごおり)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Ice",
+          "readings": [
+            "ヒョウ"
+          ],
+          "on": true,
+          "kun": [
+            "こおり",
+            "ひ"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:灬@cn",
@@ -8351,6 +8525,40 @@
       "readings": [],
       "gloss": "altar",
       "extra": ""
+    },
+    {
+      "id": "b:礻@cn",
+      "glyph_id": "g:礻",
+      "lang": "cn",
+      "name": "礻",
+      "readings": [],
+      "gloss": "altar (left radical form)",
+      "extra": "「示」的偏旁（在左）· 示字旁 · 神、礼、社、视",
+      "appearsIn": {
+        "glyph": "神",
+        "reading": "shén",
+        "gloss": "god"
+      }
+    },
+    {
+      "id": "b:礻@jp",
+      "glyph_id": "g:礻",
+      "lang": "jp",
+      "name": "礻",
+      "readings": [],
+      "gloss": "altar (left radical form)",
+      "extra": "「示」の偏旁「しめすへん」· 神/社/礼 の左",
+      "appearsIn": {
+        "glyph": "神",
+        "reading": "かみ",
+        "gloss": "god"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Spirit",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:神@cn",

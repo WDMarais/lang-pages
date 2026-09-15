@@ -3,7 +3,6 @@
   "cp": "U+652F",
   "class": "char",
   "kangxi": 65,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -16,14 +15,38 @@
     "cn": {
       "name": "支",
       "reading": "zhī",
-      "gloss": "branch",
-      "extra": "康熙部首 65"
+      "gloss": "branch; to support; to pay out",
+      "extra": "支持、一支笔、支付 · 十 + 又 · 康熙部首 65"
     },
     "jp": {
       "name": "支",
-      "reading": "",
-      "gloss": "branch"
+      "reading": "シ",
+      "gloss": "branch; support",
+      "extra": "漢字「支」(シ · ささ-える) · 支える(ささえる)、支店(してん)、支度(したく) · 部首「しにょう」"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Branch",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Branch",
+      "readings": [
+        "シ"
+      ],
+      "on": true,
+      "kun": [
+        "ささ"
+      ],
+      "level": 4
+    }
+  ]
 }

@@ -1,0 +1,57 @@
+{
+  "glyph": "氷",
+  "cp": "U+6C37",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "丶",
+    "水"
+  ],
+  "readings": {
+    "cn": {
+      "name": "氷",
+      "reading": "bīng",
+      "gloss": "ice",
+      "extra": "日本新字体 · 中文作「冰」·「氷」在中文为异体、罕用"
+    },
+    "jp": {
+      "name": "氷",
+      "reading": "こおり",
+      "gloss": "ice",
+      "extra": "漢字「氷」(こおり · ひ · ヒョウ) · 氷(こおり)、氷山(ひょうざん)、かき氷(かきごおり)"
+    }
+  },
+  "script": {
+    "keyed": "shinjitai",
+    "simplified": [
+      {
+        "glyph": "冰"
+      }
+    ],
+    "traditional": [
+      {
+        "glyph": "冰"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Ice",
+      "readings": [
+        "ヒョウ"
+      ],
+      "on": true,
+      "kun": [
+        "こおり",
+        "ひ"
+      ],
+      "level": 4
+    }
+  ]
+}

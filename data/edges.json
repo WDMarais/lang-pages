@@ -849,6 +849,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:内",
+      "to": "r:inside",
+      "kind": "denotes"
+    },
+    {
       "from": "g:冖",
       "to": "r:cover",
       "kind": "denotes"
@@ -1069,6 +1074,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:央",
+      "to": "r:centre",
+      "kind": "denotes"
+    },
+    {
       "from": "g:头",
       "to": "r:head",
       "kind": "denotes"
@@ -1255,6 +1265,11 @@
       "role": "semantic"
     },
     {
+      "from": "g:打",
+      "to": "r:hit",
+      "kind": "denotes"
+    },
+    {
       "from": "g:支",
       "to": "r:branch",
       "kind": "denotes"
@@ -1413,6 +1428,11 @@
     {
       "from": "g:气",
       "to": "r:steam",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:氷",
+      "to": "r:ice",
       "kind": "denotes"
     },
     {
@@ -1599,6 +1619,16 @@
       "from": "g:示",
       "to": "r:altar",
       "kind": "denotes"
+    },
+    {
+      "from": "g:礻",
+      "to": "r:altar",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:礻",
+      "to": "g:神",
+      "kind": "composes"
     },
     {
       "from": "g:神",
@@ -3081,6 +3111,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:人",
+      "to": "g:内",
+      "kind": "composes"
+    },
+    {
       "from": "g:丶",
       "to": "g:冫",
       "kind": "composes"
@@ -3374,6 +3409,16 @@
     {
       "from": "g:丶",
       "to": "g:太",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冂",
+      "to": "g:央",
+      "kind": "composes"
+    },
+    {
+      "from": "g:大",
+      "to": "g:央",
       "kind": "composes"
     },
     {
@@ -3778,6 +3823,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:丶",
+      "to": "g:氷",
+      "kind": "composes"
+    },
+    {
       "from": "g:⺼",
       "to": "g:然",
       "kind": "composes"
@@ -3975,11 +4025,6 @@
     {
       "from": "g:小",
       "to": "g:示",
-      "kind": "composes"
-    },
-    {
-      "from": "g:礻",
-      "to": "g:神",
       "kind": "composes"
     },
     {
@@ -8055,6 +8100,101 @@
     {
       "from": "w:今月@jp",
       "to": "r:this-month",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:半",
+      "to": "w:半分@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:分",
+      "to": "w:半分@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:半分@jp",
+      "to": "r:half",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:内",
+      "to": "w:内@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:内@jp",
+      "to": "r:inside",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:生",
+      "to": "w:生ビール@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:生ビール@jp",
+      "to": "r:draft-beer",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:字",
+      "to": "w:字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:字@jp",
+      "to": "r:character",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:北",
+      "to": "w:北口@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "w:北口@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:北口@jp",
+      "to": "r:north-exit",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:半",
+      "to": "w:半@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:半@jp",
+      "to": "r:half",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:古",
+      "to": "w:古い@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:古い@jp",
+      "to": "r:old",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:中古@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:古",
+      "to": "w:中古@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:中古@jp",
+      "to": "r:second-hand",
       "kind": "denotes"
     },
     {

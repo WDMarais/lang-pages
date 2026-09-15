@@ -1,0 +1,44 @@
+{
+  "glyph": "礻",
+  "cp": "U+793B",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "礻",
+      "reading": "",
+      "gloss": "altar (left radical form)",
+      "extra": "「示」的偏旁（在左）· 示字旁 · 神、礼、社、视",
+      "appearsIn": {
+        "char": "神",
+        "reading": "shén",
+        "gloss": "god"
+      }
+    },
+    "jp": {
+      "name": "礻",
+      "reading": "",
+      "gloss": "altar (left radical form)",
+      "extra": "「示」の偏旁「しめすへん」· 神/社/礼 の左",
+      "appearsIn": {
+        "char": "神",
+        "reading": "かみ",
+        "gloss": "god"
+      }
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Spirit",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

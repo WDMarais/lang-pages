@@ -347,6 +347,11 @@
           "rank": 0
         },
         {
+          "glyph": "氷",
+          "gloss": "ice",
+          "rank": 0
+        },
+        {
           "glyph": "冫",
           "gloss": "ice",
           "rank": 1
@@ -695,7 +700,7 @@
       "glyphs": [
         {
           "glyph": "打",
-          "gloss": "to hit",
+          "gloss": "to hit; to strike; to play (a game)",
           "rank": 0
         }
       ]
@@ -2319,7 +2324,7 @@
       "glyphs": [
         {
           "glyph": "内",
-          "gloss": "inside",
+          "gloss": "inside; inner; within",
           "rank": 0
         }
       ]
@@ -3841,6 +3846,20 @@
         }
       ]
     },
+    "yang1": {
+      "key": "yang1",
+      "pinyin": "yāng",
+      "base": "yang",
+      "tone": 1,
+      "zhuyin": "ㄧㄤ",
+      "glyphs": [
+        {
+          "glyph": "央",
+          "gloss": "centre; central",
+          "rank": 0
+        }
+      ]
+    },
     "yang2": {
       "key": "yang2",
       "pinyin": "yáng",
@@ -4396,7 +4415,7 @@
         },
         {
           "glyph": "支",
-          "gloss": "branch",
+          "gloss": "branch; to support; to pay out",
           "rank": 0
         }
       ]
@@ -4458,7 +4477,7 @@
       "glyphs": [
         {
           "glyph": "中",
-          "gloss": "middle; centre",
+          "gloss": "middle; inside",
           "rank": 0
         },
         {

@@ -788,7 +788,7 @@
     {
       "id": "r:middle",
       "kind": "referent",
-      "label": "middle; centre"
+      "label": "middle; inside"
     },
     {
       "id": "g:忠",
@@ -1023,13 +1023,6 @@
       "id": "g:冰",
       "kind": "glyph",
       "glyph": "冰",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:氷",
-      "kind": "glyph",
-      "glyph": "氷",
       "tier": null,
       "frontier": true
     },
@@ -1624,13 +1617,6 @@
       "label": "4th; nail; adult male"
     },
     {
-      "id": "g:打",
-      "kind": "glyph",
-      "glyph": "打",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:ナ",
       "kind": "glyph",
       "glyph": "ナ",
@@ -1759,13 +1745,6 @@
       "id": "r:down-box",
       "kind": "referent",
       "label": "down-box (enclosure radical)"
-    },
-    {
-      "id": "g:内",
-      "kind": "glyph",
-      "glyph": "内",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:⺀",
@@ -2409,6 +2388,31 @@
       "id": "r:public",
       "kind": "referent",
       "label": "public; male (animal); impartial"
+    },
+    {
+      "id": "g:内",
+      "kind": "glyph",
+      "glyph": "内",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "nei4",
+      "jpAudioKey": "uchi",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "內"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:inside",
+      "kind": "referent",
+      "label": "inside; inner; within"
     },
     {
       "id": "g:冖",
@@ -3216,6 +3220,24 @@
       "label": "too; very; excessively"
     },
     {
+      "id": "g:央",
+      "kind": "glyph",
+      "glyph": "央",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "yang1",
+      "jpAudioKey": "ou"
+    },
+    {
+      "id": "r:centre",
+      "kind": "referent",
+      "label": "centre; central"
+    },
+    {
       "id": "g:头",
       "kind": "glyph",
       "glyph": "头",
@@ -3854,6 +3876,24 @@
       "jpExAudioKey": "utsu"
     },
     {
+      "id": "g:打",
+      "kind": "glyph",
+      "glyph": "打",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "da3",
+      "jpAudioKey": "utsu"
+    },
+    {
+      "id": "r:hit",
+      "kind": "referent",
+      "label": "to hit; to strike; to play (a game)"
+    },
+    {
       "id": "g:支",
       "kind": "glyph",
       "glyph": "支",
@@ -3863,12 +3903,13 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "zhi1"
+      "cnAudioKey": "zhi1",
+      "jpAudioKey": "shi"
     },
     {
       "id": "r:branch",
       "kind": "referent",
-      "label": "branch"
+      "label": "branch; to support; to pay out"
     },
     {
       "id": "g:攴",
@@ -4383,6 +4424,32 @@
       "id": "r:steam",
       "kind": "referent",
       "label": "steam"
+    },
+    {
+      "id": "g:氷",
+      "kind": "glyph",
+      "glyph": "氷",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "bing1",
+      "jpAudioKey": "koori",
+      "script": {
+        "keyed": "shinjitai",
+        "simplified": [
+          {
+            "glyph": "冰"
+          }
+        ],
+        "traditional": [
+          {
+            "glyph": "冰"
+          }
+        ]
+      }
     },
     {
       "id": "g:灬",
@@ -4990,6 +5057,19 @@
       "id": "r:altar",
       "kind": "referent",
       "label": "altar"
+    },
+    {
+      "id": "g:礻",
+      "kind": "glyph",
+      "glyph": "礻",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "shen2",
+      "jpExAudioKey": "kami"
     },
     {
       "id": "g:神",
@@ -7362,13 +7442,6 @@
       "id": "g:直",
       "kind": "glyph",
       "glyph": "直",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:礻",
-      "kind": "glyph",
-      "glyph": "礻",
       "tier": null,
       "frontier": true
     },
@@ -11973,6 +12046,142 @@
       "id": "r:this-month",
       "kind": "referent",
       "label": "this month"
+    },
+    {
+      "id": "w:半分@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "半分",
+      "reading": "はんぶん",
+      "gloss": "half",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "hanbun"
+    },
+    {
+      "id": "w:内@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "内",
+      "reading": "うち",
+      "gloss": "inside; within",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "uchi"
+    },
+    {
+      "id": "w:生ビール@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "生ビール",
+      "reading": "なまビール",
+      "gloss": "draft beer",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "namabiiru"
+    },
+    {
+      "id": "r:draft-beer",
+      "kind": "referent",
+      "label": "draft beer"
+    },
+    {
+      "id": "w:字@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "字",
+      "reading": "じ",
+      "gloss": "character; letter; handwriting",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "ji"
+    },
+    {
+      "id": "w:北口@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "北口",
+      "reading": "きたぐち",
+      "gloss": "north exit; north entrance",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "kitaguchi"
+    },
+    {
+      "id": "r:north-exit",
+      "kind": "referent",
+      "label": "north exit; north entrance"
+    },
+    {
+      "id": "w:半@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "半",
+      "reading": "はん",
+      "gloss": "half; half past (the hour)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "han"
+    },
+    {
+      "id": "w:古い@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "古い",
+      "reading": "ふるい",
+      "gloss": "old (of things)",
+      "okurigana": "い",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "furui"
+    },
+    {
+      "id": "w:中古@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "中古",
+      "reading": "ちゅうこ",
+      "gloss": "second-hand; used",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "chuuko"
+    },
+    {
+      "id": "r:second-hand",
+      "kind": "referent",
+      "label": "second-hand; used"
     }
   ]
 }
