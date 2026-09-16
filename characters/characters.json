@@ -930,7 +930,7 @@
             "name": "糸", "reading": "いと", "gloss": "thread",
             "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
           },
-          "wk": null,
+          "wk": { "name": "Thread", "level": 4, "kind": "meaning" },
           "kanji": { "name": "Thread", "readings": ["いと"], "on": false, "level": 4 }
         },
         {

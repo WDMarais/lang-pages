@@ -29,6 +29,14 @@
     {
       "source": "wanikani",
       "lang": "jp",
+      "role": "radical",
+      "name": "Thread",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
       "role": "kanji",
       "name": "Thread",
       "readings": [
