@@ -100,26 +100,57 @@ def make_binding(glyph, lang, v, card):
     return b
 
 
+def variant_map(symbols):
+    """Variant folding: a twin form (覀→西, ナ→𠂇), declared as `variants` on its
+    canonical symbol, composes AS its canonical — so a whole shows ONE part chip.
+    The twin survives as a `variant` edge + a `variants` badge on the canonical
+    node, never as a duplicate part. A twin with no symbol of its own (覀) simply
+    stops minting a frontier stub once its only edge folds onto the canonical.
+    Returns (twin → canonical, canonical → [twins]).
+
+    A card's other SCRIPT forms (docs/traditional-script.md) fold the same way: 军's
+    part 车 composes as 車, whose `script.simplified` names it. Script forms share
+    the card's referent by definition, so only three guards apply:
+      - the form has no symbol of its own (广 stays its own radical, not 広's twin);
+      - it isn't sense-conditioned (`when`: 後 is 后 only for "after");
+      - exactly one card claims it (氷 naming 冰 on two axes counts once).
+    Script folds go in the first map only: the card already shows its script forms,
+    so the build adds a badge just where a fold actually happened (see `canon`)."""
+    variant_of = {}
+    canon_variants = {}
+    for sym in symbols.values():
+        for v in sym.get("variants") or []:
+            variant_of[v] = sym["glyph"]
+            canon_variants.setdefault(sym["glyph"], []).append(v)
+
+    claims = {}               # script form → {cards naming it unconditionally}
+    for sym in symbols.values():
+        script = sym.get("script") or {}
+        for axis in ("simplified", "traditional", "shinjitai"):
+            for form in script.get(axis) or []:
+                if not form.get("when"):
+                    claims.setdefault(form["glyph"], set()).add(sym["glyph"])
+    for form, owners in sorted(claims.items()):
+        if form in symbols or form in variant_of or len(owners) != 1:
+            continue
+        (owner,) = owners
+        variant_of[form] = owner
+    return variant_of, canon_variants
+
+
 def build():
     nodes, bindings, edges, clusters = {}, [], [], []
     seen_edge = set()
     symbols = load_symbols()
     real = set(symbols)
 
-    # variant folding: a twin form (覀→西, ナ→𠂇), declared as `variants` on its
-    # canonical symbol, composes AS its canonical — so a whole shows ONE part chip.
-    # The twin survives as a `variant` edge + a `variants` badge on the canonical
-    # node, never as a duplicate part. A twin with no symbol of its own (覀) simply
-    # stops minting a frontier stub once its only edge folds onto the canonical.
-    variant_of = {}           # twin glyph → canonical glyph
-    canon_variants = {}       # canonical glyph → [twin glyphs]
-    for sym in symbols.values():
-        for v in sym.get("variants") or []:
-            variant_of[v] = sym["glyph"]
-            canon_variants.setdefault(sym["glyph"], []).append(v)
+    variant_of, canon_variants = variant_map(symbols)
 
     def canon(gl):
-        return variant_of.get(gl, gl)
+        c = variant_of.get(gl, gl)
+        if c != gl and gl not in canon_variants.get(c, []):   # a script fold in use
+            canon_variants.setdefault(c, []).append(gl)
+        return c
 
     roles = load_roles()
     role_used = set()
@@ -195,7 +226,7 @@ def build():
                 ai = v.get("appearsIn")
                 if not ai:
                     continue
-                tgt = ai["char"]
+                tgt = canon(ai["char"])   # 車 appearsIn 軍 → 军
                 if (gsrc, tgt) not in seen_edge:
                     seen_edge.add((gsrc, tgt))
                     edges.append(cedge(f"g:{gsrc}", f"g:{tgt}", role_of(tgt, gsrc)))

@@ -200,7 +200,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "xiu1",
@@ -1020,13 +1020,6 @@
       ]
     },
     {
-      "id": "g:冰",
-      "kind": "glyph",
-      "glyph": "冰",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:土",
       "kind": "glyph",
       "glyph": "土",
@@ -1641,7 +1634,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "you3",
@@ -1674,7 +1667,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "ye3"
@@ -1691,7 +1684,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       }
     },
@@ -1795,13 +1788,31 @@
       "label": "\"small\" top-variant component"
     },
     {
+      "id": "g:⺼",
+      "kind": "glyph",
+      "glyph": "⺼",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "neng2",
+      "jpExAudioKey": "nou"
+    },
+    {
+      "id": "r:meat",
+      "kind": "referent",
+      "label": "meat (radical form)"
+    },
+    {
       "id": "g:⻂",
       "kind": "glyph",
       "glyph": "⻂",
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       },
       "cnAudioKey": "yi1",
@@ -1934,6 +1945,24 @@
       "label": "(generic measure word); individual"
     },
     {
+      "id": "g:丷",
+      "kind": "glyph",
+      "glyph": "丷",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "ban4",
+      "jpExAudioKey": "han"
+    },
+    {
+      "id": "r:splayed-dots",
+      "kind": "referent",
+      "label": "splayed dots (top component)"
+    },
+    {
       "id": "g:为",
       "kind": "glyph",
       "glyph": "为",
@@ -1957,6 +1986,25 @@
       "id": "r:do",
       "kind": "referent",
       "label": "to do; to act; to be"
+    },
+    {
+      "id": "g:乂",
+      "kind": "glyph",
+      "glyph": "乂",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "yi4",
+      "cnExAudioKey": "fu4",
+      "jpExAudioKey": "chichi"
+    },
+    {
+      "id": "r:mow",
+      "kind": "referent",
+      "label": "mow; govern (cross-shaped component)"
     },
     {
       "id": "g:么",
@@ -2470,7 +2518,10 @@
             "glyph": "軍"
           }
         ]
-      }
+      },
+      "variants": [
+        "軍"
+      ]
     },
     {
       "id": "r:army",
@@ -3719,6 +3770,24 @@
       "label": "two hands"
     },
     {
+      "id": "g:廿",
+      "kind": "glyph",
+      "glyph": "廿",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "nian4",
+      "jpAudioKey": "nijuu"
+    },
+    {
+      "id": "r:twenty",
+      "kind": "referent",
+      "label": "twenty"
+    },
+    {
       "id": "g:弋",
       "kind": "glyph",
       "glyph": "弋",
@@ -4495,7 +4564,10 @@
             "glyph": "冰"
           }
         ]
-      }
+      },
+      "variants": [
+        "冰"
+      ]
     },
     {
       "id": "g:灬",
@@ -5468,12 +5540,10 @@
         "image": ""
       },
       "cnAudioKey": "rou4",
-      "jpAudioKey": "niku"
-    },
-    {
-      "id": "r:meat",
-      "kind": "referent",
-      "label": "meat"
+      "jpAudioKey": "niku",
+      "variants": [
+        "⺼"
+      ]
     },
     {
       "id": "g:能",
@@ -5805,7 +5875,7 @@
       "tier": "component",
       "source": "radicals",
       "media": {
-        "animated": false,
+        "animated": true,
         "image": ""
       },
       "cnExAudioKey": "yao4",
@@ -6002,7 +6072,10 @@
             "glyph": "贝"
           }
         ]
-      }
+      },
+      "variants": [
+        "贝"
+      ]
     },
     {
       "id": "r:shell",
@@ -6109,19 +6182,15 @@
             "glyph": "车"
           }
         ]
-      }
+      },
+      "variants": [
+        "车"
+      ]
     },
     {
       "id": "r:cart",
       "kind": "referent",
       "label": "cart; vehicle"
-    },
-    {
-      "id": "g:軍",
-      "kind": "glyph",
-      "glyph": "軍",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:辛",
@@ -7404,27 +7473,6 @@
       "frontier": true
     },
     {
-      "id": "g:丷",
-      "kind": "glyph",
-      "glyph": "丷",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:乂",
-      "kind": "glyph",
-      "glyph": "乂",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:廿",
-      "kind": "glyph",
-      "glyph": "廿",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:旦",
       "kind": "glyph",
       "glyph": "旦",
@@ -7460,23 +7508,9 @@
       "frontier": true
     },
     {
-      "id": "g:车",
-      "kind": "glyph",
-      "glyph": "车",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:丂",
       "kind": "glyph",
       "glyph": "丂",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:贝",
-      "kind": "glyph",
-      "glyph": "贝",
       "tier": null,
       "frontier": true
     },
@@ -7491,13 +7525,6 @@
       "id": "g:乇",
       "kind": "glyph",
       "glyph": "乇",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:⺼",
-      "kind": "glyph",
-      "glyph": "⺼",
       "tier": null,
       "frontier": true
     },
@@ -9754,11 +9781,6 @@
         "level": 2
       },
       "cnAudioKey": "er4shi2"
-    },
-    {
-      "id": "r:twenty",
-      "kind": "referent",
-      "label": "twenty; 20"
     },
     {
       "id": "w:明天@cn",

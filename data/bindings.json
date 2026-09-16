@@ -3536,6 +3536,34 @@
       }
     },
     {
+      "id": "b:⺼@cn",
+      "glyph_id": "g:⺼",
+      "lang": "cn",
+      "name": "⺼",
+      "readings": [],
+      "gloss": "meat (radical form)",
+      "extra": "肉月旁 · 「肉」作偏旁的写法，形同「月」· 见于 能 骨 然（肰）",
+      "appearsIn": {
+        "glyph": "能",
+        "reading": "néng",
+        "gloss": "can; able"
+      }
+    },
+    {
+      "id": "b:⺼@jp",
+      "glyph_id": "g:⺼",
+      "lang": "jp",
+      "name": "にくづき",
+      "readings": [],
+      "gloss": "meat (radical form)",
+      "extra": "部首「にくづき」·「肉」の偏形 · 形は「月」と同じ · 能・骨",
+      "appearsIn": {
+        "glyph": "能",
+        "reading": "ノウ",
+        "gloss": "ability"
+      }
+    },
+    {
       "id": "b:⻂@cn",
       "glyph_id": "g:⻂",
       "lang": "cn",
@@ -3716,6 +3744,34 @@
       "extra": "漢字「個」(コ) · 一個(いっこ)、個人(こじん) · 中文簡体作「个」"
     },
     {
+      "id": "b:丷@cn",
+      "glyph_id": "g:丷",
+      "lang": "cn",
+      "name": "丷",
+      "readings": [],
+      "gloss": "splayed dots (top component)",
+      "extra": "无独立字义 · 两点向外撇开 · 多为「八」的字头变形 · 见于 半 羊 米 首 立",
+      "appearsIn": {
+        "glyph": "半",
+        "reading": "bàn",
+        "gloss": "half"
+      }
+    },
+    {
+      "id": "b:丷@jp",
+      "glyph_id": "g:丷",
+      "lang": "jp",
+      "name": "はちがしら",
+      "readings": [],
+      "gloss": "splayed dots (top component)",
+      "extra": "部首「はちがしら」の変形 · 半・米・首 の上部",
+      "appearsIn": {
+        "glyph": "半",
+        "reading": "ハン",
+        "gloss": "half"
+      }
+    },
+    {
       "id": "b:为@cn",
       "glyph_id": "g:为",
       "lang": "cn",
@@ -3744,6 +3800,36 @@
       ],
       "gloss": "do; for the sake of",
       "extra": "漢字「為」(ため · イ) · 為す、行為(こうい)、為替(かわせ) · 中文簡体作「为」"
+    },
+    {
+      "id": "b:乂@cn",
+      "glyph_id": "g:乂",
+      "lang": "cn",
+      "name": "乂",
+      "readings": [
+        "yì"
+      ],
+      "gloss": "mow; govern (cross-shaped component)",
+      "extra": "古义「割草、治理」· 丿 + ㇏ 交叉 · 见于 父 文 义 爻",
+      "appearsIn": {
+        "glyph": "父",
+        "reading": "fù",
+        "gloss": "father"
+      }
+    },
+    {
+      "id": "b:乂@jp",
+      "glyph_id": "g:乂",
+      "lang": "jp",
+      "name": "乂",
+      "readings": [],
+      "gloss": "mow; govern (cross-shaped component)",
+      "extra": "「ガイ · か.る」· 交差する二画 · 父・文 の下部",
+      "appearsIn": {
+        "glyph": "父",
+        "reading": "ちち",
+        "gloss": "father"
+      }
     },
     {
       "id": "b:么@cn",
@@ -6394,6 +6480,28 @@
       "readings": [],
       "gloss": "two hands",
       "extra": ""
+    },
+    {
+      "id": "b:廿@cn",
+      "glyph_id": "g:廿",
+      "lang": "cn",
+      "name": "廿",
+      "readings": [
+        "niàn"
+      ],
+      "gloss": "twenty",
+      "extra": "二十的合写（两个「十」相连）· 廿四节气 · 见于 世 革 黄"
+    },
+    {
+      "id": "b:廿@jp",
+      "glyph_id": "g:廿",
+      "lang": "jp",
+      "name": "廿",
+      "readings": [
+        "ニジュウ"
+      ],
+      "gloss": "twenty",
+      "extra": "漢字「廿」(ジュウ · にじゅう) · 十 を二つ合わせた形 · 世・革 の上部"
     },
     {
       "id": "b:弋@cn",

@@ -1,0 +1,35 @@
+{
+  "glyph": "⺼",
+  "cp": "U+2EBC",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "⺼",
+      "reading": "",
+      "gloss": "meat (radical form)",
+      "extra": "肉月旁 · 「肉」作偏旁的写法，形同「月」· 见于 能 骨 然（肰）",
+      "appearsIn": {
+        "char": "能",
+        "reading": "néng",
+        "gloss": "can; able"
+      }
+    },
+    "jp": {
+      "name": "にくづき",
+      "reading": "",
+      "gloss": "meat (radical form)",
+      "extra": "部首「にくづき」·「肉」の偏形 · 形は「月」と同じ · 能・骨",
+      "appearsIn": {
+        "char": "能",
+        "reading": "ノウ",
+        "gloss": "ability"
+      }
+    }
+  },
+  "programs": []
+}

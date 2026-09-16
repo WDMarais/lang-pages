@@ -1,0 +1,35 @@
+{
+  "glyph": "丷",
+  "cp": "U+4E37",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "丷",
+      "reading": "",
+      "gloss": "splayed dots (top component)",
+      "extra": "无独立字义 · 两点向外撇开 · 多为「八」的字头变形 · 见于 半 羊 米 首 立",
+      "appearsIn": {
+        "char": "半",
+        "reading": "bàn",
+        "gloss": "half"
+      }
+    },
+    "jp": {
+      "name": "はちがしら",
+      "reading": "",
+      "gloss": "splayed dots (top component)",
+      "extra": "部首「はちがしら」の変形 · 半・米・首 の上部",
+      "appearsIn": {
+        "char": "半",
+        "reading": "ハン",
+        "gloss": "half"
+      }
+    }
+  },
+  "programs": []
+}

@@ -2637,6 +2637,23 @@
           "kanji": { "name": "Wide", "readings": ["コウ"], "on": true, "kun": ["ひろ"], "level": 3 }
         },
         {
+          "glyph": "廿",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "nian4",
+          "jpAudioKey": "nijuu",
+          "cn": {
+            "name": "廿", "reading": "niàn", "gloss": "twenty",
+            "extra": "二十的合写（两个「十」相连）· 廿四节气 · 见于 世 革 黄"
+          },
+          "jp": {
+            "name": "廿", "reading": "ニジュウ", "gloss": "twenty",
+            "extra": "漢字「廿」(ジュウ · にじゅう) · 十 を二つ合わせた形 · 世・革 の上部"
+          },
+          "wk": null
+        },
+        {
           "glyph": "引",
           "tag": "char",
           "image": "",

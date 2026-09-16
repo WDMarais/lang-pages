@@ -747,6 +747,10 @@
     "text": "にほん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "nijuu.mp3": {
+    "text": "ニジュウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "niku.mp3": {
     "text": "ニク",
     "voice": "ja-JP-NanamiNeural"

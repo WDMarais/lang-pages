@@ -100,6 +100,15 @@ happens to sit on.
   slot it emits a labelled segment (`简`/`繁`) with the form(s); a `when` qualifier
   becomes a hover tooltip; `same: true` renders a faint `繁=简`; an absent block
   renders nothing. A shinjitai-keyed glyph shows both segments (円 → `简 圆  繁 圓`).
+- **Graph folding** (`build-graph.variant_map`): a named script form with no
+  symbol of its own folds onto its card wherever it is used, the same way a
+  `variants` twin does. 军's part 车 composes as 車, and 車's `appearsIn` 軍 lands on
+  军. Neither leaves a frontier stub behind. The folded form is stamped into the
+  card node's `variants` badge list, but only where a fold actually happened, so
+  cards whose script forms are never used as parts get no extra badge. It is
+  skipped when the form is its own symbol (广 is a radical, not just 広's simplified
+  form), carries a `when` (後 is 后 only for "after"), or is claimed by more than
+  one card.
 - **`check-source` gate** (`check_script`): validates `keyed` ∈ the three axes; that
   the keyed Han slot is **not** restated; that `same` is exclusive with a named form
   and Han-keyed; that each named slot is a non-empty list of single-char `glyph`

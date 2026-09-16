@@ -1,0 +1,35 @@
+{
+  "glyph": "乂",
+  "cp": "U+4E42",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "乂",
+      "reading": "yì",
+      "gloss": "mow; govern (cross-shaped component)",
+      "extra": "古义「割草、治理」· 丿 + ㇏ 交叉 · 见于 父 文 义 爻",
+      "appearsIn": {
+        "char": "父",
+        "reading": "fù",
+        "gloss": "father"
+      }
+    },
+    "jp": {
+      "name": "乂",
+      "reading": "",
+      "gloss": "mow; govern (cross-shaped component)",
+      "extra": "「ガイ · か.る」· 交差する二画 · 父・文 の下部",
+      "appearsIn": {
+        "char": "父",
+        "reading": "ちち",
+        "gloss": "father"
+      }
+    }
+  },
+  "programs": []
+}

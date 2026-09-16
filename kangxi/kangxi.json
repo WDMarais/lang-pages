@@ -6651,7 +6651,7 @@
           "glyph": "亻",
           "tag": "comp",
           "image": "",
-          "animated": false,
+          "animated": true,
           "cn": {
             "name": "亻",
             "reading": "",
@@ -6835,7 +6835,7 @@
           "glyph": "𠂇",
           "tag": "comp",
           "image": "",
-          "animated": false,
+          "animated": true,
           "cn": {
             "name": "𠂇",
             "reading": "",
@@ -6899,7 +6899,7 @@
           "glyph": "乚",
           "tag": "comp",
           "image": "",
-          "animated": false,
+          "animated": true,
           "cn": {
             "name": "乚",
             "reading": "",
@@ -6929,7 +6929,7 @@
           "glyph": "丆",
           "tag": "comp",
           "image": "",
-          "animated": false,
+          "animated": true,
           "cn": {
             "name": "丆",
             "reading": "",
@@ -7020,10 +7020,41 @@
           }
         },
         {
+          "glyph": "⺼",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "⺼",
+            "reading": "",
+            "gloss": "meat (radical form)",
+            "extra": "肉月旁 · 「肉」作偏旁的写法，形同「月」· 见于 能 骨 然（肰）",
+            "appearsIn": {
+              "char": "能",
+              "reading": "néng",
+              "gloss": "can; able"
+            }
+          },
+          "jp": {
+            "name": "にくづき",
+            "reading": "",
+            "gloss": "meat (radical form)",
+            "extra": "部首「にくづき」·「肉」の偏形 · 形は「月」と同じ · 能・骨",
+            "appearsIn": {
+              "char": "能",
+              "reading": "ノウ",
+              "gloss": "ability"
+            }
+          },
+          "wk": null,
+          "cnExAudioKey": "neng2",
+          "jpExAudioKey": "nou"
+        },
+        {
           "glyph": "⻂",
           "tag": "comp",
           "image": "",
-          "animated": false,
+          "animated": true,
           "cn": {
             "name": "衤",
             "reading": "yī",
@@ -7056,6 +7087,69 @@
           "cnExAudioKey": "chu1",
           "jpAudioKey": "koromo",
           "jpExAudioKey": "sho"
+        },
+        {
+          "glyph": "丷",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "丷",
+            "reading": "",
+            "gloss": "splayed dots (top component)",
+            "extra": "无独立字义 · 两点向外撇开 · 多为「八」的字头变形 · 见于 半 羊 米 首 立",
+            "appearsIn": {
+              "char": "半",
+              "reading": "bàn",
+              "gloss": "half"
+            }
+          },
+          "jp": {
+            "name": "はちがしら",
+            "reading": "",
+            "gloss": "splayed dots (top component)",
+            "extra": "部首「はちがしら」の変形 · 半・米・首 の上部",
+            "appearsIn": {
+              "char": "半",
+              "reading": "ハン",
+              "gloss": "half"
+            }
+          },
+          "wk": null,
+          "cnExAudioKey": "ban4",
+          "jpExAudioKey": "han"
+        },
+        {
+          "glyph": "乂",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "乂",
+            "reading": "yì",
+            "gloss": "mow; govern (cross-shaped component)",
+            "extra": "古义「割草、治理」· 丿 + ㇏ 交叉 · 见于 父 文 义 爻",
+            "appearsIn": {
+              "char": "父",
+              "reading": "fù",
+              "gloss": "father"
+            }
+          },
+          "jp": {
+            "name": "乂",
+            "reading": "",
+            "gloss": "mow; govern (cross-shaped component)",
+            "extra": "「ガイ · か.る」· 交差する二画 · 父・文 の下部",
+            "appearsIn": {
+              "char": "父",
+              "reading": "ちち",
+              "gloss": "father"
+            }
+          },
+          "wk": null,
+          "cnAudioKey": "yi4",
+          "cnExAudioKey": "fu4",
+          "jpExAudioKey": "chichi"
         },
         {
           "glyph": "刂",
@@ -7208,7 +7302,7 @@
           "glyph": "覀",
           "tag": "comp",
           "image": "",
-          "animated": false,
+          "animated": true,
           "cn": {
             "name": "覀",
             "reading": "",

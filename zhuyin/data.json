@@ -2385,6 +2385,20 @@
         }
       ]
     },
+    "nian4": {
+      "key": "nian4",
+      "pinyin": "niàn",
+      "base": "nian",
+      "tone": 4,
+      "zhuyin": "ㄋㄧㄢ",
+      "glyphs": [
+        {
+          "glyph": "廿",
+          "gloss": "twenty",
+          "rank": 0
+        }
+      ]
+    },
     "niao3": {
       "key": "niao3",
       "pinyin": "niǎo",
@@ -4070,6 +4084,11 @@
         {
           "glyph": "メ",
           "gloss": "to govern; regulate (乂)",
+          "rank": 1
+        },
+        {
+          "glyph": "乂",
+          "gloss": "mow; govern (cross-shaped component)",
           "rank": 1
         },
         {

@@ -112,6 +112,8 @@ The single most confusable corner of the vocabulary itself:
   as a badge to preserve a program binding. **Invariant (gated by `check-source.py`):** a
   variant twin must denote the *same referent* as its canonical; if it diverges, it is a
   cognate/confusable, not a variant. (This is what caught the 西/覀/襾 mis-fold.)
+  A card's unconditioned **script forms** (车 on 車) fold the same way when they have
+  no symbol of their own (docs/traditional-script.md § Projection & tooling).
 - **Hard vs soft:** only `composes` gates the SRS scheduler (you can't learn 好 before 女
   and 子). `association` edges are soft — they inform *sequencing* and *contrast rendering*
   (co-teach a confusable set; note a cognate), never a prerequisite lock.
