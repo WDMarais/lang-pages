@@ -4389,6 +4389,36 @@
       }
     },
     {
+      "id": "b:军@cn",
+      "glyph_id": "g:军",
+      "lang": "cn",
+      "name": "军",
+      "readings": [
+        "jūn"
+      ],
+      "gloss": "army; military",
+      "extra": "冖 + 车 · 军队、军人、空军、冠军 · 繁体作軍",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "army",
+          "kind": "meaning",
+          "level": 4
+        }
+      }
+    },
+    {
+      "id": "b:军@jp",
+      "glyph_id": "g:军",
+      "lang": "jp",
+      "name": "軍",
+      "readings": [
+        "グン"
+      ],
+      "gloss": "army",
+      "extra": "漢字「軍」(グン) · 軍隊(ぐんたい)、軍人(ぐんじん)、空軍(くうぐん)"
+    },
+    {
       "id": "b:冫@cn",
       "glyph_id": "g:冫",
       "lang": "cn",

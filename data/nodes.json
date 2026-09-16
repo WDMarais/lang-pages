@@ -2432,6 +2432,31 @@
       "label": "cover"
     },
     {
+      "id": "g:军",
+      "kind": "glyph",
+      "glyph": "军",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "jun1",
+      "jpAudioKey": "gun",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "軍"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:army",
+      "kind": "referent",
+      "label": "army; military"
+    },
+    {
       "id": "g:冫",
       "kind": "glyph",
       "glyph": "冫",
@@ -7386,6 +7411,13 @@
       "id": "g:意",
       "kind": "glyph",
       "glyph": "意",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:车",
+      "kind": "glyph",
+      "glyph": "车",
       "tier": null,
       "frontier": true
     },

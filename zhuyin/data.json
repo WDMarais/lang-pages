@@ -1780,6 +1780,20 @@
         }
       ]
     },
+    "jun1": {
+      "key": "jun1",
+      "pinyin": "jūn",
+      "base": "jun",
+      "tone": 1,
+      "zhuyin": "ㄐㄩㄣ",
+      "glyphs": [
+        {
+          "glyph": "军",
+          "gloss": "army; military",
+          "rank": 0
+        }
+      ]
+    },
     "kan3": {
       "key": "kan3",
       "pinyin": "kǎn",

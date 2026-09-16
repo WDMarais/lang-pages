@@ -1,0 +1,44 @@
+{
+  "glyph": "军",
+  "cp": "U+519B",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "冖",
+    "车"
+  ],
+  "readings": {
+    "cn": {
+      "name": "军",
+      "reading": "jūn",
+      "gloss": "army; military",
+      "extra": "冖 + 车 · 军队、军人、空军、冠军 · 繁体作軍"
+    },
+    "jp": {
+      "name": "軍",
+      "reading": "グン",
+      "gloss": "army",
+      "extra": "漢字「軍」(グン) · 軍隊(ぐんたい)、軍人(ぐんじん)、空軍(くうぐん)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "軍"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "army",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

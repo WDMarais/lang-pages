@@ -859,6 +859,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:军",
+      "to": "r:army",
+      "kind": "denotes"
+    },
+    {
       "from": "g:冫",
       "to": "r:ice",
       "kind": "denotes"
@@ -3113,6 +3118,16 @@
     {
       "from": "g:人",
       "to": "g:内",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冖",
+      "to": "g:军",
+      "kind": "composes"
+    },
+    {
+      "from": "g:车",
+      "to": "g:军",
       "kind": "composes"
     },
     {
