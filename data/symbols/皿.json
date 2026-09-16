@@ -3,28 +3,44 @@
   "cp": "U+76BF",
   "class": "char",
   "kangxi": 108,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
   },
-  "composes": [
-    "一"
-  ],
   "readings": {
     "cn": {
       "name": "皿",
       "reading": "mǐn",
-      "gloss": "dish",
-      "extra": "康熙部首 108"
+      "gloss": "dish; vessel",
+      "extra": "器皿 · 象形（有底座的盛器）· 康熙部首 108（盆/盘/盖 皆从皿）"
     },
     "jp": {
       "name": "皿",
-      "reading": "",
-      "gloss": "dish"
+      "reading": "さら",
+      "gloss": "plate; dish",
+      "extra": "漢字「皿」(さら) · 皿(さら)、お皿(おさら)、灰皿(はいざら) · 部首「さら」"
     }
   },
   "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Plate",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Plate",
+      "readings": [
+        "さら"
+      ],
+      "on": false,
+      "level": 4
+    },
     {
       "source": "pandanese",
       "lang": "cn",

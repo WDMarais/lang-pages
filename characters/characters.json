@@ -3174,6 +3174,25 @@
           "pdc": { "name": "from", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "申",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shen1",
+          "jpAudioKey": "shin",
+          "script": {"same": true},
+          "cn": {
+            "name": "申", "reading": "shēn", "gloss": "say; state, declare; extend; 9th Earthly Branch",
+            "extra": "申请、申明、重申 · 本义象闪电之形（电/神 从申）· 地支第九"
+          },
+          "jp": {
+            "name": "申", "reading": "シン", "gloss": "say humbly; report",
+            "extra": "漢字「申」(シン · もう-す) · 申す(もうす)、申し込む(もうしこむ)、申請(しんせい)"
+          },
+          "wk": null,
+          "kanji": { "name": "Say Humbly", "readings": ["シン"], "on": true, "kun": ["もう"], "level": 4 }
+        },
+        {
           "glyph": "男",
           "tag": "char",
           "image": "",
@@ -3211,6 +3230,25 @@
             "appearsIn": { "char": "宿", "reading": "やど", "gloss": "inn" }
           },
           "wk": null
+        },
+        {
+          "glyph": "皿",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "min3",
+          "jpAudioKey": "sara",
+          "cn": {
+            "name": "皿", "reading": "mǐn", "gloss": "dish; vessel",
+            "extra": "器皿 · 象形（有底座的盛器）· 康熙部首 108（盆/盘/盖 皆从皿）"
+          },
+          "jp": {
+            "name": "皿", "reading": "さら", "gloss": "plate; dish",
+            "extra": "漢字「皿」(さら) · 皿(さら)、お皿(おさら)、灰皿(はいざら) · 部首「さら」"
+          },
+          "wk": { "name": "Plate", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Plate", "readings": ["さら"], "on": false, "level": 4 },
+          "pd": { "name": "dish", "level": 4, "kind": "meaning" }
         },
         {
           "glyph": "目",
@@ -3418,7 +3456,8 @@
             "name": "竹", "reading": "たけ", "gloss": "bamboo",
             "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
           },
-          "wk": null,
+          "wk": { "name": "Bamboo", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Bamboo", "readings": ["たけ"], "on": false, "level": 4 },
           "pd": { "name": "bamboo", "level": 2, "kind": "meaning" },
           "pdc": { "name": "chopsticks", "kind": "mnemonic", "level": 4 }
         },

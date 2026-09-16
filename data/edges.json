@@ -1541,6 +1541,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:申",
+      "to": "r:say",
+      "kind": "denotes"
+    },
+    {
       "from": "g:男",
       "to": "r:man",
       "kind": "denotes"
@@ -3943,6 +3948,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:日",
+      "to": "g:申",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:申",
+      "kind": "composes"
+    },
+    {
       "from": "g:广",
       "to": "g:疒",
       "kind": "composes"
@@ -3965,11 +3980,6 @@
     {
       "from": "g:攴",
       "to": "g:皮",
-      "kind": "composes"
-    },
-    {
-      "from": "g:一",
-      "to": "g:皿",
       "kind": "composes"
     },
     {
@@ -8255,6 +8265,26 @@
     {
       "from": "w:シアトル市@jp",
       "to": "r:city-of-seattle",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:広",
+      "to": "w:広い@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:広い@jp",
+      "to": "r:wide",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:母",
+      "to": "w:母@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:母@jp",
+      "to": "r:mother",
       "kind": "denotes"
     },
     {

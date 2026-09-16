@@ -1,0 +1,46 @@
+{
+  "glyph": "申",
+  "cp": "U+7533",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "日",
+    "丨"
+  ],
+  "readings": {
+    "cn": {
+      "name": "申",
+      "reading": "shēn",
+      "gloss": "say; state, declare; extend; 9th Earthly Branch",
+      "extra": "申请、申明、重申 · 本义象闪电之形（电/神 从申）· 地支第九"
+    },
+    "jp": {
+      "name": "申",
+      "reading": "シン",
+      "gloss": "say humbly; report",
+      "extra": "漢字「申」(シン · もう-す) · 申す(もうす)、申し込む(もうしこむ)、申請(しんせい)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Say Humbly",
+      "readings": [
+        "シン"
+      ],
+      "on": true,
+      "kun": [
+        "もう"
+      ],
+      "level": 4
+    }
+  ]
+}

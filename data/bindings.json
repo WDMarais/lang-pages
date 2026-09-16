@@ -8131,6 +8131,42 @@
       }
     },
     {
+      "id": "b:申@cn",
+      "glyph_id": "g:申",
+      "lang": "cn",
+      "name": "申",
+      "readings": [
+        "shēn"
+      ],
+      "gloss": "say; state, declare; extend; 9th Earthly Branch",
+      "extra": "申请、申明、重申 · 本义象闪电之形（电/神 从申）· 地支第九"
+    },
+    {
+      "id": "b:申@jp",
+      "glyph_id": "g:申",
+      "lang": "jp",
+      "name": "申",
+      "readings": [
+        "シン"
+      ],
+      "gloss": "say humbly; report",
+      "extra": "漢字「申」(シン · もう-す) · 申す(もうす)、申し込む(もうしこむ)、申請(しんせい)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Say Humbly",
+          "readings": [
+            "シン"
+          ],
+          "on": true,
+          "kun": [
+            "もう"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:男@cn",
       "glyph_id": "g:男",
       "lang": "cn",
@@ -8287,8 +8323,8 @@
       "readings": [
         "mǐn"
       ],
-      "gloss": "dish",
-      "extra": "康熙部首 108",
+      "gloss": "dish; vessel",
+      "extra": "器皿 · 象形（有底座的盛器）· 康熙部首 108（盆/盘/盖 皆从皿）",
       "program": {
         "source": "pandanese",
         "name": "dish",
@@ -8301,9 +8337,25 @@
       "glyph_id": "g:皿",
       "lang": "jp",
       "name": "皿",
-      "readings": [],
-      "gloss": "dish",
-      "extra": ""
+      "readings": [
+        "さら"
+      ],
+      "gloss": "plate; dish",
+      "extra": "漢字「皿」(さら) · 皿(さら)、お皿(おさら)、灰皿(はいざら) · 部首「さら」",
+      "program": {
+        "source": "wanikani",
+        "name": "Plate",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Plate",
+          "readings": [
+            "さら"
+          ],
+          "on": false,
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:目@cn",
@@ -8828,7 +8880,21 @@
         "たけ"
       ],
       "gloss": "bamboo",
-      "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
+      "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)",
+      "program": {
+        "source": "wanikani",
+        "name": "Bamboo",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Bamboo",
+          "readings": [
+            "たけ"
+          ],
+          "on": false,
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:米@cn",

@@ -3962,22 +3962,36 @@
           "cn": {
             "name": "皿",
             "reading": "mǐn",
-            "gloss": "dish",
-            "extra": "康熙部首 108"
+            "gloss": "dish; vessel",
+            "extra": "器皿 · 象形（有底座的盛器）· 康熙部首 108（盆/盘/盖 皆从皿）"
           },
           "jp": {
             "name": "皿",
-            "reading": "",
-            "gloss": "dish"
+            "reading": "さら",
+            "gloss": "plate; dish",
+            "extra": "漢字「皿」(さら) · 皿(さら)、お皿(おさら)、灰皿(はいざら) · 部首「さら」"
           },
-          "wk": null,
+          "wk": {
+            "name": "Plate",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Plate",
+            "readings": [
+              "さら"
+            ],
+            "on": false,
+            "level": 4
+          },
           "pd": {
             "name": "dish",
             "level": 4,
             "kind": "meaning"
           },
           "kx": 108,
-          "cnAudioKey": "min3"
+          "cnAudioKey": "min3",
+          "jpAudioKey": "sara"
         },
         {
           "glyph": "目",
@@ -4313,7 +4327,19 @@
             "gloss": "bamboo",
             "extra": "漢字「竹」(チク · たけ) · 竹(たけ)、竹林(ちくりん) · 部首「⺮」(たけかんむり)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Bamboo",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Bamboo",
+            "readings": [
+              "たけ"
+            ],
+            "on": false,
+            "level": 4
+          },
           "pd": {
             "name": "bamboo",
             "level": 2,

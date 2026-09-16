@@ -23,6 +23,25 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Bamboo",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Bamboo",
+      "readings": [
+        "たけ"
+      ],
+      "on": false,
+      "level": 4
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

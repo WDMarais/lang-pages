@@ -2220,7 +2220,7 @@
       "glyphs": [
         {
           "glyph": "皿",
-          "gloss": "dish",
+          "gloss": "dish; vessel",
           "rank": 0
         },
         {
@@ -2897,6 +2897,11 @@
       "tone": 1,
       "zhuyin": "ㄕㄣ",
       "glyphs": [
+        {
+          "glyph": "申",
+          "gloss": "say; state, declare; extend; 9th Earthly Branch",
+          "rank": 0
+        },
         {
           "glyph": "身",
           "gloss": "body",

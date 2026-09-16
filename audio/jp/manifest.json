@@ -915,6 +915,10 @@
     "text": "さんにん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "sara.mp3": {
+    "text": "さら",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "sayuu.mp3": {
     "text": "さゆう",
     "voice": "ja-JP-NanamiNeural"
@@ -949,6 +953,10 @@
   },
   "shigatsu.mp3": {
     "text": "しがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shin.mp3": {
+    "text": "シン",
     "voice": "ja-JP-NanamiNeural"
   },
   "shiritsu.mp3": {

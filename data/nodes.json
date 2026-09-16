@@ -4810,6 +4810,22 @@
       "frontier": true
     },
     {
+      "id": "g:申",
+      "kind": "glyph",
+      "glyph": "申",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "shen1",
+      "jpAudioKey": "shin",
+      "script": {
+        "same": true
+      }
+    },
+    {
       "id": "g:男",
       "kind": "glyph",
       "glyph": "男",
@@ -4932,12 +4948,13 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "min3"
+      "cnAudioKey": "min3",
+      "jpAudioKey": "sara"
     },
     {
       "id": "r:dish",
       "kind": "referent",
-      "label": "dish"
+      "label": "dish; vessel"
     },
     {
       "id": "g:目",
@@ -7502,13 +7519,6 @@
       "id": "g:直",
       "kind": "glyph",
       "glyph": "直",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:申",
-      "kind": "glyph",
-      "glyph": "申",
       "tier": null,
       "frontier": true
     },
@@ -12290,6 +12300,37 @@
       "id": "r:city-of-seattle",
       "kind": "referent",
       "label": "City of Seattle"
+    },
+    {
+      "id": "w:広い@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "広い",
+      "reading": "ひろい",
+      "gloss": "wide; spacious; broad",
+      "okurigana": "い",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "hiroi"
+    },
+    {
+      "id": "w:母@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "母",
+      "reading": "はは",
+      "gloss": "mother (one's own)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "haha"
     }
   ]
 }
