@@ -12331,6 +12331,37 @@
         "level": 3
       },
       "jpAudioKey": "haha"
+    },
+    {
+      "id": "w:お母さん@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "お母さん",
+      "reading": "おかあさん",
+      "gloss": "mother (honorific); mum; your/his mother",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "okaasan"
+    },
+    {
+      "id": "w:用いる@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "用いる",
+      "reading": "もちいる",
+      "gloss": "to use; to make use of",
+      "okurigana": "いる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "mochiiru"
     }
   ]
 }

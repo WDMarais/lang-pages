@@ -36,6 +36,20 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Previous",
+      "readings": [
+        "セン"
+      ],
+      "on": true,
+      "kun": [
+        "さき"
+      ],
+      "level": 4
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

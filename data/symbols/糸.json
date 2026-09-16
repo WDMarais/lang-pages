@@ -25,5 +25,17 @@
       "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Thread",
+      "readings": [
+        "いと"
+      ],
+      "on": false,
+      "level": 4
+    }
+  ]
 }

@@ -2341,7 +2341,18 @@
         "いと"
       ],
       "gloss": "thread",
-      "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
+      "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Thread",
+          "readings": [
+            "いと"
+          ],
+          "on": false,
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:白@cn",
@@ -2742,6 +2753,20 @@
         "glyph": "洗",
         "reading": "あらう",
         "gloss": "to wash"
+      },
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Previous",
+          "readings": [
+            "セン"
+          ],
+          "on": true,
+          "kun": [
+            "さき"
+          ],
+          "level": 4
+        }
       }
     },
     {
@@ -9161,6 +9186,12 @@
         "glyph": "取",
         "reading": "シュ",
         "gloss": "take"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Ear",
+        "level": 4,
+        "kind": "meaning"
       }
     },
     {

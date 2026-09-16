@@ -4397,6 +4397,14 @@
             "extra": "漢字「糸」(いと · シ) · 偏旁「いとへん 糹」"
           },
           "wk": null,
+          "kanji": {
+            "name": "Thread",
+            "readings": [
+              "いと"
+            ],
+            "on": false,
+            "level": 4
+          },
           "kx": 120,
           "cnAudioKey": "mi4",
           "jpAudioKey": "ito"
@@ -4573,7 +4581,11 @@
               "gloss": "take"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Ear",
+            "level": 4,
+            "kind": "meaning"
+          },
           "pd": {
             "name": "ear",
             "level": 1,

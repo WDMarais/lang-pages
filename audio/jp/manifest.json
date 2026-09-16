@@ -667,6 +667,10 @@
     "text": "みず",
     "voice": "ja-JP-NanamiNeural"
   },
+  "mochiiru.mp3": {
+    "text": "もちいる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "mono.mp3": {
     "text": "もの",
     "voice": "ja-JP-NanamiNeural"
@@ -785,6 +789,10 @@
   },
   "ohayou.mp3": {
     "text": "おはよう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "okaasan.mp3": {
+    "text": "おかあさん",
     "voice": "ja-JP-NanamiNeural"
   },
   "oku.mp3": {

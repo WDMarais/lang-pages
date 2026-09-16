@@ -36,6 +36,14 @@
   },
   "programs": [
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Ear",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

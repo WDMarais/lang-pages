@@ -3920,6 +3920,37 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "お母さん",
+      "audience": "jp",
+      "parts": [
+        "母"
+      ],
+      "denotes": "mother",
+      "reading": "おかあさん",
+      "gloss": "mother (honorific); mum; your/his mother",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "用いる",
+      "audience": "jp",
+      "parts": [
+        "用"
+      ],
+      "denotes": "use",
+      "reading": "もちいる",
+      "gloss": "to use; to make use of",
+      "okurigana": "いる",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }

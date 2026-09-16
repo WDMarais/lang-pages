@@ -8288,6 +8288,26 @@
       "kind": "denotes"
     },
     {
+      "from": "g:母",
+      "to": "w:お母さん@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:お母さん@jp",
+      "to": "r:mother",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:用",
+      "to": "w:用いる@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:用いる@jp",
+      "to": "r:use",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
