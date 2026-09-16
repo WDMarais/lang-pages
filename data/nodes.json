@@ -1864,6 +1864,27 @@
       "label": "ten thousand"
     },
     {
+      "id": "g:世",
+      "kind": "glyph",
+      "glyph": "世",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "shi4",
+      "jpAudioKey": "se",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:world",
+      "kind": "referent",
+      "label": "world; generation; lifetime"
+    },
+    {
       "id": "g:两",
       "kind": "glyph",
       "glyph": "两",
@@ -4448,7 +4469,7 @@
     {
       "id": "r:steam",
       "kind": "referent",
-      "label": "steam"
+      "label": "steam; air, gas; qi (vital energy)"
     },
     {
       "id": "g:氷",
@@ -7380,6 +7401,13 @@
       "frontier": true
     },
     {
+      "id": "g:廿",
+      "kind": "glyph",
+      "glyph": "廿",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:旦",
       "kind": "glyph",
       "glyph": "旦",
@@ -7593,13 +7621,6 @@
       "id": "g:龶",
       "kind": "glyph",
       "glyph": "龶",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:廿",
-      "kind": "glyph",
-      "glyph": "廿",
       "tier": null,
       "frontier": true
     },
@@ -12214,6 +12235,61 @@
       "id": "r:second-hand",
       "kind": "referent",
       "label": "second-hand; used"
+    },
+    {
+      "id": "w:市@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "市",
+      "reading": "し",
+      "gloss": "city",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "shi"
+    },
+    {
+      "id": "w:市立@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "市立",
+      "reading": "しりつ",
+      "gloss": "municipal; city-run",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "shiritsu"
+    },
+    {
+      "id": "r:municipal",
+      "kind": "referent",
+      "label": "municipal; city-run"
+    },
+    {
+      "id": "w:シアトル市@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "シアトル市",
+      "reading": "シアトルし",
+      "gloss": "City of Seattle",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "shiatorushi"
+    },
+    {
+      "id": "r:city-of-seattle",
+      "kind": "referent",
+      "label": "City of Seattle"
     }
   ]
 }

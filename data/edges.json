@@ -708,6 +708,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:世",
+      "to": "r:world",
+      "kind": "denotes"
+    },
+    {
       "from": "g:两",
       "to": "r:two",
       "kind": "denotes"
@@ -2916,6 +2921,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:廿",
+      "to": "g:世",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乚",
+      "to": "g:世",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
       "to": "g:两",
       "kind": "composes"
@@ -3830,11 +3845,6 @@
     {
       "from": "g:一",
       "to": "g:毛",
-      "kind": "composes"
-    },
-    {
-      "from": "g:亻",
-      "to": "g:气",
       "kind": "composes"
     },
     {
@@ -8210,6 +8220,41 @@
     {
       "from": "w:中古@jp",
       "to": "r:second-hand",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:市",
+      "to": "w:市@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:市@jp",
+      "to": "r:city",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:市",
+      "to": "w:市立@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:立",
+      "to": "w:市立@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:市立@jp",
+      "to": "r:municipal",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:市",
+      "to": "w:シアトル市@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:シアトル市@jp",
+      "to": "r:city-of-seattle",
       "kind": "denotes"
     },
     {

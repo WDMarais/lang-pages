@@ -1342,6 +1342,25 @@
           "kanji": { "name": "Ten Thousand", "readings": ["マン"], "on": true, "level": 3 }
         },
         {
+          "glyph": "世",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shi4",
+          "jpAudioKey": "se",
+          "script": {"same": true},
+          "cn": {
+            "name": "世", "reading": "shì", "gloss": "world; generation; lifetime",
+            "extra": "世界、世纪、一生一世 · 本义「三十年为一世」"
+          },
+          "jp": {
+            "name": "世", "reading": "セ", "gloss": "world; generation",
+            "extra": "漢字「世」(セ・セイ · よ) · 世界(せかい)、世紀(せいき)、世の中(よのなか)"
+          },
+          "wk": null,
+          "kanji": { "name": "World", "readings": ["セ", "セイ"], "on": true, "kun": ["よ"], "level": 4 }
+        },
+        {
           "glyph": "两",
           "tag": "char",
           "image": "",

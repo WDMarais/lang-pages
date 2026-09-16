@@ -3135,15 +3135,20 @@
           "cn": {
             "name": "气",
             "reading": "qì",
-            "gloss": "steam",
-            "extra": "康熙部首 84"
+            "gloss": "steam; air, gas; qi (vital energy)",
+            "extra": "康熙部首 84 · 象形（云气升腾）· 空气、天气、生气 · 繁体作氣"
           },
           "jp": {
             "name": "气",
             "reading": "",
-            "gloss": "steam"
+            "gloss": "steam",
+            "extra": "部首「きがまえ」· 気/汽 の部首 · 旧字: 氣"
           },
-          "wk": null,
+          "wk": {
+            "name": "Energy",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 84,
           "cnAudioKey": "qi4"
         },

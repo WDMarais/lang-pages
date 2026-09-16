@@ -2562,7 +2562,7 @@
       "glyphs": [
         {
           "glyph": "气",
-          "gloss": "steam",
+          "gloss": "steam; air, gas; qi (vital energy)",
           "rank": 0
         }
       ]
@@ -3011,6 +3011,11 @@
       "tone": 4,
       "zhuyin": "ㄕ",
       "glyphs": [
+        {
+          "glyph": "世",
+          "gloss": "world; generation; lifetime",
+          "rank": 0
+        },
         {
           "glyph": "士",
           "gloss": "scholar",

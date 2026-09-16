@@ -919,6 +919,10 @@
     "text": "さゆう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "se.mp3": {
+    "text": "セ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "sei.mp3": {
     "text": "セイ",
     "voice": "ja-JP-NanamiNeural"
@@ -935,12 +939,20 @@
     "text": "シ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "shiatorushi.mp3": {
+    "text": "シアトルし",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "shichigatsu.mp3": {
     "text": "しちがつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "shigatsu.mp3": {
     "text": "しがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shiritsu.mp3": {
+    "text": "しりつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "shiro.mp3": {

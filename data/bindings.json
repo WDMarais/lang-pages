@@ -3599,6 +3599,43 @@
       }
     },
     {
+      "id": "b:世@cn",
+      "glyph_id": "g:世",
+      "lang": "cn",
+      "name": "世",
+      "readings": [
+        "shì"
+      ],
+      "gloss": "world; generation; lifetime",
+      "extra": "世界、世纪、一生一世 · 本义「三十年为一世」"
+    },
+    {
+      "id": "b:世@jp",
+      "glyph_id": "g:世",
+      "lang": "jp",
+      "name": "世",
+      "readings": [
+        "セ"
+      ],
+      "gloss": "world; generation",
+      "extra": "漢字「世」(セ・セイ · よ) · 世界(せかい)、世紀(せいき)、世の中(よのなか)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "World",
+          "readings": [
+            "セ",
+            "セイ"
+          ],
+          "on": true,
+          "kun": [
+            "よ"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:两@cn",
       "glyph_id": "g:两",
       "lang": "cn",
@@ -7590,8 +7627,8 @@
       "readings": [
         "qì"
       ],
-      "gloss": "steam",
-      "extra": "康熙部首 84"
+      "gloss": "steam; air, gas; qi (vital energy)",
+      "extra": "康熙部首 84 · 象形（云气升腾）· 空气、天气、生气 · 繁体作氣"
     },
     {
       "id": "b:气@jp",
@@ -7600,7 +7637,13 @@
       "name": "气",
       "readings": [],
       "gloss": "steam",
-      "extra": ""
+      "extra": "部首「きがまえ」· 気/汽 の部首 · 旧字: 氣",
+      "program": {
+        "source": "wanikani",
+        "name": "Energy",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:氷@cn",

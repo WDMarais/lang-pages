@@ -1,0 +1,47 @@
+{
+  "glyph": "世",
+  "cp": "U+4E16",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "廿",
+    "乚"
+  ],
+  "readings": {
+    "cn": {
+      "name": "世",
+      "reading": "shì",
+      "gloss": "world; generation; lifetime",
+      "extra": "世界、世纪、一生一世 · 本义「三十年为一世」"
+    },
+    "jp": {
+      "name": "世",
+      "reading": "セ",
+      "gloss": "world; generation",
+      "extra": "漢字「世」(セ・セイ · よ) · 世界(せかい)、世紀(せいき)、世の中(よのなか)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "World",
+      "readings": [
+        "セ",
+        "セイ"
+      ],
+      "on": true,
+      "kun": [
+        "よ"
+      ],
+      "level": 4
+    }
+  ]
+}

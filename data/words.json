@@ -3843,6 +3843,52 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "市",
+      "audience": "jp",
+      "parts": [
+        "市"
+      ],
+      "denotes": "city",
+      "reading": "し",
+      "gloss": "city",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "市立",
+      "audience": "jp",
+      "parts": [
+        "市",
+        "立"
+      ],
+      "denotes": "municipal",
+      "reading": "しりつ",
+      "gloss": "municipal; city-run",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "シアトル市",
+      "audience": "jp",
+      "parts": [
+        "市"
+      ],
+      "denotes": "city-of-seattle",
+      "reading": "シアトルし",
+      "gloss": "City of Seattle",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
     }
   ]
 }
