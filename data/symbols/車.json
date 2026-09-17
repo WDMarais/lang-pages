@@ -53,6 +53,14 @@
       "name": "cart",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Car",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

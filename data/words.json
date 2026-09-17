@@ -3951,6 +3951,92 @@
         "kind": "vocab",
         "level": 3
       }
+    },
+    {
+      "surface": "人生",
+      "audience": "jp",
+      "parts": [
+        "人",
+        "生"
+      ],
+      "denotes": "life",
+      "reading": "じんせい",
+      "gloss": "(human) life; one's lifetime",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "〜台",
+      "audience": "jp",
+      "parts": [
+        "台"
+      ],
+      "denotes": "machine-counter",
+      "reading": "だい",
+      "gloss": "counter for machines and vehicles (e.g. 一台 «one machine»); also stand, platform",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "戸口",
+      "audience": "jp",
+      "parts": [
+        "戶",
+        "口"
+      ],
+      "denotes": "doorway",
+      "reading": "とぐち",
+      "gloss": "doorway; entrance",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      }
+    },
+    {
+      "surface": "どれ",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "which",
+      "reading": "どれ",
+      "gloss": "which (of three or more)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "ノート",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "notebook",
+      "reading": "ノート",
+      "gloss": "notebook; notes",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "さようなら",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "goodbye",
+      "reading": "さようなら",
+      "gloss": "goodbye; farewell",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

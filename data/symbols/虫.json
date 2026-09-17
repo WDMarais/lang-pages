@@ -3,7 +3,6 @@
   "cp": "U+866B",
   "class": "char",
   "kangxi": 142,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -20,8 +19,9 @@
     },
     "jp": {
       "name": "虫",
-      "reading": "",
-      "gloss": "insect"
+      "reading": "むし",
+      "gloss": "insect",
+      "extra": "漢字「虫」(むし · チュウ) · 虫(むし)、毛虫(けむし)、昆虫(こんちゅう)"
     }
   },
   "programs": [
@@ -31,6 +31,28 @@
       "role": "radical",
       "name": "insect",
       "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Insect",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Insect",
+      "readings": [
+        "チュウ"
+      ],
+      "on": true,
+      "kun": [
+        "むし"
+      ],
       "level": 4
     }
   ]

@@ -307,13 +307,6 @@
       "label": "mouth"
     },
     {
-      "id": "g:名",
-      "kind": "glyph",
-      "glyph": "名",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:女",
       "kind": "glyph",
       "glyph": "女",
@@ -3067,6 +3060,27 @@
       "label": "same; alike; together"
     },
     {
+      "id": "g:名",
+      "kind": "glyph",
+      "glyph": "名",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ming2",
+      "jpAudioKey": "na",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:name",
+      "kind": "referent",
+      "label": "name; fame"
+    },
+    {
       "id": "g:后",
       "kind": "glyph",
       "glyph": "后",
@@ -5727,7 +5741,10 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "cao3"
+      "cnAudioKey": "cao3",
+      "variants": [
+        "艹"
+      ]
     },
     {
       "id": "r:grass",
@@ -5744,11 +5761,6 @@
         "animated": true,
         "image": ""
       }
-    },
-    {
-      "id": "r:grass-plant-radical",
-      "kind": "referent",
-      "label": "grass/plant radical (草字头)"
     },
     {
       "id": "g:虍",
@@ -5777,7 +5789,8 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "chong2"
+      "cnAudioKey": "chong2",
+      "jpAudioKey": "mushi"
     },
     {
       "id": "r:insect",
@@ -12384,6 +12397,121 @@
         "level": 3
       },
       "jpAudioKey": "mochiiru"
+    },
+    {
+      "id": "w:人生@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "人生",
+      "reading": "じんせい",
+      "gloss": "(human) life; one's lifetime",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "jinsei"
+    },
+    {
+      "id": "w:〜台@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "〜台",
+      "reading": "だい",
+      "gloss": "counter for machines and vehicles (e.g. 一台 «one machine»); also stand, platform",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "dai"
+    },
+    {
+      "id": "r:machine-counter",
+      "kind": "referent",
+      "label": "counter for machines and vehicles (e.g. 一台 «one machine»); also stand, platform"
+    },
+    {
+      "id": "w:戸口@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "戸口",
+      "reading": "とぐち",
+      "gloss": "doorway; entrance",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 3
+      },
+      "jpAudioKey": "toguchi"
+    },
+    {
+      "id": "r:doorway",
+      "kind": "referent",
+      "label": "doorway; entrance"
+    },
+    {
+      "id": "w:どれ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "どれ",
+      "reading": "どれ",
+      "gloss": "which (of three or more)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "dore"
+    },
+    {
+      "id": "r:which",
+      "kind": "referent",
+      "label": "which (of three or more)"
+    },
+    {
+      "id": "w:ノート@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "ノート",
+      "reading": "ノート",
+      "gloss": "notebook; notes",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "nooto"
+    },
+    {
+      "id": "r:notebook",
+      "kind": "referent",
+      "label": "notebook; notes"
+    },
+    {
+      "id": "w:さようなら@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "さようなら",
+      "reading": "さようなら",
+      "gloss": "goodbye; farewell",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "sayounara"
+    },
+    {
+      "id": "r:goodbye",
+      "kind": "referent",
+      "label": "goodbye; farewell"
     }
   ]
 }

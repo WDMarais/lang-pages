@@ -32,6 +32,14 @@
       "name": "year",
       "kind": "meaning",
       "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Year",
+      "kind": "meaning",
+      "level": 4
     }
   ]
 }

@@ -111,6 +111,10 @@
     "text": "でる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "dore.mp3": {
+    "text": "どれ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "dou.mp3": {
     "text": "ドウ",
     "voice": "ja-JP-NanamiNeural"
@@ -403,6 +407,10 @@
     "text": "じんこう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "jinsei.mp3": {
+    "text": "じんせい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "jo.mp3": {
     "text": "ジョ",
     "voice": "ja-JP-NanamiNeural"
@@ -691,12 +699,16 @@
     "text": "むく",
     "voice": "ja-JP-NanamiNeural"
   },
+  "mushi.mp3": {
+    "text": "むし",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "muttsu.mp3": {
     "text": "むっつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "na.mp3": {
-    "text": "ナ",
+    "text": "な",
     "voice": "ja-JP-NanamiNeural"
   },
   "naka.mp3": {
@@ -777,6 +789,10 @@
   },
   "noma.mp3": {
     "text": "ノマ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nooto.mp3": {
+    "text": "ノート",
     "voice": "ja-JP-NanamiNeural"
   },
   "nou.mp3": {
@@ -929,6 +945,10 @@
   },
   "sara.mp3": {
     "text": "さら",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sayounara.mp3": {
+    "text": "さようなら",
     "voice": "ja-JP-NanamiNeural"
   },
   "sayuu.mp3": {
@@ -1117,6 +1137,10 @@
   },
   "to.mp3": {
     "text": "と",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "toguchi.mp3": {
+    "text": "とぐち",
     "voice": "ja-JP-NanamiNeural"
   },
   "toku.mp3": {

@@ -2199,6 +2199,25 @@
           "pdc": { "name": "same", "kind": "meaning", "level": 4 }
         },
         {
+          "glyph": "名",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ming2",
+          "jpAudioKey": "na",
+          "script": {"same": true},
+          "cn": {
+            "name": "名", "reading": "míng", "gloss": "name; fame",
+            "extra": "名字、有名、名单 · ⿱夕口 · 夜里看不清，以口自报其名"
+          },
+          "jp": {
+            "name": "名", "reading": "な", "gloss": "name; fame",
+            "extra": "漢字「名」(な · メイ・ミョウ) · 名前(なまえ)、有名(ゆうめい)、名字(みょうじ)"
+          },
+          "wk": null,
+          "kanji": { "name": "Name", "readings": ["メイ", "ミョウ"], "on": true, "kun": ["な"], "level": 4 }
+        },
+        {
           "glyph": "后",
           "tag": "char",
           "image": "",
@@ -2614,7 +2633,7 @@
             "name": "年", "reading": "とし", "gloss": "year",
             "extra": "漢字「年」(とし · ネン) · 今年(ことし)、一年(いちねん)"
           },
-          "wk": null,
+          "wk": { "name": "Year", "level": 4, "kind": "meaning" },
           "pdc": { "name": "year", "kind": "meaning", "level": 4 }
         },
         {
@@ -3595,6 +3614,25 @@
           "pdc": { "name": "self", "kind": "meaning", "level": 4 }
         },
         {
+          "glyph": "虫",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "chong2",
+          "jpAudioKey": "mushi",
+          "cn": {
+            "name": "虫", "reading": "chóng", "gloss": "insect",
+            "extra": "康熙部首 142"
+          },
+          "jp": {
+            "name": "虫", "reading": "むし", "gloss": "insect",
+            "extra": "漢字「虫」(むし · チュウ) · 虫(むし)、毛虫(けむし)、昆虫(こんちゅう)"
+          },
+          "wk": { "name": "Insect", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Insect", "readings": ["チュウ"], "on": true, "kun": ["むし"], "level": 4 },
+          "pd": { "name": "insect", "level": 4, "kind": "meaning" }
+        },
+        {
           "glyph": "西",
           "tag": "char",
           "image": "",
@@ -3612,6 +3650,26 @@
           "wk": null,
           "pd": { "name": "west", "level": 1, "kind": "meaning" },
           "pdc": { "name": "west", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "見",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "jian4",
+          "jpAudioKey": "miru",
+          "script": {"keyed": "traditional", "simplified": [{"glyph": "见"}]},
+          "cn": {
+            "name": "見", "reading": "jiàn", "gloss": "see",
+            "extra": "康熙部首 147 · 会意（目+儿）· 见、看见、见面"
+          },
+          "jp": {
+            "name": "見", "reading": "みる", "gloss": "see",
+            "extra": "漢字「見」(み-る · ケン) · 見る(みる)、意見(いけん)"
+          },
+          "wk": null,
+          "kanji": { "name": "See", "readings": ["ケン"], "on": true, "kun": ["み"], "level": 4 },
+          "pd": { "name": "see", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "角",
@@ -3695,7 +3753,7 @@
             "extra": "漢字「車」(くるま · シャ) · 車、電車、自動車",
             "appearsIn": { "char": "軍", "reading": "グン", "gloss": "army" }
           },
-          "wk": null,
+          "wk": { "name": "Car", "level": 4, "kind": "meaning" },
           "pd": { "name": "cart", "level": 1, "kind": "meaning" },
           "pdc": { "name": "cart", "kind": "meaning", "level": 1 }
         },

@@ -25,5 +25,14 @@
       "gloss": "red"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Red",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
 }

@@ -1044,6 +1044,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:名",
+      "to": "r:name",
+      "kind": "denotes"
+    },
+    {
       "from": "g:后",
       "to": "r:behind",
       "kind": "denotes"
@@ -1837,7 +1842,7 @@
     },
     {
       "from": "g:艹",
-      "to": "r:grass-plant-radical",
+      "to": "r:grass",
       "kind": "denotes"
     },
     {
@@ -3369,6 +3374,11 @@
     {
       "from": "g:口",
       "to": "g:同",
+      "kind": "composes"
+    },
+    {
+      "from": "g:夕",
+      "to": "g:名",
       "kind": "composes"
     },
     {
@@ -8323,6 +8333,61 @@
       "kind": "denotes"
     },
     {
+      "from": "g:人",
+      "to": "w:人生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:生",
+      "to": "w:人生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:人生@jp",
+      "to": "r:life",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:台",
+      "to": "w:〜台@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:〜台@jp",
+      "to": "r:machine-counter",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:戶",
+      "to": "w:戸口@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "w:戸口@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:戸口@jp",
+      "to": "r:doorway",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:どれ@jp",
+      "to": "r:which",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:ノート@jp",
+      "to": "r:notebook",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:さようなら@jp",
+      "to": "r:goodbye",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
@@ -8335,6 +8400,11 @@
     {
       "from": "g:⺼",
       "to": "g:肉",
+      "kind": "variant"
+    },
+    {
+      "from": "g:艹",
+      "to": "g:艸",
       "kind": "variant"
     },
     {

@@ -1,0 +1,47 @@
+{
+  "glyph": "名",
+  "cp": "U+540D",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "夕",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "名",
+      "reading": "míng",
+      "gloss": "name; fame",
+      "extra": "名字、有名、名单 · ⿱夕口 · 夜里看不清，以口自报其名"
+    },
+    "jp": {
+      "name": "名",
+      "reading": "な",
+      "gloss": "name; fame",
+      "extra": "漢字「名」(な · メイ・ミョウ) · 名前(なまえ)、有名(ゆうめい)、名字(みょうじ)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Name",
+      "readings": [
+        "メイ",
+        "ミョウ"
+      ],
+      "on": true,
+      "kun": [
+        "な"
+      ],
+      "level": 4
+    }
+  ]
+}

@@ -5462,6 +5462,43 @@
       "extra": "漢字「同」(ドウ · おな.じ) · 同じ(おなじ)、同時(どうじ)、同意(どうい)"
     },
     {
+      "id": "b:名@cn",
+      "glyph_id": "g:名",
+      "lang": "cn",
+      "name": "名",
+      "readings": [
+        "míng"
+      ],
+      "gloss": "name; fame",
+      "extra": "名字、有名、名单 · ⿱夕口 · 夜里看不清，以口自报其名"
+    },
+    {
+      "id": "b:名@jp",
+      "glyph_id": "g:名",
+      "lang": "jp",
+      "name": "名",
+      "readings": [
+        "な"
+      ],
+      "gloss": "name; fame",
+      "extra": "漢字「名」(な · メイ・ミョウ) · 名前(なまえ)、有名(ゆうめい)、名字(みょうじ)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Name",
+          "readings": [
+            "メイ",
+            "ミョウ"
+          ],
+          "on": true,
+          "kun": [
+            "な"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:后@cn",
       "glyph_id": "g:后",
       "lang": "cn",
@@ -6345,7 +6382,13 @@
         "とし"
       ],
       "gloss": "year",
-      "extra": "漢字「年」(とし · ネン) · 今年(ことし)、一年(いちねん)"
+      "extra": "漢字「年」(とし · ネン) · 今年(ことし)、一年(いちねん)",
+      "program": {
+        "source": "wanikani",
+        "name": "Year",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:幺@cn",
@@ -9625,7 +9668,7 @@
       "lang": "cn",
       "name": "艹",
       "readings": [],
-      "gloss": "grass/plant radical (草字头)",
+      "gloss": "grass (radical form)",
       "extra": "艸(康熙 140)的头形·草字头 · 见于 花 草 茶 药 菜 · Pandanese「flower」",
       "program": {
         "source": "pandanese",
@@ -9638,10 +9681,16 @@
       "id": "b:艹@jp",
       "glyph_id": "g:艹",
       "lang": "jp",
-      "name": "艹",
+      "name": "くさかんむり",
       "readings": [],
-      "gloss": "grass/plant radical",
-      "extra": "くさかんむり · 艸(140)の冠形 · 花・草・茶・薬 の上"
+      "gloss": "grass (radical form)",
+      "extra": "くさかんむり · 艸(140)の冠形 · 花・草・茶・薬 の上",
+      "program": {
+        "source": "wanikani",
+        "name": "Flowers",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:虍@cn",
@@ -9685,9 +9734,28 @@
       "glyph_id": "g:虫",
       "lang": "jp",
       "name": "虫",
-      "readings": [],
+      "readings": [
+        "むし"
+      ],
       "gloss": "insect",
-      "extra": ""
+      "extra": "漢字「虫」(むし · チュウ) · 虫(むし)、毛虫(けむし)、昆虫(こんちゅう)",
+      "program": {
+        "source": "wanikani",
+        "name": "Insect",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Insect",
+          "readings": [
+            "チュウ"
+          ],
+          "on": true,
+          "kun": [
+            "むし"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:血@cn",
@@ -9856,7 +9924,21 @@
         "みる"
       ],
       "gloss": "see",
-      "extra": "漢字「見」(み-る · ケン) · 見る(みる)、意見(いけん)"
+      "extra": "漢字「見」(み-る · ケン) · 見る(みる)、意見(いけん)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "See",
+          "readings": [
+            "ケン"
+          ],
+          "on": true,
+          "kun": [
+            "み"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:角@cn",
@@ -10101,7 +10183,13 @@
       "name": "赤",
       "readings": [],
       "gloss": "red",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Red",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:走@cn",
@@ -10228,6 +10316,12 @@
         "glyph": "軍",
         "reading": "グン",
         "gloss": "army"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Car",
+        "level": 4,
+        "kind": "meaning"
       }
     },
     {

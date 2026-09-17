@@ -4918,17 +4918,34 @@
           },
           "jp": {
             "name": "虫",
-            "reading": "",
-            "gloss": "insect"
+            "reading": "むし",
+            "gloss": "insect",
+            "extra": "漢字「虫」(むし · チュウ) · 虫(むし)、毛虫(けむし)、昆虫(こんちゅう)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Insect",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Insect",
+            "readings": [
+              "チュウ"
+            ],
+            "on": true,
+            "kun": [
+              "むし"
+            ],
+            "level": 4
+          },
           "pd": {
             "name": "insect",
             "level": 4,
             "kind": "meaning"
           },
           "kx": 142,
-          "cnAudioKey": "chong2"
+          "cnAudioKey": "chong2",
+          "jpAudioKey": "mushi"
         },
         {
           "glyph": "血",
@@ -5042,6 +5059,17 @@
             ]
           },
           "wk": null,
+          "kanji": {
+            "name": "See",
+            "readings": [
+              "ケン"
+            ],
+            "on": true,
+            "kun": [
+              "み"
+            ],
+            "level": 4
+          },
           "pd": {
             "name": "see",
             "level": 2,
@@ -5246,7 +5274,11 @@
             "reading": "",
             "gloss": "red"
           },
-          "wk": null,
+          "wk": {
+            "name": "Red",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 155,
           "cnAudioKey": "chi4"
         },
@@ -5369,7 +5401,11 @@
               }
             ]
           },
-          "wk": null,
+          "wk": {
+            "name": "Car",
+            "level": 4,
+            "kind": "meaning"
+          },
           "pd": {
             "name": "cart",
             "level": 1,
@@ -7282,16 +7318,20 @@
           "cn": {
             "name": "艹",
             "reading": "",
-            "gloss": "grass/plant radical (草字头)",
+            "gloss": "grass (radical form)",
             "extra": "艸(康熙 140)的头形·草字头 · 见于 花 草 茶 药 菜 · Pandanese「flower」"
           },
           "jp": {
-            "name": "艹",
+            "name": "くさかんむり",
             "reading": "",
-            "gloss": "grass/plant radical",
+            "gloss": "grass (radical form)",
             "extra": "くさかんむり · 艸(140)の冠形 · 花・草・茶・薬 の上"
           },
-          "wk": null,
+          "wk": {
+            "name": "Flowers",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "pd": {
             "name": "flower",
             "level": 4,
