@@ -3973,6 +3973,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:二",
+      "to": "g:用",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:用",
+      "kind": "composes"
+    },
+    {
       "from": "g:田",
       "to": "g:由",
       "kind": "composes"
@@ -4313,6 +4323,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:一",
+      "to": "g:虫",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丶",
+      "to": "g:虫",
+      "kind": "composes"
+    },
+    {
       "from": "g:丿",
       "to": "g:血",
       "kind": "composes"
@@ -4478,7 +4498,17 @@
       "kind": "composes"
     },
     {
+      "from": "g:一",
+      "to": "g:車",
+      "kind": "composes"
+    },
+    {
       "from": "g:日",
+      "to": "g:車",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
       "to": "g:車",
       "kind": "composes"
     },

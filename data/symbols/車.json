@@ -8,7 +8,9 @@
     "image": ""
   },
   "composes": [
-    "日"
+    "一",
+    "日",
+    "十"
   ],
   "readings": {
     "cn": {

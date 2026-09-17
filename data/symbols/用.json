@@ -8,7 +8,9 @@
     "image": ""
   },
   "composes": [
-    "冂"
+    "冂",
+    "二",
+    "丨"
   ],
   "readings": {
     "cn": {
