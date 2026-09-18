@@ -91,6 +91,10 @@
     "text": "不如",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "bu4tong2.mp3": {
+    "text": "不同",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cai2.mp3": {
     "text": "才",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -163,12 +167,20 @@
     "text": "此",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ci4.mp3": {
+    "text": "次",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cong2.mp3": {
     "text": "从",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cong2bu4.mp3": {
     "text": "从不",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cong2ci3.mp3": {
+    "text": "从此",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cun4.mp3": {
@@ -247,6 +259,10 @@
     "text": "动",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "dong4li4.mp3": {
+    "text": "动力",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "dou1.mp3": {
     "text": "都",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -281,6 +297,10 @@
   },
   "fa1.mp3": {
     "text": "发",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fa1ming2.mp3": {
+    "text": "发明",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "fang1.mp3": {
@@ -485,6 +505,14 @@
   },
   "hui4.mp3": {
     "text": "会",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hui4jian4.mp3": {
+    "text": "会见",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "hui4yuan2.mp3": {
+    "text": "会员",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "huo3.mp3": {
@@ -919,6 +947,10 @@
     "text": "如果",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ru2tong2.mp3": {
+    "text": "如同",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ru4.mp3": {
     "text": "入",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -957,6 +989,10 @@
   },
   "shen2.mp3": {
     "text": "什",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shen2me5yang4.mp3": {
+    "text": "什么样",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "sheng1.mp3": {
@@ -1089,6 +1125,10 @@
   },
   "tong2.mp3": {
     "text": "同",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tong2yang4.mp3": {
+    "text": "同样",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tou2.mp3": {
@@ -1507,6 +1547,10 @@
     "text": "中",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "zhong1xin1.mp3": {
+    "text": "中心",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "zhou1.mp3": {
     "text": "州",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1533,6 +1577,14 @@
   },
   "zi4.mp3": {
     "text": "字",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zi4cong2.mp3": {
+    "text": "自从",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zi4you2.mp3": {
+    "text": "自由",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zou3.mp3": {

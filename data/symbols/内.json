@@ -46,6 +46,14 @@
         "うち"
       ],
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "inside",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

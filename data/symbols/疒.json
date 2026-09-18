@@ -25,5 +25,14 @@
       "gloss": "sickness"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "sickness",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
 }

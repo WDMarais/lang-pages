@@ -57,6 +57,14 @@
         "ゆう"
       ],
       "level": 2
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "evening",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

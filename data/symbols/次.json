@@ -1,0 +1,40 @@
+{
+  "glyph": "次",
+  "cp": "U+6B21",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "冫",
+    "欠"
+  ],
+  "readings": {
+    "cn": {
+      "name": "次",
+      "reading": "cì",
+      "gloss": "next; secondary; order, sequence; time (occurrence)",
+      "extra": "次要、其次、下次 · 一次、两次 · ⿰冫欠"
+    },
+    "jp": {
+      "name": "次",
+      "reading": "つぎ",
+      "gloss": "next; order",
+      "extra": "漢字「次」(つぎ · ジ・シ) · 次(つぎ)、次回(じかい)、目次(もくじ)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "next",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

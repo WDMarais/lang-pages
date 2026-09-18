@@ -33,6 +33,14 @@
       "name": "Towel",
       "kind": "meaning",
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "beef skewer",
+      "kind": "mnemonic",
+      "level": 5
     }
   ]
 }

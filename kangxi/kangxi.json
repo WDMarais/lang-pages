@@ -1202,6 +1202,11 @@
             "level": 1,
             "kind": "meaning"
           },
+          "pdc": {
+            "name": "mouth",
+            "kind": "meaning",
+            "level": 5
+          },
           "kx": 30,
           "cnAudioKey": "kou3",
           "cnExAudioKey": "ming2",
@@ -1394,6 +1399,11 @@
               "ゆう"
             ],
             "level": 2
+          },
+          "pdc": {
+            "name": "evening",
+            "kind": "meaning",
+            "level": 5
           },
           "kx": 36,
           "cnAudioKey": "xi1",
@@ -1997,6 +2007,11 @@
             "name": "Towel",
             "level": 3,
             "kind": "meaning"
+          },
+          "pd": {
+            "name": "beef skewer",
+            "level": 5,
+            "kind": "mnemonic"
           },
           "kx": 50,
           "cnAudioKey": "jin1"
@@ -3863,6 +3878,11 @@
             "gloss": "sickness"
           },
           "wk": null,
+          "pd": {
+            "name": "sickness",
+            "level": 5,
+            "kind": "meaning"
+          },
           "kx": 104,
           "cnAudioKey": "ne4"
         },

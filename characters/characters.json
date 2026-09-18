@@ -265,7 +265,8 @@
           },
           "wk": { "name": "Mouth", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Mouth", "readings": ["コウ", "ク"], "on": true, "kun": ["くち"], "level": 1 },
-          "pd": { "name": "mouth", "level": 1, "kind": "meaning" }
+          "pd": { "name": "mouth", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "mouth", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "女",
@@ -720,7 +721,8 @@
             "appearsIn": { "char": "主", "reading": "ぬし", "gloss": "master; owner" }
           },
           "wk": { "name": "King", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "King", "readings": ["オウ"], "on": true, "level": 2 }
+          "kanji": { "name": "King", "readings": ["オウ"], "on": true, "level": 2 },
+          "pdc": { "name": "king", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "本",
@@ -783,7 +785,8 @@
             "appearsIn": { "char": "外", "reading": "そと", "gloss": "outside" }
           },
           "wk": { "name": "Evening", "level": 2, "kind": "meaning" },
-          "kanji": { "name": "Evening", "readings": ["セキ"], "on": true, "kun": ["ゆう"], "level": 2 }
+          "kanji": { "name": "Evening", "readings": ["セキ"], "on": true, "kun": ["ゆう"], "level": 2 },
+          "pdc": { "name": "evening", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "上",
@@ -1808,7 +1811,8 @@
             "extra": "漢字「内」(うち · ナイ・ダイ) · 内(うち)、内側(うちがわ)、国内(こくない) · 旧字: 內"
           },
           "wk": null,
-          "kanji": { "name": "Inside", "readings": ["ナイ", "ダイ"], "on": true, "kun": ["うち"], "level": 3 }
+          "kanji": { "name": "Inside", "readings": ["ナイ", "ダイ"], "on": true, "kun": ["うち"], "level": 3 },
+          "pdc": { "name": "inside", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "军",
@@ -2179,6 +2183,25 @@
           },
           "wk": null,
           "kanji": { "name": "Number", "readings": ["ゴウ"], "on": true, "level": 4 }
+        },
+        {
+          "glyph": "各",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ge4",
+          "jpAudioKey": "onoono",
+          "script": {"same": true},
+          "cn": {
+            "name": "各", "reading": "gè", "gloss": "each; every; various",
+            "extra": "各位、各种、各自 · ⿱夂口"
+          },
+          "jp": {
+            "name": "各", "reading": "おのおの", "gloss": "each; every",
+            "extra": "漢字「各」(おのおの · カク) · 各々(おのおの)、各国(かっこく)"
+          },
+          "wk": null,
+          "pdc": { "name": "each", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "同",
@@ -2991,6 +3014,25 @@
           },
           "wk": null,
           "pdc": { "name": "way", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "次",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ci4",
+          "jpAudioKey": "tsugi",
+          "script": {"same": true},
+          "cn": {
+            "name": "次", "reading": "cì", "gloss": "next; secondary; order, sequence; time (occurrence)",
+            "extra": "次要、其次、下次 · 一次、两次 · ⿰冫欠"
+          },
+          "jp": {
+            "name": "次", "reading": "つぎ", "gloss": "next; order",
+            "extra": "漢字「次」(つぎ · ジ・シ) · 次(つぎ)、次回(じかい)、目次(もくじ)"
+          },
+          "wk": null,
+          "pdc": { "name": "next", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "正",

@@ -703,7 +703,12 @@
         "source": "pandanese",
         "name": "mouth",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "mouth",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -1843,6 +1848,14 @@
         "glyph": "主",
         "reading": "zhǔ",
         "gloss": "master; host"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "king",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -1974,6 +1987,14 @@
         "glyph": "外",
         "reading": "wài",
         "gloss": "outside"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "evening",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -4479,7 +4500,15 @@
         "nèi"
       ],
       "gloss": "inside; inner; within",
-      "extra": "内容、内部、国内 · 冂 + 人 · 繁体作內"
+      "extra": "内容、内部、国内 · 冂 + 人 · 繁体作內",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "inside",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
     },
     {
       "id": "b:内@jp",
@@ -5432,6 +5461,36 @@
       }
     },
     {
+      "id": "b:各@cn",
+      "glyph_id": "g:各",
+      "lang": "cn",
+      "name": "各",
+      "readings": [
+        "gè"
+      ],
+      "gloss": "each; every; various",
+      "extra": "各位、各种、各自 · ⿱夂口",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "each",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:各@jp",
+      "glyph_id": "g:各",
+      "lang": "jp",
+      "name": "各",
+      "readings": [
+        "おのおの"
+      ],
+      "gloss": "each; every",
+      "extra": "漢字「各」(おのおの · カク) · 各々(おのおの)、各国(かっこく)"
+    },
+    {
       "id": "b:同@cn",
       "glyph_id": "g:同",
       "lang": "cn",
@@ -6269,7 +6328,13 @@
         "jīn"
       ],
       "gloss": "cloth",
-      "extra": "康熙部首 50"
+      "extra": "康熙部首 50",
+      "program": {
+        "source": "pandanese",
+        "name": "beef skewer",
+        "level": 5,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:巾@jp",
@@ -7478,6 +7543,36 @@
       "extra": ""
     },
     {
+      "id": "b:次@cn",
+      "glyph_id": "g:次",
+      "lang": "cn",
+      "name": "次",
+      "readings": [
+        "cì"
+      ],
+      "gloss": "next; secondary; order, sequence; time (occurrence)",
+      "extra": "次要、其次、下次 · 一次、两次 · ⿰冫欠",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "next",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:次@jp",
+      "glyph_id": "g:次",
+      "lang": "jp",
+      "name": "次",
+      "readings": [
+        "つぎ"
+      ],
+      "gloss": "next; order",
+      "extra": "漢字「次」(つぎ · ジ・シ) · 次(つぎ)、次回(じかい)、目次(もくじ)"
+    },
+    {
       "id": "b:正@cn",
       "glyph_id": "g:正",
       "lang": "cn",
@@ -8411,7 +8506,13 @@
         "nè"
       ],
       "gloss": "sickness",
-      "extra": "康熙部首 104"
+      "extra": "康熙部首 104",
+      "program": {
+        "source": "pandanese",
+        "name": "sickness",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:疒@jp",

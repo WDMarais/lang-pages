@@ -649,6 +649,20 @@
         }
       ]
     },
+    "ci4": {
+      "key": "ci4",
+      "pinyin": "cì",
+      "base": "ci",
+      "tone": 4,
+      "zhuyin": "ㄘ",
+      "glyphs": [
+        {
+          "glyph": "次",
+          "gloss": "next; secondary; order, sequence; time (occurrence)",
+          "rank": 0
+        }
+      ]
+    },
     "cong2": {
       "key": "cong2",
       "pinyin": "cóng",
@@ -1184,6 +1198,11 @@
         {
           "glyph": "个",
           "gloss": "(generic measure word); individual",
+          "rank": 0
+        },
+        {
+          "glyph": "各",
+          "gloss": "each; every; various",
           "rank": 0
         }
       ]

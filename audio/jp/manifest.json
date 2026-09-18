@@ -839,6 +839,10 @@
     "text": "おの",
     "voice": "ja-JP-NanamiNeural"
   },
+  "onoono.mp3": {
+    "text": "おのおの",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "onore.mp3": {
     "text": "おのれ",
     "voice": "ja-JP-NanamiNeural"
@@ -1173,6 +1177,10 @@
   },
   "tsuchi.mp3": {
     "text": "つち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tsugi.mp3": {
+    "text": "つぎ",
     "voice": "ja-JP-NanamiNeural"
   },
   "tsuitachi.mp3": {

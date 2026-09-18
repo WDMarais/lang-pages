@@ -2048,8 +2048,8 @@
       ],
       "denotes": "field",
       "reading": "たんぼ",
-      "okurigana": "んぼ",
       "gloss": "rice paddy; rice field",
+      "okurigana": "んぼ",
       "program": {
         "source": "wanikani",
         "kind": "vocab",
@@ -4036,6 +4036,199 @@
         "source": "wanikani",
         "kind": "vocab",
         "level": 4
+      }
+    },
+    {
+      "surface": "发明",
+      "audience": "cn",
+      "parts": [
+        "发",
+        "明"
+      ],
+      "denotes": "invention",
+      "reading": "fāmíng",
+      "gloss": "invention; to invent",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "同样",
+      "audience": "cn",
+      "parts": [
+        "同",
+        "样"
+      ],
+      "denotes": "same",
+      "reading": "tóngyàng",
+      "gloss": "same; alike; equally",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "从此",
+      "audience": "cn",
+      "parts": [
+        "从",
+        "此"
+      ],
+      "denotes": "from-now-on",
+      "reading": "cóngcǐ",
+      "gloss": "from now on; thereafter",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "中心",
+      "audience": "cn",
+      "parts": [
+        "中",
+        "心"
+      ],
+      "denotes": "centre",
+      "reading": "zhōngxīn",
+      "gloss": "centre; heart; core",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "什么样",
+      "audience": "cn",
+      "parts": [
+        "什",
+        "么",
+        "样"
+      ],
+      "denotes": "what-kind",
+      "reading": "shénmeyàng",
+      "gloss": "what kind; what sort of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "自由",
+      "audience": "cn",
+      "parts": [
+        "自",
+        "由"
+      ],
+      "denotes": "freedom",
+      "reading": "zìyóu",
+      "gloss": "freedom; free; liberty",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "动力",
+      "audience": "cn",
+      "parts": [
+        "动",
+        "力"
+      ],
+      "denotes": "driving-force",
+      "reading": "dònglì",
+      "gloss": "driving force; motive power",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "如同",
+      "audience": "cn",
+      "parts": [
+        "如",
+        "同"
+      ],
+      "denotes": "as",
+      "reading": "rútóng",
+      "gloss": "just like; as if",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "会见",
+      "audience": "cn",
+      "parts": [
+        "会",
+        "見"
+      ],
+      "denotes": "meet",
+      "reading": "huìjiàn",
+      "gloss": "to meet with; an interview",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "不同",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "同"
+      ],
+      "denotes": "different",
+      "reading": "bùtóng",
+      "gloss": "different; not the same",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "会员",
+      "audience": "cn",
+      "parts": [
+        "会",
+        "员"
+      ],
+      "denotes": "member",
+      "reading": "huìyuán",
+      "gloss": "member (of a club or association)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "自从",
+      "audience": "cn",
+      "parts": [
+        "自",
+        "从"
+      ],
+      "denotes": "since",
+      "reading": "zìcóng",
+      "gloss": "since (a past time)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
       }
     }
   ]

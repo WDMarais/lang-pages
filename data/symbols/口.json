@@ -66,6 +66,14 @@
       "name": "mouth",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "mouth",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

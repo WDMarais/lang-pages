@@ -1039,6 +1039,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:各",
+      "to": "r:each",
+      "kind": "denotes"
+    },
+    {
       "from": "g:同",
       "to": "r:same",
       "kind": "denotes"
@@ -1408,6 +1413,11 @@
     {
       "from": "g:欠",
       "to": "r:yawn",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:次",
+      "to": "r:next",
       "kind": "denotes"
     },
     {
@@ -3362,6 +3372,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:夂",
+      "to": "g:各",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:各",
+      "kind": "composes"
+    },
+    {
       "from": "g:冂",
       "to": "g:同",
       "kind": "composes"
@@ -3825,6 +3845,16 @@
     {
       "from": "g:人",
       "to": "g:欠",
+      "kind": "composes"
+    },
+    {
+      "from": "g:冫",
+      "to": "g:次",
+      "kind": "composes"
+    },
+    {
+      "from": "g:欠",
+      "to": "g:次",
       "kind": "composes"
     },
     {
@@ -8415,6 +8445,191 @@
     {
       "from": "w:さようなら@jp",
       "to": "r:goodbye",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:发",
+      "to": "w:发明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:明",
+      "to": "w:发明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:发明@cn",
+      "to": "r:invention",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:同",
+      "to": "w:同样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:样",
+      "to": "w:同样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:同样@cn",
+      "to": "r:same",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:从",
+      "to": "w:从此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:此",
+      "to": "w:从此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:从此@cn",
+      "to": "r:from-now-on",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:中心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:心",
+      "to": "w:中心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:中心@cn",
+      "to": "r:centre",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:什",
+      "to": "w:什么样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:么",
+      "to": "w:什么样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:样",
+      "to": "w:什么样@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:什么样@cn",
+      "to": "r:what-kind",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:自",
+      "to": "w:自由@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:由",
+      "to": "w:自由@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:自由@cn",
+      "to": "r:freedom",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:动",
+      "to": "w:动力@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "w:动力@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:动力@cn",
+      "to": "r:driving-force",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:如",
+      "to": "w:如同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:同",
+      "to": "w:如同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:如同@cn",
+      "to": "r:as",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:会见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:見",
+      "to": "w:会见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:会见@cn",
+      "to": "r:meet",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:同",
+      "to": "w:不同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不同@cn",
+      "to": "r:different",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:会员@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:员",
+      "to": "w:会员@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:会员@cn",
+      "to": "r:member",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:自",
+      "to": "w:自从@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:从",
+      "to": "w:自从@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:自从@cn",
+      "to": "r:since",
       "kind": "denotes"
     },
     {

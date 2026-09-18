@@ -3042,6 +3042,27 @@
       "label": "number; date (of the month); size"
     },
     {
+      "id": "g:各",
+      "kind": "glyph",
+      "glyph": "各",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ge4",
+      "jpAudioKey": "onoono",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:each",
+      "kind": "referent",
+      "label": "each; every; various"
+    },
+    {
       "id": "g:同",
       "kind": "glyph",
       "glyph": "同",
@@ -4351,6 +4372,27 @@
       "id": "r:yawn",
       "kind": "referent",
       "label": "yawn"
+    },
+    {
+      "id": "g:次",
+      "kind": "glyph",
+      "glyph": "次",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ci4",
+      "jpAudioKey": "tsugi",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:next",
+      "kind": "referent",
+      "label": "next; secondary; order, sequence; time (occurrence)"
     },
     {
       "id": "g:正",
@@ -12512,6 +12554,226 @@
       "id": "r:goodbye",
       "kind": "referent",
       "label": "goodbye; farewell"
+    },
+    {
+      "id": "w:发明@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "发明",
+      "reading": "fāmíng",
+      "gloss": "invention; to invent",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "fa1ming2"
+    },
+    {
+      "id": "r:invention",
+      "kind": "referent",
+      "label": "invention; to invent"
+    },
+    {
+      "id": "w:同样@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "同样",
+      "reading": "tóngyàng",
+      "gloss": "same; alike; equally",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "tong2yang4"
+    },
+    {
+      "id": "w:从此@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "从此",
+      "reading": "cóngcǐ",
+      "gloss": "from now on; thereafter",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "cong2ci3"
+    },
+    {
+      "id": "r:from-now-on",
+      "kind": "referent",
+      "label": "from now on; thereafter"
+    },
+    {
+      "id": "w:中心@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "中心",
+      "reading": "zhōngxīn",
+      "gloss": "centre; heart; core",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zhong1xin1"
+    },
+    {
+      "id": "w:什么样@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "什么样",
+      "reading": "shénmeyàng",
+      "gloss": "what kind; what sort of",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "shen2me5yang4"
+    },
+    {
+      "id": "r:what-kind",
+      "kind": "referent",
+      "label": "what kind; what sort of"
+    },
+    {
+      "id": "w:自由@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "自由",
+      "reading": "zìyóu",
+      "gloss": "freedom; free; liberty",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zi4you2"
+    },
+    {
+      "id": "r:freedom",
+      "kind": "referent",
+      "label": "freedom; free; liberty"
+    },
+    {
+      "id": "w:动力@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "动力",
+      "reading": "dònglì",
+      "gloss": "driving force; motive power",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "dong4li4"
+    },
+    {
+      "id": "r:driving-force",
+      "kind": "referent",
+      "label": "driving force; motive power"
+    },
+    {
+      "id": "w:如同@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "如同",
+      "reading": "rútóng",
+      "gloss": "just like; as if",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ru2tong2"
+    },
+    {
+      "id": "w:会见@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "会见",
+      "reading": "huìjiàn",
+      "gloss": "to meet with; an interview",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "hui4jian4"
+    },
+    {
+      "id": "r:meet",
+      "kind": "referent",
+      "label": "to meet with; an interview"
+    },
+    {
+      "id": "w:不同@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不同",
+      "reading": "bùtóng",
+      "gloss": "different; not the same",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "bu4tong2"
+    },
+    {
+      "id": "r:different",
+      "kind": "referent",
+      "label": "different; not the same"
+    },
+    {
+      "id": "w:会员@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "会员",
+      "reading": "huìyuán",
+      "gloss": "member (of a club or association)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "hui4yuan2"
+    },
+    {
+      "id": "w:自从@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "自从",
+      "reading": "zìcóng",
+      "gloss": "since (a past time)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zi4cong2"
+    },
+    {
+      "id": "r:since",
+      "kind": "referent",
+      "label": "since (a past time)"
     }
   ]
 }
