@@ -88,6 +88,12 @@ batch:
 
 So the real first move is **route + resolve**, before any file is written:
 
+- **Triage first** → `python3 data/triage.py <items…>` (or pipe a pasted list on
+  stdin). Read-only: per glyph it prints CARD / FRONTIER / NEW, existing program tags,
+  composes (or the MMAH suggestion, with each part's status), referent, words using it
+  and stroke-data availability (local, else a hanzi-writer CDN probe); per word it
+  shows existing entries and each glyph's status. Useful when a program UI only shows
+  a few items at a time: triage each page as it's pasted, ingest every ~20.
 - **Route** each item to its bucket — a *glyph* card (`symbols/`), a *word*
   (`words.json`, e.g. 人口), a *referent/asset* task (工's image), or an *edit to an
   existing* glyph (工 — and check whether 川/子 are already carded). One prompt
@@ -184,6 +190,8 @@ These are the self-checks that make a batch safe to trust:
 - **`fetch-decomp.py`** — MMAH decomposition *suggester* (authoring aid, not a build
   step): prints parts to seed a new glyph's `composes`. The authored `composes` is the
   source of truth, so it overrides MMAH's stroke-floor blind spots (八 ← 丿 ㇏).
+- **`triage.py`** — read-only batch triage: where each pasted item already stands
+  (card/frontier/new glyph, existing word) before anything is written.
 
 ---
 
