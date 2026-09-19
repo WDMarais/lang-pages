@@ -1,0 +1,40 @@
+{
+  "glyph": "及",
+  "cp": "U+53CA",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "丿",
+    "又"
+  ],
+  "readings": {
+    "cn": {
+      "name": "及",
+      "reading": "jí",
+      "gloss": "and; as well as; to reach, come up to; in time for",
+      "extra": "以及、及时、来不及 · 丿 + 又（手）· 从后追及"
+    },
+    "jp": {
+      "name": "及",
+      "reading": "およぶ",
+      "gloss": "to reach; to extend to",
+      "extra": "漢字「及」(およ-ぶ · キュウ) · 及ぶ(およぶ)、普及(ふきゅう)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "and",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

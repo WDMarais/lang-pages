@@ -25,5 +25,14 @@
       "gloss": "grain"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "grain",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
 }

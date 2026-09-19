@@ -56,6 +56,14 @@
       "name": "script",
       "kind": "meaning",
       "level": 4
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "culture",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

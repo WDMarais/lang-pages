@@ -1522,6 +1522,20 @@
         }
       ]
     },
+    "hua4": {
+      "key": "hua4",
+      "pinyin": "huà",
+      "base": "hua",
+      "tone": 4,
+      "zhuyin": "ㄏㄨㄚ",
+      "glyphs": [
+        {
+          "glyph": "话",
+          "gloss": "speech; words, talk; language",
+          "rank": 0
+        }
+      ]
+    },
     "huang2": {
       "key": "huang2",
       "pinyin": "huáng",
@@ -1588,6 +1602,20 @@
         {
           "glyph": "几",
           "gloss": "table",
+          "rank": 0
+        }
+      ]
+    },
+    "ji2": {
+      "key": "ji2",
+      "pinyin": "jí",
+      "base": "ji",
+      "tone": 2,
+      "zhuyin": "ㄐㄧ",
+      "glyphs": [
+        {
+          "glyph": "及",
+          "gloss": "and; as well as; to reach, come up to; in time for",
           "rank": 0
         }
       ]
@@ -2760,6 +2788,20 @@
         {
           "glyph": "人",
           "gloss": "person",
+          "rank": 0
+        }
+      ]
+    },
+    "ren4": {
+      "key": "ren4",
+      "pinyin": "rèn",
+      "base": "ren",
+      "tone": 4,
+      "zhuyin": "ㄖㄣ",
+      "glyphs": [
+        {
+          "glyph": "认",
+          "gloss": "recognize; identify; admit",
           "rank": 0
         }
       ]

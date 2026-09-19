@@ -1,0 +1,44 @@
+{
+  "glyph": "话",
+  "cp": "U+8BDD",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "讠",
+    "舌"
+  ],
+  "readings": {
+    "cn": {
+      "name": "话",
+      "reading": "huà",
+      "gloss": "speech; words, talk; language",
+      "extra": "说话、电话、普通话 · ⿰讠舌 · 繁体 話"
+    },
+    "jp": {
+      "name": "話",
+      "reading": "はなし",
+      "gloss": "talk; story; speech",
+      "extra": "漢字「話」(はなし · ワ) · 話す(はなす)、電話(でんわ)、会話(かいわ)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "話"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "speech",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

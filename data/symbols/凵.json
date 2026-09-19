@@ -21,5 +21,14 @@
       "gloss": "open box"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "open box",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
 }

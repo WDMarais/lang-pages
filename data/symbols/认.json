@@ -1,0 +1,44 @@
+{
+  "glyph": "认",
+  "cp": "U+8BA4",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "讠",
+    "人"
+  ],
+  "readings": {
+    "cn": {
+      "name": "认",
+      "reading": "rèn",
+      "gloss": "recognize; identify; admit",
+      "extra": "认识、认为、承认 · ⿰讠人 · 繁体 認"
+    },
+    "jp": {
+      "name": "認",
+      "reading": "ニン",
+      "gloss": "recognize; approve",
+      "extra": "漢字「認」(みと-める · ニン) · 認める(みとめる)、確認(かくにん)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "認"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "recognize",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

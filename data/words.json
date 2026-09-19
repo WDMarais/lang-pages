@@ -4230,6 +4230,166 @@
         "kind": "vocab",
         "level": 5
       }
+    },
+    {
+      "surface": "最好",
+      "audience": "cn",
+      "parts": [
+        "最",
+        "好"
+      ],
+      "denotes": "best",
+      "reading": "zuìhǎo",
+      "gloss": "best; had better",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "最后",
+      "audience": "cn",
+      "parts": [
+        "最",
+        "后"
+      ],
+      "denotes": "final",
+      "reading": "zuìhòu",
+      "gloss": "final; last; in the end",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "一会",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "会"
+      ],
+      "denotes": "moment",
+      "reading": "yīhuì",
+      "gloss": "a moment; a little while",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "心中",
+      "audience": "cn",
+      "parts": [
+        "心",
+        "中"
+      ],
+      "denotes": "innermost-feelings",
+      "reading": "xīnzhōng",
+      "gloss": "innermost feelings; in one's heart",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "大会",
+      "audience": "cn",
+      "parts": [
+        "大",
+        "会"
+      ],
+      "denotes": "conference",
+      "reading": "dàhuì",
+      "gloss": "conference; mass meeting; general assembly",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "合同",
+      "audience": "cn",
+      "parts": [
+        "合",
+        "同"
+      ],
+      "denotes": "contract",
+      "reading": "hétong",
+      "gloss": "contract; agreement",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "不会",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "会"
+      ],
+      "denotes": "will-not",
+      "reading": "bùhuì",
+      "gloss": "will not; not likely to; not know how to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "然后",
+      "audience": "cn",
+      "parts": [
+        "然",
+        "后"
+      ],
+      "denotes": "then",
+      "reading": "ránhòu",
+      "gloss": "then; after that; afterwards",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "那么",
+      "audience": "cn",
+      "parts": [
+        "那",
+        "么"
+      ],
+      "denotes": "like-that",
+      "reading": "nàme",
+      "gloss": "like that; so; in that case",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "什么",
+      "audience": "cn",
+      "parts": [
+        "什",
+        "么"
+      ],
+      "denotes": "what",
+      "reading": "shénme",
+      "gloss": "what; something; anything",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
     }
   ]
 }

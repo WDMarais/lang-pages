@@ -3,7 +3,6 @@
   "cp": "U+8EAB",
   "class": "char",
   "kangxi": 158,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -29,6 +28,14 @@
       "name": "body",
       "kind": "meaning",
       "level": 4
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "body",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

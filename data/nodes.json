@@ -2881,6 +2881,22 @@
       "label": "again; also; anyway"
     },
     {
+      "id": "g:及",
+      "kind": "glyph",
+      "glyph": "及",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ji2",
+      "jpAudioKey": "oyobu",
+      "script": {
+        "same": true
+      }
+    },
+    {
       "id": "g:友",
       "kind": "glyph",
       "glyph": "友",
@@ -6039,6 +6055,51 @@
       "id": "r:speech-radical",
       "kind": "referent",
       "label": "speech radical (言字旁)"
+    },
+    {
+      "id": "g:认",
+      "kind": "glyph",
+      "glyph": "认",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ren4",
+      "jpAudioKey": "nin",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "認"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:recognize",
+      "kind": "referent",
+      "label": "recognize; identify; admit"
+    },
+    {
+      "id": "g:话",
+      "kind": "glyph",
+      "glyph": "话",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hua4",
+      "jpAudioKey": "hanashi",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "話"
+          }
+        ]
+      }
     },
     {
       "id": "g:谷",
@@ -12774,6 +12835,196 @@
       "id": "r:since",
       "kind": "referent",
       "label": "since (a past time)"
+    },
+    {
+      "id": "w:最好@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "最好",
+      "reading": "zuìhǎo",
+      "gloss": "best; had better",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zui4hao3"
+    },
+    {
+      "id": "r:best",
+      "kind": "referent",
+      "label": "best; had better"
+    },
+    {
+      "id": "w:最后@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "最后",
+      "reading": "zuìhòu",
+      "gloss": "final; last; in the end",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zui4hou4"
+    },
+    {
+      "id": "r:final",
+      "kind": "referent",
+      "label": "final; last; in the end"
+    },
+    {
+      "id": "w:一会@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一会",
+      "reading": "yīhuì",
+      "gloss": "a moment; a little while",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "yi1hui4"
+    },
+    {
+      "id": "r:moment",
+      "kind": "referent",
+      "label": "a moment; a little while"
+    },
+    {
+      "id": "w:心中@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "心中",
+      "reading": "xīnzhōng",
+      "gloss": "innermost feelings; in one's heart",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "xin1zhong1"
+    },
+    {
+      "id": "r:innermost-feelings",
+      "kind": "referent",
+      "label": "innermost feelings; in one's heart"
+    },
+    {
+      "id": "w:大会@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "大会",
+      "reading": "dàhuì",
+      "gloss": "conference; mass meeting; general assembly",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "da4hui4"
+    },
+    {
+      "id": "r:conference",
+      "kind": "referent",
+      "label": "conference; mass meeting; general assembly"
+    },
+    {
+      "id": "w:合同@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "合同",
+      "reading": "hétong",
+      "gloss": "contract; agreement",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "he2tong5"
+    },
+    {
+      "id": "r:contract",
+      "kind": "referent",
+      "label": "contract; agreement"
+    },
+    {
+      "id": "w:不会@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不会",
+      "reading": "bùhuì",
+      "gloss": "will not; not likely to; not know how to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "bu4hui4"
+    },
+    {
+      "id": "r:will-not",
+      "kind": "referent",
+      "label": "will not; not likely to; not know how to"
+    },
+    {
+      "id": "w:然后@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "然后",
+      "reading": "ránhòu",
+      "gloss": "then; after that; afterwards",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ran2hou4"
+    },
+    {
+      "id": "r:then",
+      "kind": "referent",
+      "label": "then; after that; afterwards"
+    },
+    {
+      "id": "w:那么@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "那么",
+      "reading": "nàme",
+      "gloss": "like that; so; in that case",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "na4me5"
+    },
+    {
+      "id": "w:什么@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "什么",
+      "reading": "shénme",
+      "gloss": "what; something; anything",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "shen2me5"
     }
   ]
 }

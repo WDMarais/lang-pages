@@ -999,6 +999,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:及",
+      "to": "r:and",
+      "kind": "denotes"
+    },
+    {
       "from": "g:友",
       "to": "r:friend",
       "kind": "denotes"
@@ -1928,6 +1933,16 @@
     {
       "from": "g:讠",
       "to": "r:speech-radical",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:认",
+      "to": "r:recognize",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:话",
+      "to": "r:speech",
       "kind": "denotes"
     },
     {
@@ -3307,6 +3322,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:丿",
+      "to": "g:及",
+      "kind": "composes"
+    },
+    {
+      "from": "g:又",
+      "to": "g:及",
+      "kind": "composes"
+    },
+    {
       "from": "g:又",
       "to": "g:友",
       "kind": "composes"
@@ -4440,6 +4465,26 @@
     {
       "from": "g:口",
       "to": "g:言",
+      "kind": "composes"
+    },
+    {
+      "from": "g:讠",
+      "to": "g:认",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "g:认",
+      "kind": "composes"
+    },
+    {
+      "from": "g:讠",
+      "to": "g:话",
+      "kind": "composes"
+    },
+    {
+      "from": "g:舌",
+      "to": "g:话",
       "kind": "composes"
     },
     {
@@ -8630,6 +8675,156 @@
     {
       "from": "w:自从@cn",
       "to": "r:since",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:最",
+      "to": "w:最好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:好",
+      "to": "w:最好@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:最好@cn",
+      "to": "r:best",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:最",
+      "to": "w:最后@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:后",
+      "to": "w:最后@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:最后@cn",
+      "to": "r:final",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:一会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一会@cn",
+      "to": "r:moment",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:心",
+      "to": "w:心中@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:心中@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:心中@cn",
+      "to": "r:innermost-feelings",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:大",
+      "to": "w:大会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:大会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:大会@cn",
+      "to": "r:conference",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:合",
+      "to": "w:合同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:同",
+      "to": "w:合同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:合同@cn",
+      "to": "r:contract",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:不会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不会@cn",
+      "to": "r:will-not",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:然",
+      "to": "w:然后@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:后",
+      "to": "w:然后@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:然后@cn",
+      "to": "r:then",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:那",
+      "to": "w:那么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:么",
+      "to": "w:那么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:那么@cn",
+      "to": "r:like-that",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:什",
+      "to": "w:什么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:么",
+      "to": "w:什么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:什么@cn",
+      "to": "r:what",
       "kind": "denotes"
     },
     {

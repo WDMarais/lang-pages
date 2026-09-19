@@ -4695,7 +4695,13 @@
         "kǎn"
       ],
       "gloss": "open box",
-      "extra": "康熙部首 17"
+      "extra": "康熙部首 17",
+      "program": {
+        "source": "pandanese",
+        "name": "open box",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:凵@jp",
@@ -5221,6 +5227,36 @@
         "level": 3,
         "kind": "mnemonic"
       }
+    },
+    {
+      "id": "b:及@cn",
+      "glyph_id": "g:及",
+      "lang": "cn",
+      "name": "及",
+      "readings": [
+        "jí"
+      ],
+      "gloss": "and; as well as; to reach, come up to; in time for",
+      "extra": "以及、及时、来不及 · 丿 + 又（手）· 从后追及",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "and",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:及@jp",
+      "glyph_id": "g:及",
+      "lang": "jp",
+      "name": "及",
+      "readings": [
+        "およぶ"
+      ],
+      "gloss": "to reach; to extend to",
+      "extra": "漢字「及」(およ-ぶ · キュウ) · 及ぶ(およぶ)、普及(ふきゅう)"
     },
     {
       "id": "b:友@cn",
@@ -7041,7 +7077,12 @@
         "source": "pandanese",
         "name": "knock",
         "level": 2,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "rap",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -7127,7 +7168,12 @@
         "source": "pandanese",
         "name": "script",
         "level": 4,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "culture",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -9024,7 +9070,13 @@
         "hé"
       ],
       "gloss": "grain",
-      "extra": "康熙部首 115"
+      "extra": "康熙部首 115",
+      "program": {
+        "source": "pandanese",
+        "name": "grain",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:禾@jp",
@@ -9307,7 +9359,13 @@
         "yǔ"
       ],
       "gloss": "feather",
-      "extra": "康熙部首 124"
+      "extra": "康熙部首 124",
+      "program": {
+        "source": "pandanese",
+        "name": "feather",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:羽@jp",
@@ -9706,7 +9764,13 @@
         "gèn"
       ],
       "gloss": "stopping",
-      "extra": "康熙部首 138"
+      "extra": "康熙部首 138",
+      "program": {
+        "source": "pandanese",
+        "name": "stopping",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:艮@jp",
@@ -10159,6 +10223,66 @@
       "extra": "言(149)の簡体旁·ごんべん相当 · 中文简体 说・话・语 の左（日本語は 言/訁）"
     },
     {
+      "id": "b:认@cn",
+      "glyph_id": "g:认",
+      "lang": "cn",
+      "name": "认",
+      "readings": [
+        "rèn"
+      ],
+      "gloss": "recognize; identify; admit",
+      "extra": "认识、认为、承认 · ⿰讠人 · 繁体 認",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "recognize",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:认@jp",
+      "glyph_id": "g:认",
+      "lang": "jp",
+      "name": "認",
+      "readings": [
+        "ニン"
+      ],
+      "gloss": "recognize; approve",
+      "extra": "漢字「認」(みと-める · ニン) · 認める(みとめる)、確認(かくにん)"
+    },
+    {
+      "id": "b:话@cn",
+      "glyph_id": "g:话",
+      "lang": "cn",
+      "name": "话",
+      "readings": [
+        "huà"
+      ],
+      "gloss": "speech; words, talk; language",
+      "extra": "说话、电话、普通话 · ⿰讠舌 · 繁体 話",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "speech",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:话@jp",
+      "glyph_id": "g:话",
+      "lang": "jp",
+      "name": "話",
+      "readings": [
+        "はなし"
+      ],
+      "gloss": "talk; story; speech",
+      "extra": "漢字「話」(はなし · ワ) · 話す(はなす)、電話(でんわ)、会話(かいわ)"
+    },
+    {
       "id": "b:谷@cn",
       "glyph_id": "g:谷",
       "lang": "cn",
@@ -10369,7 +10493,12 @@
         "source": "pandanese",
         "name": "body",
         "level": 4,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "body",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {

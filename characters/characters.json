@@ -2041,6 +2041,25 @@
           "pdc": { "name": "again", "kind": "meaning", "level": 4 }
         },
         {
+          "glyph": "及",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ji2",
+          "jpAudioKey": "oyobu",
+          "script": {"same": true},
+          "cn": {
+            "name": "及", "reading": "jí", "gloss": "and; as well as; to reach, come up to; in time for",
+            "extra": "以及、及时、来不及 · 丿 + 又（手）· 从后追及"
+          },
+          "jp": {
+            "name": "及", "reading": "およぶ", "gloss": "to reach; to extend to",
+            "extra": "漢字「及」(およ-ぶ · キュウ) · 及ぶ(およぶ)、普及(ふきゅう)"
+          },
+          "wk": null,
+          "pdc": { "name": "and", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "友",
           "tag": "char",
           "image": "",
@@ -2876,7 +2895,8 @@
           },
           "wk": { "name": "Writing", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Writing", "readings": ["ブン", "モン"], "on": true, "kun": ["ふみ"], "level": 2 },
-          "pd": { "name": "script", "level": 4, "kind": "meaning" }
+          "pd": { "name": "script", "level": 4, "kind": "meaning" },
+          "pdc": { "name": "culture", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "方",
@@ -3755,6 +3775,44 @@
           "pdc": { "name": "to separate", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "认",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ren4",
+          "jpAudioKey": "nin",
+          "script": {"traditional": [{"glyph": "認"}]},
+          "cn": {
+            "name": "认", "reading": "rèn", "gloss": "recognize; identify; admit",
+            "extra": "认识、认为、承认 · ⿰讠人 · 繁体 認"
+          },
+          "jp": {
+            "name": "認", "reading": "ニン", "gloss": "recognize; approve",
+            "extra": "漢字「認」(みと-める · ニン) · 認める(みとめる)、確認(かくにん)"
+          },
+          "wk": null,
+          "pdc": { "name": "recognize", "kind": "meaning", "level": 5 }
+        },
+        {
+          "glyph": "话",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hua4",
+          "jpAudioKey": "hanashi",
+          "script": {"traditional": [{"glyph": "話"}]},
+          "cn": {
+            "name": "话", "reading": "huà", "gloss": "speech; words, talk; language",
+            "extra": "说话、电话、普通话 · ⿰讠舌 · 繁体 話"
+          },
+          "jp": {
+            "name": "話", "reading": "はなし", "gloss": "talk; story; speech",
+            "extra": "漢字「話」(はなし · ワ) · 話す(はなす)、電話(でんわ)、会話(かいわ)"
+          },
+          "wk": null,
+          "pdc": { "name": "speech", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "足",
           "tag": "char",
           "image": "",
@@ -3776,6 +3834,23 @@
           "wk": null,
           "pd": { "name": "foot", "level": 1, "kind": "meaning" },
           "pdc": { "name": "foot", "kind": "meaning", "level": 1 }
+        },
+        {
+          "glyph": "身",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shen1",
+          "cn": {
+            "name": "身", "reading": "shēn", "gloss": "body",
+            "extra": "康熙部首 158"
+          },
+          "jp": {
+            "name": "身", "reading": "", "gloss": "body"
+          },
+          "wk": null,
+          "pd": { "name": "body", "level": 4, "kind": "meaning" },
+          "pdc": { "name": "body", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "車",

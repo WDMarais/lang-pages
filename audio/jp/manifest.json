@@ -227,6 +227,10 @@
     "text": "ハン",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hanashi.mp3": {
+    "text": "はなし",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hanbun.mp3": {
     "text": "はんぶん",
     "voice": "ja-JP-NanamiNeural"
@@ -772,7 +776,7 @@
     "voice": "ja-JP-NanamiNeural"
   },
   "nin.mp3": {
-    "text": "にん",
+    "text": "ニン",
     "voice": "ja-JP-NanamiNeural"
   },
   "niru.mp3": {
@@ -889,6 +893,10 @@
   },
   "ousetsukou.mp3": {
     "text": "おうせつこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "oyobu.mp3": {
+    "text": "およぶ",
     "voice": "ja-JP-NanamiNeural"
   },
   "rei.mp3": {
