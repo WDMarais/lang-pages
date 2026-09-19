@@ -3272,6 +3272,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:一",
+      "to": "g:北",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:北",
+      "kind": "composes"
+    },
+    {
       "from": "g:匕",
       "to": "g:北",
       "kind": "composes"
@@ -4569,6 +4579,11 @@
     },
     {
       "from": "g:口",
+      "to": "g:足",
+      "kind": "composes"
+    },
+    {
+      "from": "g:止",
       "to": "g:足",
       "kind": "composes"
     },
@@ -8825,6 +8840,91 @@
     {
       "from": "w:什么@cn",
       "to": "r:what",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:こんばんは@jp",
+      "to": "r:good-evening",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:はい@jp",
+      "to": "r:yes",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:元",
+      "to": "w:元@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:元@jp",
+      "to": "r:origin",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:うん@jp",
+      "to": "r:yeah",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:穴",
+      "to": "w:穴@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:穴@jp",
+      "to": "r:cave",
+      "kind": "denotes"
+    },
+    {
+      "from": "w:テレビ@jp",
+      "to": "r:television",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:北",
+      "to": "w:北アメリカ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:北アメリカ@jp",
+      "to": "r:north-america",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:文",
+      "to": "w:文字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:字",
+      "to": "w:文字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:文字@jp",
+      "to": "r:character",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一文字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:文",
+      "to": "w:一文字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:字",
+      "to": "w:一文字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一文字@jp",
+      "to": "r:straight-line",
       "kind": "denotes"
     },
     {

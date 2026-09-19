@@ -1309,7 +1309,11 @@
             "reading": "",
             "gloss": "scholar"
           },
-          "wk": null,
+          "wk": {
+            "name": "Samurai",
+            "level": 4,
+            "kind": "meaning"
+          },
           "kx": 33,
           "cnAudioKey": "shi4"
         },
@@ -5299,6 +5303,17 @@
             ]
           },
           "wk": null,
+          "kanji": {
+            "name": "Shellfish",
+            "readings": [
+              "バイ"
+            ],
+            "on": true,
+            "kun": [
+              "かい"
+            ],
+            "level": 4
+          },
           "pd": {
             "name": "shell",
             "level": 2,
@@ -5379,7 +5394,11 @@
               "gloss": "urge; prompt"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Foot",
+            "level": 4,
+            "kind": "meaning"
+          },
           "pd": {
             "name": "foot",
             "level": 1,

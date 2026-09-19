@@ -21,5 +21,14 @@
       "gloss": "scholar"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Samurai",
+      "level": 4,
+      "kind": "meaning"
+    }
+  ]
 }

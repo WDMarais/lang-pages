@@ -8,7 +8,8 @@
     "image": ""
   },
   "composes": [
-    "口"
+    "口",
+    "止"
   ],
   "readings": {
     "cn": {
@@ -50,6 +51,14 @@
       "name": "foot",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Foot",
+      "level": 4,
+      "kind": "meaning"
     }
   ]
 }

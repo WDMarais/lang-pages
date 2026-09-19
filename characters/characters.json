@@ -1185,6 +1185,7 @@
             "appearsIn": { "char": "否", "reading": "いな", "gloss": "nay; no" }
           },
           "wk": null,
+          "kanji": { "name": "Not", "readings": ["フ", "ブ"], "on": true, "level": 4 },
           "pd": { "name": "wasp", "level": 1, "kind": "mnemonic" }
         },
         {
@@ -1628,6 +1629,7 @@
             "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
           },
           "wk": null,
+          "kanji": { "name": "Other", "readings": ["タ"], "on": true, "kun": ["ほか"], "level": 4 },
           "pdc": { "name": "he", "kind": "meaning", "level": 2 }
         },
         {
@@ -3813,6 +3815,26 @@
           "pdc": { "name": "speech", "kind": "meaning", "level": 5 }
         },
         {
+          "glyph": "貝",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "bei4",
+          "jpAudioKey": "kai",
+          "script": {"keyed": "traditional", "simplified": [{"glyph": "贝"}]},
+          "cn": {
+            "name": "貝", "reading": "bèi", "gloss": "shell",
+            "extra": "康熙部首 154 · 象形（贝）· 贝壳、宝贝、财货"
+          },
+          "jp": {
+            "name": "貝", "reading": "かい", "gloss": "shell",
+            "extra": "漢字「貝」(かい) · 貝(かい)、貝殻(かいがら)"
+          },
+          "wk": null,
+          "kanji": { "name": "Shellfish", "readings": ["バイ"], "on": true, "kun": ["かい"], "level": 4 },
+          "pd": { "name": "shell", "level": 2, "kind": "meaning" }
+        },
+        {
           "glyph": "足",
           "tag": "char",
           "image": "",
@@ -3831,7 +3853,7 @@
             "extra": "漢字「足」(あし · ソク) · 足りる（た-りる）",
             "appearsIn": { "char": "促", "reading": "ソク", "gloss": "urge; prompt" }
           },
-          "wk": null,
+          "wk": { "name": "Foot", "level": 4, "kind": "meaning" },
           "pd": { "name": "foot", "level": 1, "kind": "meaning" },
           "pdc": { "name": "foot", "kind": "meaning", "level": 1 }
         },

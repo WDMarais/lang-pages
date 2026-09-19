@@ -3042,6 +3042,18 @@
         "glyph": "否",
         "reading": "いな",
         "gloss": "nay; no"
+      },
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Not",
+          "readings": [
+            "フ",
+            "ブ"
+          ],
+          "on": true,
+          "level": 4
+        }
       }
     },
     {
@@ -4220,7 +4232,21 @@
         "ほか"
       ],
       "gloss": "other",
-      "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他"
+      "extra": "漢字「他」(ほか · タ) · 他(ほか)、他人(たにん)、その他",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Other",
+          "readings": [
+            "タ"
+          ],
+          "on": true,
+          "kun": [
+            "ほか"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:会@cn",
@@ -5793,7 +5819,13 @@
       "name": "士",
       "readings": [],
       "gloss": "scholar",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Samurai",
+        "level": 4,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:夂@cn",
@@ -10388,7 +10420,21 @@
         "かい"
       ],
       "gloss": "shell",
-      "extra": "漢字「貝」(かい) · 貝(かい)、貝殻(かいがら)"
+      "extra": "漢字「貝」(かい) · 貝(かい)、貝殻(かいがら)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Shellfish",
+          "readings": [
+            "バイ"
+          ],
+          "on": true,
+          "kun": [
+            "かい"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:赤@cn",
@@ -10477,6 +10523,12 @@
         "glyph": "促",
         "reading": "ソク",
         "gloss": "urge; prompt"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Foot",
+        "level": 4,
+        "kind": "meaning"
       }
     },
     {

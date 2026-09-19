@@ -41,6 +41,18 @@
       "name": "wasp",
       "kind": "mnemonic",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Not",
+      "level": 4,
+      "readings": [
+        "フ",
+        "ブ"
+      ],
+      "on": true
     }
   ]
 }

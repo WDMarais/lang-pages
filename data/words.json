@@ -4390,6 +4390,136 @@
         "kind": "vocab",
         "level": 5
       }
+    },
+    {
+      "surface": "こんばんは",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "good-evening",
+      "reading": "こんばんは",
+      "gloss": "good evening",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "はい",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "yes",
+      "reading": "はい",
+      "gloss": "yes; certainly",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "元",
+      "audience": "jp",
+      "parts": [
+        "元"
+      ],
+      "denotes": "origin",
+      "reading": "もと",
+      "gloss": "origin; source; former",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "うん",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "yeah",
+      "reading": "うん",
+      "gloss": "yeah; uh-huh (casual yes)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "穴",
+      "audience": "jp",
+      "parts": [
+        "穴"
+      ],
+      "denotes": "cave",
+      "reading": "あな",
+      "gloss": "hole; cave",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "テレビ",
+      "audience": "jp",
+      "parts": [],
+      "denotes": "television",
+      "reading": "テレビ",
+      "gloss": "television; TV",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "北アメリカ",
+      "audience": "jp",
+      "parts": [
+        "北"
+      ],
+      "denotes": "north-america",
+      "reading": "きたアメリカ",
+      "gloss": "North America",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "文字",
+      "audience": "jp",
+      "parts": [
+        "文",
+        "字"
+      ],
+      "denotes": "character",
+      "reading": "もじ",
+      "gloss": "letter; character; writing",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "一文字",
+      "audience": "jp",
+      "parts": [
+        "一",
+        "文",
+        "字"
+      ],
+      "denotes": "straight-line",
+      "reading": "いちもんじ",
+      "gloss": "straight line; single character",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

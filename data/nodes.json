@@ -13025,6 +13025,171 @@
         "level": 5
       },
       "cnAudioKey": "shen2me5"
+    },
+    {
+      "id": "w:こんばんは@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "こんばんは",
+      "reading": "こんばんは",
+      "gloss": "good evening",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "konbanha"
+    },
+    {
+      "id": "r:good-evening",
+      "kind": "referent",
+      "label": "good evening"
+    },
+    {
+      "id": "w:はい@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "はい",
+      "reading": "はい",
+      "gloss": "yes; certainly",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "hai"
+    },
+    {
+      "id": "r:yes",
+      "kind": "referent",
+      "label": "yes; certainly"
+    },
+    {
+      "id": "w:元@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "元",
+      "reading": "もと",
+      "gloss": "origin; source; former",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "moto"
+    },
+    {
+      "id": "w:うん@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "うん",
+      "reading": "うん",
+      "gloss": "yeah; uh-huh (casual yes)",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "un"
+    },
+    {
+      "id": "r:yeah",
+      "kind": "referent",
+      "label": "yeah; uh-huh (casual yes)"
+    },
+    {
+      "id": "w:穴@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "穴",
+      "reading": "あな",
+      "gloss": "hole; cave",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "ana"
+    },
+    {
+      "id": "w:テレビ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "テレビ",
+      "reading": "テレビ",
+      "gloss": "television; TV",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "terebi"
+    },
+    {
+      "id": "r:television",
+      "kind": "referent",
+      "label": "television; TV"
+    },
+    {
+      "id": "w:北アメリカ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "北アメリカ",
+      "reading": "きたアメリカ",
+      "gloss": "North America",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "kitaamerika"
+    },
+    {
+      "id": "r:north-america",
+      "kind": "referent",
+      "label": "North America"
+    },
+    {
+      "id": "w:文字@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "文字",
+      "reading": "もじ",
+      "gloss": "letter; character; writing",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "moji"
+    },
+    {
+      "id": "w:一文字@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一文字",
+      "reading": "いちもんじ",
+      "gloss": "straight line; single character",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "ichimonji"
+    },
+    {
+      "id": "r:straight-line",
+      "kind": "referent",
+      "label": "straight line; single character"
     }
   ]
 }

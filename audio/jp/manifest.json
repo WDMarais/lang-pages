@@ -215,6 +215,10 @@
     "text": "はは",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hai.mp3": {
+    "text": "はい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hairu.mp3": {
     "text": "はいる",
     "voice": "ja-JP-NanamiNeural"
@@ -345,6 +349,10 @@
   },
   "ichiman.mp3": {
     "text": "いちまん",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ichimonji.mp3": {
+    "text": "いちもんじ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ie.mp3": {
@@ -511,6 +519,10 @@
     "text": "きた",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kitaamerika.mp3": {
+    "text": "きたアメリカ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kitaguchi.mp3": {
     "text": "きたぐち",
     "voice": "ja-JP-NanamiNeural"
@@ -537,6 +549,10 @@
   },
   "kokoro.mp3": {
     "text": "こころ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "konbanha.mp3": {
+    "text": "こんばんは",
     "voice": "ja-JP-NanamiNeural"
   },
   "kongetsu.mp3": {
@@ -681,6 +697,10 @@
   },
   "mochiiru.mp3": {
     "text": "もちいる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "moji.mp3": {
+    "text": "もじ",
     "voice": "ja-JP-NanamiNeural"
   },
   "mono.mp3": {
@@ -1147,6 +1167,10 @@
     "text": "てんさい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "terebi.mp3": {
+    "text": "テレビ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "to.mp3": {
     "text": "と",
     "voice": "ja-JP-NanamiNeural"
@@ -1233,6 +1257,10 @@
   },
   "umi.mp3": {
     "text": "うみ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "un.mp3": {
+    "text": "うん",
     "voice": "ja-JP-NanamiNeural"
   },
   "ushi.mp3": {

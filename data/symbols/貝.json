@@ -3,7 +3,6 @@
   "cp": "U+8C9D",
   "class": "char",
   "kangxi": 154,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -34,6 +33,20 @@
       "name": "shell",
       "kind": "meaning",
       "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Shellfish",
+      "level": 4,
+      "readings": [
+        "バイ"
+      ],
+      "on": true,
+      "kun": [
+        "かい"
+      ]
     }
   ],
   "script": {
