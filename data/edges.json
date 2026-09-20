@@ -2896,6 +2896,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:丿",
+      "to": "g:水",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇏",
+      "to": "g:水",
+      "kind": "composes"
+    },
+    {
       "from": "g:十",
       "to": "g:土",
       "kind": "composes"
