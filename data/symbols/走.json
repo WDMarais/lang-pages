@@ -3,7 +3,6 @@
   "cp": "U+8D70",
   "class": "char",
   "kangxi": 156,
-  "form_only": true,
   "form": {
     "animated": true,
     "image": ""
@@ -25,5 +24,14 @@
       "gloss": "run"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "run",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
 }

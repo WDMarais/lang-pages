@@ -1,0 +1,33 @@
+{
+  "glyph": "犭",
+  "cp": "U+72AD",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "犭",
+      "reading": "",
+      "gloss": "dog radical (反犬旁)",
+      "extra": "犬(康熙 94)的偏旁·反犬旁 · 见于 狗 猫 狼 猪 独 · Pandanese「cat」是助记名，非本义"
+    },
+    "jp": {
+      "name": "犭",
+      "reading": "",
+      "gloss": "dog radical (けものへん)",
+      "extra": "犬(94)の偏旁·けものへん · 狗・猫・狼 の左"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "cat",
+      "kind": "mnemonic",
+      "level": 5
+    }
+  ]
+}

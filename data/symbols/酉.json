@@ -25,5 +25,14 @@
       "gloss": "wine"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "wine",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
 }

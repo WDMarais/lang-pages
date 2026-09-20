@@ -4520,6 +4520,248 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "发作",
+      "audience": "cn",
+      "parts": [
+        "发",
+        "作"
+      ],
+      "denotes": "flare-up",
+      "reading": "fāzuò",
+      "gloss": "flare-up; to break out (of an illness or anger); onset",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "自在",
+      "audience": "cn",
+      "parts": [
+        "自",
+        "在"
+      ],
+      "denotes": "at-ease",
+      "reading": "zìzài",
+      "gloss": "at ease; comfortable; free from constraint",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "为什么",
+      "audience": "cn",
+      "parts": [
+        "为",
+        "什",
+        "么"
+      ],
+      "denotes": "why",
+      "reading": "wèishénme",
+      "gloss": "why; for what reason; how come",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "自然",
+      "audience": "cn",
+      "parts": [
+        "自",
+        "然"
+      ],
+      "denotes": "nature",
+      "reading": "zìrán",
+      "gloss": "nature; natural; naturally",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "一会儿",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "会",
+        "儿"
+      ],
+      "denotes": "moment",
+      "reading": "yīhuìr",
+      "gloss": "a moment; a little while",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "果然",
+      "audience": "cn",
+      "parts": [
+        "果",
+        "然"
+      ],
+      "denotes": "sure-enough",
+      "reading": "guǒrán",
+      "gloss": "sure enough; as expected; just as one thought",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "头发",
+      "audience": "cn",
+      "parts": [
+        "头",
+        "发"
+      ],
+      "denotes": "hair",
+      "reading": "tóufa",
+      "gloss": "hair; the hair on one's head",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "那些",
+      "audience": "cn",
+      "parts": [
+        "那",
+        "些"
+      ],
+      "denotes": "those",
+      "reading": "nàxiē",
+      "gloss": "those; those ones",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "如此",
+      "audience": "cn",
+      "parts": [
+        "如",
+        "此"
+      ],
+      "denotes": "thus",
+      "reading": "rúcǐ",
+      "gloss": "in this way; so; such; thus",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "动手",
+      "audience": "cn",
+      "parts": [
+        "动",
+        "手"
+      ],
+      "denotes": "make-a-move",
+      "reading": "dòngshǒu",
+      "gloss": "to start work; to get to work; to put one's hand to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "动作",
+      "audience": "cn",
+      "parts": [
+        "动",
+        "作"
+      ],
+      "denotes": "movement",
+      "reading": "dòngzuò",
+      "gloss": "movement; action; motion (a performed act)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "体会",
+      "audience": "cn",
+      "parts": [
+        "体",
+        "会"
+      ],
+      "denotes": "know-from-experience",
+      "reading": "tǐhuì",
+      "gloss": "know from experience; realize through personal experience",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "发动",
+      "audience": "cn",
+      "parts": [
+        "发",
+        "动"
+      ],
+      "denotes": "launch",
+      "reading": "fādòng",
+      "gloss": "to launch; to start up; to mobilize",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "小心",
+      "audience": "cn",
+      "parts": [
+        "小",
+        "心"
+      ],
+      "denotes": "be-careful",
+      "reading": "xiǎoxīn",
+      "gloss": "be careful; take care; cautious",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "只能",
+      "audience": "cn",
+      "parts": [
+        "只",
+        "能"
+      ],
+      "denotes": "can-only",
+      "reading": "zhǐnéng",
+      "gloss": "can only; have no choice but to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
     }
   ]
 }

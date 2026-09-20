@@ -5194,6 +5194,11 @@
             "gloss": "speech"
           },
           "wk": null,
+          "pd": {
+            "name": "talk",
+            "level": 5,
+            "kind": "meaning"
+          },
           "kx": 149,
           "cnAudioKey": "yan2"
         },
@@ -5254,6 +5259,11 @@
             "gloss": "pig"
           },
           "wk": null,
+          "pd": {
+            "name": "pig",
+            "level": 5,
+            "kind": "meaning"
+          },
           "kx": 152,
           "cnAudioKey": "shi3"
         },
@@ -5364,6 +5374,11 @@
             "gloss": "run"
           },
           "wk": null,
+          "pdc": {
+            "name": "run",
+            "kind": "meaning",
+            "level": 5
+          },
           "kx": 156,
           "cnAudioKey": "zou3"
         },
@@ -5592,6 +5607,11 @@
             "gloss": "wine"
           },
           "wk": null,
+          "pd": {
+            "name": "wine",
+            "level": 5,
+            "kind": "meaning"
+          },
           "kx": 164,
           "cnAudioKey": "you3"
         },
@@ -7346,6 +7366,30 @@
           "pd": {
             "name": "kindling",
             "level": 4,
+            "kind": "mnemonic"
+          }
+        },
+        {
+          "glyph": "犭",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "犭",
+            "reading": "",
+            "gloss": "dog radical (反犬旁)",
+            "extra": "犬(康熙 94)的偏旁·反犬旁 · 见于 狗 猫 狼 猪 独 · Pandanese「cat」是助记名，非本义"
+          },
+          "jp": {
+            "name": "犭",
+            "reading": "",
+            "gloss": "dog radical (けものへん)",
+            "extra": "犬(94)の偏旁·けものへん · 狗・猫・狼 の左"
+          },
+          "wk": null,
+          "pd": {
+            "name": "cat",
+            "level": 5,
             "kind": "mnemonic"
           }
         },

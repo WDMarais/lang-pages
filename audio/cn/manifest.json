@@ -271,6 +271,14 @@
     "text": "动力",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "dong4shou3.mp3": {
+    "text": "动手",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "dong4zuo4.mp3": {
+    "text": "动作",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "dou1.mp3": {
     "text": "都",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -307,8 +315,16 @@
     "text": "发",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "fa1dong4.mp3": {
+    "text": "发动",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "fa1ming2.mp3": {
     "text": "发明",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "fa1zuo4.mp3": {
+    "text": "发作",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "fang1.mp3": {
@@ -425,6 +441,10 @@
   },
   "guo3.mp3": {
     "text": "果",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "guo3ran2.mp3": {
+    "text": "果然",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "hai3.mp3": {
@@ -791,6 +811,10 @@
     "text": "那天",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "na4xie1.mp3": {
+    "text": "那些",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "na4yang4.mp3": {
     "text": "那样",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -975,6 +999,10 @@
     "text": "如",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ru2ci3.mp3": {
+    "text": "如此",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ru2guo3.mp3": {
     "text": "如果",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1143,6 +1171,10 @@
     "text": "体",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ti3hui4.mp3": {
+    "text": "体会",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "tian1.mp3": {
     "text": "天",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1169,6 +1201,10 @@
   },
   "tou2.mp3": {
     "text": "头",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "tou2fa5.mp3": {
+    "text": "头发",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tour2.mp3": {
@@ -1213,6 +1249,10 @@
   },
   "wei4le5.mp3": {
     "text": "为了",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wei4shen2me5.mp3": {
+    "text": "为什么",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wen2.mp3": {
@@ -1289,6 +1329,10 @@
   },
   "xiao3xiao3.mp3": {
     "text": "小小",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiao3xin1.mp3": {
+    "text": "小心",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xiao3zi5.mp3": {
@@ -1389,6 +1433,10 @@
   },
   "yi1hui4.mp3": {
     "text": "一会",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "yi1huir4.mp3": {
+    "text": "一会儿",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "yi1xia4.mp3": {
@@ -1583,6 +1631,10 @@
     "text": "只好",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "zhi3neng2.mp3": {
+    "text": "只能",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "zhi4.mp3": {
     "text": "至",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1627,8 +1679,16 @@
     "text": "自从",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "zi4ran2.mp3": {
+    "text": "自然",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "zi4you2.mp3": {
     "text": "自由",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zi4zai4.mp3": {
+    "text": "自在",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zou3.mp3": {

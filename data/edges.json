@@ -1541,6 +1541,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:犭",
+      "to": "r:dog-radical",
+      "kind": "denotes"
+    },
+    {
       "from": "g:玄",
       "to": "r:profound",
       "kind": "denotes"
@@ -8925,6 +8930,241 @@
     {
       "from": "w:一文字@jp",
       "to": "r:straight-line",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:发",
+      "to": "w:发作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:发作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:发作@cn",
+      "to": "r:flare-up",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:自",
+      "to": "w:自在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:在",
+      "to": "w:自在@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:自在@cn",
+      "to": "r:at-ease",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:为什么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:什",
+      "to": "w:为什么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:么",
+      "to": "w:为什么@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:为什么@cn",
+      "to": "r:why",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:自",
+      "to": "w:自然@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:然",
+      "to": "w:自然@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:自然@cn",
+      "to": "r:nature",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一会儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:一会儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "w:一会儿@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一会儿@cn",
+      "to": "r:moment",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:果",
+      "to": "w:果然@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:然",
+      "to": "w:果然@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:果然@cn",
+      "to": "r:sure-enough",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:头",
+      "to": "w:头发@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:发",
+      "to": "w:头发@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:头发@cn",
+      "to": "r:hair",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:那",
+      "to": "w:那些@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:些",
+      "to": "w:那些@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:那些@cn",
+      "to": "r:those",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:如",
+      "to": "w:如此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:此",
+      "to": "w:如此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:如此@cn",
+      "to": "r:thus",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:动",
+      "to": "w:动手@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:手",
+      "to": "w:动手@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:动手@cn",
+      "to": "r:make-a-move",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:动",
+      "to": "w:动作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:作",
+      "to": "w:动作@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:动作@cn",
+      "to": "r:movement",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:体",
+      "to": "w:体会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:体会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:体会@cn",
+      "to": "r:know-from-experience",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:发",
+      "to": "w:发动@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:动",
+      "to": "w:发动@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:发动@cn",
+      "to": "r:launch",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:小",
+      "to": "w:小心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:心",
+      "to": "w:小心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:小心@cn",
+      "to": "r:be-careful",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:只",
+      "to": "w:只能@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:能",
+      "to": "w:只能@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:只能@cn",
+      "to": "r:can-only",
       "kind": "denotes"
     },
     {

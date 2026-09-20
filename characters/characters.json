@@ -3835,6 +3835,22 @@
           "pd": { "name": "shell", "level": 2, "kind": "meaning" }
         },
         {
+          "glyph": "走",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zou3",
+          "cn": {
+            "name": "走", "reading": "zǒu", "gloss": "run",
+            "extra": "康熙部首 156"
+          },
+          "jp": {
+            "name": "走", "reading": "", "gloss": "run"
+          },
+          "wk": null,
+          "pdc": { "name": "run", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "足",
           "tag": "char",
           "image": "",

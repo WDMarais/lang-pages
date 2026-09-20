@@ -4788,6 +4788,22 @@
       "frontier": true
     },
     {
+      "id": "g:犭",
+      "kind": "glyph",
+      "glyph": "犭",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
+    },
+    {
+      "id": "r:dog-radical",
+      "kind": "referent",
+      "label": "dog radical (反犬旁)"
+    },
+    {
       "id": "g:玄",
       "kind": "glyph",
       "glyph": "玄",
@@ -7732,13 +7748,6 @@
       "id": "g:爫",
       "kind": "glyph",
       "glyph": "爫",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:犭",
-      "kind": "glyph",
-      "glyph": "犭",
       "tier": null,
       "frontier": true
     },
@@ -13190,6 +13199,291 @@
       "id": "r:straight-line",
       "kind": "referent",
       "label": "straight line; single character"
+    },
+    {
+      "id": "w:发作@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "发作",
+      "reading": "fāzuò",
+      "gloss": "flare-up; to break out (of an illness or anger); onset",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "fa1zuo4"
+    },
+    {
+      "id": "r:flare-up",
+      "kind": "referent",
+      "label": "flare-up; to break out (of an illness or anger); onset"
+    },
+    {
+      "id": "w:自在@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "自在",
+      "reading": "zìzài",
+      "gloss": "at ease; comfortable; free from constraint",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zi4zai4"
+    },
+    {
+      "id": "r:at-ease",
+      "kind": "referent",
+      "label": "at ease; comfortable; free from constraint"
+    },
+    {
+      "id": "w:为什么@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "为什么",
+      "reading": "wèishénme",
+      "gloss": "why; for what reason; how come",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "wei4shen2me5"
+    },
+    {
+      "id": "r:why",
+      "kind": "referent",
+      "label": "why; for what reason; how come"
+    },
+    {
+      "id": "w:自然@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "自然",
+      "reading": "zìrán",
+      "gloss": "nature; natural; naturally",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zi4ran2"
+    },
+    {
+      "id": "r:nature",
+      "kind": "referent",
+      "label": "nature; natural; naturally"
+    },
+    {
+      "id": "w:一会儿@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一会儿",
+      "reading": "yīhuìr",
+      "gloss": "a moment; a little while",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "yi1huir4"
+    },
+    {
+      "id": "w:果然@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "果然",
+      "reading": "guǒrán",
+      "gloss": "sure enough; as expected; just as one thought",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "guo3ran2"
+    },
+    {
+      "id": "r:sure-enough",
+      "kind": "referent",
+      "label": "sure enough; as expected; just as one thought"
+    },
+    {
+      "id": "w:头发@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "头发",
+      "reading": "tóufa",
+      "gloss": "hair; the hair on one's head",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "tou2fa5"
+    },
+    {
+      "id": "r:hair",
+      "kind": "referent",
+      "label": "hair; the hair on one's head"
+    },
+    {
+      "id": "w:那些@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "那些",
+      "reading": "nàxiē",
+      "gloss": "those; those ones",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "na4xie1"
+    },
+    {
+      "id": "r:those",
+      "kind": "referent",
+      "label": "those; those ones"
+    },
+    {
+      "id": "w:如此@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "如此",
+      "reading": "rúcǐ",
+      "gloss": "in this way; so; such; thus",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ru2ci3"
+    },
+    {
+      "id": "w:动手@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "动手",
+      "reading": "dòngshǒu",
+      "gloss": "to start work; to get to work; to put one's hand to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "dong4shou3"
+    },
+    {
+      "id": "w:动作@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "动作",
+      "reading": "dòngzuò",
+      "gloss": "movement; action; motion (a performed act)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "dong4zuo4"
+    },
+    {
+      "id": "r:movement",
+      "kind": "referent",
+      "label": "movement; action; motion (a performed act)"
+    },
+    {
+      "id": "w:体会@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "体会",
+      "reading": "tǐhuì",
+      "gloss": "know from experience; realize through personal experience",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ti3hui4"
+    },
+    {
+      "id": "r:know-from-experience",
+      "kind": "referent",
+      "label": "know from experience; realize through personal experience"
+    },
+    {
+      "id": "w:发动@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "发动",
+      "reading": "fādòng",
+      "gloss": "to launch; to start up; to mobilize",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "fa1dong4"
+    },
+    {
+      "id": "r:launch",
+      "kind": "referent",
+      "label": "to launch; to start up; to mobilize"
+    },
+    {
+      "id": "w:小心@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "小心",
+      "reading": "xiǎoxīn",
+      "gloss": "be careful; take care; cautious",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "xiao3xin1"
+    },
+    {
+      "id": "r:be-careful",
+      "kind": "referent",
+      "label": "be careful; take care; cautious"
+    },
+    {
+      "id": "w:只能@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "只能",
+      "reading": "zhǐnéng",
+      "gloss": "can only; have no choice but to",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zhi3neng2"
+    },
+    {
+      "id": "r:can-only",
+      "kind": "referent",
+      "label": "can only; have no choice but to"
     }
   ]
 }

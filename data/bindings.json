@@ -8244,6 +8244,30 @@
       }
     },
     {
+      "id": "b:犭@cn",
+      "glyph_id": "g:犭",
+      "lang": "cn",
+      "name": "犭",
+      "readings": [],
+      "gloss": "dog radical (反犬旁)",
+      "extra": "犬(康熙 94)的偏旁·反犬旁 · 见于 狗 猫 狼 猪 独 · Pandanese「cat」是助记名，非本义",
+      "program": {
+        "source": "pandanese",
+        "name": "cat",
+        "level": 5,
+        "kind": "mnemonic"
+      }
+    },
+    {
+      "id": "b:犭@jp",
+      "glyph_id": "g:犭",
+      "lang": "jp",
+      "name": "犭",
+      "readings": [],
+      "gloss": "dog radical (けものへん)",
+      "extra": "犬(94)の偏旁·けものへん · 狗・猫・狼 の左"
+    },
+    {
       "id": "b:玄@cn",
       "glyph_id": "g:玄",
       "lang": "cn",
@@ -10219,7 +10243,13 @@
         "yán"
       ],
       "gloss": "speech",
-      "extra": "康熙部首 149"
+      "extra": "康熙部首 149",
+      "program": {
+        "source": "pandanese",
+        "name": "talk",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:言@jp",
@@ -10363,7 +10393,13 @@
         "shǐ"
       ],
       "gloss": "pig",
-      "extra": "康熙部首 152"
+      "extra": "康熙部首 152",
+      "program": {
+        "source": "pandanese",
+        "name": "pig",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:豕@jp",
@@ -10471,7 +10507,15 @@
         "zǒu"
       ],
       "gloss": "run",
-      "extra": "康熙部首 156"
+      "extra": "康熙部首 156",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "run",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
     },
     {
       "id": "b:走@jp",
@@ -10753,7 +10797,13 @@
         "yǒu"
       ],
       "gloss": "wine",
-      "extra": "康熙部首 164"
+      "extra": "康熙部首 164",
+      "program": {
+        "source": "pandanese",
+        "name": "wine",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:酉@jp",
