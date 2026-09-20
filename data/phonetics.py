@@ -94,9 +94,11 @@ def cn_key(reading):
 # Pinyin syllable inventory, generated from initials × finals plus the zero-initial
 # (y-/w-/yu-) spellings. Used only to segment a compound reading so each syllable's
 # tone digit lands at the syllable's END (真相 → zhen1xiang4, not zhen1xia4ng). It may
-# slightly over-generate (a few impossible initial+final pairs); greedy longest-match
-# over real, well-formed readings is unaffected, and _segment() is proven against the
-# whole CN word list by the phonetics self-test.
+# slightly over-generate (a few impossible initial+final pairs); _segment() backtracks,
+# so an over-generated span only costs a retry — EXCEPT where the bogus syllable also
+# parses the remainder, which is why the two known impostors ('er' as a final, 'eng' as
+# a zero-initial) are excluded by hand below. _selftest() segments the whole CN word
+# list to keep that honest.
 def _build_syllables():
     initials = ["b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h",
                 "j", "q", "x", "zh", "ch", "sh", "r", "z", "c", "s"]
@@ -107,10 +109,13 @@ def _build_syllables():
               "ong", "i", "ia", "ie", "iao", "iu", "ian", "in", "iang",
               "ing", "iong", "u", "ua", "uo", "uai", "ui", "uan", "un", "uang",
               "ueng", "v", "ve", "van", "vn"]
+    # NB: 'eng' is intentionally NOT here — unlike 'en'/'ang' it is no standalone
+    # syllable in Mandarin (no character reads ēng), and admitting it let a preceding
+    # syllable's coda be stolen: 只能 zhineng mis-split to zhin+eng instead of zhi+neng.
     zero = ["yi", "ya", "ye", "yao", "you", "yan", "yin", "yang", "ying", "yong",
             "wu", "wa", "wo", "wai", "wei", "wan", "wen", "wang", "weng",
             "yu", "yue", "yuan", "yun", "a", "o", "e", "ai", "ei", "ao", "ou",
-            "an", "en", "ang", "eng", "er"]
+            "an", "en", "ang", "er"]
     syl = set(zero)
     for i in initials:
         for f in finals:
@@ -122,25 +127,42 @@ _SYLLABLES = _build_syllables()
 _MAX_SYL = 6  # zhuang / chuang / shuang
 
 
+def _is_syllable(chunk, final):
+    """A syllable, optionally carrying an erhua coda (nar, tour, huir). The coda is
+    allowed only on the LAST syllable of the chunk: an unanchored 'r' would let 本人
+    benren split as benr+en, since 'en' is itself a zero-initial syllable."""
+    if chunk in _SYLLABLES:
+        return True
+    return final and chunk.endswith("r") and chunk[:-1] in _SYLLABLES
+
+
 def _segment(base):
-    """Greedy longest-match split of an ASCII pinyin base (one apostrophe-free chunk)
-    into syllable spans. Returns a list of (start, end) or None if it doesn't parse.
-    Trailing erhua 'r' (nar, tour) attaches to the preceding syllable."""
-    spans = []
-    i, n = 0, len(base)
-    while i < n:
-        for j in range(min(n, i + _MAX_SYL), i, -1):
-            if base[i:j] in _SYLLABLES:
-                spans.append([i, j])
-                i = j
-                break
-        else:
-            if base[i] == "r" and spans:  # erhua coda on the previous syllable
-                spans[-1][1] = i + 1
-                i += 1
-                continue
-            return None
-    return spans
+    """Split an ASCII pinyin base (one apostrophe-free chunk) into syllable spans,
+    longest match first but BACKTRACKING when that strands the remainder. Returns a
+    list of [start, end] or None if it doesn't parse.
+
+    Plain greedy is not enough: a syllable-final n/ng is equally a following syllable's
+    initial, so 只能 zhineng grabs zhin and leaves eng. Backtracking rejects that split
+    the moment the remainder fails to parse, and zhi+neng wins. Erhua 'r' rides along
+    on its syllable (see _is_syllable), keeping 一会儿 yihuir as yi+huir."""
+    n = len(base)
+    memo = {}
+
+    def parse(i):
+        if i == n:
+            return []
+        if i not in memo:
+            memo[i] = None
+            for j in range(min(n, i + _MAX_SYL + 1), i, -1):
+                if not _is_syllable(base[i:j], j == n):
+                    continue
+                rest = parse(j)
+                if rest is not None:
+                    memo[i] = [[i, j]] + rest
+                    break
+        return memo[i]
+
+    return parse(0)
 
 
 def word_key(surface, reading):
@@ -318,10 +340,12 @@ def bank(symbols):
 
 
 def _selftest():
-    """Validate against the live symbol inventory: every single-syllable CN reading
-    yields a clean key; the known multi-syllable stroke names yield None."""
+    """Validate against the live inventory: every single-syllable CN reading yields a
+    clean key; the known multi-syllable stroke names yield None; and every CN word
+    segments, with one tone digit per hanzi (the check that catches a mis-split)."""
     import sys
     sys.path.insert(0, __file__.rsplit("/", 1)[0])
+    from paths import DATA, read_json
     from symbols_io import load_symbols
 
     keyed, skipped = {}, []
@@ -352,6 +376,32 @@ def _selftest():
     else:
         for b in sorted(bases)[:12]:
             print(f"  {b} → {to_zhuyin(b)}")
+
+    # Word segmentation: a compound of N hanzi must key to N tone digits. A mis-split
+    # still "parses" (zhineng → zhin1eng2), so counting spans is what exposes it; a
+    # reading that fails outright falls back to a digit-free base, caught by the same
+    # test. 〜 and ASCII in a surface are not syllables, hence the hanzi filter.
+    words = read_json(DATA / "words.json")
+    words = words["words"] if isinstance(words, dict) else words
+    bad = []
+    for w in words:
+        if w.get("audience") != "cn" or not w.get("reading"):
+            continue
+        surface, reading = w["surface"], w["reading"]
+        hanzi = [c for c in surface if "一" <= c <= "鿿"]
+        if len(hanzi) != len(surface):
+            continue
+        want = len(hanzi)
+        if want > 1 and surface.endswith("儿") and reading.endswith("r"):
+            want -= 1  # erhua: 儿 fuses onto the previous syllable, no clip of its own
+        key = word_key(surface, reading)
+        digits = sum(c.isdigit() for c in key or "")
+        if digits == want:
+            continue
+        bad.append((surface, reading, key, want, digits))
+    print(f"\nword keys: {len(bad)} mis-segmented")
+    for surface, reading, key, want, got in bad:
+        print(f"  ✗ {surface} «{reading}» → {key}  ({got} syllable(s), expected {want})")
 
 
 if __name__ == "__main__":
