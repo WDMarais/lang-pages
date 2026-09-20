@@ -7172,6 +7172,37 @@
           }
         },
         {
+          "glyph": "⺊",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "⺊",
+            "reading": "",
+            "gloss": "ticked stem (upper component)",
+            "extra": "竖 + 提，挑笔向右上 · 与「卜」的点向右下相反 · 见于 上 攴 卡",
+            "appearsIn": {
+              "char": "上",
+              "reading": "shàng",
+              "gloss": "above; up; on top"
+            }
+          },
+          "jp": {
+            "name": "⺊",
+            "reading": "",
+            "gloss": "ticked stem (upper component)",
+            "extra": "縦画 + 右上へのはね · 上・攴 の上部",
+            "appearsIn": {
+              "char": "上",
+              "reading": "うえ",
+              "gloss": "above; up; on top"
+            }
+          },
+          "wk": null,
+          "cnExAudioKey": "shang4",
+          "jpExAudioKey": "ue"
+        },
+        {
           "glyph": "⺌",
           "tag": "comp",
           "image": "",
@@ -7262,6 +7293,37 @@
           "cnExAudioKey": "chu1",
           "jpAudioKey": "koromo",
           "jpExAudioKey": "sho"
+        },
+        {
+          "glyph": "丄",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "丄",
+            "reading": "",
+            "gloss": "stem on a baseline (component)",
+            "extra": "「上」的古文，今只作部件 · 竖 + 横，无「上」的指事点 · 见于 円 工",
+            "appearsIn": {
+              "char": "工",
+              "reading": "gōng",
+              "gloss": "work; labour"
+            }
+          },
+          "jp": {
+            "name": "丄",
+            "reading": "",
+            "gloss": "stem on a baseline (component)",
+            "extra": "「上」の古字 · 縦 + 横の二画 · 円・工 の下部",
+            "appearsIn": {
+              "char": "円",
+              "reading": "エン",
+              "gloss": "circle; yen"
+            }
+          },
+          "wk": null,
+          "cnExAudioKey": "gong1",
+          "jpExAudioKey": "en"
         },
         {
           "glyph": "丷",
@@ -7391,6 +7453,37 @@
           "jpExAudioKey": "utsu"
         },
         {
+          "glyph": "氺",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "氺",
+            "reading": "",
+            "gloss": "water radical (水字底)",
+            "extra": "水(康熙 85)的字底·水字底 · 左侧一笔拆作两笔，故五画 · 见于 隶 黍 泰 求",
+            "appearsIn": {
+              "char": "隶",
+              "reading": "lì",
+              "gloss": "slave"
+            }
+          },
+          "jp": {
+            "name": "したみず",
+            "reading": "",
+            "gloss": "water radical (したみず)",
+            "extra": "水(85)の脚·したみず · 泰・隶 の下部",
+            "appearsIn": {
+              "char": "黍",
+              "reading": "きび",
+              "gloss": "millet"
+            }
+          },
+          "wk": null,
+          "cnExAudioKey": "li4",
+          "jpExAudioKey": "kibi"
+        },
+        {
           "glyph": "灬",
           "tag": "comp",
           "image": "",
@@ -7472,6 +7565,36 @@
           },
           "cnExAudioKey": "shen2",
           "jpExAudioKey": "kami"
+        },
+        {
+          "glyph": "耂",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "耂",
+            "reading": "",
+            "gloss": "old radical (老字头)",
+            "extra": "老(康熙 125)的字头·老字头 · 土 + 丿 · 见于 老 者 考 孝",
+            "appearsIn": {
+              "char": "老",
+              "reading": "lǎo",
+              "gloss": "old"
+            }
+          },
+          "jp": {
+            "name": "おいかんむり",
+            "reading": "",
+            "gloss": "old radical (おいかんむり)",
+            "extra": "老(125)の冠·おいかんむり · 老・者・考 の上部",
+            "appearsIn": {
+              "char": "老",
+              "reading": "お.いる",
+              "gloss": "old"
+            }
+          },
+          "wk": null,
+          "cnExAudioKey": "lao3"
         },
         {
           "glyph": "艹",

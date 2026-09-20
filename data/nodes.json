@@ -1758,6 +1758,24 @@
       "label": "knife-top (radical)"
     },
     {
+      "id": "g:⺊",
+      "kind": "glyph",
+      "glyph": "⺊",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "shang4",
+      "jpExAudioKey": "ue"
+    },
+    {
+      "id": "r:ticked-stem",
+      "kind": "referent",
+      "label": "ticked stem (upper component)"
+    },
+    {
       "id": "g:⺌",
       "kind": "glyph",
       "glyph": "⺌",
@@ -1834,6 +1852,24 @@
       "id": "r:iteration-mark",
       "kind": "referent",
       "label": "iteration mark"
+    },
+    {
+      "id": "g:丄",
+      "kind": "glyph",
+      "glyph": "丄",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "gong1",
+      "jpExAudioKey": "en"
+    },
+    {
+      "id": "r:stem-on-a-baseline",
+      "kind": "referent",
+      "label": "stem on a baseline (component)"
     },
     {
       "id": "g:万",
@@ -2086,6 +2122,31 @@
       "id": "r:also",
       "kind": "referent",
       "label": "also; too"
+    },
+    {
+      "id": "g:习",
+      "kind": "glyph",
+      "glyph": "习",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "xi2",
+      "jpAudioKey": "shuu",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "習"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:practise",
+      "kind": "referent",
+      "label": "practise; review"
     },
     {
       "id": "g:了",
@@ -4763,6 +4824,24 @@
       ]
     },
     {
+      "id": "g:氺",
+      "kind": "glyph",
+      "glyph": "氺",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "li4",
+      "jpExAudioKey": "kibi"
+    },
+    {
+      "id": "r:water-radical",
+      "kind": "referent",
+      "label": "water radical (水字底)"
+    },
+    {
       "id": "g:灬",
       "kind": "glyph",
       "glyph": "灬",
@@ -5654,6 +5733,23 @@
       "id": "r:old",
       "kind": "referent",
       "label": "old"
+    },
+    {
+      "id": "g:耂",
+      "kind": "glyph",
+      "glyph": "耂",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnExAudioKey": "lao3"
+    },
+    {
+      "id": "r:old-radical",
+      "kind": "referent",
+      "label": "old radical (老字头)"
     },
     {
       "id": "g:者",
@@ -6953,6 +7049,26 @@
       "label": "fly"
     },
     {
+      "id": "g:飞",
+      "kind": "glyph",
+      "glyph": "飞",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "fei1",
+      "jpAudioKey": "hi",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "飛"
+          }
+        ]
+      }
+    },
+    {
       "id": "g:食",
       "kind": "glyph",
       "glyph": "食",
@@ -7760,18 +7876,23 @@
       "frontier": true
     },
     {
-      "id": "g:丄",
+      "id": "g:㇟",
       "kind": "glyph",
-      "glyph": "丄",
-      "tier": null,
-      "frontier": true
+      "glyph": "㇟",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hengxiegou",
+      "cnExAudioKey": "fei1",
+      "jpAudioKey": "ounanamekou"
     },
     {
-      "id": "g:⺊",
-      "kind": "glyph",
-      "glyph": "⺊",
-      "tier": null,
-      "frontier": true
+      "id": "r:horizontal-slant-hook",
+      "kind": "referent",
+      "label": "horizontal-slant hook"
     },
     {
       "id": "g:旦",
@@ -7851,20 +7972,6 @@
       "frontier": true
     },
     {
-      "id": "g:习",
-      "kind": "glyph",
-      "glyph": "习",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:耂",
-      "kind": "glyph",
-      "glyph": "耂",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:丰",
       "kind": "glyph",
       "glyph": "丰",
@@ -7921,13 +8028,6 @@
       "frontier": true
     },
     {
-      "id": "g:氺",
-      "kind": "glyph",
-      "glyph": "氺",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:帀",
       "kind": "glyph",
       "glyph": "帀",
@@ -7945,13 +8045,6 @@
       "id": "g:龶",
       "kind": "glyph",
       "glyph": "龶",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:飞",
-      "kind": "glyph",
-      "glyph": "飞",
       "tier": null,
       "frontier": true
     },

@@ -1,0 +1,39 @@
+{
+  "glyph": "丄",
+  "cp": "U+4E04",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "丨",
+    "一"
+  ],
+  "readings": {
+    "cn": {
+      "name": "丄",
+      "reading": "",
+      "gloss": "stem on a baseline (component)",
+      "extra": "「上」的古文，今只作部件 · 竖 + 横，无「上」的指事点 · 见于 円 工",
+      "appearsIn": {
+        "char": "工",
+        "reading": "gōng",
+        "gloss": "work; labour"
+      }
+    },
+    "jp": {
+      "name": "丄",
+      "reading": "",
+      "gloss": "stem on a baseline (component)",
+      "extra": "「上」の古字 · 縦 + 横の二画 · 円・工 の下部",
+      "appearsIn": {
+        "char": "円",
+        "reading": "エン",
+        "gloss": "circle; yen"
+      }
+    }
+  },
+  "programs": []
+}

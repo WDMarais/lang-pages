@@ -507,6 +507,10 @@
     "text": "横",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "hengxiegou.mp3": {
+    "text": "横斜钩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "hengzhegou.mp3": {
     "text": "横折钩",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1321,6 +1325,10 @@
   },
   "xi1.mp3": {
     "text": "夕",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xi2.mp3": {
+    "text": "习",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xi3.mp3": {

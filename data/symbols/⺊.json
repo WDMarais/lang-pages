@@ -1,0 +1,39 @@
+{
+  "glyph": "⺊",
+  "cp": "U+2E8A",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "丨",
+    "㇀"
+  ],
+  "readings": {
+    "cn": {
+      "name": "⺊",
+      "reading": "",
+      "gloss": "ticked stem (upper component)",
+      "extra": "竖 + 提，挑笔向右上 · 与「卜」的点向右下相反 · 见于 上 攴 卡",
+      "appearsIn": {
+        "char": "上",
+        "reading": "shàng",
+        "gloss": "above; up; on top"
+      }
+    },
+    "jp": {
+      "name": "⺊",
+      "reading": "",
+      "gloss": "ticked stem (upper component)",
+      "extra": "縦画 + 右上へのはね · 上・攴 の上部",
+      "appearsIn": {
+        "char": "上",
+        "reading": "うえ",
+        "gloss": "above; up; on top"
+      }
+    }
+  },
+  "programs": []
+}

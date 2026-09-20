@@ -1,0 +1,39 @@
+{
+  "glyph": "耂",
+  "cp": "U+8002",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "土",
+    "丿"
+  ],
+  "readings": {
+    "cn": {
+      "name": "耂",
+      "reading": "",
+      "gloss": "old radical (老字头)",
+      "extra": "老(康熙 125)的字头·老字头 · 土 + 丿 · 见于 老 者 考 孝",
+      "appearsIn": {
+        "char": "老",
+        "reading": "lǎo",
+        "gloss": "old"
+      }
+    },
+    "jp": {
+      "name": "おいかんむり",
+      "reading": "",
+      "gloss": "old radical (おいかんむり)",
+      "extra": "老(125)の冠·おいかんむり · 老・者・考 の上部",
+      "appearsIn": {
+        "char": "老",
+        "reading": "お.いる",
+        "gloss": "old"
+      }
+    }
+  },
+  "programs": []
+}

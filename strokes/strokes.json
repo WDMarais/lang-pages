@@ -241,6 +241,26 @@
           },
           "wk": null,
           "pd": { "name": "worm", "level": 1, "kind": "mnemonic" }
+        },
+        {
+          "glyph": "㇟",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hengxiegou",
+          "cnExAudioKey": "fei1",
+          "jpAudioKey": "ounanamekou",
+          "cn": {
+            "name": "横斜钩", "reading": "héngxiégōu", "gloss": "horizontal-slant hook",
+            "extra": "先横、再斜下、末端向右上挑钩 (如 飞、风、气)",
+            "appearsIn": { "char": "飞", "reading": "fēi", "gloss": "fly" }
+          },
+          "jp": {
+            "name": "横斜め鉤", "reading": "おうななめこう", "gloss": "horizontal-slant hook",
+            "extra": "横から斜めに下り、末尾で右上へはねる一画",
+            "appearsIn": { "char": "飛", "reading": "と.ぶ", "gloss": "fly" }
+          },
+          "wk": null
         }
       ]
     }

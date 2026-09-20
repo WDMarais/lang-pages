@@ -1,0 +1,36 @@
+{
+  "glyph": "飞",
+  "cp": "U+98DE",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "㇟",
+    "丶",
+    "㇀"
+  ],
+  "readings": {
+    "cn": {
+      "name": "飞",
+      "reading": "fēi",
+      "gloss": "fly",
+      "extra": "「飛」的简化字，取其一翼 · 飞机、起飞 · 形在「飛」中出现两次"
+    },
+    "jp": {
+      "name": "飛",
+      "reading": "ヒ",
+      "gloss": "fly",
+      "extra": "漢字「飛」(ヒ · と.ぶ) · 中文簡体作「飞」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "飛"
+      }
+    ]
+  },
+  "programs": []
+}

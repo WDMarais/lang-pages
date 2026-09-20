@@ -535,6 +535,10 @@
     "text": "き",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kibi.mp3": {
+    "text": "きび",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kiru.mp3": {
     "text": "きる",
     "voice": "ja-JP-NanamiNeural"
@@ -941,6 +945,10 @@
   },
   "oujo.mp3": {
     "text": "おうじょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ounanamekou.mp3": {
+    "text": "おうななめこう",
     "voice": "ja-JP-NanamiNeural"
   },
   "ousetsukou.mp3": {

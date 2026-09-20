@@ -1,0 +1,36 @@
+{
+  "glyph": "习",
+  "cp": "U+4E60",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "㇆",
+    "丶",
+    "㇀"
+  ],
+  "readings": {
+    "cn": {
+      "name": "习",
+      "reading": "xí",
+      "gloss": "practise; review",
+      "extra": "「習」的简化字，取其上半 · 学习、习惯、复习 · 形亦见于 羽（两个习）"
+    },
+    "jp": {
+      "name": "習",
+      "reading": "シュウ",
+      "gloss": "practise; learn",
+      "extra": "漢字「習」(シュウ · なら.う) · 学習・練習 · 中文簡体作「习」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "習"
+      }
+    ]
+  },
+  "programs": []
+}

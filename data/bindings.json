@@ -3550,6 +3550,34 @@
       "extra": "「刀」の変形（上）· Unicode「CJK RADICAL KNIFE ONE」"
     },
     {
+      "id": "b:⺊@cn",
+      "glyph_id": "g:⺊",
+      "lang": "cn",
+      "name": "⺊",
+      "readings": [],
+      "gloss": "ticked stem (upper component)",
+      "extra": "竖 + 提，挑笔向右上 · 与「卜」的点向右下相反 · 见于 上 攴 卡",
+      "appearsIn": {
+        "glyph": "上",
+        "reading": "shàng",
+        "gloss": "above; up; on top"
+      }
+    },
+    {
+      "id": "b:⺊@jp",
+      "glyph_id": "g:⺊",
+      "lang": "jp",
+      "name": "⺊",
+      "readings": [],
+      "gloss": "ticked stem (upper component)",
+      "extra": "縦画 + 右上へのはね · 上・攴 の上部",
+      "appearsIn": {
+        "glyph": "上",
+        "reading": "うえ",
+        "gloss": "above; up; on top"
+      }
+    },
+    {
       "id": "b:⺌@cn",
       "glyph_id": "g:⺌",
       "lang": "cn",
@@ -3658,6 +3686,34 @@
       ],
       "gloss": "iteration mark",
       "extra": "踊り字・同の字点 · 前の漢字を繰り返す（人々・時々・日々）· 俗称「ノマ」(ノ+マ の形に由来) · 語中では繰り返す字の読みを借りる"
+    },
+    {
+      "id": "b:丄@cn",
+      "glyph_id": "g:丄",
+      "lang": "cn",
+      "name": "丄",
+      "readings": [],
+      "gloss": "stem on a baseline (component)",
+      "extra": "「上」的古文，今只作部件 · 竖 + 横，无「上」的指事点 · 见于 円 工",
+      "appearsIn": {
+        "glyph": "工",
+        "reading": "gōng",
+        "gloss": "work; labour"
+      }
+    },
+    {
+      "id": "b:丄@jp",
+      "glyph_id": "g:丄",
+      "lang": "jp",
+      "name": "丄",
+      "readings": [],
+      "gloss": "stem on a baseline (component)",
+      "extra": "「上」の古字 · 縦 + 横の二画 · 円・工 の下部",
+      "appearsIn": {
+        "glyph": "円",
+        "reading": "エン",
+        "gloss": "circle; yen"
+      }
     },
     {
       "id": "b:万@cn",
@@ -4008,6 +4064,28 @@
         "level": 4,
         "kind": "mnemonic"
       }
+    },
+    {
+      "id": "b:习@cn",
+      "glyph_id": "g:习",
+      "lang": "cn",
+      "name": "习",
+      "readings": [
+        "xí"
+      ],
+      "gloss": "practise; review",
+      "extra": "「習」的简化字，取其上半 · 学习、习惯、复习 · 形亦见于 羽（两个习）"
+    },
+    {
+      "id": "b:习@jp",
+      "glyph_id": "g:习",
+      "lang": "jp",
+      "name": "習",
+      "readings": [
+        "シュウ"
+      ],
+      "gloss": "practise; learn",
+      "extra": "漢字「習」(シュウ · なら.う) · 学習・練習 · 中文簡体作「习」"
     },
     {
       "id": "b:了@cn",
@@ -8237,6 +8315,34 @@
       }
     },
     {
+      "id": "b:氺@cn",
+      "glyph_id": "g:氺",
+      "lang": "cn",
+      "name": "氺",
+      "readings": [],
+      "gloss": "water radical (水字底)",
+      "extra": "水(康熙 85)的字底·水字底 · 左侧一笔拆作两笔，故五画 · 见于 隶 黍 泰 求",
+      "appearsIn": {
+        "glyph": "隶",
+        "reading": "lì",
+        "gloss": "slave"
+      }
+    },
+    {
+      "id": "b:氺@jp",
+      "glyph_id": "g:氺",
+      "lang": "jp",
+      "name": "したみず",
+      "readings": [],
+      "gloss": "water radical (したみず)",
+      "extra": "水(85)の脚·したみず · 泰・隶 の下部",
+      "appearsIn": {
+        "glyph": "黍",
+        "reading": "きび",
+        "gloss": "millet"
+      }
+    },
+    {
       "id": "b:灬@cn",
       "glyph_id": "g:灬",
       "lang": "cn",
@@ -9687,6 +9793,34 @@
       "readings": [],
       "gloss": "old",
       "extra": ""
+    },
+    {
+      "id": "b:耂@cn",
+      "glyph_id": "g:耂",
+      "lang": "cn",
+      "name": "耂",
+      "readings": [],
+      "gloss": "old radical (老字头)",
+      "extra": "老(康熙 125)的字头·老字头 · 土 + 丿 · 见于 老 者 考 孝",
+      "appearsIn": {
+        "glyph": "老",
+        "reading": "lǎo",
+        "gloss": "old"
+      }
+    },
+    {
+      "id": "b:耂@jp",
+      "glyph_id": "g:耂",
+      "lang": "jp",
+      "name": "おいかんむり",
+      "readings": [],
+      "gloss": "old radical (おいかんむり)",
+      "extra": "老(125)の冠·おいかんむり · 老・者・考 の上部",
+      "appearsIn": {
+        "glyph": "老",
+        "reading": "お.いる",
+        "gloss": "old"
+      }
     },
     {
       "id": "b:者@cn",
@@ -11569,6 +11703,28 @@
       "extra": ""
     },
     {
+      "id": "b:飞@cn",
+      "glyph_id": "g:飞",
+      "lang": "cn",
+      "name": "飞",
+      "readings": [
+        "fēi"
+      ],
+      "gloss": "fly",
+      "extra": "「飛」的简化字，取其一翼 · 飞机、起飞 · 形在「飛」中出现两次"
+    },
+    {
+      "id": "b:飞@jp",
+      "glyph_id": "g:飞",
+      "lang": "jp",
+      "name": "飛",
+      "readings": [
+        "ヒ"
+      ],
+      "gloss": "fly",
+      "extra": "漢字「飛」(ヒ · と.ぶ) · 中文簡体作「飞」"
+    },
+    {
       "id": "b:食@cn",
       "glyph_id": "g:食",
       "lang": "cn",
@@ -12652,6 +12808,38 @@
         "glyph": "我",
         "reading": "われ",
         "gloss": "I; oneself"
+      }
+    },
+    {
+      "id": "b:㇟@cn",
+      "glyph_id": "g:㇟",
+      "lang": "cn",
+      "name": "横斜钩",
+      "readings": [
+        "héngxiégōu"
+      ],
+      "gloss": "horizontal-slant hook",
+      "extra": "先横、再斜下、末端向右上挑钩 (如 飞、风、气)",
+      "appearsIn": {
+        "glyph": "飞",
+        "reading": "fēi",
+        "gloss": "fly"
+      }
+    },
+    {
+      "id": "b:㇟@jp",
+      "glyph_id": "g:㇟",
+      "lang": "jp",
+      "name": "横斜め鉤",
+      "readings": [
+        "おうななめこう"
+      ],
+      "gloss": "horizontal-slant hook",
+      "extra": "横から斜めに下り、末尾で右上へはねる一画",
+      "appearsIn": {
+        "glyph": "飛",
+        "reading": "と.ぶ",
+        "gloss": "fly"
       }
     }
   ]

@@ -1,0 +1,42 @@
+{
+  "glyph": "氺",
+  "cp": "U+6C3A",
+  "class": "comp",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "亅",
+    "丶",
+    "㇀",
+    "丿",
+    "㇏"
+  ],
+  "readings": {
+    "cn": {
+      "name": "氺",
+      "reading": "",
+      "gloss": "water radical (水字底)",
+      "extra": "水(康熙 85)的字底·水字底 · 左侧一笔拆作两笔，故五画 · 见于 隶 黍 泰 求",
+      "appearsIn": {
+        "char": "隶",
+        "reading": "lì",
+        "gloss": "slave"
+      }
+    },
+    "jp": {
+      "name": "したみず",
+      "reading": "",
+      "gloss": "water radical (したみず)",
+      "extra": "水(85)の脚·したみず · 泰・隶 の下部",
+      "appearsIn": {
+        "char": "黍",
+        "reading": "きび",
+        "gloss": "millet"
+      }
+    }
+  },
+  "programs": []
+}

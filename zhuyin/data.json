@@ -1021,6 +1021,11 @@
           "glyph": "飛",
           "gloss": "fly",
           "rank": 0
+        },
+        {
+          "glyph": "飞",
+          "gloss": "fly",
+          "rank": 0
         }
       ]
     },
@@ -3698,6 +3703,20 @@
         {
           "glyph": "西",
           "gloss": "west",
+          "rank": 0
+        }
+      ]
+    },
+    "xi2": {
+      "key": "xi2",
+      "pinyin": "xí",
+      "base": "xi",
+      "tone": 2,
+      "zhuyin": "ㄒㄧ",
+      "glyphs": [
+        {
+          "glyph": "习",
+          "gloss": "practise; review",
           "rank": 0
         }
       ]
