@@ -212,6 +212,16 @@ def check_symbol(rep, g, s):
                 rep.err(where, f"readings.{lang} missing or not an object")
             else:
                 check_reading_view(rep, where, view)
+        # The glyph's referent is minted from its gloss (cn, else jp), so a gloss whose
+        # first `;` segment is entirely parenthetical slugs to "" and yields the id
+        # `r:` — a referent nothing can deliberately rejoin. 个 sat like that behind a
+        # green gate: "(generic measure word); individual" → r:. Lead with a real word.
+        cn = readings.get("cn") if isinstance(readings.get("cn"), dict) else {}
+        jp = readings.get("jp") if isinstance(readings.get("jp"), dict) else {}
+        gloss = cn.get("gloss") or jp.get("gloss") or ""
+        if _str(gloss) and not referent_slug(gloss):
+            rep.err(where, f"gloss {gloss!r} slugs to an empty referent — its first "
+                           "';' segment is all parenthetical; lead with a plain word")
 
     progs = s.get("programs")
     if not isinstance(progs, list):

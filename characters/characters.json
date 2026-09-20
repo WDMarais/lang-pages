@@ -1394,7 +1394,7 @@
           "jpAudioKey": "ko",
           "script": {"traditional": [{"glyph": "個"}, {"glyph": "箇", "when": "classifier; literary"}]},
           "cn": {
-            "name": "个", "reading": "gè", "gloss": "(generic measure word); individual",
+            "name": "个", "reading": "gè", "gloss": "measure word; the generic classifier (一个人); individual",
             "extra": "最常用量词（一个人 one person）· 这个、几个、个人"
           },
           "jp": {
