@@ -1,0 +1,40 @@
+{
+  "glyph": "化",
+  "cp": "U+5316",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "亻",
+    "匕"
+  ],
+  "readings": {
+    "cn": {
+      "name": "化",
+      "reading": "huà",
+      "gloss": "change; to transform; -ize, -ify (suffix)",
+      "extra": "变化、文化、化学 · 现代化、美化 · ⿰亻匕"
+    },
+    "jp": {
+      "name": "化",
+      "reading": "ばける",
+      "gloss": "change; transform",
+      "extra": "漢字「化」(ば・ける · カ・ケ) · 化ける(ばける)、文化(ぶんか)、変化(へんか)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "change",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

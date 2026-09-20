@@ -949,6 +949,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:化",
+      "to": "r:change",
+      "kind": "denotes"
+    },
+    {
       "from": "g:北",
       "to": "r:north",
       "kind": "denotes"
@@ -1398,6 +1403,11 @@
     {
       "from": "g:有",
       "to": "r:have",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:条",
+      "to": "r:strip",
       "kind": "denotes"
     },
     {
@@ -1946,6 +1956,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:论",
+      "to": "r:discuss",
+      "kind": "denotes"
+    },
+    {
       "from": "g:话",
       "to": "r:speech",
       "kind": "denotes"
@@ -2027,6 +2042,11 @@
     },
     {
       "from": "g:辵",
+      "to": "r:walk",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:辶",
       "to": "r:walk",
       "kind": "denotes"
     },
@@ -3277,6 +3297,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:亻",
+      "to": "g:化",
+      "kind": "composes"
+    },
+    {
+      "from": "g:匕",
+      "to": "g:化",
+      "kind": "composes"
+    },
+    {
       "from": "g:一",
       "to": "g:北",
       "kind": "composes"
@@ -3855,6 +3885,16 @@
     {
       "from": "g:月",
       "to": "g:有",
+      "kind": "composes"
+    },
+    {
+      "from": "g:夂",
+      "to": "g:条",
+      "kind": "composes"
+    },
+    {
+      "from": "g:木",
+      "to": "g:条",
       "kind": "composes"
     },
     {
@@ -4490,6 +4530,16 @@
     {
       "from": "g:人",
       "to": "g:认",
+      "kind": "composes"
+    },
+    {
+      "from": "g:讠",
+      "to": "g:论",
+      "kind": "composes"
+    },
+    {
+      "from": "g:仑",
+      "to": "g:论",
       "kind": "composes"
     },
     {
@@ -9168,6 +9218,231 @@
       "kind": "denotes"
     },
     {
+      "from": "g:想",
+      "to": "w:想见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:見",
+      "to": "w:想见@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:想见@cn",
+      "to": "r:infer",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:公",
+      "to": "w:公正@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:正",
+      "to": "w:公正@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:公正@cn",
+      "to": "r:impartial",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:能",
+      "to": "w:能力@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:力",
+      "to": "w:能力@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:能力@cn",
+      "to": "r:ability",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不能@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:能",
+      "to": "w:不能@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不能@cn",
+      "to": "r:unable",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:真",
+      "to": "w:真心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:心",
+      "to": "w:真心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:真心@cn",
+      "to": "r:sincerity",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:为此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:此",
+      "to": "w:为此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:为此@cn",
+      "to": "r:for-this-reason",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一些@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:些",
+      "to": "w:一些@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一些@cn",
+      "to": "r:a-few",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:教",
+      "to": "w:教会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:会",
+      "to": "w:教会@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:教会@cn",
+      "to": "r:church",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:不",
+      "to": "w:不然@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:然",
+      "to": "w:不然@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:不然@cn",
+      "to": "r:otherwise",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:两",
+      "to": "w:两者@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:者",
+      "to": "w:两者@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:两者@cn",
+      "to": "r:both",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:自",
+      "to": "w:自动@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:动",
+      "to": "w:自动@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:自动@cn",
+      "to": "r:automatic",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:因",
+      "to": "w:因此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:此",
+      "to": "w:因此@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:因此@cn",
+      "to": "r:therefore",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:有",
+      "to": "w:有些@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:些",
+      "to": "w:有些@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:有些@cn",
+      "to": "r:somewhat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:相",
+      "to": "w:相同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:同",
+      "to": "w:相同@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:相同@cn",
+      "to": "r:same",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:可",
+      "to": "w:可能@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:能",
+      "to": "w:可能@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:可能@cn",
+      "to": "r:possible",
+      "kind": "denotes"
+    },
+    {
       "from": "g:ナ",
       "to": "g:𠂇",
       "kind": "variant"
@@ -9190,6 +9465,11 @@
     {
       "from": "g:覀",
       "to": "g:襾",
+      "kind": "variant"
+    },
+    {
+      "from": "g:辶",
+      "to": "g:辵",
       "kind": "variant"
     },
     {

@@ -1530,6 +1530,11 @@
       "zhuyin": "ㄏㄨㄚ",
       "glyphs": [
         {
+          "glyph": "化",
+          "gloss": "change; to transform; -ize, -ify (suffix)",
+          "rank": 0
+        },
+        {
           "glyph": "话",
           "gloss": "speech; words, talk; language",
           "rank": 0
@@ -2090,6 +2095,20 @@
         {
           "glyph": "鹿",
           "gloss": "deer",
+          "rank": 0
+        }
+      ]
+    },
+    "lun4": {
+      "key": "lun4",
+      "pinyin": "lùn",
+      "base": "lun",
+      "tone": 4,
+      "zhuyin": "ㄌㄨㄣ",
+      "glyphs": [
+        {
+          "glyph": "论",
+          "gloss": "discuss; theory; view, opinion",
           "rank": 0
         }
       ]
@@ -3368,6 +3387,20 @@
         {
           "glyph": "田",
           "gloss": "field",
+          "rank": 0
+        }
+      ]
+    },
+    "tiao2": {
+      "key": "tiao2",
+      "pinyin": "tiáo",
+      "base": "tiao",
+      "tone": 2,
+      "zhuyin": "ㄊㄧㄠ",
+      "glyphs": [
+        {
+          "glyph": "条",
+          "gloss": "strip; measure word for long thin things; item, article",
           "rank": 0
         }
       ]

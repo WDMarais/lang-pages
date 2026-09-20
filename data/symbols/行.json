@@ -25,5 +25,14 @@
       "gloss": "walk"
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "cane",
+      "kind": "mnemonic",
+      "level": 5
+    }
+  ]
 }

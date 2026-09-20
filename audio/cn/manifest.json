@@ -91,6 +91,14 @@
     "text": "不明",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "bu4neng2.mp3": {
+    "text": "不能",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "bu4ran2.mp3": {
+    "text": "不然",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "bu4ru2.mp3": {
     "text": "不如",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -407,6 +415,10 @@
     "text": "工人",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "gong1zheng4.mp3": {
+    "text": "公正",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "gong1zuo4.mp3": {
     "text": "工作",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -516,7 +528,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "hua4.mp3": {
-    "text": "话",
+    "text": "化",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "huang2.mp3": {
@@ -591,6 +603,10 @@
     "text": "教",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "jiao4hui4.mp3": {
+    "text": "教会",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "jie2.mp3": {
     "text": "卩",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -643,6 +659,10 @@
     "text": "可不",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ke3neng2.mp3": {
+    "text": "可能",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ke3yi3.mp3": {
     "text": "可以",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -675,6 +695,10 @@
     "text": "两",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "liang3zhe3.mp3": {
+    "text": "两者",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "liao3.mp3": {
     "text": "了",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -705,6 +729,10 @@
   },
   "lu4.mp3": {
     "text": "鹿",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "lun4.mp3": {
+    "text": "论",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ma1.mp3": {
@@ -837,6 +865,10 @@
   },
   "neng2.mp3": {
     "text": "能",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "neng2li4.mp3": {
+    "text": "能力",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "ni3.mp3": {
@@ -1191,6 +1223,10 @@
     "text": "田",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "tiao2.mp3": {
+    "text": "条",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "tong2.mp3": {
     "text": "同",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1245,6 +1281,10 @@
   },
   "wei2.mp3": {
     "text": "为",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wei4ci3.mp3": {
+    "text": "为此",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wei4le5.mp3": {
@@ -1315,8 +1355,16 @@
     "text": "相处",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "xiang1tong2.mp3": {
+    "text": "相同",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "xiang3.mp3": {
     "text": "想",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "xiang3jian4.mp3": {
+    "text": "想见",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xiang4.mp3": {
@@ -1451,6 +1499,10 @@
     "text": "一向",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "yi1xie1.mp3": {
+    "text": "一些",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "yi1yang4.mp3": {
     "text": "一样",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1483,6 +1535,10 @@
     "text": "因",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "yin1ci3.mp3": {
+    "text": "因此",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "yin1wei4.mp3": {
     "text": "因为",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1509,6 +1565,10 @@
   },
   "you3ren2.mp3": {
     "text": "有人",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "you3xie1.mp3": {
+    "text": "有些",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "you3zhe5.mp3": {
@@ -1581,6 +1641,10 @@
   },
   "zhen1xiang4.mp3": {
     "text": "真相",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhen1xin1.mp3": {
+    "text": "真心",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhen1zheng4.mp3": {
@@ -1677,6 +1741,10 @@
   },
   "zi4cong2.mp3": {
     "text": "自从",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zi4dong4.mp3": {
+    "text": "自动",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zi4ran2.mp3": {

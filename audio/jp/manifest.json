@@ -51,6 +51,10 @@
     "text": "あう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "bakeru.mp3": {
+    "text": "ばける",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "biidama.mp3": {
     "text": "ビーだま",
     "voice": "ja-JP-NanamiNeural"
@@ -433,6 +437,10 @@
   },
   "joshi.mp3": {
     "text": "じょし",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "jou.mp3": {
+    "text": "ジョウ",
     "voice": "ja-JP-NanamiNeural"
   },
   "jouzu.mp3": {
@@ -933,6 +941,10 @@
   },
   "rokugatsu.mp3": {
     "text": "ろくがつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ron.mp3": {
+    "text": "ロン",
     "voice": "ja-JP-NanamiNeural"
   },
   "ryou.mp3": {

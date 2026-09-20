@@ -558,7 +558,12 @@
         "source": "pandanese",
         "name": "enter",
         "level": 1,
-        "kind": "meaning"
+        "kind": "meaning",
+        "character": {
+          "name": "enter",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -4948,6 +4953,36 @@
       "extra": "漢字「匕」(ヒ · さじ) · 匕首(あいくち・ひしゅ) · 部首名「さじのひ」"
     },
     {
+      "id": "b:化@cn",
+      "glyph_id": "g:化",
+      "lang": "cn",
+      "name": "化",
+      "readings": [
+        "huà"
+      ],
+      "gloss": "change; to transform; -ize, -ify (suffix)",
+      "extra": "变化、文化、化学 · 现代化、美化 · ⿰亻匕",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "change",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:化@jp",
+      "glyph_id": "g:化",
+      "lang": "jp",
+      "name": "化",
+      "readings": [
+        "ばける"
+      ],
+      "gloss": "change; transform",
+      "extra": "漢字「化」(ば・ける · カ・ケ) · 化ける(ばける)、文化(ぶんか)、変化(へんか)"
+    },
+    {
       "id": "b:北@cn",
       "glyph_id": "g:北",
       "lang": "cn",
@@ -7525,6 +7560,36 @@
       "extra": "漢字「有」(あ-る · ユウ・ウ) · 有る、有名(ゆうめい)"
     },
     {
+      "id": "b:条@cn",
+      "glyph_id": "g:条",
+      "lang": "cn",
+      "name": "条",
+      "readings": [
+        "tiáo"
+      ],
+      "gloss": "strip; measure word for long thin things; item, article",
+      "extra": "一条路、一条鱼、一条腿 · 条件、面条、新闻一条 · ⿱夂木 · 繁体 條",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "strip",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:条@jp",
+      "glyph_id": "g:条",
+      "lang": "jp",
+      "name": "条",
+      "readings": [
+        "ジョウ"
+      ],
+      "gloss": "article; clause; stripe",
+      "extra": "漢字「条」(ジョウ) · 条件(じょうけん)、第一条(だいいちじょう) · 旧字「條」"
+    },
+    {
       "id": "b:果@cn",
       "glyph_id": "g:果",
       "lang": "cn",
@@ -10007,7 +10072,13 @@
         "xíng"
       ],
       "gloss": "walk",
-      "extra": "康熙部首 144"
+      "extra": "康熙部首 144",
+      "program": {
+        "source": "pandanese",
+        "name": "cane",
+        "level": 5,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:行@jp",
@@ -10313,6 +10384,36 @@
       ],
       "gloss": "recognize; approve",
       "extra": "漢字「認」(みと-める · ニン) · 認める(みとめる)、確認(かくにん)"
+    },
+    {
+      "id": "b:论@cn",
+      "glyph_id": "g:论",
+      "lang": "cn",
+      "name": "论",
+      "readings": [
+        "lùn"
+      ],
+      "gloss": "discuss; theory; view, opinion",
+      "extra": "讨论、理论、结论 · 无论、不论 · ⿰讠仑 · 繁体 論",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "discuss",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:论@jp",
+      "glyph_id": "g:论",
+      "lang": "jp",
+      "name": "論",
+      "readings": [
+        "ロン"
+      ],
+      "gloss": "argument; theory; discourse",
+      "extra": "漢字「論」(ロン) · 論じる(ろんじる)、議論(ぎろん)、理論(りろん)"
     },
     {
       "id": "b:话@cn",
@@ -10711,6 +10812,30 @@
       "extra": ""
     },
     {
+      "id": "b:辶@cn",
+      "glyph_id": "g:辶",
+      "lang": "cn",
+      "name": "辶",
+      "readings": [],
+      "gloss": "walk (radical form)",
+      "extra": "辵(康熙 162)的旁形·走之旁 · 见于 这 过 还 道 进 · Pandanese「walk」",
+      "program": {
+        "source": "pandanese",
+        "name": "walk",
+        "level": 5,
+        "kind": "meaning"
+      }
+    },
+    {
+      "id": "b:辶@jp",
+      "glyph_id": "g:辶",
+      "lang": "jp",
+      "name": "しんにょう",
+      "readings": [],
+      "gloss": "walk (radical form)",
+      "extra": "しんにょう · 辵(162)の旁形 · 通・道・進・返 の左下"
+    },
+    {
       "id": "b:邑@cn",
       "glyph_id": "g:邑",
       "lang": "cn",
@@ -10909,7 +11034,13 @@
         "mén"
       ],
       "gloss": "gate",
-      "extra": "康熙部首 169"
+      "extra": "康熙部首 169",
+      "program": {
+        "source": "pandanese",
+        "name": "gate",
+        "level": 5,
+        "kind": "meaning"
+      }
     },
     {
       "id": "b:門@jp",

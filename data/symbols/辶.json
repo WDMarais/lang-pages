@@ -1,0 +1,33 @@
+{
+  "glyph": "辶",
+  "cp": "U+8FB6",
+  "class": "comp",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "辶",
+      "reading": "",
+      "gloss": "walk (radical form)",
+      "extra": "辵(康熙 162)的旁形·走之旁 · 见于 这 过 还 道 进 · Pandanese「walk」"
+    },
+    "jp": {
+      "name": "しんにょう",
+      "reading": "",
+      "gloss": "walk (radical form)",
+      "extra": "しんにょう · 辵(162)の旁形 · 通・道・進・返 の左下"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "radical",
+      "name": "walk",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

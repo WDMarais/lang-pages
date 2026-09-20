@@ -8,6 +8,9 @@
     "animated": true,
     "image": ""
   },
+  "variants": [
+    "辶"
+  ],
   "composes": [
     "彡",
     "止"

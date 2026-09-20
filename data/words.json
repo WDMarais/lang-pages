@@ -4762,6 +4762,246 @@
         "kind": "vocab",
         "level": 5
       }
+    },
+    {
+      "surface": "想见",
+      "audience": "cn",
+      "parts": [
+        "想",
+        "見"
+      ],
+      "denotes": "infer",
+      "reading": "xiǎngjiàn",
+      "gloss": "to infer; to gather; can well imagine",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "公正",
+      "audience": "cn",
+      "parts": [
+        "公",
+        "正"
+      ],
+      "denotes": "impartial",
+      "reading": "gōngzhèng",
+      "gloss": "impartial; just; fair",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "能力",
+      "audience": "cn",
+      "parts": [
+        "能",
+        "力"
+      ],
+      "denotes": "ability",
+      "reading": "nénglì",
+      "gloss": "ability; capability; capacity",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "不能",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "能"
+      ],
+      "denotes": "unable",
+      "reading": "bùnéng",
+      "gloss": "cannot; unable to; may not",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "真心",
+      "audience": "cn",
+      "parts": [
+        "真",
+        "心"
+      ],
+      "denotes": "sincerity",
+      "reading": "zhēnxīn",
+      "gloss": "sincerity; wholehearted; true heart",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "为此",
+      "audience": "cn",
+      "parts": [
+        "为",
+        "此"
+      ],
+      "denotes": "for-this-reason",
+      "reading": "wèicǐ",
+      "gloss": "for this reason; to this end",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "一些",
+      "audience": "cn",
+      "parts": [
+        "一",
+        "些"
+      ],
+      "denotes": "a-few",
+      "reading": "yīxiē",
+      "gloss": "a few; some; a little",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "教会",
+      "audience": "cn",
+      "parts": [
+        "教",
+        "会"
+      ],
+      "denotes": "church",
+      "reading": "jiàohuì",
+      "gloss": "church; congregation",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "不然",
+      "audience": "cn",
+      "parts": [
+        "不",
+        "然"
+      ],
+      "denotes": "otherwise",
+      "reading": "bùrán",
+      "gloss": "otherwise; or else; not so",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "两者",
+      "audience": "cn",
+      "parts": [
+        "两",
+        "者"
+      ],
+      "denotes": "both",
+      "reading": "liǎngzhě",
+      "gloss": "both (of the two); the two of them",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "自动",
+      "audience": "cn",
+      "parts": [
+        "自",
+        "动"
+      ],
+      "denotes": "automatic",
+      "reading": "zìdòng",
+      "gloss": "automatic; automatically; of one's own accord",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "因此",
+      "audience": "cn",
+      "parts": [
+        "因",
+        "此"
+      ],
+      "denotes": "therefore",
+      "reading": "yīncǐ",
+      "gloss": "therefore; consequently; for this reason",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "有些",
+      "audience": "cn",
+      "parts": [
+        "有",
+        "些"
+      ],
+      "denotes": "somewhat",
+      "reading": "yǒuxiē",
+      "gloss": "somewhat; rather; some (of them)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "相同",
+      "audience": "cn",
+      "parts": [
+        "相",
+        "同"
+      ],
+      "denotes": "same",
+      "reading": "xiāngtóng",
+      "gloss": "identical; the same; alike",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "可能",
+      "audience": "cn",
+      "parts": [
+        "可",
+        "能"
+      ],
+      "denotes": "possible",
+      "reading": "kěnéng",
+      "gloss": "possible; probably; possibility",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
     }
   ]
 }

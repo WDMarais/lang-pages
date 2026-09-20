@@ -1,0 +1,44 @@
+{
+  "glyph": "条",
+  "cp": "U+6761",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "夂",
+    "木"
+  ],
+  "readings": {
+    "cn": {
+      "name": "条",
+      "reading": "tiáo",
+      "gloss": "strip; measure word for long thin things; item, article",
+      "extra": "一条路、一条鱼、一条腿 · 条件、面条、新闻一条 · ⿱夂木 · 繁体 條"
+    },
+    "jp": {
+      "name": "条",
+      "reading": "ジョウ",
+      "gloss": "article; clause; stripe",
+      "extra": "漢字「条」(ジョウ) · 条件(じょうけん)、第一条(だいいちじょう) · 旧字「條」"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "條"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "strip",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

@@ -2713,6 +2713,27 @@
       "label": "spoon; dagger"
     },
     {
+      "id": "g:化",
+      "kind": "glyph",
+      "glyph": "化",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hua4",
+      "jpAudioKey": "bakeru",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:change",
+      "kind": "referent",
+      "label": "change; to transform; -ize, -ify (suffix)"
+    },
+    {
       "id": "g:北",
       "kind": "glyph",
       "glyph": "北",
@@ -4319,6 +4340,31 @@
       "id": "r:have",
       "kind": "referent",
       "label": "to have; there is"
+    },
+    {
+      "id": "g:条",
+      "kind": "glyph",
+      "glyph": "条",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "tiao2",
+      "jpAudioKey": "jou",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "條"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:strip",
+      "kind": "referent",
+      "label": "strip; measure word for long thin things; item, article"
     },
     {
       "id": "g:果",
@@ -6098,6 +6144,31 @@
       "label": "recognize; identify; admit"
     },
     {
+      "id": "g:论",
+      "kind": "glyph",
+      "glyph": "论",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "lun4",
+      "jpAudioKey": "ron",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "論"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:discuss",
+      "kind": "referent",
+      "label": "discuss; theory; view, opinion"
+    },
+    {
       "id": "g:话",
       "kind": "glyph",
       "glyph": "话",
@@ -6368,7 +6439,21 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "chuo4"
+      "cnAudioKey": "chuo4",
+      "variants": [
+        "辶"
+      ]
+    },
+    {
+      "id": "g:辶",
+      "kind": "glyph",
+      "glyph": "辶",
+      "tier": "component",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      }
     },
     {
       "id": "g:邑",
@@ -6513,7 +6598,15 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "men2"
+      "cnAudioKey": "men2",
+      "script": {
+        "keyed": "traditional",
+        "simplified": [
+          {
+            "glyph": "门"
+          }
+        ]
+      }
     },
     {
       "id": "r:gate",
@@ -7734,6 +7827,13 @@
       "id": "g:兀",
       "kind": "glyph",
       "glyph": "兀",
+      "tier": null,
+      "frontier": true
+    },
+    {
+      "id": "g:仑",
+      "kind": "glyph",
+      "glyph": "仑",
       "tier": null,
       "frontier": true
     },
@@ -13484,6 +13584,301 @@
       "id": "r:can-only",
       "kind": "referent",
       "label": "can only; have no choice but to"
+    },
+    {
+      "id": "w:想见@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "想见",
+      "reading": "xiǎngjiàn",
+      "gloss": "to infer; to gather; can well imagine",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "xiang3jian4"
+    },
+    {
+      "id": "r:infer",
+      "kind": "referent",
+      "label": "to infer; to gather; can well imagine"
+    },
+    {
+      "id": "w:公正@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "公正",
+      "reading": "gōngzhèng",
+      "gloss": "impartial; just; fair",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "gong1zheng4"
+    },
+    {
+      "id": "r:impartial",
+      "kind": "referent",
+      "label": "impartial; just; fair"
+    },
+    {
+      "id": "w:能力@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "能力",
+      "reading": "nénglì",
+      "gloss": "ability; capability; capacity",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "neng2li4"
+    },
+    {
+      "id": "r:ability",
+      "kind": "referent",
+      "label": "ability; capability; capacity"
+    },
+    {
+      "id": "w:不能@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不能",
+      "reading": "bùnéng",
+      "gloss": "cannot; unable to; may not",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "bu4neng2"
+    },
+    {
+      "id": "r:unable",
+      "kind": "referent",
+      "label": "cannot; unable to; may not"
+    },
+    {
+      "id": "w:真心@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "真心",
+      "reading": "zhēnxīn",
+      "gloss": "sincerity; wholehearted; true heart",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zhen1xin1"
+    },
+    {
+      "id": "r:sincerity",
+      "kind": "referent",
+      "label": "sincerity; wholehearted; true heart"
+    },
+    {
+      "id": "w:为此@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "为此",
+      "reading": "wèicǐ",
+      "gloss": "for this reason; to this end",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "wei4ci3"
+    },
+    {
+      "id": "r:for-this-reason",
+      "kind": "referent",
+      "label": "for this reason; to this end"
+    },
+    {
+      "id": "w:一些@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "一些",
+      "reading": "yīxiē",
+      "gloss": "a few; some; a little",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "yi1xie1"
+    },
+    {
+      "id": "r:a-few",
+      "kind": "referent",
+      "label": "a few; some; a little"
+    },
+    {
+      "id": "w:教会@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "教会",
+      "reading": "jiàohuì",
+      "gloss": "church; congregation",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "jiao4hui4"
+    },
+    {
+      "id": "r:church",
+      "kind": "referent",
+      "label": "church; congregation"
+    },
+    {
+      "id": "w:不然@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "不然",
+      "reading": "bùrán",
+      "gloss": "otherwise; or else; not so",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "bu4ran2"
+    },
+    {
+      "id": "r:otherwise",
+      "kind": "referent",
+      "label": "otherwise; or else; not so"
+    },
+    {
+      "id": "w:两者@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "两者",
+      "reading": "liǎngzhě",
+      "gloss": "both (of the two); the two of them",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "liang3zhe3"
+    },
+    {
+      "id": "r:both",
+      "kind": "referent",
+      "label": "both (of the two); the two of them"
+    },
+    {
+      "id": "w:自动@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "自动",
+      "reading": "zìdòng",
+      "gloss": "automatic; automatically; of one's own accord",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zi4dong4"
+    },
+    {
+      "id": "r:automatic",
+      "kind": "referent",
+      "label": "automatic; automatically; of one's own accord"
+    },
+    {
+      "id": "w:因此@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "因此",
+      "reading": "yīncǐ",
+      "gloss": "therefore; consequently; for this reason",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "yin1ci3"
+    },
+    {
+      "id": "r:therefore",
+      "kind": "referent",
+      "label": "therefore; consequently; for this reason"
+    },
+    {
+      "id": "w:有些@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "有些",
+      "reading": "yǒuxiē",
+      "gloss": "somewhat; rather; some (of them)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "you3xie1"
+    },
+    {
+      "id": "r:somewhat",
+      "kind": "referent",
+      "label": "somewhat; rather; some (of them)"
+    },
+    {
+      "id": "w:相同@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "相同",
+      "reading": "xiāngtóng",
+      "gloss": "identical; the same; alike",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "xiang1tong2"
+    },
+    {
+      "id": "w:可能@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "可能",
+      "reading": "kěnéng",
+      "gloss": "possible; probably; possibility",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ke3neng2"
+    },
+    {
+      "id": "r:possible",
+      "kind": "referent",
+      "label": "possible; probably; possibility"
     }
   ]
 }

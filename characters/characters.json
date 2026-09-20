@@ -219,7 +219,8 @@
           },
           "wk": { "name": "Enter", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Enter", "readings": ["ニュウ"], "on": true, "level": 1 },
-          "pd": { "name": "enter", "level": 1, "kind": "meaning" }
+          "pd": { "name": "enter", "level": 1, "kind": "meaning" },
+          "pdc": { "name": "enter", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "力",
@@ -1951,6 +1952,25 @@
           "pdc": { "name": "spoon", "kind": "meaning", "level": 4 }
         },
         {
+          "glyph": "化",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hua4",
+          "jpAudioKey": "bakeru",
+          "script": {"same": true},
+          "cn": {
+            "name": "化", "reading": "huà", "gloss": "change; to transform; -ize, -ify (suffix)",
+            "extra": "变化、文化、化学 · 现代化、美化 · ⿰亻匕"
+          },
+          "jp": {
+            "name": "化", "reading": "ばける", "gloss": "change; transform",
+            "extra": "漢字「化」(ば・ける · カ・ケ) · 化ける(ばける)、文化(ぶんか)、変化(へんか)"
+          },
+          "wk": null,
+          "pdc": { "name": "change", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "北",
           "tag": "char",
           "image": "",
@@ -2997,6 +3017,25 @@
           "pdc": { "name": "have", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "条",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "tiao2",
+          "jpAudioKey": "jou",
+          "script": {"traditional": [{"glyph": "條"}]},
+          "cn": {
+            "name": "条", "reading": "tiáo", "gloss": "strip; measure word for long thin things; item, article",
+            "extra": "一条路、一条鱼、一条腿 · 条件、面条、新闻一条 · ⿱夂木 · 繁体 條"
+          },
+          "jp": {
+            "name": "条", "reading": "ジョウ", "gloss": "article; clause; stripe",
+            "extra": "漢字「条」(ジョウ) · 条件(じょうけん)、第一条(だいいちじょう) · 旧字「條」"
+          },
+          "wk": null,
+          "pdc": { "name": "strip", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "果",
           "tag": "char",
           "image": "",
@@ -3794,6 +3833,25 @@
           },
           "wk": null,
           "pdc": { "name": "recognize", "kind": "meaning", "level": 5 }
+        },
+        {
+          "glyph": "论",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "lun4",
+          "jpAudioKey": "ron",
+          "script": {"traditional": [{"glyph": "論"}]},
+          "cn": {
+            "name": "论", "reading": "lùn", "gloss": "discuss; theory; view, opinion",
+            "extra": "讨论、理论、结论 · 无论、不论 · ⿰讠仑 · 繁体 論"
+          },
+          "jp": {
+            "name": "論", "reading": "ロン", "gloss": "argument; theory; discourse",
+            "extra": "漢字「論」(ロン) · 論じる(ろんじる)、議論(ぎろん)、理論(りろん)"
+          },
+          "wk": null,
+          "pdc": { "name": "discuss", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "话",

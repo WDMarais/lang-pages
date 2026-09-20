@@ -62,6 +62,14 @@
       "name": "enter",
       "kind": "meaning",
       "level": 1
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "enter",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

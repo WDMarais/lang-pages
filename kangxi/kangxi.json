@@ -519,6 +519,11 @@
             "level": 1,
             "kind": "meaning"
           },
+          "pdc": {
+            "name": "enter",
+            "kind": "meaning",
+            "level": 5
+          },
           "kx": 11,
           "cnAudioKey": "ru4",
           "cnExAudioKey": "quan2",
@@ -5038,6 +5043,11 @@
             "gloss": "walk"
           },
           "wk": null,
+          "pd": {
+            "name": "cane",
+            "level": 5,
+            "kind": "mnemonic"
+          },
           "kx": 144,
           "cnAudioKey": "xing2"
         },
@@ -5722,7 +5732,20 @@
             "reading": "",
             "gloss": "gate"
           },
+          "script": {
+            "keyed": "traditional",
+            "simplified": [
+              {
+                "glyph": "门"
+              }
+            ]
+          },
           "wk": null,
+          "pd": {
+            "name": "gate",
+            "level": 5,
+            "kind": "meaning"
+          },
           "kx": 169,
           "cnAudioKey": "men2"
         },
@@ -7508,6 +7531,30 @@
           "pd": {
             "name": "speech",
             "level": 4,
+            "kind": "meaning"
+          }
+        },
+        {
+          "glyph": "辶",
+          "tag": "comp",
+          "image": "",
+          "animated": true,
+          "cn": {
+            "name": "辶",
+            "reading": "",
+            "gloss": "walk (radical form)",
+            "extra": "辵(康熙 162)的旁形·走之旁 · 见于 这 过 还 道 进 · Pandanese「walk」"
+          },
+          "jp": {
+            "name": "しんにょう",
+            "reading": "",
+            "gloss": "walk (radical form)",
+            "extra": "しんにょう · 辵(162)の旁形 · 通・道・進・返 の左下"
+          },
+          "wk": null,
+          "pd": {
+            "name": "walk",
+            "level": 5,
             "kind": "meaning"
           }
         },

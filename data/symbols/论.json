@@ -1,0 +1,44 @@
+{
+  "glyph": "论",
+  "cp": "U+8BBA",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "讠",
+    "仑"
+  ],
+  "readings": {
+    "cn": {
+      "name": "论",
+      "reading": "lùn",
+      "gloss": "discuss; theory; view, opinion",
+      "extra": "讨论、理论、结论 · 无论、不论 · ⿰讠仑 · 繁体 論"
+    },
+    "jp": {
+      "name": "論",
+      "reading": "ロン",
+      "gloss": "argument; theory; discourse",
+      "extra": "漢字「論」(ロン) · 論じる(ろんじる)、議論(ぎろん)、理論(りろん)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "論"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "discuss",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}
