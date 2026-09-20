@@ -167,6 +167,11 @@
           "glyph": "八",
           "gloss": "eight",
           "rank": 0
+        },
+        {
+          "glyph": "巴",
+          "gloss": "coiled snake; to cling to",
+          "rank": 0
         }
       ]
     },
@@ -3667,6 +3672,11 @@
       "zhuyin": "ㄨ",
       "glyphs": [
         {
+          "glyph": "兀",
+          "gloss": "flat-topped; towering; bald",
+          "rank": 0
+        },
+        {
           "glyph": "物",
           "gloss": "thing; matter",
           "rank": 0
@@ -3879,7 +3889,7 @@
       "glyphs": [
         {
           "glyph": "休",
-          "gloss": "to rest",
+          "gloss": "to rest; to stop; cease",
           "rank": 0
         }
       ]
@@ -4459,6 +4469,20 @@
         {
           "glyph": "在",
           "gloss": "to exist; to be (located) at",
+          "rank": 0
+        }
+      ]
+    },
+    "zao3": {
+      "key": "zao3",
+      "pinyin": "zǎo",
+      "base": "zao",
+      "tone": 3,
+      "zhuyin": "ㄗㄠ",
+      "glyphs": [
+        {
+          "glyph": "早",
+          "gloss": "early; morning",
           "rank": 0
         }
       ]

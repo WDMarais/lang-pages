@@ -34,5 +34,25 @@
       }
     }
   },
-  "programs": []
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Hundred",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Hundred",
+      "readings": [
+        "ヒャク"
+      ],
+      "on": true,
+      "level": 4
+    }
+  ]
 }

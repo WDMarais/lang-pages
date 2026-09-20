@@ -32,6 +32,14 @@
       "name": "step",
       "kind": "meaning",
       "level": 2
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Loiter",
+      "kind": "mnemonic",
+      "level": 4
     }
   ]
 }

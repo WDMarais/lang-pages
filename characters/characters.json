@@ -1634,6 +1634,25 @@
           "pdc": { "name": "he", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "休",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "xiu1",
+          "jpAudioKey": "yasumu",
+          "script": {"same": true},
+          "cn": {
+            "name": "休", "reading": "xiū", "gloss": "to rest; to stop; cease",
+            "extra": "休息、休假、退休 · ⿰亻木 · 人倚木而息"
+          },
+          "jp": {
+            "name": "休", "reading": "やすむ", "gloss": "rest; day off",
+            "extra": "漢字「休」(やす・む · キュウ) · 休む(やすむ)、休日(きゅうじつ)、夏休み(なつやすみ)"
+          },
+          "wk": { "name": "Rest", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Rest", "readings": ["キュウ"], "on": true, "kun": ["やす"], "level": 4 }
+        },
+        {
           "glyph": "会",
           "tag": "char",
           "image": "",
@@ -2938,6 +2957,25 @@
           "kanji": { "name": "Direction", "readings": ["ホウ"], "on": true, "kun": ["かた"], "level": 3 }
         },
         {
+          "glyph": "早",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zao3",
+          "jpAudioKey": "hayai",
+          "script": {"same": true},
+          "cn": {
+            "name": "早", "reading": "zǎo", "gloss": "early; morning",
+            "extra": "早上、早饭、早点 · ⿱日十 · 日出而十（甲）"
+          },
+          "jp": {
+            "name": "早", "reading": "はやい", "gloss": "early; fast",
+            "extra": "漢字「早」(はや・い · ソウ・サ) · 早い(はやい)、早朝(そうちょう)、早速(さっそく)"
+          },
+          "wk": { "name": "Early", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Early", "readings": ["ソウ", "サ"], "on": true, "kun": ["はや"], "level": 4 }
+        },
+        {
           "glyph": "明",
           "tag": "char",
           "image": "",
@@ -3370,7 +3408,8 @@
             "extra": "漢字「百」(ヒャク) · 百円、三百 · 音便: 三百(さんびゃく)・六百(ろっぴゃく)・八百(はっぴゃく)",
             "appearsIn": { "char": "宿", "reading": "やど", "gloss": "inn" }
           },
-          "wk": null
+          "wk": { "name": "Hundred", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Hundred", "readings": ["ヒャク"], "on": true, "level": 4 }
         },
         {
           "glyph": "皿",
@@ -3601,6 +3640,25 @@
           "kanji": { "name": "Bamboo", "readings": ["たけ"], "on": false, "level": 4 },
           "pd": { "name": "bamboo", "level": 2, "kind": "meaning" },
           "pdc": { "name": "chopsticks", "kind": "mnemonic", "level": 4 }
+        },
+        {
+          "glyph": "米",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "mi3",
+          "jpAudioKey": "kome",
+          "cn": {
+            "name": "米", "reading": "mǐ", "gloss": "rice",
+            "extra": "康熙部首 119"
+          },
+          "jp": {
+            "name": "米", "reading": "こめ", "gloss": "rice",
+            "extra": "漢字「米」(こめ · ベイ・マイ) · 米(こめ)、米国(べいこく)、新米(しんまい)"
+          },
+          "wk": { "name": "Rice", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Rice", "readings": ["ベイ", "マイ"], "on": true, "kun": ["こめ"], "level": 4 },
+          "pd": { "name": "rice", "level": 2, "kind": "meaning" }
         },
         {
           "glyph": "美",

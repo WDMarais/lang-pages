@@ -159,6 +159,10 @@
     "text": "ふとい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "futoru.mp3": {
+    "text": "ふとる",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "futsuka.mp3": {
     "text": "ふつか",
     "voice": "ja-JP-NanamiNeural"
@@ -259,6 +263,10 @@
     "text": "ハツ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "hayai.mp3": {
+    "text": "はやい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "hayashi.mp3": {
     "text": "はやし",
     "voice": "ja-JP-NanamiNeural"
@@ -341,6 +349,10 @@
   },
   "ichi.mp3": {
     "text": "いち",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ichida.mp3": {
+    "text": "いちだ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ichidai.mp3": {
@@ -483,6 +495,10 @@
     "text": "カイ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kakigoori.mp3": {
+    "text": "かきごおり",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kami.mp3": {
     "text": "かみ",
     "voice": "ja-JP-NanamiNeural"
@@ -559,6 +575,10 @@
     "text": "こころ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kome.mp3": {
+    "text": "こめ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "konbanha.mp3": {
     "text": "こんばんは",
     "voice": "ja-JP-NanamiNeural"
@@ -593,6 +613,10 @@
   },
   "kou.mp3": {
     "text": "コウ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "koushi.mp3": {
+    "text": "こうし",
     "voice": "ja-JP-NanamiNeural"
   },
   "kuchi.mp3": {
@@ -1317,6 +1341,10 @@
   },
   "yasu.mp3": {
     "text": "やす",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "yasumu.mp3": {
+    "text": "やすむ",
     "voice": "ja-JP-NanamiNeural"
   },
   "yattsu.mp3": {

@@ -4254,6 +4254,45 @@
       }
     },
     {
+      "id": "b:休@cn",
+      "glyph_id": "g:休",
+      "lang": "cn",
+      "name": "休",
+      "readings": [
+        "xiū"
+      ],
+      "gloss": "to rest; to stop; cease",
+      "extra": "休息、休假、退休 · ⿰亻木 · 人倚木而息"
+    },
+    {
+      "id": "b:休@jp",
+      "glyph_id": "g:休",
+      "lang": "jp",
+      "name": "休",
+      "readings": [
+        "やすむ"
+      ],
+      "gloss": "rest; day off",
+      "extra": "漢字「休」(やす・む · キュウ) · 休む(やすむ)、休日(きゅうじつ)、夏休み(なつやすみ)",
+      "program": {
+        "source": "wanikani",
+        "name": "Rest",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Rest",
+          "readings": [
+            "キュウ"
+          ],
+          "on": true,
+          "kun": [
+            "やす"
+          ],
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:会@cn",
       "glyph_id": "g:会",
       "lang": "cn",
@@ -4454,6 +4493,32 @@
       ],
       "gloss": "hundred million",
       "extra": "漢字「億」(オク) · 一億、億万長者"
+    },
+    {
+      "id": "b:兀@cn",
+      "glyph_id": "g:兀",
+      "lang": "cn",
+      "name": "兀",
+      "readings": [
+        "wù"
+      ],
+      "gloss": "flat-topped; towering; bald",
+      "extra": "兀立、突兀 · ⿱一儿 · 见于 西 酉 元 · WaniKani「Pi」是助记名"
+    },
+    {
+      "id": "b:兀@jp",
+      "glyph_id": "g:兀",
+      "lang": "jp",
+      "name": "兀",
+      "readings": [],
+      "gloss": "flat-topped; towering",
+      "extra": "兀(コツ・ゴツ) · 西・酉 の上部 · WaniKani 部首名「Pi」",
+      "program": {
+        "source": "wanikani",
+        "name": "Pi",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:元@cn",
@@ -6423,6 +6488,32 @@
       }
     },
     {
+      "id": "b:巴@cn",
+      "glyph_id": "g:巴",
+      "lang": "cn",
+      "name": "巴",
+      "readings": [
+        "bā"
+      ],
+      "gloss": "coiled snake; to cling to",
+      "extra": "康熙部首 49 之外 · 见于 色 邑 把 爸 · 象形：盘曲的蛇 · WaniKani「Bed」是助记名"
+    },
+    {
+      "id": "b:巴@jp",
+      "glyph_id": "g:巴",
+      "lang": "jp",
+      "name": "巴",
+      "readings": [],
+      "gloss": "coiled snake",
+      "extra": "巴(ともえ) · 色・邑 の下部 · WaniKani 部首名「Bed」",
+      "program": {
+        "source": "wanikani",
+        "name": "Bed",
+        "level": 4,
+        "kind": "mnemonic"
+      }
+    },
+    {
       "id": "b:巾@cn",
       "glyph_id": "g:巾",
       "lang": "cn",
@@ -6874,7 +6965,13 @@
       "name": "彳",
       "readings": [],
       "gloss": "step",
-      "extra": ""
+      "extra": "",
+      "program": {
+        "source": "wanikani",
+        "name": "Loiter",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:心@cn",
@@ -7370,6 +7467,46 @@
       "readings": [],
       "gloss": "not",
       "extra": ""
+    },
+    {
+      "id": "b:早@cn",
+      "glyph_id": "g:早",
+      "lang": "cn",
+      "name": "早",
+      "readings": [
+        "zǎo"
+      ],
+      "gloss": "early; morning",
+      "extra": "早上、早饭、早点 · ⿱日十 · 日出而十（甲）"
+    },
+    {
+      "id": "b:早@jp",
+      "glyph_id": "g:早",
+      "lang": "jp",
+      "name": "早",
+      "readings": [
+        "はやい"
+      ],
+      "gloss": "early; fast",
+      "extra": "漢字「早」(はや・い · ソウ・サ) · 早い(はやい)、早朝(そうちょう)、早速(さっそく)",
+      "program": {
+        "source": "wanikani",
+        "name": "Early",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Early",
+          "readings": [
+            "ソウ",
+            "サ"
+          ],
+          "on": true,
+          "kun": [
+            "はや"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:明@cn",
@@ -8740,6 +8877,20 @@
         "glyph": "宿",
         "reading": "やど",
         "gloss": "inn"
+      },
+      "program": {
+        "source": "wanikani",
+        "name": "Hundred",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Hundred",
+          "readings": [
+            "ヒャク"
+          ],
+          "on": true,
+          "level": 4
+        }
       }
     },
     {
@@ -9371,9 +9522,29 @@
       "glyph_id": "g:米",
       "lang": "jp",
       "name": "米",
-      "readings": [],
+      "readings": [
+        "こめ"
+      ],
       "gloss": "rice",
-      "extra": ""
+      "extra": "漢字「米」(こめ · ベイ・マイ) · 米(こめ)、米国(べいこく)、新米(しんまい)",
+      "program": {
+        "source": "wanikani",
+        "name": "Rice",
+        "level": 4,
+        "kind": "meaning",
+        "kanji": {
+          "name": "Rice",
+          "readings": [
+            "ベイ",
+            "マイ"
+          ],
+          "on": true,
+          "kun": [
+            "こめ"
+          ],
+          "level": 4
+        }
+      }
     },
     {
       "id": "b:缶@cn",

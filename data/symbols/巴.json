@@ -1,0 +1,41 @@
+{
+  "glyph": "巴",
+  "cp": "U+5DF4",
+  "class": "char",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "巳",
+    "丨"
+  ],
+  "readings": {
+    "cn": {
+      "name": "巴",
+      "reading": "bā",
+      "gloss": "coiled snake; to cling to",
+      "extra": "康熙部首 49 之外 · 见于 色 邑 把 爸 · 象形：盘曲的蛇 · WaniKani「Bed」是助记名"
+    },
+    "jp": {
+      "name": "巴",
+      "reading": "",
+      "gloss": "coiled snake",
+      "extra": "巴(ともえ) · 色・邑 の下部 · WaniKani 部首名「Bed」"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Bed",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
+}

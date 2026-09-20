@@ -5002,6 +5002,115 @@
         "kind": "vocab",
         "level": 5
       }
+    },
+    {
+      "surface": "太る",
+      "audience": "jp",
+      "parts": [
+        "太"
+      ],
+      "denotes": "grow-fat",
+      "reading": "ふとる",
+      "gloss": "to grow fat; to gain weight",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "打つ",
+      "audience": "jp",
+      "parts": [
+        "打"
+      ],
+      "denotes": "hit",
+      "reading": "うつ",
+      "gloss": "to hit; to strike",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "一打",
+      "audience": "jp",
+      "parts": [
+        "一",
+        "打"
+      ],
+      "denotes": "one-dozen",
+      "reading": "いちだ",
+      "gloss": "one dozen",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "かき氷",
+      "audience": "jp",
+      "parts": [
+        "氷"
+      ],
+      "denotes": "shaved-ice",
+      "reading": "かきごおり",
+      "gloss": "shaved ice",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "子牛",
+      "audience": "jp",
+      "parts": [
+        "子",
+        "牛"
+      ],
+      "denotes": "calf",
+      "reading": "こうし",
+      "gloss": "calf; young cow",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "号",
+      "audience": "jp",
+      "parts": [
+        "号"
+      ],
+      "denotes": "number",
+      "reading": "ごう",
+      "gloss": "number; issue",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "氷",
+      "audience": "jp",
+      "parts": [
+        "氷"
+      ],
+      "denotes": "ice",
+      "reading": "こおり",
+      "gloss": "ice",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

@@ -2292,7 +2292,11 @@
             "reading": "",
             "gloss": "step"
           },
-          "wk": null,
+          "wk": {
+            "name": "Loiter",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "pd": {
             "name": "step",
             "level": 2,
@@ -4416,17 +4420,35 @@
           },
           "jp": {
             "name": "米",
-            "reading": "",
-            "gloss": "rice"
+            "reading": "こめ",
+            "gloss": "rice",
+            "extra": "漢字「米」(こめ · ベイ・マイ) · 米(こめ)、米国(べいこく)、新米(しんまい)"
           },
-          "wk": null,
+          "wk": {
+            "name": "Rice",
+            "level": 4,
+            "kind": "meaning"
+          },
+          "kanji": {
+            "name": "Rice",
+            "readings": [
+              "ベイ",
+              "マイ"
+            ],
+            "on": true,
+            "kun": [
+              "こめ"
+            ],
+            "level": 4
+          },
           "pd": {
             "name": "rice",
             "level": 2,
             "kind": "meaning"
           },
           "kx": 119,
-          "cnAudioKey": "mi3"
+          "cnAudioKey": "mi3",
+          "jpAudioKey": "kome"
         },
         {
           "glyph": "糸",

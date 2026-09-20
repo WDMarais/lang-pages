@@ -834,6 +834,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:休",
+      "to": "r:rest",
+      "kind": "denotes"
+    },
+    {
       "from": "g:会",
       "to": "r:can",
       "kind": "denotes"
@@ -866,6 +871,11 @@
     {
       "from": "g:億",
       "to": "r:hundred-million",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:兀",
+      "to": "r:flat-topped",
       "kind": "denotes"
     },
     {
@@ -1214,6 +1224,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:巴",
+      "to": "r:coiled-snake",
+      "kind": "denotes"
+    },
+    {
       "from": "g:巾",
       "to": "r:cloth",
       "kind": "denotes"
@@ -1372,6 +1387,11 @@
     {
       "from": "g:无",
       "to": "r:not",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:早",
+      "to": "r:early",
       "kind": "denotes"
     },
     {
@@ -3141,6 +3161,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:木",
+      "to": "g:休",
+      "kind": "composes"
+    },
+    {
       "from": "g:𠆢",
       "to": "g:会",
       "kind": "composes"
@@ -3203,6 +3228,16 @@
     {
       "from": "g:意",
       "to": "g:億",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:兀",
+      "kind": "composes"
+    },
+    {
+      "from": "g:儿",
+      "to": "g:兀",
       "kind": "composes"
     },
     {
@@ -3658,6 +3693,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:巳",
+      "to": "g:巴",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:巴",
+      "kind": "composes"
+    },
+    {
       "from": "g:冂",
       "to": "g:巾",
       "kind": "composes"
@@ -3845,6 +3890,16 @@
     {
       "from": "g:尢",
       "to": "g:无",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "g:早",
+      "kind": "composes"
+    },
+    {
+      "from": "g:十",
+      "to": "g:早",
       "kind": "composes"
     },
     {
@@ -9440,6 +9495,86 @@
     {
       "from": "w:可能@cn",
       "to": "r:possible",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:太",
+      "to": "w:太る@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:太る@jp",
+      "to": "r:grow-fat",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:打",
+      "to": "w:打つ@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:打つ@jp",
+      "to": "r:hit",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一打@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:打",
+      "to": "w:一打@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一打@jp",
+      "to": "r:one-dozen",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:氷",
+      "to": "w:かき氷@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:かき氷@jp",
+      "to": "r:shaved-ice",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:子",
+      "to": "w:子牛@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:牛",
+      "to": "w:子牛@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:子牛@jp",
+      "to": "r:calf",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:号",
+      "to": "w:号@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:号@jp",
+      "to": "r:number",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:氷",
+      "to": "w:氷@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:氷@jp",
+      "to": "r:ice",
       "kind": "denotes"
     },
     {

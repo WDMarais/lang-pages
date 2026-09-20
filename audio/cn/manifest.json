@@ -1316,7 +1316,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wu4.mp3": {
-    "text": "物",
+    "text": "兀",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xi1.mp3": {
@@ -1617,6 +1617,10 @@
   },
   "zai4yu2.mp3": {
     "text": "在于",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zao3.mp3": {
+    "text": "早",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhao3.mp3": {

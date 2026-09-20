@@ -1,0 +1,41 @@
+{
+  "glyph": "兀",
+  "cp": "U+5140",
+  "class": "char",
+  "form_only": true,
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "一",
+    "儿"
+  ],
+  "readings": {
+    "cn": {
+      "name": "兀",
+      "reading": "wù",
+      "gloss": "flat-topped; towering; bald",
+      "extra": "兀立、突兀 · ⿱一儿 · 见于 西 酉 元 · WaniKani「Pi」是助记名"
+    },
+    "jp": {
+      "name": "兀",
+      "reading": "",
+      "gloss": "flat-topped; towering",
+      "extra": "兀(コツ・ゴツ) · 西・酉 の上部 · WaniKani 部首名「Pi」"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Pi",
+      "kind": "mnemonic",
+      "level": 4
+    }
+  ]
+}

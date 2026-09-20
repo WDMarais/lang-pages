@@ -207,13 +207,6 @@
       "jpExAudioKey": "yasu"
     },
     {
-      "id": "g:休",
-      "kind": "glyph",
-      "glyph": "休",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:入",
       "kind": "glyph",
       "glyph": "入",
@@ -2268,6 +2261,27 @@
       "label": "he; him; other"
     },
     {
+      "id": "g:休",
+      "kind": "glyph",
+      "glyph": "休",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "xiu1",
+      "jpAudioKey": "yasumu",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:rest",
+      "kind": "referent",
+      "label": "to rest; to stop; cease"
+    },
+    {
       "id": "g:会",
       "kind": "glyph",
       "glyph": "会",
@@ -2414,6 +2428,26 @@
       "id": "r:hundred-million",
       "kind": "referent",
       "label": "hundred million"
+    },
+    {
+      "id": "g:兀",
+      "kind": "glyph",
+      "glyph": "兀",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "wu4",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:flat-topped",
+      "kind": "referent",
+      "label": "flat-topped; towering; bald"
     },
     {
       "id": "g:元",
@@ -3673,6 +3707,26 @@
       "label": "the 6th earthly branch (snake)"
     },
     {
+      "id": "g:巴",
+      "kind": "glyph",
+      "glyph": "巴",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ba1",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:coiled-snake",
+      "kind": "referent",
+      "label": "coiled snake; to cling to"
+    },
+    {
       "id": "g:巾",
       "kind": "glyph",
       "glyph": "巾",
@@ -4235,6 +4289,27 @@
         "image": ""
       },
       "cnAudioKey": "wu2"
+    },
+    {
+      "id": "g:早",
+      "kind": "glyph",
+      "glyph": "早",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zao3",
+      "jpAudioKey": "hayai",
+      "script": {
+        "same": true
+      }
+    },
+    {
+      "id": "r:early",
+      "kind": "referent",
+      "label": "early; morning"
     },
     {
       "id": "g:明",
@@ -5469,7 +5544,8 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "mi3"
+      "cnAudioKey": "mi3",
+      "jpAudioKey": "kome"
     },
     {
       "id": "r:rice",
@@ -7810,23 +7886,9 @@
       "frontier": true
     },
     {
-      "id": "g:巴",
-      "kind": "glyph",
-      "glyph": "巴",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:亍",
       "kind": "glyph",
       "glyph": "亍",
-      "tier": null,
-      "frontier": true
-    },
-    {
-      "id": "g:兀",
-      "kind": "glyph",
-      "glyph": "兀",
       "tier": null,
       "frontier": true
     },
@@ -13879,6 +13941,133 @@
       "id": "r:possible",
       "kind": "referent",
       "label": "possible; probably; possibility"
+    },
+    {
+      "id": "w:太る@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "太る",
+      "reading": "ふとる",
+      "gloss": "to grow fat; to gain weight",
+      "okurigana": "る",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "futoru"
+    },
+    {
+      "id": "r:grow-fat",
+      "kind": "referent",
+      "label": "to grow fat; to gain weight"
+    },
+    {
+      "id": "w:打つ@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "打つ",
+      "reading": "うつ",
+      "gloss": "to hit; to strike",
+      "okurigana": "つ",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "utsu"
+    },
+    {
+      "id": "w:一打@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一打",
+      "reading": "いちだ",
+      "gloss": "one dozen",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "ichida"
+    },
+    {
+      "id": "r:one-dozen",
+      "kind": "referent",
+      "label": "one dozen"
+    },
+    {
+      "id": "w:かき氷@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "かき氷",
+      "reading": "かきごおり",
+      "gloss": "shaved ice",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "kakigoori"
+    },
+    {
+      "id": "r:shaved-ice",
+      "kind": "referent",
+      "label": "shaved ice"
+    },
+    {
+      "id": "w:子牛@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "子牛",
+      "reading": "こうし",
+      "gloss": "calf; young cow",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "koushi"
+    },
+    {
+      "id": "r:calf",
+      "kind": "referent",
+      "label": "calf; young cow"
+    },
+    {
+      "id": "w:号@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "号",
+      "reading": "ごう",
+      "gloss": "number; issue",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "gou"
+    },
+    {
+      "id": "w:氷@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "氷",
+      "reading": "こおり",
+      "gloss": "ice",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "koori"
     }
   ]
 }

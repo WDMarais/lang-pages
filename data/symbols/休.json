@@ -1,0 +1,54 @@
+{
+  "glyph": "休",
+  "cp": "U+4F11",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "亻",
+    "木"
+  ],
+  "readings": {
+    "cn": {
+      "name": "休",
+      "reading": "xiū",
+      "gloss": "to rest; to stop; cease",
+      "extra": "休息、休假、退休 · ⿰亻木 · 人倚木而息"
+    },
+    "jp": {
+      "name": "休",
+      "reading": "やすむ",
+      "gloss": "rest; day off",
+      "extra": "漢字「休」(やす・む · キュウ) · 休む(やすむ)、休日(きゅうじつ)、夏休み(なつやすみ)"
+    }
+  },
+  "script": {
+    "same": true
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Rest",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Rest",
+      "readings": [
+        "キュウ"
+      ],
+      "on": true,
+      "kun": [
+        "やす"
+      ],
+      "level": 4
+    }
+  ]
+}
