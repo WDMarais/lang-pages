@@ -939,6 +939,10 @@
     "text": "オウ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ouharai.mp3": {
+    "text": "おうはらい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ouji.mp3": {
     "text": "おうじ",
     "voice": "ja-JP-NanamiNeural"

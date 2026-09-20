@@ -243,6 +243,27 @@
           "pd": { "name": "worm", "level": 1, "kind": "mnemonic" }
         },
         {
+          "glyph": "㇇",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hengpie",
+          "cnExAudioKey": "shui3",
+          "jpAudioKey": "ouharai",
+          "jpExAudioKey": "mizu",
+          "cn": {
+            "name": "横撇", "reading": "héngpiě", "gloss": "horizontal-then-left-falling",
+            "extra": "先短横、折向左下撇出，不带钩 (如 水、又、夂)",
+            "appearsIn": { "char": "水", "reading": "shuǐ", "gloss": "water" }
+          },
+          "jp": {
+            "name": "横払い", "reading": "おうはらい", "gloss": "horizontal-then-left-falling",
+            "extra": "短い横画から左下へ払う一画",
+            "appearsIn": { "char": "水", "reading": "みず", "gloss": "water" }
+          },
+          "wk": null
+        },
+        {
           "glyph": "㇟",
           "tag": "stroke",
           "image": "",

@@ -7876,6 +7876,26 @@
       "frontier": true
     },
     {
+      "id": "g:㇇",
+      "kind": "glyph",
+      "glyph": "㇇",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hengpie",
+      "cnExAudioKey": "shui3",
+      "jpAudioKey": "ouharai",
+      "jpExAudioKey": "mizu"
+    },
+    {
+      "id": "r:horizontal-then-left-falling",
+      "kind": "referent",
+      "label": "horizontal-then-left-falling"
+    },
+    {
       "id": "g:㇟",
       "kind": "glyph",
       "glyph": "㇟",

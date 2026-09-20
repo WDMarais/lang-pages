@@ -2526,6 +2526,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇇",
+      "to": "r:horizontal-then-left-falling",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇇",
+      "to": "g:水",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇟",
       "to": "r:horizontal-slant-hook",
       "kind": "denotes"
@@ -5058,12 +5068,12 @@
       "kind": "composes"
     },
     {
-      "from": "g:丶",
+      "from": "g:丿",
       "to": "g:飞",
       "kind": "composes"
     },
     {
-      "from": "g:㇀",
+      "from": "g:丶",
       "to": "g:飞",
       "kind": "composes"
     },

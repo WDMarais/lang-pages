@@ -12811,6 +12811,38 @@
       }
     },
     {
+      "id": "b:㇇@cn",
+      "glyph_id": "g:㇇",
+      "lang": "cn",
+      "name": "横撇",
+      "readings": [
+        "héngpiě"
+      ],
+      "gloss": "horizontal-then-left-falling",
+      "extra": "先短横、折向左下撇出，不带钩 (如 水、又、夂)",
+      "appearsIn": {
+        "glyph": "水",
+        "reading": "shuǐ",
+        "gloss": "water"
+      }
+    },
+    {
+      "id": "b:㇇@jp",
+      "glyph_id": "g:㇇",
+      "lang": "jp",
+      "name": "横払い",
+      "readings": [
+        "おうはらい"
+      ],
+      "gloss": "horizontal-then-left-falling",
+      "extra": "短い横画から左下へ払う一画",
+      "appearsIn": {
+        "glyph": "水",
+        "reading": "みず",
+        "gloss": "water"
+      }
+    },
+    {
       "id": "b:㇟@cn",
       "glyph_id": "g:㇟",
       "lang": "cn",
