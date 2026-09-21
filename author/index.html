@@ -733,7 +733,7 @@ function renderSubset() {
   const slugs = Object.keys(STASH).sort();
   for (const s of [...SUBSET]) if (!STASH[s]) SUBSET.delete(s);   // forget referents emptied since ticking
   list.innerHTML = slugs.length ? slugs.map(s => {
-    const r = RADICALS.find(x => x.meaning === s);
+    const r = RADICALS.find(x => x.referent === s);
     const n = STASH[s].length;
     const ed = !TOUCHED[s] ? '' : editedToday(s) ? ' · edited today' : ' · edited ' + ymd(new Date(TOUCHED[s]));
     const ex = isExported(s) ? `<span class="exp" title="exported ${esc(ymd(new Date(EXPORTED[s])))}; no edits since">exported ✓</span>` : '';
@@ -800,7 +800,7 @@ const ENOUGH = 5;              // the brief's "about 5": your complete images th
 // image referent), or the editor's 'done' / 'later' mark
 function offState(r) {
   if (!(r.representations || []).includes('image')) return 'noimg';
-  return SITE_STATUS[r.meaning]?.status || '';
+  return SITE_STATUS[r.referent]?.status || '';
 }
 // YOUR images on a referent that count toward ENOUGH: licence-complete, and not a
 // duplicate (of another of your cards there, or of one the collection already holds)
@@ -819,23 +819,25 @@ function buildGrid(q='') {
   q = q.trim().toLowerCase();
   const sel = $('slug').value.trim(), hideDim = $('hideDim').checked;
   const chips = RADICALS.filter(r => (!q ||
-      r.meaning.toLowerCase().includes(q) || r.glyph === q || String(r.num) === q)
-      && (!hideDim || !offState(r) || r.meaning === sel))   // the selected tile always stays
+      r.meaning.toLowerCase().includes(q) || r.referent.includes(q) || r.glyph === q || String(r.num) === q)
+      && (!hideDim || !offState(r) || r.referent === sel))   // the selected tile always stays
     .map(r => {
-      const off = offState(r), mark = SITE_STATUS[r.meaning], reps = r.representations || [];
-      const have = IMG_COUNT[r.meaning] || 0;           // in the collection
-      const mineN = (STASH[r.meaning] || []).length;    // saved by YOU
-      const ready = mineN ? readyCount(r.meaning) : 0;
+      const off = offState(r), mark = SITE_STATUS[r.referent], reps = r.representations || [];
+      const have = IMG_COUNT[r.referent] || 0;           // in the collection
+      const mineN = (STASH[r.referent] || []).length;    // saved by YOU
+      const ready = mineN ? readyCount(r.referent) : 0;
       const cnt = have || mineN
         ? `<span class="cnt">${have || ''}${have && mineN ? ' ' : ''}${mineN ? `<b>+${mineN}</b>` : ''}</span>` : '';
       // a dim tile says WHY: its real modality ("diagram/sentence"), or the editor's mark
       const why = off ? `<div class="why">${esc(off === 'noimg' ? reps.join('/') : off)}</div>` : '';
-      const tip = [`№${r.num} ${r.meaning}`, reps.join(', '),
+      // the tile reads `meaning` (display prose) but is KEYED by `referent`; name the
+      // key in the tooltip when they differ, so "page; head" → r:page isn't a surprise
+      const tip = [`№${r.num} ${r.meaning}`, r.referent !== r.meaning && `r:${r.referent}`, reps.join(', '),
         have && `${have} in the collection`,
         mineN && `${mineN} saved by you (${ready} of ${ENOUGH} complete)`,
         mark && `marked ${mark.status} by the editor${mark.note ? ': ' + mark.note : ''}`].filter(Boolean).join(' · ');
-      return `<div class="chip${off ? ' off' : ''}${ready >= ENOUGH ? ' ready' : ''}${r.meaning===sel?' sel':''}"
-        data-meaning="${esc(r.meaning)}" title="${esc(tip)}">
+      return `<div class="chip${off ? ' off' : ''}${ready >= ENOUGH ? ' ready' : ''}${r.referent===sel?' sel':''}"
+        data-referent="${esc(r.referent)}" title="${esc(tip)}">
         <span class="num">${r.num}</span>${cnt}
         <div class="g">${esc(r.glyph)}</div><div class="m">${esc(r.meaning)}</div>${why}</div>`;
     }).join('');
@@ -843,7 +845,7 @@ function buildGrid(q='') {
     ? 'no open radical matches — untick “hide dim tiles” to see the rest.' : 'no radical matches that filter.'}</p>`;
   const n = { '':0, noimg:0, done:0, later:0 };
   for (const r of RADICALS) n[offState(r)]++;
-  const readyN = RADICALS.filter(r => STASH[r.meaning] && readyCount(r.meaning) >= ENOUGH).length;
+  const readyN = RADICALS.filter(r => STASH[r.referent] && readyCount(r.referent) >= ENOUGH).length;
   $('legend').innerHTML =
     `<span><span class="swatch sw-need"></span>open <b>${n['']}</b></span>`+
     `<span><span class="swatch sw-off"></span>dim: not an image referent <b>${n.noimg}</b>`+
@@ -852,9 +854,9 @@ function buildGrid(q='') {
     `<span><span class="swatch sw-ready"></span>you have ${ENOUGH} complete <b>${readyN}</b></span>`;
 }
 
-function updateNotes(meaning) {
-  meaning = (meaning||'').trim();
-  const r = RADICALS.find(x => x.meaning === meaning), mark = SITE_STATUS[meaning];
+function updateNotes(slug) {
+  const meaning = (slug||'').trim();
+  const r = RADICALS.find(x => x.referent === meaning), mark = SITE_STATUS[meaning];
   $('existingNote').textContent = COVERED.has(meaning)
     ? `“${meaning}” already has ${IMG_COUNT[meaning]||0} image(s) in referents.json — yours ADD to it (maintainer merges the list).`
     : '';
@@ -903,8 +905,8 @@ function stashCurrent() {
 let saveTimer = 0;
 function persist() {
   const recount = stashCurrent();
-  const blob = { v: 2, current: $('slug').value.trim(), label: $('label').value.trim(), stash: STASH, labels: LABELS,
-                 touched: TOUCHED, exported: EXPORTED };   // v2 = cards carry their own _download
+  const blob = { v: 3, current: $('slug').value.trim(), label: $('label').value.trim(), stash: STASH, labels: LABELS,
+                 touched: TOUCHED, exported: EXPORTED };   // v2 = cards carry their own _download; v3 = keyed by `referent`
   try { localStorage.setItem(WORK_KEY, JSON.stringify(blob)); flashSaved(); } catch (e) {}
   if (recount && RADICALS.length) buildGrid($('filter').value);   // keep the "+N" badge / foot-bar live
   refreshBatch();
@@ -922,9 +924,11 @@ function newestRetrieved(cards) {
   const [y, m, dd] = d.split('-').map(Number);
   return new Date(y, m - 1, dd).getTime();
 }
+let WORK_V = 3;   // version of the blob we restored from — drives migrateKeys (needs RADICALS, which arrive later)
 function restoreWork() {
   let blob; try { blob = JSON.parse(localStorage.getItem(WORK_KEY) || 'null'); } catch (e) { blob = null; }
   if (!blob || !blob.stash) return false;
+  WORK_V = blob.v || 0;
   Object.assign(STASH, blob.stash); Object.assign(LABELS, blob.labels || {});
   Object.assign(TOUCHED, blob.touched || {}); Object.assign(EXPORTED, blob.exported || {});
   for (const s of Object.keys(STASH)) if (!TOUCHED[s]) {   // saved before edit-dates existed: date it by its newest "retrieved"
@@ -946,6 +950,37 @@ function restoreWork() {
   }
   if (Object.keys(STASH).length) { addImage(); return true; }   // work exists but nothing open — empty card; grid marks the rest
   return false;
+}
+
+// The tile key moved from `meaning` (display prose) to `referent` (identity) — see
+// data/kangxi.json. A stash saved under an old key would be orphaned: the drawer still
+// holds the work, but no tile points at it any more. Remap once, then save at v3. The
+// map is built from the spine itself, so a future rename migrates for free.
+//
+// One old key can't be derived that way, because its `meaning` changed too: 181 頁 was
+// "head; page" and is now r:page. "walk" and "cover" deliberately get NO entry — each
+// was ONE drawer that two radicals shared, and each is still the referent of one of
+// them (162 辵, 14 冖). So that work stays exactly where it is, and the newly split-off
+// tile (144 行, 146 襾) starts empty rather than claiming images it may not be owed.
+const LEGACY_KEYS = { 'head; page': 'page' };
+function migrateKeys() {
+  if (WORK_V >= 3 || !RADICALS.length) return;
+  const map = { ...LEGACY_KEYS };
+  for (const r of RADICALS) if (r.meaning !== r.referent) map[r.meaning] = r.referent;
+  const moved = [];
+  for (const [from, to] of Object.entries(map)) {
+    if (from === to || !(from in STASH)) continue;
+    STASH[to] = to in STASH ? [...STASH[to], ...STASH[from]] : STASH[from];   // both used: keep everything
+    if (LABELS[from] && !LABELS[to]) LABELS[to] = LABELS[from];
+    if (TOUCHED[from]) TOUCHED[to] = Math.max(TOUCHED[to] || 0, TOUCHED[from]);
+    if (EXPORTED[from]) EXPORTED[to] = Math.max(EXPORTED[to] || 0, EXPORTED[from]);
+    delete STASH[from]; delete LABELS[from]; delete TOUCHED[from]; delete EXPORTED[from];
+    if ($('slug').value.trim() === from) $('slug').value = to;
+    moved.push(`${from} → ${to}`);
+  }
+  WORK_V = 3;
+  persist();   // stamp v3 even when nothing moved, so this runs once
+  return moved;
 }
 function clearWork() {
   const n = Object.keys(STASH).length;
@@ -1000,14 +1035,14 @@ function loadReferent(slug, label) {
   render();
 }
 
-function selectRadical(meaning) {
-  const r = RADICALS.find(x => x.meaning === meaning); if (!r) return;
-  if (r.meaning === $('slug').value.trim()) return;   // already selected — leave cards untouched
-  loadReferent(r.meaning, r.meaning);
+function selectRadical(referent) {
+  const r = RADICALS.find(x => x.referent === referent); if (!r) return;
+  if (r.referent === $('slug').value.trim()) return;   // already selected — leave cards untouched
+  loadReferent(r.referent, r.meaning);   // key by referent, show the readable meaning
 }
 
 $('grid').addEventListener('click', e => {
-  const chip = e.target.closest('.chip'); if (chip) selectRadical(chip.dataset.meaning);
+  const chip = e.target.closest('.chip'); if (chip) selectRadical(chip.dataset.referent);
 });
 $('filter').addEventListener('input', () => buildGrid($('filter').value));
 // hide dim tiles — a per-browser view preference, not work, so it lives outside the save
@@ -1036,6 +1071,7 @@ async function loadWorklist() {
     SITE_STATUS = {};
     for (const [k, v] of Object.entries(marks || {})) if (v && (v.status === 'done' || v.status === 'later')) SITE_STATUS[k] = v;
     RADICALS = kx.radicals || [];
+    migrateKeys();   // needs the spine, so it can only run once the fetch lands
     COVERED = new Set(Object.keys(refs));
     IMG_COUNT = {}; for (const [k,v] of Object.entries(refs)) IMG_COUNT[k] = (v.images||[]).length;
     COLL_BY_KEY = new Map();

@@ -5,6 +5,7 @@
       "glyph": "一",
       "pinyin": "yī",
       "meaning": "one",
+      "referent": "one",
       "strokes": 1,
       "representations": [
         "diagram"
@@ -15,6 +16,7 @@
       "glyph": "丨",
       "pinyin": "gǔn",
       "meaning": "line",
+      "referent": "vertical-stroke",
       "strokes": 1,
       "representations": [
         "diagram"
@@ -25,6 +27,7 @@
       "glyph": "丶",
       "pinyin": "zhǔ",
       "meaning": "dot",
+      "referent": "dot-stroke",
       "strokes": 1,
       "representations": [
         "diagram"
@@ -35,6 +38,7 @@
       "glyph": "丿",
       "pinyin": "piě",
       "meaning": "slash",
+      "referent": "left-falling-stroke",
       "strokes": 1,
       "representations": [
         "diagram"
@@ -45,6 +49,7 @@
       "glyph": "乙",
       "pinyin": "yǐ",
       "meaning": "second",
+      "referent": "second",
       "strokes": 1,
       "representations": [
         "diagram"
@@ -55,6 +60,7 @@
       "glyph": "亅",
       "pinyin": "jué",
       "meaning": "hook",
+      "referent": "vertical-hook",
       "strokes": 1,
       "representations": [
         "diagram"
@@ -65,6 +71,7 @@
       "glyph": "二",
       "pinyin": "èr",
       "meaning": "two",
+      "referent": "two",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -75,6 +82,7 @@
       "glyph": "亠",
       "pinyin": "tóu",
       "meaning": "lid",
+      "referent": "lid",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -85,6 +93,7 @@
       "glyph": "人",
       "pinyin": "rén",
       "meaning": "person",
+      "referent": "person",
       "strokes": 2,
       "representations": [
         "image",
@@ -96,6 +105,7 @@
       "glyph": "儿",
       "pinyin": "ér",
       "meaning": "legs",
+      "referent": "legs",
       "strokes": 2,
       "representations": [
         "image"
@@ -106,6 +116,7 @@
       "glyph": "入",
       "pinyin": "rù",
       "meaning": "enter",
+      "referent": "enter",
       "strokes": 2,
       "representations": [
         "motion",
@@ -117,6 +128,7 @@
       "glyph": "八",
       "pinyin": "bā",
       "meaning": "eight",
+      "referent": "eight",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -127,6 +139,7 @@
       "glyph": "冂",
       "pinyin": "jiōng",
       "meaning": "open enclosure",
+      "referent": "down-box",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -137,6 +150,7 @@
       "glyph": "冖",
       "pinyin": "mì",
       "meaning": "cover",
+      "referent": "cover",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -147,6 +161,7 @@
       "glyph": "冫",
       "pinyin": "bīng",
       "meaning": "ice",
+      "referent": "ice",
       "strokes": 2,
       "representations": [
         "image",
@@ -158,6 +173,7 @@
       "glyph": "几",
       "pinyin": "jī",
       "meaning": "table",
+      "referent": "table",
       "strokes": 2,
       "representations": [
         "image"
@@ -168,6 +184,7 @@
       "glyph": "凵",
       "pinyin": "kǎn",
       "meaning": "open box",
+      "referent": "open-box",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -178,6 +195,7 @@
       "glyph": "刀",
       "pinyin": "dāo",
       "meaning": "knife",
+      "referent": "knife",
       "strokes": 2,
       "representations": [
         "image"
@@ -188,6 +206,7 @@
       "glyph": "力",
       "pinyin": "lì",
       "meaning": "power",
+      "referent": "power",
       "strokes": 2,
       "representations": [
         "motion",
@@ -199,6 +218,7 @@
       "glyph": "勹",
       "pinyin": "bāo",
       "meaning": "wrap",
+      "referent": "wrap",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -209,6 +229,7 @@
       "glyph": "匕",
       "pinyin": "bǐ",
       "meaning": "spoon",
+      "referent": "spoon",
       "strokes": 2,
       "representations": [
         "image"
@@ -219,6 +240,7 @@
       "glyph": "匚",
       "pinyin": "fāng",
       "meaning": "box",
+      "referent": "box",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -229,6 +251,7 @@
       "glyph": "匸",
       "pinyin": "xì",
       "meaning": "hiding enclosure",
+      "referent": "hiding-enclosure",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -239,6 +262,7 @@
       "glyph": "十",
       "pinyin": "shí",
       "meaning": "ten",
+      "referent": "ten",
       "strokes": 2,
       "representations": [
         "diagram"
@@ -249,6 +273,7 @@
       "glyph": "卜",
       "pinyin": "bǔ",
       "meaning": "divination",
+      "referent": "divination",
       "strokes": 2,
       "representations": [
         "scene",
@@ -260,6 +285,7 @@
       "glyph": "卩",
       "pinyin": "jié",
       "meaning": "seal",
+      "referent": "seal",
       "strokes": 2,
       "representations": [
         "image"
@@ -270,6 +296,7 @@
       "glyph": "厂",
       "pinyin": "hàn",
       "meaning": "cliff",
+      "referent": "cliff",
       "strokes": 2,
       "representations": [
         "image",
@@ -281,6 +308,7 @@
       "glyph": "厶",
       "pinyin": "sī",
       "meaning": "private",
+      "referent": "private",
       "strokes": 2,
       "representations": [
         "sentence"
@@ -291,6 +319,7 @@
       "glyph": "又",
       "pinyin": "yòu",
       "meaning": "again",
+      "referent": "again",
       "strokes": 2,
       "representations": [
         "sentence"
@@ -301,6 +330,7 @@
       "glyph": "口",
       "pinyin": "kǒu",
       "meaning": "mouth",
+      "referent": "mouth",
       "strokes": 3,
       "representations": [
         "image"
@@ -311,6 +341,7 @@
       "glyph": "囗",
       "pinyin": "wéi",
       "meaning": "enclosure",
+      "referent": "enclosure",
       "strokes": 3,
       "representations": [
         "diagram"
@@ -321,6 +352,7 @@
       "glyph": "土",
       "pinyin": "tǔ",
       "meaning": "earth",
+      "referent": "earth",
       "strokes": 3,
       "representations": [
         "image",
@@ -332,6 +364,7 @@
       "glyph": "士",
       "pinyin": "shì",
       "meaning": "scholar",
+      "referent": "scholar",
       "strokes": 3,
       "representations": [
         "image",
@@ -343,6 +376,7 @@
       "glyph": "夂",
       "pinyin": "zhǐ",
       "meaning": "go",
+      "referent": "go",
       "strokes": 3,
       "representations": [
         "motion",
@@ -354,6 +388,7 @@
       "glyph": "夊",
       "pinyin": "suī",
       "meaning": "go slowly",
+      "referent": "go-slowly",
       "strokes": 3,
       "representations": [
         "motion",
@@ -365,6 +400,7 @@
       "glyph": "夕",
       "pinyin": "xī",
       "meaning": "evening",
+      "referent": "evening",
       "strokes": 3,
       "representations": [
         "scene"
@@ -375,6 +411,7 @@
       "glyph": "大",
       "pinyin": "dà",
       "meaning": "big",
+      "referent": "big",
       "strokes": 3,
       "representations": [
         "scene",
@@ -386,6 +423,7 @@
       "glyph": "女",
       "pinyin": "nǚ",
       "meaning": "woman",
+      "referent": "woman",
       "strokes": 3,
       "representations": [
         "image",
@@ -397,6 +435,7 @@
       "glyph": "子",
       "pinyin": "zǐ",
       "meaning": "child",
+      "referent": "child",
       "strokes": 3,
       "representations": [
         "image",
@@ -408,6 +447,7 @@
       "glyph": "宀",
       "pinyin": "mián",
       "meaning": "roof",
+      "referent": "roof",
       "strokes": 3,
       "representations": [
         "image"
@@ -418,6 +458,7 @@
       "glyph": "寸",
       "pinyin": "cùn",
       "meaning": "inch",
+      "referent": "inch",
       "strokes": 3,
       "representations": [
         "diagram"
@@ -428,6 +469,7 @@
       "glyph": "小",
       "pinyin": "xiǎo",
       "meaning": "small",
+      "referent": "small",
       "strokes": 3,
       "representations": [
         "scene",
@@ -439,6 +481,7 @@
       "glyph": "尢",
       "pinyin": "wāng",
       "meaning": "lame",
+      "referent": "lame",
       "strokes": 3,
       "representations": [
         "scene"
@@ -449,6 +492,7 @@
       "glyph": "尸",
       "pinyin": "shī",
       "meaning": "corpse",
+      "referent": "corpse",
       "strokes": 3,
       "representations": [
         "image"
@@ -459,6 +503,7 @@
       "glyph": "屮",
       "pinyin": "chè",
       "meaning": "sprout",
+      "referent": "sprout",
       "strokes": 3,
       "representations": [
         "image"
@@ -469,6 +514,7 @@
       "glyph": "山",
       "pinyin": "shān",
       "meaning": "mountain",
+      "referent": "mountain",
       "strokes": 3,
       "representations": [
         "image",
@@ -480,6 +526,7 @@
       "glyph": "巛",
       "pinyin": "chuān",
       "meaning": "river",
+      "referent": "river",
       "strokes": 3,
       "variants": [
         "川"
@@ -494,6 +541,7 @@
       "glyph": "工",
       "pinyin": "gōng",
       "meaning": "work",
+      "referent": "work",
       "strokes": 3,
       "representations": [
         "scene",
@@ -505,6 +553,7 @@
       "glyph": "己",
       "pinyin": "jǐ",
       "meaning": "oneself",
+      "referent": "oneself",
       "strokes": 3,
       "representations": [
         "sentence"
@@ -515,6 +564,7 @@
       "glyph": "巾",
       "pinyin": "jīn",
       "meaning": "cloth",
+      "referent": "cloth",
       "strokes": 3,
       "representations": [
         "image"
@@ -525,6 +575,7 @@
       "glyph": "干",
       "pinyin": "gān",
       "meaning": "dry",
+      "referent": "dry",
       "strokes": 3,
       "representations": [
         "scene",
@@ -536,6 +587,7 @@
       "glyph": "幺",
       "pinyin": "yāo",
       "meaning": "short thread",
+      "referent": "short-thread",
       "strokes": 3,
       "representations": [
         "image"
@@ -546,6 +598,7 @@
       "glyph": "广",
       "pinyin": "guǎng",
       "meaning": "shelter",
+      "referent": "shelter",
       "strokes": 3,
       "representations": [
         "image",
@@ -557,6 +610,7 @@
       "glyph": "廴",
       "pinyin": "yǐn",
       "meaning": "stride",
+      "referent": "stride",
       "strokes": 3,
       "representations": [
         "motion",
@@ -568,6 +622,7 @@
       "glyph": "廾",
       "pinyin": "gǒng",
       "meaning": "two hands",
+      "referent": "two-hands",
       "strokes": 3,
       "representations": [
         "image"
@@ -578,6 +633,7 @@
       "glyph": "弋",
       "pinyin": "yì",
       "meaning": "shoot",
+      "referent": "shoot",
       "strokes": 3,
       "representations": [
         "motion",
@@ -589,6 +645,7 @@
       "glyph": "弓",
       "pinyin": "gōng",
       "meaning": "bow",
+      "referent": "bow",
       "strokes": 3,
       "representations": [
         "image"
@@ -599,6 +656,7 @@
       "glyph": "彐",
       "pinyin": "jì",
       "meaning": "snout",
+      "referent": "snout",
       "strokes": 3,
       "representations": [
         "image"
@@ -609,6 +667,7 @@
       "glyph": "彡",
       "pinyin": "shān",
       "meaning": "bristle",
+      "referent": "bristle",
       "strokes": 3,
       "representations": [
         "image"
@@ -619,6 +678,7 @@
       "glyph": "彳",
       "pinyin": "chì",
       "meaning": "step",
+      "referent": "step",
       "strokes": 3,
       "representations": [
         "motion",
@@ -630,6 +690,7 @@
       "glyph": "心",
       "pinyin": "xīn",
       "meaning": "heart",
+      "referent": "heart",
       "strokes": 4,
       "representations": [
         "image",
@@ -641,6 +702,7 @@
       "glyph": "戈",
       "pinyin": "gē",
       "meaning": "halberd",
+      "referent": "halberd",
       "strokes": 4,
       "representations": [
         "image"
@@ -651,6 +713,7 @@
       "glyph": "戶",
       "pinyin": "hù",
       "meaning": "door",
+      "referent": "door",
       "strokes": 4,
       "variants": [
         "户",
@@ -665,6 +728,7 @@
       "glyph": "手",
       "pinyin": "shǒu",
       "meaning": "hand",
+      "referent": "hand",
       "strokes": 4,
       "variants": [
         "扌"
@@ -679,6 +743,7 @@
       "glyph": "支",
       "pinyin": "zhī",
       "meaning": "branch",
+      "referent": "branch",
       "strokes": 4,
       "representations": [
         "image"
@@ -689,6 +754,7 @@
       "glyph": "攴",
       "pinyin": "pū",
       "meaning": "tap",
+      "referent": "tap",
       "strokes": 4,
       "variants": [
         "攵"
@@ -702,6 +768,7 @@
       "glyph": "文",
       "pinyin": "wén",
       "meaning": "script",
+      "referent": "writing",
       "strokes": 4,
       "representations": [
         "image",
@@ -713,6 +780,7 @@
       "glyph": "斗",
       "pinyin": "dǒu",
       "meaning": "dipper",
+      "referent": "dipper",
       "strokes": 4,
       "representations": [
         "image"
@@ -723,6 +791,7 @@
       "glyph": "斤",
       "pinyin": "jīn",
       "meaning": "axe",
+      "referent": "axe",
       "strokes": 4,
       "representations": [
         "image"
@@ -733,6 +802,7 @@
       "glyph": "方",
       "pinyin": "fāng",
       "meaning": "square",
+      "referent": "square",
       "strokes": 4,
       "representations": [
         "diagram"
@@ -743,6 +813,7 @@
       "glyph": "无",
       "pinyin": "wú",
       "meaning": "not",
+      "referent": "not",
       "strokes": 4,
       "representations": [
         "sentence"
@@ -753,6 +824,7 @@
       "glyph": "日",
       "pinyin": "rì",
       "meaning": "sun",
+      "referent": "sun",
       "strokes": 4,
       "representations": [
         "image",
@@ -764,6 +836,7 @@
       "glyph": "曰",
       "pinyin": "yuē",
       "meaning": "say",
+      "referent": "say",
       "strokes": 4,
       "representations": [
         "sound",
@@ -775,6 +848,7 @@
       "glyph": "月",
       "pinyin": "yuè",
       "meaning": "moon",
+      "referent": "moon",
       "strokes": 4,
       "representations": [
         "image",
@@ -786,6 +860,7 @@
       "glyph": "木",
       "pinyin": "mù",
       "meaning": "tree",
+      "referent": "tree",
       "strokes": 4,
       "representations": [
         "image",
@@ -797,6 +872,7 @@
       "glyph": "欠",
       "pinyin": "qiàn",
       "meaning": "yawn",
+      "referent": "yawn",
       "strokes": 4,
       "representations": [
         "motion"
@@ -807,6 +883,7 @@
       "glyph": "止",
       "pinyin": "zhǐ",
       "meaning": "stop",
+      "referent": "stop",
       "strokes": 4,
       "representations": [
         "motion",
@@ -818,6 +895,7 @@
       "glyph": "歹",
       "pinyin": "dǎi",
       "meaning": "death",
+      "referent": "death",
       "strokes": 4,
       "representations": [
         "scene",
@@ -829,6 +907,7 @@
       "glyph": "殳",
       "pinyin": "shū",
       "meaning": "weapon",
+      "referent": "weapon",
       "strokes": 4,
       "representations": [
         "image"
@@ -839,6 +918,7 @@
       "glyph": "毋",
       "pinyin": "wú",
       "meaning": "do not",
+      "referent": "do-not",
       "strokes": 4,
       "representations": [
         "sentence"
@@ -849,6 +929,7 @@
       "glyph": "比",
       "pinyin": "bǐ",
       "meaning": "compare",
+      "referent": "compare",
       "strokes": 4,
       "representations": [
         "scene",
@@ -860,6 +941,7 @@
       "glyph": "毛",
       "pinyin": "máo",
       "meaning": "fur",
+      "referent": "fur",
       "strokes": 4,
       "representations": [
         "image"
@@ -870,6 +952,7 @@
       "glyph": "氏",
       "pinyin": "shì",
       "meaning": "clan",
+      "referent": "clan",
       "strokes": 4,
       "representations": [
         "sentence"
@@ -880,6 +963,7 @@
       "glyph": "气",
       "pinyin": "qì",
       "meaning": "steam",
+      "referent": "steam",
       "strokes": 4,
       "representations": [
         "image",
@@ -891,6 +975,7 @@
       "glyph": "水",
       "pinyin": "shuǐ",
       "meaning": "water",
+      "referent": "water",
       "strokes": 4,
       "variants": [
         "氵"
@@ -905,6 +990,7 @@
       "glyph": "火",
       "pinyin": "huǒ",
       "meaning": "fire",
+      "referent": "fire",
       "strokes": 4,
       "variants": [
         "灬"
@@ -919,6 +1005,7 @@
       "glyph": "爪",
       "pinyin": "zhǎo",
       "meaning": "claw",
+      "referent": "claw",
       "strokes": 4,
       "representations": [
         "image"
@@ -929,6 +1016,7 @@
       "glyph": "父",
       "pinyin": "fù",
       "meaning": "father",
+      "referent": "father",
       "strokes": 4,
       "representations": [
         "image",
@@ -940,6 +1028,7 @@
       "glyph": "爻",
       "pinyin": "yáo",
       "meaning": "trigram lines",
+      "referent": "trigram-lines",
       "strokes": 4,
       "representations": [
         "diagram"
@@ -950,6 +1039,7 @@
       "glyph": "爿",
       "pinyin": "qiáng",
       "meaning": "split wood",
+      "referent": "split-wood",
       "strokes": 4,
       "representations": [
         "image"
@@ -960,6 +1050,7 @@
       "glyph": "片",
       "pinyin": "piàn",
       "meaning": "slice",
+      "referent": "slice",
       "strokes": 4,
       "representations": [
         "image"
@@ -970,6 +1061,7 @@
       "glyph": "牙",
       "pinyin": "yá",
       "meaning": "fang",
+      "referent": "fang",
       "strokes": 4,
       "representations": [
         "image"
@@ -980,6 +1072,7 @@
       "glyph": "牛",
       "pinyin": "niú",
       "meaning": "cow",
+      "referent": "cow",
       "strokes": 4,
       "representations": [
         "image",
@@ -991,6 +1084,7 @@
       "glyph": "犬",
       "pinyin": "quǎn",
       "meaning": "dog",
+      "referent": "dog",
       "strokes": 4,
       "representations": [
         "image",
@@ -1003,6 +1097,7 @@
       "glyph": "玄",
       "pinyin": "xuán",
       "meaning": "profound",
+      "referent": "profound",
       "strokes": 5,
       "representations": [
         "sentence"
@@ -1013,6 +1108,7 @@
       "glyph": "玉",
       "pinyin": "yù",
       "meaning": "jade",
+      "referent": "jade",
       "strokes": 5,
       "representations": [
         "image"
@@ -1023,6 +1119,7 @@
       "glyph": "瓜",
       "pinyin": "guā",
       "meaning": "melon",
+      "referent": "melon",
       "strokes": 5,
       "representations": [
         "image"
@@ -1033,6 +1130,7 @@
       "glyph": "瓦",
       "pinyin": "wǎ",
       "meaning": "tile",
+      "referent": "tile",
       "strokes": 5,
       "representations": [
         "image"
@@ -1043,6 +1141,7 @@
       "glyph": "甘",
       "pinyin": "gān",
       "meaning": "sweet",
+      "referent": "sweet",
       "strokes": 5,
       "representations": [
         "scene",
@@ -1054,6 +1153,7 @@
       "glyph": "生",
       "pinyin": "shēng",
       "meaning": "life",
+      "referent": "life",
       "strokes": 5,
       "representations": [
         "scene",
@@ -1065,6 +1165,7 @@
       "glyph": "用",
       "pinyin": "yòng",
       "meaning": "use",
+      "referent": "use",
       "strokes": 5,
       "representations": [
         "motion",
@@ -1076,6 +1177,7 @@
       "glyph": "田",
       "pinyin": "tián",
       "meaning": "field",
+      "referent": "field",
       "strokes": 5,
       "representations": [
         "image",
@@ -1087,6 +1189,7 @@
       "glyph": "疋",
       "pinyin": "pǐ",
       "meaning": "bolt of cloth",
+      "referent": "bolt-of-cloth",
       "strokes": 5,
       "representations": [
         "image"
@@ -1097,6 +1200,7 @@
       "glyph": "疒",
       "pinyin": "nè",
       "meaning": "sickness",
+      "referent": "sickness",
       "strokes": 5,
       "representations": [
         "scene",
@@ -1108,6 +1212,7 @@
       "glyph": "癶",
       "pinyin": "bō",
       "meaning": "footsteps",
+      "referent": "footsteps",
       "strokes": 5,
       "representations": [
         "motion",
@@ -1119,6 +1224,7 @@
       "glyph": "白",
       "pinyin": "bái",
       "meaning": "white",
+      "referent": "white",
       "strokes": 5,
       "representations": [
         "image"
@@ -1129,6 +1235,7 @@
       "glyph": "皮",
       "pinyin": "pí",
       "meaning": "skin",
+      "referent": "skin",
       "strokes": 5,
       "representations": [
         "image"
@@ -1139,6 +1246,7 @@
       "glyph": "皿",
       "pinyin": "mǐn",
       "meaning": "dish",
+      "referent": "dish",
       "strokes": 5,
       "representations": [
         "image"
@@ -1149,6 +1257,7 @@
       "glyph": "目",
       "pinyin": "mù",
       "meaning": "eye",
+      "referent": "eye",
       "strokes": 5,
       "representations": [
         "image"
@@ -1159,6 +1268,7 @@
       "glyph": "矛",
       "pinyin": "máo",
       "meaning": "spear",
+      "referent": "spear",
       "strokes": 5,
       "representations": [
         "image"
@@ -1169,6 +1279,7 @@
       "glyph": "矢",
       "pinyin": "shǐ",
       "meaning": "arrow",
+      "referent": "arrow",
       "strokes": 5,
       "representations": [
         "image"
@@ -1179,6 +1290,7 @@
       "glyph": "石",
       "pinyin": "shí",
       "meaning": "stone",
+      "referent": "stone",
       "strokes": 5,
       "representations": [
         "image",
@@ -1190,6 +1302,7 @@
       "glyph": "示",
       "pinyin": "shì",
       "meaning": "altar",
+      "referent": "altar",
       "strokes": 5,
       "representations": [
         "image"
@@ -1200,6 +1313,7 @@
       "glyph": "禸",
       "pinyin": "róu",
       "meaning": "track",
+      "referent": "track",
       "strokes": 5,
       "representations": [
         "image"
@@ -1210,6 +1324,7 @@
       "glyph": "禾",
       "pinyin": "hé",
       "meaning": "grain",
+      "referent": "grain",
       "strokes": 5,
       "representations": [
         "image",
@@ -1221,6 +1336,7 @@
       "glyph": "穴",
       "pinyin": "xué",
       "meaning": "cave",
+      "referent": "cave",
       "strokes": 5,
       "representations": [
         "image",
@@ -1232,6 +1348,7 @@
       "glyph": "立",
       "pinyin": "lì",
       "meaning": "stand",
+      "referent": "stand",
       "strokes": 5,
       "representations": [
         "motion",
@@ -1243,6 +1360,7 @@
       "glyph": "竹",
       "pinyin": "zhú",
       "meaning": "bamboo",
+      "referent": "bamboo",
       "strokes": 6,
       "representations": [
         "image",
@@ -1254,6 +1372,7 @@
       "glyph": "米",
       "pinyin": "mǐ",
       "meaning": "rice",
+      "referent": "rice",
       "strokes": 6,
       "representations": [
         "image"
@@ -1264,6 +1383,7 @@
       "glyph": "糸",
       "pinyin": "mì",
       "meaning": "silk",
+      "referent": "silk",
       "strokes": 6,
       "representations": [
         "image"
@@ -1274,6 +1394,7 @@
       "glyph": "缶",
       "pinyin": "fǒu",
       "meaning": "jar",
+      "referent": "jar",
       "strokes": 6,
       "representations": [
         "image"
@@ -1284,6 +1405,7 @@
       "glyph": "网",
       "pinyin": "wǎng",
       "meaning": "net",
+      "referent": "net",
       "strokes": 6,
       "representations": [
         "image"
@@ -1294,6 +1416,7 @@
       "glyph": "羊",
       "pinyin": "yáng",
       "meaning": "sheep",
+      "referent": "sheep",
       "strokes": 6,
       "representations": [
         "image",
@@ -1305,6 +1428,7 @@
       "glyph": "羽",
       "pinyin": "yǔ",
       "meaning": "feather",
+      "referent": "feather",
       "strokes": 6,
       "representations": [
         "image"
@@ -1315,6 +1439,7 @@
       "glyph": "老",
       "pinyin": "lǎo",
       "meaning": "old",
+      "referent": "old",
       "strokes": 6,
       "representations": [
         "scene",
@@ -1326,6 +1451,7 @@
       "glyph": "而",
       "pinyin": "ér",
       "meaning": "and",
+      "referent": "and",
       "strokes": 6,
       "representations": [
         "sentence"
@@ -1336,6 +1462,7 @@
       "glyph": "耒",
       "pinyin": "lěi",
       "meaning": "plow",
+      "referent": "plow",
       "strokes": 6,
       "representations": [
         "image"
@@ -1346,6 +1473,7 @@
       "glyph": "耳",
       "pinyin": "ěr",
       "meaning": "ear",
+      "referent": "ear",
       "strokes": 6,
       "representations": [
         "image"
@@ -1356,6 +1484,7 @@
       "glyph": "聿",
       "pinyin": "yù",
       "meaning": "brush",
+      "referent": "brush",
       "strokes": 6,
       "representations": [
         "image"
@@ -1366,6 +1495,7 @@
       "glyph": "肉",
       "pinyin": "ròu",
       "meaning": "meat",
+      "referent": "meat",
       "strokes": 6,
       "representations": [
         "image"
@@ -1376,6 +1506,7 @@
       "glyph": "臣",
       "pinyin": "chén",
       "meaning": "minister",
+      "referent": "minister",
       "strokes": 6,
       "representations": [
         "image",
@@ -1387,6 +1518,7 @@
       "glyph": "自",
       "pinyin": "zì",
       "meaning": "self",
+      "referent": "self",
       "strokes": 6,
       "representations": [
         "sentence"
@@ -1397,6 +1529,7 @@
       "glyph": "至",
       "pinyin": "zhì",
       "meaning": "arrive",
+      "referent": "arrive",
       "strokes": 6,
       "representations": [
         "motion",
@@ -1408,6 +1541,7 @@
       "glyph": "臼",
       "pinyin": "jiù",
       "meaning": "mortar",
+      "referent": "mortar",
       "strokes": 6,
       "representations": [
         "image"
@@ -1418,6 +1552,7 @@
       "glyph": "舌",
       "pinyin": "shé",
       "meaning": "tongue",
+      "referent": "tongue",
       "strokes": 6,
       "representations": [
         "image"
@@ -1428,6 +1563,7 @@
       "glyph": "舛",
       "pinyin": "chuǎn",
       "meaning": "oppose",
+      "referent": "oppose",
       "strokes": 6,
       "representations": [
         "sentence"
@@ -1438,6 +1574,7 @@
       "glyph": "舟",
       "pinyin": "zhōu",
       "meaning": "boat",
+      "referent": "boat",
       "strokes": 6,
       "representations": [
         "image",
@@ -1449,6 +1586,7 @@
       "glyph": "艮",
       "pinyin": "gèn",
       "meaning": "stopping",
+      "referent": "stopping",
       "strokes": 6,
       "representations": [
         "sentence"
@@ -1459,6 +1597,7 @@
       "glyph": "色",
       "pinyin": "sè",
       "meaning": "color",
+      "referent": "color",
       "strokes": 6,
       "representations": [
         "image",
@@ -1470,6 +1609,7 @@
       "glyph": "艸",
       "pinyin": "cǎo",
       "meaning": "grass",
+      "referent": "grass",
       "strokes": 6,
       "variants": [
         "艹"
@@ -1484,6 +1624,7 @@
       "glyph": "虍",
       "pinyin": "hū",
       "meaning": "tiger",
+      "referent": "tiger",
       "strokes": 6,
       "representations": [
         "image"
@@ -1494,6 +1635,7 @@
       "glyph": "虫",
       "pinyin": "chóng",
       "meaning": "insect",
+      "referent": "insect",
       "strokes": 6,
       "representations": [
         "image"
@@ -1504,6 +1646,7 @@
       "glyph": "血",
       "pinyin": "xuè",
       "meaning": "blood",
+      "referent": "blood",
       "strokes": 6,
       "representations": [
         "image"
@@ -1513,7 +1656,8 @@
       "num": 144,
       "glyph": "行",
       "pinyin": "xíng",
-      "meaning": "walk",
+      "meaning": "crossroads; go",
+      "referent": "crossroads",
       "strokes": 6,
       "representations": [
         "motion",
@@ -1525,6 +1669,7 @@
       "glyph": "衣",
       "pinyin": "yī",
       "meaning": "clothes",
+      "referent": "clothes",
       "strokes": 6,
       "variants": [
         "衤"
@@ -1537,7 +1682,8 @@
       "num": 146,
       "glyph": "襾",
       "pinyin": "yà",
-      "meaning": "cover",
+      "meaning": "cap; cover",
+      "referent": "cap",
       "strokes": 6,
       "variants": [
         "西",
@@ -1552,6 +1698,7 @@
       "glyph": "見",
       "pinyin": "jiàn",
       "meaning": "see",
+      "referent": "see",
       "strokes": 7,
       "variants": [
         "见"
@@ -1566,6 +1713,7 @@
       "glyph": "角",
       "pinyin": "jiǎo",
       "meaning": "horn",
+      "referent": "horn",
       "strokes": 7,
       "representations": [
         "image"
@@ -1576,6 +1724,7 @@
       "glyph": "言",
       "pinyin": "yán",
       "meaning": "speech",
+      "referent": "speech",
       "strokes": 7,
       "variants": [
         "讠"
@@ -1590,6 +1739,7 @@
       "glyph": "谷",
       "pinyin": "gǔ",
       "meaning": "valley",
+      "referent": "valley",
       "strokes": 7,
       "representations": [
         "image",
@@ -1601,6 +1751,7 @@
       "glyph": "豆",
       "pinyin": "dòu",
       "meaning": "bean",
+      "referent": "bean",
       "strokes": 7,
       "representations": [
         "image"
@@ -1611,6 +1762,7 @@
       "glyph": "豕",
       "pinyin": "shǐ",
       "meaning": "pig",
+      "referent": "pig",
       "strokes": 7,
       "representations": [
         "image"
@@ -1621,6 +1773,7 @@
       "glyph": "豸",
       "pinyin": "zhì",
       "meaning": "badger",
+      "referent": "badger",
       "strokes": 7,
       "representations": [
         "image"
@@ -1631,6 +1784,7 @@
       "glyph": "貝",
       "pinyin": "bèi",
       "meaning": "shell",
+      "referent": "shell",
       "strokes": 7,
       "variants": [
         "贝"
@@ -1644,6 +1798,7 @@
       "glyph": "赤",
       "pinyin": "chì",
       "meaning": "red",
+      "referent": "red",
       "strokes": 7,
       "representations": [
         "image"
@@ -1654,6 +1809,7 @@
       "glyph": "走",
       "pinyin": "zǒu",
       "meaning": "run",
+      "referent": "run",
       "strokes": 7,
       "representations": [
         "motion",
@@ -1665,6 +1821,7 @@
       "glyph": "足",
       "pinyin": "zú",
       "meaning": "foot",
+      "referent": "foot",
       "strokes": 7,
       "representations": [
         "image",
@@ -1676,6 +1833,7 @@
       "glyph": "身",
       "pinyin": "shēn",
       "meaning": "body",
+      "referent": "body",
       "strokes": 7,
       "representations": [
         "image"
@@ -1686,6 +1844,7 @@
       "glyph": "車",
       "pinyin": "chē",
       "meaning": "cart",
+      "referent": "cart",
       "strokes": 7,
       "variants": [
         "车"
@@ -1699,6 +1858,7 @@
       "glyph": "辛",
       "pinyin": "xīn",
       "meaning": "bitter",
+      "referent": "bitter",
       "strokes": 7,
       "representations": [
         "sentence"
@@ -1709,6 +1869,7 @@
       "glyph": "辰",
       "pinyin": "chén",
       "meaning": "morning",
+      "referent": "morning",
       "strokes": 7,
       "representations": [
         "scene"
@@ -1719,6 +1880,7 @@
       "glyph": "辵",
       "pinyin": "chuò",
       "meaning": "walk",
+      "referent": "walk",
       "strokes": 7,
       "variants": [
         "辶"
@@ -1733,6 +1895,7 @@
       "glyph": "邑",
       "pinyin": "yì",
       "meaning": "city",
+      "referent": "city",
       "strokes": 7,
       "variants": [
         "⻏"
@@ -1747,6 +1910,7 @@
       "glyph": "酉",
       "pinyin": "yǒu",
       "meaning": "wine",
+      "referent": "wine",
       "strokes": 7,
       "representations": [
         "image"
@@ -1757,6 +1921,7 @@
       "glyph": "釆",
       "pinyin": "biàn",
       "meaning": "distinguish",
+      "referent": "distinguish",
       "strokes": 7,
       "representations": [
         "sentence"
@@ -1767,6 +1932,7 @@
       "glyph": "里",
       "pinyin": "lǐ",
       "meaning": "village",
+      "referent": "village",
       "strokes": 7,
       "representations": [
         "image",
@@ -1778,6 +1944,7 @@
       "glyph": "金",
       "pinyin": "jīn",
       "meaning": "gold",
+      "referent": "gold",
       "strokes": 8,
       "variants": [
         "钅"
@@ -1791,6 +1958,7 @@
       "glyph": "長",
       "pinyin": "cháng",
       "meaning": "long",
+      "referent": "long",
       "strokes": 8,
       "variants": [
         "长"
@@ -1805,6 +1973,7 @@
       "glyph": "門",
       "pinyin": "mén",
       "meaning": "gate",
+      "referent": "gate",
       "strokes": 8,
       "variants": [
         "门"
@@ -1818,6 +1987,7 @@
       "glyph": "阜",
       "pinyin": "fù",
       "meaning": "mound",
+      "referent": "mound",
       "strokes": 8,
       "variants": [
         "⻖"
@@ -1832,6 +2002,7 @@
       "glyph": "隶",
       "pinyin": "lì",
       "meaning": "slave",
+      "referent": "slave",
       "strokes": 8,
       "representations": [
         "scene",
@@ -1843,6 +2014,7 @@
       "glyph": "隹",
       "pinyin": "zhuī",
       "meaning": "short-tailed bird",
+      "referent": "short-tailed-bird",
       "strokes": 8,
       "representations": [
         "image"
@@ -1853,6 +2025,7 @@
       "glyph": "雨",
       "pinyin": "yǔ",
       "meaning": "rain",
+      "referent": "rain",
       "strokes": 8,
       "representations": [
         "image",
@@ -1864,6 +2037,7 @@
       "glyph": "青",
       "pinyin": "qīng",
       "meaning": "blue-green",
+      "referent": "blue-green",
       "strokes": 8,
       "representations": [
         "image"
@@ -1874,6 +2048,7 @@
       "glyph": "非",
       "pinyin": "fēi",
       "meaning": "wrong",
+      "referent": "wrong",
       "strokes": 8,
       "representations": [
         "sentence"
@@ -1884,6 +2059,7 @@
       "glyph": "面",
       "pinyin": "miàn",
       "meaning": "face",
+      "referent": "face",
       "strokes": 9,
       "representations": [
         "image"
@@ -1894,6 +2070,7 @@
       "glyph": "革",
       "pinyin": "gé",
       "meaning": "leather",
+      "referent": "leather",
       "strokes": 9,
       "representations": [
         "image"
@@ -1904,6 +2081,7 @@
       "glyph": "韋",
       "pinyin": "wéi",
       "meaning": "tanned leather",
+      "referent": "tanned-leather",
       "strokes": 9,
       "representations": [
         "image"
@@ -1914,6 +2092,7 @@
       "glyph": "韭",
       "pinyin": "jiǔ",
       "meaning": "leek",
+      "referent": "leek",
       "strokes": 9,
       "representations": [
         "image"
@@ -1924,6 +2103,7 @@
       "glyph": "音",
       "pinyin": "yīn",
       "meaning": "sound",
+      "referent": "sound",
       "strokes": 9,
       "representations": [
         "sound"
@@ -1933,7 +2113,8 @@
       "num": 181,
       "glyph": "頁",
       "pinyin": "yè",
-      "meaning": "head; page",
+      "meaning": "page; head",
+      "referent": "page",
       "strokes": 9,
       "variants": [
         "页"
@@ -1947,6 +2128,7 @@
       "glyph": "風",
       "pinyin": "fēng",
       "meaning": "wind",
+      "referent": "wind",
       "strokes": 9,
       "variants": [
         "风"
@@ -1961,6 +2143,7 @@
       "glyph": "飛",
       "pinyin": "fēi",
       "meaning": "fly",
+      "referent": "fly",
       "strokes": 9,
       "variants": [
         "飞"
@@ -1974,6 +2157,7 @@
       "glyph": "食",
       "pinyin": "shí",
       "meaning": "eat",
+      "referent": "eat",
       "strokes": 9,
       "variants": [
         "飠",
@@ -1989,6 +2173,7 @@
       "glyph": "首",
       "pinyin": "shǒu",
       "meaning": "head",
+      "referent": "head",
       "strokes": 9,
       "representations": [
         "image"
@@ -1999,6 +2184,7 @@
       "glyph": "香",
       "pinyin": "xiāng",
       "meaning": "fragrant",
+      "referent": "fragrant",
       "strokes": 9,
       "representations": [
         "scene",
@@ -2010,6 +2196,7 @@
       "glyph": "馬",
       "pinyin": "mǎ",
       "meaning": "horse",
+      "referent": "horse",
       "strokes": 10,
       "variants": [
         "马"
@@ -2025,6 +2212,7 @@
       "glyph": "骨",
       "pinyin": "gǔ",
       "meaning": "bone",
+      "referent": "bone",
       "strokes": 10,
       "representations": [
         "image"
@@ -2035,6 +2223,7 @@
       "glyph": "高",
       "pinyin": "gāo",
       "meaning": "tall",
+      "referent": "tall",
       "strokes": 10,
       "representations": [
         "scene",
@@ -2046,6 +2235,7 @@
       "glyph": "髟",
       "pinyin": "biāo",
       "meaning": "long hair",
+      "referent": "long-hair",
       "strokes": 10,
       "representations": [
         "image"
@@ -2056,6 +2246,7 @@
       "glyph": "鬥",
       "pinyin": "dòu",
       "meaning": "fight",
+      "referent": "fight",
       "strokes": 10,
       "representations": [
         "motion",
@@ -2067,6 +2258,7 @@
       "glyph": "鬯",
       "pinyin": "chàng",
       "meaning": "sacrificial wine",
+      "referent": "sacrificial-wine",
       "strokes": 10,
       "representations": [
         "image"
@@ -2077,6 +2269,7 @@
       "glyph": "鬲",
       "pinyin": "lì",
       "meaning": "cauldron",
+      "referent": "cauldron",
       "strokes": 10,
       "representations": [
         "image"
@@ -2087,6 +2280,7 @@
       "glyph": "鬼",
       "pinyin": "guǐ",
       "meaning": "ghost",
+      "referent": "ghost",
       "strokes": 10,
       "representations": [
         "image",
@@ -2098,6 +2292,7 @@
       "glyph": "魚",
       "pinyin": "yú",
       "meaning": "fish",
+      "referent": "fish",
       "strokes": 11,
       "variants": [
         "鱼"
@@ -2112,6 +2307,7 @@
       "glyph": "鳥",
       "pinyin": "niǎo",
       "meaning": "bird",
+      "referent": "bird",
       "strokes": 11,
       "variants": [
         "鸟"
@@ -2127,6 +2323,7 @@
       "glyph": "鹵",
       "pinyin": "lǔ",
       "meaning": "salt",
+      "referent": "salt",
       "strokes": 11,
       "variants": [
         "卤"
@@ -2140,6 +2337,7 @@
       "glyph": "鹿",
       "pinyin": "lù",
       "meaning": "deer",
+      "referent": "deer",
       "strokes": 11,
       "representations": [
         "image",
@@ -2151,6 +2349,7 @@
       "glyph": "麥",
       "pinyin": "mài",
       "meaning": "wheat",
+      "referent": "wheat",
       "strokes": 11,
       "variants": [
         "麦"
@@ -2165,6 +2364,7 @@
       "glyph": "麻",
       "pinyin": "má",
       "meaning": "hemp",
+      "referent": "hemp",
       "strokes": 11,
       "representations": [
         "image"
@@ -2175,6 +2375,7 @@
       "glyph": "黃",
       "pinyin": "huáng",
       "meaning": "yellow",
+      "referent": "yellow",
       "strokes": 12,
       "variants": [
         "黄"
@@ -2188,6 +2389,7 @@
       "glyph": "黍",
       "pinyin": "shǔ",
       "meaning": "millet",
+      "referent": "millet",
       "strokes": 12,
       "representations": [
         "image"
@@ -2198,6 +2400,7 @@
       "glyph": "黑",
       "pinyin": "hēi",
       "meaning": "black",
+      "referent": "black",
       "strokes": 12,
       "representations": [
         "image"
@@ -2208,6 +2411,7 @@
       "glyph": "黹",
       "pinyin": "zhǐ",
       "meaning": "embroidery",
+      "referent": "embroidery",
       "strokes": 12,
       "representations": [
         "image"
@@ -2218,6 +2422,7 @@
       "glyph": "黽",
       "pinyin": "mǐn",
       "meaning": "frog",
+      "referent": "frog",
       "strokes": 13,
       "variants": [
         "黾"
@@ -2231,6 +2436,7 @@
       "glyph": "鼎",
       "pinyin": "dǐng",
       "meaning": "tripod",
+      "referent": "tripod",
       "strokes": 13,
       "representations": [
         "image"
@@ -2241,6 +2447,7 @@
       "glyph": "鼓",
       "pinyin": "gǔ",
       "meaning": "drum",
+      "referent": "drum",
       "strokes": 13,
       "representations": [
         "image",
@@ -2252,6 +2459,7 @@
       "glyph": "鼠",
       "pinyin": "shǔ",
       "meaning": "rat",
+      "referent": "rat",
       "strokes": 13,
       "representations": [
         "image"
@@ -2262,6 +2470,7 @@
       "glyph": "鼻",
       "pinyin": "bí",
       "meaning": "nose",
+      "referent": "nose",
       "strokes": 14,
       "representations": [
         "image"
@@ -2272,6 +2481,7 @@
       "glyph": "齊",
       "pinyin": "qí",
       "meaning": "even",
+      "referent": "even",
       "strokes": 14,
       "variants": [
         "齐"
@@ -2286,6 +2496,7 @@
       "glyph": "齒",
       "pinyin": "chǐ",
       "meaning": "tooth",
+      "referent": "tooth",
       "strokes": 15,
       "variants": [
         "齿"
@@ -2299,6 +2510,7 @@
       "glyph": "龍",
       "pinyin": "lóng",
       "meaning": "dragon",
+      "referent": "dragon",
       "strokes": 16,
       "variants": [
         "龙"
@@ -2313,6 +2525,7 @@
       "glyph": "龜",
       "pinyin": "guī",
       "meaning": "turtle",
+      "referent": "turtle",
       "strokes": 16,
       "variants": [
         "龟"
@@ -2326,6 +2539,7 @@
       "glyph": "龠",
       "pinyin": "yuè",
       "meaning": "flute",
+      "referent": "flute",
       "strokes": 17,
       "representations": [
         "image",

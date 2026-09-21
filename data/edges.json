@@ -1967,7 +1967,7 @@
     },
     {
       "from": "g:行",
-      "to": "r:walk",
+      "to": "r:crossroads",
       "kind": "denotes"
     },
     {
@@ -1977,7 +1977,7 @@
     },
     {
       "from": "g:襾",
-      "to": "r:cover",
+      "to": "r:cap",
       "kind": "denotes"
     },
     {
@@ -1987,7 +1987,7 @@
     },
     {
       "from": "g:覀",
-      "to": "r:cover",
+      "to": "r:cap",
       "kind": "denotes"
     },
     {
@@ -2237,7 +2237,7 @@
     },
     {
       "from": "g:頁",
-      "to": "r:head",
+      "to": "r:page",
       "kind": "denotes"
     },
     {

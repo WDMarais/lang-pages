@@ -5056,13 +5056,13 @@
           "cn": {
             "name": "行",
             "reading": "xíng",
-            "gloss": "walk",
+            "gloss": "crossroads; go",
             "extra": "康熙部首 144"
           },
           "jp": {
             "name": "行",
             "reading": "",
-            "gloss": "walk"
+            "gloss": "crossroads; go"
           },
           "wk": null,
           "pd": {
@@ -5101,13 +5101,13 @@
           "cn": {
             "name": "襾",
             "reading": "yà",
-            "gloss": "cover",
+            "gloss": "cap; cover",
             "extra": "康熙部首 146"
           },
           "jp": {
             "name": "襾",
             "reading": "",
-            "gloss": "cover"
+            "gloss": "cap; cover"
           },
           "wk": null,
           "kx": 146,
@@ -6015,13 +6015,13 @@
           "cn": {
             "name": "頁",
             "reading": "yè",
-            "gloss": "head; page",
+            "gloss": "page; head",
             "extra": "康熙部首 181"
           },
           "jp": {
             "name": "頁",
             "reading": "",
-            "gloss": "head; page"
+            "gloss": "page; head"
           },
           "wk": null,
           "pd": {
@@ -7632,7 +7632,7 @@
           "cn": {
             "name": "覀",
             "reading": "",
-            "gloss": "cover",
+            "gloss": "cap; cover",
             "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族",
             "appearsIn": {
               "char": "要",
@@ -7643,7 +7643,7 @@
           "jp": {
             "name": "覀",
             "reading": "",
-            "gloss": "cover",
+            "gloss": "cap; cover",
             "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族",
             "appearsIn": {
               "char": "要",

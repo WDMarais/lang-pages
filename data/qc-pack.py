@@ -26,13 +26,16 @@ Two renames happen on the way in, both load-bearing:
 
 Radicals are matched to folders by KANGXI NUMBER, in this order: a `kangxi` field on
 the referent entry (authoritative — carry it whenever you have it), then the pack's
-own folder names, then data/kangxi.json's meanings. An unresolvable slug is reported,
+own folder names, then data/kangxi.json's referents. An unresolvable slug is reported,
 not guessed — pass `--map slug=num` to place it by hand.
 
-Why the `kangxi` field matters: a slug alone does NOT identify a radical. Of the 184
-folders in the first pack, 14 don't match any kangxi.json meaning and two match the
-WRONG one (`14 cover` looks like 146, `144 walk` like 162). Meaning-matching is a
-convenience for submissions that predate the field, never the source of truth.
+Why the `kangxi` field matters: a slug alone does NOT identify a radical. The spine's
+referents are now gated unique (check-source's check_kangxi), so the old ambiguity —
+`14 cover` looking like 146, `144 walk` like 162, both spellings being genuinely
+shared — is gone. What remains is that a submission's slug is whatever the contributor
+typed, and an old batch can carry a since-renamed one (`head; page` → `page`). So
+slug-matching stays a convenience for submissions that predate the field, never the
+source of truth.
 
 `export` runs the adapter backwards — pack folders → one flat submission JSON per
 contributor, in exactly the `/author/` export shape, with `kangxi` stamped from the
@@ -75,13 +78,16 @@ def pack_folders(root):
     return out
 
 
-def kangxi_by_meaning():
-    """meaning → num from our own kangxi.json, the canonical numbering."""
+def kangxi_by_referent():
+    """referent slug → num from our own kangxi.json, the canonical numbering.
+
+    Keyed on `referent`, not `meaning`: `meaning` is display prose and two radicals
+    may read alike, while `referent` is gated unique (check-source's check_kangxi)."""
     try:
         rads = json.load(open(DATA / "kangxi.json", encoding="utf-8"))["radicals"]
     except (OSError, ValueError, KeyError):
         return {}
-    return {r["meaning"]: r["num"] for r in rads if r.get("meaning")}
+    return {r["referent"]: r["num"] for r in rads if r.get("referent")}
 
 
 def submission_jsons(folder):
@@ -96,11 +102,12 @@ def entry_key(data):
     return next((k for k in data if not k.startswith("_")), None)
 
 
-def resolve_num(slug, ref, folders_by_slug, by_meaning, overrides):
+def resolve_num(slug, ref, folders_by_slug, by_referent, overrides):
     """(num, how) for a submission entry. An explicit --map wins, then the entry's own
-    `kangxi` field, then a pack folder of that name, then kangxi.json's meaning. The
-    last of those is a guess — a slug does not identify a radical — so it's reported
-    as such. (None, reason) when we genuinely don't know."""
+    `kangxi` field, then a pack folder of that name, then kangxi.json's referent. The
+    last of those is still a guess — a submission's slug is whatever the contributor
+    typed, and an OLD batch may carry a since-renamed one — so it's reported as such.
+    (None, reason) when we genuinely don't know."""
     for key in (slug, slugify(slug)):
         if key in overrides:
             return overrides[key], "--map"
@@ -110,8 +117,8 @@ def resolve_num(slug, ref, folders_by_slug, by_meaning, overrides):
     for key in (slug, slugify(slug)):
         if key in folders_by_slug:
             return folders_by_slug[key], "pack folder"
-    if slug in by_meaning:
-        return by_meaning[slug], "meaning guess"
+    if slug in by_referent:
+        return by_referent[slug], "referent guess"
     return None, "unresolved"
 
 
@@ -127,7 +134,7 @@ def cmd_add(args):
 
     folders = pack_folders(root)
     by_slug = {slug: num for num, (_, slug) in folders.items()}
-    by_meaning = kangxi_by_meaning()
+    by_referent = kangxi_by_referent()
     overrides = {}
     for m in args.map or []:
         k, _, v = m.partition("=")
@@ -137,7 +144,7 @@ def cmd_add(args):
     for slug, ref in sub.items():
         if slug.startswith("_") or not isinstance(ref, dict):
             continue
-        num, how = resolve_num(slug, ref, by_slug, by_meaning, overrides)
+        num, how = resolve_num(slug, ref, by_slug, by_referent, overrides)
         if num is None:
             unresolved.append(slug)
             continue
@@ -164,7 +171,7 @@ def cmd_add(args):
         print(f"  {p['num']:>3} {p['fslug']:<16} {len(p['images']):>2} images  "
               f"[{mark}]{rename}  ·{p['how']}")
     print(f"==> {len(planned)} radicals, {sum(len(p['images']) for p in planned)} images")
-    guessed = [p for p in planned if p["how"] == "meaning guess"]
+    guessed = [p for p in planned if p["how"] == "referent guess"]
     if guessed:
         print(f"⚠ {len(guessed)} placed by MEANING GUESS (no `kangxi` field, no matching "
               f"folder) — check these, a slug doesn't identify a radical:")
@@ -241,10 +248,15 @@ def cmd_export(args):
 
     The folder NUMBER is stamped onto each entry as `kangxi`, because that is the one
     piece of information the folder layout carries and the flat shape otherwise loses.
-    Image bytes are not touched — they stay cached in the pack."""
+    It also supplies the entry's KEY, via kangxi.json's `referent`, in preference to
+    whatever the folder or the submission called it: folder names are frozen (renaming
+    one would move the image paths the viewer keys its Keep/Reject state on) and so go
+    stale on a rename, while `referent` is gated unique. Image bytes are not touched —
+    they stay cached in the pack."""
     root = os.path.abspath(args.pack)
     out_dir = os.path.abspath(args.out)
     os.makedirs(out_dir, exist_ok=True)
+    ref_by_num = {num: ref for ref, num in kangxi_by_referent().items()}
     batches, collisions = {}, []
     for num, (folder, _slug) in sorted(pack_folders(root).items()):
         for jf in submission_jsons(folder):
@@ -255,11 +267,13 @@ def cmd_export(args):
             who = data.get("_contributor") or args.unattributed
             entry = dict(data[key])
             entry["kangxi"] = num
+            key = ref_by_num.get(num, key)   # canonical where we know it; else as-filed
             batch = batches.setdefault(who, {})
-            # The flat shape is keyed by slug, but a slug does not identify a radical:
-            # kangxi.json gives 144 行 and 162 辵 the same meaning ('walk'), as it does
-            # 14 冖 and 146 襾 ('cover'). Suffix the number so one never silently
-            # overwrites the other — `kangxi` still carries the truth either way.
+            # Defence in depth. The canonical key can't collide (the spine gates it
+            # unique), but a folder outside 1–214, or one we couldn't resolve, falls
+            # back to the as-filed slug — and a slug does not identify a radical.
+            # Suffix the number so one never silently overwrites the other; `kangxi`
+            # carries the truth either way.
             if key in batch:
                 collisions.append((key, batch[key].get("kangxi"), num))
                 batch[f"{key}-{num}"] = entry

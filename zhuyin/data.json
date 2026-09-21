@@ -3894,7 +3894,7 @@
       "glyphs": [
         {
           "glyph": "行",
-          "gloss": "walk",
+          "gloss": "crossroads; go",
           "rank": 0
         }
       ]
@@ -3978,7 +3978,7 @@
       "glyphs": [
         {
           "glyph": "襾",
-          "gloss": "cover",
+          "gloss": "cap; cover",
           "rank": 0
         }
       ]
@@ -4119,7 +4119,7 @@
         },
         {
           "glyph": "頁",
-          "gloss": "head; page",
+          "gloss": "page; head",
           "rank": 0
         }
       ]

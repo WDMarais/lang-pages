@@ -10376,7 +10376,7 @@
       "readings": [
         "xíng"
       ],
-      "gloss": "walk",
+      "gloss": "crossroads; go",
       "extra": "康熙部首 144",
       "program": {
         "source": "pandanese",
@@ -10391,7 +10391,7 @@
       "lang": "jp",
       "name": "行",
       "readings": [],
-      "gloss": "walk",
+      "gloss": "crossroads; go",
       "extra": ""
     },
     {
@@ -10422,7 +10422,7 @@
       "readings": [
         "yà"
       ],
-      "gloss": "cover",
+      "gloss": "cap; cover",
       "extra": "康熙部首 146"
     },
     {
@@ -10431,7 +10431,7 @@
       "lang": "jp",
       "name": "襾",
       "readings": [],
-      "gloss": "cover",
+      "gloss": "cap; cover",
       "extra": ""
     },
     {
@@ -10473,7 +10473,7 @@
       "lang": "cn",
       "name": "覀",
       "readings": [],
-      "gloss": "cover",
+      "gloss": "cap; cover",
       "extra": "康熙部首 146「襾」的字头变体 · 见于 要/票 顶部 · 与 西/襾 同族",
       "appearsIn": {
         "glyph": "要",
@@ -10487,7 +10487,7 @@
       "lang": "jp",
       "name": "覀",
       "readings": [],
-      "gloss": "cover",
+      "gloss": "cap; cover",
       "extra": "「襾」(おおい) の字頭形 · 要・票 の上部 · 西/襾 と同族",
       "appearsIn": {
         "glyph": "要",
@@ -11644,7 +11644,7 @@
       "readings": [
         "yè"
       ],
-      "gloss": "head; page",
+      "gloss": "page; head",
       "extra": "康熙部首 181",
       "program": {
         "source": "pandanese",
@@ -11659,7 +11659,7 @@
       "lang": "jp",
       "name": "頁",
       "readings": [],
-      "gloss": "head; page",
+      "gloss": "page; head",
       "extra": ""
     },
     {

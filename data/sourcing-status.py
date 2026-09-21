@@ -23,8 +23,13 @@ STATUSES = ("done", "later")
 
 
 def known_slugs():
-    """Every referent the linker can be pointed at: the 214 spine + the collection."""
-    slugs = {r["meaning"] for r in read_json(DATA / "kangxi.json")["radicals"]}
+    """Every referent the linker can be pointed at: the 214 spine + the collection.
+
+    Keyed on the spine's `referent`, NOT its `meaning`: `meaning` is display prose
+    ("open enclosure", "page; head") and slugifying it here would disagree with the
+    key build-pages resolves images under. See check_kangxi for the gate that keeps
+    the two sides honest."""
+    slugs = {r["referent"] for r in read_json(DATA / "kangxi.json")["radicals"]}
     if (DATA / "referents.json").exists():
         slugs |= set(read_json(DATA / "referents.json"))
     return slugs
@@ -47,7 +52,7 @@ def main():
         ap.error("name at least one referent slug")
     unknown = sorted(set(a.slugs) - known_slugs())
     if unknown and a.action != "clear":
-        print(f"❌ not a referent: {' '.join(unknown)} (see data/kangxi.json meanings)")
+        print(f"❌ not a referent: {' '.join(unknown)} (see data/kangxi.json referents)")
         return 1
 
     for s in a.slugs:

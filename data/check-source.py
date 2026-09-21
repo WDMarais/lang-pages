@@ -356,28 +356,64 @@ def check_grounding(syms):
     return grounded, len(universe)
 
 
-def check_kangxi(rep):
+def check_kangxi(rep, syms):
     """The 214-radical spine (data/kangxi.json). build-pages projects it into the
     /kangxi/ deck; the /author/ imagery worklist reads it live to shade coverage.
-    Validate the authored `representations` set — a typed modality declaration
-    (image·sound·motion·scene·sentence·diagram) the tool trusts to route non-image
-    referents away from the photo form. A missing, empty, or off-vocab list would
-    mis-shade the worklist (a radical silently un-clickable, or a photo solicited for
-    something that can't have one), so it fails HERE rather than at the tool."""
+
+    Two authored fields are gated here.
+
+    `representations` — a typed modality declaration (image·sound·motion·scene·
+    sentence·diagram) the tool trusts to route non-image referents away from the
+    photo form. A missing, empty, or off-vocab list would mis-shade the worklist (a
+    radical silently un-clickable, or a photo solicited for something that can't have
+    one), so it fails HERE rather than at the tool.
+
+    `referent` — the spine's half of the glyph→referent key, and the reason this
+    check exists at all. `meaning` is display prose and must stay free to read well
+    ("open enclosure", "page; head"); `referent` is identity. Two rules hold it to
+    that job:
+
+      * UNIQUE across the 214. A shared referent asserts that two radicals denote the
+        same thing. That was silently true for 冖/襾 and 行/辵 (both glossed 'cover'
+        and 'walk'), which would have pooled their contributed photos into one drawer
+        and shown each radical the other's images.
+      * EQUAL to referent_slug() of the symbol's own gloss, because the gloss is what
+        actually mints the referent (build-graph's denotes edge, build-pages'
+        attach_referents). If the two drift, the worklist solicits photos under a key
+        no glyph resolves, and they land nowhere."""
     path = DATA / "kangxi.json"
     if not path.exists():
         return
+    by_num = {s["kangxi"]: s for s in syms.values() if s.get("kangxi")}
+    seen = {}
     for r in json.loads(path.read_text(encoding="utf-8")).get("radicals", []):
         where = f"kangxi.json #{r.get('num')} {r.get('glyph', '?')}"
         reps = r.get("representations")
         if not isinstance(reps, list) or not reps:
             rep.err(where, "representations must be a non-empty list")
+        else:
+            bad = [t for t in reps if t not in REPRESENTATIONS]
+            if bad:
+                rep.err(where, f"representations {bad} not in {sorted(REPRESENTATIONS)}")
+            if len(set(reps)) != len(reps):
+                rep.err(where, f"representations has duplicate tags: {reps}")
+
+        ref = r.get("referent")
+        if not _str(ref) or ref != referent_slug(ref):
+            rep.err(where, f"referent {ref!r} must be a non-empty slug "
+                           f"(lower-case ASCII, hyphen-separated)")
             continue
-        bad = [t for t in reps if t not in REPRESENTATIONS]
-        if bad:
-            rep.err(where, f"representations {bad} not in {sorted(REPRESENTATIONS)}")
-        if len(set(reps)) != len(reps):
-            rep.err(where, f"representations has duplicate tags: {reps}")
+        if ref in seen:
+            rep.err(where, f"referent {ref!r} is already #{seen[ref]}'s — a shared "
+                           f"referent says the two radicals denote the same thing")
+        seen[ref] = r.get("num")
+        sym = by_num.get(r.get("num"))
+        if sym:
+            v = sym["readings"]
+            want = referent_slug(v["cn"].get("gloss") or v["jp"].get("gloss", ""))
+            if want != ref:
+                rep.err(where, f"referent {ref!r} != r:{want} minted by {sym['glyph']}'s "
+                               f"gloss — the gloss is the source of truth")
 
 
 def check_sourcing_status(rep):
@@ -392,7 +428,7 @@ def check_sourcing_status(rep):
     if not isinstance(marks, dict):
         rep.err("sourcing-status.json", "must be an object {slug: {status, note?}}")
         return
-    known = {r["meaning"] for r in json.loads(
+    known = {r["referent"] for r in json.loads(
         (DATA / "kangxi.json").read_text(encoding="utf-8")).get("radicals", [])}
     rpath = DATA / "referents.json"
     if rpath.exists():
@@ -464,7 +500,7 @@ def main():
         check_symbol(rep, g, s)
     check_words(rep, syms)
     check_cross(rep, syms)
-    check_kangxi(rep)
+    check_kangxi(rep, syms)
     check_sourcing_status(rep)
 
     for where, msg in rep.warns:

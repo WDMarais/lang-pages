@@ -6119,9 +6119,9 @@
       "cnAudioKey": "xing2"
     },
     {
-      "id": "r:walk",
+      "id": "r:crossroads",
       "kind": "referent",
-      "label": "walk"
+      "label": "crossroads; go"
     },
     {
       "id": "g:衣",
@@ -6154,6 +6154,11 @@
       "variants": [
         "覀"
       ]
+    },
+    {
+      "id": "r:cap",
+      "kind": "referent",
+      "label": "cap; cover"
     },
     {
       "id": "g:西",
@@ -6617,6 +6622,11 @@
       ]
     },
     {
+      "id": "r:walk",
+      "kind": "referent",
+      "label": "walk"
+    },
+    {
       "id": "g:辶",
       "kind": "glyph",
       "glyph": "辶",
@@ -7013,6 +7023,11 @@
         "image": ""
       },
       "cnAudioKey": "ye4"
+    },
+    {
+      "id": "r:page",
+      "kind": "referent",
+      "label": "page; head"
     },
     {
       "id": "g:風",
