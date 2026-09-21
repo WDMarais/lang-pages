@@ -271,7 +271,23 @@ const LICENSES = [
   {label:'CC BY-SA 4.0',   url:'https://creativecommons.org/licenses/by-sa/4.0/',    attr:true},
   {label:'(other — enter URL)', url:'', attr:true},
 ];
+const OTHER = '(other — enter URL)';
+// "(other)" is a PROMPT, never a licence. Picking it reveals a name field, and that
+// typed name is what ships — otherwise the placeholder itself lands in the export's
+// `license` and the maintainer's ingest gate has nothing real to check.
 const licOf = name => LICENSES.find(l => l.label === name);
+// An unrecognised (hand-typed) licence is treated as attribution-required: we can't
+// prove it isn't, so credit + source + URL stay mandatory. Conservative on purpose.
+const licRule = name => licOf(name) || (isStr(name) ? { label: name, attr: true } : null);
+// Mirrors the maintainer's ingest gate (data/qc-viewer.py licOk, referents-from-qc.py
+// license_ok): PD / CC0 / CC BY / CC BY-SA only, space-guarded so NC and ND fall out.
+// A note here, not an error — sourcing an image we can't redistribute is wasted work,
+// and finding out at ingest time means a round-trip back to the contributor.
+const licFree = name => {
+  const u = (name || '').trim().toUpperCase();
+  if (u.startsWith('PUBLIC DOMAIN') || u === 'PD' || u.startsWith('PD ') || u.startsWith('CC0')) return true;
+  return ['CC BY', 'CC BY-SA'].some(o => u === o || u.startsWith(o + ' '));
+};
 
 // ── Openverse image suggestions ──────────────────────────────────────────────
 // Openverse aggregates Flickr, Wikimedia Commons, museums & more. We ask it, server
@@ -295,7 +311,10 @@ function mapOvLicense(code, ver) {
   if (code === 'cc0') return 'CC0';
   if (code === 'pdm') return 'Public Domain';
   const label = (code === 'by' ? 'CC BY ' : code === 'by-sa' ? 'CC BY-SA ' : '') + ver;
-  return LICENSES.some(l => l.label === label) ? label : '(other — enter URL)';
+  if (LICENSES.some(l => l.label === label)) return label;
+  // a free code at a version we don't list (e.g. CC BY 1.0): Openverse already told us
+  // exactly what it is, so ship that name rather than making the contributor retype it
+  return label.trim() && ver ? label : OTHER;
 }
 const isStr = v => typeof v === 'string' && v.trim() !== '';
 const ymd = (d = new Date()) => d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
@@ -371,7 +390,11 @@ function otherSlugs(keys, slug, sIdx = stashIndex()) {
 }
 
 function addImage(v={}) {
-  const opts = LICENSES.map(l=>`<option ${v.license===l.label?'selected':''}>${l.label}</option>`).join('');
+  // a restored card whose licence isn't one of ours was hand-typed under "(other)" —
+  // put the select back on "(other)" and the name back in the name field
+  const custom = (isStr(v.license) && !licOf(v.license)) ? v.license : '';
+  const selVal = custom ? OTHER : (v.license || '');
+  const opts = LICENSES.map(l=>`<option ${selVal===l.label?'selected':''}>${l.label}</option>`).join('');
   const d = document.createElement('div'); d.className='card';
   // the direct-bytes link rides along only while the card still points at the source it came with
   d.dataset.download = v._download || ''; d.dataset.dlsrc = v.source || '';
@@ -391,7 +414,11 @@ function addImage(v={}) {
       <div><label>license <span class="req">*</span></label>
         <select class="im-license"><option value="">— pick —</option>${opts}</select></div>
     </div>
-    <label>license URL <span class="lic-badge im-licbadge"></span></label>
+    <div class="im-otherwrap" hidden>
+      <label>license name <span class="req">*</span> <span class="hint">(exactly as the source states it — e.g. “CC BY-SA 3.0”, “Public Domain Mark 1.0”)</span></label>
+      <input class="im-licname" value="${esc(custom)}" placeholder="CC BY-SA 3.0">
+    </div>
+    <label>license URL <span class="req">*</span> <span class="lic-badge im-licbadge"></span></label>
     <input class="im-licurl" value="${esc(v.license_url||'')}" placeholder="auto-filled from the license">
     <div class="row">
       <div class="grow0"><label>file <span class="hint">(stored name — auto)</span></label>
@@ -404,11 +431,17 @@ function addImage(v={}) {
     <textarea class="im-notes">${esc(v.notes||'')}</textarea>`;
   $('images').appendChild(d);
   const sel = d.querySelector('.im-license');
+  const otherWrap = d.querySelector('.im-otherwrap');
+  const syncOther = () => { otherWrap.hidden = sel.value !== OTHER; };
+  syncOther();
   sel.addEventListener('change', () => {
     const l = licOf(sel.value);
     if (l && l.url) d.querySelector('.im-licurl').value = l.url;   // auto-fill; "(other)" leaves it manual
+    syncOther();
+    if (sel.value === OTHER) d.querySelector('.im-licname').focus();
     render();
   });
+  d.querySelector('.im-licname').addEventListener('input', render);
   // preview-only image: renders whatever direct URL is in .im-preview; never collected into the JSON
   const prev = d.querySelector('.im-preview'), wrap = d.querySelector('.im-prevwrap'), srcIn = d.querySelector('.im-source');
   const looksImage = u => /\.(jpe?g|png|gif|webp|svg)(?:$|[?#])/i.test(u);
@@ -445,8 +478,11 @@ function renumber() {
 function imageOf(card) {
   const q = s => card.querySelector(s).value.trim();
   // mirror mountain.json key order exactly; keep empty strings so merges are uniform
+  // "(other)" ships the hand-typed name, never the prompt itself
+  const picked = q('.im-license');
   const im = { file:q('.im-file'), title:q('.im-title'), credit:q('.im-credit'),
-               license:q('.im-license'), license_url:q('.im-licurl'), source:q('.im-source'),
+               license:(picked === OTHER ? q('.im-licname') : picked),
+               license_url:q('.im-licurl'), source:q('.im-source'),
                retrieved:q('.im-retrieved'), modified:q('.im-modified'), notes:q('.im-notes') };
   // export-only (the fold never copies it into referents.json); dropped once the source is edited away
   if (card.dataset.download && im.source === card.dataset.dlsrc) im._download = card.dataset.download;
@@ -466,8 +502,9 @@ function collect() {
 
 // one card's licence/attribution gaps — the red ERR lines, and what "complete" means
 function cardErrors(im) {
-  const E = [], l = licOf(im.license);
-  if (!isStr(im.license)) E.push('license is required');
+  const E = [], l = licRule(im.license);
+  if (im.license === OTHER) E.push('pick a license, or type its name under “other”');
+  else if (!isStr(im.license)) E.push('license is required');
   if (!isStr(im.file)) E.push('file name is required');
   if (l && l.attr) {  // attribution licenses legally need credit + source + a license URL
     if (!isStr(im.credit)) E.push(`${im.license} requires a credit`);
@@ -486,6 +523,8 @@ function validate(slug, ref, images) {
   images.forEach((im,i)=>{
     const ce = cardErrors(im);
     ce.forEach(m => E.push(`image ${i+1}: ${m}`));
+    if (isStr(im.license) && im.license !== OTHER && !licFree(im.license))
+      W.push(`image ${i+1}: “${im.license}” can't be used — we need PD, CC0, CC BY or CC BY-SA (no NC, no ND)`);
     if (isStr(im.source) && !/^https?:\/\//i.test(im.source)) W.push(`image ${i+1}: source doesn't look like a URL`);
     if (!isStr(im.title)) W.push(`image ${i+1}: no title (recommended)`);
     if (ce.length) bad.add(i);
@@ -533,7 +572,10 @@ function downloadBlob(name, text) {
   const a = document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name;
   document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(a.href);
 }
-function downloadJSON() { downloadBlob(($('slug').value.trim()||'referent')+'.json', JSON.stringify(LAST,null,2)+'\n'); }
+function downloadJSON() {
+  if (blockIncomplete(LAST)) return;
+  downloadBlob(($('slug').value.trim()||'referent')+'.json', JSON.stringify(LAST,null,2)+'\n');
+}
 
 // ── batch export: everything in the stash as ONE submission ──────────────────
 // The maintainer's fetch-referent-images.py already loops every top-level slug and
@@ -553,6 +595,26 @@ function collectAll(only) {   // only: optional Set of slugs → a subset submis
   return o;
 }
 const refsIn = o => Object.keys(o).filter(k => !k.startsWith('_'));
+
+// Every licence/attribution gap in a whole submission, not just the card on screen.
+// The status line only ever covered the open referent, and nothing stopped a batch
+// leaving with gaps — so incomplete rows reached the maintainer, where a missing
+// licence is expensive: it can't be ingested and has to go back to the contributor.
+function batchErrors(o) {
+  const out = [];
+  for (const slug of refsIn(o))
+    (o[slug].images || []).forEach((im, i) =>
+      cardErrors(im).forEach(m => out.push(`${slug} · image ${i + 1}: ${m}`)));
+  return out;
+}
+// true = refuse the export, having said exactly what's wrong
+function blockIncomplete(o) {
+  const E = batchErrors(o);
+  if (!E.length) return false;
+  alert(`${E.length} licence/attribution problem(s) — please fix before exporting:\n\n`
+    + E.slice(0, 12).join('\n') + (E.length > 12 ? `\n… and ${E.length - 12} more` : ''));
+  return true;
+}
 function batchStats() {
   const refs = Object.keys(STASH);
   const imgs = refs.reduce((a,s)=>a + STASH[s].length, 0);
@@ -569,6 +631,7 @@ function refreshBatch() {
 function exportAll() {
   const o = collectAll();
   if (!refsIn(o).length) { alert('Nothing saved yet — pick a radical and add an image.'); return; }
+  if (blockIncomplete(o)) return;
   const handle = $('contributor').value.trim();
   downloadBlob(`imagery-${handle||'batch'}-${today()}.json`, JSON.stringify(o,null,2)+'\n');
   markExported(o);
@@ -576,6 +639,7 @@ function exportAll() {
 async function copyAll() {
   const o = collectAll();
   if (!refsIn(o).length) { alert('Nothing saved yet — pick a radical and add an image.'); return; }
+  if (blockIncomplete(o)) return;
   try { await navigator.clipboard.writeText(JSON.stringify(o,null,2)+'\n'); markExported(o);
     const b=$('copyAllBtn'); const t=b.textContent; b.textContent='copied ✓'; setTimeout(()=>b.textContent=t,1200); }
   catch(e){ alert('clipboard blocked — use “export all” to download instead'); }
@@ -697,6 +761,7 @@ function subsetPick(mode) {   // quick-picks REPLACE the ticks
 function exportSelected() {
   const o = collectAll(SUBSET), n = refsIn(o).length;
   if (!n) return;
+  if (blockIncomplete(o)) return;
   const handle = $('contributor').value.trim();
   downloadBlob(`imagery-${handle||'batch'}-${today()}-${n}-referent${n===1?'':'s'}.json`, JSON.stringify(o,null,2)+'\n');
   markExported(o);
@@ -704,6 +769,7 @@ function exportSelected() {
 async function copySelected() {
   const o = collectAll(SUBSET);
   if (!refsIn(o).length) return;
+  if (blockIncomplete(o)) return;
   try { await navigator.clipboard.writeText(JSON.stringify(o,null,2)+'\n'); markExported(o);
     const b=$('copySelBtn'); const t=b.textContent; b.textContent='copied ✓'; setTimeout(()=>b.textContent=t,1200); }
   catch(e){ alert('clipboard blocked — use “export selected” to download instead'); }
