@@ -1,0 +1,53 @@
+{
+  "glyph": "気",
+  "cp": "U+6C17",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "气",
+    "メ"
+  ],
+  "readings": {
+    "cn": {
+      "name": "気",
+      "reading": "qì",
+      "gloss": "steam; air; spirit",
+      "extra": "日本新字体 · 简体作「气」、繁体作「氣」·「気」在中文不用"
+    },
+    "jp": {
+      "name": "気",
+      "reading": "キ",
+      "gloss": "spirit; energy; mood",
+      "extra": "漢字「気」(キ・ケ) · 元気(げんき)、天気(てんき)、気持ち(きもち) · 旧字「氣」"
+    }
+  },
+  "script": {
+    "keyed": "shinjitai",
+    "simplified": [
+      {
+        "glyph": "气"
+      }
+    ],
+    "traditional": [
+      {
+        "glyph": "氣"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Energy",
+      "readings": [
+        "キ"
+      ],
+      "on": true,
+      "level": 4
+    }
+  ]
+}

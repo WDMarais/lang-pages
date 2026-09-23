@@ -858,13 +858,6 @@
       "label": "king"
     },
     {
-      "id": "g:主",
-      "kind": "glyph",
-      "glyph": "主",
-      "tier": null,
-      "frontier": true
-    },
-    {
       "id": "g:本",
       "kind": "glyph",
       "glyph": "本",
@@ -2008,6 +2001,32 @@
       "id": "r:do",
       "kind": "referent",
       "label": "to do; to act; to be"
+    },
+    {
+      "id": "g:主",
+      "kind": "glyph",
+      "glyph": "主",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhu3",
+      "cnExAudioKey": "zhu4",
+      "jpAudioKey": "nushi"
+    },
+    {
+      "id": "r:master",
+      "kind": "referent",
+      "label": "master; owner; main"
+    },
+    {
+      "id": "g:住",
+      "kind": "glyph",
+      "glyph": "住",
+      "tier": null,
+      "frontier": true
     },
     {
       "id": "g:乂",
@@ -4793,6 +4812,32 @@
       "id": "r:steam",
       "kind": "referent",
       "label": "steam; air, gas; qi (vital energy)"
+    },
+    {
+      "id": "g:気",
+      "kind": "glyph",
+      "glyph": "気",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "qi4",
+      "jpAudioKey": "ki",
+      "script": {
+        "keyed": "shinjitai",
+        "simplified": [
+          {
+            "glyph": "气"
+          }
+        ],
+        "traditional": [
+          {
+            "glyph": "氣"
+          }
+        ]
+      }
     },
     {
       "id": "g:氷",
@@ -14196,6 +14241,147 @@
         "level": 4
       },
       "jpAudioKey": "koori"
+    },
+    {
+      "id": "w:先ず@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "先ず",
+      "reading": "まず",
+      "gloss": "first of all; to begin with",
+      "okurigana": "ず",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "mazu"
+    },
+    {
+      "id": "r:first-of-all",
+      "kind": "referent",
+      "label": "first of all; to begin with"
+    },
+    {
+      "id": "w:先月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "先月",
+      "reading": "せんげつ",
+      "gloss": "last month",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "sengetsu"
+    },
+    {
+      "id": "r:last-month",
+      "kind": "referent",
+      "label": "last month"
+    },
+    {
+      "id": "w:先日@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "先日",
+      "reading": "せんじつ",
+      "gloss": "the other day; recently",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "senjitsu"
+    },
+    {
+      "id": "r:the-other-day",
+      "kind": "referent",
+      "label": "the other day; recently"
+    },
+    {
+      "id": "w:先生@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "先生",
+      "reading": "せんせい",
+      "gloss": "teacher; doctor",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "sensei"
+    },
+    {
+      "id": "r:teacher",
+      "kind": "referent",
+      "label": "teacher; doctor"
+    },
+    {
+      "id": "w:名人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "名人",
+      "reading": "めいじん",
+      "gloss": "expert; master",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "meijin"
+    },
+    {
+      "id": "r:expert",
+      "kind": "referent",
+      "label": "expert; master"
+    },
+    {
+      "id": "w:名字@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "名字",
+      "reading": "みょうじ",
+      "gloss": "surname; family name",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "myouji"
+    },
+    {
+      "id": "r:surname",
+      "kind": "referent",
+      "label": "surname; family name"
+    },
+    {
+      "id": "w:２０１１年@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "２０１１年",
+      "reading": "にせんじゅういちねん",
+      "gloss": "the year 2011",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "nisenjuuichinen"
+    },
+    {
+      "id": "r:year-2011",
+      "kind": "referent",
+      "label": "the year 2011"
     }
   ]
 }

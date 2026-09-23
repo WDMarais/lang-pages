@@ -1085,7 +1085,11 @@
               "gloss": "origin"
             }
           },
-          "wk": null,
+          "wk": {
+            "name": "Cliff",
+            "level": 4,
+            "kind": "meaning"
+          },
           "pd": {
             "name": "cliff",
             "level": 1,

@@ -5111,6 +5111,117 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "先ず",
+      "audience": "jp",
+      "parts": [
+        "先"
+      ],
+      "denotes": "first-of-all",
+      "reading": "まず",
+      "gloss": "first of all; to begin with",
+      "okurigana": "ず",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "先月",
+      "audience": "jp",
+      "parts": [
+        "先",
+        "月"
+      ],
+      "denotes": "last-month",
+      "reading": "せんげつ",
+      "gloss": "last month",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "先日",
+      "audience": "jp",
+      "parts": [
+        "先",
+        "日"
+      ],
+      "denotes": "the-other-day",
+      "reading": "せんじつ",
+      "gloss": "the other day; recently",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "先生",
+      "audience": "jp",
+      "parts": [
+        "先",
+        "生"
+      ],
+      "denotes": "teacher",
+      "reading": "せんせい",
+      "gloss": "teacher; doctor",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "名人",
+      "audience": "jp",
+      "parts": [
+        "名",
+        "人"
+      ],
+      "denotes": "expert",
+      "reading": "めいじん",
+      "gloss": "expert; master",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "名字",
+      "audience": "jp",
+      "parts": [
+        "名",
+        "字"
+      ],
+      "denotes": "surname",
+      "reading": "みょうじ",
+      "gloss": "surname; family name",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "２０１１年",
+      "audience": "jp",
+      "parts": [
+        "年"
+      ],
+      "denotes": "year-2011",
+      "reading": "にせんじゅういちねん",
+      "gloss": "the year 2011",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

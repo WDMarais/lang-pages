@@ -768,6 +768,16 @@
       "kind": "denotes"
     },
     {
+      "from": "g:主",
+      "to": "r:master",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:主",
+      "to": "g:住",
+      "kind": "composes"
+    },
+    {
       "from": "g:乂",
       "to": "r:mow",
       "kind": "denotes"
@@ -1547,6 +1557,11 @@
     },
     {
       "from": "g:气",
+      "to": "r:steam",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:気",
       "to": "r:steam",
       "kind": "denotes"
     },
@@ -3171,6 +3186,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:丶",
+      "to": "g:主",
+      "kind": "composes"
+    },
+    {
       "from": "g:丿",
       "to": "g:么",
       "kind": "composes"
@@ -4160,6 +4180,16 @@
     {
       "from": "g:一",
       "to": "g:毛",
+      "kind": "composes"
+    },
+    {
+      "from": "g:气",
+      "to": "g:気",
+      "kind": "composes"
+    },
+    {
+      "from": "g:メ",
+      "to": "g:気",
       "kind": "composes"
     },
     {
@@ -9730,6 +9760,101 @@
     {
       "from": "w:氷@jp",
       "to": "r:ice",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:先",
+      "to": "w:先ず@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:先ず@jp",
+      "to": "r:first-of-all",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:先",
+      "to": "w:先月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:先月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:先月@jp",
+      "to": "r:last-month",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:先",
+      "to": "w:先日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:日",
+      "to": "w:先日@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:先日@jp",
+      "to": "r:the-other-day",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:先",
+      "to": "w:先生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:生",
+      "to": "w:先生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:先生@jp",
+      "to": "r:teacher",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:名",
+      "to": "w:名人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:名人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:名人@jp",
+      "to": "r:expert",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:名",
+      "to": "w:名字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:字",
+      "to": "w:名字@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:名字@jp",
+      "to": "r:surname",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:年",
+      "to": "w:２０１１年@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:２０１１年@jp",
+      "to": "r:year-2011",
       "kind": "denotes"
     },
     {

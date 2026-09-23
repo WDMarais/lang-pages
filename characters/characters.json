@@ -1424,6 +1424,26 @@
           "pdc": { "name": "to do", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "主",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zhu3",
+          "cnExAudioKey": "zhu4",
+          "jpAudioKey": "nushi",
+          "cn": {
+            "name": "主", "reading": "zhǔ", "gloss": "master; owner; main",
+            "extra": "主人、主要、公主 · 指事（灯火之形）· 部首「丶」",
+            "appearsIn": { "char": "住", "reading": "zhù", "gloss": "to live; reside" }
+          },
+          "jp": {
+            "name": "主", "reading": "ぬし", "gloss": "master; owner",
+            "extra": "漢字「主」(ぬし・シュ) · 主人(しゅじん)、持ち主(もちぬし)、主に(おもに)"
+          },
+          "wk": null,
+          "kanji": { "name": "Master", "readings": ["シュ"], "on": true, "level": 4 }
+        },
+        {
           "glyph": "么",
           "tag": "char",
           "image": "",
@@ -3233,6 +3253,25 @@
           "wk": { "name": "Fur", "level": 3, "kind": "meaning" },
           "kanji": { "name": "Fur", "readings": ["モウ"], "on": true, "kun": ["け"], "level": 3 },
           "pd": { "name": "fur", "level": 2, "kind": "meaning" }
+        },
+        {
+          "glyph": "気",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "qi4",
+          "jpAudioKey": "ki",
+          "script": {"keyed": "shinjitai", "simplified": [{"glyph": "气"}], "traditional": [{"glyph": "氣"}]},
+          "cn": {
+            "name": "気", "reading": "qì", "gloss": "steam; air; spirit",
+            "extra": "日本新字体 · 简体作「气」、繁体作「氣」·「気」在中文不用"
+          },
+          "jp": {
+            "name": "気", "reading": "キ", "gloss": "spirit; energy; mood",
+            "extra": "漢字「気」(キ・ケ) · 元気(げんき)、天気(てんき)、気持ち(きもち) · 旧字「氣」"
+          },
+          "wk": null,
+          "kanji": { "name": "Energy", "readings": ["キ"], "on": true, "level": 4 }
         },
         {
           "glyph": "氷",

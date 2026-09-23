@@ -2654,6 +2654,11 @@
           "glyph": "气",
           "gloss": "steam; air, gas; qi (vital energy)",
           "rank": 0
+        },
+        {
+          "glyph": "気",
+          "gloss": "steam; air; spirit",
+          "rank": 0
         }
       ]
     },
@@ -4709,7 +4714,21 @@
       "glyphs": [
         {
           "glyph": "主",
-          "gloss": "master; host",
+          "gloss": "master; owner; main",
+          "rank": 0
+        }
+      ]
+    },
+    "zhu4": {
+      "key": "zhu4",
+      "pinyin": "zhù",
+      "base": "zhu",
+      "tone": 4,
+      "zhuyin": "ㄓㄨ",
+      "glyphs": [
+        {
+          "glyph": "住",
+          "gloss": "to live; reside",
           "rank": 0
         }
       ]

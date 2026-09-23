@@ -683,6 +683,10 @@
     "text": "まわる",
     "voice": "ja-JP-NanamiNeural"
   },
+  "mazu.mp3": {
+    "text": "まず",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "me.mp3": {
     "text": "め",
     "voice": "ja-JP-NanamiNeural"
@@ -693,6 +697,10 @@
   },
   "mei.mp3": {
     "text": "メイ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "meijin.mp3": {
+    "text": "めいじん",
     "voice": "ja-JP-NanamiNeural"
   },
   "mi.mp3": {
@@ -767,6 +775,10 @@
     "text": "むっつ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "myouji.mp3": {
+    "text": "みょうじ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "na.mp3": {
     "text": "な",
     "voice": "ja-JP-NanamiNeural"
@@ -837,6 +849,10 @@
   },
   "niru.mp3": {
     "text": "にる",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nisenjuuichinen.mp3": {
+    "text": "にせんじゅういちねん",
     "voice": "ja-JP-NanamiNeural"
   },
   "nishi.mp3": {
@@ -1049,6 +1065,18 @@
   },
   "senen.mp3": {
     "text": "せんえん",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sengetsu.mp3": {
+    "text": "せんげつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "senjitsu.mp3": {
+    "text": "せんじつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "sensei.mp3": {
+    "text": "せんせい",
     "voice": "ja-JP-NanamiNeural"
   },
   "shi.mp3": {
