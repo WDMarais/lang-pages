@@ -40,6 +40,14 @@
       ],
       "on": true,
       "level": 4
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "master",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

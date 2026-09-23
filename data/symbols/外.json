@@ -38,6 +38,14 @@
         "そと"
       ],
       "level": 3
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "outside",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

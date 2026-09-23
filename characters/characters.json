@@ -664,7 +664,8 @@
             "extra": "漢字「出」(で-る · シュツ) · 出口、外出"
           },
           "wk": null,
-          "kanji": { "name": "Exit", "readings": ["シュツ"], "on": true, "kun": ["で"] }
+          "kanji": { "name": "Exit", "readings": ["シュツ"], "on": true, "kun": ["で"] },
+          "pdc": { "name": "to exit", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "右",
@@ -1365,7 +1366,8 @@
             "extra": "漢字「世」(セ・セイ · よ) · 世界(せかい)、世紀(せいき)、世の中(よのなか)"
           },
           "wk": null,
-          "kanji": { "name": "World", "readings": ["セ", "セイ"], "on": true, "kun": ["よ"], "level": 4 }
+          "kanji": { "name": "World", "readings": ["セ", "セイ"], "on": true, "kun": ["よ"], "level": 4 },
+          "pdc": { "name": "world", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "两",
@@ -1441,7 +1443,8 @@
             "extra": "漢字「主」(ぬし・シュ) · 主人(しゅじん)、持ち主(もちぬし)、主に(おもに)"
           },
           "wk": null,
-          "kanji": { "name": "Master", "readings": ["シュ"], "on": true, "level": 4 }
+          "kanji": { "name": "Master", "readings": ["シュ"], "on": true, "level": 4 },
+          "pdc": { "name": "master", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "么",
@@ -2376,6 +2379,24 @@
           "pdc": { "name": "employee", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "和",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "he2",
+          "jpAudioKey": "wa",
+          "cn": {
+            "name": "和", "reading": "hé", "gloss": "and; with; harmony",
+            "extra": "我和你、和平、温和 · ⿰禾口 · 连词「和」为现代汉语最常用的并列连词"
+          },
+          "jp": {
+            "name": "和", "reading": "わ", "gloss": "harmony; Japanese-style",
+            "extra": "漢字「和」(やわ-らぐ · ワ・オ) · 平和(へいわ)、和食(わしょく)、和やか(なごやか)"
+          },
+          "wk": null,
+          "pdc": { "name": "and", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "回",
           "tag": "char",
           "image": "",
@@ -2479,7 +2500,8 @@
             "extra": "漢字「外」(そと・ほか · ガイ・ゲ) · 外(そと)、外国(がいこく)、以外(いがい)"
           },
           "wk": null,
-          "kanji": { "name": "Outside", "readings": ["ガイ"], "on": true, "kun": ["そと"], "level": 3 }
+          "kanji": { "name": "Outside", "readings": ["ガイ"], "on": true, "kun": ["そと"], "level": 3 },
+          "pdc": { "name": "outside", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "太",
@@ -2828,6 +2850,25 @@
             "extra": "漢字「当」(あ-たる · トウ) · 当たる、本当(ほんとう)、当日(とうじつ) · 旧字「當」"
           },
           "wk": null
+        },
+        {
+          "glyph": "很",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hen3",
+          "cnExAudioKey": "gen4",
+          "cn": {
+            "name": "很", "reading": "hěn", "gloss": "very",
+            "extra": "很好、很多、很喜欢 · 程度副词（形容词谓语前几乎必带）· ⿰彳艮",
+            "appearsIn": { "char": "艮", "reading": "gèn", "gloss": "stopping" }
+          },
+          "jp": {
+            "name": "很", "reading": "", "gloss": "very (modern Chinese; not a Japanese kanji)",
+            "extra": "中国語の程度副詞 · 日本語では「とても」「非常に」に当たる"
+          },
+          "wk": null,
+          "pdc": { "name": "very", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "心",
@@ -3350,6 +3391,25 @@
           },
           "wk": { "name": "Ball", "level": 2, "kind": "meaning" },
           "kanji": { "name": "Ball", "readings": ["ギョク"], "on": true, "kun": ["たま"], "level": 2 }
+        },
+        {
+          "glyph": "现",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "xian4",
+          "jpAudioKey": "gen",
+          "script": {"traditional": [{"glyph": "現"}]},
+          "cn": {
+            "name": "现", "reading": "xiàn", "gloss": "to appear; present; current",
+            "extra": "现在、出现、现代 · ⿰王(玉)见 · 繁体 現"
+          },
+          "jp": {
+            "name": "現", "reading": "ゲン", "gloss": "appear; present",
+            "extra": "漢字「現」(あらわ-れる · ゲン) · 現れる(あらわれる)、現在(げんざい)"
+          },
+          "wk": null,
+          "pdc": { "name": "appear", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "生",

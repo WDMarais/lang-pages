@@ -37,6 +37,14 @@
       "kun": [
         "で"
       ]
+    },
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "to exit",
+      "kind": "meaning",
+      "level": 5
     }
   ]
 }

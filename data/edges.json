@@ -1124,6 +1124,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:和",
+      "to": "r:and",
+      "kind": "denotes"
+    },
+    {
       "from": "g:囗",
       "to": "r:enclosure",
       "kind": "denotes"
@@ -1347,6 +1352,16 @@
       "from": "g:彳",
       "to": "r:step",
       "kind": "denotes"
+    },
+    {
+      "from": "g:很",
+      "to": "r:very",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:很",
+      "to": "g:艮",
+      "kind": "composes"
     },
     {
       "from": "g:心",
@@ -1643,6 +1658,11 @@
     {
       "from": "g:玉",
       "to": "r:jade",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:现",
+      "to": "r:appear",
       "kind": "denotes"
     },
     {
@@ -3657,6 +3677,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:禾",
+      "to": "g:和",
+      "kind": "composes"
+    },
+    {
+      "from": "g:口",
+      "to": "g:和",
+      "kind": "composes"
+    },
+    {
       "from": "g:冂",
       "to": "g:囗",
       "kind": "composes"
@@ -3930,6 +3960,16 @@
     {
       "from": "g:丨",
       "to": "g:彳",
+      "kind": "composes"
+    },
+    {
+      "from": "g:彳",
+      "to": "g:很",
+      "kind": "composes"
+    },
+    {
+      "from": "g:艮",
+      "to": "g:很",
       "kind": "composes"
     },
     {
@@ -4275,6 +4315,16 @@
     {
       "from": "g:丶",
       "to": "g:玉",
+      "kind": "composes"
+    },
+    {
+      "from": "g:王",
+      "to": "g:现",
+      "kind": "composes"
+    },
+    {
+      "from": "g:見",
+      "to": "g:现",
       "kind": "composes"
     },
     {
@@ -9855,6 +9905,51 @@
     {
       "from": "w:２０１１年@jp",
       "to": "r:year-2011",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:认",
+      "to": "w:认为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:为",
+      "to": "w:认为@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:认为@cn",
+      "to": "r:believe",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:身",
+      "to": "w:身体@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:体",
+      "to": "w:身体@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:身体@cn",
+      "to": "r:body",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:内",
+      "to": "w:内心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:心",
+      "to": "w:内心@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:内心@cn",
+      "to": "r:innermost-feelings",
       "kind": "denotes"
     },
     {

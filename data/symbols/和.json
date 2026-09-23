@@ -1,0 +1,37 @@
+{
+  "glyph": "和",
+  "cp": "U+548C",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "禾",
+    "口"
+  ],
+  "readings": {
+    "cn": {
+      "name": "和",
+      "reading": "hé",
+      "gloss": "and; with; harmony",
+      "extra": "我和你、和平、温和 · ⿰禾口 · 连词「和」为现代汉语最常用的并列连词"
+    },
+    "jp": {
+      "name": "和",
+      "reading": "わ",
+      "gloss": "harmony; Japanese-style",
+      "extra": "漢字「和」(やわ-らぐ · ワ・オ) · 平和(へいわ)、和食(わしょく)、和やか(なごやか)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "and",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

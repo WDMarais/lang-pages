@@ -3308,6 +3308,19 @@
       "label": "member; personnel"
     },
     {
+      "id": "g:和",
+      "kind": "glyph",
+      "glyph": "和",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "he2",
+      "jpAudioKey": "wa"
+    },
+    {
       "id": "g:囗",
       "kind": "glyph",
       "glyph": "囗",
@@ -4103,6 +4116,24 @@
       "id": "r:step",
       "kind": "referent",
       "label": "step"
+    },
+    {
+      "id": "g:很",
+      "kind": "glyph",
+      "glyph": "很",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hen3",
+      "cnExAudioKey": "gen4"
+    },
+    {
+      "id": "r:very",
+      "kind": "referent",
+      "label": "very"
     },
     {
       "id": "g:心",
@@ -5082,6 +5113,31 @@
       "id": "r:jade",
       "kind": "referent",
       "label": "jade"
+    },
+    {
+      "id": "g:现",
+      "kind": "glyph",
+      "glyph": "现",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "xian4",
+      "jpAudioKey": "gen",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "現"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:appear",
+      "kind": "referent",
+      "label": "to appear; present; current"
     },
     {
       "id": "g:瓜",
@@ -6262,7 +6318,10 @@
             "glyph": "见"
           }
         ]
-      }
+      },
+      "variants": [
+        "见"
+      ]
     },
     {
       "id": "r:see",
@@ -10121,11 +10180,6 @@
         "level": 2
       },
       "cnAudioKey": "shi2fen1"
-    },
-    {
-      "id": "r:very",
-      "kind": "referent",
-      "label": "very; fully; completely (lit. ten parts)"
     },
     {
       "id": "w:由于@cn",
@@ -14382,6 +14436,56 @@
       "id": "r:year-2011",
       "kind": "referent",
       "label": "the year 2011"
+    },
+    {
+      "id": "w:认为@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "认为",
+      "reading": "rènwéi",
+      "gloss": "to believe; to consider",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ren4wei2"
+    },
+    {
+      "id": "r:believe",
+      "kind": "referent",
+      "label": "to believe; to consider"
+    },
+    {
+      "id": "w:身体@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "身体",
+      "reading": "shēntǐ",
+      "gloss": "body; health",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "shen1ti3"
+    },
+    {
+      "id": "w:内心@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "内心",
+      "reading": "nèixīn",
+      "gloss": "innermost feelings; inner heart",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "nei4xin1"
     }
   ]
 }

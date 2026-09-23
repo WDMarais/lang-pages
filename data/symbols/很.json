@@ -1,0 +1,42 @@
+{
+  "glyph": "很",
+  "cp": "U+5F88",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "彳",
+    "艮"
+  ],
+  "readings": {
+    "cn": {
+      "name": "很",
+      "reading": "hěn",
+      "gloss": "very",
+      "extra": "很好、很多、很喜欢 · 程度副词（形容词谓语前几乎必带）· ⿰彳艮",
+      "appearsIn": {
+        "char": "艮",
+        "reading": "gèn",
+        "gloss": "stopping"
+      }
+    },
+    "jp": {
+      "name": "很",
+      "reading": "",
+      "gloss": "very (modern Chinese; not a Japanese kanji)",
+      "extra": "中国語の程度副詞 · 日本語では「とても」「非常に」に当たる"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "very",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

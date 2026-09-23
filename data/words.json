@@ -5222,6 +5222,54 @@
         "kind": "vocab",
         "level": 4
       }
+    },
+    {
+      "surface": "认为",
+      "audience": "cn",
+      "parts": [
+        "认",
+        "为"
+      ],
+      "denotes": "believe",
+      "reading": "rènwéi",
+      "gloss": "to believe; to consider",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "身体",
+      "audience": "cn",
+      "parts": [
+        "身",
+        "体"
+      ],
+      "denotes": "body",
+      "reading": "shēntǐ",
+      "gloss": "body; health",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "内心",
+      "audience": "cn",
+      "parts": [
+        "内",
+        "心"
+      ],
+      "denotes": "innermost-feelings",
+      "reading": "nèixīn",
+      "gloss": "innermost feelings; inner heart",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
     }
   ]
 }

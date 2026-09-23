@@ -1,0 +1,44 @@
+{
+  "glyph": "现",
+  "cp": "U+73B0",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "王",
+    "见"
+  ],
+  "readings": {
+    "cn": {
+      "name": "现",
+      "reading": "xiàn",
+      "gloss": "to appear; present; current",
+      "extra": "现在、出现、现代 · ⿰王(玉)见 · 繁体 現"
+    },
+    "jp": {
+      "name": "現",
+      "reading": "ゲン",
+      "gloss": "appear; present",
+      "extra": "漢字「現」(あらわ-れる · ゲン) · 現れる(あらわれる)、現在(げんざい)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "現"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "appear",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

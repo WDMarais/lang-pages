@@ -1456,6 +1456,11 @@
           "rank": 0
         },
         {
+          "glyph": "和",
+          "gloss": "and; with; harmony",
+          "rank": 0
+        },
+        {
           "glyph": "禾",
           "gloss": "grain",
           "rank": 0
@@ -1472,6 +1477,20 @@
         {
           "glyph": "黑",
           "gloss": "black",
+          "rank": 0
+        }
+      ]
+    },
+    "hen3": {
+      "key": "hen3",
+      "pinyin": "hěn",
+      "base": "hen",
+      "tone": 3,
+      "zhuyin": "ㄏㄣ",
+      "glyphs": [
+        {
+          "glyph": "很",
+          "gloss": "very",
           "rank": 0
         }
       ]
@@ -3789,6 +3808,11 @@
       "tone": 4,
       "zhuyin": "ㄒㄧㄢ",
       "glyphs": [
+        {
+          "glyph": "现",
+          "gloss": "to appear; present; current",
+          "rank": 0
+        },
         {
           "glyph": "線",
           "gloss": "line; thread; wire",

@@ -1743,7 +1743,15 @@
         "chū"
       ],
       "gloss": "to go out; exit",
-      "extra": "屮 + 凵 · 本象足(止)出于坎穴«离开» · 出口、出去"
+      "extra": "屮 + 凵 · 本象足(止)出于坎穴«离开» · 出口、出去",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "to exit",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
     },
     {
       "id": "b:出@jp",
@@ -3763,7 +3771,15 @@
         "shì"
       ],
       "gloss": "world; generation; lifetime",
-      "extra": "世界、世纪、一生一世 · 本义「三十年为一世」"
+      "extra": "世界、世纪、一生一世 · 本义「三十年为一世」",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "world",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
     },
     {
       "id": "b:世@jp",
@@ -3915,6 +3931,14 @@
         "glyph": "住",
         "reading": "zhù",
         "gloss": "to live; reside"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "master",
+          "kind": "meaning",
+          "level": 5
+        }
       }
     },
     {
@@ -5894,6 +5918,36 @@
       "extra": "漢字「員」(イン) · 会員(かいいん)、社員(しゃいん)、店員(てんいん)"
     },
     {
+      "id": "b:和@cn",
+      "glyph_id": "g:和",
+      "lang": "cn",
+      "name": "和",
+      "readings": [
+        "hé"
+      ],
+      "gloss": "and; with; harmony",
+      "extra": "我和你、和平、温和 · ⿰禾口 · 连词「和」为现代汉语最常用的并列连词",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "and",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:和@jp",
+      "glyph_id": "g:和",
+      "lang": "jp",
+      "name": "和",
+      "readings": [
+        "わ"
+      ],
+      "gloss": "harmony; Japanese-style",
+      "extra": "漢字「和」(やわ-らぐ · ワ・オ) · 平和(へいわ)、和食(わしょく)、和やか(なごやか)"
+    },
+    {
       "id": "b:囗@cn",
       "glyph_id": "g:囗",
       "lang": "cn",
@@ -6140,7 +6194,15 @@
         "wài"
       ],
       "gloss": "outside; outer",
-      "extra": "夕 + 卜 · 外面、外国、以外、外边"
+      "extra": "夕 + 卜 · 外面、外国、以外、外边",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "outside",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
     },
     {
       "id": "b:外@jp",
@@ -7094,6 +7156,39 @@
         "level": 4,
         "kind": "mnemonic"
       }
+    },
+    {
+      "id": "b:很@cn",
+      "glyph_id": "g:很",
+      "lang": "cn",
+      "name": "很",
+      "readings": [
+        "hěn"
+      ],
+      "gloss": "very",
+      "extra": "很好、很多、很喜欢 · 程度副词（形容词谓语前几乎必带）· ⿰彳艮",
+      "appearsIn": {
+        "glyph": "艮",
+        "reading": "gèn",
+        "gloss": "stopping"
+      },
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "very",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:很@jp",
+      "glyph_id": "g:很",
+      "lang": "jp",
+      "name": "很",
+      "readings": [],
+      "gloss": "very (modern Chinese; not a Japanese kanji)",
+      "extra": "中国語の程度副詞 · 日本語では「とても」「非常に」に当たる"
     },
     {
       "id": "b:心@cn",
@@ -8710,6 +8805,36 @@
           "level": 2
         }
       }
+    },
+    {
+      "id": "b:现@cn",
+      "glyph_id": "g:现",
+      "lang": "cn",
+      "name": "现",
+      "readings": [
+        "xiàn"
+      ],
+      "gloss": "to appear; present; current",
+      "extra": "现在、出现、现代 · ⿰王(玉)见 · 繁体 現",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "appear",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:现@jp",
+      "glyph_id": "g:现",
+      "lang": "jp",
+      "name": "現",
+      "readings": [
+        "ゲン"
+      ],
+      "gloss": "appear; present",
+      "extra": "漢字「現」(あらわ-れる · ゲン) · 現れる(あらわれる)、現在(げんざい)"
     },
     {
       "id": "b:瓜@cn",

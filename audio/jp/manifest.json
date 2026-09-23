@@ -1351,6 +1351,10 @@
     "text": "うつくしい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "wa.mp3": {
+    "text": "わ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "wakeru.mp3": {
     "text": "わける",
     "voice": "ja-JP-NanamiNeural"

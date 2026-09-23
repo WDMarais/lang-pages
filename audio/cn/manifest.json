@@ -503,6 +503,10 @@
     "text": "黑",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "hen3.mp3": {
+    "text": "很",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "heng2.mp3": {
     "text": "横",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -871,6 +875,10 @@
     "text": "内",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "nei4xin1.mp3": {
+    "text": "内心",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "neng2.mp3": {
     "text": "能",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1015,6 +1023,10 @@
     "text": "认",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ren4wei2.mp3": {
+    "text": "认为",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ri4.mp3": {
     "text": "日",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1085,6 +1097,10 @@
   },
   "shen1.mp3": {
     "text": "申",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shen1ti3.mp3": {
+    "text": "身体",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shen2.mp3": {
@@ -1356,7 +1372,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xian4.mp3": {
-    "text": "線",
+    "text": "现",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "xiang1.mp3": {
