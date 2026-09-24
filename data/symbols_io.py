@@ -14,13 +14,36 @@ from phonetics import cn_key
 from phonetics_jp import kana_key
 
 
+def _first_sense(gloss):
+    """The one sense that names the referent: text before the first ';', with
+    parentheticals dropped and whitespace collapsed. Shared by referent_slug and
+    referent_label so the identity and its prose can never disagree."""
+    # Parentheticals go FIRST: a gloss may carry a ';' inside one ("… yen (currency
+    # counter, e.g. 千円；…)"), and splitting before stripping cuts the parenthetical
+    # in half, leaving an unbalanced '(' that no longer matches and rides into the label.
+    return re.sub(r"\s+", " ", re.sub(r"\(.*?\)", "", gloss).split(";")[0]).strip()
+
+
 def referent_slug(gloss):
     """Canonical ASCII key for a meaning — the language-neutral referent id shared
     by every glyph that denotes it (so a curated referent image is looked up once,
     not per-glyph). First sense, parentheticals dropped, leading 'to ' dropped."""
-    s = re.sub(r"\(.*?\)", "", gloss.split(";")[0]).strip().lower()
-    s = re.sub(r"^to\s+", "", s)
+    s = re.sub(r"^to\s+", "", _first_sense(gloss).lower())
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def referent_label(gloss):
+    """A referent's label: its identity rendered as prose, NOT a gloss restatement.
+
+    Only the first sense, because that is the sense the slug is minted from and so
+    the only one every denoter agrees on. A gloss's later senses are that glyph's
+    own — 会 'can; ... meeting, association; will, be likely to' and 可 'can' share
+    only 'can', and a shared referent labelled with 会's full gloss tells 可's reader
+    something false. Keeping 'to ' (unlike the slug) so 'to give' reads as English.
+
+    Whoever mints a referent, the label comes out the same — which is the point.
+    It used to be whichever denoter the build reached first, via setdefault."""
+    return _first_sense(gloss)
 
 
 def _as_list(reading):

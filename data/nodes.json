@@ -113,7 +113,7 @@
     {
       "id": "r:lid",
       "kind": "referent",
-      "label": "lid (top component)"
+      "label": "lid"
     },
     {
       "id": "g:大",
@@ -133,7 +133,7 @@
     {
       "id": "r:big",
       "kind": "referent",
-      "label": "big; huge; large"
+      "label": "big"
     },
     {
       "id": "g:天",
@@ -151,7 +151,7 @@
     {
       "id": "r:sky",
       "kind": "referent",
-      "label": "sky; heaven; day"
+      "label": "sky"
     },
     {
       "id": "g:小",
@@ -171,7 +171,7 @@
     {
       "id": "r:small",
       "kind": "referent",
-      "label": "small; little"
+      "label": "small"
     },
     {
       "id": "g:人",
@@ -242,7 +242,7 @@
     {
       "id": "r:power",
       "kind": "referent",
-      "label": "power; strength"
+      "label": "power"
     },
     {
       "id": "g:勹",
@@ -261,7 +261,7 @@
     {
       "id": "r:wrap",
       "kind": "referent",
-      "label": "wrap (enclosing component)"
+      "label": "wrap"
     },
     {
       "id": "g:包",
@@ -328,7 +328,7 @@
     {
       "id": "r:child",
       "kind": "referent",
-      "label": "child; son"
+      "label": "child"
     },
     {
       "id": "g:字",
@@ -346,7 +346,7 @@
     {
       "id": "r:character",
       "kind": "referent",
-      "label": "character; written word"
+      "label": "character"
     },
     {
       "id": "g:七",
@@ -508,7 +508,7 @@
     {
       "id": "r:divination",
       "kind": "referent",
-      "label": "divination (卜)"
+      "label": "divination"
     },
     {
       "id": "g:メ",
@@ -527,7 +527,7 @@
     {
       "id": "r:govern",
       "kind": "referent",
-      "label": "to govern; regulate (乂)"
+      "label": "to govern"
     },
     {
       "id": "g:川",
@@ -574,7 +574,7 @@
     {
       "id": "r:work",
       "kind": "referent",
-      "label": "work; labour"
+      "label": "work"
     },
     {
       "id": "g:江",
@@ -642,7 +642,7 @@
     {
       "id": "r:stop",
       "kind": "referent",
-      "label": "stop"
+      "label": "to stop"
     },
     {
       "id": "g:木",
@@ -662,7 +662,7 @@
     {
       "id": "r:tree",
       "kind": "referent",
-      "label": "tree; wood",
+      "label": "tree",
       "images": [
         {
           "file": "tree-01.jpg",
@@ -703,7 +703,7 @@
     {
       "id": "r:sun",
       "kind": "referent",
-      "label": "sun; day",
+      "label": "sun",
       "images": [
         {
           "file": "sun-clip.svg",
@@ -765,7 +765,7 @@
     {
       "id": "r:middle",
       "kind": "referent",
-      "label": "middle; inside"
+      "label": "middle"
     },
     {
       "id": "g:忠",
@@ -790,7 +790,7 @@
     {
       "id": "r:go-out",
       "kind": "referent",
-      "label": "to go out; exit"
+      "label": "to go out"
     },
     {
       "id": "g:右",
@@ -808,7 +808,7 @@
     {
       "id": "r:right",
       "kind": "referent",
-      "label": "right (side)"
+      "label": "right"
     },
     {
       "id": "g:左",
@@ -826,7 +826,7 @@
     {
       "id": "r:left",
       "kind": "referent",
-      "label": "left (side)"
+      "label": "left"
     },
     {
       "id": "g:王",
@@ -866,7 +866,7 @@
     {
       "id": "r:root",
       "kind": "referent",
-      "label": "root; origin"
+      "label": "root"
     },
     {
       "id": "g:円",
@@ -897,7 +897,7 @@
     {
       "id": "r:circle",
       "kind": "referent",
-      "label": "circle; yen"
+      "label": "circle"
     },
     {
       "id": "g:夕",
@@ -917,7 +917,7 @@
     {
       "id": "r:evening",
       "kind": "referent",
-      "label": "evening; dusk"
+      "label": "evening"
     },
     {
       "id": "g:上",
@@ -935,7 +935,7 @@
     {
       "id": "r:above",
       "kind": "referent",
-      "label": "above; up; on top"
+      "label": "above"
     },
     {
       "id": "g:下",
@@ -953,7 +953,7 @@
     {
       "id": "r:below",
       "kind": "referent",
-      "label": "below; down; under"
+      "label": "below"
     },
     {
       "id": "g:水",
@@ -1007,7 +1007,7 @@
     {
       "id": "r:earth",
       "kind": "referent",
-      "label": "earth; soil"
+      "label": "earth"
     },
     {
       "id": "g:刀",
@@ -1027,7 +1027,7 @@
     {
       "id": "r:knife",
       "kind": "referent",
-      "label": "knife; blade"
+      "label": "knife"
     },
     {
       "id": "g:弓",
@@ -1065,7 +1065,7 @@
     {
       "id": "r:silk",
       "kind": "referent",
-      "label": "silk; thread"
+      "label": "silk"
     },
     {
       "id": "g:白",
@@ -1101,7 +1101,7 @@
     {
       "id": "r:spring",
       "kind": "referent",
-      "label": "spring; fountain"
+      "label": "spring"
     },
     {
       "id": "g:線",
@@ -1119,7 +1119,7 @@
     {
       "id": "r:line",
       "kind": "referent",
-      "label": "line; thread; wire"
+      "label": "line"
     },
     {
       "id": "g:火",
@@ -1205,7 +1205,7 @@
     {
       "id": "r:toward",
       "kind": "referent",
-      "label": "toward; facing; direction"
+      "label": "toward"
     },
     {
       "id": "g:儿",
@@ -1231,7 +1231,7 @@
     {
       "id": "r:legs",
       "kind": "referent",
-      "label": "legs (walking-person radical)"
+      "label": "legs"
     },
     {
       "id": "g:厂",
@@ -1276,7 +1276,7 @@
     {
       "id": "r:corpse",
       "kind": "referent",
-      "label": "corpse (尸 radical)"
+      "label": "corpse"
     },
     {
       "id": "g:屋",
@@ -1303,7 +1303,7 @@
     {
       "id": "r:first",
       "kind": "referent",
-      "label": "first; before; earlier"
+      "label": "first"
     },
     {
       "id": "g:洗",
@@ -1330,7 +1330,7 @@
     {
       "id": "r:by-means-of",
       "kind": "referent",
-      "label": "by means of; with; according to; in order to; because of"
+      "label": "by means of"
     },
     {
       "id": "g:似",
@@ -1355,7 +1355,7 @@
     {
       "id": "r:of",
       "kind": "referent",
-      "label": "(classical) of; 's; it; to go"
+      "label": "of"
     },
     {
       "id": "g:合",
@@ -1375,7 +1375,7 @@
     {
       "id": "r:close",
       "kind": "referent",
-      "label": "to close; to combine; to fit"
+      "label": "to close"
     },
     {
       "id": "g:答",
@@ -1428,7 +1428,7 @@
     {
       "id": "r:roof",
       "kind": "referent",
-      "label": "roof (radical)"
+      "label": "roof"
     },
     {
       "id": "g:家",
@@ -1455,7 +1455,7 @@
     {
       "id": "r:not",
       "kind": "referent",
-      "label": "not; no"
+      "label": "not"
     },
     {
       "id": "g:否",
@@ -1487,7 +1487,7 @@
     {
       "id": "r:industry",
       "kind": "referent",
-      "label": "industry; occupation; karma"
+      "label": "industry"
     },
     {
       "id": "g:与",
@@ -1512,7 +1512,7 @@
     {
       "id": "r:and",
       "kind": "referent",
-      "label": "and; with"
+      "label": "and"
     },
     {
       "id": "g:手",
@@ -1557,7 +1557,7 @@
     {
       "id": "r:ball",
       "kind": "referent",
-      "label": "ball; pellet; pill"
+      "label": "ball"
     },
     {
       "id": "g:丁",
@@ -1577,7 +1577,7 @@
     {
       "id": "r:4th",
       "kind": "referent",
-      "label": "4th; nail; adult male"
+      "label": "4th"
     },
     {
       "id": "g:ナ",
@@ -1595,7 +1595,7 @@
     {
       "id": "r:left-hand-component",
       "kind": "referent",
-      "label": "left-hand component (ナ-shape)"
+      "label": "left-hand component"
     },
     {
       "id": "g:𠂇",
@@ -1645,7 +1645,7 @@
     {
       "id": "r:hook-stroke",
       "kind": "referent",
-      "label": "hook stroke (snake-shape)"
+      "label": "hook stroke"
     },
     {
       "id": "g:丆",
@@ -1681,7 +1681,7 @@
     {
       "id": "r:talent",
       "kind": "referent",
-      "label": "talent; ability; just now"
+      "label": "talent"
     },
     {
       "id": "g:材",
@@ -1707,7 +1707,7 @@
     {
       "id": "r:down-box",
       "kind": "referent",
-      "label": "down-box (enclosure radical)"
+      "label": "down-box"
     },
     {
       "id": "g:⺀",
@@ -1723,7 +1723,7 @@
     {
       "id": "r:two-dots",
       "kind": "referent",
-      "label": "two dots (radical)"
+      "label": "two dots"
     },
     {
       "id": "g:⺈",
@@ -1739,7 +1739,7 @@
     {
       "id": "r:knife-top",
       "kind": "referent",
-      "label": "knife-top (radical)"
+      "label": "knife-top"
     },
     {
       "id": "g:⺊",
@@ -1757,7 +1757,7 @@
     {
       "id": "r:ticked-stem",
       "kind": "referent",
-      "label": "ticked stem (upper component)"
+      "label": "ticked stem"
     },
     {
       "id": "g:⺌",
@@ -1791,7 +1791,7 @@
     {
       "id": "r:meat",
       "kind": "referent",
-      "label": "meat (radical form)"
+      "label": "meat"
     },
     {
       "id": "g:⻂",
@@ -1853,7 +1853,7 @@
     {
       "id": "r:stem-on-a-baseline",
       "kind": "referent",
-      "label": "stem on a baseline (component)"
+      "label": "stem on a baseline"
     },
     {
       "id": "g:万",
@@ -1899,7 +1899,7 @@
     {
       "id": "r:world",
       "kind": "referent",
-      "label": "world; generation; lifetime"
+      "label": "world"
     },
     {
       "id": "g:两",
@@ -1948,7 +1948,7 @@
     {
       "id": "r:measure-word",
       "kind": "referent",
-      "label": "measure word; the generic classifier (一个人); individual"
+      "label": "measure word"
     },
     {
       "id": "g:丷",
@@ -1966,7 +1966,7 @@
     {
       "id": "r:splayed-dots",
       "kind": "referent",
-      "label": "splayed dots (top component)"
+      "label": "splayed dots"
     },
     {
       "id": "g:为",
@@ -1991,7 +1991,7 @@
     {
       "id": "r:do",
       "kind": "referent",
-      "label": "to do; to act; to be"
+      "label": "to do"
     },
     {
       "id": "g:主",
@@ -2010,7 +2010,7 @@
     {
       "id": "r:master",
       "kind": "referent",
-      "label": "master; owner; main"
+      "label": "master"
     },
     {
       "id": "g:住",
@@ -2036,7 +2036,7 @@
     {
       "id": "r:mow",
       "kind": "referent",
-      "label": "mow; govern (cross-shaped component)"
+      "label": "mow"
     },
     {
       "id": "g:么",
@@ -2061,7 +2061,7 @@
     {
       "id": "r:what",
       "kind": "referent",
-      "label": "what; thus; how; why"
+      "label": "what"
     },
     {
       "id": "g:义",
@@ -2087,7 +2087,7 @@
     {
       "id": "r:meaning",
       "kind": "referent",
-      "label": "meaning; righteousness; justice"
+      "label": "meaning"
     },
     {
       "id": "g:议",
@@ -2131,7 +2131,7 @@
     {
       "id": "r:also",
       "kind": "referent",
-      "label": "also; too"
+      "label": "also"
     },
     {
       "id": "g:习",
@@ -2156,7 +2156,7 @@
     {
       "id": "r:practise",
       "kind": "referent",
-      "label": "practise; review"
+      "label": "practise"
     },
     {
       "id": "g:了",
@@ -2174,7 +2174,7 @@
     {
       "id": "r:complete",
       "kind": "referent",
-      "label": "to complete; to finish"
+      "label": "to complete"
     },
     {
       "id": "g:于",
@@ -2200,7 +2200,7 @@
     {
       "id": "r:in",
       "kind": "referent",
-      "label": "in; at; to; from (preposition)"
+      "label": "in"
     },
     {
       "id": "g:盂",
@@ -2237,7 +2237,7 @@
     {
       "id": "r:cloud",
       "kind": "referent",
-      "label": "cloud; say (literary)"
+      "label": "cloud"
     },
     {
       "id": "g:些",
@@ -2255,7 +2255,7 @@
     {
       "id": "r:some",
       "kind": "referent",
-      "label": "some; a few, a little; (after an adjective) a bit more"
+      "label": "some"
     },
     {
       "id": "g:什",
@@ -2286,7 +2286,7 @@
     {
       "id": "r:now",
       "kind": "referent",
-      "label": "now; today; present"
+      "label": "now"
     },
     {
       "id": "g:从",
@@ -2311,7 +2311,7 @@
     {
       "id": "r:from",
       "kind": "referent",
-      "label": "from; since; to follow"
+      "label": "from"
     },
     {
       "id": "g:他",
@@ -2329,7 +2329,7 @@
     {
       "id": "r:he",
       "kind": "referent",
-      "label": "he; him; other"
+      "label": "he"
     },
     {
       "id": "g:休",
@@ -2350,7 +2350,7 @@
     {
       "id": "r:rest",
       "kind": "referent",
-      "label": "to rest; to stop; cease"
+      "label": "to rest"
     },
     {
       "id": "g:会",
@@ -2375,7 +2375,7 @@
     {
       "id": "r:can",
       "kind": "referent",
-      "label": "can; know how to (a learned skill); meet; meeting, association; will, be likely to"
+      "label": "can"
     },
     {
       "id": "g:但",
@@ -2393,7 +2393,7 @@
     {
       "id": "r:but",
       "kind": "referent",
-      "label": "but; only; merely"
+      "label": "but"
     },
     {
       "id": "g:体",
@@ -2418,7 +2418,7 @@
     {
       "id": "r:body",
       "kind": "referent",
-      "label": "body; form; style"
+      "label": "body"
     },
     {
       "id": "g:作",
@@ -2436,7 +2436,7 @@
     {
       "id": "r:make",
       "kind": "referent",
-      "label": "to make; to do; to write (a work)"
+      "label": "to make"
     },
     {
       "id": "g:你",
@@ -2472,7 +2472,7 @@
     {
       "id": "r:use",
       "kind": "referent",
-      "label": "to use; to make/cause; envoy"
+      "label": "to use"
     },
     {
       "id": "g:億",
@@ -2518,7 +2518,7 @@
     {
       "id": "r:flat-topped",
       "kind": "referent",
-      "label": "flat-topped; towering; bald"
+      "label": "flat-topped"
     },
     {
       "id": "g:元",
@@ -2536,7 +2536,7 @@
     {
       "id": "r:origin",
       "kind": "referent",
-      "label": "origin; first; yuan (currency unit)"
+      "label": "origin"
     },
     {
       "id": "g:全",
@@ -2554,7 +2554,7 @@
     {
       "id": "r:whole",
       "kind": "referent",
-      "label": "whole; complete; entire"
+      "label": "whole"
     },
     {
       "id": "g:公",
@@ -2572,7 +2572,7 @@
     {
       "id": "r:public",
       "kind": "referent",
-      "label": "public; male (animal); impartial"
+      "label": "public"
     },
     {
       "id": "g:内",
@@ -2597,7 +2597,7 @@
     {
       "id": "r:inside",
       "kind": "referent",
-      "label": "inside; inner; within"
+      "label": "inside"
     },
     {
       "id": "g:冖",
@@ -2642,7 +2642,7 @@
     {
       "id": "r:army",
       "kind": "referent",
-      "label": "army; military"
+      "label": "army"
     },
     {
       "id": "g:冫",
@@ -2727,7 +2727,7 @@
     {
       "id": "r:knife-radical",
       "kind": "referent",
-      "label": "knife radical (side form of 刀)"
+      "label": "knife radical"
     },
     {
       "id": "g:分",
@@ -2747,7 +2747,7 @@
     {
       "id": "r:divide",
       "kind": "referent",
-      "label": "to divide; minute; point"
+      "label": "to divide"
     },
     {
       "id": "g:粉",
@@ -2772,7 +2772,7 @@
     {
       "id": "r:cut",
       "kind": "referent",
-      "label": "to cut; to slice"
+      "label": "to cut"
     },
     {
       "id": "g:利",
@@ -2790,7 +2790,7 @@
     {
       "id": "r:sharp",
       "kind": "referent",
-      "label": "sharp; profit; benefit"
+      "label": "sharp"
     },
     {
       "id": "g:制",
@@ -2808,7 +2808,7 @@
     {
       "id": "r:manufacture",
       "kind": "referent",
-      "label": "to manufacture; system; to control"
+      "label": "to manufacture"
     },
     {
       "id": "g:加",
@@ -2826,7 +2826,7 @@
     {
       "id": "r:add",
       "kind": "referent",
-      "label": "to add; plus"
+      "label": "to add"
     },
     {
       "id": "g:动",
@@ -2851,7 +2851,7 @@
     {
       "id": "r:move",
       "kind": "referent",
-      "label": "move; motion, movement; act, take action; touch (emotionally)"
+      "label": "move"
     },
     {
       "id": "g:匕",
@@ -2869,7 +2869,7 @@
     {
       "id": "r:spoon",
       "kind": "referent",
-      "label": "spoon; dagger"
+      "label": "spoon"
     },
     {
       "id": "g:化",
@@ -2890,7 +2890,7 @@
     {
       "id": "r:change",
       "kind": "referent",
-      "label": "change; to transform; -ize, -ify (suffix)"
+      "label": "change"
     },
     {
       "id": "g:北",
@@ -2960,7 +2960,7 @@
     {
       "id": "r:noon",
       "kind": "referent",
-      "label": "noon; 7th earthly branch"
+      "label": "noon"
     },
     {
       "id": "g:半",
@@ -3040,7 +3040,7 @@
     {
       "id": "r:go",
       "kind": "referent",
-      "label": "go; leave; remove"
+      "label": "go"
     },
     {
       "id": "g:又",
@@ -3058,7 +3058,7 @@
     {
       "id": "r:again",
       "kind": "referent",
-      "label": "again; also; anyway"
+      "label": "again"
     },
     {
       "id": "g:及",
@@ -3122,7 +3122,7 @@
     {
       "id": "r:send",
       "kind": "referent",
-      "label": "send; send out, emit, issue; develop; hair (fà)"
+      "label": "send"
     },
     {
       "id": "g:取",
@@ -3140,7 +3140,7 @@
     {
       "id": "r:take",
       "kind": "referent",
-      "label": "take; get, obtain; fetch; choose, select"
+      "label": "take"
     },
     {
       "id": "g:古",
@@ -3158,7 +3158,7 @@
     {
       "id": "r:ancient",
       "kind": "referent",
-      "label": "ancient; old"
+      "label": "ancient"
     },
     {
       "id": "g:只",
@@ -3176,7 +3176,7 @@
     {
       "id": "r:only",
       "kind": "referent",
-      "label": "only; just; merely"
+      "label": "only"
     },
     {
       "id": "g:可",
@@ -3210,7 +3210,7 @@
     {
       "id": "r:platform",
       "kind": "referent",
-      "label": "platform; stand; counter (for machines)"
+      "label": "platform"
     },
     {
       "id": "g:号",
@@ -3235,7 +3235,7 @@
     {
       "id": "r:number",
       "kind": "referent",
-      "label": "number; date (of the month); size"
+      "label": "number"
     },
     {
       "id": "g:各",
@@ -3256,7 +3256,7 @@
     {
       "id": "r:each",
       "kind": "referent",
-      "label": "each; every; various"
+      "label": "each"
     },
     {
       "id": "g:同",
@@ -3274,7 +3274,7 @@
     {
       "id": "r:same",
       "kind": "referent",
-      "label": "same; alike; together"
+      "label": "same"
     },
     {
       "id": "g:名",
@@ -3295,7 +3295,7 @@
     {
       "id": "r:name",
       "kind": "referent",
-      "label": "name; fame"
+      "label": "name"
     },
     {
       "id": "g:后",
@@ -3325,7 +3325,7 @@
     {
       "id": "r:behind",
       "kind": "referent",
-      "label": "behind; after; back; (also) queen"
+      "label": "behind"
     },
     {
       "id": "g:员",
@@ -3350,7 +3350,7 @@
     {
       "id": "r:member",
       "kind": "referent",
-      "label": "member; personnel"
+      "label": "member"
     },
     {
       "id": "g:和",
@@ -3398,7 +3398,7 @@
     {
       "id": "r:return",
       "kind": "referent",
-      "label": "to return; time(s)"
+      "label": "to return"
     },
     {
       "id": "g:因",
@@ -3415,7 +3415,7 @@
     {
       "id": "r:cause",
       "kind": "referent",
-      "label": "cause; reason"
+      "label": "cause"
     },
     {
       "id": "g:在",
@@ -3433,7 +3433,7 @@
     {
       "id": "r:exist",
       "kind": "referent",
-      "label": "to exist; to be (located) at"
+      "label": "to exist"
     },
     {
       "id": "g:地",
@@ -3451,7 +3451,7 @@
     {
       "id": "r:land",
       "kind": "referent",
-      "label": "land; earth; ground"
+      "label": "land"
     },
     {
       "id": "g:士",
@@ -3505,7 +3505,7 @@
     {
       "id": "r:place",
       "kind": "referent",
-      "label": "place; office; to handle"
+      "label": "place"
     },
     {
       "id": "g:夊",
@@ -3540,7 +3540,7 @@
     {
       "id": "r:outside",
       "kind": "referent",
-      "label": "outside; outer"
+      "label": "outside"
     },
     {
       "id": "g:多",
@@ -3558,7 +3558,7 @@
     {
       "id": "r:many",
       "kind": "referent",
-      "label": "many; much"
+      "label": "many"
     },
     {
       "id": "g:太",
@@ -3576,7 +3576,7 @@
     {
       "id": "r:too",
       "kind": "referent",
-      "label": "too; very; excessively"
+      "label": "too"
     },
     {
       "id": "g:央",
@@ -3594,7 +3594,7 @@
     {
       "id": "r:centre",
       "kind": "referent",
-      "label": "centre; central"
+      "label": "centre"
     },
     {
       "id": "g:头",
@@ -3636,7 +3636,7 @@
     {
       "id": "r:she",
       "kind": "referent",
-      "label": "she; her"
+      "label": "she"
     },
     {
       "id": "g:好",
@@ -3654,7 +3654,7 @@
     {
       "id": "r:good",
       "kind": "referent",
-      "label": "good; well"
+      "label": "good"
     },
     {
       "id": "g:如",
@@ -3675,7 +3675,7 @@
     {
       "id": "r:as",
       "kind": "referent",
-      "label": "as; like; as if; such as; if"
+      "label": "as"
     },
     {
       "id": "g:它",
@@ -3693,7 +3693,7 @@
     {
       "id": "r:it",
       "kind": "referent",
-      "label": "it (things, animals)"
+      "label": "it"
     },
     {
       "id": "g:实",
@@ -3718,7 +3718,7 @@
     {
       "id": "r:real",
       "kind": "referent",
-      "label": "real; solid; true"
+      "label": "real"
     },
     {
       "id": "g:寸",
@@ -3754,7 +3754,7 @@
     {
       "id": "r:few",
       "kind": "referent",
-      "label": "few; little"
+      "label": "few"
     },
     {
       "id": "g:尢",
@@ -3808,7 +3808,7 @@
     {
       "id": "r:oneself",
       "kind": "referent",
-      "label": "oneself; self"
+      "label": "oneself"
     },
     {
       "id": "g:起",
@@ -3860,7 +3860,7 @@
     {
       "id": "r:the-6th-earthly-branch",
       "kind": "referent",
-      "label": "the 6th earthly branch (snake)"
+      "label": "the 6th earthly branch"
     },
     {
       "id": "g:巴",
@@ -3880,7 +3880,7 @@
     {
       "id": "r:coiled-snake",
       "kind": "referent",
-      "label": "coiled snake; to cling to"
+      "label": "coiled snake"
     },
     {
       "id": "g:巾",
@@ -4015,7 +4015,7 @@
     {
       "id": "r:wide",
       "kind": "referent",
-      "label": "wide; broad"
+      "label": "wide"
     },
     {
       "id": "g:廴",
@@ -4102,7 +4102,7 @@
     {
       "id": "r:pull",
       "kind": "referent",
-      "label": "pull; draw; lead"
+      "label": "to pull"
     },
     {
       "id": "g:彐",
@@ -4144,7 +4144,7 @@
     {
       "id": "r:serve-as",
       "kind": "referent",
-      "label": "to serve as; ought; to be (at)"
+      "label": "to serve as"
     },
     {
       "id": "g:彡",
@@ -4214,7 +4214,7 @@
     {
       "id": "r:heart",
       "kind": "referent",
-      "label": "heart; centre; mind, intention"
+      "label": "heart"
     },
     {
       "id": "g:想",
@@ -4232,7 +4232,7 @@
     {
       "id": "r:think",
       "kind": "referent",
-      "label": "think; want, would like to; suppose; miss (someone)"
+      "label": "think"
     },
     {
       "id": "g:戈",
@@ -4275,7 +4275,7 @@
     {
       "id": "r:door",
       "kind": "referent",
-      "label": "door; household"
+      "label": "door"
     },
     {
       "id": "g:扌",
@@ -4306,7 +4306,7 @@
     {
       "id": "r:hit",
       "kind": "referent",
-      "label": "to hit; to strike; to play (a game)"
+      "label": "to hit"
     },
     {
       "id": "g:支",
@@ -4324,7 +4324,7 @@
     {
       "id": "r:branch",
       "kind": "referent",
-      "label": "branch; to support; to pay out"
+      "label": "branch"
     },
     {
       "id": "g:攴",
@@ -4362,7 +4362,7 @@
     {
       "id": "r:government",
       "kind": "referent",
-      "label": "government; politics"
+      "label": "government"
     },
     {
       "id": "g:教",
@@ -4380,7 +4380,7 @@
     {
       "id": "r:teach",
       "kind": "referent",
-      "label": "teach; teaching; religion"
+      "label": "teach"
     },
     {
       "id": "g:文",
@@ -4398,7 +4398,7 @@
     {
       "id": "r:writing",
       "kind": "referent",
-      "label": "writing; script; language"
+      "label": "writing"
     },
     {
       "id": "g:斗",
@@ -4483,7 +4483,7 @@
     {
       "id": "r:early",
       "kind": "referent",
-      "label": "early; morning"
+      "label": "early"
     },
     {
       "id": "g:明",
@@ -4501,7 +4501,7 @@
     {
       "id": "r:bright",
       "kind": "referent",
-      "label": "bright; clear"
+      "label": "bright"
     },
     {
       "id": "g:曰",
@@ -4536,7 +4536,7 @@
     {
       "id": "r:most",
       "kind": "referent",
-      "label": "most; -est; best"
+      "label": "most"
     },
     {
       "id": "g:月",
@@ -4556,7 +4556,7 @@
     {
       "id": "r:moon",
       "kind": "referent",
-      "label": "moon; month",
+      "label": "moon",
       "images": [
         {
           "file": "moon-clip.svg",
@@ -4588,7 +4588,7 @@
     {
       "id": "r:have",
       "kind": "referent",
-      "label": "to have; there is"
+      "label": "to have"
     },
     {
       "id": "g:条",
@@ -4613,7 +4613,7 @@
     {
       "id": "r:strip",
       "kind": "referent",
-      "label": "strip; measure word for long thin things; item, article"
+      "label": "strip"
     },
     {
       "id": "g:果",
@@ -4633,7 +4633,7 @@
     {
       "id": "r:fruit",
       "kind": "referent",
-      "label": "fruit; result; consequence"
+      "label": "fruit"
     },
     {
       "id": "g:課",
@@ -4665,7 +4665,7 @@
     {
       "id": "r:appearance",
       "kind": "referent",
-      "label": "appearance; kind; manner"
+      "label": "appearance"
     },
     {
       "id": "g:欠",
@@ -4703,7 +4703,7 @@
     {
       "id": "r:next",
       "kind": "referent",
-      "label": "next; secondary; order, sequence; time (occurrence)"
+      "label": "next"
     },
     {
       "id": "g:正",
@@ -4723,7 +4723,7 @@
     {
       "id": "r:correct",
       "kind": "referent",
-      "label": "correct; upright"
+      "label": "to correct"
     },
     {
       "id": "g:此",
@@ -4741,7 +4741,7 @@
     {
       "id": "r:this",
       "kind": "referent",
-      "label": "this; here; these"
+      "label": "this"
     },
     {
       "id": "g:歹",
@@ -4809,7 +4809,7 @@
     {
       "id": "r:pass-through",
       "kind": "referent",
-      "label": "pass through; string together"
+      "label": "pass through"
     },
     {
       "id": "g:母",
@@ -4829,7 +4829,7 @@
     {
       "id": "r:mother",
       "kind": "referent",
-      "label": "mother; female (animal)"
+      "label": "mother"
     },
     {
       "id": "g:海",
@@ -4905,7 +4905,7 @@
     {
       "id": "r:steam",
       "kind": "referent",
-      "label": "steam; air, gas; qi (vital energy)"
+      "label": "steam"
     },
     {
       "id": "g:気",
@@ -4978,7 +4978,7 @@
     {
       "id": "r:water-radical",
       "kind": "referent",
-      "label": "water radical (水字底)"
+      "label": "water radical"
     },
     {
       "id": "g:灬",
@@ -4994,7 +4994,7 @@
     {
       "id": "r:fire-radical",
       "kind": "referent",
-      "label": "fire radical (bottom form of 火)"
+      "label": "fire radical"
     },
     {
       "id": "g:然",
@@ -5012,7 +5012,7 @@
     {
       "id": "r:thus",
       "kind": "referent",
-      "label": "thus; so, like this; right, correct; however (然而)"
+      "label": "thus"
     },
     {
       "id": "g:爪",
@@ -5117,7 +5117,7 @@
     {
       "id": "r:cow",
       "kind": "referent",
-      "label": "cow; ox"
+      "label": "cow"
     },
     {
       "id": "g:物",
@@ -5140,7 +5140,7 @@
     {
       "id": "r:dog-radical",
       "kind": "referent",
-      "label": "dog radical (反犬旁)"
+      "label": "dog radical"
     },
     {
       "id": "g:玄",
@@ -5200,7 +5200,7 @@
     {
       "id": "r:appear",
       "kind": "referent",
-      "label": "to appear; present; current"
+      "label": "to appear"
     },
     {
       "id": "g:瓜",
@@ -5296,7 +5296,7 @@
     {
       "id": "r:raw",
       "kind": "referent",
-      "label": "raw; fresh; uncooked"
+      "label": "raw"
     },
     {
       "id": "g:用",
@@ -5365,7 +5365,7 @@
     {
       "id": "r:man",
       "kind": "referent",
-      "label": "man; male"
+      "label": "man"
     },
     {
       "id": "g:疋",
@@ -5478,7 +5478,7 @@
     {
       "id": "r:dish",
       "kind": "referent",
-      "label": "dish; vessel"
+      "label": "dish"
     },
     {
       "id": "g:目",
@@ -5537,7 +5537,7 @@
     {
       "id": "r:look",
       "kind": "referent",
-      "label": "to look; to watch; to read"
+      "label": "to look"
     },
     {
       "id": "g:真",
@@ -5555,7 +5555,7 @@
     {
       "id": "r:true",
       "kind": "referent",
-      "label": "true; real; genuine"
+      "label": "true"
     },
     {
       "id": "g:着",
@@ -5573,7 +5573,7 @@
     {
       "id": "r:wear",
       "kind": "referent",
-      "label": "to wear; to apply; to touch"
+      "label": "to wear"
     },
     {
       "id": "g:矛",
@@ -5674,7 +5674,7 @@
     {
       "id": "r:god",
       "kind": "referent",
-      "label": "god; spirit; deity"
+      "label": "god"
     },
     {
       "id": "g:禸",
@@ -5741,7 +5741,7 @@
     {
       "id": "r:seed",
       "kind": "referent",
-      "label": "seed; kind; type"
+      "label": "seed"
     },
     {
       "id": "g:穴",
@@ -5759,7 +5759,7 @@
     {
       "id": "r:cave",
       "kind": "referent",
-      "label": "cave; hole; acupuncture point"
+      "label": "cave"
     },
     {
       "id": "g:立",
@@ -5779,7 +5779,7 @@
     {
       "id": "r:stand",
       "kind": "referent",
-      "label": "stand"
+      "label": "to stand"
     },
     {
       "id": "g:竹",
@@ -5887,7 +5887,7 @@
     {
       "id": "r:beautiful",
       "kind": "referent",
-      "label": "beautiful; pretty"
+      "label": "beautiful"
     },
     {
       "id": "g:羽",
@@ -5938,7 +5938,7 @@
     {
       "id": "r:old-radical",
       "kind": "referent",
-      "label": "old radical (老字头)"
+      "label": "old radical"
     },
     {
       "id": "g:者",
@@ -5956,7 +5956,7 @@
     {
       "id": "r:er",
       "kind": "referent",
-      "label": "-er; one who; person"
+      "label": "-er"
     },
     {
       "id": "g:而",
@@ -5973,7 +5973,7 @@
     {
       "id": "r:and-then",
       "kind": "referent",
-      "label": "and-then; and yet"
+      "label": "and then"
     },
     {
       "id": "g:耒",
@@ -6061,7 +6061,7 @@
     {
       "id": "r:skill",
       "kind": "referent",
-      "label": "skill; ability; can, be able to; capable"
+      "label": "skill"
     },
     {
       "id": "g:臣",
@@ -6096,7 +6096,7 @@
     {
       "id": "r:self",
       "kind": "referent",
-      "label": "self; oneself; from, since"
+      "label": "self"
     },
     {
       "id": "g:至",
@@ -6315,7 +6315,7 @@
     {
       "id": "r:crossroads",
       "kind": "referent",
-      "label": "crossroads; go"
+      "label": "crossroads"
     },
     {
       "id": "g:衣",
@@ -6352,7 +6352,7 @@
     {
       "id": "r:cap",
       "kind": "referent",
-      "label": "cap; cover"
+      "label": "cap"
     },
     {
       "id": "g:西",
@@ -6419,7 +6419,7 @@
     {
       "id": "r:see",
       "kind": "referent",
-      "label": "see"
+      "label": "to see"
     },
     {
       "id": "g:角",
@@ -6439,7 +6439,7 @@
     {
       "id": "r:horn",
       "kind": "referent",
-      "label": "horn; angle"
+      "label": "horn"
     },
     {
       "id": "g:解",
@@ -6457,7 +6457,7 @@
     {
       "id": "r:untie",
       "kind": "referent",
-      "label": "to untie; to separate; to solve"
+      "label": "to untie"
     },
     {
       "id": "g:言",
@@ -6490,7 +6490,7 @@
     {
       "id": "r:speech-radical",
       "kind": "referent",
-      "label": "speech radical (言字旁)"
+      "label": "speech radical"
     },
     {
       "id": "g:认",
@@ -6515,7 +6515,7 @@
     {
       "id": "r:recognize",
       "kind": "referent",
-      "label": "recognize; identify; admit"
+      "label": "recognize"
     },
     {
       "id": "g:论",
@@ -6540,7 +6540,7 @@
     {
       "id": "r:discuss",
       "kind": "referent",
-      "label": "discuss; theory; view, opinion"
+      "label": "discuss"
     },
     {
       "id": "g:话",
@@ -6767,7 +6767,7 @@
     {
       "id": "r:cart",
       "kind": "referent",
-      "label": "cart; vehicle"
+      "label": "cart"
     },
     {
       "id": "g:辛",
@@ -6862,7 +6862,7 @@
     {
       "id": "r:that",
       "kind": "referent",
-      "label": "that; those"
+      "label": "that"
     },
     {
       "id": "g:都",
@@ -6880,7 +6880,7 @@
     {
       "id": "r:all",
       "kind": "referent",
-      "label": "all; both"
+      "label": "all"
     },
     {
       "id": "g:酉",
@@ -7088,7 +7088,7 @@
     {
       "id": "r:zero",
       "kind": "referent",
-      "label": "zero; fraction; remnant"
+      "label": "zero"
     },
     {
       "id": "g:青",
@@ -7224,7 +7224,7 @@
     {
       "id": "r:page",
       "kind": "referent",
-      "label": "page; head"
+      "label": "page"
     },
     {
       "id": "g:風",
@@ -7858,7 +7858,7 @@
     {
       "id": "r:hat-shape-component",
       "kind": "referent",
-      "label": "hat-shape component (person-roof)"
+      "label": "hat-shape component"
     },
     {
       "id": "g:㇐",
@@ -8527,7 +8527,7 @@
     {
       "id": "r:raise",
       "kind": "referent",
-      "label": "to raise; lift up"
+      "label": "to raise"
     },
     {
       "id": "w:下げる@jp",
@@ -8569,7 +8569,7 @@
     {
       "id": "r:please-give",
       "kind": "referent",
-      "label": "please (give me)"
+      "label": "please"
     },
     {
       "id": "w:入り口@jp",
@@ -8589,7 +8589,7 @@
     {
       "id": "r:entrance",
       "kind": "referent",
-      "label": "entrance; entryway"
+      "label": "entrance"
     },
     {
       "id": "w:大きい@jp",
@@ -8647,7 +8647,7 @@
     {
       "id": "r:great",
       "kind": "referent",
-      "label": "great; considerable"
+      "label": "great"
     },
     {
       "id": "w:大人@jp",
@@ -8702,7 +8702,7 @@
     {
       "id": "r:artificial",
       "kind": "referent",
-      "label": "artificial; man-made"
+      "label": "artificial"
     },
     {
       "id": "w:力いっぱい@jp",
@@ -8744,7 +8744,7 @@
     {
       "id": "r:climb",
       "kind": "referent",
-      "label": "to climb; to go up"
+      "label": "to climb"
     },
     {
       "id": "w:おはよう@jp",
@@ -8804,7 +8804,7 @@
     {
       "id": "r:among",
       "kind": "referent",
-      "label": "among; amidst; in the middle of"
+      "label": "among"
     },
     {
       "id": "w:从不@cn",
@@ -8824,7 +8824,7 @@
     {
       "id": "r:never",
       "kind": "referent",
-      "label": "never (in the past); never once"
+      "label": "never"
     },
     {
       "id": "w:之后@cn",
@@ -8844,7 +8844,7 @@
     {
       "id": "r:after",
       "kind": "referent",
-      "label": "after; afterwards; later"
+      "label": "after"
     },
     {
       "id": "w:大人@cn",
@@ -8879,7 +8879,7 @@
     {
       "id": "r:one-by-one",
       "kind": "referent",
-      "label": "one by one; one after another"
+      "label": "one by one"
     },
     {
       "id": "w:可以@cn",
@@ -8899,7 +8899,7 @@
     {
       "id": "r:can-may",
       "kind": "referent",
-      "label": "can; may; possible; OK"
+      "label": "can"
     },
     {
       "id": "w:以后@cn",
@@ -8934,7 +8934,7 @@
     {
       "id": "r:girl",
       "kind": "referent",
-      "label": "girl; young woman"
+      "label": "girl"
     },
     {
       "id": "w:日本@cn",
@@ -8974,7 +8974,7 @@
     {
       "id": "r:one-of",
       "kind": "referent",
-      "label": "one of (a group); among"
+      "label": "one of"
     },
     {
       "id": "w:夕べ@jp",
@@ -9042,7 +9042,7 @@
     {
       "id": "r:round",
       "kind": "referent",
-      "label": "round; circular"
+      "label": "round"
     },
     {
       "id": "w:可不@cn",
@@ -9062,7 +9062,7 @@
     {
       "id": "r:whether-or-not",
       "kind": "referent",
-      "label": "the 「可不可…」 A-not-A question frame (can or can't…?); colloq. 可不(是) = \"isn't it just; that's right\""
+      "label": "the 「可不可…」 A-not-A question frame"
     },
     {
       "id": "w:个人@cn",
@@ -9082,7 +9082,7 @@
     {
       "id": "r:individual",
       "kind": "referent",
-      "label": "individual; personal; (of) oneself"
+      "label": "individual"
     },
     {
       "id": "w:不如@cn",
@@ -9102,7 +9102,7 @@
     {
       "id": "r:inferior-to",
       "kind": "referent",
-      "label": "not as good as; inferior to; would be better to"
+      "label": "not as good as"
     },
     {
       "id": "w:人人@cn",
@@ -9122,7 +9122,7 @@
     {
       "id": "r:everyone",
       "kind": "referent",
-      "label": "everyone; everybody; each person"
+      "label": "everyone"
     },
     {
       "id": "w:不可@cn",
@@ -9142,7 +9142,7 @@
     {
       "id": "r:cannot",
       "kind": "referent",
-      "label": "cannot; must not; impossible (cf. reversed 可不)"
+      "label": "cannot"
     },
     {
       "id": "w:〜才@jp",
@@ -9162,7 +9162,7 @@
     {
       "id": "r:years-old",
       "kind": "referent",
-      "label": "… years old (age counter, e.g. 30才; substitutes for 歳)"
+      "label": "… years old"
     },
     {
       "id": "w:五つ@jp",
@@ -9281,7 +9281,7 @@
     {
       "id": "r:yen",
       "kind": "referent",
-      "label": "… yen (currency counter, e.g. 千円; the money sense of 円 «circle»)"
+      "label": "… yen"
     },
     {
       "id": "w:千円@jp",
@@ -9333,7 +9333,7 @@
     {
       "id": "r:unskillful",
       "kind": "referent",
-      "label": "unskillful; bad at (lit. below-hand)"
+      "label": "unskillful"
     },
     {
       "id": "w:女王@jp",
@@ -9352,7 +9352,7 @@
     {
       "id": "r:queen",
       "kind": "referent",
-      "label": "queen (lit. woman-king)"
+      "label": "queen"
     },
     {
       "id": "w:五月@jp",
@@ -9605,7 +9605,7 @@
     {
       "id": "r:skillful",
       "kind": "referent",
-      "label": "skillful; good at (lit. above-hand)"
+      "label": "skillful"
     },
     {
       "id": "w:女の子@jp",
@@ -9638,7 +9638,7 @@
     {
       "id": "r:5th",
       "kind": "referent",
-      "label": "the 5th (of the month); five days"
+      "label": "the 5th"
     },
     {
       "id": "w:回合@cn",
@@ -9673,7 +9673,7 @@
     {
       "id": "r:all-along",
       "kind": "referent",
-      "label": "all along; consistently; always (up to now)"
+      "label": "all along"
     },
     {
       "id": "w:左右@jp",
@@ -9692,7 +9692,7 @@
     {
       "id": "r:left-right",
       "kind": "referent",
-      "label": "left and right; both sides; (fig.) to control, sway"
+      "label": "left and right"
     },
     {
       "id": "w:木@jp",
@@ -9767,7 +9767,7 @@
     {
       "id": "r:volcano",
       "kind": "referent",
-      "label": "volcano (lit. fire-mountain)"
+      "label": "volcano"
     },
     {
       "id": "w:犬@jp",
@@ -9800,7 +9800,7 @@
     {
       "id": "r:6th",
       "kind": "referent",
-      "label": "the 6th (of the month); six days"
+      "label": "the 6th"
     },
     {
       "id": "w:王@jp",
@@ -9834,7 +9834,7 @@
     {
       "id": "r:exit",
       "kind": "referent",
-      "label": "to exit; to go out; to leave"
+      "label": "to exit"
     },
     {
       "id": "w:出口@jp",
@@ -9853,7 +9853,7 @@
     {
       "id": "r:way-out",
       "kind": "referent",
-      "label": "exit; way out"
+      "label": "exit"
     },
     {
       "id": "w:在于@cn",
@@ -9873,7 +9873,7 @@
     {
       "id": "r:consist-in",
       "kind": "referent",
-      "label": "to lie in; to consist in; to rest with; to depend on"
+      "label": "to lie in"
     },
     {
       "id": "w:人体@cn",
@@ -9913,7 +9913,7 @@
     {
       "id": "r:thirty",
       "kind": "referent",
-      "label": "thirty; 30"
+      "label": "thirty"
     },
     {
       "id": "w:右@jp",
@@ -10126,7 +10126,7 @@
     {
       "id": "r:1st",
       "kind": "referent",
-      "label": "the 1st (of the month)"
+      "label": "the 1st"
     },
     {
       "id": "w:二日@jp",
@@ -10145,7 +10145,7 @@
     {
       "id": "r:2nd",
       "kind": "referent",
-      "label": "the 2nd (of the month); two days"
+      "label": "the 2nd"
     },
     {
       "id": "w:三日@jp",
@@ -10164,7 +10164,7 @@
     {
       "id": "r:3rd",
       "kind": "referent",
-      "label": "the 3rd (of the month); three days"
+      "label": "the 3rd"
     },
     {
       "id": "w:七日@jp",
@@ -10183,7 +10183,7 @@
     {
       "id": "r:7th",
       "kind": "referent",
-      "label": "the 7th (of the month); seven days"
+      "label": "the 7th"
     },
     {
       "id": "w:九日@jp",
@@ -10202,7 +10202,7 @@
     {
       "id": "r:9th",
       "kind": "referent",
-      "label": "the 9th (of the month); nine days"
+      "label": "the 9th"
     },
     {
       "id": "w:天使@cn",
@@ -10257,7 +10257,7 @@
     {
       "id": "r:take-a-look",
       "kind": "referent",
-      "label": "to take a look; to have a (quick) look"
+      "label": "to take a look"
     },
     {
       "id": "w:十分@cn",
@@ -10292,7 +10292,7 @@
     {
       "id": "r:due-to",
       "kind": "referent",
-      "label": "due to; owing to; because of"
+      "label": "due to"
     },
     {
       "id": "w:合作@cn",
@@ -10312,7 +10312,7 @@
     {
       "id": "r:cooperation",
       "kind": "referent",
-      "label": "to cooperate; cooperation; collaboration"
+      "label": "to cooperate"
     },
     {
       "id": "w:如果@cn",
@@ -10332,7 +10332,7 @@
     {
       "id": "r:if",
       "kind": "referent",
-      "label": "if; in case; in the event that"
+      "label": "if"
     },
     {
       "id": "w:大使@cn",
@@ -10372,7 +10372,7 @@
     {
       "id": "r:unclear",
       "kind": "referent",
-      "label": "unclear; unknown; not understand"
+      "label": "unclear"
     },
     {
       "id": "w:二十@cn",
@@ -10427,7 +10427,7 @@
     {
       "id": "r:at-worst",
       "kind": "referent",
-      "label": "at worst; a big deal (usu. negated: 没什么大不了)"
+      "label": "at worst"
     },
     {
       "id": "w:分手@cn",
@@ -10447,7 +10447,7 @@
     {
       "id": "r:break-up",
       "kind": "referent",
-      "label": "to break up; to part; to say goodbye"
+      "label": "to break up"
     },
     {
       "id": "w:十二@cn",
@@ -10467,7 +10467,7 @@
     {
       "id": "r:twelve",
       "kind": "referent",
-      "label": "twelve; 12"
+      "label": "twelve"
     },
     {
       "id": "w:他人@cn",
@@ -10487,7 +10487,7 @@
     {
       "id": "r:others",
       "kind": "referent",
-      "label": "others; other people; another person"
+      "label": "others"
     },
     {
       "id": "w:后果@cn",
@@ -10507,7 +10507,7 @@
     {
       "id": "r:consequence",
       "kind": "referent",
-      "label": "consequence; aftermath; result"
+      "label": "consequence"
     },
     {
       "id": "w:工作@cn",
@@ -10527,7 +10527,7 @@
     {
       "id": "r:job",
       "kind": "referent",
-      "label": "work; job; to work"
+      "label": "work"
     },
     {
       "id": "w:工人@cn",
@@ -10547,7 +10547,7 @@
     {
       "id": "r:worker",
       "kind": "referent",
-      "label": "worker; laborer"
+      "label": "worker"
     },
     {
       "id": "w:明明@cn",
@@ -10567,7 +10567,7 @@
     {
       "id": "r:clearly",
       "kind": "referent",
-      "label": "clearly; obviously; plainly (contradicting expectation)"
+      "label": "clearly"
     },
     {
       "id": "w:作者@cn",
@@ -10587,7 +10587,7 @@
     {
       "id": "r:author",
       "kind": "referent",
-      "label": "author; writer"
+      "label": "author"
     },
     {
       "id": "w:有人@cn",
@@ -10607,7 +10607,7 @@
     {
       "id": "r:someone",
       "kind": "referent",
-      "label": "someone; some people; there is someone"
+      "label": "someone"
     },
     {
       "id": "w:水果@cn",
@@ -10642,7 +10642,7 @@
     {
       "id": "r:homework",
       "kind": "referent",
-      "label": "homework; assignment; task"
+      "label": "homework"
     },
     {
       "id": "w:八日@jp",
@@ -10661,7 +10661,7 @@
     {
       "id": "r:8th",
       "kind": "referent",
-      "label": "the 8th (of the month); eight days"
+      "label": "the 8th"
     },
     {
       "id": "w:十日@jp",
@@ -10680,7 +10680,7 @@
     {
       "id": "r:10th",
       "kind": "referent",
-      "label": "the 10th (of the month); ten days"
+      "label": "the 10th"
     },
     {
       "id": "w:水中@jp",
@@ -10700,7 +10700,7 @@
     {
       "id": "r:underwater",
       "kind": "referent",
-      "label": "in the water; underwater; submerged"
+      "label": "in the water"
     },
     {
       "id": "w:入力@jp",
@@ -10720,7 +10720,7 @@
     {
       "id": "r:input",
       "kind": "referent",
-      "label": "input; entering (data)"
+      "label": "input"
     },
     {
       "id": "w:王女@jp",
@@ -10740,7 +10740,7 @@
     {
       "id": "r:princess",
       "kind": "referent",
-      "label": "princess (king's daughter)"
+      "label": "princess"
     },
     {
       "id": "w:中々@jp",
@@ -10760,7 +10760,7 @@
     {
       "id": "r:considerably",
       "kind": "referent",
-      "label": "very; considerably; quite; (with neg.) by no means"
+      "label": "very"
     },
     {
       "id": "w:田んぼ@jp",
@@ -10811,7 +10811,7 @@
     {
       "id": "r:white-person",
       "kind": "referent",
-      "label": "white person; Caucasian"
+      "label": "white person"
     },
     {
       "id": "w:目玉@jp",
@@ -10851,7 +10851,7 @@
     {
       "id": "r:local",
       "kind": "referent",
-      "label": "local; of this locality"
+      "label": "local"
     },
     {
       "id": "w:人々@jp",
@@ -10961,7 +10961,7 @@
     {
       "id": "r:hello",
       "kind": "referent",
-      "label": "hello; good afternoon"
+      "label": "hello"
     },
     {
       "id": "w:いつ@jp",
@@ -11001,7 +11001,7 @@
     {
       "id": "r:truth",
       "kind": "referent",
-      "label": "truth; the real facts; the actual situation"
+      "label": "truth"
     },
     {
       "id": "w:天真@cn",
@@ -11021,7 +11021,7 @@
     {
       "id": "r:naive",
       "kind": "referent",
-      "label": "naive; innocent; artless"
+      "label": "naive"
     },
     {
       "id": "w:处在@cn",
@@ -11041,7 +11041,7 @@
     {
       "id": "r:be-situated",
       "kind": "referent",
-      "label": "to be (situated) in; to be in a position/state of"
+      "label": "to be in"
     },
     {
       "id": "w:大小@cn",
@@ -11076,7 +11076,7 @@
     {
       "id": "r:that-one",
       "kind": "referent",
-      "label": "that one; that; (colloq.) um… (hesitation filler)"
+      "label": "that one"
     },
     {
       "id": "w:小子@cn",
@@ -11096,7 +11096,7 @@
     {
       "id": "r:kid",
       "kind": "referent",
-      "label": "boy; kid; (derog.) brat; fellow"
+      "label": "boy"
     },
     {
       "id": "w:分子@cn",
@@ -11116,7 +11116,7 @@
     {
       "id": "r:molecule",
       "kind": "referent",
-      "label": "molecule; (math) numerator"
+      "label": "molecule"
     },
     {
       "id": "w:好看@cn",
@@ -11136,7 +11136,7 @@
     {
       "id": "r:good-looking",
       "kind": "referent",
-      "label": "good-looking; nice; pleasant to look at"
+      "label": "good-looking"
     },
     {
       "id": "w:一样@cn",
@@ -11206,7 +11206,7 @@
     {
       "id": "r:properly",
       "kind": "referent",
-      "label": "properly; nicely; thoroughly; to one's heart's content"
+      "label": "properly"
     },
     {
       "id": "w:人员@cn",
@@ -11241,7 +11241,7 @@
     {
       "id": "r:not-good",
       "kind": "referent",
-      "label": "not good; bad; not nice"
+      "label": "not good"
     },
     {
       "id": "w:回见@cn",
@@ -11261,7 +11261,7 @@
     {
       "id": "r:see-you-later",
       "kind": "referent",
-      "label": "see you later; bye (lit. return-see)"
+      "label": "see you later"
     },
     {
       "id": "w:美好@cn",
@@ -11281,7 +11281,7 @@
     {
       "id": "r:wonderful",
       "kind": "referent",
-      "label": "fine; wonderful; happy (of life, times)"
+      "label": "fine"
     },
     {
       "id": "w:真正@cn",
@@ -11316,7 +11316,7 @@
     {
       "id": "r:like-that",
       "kind": "referent",
-      "label": "that kind; like that; that way; such"
+      "label": "like that"
     },
     {
       "id": "w:正好@cn",
@@ -11336,7 +11336,7 @@
     {
       "id": "r:just-right",
       "kind": "referent",
-      "label": "just right; exactly; as it happens"
+      "label": "just right"
     },
     {
       "id": "w:那儿@cn",
@@ -11356,7 +11356,7 @@
     {
       "id": "r:there",
       "kind": "referent",
-      "label": "there; that place"
+      "label": "there"
     },
     {
       "id": "w:员工@cn",
@@ -11391,7 +11391,7 @@
     {
       "id": "r:sample",
       "kind": "referent",
-      "label": "sample; specimen"
+      "label": "sample"
     },
     {
       "id": "w:你好@cn",
@@ -11426,7 +11426,7 @@
     {
       "id": "r:in-progress",
       "kind": "referent",
-      "label": "in the process of; in the middle of; progressive-aspect marker (-ing)"
+      "label": "in the process of"
     },
     {
       "id": "w:只好@cn",
@@ -11446,7 +11446,7 @@
     {
       "id": "r:have-to",
       "kind": "referent",
-      "label": "have to; be forced to; the only thing to do is"
+      "label": "have to"
     },
     {
       "id": "w:相处@cn",
@@ -11466,7 +11466,7 @@
     {
       "id": "r:interact",
       "kind": "referent",
-      "label": "to interact; to get along (with sb); to be together"
+      "label": "to interact"
     },
     {
       "id": "w:正义@cn",
@@ -11486,7 +11486,7 @@
     {
       "id": "r:justice",
       "kind": "referent",
-      "label": "justice; righteousness"
+      "label": "justice"
     },
     {
       "id": "w:小小@cn",
@@ -11506,7 +11506,7 @@
     {
       "id": "r:tiny",
       "kind": "referent",
-      "label": "tiny; very small; little"
+      "label": "tiny"
     },
     {
       "id": "w:不见@cn",
@@ -11526,7 +11526,7 @@
     {
       "id": "r:disappear",
       "kind": "referent",
-      "label": "to disappear; to vanish; to be missing (lit. not-see)"
+      "label": "to disappear"
     },
     {
       "id": "w:日子@cn",
@@ -11546,7 +11546,7 @@
     {
       "id": "r:days",
       "kind": "referent",
-      "label": "day; date; (one's) days; livelihood"
+      "label": "day"
     },
     {
       "id": "w:那天@cn",
@@ -11616,7 +11616,7 @@
     {
       "id": "r:benefit",
       "kind": "referent",
-      "label": "benefit; advantage; good point"
+      "label": "benefit"
     },
     {
       "id": "w:有着@cn",
@@ -11652,7 +11652,7 @@
     {
       "id": "r:echo",
       "kind": "referent",
-      "label": "echo (esp. in the mountains)"
+      "label": "echo"
     },
     {
       "id": "w:用@jp",
@@ -11702,7 +11702,7 @@
     {
       "id": "r:sunrise",
       "kind": "referent",
-      "label": "sunrise; daybreak"
+      "label": "sunrise"
     },
     {
       "id": "w:イギリス人@jp",
@@ -11722,7 +11722,7 @@
     {
       "id": "r:british-person",
       "kind": "referent",
-      "label": "British person; English person"
+      "label": "British person"
     },
     {
       "id": "w:アメリカ人@jp",
@@ -11762,7 +11762,7 @@
     {
       "id": "r:turn-back",
       "kind": "referent",
-      "label": "turn one's head; turn round; later on"
+      "label": "turn one's head"
     },
     {
       "id": "w:手头@cn",
@@ -11782,7 +11782,7 @@
     {
       "id": "r:on-hand",
       "kind": "referent",
-      "label": "on hand; at hand; one's financial situation"
+      "label": "on hand"
     },
     {
       "id": "w:头儿@cn",
@@ -11802,7 +11802,7 @@
     {
       "id": "r:boss",
       "kind": "referent",
-      "label": "boss; chief; leader"
+      "label": "boss"
     },
     {
       "id": "w:フランス人@jp",
@@ -11842,7 +11842,7 @@
     {
       "id": "r:marble",
       "kind": "referent",
-      "label": "marble; glass marble (toy)"
+      "label": "marble"
     },
     {
       "id": "w:一万@jp",
@@ -11877,7 +11877,7 @@
     {
       "id": "r:twenty-thousand",
       "kind": "referent",
-      "label": "twenty thousand; 20,000"
+      "label": "twenty thousand"
     },
     {
       "id": "w:大切@jp",
@@ -11897,7 +11897,7 @@
     {
       "id": "r:important",
       "kind": "referent",
-      "label": "important; precious; valuable"
+      "label": "important"
     },
     {
       "id": "w:十万@jp",
@@ -11917,7 +11917,7 @@
     {
       "id": "r:hundred-thousand",
       "kind": "referent",
-      "label": "hundred thousand; 100,000"
+      "label": "hundred thousand"
     },
     {
       "id": "w:地下@cn",
@@ -11937,7 +11937,7 @@
     {
       "id": "r:underground",
       "kind": "referent",
-      "label": "underground; below ground"
+      "label": "underground"
     },
     {
       "id": "w:一下@cn",
@@ -11957,7 +11957,7 @@
     {
       "id": "r:briefly",
       "kind": "referent",
-      "label": "(for) a short while; briefly; a bit"
+      "label": "a short while"
     },
     {
       "id": "w:以为@cn",
@@ -11977,7 +11977,7 @@
     {
       "id": "r:assume",
       "kind": "referent",
-      "label": "to think; to assume (often mistakenly); to suppose"
+      "label": "to think"
     },
     {
       "id": "w:之下@cn",
@@ -11997,7 +11997,7 @@
     {
       "id": "r:beneath",
       "kind": "referent",
-      "label": "under; beneath; below"
+      "label": "under"
     },
     {
       "id": "w:因为@cn",
@@ -12017,7 +12017,7 @@
     {
       "id": "r:because",
       "kind": "referent",
-      "label": "because; because of; for the reason that"
+      "label": "because"
     },
     {
       "id": "w:下手@cn",
@@ -12037,7 +12037,7 @@
     {
       "id": "r:make-a-move",
       "kind": "referent",
-      "label": "to start; to put one's hand to; to make a move"
+      "label": "to start work"
     },
     {
       "id": "w:了解@cn",
@@ -12057,7 +12057,7 @@
     {
       "id": "r:understand",
       "kind": "referent",
-      "label": "to understand; to know; to find out"
+      "label": "to understand"
     },
     {
       "id": "w:切る@jp",
@@ -12109,7 +12109,7 @@
     {
       "id": "r:person-counter",
       "kind": "referent",
-      "label": "counter for people (e.g. 三人 «three people»); also nationality suffix «-jin», e.g. アメリカ人"
+      "label": "counter for people"
     },
     {
       "id": "w:女の人@jp",
@@ -12145,7 +12145,7 @@
     {
       "id": "r:docile",
       "kind": "referent",
-      "label": "quiet; docile; gentle; well-behaved"
+      "label": "quiet"
     },
     {
       "id": "w:太い@jp",
@@ -12166,7 +12166,7 @@
     {
       "id": "r:thick",
       "kind": "referent",
-      "label": "thick; fat; plump"
+      "label": "thick"
     },
     {
       "id": "w:少し@jp",
@@ -12187,7 +12187,7 @@
     {
       "id": "r:a-little",
       "kind": "referent",
-      "label": "a little; slightly; a few"
+      "label": "a little"
     },
     {
       "id": "w:少ない@jp",
@@ -12239,7 +12239,7 @@
     {
       "id": "r:cancellation",
       "kind": "referent",
-      "label": "cancellation; suspension; calling off"
+      "label": "cancellation"
     },
     {
       "id": "w:少女@jp",
@@ -12274,7 +12274,7 @@
     {
       "id": "r:at-or-below",
       "kind": "referent",
-      "label": "the following; below; at or below (a stated amount); hereinafter"
+      "label": "the following"
     },
     {
       "id": "w:作为@cn",
@@ -12294,7 +12294,7 @@
     {
       "id": "r:in-the-capacity-of",
       "kind": "referent",
-      "label": "as; in the capacity of; being (sth) (e.g. 作为员工之一 as one of the employees)"
+      "label": "as"
     },
     {
       "id": "w:一下子@cn",
@@ -12314,7 +12314,7 @@
     {
       "id": "r:all-at-once",
       "kind": "referent",
-      "label": "all at once; all of a sudden; in one go; in a short while"
+      "label": "all at once"
     },
     {
       "id": "w:为了@cn",
@@ -12334,7 +12334,7 @@
     {
       "id": "r:in-order-to",
       "kind": "referent",
-      "label": "in order to; for the sake of; for the purpose of"
+      "label": "in order to"
     },
     {
       "id": "w:手下@cn",
@@ -12354,7 +12354,7 @@
     {
       "id": "r:subordinate",
       "kind": "referent",
-      "label": "subordinate; underling; the people under one's command"
+      "label": "subordinate"
     },
     {
       "id": "w:広げる@jp",
@@ -12375,7 +12375,7 @@
     {
       "id": "r:spread-out",
       "kind": "referent",
-      "label": "to spread out; extend; widen; unfold"
+      "label": "to spread out"
     },
     {
       "id": "w:北@jp",
@@ -12411,7 +12411,7 @@
     {
       "id": "r:lamplight",
       "kind": "referent",
-      "label": "light; a lamp; illumination"
+      "label": "light"
     },
     {
       "id": "w:友人@jp",
@@ -12566,7 +12566,7 @@
     {
       "id": "r:foreigner",
       "kind": "referent",
-      "label": "foreigner; outsider"
+      "label": "foreigner"
     },
     {
       "id": "w:生@jp",
@@ -12601,7 +12601,7 @@
     {
       "id": "r:authentic",
       "kind": "referent",
-      "label": "true; real; authentic; genuine; not fake"
+      "label": "true"
     },
     {
       "id": "w:实力@cn",
@@ -12621,7 +12621,7 @@
     {
       "id": "r:actual-strength",
       "kind": "referent",
-      "label": "actual strength; real ability; (real) power; clout"
+      "label": "actual strength"
     },
     {
       "id": "w:实在@cn",
@@ -12641,7 +12641,7 @@
     {
       "id": "r:solid-honest",
       "kind": "referent",
-      "label": "real; solid; honest; down-to-earth; indeed"
+      "label": "real"
     },
     {
       "id": "w:明年@cn",
@@ -12822,7 +12822,7 @@
     {
       "id": "r:north-exit",
       "kind": "referent",
-      "label": "north exit; north entrance"
+      "label": "north exit"
     },
     {
       "id": "w:半@jp",
@@ -12873,7 +12873,7 @@
     {
       "id": "r:second-hand",
       "kind": "referent",
-      "label": "second-hand; used"
+      "label": "second-hand"
     },
     {
       "id": "w:市@jp",
@@ -12908,7 +12908,7 @@
     {
       "id": "r:municipal",
       "kind": "referent",
-      "label": "municipal; city-run"
+      "label": "municipal"
     },
     {
       "id": "w:シアトル市@jp",
@@ -13025,7 +13025,7 @@
     {
       "id": "r:machine-counter",
       "kind": "referent",
-      "label": "counter for machines and vehicles (e.g. 一台 «one machine»); also stand, platform"
+      "label": "counter for machines and vehicles"
     },
     {
       "id": "w:戸口@jp",
@@ -13045,7 +13045,7 @@
     {
       "id": "r:doorway",
       "kind": "referent",
-      "label": "doorway; entrance"
+      "label": "doorway"
     },
     {
       "id": "w:どれ@jp",
@@ -13065,7 +13065,7 @@
     {
       "id": "r:which",
       "kind": "referent",
-      "label": "which (of three or more)"
+      "label": "which"
     },
     {
       "id": "w:ノート@jp",
@@ -13085,7 +13085,7 @@
     {
       "id": "r:notebook",
       "kind": "referent",
-      "label": "notebook; notes"
+      "label": "notebook"
     },
     {
       "id": "w:さようなら@jp",
@@ -13105,7 +13105,7 @@
     {
       "id": "r:goodbye",
       "kind": "referent",
-      "label": "goodbye; farewell"
+      "label": "goodbye"
     },
     {
       "id": "w:发明@cn",
@@ -13125,7 +13125,7 @@
     {
       "id": "r:invention",
       "kind": "referent",
-      "label": "invention; to invent"
+      "label": "invention"
     },
     {
       "id": "w:同样@cn",
@@ -13160,7 +13160,7 @@
     {
       "id": "r:from-now-on",
       "kind": "referent",
-      "label": "from now on; thereafter"
+      "label": "from now on"
     },
     {
       "id": "w:中心@cn",
@@ -13195,7 +13195,7 @@
     {
       "id": "r:what-kind",
       "kind": "referent",
-      "label": "what kind; what sort of"
+      "label": "what kind"
     },
     {
       "id": "w:自由@cn",
@@ -13215,7 +13215,7 @@
     {
       "id": "r:freedom",
       "kind": "referent",
-      "label": "freedom; free; liberty"
+      "label": "freedom"
     },
     {
       "id": "w:动力@cn",
@@ -13235,7 +13235,7 @@
     {
       "id": "r:driving-force",
       "kind": "referent",
-      "label": "driving force; motive power"
+      "label": "driving force"
     },
     {
       "id": "w:如同@cn",
@@ -13270,7 +13270,7 @@
     {
       "id": "r:meet",
       "kind": "referent",
-      "label": "to meet with; an interview"
+      "label": "to meet with"
     },
     {
       "id": "w:不同@cn",
@@ -13290,7 +13290,7 @@
     {
       "id": "r:different",
       "kind": "referent",
-      "label": "different; not the same"
+      "label": "different"
     },
     {
       "id": "w:会员@cn",
@@ -13325,7 +13325,7 @@
     {
       "id": "r:since",
       "kind": "referent",
-      "label": "since (a past time)"
+      "label": "since"
     },
     {
       "id": "w:最好@cn",
@@ -13345,7 +13345,7 @@
     {
       "id": "r:best",
       "kind": "referent",
-      "label": "best; had better"
+      "label": "best"
     },
     {
       "id": "w:最后@cn",
@@ -13365,7 +13365,7 @@
     {
       "id": "r:final",
       "kind": "referent",
-      "label": "final; last; in the end"
+      "label": "final"
     },
     {
       "id": "w:一会@cn",
@@ -13385,7 +13385,7 @@
     {
       "id": "r:moment",
       "kind": "referent",
-      "label": "a moment; a little while"
+      "label": "a moment"
     },
     {
       "id": "w:心中@cn",
@@ -13405,7 +13405,7 @@
     {
       "id": "r:innermost-feelings",
       "kind": "referent",
-      "label": "innermost feelings; in one's heart"
+      "label": "innermost feelings"
     },
     {
       "id": "w:大会@cn",
@@ -13425,7 +13425,7 @@
     {
       "id": "r:conference",
       "kind": "referent",
-      "label": "conference; mass meeting; general assembly"
+      "label": "conference"
     },
     {
       "id": "w:合同@cn",
@@ -13445,7 +13445,7 @@
     {
       "id": "r:contract",
       "kind": "referent",
-      "label": "contract; agreement"
+      "label": "contract"
     },
     {
       "id": "w:不会@cn",
@@ -13465,7 +13465,7 @@
     {
       "id": "r:will-not",
       "kind": "referent",
-      "label": "will not; not likely to; not know how to"
+      "label": "will not"
     },
     {
       "id": "w:然后@cn",
@@ -13485,7 +13485,7 @@
     {
       "id": "r:then",
       "kind": "referent",
-      "label": "then; after that; afterwards"
+      "label": "then"
     },
     {
       "id": "w:那么@cn",
@@ -13555,7 +13555,7 @@
     {
       "id": "r:yes",
       "kind": "referent",
-      "label": "yes; certainly"
+      "label": "yes"
     },
     {
       "id": "w:元@jp",
@@ -13590,7 +13590,7 @@
     {
       "id": "r:yeah",
       "kind": "referent",
-      "label": "yeah; uh-huh (casual yes)"
+      "label": "yeah"
     },
     {
       "id": "w:穴@jp",
@@ -13625,7 +13625,7 @@
     {
       "id": "r:television",
       "kind": "referent",
-      "label": "television; TV"
+      "label": "television"
     },
     {
       "id": "w:北アメリカ@jp",
@@ -13680,7 +13680,7 @@
     {
       "id": "r:straight-line",
       "kind": "referent",
-      "label": "straight line; single character"
+      "label": "straight line"
     },
     {
       "id": "w:发作@cn",
@@ -13700,7 +13700,7 @@
     {
       "id": "r:flare-up",
       "kind": "referent",
-      "label": "flare-up; to break out (of an illness or anger); onset"
+      "label": "flare-up"
     },
     {
       "id": "w:自在@cn",
@@ -13720,7 +13720,7 @@
     {
       "id": "r:at-ease",
       "kind": "referent",
-      "label": "at ease; comfortable; free from constraint"
+      "label": "at ease"
     },
     {
       "id": "w:为什么@cn",
@@ -13740,7 +13740,7 @@
     {
       "id": "r:why",
       "kind": "referent",
-      "label": "why; for what reason; how come"
+      "label": "why"
     },
     {
       "id": "w:自然@cn",
@@ -13760,7 +13760,7 @@
     {
       "id": "r:nature",
       "kind": "referent",
-      "label": "nature; natural; naturally"
+      "label": "nature"
     },
     {
       "id": "w:一会儿@cn",
@@ -13795,7 +13795,7 @@
     {
       "id": "r:sure-enough",
       "kind": "referent",
-      "label": "sure enough; as expected; just as one thought"
+      "label": "sure enough"
     },
     {
       "id": "w:头发@cn",
@@ -13815,7 +13815,7 @@
     {
       "id": "r:hair",
       "kind": "referent",
-      "label": "hair; the hair on one's head"
+      "label": "hair"
     },
     {
       "id": "w:那些@cn",
@@ -13835,7 +13835,7 @@
     {
       "id": "r:those",
       "kind": "referent",
-      "label": "those; those ones"
+      "label": "those"
     },
     {
       "id": "w:如此@cn",
@@ -13885,7 +13885,7 @@
     {
       "id": "r:movement",
       "kind": "referent",
-      "label": "movement; action; motion (a performed act)"
+      "label": "movement"
     },
     {
       "id": "w:体会@cn",
@@ -13905,7 +13905,7 @@
     {
       "id": "r:know-from-experience",
       "kind": "referent",
-      "label": "know from experience; realize through personal experience"
+      "label": "know from experience"
     },
     {
       "id": "w:发动@cn",
@@ -13925,7 +13925,7 @@
     {
       "id": "r:launch",
       "kind": "referent",
-      "label": "to launch; to start up; to mobilize"
+      "label": "to launch"
     },
     {
       "id": "w:小心@cn",
@@ -13945,7 +13945,7 @@
     {
       "id": "r:be-careful",
       "kind": "referent",
-      "label": "be careful; take care; cautious"
+      "label": "be careful"
     },
     {
       "id": "w:只能@cn",
@@ -13965,7 +13965,7 @@
     {
       "id": "r:can-only",
       "kind": "referent",
-      "label": "can only; have no choice but to"
+      "label": "can only"
     },
     {
       "id": "w:想见@cn",
@@ -13985,7 +13985,7 @@
     {
       "id": "r:infer",
       "kind": "referent",
-      "label": "to infer; to gather; can well imagine"
+      "label": "to infer"
     },
     {
       "id": "w:公正@cn",
@@ -14005,7 +14005,7 @@
     {
       "id": "r:impartial",
       "kind": "referent",
-      "label": "impartial; just; fair"
+      "label": "impartial"
     },
     {
       "id": "w:能力@cn",
@@ -14025,7 +14025,7 @@
     {
       "id": "r:ability",
       "kind": "referent",
-      "label": "ability; capability; capacity"
+      "label": "ability"
     },
     {
       "id": "w:不能@cn",
@@ -14045,7 +14045,7 @@
     {
       "id": "r:unable",
       "kind": "referent",
-      "label": "cannot; unable to; may not"
+      "label": "cannot"
     },
     {
       "id": "w:真心@cn",
@@ -14065,7 +14065,7 @@
     {
       "id": "r:sincerity",
       "kind": "referent",
-      "label": "sincerity; wholehearted; true heart"
+      "label": "sincerity"
     },
     {
       "id": "w:为此@cn",
@@ -14085,7 +14085,7 @@
     {
       "id": "r:for-this-reason",
       "kind": "referent",
-      "label": "for this reason; to this end"
+      "label": "for this reason"
     },
     {
       "id": "w:一些@cn",
@@ -14105,7 +14105,7 @@
     {
       "id": "r:a-few",
       "kind": "referent",
-      "label": "a few; some; a little"
+      "label": "a few"
     },
     {
       "id": "w:教会@cn",
@@ -14125,7 +14125,7 @@
     {
       "id": "r:church",
       "kind": "referent",
-      "label": "church; congregation"
+      "label": "church"
     },
     {
       "id": "w:不然@cn",
@@ -14145,7 +14145,7 @@
     {
       "id": "r:otherwise",
       "kind": "referent",
-      "label": "otherwise; or else; not so"
+      "label": "otherwise"
     },
     {
       "id": "w:两者@cn",
@@ -14165,7 +14165,7 @@
     {
       "id": "r:both",
       "kind": "referent",
-      "label": "both (of the two); the two of them"
+      "label": "both"
     },
     {
       "id": "w:自动@cn",
@@ -14185,7 +14185,7 @@
     {
       "id": "r:automatic",
       "kind": "referent",
-      "label": "automatic; automatically; of one's own accord"
+      "label": "automatic"
     },
     {
       "id": "w:因此@cn",
@@ -14205,7 +14205,7 @@
     {
       "id": "r:therefore",
       "kind": "referent",
-      "label": "therefore; consequently; for this reason"
+      "label": "therefore"
     },
     {
       "id": "w:有些@cn",
@@ -14225,7 +14225,7 @@
     {
       "id": "r:somewhat",
       "kind": "referent",
-      "label": "somewhat; rather; some (of them)"
+      "label": "somewhat"
     },
     {
       "id": "w:相同@cn",
@@ -14260,7 +14260,7 @@
     {
       "id": "r:possible",
       "kind": "referent",
-      "label": "possible; probably; possibility"
+      "label": "possible"
     },
     {
       "id": "w:太る@jp",
@@ -14281,7 +14281,7 @@
     {
       "id": "r:grow-fat",
       "kind": "referent",
-      "label": "to grow fat; to gain weight"
+      "label": "to grow fat"
     },
     {
       "id": "w:打つ@jp",
@@ -14357,7 +14357,7 @@
     {
       "id": "r:calf",
       "kind": "referent",
-      "label": "calf; young cow"
+      "label": "calf"
     },
     {
       "id": "w:号@jp",
@@ -14408,7 +14408,7 @@
     {
       "id": "r:first-of-all",
       "kind": "referent",
-      "label": "first of all; to begin with"
+      "label": "first of all"
     },
     {
       "id": "w:先月@jp",
@@ -14448,7 +14448,7 @@
     {
       "id": "r:the-other-day",
       "kind": "referent",
-      "label": "the other day; recently"
+      "label": "the other day"
     },
     {
       "id": "w:先生@jp",
@@ -14468,7 +14468,7 @@
     {
       "id": "r:teacher",
       "kind": "referent",
-      "label": "teacher; doctor"
+      "label": "teacher"
     },
     {
       "id": "w:名人@jp",
@@ -14488,7 +14488,7 @@
     {
       "id": "r:expert",
       "kind": "referent",
-      "label": "expert; master"
+      "label": "expert"
     },
     {
       "id": "w:名字@jp",
@@ -14508,7 +14508,7 @@
     {
       "id": "r:surname",
       "kind": "referent",
-      "label": "surname; family name"
+      "label": "surname"
     },
     {
       "id": "w:２０１１年@jp",
@@ -14548,7 +14548,7 @@
     {
       "id": "r:believe",
       "kind": "referent",
-      "label": "to believe; to consider"
+      "label": "to believe"
     },
     {
       "id": "w:身体@cn",
@@ -14598,7 +14598,7 @@
     {
       "id": "r:serious",
       "kind": "referent",
-      "label": "serious; conscientious"
+      "label": "serious"
     },
     {
       "id": "w:军人@cn",
@@ -14618,7 +14618,7 @@
     {
       "id": "r:soldier",
       "kind": "referent",
-      "label": "soldier; serviceman"
+      "label": "soldier"
     },
     {
       "id": "w:文明@cn",
@@ -14638,7 +14638,7 @@
     {
       "id": "r:civilization",
       "kind": "referent",
-      "label": "civilization; civilized"
+      "label": "civilization"
     },
     {
       "id": "w:之内@cn",
@@ -14658,7 +14658,7 @@
     {
       "id": "r:within",
       "kind": "referent",
-      "label": "within; inside (a range)"
+      "label": "within"
     }
   ]
 }

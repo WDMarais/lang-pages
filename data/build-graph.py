@@ -24,6 +24,7 @@ from symbols_io import (
     load_symbols,
     to_card,
     card_audio_keys,
+    referent_label,
     referent_slug,
     resolve_senses,
     bind_programs,
@@ -138,8 +139,33 @@ def variant_map(symbols):
     return variant_of, canon_variants
 
 
+def resolve_referent_labels(nodes, cands):
+    """Give every referent a label that does not depend on build order.
+
+    The label used to be whichever denoter the build reached first, via setdefault —
+    so r:and, shared by 与 / 及 / 和, was labelled "and; with; to give" because 与
+    happened to be walked first and lent everyone its give-sense.
+
+    A referent is identity and its label is that identity in prose, so the label is
+    each denoter's FIRST sense (referent_label) — the only sense they all share.
+    Denoters can still offer different first senses, because a word may denote a
+    referent its own gloss doesn't name (一台 "one machine" → r:one). So prefer the
+    candidates that DO name the referent — referent_slug(label) == the slug — which
+    picks 'one' over 'one machine' and 'jade' over 'ball'. Among those, the longest
+    wins so 'to use' beats 'use', ties broken lexicographically. When no denoter names
+    it (authored word slugs like r:machine-counter), the same rule runs over all of
+    them."""
+    for rid, glosses in cands.items():
+        labels = {referent_label(g) for g in glosses if g}
+        if not labels:
+            continue
+        exact = {s for s in labels if referent_slug(s) == rid[2:]}
+        nodes[rid]["label"] = sorted(exact or labels, key=lambda s: (-len(s), s))[0]
+
+
 def build():
     nodes, bindings, edges, clusters = {}, [], [], []
+    ref_label_cands = {}   # r:<slug> → every denoter's gloss; resolved after the walk
     seen_edge = set()
     symbols = load_symbols()
     real = set(symbols)
@@ -188,10 +214,12 @@ def build():
             bindings.append(make_binding(g, "jp", c["jp"], c))
 
             # denotes → bare referent stub, keyed by the ASCII meaning-slug so the
-            # concept spine carries no CN/JP bias; the full gloss rides as label.
+            # concept spine carries no CN/JP bias. The label is resolved later, once
+            # every denoter is known (see resolve_referent_labels).
             gloss = c["cn"].get("gloss") or c["jp"].get("gloss", "")
             rid = f"r:{referent_slug(gloss)}"
-            nodes.setdefault(rid, {"id": rid, "kind": "referent", "label": gloss})
+            nodes.setdefault(rid, {"id": rid, "kind": "referent", "label": ""})
+            ref_label_cands.setdefault(rid, []).append(gloss)
             edges.append({"from": f"g:{g}", "to": rid, "kind": "denotes"})
 
             # A polysemous glyph denotes MORE than its primary gloss: each non-primary
@@ -205,8 +233,8 @@ def build():
                 if not sense["denotes"]:
                     continue
                 srid = f"r:{sense['denotes']}"
-                nodes.setdefault(srid, {"id": srid, "kind": "referent",
-                                        "label": sense["gloss"]})
+                nodes.setdefault(srid, {"id": srid, "kind": "referent", "label": ""})
+                ref_label_cands.setdefault(srid, []).append(sense["gloss"])
                 edges.append({"from": f"g:{g}", "to": srid, "kind": "denotes"})
                 view = {"gloss": sense["gloss"], "denotes": sense["denotes"]}
                 for lang, keyf in (("cn", cn_key), ("jp", kana_key)):
@@ -295,9 +323,13 @@ def build():
                 # minted by the glyph card). A compound word (二人) denotes a
                 # referent no glyph card owns, so the word mints it here.
                 rid = f"r:{w['denotes']}"
-                nodes.setdefault(rid, {"id": rid, "kind": "referent",
-                                       "label": w.get("gloss", "")})
+                nodes.setdefault(rid, {"id": rid, "kind": "referent", "label": ""})
+                ref_label_cands.setdefault(rid, []).append(w.get("gloss", ""))
                 edges.append({"from": wid, "to": rid, "kind": "denotes"})
+
+    # Every denoter is known now (glyph primary senses, non-primary senses, words), so
+    # the referent labels can be resolved order-independently.
+    resolve_referent_labels(nodes, ref_label_cands)
 
     # variant relation: the canonical node advertises its twin forms (UI collapses
     # them to a badge); a twin that is itself a real symbol (ナ, carrying WK Narwhal)
