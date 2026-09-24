@@ -34,12 +34,25 @@ HANZI = ROOT / "shared" / "hanzi-data"
 SHORT = {"wanikani": "WK", "pandanese": "PD"}
 
 
-def load_decomp():
-    """fetch-decomp.py's suggest(), imported by path (its name has a hyphen)."""
-    spec = importlib.util.spec_from_file_location("fetch_decomp", DATA / "fetch-decomp.py")
+def _by_path(name, filename):
+    """Import one of the hyphen-named build scripts (no dotted name to import)."""
+    spec = importlib.util.spec_from_file_location(name, DATA / filename)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-    return mod.suggest
+    return mod
+
+
+def load_decomp():
+    """fetch-decomp.py's suggest(), imported by path (its name has a hyphen)."""
+    return _by_path("fetch_decomp", "fetch-decomp.py").suggest
+
+
+def load_variant_map():
+    """build-graph's own folding map, so triage can't drift from what the build does:
+    a twin form (覀→西) or another script form (见→見) composes AS its canonical and
+    mints no node of its own. Without this a folded form reads as NEW and invites a
+    card that would immediately be folded away."""
+    return _by_path("build_graph", "build-graph.py").variant_map
 
 
 def is_kana(ch):
@@ -58,6 +71,7 @@ def cdn_has(glyph):
 class Graph:
     def __init__(self):
         self.symbols = load_symbols()
+        self.folds_to, _ = load_variant_map()(self.symbols)
         nodes = read_json(DATA / "nodes.json")["nodes"]
         self.frontier = {n["glyph"] for n in nodes if n["kind"] == "glyph" and n.get("frontier")}
         self.referents = {n["id"] for n in nodes if n["kind"] == "referent"}
@@ -71,7 +85,20 @@ class Graph:
     def status(self, g):
         if g in self.symbols:
             return "card"
+        if g in self.folds_to:
+            return "folded"
         return "frontier" if g in self.frontier else "new"
+
+    def fold_axis(self, g):
+        """How g folds onto its canonical — a declared variant twin, or a script form."""
+        canon = self.symbols.get(self.folds_to[g]) or {}
+        if g in (canon.get("variants") or []):
+            return "variants"
+        script = canon.get("script") or {}
+        for axis in ("simplified", "traditional", "shinjitai"):
+            if any(f.get("glyph") == g for f in script.get(axis) or []):
+                return f"script.{axis}"
+        return "script form"
 
     def words_with(self, surface=None, part=None):
         return [w for w in self.words
@@ -93,15 +120,30 @@ def fmt_word(w):
 
 
 def fmt_parts(graph, parts):
-    return " ".join(f"{p}[{graph.status(p)}]" for p in parts) or "—"
+    def one(p):
+        st = graph.status(p)
+        return f"{p}[{st}→{graph.folds_to[p]}]" if st == "folded" else f"{p}[{st}]"
+    return " ".join(one(p) for p in parts) or "—"
 
 
 def triage_glyph(graph, g, mmah, offline):
     st = graph.status(g)
+    if st == "folded":
+        canon = graph.folds_to[g]
+        print(f"{g}  FOLDED → {canon}")
+        print(f"   {canon} declares it ({graph.fold_axis(g)}), so a part written {g} "
+              f"resolves onto g:{canon} and mints no node of its own.")
+        print(f"   nothing to author — triage {canon} instead.")
+        same = graph.words_with(surface=g)
+        if same:
+            print(f"   word entries: {', '.join(fmt_word(w) for w in same)}")
+        return
     print(f"{g}  {st.upper()}")
     if st == "card":
         sym = graph.symbols[g]
         flags = [sym.get("class", "?")] + (["form_only"] if sym.get("form_only") else [])
+        if g in graph.folds_to:   # carded AND folded (覀 keeps its card, composes as 西)
+            flags.append(f"composes as {graph.folds_to[g]} ({graph.fold_axis(g)})")
         print(f"   {' · '.join(flags)}")
         progs = sym.get("programs") or []
         print("   programs: " + ("; ".join(fmt_program(p) for p in progs) or "none"))
