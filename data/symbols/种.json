@@ -1,0 +1,44 @@
+{
+  "glyph": "种",
+  "cp": "U+79CD",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "禾",
+    "中"
+  ],
+  "readings": {
+    "cn": {
+      "name": "种",
+      "reading": "zhǒng",
+      "gloss": "seed; kind; type",
+      "extra": "种子、一种、种类 · ⿰禾中（禾表义，中表声）· 繁体 種"
+    },
+    "jp": {
+      "name": "種",
+      "reading": "シュ",
+      "gloss": "seed; kind",
+      "extra": "漢字「種」(たね · シュ) · 種類(しゅるい)、品種(ひんしゅ)、種(たね)"
+    }
+  },
+  "script": {
+    "traditional": [
+      {
+        "glyph": "種"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "seed",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

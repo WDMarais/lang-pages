@@ -1,0 +1,36 @@
+{
+  "glyph": "多",
+  "cp": "U+591A",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "夕"
+  ],
+  "readings": {
+    "cn": {
+      "name": "多",
+      "reading": "duō",
+      "gloss": "many; much",
+      "extra": "很多、多少、许多 · ⿱夕夕（两「夕」相叠，以夜复夜示其多）"
+    },
+    "jp": {
+      "name": "多",
+      "reading": "おおい",
+      "gloss": "many; much",
+      "extra": "漢字「多」(おお-い · タ) · 多い(おおい)、多分(たぶん)、多数(たすう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "many",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

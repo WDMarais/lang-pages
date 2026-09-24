@@ -1,0 +1,37 @@
+{
+  "glyph": "全",
+  "cp": "U+5168",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "𠆢",
+    "王"
+  ],
+  "readings": {
+    "cn": {
+      "name": "全",
+      "reading": "quán",
+      "gloss": "whole; complete; entire",
+      "extra": "全部、安全、完全 · 今形⿱𠆢王（六画）· 古说⿱入玉「纯玉为全」"
+    },
+    "jp": {
+      "name": "全",
+      "reading": "ゼン",
+      "gloss": "whole; all",
+      "extra": "漢字「全」(まった-く · ゼン) · 全部(ぜんぶ)、安全(あんぜん)、全然(ぜんぜん)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "whole",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

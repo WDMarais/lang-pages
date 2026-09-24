@@ -102,11 +102,6 @@
       "kind": "denotes"
     },
     {
-      "from": "g:入",
-      "to": "g:全",
-      "kind": "composes"
-    },
-    {
       "from": "g:力",
       "to": "r:power",
       "kind": "denotes"
@@ -924,6 +919,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:全",
+      "to": "r:whole",
+      "kind": "denotes"
+    },
+    {
       "from": "g:公",
       "to": "r:public",
       "kind": "denotes"
@@ -981,6 +981,16 @@
     {
       "from": "g:切",
       "to": "r:cut",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:利",
+      "to": "r:sharp",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:制",
+      "to": "r:manufacture",
       "kind": "denotes"
     },
     {
@@ -1176,6 +1186,11 @@
     {
       "from": "g:外",
       "to": "r:outside",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:多",
+      "to": "r:many",
       "kind": "denotes"
     },
     {
@@ -1823,6 +1838,11 @@
     {
       "from": "g:禾",
       "to": "r:grain",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:种",
+      "to": "r:seed",
       "kind": "denotes"
     },
     {
@@ -3396,6 +3416,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:𠆢",
+      "to": "g:全",
+      "kind": "composes"
+    },
+    {
+      "from": "g:王",
+      "to": "g:全",
+      "kind": "composes"
+    },
+    {
       "from": "g:八",
       "to": "g:公",
       "kind": "composes"
@@ -3455,6 +3485,26 @@
       "to": "g:切",
       "kind": "composes",
       "role": "semantic"
+    },
+    {
+      "from": "g:禾",
+      "to": "g:利",
+      "kind": "composes"
+    },
+    {
+      "from": "g:刂",
+      "to": "g:利",
+      "kind": "composes"
+    },
+    {
+      "from": "g:巾",
+      "to": "g:制",
+      "kind": "composes"
+    },
+    {
+      "from": "g:刂",
+      "to": "g:制",
+      "kind": "composes"
     },
     {
       "from": "g:力",
@@ -3749,6 +3799,11 @@
     {
       "from": "g:卜",
       "to": "g:外",
+      "kind": "composes"
+    },
+    {
+      "from": "g:夕",
+      "to": "g:多",
       "kind": "composes"
     },
     {
@@ -4510,6 +4565,16 @@
     {
       "from": "g:木",
       "to": "g:禾",
+      "kind": "composes"
+    },
+    {
+      "from": "g:禾",
+      "to": "g:种",
+      "kind": "composes"
+    },
+    {
+      "from": "g:中",
+      "to": "g:种",
       "kind": "composes"
     },
     {
@@ -9950,6 +10015,66 @@
     {
       "from": "w:内心@cn",
       "to": "r:innermost-feelings",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:认",
+      "to": "w:认真@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:真",
+      "to": "w:认真@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:认真@cn",
+      "to": "r:serious",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:军",
+      "to": "w:军人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:军人@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:军人@cn",
+      "to": "r:soldier",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:文",
+      "to": "w:文明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:明",
+      "to": "w:文明@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:文明@cn",
+      "to": "r:civilization",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:之",
+      "to": "w:之内@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "g:内",
+      "to": "w:之内@cn",
+      "kind": "composes"
+    },
+    {
+      "from": "w:之内@cn",
+      "to": "r:within",
       "kind": "denotes"
     },
     {

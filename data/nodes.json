@@ -217,21 +217,12 @@
         "image": ""
       },
       "cnAudioKey": "ru4",
-      "cnExAudioKey": "quan2",
-      "jpAudioKey": "hairu",
-      "jpExAudioKey": "zen"
+      "jpAudioKey": "hairu"
     },
     {
       "id": "r:enter",
       "kind": "referent",
       "label": "to enter"
-    },
-    {
-      "id": "g:全",
-      "kind": "glyph",
-      "glyph": "全",
-      "tier": null,
-      "frontier": true
     },
     {
       "id": "g:力",
@@ -2548,6 +2539,24 @@
       "label": "origin; first; yuan (currency unit)"
     },
     {
+      "id": "g:全",
+      "kind": "glyph",
+      "glyph": "全",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "quan2",
+      "jpAudioKey": "zen"
+    },
+    {
+      "id": "r:whole",
+      "kind": "referent",
+      "label": "whole; complete; entire"
+    },
+    {
       "id": "g:公",
       "kind": "glyph",
       "glyph": "公",
@@ -2764,6 +2773,42 @@
       "id": "r:cut",
       "kind": "referent",
       "label": "to cut; to slice"
+    },
+    {
+      "id": "g:利",
+      "kind": "glyph",
+      "glyph": "利",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "li4",
+      "jpAudioKey": "ri"
+    },
+    {
+      "id": "r:sharp",
+      "kind": "referent",
+      "label": "sharp; profit; benefit"
+    },
+    {
+      "id": "g:制",
+      "kind": "glyph",
+      "glyph": "制",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhi4",
+      "jpAudioKey": "sei"
+    },
+    {
+      "id": "r:manufacture",
+      "kind": "referent",
+      "label": "to manufacture; system; to control"
     },
     {
       "id": "g:加",
@@ -3496,6 +3541,24 @@
       "id": "r:outside",
       "kind": "referent",
       "label": "outside; outer"
+    },
+    {
+      "id": "g:多",
+      "kind": "glyph",
+      "glyph": "多",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "duo1",
+      "jpAudioKey": "ooi"
+    },
+    {
+      "id": "r:many",
+      "kind": "referent",
+      "label": "many; much"
     },
     {
       "id": "g:太",
@@ -5654,6 +5717,31 @@
           "source": "https://commons.wikimedia.org/wiki/File:2022-07-13_reifer_Weizen_03.jpg"
         }
       ]
+    },
+    {
+      "id": "g:种",
+      "kind": "glyph",
+      "glyph": "种",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "zhong3",
+      "jpAudioKey": "shu",
+      "script": {
+        "traditional": [
+          {
+            "glyph": "種"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r:seed",
+      "kind": "referent",
+      "label": "seed; kind; type"
     },
     {
       "id": "g:穴",
@@ -14486,6 +14574,86 @@
         "level": 5
       },
       "cnAudioKey": "nei4xin1"
+    },
+    {
+      "id": "w:认真@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "认真",
+      "reading": "rènzhēn",
+      "gloss": "serious; conscientious",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "ren4zhen1"
+    },
+    {
+      "id": "r:serious",
+      "kind": "referent",
+      "label": "serious; conscientious"
+    },
+    {
+      "id": "w:军人@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "军人",
+      "reading": "jūnrén",
+      "gloss": "soldier; serviceman",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "jun1ren2"
+    },
+    {
+      "id": "r:soldier",
+      "kind": "referent",
+      "label": "soldier; serviceman"
+    },
+    {
+      "id": "w:文明@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "文明",
+      "reading": "wénmíng",
+      "gloss": "civilization; civilized",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "wen2ming2"
+    },
+    {
+      "id": "r:civilization",
+      "kind": "referent",
+      "label": "civilization; civilized"
+    },
+    {
+      "id": "w:之内@cn",
+      "kind": "word",
+      "tier": "word",
+      "audience": "cn",
+      "glyph": "之内",
+      "reading": "zhīnèi",
+      "gloss": "within; inside (a range)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      },
+      "cnAudioKey": "zhi1nei4"
+    },
+    {
+      "id": "r:within",
+      "kind": "referent",
+      "label": "within; inside (a range)"
     }
   ]
 }

@@ -925,6 +925,20 @@
         }
       ]
     },
+    "duo1": {
+      "key": "duo1",
+      "pinyin": "duō",
+      "base": "duo",
+      "tone": 1,
+      "zhuyin": "ㄉㄨㄛ",
+      "glyphs": [
+        {
+          "glyph": "多",
+          "gloss": "many; much",
+          "rank": 0
+        }
+      ]
+    },
     "er2": {
       "key": "er2",
       "pinyin": "ér",
@@ -1995,6 +2009,11 @@
       "zhuyin": "ㄌㄧ",
       "glyphs": [
         {
+          "glyph": "利",
+          "gloss": "sharp; profit; benefit",
+          "rank": 0
+        },
+        {
           "glyph": "力",
           "gloss": "power; strength",
           "rank": 0
@@ -2788,7 +2807,7 @@
       "glyphs": [
         {
           "glyph": "全",
-          "gloss": "whole",
+          "gloss": "whole; complete; entire",
           "rank": 0
         },
         {
@@ -4666,6 +4685,11 @@
       "zhuyin": "ㄓ",
       "glyphs": [
         {
+          "glyph": "制",
+          "gloss": "to manufacture; system; to control",
+          "rank": 0
+        },
+        {
           "glyph": "至",
           "gloss": "arrive",
           "rank": 0
@@ -4692,6 +4716,20 @@
         {
           "glyph": "忠",
           "gloss": "loyal",
+          "rank": 0
+        }
+      ]
+    },
+    "zhong3": {
+      "key": "zhong3",
+      "pinyin": "zhǒng",
+      "base": "zhong",
+      "tone": 3,
+      "zhuyin": "ㄓㄨㄥ",
+      "glyphs": [
+        {
+          "glyph": "种",
+          "gloss": "seed; kind; type",
           "rank": 0
         }
       ]

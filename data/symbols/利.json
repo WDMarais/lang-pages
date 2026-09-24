@@ -1,0 +1,37 @@
+{
+  "glyph": "利",
+  "cp": "U+5229",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "禾",
+    "刂"
+  ],
+  "readings": {
+    "cn": {
+      "name": "利",
+      "reading": "lì",
+      "gloss": "sharp; profit; benefit",
+      "extra": "锋利、利益、顺利 · ⿰禾刂（以刀收割禾，故为「利」）"
+    },
+    "jp": {
+      "name": "利",
+      "reading": "リ",
+      "gloss": "profit; advantage",
+      "extra": "漢字「利」(き-く · リ) · 利益(りえき)、便利(べんり)、利用(りよう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "pandanese",
+      "lang": "cn",
+      "role": "character",
+      "name": "sharp",
+      "kind": "meaning",
+      "level": 5
+    }
+  ]
+}

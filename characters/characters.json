@@ -204,18 +204,14 @@
           "image": "",
           "animated": true,
           "cnAudioKey": "ru4",
-          "cnExAudioKey": "quan2",
           "jpAudioKey": "hairu",
-          "jpExAudioKey": "zen",
           "cn": {
             "name": "入", "reading": "rù", "gloss": "to enter",
-            "extra": "左撇短，捺在上方起笔 · 易与「人」混",
-            "appearsIn": { "char": "全", "reading": "quán", "gloss": "whole" }
+            "extra": "左撇短，捺在上方起笔 · 易与「人」混 ·「全」归入部，但其上实作「𠆢」形"
           },
           "jp": {
             "name": "入", "reading": "はいる", "gloss": "to enter",
-            "extra": "「入」は「人」と区別すること",
-            "appearsIn": { "char": "全", "reading": "ゼン", "gloss": "whole; all" }
+            "extra": "「入」は「人」と区別すること · 「全」は入部だが、字形の上部は「𠆢」"
           },
           "wk": { "name": "Enter", "level": 1, "kind": "meaning" },
           "kanji": { "name": "Enter", "readings": ["ニュウ"], "on": true, "level": 1 },
@@ -1840,6 +1836,24 @@
           "kanji": { "name": "Origin", "readings": ["ゲン", "ガン"], "on": true, "kun": ["もと"], "level": 4 }
         },
         {
+          "glyph": "全",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "quan2",
+          "jpAudioKey": "zen",
+          "cn": {
+            "name": "全", "reading": "quán", "gloss": "whole; complete; entire",
+            "extra": "全部、安全、完全 · 今形⿱𠆢王（六画）· 古说⿱入玉「纯玉为全」"
+          },
+          "jp": {
+            "name": "全", "reading": "ゼン", "gloss": "whole; all",
+            "extra": "漢字「全」(まった-く · ゼン) · 全部(ぜんぶ)、安全(あんぜん)、全然(ぜんぜん)"
+          },
+          "wk": null,
+          "pdc": { "name": "whole", "kind": "meaning", "level": 5 }
+        },
+        {
           "glyph": "公",
           "tag": "char",
           "image": "",
@@ -1954,6 +1968,42 @@
           },
           "wk": null,
           "kanji": { "name": "Cut", "readings": ["セツ"], "on": true, "kun": ["き"], "level": 3 }
+        },
+        {
+          "glyph": "利",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "li4",
+          "jpAudioKey": "ri",
+          "cn": {
+            "name": "利", "reading": "lì", "gloss": "sharp; profit; benefit",
+            "extra": "锋利、利益、顺利 · ⿰禾刂（以刀收割禾，故为「利」）"
+          },
+          "jp": {
+            "name": "利", "reading": "リ", "gloss": "profit; advantage",
+            "extra": "漢字「利」(き-く · リ) · 利益(りえき)、便利(べんり)、利用(りよう)"
+          },
+          "wk": null,
+          "pdc": { "name": "sharp", "kind": "meaning", "level": 5 }
+        },
+        {
+          "glyph": "制",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zhi4",
+          "jpAudioKey": "sei",
+          "cn": {
+            "name": "制", "reading": "zhì", "gloss": "to manufacture; system; to control",
+            "extra": "制造、制度、控制 · ⿰(⿻𠂉巾)刂 · 左上部无独立字头，故只列 巾 刂"
+          },
+          "jp": {
+            "name": "制", "reading": "セイ", "gloss": "system; control",
+            "extra": "漢字「制」(セイ) · 制度(せいど)、制服(せいふく)、規制(きせい)"
+          },
+          "wk": null,
+          "pdc": { "name": "manufacture", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "加",
@@ -2339,7 +2389,8 @@
             "extra": "漢字「名」(な · メイ・ミョウ) · 名前(なまえ)、有名(ゆうめい)、名字(みょうじ)"
           },
           "wk": null,
-          "kanji": { "name": "Name", "readings": ["メイ", "ミョウ"], "on": true, "kun": ["な"], "level": 4 }
+          "kanji": { "name": "Name", "readings": ["メイ", "ミョウ"], "on": true, "kun": ["な"], "level": 4 },
+          "pdc": { "name": "name", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "后",
@@ -2502,6 +2553,24 @@
           "wk": null,
           "kanji": { "name": "Outside", "readings": ["ガイ"], "on": true, "kun": ["そと"], "level": 3 },
           "pdc": { "name": "outside", "kind": "meaning", "level": 5 }
+        },
+        {
+          "glyph": "多",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "duo1",
+          "jpAudioKey": "ooi",
+          "cn": {
+            "name": "多", "reading": "duō", "gloss": "many; much",
+            "extra": "很多、多少、许多 · ⿱夕夕（两「夕」相叠，以夜复夜示其多）"
+          },
+          "jp": {
+            "name": "多", "reading": "おおい", "gloss": "many; much",
+            "extra": "漢字「多」(おお-い · タ) · 多い(おおい)、多分(たぶん)、多数(たすう)"
+          },
+          "wk": null,
+          "pdc": { "name": "many", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "太",
@@ -3696,6 +3765,25 @@
           },
           "wk": null,
           "pdc": { "name": "god", "kind": "meaning", "level": 2 }
+        },
+        {
+          "glyph": "种",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "zhong3",
+          "jpAudioKey": "shu",
+          "script": {"traditional": [{"glyph": "種"}]},
+          "cn": {
+            "name": "种", "reading": "zhǒng", "gloss": "seed; kind; type",
+            "extra": "种子、一种、种类 · ⿰禾中（禾表义，中表声）· 繁体 種"
+          },
+          "jp": {
+            "name": "種", "reading": "シュ", "gloss": "seed; kind",
+            "extra": "漢字「種」(たね · シュ) · 種類(しゅるい)、品種(ひんしゅ)、種(たね)"
+          },
+          "wk": null,
+          "pdc": { "name": "seed", "kind": "meaning", "level": 5 }
         },
         {
           "glyph": "穴",

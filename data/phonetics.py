@@ -91,35 +91,64 @@ def cn_key(reading):
     return audio_key(reading) or multi_key(reading)
 
 
-# Pinyin syllable inventory, generated from initials × finals plus the zero-initial
-# (y-/w-/yu-) spellings. Used only to segment a compound reading so each syllable's
-# tone digit lands at the syllable's END (真相 → zhen1xiang4, not zhen1xia4ng). It may
-# slightly over-generate (a few impossible initial+final pairs); _segment() backtracks,
-# so an over-generated span only costs a retry — EXCEPT where the bogus syllable also
-# parses the remainder, which is why the two known impostors ('er' as a final, 'eng' as
-# a zero-initial) are excluded by hand below. _selftest() segments the whole CN word
-# list to keep that honest.
+# The pinyin chart: which finals each initial actually takes, plus the zero-initial
+# (y-/w-/yu-) spellings. Used only to segment a compound reading so each syllable's tone
+# digit lands at the syllable's END (真相 → zhen1xiang4, not zhen1xia4ng).
+#
+# This is a per-initial table rather than initials × finals because the cross-product
+# cannot express Mandarin's gaps, and an over-generated syllable is not a harmless
+# retry: _segment() backtracks only when the bogus span STRANDS the remainder. When it
+# parses the rest cleanly you get a confident wrong answer — 之内 zhinei as zhin+ei.
+# The cross-product's three class-level gaps are:
+#   · velars g/k/h take no i- or ü-final at all
+#   · palatals j/q/x take ONLY i- and ü-finals (their written 'u' IS ü)
+#   · retroflex/sibilant zh/ch/sh/r/z/c/s take the syllabic 'i' (zhi, si) but never an
+#     i-GLIDE final — this is the zhin trap
+# Stating those as exclusion rules still leaves ~129 irregular fakes (fai, bou, shong,
+# ruang…) that follow no rule, so the table lists what exists instead of what doesn't.
+#
+# Erring NARROW is deliberate: a missing syllable fails loudly (the parse fails, no tone
+# digits, _selftest's per-hanzi digit count catches it) while a fabricated one fails
+# silently. Marginal syllables are therefore omitted until a real reading needs them.
+# Spelling is as written — the iou→iu, uei→ui, uen→un contractions, ü as 'v' after n/l
+# (strip_tone's output) but as 'u' after j/q/x. _selftest() segments the whole CN word
+# list to keep this honest.
+_CHART = {
+    "b":  "a o ai ei ao an en ang eng i ie iao ian in ing u",
+    "p":  "a o ai ei ao ou an en ang eng i ie iao ian in ing u",
+    "m":  "a o e ai ei ao ou an en ang eng i ie iao iu ian in ing u",
+    "f":  "a o ei ou an en ang eng u",
+    "d":  "a e ai ei ao ou an en ang eng ong i ia ie iao iu ian ing u uo ui uan un",
+    "t":  "a e ai ao ou an ang eng ong i ie iao ian ing u uo ui uan un",
+    "n":  "a e ai ei ao ou an en ang eng ong i ie iao iu ian in iang ing u uo uan un v ve",
+    "l":  "a o e ai ei ao ou an ang eng ong i ia ie iao iu ian in iang ing u uo uan un v ve",
+    "g":  "a e ai ei ao ou an en ang eng ong u ua uo uai ui uan un uang",
+    "k":  "a e ai ei ao ou an en ang eng ong u ua uo uai ui uan un uang",
+    "h":  "a e ai ei ao ou an en ang eng ong u ua uo uai ui uan un uang",
+    "j":  "i ia ie iao iu ian in iang ing iong u ue uan un",
+    "q":  "i ia ie iao iu ian in iang ing iong u ue uan un",
+    "x":  "i ia ie iao iu ian in iang ing iong u ue uan un",
+    "zh": "a e i ai ei ao ou an en ang eng ong u ua uo uai ui uan un uang",
+    "ch": "a e i ai ao ou an en ang eng ong u ua uo uai ui uan un uang",
+    "sh": "a e i ai ei ao ou an en ang eng u ua uo uai ui uan un uang",
+    "r":  "e i ao ou an en ang eng ong u uo ui uan un",
+    "z":  "a e i ai ei ao ou an en ang eng ong u uo ui uan un",
+    "c":  "a e i ai ao ou an en ang eng ong u uo ui uan un",
+    "s":  "a e i ai ao ou an en ang eng ong u uo ui uan un",
+}
+
+# Zero-initial syllables. NB 'eng' is absent by the same rule as the rest of the table:
+# unlike 'en'/'ang' no character reads ēng, and admitting it let a preceding syllable's
+# coda be stolen (只能 zhineng → zhin+eng). 'er' stands alone here and appears under no
+# initial — a fabricated 'ger' would mis-split 个人 gèrén to ger+en.
+_ZERO = ("yi ya ye yao you yan yin yang ying yong wu wa wo wai wei wan wen wang weng "
+         "yu yue yuan yun yo a o e ai ei ao ou an en ang er")
+
+
 def _build_syllables():
-    initials = ["b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h",
-                "j", "q", "x", "zh", "ch", "sh", "r", "z", "c", "s"]
-    # NB: 'er' is intentionally NOT here — it only ever stands alone (a zero-initial
-    # syllable, listed below). Allowing initial+'er' would fabricate bogus syllables
-    # like 'ger', so 个人 gèrén greedily mis-splits to ger+en instead of ge+ren.
-    finals = ["a", "o", "e", "ai", "ei", "ao", "ou", "an", "en", "ang", "eng",
-              "ong", "i", "ia", "ie", "iao", "iu", "ian", "in", "iang",
-              "ing", "iong", "u", "ua", "uo", "uai", "ui", "uan", "un", "uang",
-              "ueng", "v", "ve", "van", "vn"]
-    # NB: 'eng' is intentionally NOT here — unlike 'en'/'ang' it is no standalone
-    # syllable in Mandarin (no character reads ēng), and admitting it let a preceding
-    # syllable's coda be stolen: 只能 zhineng mis-split to zhin+eng instead of zhi+neng.
-    zero = ["yi", "ya", "ye", "yao", "you", "yan", "yin", "yang", "ying", "yong",
-            "wu", "wa", "wo", "wai", "wei", "wan", "wen", "wang", "weng",
-            "yu", "yue", "yuan", "yun", "a", "o", "e", "ai", "ei", "ao", "ou",
-            "an", "en", "ang", "er"]
-    syl = set(zero)
-    for i in initials:
-        for f in finals:
-            syl.add(i + f)
+    syl = set(_ZERO.split())
+    for initial, finals in _CHART.items():
+        syl.update(initial + f for f in finals.split())
     return frozenset(syl)
 
 
@@ -242,7 +271,7 @@ _ZH_INITIAL = {
 _ZH_FINAL = {
     "a": "ㄚ", "o": "ㄛ", "e": "ㄜ", " e": "ㄝ", "ai": "ㄞ", "ei": "ㄟ", "ao": "ㄠ",
     "ou": "ㄡ", "an": "ㄢ", "en": "ㄣ", "ang": "ㄤ", "eng": "ㄥ", "er": "ㄦ",
-    "i": "ㄧ", "ia": "ㄧㄚ", "ie": "ㄧㄝ", "iao": "ㄧㄠ", "iou": "ㄧㄡ", "iu": "ㄧㄡ",
+    "i": "ㄧ", "ia": "ㄧㄚ", "io": "ㄧㄛ", "ie": "ㄧㄝ", "iao": "ㄧㄠ", "iou": "ㄧㄡ", "iu": "ㄧㄡ",
     "ian": "ㄧㄢ", "in": "ㄧㄣ", "iang": "ㄧㄤ", "ing": "ㄧㄥ", "iong": "ㄩㄥ",
     "u": "ㄨ", "ua": "ㄨㄚ", "uo": "ㄨㄛ", "uai": "ㄨㄞ", "uei": "ㄨㄟ", "ui": "ㄨㄟ",
     "uan": "ㄨㄢ", "uen": "ㄨㄣ", "un": "ㄨㄣ", "uang": "ㄨㄤ", "ong": "ㄨㄥ", "ueng": "ㄨㄥ",
@@ -254,7 +283,8 @@ _ZH_FINAL = {
 _ZERO_INITIAL = [
     ("yuan", "van"), ("yue", "ve"), ("yun", "vn"), ("yu", "v"),
     ("yong", "iong"), ("ying", "ing"), ("yin", "in"), ("yang", "iang"), ("yan", "ian"),
-    ("yao", "iao"), ("you", "iou"), ("ye", "ie"), ("ya", "ia"), ("yi", "i"), ("y", "i"),
+    ("yao", "iao"), ("you", "iou"), ("yo", "io"), ("ye", "ie"), ("ya", "ia"),
+    ("yi", "i"), ("y", "i"),
     ("weng", "ueng"), ("wang", "uang"), ("wan", "uan"), ("wen", "uen"),
     ("wai", "uai"), ("wei", "uei"), ("wo", "uo"), ("wa", "ua"), ("wu", "u"), ("w", "u"),
 ]

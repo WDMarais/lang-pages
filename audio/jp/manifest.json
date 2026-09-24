@@ -923,6 +923,10 @@
     "text": "おのれ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ooi.mp3": {
+    "text": "おおい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ookii.mp3": {
     "text": "おおきい",
     "voice": "ja-JP-NanamiNeural"
@@ -981,6 +985,10 @@
   },
   "rei.mp3": {
     "text": "れい",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ri.mp3": {
+    "text": "リ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ringo.mp3": {

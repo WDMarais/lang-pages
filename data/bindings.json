@@ -548,12 +548,7 @@
         "rù"
       ],
       "gloss": "to enter",
-      "extra": "左撇短，捺在上方起笔 · 易与「人」混",
-      "appearsIn": {
-        "glyph": "全",
-        "reading": "quán",
-        "gloss": "whole"
-      },
+      "extra": "左撇短，捺在上方起笔 · 易与「人」混 ·「全」归入部，但其上实作「𠆢」形",
       "program": {
         "source": "pandanese",
         "name": "enter",
@@ -575,12 +570,7 @@
         "はいる"
       ],
       "gloss": "to enter",
-      "extra": "「入」は「人」と区別すること",
-      "appearsIn": {
-        "glyph": "全",
-        "reading": "ゼン",
-        "gloss": "whole; all"
-      },
+      "extra": "「入」は「人」と区別すること · 「全」は入部だが、字形の上部は「𠆢」",
       "program": {
         "source": "wanikani",
         "name": "Enter",
@@ -4704,6 +4694,36 @@
       }
     },
     {
+      "id": "b:全@cn",
+      "glyph_id": "g:全",
+      "lang": "cn",
+      "name": "全",
+      "readings": [
+        "quán"
+      ],
+      "gloss": "whole; complete; entire",
+      "extra": "全部、安全、完全 · 今形⿱𠆢王（六画）· 古说⿱入玉「纯玉为全」",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "whole",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:全@jp",
+      "glyph_id": "g:全",
+      "lang": "jp",
+      "name": "全",
+      "readings": [
+        "ゼン"
+      ],
+      "gloss": "whole; all",
+      "extra": "漢字「全」(まった-く · ゼン) · 全部(ぜんぶ)、安全(あんぜん)、全然(ぜんぜん)"
+    },
+    {
       "id": "b:公@cn",
       "glyph_id": "g:公",
       "lang": "cn",
@@ -5069,6 +5089,66 @@
           "level": 3
         }
       }
+    },
+    {
+      "id": "b:利@cn",
+      "glyph_id": "g:利",
+      "lang": "cn",
+      "name": "利",
+      "readings": [
+        "lì"
+      ],
+      "gloss": "sharp; profit; benefit",
+      "extra": "锋利、利益、顺利 · ⿰禾刂（以刀收割禾，故为「利」）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "sharp",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:利@jp",
+      "glyph_id": "g:利",
+      "lang": "jp",
+      "name": "利",
+      "readings": [
+        "リ"
+      ],
+      "gloss": "profit; advantage",
+      "extra": "漢字「利」(き-く · リ) · 利益(りえき)、便利(べんり)、利用(りよう)"
+    },
+    {
+      "id": "b:制@cn",
+      "glyph_id": "g:制",
+      "lang": "cn",
+      "name": "制",
+      "readings": [
+        "zhì"
+      ],
+      "gloss": "to manufacture; system; to control",
+      "extra": "制造、制度、控制 · ⿰(⿻𠂉巾)刂 · 左上部无独立字头，故只列 巾 刂",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "manufacture",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:制@jp",
+      "glyph_id": "g:制",
+      "lang": "jp",
+      "name": "制",
+      "readings": [
+        "セイ"
+      ],
+      "gloss": "system; control",
+      "extra": "漢字「制」(セイ) · 制度(せいど)、制服(せいふく)、規制(きせい)"
     },
     {
       "id": "b:加@cn",
@@ -5837,7 +5917,15 @@
         "míng"
       ],
       "gloss": "name; fame",
-      "extra": "名字、有名、名单 · ⿱夕口 · 夜里看不清，以口自报其名"
+      "extra": "名字、有名、名单 · ⿱夕口 · 夜里看不清，以口自报其名",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "name",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
     },
     {
       "id": "b:名@jp",
@@ -6228,6 +6316,36 @@
           "level": 3
         }
       }
+    },
+    {
+      "id": "b:多@cn",
+      "glyph_id": "g:多",
+      "lang": "cn",
+      "name": "多",
+      "readings": [
+        "duō"
+      ],
+      "gloss": "many; much",
+      "extra": "很多、多少、许多 · ⿱夕夕（两「夕」相叠，以夜复夜示其多）",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "many",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:多@jp",
+      "glyph_id": "g:多",
+      "lang": "jp",
+      "name": "多",
+      "readings": [
+        "おおい"
+      ],
+      "gloss": "many; much",
+      "extra": "漢字「多」(おお-い · タ) · 多い(おおい)、多分(たぶん)、多数(たすう)"
     },
     {
       "id": "b:太@cn",
@@ -9666,6 +9784,36 @@
       "readings": [],
       "gloss": "grain",
       "extra": ""
+    },
+    {
+      "id": "b:种@cn",
+      "glyph_id": "g:种",
+      "lang": "cn",
+      "name": "种",
+      "readings": [
+        "zhǒng"
+      ],
+      "gloss": "seed; kind; type",
+      "extra": "种子、一种、种类 · ⿰禾中（禾表义，中表声）· 繁体 種",
+      "program": {
+        "source": "pandanese",
+        "character": {
+          "name": "seed",
+          "kind": "meaning",
+          "level": 5
+        }
+      }
+    },
+    {
+      "id": "b:种@jp",
+      "glyph_id": "g:种",
+      "lang": "jp",
+      "name": "種",
+      "readings": [
+        "シュ"
+      ],
+      "gloss": "seed; kind",
+      "extra": "漢字「種」(たね · シュ) · 種類(しゅるい)、品種(ひんしゅ)、種(たね)"
     },
     {
       "id": "b:穴@cn",

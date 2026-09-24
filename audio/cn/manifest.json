@@ -299,6 +299,10 @@
     "text": "豆",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "duo1.mp3": {
+    "text": "多",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "er2.mp3": {
     "text": "而",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -647,6 +651,10 @@
     "text": "军",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "jun1ren2.mp3": {
+    "text": "军人",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "kan3.mp3": {
     "text": "凵",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -700,7 +708,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "li4.mp3": {
-    "text": "力",
+    "text": "利",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "liang3.mp3": {
@@ -1027,6 +1035,10 @@
     "text": "认为",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "ren4zhen1.mp3": {
+    "text": "认真",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "ri4.mp3": {
     "text": "日",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1321,6 +1333,10 @@
   },
   "wen2.mp3": {
     "text": "文",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wen2ming2.mp3": {
+    "text": "文明",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wo3.mp3": {
@@ -1707,6 +1723,10 @@
     "text": "之后",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "zhi1nei4.mp3": {
+    "text": "之内",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "zhi1xia4.mp3": {
     "text": "之下",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1732,7 +1752,7 @@
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhi4.mp3": {
-    "text": "至",
+    "text": "制",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhong1.mp3": {
@@ -1741,6 +1761,10 @@
   },
   "zhong1xin1.mp3": {
     "text": "中心",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zhong3.mp3": {
+    "text": "种",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "zhou1.mp3": {

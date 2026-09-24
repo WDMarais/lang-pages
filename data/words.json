@@ -5270,6 +5270,70 @@
         "kind": "vocab",
         "level": 5
       }
+    },
+    {
+      "surface": "认真",
+      "audience": "cn",
+      "parts": [
+        "认",
+        "真"
+      ],
+      "denotes": "serious",
+      "reading": "rènzhēn",
+      "gloss": "serious; conscientious",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "军人",
+      "audience": "cn",
+      "parts": [
+        "军",
+        "人"
+      ],
+      "denotes": "soldier",
+      "reading": "jūnrén",
+      "gloss": "soldier; serviceman",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "文明",
+      "audience": "cn",
+      "parts": [
+        "文",
+        "明"
+      ],
+      "denotes": "civilization",
+      "reading": "wénmíng",
+      "gloss": "civilization; civilized",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
+    },
+    {
+      "surface": "之内",
+      "audience": "cn",
+      "parts": [
+        "之",
+        "内"
+      ],
+      "denotes": "within",
+      "reading": "zhīnèi",
+      "gloss": "within; inside (a range)",
+      "program": {
+        "source": "pandanese",
+        "kind": "vocab",
+        "level": 5
+      }
     }
   ]
 }

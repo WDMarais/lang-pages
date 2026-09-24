@@ -16,23 +16,13 @@
       "name": "入",
       "reading": "rù",
       "gloss": "to enter",
-      "extra": "左撇短，捺在上方起笔 · 易与「人」混",
-      "appearsIn": {
-        "char": "全",
-        "reading": "quán",
-        "gloss": "whole"
-      }
+      "extra": "左撇短，捺在上方起笔 · 易与「人」混 ·「全」归入部，但其上实作「𠆢」形"
     },
     "jp": {
       "name": "入",
       "reading": "はいる",
       "gloss": "to enter",
-      "extra": "「入」は「人」と区別すること",
-      "appearsIn": {
-        "char": "全",
-        "reading": "ゼン",
-        "gloss": "whole; all"
-      }
+      "extra": "「入」は「人」と区別すること · 「全」は入部だが、字形の上部は「𠆢」"
     }
   },
   "programs": [
