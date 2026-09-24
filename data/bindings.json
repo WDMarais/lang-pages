@@ -3123,7 +3123,13 @@
         "あたえる"
       ],
       "gloss": "to give; grant",
-      "extra": "漢字「与」(あた-える · ヨ) · 旧字 與"
+      "extra": "漢字「与」(あた-える · ヨ) · 旧字 與",
+      "program": {
+        "source": "wanikani",
+        "name": "Beggar",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:手@cn",

@@ -1221,7 +1221,7 @@
             "name": "与", "reading": "あたえる", "gloss": "to give; grant",
             "extra": "漢字「与」(あた-える · ヨ) · 旧字 與"
           },
-          "wk": null,
+          "wk": { "name": "Beggar", "level": 4, "kind": "mnemonic" },
           "pd": { "name": "sleeping bag", "level": 1, "kind": "mnemonic" }
         },
         {

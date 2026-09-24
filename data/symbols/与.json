@@ -38,6 +38,14 @@
       "name": "sleeping bag",
       "kind": "mnemonic",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Beggar",
+      "kind": "mnemonic",
+      "level": 4
     }
   ]
 }
