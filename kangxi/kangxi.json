@@ -7057,6 +7057,7 @@
           },
           "wk": {
             "name": "Private",
+            "level": 2,
             "kind": "meaning"
           },
           "cnExAudioKey": "tai2",

@@ -108,7 +108,7 @@
             "extra": "漢字「四」(シ · よん・よっ-つ) · 四月 · 日常は よん が普通"
           },
           "wk": null,
-          "kanji": { "name": "Four", "readings": ["シ"], "on": true, "kun": ["よん", "よっ"] }
+          "kanji": { "name": "Four", "readings": ["シ"], "on": true, "kun": ["よん", "よっ"], "level": 2 }
         },
         {
           "glyph": "大",
@@ -660,7 +660,7 @@
             "extra": "漢字「出」(で-る · シュツ) · 出口、外出"
           },
           "wk": null,
-          "kanji": { "name": "Exit", "readings": ["シュツ"], "on": true, "kun": ["で"] },
+          "kanji": { "name": "Exit", "readings": ["シュツ"], "on": true, "kun": ["で"], "level": 2 },
           "pdc": { "name": "to exit", "kind": "meaning", "level": 5 }
         },
         {
@@ -679,7 +679,7 @@
             "extra": "漢字「右」(みぎ · ウ・ユウ) · 右手、左右"
           },
           "wk": null,
-          "kanji": { "name": "Right", "readings": ["ウ"], "on": true, "kun": ["みぎ"] }
+          "kanji": { "name": "Right", "readings": ["ウ"], "on": true, "kun": ["みぎ"], "level": 2 }
         },
         {
           "glyph": "左",
@@ -697,7 +697,7 @@
             "extra": "漢字「左」(ひだり · サ) · 右 (𠂇 + 口) と対 · 左手、左右"
           },
           "wk": null,
-          "kanji": { "name": "Left", "readings": ["サ"], "on": true, "kun": ["ひだり"] }
+          "kanji": { "name": "Left", "readings": ["サ"], "on": true, "kun": ["ひだり"], "level": 2 }
         },
         {
           "glyph": "王",

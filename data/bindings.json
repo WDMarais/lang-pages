@@ -242,7 +242,8 @@
           "kun": [
             "よん",
             "よっ"
-          ]
+          ],
+          "level": 2
         }
       }
     },
@@ -1763,7 +1764,8 @@
           "on": true,
           "kun": [
             "で"
-          ]
+          ],
+          "level": 2
         }
       }
     },
@@ -1798,7 +1800,8 @@
           "on": true,
           "kun": [
             "みぎ"
-          ]
+          ],
+          "level": 2
         }
       }
     },
@@ -1833,7 +1836,8 @@
           "on": true,
           "kun": [
             "ひだり"
-          ]
+          ],
+          "level": 2
         }
       }
     },
@@ -3355,6 +3359,7 @@
       "program": {
         "source": "wanikani",
         "name": "Private",
+        "level": 2,
         "kind": "meaning"
       }
     },
