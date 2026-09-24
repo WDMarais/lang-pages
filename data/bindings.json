@@ -3101,7 +3101,7 @@
       "readings": [
         "yǔ"
       ],
-      "gloss": "and; with; to give",
+      "gloss": "and; with",
       "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」",
       "program": {
         "source": "pandanese",
@@ -10202,8 +10202,8 @@
       "readings": [
         "ér"
       ],
-      "gloss": "and",
-      "extra": "康熙部首 126"
+      "gloss": "and-then; and yet",
+      "extra": "连接谓语或分句，不连名词（不能说「我而你」）· 承接「取而代之」· 转折「大而无当」· 并列「美而廉」· 与并列连词「和 / 与 / 及」不同 · 康熙部首 126"
     },
     {
       "id": "b:而@jp",
@@ -10211,7 +10211,7 @@
       "lang": "jp",
       "name": "而",
       "readings": [],
-      "gloss": "and",
+      "gloss": "and-then; and yet",
       "extra": ""
     },
     {

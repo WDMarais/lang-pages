@@ -1512,7 +1512,7 @@
     {
       "id": "r:and",
       "kind": "referent",
-      "label": "and; with; to give"
+      "label": "and; with"
     },
     {
       "id": "g:手",
@@ -5969,6 +5969,11 @@
         "image": ""
       },
       "cnAudioKey": "er2"
+    },
+    {
+      "id": "r:and-then",
+      "kind": "referent",
+      "label": "and-then; and yet"
     },
     {
       "id": "g:耒",
