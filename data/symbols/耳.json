@@ -44,6 +44,14 @@
       "level": 4
     },
     {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Ear",
+      "kind": "meaning",
+      "level": 4
+    },
+    {
       "source": "pandanese",
       "lang": "cn",
       "role": "radical",

@@ -3390,7 +3390,13 @@
       "name": "乚",
       "readings": [],
       "gloss": "hook stroke (turning-and-hook)",
-      "extra": "曲がって跳ねる一画 · 也/毛 等の終画"
+      "extra": "曲がって跳ねる一画 · 也/毛 等の終画",
+      "program": {
+        "source": "wanikani",
+        "name": "Umbrella",
+        "level": 4,
+        "kind": "mnemonic"
+      }
     },
     {
       "id": "b:丆@cn",
@@ -8037,6 +8043,35 @@
       "extra": "漢字「有」(あ-る · ユウ・ウ) · 有る、有名(ゆうめい)"
     },
     {
+      "id": "b:村@cn",
+      "glyph_id": "g:村",
+      "lang": "cn",
+      "name": "村",
+      "readings": [
+        "cūn"
+      ],
+      "gloss": "village",
+      "extra": "村子、农村、乡村 · 木（树）+ 寸 · 与「里」同指聚落，「里」另作长度单位与旧行政区"
+    },
+    {
+      "id": "b:村@jp",
+      "glyph_id": "g:村",
+      "lang": "jp",
+      "name": "村",
+      "readings": [
+        "むら"
+      ],
+      "gloss": "village",
+      "extra": "漢字「村」(むら · ソン) · 村人(むらびと)、農村(のうそん)、村長(そんちょう)",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Village",
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:条@cn",
       "glyph_id": "g:条",
       "lang": "cn",
@@ -9213,6 +9248,35 @@
       }
     },
     {
+      "id": "b:町@cn",
+      "glyph_id": "g:町",
+      "lang": "cn",
+      "name": "町",
+      "readings": [
+        "tīng"
+      ],
+      "gloss": "field path; boundary between fields",
+      "extra": "田界、田间小路 · 现代汉语罕用 · 地名「畹町」读 dīng · 日语借作「町 まち」＝城镇、街区，中文无此义"
+    },
+    {
+      "id": "b:町@jp",
+      "glyph_id": "g:町",
+      "lang": "jp",
+      "name": "町",
+      "readings": [
+        "まち"
+      ],
+      "gloss": "town; town block",
+      "extra": "漢字「町」(まち · チョウ) · 下町(したまち)、町内(ちょうない) · 住所の単位（〜町）",
+      "program": {
+        "source": "wanikani",
+        "kanji": {
+          "name": "Town",
+          "level": 4
+        }
+      }
+    },
+    {
       "id": "b:疋@cn",
       "glyph_id": "g:疋",
       "lang": "cn",
@@ -10285,7 +10349,11 @@
         "source": "wanikani",
         "name": "Ear",
         "level": 4,
-        "kind": "meaning"
+        "kind": "meaning",
+        "kanji": {
+          "name": "Ear",
+          "level": 4
+        }
       }
     },
     {

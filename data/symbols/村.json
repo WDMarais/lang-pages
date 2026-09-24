@@ -1,0 +1,37 @@
+{
+  "glyph": "村",
+  "cp": "U+6751",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "木",
+    "寸"
+  ],
+  "readings": {
+    "cn": {
+      "name": "村",
+      "reading": "cūn",
+      "gloss": "village",
+      "extra": "村子、农村、乡村 · 木（树）+ 寸 · 与「里」同指聚落，「里」另作长度单位与旧行政区"
+    },
+    "jp": {
+      "name": "村",
+      "reading": "むら",
+      "gloss": "village",
+      "extra": "漢字「村」(むら · ソン) · 村人(むらびと)、農村(のうそん)、村長(そんちょう)"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Village",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

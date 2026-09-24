@@ -4658,6 +4658,10 @@
             "level": 4,
             "kind": "meaning"
           },
+          "kanji": {
+            "name": "Ear",
+            "level": 4
+          },
           "pd": {
             "name": "ear",
             "level": 1,
@@ -7085,7 +7089,11 @@
             "gloss": "hook stroke (turning-and-hook)",
             "extra": "曲がって跳ねる一画 · 也/毛 等の終画"
           },
-          "wk": null,
+          "wk": {
+            "name": "Umbrella",
+            "level": 4,
+            "kind": "mnemonic"
+          },
           "pd": {
             "name": "snake",
             "level": 1,

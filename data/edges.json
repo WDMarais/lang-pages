@@ -1496,6 +1496,11 @@
       "kind": "denotes"
     },
     {
+      "from": "g:村",
+      "to": "r:village",
+      "kind": "denotes"
+    },
+    {
       "from": "g:条",
       "to": "r:strip",
       "kind": "denotes"
@@ -1728,6 +1733,11 @@
     {
       "from": "g:男",
       "to": "r:man",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:町",
+      "to": "r:field-path",
       "kind": "denotes"
     },
     {
@@ -4173,6 +4183,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:木",
+      "to": "g:村",
+      "kind": "composes"
+    },
+    {
+      "from": "g:寸",
+      "to": "g:村",
+      "kind": "composes"
+    },
+    {
       "from": "g:夂",
       "to": "g:条",
       "kind": "composes"
@@ -4435,6 +4455,16 @@
     {
       "from": "g:丨",
       "to": "g:申",
+      "kind": "composes"
+    },
+    {
+      "from": "g:田",
+      "to": "g:町",
+      "kind": "composes"
+    },
+    {
+      "from": "g:丁",
+      "to": "g:町",
       "kind": "composes"
     },
     {
@@ -10075,6 +10105,106 @@
     {
       "from": "w:之内@cn",
       "to": "r:within",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:年",
+      "to": "w:年中@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:中",
+      "to": "w:年中@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:年中@jp",
+      "to": "r:all-year-round",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:一",
+      "to": "w:一年生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:年",
+      "to": "w:一年生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:生",
+      "to": "w:一年生@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:一年生@jp",
+      "to": "r:first-year-student",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:少",
+      "to": "w:少年@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:年",
+      "to": "w:少年@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:少年@jp",
+      "to": "r:kid",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:去",
+      "to": "w:去年@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:年",
+      "to": "w:去年@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:去年@jp",
+      "to": "r:last-year",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:先",
+      "to": "w:先々月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:々",
+      "to": "w:先々月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:月",
+      "to": "w:先々月@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:先々月@jp",
+      "to": "r:month-before-last",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:他",
+      "to": "w:他人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "g:人",
+      "to": "w:他人@jp",
+      "kind": "composes"
+    },
+    {
+      "from": "w:他人@jp",
+      "to": "r:others",
       "kind": "denotes"
     },
     {

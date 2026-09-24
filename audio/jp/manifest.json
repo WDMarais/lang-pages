@@ -371,6 +371,10 @@
     "text": "いちもんじ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ichinensei.mp3": {
+    "text": "いちねんせい",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ie.mp3": {
     "text": "いえ",
     "voice": "ja-JP-NanamiNeural"
@@ -651,6 +655,10 @@
     "text": "キョ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "kyonen.mp3": {
+    "text": "きょねん",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "kyou.mp3": {
     "text": "キョウ",
     "voice": "ja-JP-NanamiNeural"
@@ -661,6 +669,10 @@
   },
   "ma.mp3": {
     "text": "マ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "machi.mp3": {
+    "text": "まち",
     "voice": "ja-JP-NanamiNeural"
   },
   "man.mp3": {
@@ -767,6 +779,10 @@
     "text": "むく",
     "voice": "ja-JP-NanamiNeural"
   },
+  "mura.mp3": {
+    "text": "むら",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "mushi.mp3": {
     "text": "むし",
     "voice": "ja-JP-NanamiNeural"
@@ -813,6 +829,10 @@
   },
   "nanoka.mp3": {
     "text": "なのか",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "nenjuu.mp3": {
+    "text": "ねんじゅう",
     "voice": "ja-JP-NanamiNeural"
   },
   "ni.mp3": {
@@ -1087,6 +1107,10 @@
     "text": "せんせい",
     "voice": "ja-JP-NanamiNeural"
   },
+  "sensengetsu.mp3": {
+    "text": "せんせんげつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "shi.mp3": {
     "text": "シ",
     "voice": "ja-JP-NanamiNeural"
@@ -1129,6 +1153,10 @@
   },
   "shoujo.mp3": {
     "text": "しょうじょ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "shounen.mp3": {
+    "text": "しょうねん",
     "voice": "ja-JP-NanamiNeural"
   },
   "shu.mp3": {
@@ -1229,6 +1257,10 @@
   },
   "tanbo.mp3": {
     "text": "たんぼ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "tanin.mp3": {
+    "text": "たにん",
     "voice": "ja-JP-NanamiNeural"
   },
   "tatekaku.mp3": {

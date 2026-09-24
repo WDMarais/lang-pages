@@ -5334,6 +5334,104 @@
         "kind": "vocab",
         "level": 5
       }
+    },
+    {
+      "surface": "年中",
+      "audience": "jp",
+      "parts": [
+        "年",
+        "中"
+      ],
+      "denotes": "all-year-round",
+      "reading": "ねんじゅう",
+      "gloss": "all year round; throughout the year",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "一年生",
+      "audience": "jp",
+      "parts": [
+        "一",
+        "年",
+        "生"
+      ],
+      "denotes": "first-year-student",
+      "reading": "いちねんせい",
+      "gloss": "first-year student; freshman",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "少年",
+      "audience": "jp",
+      "parts": [
+        "少",
+        "年"
+      ],
+      "denotes": "kid",
+      "reading": "しょうねん",
+      "gloss": "boy; youth",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "去年",
+      "audience": "jp",
+      "parts": [
+        "去",
+        "年"
+      ],
+      "denotes": "last-year",
+      "reading": "きょねん",
+      "gloss": "last year",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "先々月",
+      "audience": "jp",
+      "parts": [
+        "先",
+        "々",
+        "月"
+      ],
+      "denotes": "month-before-last",
+      "reading": "せんせんげつ",
+      "gloss": "the month before last",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
+    },
+    {
+      "surface": "他人",
+      "audience": "jp",
+      "parts": [
+        "他",
+        "人"
+      ],
+      "denotes": "others",
+      "reading": "たにん",
+      "gloss": "others; other people; stranger",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      }
     }
   ]
 }

@@ -195,6 +195,10 @@
     "text": "从此",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cun1.mp3": {
+    "text": "村",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cun4.mp3": {
     "text": "寸",
     "voice": "zh-CN-XiaoxiaoNeural"
@@ -1261,6 +1265,10 @@
   },
   "tiao2.mp3": {
     "text": "条",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ting1.mp3": {
+    "text": "町",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "tong2.mp3": {

@@ -3203,6 +3203,24 @@
           "pdc": { "name": "have", "kind": "meaning", "level": 2 }
         },
         {
+          "glyph": "村",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "cun1",
+          "jpAudioKey": "mura",
+          "cn": {
+            "name": "村", "reading": "cūn", "gloss": "village",
+            "extra": "村子、农村、乡村 · 木（树）+ 寸 · 与「里」同指聚落，「里」另作长度单位与旧行政区"
+          },
+          "jp": {
+            "name": "村", "reading": "むら", "gloss": "village",
+            "extra": "漢字「村」(むら · ソン) · 村人(むらびと)、農村(のうそん)、村長(そんちょう)"
+          },
+          "wk": null,
+          "kanji": { "name": "Village", "level": 4 }
+        },
+        {
           "glyph": "条",
           "tag": "char",
           "image": "",
@@ -3576,6 +3594,24 @@
           "kanji": { "name": "Man", "readings": ["ダン", "ナン"], "on": true, "kun": ["おとこ"], "level": 4 }
         },
         {
+          "glyph": "町",
+          "tag": "char",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "ting1",
+          "jpAudioKey": "machi",
+          "cn": {
+            "name": "町", "reading": "tīng", "gloss": "field path; boundary between fields",
+            "extra": "田界、田间小路 · 现代汉语罕用 · 地名「畹町」读 dīng · 日语借作「町 まち」＝城镇、街区，中文无此义"
+          },
+          "jp": {
+            "name": "町", "reading": "まち", "gloss": "town; town block",
+            "extra": "漢字「町」(まち · チョウ) · 下町(したまち)、町内(ちょうない) · 住所の単位（〜町）"
+          },
+          "wk": null,
+          "kanji": { "name": "Town", "level": 4 }
+        },
+        {
           "glyph": "百",
           "tag": "char",
           "image": "",
@@ -3920,6 +3956,7 @@
             "appearsIn": { "char": "取", "reading": "シュ", "gloss": "take" }
           },
           "wk": { "name": "Ear", "level": 4, "kind": "meaning" },
+          "kanji": { "name": "Ear", "level": 4 },
           "pd": { "name": "ear", "level": 1, "kind": "meaning" },
           "pdc": { "name": "ear", "kind": "meaning", "level": 1 }
         },

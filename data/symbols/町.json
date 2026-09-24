@@ -1,0 +1,37 @@
+{
+  "glyph": "町",
+  "cp": "U+753A",
+  "class": "char",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "composes": [
+    "田",
+    "丁"
+  ],
+  "readings": {
+    "cn": {
+      "name": "町",
+      "reading": "tīng",
+      "gloss": "field path; boundary between fields",
+      "extra": "田界、田间小路 · 现代汉语罕用 · 地名「畹町」读 dīng · 日语借作「町 まち」＝城镇、街区，中文无此义"
+    },
+    "jp": {
+      "name": "町",
+      "reading": "まち",
+      "gloss": "town; town block",
+      "extra": "漢字「町」(まち · チョウ) · 下町(したまち)、町内(ちょうない) · 住所の単位（〜町）"
+    }
+  },
+  "programs": [
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "kanji",
+      "name": "Town",
+      "kind": "meaning",
+      "level": 4
+    }
+  ]
+}

@@ -4591,6 +4591,24 @@
       "label": "to have"
     },
     {
+      "id": "g:村",
+      "kind": "glyph",
+      "glyph": "村",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "cun1",
+      "jpAudioKey": "mura"
+    },
+    {
+      "id": "r:village",
+      "kind": "referent",
+      "label": "village"
+    },
+    {
       "id": "g:条",
       "kind": "glyph",
       "glyph": "条",
@@ -5366,6 +5384,24 @@
       "id": "r:man",
       "kind": "referent",
       "label": "man"
+    },
+    {
+      "id": "g:町",
+      "kind": "glyph",
+      "glyph": "町",
+      "tier": "char",
+      "source": "radicals",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "ting1",
+      "jpAudioKey": "machi"
+    },
+    {
+      "id": "r:field-path",
+      "kind": "referent",
+      "label": "field path"
     },
     {
       "id": "g:疋",
@@ -6927,11 +6963,6 @@
         "image": ""
       },
       "cnAudioKey": "li3"
-    },
-    {
-      "id": "r:village",
-      "kind": "referent",
-      "label": "village"
     },
     {
       "id": "g:金",
@@ -14659,6 +14690,116 @@
       "id": "r:within",
       "kind": "referent",
       "label": "within"
+    },
+    {
+      "id": "w:年中@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "年中",
+      "reading": "ねんじゅう",
+      "gloss": "all year round; throughout the year",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "nenjuu"
+    },
+    {
+      "id": "r:all-year-round",
+      "kind": "referent",
+      "label": "all year round"
+    },
+    {
+      "id": "w:一年生@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "一年生",
+      "reading": "いちねんせい",
+      "gloss": "first-year student; freshman",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "ichinensei"
+    },
+    {
+      "id": "r:first-year-student",
+      "kind": "referent",
+      "label": "first-year student"
+    },
+    {
+      "id": "w:少年@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "少年",
+      "reading": "しょうねん",
+      "gloss": "boy; youth",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "shounen"
+    },
+    {
+      "id": "w:去年@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "去年",
+      "reading": "きょねん",
+      "gloss": "last year",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "kyonen"
+    },
+    {
+      "id": "r:last-year",
+      "kind": "referent",
+      "label": "last year"
+    },
+    {
+      "id": "w:先々月@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "先々月",
+      "reading": "せんせんげつ",
+      "gloss": "the month before last",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "sensengetsu"
+    },
+    {
+      "id": "r:month-before-last",
+      "kind": "referent",
+      "label": "the month before last"
+    },
+    {
+      "id": "w:他人@jp",
+      "kind": "word",
+      "tier": "word",
+      "audience": "jp",
+      "glyph": "他人",
+      "reading": "たにん",
+      "gloss": "others; other people; stranger",
+      "program": {
+        "source": "wanikani",
+        "kind": "vocab",
+        "level": 4
+      },
+      "jpAudioKey": "tanin"
     }
   ]
 }

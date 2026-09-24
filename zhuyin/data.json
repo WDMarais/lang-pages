@@ -682,6 +682,20 @@
         }
       ]
     },
+    "cun1": {
+      "key": "cun1",
+      "pinyin": "cūn",
+      "base": "cun",
+      "tone": 1,
+      "zhuyin": "ㄘㄨㄣ",
+      "glyphs": [
+        {
+          "glyph": "村",
+          "gloss": "village",
+          "rank": 0
+        }
+      ]
+    },
     "cun4": {
       "key": "cun4",
       "pinyin": "cùn",
@@ -3454,6 +3468,20 @@
         {
           "glyph": "条",
           "gloss": "strip; measure word for long thin things; item, article",
+          "rank": 0
+        }
+      ]
+    },
+    "ting1": {
+      "key": "ting1",
+      "pinyin": "tīng",
+      "base": "ting",
+      "tone": 1,
+      "zhuyin": "ㄊㄧㄥ",
+      "glyphs": [
+        {
+          "glyph": "町",
+          "gloss": "field path; boundary between fields",
           "rank": 0
         }
       ]

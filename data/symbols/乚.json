@@ -33,6 +33,14 @@
       "name": "snake",
       "kind": "mnemonic",
       "level": 1
+    },
+    {
+      "source": "wanikani",
+      "lang": "jp",
+      "role": "radical",
+      "name": "Umbrella",
+      "kind": "mnemonic",
+      "level": 4
     }
   ]
 }
