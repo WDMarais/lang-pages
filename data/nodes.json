@@ -11116,7 +11116,7 @@
       "audience": "cn",
       "glyph": "小子",
       "reading": "xiǎozi",
-      "gloss": "boy; kid; (derog.) brat; fellow",
+      "gloss": "kid; boy; (derog.) brat; fellow",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -11127,7 +11127,7 @@
     {
       "id": "r:kid",
       "kind": "referent",
-      "label": "boy"
+      "label": "kid"
     },
     {
       "id": "w:分子@cn",
@@ -14745,6 +14745,11 @@
         "level": 4
       },
       "jpAudioKey": "shounen"
+    },
+    {
+      "id": "r:boy",
+      "kind": "referent",
+      "label": "boy"
     },
     {
       "id": "w:去年@jp",
