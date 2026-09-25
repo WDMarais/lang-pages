@@ -8119,6 +8119,26 @@
       "label": "horizontal-fold"
     },
     {
+      "id": "g:㇈",
+      "kind": "glyph",
+      "glyph": "㇈",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hengzhewangou",
+      "cnExAudioKey": "jiu3",
+      "jpAudioKey": "ousetsumagarikou",
+      "jpExAudioKey": "kokono"
+    },
+    {
+      "id": "r:horizontal-fold-curve-hook",
+      "kind": "referent",
+      "label": "horizontal-fold-curve hook"
+    },
+    {
       "id": "g:㇛",
       "kind": "glyph",
       "glyph": "㇛",
@@ -8195,14 +8215,15 @@
         "animated": true,
         "image": ""
       },
-      "cnAudioKey": "hengxiegou",
-      "cnExAudioKey": "fei1",
-      "jpAudioKey": "ounanamekou"
+      "cnAudioKey": "shuwangou",
+      "cnExAudioKey": "ye3",
+      "jpAudioKey": "juumagarikou",
+      "jpExAudioKey": "ke"
     },
     {
-      "id": "r:horizontal-slant-hook",
+      "id": "r:vertical-curve-hook",
       "kind": "referent",
-      "label": "horizontal-slant hook"
+      "label": "vertical-curve hook"
     },
     {
       "id": "g:旦",

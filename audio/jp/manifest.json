@@ -479,6 +479,10 @@
     "text": "じゅういちがつ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "juumagarikou.mp3": {
+    "text": "じゅうまがりこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "juuman.mp3": {
     "text": "じゅうまん",
     "voice": "ja-JP-NanamiNeural"
@@ -573,6 +577,10 @@
   },
   "koinu.mp3": {
     "text": "こいぬ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "kokono.mp3": {
+    "text": "ここの",
     "voice": "ja-JP-NanamiNeural"
   },
   "kokonoka.mp3": {
@@ -995,16 +1003,16 @@
     "text": "おうじょ",
     "voice": "ja-JP-NanamiNeural"
   },
-  "ounanamekou.mp3": {
-    "text": "おうななめこう",
-    "voice": "ja-JP-NanamiNeural"
-  },
   "ousetsu.mp3": {
     "text": "おうせつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "ousetsukou.mp3": {
     "text": "おうせつこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ousetsumagarikou.mp3": {
+    "text": "おうせつまがりこう",
     "voice": "ja-JP-NanamiNeural"
   },
   "oyobu.mp3": {

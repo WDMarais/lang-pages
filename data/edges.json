@@ -2596,6 +2596,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇈",
+      "to": "r:horizontal-fold-curve-hook",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇈",
+      "to": "g:九",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇛",
       "to": "r:left-fall-then-dot",
       "kind": "denotes"
@@ -2627,17 +2637,17 @@
     },
     {
       "from": "g:㇟",
-      "to": "r:horizontal-slant-hook",
+      "to": "r:vertical-curve-hook",
       "kind": "denotes"
     },
     {
       "from": "g:㇟",
-      "to": "g:飞",
+      "to": "g:也",
       "kind": "composes"
     },
     {
       "from": "g:㇟",
-      "to": "g:飛",
+      "to": "g:毛",
       "kind": "composes"
     },
     {
@@ -5285,6 +5295,11 @@
     {
       "from": "g:丨",
       "to": "g:飛",
+      "kind": "composes"
+    },
+    {
+      "from": "g:乙",
+      "to": "g:飞",
       "kind": "composes"
     },
     {

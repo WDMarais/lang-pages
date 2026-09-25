@@ -8,25 +8,25 @@
   },
   "readings": {
     "cn": {
-      "name": "横斜钩",
-      "reading": "héngxiégōu",
-      "gloss": "horizontal-slant hook",
-      "extra": "先横、再斜下、末端向右上挑钩 (如 飞、风、气)",
+      "name": "竖弯钩",
+      "reading": "shùwāngōu",
+      "gloss": "vertical-curve hook",
+      "extra": "先竖下行、底部弯向右、末端向上出钩 (如 也、electricity 电、毛、儿) · 本笔画另有汉字码位「乚」U+4E5A，与「一/㇐」同例：字与笔画各成一卡",
       "appearsIn": {
-        "char": "飞",
-        "reading": "fēi",
-        "gloss": "fly"
+        "char": "也",
+        "reading": "yě",
+        "gloss": "also; too"
       }
     },
     "jp": {
-      "name": "横斜め鉤",
-      "reading": "おうななめこう",
-      "gloss": "horizontal-slant hook",
-      "extra": "横から斜めに下り、末尾で右上へはねる一画",
+      "name": "縦曲がり鉤",
+      "reading": "じゅうまがりこう",
+      "gloss": "vertical-curve hook",
+      "extra": "縦に下ろし、底で右へ曲がり、末尾で上へはねる一画 (也・毛・児)",
       "appearsIn": {
-        "char": "飛",
-        "reading": "と.ぶ",
-        "gloss": "fly"
+        "char": "毛",
+        "reading": "け",
+        "gloss": "hair; fur"
       }
     }
   },

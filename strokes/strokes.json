@@ -242,6 +242,27 @@
           "wk": null
         },
         {
+          "glyph": "㇈",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "hengzhewangou",
+          "cnExAudioKey": "jiu3",
+          "jpAudioKey": "ousetsumagarikou",
+          "jpExAudioKey": "kokono",
+          "cn": {
+            "name": "横折弯钩", "reading": "héngzhéwāngōu", "gloss": "horizontal-fold-curve hook",
+            "extra": "先横、折而下行、底部弯向右、末端向上出钩 (如 九、几、飞、气) · 汉字「乙」U+4E59 正是本笔画一画写成，故合成关系记作「乙」，本卡为笔画参考",
+            "appearsIn": { "char": "九", "reading": "jiǔ", "gloss": "nine" }
+          },
+          "jp": {
+            "name": "横折れ曲がり鉤", "reading": "おうせつまがりこう", "gloss": "horizontal-fold-curve hook",
+            "extra": "横に引き、折れて下り、底で右へ曲がり、末尾で上へはねる一画 (九・飛・気)",
+            "appearsIn": { "char": "九", "reading": "ここの", "gloss": "nine" }
+          },
+          "wk": null
+        },
+        {
           "glyph": "㇛",
           "tag": "stroke",
           "image": "",
@@ -310,18 +331,19 @@
           "tag": "stroke",
           "image": "",
           "animated": true,
-          "cnAudioKey": "hengxiegou",
-          "cnExAudioKey": "fei1",
-          "jpAudioKey": "ounanamekou",
+          "cnAudioKey": "shuwangou",
+          "cnExAudioKey": "ye3",
+          "jpAudioKey": "juumagarikou",
+          "jpExAudioKey": "ke",
           "cn": {
-            "name": "横斜钩", "reading": "héngxiégōu", "gloss": "horizontal-slant hook",
-            "extra": "先横、再斜下、末端向右上挑钩 (如 飞、风、气)",
-            "appearsIn": { "char": "飞", "reading": "fēi", "gloss": "fly" }
+            "name": "竖弯钩", "reading": "shùwāngōu", "gloss": "vertical-curve hook",
+            "extra": "先竖下行、底部弯向右、末端向上出钩 (如 也、electricity 电、毛、儿) · 本笔画另有汉字码位「乚」U+4E5A，与「一/㇐」同例：字与笔画各成一卡",
+            "appearsIn": { "char": "也", "reading": "yě", "gloss": "also; too" }
           },
           "jp": {
-            "name": "横斜め鉤", "reading": "おうななめこう", "gloss": "horizontal-slant hook",
-            "extra": "横から斜めに下り、末尾で右上へはねる一画",
-            "appearsIn": { "char": "飛", "reading": "と.ぶ", "gloss": "fly" }
+            "name": "縦曲がり鉤", "reading": "じゅうまがりこう", "gloss": "vertical-curve hook",
+            "extra": "縦に下ろし、底で右へ曲がり、末尾で上へはねる一画 (也・毛・児)",
+            "appearsIn": { "char": "毛", "reading": "け", "gloss": "hair; fur" }
           },
           "wk": null
         }
