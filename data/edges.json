@@ -3316,6 +3316,11 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇈",
+      "to": "g:乙",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇆",
       "to": "g:习",
       "kind": "composes"

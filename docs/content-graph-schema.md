@@ -159,6 +159,27 @@ srs-tool's type-based slots (see Projection).
     (WHAT each part does — kept separate from the symbol's `composes`, WHICH parts);
     `build-graph.py` joins it onto the composition edges and validates the vocabulary
     + that each entry hits a real edge.
+  - **Which card names a stroke-shaped part.** Several strokes exist twice in Unicode:
+    once in the CJK Strokes block (`㇐` U+31D0 "horizontal stroke") and once as a CJK
+    ideograph (`一` U+4E00 "one"). **`composes` names the card a learner already knows** —
+    so 与 is `["一","㇉","一"]`, not `["㇐","㇉","㇐"]`, and 飞/九/几 name `乙` rather than
+    `㇈`. A stroke-block card is used only where the shape has no ideograph (`㇆ ㇇ ㇀ ㇏
+    ㇉ ㇕`); it is otherwise a reference entry on `/strokes/`, which is why `㇐` has zero
+    uses. **This is a default, not a verdict** — re-authoring the entry *is* the override,
+    so a character whose 一 is purely a horizontal mark may be refined to `㇐` whenever
+    someone looks. The refinement always runs shape-ward; nothing should convert in bulk.
+    - Two rules keep the duplicate pairs straight, and they are NOT the same rule:
+      - same shape **+ same referent** → they are twins; fold with `variants`
+        (`丨`/`㇑` would be this). See docs on variant folding.
+      - same shape **+ different referent** → two cards, linked by `composes`.
+        `一`/`㇐` is this: one denotes *one*, the other denotes *a horizontal stroke*.
+        They are a word and the mark you write it with, not twins — which is why the
+        gate's variant invariant correctly refuses to fold them.
+    - So the lexical radicals carry a **floor link** — `一` ← `㇐`, `乙` ← `㇈` — and a walk
+      down from any character reaches the stroke deck even while the intermediate entry
+      still names the word.
+    - **Queued for review** (is the 一 here the numeral, or just a horizontal?):
+      二 三 十 百 千 王 五. Not touched blind.
 - **`variant-of`** — links divergent forms of the same character.
 - **`denotes`** — glyph/word → referent. For now the referent is just `{ "id":"r:tree",
   "label":"tree" }`, a plain handle, and the `/glyph/` 所指 row renders that label as a

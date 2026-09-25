@@ -3,6 +3,9 @@
   "cp": "U+4E59",
   "class": "char",
   "kangxi": 5,
+  "composes": [
+    "㇈"
+  ],
   "form_only": true,
   "form": {
     "animated": true,
