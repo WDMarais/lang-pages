@@ -8072,6 +8072,33 @@
       "label": "horizontal-fold hook"
     },
     {
+      "id": "g:㇉",
+      "kind": "glyph",
+      "glyph": "㇉",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "shuzhezhegou",
+      "cnExAudioKey": "ma3",
+      "jpAudioKey": "juusetsusetsukou",
+      "jpExAudioKey": "uma"
+    },
+    {
+      "id": "r:vertical-fold-fold-hook",
+      "kind": "referent",
+      "label": "vertical-fold-fold hook"
+    },
+    {
+      "id": "g:马",
+      "kind": "glyph",
+      "glyph": "马",
+      "tier": null,
+      "frontier": true
+    },
+    {
       "id": "g:㇛",
       "kind": "glyph",
       "glyph": "㇛",

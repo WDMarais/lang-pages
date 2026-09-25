@@ -2571,6 +2571,21 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇉",
+      "to": "r:vertical-fold-fold-hook",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇉",
+      "to": "g:马",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇉",
+      "to": "g:馬",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇛",
       "to": "r:left-fall-then-dot",
       "kind": "denotes"
@@ -3132,6 +3147,11 @@
     },
     {
       "from": "g:一",
+      "to": "g:与",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇉",
       "to": "g:与",
       "kind": "composes"
     },

@@ -3106,7 +3106,7 @@
         "yǔ"
       ],
       "gloss": "and; with",
-      "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 两家程序的部首取「与」去末横之二画形，该形无 Unicode 码位（MMAH 作 ⿹？一），故程序标签记于本字",
+      "extra": "连词/介词「和」· 亦「给予」· 潘达尼斯记作「睡袋 sleeping bag」· 两家程序的部首取「与」去末横之二画形，即 一＋㇉，二画各有码位而合形无码位（MMAH 作 ⿹？一），故程序标签记于本字",
       "program": {
         "source": "pandanese",
         "name": "sleeping bag",
@@ -3123,7 +3123,7 @@
         "あたえる"
       ],
       "gloss": "to give; grant",
-      "extra": "漢字「与」(あた-える · ヨ) · 旧字 與 · プログラムの部首は下の横画を除いた二画の形だが、その形に Unicode 符号位置がないため本字に記す",
+      "extra": "漢字「与」(あた-える · ヨ) · 旧字 與 · プログラムの部首は下の横画を除いた二画の形（一＋㇉）で、各画には符号位置があるが合わせた形にはないため本字に記す",
       "program": {
         "source": "wanikani",
         "name": "Beggar",
@@ -13167,6 +13167,38 @@
         "glyph": "力",
         "reading": "ちから",
         "gloss": "power"
+      }
+    },
+    {
+      "id": "b:㇉@cn",
+      "glyph_id": "g:㇉",
+      "lang": "cn",
+      "name": "竖折折钩",
+      "readings": [
+        "shùzhézhégōu"
+      ],
+      "gloss": "vertical-fold-fold hook",
+      "extra": "先竖、折向右、再折向左下、末端向左上出钩 (如 马、与、弓、号) · Unicode 码位名作 SZWG「竖折弯钩」——同一笔画，两套名称",
+      "appearsIn": {
+        "glyph": "马",
+        "reading": "mǎ",
+        "gloss": "horse"
+      }
+    },
+    {
+      "id": "b:㇉@jp",
+      "glyph_id": "g:㇉",
+      "lang": "jp",
+      "name": "縦折れ折れ鉤",
+      "readings": [
+        "じゅうせつせつこう"
+      ],
+      "gloss": "vertical-fold-fold hook",
+      "extra": "縦に下ろし、右へ折れ、左下へ折れ、末尾で左上へはねる一画 (馬・弓)",
+      "appearsIn": {
+        "glyph": "馬",
+        "reading": "うま",
+        "gloss": "horse"
       }
     },
     {

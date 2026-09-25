@@ -200,6 +200,27 @@
           "pd": { "name": "crane", "level": 1, "kind": "mnemonic" }
         },
         {
+          "glyph": "㇉",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shuzhezhegou",
+          "cnExAudioKey": "ma3",
+          "jpAudioKey": "juusetsusetsukou",
+          "jpExAudioKey": "uma",
+          "cn": {
+            "name": "竖折折钩", "reading": "shùzhézhégōu", "gloss": "vertical-fold-fold hook",
+            "extra": "先竖、折向右、再折向左下、末端向左上出钩 (如 马、与、弓、号) · Unicode 码位名作 SZWG「竖折弯钩」——同一笔画，两套名称",
+            "appearsIn": { "char": "马", "reading": "mǎ", "gloss": "horse" }
+          },
+          "jp": {
+            "name": "縦折れ折れ鉤", "reading": "じゅうせつせつこう", "gloss": "vertical-fold-fold hook",
+            "extra": "縦に下ろし、右へ折れ、左下へ折れ、末尾で左上へはねる一画 (馬・弓)",
+            "appearsIn": { "char": "馬", "reading": "うま", "gloss": "horse" }
+          },
+          "wk": null
+        },
+        {
           "glyph": "㇛",
           "tag": "stroke",
           "image": "",

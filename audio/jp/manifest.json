@@ -491,6 +491,10 @@
     "text": "じゅうろく",
     "voice": "ja-JP-NanamiNeural"
   },
+  "juusetsusetsukou.mp3": {
+    "text": "じゅうせつせつこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ka.mp3": {
     "text": "カ",
     "voice": "ja-JP-NanamiNeural"
@@ -1365,6 +1369,10 @@
   },
   "ue.mp3": {
     "text": "うえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "uma.mp3": {
+    "text": "うま",
     "voice": "ja-JP-NanamiNeural"
   },
   "umareru.mp3": {
