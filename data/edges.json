@@ -8,7 +8,8 @@
     {
       "from": "g:一",
       "to": "g:三",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:八",
@@ -2498,7 +2499,8 @@
     {
       "from": "g:丨",
       "to": "g:十",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
     },
     {
       "from": "g:丿",
@@ -2658,12 +2660,14 @@
     {
       "from": "g:一",
       "to": "g:二",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:二",
       "to": "g:三",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:囗",
@@ -2793,22 +2797,38 @@
     {
       "from": "g:一",
       "to": "g:十",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
     },
     {
       "from": "g:丿",
       "to": "g:千",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
     },
     {
       "from": "g:十",
       "to": "g:千",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
     },
     {
-      "from": "g:二",
+      "from": "g:一",
       "to": "g:五",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
+    },
+    {
+      "from": "g:丨",
+      "to": "g:五",
+      "kind": "composes",
+      "role": "form"
+    },
+    {
+      "from": "g:㇕",
+      "to": "g:五",
+      "kind": "composes",
+      "role": "form"
     },
     {
       "from": "g:八",
@@ -2953,12 +2973,14 @@
     {
       "from": "g:一",
       "to": "g:王",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
     },
     {
       "from": "g:土",
       "to": "g:王",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "form"
     },
     {
       "from": "g:木",
@@ -4540,12 +4562,14 @@
     {
       "from": "g:一",
       "to": "g:百",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "semantic"
     },
     {
       "from": "g:白",
       "to": "g:百",
-      "kind": "composes"
+      "kind": "composes",
+      "role": "phonetic"
     },
     {
       "from": "g:攴",

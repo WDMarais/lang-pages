@@ -178,8 +178,21 @@ srs-tool's type-based slots (see Projection).
     - So the lexical radicals carry a **floor link** — `一` ← `㇐`, `乙` ← `㇈` — and a walk
       down from any character reaches the stroke deck even while the intermediate entry
       still names the word.
-    - **Queued for review** (is the 一 here the numeral, or just a horizontal?):
-      二 三 十 百 千 王 五. Not touched blind.
+    - **Reviewed 2026-09-25** (is the 一 here the numeral, or just a horizontal?):
+      二 三 十 百 千 王 五. The answer turned out **not** to belong in `composes` at all.
+      Swapping the "just a horizontal" cases to `㇐` would only be consistent if all ~50
+      of `一`'s other users swapped too — the bulk conversion this spec rules out — so
+      the finding is recorded in `composition-roles.json` instead, which exists to say
+      WHAT a part does: `二`←`一` and `三`←`一` are **semantic** (each stroke is a tally
+      of one), `百`←`一` likewise (the oracle-bone device that writes 二百 with a second
+      horizontal), with `百`←`白` **phonetic** (bái → bǎi); `十 千 王 五` are **form**.
+      The part named in `composes` stays `一` in every case. `㇐` remains reserved for
+      shapes with no ideograph, plus the floor link.
+      - `五` was the one real edit: it held MMAH's `["二"]`, a truncation of ⿻二㐅 that
+        named two of four strokes — the same partial-decomposition defect as 与's old
+        `["一"]`. Now `["一","丨","㇕","一"]`, the strokes as drawn (横竖横折横); the
+        古文 ⿻二㐅 reading is noted in the card's `extra` rather than authored, since
+        the modern middle is 丨＋㇕, not a crossing.
 - **`variant-of`** — links divergent forms of the same character.
 - **`denotes`** — glyph/word → referent. For now the referent is just `{ "id":"r:tree",
   "label":"tree" }`, a plain handle, and the `/glyph/` 所指 row renders that label as a
