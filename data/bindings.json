@@ -3822,7 +3822,7 @@
       "readings": [
         "liǎng"
       ],
-      "gloss": "two (of a pair); a couple; tael",
+      "gloss": "pair; two (before a measure word); tael",
       "extra": "两个、两百、斤两 · 量词前用「两」不用「二」· 繁体作兩",
       "program": {
         "source": "pandanese",
@@ -4008,7 +4008,7 @@
       "readings": [
         "me"
       ],
-      "gloss": "what; thus; how; why",
+      "gloss": "suffix (什么、怎么、这么)",
       "extra": "什么、怎么、这么、那么 · 词尾，读轻声 · 繁体作麼",
       "program": {
         "source": "pandanese",
@@ -4279,7 +4279,7 @@
       "readings": [
         "shén"
       ],
-      "gloss": "what (in 什么)",
+      "gloss": "assorted; miscellaneous",
       "extra": "亻 + 十 · 什么(shénme) = what · 又读 shí（什锦 assorted、家什 utensils）",
       "program": {
         "source": "pandanese",
@@ -6216,8 +6216,8 @@
       "readings": [
         "zhǐ"
       ],
-      "gloss": "go",
-      "extra": "康熙部首 34",
+      "gloss": "follow behind",
+      "extra": "康熙部首 34 · 说文「从后至也」· 旧译常作 go，与动词「去」同名，故此处取「follow behind」以别之 · 另与部首 35「夊」(suī, go slowly) 形近易混",
       "program": {
         "source": "pandanese",
         "name": "go",
@@ -6231,8 +6231,8 @@
       "lang": "jp",
       "name": "夂",
       "readings": [],
-      "gloss": "go",
-      "extra": "",
+      "gloss": "follow behind",
+      "extra": "康熙部首 34「ちにょう」· 後ろから来る意 · 部首 35「夊」(go slowly) と形が紛らわしい",
       "program": {
         "source": "wanikani",
         "name": "Winter",
@@ -9188,7 +9188,7 @@
       "readings": [
         "shēn"
       ],
-      "gloss": "say; state, declare; extend; 9th Earthly Branch",
+      "gloss": "state; declare; extend; 9th Earthly Branch",
       "extra": "申请、申明、重申 · 本义象闪电之形（电/神 从申）· 地支第九"
     },
     {

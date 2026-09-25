@@ -2058,7 +2058,7 @@
       "glyphs": [
         {
           "glyph": "两",
-          "gloss": "two (of a pair); a couple; tael",
+          "gloss": "pair; two (before a measure word); tael",
           "rank": 0
         }
       ]
@@ -2250,7 +2250,7 @@
       "glyphs": [
         {
           "glyph": "么",
-          "gloss": "what; thus; how; why",
+          "gloss": "suffix (什么、怎么、这么)",
           "rank": 0
         }
       ]
@@ -3065,7 +3065,7 @@
       "glyphs": [
         {
           "glyph": "申",
-          "gloss": "say; state, declare; extend; 9th Earthly Branch",
+          "gloss": "state; declare; extend; 9th Earthly Branch",
           "rank": 0
         },
         {
@@ -3084,7 +3084,7 @@
       "glyphs": [
         {
           "glyph": "什",
-          "gloss": "what (in 什么)",
+          "gloss": "assorted; miscellaneous",
           "rank": 0
         },
         {
@@ -4705,7 +4705,7 @@
         },
         {
           "glyph": "夂",
-          "gloss": "go",
+          "gloss": "follow behind",
           "rank": 1
         }
       ]

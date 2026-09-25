@@ -740,7 +740,7 @@
     },
     {
       "from": "g:两",
-      "to": "r:two",
+      "to": "r:pair",
       "kind": "denotes"
     },
     {
@@ -785,7 +785,7 @@
     },
     {
       "from": "g:么",
-      "to": "r:what",
+      "to": "r:suffix",
       "kind": "denotes"
     },
     {
@@ -851,7 +851,7 @@
     },
     {
       "from": "g:什",
-      "to": "r:what",
+      "to": "r:assorted",
       "kind": "denotes"
     },
     {
@@ -1171,7 +1171,7 @@
     },
     {
       "from": "g:夂",
-      "to": "r:go",
+      "to": "r:follow-behind",
       "kind": "denotes"
     },
     {
@@ -1728,7 +1728,7 @@
     },
     {
       "from": "g:申",
-      "to": "r:say",
+      "to": "r:state",
       "kind": "denotes"
     },
     {

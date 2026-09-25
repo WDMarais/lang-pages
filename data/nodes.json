@@ -1922,6 +1922,11 @@
       }
     },
     {
+      "id": "r:pair",
+      "kind": "referent",
+      "label": "pair"
+    },
+    {
       "id": "g:个",
       "kind": "glyph",
       "glyph": "个",
@@ -2059,9 +2064,9 @@
       }
     },
     {
-      "id": "r:what",
+      "id": "r:suffix",
       "kind": "referent",
-      "label": "what"
+      "label": "suffix"
     },
     {
       "id": "g:义",
@@ -2269,6 +2274,11 @@
       },
       "cnAudioKey": "shen2",
       "jpAudioKey": "juu"
+    },
+    {
+      "id": "r:assorted",
+      "kind": "referent",
+      "label": "assorted"
     },
     {
       "id": "g:今",
@@ -3481,6 +3491,11 @@
         "image": ""
       },
       "cnAudioKey": "zhi3"
+    },
+    {
+      "id": "r:follow-behind",
+      "kind": "referent",
+      "label": "follow behind"
     },
     {
       "id": "g:处",
@@ -5366,6 +5381,11 @@
       "script": {
         "same": true
       }
+    },
+    {
+      "id": "r:state",
+      "kind": "referent",
+      "label": "state"
     },
     {
       "id": "g:男",
@@ -13615,6 +13635,11 @@
         "level": 5
       },
       "cnAudioKey": "shen2me5"
+    },
+    {
+      "id": "r:what",
+      "kind": "referent",
+      "label": "what"
     },
     {
       "id": "w:こんばんは@jp",

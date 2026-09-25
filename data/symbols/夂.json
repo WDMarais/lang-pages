@@ -16,13 +16,14 @@
     "cn": {
       "name": "夂",
       "reading": "zhǐ",
-      "gloss": "go",
-      "extra": "康熙部首 34"
+      "gloss": "follow behind",
+      "extra": "康熙部首 34 · 说文「从后至也」· 旧译常作 go，与动词「去」同名，故此处取「follow behind」以别之 · 另与部首 35「夊」(suī, go slowly) 形近易混"
     },
     "jp": {
       "name": "夂",
       "reading": "",
-      "gloss": "go"
+      "gloss": "follow behind",
+      "extra": "康熙部首 34「ちにょう」· 後ろから来る意 · 部首 35「夊」(go slowly) と形が紛らわしい"
     }
   },
   "programs": [

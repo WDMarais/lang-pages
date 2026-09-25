@@ -202,6 +202,32 @@ srs-tool's type-based slots (see Projection).
   The sense-data overlay is `data/referents.json`; a composite referent (orchestra =
   players + instruments + emergent sound) decomposes the same way the glyph graph does,
   one layer up. (Graded/property + composite referents → Future exploration.)
+  - **When may two glyphs share a referent?** The id is minted mechanically from the
+    CN gloss's first sense (`referent_slug`: parentheticals dropped, leading "to "
+    dropped), so *the gloss is the only lever* — splitting a collision means fixing a
+    gloss, never hand-editing an id. `data/kangxi.json` carries the same slug for the
+    214 radicals and the gate cross-checks the two, so a radical's gloss and referent
+    can't drift apart. The test is **"is one image/sense-datum true of both?"**:
+    - **Yes, because they are the same writing unit in two forms** — allograph, radical
+      form, script fork. Sharing is correct and permanent: 人/亻, 手/扌, 艸/艹, 辵/辶,
+      示/礻, ⺼/肉, 卜/ト, ム/厶, ナ/𠂇, 襾/覀, 冫/氷, 气/気, 飛/飞, 邑/阝.
+    - **Yes, though they are distinct characters** — near-synonyms a single picture
+      anchors: 头/首, 体/身, 不/无, 从/由, 言/话, 会/可, 样/相, 使/用, 与/及/和, 村/里,
+      市 (with 邑/阝). Sharing is tolerable — the referent is a rejoin anchor, not the
+      scheduling key, which is per-glyph — but these are exactly the pairs a learner
+      must tell apart, so they want `association` edges, not a merged identity.
+    - **No — the label is false of one of them.** Split, by re-glossing the offender.
+      Swept 2026-09-26: 什 and 么 both claimed "what", which neither means alone —
+      the word 什么 already owned `r:what`, so the glyphs took their own senses
+      (`assorted`, `suffix`) and the word kept the meaning. 申 led with "say", 曰's
+      sense, and became `state`. 夂 was glossed "go" (the conventional radical
+      translation) and collided with the verb 去; it became `follow behind`, which
+      also separates it from look-alike radical 35 夊 "go slowly". 两 read
+      "two (of a pair)" — the parenthetical the slug drops was carrying the whole
+      distinction from 二, so it became `pair`.
+    - Known exception, left alone: 里 keeps `village` (its Kangxi-166 identity) even
+      though simplified CN merged 裏 "inside" into it. That is a second *sense*, and
+      belongs in `senses[]` per `docs/sense-model.md`, not in a re-gloss.
 
 ## Worked cluster: 木
 

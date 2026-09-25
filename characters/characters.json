@@ -1374,7 +1374,7 @@
           "jpAudioKey": "ryou",
           "script": {"traditional": [{"glyph": "兩"}]},
           "cn": {
-            "name": "两", "reading": "liǎng", "gloss": "two (of a pair); a couple; tael",
+            "name": "两", "reading": "liǎng", "gloss": "pair; two (before a measure word); tael",
             "extra": "两个、两百、斤两 · 量词前用「两」不用「二」· 繁体作兩"
           },
           "jp": {
@@ -1451,7 +1451,7 @@
           "jpAudioKey": "ma",
           "script": {"traditional": [{"glyph": "麼"}]},
           "cn": {
-            "name": "么", "reading": "me", "gloss": "what; thus; how; why",
+            "name": "么", "reading": "me", "gloss": "suffix (什么、怎么、这么)",
             "extra": "什么、怎么、这么、那么 · 词尾，读轻声 · 繁体作麼"
           },
           "jp": {
@@ -1605,7 +1605,7 @@
           "cnAudioKey": "shen2",
           "jpAudioKey": "juu",
           "cn": {
-            "name": "什", "reading": "shén", "gloss": "what (in 什么)",
+            "name": "什", "reading": "shén", "gloss": "assorted; miscellaneous",
             "extra": "亻 + 十 · 什么(shénme) = what · 又读 shí（什锦 assorted、家什 utensils）"
           },
           "jp": {
@@ -3565,7 +3565,7 @@
           "jpAudioKey": "shin",
           "script": {"same": true},
           "cn": {
-            "name": "申", "reading": "shēn", "gloss": "say; state, declare; extend; 9th Earthly Branch",
+            "name": "申", "reading": "shēn", "gloss": "state; declare; extend; 9th Earthly Branch",
             "extra": "申请、申明、重申 · 本义象闪电之形（电/神 从申）· 地支第九"
           },
           "jp": {
