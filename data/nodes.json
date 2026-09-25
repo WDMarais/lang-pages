@@ -8099,6 +8099,26 @@
       "frontier": true
     },
     {
+      "id": "g:㇕",
+      "kind": "glyph",
+      "glyph": "㇕",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hengzhe",
+      "cnExAudioKey": "kou3",
+      "jpAudioKey": "ousetsu",
+      "jpExAudioKey": "kuchi"
+    },
+    {
+      "id": "r:horizontal-fold",
+      "kind": "referent",
+      "label": "horizontal-fold"
+    },
+    {
       "id": "g:㇛",
       "kind": "glyph",
       "glyph": "㇛",

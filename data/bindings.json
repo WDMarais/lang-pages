@@ -13202,6 +13202,38 @@
       }
     },
     {
+      "id": "b:㇕@cn",
+      "glyph_id": "g:㇕",
+      "lang": "cn",
+      "name": "横折",
+      "readings": [
+        "héngzhé"
+      ],
+      "gloss": "horizontal-fold",
+      "extra": "先横、末端折而向下，收笔无钩 (如 口、日、田、弓) · 末端出钩者是 ㇆ 横折钩 · 方框类字多经 冂 一层，不直接用本笔画",
+      "appearsIn": {
+        "glyph": "口",
+        "reading": "kǒu",
+        "gloss": "mouth"
+      }
+    },
+    {
+      "id": "b:㇕@jp",
+      "glyph_id": "g:㇕",
+      "lang": "jp",
+      "name": "横折れ",
+      "readings": [
+        "おうせつ"
+      ],
+      "gloss": "horizontal-fold",
+      "extra": "横に引き、末尾で下へ折れる一画・はねない (口・日・田) · はねるものは ㇆ 横折れ鉤",
+      "appearsIn": {
+        "glyph": "口",
+        "reading": "くち",
+        "gloss": "mouth"
+      }
+    },
+    {
       "id": "b:㇛@cn",
       "glyph_id": "g:㇛",
       "lang": "cn",

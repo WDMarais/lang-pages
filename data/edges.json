@@ -2586,6 +2586,16 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇕",
+      "to": "r:horizontal-fold",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇕",
+      "to": "g:口",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇛",
       "to": "r:left-fall-then-dot",
       "kind": "denotes"
@@ -3008,6 +3018,21 @@
     {
       "from": "g:丿",
       "to": "g:刀",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇕",
+      "to": "g:弓",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:弓",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇉",
+      "to": "g:弓",
       "kind": "composes"
     },
     {

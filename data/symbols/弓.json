@@ -3,6 +3,11 @@
   "cp": "U+5F13",
   "class": "char",
   "kangxi": 57,
+  "composes": [
+    "㇕",
+    "一",
+    "㇉"
+  ],
   "form": {
     "animated": true,
     "image": ""

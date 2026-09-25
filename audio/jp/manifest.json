@@ -999,6 +999,10 @@
     "text": "おうななめこう",
     "voice": "ja-JP-NanamiNeural"
   },
+  "ousetsu.mp3": {
+    "text": "おうせつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ousetsukou.mp3": {
     "text": "おうせつこう",
     "voice": "ja-JP-NanamiNeural"
