@@ -461,7 +461,7 @@
       ],
       "denotes": "can-may",
       "reading": "kěyǐ",
-      "gloss": "can; may; possible; OK",
+      "gloss": "be allowed to; can; may; possible; OK",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -668,7 +668,7 @@
       ],
       "denotes": "cannot",
       "reading": "bùkě",
-      "gloss": "cannot; must not; impossible (cf. reversed 可不)",
+      "gloss": "must not; cannot; impossible (cf. reversed 可不)",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -862,7 +862,7 @@
         "五",
         "月"
       ],
-      "denotes": "may",
+      "denotes": "may-month",
       "reading": "ごがつ",
       "gloss": "May",
       "program": {
@@ -1844,7 +1844,7 @@
       ],
       "denotes": "job",
       "reading": "gōngzuò",
-      "gloss": "work; job; to work",
+      "gloss": "job; work; to work",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -2033,7 +2033,7 @@
       ],
       "denotes": "considerably",
       "reading": "なかなか",
-      "gloss": "very; considerably; quite; (with neg.) by no means",
+      "gloss": "considerably; very; quite; (with neg.) by no means",
       "program": {
         "source": "wanikani",
         "kind": "vocab",
@@ -3319,7 +3319,7 @@
       ],
       "denotes": "in-the-capacity-of",
       "reading": "zuòwéi",
-      "gloss": "as; in the capacity of; being (sth) (e.g. 作为员工之一 as one of the employees)",
+      "gloss": "in the capacity of; as; being (sth) (e.g. 作为员工之一 as one of the employees)",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -3602,7 +3602,7 @@
       ],
       "denotes": "authentic",
       "reading": "zhēnshí",
-      "gloss": "true; real; authentic; genuine; not fake",
+      "gloss": "authentic; true; real; genuine; not fake",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -3634,7 +3634,7 @@
       ],
       "denotes": "solid-honest",
       "reading": "shízài",
-      "gloss": "real; solid; honest; down-to-earth; indeed",
+      "gloss": "solid, honest; down-to-earth; real; indeed",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -4820,7 +4820,7 @@
       ],
       "denotes": "unable",
       "reading": "bùnéng",
-      "gloss": "cannot; unable to; may not",
+      "gloss": "unable to; cannot; may not",
       "program": {
         "source": "pandanese",
         "kind": "vocab",

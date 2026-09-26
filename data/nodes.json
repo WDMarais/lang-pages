@@ -9007,7 +9007,7 @@
       "audience": "cn",
       "glyph": "可以",
       "reading": "kěyǐ",
-      "gloss": "can; may; possible; OK",
+      "gloss": "be allowed to; can; may; possible; OK",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -9018,7 +9018,7 @@
     {
       "id": "r:can-may",
       "kind": "referent",
-      "label": "can"
+      "label": "be allowed to"
     },
     {
       "id": "w:以后@cn",
@@ -9250,7 +9250,7 @@
       "audience": "cn",
       "glyph": "不可",
       "reading": "bùkě",
-      "gloss": "cannot; must not; impossible (cf. reversed 可不)",
+      "gloss": "must not; cannot; impossible (cf. reversed 可不)",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -9261,7 +9261,7 @@
     {
       "id": "r:cannot",
       "kind": "referent",
-      "label": "cannot"
+      "label": "must not"
     },
     {
       "id": "w:〜才@jp",
@@ -9488,7 +9488,7 @@
       "jpAudioKey": "gogatsu"
     },
     {
-      "id": "r:may",
+      "id": "r:may-month",
       "kind": "referent",
       "label": "May"
     },
@@ -10635,7 +10635,7 @@
       "audience": "cn",
       "glyph": "工作",
       "reading": "gōngzuò",
-      "gloss": "work; job; to work",
+      "gloss": "job; work; to work",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -10646,7 +10646,7 @@
     {
       "id": "r:job",
       "kind": "referent",
-      "label": "work"
+      "label": "job"
     },
     {
       "id": "w:工人@cn",
@@ -10868,7 +10868,7 @@
       "audience": "jp",
       "glyph": "中々",
       "reading": "なかなか",
-      "gloss": "very; considerably; quite; (with neg.) by no means",
+      "gloss": "considerably; very; quite; (with neg.) by no means",
       "program": {
         "source": "wanikani",
         "kind": "vocab",
@@ -10879,7 +10879,7 @@
     {
       "id": "r:considerably",
       "kind": "referent",
-      "label": "very"
+      "label": "considerably"
     },
     {
       "id": "w:田んぼ@jp",
@@ -12402,7 +12402,7 @@
       "audience": "cn",
       "glyph": "作为",
       "reading": "zuòwéi",
-      "gloss": "as; in the capacity of; being (sth) (e.g. 作为员工之一 as one of the employees)",
+      "gloss": "in the capacity of; as; being (sth) (e.g. 作为员工之一 as one of the employees)",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -12413,7 +12413,7 @@
     {
       "id": "r:in-the-capacity-of",
       "kind": "referent",
-      "label": "as"
+      "label": "in the capacity of"
     },
     {
       "id": "w:一下子@cn",
@@ -12709,7 +12709,7 @@
       "audience": "cn",
       "glyph": "真实",
       "reading": "zhēnshí",
-      "gloss": "true; real; authentic; genuine; not fake",
+      "gloss": "authentic; true; real; genuine; not fake",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -12720,7 +12720,7 @@
     {
       "id": "r:authentic",
       "kind": "referent",
-      "label": "true"
+      "label": "authentic"
     },
     {
       "id": "w:实力@cn",
@@ -12749,7 +12749,7 @@
       "audience": "cn",
       "glyph": "实在",
       "reading": "shízài",
-      "gloss": "real; solid; honest; down-to-earth; indeed",
+      "gloss": "solid, honest; down-to-earth; real; indeed",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -12760,7 +12760,7 @@
     {
       "id": "r:solid-honest",
       "kind": "referent",
-      "label": "real"
+      "label": "solid, honest"
     },
     {
       "id": "w:明年@cn",
@@ -14158,7 +14158,7 @@
       "audience": "cn",
       "glyph": "不能",
       "reading": "bùnéng",
-      "gloss": "cannot; unable to; may not",
+      "gloss": "unable to; cannot; may not",
       "program": {
         "source": "pandanese",
         "kind": "vocab",
@@ -14169,7 +14169,7 @@
     {
       "id": "r:unable",
       "kind": "referent",
-      "label": "cannot"
+      "label": "unable to"
     },
     {
       "id": "w:真心@cn",
