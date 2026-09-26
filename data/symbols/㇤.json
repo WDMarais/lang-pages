@@ -1,0 +1,29 @@
+{
+  "glyph": "㇤",
+  "cp": "U+31E4",
+  "class": "stroke",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "横斜钩",
+      "reading": "héngxiégōu",
+      "gloss": "horizontal-slant hook",
+      "extra": "先横、折而斜向右下、末端向上出钩 (如 飞、气、风) · Unicode 16 新增，注为「飞」U+98DE 的第一笔 · 与 ㇈ 横折弯钩（九）不同：折后斜出，不弯底",
+      "appearsIn": {
+        "char": "飞",
+        "reading": "fēi",
+        "gloss": "fly"
+      }
+    },
+    "jp": {
+      "name": "横斜め鉤",
+      "reading": "おうしゃこう",
+      "gloss": "horizontal-slant hook",
+      "extra": "横に引き、折れて右下へ斜めに下り、末尾で上へはねる一画 (気・風) · ㇈ (九) と違い、底で曲がらない"
+    }
+  },
+  "programs": []
+}

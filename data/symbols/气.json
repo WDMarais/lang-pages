@@ -8,6 +8,11 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "𠂉",
+    "一",
+    "㇤"
+  ],
   "readings": {
     "cn": {
       "name": "气",

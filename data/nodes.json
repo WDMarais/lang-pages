@@ -8159,6 +8159,45 @@
       "label": "horizontal-fold-curve hook"
     },
     {
+      "id": "g:㇠",
+      "kind": "glyph",
+      "glyph": "㇠",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hengxiewangou",
+      "cnExAudioKey": "yi3",
+      "jpAudioKey": "oushamagarikou",
+      "jpExAudioKey": "otsu"
+    },
+    {
+      "id": "r:horizontal-slant-curve-hook",
+      "kind": "referent",
+      "label": "horizontal-slant-curve hook"
+    },
+    {
+      "id": "g:㇤",
+      "kind": "glyph",
+      "glyph": "㇤",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "hengxiegou",
+      "cnExAudioKey": "fei1",
+      "jpAudioKey": "oushakou"
+    },
+    {
+      "id": "r:horizontal-slant-hook",
+      "kind": "referent",
+      "label": "horizontal-slant hook"
+    },
+    {
       "id": "g:㇛",
       "kind": "glyph",
       "glyph": "㇛",

@@ -1,0 +1,34 @@
+{
+  "glyph": "㇠",
+  "cp": "U+31E0",
+  "class": "stroke",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "横斜弯钩",
+      "reading": "héngxiéwāngōu",
+      "gloss": "horizontal-slant-curve hook",
+      "extra": "先短横、斜向左下行、底部弯向右、末端向上出钩 · Unicode 注为「乙」U+4E59 的第一笔 · 汉字「乙」正是本笔画一画写成，故「乙」合成记作 ㇠（地板链接）；与 ㇈ 横折弯钩（九、几）不同：此笔无折角，一路斜下",
+      "appearsIn": {
+        "char": "乙",
+        "reading": "yǐ",
+        "gloss": "second"
+      }
+    },
+    "jp": {
+      "name": "横斜め曲がり鉤",
+      "reading": "おうしゃまがりこう",
+      "gloss": "horizontal-slant-curve hook",
+      "extra": "短く横に引き、斜め左下へ下り、底で右へ曲がり、末尾で上へはねる一画 (乙) · ㇈ (九) と違い、折れ角がない",
+      "appearsIn": {
+        "char": "乙",
+        "reading": "おつ",
+        "gloss": "second"
+      }
+    }
+  },
+  "programs": []
+}

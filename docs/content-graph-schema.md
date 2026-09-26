@@ -162,12 +162,21 @@ srs-tool's type-based slots (see Projection).
   - **Which card names a stroke-shaped part.** Several strokes exist twice in Unicode:
     once in the CJK Strokes block (`㇐` U+31D0 "horizontal stroke") and once as a CJK
     ideograph (`一` U+4E00 "one"). **`composes` names the card a learner already knows** —
-    so 与 is `["一","㇉","一"]`, not `["㇐","㇉","㇐"]`, and 飞/九/几 name `乙` rather than
-    `㇈`. A stroke-block card is used only where the shape has no ideograph (`㇆ ㇇ ㇀ ㇏
-    ㇉ ㇕`); it is otherwise a reference entry on `/strokes/`, which is why `㇐` has zero
-    uses. **This is a default, not a verdict** — re-authoring the entry *is* the override,
-    so a character whose 一 is purely a horizontal mark may be refined to `㇐` whenever
-    someone looks. The refinement always runs shape-ward; nothing should convert in bulk.
+    so 与 is `["一","㇉","一"]`, not `["㇐","㇉","㇐"]`. A stroke-block card is used only
+    where the shape has no ideograph (`㇆ ㇇ ㇀ ㇏ ㇉ ㇕ ㇈ ㇤`); it is otherwise a reference
+    entry on `/strokes/`, which is why `㇐` has zero uses. **This is a default, not a
+    verdict** — re-authoring the entry *is* the override, so a character whose 一 is
+    purely a horizontal mark may be refined to `㇐` whenever someone looks. The
+    refinement always runs shape-ward; nothing should convert in bulk.
+    - **Name a stroke by BOTH its Unicode name and its NamesList annotation, never by
+      eye or by a distance metric.** Three look-alike hooks were conflated here until
+      2026-09-26. `㇈` HZWG 横折弯钩 is annotated "2nd stroke of 九" and is also 几's.
+      `㇠` HXWG 横斜弯钩 is "1st stroke of 乙", and is the stroke 乙 *is*. `㇤` HXG 横斜钩
+      is "1st stroke of 飞" and is also 气's last. The cards had treated `乙` as `㇈`,
+      so 九/几/飞 named `乙`; they now name `㇈`/`㇈`/`㇤`. `㇤` is a Unicode 16 (2024)
+      addition: Python 3.12's `unicodedata` doesn't know it, so read NamesList.txt,
+      not a range scan. Font coverage for it is still thin, but the animated view
+      renders from stroke data.
     - Two rules keep the duplicate pairs straight, and they are NOT the same rule:
       - same shape **+ same referent** → they are twins; fold with `variants`
         (`丨`/`㇑` would be this). See docs on variant folding.
@@ -175,7 +184,7 @@ srs-tool's type-based slots (see Projection).
         `一`/`㇐` is this: one denotes *one*, the other denotes *a horizontal stroke*.
         They are a word and the mark you write it with, not twins — which is why the
         gate's variant invariant correctly refuses to fold them.
-    - So the lexical radicals carry a **floor link** — `一` ← `㇐`, `乙` ← `㇈` — and a walk
+    - So the lexical radicals carry a **floor link** — `一` ← `㇐`, `乙` ← `㇠` — and a walk
       down from any character reaches the stroke deck even while the intermediate entry
       still names the word.
     - **Reviewed 2026-09-25** (is the 一 here the numeral, or just a horizontal?):

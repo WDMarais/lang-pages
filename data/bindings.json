@@ -13242,7 +13242,7 @@
         "héngzhéwāngōu"
       ],
       "gloss": "horizontal-fold-curve hook",
-      "extra": "先横、折而下行、底部弯向右、末端向上出钩 (如 九、几、飞、气) · 汉字「乙」U+4E59 正是本笔画一画写成，故合成关系记作「乙」，本卡为笔画参考",
+      "extra": "先横、折而下行、底部弯向右、末端向上出钩 (如 九、几) · Unicode 注为「九」U+4E5D 的第二笔 · 无对应汉字，故合成直接记作 ㇈ · 勿与 ㇠ 横斜弯钩（乙）、㇤ 横斜钩（飞、气）混淆",
       "appearsIn": {
         "glyph": "九",
         "reading": "jiǔ",
@@ -13258,12 +13258,71 @@
         "おうせつまがりこう"
       ],
       "gloss": "horizontal-fold-curve hook",
-      "extra": "横に引き、折れて下り、底で右へ曲がり、末尾で上へはねる一画 (九・飛・気)",
+      "extra": "横に引き、折れて下り、底で右へ曲がり、末尾で上へはねる一画 (九・几) · ㇠ (乙)・㇤ (飛・気) とは別の画",
       "appearsIn": {
         "glyph": "九",
         "reading": "ここの",
         "gloss": "nine"
       }
+    },
+    {
+      "id": "b:㇠@cn",
+      "glyph_id": "g:㇠",
+      "lang": "cn",
+      "name": "横斜弯钩",
+      "readings": [
+        "héngxiéwāngōu"
+      ],
+      "gloss": "horizontal-slant-curve hook",
+      "extra": "先短横、斜向左下行、底部弯向右、末端向上出钩 · Unicode 注为「乙」U+4E59 的第一笔 · 汉字「乙」正是本笔画一画写成，故「乙」合成记作 ㇠（地板链接）；与 ㇈ 横折弯钩（九、几）不同：此笔无折角，一路斜下",
+      "appearsIn": {
+        "glyph": "乙",
+        "reading": "yǐ",
+        "gloss": "second"
+      }
+    },
+    {
+      "id": "b:㇠@jp",
+      "glyph_id": "g:㇠",
+      "lang": "jp",
+      "name": "横斜め曲がり鉤",
+      "readings": [
+        "おうしゃまがりこう"
+      ],
+      "gloss": "horizontal-slant-curve hook",
+      "extra": "短く横に引き、斜め左下へ下り、底で右へ曲がり、末尾で上へはねる一画 (乙) · ㇈ (九) と違い、折れ角がない",
+      "appearsIn": {
+        "glyph": "乙",
+        "reading": "おつ",
+        "gloss": "second"
+      }
+    },
+    {
+      "id": "b:㇤@cn",
+      "glyph_id": "g:㇤",
+      "lang": "cn",
+      "name": "横斜钩",
+      "readings": [
+        "héngxiégōu"
+      ],
+      "gloss": "horizontal-slant hook",
+      "extra": "先横、折而斜向右下、末端向上出钩 (如 飞、气、风) · Unicode 16 新增，注为「飞」U+98DE 的第一笔 · 与 ㇈ 横折弯钩（九）不同：折后斜出，不弯底",
+      "appearsIn": {
+        "glyph": "飞",
+        "reading": "fēi",
+        "gloss": "fly"
+      }
+    },
+    {
+      "id": "b:㇤@jp",
+      "glyph_id": "g:㇤",
+      "lang": "jp",
+      "name": "横斜め鉤",
+      "readings": [
+        "おうしゃこう"
+      ],
+      "gloss": "horizontal-slant hook",
+      "extra": "横に引き、折れて右下へ斜めに下り、末尾で上へはねる一画 (気・風) · ㇈ (九) と違い、底で曲がらない"
     },
     {
       "id": "b:㇛@cn",

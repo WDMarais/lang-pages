@@ -987,6 +987,10 @@
     "text": "おとうさん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "otsu.mp3": {
+    "text": "おつ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "ou.mp3": {
     "text": "オウ",
     "voice": "ja-JP-NanamiNeural"
@@ -1013,6 +1017,14 @@
   },
   "ousetsumagarikou.mp3": {
     "text": "おうせつまがりこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "oushakou.mp3": {
+    "text": "おうしゃこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "oushamagarikou.mp3": {
+    "text": "おうしゃまがりこう",
     "voice": "ja-JP-NanamiNeural"
   },
   "oyobu.mp3": {

@@ -2608,6 +2608,26 @@
       "kind": "composes"
     },
     {
+      "from": "g:㇠",
+      "to": "r:horizontal-slant-curve-hook",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇠",
+      "to": "g:乙",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇤",
+      "to": "r:horizontal-slant-hook",
+      "kind": "denotes"
+    },
+    {
+      "from": "g:㇤",
+      "to": "g:飞",
+      "kind": "composes"
+    },
+    {
       "from": "g:㇛",
       "to": "r:left-fall-then-dot",
       "kind": "denotes"
@@ -2786,11 +2806,6 @@
     },
     {
       "from": "g:丿",
-      "to": "g:九",
-      "kind": "composes"
-    },
-    {
-      "from": "g:乙",
       "to": "g:九",
       "kind": "composes"
     },
@@ -3338,11 +3353,6 @@
       "kind": "composes"
     },
     {
-      "from": "g:㇈",
-      "to": "g:乙",
-      "kind": "composes"
-    },
-    {
       "from": "g:㇆",
       "to": "g:习",
       "kind": "composes"
@@ -3558,7 +3568,7 @@
       "kind": "composes"
     },
     {
-      "from": "g:乙",
+      "from": "g:㇈",
       "to": "g:几",
       "kind": "composes"
     },
@@ -4377,6 +4387,21 @@
     {
       "from": "g:一",
       "to": "g:毛",
+      "kind": "composes"
+    },
+    {
+      "from": "g:𠂉",
+      "to": "g:气",
+      "kind": "composes"
+    },
+    {
+      "from": "g:一",
+      "to": "g:气",
+      "kind": "composes"
+    },
+    {
+      "from": "g:㇤",
+      "to": "g:气",
       "kind": "composes"
     },
     {
@@ -5324,11 +5349,6 @@
     {
       "from": "g:丨",
       "to": "g:飛",
-      "kind": "composes"
-    },
-    {
-      "from": "g:乙",
-      "to": "g:飞",
       "kind": "composes"
     },
     {
