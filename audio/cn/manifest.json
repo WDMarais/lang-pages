@@ -1215,8 +1215,16 @@
     "text": "水果",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "shuti.mp3": {
+    "text": "竖提",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "shuwangou.mp3": {
     "text": "竖弯钩",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "shuzhe.mp3": {
+    "text": "竖折",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "shuzhezhegou.mp3": {
@@ -1369,6 +1377,10 @@
   },
   "wo3.mp3": {
     "text": "我",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "wogou.mp3": {
+    "text": "卧钩",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "wu1.mp3": {

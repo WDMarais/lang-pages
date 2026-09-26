@@ -7,6 +7,13 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "冂",
+    "二",
+    "㇀",
+    "丿"
+  ],
   "readings": {
     "cn": {
       "name": "身",

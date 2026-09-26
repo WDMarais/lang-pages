@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "兀",
+    "囗"
+  ],
   "variants": ["覀"],
   "readings": {
     "cn": {

@@ -1,0 +1,34 @@
+{
+  "glyph": "㇙",
+  "cp": "U+31D9",
+  "class": "stroke",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "竖提",
+      "reading": "shùtí",
+      "gloss": "vertical-rise",
+      "extra": "先竖、末端折而向右上提起 (如 氏、瓦、艮、長、民) · Unicode 注为「民」的第三笔 · 末端平折不提者是 ㇗ 竖折",
+      "appearsIn": {
+        "char": "氏",
+        "reading": "shì",
+        "gloss": "clan; surname"
+      }
+    },
+    "jp": {
+      "name": "縦はね上げ",
+      "reading": "じゅうはねあげ",
+      "gloss": "vertical-rise",
+      "extra": "縦に下ろし、末尾で右上へはね上げる一画 (氏・民・長)",
+      "appearsIn": {
+        "char": "氏",
+        "reading": "うじ",
+        "gloss": "clan; surname"
+      }
+    }
+  },
+  "programs": []
+}

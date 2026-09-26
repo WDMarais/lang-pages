@@ -8,6 +8,14 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "丿",
+    "㇆",
+    "丶",
+    "一",
+    "丶"
+  ],
   "readings": {
     "cn": {
       "name": "舟",

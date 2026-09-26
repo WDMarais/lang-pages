@@ -175,6 +175,10 @@
     "text": "がいじん",
     "voice": "ja-JP-NanamiNeural"
   },
+  "gakou.mp3": {
+    "text": "がこう",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "gen.mp3": {
     "text": "ゲン",
     "voice": "ja-JP-NanamiNeural"
@@ -475,6 +479,10 @@
     "text": "じゅうがつ",
     "voice": "ja-JP-NanamiNeural"
   },
+  "juuhaneage.mp3": {
+    "text": "じゅうはねあげ",
+    "voice": "ja-JP-NanamiNeural"
+  },
   "juuichigatsu.mp3": {
     "text": "じゅういちがつ",
     "voice": "ja-JP-NanamiNeural"
@@ -493,6 +501,10 @@
   },
   "juuroku.mp3": {
     "text": "じゅうろく",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "juusetsu.mp3": {
+    "text": "じゅうせつ",
     "voice": "ja-JP-NanamiNeural"
   },
   "juusetsusetsukou.mp3": {
@@ -1393,6 +1405,10 @@
   },
   "ue.mp3": {
     "text": "うえ",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "uji.mp3": {
+    "text": "うじ",
     "voice": "ja-JP-NanamiNeural"
   },
   "uma.mp3": {

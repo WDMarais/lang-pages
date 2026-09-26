@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "十",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "士",

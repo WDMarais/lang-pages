@@ -7,6 +7,12 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "一",
+    "一",
+    "丨"
+  ],
   "readings": {
     "cn": {
       "name": "牛",

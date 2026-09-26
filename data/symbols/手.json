@@ -7,6 +7,12 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "一",
+    "一",
+    "亅"
+  ],
   "readings": {
     "cn": {
       "name": "手",

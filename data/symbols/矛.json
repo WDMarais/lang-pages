@@ -8,6 +8,13 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "㇇",
+    "丶",
+    "乛",
+    "亅",
+    "丿"
+  ],
   "readings": {
     "cn": {
       "name": "矛",

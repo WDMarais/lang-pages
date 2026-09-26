@@ -8,6 +8,14 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "丨",
+    "一",
+    "㇕",
+    "一",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "臼",

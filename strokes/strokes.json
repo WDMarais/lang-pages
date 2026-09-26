@@ -303,6 +303,69 @@
           "wk": null
         },
         {
+          "glyph": "㇃",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "wogou",
+          "cnExAudioKey": "xin1",
+          "jpAudioKey": "gakou",
+          "jpExAudioKey": "kokoro",
+          "cn": {
+            "name": "卧钩", "reading": "wògōu", "gloss": "lying hook",
+            "extra": "自左上向右下弯卧而行、末端向左上出钩 (如 心、必、忘) · Unicode 注为「心」的第二笔，且只见于楷体；宋体中写作 ㇟ 竖弯钩 · 本站笔画数据为楷体，故记作本笔画",
+            "appearsIn": { "char": "心", "reading": "xīn", "gloss": "heart" }
+          },
+          "jp": {
+            "name": "臥鉤", "reading": "がこう", "gloss": "lying hook",
+            "extra": "左上から右下へ寝かせて弧を描き、末尾で上へはねる一画 (心・必) · 楷書のみの形、明朝体では ㇟ にあたる",
+            "appearsIn": { "char": "心", "reading": "こころ", "gloss": "heart" }
+          },
+          "wk": null
+        },
+        {
+          "glyph": "㇙",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shuti",
+          "cnExAudioKey": "shi4",
+          "jpAudioKey": "juuhaneage",
+          "jpExAudioKey": "uji",
+          "cn": {
+            "name": "竖提", "reading": "shùtí", "gloss": "vertical-rise",
+            "extra": "先竖、末端折而向右上提起 (如 氏、瓦、艮、長、民) · Unicode 注为「民」的第三笔 · 末端平折不提者是 ㇗ 竖折",
+            "appearsIn": { "char": "氏", "reading": "shì", "gloss": "clan; surname" }
+          },
+          "jp": {
+            "name": "縦はね上げ", "reading": "じゅうはねあげ", "gloss": "vertical-rise",
+            "extra": "縦に下ろし、末尾で右上へはね上げる一画 (氏・民・長)",
+            "appearsIn": { "char": "氏", "reading": "うじ", "gloss": "clan; surname" }
+          },
+          "wk": null
+        },
+        {
+          "glyph": "㇗",
+          "tag": "stroke",
+          "image": "",
+          "animated": true,
+          "cnAudioKey": "shuzhe",
+          "cnExAudioKey": "mu3",
+          "jpAudioKey": "juusetsu",
+          "jpExAudioKey": "haha",
+          "cn": {
+            "name": "竖折", "reading": "shùzhé", "gloss": "vertical-fold",
+            "extra": "先竖、末端折而向右平出，收笔无钩 (如 山、母、毋、牙) · Unicode 注为「山」的第二笔 · 末端向右上提起者是 ㇙ 竖提；转角圆弯者是 ㇄ 竖弯",
+            "appearsIn": { "char": "母", "reading": "mǔ", "gloss": "mother" }
+          },
+          "jp": {
+            "name": "縦折れ", "reading": "じゅうせつ", "gloss": "vertical-fold",
+            "extra": "縦に下ろし、末尾で右へ折れる一画・はねない (山・母・牙)",
+            "appearsIn": { "char": "母", "reading": "はは", "gloss": "mother" }
+          },
+          "wk": null
+        },
+        {
           "glyph": "㇛",
           "tag": "stroke",
           "image": "",

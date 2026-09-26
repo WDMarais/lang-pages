@@ -1,0 +1,34 @@
+{
+  "glyph": "㇗",
+  "cp": "U+31D7",
+  "class": "stroke",
+  "form": {
+    "animated": true,
+    "image": ""
+  },
+  "readings": {
+    "cn": {
+      "name": "竖折",
+      "reading": "shùzhé",
+      "gloss": "vertical-fold",
+      "extra": "先竖、末端折而向右平出，收笔无钩 (如 山、母、毋、牙) · Unicode 注为「山」的第二笔 · 末端向右上提起者是 ㇙ 竖提；转角圆弯者是 ㇄ 竖弯",
+      "appearsIn": {
+        "char": "母",
+        "reading": "mǔ",
+        "gloss": "mother"
+      }
+    },
+    "jp": {
+      "name": "縦折れ",
+      "reading": "じゅうせつ",
+      "gloss": "vertical-fold",
+      "extra": "縦に下ろし、末尾で右へ折れる一画・はねない (山・母・牙)",
+      "appearsIn": {
+        "char": "母",
+        "reading": "はは",
+        "gloss": "mother"
+      }
+    }
+  },
+  "programs": []
+}

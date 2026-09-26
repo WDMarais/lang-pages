@@ -8198,6 +8198,66 @@
       "label": "horizontal-slant hook"
     },
     {
+      "id": "g:㇃",
+      "kind": "glyph",
+      "glyph": "㇃",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "wogou",
+      "cnExAudioKey": "xin1",
+      "jpAudioKey": "gakou",
+      "jpExAudioKey": "kokoro"
+    },
+    {
+      "id": "r:lying-hook",
+      "kind": "referent",
+      "label": "lying hook"
+    },
+    {
+      "id": "g:㇙",
+      "kind": "glyph",
+      "glyph": "㇙",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "shuti",
+      "cnExAudioKey": "shi4",
+      "jpAudioKey": "juuhaneage",
+      "jpExAudioKey": "uji"
+    },
+    {
+      "id": "r:vertical-rise",
+      "kind": "referent",
+      "label": "vertical-rise"
+    },
+    {
+      "id": "g:㇗",
+      "kind": "glyph",
+      "glyph": "㇗",
+      "tier": "stroke",
+      "source": "strokes",
+      "media": {
+        "animated": true,
+        "image": ""
+      },
+      "cnAudioKey": "shuzhe",
+      "cnExAudioKey": "mu3",
+      "jpAudioKey": "juusetsu",
+      "jpExAudioKey": "haha"
+    },
+    {
+      "id": "r:vertical-fold",
+      "kind": "referent",
+      "label": "vertical-fold"
+    },
+    {
       "id": "g:㇛",
       "kind": "glyph",
       "glyph": "㇛",

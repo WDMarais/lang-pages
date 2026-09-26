@@ -8,6 +8,10 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "弋",
+    "丿"
+  ],
   "readings": {
     "cn": {
       "name": "戈",

@@ -8,6 +8,16 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "一",
+    "丨",
+    "一",
+    "一",
+    "一",
+    "㇙",
+    "丿",
+    "㇏"
+  ],
   "readings": {
     "cn": {
       "name": "長",

@@ -7,6 +7,12 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "𠂉",
+    "丨",
+    "𠂉",
+    "亅"
+  ],
   "readings": {
     "cn": {
       "name": "竹",

@@ -8,6 +8,12 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丿",
+    "㇙",
+    "一",
+    "㇂"
+  ],
   "readings": {
     "cn": {
       "name": "氏",

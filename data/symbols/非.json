@@ -8,6 +8,16 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "丨",
+    "一",
+    "一",
+    "㇀",
+    "丨",
+    "一",
+    "一",
+    "一"
+  ],
   "readings": {
     "cn": {
       "name": "非",

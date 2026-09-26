@@ -8,6 +8,13 @@
     "animated": true,
     "image": ""
   },
+  "composes": [
+    "一",
+    "丿",
+    "冂",
+    "丨",
+    "丨"
+  ],
   "readings": {
     "cn": {
       "name": "而",
