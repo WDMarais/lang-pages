@@ -194,6 +194,254 @@
         }
       ],
       "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "头",
+        "首"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'head'. 头 tóu is the everyday body-part word (头发, 头疼). 首 shǒu is the literary head: today it lives on as 'first / chief' (首先, 首都) and as the measure word for songs and poems (一首歌). Say 头 for your head; reach for 首 when something is the head OF a list.",
+      "examples": [
+        {
+          "for": "头",
+          "text": "我头疼。",
+          "gloss": "wǒ tóu téng — I have a headache (头 = the head you have)"
+        },
+        {
+          "for": "首",
+          "text": "首都",
+          "gloss": "shǒudū — capital city (首 = chief, the head of the list)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "体",
+        "身"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'body', and the everyday word 身体 uses both. 身 shēn is the body as your physical self — what you carry and wear (身上, 一身). 体 tǐ leans toward form and system: 体育 (sport), 字体 (typeface), 体系 (system).",
+      "examples": [
+        {
+          "for": "身",
+          "text": "我身上没钱。",
+          "gloss": "wǒ shēnshang méi qián — I've no money on me (身 = one's person)"
+        },
+        {
+          "for": "体",
+          "text": "字体",
+          "gloss": "zìtǐ — typeface (体 = form, style)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "不",
+        "无"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'not', but they negate different things. 不 bù negates a verb or adjective: not do, not be. 无 wú negates existence: 'there is none of it, without'. It is the written counterpart of 没有, and it's a common prefix (无人, 无线).",
+      "examples": [
+        {
+          "for": "不",
+          "text": "我不去。",
+          "gloss": "wǒ bú qù — I'm not going (不 negates the verb)"
+        },
+        {
+          "for": "无",
+          "text": "无人机",
+          "gloss": "wúrénjī — drone, lit. 'no-person machine' (无 = without)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "从",
+        "由"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'from'. 从 cóng is the starting point in space or time (从北京来, 从今天起). 由 yóu is the agent or channel — 'by, through, up to': 由他决定 is 'it's his call'. When the English 'from' could be read as 'by', use 由.",
+      "examples": [
+        {
+          "for": "从",
+          "text": "我从北京来。",
+          "gloss": "wǒ cóng Běijīng lái — I come from Beijing (从 = starting point)"
+        },
+        {
+          "for": "由",
+          "text": "由他决定。",
+          "gloss": "yóu tā juédìng — it's up to him (由 = by whom)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "言",
+        "话"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'speech'. 话 huà is the everyday noun for spoken words (说话, 电话, 中国话). 言 yán is the literary word: it survives in compounds (语言, 发言) and, as 讠, in the side of nearly every speaking character, including 话 itself.",
+      "examples": [
+        {
+          "for": "话",
+          "text": "说话",
+          "gloss": "shuōhuà — to speak (话 = words, the everyday noun)"
+        },
+        {
+          "for": "言",
+          "text": "语言",
+          "gloss": "yǔyán — language (言 = speech, the literary word)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "会",
+        "可"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'can', but for different reasons. 会 huì is a learned skill: you can because you learned how (会游泳, 会说中文). It also means 'will probably'. 可 kě is permission or possibility, and today it nearly always appears inside 可以 or 可能. (The third 'can', 能 néng, is physical ability.)",
+      "examples": [
+        {
+          "for": "会",
+          "text": "我会说中文。",
+          "gloss": "wǒ huì shuō Zhōngwén — I can speak Chinese (会 = learned skill)"
+        },
+        {
+          "for": "可",
+          "text": "可以进来吗?",
+          "gloss": "kěyǐ jìnlái ma — may I come in? (可 = permitted)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "样",
+        "相"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'appearance'. 样 yàng is kind, manner, how-something-is (这样, 一样, 样子). 相 xiàng is a PERSON's looks, or a photo of them (长相, 照相). Watch the polyphone: as xiāng, 相 means 'mutually' (互相, 相信).",
+      "examples": [
+        {
+          "for": "样",
+          "text": "一样",
+          "gloss": "yíyàng — the same (样 = manner, kind)"
+        },
+        {
+          "for": "相",
+          "text": "照相",
+          "gloss": "zhàoxiàng — to take a photo (相 = likeness, looks)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "使",
+        "用"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'use', and the formal verb 使用 joins them. 用 yòng is the everyday 'use' (用筷子). On its own, 使 shǐ today mostly means 'to make or cause' someone to do or feel something: 这使我很高兴.",
+      "examples": [
+        {
+          "for": "用",
+          "text": "用筷子吃饭",
+          "gloss": "yòng kuàizi chīfàn — eat with chopsticks (用 = use)"
+        },
+        {
+          "for": "使",
+          "text": "这使我很高兴。",
+          "gloss": "zhè shǐ wǒ hěn gāoxìng — this makes me very happy (使 = cause)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "和",
+        "与",
+        "及"
+      ],
+      "basis": "semantic",
+      "note": "Three ways to say 'and', from casual to formal. 和 hé is the everyday one, and also 'with' (我和你). 与 yǔ is its written twin, common in titles (《战争与和平》). 及 jí joins the last item of a formal list; its core sense is 'to reach', as in 来得及 'still in time'.",
+      "examples": [
+        {
+          "for": "和",
+          "text": "我和你",
+          "gloss": "wǒ hé nǐ — you and me (和 = everyday 'and')"
+        },
+        {
+          "for": "与",
+          "text": "战争与和平",
+          "gloss": "Zhànzhēng yǔ Hépíng — War and Peace (与 = written 'and')"
+        },
+        {
+          "for": "及",
+          "text": "来得及",
+          "gloss": "láidejí — there's still time (及 = reach)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "村",
+        "里"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'village'. 村 cūn is the living word (农村, 村子). The village sense of 里 lǐ survives only in old compounds (邻里, 故里). Most of the time you'll meet 里 as 'inside' (这里, 家里) or as a unit of distance (公里). That 'inside' sense is not yet modelled on the card.",
+      "examples": [
+        {
+          "for": "村",
+          "text": "农村",
+          "gloss": "nóngcūn — the countryside (村 = village)"
+        },
+        {
+          "for": "里",
+          "text": "邻里",
+          "gloss": "línlǐ — neighbours, the neighbourhood (里 = village, old sense)"
+        }
+      ],
+      "lang": "cn"
+    },
+    {
+      "type": "confusable",
+      "between": [
+        "市",
+        "邑"
+      ],
+      "basis": "semantic",
+      "note": "Both gloss 'city'. 市 shì is the modern word: an administrative city (城市, 市长) and, originally, a market (超市). 邑 yì is the ancient walled town. You'll rarely see it alone, but it's everywhere as 阝 on the RIGHT of a character (都, 部, 那). The same shape on the LEFT is 阜 'mound' instead.",
+      "examples": [
+        {
+          "for": "市",
+          "text": "超市",
+          "gloss": "chāoshì — supermarket (市 = market, city)"
+        },
+        {
+          "for": "邑",
+          "text": "郊区",
+          "gloss": "jiāoqū — the suburbs (郊 = outskirts of the town; its right-hand 阝 is 邑)"
+        }
+      ],
+      "lang": "cn"
     }
   ],
   "nodes": [],

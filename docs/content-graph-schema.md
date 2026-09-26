@@ -215,7 +215,9 @@ srs-tool's type-based slots (see Projection).
       anchors: 头/首, 体/身, 不/无, 从/由, 言/话, 会/可, 样/相, 使/用, 与/及/和, 村/里,
       市 (with 邑/阝). Sharing is tolerable — the referent is a rejoin anchor, not the
       scheduling key, which is per-glyph — but these are exactly the pairs a learner
-      must tell apart, so they want `association` edges, not a merged identity.
+      must tell apart, so each carries a `confusable` edge with `basis: "semantic"`
+      (`data/authored.json`, `cf:10`–`cf:20`; the 邑 member stands in for 阝): a note
+      on which one to reach for, and one grounding example per member.
     - **No — the label is false of one of them.** Split, by re-glossing the offender.
       Swept 2026-09-26: 什 and 么 both claimed "what", which neither means alone —
       the word 什么 already owned `r:what`, so the glyphs took their own senses

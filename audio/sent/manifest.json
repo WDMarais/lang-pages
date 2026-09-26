@@ -1,6 +1,18 @@
 {
+  "cn-011dfe564d.mp3": {
+    "text": "我会说中文。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-0328a7a6bc.mp3": {
     "text": "已经",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-05dcc51ee5.mp3": {
+    "text": "来得及",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-095af364ec.mp3": {
+    "text": "这使我很高兴。",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-1599165246.mp3": {
@@ -11,12 +23,32 @@
     "text": "母亲",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-1674b06f55.mp3": {
+    "text": "无人机",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-2aba41d89b.mp3": {
+    "text": "超市",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-32b967db19.mp3": {
     "text": "人人",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-38e9cd1ffb.mp3": {
     "text": "入口",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-3f1c73fece.mp3": {
+    "text": "郊区",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-40f5b4b480.mp3": {
+    "text": "我不去。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-4138b940c6.mp3": {
+    "text": "照相",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-4b8c923ecd.mp3": {
@@ -27,12 +59,48 @@
     "text": "自由",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-4ea1680df3.mp3": {
+    "text": "我头疼。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-4ec8d7acdb.mp3": {
+    "text": "可以进来吗?",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-55df261970.mp3": {
+    "text": "邻里",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-5a1d5bba38.mp3": {
     "text": "可不是嘛!",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-5ca949bbb6.mp3": {
     "text": "巳时",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-60d4059cd2.mp3": {
+    "text": "一样",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-62bf13c013.mp3": {
+    "text": "农村",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-6ba556cac3.mp3": {
+    "text": "由他决定。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-7a25e26621.mp3": {
+    "text": "说话",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-7a774e5421.mp3": {
+    "text": "我从北京来。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-914a370d83.mp3": {
+    "text": "用筷子吃饭",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-93e27107a1.mp3": {
@@ -47,8 +115,16 @@
     "text": "他们",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-abd6c20cc9.mp3": {
+    "text": "首都",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-abec9a1cdd.mp3": {
     "text": "非去不可。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-b50d4d8352.mp3": {
+    "text": "字体",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
   "cn-ba1dbc4150.mp3": {
@@ -63,8 +139,24 @@
     "text": "贯",
     "voice": "zh-CN-XiaoxiaoNeural"
   },
+  "cn-cd99b225a0.mp3": {
+    "text": "语言",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-dff92f8d11.mp3": {
+    "text": "战争与和平",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-eceffa2d3c.mp3": {
+    "text": "我身上没钱。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
   "cn-f193efec44.mp3": {
     "text": "毋庸",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "cn-fee9e27aba.mp3": {
+    "text": "我和你",
     "voice": "zh-CN-XiaoxiaoNeural"
   }
 }
